@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import base64
+import re
 import struct
 import sys
 import unittest
@@ -14,6 +15,7 @@ from xml.etree import ElementTree
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from build_site import ASSETS_DIR, SHARE_TEXT, SITE_URL, build_site
+from validate import load_conferences
 
 
 class PageElements(HTMLParser):
@@ -39,6 +41,38 @@ class SiteAssetTests(unittest.TestCase):
         self.assertTrue(readme.startswith('<a href="https://gon-uri.github.io/venue-radar/">'))
         self.assertLess(readme.index("assets/branding/venue-radar-banner.png"), readme.index("# [Open Venue Radar]"))
         self.assertNotIn('src="assets/venue-radar.png"', readme)
+
+    def test_readme_images_links_and_counts_stay_true(self) -> None:
+        root = ASSETS_DIR.parent
+        readme = (root / "README.md").read_text(encoding="utf-8")
+        targets = [a or b for a, b in re.findall(r'(?:src|href)="([^"]+)"|\]\(([^)\s]+)\)', readme)]
+        local = [t for t in targets if not t.startswith(("http://", "https://", "#", "mailto:"))]
+        self.assertIn("assets/readme/hero.webp", local)
+        for target in local:
+            with self.subTest(target=target):
+                self.assertTrue((root / target).is_file(), f"README links a missing file: {target}")
+        # In-page links (the Calendar feeds badge) must match a README heading.
+        anchors = {re.sub(r"[^\w -]", "", heading.strip().lower()).replace(" ", "-")
+                   for heading in re.findall(r"^#{1,6} (.+)$", readme, re.M)}
+        for target in (t for t in targets if t.startswith("#")):
+            with self.subTest(anchor=target):
+                self.assertIn(target[1:], anchors)
+        # Screenshots from scripts/build_readme_images.mjs are WebP, and every one is used.
+        images = (ASSETS_DIR / "readme").iterdir()
+        for image in sorted(p for p in images if p.is_file() and not p.name.startswith(".")):
+            with self.subTest(image=image.name):
+                header = image.read_bytes()[:12]
+                self.assertEqual((header[:4], header[8:12]), (b"RIFF", b"WEBP"))
+                self.assertIn(f"assets/readme/{image.name}", local)
+        # "N+ conference series" must never claim more than the catalog holds.
+        series = {record["series"] for record in load_conferences()}
+        claims = [int(n) for n in re.findall(r"(\d+)\+(?:&nbsp;|\s)conference(?:&nbsp;|\s)series", readme)]
+        self.assertTrue(claims, "README states the catalog size as N+ conference series")
+        for claim in claims:
+            self.assertLessEqual(claim, len(series))
+        # Static badge labels never carry a count that would go stale.
+        for label in re.findall(r'src="https://img\.shields\.io/badge/([^"?]+)-[0-9a-fA-F]{6}"', readme):
+            self.assertNotRegex(label, r"\d", label)
 
     def test_renamed_repository_links_and_stable_comment_mapping(self) -> None:
         with TemporaryDirectory() as directory:

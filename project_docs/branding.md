@@ -29,6 +29,9 @@ the calendar interior white; it does not redraw or trace the mark.
   calendar logo. It is embedded in the generated page.
 - `assets/branding/social-card.png`: 1200x630 link-preview card (logo, Audiowide
   title, short description) rendered by `scripts/build_social_card.mjs`.
+- `assets/readme/*.webp`: README screenshots of the real page (desktop/phone
+  hero and host-city map), rendered by `scripts/build_readme_images.mjs`.
+  They illustrate the site rather than certify current dates.
 
 Do not recolor an already transformed output. The banner uses website
 proportions/optical alignment scaled by 1.5 and links to the calendar in README.

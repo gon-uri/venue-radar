@@ -19,7 +19,7 @@ explicit refinements take precedence. Current rules live in
 | Eight central families and curated leaves/scopes | ADR-028/030/036; ADR-020's earlier seven-family matching is superseded |
 | Submission action/status/countdown/ordering | ADR-032 refines ADR-013 and supersedes the relevant parts of ADR-016 |
 | Offline confirmed-city map | ADR-021; tab naming refined by ADR-034 |
-| Brand, licensing, copy and community | ADR-022/023/026/034 |
+| Brand, licensing, copy and community | ADR-022/023/026/034; ADR-041 (README showcase; refines ADR-034's independent README description) |
 | Filters and default opportunities | ADR-025/033; responsive defaults refined by ADR-035 |
 | Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line |
 | Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
@@ -742,3 +742,37 @@ explicit refinements take precedence. Current rules live in
   adopting anyone's "Review queue" issue (now limited to its own).
 - Consequences: no published UID, edition ID, deadline type or topic slug
   changed. Browser regressions: tests/venue_more.mjs; Python: test_page_features.
+
+## ADR-041: A Researcher-Facing README With Generated Screenshots
+
+- Date: 2026-10-29
+- Context: The owner asked for a README that looks professional on GitHub,
+  often the first page a researcher sees. The earlier README (ADR-022/034) was
+  a few plain paragraphs.
+- Decision: Keep the approved pieces (banner first, the Open Venue Radar
+  heading, plain-text affiliation, the final licensing paragraph with the
+  personal-project clarification) and add a centred hero (subtitle, three
+  badges, a short facts line, a linked screenshot) plus short sections on
+  deadlines, coverage, calendar feeds, how dates are checked and how to help.
+  It stays nontechnical; maintainers get one link to the documentation index.
+  Screenshots are WebP files rendered from the committed page by
+  scripts/build_readme_images.mjs: offline, with the clock pinned to noon UTC
+  on last_updated, each on a light-teal card (the hero puts the desktop and
+  phone views on one card) so they read as deliberate panels in GitHub's dark
+  theme. The website subtitle now also heads README, refining ADR-034's note
+  that README's description stays independent; the X draft remains
+  independent. Exact structure and wording rules live in site_copy.md.
+- Alternatives considered: plain screenshots (white slabs in dark mode);
+  side-by-side phone and menu screenshots (illegible at phone width); a table
+  of families (half-width on desktop, tall cells on phones); license and
+  catalog-count badges (developer noise, stale numbers); moving project_docs
+  and AGENTS.md out of the repository (the owner kept them tracked).
+- Consequences: Catalog size appears only as "130+ conference series", and a
+  test fails if that exceeds the series count, if a README image or local link
+  is missing, if assets/readme holds an unused image, or if a badge label gains
+  a number. Screenshots are illustrations, refreshed when the page's look
+  changes rather than on every data update. README's family labels, status
+  wording, feed names, menu steps and issue-form links change together with
+  the site. No data, generated page, feed or UID changes.
+  The white banner stays bright in dark mode; a dark variant would be a
+  separate brand decision.

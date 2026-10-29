@@ -43,6 +43,10 @@ below are history, not instructions to reimplement old designs.
   The selected ML/AI-first introduction highlights neuroscience, healthcare,
   complex systems and control. Exact current copy is in site_copy.md;
   rejected alternatives remain optional local working history.
+- Completed README showcase (ADR-041): centred hero with a desktop/phone
+  screenshot, coverage with the eight families and host-city map, feed links,
+  a trust section with short answers, and help links. Screenshots are rendered
+  from the committed page by `scripts/build_readme_images.mjs`.
 - Completed repository migration: gon-uri/venue-radar with updated public
   links, Giscus name, attribution, and Git origin. Preserve all published event
   UIDs and the existing community mapping; old feed subscriptions need new URLs.

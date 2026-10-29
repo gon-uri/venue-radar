@@ -72,6 +72,12 @@ additions, not from an older session entry or a filtered website screenshot.
 - Giscus uses verified repository/category IDs and the stable discussion term;
   GitHub issue links work independently. Public README stays nontechnical,
   credits Gonzalo Uribarri and includes the personal-project clarification.
+  It now presents the site with two generated screenshots (desktop/phone hero
+  and host-city map, `assets/readme/`), the eight families, feed links, a trust
+  section and help links (ADR-041). The README test checks local links/images
+  and keeps "130+ conference series" within the catalog. Verified with
+  GitHub's markdown renderer and github-markdown-css at desktop and 390px in
+  light and dark themes; the white banner stays bright in dark mode.
 
 Exact selected wording is owned by [site copy](site_copy.md) and
 [sharing](sharing.md); field semantics by [data schema](data_schema.md), not

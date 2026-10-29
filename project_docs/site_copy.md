@@ -7,8 +7,8 @@ Reviewed: 2026-10-29. This records current copy, not rejected alternatives.
 Find your next conference in machine learning and AI, or explore related
 opportunities in neuroscience, healthcare, complex systems, and control.
 
-This is the website subtitle only. README's fuller description remains
-independent, as does [the Share on X draft](sharing.md). These describe the
+This is the website subtitle. README repeats it under its heading (ADR-041);
+[the Share on X draft](sharing.md) remains independent. These describe the
 project's focus rather than exhaustive coverage; the eight families retain
 the detailed topic structure.
 
@@ -33,6 +33,24 @@ This clarification describes project identity, not a claim about legal
 obligations or university policy. Do not claim institutional endorsement or
 involvement without the author's confirmation. Public copy changes require
 their own approved scope and affected regression checks.
+
+## README
+
+Approved with ADR-041. README opens with the banner and the "Open Venue
+Radar" heading, then, centred: the subtitle above; Calendar feeds (linking to
+the Subscribe once section), Request a conference and Build status badges; the
+line "130+ conference series · Free · No account · Works on your phone"; and
+the linked hero screenshot. Sections follow in this order: Deadlines at a
+glance, Coverage (the eight family labels and the map), Subscribe once (the
+three aggregate feed URLs), Checked by hand (with three collapsed answers on
+estimates, acceptance rates and additions), Help keep it accurate, then the
+attribution and licensing paragraphs described above.
+
+Family labels, status wording, feed names and menu steps match the site; change
+README with them. State catalog size only as "N+ conference series" (a test
+keeps N at or below the series count). Do not quote dated examples, such as a
+"Checked" date, or snapshot details in image alt text. README stays
+nontechnical; maintainers get one link to the documentation index.
 
 ## Calendar Menu And Empty States
 

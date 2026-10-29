@@ -147,6 +147,18 @@ CHROME_BIN="$CHROME_BIN" "$NODE_BIN" "$TOOLS_DIR/build_social_card.mjs" "$PWD"
 python3 scripts/build_all.py
 ```
 
+README screenshots come from the committed page, so build first. The script
+makes no network requests, pins the page clock to noon UTC on
+`data/metadata.yml`'s `last_updated` day (Europe/Stockholm time zone, en-GB
+locale) and writes WebP files to `assets/readme/`; reruns on the same data are
+byte-identical. Refresh them when the page's look changes, not on every data
+update; they are illustrations, so slightly older dates in them are fine.
+
+```sh
+cp scripts/build_readme_images.mjs "$TOOLS_DIR/"
+CHROME_BIN="$CHROME_BIN" "$NODE_BIN" "$TOOLS_DIR/build_readme_images.mjs" "$PWD"
+```
+
 The social card (`assets/branding/social-card.png`, 1200x630) is the Open Graph
 and X preview image. Pages serves only `docs/`, so the page points at the file
 on the repository's `main` branch; a new card shows in previews only after it

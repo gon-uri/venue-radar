@@ -11,7 +11,7 @@ in `.gitignore` and is optional local context, not project infrastructure.
 
 | Information | Location |
 | --- | --- |
-| Simple project description, website, author and license links | Root `README.md` |
+| Nontechnical project overview for researchers (screenshots, coverage, calendar feeds, how to help), website, author and license links | Root `README.md` |
 | Agent entrypoint and required workflows/checks | `AGENTS.md` |
 | Current state, organization, schema, maintenance, additions and publication | Owning guide in `project_docs/` |
 | Concise technical rationale and durable constraints | `project_docs/decisions.md` |

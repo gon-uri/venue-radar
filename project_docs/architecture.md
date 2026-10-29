@@ -79,6 +79,7 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 | `scripts/export_catalog.py` | JSON export of each series' latest edition, ranks/rates, vocabulary and profiles. |
 | `scripts/sync_workbook.mjs` | Optional artifact-tool workbook synchronization, table/style preservation, checks and previews. |
 | `scripts/recolor_logo.mjs`, `scripts/build_readme_banner.mjs`, `scripts/build_social_card.mjs` | Optional tools deriving brand outputs from immutable sources and the real title font. |
+| `scripts/build_readme_images.mjs` | Optional tool rendering the README screenshots (`assets/readme/`) from the committed page, offline and with a pinned clock. |
 | `tests/test_*.py` | Unit/data/rendering/workflow/documentation regressions. |
 | `tests/js/*.test.mjs` | Node built-in-runner tests for `assets/logic.js`. |
 | `tests/browser_smoke.mjs` and imported suites | Interactive desktop/mobile, route, map and overflow regressions using a frozen reference date. |

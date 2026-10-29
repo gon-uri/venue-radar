@@ -5,6 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: System Identification & Data-driven Dy
  namics
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:ieee-cdc-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -442,20 +447,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -520,35 +526,6 @@ URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
  ns/
 END:VEVENT
 BEGIN:VEVENT
-UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
- IFAC SYSID 2027 - Conference paper submission (cutoff time unannounced)
-DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
- ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
- /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
- ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
- botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
- ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
-URL:https://conferences.ifac-control.org/sysid2027/participate/
-END:VEVENT
-BEGIN:VEVENT
 UID:l4dc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261113
@@ -575,6 +552,37 @@ DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
  ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
   hour/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Conference paper submission (extended) (cutoff time una
+ nnounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamics-days-us-2027-deadline-abstract@scientific-conference-calendar
@@ -776,20 +784,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -806,20 +815,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -903,20 +913,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -1341,19 +1352,20 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  /conferences.ifac-control.org/sysid2027/\nLocation: Lyon\, France\nTopics
  : System Identification & Data-driven Dynamics\, Control & Robotics\, Tim
  e Series & Sequential Data\, Machine Learning\nSize: M\nSubmission type: 
- Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes:
-  Triennial TC 1.1 symposium. Regular papers\, joint journal papers\, and 
- dissemination/discussion routes have distinct requirements\; consult the 
- call. Published deadline days are confirmed but cutoff hours use estimate
- d end-of-day AoE. Size is an editorial category.\nScope: System identific
- ation and data-driven modeling for dynamical systems and control. Charact
- eristic themes include nonlinear identification\, model reduction\, ident
- ification software and benchmarks\, learning across systems\, and dynamic
-  networks. Application tracks remain grounded in identifying or learning 
- dynamical models\, rather than becoming general-purpose domain conference
- s.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Systems & Net
- work Science\nScope sources (2027): https://conferences.ifac-control.org/
- sysid2027/participate/\nScope last checked: 2026-10-07
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes:
+  Triennial TC 1.1 symposium. On 2026-10-29 the participate page strikes o
+ ut Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1 to Oct 11 f
+ or joint journal papers). The submission system opened 1 June 2026 (day o
+ nly\, no time). Deadline days are official\; cutoff hours use provisional
+  end-of-day AoE. Size is an editorial category.\nScope: System identifica
+ tion and data-driven modeling for dynamical systems and control. Characte
+ ristic themes include nonlinear identification\, model reduction\, identi
+ fication software and benchmarks\, learning across systems\, and dynamic 
+ networks. Application tracks remain grounded in identifying or learning d
+ ynamical models\, rather than becoming general-purpose domain conferences
+ .\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Systems & Netw
+ ork Science\nScope sources (2027): https://conferences.ifac-control.org/s
+ ysid2027/participate/\nScope last checked: 2026-10-07
 URL:https://conferences.ifac-control.org/sysid2027/
 LOCATION:Lyon\, France
 END:VEVENT
@@ -1407,6 +1419,81 @@ URL:https://www.dynamicsdays.org/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:acc-2028-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2028 - Joint ACC and L-CSS submission (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2028.a2c2.org/\nSource URL: https://acc2028.a2c2.org/wp-content/uploa
+ ds/2026/02/ACC2028-CFP-pdf-1.pdf\nLocation: San Francisco\, California\, 
+ USA\nTopics: Control & Robotics\, System Identification & Data-driven Dyn
+ amics\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-based\nC
+ onfidence: confirmed\nLast checked date: 2026-10-29\nNotes: Official ACC 
+ 2028 site and CFP (checked 2026-10-29): May 31-Jun 2\, 2028 at the Hilton
+  San Francisco Union Square\, workshops May 29-30\; joint ACC+L-CSS paper
+ s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
+ E provisional). The under-development homepage gives Jan 23/Mar 13 instea
+ d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
+ e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270916T065900Z
+DTEND:20270916T075900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] ICRA 2028 - Paper subm
+ ission deadline (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Robotics and
+  Automation\nWebsite: https://www.ieee-ras.org/conferences-workshops/full
+ y-sponsored/icra\nSource URL: https://www.ieee-ras.org/conferences-worksh
+ ops/fully-sponsored/icra\nLocation: Guadalajara\, Mexico\nTopics: Control
+  & Robotics\, Reinforcement Learning\, Computer Vision & Pattern Recognit
+ ion\, System Identification & Data-driven Dynamics\nSize: XXL\nSubmission
+  type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 IEEE RAS names Guadalajara\, Mexico as the ICRA 
+ 2028 host but publishes no dates or call. Meeting dates are a one-year pr
+ oxy from ICRA 2027\; the paper deadline proxy uses ICRA 2027's original S
+ eptember 15\, 23:59 Pacific cutoff\, not its one-day extension.\nScope: R
+ obotics and automation across perception\, motion and manipulation\, plan
+ ning and control\, human-robot interaction\, and autonomous systems. Lear
+ ning-based robotics\, reinforcement and imitation learning\, and data-dri
+ ven models are relevant when they advance physical robotic capability. Ge
+ neric ML with no robotics connection is not the core remit.\nAdditional t
+ opics: Planning & Search\, Deep Representation Learning\, Human-AI Intera
+ ction & Deployment\, Robustness & Safety\nScope sources (2027): https://2
+ 027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-subm
+ issions/\nScope last checked: 2026-10-07
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2028 - Regular paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2028.a2c2.org/\nSource URL: https://acc2028.a2c2.org/wp-content/uploa
+ ds/2026/02/ACC2028-CFP-pdf-1.pdf\nLocation: San Francisco\, California\, 
+ USA\nTopics: Control & Robotics\, System Identification & Data-driven Dyn
+ amics\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-based\nC
+ onfidence: confirmed\nLast checked date: 2026-10-29\nNotes: Official ACC 
+ 2028 site and CFP (checked 2026-10-29): May 31-Jun 2\, 2028 at the Hilton
+  San Francisco Union Square\, workshops May 29-30\; joint ACC+L-CSS paper
+ s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
+ E provisional). The under-development homepage gives Jan 23/Mar 13 instea
+ d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
+ e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271007
@@ -1456,5 +1543,103 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  \, 2027 (day only\, no time). Size is an editorial category.
 URL:https://cdc2027.ieeecss.org/
 LOCATION:Lisbon\, Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280121
+DTEND;VALUE=DATE:20280122
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2028 - Acceptance notification (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2028.a2c2.org/\nSource URL: https://acc2028.a2c2.org/wp-content/uploa
+ ds/2026/02/ACC2028-CFP-pdf-1.pdf\nLocation: San Francisco\, California\, 
+ USA\nTopics: Control & Robotics\, System Identification & Data-driven Dyn
+ amics\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-10-29\nNotes: Official ACC 
+ 2028 site and CFP (checked 2026-10-29): May 31-Jun 2\, 2028 at the Hilton
+  San Francisco Union Square\, workshops May 29-30\; joint ACC+L-CSS paper
+ s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
+ E provisional). The under-development homepage gives Jan 23/Mar 13 instea
+ d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
+ e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2028 - Final manuscript submission (estimated) (cutoff time unannounc
+ ed)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2028.a2c2.org/\nSource URL: https://acc2028.a2c2.org/wp-content/uploa
+ ds/2026/02/ACC2028-CFP-pdf-1.pdf\nLocation: San Francisco\, California\, 
+ USA\nTopics: Control & Robotics\, System Identification & Data-driven Dyn
+ amics\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-10-29\nNotes: Official ACC 
+ 2028 site and CFP (checked 2026-10-29): May 31-Jun 2\, 2028 at the Hilton
+  San Francisco Union Square\, workshops May 29-30\; joint ACC+L-CSS paper
+ s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
+ E provisional). The under-development homepage gives Jan 23/Mar 13 instea
+ d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
+ e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280524
+DTEND;VALUE=DATE:20280529
+SUMMARY:[Control & Robotics][Reinforcement Learning] ICRA 2028 - Conference
+  (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Robotics and
+  Automation\nWebsite: https://www.ieee-ras.org/conferences-workshops/full
+ y-sponsored/icra\nSource URL: https://www.ieee-ras.org/conferences-worksh
+ ops/fully-sponsored/icra\nLocation: Guadalajara\, Mexico\nTopics: Control
+  & Robotics\, Reinforcement Learning\, Computer Vision & Pattern Recognit
+ ion\, System Identification & Data-driven Dynamics\nSize: XXL\nSubmission
+  type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 IEEE RAS names Guadalajara\, Mexico as the ICRA 
+ 2028 host but publishes no dates or call. Meeting dates are a one-year pr
+ oxy from ICRA 2027\; the paper deadline proxy uses ICRA 2027's original S
+ eptember 15\, 23:59 Pacific cutoff\, not its one-day extension.\nScope: R
+ obotics and automation across perception\, motion and manipulation\, plan
+ ning and control\, human-robot interaction\, and autonomous systems. Lear
+ ning-based robotics\, reinforcement and imitation learning\, and data-dri
+ ven models are relevant when they advance physical robotic capability. Ge
+ neric ML with no robotics connection is not the core remit.\nAdditional t
+ opics: Planning & Search\, Deep Representation Learning\, Human-AI Intera
+ ction & Deployment\, Robustness & Safety\nScope sources (2027): https://2
+ 027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-subm
+ issions/\nScope last checked: 2026-10-07
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+LOCATION:Guadalajara\, Mexico
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280531
+DTEND;VALUE=DATE:20280603
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2028 - Conference
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2028.a2c2.org/\nSource URL: https://acc2028.a2c2.org/\nLocation: San 
+ Francisco\, California\, USA\nTopics: Control & Robotics\, System Identif
+ ication & Data-driven Dynamics\, Reinforcement Learning\nSize: XL\nSubmis
+ sion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10
+ -29\nNotes: Official ACC 2028 site and CFP (checked 2026-10-29): May 31-J
+ un 2\, 2028 at the Hilton San Francisco Union Square\, workshops May 29-3
+ 0\; joint ACC+L-CSS papers due Sep 10 and ACC papers Sep 24\, 2027\, hour
+ s unstated (end-of-day AoE provisional). The under-development homepage g
+ ives Jan 23/Mar 13 instead of the CFP's Jan 21/Mar 10 for notification/fi
+ nal manuscripts\, so those two stay estimated.
+URL:https://acc2028.a2c2.org/
+LOCATION:San Francisco\, California\, USA
 END:VEVENT
 END:VCALENDAR

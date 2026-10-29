@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE BigData (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ieee-bigdata-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
+ Full paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
+ eee.org/BigData2026/important-dates/\nLocation: Phoenix\, Arizona\, USA\n
+ Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
+ uential Data\, Federated & Distributed Learning\nSize: L\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-10-28\nNotes: Official IEEE BigData 2026 pages confirm Phoenix (Shera
+ ton Phoenix Downtown)\, Dec 14-17\, the Aug 21 full-paper and Nov 14 came
+ ra-ready deadlines. No cutoff hour or timezone is published\, so times ar
+ e provisional end-of-day AoE. Special-session calls set their own deadlin
+ es (Aug 29-Oct 15\, 2026 in the calls reviewed).\nOfficial deadline day\;
+  exact cutoff hour/timezone is unannounced. Verify the organizer's submis
+ sion portal.
+URL:https://bigdataieee.org/BigData2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
+ Camera-ready deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
+ eee.org/BigData2026/important-dates/\nLocation: Phoenix\, Arizona\, USA\n
+ Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
+ uential Data\, Federated & Distributed Learning\nSize: L\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-10-28\nNotes: Official IEEE BigData 2026 pages confirm Phoenix (Shera
+ ton Phoenix Downtown)\, Dec 14-17\, the Aug 21 full-paper and Nov 14 came
+ ra-ready deadlines. No cutoff hour or timezone is published\, so times ar
+ e provisional end-of-day AoE. Special-session calls set their own deadlin
+ es (Aug 29-Oct 15\, 2026 in the calls reviewed).\nOfficial deadline day\;
+  exact cutoff hour/timezone is unannounced. Verify the organizer's submis
+ sion portal.
+URL:https://bigdataieee.org/BigData2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261218
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
+ Conference
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
+ eee.org/BigData2026/\nLocation: Phoenix\, Arizona\, USA\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, F
+ ederated & Distributed Learning\nSize: L\nSubmission type: Paper-based / 
+ mixed tracks\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes
+ : Official IEEE BigData 2026 pages confirm Phoenix (Sheraton Phoenix Down
+ town)\, Dec 14-17\, the Aug 21 full-paper and Nov 14 camera-ready deadlin
+ es. No cutoff hour or timezone is published\, so times are provisional en
+ d-of-day AoE. Special-session calls set their own deadlines (Aug 29-Oct 1
+ 5\, 2026 in the calls reviewed).
+URL:https://bigdataieee.org/BigData2026/
+LOCATION:Phoenix\, Arizona\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2027 - 
+ Full paper submission deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/\nSource URL: https://bigdataieee.org/BigD
+ ata2026/important-dates/\nLocation: To be announced\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Time Series & Sequential Data\, Feder
+ ated & Distributed Learning\nSize: L\nSubmission type: Paper-based / mixe
+ d tracks\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As
+  of 2026-10-29 bigdataieee.org announces no IEEE BigData 2027 host\, date
+ s or call. Meeting and full-paper dates are one-year proxies from IEEE Bi
+ gData 2026 (Phoenix\, Dec 14-17\; full papers due Aug 21\, cutoff hour un
+ announced). In 2026\, special-session calls set their own deadlines.\nOff
+ icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
+ e organizer's submission portal.
+URL:https://bigdataieee.org/BigData2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271214
+DTEND;VALUE=DATE:20271218
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2027 - 
+ Conference (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/\nSource URL: https://bigdataieee.org/\nLo
+ cation: To be announced\nTopics: Data Mining & Data Science\, Machine Lea
+ rning\, Time Series & Sequential Data\, Federated & Distributed Learning\
+ nSize: L\nSubmission type: Paper-based / mixed tracks\nConfidence: estima
+ ted\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 bigdataieee.o
+ rg announces no IEEE BigData 2027 host\, dates or call. Meeting and full-
+ paper dates are one-year proxies from IEEE BigData 2026 (Phoenix\, Dec 14
+ -17\; full papers due Aug 21\, cutoff hour unannounced). In 2026\, specia
+ l-session calls set their own deadlines.
+URL:https://bigdataieee.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

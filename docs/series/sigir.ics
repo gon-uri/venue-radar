@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SIGIR (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sigir-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Proposed full-paper abstract deadline (estimated) (cutoff time unannounce
+ d)
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/pages/submit-full.html\nLocation: San Jos
+ e\, California\, USA\nTopics: Information Retrieval & Search\, Recommende
+ r Systems\, Natural Language Processing & LLMs\, Machine Learning\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked dat
+ e: 2026-10-28\nNotes: Official site now consistently gives July 19-24 (ma
+ in conference Jul 20-22\, ICTIR Jul 24) at Signia by Hilton San Jose\; CF
+ P says in-person. Full-paper AoE dates are labelled PROPOSED\; the abstra
+ ct is mandatory. A Perspectives page lists Jan 28 abstract/Feb 4 paper bu
+ t still cites SIGIR 2026 and the homepage says TBA\, so that track is not
+  yet tracked. Size is an editorial estimate.\nScope: Information access\,
+  search and ranking\, query and content understanding\, recommendation\, 
+ conversational and multimodal retrieval\, and evaluation of retrieval sys
+ tems. Learning and language models are relevant through an information-re
+ trieval contribution\, including retrieval-augmented generation. The 2027
+  detailed track pages contain organizer placeholders\; scope should be re
+ checked when finalized.\nAdditional topics: Multimedia Learning & Retriev
+ al\, Human-AI Interaction & Deployment\, Fairness & Responsible AI\, ML S
+ ystems & Infrastructure\nScope sources (2027): https://sigir2027.org/page
+ s/submit-full.html\nScope last checked: 2026-10-07\nOfficial deadline day
+ \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
+ ission portal.
+URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
+UID:sigir-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Proposed full paper submission deadline (estimated) (cutoff time unannoun
+ ced)
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/pages/submit-full.html\nLocation: San Jos
+ e\, California\, USA\nTopics: Information Retrieval & Search\, Recommende
+ r Systems\, Natural Language Processing & LLMs\, Machine Learning\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked dat
+ e: 2026-10-28\nNotes: Official site now consistently gives July 19-24 (ma
+ in conference Jul 20-22\, ICTIR Jul 24) at Signia by Hilton San Jose\; CF
+ P says in-person. Full-paper AoE dates are labelled PROPOSED\; the abstra
+ ct is mandatory. A Perspectives page lists Jan 28 abstract/Feb 4 paper bu
+ t still cites SIGIR 2026 and the homepage says TBA\, so that track is not
+  yet tracked. Size is an editorial estimate.\nScope: Information access\,
+  search and ranking\, query and content understanding\, recommendation\, 
+ conversational and multimodal retrieval\, and evaluation of retrieval sys
+ tems. Learning and language models are relevant through an information-re
+ trieval contribution\, including retrieval-augmented generation. The 2027
+  detailed track pages contain organizer placeholders\; scope should be re
+ checked when finalized.\nAdditional topics: Multimedia Learning & Retriev
+ al\, Human-AI Interaction & Deployment\, Fairness & Responsible AI\, ML S
+ ystems & Infrastructure\nScope sources (2027): https://sigir2027.org/page
+ s/submit-full.html\nScope last checked: 2026-10-07\nOfficial deadline day
+ \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
+ ission portal.
+URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
+UID:sigir-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Proposed camera-ready deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/pages/submit-full.html\nLocation: San Jos
+ e\, California\, USA\nTopics: Information Retrieval & Search\, Recommende
+ r Systems\, Natural Language Processing & LLMs\, Machine Learning\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked dat
+ e: 2026-10-28\nNotes: Official site now consistently gives July 19-24 (ma
+ in conference Jul 20-22\, ICTIR Jul 24) at Signia by Hilton San Jose\; CF
+ P says in-person. Full-paper AoE dates are labelled PROPOSED\; the abstra
+ ct is mandatory. A Perspectives page lists Jan 28 abstract/Feb 4 paper bu
+ t still cites SIGIR 2026 and the homepage says TBA\, so that track is not
+  yet tracked. Size is an editorial estimate.\nScope: Information access\,
+  search and ranking\, query and content understanding\, recommendation\, 
+ conversational and multimodal retrieval\, and evaluation of retrieval sys
+ tems. Learning and language models are relevant through an information-re
+ trieval contribution\, including retrieval-augmented generation. The 2027
+  detailed track pages contain organizer placeholders\; scope should be re
+ checked when finalized.\nAdditional topics: Multimedia Learning & Retriev
+ al\, Human-AI Interaction & Deployment\, Fairness & Responsible AI\, ML S
+ ystems & Infrastructure\nScope sources (2027): https://sigir2027.org/page
+ s/submit-full.html\nScope last checked: 2026-10-07\nOfficial deadline day
+ \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
+ ission portal.
+URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
+UID:sigir-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270725
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Conference
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/\nLocation: San Jose\, California\, USA\n
+ Topics: Information Retrieval & Search\, Recommender Systems\, Natural La
+ nguage Processing & LLMs\, Machine Learning\nSize: XL\nSubmission type: P
+ aper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ Official site now consistently gives July 19-24 (main conference Jul 20-2
+ 2\, ICTIR Jul 24) at Signia by Hilton San Jose\; CFP says in-person. Full
+ -paper AoE dates are labelled PROPOSED\; the abstract is mandatory. A Per
+ spectives page lists Jan 28 abstract/Feb 4 paper but still cites SIGIR 20
+ 26 and the homepage says TBA\, so that track is not yet tracked. Size is 
+ an editorial estimate.\nScope: Information access\, search and ranking\, 
+ query and content understanding\, recommendation\, conversational and mul
+ timodal retrieval\, and evaluation of retrieval systems. Learning and lan
+ guage models are relevant through an information-retrieval contribution\,
+  including retrieval-augmented generation. The 2027 detailed track pages 
+ contain organizer placeholders\; scope should be rechecked when finalized
+ .\nAdditional topics: Multimedia Learning & Retrieval\, Human-AI Interact
+ ion & Deployment\, Fairness & Responsible AI\, ML Systems & Infrastructur
+ e\nScope sources (2027): https://sigir2027.org/pages/submit-full.html\nSc
+ ope last checked: 2026-10-07
+URL:https://sigir2027.org/
+LOCATION:San Jose\, California\, USA
+END:VEVENT
+END:VCALENDAR

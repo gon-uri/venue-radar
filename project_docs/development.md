@@ -40,8 +40,9 @@ when editing public UI. Inspect representative desktop and mobile screenshots.
 Documentation-only edits can use unit/link/example checks and prove all public
 artifacts unchanged without repeating an unrelated browser run.
 
-`tests/browser_smoke.mjs` imports the submission, mobile-card and expansion
-suites. It freezes a reference date and checks desktop/mobile at
+`tests/browser_smoke.mjs` imports the submission, mobile-card, expansion and
+venue-feature (cutoff clocks, focus, search, empty states, successors,
+calendar menu, tablet and no-JS) suites. It freezes a reference date and checks desktop/mobile at
 1440/1051/1050/768/390/320px, route/countdown/gate transitions, independent card
 expansion, filters/scope matching, maps, branding, accessibility and overflow.
 Catalog-specific expected counts/IDs need review after additions; derive them
@@ -54,7 +55,9 @@ dependencies tool; otherwise use an isolated local maintainer installation.
 Set `NODE_BIN` to the executable, `NODE_DEPENDENCIES` to its module directory
 containing Playwright, and `CHROME_BIN` to an existing Chrome executable when
 Playwright's default browser is unavailable. Do not add app dependencies merely
-for this QA step.
+for this QA step. An isolated install outside the repository works, e.g.
+`PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm install playwright@1.48.2` in a scratch
+folder, with `CHROME_BIN` pointing at the system Chrome.
 
 ```sh
 TOOLS_DIR="$(mktemp -d "${TMPDIR:-/tmp}/venue-radar-tools.XXXXXX")"

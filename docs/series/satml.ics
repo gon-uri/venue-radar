@@ -1,0 +1,235 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SaTML (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:satml-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260923T115900Z
+DTEND:20260923T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2027 - Mandatory
+  abstract registration deadline
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: Reykjavik\, Iceland\nTopics: Robustness & Sa
+ fety\, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability
+  & Interpretability\nSize: M\nSubmission type: Paper-based / systematizat
+ ion of knowledge / position papers\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-07\nNotes: Fifth annual edition. Main meeting May 4-6\; work
+ shops May 3. The mandatory registration and new-paper deadlines have pass
+ ed. Revisions are restricted to existing submissions and do not reopen ne
+ w-paper opportunities. Camera-ready is only announced as mid-February\, e
+ xact date TBC\, so no exact camera-ready event is invented. Size M is an 
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260930T115900Z
+DTEND:20260930T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2027 - Research\
+ , SoK\, and position paper deadline
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: Reykjavik\, Iceland\nTopics: Robustness & Sa
+ fety\, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability
+  & Interpretability\nSize: M\nSubmission type: Paper-based / systematizat
+ ion of knowledge / position papers\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-07\nNotes: Fifth annual edition. Main meeting May 4-6\; work
+ shops May 3. The mandatory registration and new-paper deadlines have pass
+ ed. Revisions are restricted to existing submissions and do not reopen ne
+ w-paper opportunities. Camera-ready is only announced as mid-February\, e
+ xact date TBC\, so no exact camera-ready event is invented. Size M is an 
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261217T115900Z
+DTEND:20261217T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2027 - Decision 
+ notification
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: Reykjavik\, Iceland\nTopics: Robustness & Sa
+ fety\, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability
+  & Interpretability\nSize: M\nSubmission type: Paper-based / systematizat
+ ion of knowledge / position papers\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-07\nNotes: Fifth annual edition. Main meeting May 4-6\; work
+ shops May 3. The mandatory registration and new-paper deadlines have pass
+ ed. Revisions are restricted to existing submissions and do not reopen ne
+ w-paper opportunities. Camera-ready is only announced as mid-February\, e
+ xact date TBC\, so no exact camera-ready event is invented. Size M is an 
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2027-deadline-revision@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270122T115900Z
+DTEND:20270122T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2027 - Invited p
+ aper revision deadline
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: Reykjavik\, Iceland\nTopics: Robustness & Sa
+ fety\, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability
+  & Interpretability\nSize: M\nSubmission type: Paper-based / systematizat
+ ion of knowledge / position papers\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-07\nNotes: Fifth annual edition. Main meeting May 4-6\; work
+ shops May 3. The mandatory registration and new-paper deadlines have pass
+ ed. Revisions are restricted to existing submissions and do not reopen ne
+ w-paper opportunities. Camera-ready is only announced as mid-February\, e
+ xact date TBC\, so no exact camera-ready event is invented. Size M is an 
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270507
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2027 - Conferenc
+ e
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /\nLocation: Reykjavik\, Iceland\nTopics: Robustness & Safety\, Privacy-p
+ reserving ML\, Fairness & Responsible AI\, Explainability & Interpretabil
+ ity\nSize: M\nSubmission type: Paper-based / systematization of knowledge
+  / position papers\nConfidence: confirmed\nLast checked date: 2026-10-07\
+ nNotes: Fifth annual edition. Main meeting May 4-6\; workshops May 3. The
+  mandatory registration and new-paper deadlines have passed. Revisions ar
+ e restricted to existing submissions and do not reopen new-paper opportun
+ ities. Camera-ready is only announced as mid-February\, exact date TBC\, 
+ so no exact camera-ready event is invented. Size M is an editorial estima
+ te.\nScope: Security\, safety\, and trustworthiness of machine learning. 
+ Characteristic work studies attacks and defenses\, privacy\, verification
+ \, ML-system security\, fairness\, interpretability\, and trustworthy dat
+ a curation. Theoretical\, empirical\, and applied papers must engage subs
+ tantively with a safety or trustworthiness question\; merely using an ML 
+ model is insufficient.\nAdditional topics: Machine Learning\, ML Systems 
+ & Infrastructure\nScope sources (2027): https://satml.org/call-for-papers
+ /\nScope last checked: 2026-10-07
+URL:https://satml.org/
+LOCATION:Reykjavik\, Iceland
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270922T115900Z
+DTEND:20270922T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2028 - Mandatory
+  abstract registration deadline (estimated)
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: To be announced\nTopics: Robustness & Safety
+ \, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability & I
+ nterpretability\nSize: M\nSubmission type: Paper-based / systematization 
+ of knowledge / position papers\nConfidence: estimated\nLast checked date:
+  2026-10-29\nNotes: As of 2026-10-29 satml.org covers only SaTML 2027 (Re
+ ykjavik\, May 3-6\, 2027) and announces no 2028 host or dates. Main-meeti
+ ng dates and the Tuesday abstract (Sep 21)/paper (Sep 28) AoE deadlines a
+ re one-year same-weekday proxies from SaTML 2027\; past meetings have ran
+ ged from February to May.\nScope: Security\, safety\, and trustworthiness
+  of machine learning. Characteristic work studies attacks and defenses\, 
+ privacy\, verification\, ML-system security\, fairness\, interpretability
+ \, and trustworthy data curation. Theoretical\, empirical\, and applied p
+ apers must engage substantively with a safety or trustworthiness question
+ \; merely using an ML model is insufficient.\nAdditional topics: Machine 
+ Learning\, ML Systems & Infrastructure\nScope sources (2027): https://sat
+ ml.org/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270929T115900Z
+DTEND:20270929T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2028 - Paper sub
+ mission deadline (estimated)
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: To be announced\nTopics: Robustness & Safety
+ \, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability & I
+ nterpretability\nSize: M\nSubmission type: Paper-based / systematization 
+ of knowledge / position papers\nConfidence: estimated\nLast checked date:
+  2026-10-29\nNotes: As of 2026-10-29 satml.org covers only SaTML 2027 (Re
+ ykjavik\, May 3-6\, 2027) and announces no 2028 host or dates. Main-meeti
+ ng dates and the Tuesday abstract (Sep 21)/paper (Sep 28) AoE deadlines a
+ re one-year same-weekday proxies from SaTML 2027\; past meetings have ran
+ ged from February to May.\nScope: Security\, safety\, and trustworthiness
+  of machine learning. Characteristic work studies attacks and defenses\, 
+ privacy\, verification\, ML-system security\, fairness\, interpretability
+ \, and trustworthy data curation. Theoretical\, empirical\, and applied p
+ apers must engage substantively with a safety or trustworthiness question
+ \; merely using an ML model is insufficient.\nAdditional topics: Machine 
+ Learning\, ML Systems & Infrastructure\nScope sources (2027): https://sat
+ ml.org/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280502
+DTEND;VALUE=DATE:20280505
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2028 - Conferenc
+ e (estimated)
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /\nLocation: To be announced\nTopics: Robustness & Safety\, Privacy-prese
+ rving ML\, Fairness & Responsible AI\, Explainability & Interpretability\
+ nSize: M\nSubmission type: Paper-based / systematization of knowledge / p
+ osition papers\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 satml.org covers only SaTML 2027 (Reykjavik\, May 3-
+ 6\, 2027) and announces no 2028 host or dates. Main-meeting dates and the
+  Tuesday abstract (Sep 21)/paper (Sep 28) AoE deadlines are one-year same
+ -weekday proxies from SaTML 2027\; past meetings have ranged from Februar
+ y to May.\nScope: Security\, safety\, and trustworthiness of machine lear
+ ning. Characteristic work studies attacks and defenses\, privacy\, verifi
+ cation\, ML-system security\, fairness\, interpretability\, and trustwort
+ hy data curation. Theoretical\, empirical\, and applied papers must engag
+ e substantively with a safety or trustworthiness question\; merely using 
+ an ML model is insufficient.\nAdditional topics: Machine Learning\, ML Sy
+ stems & Infrastructure\nScope sources (2027): https://satml.org/call-for-
+ papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

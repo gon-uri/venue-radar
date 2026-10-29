@@ -1,0 +1,143 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LREC (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251025T115900Z
+DTEND:20251025T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Paper submission deadline
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/third
+ -call-for-papers/\nLocation: Palma de Mallorca\, Spain\nTopics: Natural L
+ anguage Processing & LLMs\, Data Mining & Data Science\, Signal Processin
+ g\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast ch
+ ecked date: 2026-10-07\nNotes: Archived full conference window includes w
+ orkshops\; main sessions May 13-15. Resources\, datasets\, annotation and
+  evaluation characterize the venue. Size is an editorial estimate.\nScope
+ : Language resources\, annotation\, corpora and datasets\, speech and mul
+ timodal resources\, benchmarking\, and evaluation for human-language tech
+ nologies. Contributions often create or analyze reusable resources and me
+ thods for linguistic coverage and reliable assessment. The breadth of lan
+ guage applications is summarized without treating every domain as a defin
+ ing topic.\nAdditional topics: Multimedia Learning & Retrieval\, Fairness
+  & Responsible AI\nScope sources (2026): https://lrec2026.info/third-call
+ -for-papers/\nScope last checked: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260316T115900Z
+DTEND:20260316T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Camera-ready deadline
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/third
+ -call-for-papers/\nLocation: Palma de Mallorca\, Spain\nTopics: Natural L
+ anguage Processing & LLMs\, Data Mining & Data Science\, Signal Processin
+ g\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast ch
+ ecked date: 2026-10-07\nNotes: Archived full conference window includes w
+ orkshops\; main sessions May 13-15. Resources\, datasets\, annotation and
+  evaluation characterize the venue. Size is an editorial estimate.\nScope
+ : Language resources\, annotation\, corpora and datasets\, speech and mul
+ timodal resources\, benchmarking\, and evaluation for human-language tech
+ nologies. Contributions often create or analyze reusable resources and me
+ thods for linguistic coverage and reliable assessment. The breadth of lan
+ guage applications is summarized without treating every domain as a defin
+ ing topic.\nAdditional topics: Multimedia Learning & Retrieval\, Fairness
+  & Responsible AI\nScope sources (2026): https://lrec2026.info/third-call
+ -for-papers/\nScope last checked: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260517
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Conference
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/\nLoc
+ ation: Palma de Mallorca\, Spain\nTopics: Natural Language Processing & L
+ LMs\, Data Mining & Data Science\, Signal Processing\nSize: XL\nSubmissio
+ n type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-07
+ \nNotes: Archived full conference window includes workshops\; main sessio
+ ns May 13-15. Resources\, datasets\, annotation and evaluation characteri
+ ze the venue. Size is an editorial estimate.\nScope: Language resources\,
+  annotation\, corpora and datasets\, speech and multimodal resources\, be
+ nchmarking\, and evaluation for human-language technologies. Contribution
+ s often create or analyze reusable resources and methods for linguistic c
+ overage and reliable assessment. The breadth of language applications is 
+ summarized without treating every domain as a defining topic.\nAdditional
+  topics: Multimedia Learning & Retrieval\, Fairness & Responsible AI\nSco
+ pe sources (2026): https://lrec2026.info/third-call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://lrec2026.info/
+LOCATION:Palma de Mallorca\, Spain
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271025T115900Z
+DTEND:20271025T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2028 - Estimated paper submission deadline (estimated)
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://www.elra.info/elra-events/lrec/\nSource URL: https://lr
+ ec2026.info/third-call-for-papers/\nLocation: To be announced\nTopics: Na
+ tural Language Processing & LLMs\, Data Mining & Data Science\, Signal Pr
+ ocessing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\n
+ Last checked date: 2026-10-28\nNotes: ELRA organizes LREC biennially. As 
+ of 2026-10-28 its LREC page names no 2028 host or dates\; its call for ex
+ pressions of interest to host 2028/2030 had a 22 June 2026 deadline. Meet
+ ing and submission dates are two-year proxies from 2026\, not an invented
+  annual 2027 edition. Size is an editorial estimate.\nScope: Language res
+ ources\, annotation\, corpora and datasets\, speech and multimodal resour
+ ces\, benchmarking\, and evaluation for human-language technologies. Cont
+ ributions often create or analyze reusable resources and methods for ling
+ uistic coverage and reliable assessment. The breadth of language applicat
+ ions is summarized without treating every domain as a defining topic.\nAd
+ ditional topics: Multimedia Learning & Retrieval\, Fairness & Responsible
+  AI\nScope sources (2026): https://lrec2026.info/third-call-for-papers/\n
+ Scope last checked: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280517
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2028 - Conference (estimated)
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://www.elra.info/elra-events/lrec/\nSource URL: https://ww
+ w.elra.info/elra-events/lrec/\nLocation: To be announced\nTopics: Natural
+  Language Processing & LLMs\, Data Mining & Data Science\, Signal Process
+ ing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast 
+ checked date: 2026-10-28\nNotes: ELRA organizes LREC biennially. As of 20
+ 26-10-28 its LREC page names no 2028 host or dates\; its call for express
+ ions of interest to host 2028/2030 had a 22 June 2026 deadline. Meeting a
+ nd submission dates are two-year proxies from 2026\, not an invented annu
+ al 2027 edition. Size is an editorial estimate.\nScope: Language resource
+ s\, annotation\, corpora and datasets\, speech and multimodal resources\,
+  benchmarking\, and evaluation for human-language technologies. Contribut
+ ions often create or analyze reusable resources and methods for linguisti
+ c coverage and reliable assessment. The breadth of language applications 
+ is summarized without treating every domain as a defining topic.\nAdditio
+ nal topics: Multimedia Learning & Retrieval\, Fairness & Responsible AI\n
+ Scope sources (2026): https://lrec2026.info/third-call-for-papers/\nScope
+  last checked: 2026-10-07
+URL:https://www.elra.info/elra-events/lrec/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

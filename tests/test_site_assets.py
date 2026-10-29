@@ -143,12 +143,26 @@ class SiteAssetTests(unittest.TestCase):
         page.feed(html)
         self.assertEqual(
             [attrs["class"] for tag, attrs in page.elements
-             if tag == "a" and attrs.get("class") in {
+             if tag in {"a", "summary"} and attrs.get("class") in {
                  "header-button share-button", "header-button star-button", "calendar-button",
              }],
             ["header-button share-button", "header-button star-button", "calendar-button"],
         )
-        self.assertLess(html.index('class="calendar-button"'), html.index('class="calendar-caption"'))
+        self.assertLess(html.index('<summary class="calendar-button">'), html.index('class="calendar-caption"'))
+
+    def test_calendar_menu_offers_subscriptions_and_snapshots(self) -> None:
+        with TemporaryDirectory() as directory:
+            html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
+        for path in ("submissions.ics", "calendar-all.ics", "conferences.ics"):
+            webcal = "webcal://gon-uri.github.io/venue-radar/" + path
+            self.assertIn(f'href="{webcal}"', html)
+            self.assertIn(f'href="https://calendar.google.com/calendar/render?cid={webcal}"', html)
+            self.assertIn(f'data-copy-feed="{SITE_URL}{path}"', html)
+            self.assertIn(f'href="{path}" download', html)
+        self.assertIn('<option value="tags/machine-learning.ics">', html)
+        self.assertIn('<option value="series/neurips.ics" data-series-slug="neurips">NeurIPS</option>', html)
+        self.assertIn('data-subscribe-series="neurips"', html)
+        self.assertIn("lucide-calendar-plus", html)
         self.assertNotIn("On the map", html)
         self.assertIn('tabindex="-1">Conferences &amp; Map</button>', html)
         self.assertIn(

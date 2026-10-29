@@ -4,6 +4,11 @@ PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Explainability & Interpretability
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:midl-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -3800,6 +3805,26 @@ DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
 URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:sdm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270411T115900Z
+DTEND:20270411T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 7 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/get-involved/connect-with-a-community/acti
+ vity-groups/data-science/\nSource URL: https://www.siam.org/conferences-e
+ vents/siam-conferences/sdm26/\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Time Series & Sequential Data\, Explainability & In
+ terpretability\, Machine Learning\nSize: M\nSubmission type: Paper-based\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 SIAM describes SDM as yearly but lists no SDM27 among its upcoming 
+ conferences. Meeting and paper dates are one-year proxies from SDM26 (Nov
+  19-20\, 2026\, held jointly with IS26 and MDS26 after earlier spring edi
+ tions)\, so 2027 timing is uncertain.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
 UID:chil-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270412
@@ -3905,6 +3930,26 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
   ETH Zurich ("Details coming soon") but has not published a 2027 call. Th
  e April 17 submission date is a proxy from the 2026 edition.
 URL:https://mlhc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270418T115900Z
+DTEND:20270418T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 7 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/get-involved/connect-with-a-community/acti
+ vity-groups/data-science/\nSource URL: https://www.siam.org/conferences-e
+ vents/siam-conferences/sdm26/\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Time Series & Sequential Data\, Explainability & In
+ terpretability\, Machine Learning\nSize: M\nSubmission type: Paper-based\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 SIAM describes SDM as yearly but lists no SDM27 among its upcoming 
+ conferences. Meeting and paper dates are one-year proxies from SDM26 (Nov
+  19-20\, 2026\, held jointly with IS26 and MDS26 after earlier spring edi
+ tions)\, so 2027 timing is uncertain.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
 BEGIN:VEVENT
 UID:recsys-2027-deadline-full-paper@scientific-conference-calendar
@@ -4151,6 +4196,64 @@ URL:https://satml.org/
 LOCATION:Reykjavik\, Iceland
 END:VEVENT
 BEGIN:VEVENT
+UID:neurips-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270505T115900Z
+DTEND:20270505T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Abs
+ tract submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270507T115900Z
+DTEND:20270507T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Ful
+ l paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:iswc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270508T115900Z
@@ -4226,6 +4329,33 @@ URL:https://chi2027.acm.org/
 LOCATION:Pittsburgh\, Pennsylvania\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:aies-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270514T115900Z
+DTEND:20270514T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2027 - Abstra
+ ct registration (estimated)
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/\nSource URL: https://www.a
+ ies-conference.com/2026/call-for-papers/\nLocation: To be announced\nTopi
+ cs: Ethics & Governance\, Fairness & Responsible AI\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper-bas
+ ed / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10
+ -29\nNotes: As of 2026-10-29 AAAI lists the tenth AIES with "additional i
+ nformation to come"\; no 2027 dates or host are announced. Meeting (Mon-W
+ ed) and the mandatory abstract pre-registration and paper deadlines (Thur
+ sdays\, AoE) are one-year proxies from AIES 2026 (Oct 12-14\; May 14 and 
+ May 21).\nScope: Ethics and societal consequences of AI\, connecting comp
+ uter science\, law and policy\, social science\, and philosophy. Defining
+  concerns include governance and power\, accountability after deployment\
+ , value alignment\, fairness\, human-AI interaction\, and institutional p
+ ractice. Technical work is relevant through a serious ethical or societal
+  contribution.\nAdditional topics: Human-AI Interaction & Deployment\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.aies-conference.co
+ m/2026/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:automl-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270515T115900Z
@@ -4254,6 +4384,33 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
   Robustness & Safety\nScope sources (2026): https://2026.automl.cc/call-f
  or-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270521T115900Z
+DTEND:20270521T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2027 - Paper 
+ submission (estimated)
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/\nSource URL: https://www.a
+ ies-conference.com/2026/call-for-papers/\nLocation: To be announced\nTopi
+ cs: Ethics & Governance\, Fairness & Responsible AI\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper-bas
+ ed / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10
+ -29\nNotes: As of 2026-10-29 AAAI lists the tenth AIES with "additional i
+ nformation to come"\; no 2027 dates or host are announced. Meeting (Mon-W
+ ed) and the mandatory abstract pre-registration and paper deadlines (Thur
+ sdays\, AoE) are one-year proxies from AIES 2026 (Oct 12-14\; May 14 and 
+ May 21).\nScope: Ethics and societal consequences of AI\, connecting comp
+ uter science\, law and policy\, social science\, and philosophy. Defining
+  concerns include governance and power\, accountability after deployment\
+ , value alignment\, fairness\, human-AI interaction\, and institutional p
+ ractice. Technical work is relevant through a serious ethical or societal
+  contribution.\nAdditional topics: Human-AI Interaction & Deployment\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.aies-conference.co
+ m/2026/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://www.aies-conference.com/2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2027-deadline-full-paper@scientific-conference-calendar
@@ -4286,6 +4443,60 @@ DESCRIPTION:Conference title: Conference on Empirical Methods in Natural La
 URL:https://2026.emnlp.org/calls/main_conference_papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:aaltd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T065900Z
+DTEND:20270529T075900Z
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 027 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecmlpkdd.org/\nSource URL: https://ecml
+ -aaltd.github.io/aaltd2026/dates.html\nLocation: To be announced\nTopics:
+  Time Series & Sequential Data\, Data Mining & Data Science\, Machine Lea
+ rning\, Explainability & Interpretability\nSize: S\nSubmission type: Work
+ shop / paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 no AALTD 2027 is announced\; all 11 editions ran
+  with ECML PKDD\, whose 2027 edition is officially Eindhoven\, Aug 30-Sep
+  3. Proxies follow AALTD 2026\, held on the host conference's final day\,
+  giving a Fri Sep 3 meeting with abstract and paper deadlines 14 and 13 w
+ eeks earlier (23:59 Pacific).\nScope: Analytics and learning specifically
+  for temporal data: time-series classification\, clustering\, forecasting
+ \, segmentation\, anomaly detection\, temporal representations\, and metr
+ ic or kernel learning. Includes temporal foundation models\, data streams
+ \, and explainable temporal analysis. Climate\, health\, and energy are e
+ xamples of applications rather than separate defining topic assignments.\
+ nAdditional topics: Deep Representation Learning\nScope sources (2026): h
+ ttps://ecml-aaltd.github.io/aaltd2026/\nScope last checked: 2026-10-07
+URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:aaltd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270605T065900Z
+DTEND:20270605T075900Z
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 027 - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecmlpkdd.org/\nSource URL: https://ecml
+ -aaltd.github.io/aaltd2026/dates.html\nLocation: To be announced\nTopics:
+  Time Series & Sequential Data\, Data Mining & Data Science\, Machine Lea
+ rning\, Explainability & Interpretability\nSize: S\nSubmission type: Work
+ shop / paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 no AALTD 2027 is announced\; all 11 editions ran
+  with ECML PKDD\, whose 2027 edition is officially Eindhoven\, Aug 30-Sep
+  3. Proxies follow AALTD 2026\, held on the host conference's final day\,
+  giving a Fri Sep 3 meeting with abstract and paper deadlines 14 and 13 w
+ eeks earlier (23:59 Pacific).\nScope: Analytics and learning specifically
+  for temporal data: time-series classification\, clustering\, forecasting
+ \, segmentation\, anomaly detection\, temporal representations\, and metr
+ ic or kernel learning. Includes temporal foundation models\, data streams
+ \, and explainable temporal analysis. Climate\, health\, and energy are e
+ xamples of applications rather than separate defining topic assignments.\
+ nAdditional topics: Deep Representation Learning\nScope sources (2026): h
+ ttps://ecml-aaltd.github.io/aaltd2026/\nScope last checked: 2026-10-07
+URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-facct-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270621
@@ -4313,6 +4524,106 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
  e.org/2026/cfp.html\nScope last checked: 2026-10-07
 URL:https://facctconference.org/2027/cfp.html
 LOCATION:Porto\, Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270621T115900Z
+DTEND:20270621T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Journal-track submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Conference-track paper submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2027 - Industry
+  and special-session paper submission (estimated)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2027.github.io/\nSource URL: h
+ ttps://web.archive.org/web/20260608204215/https://adma2026.github.io/impo
+ rtant_date.html\nLocation: To be announced\nTopics: Data Mining & Data Sc
+ ience\, Machine Learning\, Time Series & Sequential Data\, Explainability
+  & Interpretability\nSize: M\nSubmission type: Paper-based / special sess
+ ions\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 
+ 2026-10-29 no ADMA 2027 host or dates are confirmed\; adma2027.github.io 
+ lists a committee but still shows a placeholder host and conflicting date
+ s (Nov 13-15 vs Oct 22-24). Meeting and AoE deadlines are one-year proxie
+ s from ADMA 2026\; main\, industry and special-session papers use its ori
+ ginal Jun 26 deadline\, not the later Jul 17/31 extensions.
+URL:https://web.archive.org/web/20260608204215/https://adma2026.github.io/i
+ mportant_date.html
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2027 - Main tra
+ ck paper submission (estimated)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2027.github.io/\nSource URL: h
+ ttps://web.archive.org/web/20260608204215/https://adma2026.github.io/impo
+ rtant_date.html\nLocation: To be announced\nTopics: Data Mining & Data Sc
+ ience\, Machine Learning\, Time Series & Sequential Data\, Explainability
+  & Interpretability\nSize: M\nSubmission type: Paper-based / special sess
+ ions\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 
+ 2026-10-29 no ADMA 2027 host or dates are confirmed\; adma2027.github.io 
+ lists a committee but still shows a placeholder host and conflicting date
+ s (Nov 13-15 vs Oct 22-24). Meeting and AoE deadlines are one-year proxie
+ s from ADMA 2026\; main\, industry and special-session papers use its ori
+ ginal Jun 26 deadline\, not the later Jul 17/31 extensions.
+URL:https://web.archive.org/web/20260608204215/https://adma2026.github.io/i
+ mportant_date.html
 END:VEVENT
 BEGIN:VEVENT
 UID:chil-2027-conference@scientific-conference-calendar
@@ -4644,6 +4955,27 @@ DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
 URL:https://ijcb2027.ieee-biometrics.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:adma-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270808T115900Z
+DTEND:20270808T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2027 - Short pa
+ per submission (estimated)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2027.github.io/\nSource URL: h
+ ttps://adma2026.github.io/important_date.html\nLocation: To be announced\
+ nTopics: Data Mining & Data Science\, Machine Learning\, Time Series & Se
+ quential Data\, Explainability & Interpretability\nSize: M\nSubmission ty
+ pe: Paper-based / special sessions\nConfidence: estimated\nLast checked d
+ ate: 2026-10-29\nNotes: As of 2026-10-29 no ADMA 2027 host or dates are c
+ onfirmed\; adma2027.github.io lists a committee but still shows a placeho
+ lder host and conflicting dates (Nov 13-15 vs Oct 22-24). Meeting and AoE
+  deadlines are one-year proxies from ADMA 2026\; main\, industry and spec
+ ial-session papers use its original Jun 26 deadline\, not the later Jul 1
+ 7/31 extensions.
+URL:https://adma2026.github.io/important_date.html
+END:VEVENT
+BEGIN:VEVENT
 UID:mlhc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270811
@@ -4768,6 +5100,55 @@ URL:https://ecmlpkdd.org/2027/
 LOCATION:Eindhoven\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
+UID:aaltd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270904
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 027 - Conference (estimated)
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecmlpkdd.org/\nSource URL: https://ecml
+ pkdd.org/2027/\nLocation: To be announced\nTopics: Time Series & Sequenti
+ al Data\, Data Mining & Data Science\, Machine Learning\, Explainability 
+ & Interpretability\nSize: S\nSubmission type: Workshop / paper-based\nCon
+ fidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-2
+ 9 no AALTD 2027 is announced\; all 11 editions ran with ECML PKDD\, whose
+  2027 edition is officially Eindhoven\, Aug 30-Sep 3. Proxies follow AALT
+ D 2026\, held on the host conference's final day\, giving a Fri Sep 3 mee
+ ting with abstract and paper deadlines 14 and 13 weeks earlier (23:59 Pac
+ ific).\nScope: Analytics and learning specifically for temporal data: tim
+ e-series classification\, clustering\, forecasting\, segmentation\, anoma
+ ly detection\, temporal representations\, and metric or kernel learning. 
+ Includes temporal foundation models\, data streams\, and explainable temp
+ oral analysis. Climate\, health\, and energy are examples of applications
+  rather than separate defining topic assignments.\nAdditional topics: Dee
+ p Representation Learning\nScope sources (2026): https://ecml-aaltd.githu
+ b.io/aaltd2026/\nScope last checked: 2026-10-07
+URL:https://ecmlpkdd.org/2027/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270912T115900Z
+DTEND:20270912T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2027 - Poster p
+ aper submission (estimated)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2027.github.io/\nSource URL: h
+ ttps://adma2026.github.io/important_date.html\nLocation: To be announced\
+ nTopics: Data Mining & Data Science\, Machine Learning\, Time Series & Se
+ quential Data\, Explainability & Interpretability\nSize: M\nSubmission ty
+ pe: Paper-based / special sessions\nConfidence: estimated\nLast checked d
+ ate: 2026-10-29\nNotes: As of 2026-10-29 no ADMA 2027 host or dates are c
+ onfirmed\; adma2027.github.io lists a committee but still shows a placeho
+ lder host and conflicting dates (Nov 13-15 vs Oct 22-24). Meeting and AoE
+  deadlines are one-year proxies from ADMA 2026\; main\, industry and spec
+ ial-session papers use its original Jun 26 deadline\, not the later Jul 1
+ 7/31 extensions.
+URL:https://adma2026.github.io/important_date.html
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcb-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270913
@@ -4799,6 +5180,34 @@ DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
  st checked: 2026-10-07
 URL:https://ijcb2027.ieee-biometrics.org/important-dates/
 LOCATION:Foz do Iguacu\, Brazil
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270919T115900Z
+DTEND:20270919T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Abstra
+ ct submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:kr-2027-conference@scientific-conference-calendar
@@ -4833,6 +5242,61 @@ URL:https://kr.org/KR2027/
 LOCATION:Buenos Aires\, Argentina
 END:VEVENT
 BEGIN:VEVENT
+UID:satml-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270922T115900Z
+DTEND:20270922T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2028 - Mandatory
+  abstract registration deadline (estimated)
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: To be announced\nTopics: Robustness & Safety
+ \, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability & I
+ nterpretability\nSize: M\nSubmission type: Paper-based / systematization 
+ of knowledge / position papers\nConfidence: estimated\nLast checked date:
+  2026-10-29\nNotes: As of 2026-10-29 satml.org covers only SaTML 2027 (Re
+ ykjavik\, May 3-6\, 2027) and announces no 2028 host or dates. Main-meeti
+ ng dates and the Tuesday abstract (Sep 21)/paper (Sep 28) AoE deadlines a
+ re one-year same-weekday proxies from SaTML 2027\; past meetings have ran
+ ged from February to May.\nScope: Security\, safety\, and trustworthiness
+  of machine learning. Characteristic work studies attacks and defenses\, 
+ privacy\, verification\, ML-system security\, fairness\, interpretability
+ \, and trustworthy data curation. Theoretical\, empirical\, and applied p
+ apers must engage substantively with a safety or trustworthiness question
+ \; merely using an ML model is insufficient.\nAdditional topics: Machine 
+ Learning\, ML Systems & Infrastructure\nScope sources (2027): https://sat
+ ml.org/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270926T115900Z
+DTEND:20270926T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Paper 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:automl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270928
@@ -4864,6 +5328,33 @@ URL:https://2026.automl.cc/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:satml-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270929T115900Z
+DTEND:20270929T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2028 - Paper sub
+ mission deadline (estimated)
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: To be announced\nTopics: Robustness & Safety
+ \, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability & I
+ nterpretability\nSize: M\nSubmission type: Paper-based / systematization 
+ of knowledge / position papers\nConfidence: estimated\nLast checked date:
+  2026-10-29\nNotes: As of 2026-10-29 satml.org covers only SaTML 2027 (Re
+ ykjavik\, May 3-6\, 2027) and announces no 2028 host or dates. Main-meeti
+ ng dates and the Tuesday abstract (Sep 21)/paper (Sep 28) AoE deadlines a
+ re one-year same-weekday proxies from SaTML 2027\; past meetings have ran
+ ged from February to May.\nScope: Security\, safety\, and trustworthiness
+  of machine learning. Characteristic work studies attacks and defenses\, 
+ privacy\, verification\, ML-system security\, fairness\, interpretability
+ \, and trustworthy data curation. Theoretical\, empirical\, and applied p
+ apers must engage substantively with a safety or trustworthiness question
+ \; merely using an ML model is insufficient.\nAdditional topics: Machine 
+ Learning\, ML Systems & Infrastructure\nScope sources (2027): https://sat
+ ml.org/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:colm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271006
@@ -4890,6 +5381,34 @@ DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
  6): https://colm.cc/Conferences/2026/CallForPapers\nScope last checked: 2
  026-10-07
 URL:https://colm.cc/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271014
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2027 - Confer
+ ence (estimated)
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/\nSource URL: https://aaai.
+ org/conference/aies/\nLocation: To be announced\nTopics: Ethics & Governa
+ nce\, Fairness & Responsible AI\, Explainability & Interpretability\, Rob
+ ustness & Safety\nSize: M\nSubmission type: Paper-based / interdisciplina
+ ry\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 20
+ 26-10-29 AAAI lists the tenth AIES with "additional information to come"\
+ ; no 2027 dates or host are announced. Meeting (Mon-Wed) and the mandator
+ y abstract pre-registration and paper deadlines (Thursdays\, AoE) are one
+ -year proxies from AIES 2026 (Oct 12-14\; May 14 and May 21).\nScope: Eth
+ ics and societal consequences of AI\, connecting computer science\, law a
+ nd policy\, social science\, and philosophy. Defining concerns include go
+ vernance and power\, accountability after deployment\, value alignment\, 
+ fairness\, human-AI interaction\, and institutional practice. Technical w
+ ork is relevant through a serious ethical or societal contribution.\nAddi
+ tional topics: Human-AI Interaction & Deployment\, Privacy-preserving ML\
+ nScope sources (2026): https://www.aies-conference.com/2026/call-for-pape
+ rs/\nScope last checked: 2026-10-07
+URL:https://aaai.org/conference/aies/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
@@ -4981,5 +5500,164 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
  html\, https://2026.acmmm.org/\nScope last checked: 2026-10-07
 URL:https://www.acmmm.org/
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271116
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2027 - Conferen
+ ce (estimated)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2027.github.io/\nSource URL: h
+ ttps://adma2027.github.io/\nLocation: To be announced\nTopics: Data Minin
+ g & Data Science\, Machine Learning\, Time Series & Sequential Data\, Exp
+ lainability & Interpretability\nSize: M\nSubmission type: Paper-based / s
+ pecial sessions\nConfidence: estimated\nLast checked date: 2026-10-29\nNo
+ tes: As of 2026-10-29 no ADMA 2027 host or dates are confirmed\; adma2027
+ .github.io lists a committee but still shows a placeholder host and confl
+ icting dates (Nov 13-15 vs Oct 22-24). Meeting and AoE deadlines are one-
+ year proxies from ADMA 2026\; main\, industry and special-session papers 
+ use its original Jun 26 deadline\, not the later Jul 17/31 extensions.
+URL:https://adma2027.github.io/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271121
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 7 - Conference (estimated)
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/get-involved/connect-with-a-community/acti
+ vity-groups/data-science/\nSource URL: https://www.siam.org/get-involved/
+ connect-with-a-community/activity-groups/data-science/\nLocation: To be a
+ nnounced\nTopics: Data Mining & Data Science\, Time Series & Sequential D
+ ata\, Explainability & Interpretability\, Machine Learning\nSize: M\nSubm
+ ission type: Paper-based\nConfidence: estimated\nLast checked date: 2026-
+ 10-29\nNotes: As of 2026-10-29 SIAM describes SDM as yearly but lists no 
+ SDM27 among its upcoming conferences. Meeting and paper dates are one-yea
+ r proxies from SDM26 (Nov 19-20\, 2026\, held jointly with IS26 and MDS26
+  after earlier spring editions)\, so 2027 timing is uncertain.
+URL:https://www.siam.org/get-involved/connect-with-a-community/activity-gro
+ ups/data-science/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271205
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/\nLoc
+ ation: To be announced\nTopics: Machine Learning\, Learning Theory & Stat
+ istical Foundations\, Explainability & Interpretability\, Robustness & Sa
+ fety\nSize: L\nSubmission type: Paper-based / OpenReview\nConfidence: est
+ imated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the ACML s
+ ite lists no 2027 edition\, host or dates. Meeting dates and both deadlin
+ es are one-year proxies from ACML 2026 (Dec 1-4\; journal track Jun 20\, 
+ conference track Jun 26 AoE\, the original date before its extension to J
+ ul 5).\nScope: Theory and practice of machine learning\, including probab
+ ilistic methods\, representation learning\, transfer and meta-learning\, 
+ reinforcement learning\, and learning theory. Generative models\, languag
+ e models\, and trustworthy learning extend this core. The broad applicati
+ ons list is not treated as evidence that every application field defines 
+ the conference.\nAdditional topics: Deep Representation Learning\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Fairness & Responsible AI\, Privacy-preserving M
+ L\nScope sources (2026): https://www.acml-conf.org/2026/calls/papers/\nSc
+ ope last checked: 2026-10-07
+URL:https://www.acml-conf.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271206
+DTEND;VALUE=DATE:20271213
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Con
+ ference (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/FutureMeetings\nLocation: Europe (city to be announced)\nTopics: 
+ Machine Learning\, Deep Representation Learning\, Time Series & Sequentia
+ l Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: P
+ aper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: 
+ As of 2026-10-29 the official NeurIPS future-meetings page lists 2027 onl
+ y as Europe\; no host city\, dates or call is published (neurips.cc/Confe
+ rences/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract
+ /May 6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nSco
+ pe: Broad research in machine learning\, especially deep and generative m
+ odels\, statistical foundations\, optimization\, probabilistic inference\
+ , and learning for decision-making. Language\, vision\, and scalable ML s
+ ystems are important research communities. Interdisciplinary applications
+  should contribute insight of wider interest to the machine-learning comm
+ unity.\nAdditional topics: Learning Theory & Statistical Foundations\, Pr
+ obabilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural 
+ Language Processing & LLMs\, Computer Vision & Pattern Recognition\, ML S
+ ystems & Infrastructure\nScope sources (2026): https://neurips.cc/Confere
+ nces/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/FutureMeetings
+LOCATION:Europe (city to be announced)
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280426
+DTEND;VALUE=DATE:20280501
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Confer
+ ence (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/FutureMeetings\nLocation: To be announced\nTopics: Deep Representation
+  Learning\, Machine Learning\, Explainability & Interpretability\, Robust
+ ness & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConf
+ idence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29
+  ICLR has not announced a 2028 meeting\; its official future-meetings pag
+ e lists only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 
+ 25 paper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Lea
+ rning representations and understanding deep learning\, with an emphasis 
+ on self-supervised learning\, generative models\, transfer and meta-learn
+ ing\, and the optimization and theory of learned representations. Languag
+ e\, vision\, probabilistic modeling\, and reinforcement learning are subs
+ tantial areas\, rather than unrelated application-domain tags.\nAdditiona
+ l topics: Learning Theory & Statistical Foundations\, Probabilistic\, Cau
+ sal & Uncertainty ML\, Reinforcement Learning\, Natural Language Processi
+ ng & LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastr
+ ucture\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPap
+ ers\nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/FutureMeetings
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280502
+DTEND;VALUE=DATE:20280505
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2028 - Conferenc
+ e (estimated)
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /\nLocation: To be announced\nTopics: Robustness & Safety\, Privacy-prese
+ rving ML\, Fairness & Responsible AI\, Explainability & Interpretability\
+ nSize: M\nSubmission type: Paper-based / systematization of knowledge / p
+ osition papers\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 satml.org covers only SaTML 2027 (Reykjavik\, May 3-
+ 6\, 2027) and announces no 2028 host or dates. Main-meeting dates and the
+  Tuesday abstract (Sep 21)/paper (Sep 28) AoE deadlines are one-year same
+ -weekday proxies from SaTML 2027\; past meetings have ranged from Februar
+ y to May.\nScope: Security\, safety\, and trustworthiness of machine lear
+ ning. Characteristic work studies attacks and defenses\, privacy\, verifi
+ cation\, ML-system security\, fairness\, interpretability\, and trustwort
+ hy data curation. Theoretical\, empirical\, and applied papers must engag
+ e substantively with a safety or trustworthiness question\; merely using 
+ an ML model is insufficient.\nAdditional topics: Machine Learning\, ML Sy
+ stems & Infrastructure\nScope sources (2027): https://satml.org/call-for-
+ papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/
+LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

@@ -10,7 +10,7 @@
   BSD-2-Clause. [Source](https://github.com/Leaflet/Leaflet/tree/v1.9.4),
   license in `assets/vendor/Leaflet-LICENSE`. JavaScript/CSS are bundled into
   the generated page; its copyright banner is preserved.
-- Lucide static 0.468.0 download and globe icons: ISC license, including the MIT-licensed
+- Lucide static 0.468.0 download, globe and calendar-plus icons: ISC license, including the MIT-licensed
   Feather-derived material identified in `assets/vendor/Lucide-LICENSE`.
   [Source](https://github.com/lucide-icons/lucide/tree/0.468.0).
 - Natural Earth 1:110m land geography: public domain.

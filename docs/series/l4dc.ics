@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:L4DC (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Paper submission
+  deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
+  hour/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Acceptance notif
+ ication (cutoff time unannounced)
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
+  hour/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-late-breaking@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Late-breaking re
+ sults (eligibility to be announced) (cutoff time unannounced)
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
+  hour/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Camera-ready dea
+ dline (cutoff time unannounced)
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
+  hour/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270619
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Conference
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07
+URL:https://l4dc2027.control.ee.ethz.ch/home
+LOCATION:Stockholm\, Sweden
+END:VEVENT
+END:VCALENDAR

@@ -65,8 +65,10 @@ Preview supported recurrence without changing files:
 python3 scripts/rollover_editions.py --as-of YYYY-MM-DD
 ```
 
-The helper considers each series' latest tracked edition only after it has
-ended. `CADENCE_YEARS` is an explicit allowlist, not a recurrence guesser:
+The helper considers each series' latest tracked edition once that meeting has
+ended or once all of its fresh-submission routes have closed (ADR-039), so the
+next call can appear early as an estimated row. `CADENCE_YEARS` is an explicit
+allowlist, not a recurrence guesser:
 annual, biennial and IFAC SYSID's triennial patterns are configured separately.
 It skips already tracked next editions, advances by that cadence, and accounts
 for leap-day shifts. Irregular/joint/workshop series require individual review.
@@ -77,17 +79,21 @@ Only after checking cadence and official sources, append reviewed drafts with:
 python3 scripts/rollover_editions.py --as-of YYYY-MM-DD --write
 ```
 
-Important: `--write` appends **all** candidates in the preview, not a selected
-series, and writes canonical YAML. It never overwrites an existing edition ID.
-If only a subset is approved, add those reviewed records manually instead.
+Limit drafting to reviewed series with a repeatable `--series "Exact Key"`
+(for example `--series NeurIPS --series ICLR`); unknown keys are rejected.
+Drafts keep the prior edition's `last_checked`, so they stay in the review
+queue until their sources are actually checked.
+
+Important: without `--series`, `--write` appends **all** candidates in the
+preview and writes canonical YAML. It never overwrites an existing edition ID.
 Inspect the diff immediately, validate it and do not publish untouched drafts.
 
 The helper copies prior fields/milestones, shifts timing, marks estimates,
-sets location unannounced, removes `open_observed_on`, and may shift prior
-`opens_at`. That shifted opening is a proxy, not observed or confirmed evidence.
-Review/remove unsupported opening/track/publication assumptions, extensions,
-timezones and obsolete milestones; replace prior-edition links where a current
-call exists. Its automatic review date is not a substitute for actual review.
+sets location unannounced and removes `opens_at` and `open_observed_on`
+(openings are never guessed). Review/remove unsupported track/publication
+assumptions, extensions, timezones and schedule-only steps; point `website` at
+the series home page and replace prior-edition links where a current call
+exists. Set `last_checked` only after an actual official-source review.
 Shared scope/rank/family mappings are not duplicated into the edition.
 
 A defensible proxy can remain useful with estimated confidence. If recurrence
@@ -200,7 +206,8 @@ private session notes are not required for that workflow.
 Current repository: https://github.com/gon-uri/venue-radar
 Current Pages site: https://gon-uri.github.io/venue-radar/
 
-A future rename requires updating public links, Giscus's repository name,
+A future rename requires updating `SITE_URL` in `scripts/build_ics.py` (subscribe
+links, feed descriptions and the X share link use it), public links, Giscus's repository name,
 regression expectations and Git origin, then checking Pages configuration/live
 comments/downloads. Preserve Giscus IDs/mapping and the historical
 `scientific-conference-calendar` UID namespace. Download paths remain relative;

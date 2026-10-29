@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICIP (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icip-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:[Signal Processing][Computer Vision & Pattern Recognition] ICIP 202
+ 7 - Conference paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Image Proces
+ sing\nWebsite: https://2027.ieeeicip.org/\nSource URL: https://signalproc
+ essingsociety.org/events/2027-ieee-international-conference-image-process
+ ing-icip\nLocation: Singapore\nTopics: Signal Processing\, Computer Visio
+ n & Pattern Recognition\, Machine Learning\, Deep Representation Learning
+ \nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast che
+ cked date: 2026-10-07\nNotes: IEEE Signal Processing Society confirms Sin
+ gapore\, Nov 29-Dec 3\, and Mar 31 paper deadline. Exact submission hour/
+ timezone and opening are not announced\; 23:59 AoE is only an ordering pr
+ oxy and ICS uses an all-day event. Topics reflect the continuing image-pr
+ ocessing/learning scope in the prior CFP. Size XL is an editorial estimat
+ e.\nScope: Image and video processing across theory\, algorithms\, and im
+ aging systems. Characteristic problems include restoration\, enhancement\
+ , reconstruction\, registration\, compression\, quality assessment\, and 
+ visual analysis. Learning methods and generative models are relevant when
+  they advance image or video processing. The long list of imaging applica
+ tion domains is intentionally not converted into extra specialist-confere
+ nce tags.\nAdditional topics: \nScope sources (2026): https://2026.ieeeic
+ ip.org/topics/\nScope last checked: 2026-10-07\nOfficial deadline day\; e
+ xact cutoff hour/timezone is unannounced. Verify the organizer's submissi
+ on portal.
+URL:https://signalprocessingsociety.org/events/2027-ieee-international-conf
+ erence-image-processing-icip
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271129
+DTEND;VALUE=DATE:20271204
+SUMMARY:[Signal Processing][Computer Vision & Pattern Recognition] ICIP 202
+ 7 - Conference
+DESCRIPTION:Conference title: IEEE International Conference on Image Proces
+ sing\nWebsite: https://2027.ieeeicip.org/\nSource URL: https://2027.ieeei
+ cip.org/\nLocation: Singapore\nTopics: Signal Processing\, Computer Visio
+ n & Pattern Recognition\, Machine Learning\, Deep Representation Learning
+ \nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast che
+ cked date: 2026-10-07\nNotes: IEEE Signal Processing Society confirms Sin
+ gapore\, Nov 29-Dec 3\, and Mar 31 paper deadline. Exact submission hour/
+ timezone and opening are not announced\; 23:59 AoE is only an ordering pr
+ oxy and ICS uses an all-day event. Topics reflect the continuing image-pr
+ ocessing/learning scope in the prior CFP. Size XL is an editorial estimat
+ e.\nScope: Image and video processing across theory\, algorithms\, and im
+ aging systems. Characteristic problems include restoration\, enhancement\
+ , reconstruction\, registration\, compression\, quality assessment\, and 
+ visual analysis. Learning methods and generative models are relevant when
+  they advance image or video processing. The long list of imaging applica
+ tion domains is intentionally not converted into extra specialist-confere
+ nce tags.\nAdditional topics: \nScope sources (2026): https://2026.ieeeic
+ ip.org/topics/\nScope last checked: 2026-10-07
+URL:https://2027.ieeeicip.org/
+LOCATION:Singapore
+END:VEVENT
+END:VCALENDAR

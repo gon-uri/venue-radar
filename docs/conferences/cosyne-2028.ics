@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:COSYNE 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cosyne-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271019T115900Z
+DTEND:20271019T125900Z
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2028 
+ - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/abstracts
+ -submission\nLocation: To be announced\nTopics: Computational Neuroscienc
+ e\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation Lea
+ rning\nSize: L\nSubmission type: Abstract-based / talks highly selective\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 cosyne.org announces only COSYNE 2027 (Montreal\, Mar 11-16\, 2027)
+ \; no 2028 dates or host are published. Meeting dates (Mar 11-16) and the
+  Oct 18 abstract deadline are one-year proxies from COSYNE 2027.
+URL:https://www.cosyne.org/abstracts-submission
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280311
+DTEND;VALUE=DATE:20280317
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2028 
+ - Conference (estimated)
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
+ n: To be announced\nTopics: Computational Neuroscience\, EEG/MEG & Neural
+  Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nSubm
+ ission type: Abstract-based / talks highly selective\nConfidence: estimat
+ ed\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 cosyne.org ann
+ ounces only COSYNE 2027 (Montreal\, Mar 11-16\, 2027)\; no 2028 dates or 
+ host are published. Meeting dates (Mar 11-16) and the Oct 18 abstract dea
+ dline are one-year proxies from COSYNE 2027.
+URL:https://www.cosyne.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

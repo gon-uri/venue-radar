@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:COLT (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:colt-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270130T115900Z
+DTEND:20270130T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Submission deadline
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/cfp.html\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Stat
+ istical Foundations\, Machine Learning\nSize: M\nSubmission type: Paper-b
+ ased / theory-focused\nConfidence: confirmed\nLast checked date: 2026-10-
+ 28\nNotes: Official COLT 2027 pages (checked 2026-10-28) confirm Tokyo\, 
+ Jun 28-Jul 2\, 2027\, and a Jan 29\, 2027 AoE submission deadline\; submi
+ ssion instructions/portal are not yet posted. The proposal deadline is a 
+ proxy from COLT 2026's May 7 AoE call\; no 2027 call is published yet.\nS
+ cope: Theoretical foundations of learning at the intersection of computer
+  science\, statistics\, and applied mathematics. Characteristic work stud
+ ies learnability\, sample and computational complexity\, online learning\
+ , optimization\, bandits\, and generalization. Neural-network\, causal\, 
+ reinforcement-learning\, privacy\, and fairness papers belong here when t
+ he theoretical contribution is central.\nAdditional topics: Deep Represen
+ tation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement
+  Learning\, Privacy-preserving ML\, Fairness & Responsible AI\nScope sour
+ ces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last chec
+ ked: 2026-10-07
+URL:https://learningtheory.org/colt2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270507T115900Z
+DTEND:20270507T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Workshop/tutorial/community proposal deadline (estimated)
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2026/workshops.html\nLocation: Tokyo\, Japan\nTopics: Learning Theory 
+ & Statistical Foundations\, Machine Learning\nSize: M\nSubmission type: P
+ aper-based / theory-focused\nConfidence: estimated\nLast checked date: 20
+ 26-10-28\nNotes: Official COLT 2027 pages (checked 2026-10-28) confirm To
+ kyo\, Jun 28-Jul 2\, 2027\, and a Jan 29\, 2027 AoE submission deadline\;
+  submission instructions/portal are not yet posted. The proposal deadline
+  is a proxy from COLT 2026's May 7 AoE call\; no 2027 call is published y
+ et.\nScope: Theoretical foundations of learning at the intersection of co
+ mputer science\, statistics\, and applied mathematics. Characteristic wor
+ k studies learnability\, sample and computational complexity\, online lea
+ rning\, optimization\, bandits\, and generalization. Neural-network\, cau
+ sal\, reinforcement-learning\, privacy\, and fairness papers belong here 
+ when the theoretical contribution is central.\nAdditional topics: Deep Re
+ presentation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinfor
+ cement Learning\, Privacy-preserving ML\, Fairness & Responsible AI\nScop
+ e sources (2026): https://learningtheory.org/colt2026/cfp.html\nScope las
+ t checked: 2026-10-07
+URL:https://learningtheory.org/colt2026/workshops.html
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270703
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Conference
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nSubmission type: Paper-based / t
+ heory-focused\nConfidence: confirmed\nLast checked date: 2026-10-28\nNote
+ s: Official COLT 2027 pages (checked 2026-10-28) confirm Tokyo\, Jun 28-J
+ ul 2\, 2027\, and a Jan 29\, 2027 AoE submission deadline\; submission in
+ structions/portal are not yet posted. The proposal deadline is a proxy fr
+ om COLT 2026's May 7 AoE call\; no 2027 call is published yet.\nScope: Th
+ eoretical foundations of learning at the intersection of computer science
+ \, statistics\, and applied mathematics. Characteristic work studies lear
+ nability\, sample and computational complexity\, online learning\, optimi
+ zation\, bandits\, and generalization. Neural-network\, causal\, reinforc
+ ement-learning\, privacy\, and fairness papers belong here when the theor
+ etical contribution is central.\nAdditional topics: Deep Representation L
+ earning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learnin
+ g\, Privacy-preserving ML\, Fairness & Responsible AI\nScope sources (202
+ 6): https://learningtheory.org/colt2026/cfp.html\nScope last checked: 202
+ 6-10-07
+URL:https://learningtheory.org/colt2027/
+LOCATION:Tokyo\, Japan
+END:VEVENT
+END:VCALENDAR

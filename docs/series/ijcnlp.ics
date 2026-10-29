@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IJCNLP (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ijcnlp-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260526T115900Z
+DTEND:20260526T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ IJCNLP 2026 - ARR paper submission deadline
+DESCRIPTION:Conference title: Asia-Pacific ACL and International Joint Conf
+ erence on Natural Language Processing\nWebsite: https://2026.aaclnet.org/
+ \nSource URL: https://2026.aaclnet.org/calls/main_conference_papers/\nLoc
+ ation: Hengqin\, China\nTopics: Natural Language Processing & LLMs\, Deep
+  Representation Learning\, LLM Agents & Tool Use\, Information Retrieval 
+ & Search\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\nL
+ ast checked date: 2026-10-07\nNotes: Joint AACL-IJCNLP 2026 is one editio
+ n under the IJCNLP series\, not two conferences. ARR submissions and both
+  commitment rounds are closed. Joint-series recurrence is irregular\; do 
+ not automatically invent an annual next edition. Size is an editorial est
+ imate.\nScope: Computational linguistics and natural-language technologie
+ s in the Asia-Pacific community\, including multilingual and low-resource
+  NLP\, language modeling\, generation\, dialogue\, structured prediction\
+ , and evaluation. The 2026 edition is jointly organized as AACL-IJCNLP. A
+ lias identity is preserved without inheriting the separate ACL conference
+  ranking.\nAdditional topics: Cognitive Science & Computational Cognition
+ \, Explainability & Interpretability\, Fairness & Responsible AI\, Human-
+ AI Interaction & Deployment\nScope sources (2026): https://2026.aaclnet.o
+ rg/calls/main_conference_papers/\nScope last checked: 2026-10-07
+URL:https://2026.aaclnet.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnlp-2026-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260826T115900Z
+DTEND:20260826T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ IJCNLP 2026 - Second-round commitment of reviewed papers
+DESCRIPTION:Conference title: Asia-Pacific ACL and International Joint Conf
+ erence on Natural Language Processing\nWebsite: https://2026.aaclnet.org/
+ \nSource URL: https://2026.aaclnet.org/calls/main_conference_papers/\nLoc
+ ation: Hengqin\, China\nTopics: Natural Language Processing & LLMs\, Deep
+  Representation Learning\, LLM Agents & Tool Use\, Information Retrieval 
+ & Search\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\nL
+ ast checked date: 2026-10-07\nNotes: Joint AACL-IJCNLP 2026 is one editio
+ n under the IJCNLP series\, not two conferences. ARR submissions and both
+  commitment rounds are closed. Joint-series recurrence is irregular\; do 
+ not automatically invent an annual next edition. Size is an editorial est
+ imate.\nScope: Computational linguistics and natural-language technologie
+ s in the Asia-Pacific community\, including multilingual and low-resource
+  NLP\, language modeling\, generation\, dialogue\, structured prediction\
+ , and evaluation. The 2026 edition is jointly organized as AACL-IJCNLP. A
+ lias identity is preserved without inheriting the separate ACL conference
+  ranking.\nAdditional topics: Cognitive Science & Computational Cognition
+ \, Explainability & Interpretability\, Fairness & Responsible AI\, Human-
+ AI Interaction & Deployment\nScope sources (2026): https://2026.aaclnet.o
+ rg/calls/main_conference_papers/\nScope last checked: 2026-10-07
+URL:https://2026.aaclnet.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnlp-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261003T115900Z
+DTEND:20261003T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ IJCNLP 2026 - Extended camera-ready deadline
+DESCRIPTION:Conference title: Asia-Pacific ACL and International Joint Conf
+ erence on Natural Language Processing\nWebsite: https://2026.aaclnet.org/
+ \nSource URL: https://2026.aaclnet.org/calls/main_conference_papers/\nLoc
+ ation: Hengqin\, China\nTopics: Natural Language Processing & LLMs\, Deep
+  Representation Learning\, LLM Agents & Tool Use\, Information Retrieval 
+ & Search\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\nL
+ ast checked date: 2026-10-07\nNotes: Joint AACL-IJCNLP 2026 is one editio
+ n under the IJCNLP series\, not two conferences. ARR submissions and both
+  commitment rounds are closed. Joint-series recurrence is irregular\; do 
+ not automatically invent an annual next edition. Size is an editorial est
+ imate.\nScope: Computational linguistics and natural-language technologie
+ s in the Asia-Pacific community\, including multilingual and low-resource
+  NLP\, language modeling\, generation\, dialogue\, structured prediction\
+ , and evaluation. The 2026 edition is jointly organized as AACL-IJCNLP. A
+ lias identity is preserved without inheriting the separate ACL conference
+  ranking.\nAdditional topics: Cognitive Science & Computational Cognition
+ \, Explainability & Interpretability\, Fairness & Responsible AI\, Human-
+ AI Interaction & Deployment\nScope sources (2026): https://2026.aaclnet.o
+ rg/calls/main_conference_papers/\nScope last checked: 2026-10-07
+URL:https://2026.aaclnet.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnlp-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261111
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ IJCNLP 2026 - Conference
+DESCRIPTION:Conference title: Asia-Pacific ACL and International Joint Conf
+ erence on Natural Language Processing\nWebsite: https://2026.aaclnet.org/
+ \nSource URL: https://2026.aaclnet.org/\nLocation: Hengqin\, China\nTopic
+ s: Natural Language Processing & LLMs\, Deep Representation Learning\, LL
+ M Agents & Tool Use\, Information Retrieval & Search\nSize: L\nSubmission
+  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-07\
+ nNotes: Joint AACL-IJCNLP 2026 is one edition under the IJCNLP series\, n
+ ot two conferences. ARR submissions and both commitment rounds are closed
+ . Joint-series recurrence is irregular\; do not automatically invent an a
+ nnual next edition. Size is an editorial estimate.\nScope: Computational 
+ linguistics and natural-language technologies in the Asia-Pacific communi
+ ty\, including multilingual and low-resource NLP\, language modeling\, ge
+ neration\, dialogue\, structured prediction\, and evaluation. The 2026 ed
+ ition is jointly organized as AACL-IJCNLP. Alias identity is preserved wi
+ thout inheriting the separate ACL conference ranking.\nAdditional topics:
+  Cognitive Science & Computational Cognition\, Explainability & Interpret
+ ability\, Fairness & Responsible AI\, Human-AI Interaction & Deployment\n
+ Scope sources (2026): https://2026.aaclnet.org/calls/main_conference_pape
+ rs/\nScope last checked: 2026-10-07
+URL:https://2026.aaclnet.org/
+LOCATION:Hengqin\, China
+END:VEVENT
+END:VCALENDAR

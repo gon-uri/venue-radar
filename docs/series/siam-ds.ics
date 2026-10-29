@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SIAM DS (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:siam-ds-2027-deadline-minisymposium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261027T035900Z
+DTEND:20261027T045900Z
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] SIA
+ M DS 2027 - Minisymposium proposals
+DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical 
+ Systems\nWebsite: https://www.siam.org/conferences-events/siam-conference
+ s/ds27/\nSource URL: https://www.siam.org/conferences-events/siam-confere
+ nces/ds27/submissions/\nLocation: Atlanta\, Georgia\, USA\nTopics: Nonlin
+ ear Dynamics & Chaos\, Complex Systems & Network Science\, System Identif
+ ication & Data-driven Dynamics\, Machine Learning\nSize: L\nSubmission ty
+ pe: Abstract-based\nConfidence: confirmed\nLast checked date: 2026-10-06\
+ nNotes: Biennial SIAM dynamical-systems meeting. Submissions are presenta
+ tion abstracts\, not archival full papers. Official deadlines specify 11:
+ 59 pm Eastern Time\, accounting for daylight saving. Size is an editorial
+  category.
+URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
+ ns/
+END:VEVENT
+BEGIN:VEVENT
+UID:siam-ds-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261124T045900Z
+DTEND:20261124T055900Z
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] SIA
+ M DS 2027 - Contributed lecture and poster abstracts
+DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical 
+ Systems\nWebsite: https://www.siam.org/conferences-events/siam-conference
+ s/ds27/\nSource URL: https://www.siam.org/conferences-events/siam-confere
+ nces/ds27/submissions/\nLocation: Atlanta\, Georgia\, USA\nTopics: Nonlin
+ ear Dynamics & Chaos\, Complex Systems & Network Science\, System Identif
+ ication & Data-driven Dynamics\, Machine Learning\nSize: L\nSubmission ty
+ pe: Abstract-based\nConfidence: confirmed\nLast checked date: 2026-10-06\
+ nNotes: Biennial SIAM dynamical-systems meeting. Submissions are presenta
+ tion abstracts\, not archival full papers. Official deadlines specify 11:
+ 59 pm Eastern Time\, accounting for daylight saving. Size is an editorial
+  category.
+URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
+ ns/
+END:VEVENT
+BEGIN:VEVENT
+UID:siam-ds-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270528
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] SIA
+ M DS 2027 - Conference
+DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical 
+ Systems\nWebsite: https://www.siam.org/conferences-events/siam-conference
+ s/ds27/\nSource URL: https://www.siam.org/conferences-events/siam-confere
+ nces/ds27/\nLocation: Atlanta\, Georgia\, USA\nTopics: Nonlinear Dynamics
+  & Chaos\, Complex Systems & Network Science\, System Identification & Da
+ ta-driven Dynamics\, Machine Learning\nSize: L\nSubmission type: Abstract
+ -based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Bien
+ nial SIAM dynamical-systems meeting. Submissions are presentation abstrac
+ ts\, not archival full papers. Official deadlines specify 11:59 pm Easter
+ n Time\, accounting for daylight saving. Size is an editorial category.
+URL:https://www.siam.org/conferences-events/siam-conferences/ds27/
+LOCATION:Atlanta\, Georgia\, USA
+END:VEVENT
+END:VCALENDAR

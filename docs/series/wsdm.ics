@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WSDM (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:wsdm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260818T115900Z
+DTEND:20260818T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] WSDM 2027 - Abstract
+  submission deadline
+DESCRIPTION:Conference title: ACM International Conference on Web Search an
+ d Data Mining\nWebsite: https://www.wsdm-conference.org/2027/\nSource URL
+ : https://www.wsdm-conference.org/2027/cffp.html\nLocation: Hong Kong\, C
+ hina\nTopics: Data Mining & Data Science\, Machine Learning\, Fairness & 
+ Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nN
+ otes: Official WSDM 2027 pages list Hong Kong (Cordis)\, Feb 15-19\, and 
+ AoE deadlines: full-paper abstract Aug 17 and paper Aug 24\, 2026 (closed
+ \; notification Nov 2)\, short papers (up to 4 pages\, new work) Nov 17\,
+  and doctoral consortium (single-author student packet) Nov 12\, 2026. De
+ mo papers closed Oct 15\, 2026.\nScope: Web search\, ranking\, recommenda
+ tion and mining of web and social data. Characteristic extensions include
+  large-scale graph analysis\, conversational retrieval\, foundation-model
+  and agentic web systems\, and fairness and privacy in information access
+ . The broad emerging-applications inventory is not treated as evidence th
+ at WSDM is a specialist healthcare or climate venue.\nAdditional topics: 
+ Information Retrieval & Search\, Recommender Systems\, Graphs & Graph Lea
+ rning\, LLM Agents & Tool Use\, Natural Language Processing & LLMs\nScope
+  sources (2027): https://www.wsdm-conference.org/2027/cffp.html\nScope la
+ st checked: 2026-10-07
+URL:https://www.wsdm-conference.org/2027/cffp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:wsdm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260825T115900Z
+DTEND:20260825T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] WSDM 2027 - Paper su
+ bmission deadline
+DESCRIPTION:Conference title: ACM International Conference on Web Search an
+ d Data Mining\nWebsite: https://www.wsdm-conference.org/2027/\nSource URL
+ : https://www.wsdm-conference.org/2027/cffp.html\nLocation: Hong Kong\, C
+ hina\nTopics: Data Mining & Data Science\, Machine Learning\, Fairness & 
+ Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nN
+ otes: Official WSDM 2027 pages list Hong Kong (Cordis)\, Feb 15-19\, and 
+ AoE deadlines: full-paper abstract Aug 17 and paper Aug 24\, 2026 (closed
+ \; notification Nov 2)\, short papers (up to 4 pages\, new work) Nov 17\,
+  and doctoral consortium (single-author student packet) Nov 12\, 2026. De
+ mo papers closed Oct 15\, 2026.\nScope: Web search\, ranking\, recommenda
+ tion and mining of web and social data. Characteristic extensions include
+  large-scale graph analysis\, conversational retrieval\, foundation-model
+  and agentic web systems\, and fairness and privacy in information access
+ . The broad emerging-applications inventory is not treated as evidence th
+ at WSDM is a specialist healthcare or climate venue.\nAdditional topics: 
+ Information Retrieval & Search\, Recommender Systems\, Graphs & Graph Lea
+ rning\, LLM Agents & Tool Use\, Natural Language Processing & LLMs\nScope
+  sources (2027): https://www.wsdm-conference.org/2027/cffp.html\nScope la
+ st checked: 2026-10-07
+URL:https://www.wsdm-conference.org/2027/cffp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:wsdm-2027-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261113T115900Z
+DTEND:20261113T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] WSDM 2027 - Doctoral
+  consortium application deadline
+DESCRIPTION:Conference title: ACM International Conference on Web Search an
+ d Data Mining\nWebsite: https://www.wsdm-conference.org/2027/\nSource URL
+ : https://www.wsdm-conference.org/2027/cfdc.html\nLocation: Hong Kong\, C
+ hina\nTopics: Data Mining & Data Science\, Machine Learning\, Fairness & 
+ Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nN
+ otes: Official WSDM 2027 pages list Hong Kong (Cordis)\, Feb 15-19\, and 
+ AoE deadlines: full-paper abstract Aug 17 and paper Aug 24\, 2026 (closed
+ \; notification Nov 2)\, short papers (up to 4 pages\, new work) Nov 17\,
+  and doctoral consortium (single-author student packet) Nov 12\, 2026. De
+ mo papers closed Oct 15\, 2026.\nScope: Web search\, ranking\, recommenda
+ tion and mining of web and social data. Characteristic extensions include
+  large-scale graph analysis\, conversational retrieval\, foundation-model
+  and agentic web systems\, and fairness and privacy in information access
+ . The broad emerging-applications inventory is not treated as evidence th
+ at WSDM is a specialist healthcare or climate venue.\nAdditional topics: 
+ Information Retrieval & Search\, Recommender Systems\, Graphs & Graph Lea
+ rning\, LLM Agents & Tool Use\, Natural Language Processing & LLMs\nScope
+  sources (2027): https://www.wsdm-conference.org/2027/cffp.html\nScope la
+ st checked: 2026-10-07
+URL:https://www.wsdm-conference.org/2027/cfdc.html
+END:VEVENT
+BEGIN:VEVENT
+UID:wsdm-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261118T115900Z
+DTEND:20261118T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] WSDM 2027 - Short pa
+ per submission deadline
+DESCRIPTION:Conference title: ACM International Conference on Web Search an
+ d Data Mining\nWebsite: https://www.wsdm-conference.org/2027/\nSource URL
+ : https://www.wsdm-conference.org/2027/cfsp.html\nLocation: Hong Kong\, C
+ hina\nTopics: Data Mining & Data Science\, Machine Learning\, Fairness & 
+ Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nN
+ otes: Official WSDM 2027 pages list Hong Kong (Cordis)\, Feb 15-19\, and 
+ AoE deadlines: full-paper abstract Aug 17 and paper Aug 24\, 2026 (closed
+ \; notification Nov 2)\, short papers (up to 4 pages\, new work) Nov 17\,
+  and doctoral consortium (single-author student packet) Nov 12\, 2026. De
+ mo papers closed Oct 15\, 2026.\nScope: Web search\, ranking\, recommenda
+ tion and mining of web and social data. Characteristic extensions include
+  large-scale graph analysis\, conversational retrieval\, foundation-model
+  and agentic web systems\, and fairness and privacy in information access
+ . The broad emerging-applications inventory is not treated as evidence th
+ at WSDM is a specialist healthcare or climate venue.\nAdditional topics: 
+ Information Retrieval & Search\, Recommender Systems\, Graphs & Graph Lea
+ rning\, LLM Agents & Tool Use\, Natural Language Processing & LLMs\nScope
+  sources (2027): https://www.wsdm-conference.org/2027/cffp.html\nScope la
+ st checked: 2026-10-07
+URL:https://www.wsdm-conference.org/2027/cfsp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:wsdm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270220
+SUMMARY:[Data Mining & Data Science][Machine Learning] WSDM 2027 - Conferen
+ ce
+DESCRIPTION:Conference title: ACM International Conference on Web Search an
+ d Data Mining\nWebsite: https://www.wsdm-conference.org/2027/\nSource URL
+ : https://www.wsdm-conference.org/2027/\nLocation: Hong Kong\, China\nTop
+ ics: Data Mining & Data Science\, Machine Learning\, Fairness & Responsib
+ le AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Off
+ icial WSDM 2027 pages list Hong Kong (Cordis)\, Feb 15-19\, and AoE deadl
+ ines: full-paper abstract Aug 17 and paper Aug 24\, 2026 (closed\; notifi
+ cation Nov 2)\, short papers (up to 4 pages\, new work) Nov 17\, and doct
+ oral consortium (single-author student packet) Nov 12\, 2026. Demo papers
+  closed Oct 15\, 2026.\nScope: Web search\, ranking\, recommendation and 
+ mining of web and social data. Characteristic extensions include large-sc
+ ale graph analysis\, conversational retrieval\, foundation-model and agen
+ tic web systems\, and fairness and privacy in information access. The bro
+ ad emerging-applications inventory is not treated as evidence that WSDM i
+ s a specialist healthcare or climate venue.\nAdditional topics: Informati
+ on Retrieval & Search\, Recommender Systems\, Graphs & Graph Learning\, L
+ LM Agents & Tool Use\, Natural Language Processing & LLMs\nScope sources 
+ (2027): https://www.wsdm-conference.org/2027/cffp.html\nScope last checke
+ d: 2026-10-07
+URL:https://www.wsdm-conference.org/2027/
+LOCATION:Hong Kong\, China
+END:VEVENT
+END:VCALENDAR

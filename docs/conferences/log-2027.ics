@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoG 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:log-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270729T115900Z
+DTEND:20270729T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Abstrac
+ t registration deadline (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: To be announced\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Graphs & Graph Learning\, Learning Theory & Statistical Foundations
+ \nSize: M\nSubmission type: Paper-based / non-archival extended abstracts
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and an
+ nounces no 2027 host or dates. Meeting and abstract/paper AoE dates are o
+ ne-year same-weekday proxies from LoG 2026\, based on its original Jul 29
+ /Aug 1 deadlines rather than the later Aug 5/7 extension.\nScope: Learnin
+ g on graphs and geometry: graph neural networks\, equivariant models\, gr
+ aph kernels\, geometric and graph generative models\, and statistical the
+ ory for structured data. Graph signal processing\, causal graph models\, 
+ robustness\, and scalable graph-learning infrastructure are meaningful ex
+ tensions. A graph or geometric contribution should remain central\, even 
+ in an application such as language or molecular modeling.\nAdditional top
+ ics: Complex Systems & Network Science\, Probabilistic\, Causal & Uncerta
+ inty ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastr
+ ucture\nScope sources (2026): https://logconference.org/cfp/\nScope last 
+ checked: 2026-10-07
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270801T115900Z
+DTEND:20270801T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Paper /
+  extended abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: To be announced\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Graphs & Graph Learning\, Learning Theory & Statistical Foundations
+ \nSize: M\nSubmission type: Paper-based / non-archival extended abstracts
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and an
+ nounces no 2027 host or dates. Meeting and abstract/paper AoE dates are o
+ ne-year same-weekday proxies from LoG 2026\, based on its original Jul 29
+ /Aug 1 deadlines rather than the later Aug 5/7 extension.\nScope: Learnin
+ g on graphs and geometry: graph neural networks\, equivariant models\, gr
+ aph kernels\, geometric and graph generative models\, and statistical the
+ ory for structured data. Graph signal processing\, causal graph models\, 
+ robustness\, and scalable graph-learning infrastructure are meaningful ex
+ tensions. A graph or geometric contribution should remain central\, even 
+ in an application such as language or molecular modeling.\nAdditional top
+ ics: Complex Systems & Network Science\, Probabilistic\, Causal & Uncerta
+ inty ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastr
+ ucture\nScope sources (2026): https://logconference.org/cfp/\nScope last 
+ checked: 2026-10-07
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271122
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Confere
+ nce (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
+ To be announced\nTopics: Machine Learning\, Deep Representation Learning\
+ , Graphs & Graph Learning\, Learning Theory & Statistical Foundations\nSi
+ ze: M\nSubmission type: Paper-based / non-archival extended abstracts\nCo
+ nfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-
+ 29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and announ
+ ces no 2027 host or dates. Meeting and abstract/paper AoE dates are one-y
+ ear same-weekday proxies from LoG 2026\, based on its original Jul 29/Aug
+  1 deadlines rather than the later Aug 5/7 extension.\nScope: Learning on
+  graphs and geometry: graph neural networks\, equivariant models\, graph 
+ kernels\, geometric and graph generative models\, and statistical theory 
+ for structured data. Graph signal processing\, causal graph models\, robu
+ stness\, and scalable graph-learning infrastructure are meaningful extens
+ ions. A graph or geometric contribution should remain central\, even in a
+ n application such as language or molecular modeling.\nAdditional topics:
+  Complex Systems & Network Science\, Probabilistic\, Causal & Uncertainty
+  ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastructu
+ re\nScope sources (2026): https://logconference.org/cfp/\nScope last chec
+ ked: 2026-10-07
+URL:https://logconference.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

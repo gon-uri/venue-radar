@@ -4,6 +4,11 @@ PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Nonlinear Dynamics & Chaos
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:dynamics-days-asia-pacific-2024-conference@scientific-conference-calend
  ar
@@ -573,20 +578,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -755,30 +761,32 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
 SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
- IFAC SYSID 2027 - Conference paper submission (cutoff time unannounced)
+ IFAC SYSID 2027 - Conference paper submission (extended) (cutoff time una
+ nnounced)
 DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
  /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -1082,20 +1090,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -1112,20 +1121,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -1163,20 +1173,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -1302,6 +1313,35 @@ DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
 URL:https://dde-2026.sci-meet.net/important-dates
 END:VEVENT
 BEGIN:VEVENT
+UID:nolta-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2027 - Regular and special-session papers (estimated) (cutoff time una
+ nnounced)
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://www.ieice.org/nolta/conferences/sym
+ posium/\nSource URL: https://nolta2026.org/\nLocation: To be announced\nT
+ opics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\, D
+ eep Representation Learning\, Control & Robotics\nSize: M\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 the official NOLTA 2026 site (Grenoble\, Nov 17-20\,
+  2026) announces no 2027 host or dates. Meeting dates and the paper deadl
+ ine are same-weekday one-year proxies from NOLTA 2026\; the deadline foll
+ ows its original Apr 30 date\, not the May 20 final extension.\nScope: No
+ nlinear theory and its applications\, centered on chaos\, bifurcations\, 
+ oscillations\, synchronization\, nonlinear circuits\, and complex network
+ s. Neural computation\, evolutionary algorithms\, control\, and signal pr
+ ocessing connect to this nonlinear-systems focus. Individual application 
+ examples are not taken as additional specialist identities.\nAdditional t
+ opics: Signal Processing\, Evolutionary Computation & Optimization\nScope
+  sources (2026): https://nolta2026.org/\nScope last checked: 2026-10-07\n
+ Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
+  the organizer's submission portal.
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-cdc-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270430
@@ -1375,19 +1415,20 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  /conferences.ifac-control.org/sysid2027/\nLocation: Lyon\, France\nTopics
  : System Identification & Data-driven Dynamics\, Control & Robotics\, Tim
  e Series & Sequential Data\, Machine Learning\nSize: M\nSubmission type: 
- Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes:
-  Triennial TC 1.1 symposium. Regular papers\, joint journal papers\, and 
- dissemination/discussion routes have distinct requirements\; consult the 
- call. Published deadline days are confirmed but cutoff hours use estimate
- d end-of-day AoE. Size is an editorial category.\nScope: System identific
- ation and data-driven modeling for dynamical systems and control. Charact
- eristic themes include nonlinear identification\, model reduction\, ident
- ification software and benchmarks\, learning across systems\, and dynamic
-  networks. Application tracks remain grounded in identifying or learning 
- dynamical models\, rather than becoming general-purpose domain conference
- s.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Systems & Net
- work Science\nScope sources (2027): https://conferences.ifac-control.org/
- sysid2027/participate/\nScope last checked: 2026-10-07
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes:
+  Triennial TC 1.1 symposium. On 2026-10-29 the participate page strikes o
+ ut Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1 to Oct 11 f
+ or joint journal papers). The submission system opened 1 June 2026 (day o
+ nly\, no time). Deadline days are official\; cutoff hours use provisional
+  end-of-day AoE. Size is an editorial category.\nScope: System identifica
+ tion and data-driven modeling for dynamical systems and control. Characte
+ ristic themes include nonlinear identification\, model reduction\, identi
+ fication software and benchmarks\, learning across systems\, and dynamic 
+ networks. Application tracks remain grounded in identifying or learning d
+ ynamical models\, rather than becoming general-purpose domain conferences
+ .\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Systems & Netw
+ ork Science\nScope sources (2027): https://conferences.ifac-control.org/s
+ ysid2027/participate/\nScope last checked: 2026-10-07
 URL:https://conferences.ifac-control.org/sysid2027/
 LOCATION:Lyon\, France
 END:VEVENT
@@ -1441,6 +1482,65 @@ URL:https://www.dynamicsdays.org/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:complex-networks-2027-deadline-extended-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Extended abstract submission deadline (independent rout
+ e) (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-full-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:ccs-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270917
@@ -1461,6 +1561,146 @@ URL:https://ccs27.pwr.edu.pl/
 LOCATION:Wroclaw\, Poland
 END:VEVENT
 BEGIN:VEVENT
+UID:complenet-2028-deadline-extended-abstract@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Extended abstract submission deadline (independent route) (est
+ imated)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: To be announced\nTopics: Complex Systems & Net
+ work Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Com
+ putational Neuroscience\nSize: M\nSubmission type: Full/short papers + ex
+ tended abstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Ro
+ chester\, Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts ro
+ tate yearly. Meeting and the shared AoE long-paper\, short-paper and abst
+ ract deadline are one-year same-weekday proxies from CompleNet 2027.\nSco
+ pe: Network science across mathematical\, biological\, technological and 
+ social systems\, with characteristic interests in network dynamics\, comm
+ unity structure\, temporal and multilayer networks\, network neuroscience
+  and learning on networks. Long and short reviewed papers are distinct fr
+ om abstract-only presentations.\nAdditional topics: Time Series & Sequent
+ ial Data\, Data Mining & Data Science\, Machine Learning\nScope sources (
+ 2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-10-
+ 08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Long-paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: To be announced\nTopics: Complex Systems & Net
+ work Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Com
+ putational Neuroscience\nSize: M\nSubmission type: Full/short papers + ex
+ tended abstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Ro
+ chester\, Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts ro
+ tate yearly. Meeting and the shared AoE long-paper\, short-paper and abst
+ ract deadline are one-year same-weekday proxies from CompleNet 2027.\nSco
+ pe: Network science across mathematical\, biological\, technological and 
+ social systems\, with characteristic interests in network dynamics\, comm
+ unity structure\, temporal and multilayer networks\, network neuroscience
+  and learning on networks. Long and short reviewed papers are distinct fr
+ om abstract-only presentations.\nAdditional topics: Time Series & Sequent
+ ial Data\, Data Mining & Data Science\, Machine Learning\nScope sources (
+ 2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-10-
+ 08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Short-paper submission deadline (independent route) (estimated
+ )
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: To be announced\nTopics: Complex Systems & Net
+ work Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Com
+ putational Neuroscience\nSize: M\nSubmission type: Full/short papers + ex
+ tended abstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Ro
+ chester\, Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts ro
+ tate yearly. Meeting and the shared AoE long-paper\, short-paper and abst
+ ract deadline are one-year same-weekday proxies from CompleNet 2027.\nSco
+ pe: Network science across mathematical\, biological\, technological and 
+ social systems\, with characteristic interests in network dynamics\, comm
+ unity structure\, temporal and multilayer networks\, network neuroscience
+  and learning on networks. Long and short reviewed papers are distinct fr
+ om abstract-only presentations.\nAdditional topics: Time Series & Sequent
+ ial Data\, Data Mining & Data Science\, Machine Learning\nScope sources (
+ 2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-10-
+ 08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:nolta-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271120
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://www.ieice.org/nolta/conferences/sym
+ posium/\nSource URL: https://nolta2026.org/\nLocation: To be announced\nT
+ opics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\, D
+ eep Representation Learning\, Control & Robotics\nSize: M\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 the official NOLTA 2026 site (Grenoble\, Nov 17-20\,
+  2026) announces no 2027 host or dates. Meeting dates and the paper deadl
+ ine are same-weekday one-year proxies from NOLTA 2026\; the deadline foll
+ ows its original Apr 30 date\, not the May 20 final extension.\nScope: No
+ nlinear theory and its applications\, centered on chaos\, bifurcations\, 
+ oscillations\, synchronization\, nonlinear circuits\, and complex network
+ s. Neural computation\, evolutionary algorithms\, control\, and signal pr
+ ocessing connect to this nonlinear-systems focus. Individual application 
+ examples are not taken as additional specialist identities.\nAdditional t
+ opics: Signal Processing\, Evolutionary Computation & Optimization\nScope
+  sources (2026): https://nolta2026.org/\nScope last checked: 2026-10-07
+URL:https://nolta2026.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271204
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-cdc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271214
@@ -1479,5 +1719,92 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  \, 2027 (day only\, no time). Size is an editorial category.
 URL:https://cdc2027.ieeecss.org/
 LOCATION:Lisbon\, Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280311
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/\nLocation: To be announced\nTopics: Complex Systems & Network Sci
+ ence\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Computation
+ al Neuroscience\nSize: M\nSubmission type: Full/short papers + extended a
+ bstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As
+  of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Rochester\
+ , Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts rotate yea
+ rly. Meeting and the shared AoE long-paper\, short-paper and abstract dea
+ dline are one-year same-weekday proxies from CompleNet 2027.\nScope: Netw
+ ork science across mathematical\, biological\, technological and social s
+ ystems\, with characteristic interests in network dynamics\, community st
+ ructure\, temporal and multilayer networks\, network neuroscience and lea
+ rning on networks. Long and short reviewed papers are distinct from abstr
+ act-only presentations.\nAdditional topics: Time Series & Sequential Data
+ \, Data Mining & Data Science\, Machine Learning\nScope sources (2027): h
+ ttps://complenet.github.io/cfp.html\nScope last checked: 2026-10-08
+URL:https://complenet.github.io/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-lac-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280707
+DTEND;VALUE=DATE:20280708
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2028 - Contributed abstract submission deadline (estimated
+ ) (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://dynamicsdays.info/lac\nSource URL: https://web.archive
+ .org/web/20260521082858/https://fisica.ufpr.br/DDaysLAC2026/index.html\nL
+ ocation: To be announced\nTopics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\, Time Series & Sequential Data\, Computational N
+ euroscience\nSize: M\nSubmission type: Abstract-based\nConfidence: estima
+ ted\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 neither the D
+ ynamics Days LAC 2026 site nor the dynamicsdays.info LAC page announces a
+  2028 host or dates\; the 2026 site calls the series biennial. Meeting (S
+ un-Fri) and abstract dates are two-year same-weekday proxies from the 202
+ 6 edition (Curitiba\, Dec 6-11)\, using its original July 10 abstract dea
+ dline rather than the October 10 extension.\nScope: Nonlinear and complex
+  systems across disciplines\, including chaos\, synchronization\, network
+ s\, time series\, neurodynamics and learning-based modeling. The Latin Am
+ erican and Caribbean meeting supports contributed scientific talks and po
+ sters through abstracts\, with an explicit interest in cross-disciplinary
+  nonlinear science.\nAdditional topics: Machine Learning\, Graphs & Graph
+  Learning\, Control & Robotics\nScope sources (2026): https://fisica.ufpr
+ .br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08\nOfficial dea
+ dline day\; exact cutoff hour/timezone is unannounced. Verify the organiz
+ er's submission portal.
+URL:https://web.archive.org/web/20260521082858/https://fisica.ufpr.br/DDays
+ LAC2026/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-lac-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281203
+DTEND;VALUE=DATE:20281209
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2028 - Conference (estimated)
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://dynamicsdays.info/lac\nSource URL: https://dynamicsday
+ s.info/lac\nLocation: To be announced\nTopics: Nonlinear Dynamics & Chaos
+ \, Complex Systems & Network Science\, Time Series & Sequential Data\, Co
+ mputational Neuroscience\nSize: M\nSubmission type: Abstract-based\nConfi
+ dence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 
+ neither the Dynamics Days LAC 2026 site nor the dynamicsdays.info LAC pag
+ e announces a 2028 host or dates\; the 2026 site calls the series biennia
+ l. Meeting (Sun-Fri) and abstract dates are two-year same-weekday proxies
+  from the 2026 edition (Curitiba\, Dec 6-11)\, using its original July 10
+  abstract deadline rather than the October 10 extension.\nScope: Nonlinea
+ r and complex systems across disciplines\, including chaos\, synchronizat
+ ion\, networks\, time series\, neurodynamics and learning-based modeling.
+  The Latin American and Caribbean meeting supports contributed scientific
+  talks and posters through abstracts\, with an explicit interest in cross
+ -disciplinary nonlinear science.\nAdditional topics: Machine Learning\, G
+ raphs & Graph Learning\, Control & Robotics\nScope sources (2026): https:
+ //fisica.ufpr.br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08
+URL:https://dynamicsdays.info/lac
+LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

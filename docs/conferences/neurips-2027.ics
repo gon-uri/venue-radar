@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NeurIPS 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:neurips-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270505T115900Z
+DTEND:20270505T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Abs
+ tract submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270507T115900Z
+DTEND:20270507T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Ful
+ l paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271206
+DTEND;VALUE=DATE:20271213
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Con
+ ference (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/FutureMeetings\nLocation: Europe (city to be announced)\nTopics: 
+ Machine Learning\, Deep Representation Learning\, Time Series & Sequentia
+ l Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: P
+ aper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: 
+ As of 2026-10-29 the official NeurIPS future-meetings page lists 2027 onl
+ y as Europe\; no host city\, dates or call is published (neurips.cc/Confe
+ rences/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract
+ /May 6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nSco
+ pe: Broad research in machine learning\, especially deep and generative m
+ odels\, statistical foundations\, optimization\, probabilistic inference\
+ , and learning for decision-making. Language\, vision\, and scalable ML s
+ ystems are important research communities. Interdisciplinary applications
+  should contribute insight of wider interest to the machine-learning comm
+ unity.\nAdditional topics: Learning Theory & Statistical Foundations\, Pr
+ obabilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural 
+ Language Processing & LLMs\, Computer Vision & Pattern Recognition\, ML S
+ ystems & Infrastructure\nScope sources (2026): https://neurips.cc/Confere
+ nces/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/FutureMeetings
+LOCATION:Europe (city to be announced)
+END:VEVENT
+END:VCALENDAR

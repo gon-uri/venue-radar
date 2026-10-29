@@ -1,0 +1,154 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CHI (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:chi-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260911T115900Z
+DTEND:20260911T125900Z
+SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
+ ty] CHI 2027 - Papers deadline
+DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
+ ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
+ 27.acm.org/authors/papers/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTo
+ pics: Human-AI Interaction & Deployment\, Explainability & Interpretabili
+ ty\, Fairness & Responsible AI\nSize: XL\nSubmission type: Paper-based / 
+ HCI-focused\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes:
+  Official CHI 2027 pages (all deadlines AoE) confirm Pittsburgh\, May 10-
+ 14 at the David L. Lawrence Convention Center. Papers closed Sep 10 with 
+ no abstract deadline. Posters\, interactive demos and SRC are due Jan 21\
+ , 2027 and journal presentations Jan 14\; several track pages note a 24-h
+ our edit grace period that is not an extension.
+URL:https://chi2027.acm.org/authors/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-deadline-panel-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261120T115900Z
+DTEND:20261120T125900Z
+SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
+ ty] CHI 2027 - Panel proposal submission
+DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
+ ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
+ 27.acm.org/authors/panels/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTo
+ pics: Human-AI Interaction & Deployment\, Explainability & Interpretabili
+ ty\, Fairness & Responsible AI\nSize: XL\nSubmission type: Paper-based / 
+ HCI-focused\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes:
+  Official CHI 2027 pages (all deadlines AoE) confirm Pittsburgh\, May 10-
+ 14 at the David L. Lawrence Convention Center. Papers closed Sep 10 with 
+ no abstract deadline. Posters\, interactive demos and SRC are due Jan 21\
+ , 2027 and journal presentations Jan 14\; several track pages note a 24-h
+ our edit grace period that is not an extension.
+URL:https://chi2027.acm.org/authors/panels/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-deadline-resubmission@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261204T115900Z
+DTEND:20261204T125900Z
+SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
+ ty] CHI 2027 - Papers revise-and-resubmit deadline (papers selected for r
+ evision)
+DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
+ ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
+ 27.acm.org/authors/papers/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTo
+ pics: Human-AI Interaction & Deployment\, Explainability & Interpretabili
+ ty\, Fairness & Responsible AI\nSize: XL\nSubmission type: Paper-based / 
+ HCI-focused\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes:
+  Official CHI 2027 pages (all deadlines AoE) confirm Pittsburgh\, May 10-
+ 14 at the David L. Lawrence Convention Center. Papers closed Sep 10 with 
+ no abstract deadline. Posters\, interactive demos and SRC are due Jan 21\
+ , 2027 and journal presentations Jan 14\; several track pages note a 24-h
+ our edit grace period that is not an extension.
+URL:https://chi2027.acm.org/authors/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261218T115900Z
+DTEND:20261218T125900Z
+SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
+ ty] CHI 2027 - Papers final notification
+DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
+ ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
+ 27.acm.org/authors/papers/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTo
+ pics: Human-AI Interaction & Deployment\, Explainability & Interpretabili
+ ty\, Fairness & Responsible AI\nSize: XL\nSubmission type: Paper-based / 
+ HCI-focused\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes:
+  Official CHI 2027 pages (all deadlines AoE) confirm Pittsburgh\, May 10-
+ 14 at the David L. Lawrence Convention Center. Papers closed Sep 10 with 
+ no abstract deadline. Posters\, interactive demos and SRC are due Jan 21\
+ , 2027 and journal presentations Jan 14\; several track pages note a 24-h
+ our edit grace period that is not an extension.
+URL:https://chi2027.acm.org/authors/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-deadline-interactive-demo@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270122T115900Z
+DTEND:20270122T125900Z
+SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
+ ty] CHI 2027 - Interactive demos submission deadline
+DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
+ ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
+ 27.acm.org/authors/interactive-demos/\nLocation: Pittsburgh\, Pennsylvani
+ a\, USA\nTopics: Human-AI Interaction & Deployment\, Explainability & Int
+ erpretability\, Fairness & Responsible AI\nSize: XL\nSubmission type: Pap
+ er-based / HCI-focused\nConfidence: confirmed\nLast checked date: 2026-10
+ -28\nNotes: Official CHI 2027 pages (all deadlines AoE) confirm Pittsburg
+ h\, May 10-14 at the David L. Lawrence Convention Center. Papers closed S
+ ep 10 with no abstract deadline. Posters\, interactive demos and SRC are 
+ due Jan 21\, 2027 and journal presentations Jan 14\; several track pages 
+ note a 24-hour edit grace period that is not an extension.
+URL:https://chi2027.acm.org/authors/interactive-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270122T115900Z
+DTEND:20270122T125900Z
+SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
+ ty] CHI 2027 - Posters submission deadline
+DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
+ ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
+ 27.acm.org/authors/posters/\nLocation: Pittsburgh\, Pennsylvania\, USA\nT
+ opics: Human-AI Interaction & Deployment\, Explainability & Interpretabil
+ ity\, Fairness & Responsible AI\nSize: XL\nSubmission type: Paper-based /
+  HCI-focused\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes
+ : Official CHI 2027 pages (all deadlines AoE) confirm Pittsburgh\, May 10
+ -14 at the David L. Lawrence Convention Center. Papers closed Sep 10 with
+  no abstract deadline. Posters\, interactive demos and SRC are due Jan 21
+ \, 2027 and journal presentations Jan 14\; several track pages note a 24-
+ hour edit grace period that is not an extension.
+URL:https://chi2027.acm.org/authors/posters/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270515
+SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
+ ty] CHI 2027 - Conference
+DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
+ ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
+ 27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
+ Interaction & Deployment\, Explainability & Interpretability\, Fairness &
+  Responsible AI\nSize: XL\nSubmission type: Paper-based / HCI-focused\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official CHI 2
+ 027 pages (all deadlines AoE) confirm Pittsburgh\, May 10-14 at the David
+  L. Lawrence Convention Center. Papers closed Sep 10 with no abstract dea
+ dline. Posters\, interactive demos and SRC are due Jan 21\, 2027 and jour
+ nal presentations Jan 14\; several track pages note a 24-hour edit grace 
+ period that is not an extension.
+URL:https://chi2027.acm.org/
+LOCATION:Pittsburgh\, Pennsylvania\, USA
+END:VEVENT
+END:VCALENDAR

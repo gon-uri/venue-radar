@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Discovery Science 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:discovery-science-2027-deadline-full-paper-abstract@scientific-conferen
+ ce-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Main track abstract submission (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://web.archiv
+ e.org/web/20260413203246/https://discovery-science.org/important-dates/\n
+ Location: To be announced\nTopics: Data Mining & Data Science\, Machine L
+ earning\, Learning Theory & Statistical Foundations\, Time Series & Seque
+ ntial Data\nSize: M\nSubmission type: Paper-based / research forum\nConfi
+ dence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 
+ discovery-science.org (the DS 2026 Mainz site) announces no 2027 edition.
+  Meeting and deadlines are one-year proxies from DS 2026\; main-track abs
+ tract/paper use its original Jun 1/8 dates (later extended to Jun 15/22)\
+ , with the abstract gate implied by that CMT schedule. Late-breaking abst
+ racts are 2-page non-proceedings posters. End-of-day AoE cutoffs are prov
+ isional.\nOfficial deadline day\; exact cutoff hour/timezone is unannounc
+ ed. Verify the organizer's submission portal.
+URL:https://web.archive.org/web/20260413203246/https://discovery-science.or
+ g/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2027-deadline-full-paper@scientific-conference-calend
+ ar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Main track full paper submission (estimated) (cutoff time unannounce
+ d)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://web.archiv
+ e.org/web/20260413203246/https://discovery-science.org/important-dates/\n
+ Location: To be announced\nTopics: Data Mining & Data Science\, Machine L
+ earning\, Learning Theory & Statistical Foundations\, Time Series & Seque
+ ntial Data\nSize: M\nSubmission type: Paper-based / research forum\nConfi
+ dence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 
+ discovery-science.org (the DS 2026 Mainz site) announces no 2027 edition.
+  Meeting and deadlines are one-year proxies from DS 2026\; main-track abs
+ tract/paper use its original Jun 1/8 dates (later extended to Jun 15/22)\
+ , with the abstract gate implied by that CMT schedule. Late-breaking abst
+ racts are 2-page non-proceedings posters. End-of-day AoE cutoffs are prov
+ isional.\nOfficial deadline day\; exact cutoff hour/timezone is unannounc
+ ed. Verify the organizer's submission portal.
+URL:https://web.archive.org/web/20260413203246/https://discovery-science.or
+ g/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Late-breaking abstract submission (estimated) (cutoff time unannounc
+ ed)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://discovery-
+ science.org/important-dates/\nLocation: To be announced\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Learning Theory & Statistical Fou
+ ndations\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper
+ -based / research forum\nConfidence: estimated\nLast checked date: 2026-1
+ 0-29\nNotes: As of 2026-10-29 discovery-science.org (the DS 2026 Mainz si
+ te) announces no 2027 edition. Meeting and deadlines are one-year proxies
+  from DS 2026\; main-track abstract/paper use its original Jun 1/8 dates 
+ (later extended to Jun 15/22)\, with the abstract gate implied by that CM
+ T schedule. Late-breaking abstracts are 2-page non-proceedings posters. E
+ nd-of-day AoE cutoffs are provisional.\nOfficial deadline day\; exact cut
+ off hour/timezone is unannounced. Verify the organizer's submission porta
+ l.
+URL:https://discovery-science.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271010
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://discovery-
+ science.org/\nLocation: To be announced\nTopics: Data Mining & Data Scien
+ ce\, Machine Learning\, Learning Theory & Statistical Foundations\, Time 
+ Series & Sequential Data\nSize: M\nSubmission type: Paper-based / researc
+ h forum\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As 
+ of 2026-10-29 discovery-science.org (the DS 2026 Mainz site) announces no
+  2027 edition. Meeting and deadlines are one-year proxies from DS 2026\; 
+ main-track abstract/paper use its original Jun 1/8 dates (later extended 
+ to Jun 15/22)\, with the abstract gate implied by that CMT schedule. Late
+ -breaking abstracts are 2-page non-proceedings posters. End-of-day AoE cu
+ toffs are provisional.
+URL:https://discovery-science.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

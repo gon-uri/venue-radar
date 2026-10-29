@@ -1,0 +1,135 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SDM (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sdm-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260411T115900Z
+DTEND:20260411T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 6 - Abstract submission deadline
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+ \nSource URL: https://www.siam.org/conferences-events/siam-conferences/sd
+ m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
+ cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
+ y\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidence: 
+ confirmed\nLast checked date: 2026-10-28\nNotes: SIAM's official event li
+ sting (checked 2026-10-28) confirms Nov 19-20 at the Salt Palace Conventi
+ on Center\, held jointly with IS26 and MDS26. The SDM26 page returned HTT
+ P 403 that day\, so the April abstract/paper deadlines were not re-read a
+ nd remain as last verified on 2026-08-20.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260418T115900Z
+DTEND:20260418T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 6 - Full paper submission deadline
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+ \nSource URL: https://www.siam.org/conferences-events/siam-conferences/sd
+ m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
+ cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
+ y\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidence: 
+ confirmed\nLast checked date: 2026-10-28\nNotes: SIAM's official event li
+ sting (checked 2026-10-28) confirms Nov 19-20 at the Salt Palace Conventi
+ on Center\, held jointly with IS26 and MDS26. The SDM26 page returned HTT
+ P 403 that day\, so the April abstract/paper deadlines were not re-read a
+ nd remain as last verified on 2026-08-20.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 6 - Conference
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+ \nSource URL: https://www.siam.org/conferences-events/siam-conferences/sd
+ m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
+ cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
+ y\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidence: 
+ confirmed\nLast checked date: 2026-10-28\nNotes: SIAM's official event li
+ sting (checked 2026-10-28) confirms Nov 19-20 at the Salt Palace Conventi
+ on Center\, held jointly with IS26 and MDS26. The SDM26 page returned HTT
+ P 403 that day\, so the April abstract/paper deadlines were not re-read a
+ nd remain as last verified on 2026-08-20.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+LOCATION:Salt Lake City\, Utah\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270411T115900Z
+DTEND:20270411T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 7 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/get-involved/connect-with-a-community/acti
+ vity-groups/data-science/\nSource URL: https://www.siam.org/conferences-e
+ vents/siam-conferences/sdm26/\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Time Series & Sequential Data\, Explainability & In
+ terpretability\, Machine Learning\nSize: M\nSubmission type: Paper-based\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 SIAM describes SDM as yearly but lists no SDM27 among its upcoming 
+ conferences. Meeting and paper dates are one-year proxies from SDM26 (Nov
+  19-20\, 2026\, held jointly with IS26 and MDS26 after earlier spring edi
+ tions)\, so 2027 timing is uncertain.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270418T115900Z
+DTEND:20270418T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 7 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/get-involved/connect-with-a-community/acti
+ vity-groups/data-science/\nSource URL: https://www.siam.org/conferences-e
+ vents/siam-conferences/sdm26/\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Time Series & Sequential Data\, Explainability & In
+ terpretability\, Machine Learning\nSize: M\nSubmission type: Paper-based\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 SIAM describes SDM as yearly but lists no SDM27 among its upcoming 
+ conferences. Meeting and paper dates are one-year proxies from SDM26 (Nov
+  19-20\, 2026\, held jointly with IS26 and MDS26 after earlier spring edi
+ tions)\, so 2027 timing is uncertain.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271121
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 7 - Conference (estimated)
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/get-involved/connect-with-a-community/acti
+ vity-groups/data-science/\nSource URL: https://www.siam.org/get-involved/
+ connect-with-a-community/activity-groups/data-science/\nLocation: To be a
+ nnounced\nTopics: Data Mining & Data Science\, Time Series & Sequential D
+ ata\, Explainability & Interpretability\, Machine Learning\nSize: M\nSubm
+ ission type: Paper-based\nConfidence: estimated\nLast checked date: 2026-
+ 10-29\nNotes: As of 2026-10-29 SIAM describes SDM as yearly but lists no 
+ SDM27 among its upcoming conferences. Meeting and paper dates are one-yea
+ r proxies from SDM26 (Nov 19-20\, 2026\, held jointly with IS26 and MDS26
+  after earlier spring editions)\, so 2027 timing is uncertain.
+URL:https://www.siam.org/get-involved/connect-with-a-community/activity-gro
+ ups/data-science/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

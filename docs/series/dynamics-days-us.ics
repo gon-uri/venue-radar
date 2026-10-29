@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dynamics Days US (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:dynamics-days-us-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days US 2027 - Contributed talk/poster abstract submission deadline
+  (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days US\nWebsite: https://www.ddays.
+ org/2027/\nSource URL: https://www.ddays.org/2027/abstract-submission/\nL
+ ocation: La Jolla\, California\, USA\nTopics: Nonlinear Dynamics & Chaos\
+ , Complex Systems & Network Science\, System Identification & Data-driven
+  Dynamics\nSize: M\nSubmission type: Abstract-based\nConfidence: confirme
+ d\nLast checked date: 2026-10-08\nNotes: Official banner confirms January
+  4-6 at Scripps Seaside Forum. A selection of abstracts becomes single-tr
+ ack talks\; poster contributions are also expected. No archival full-pape
+ r proceedings verified. The November 22 deadline falls in 2026\, before t
+ he January 2027 meeting\; exact cutoff hour is unannounced. Size is an ed
+ itorial estimate.\nScope: Single-track nonlinear science meeting on chaos
+ \, dynamical systems and their interdisciplinary applications. Contribute
+ d abstract selection and poster discussion connect mathematical methods w
+ ith physical\, biological and neural systems. It is an abstract-based mee
+ ting\, not a routine archival full-paper proceedings venue.\nAdditional t
+ opics: Computational Neuroscience\, Time Series & Sequential Data\nScope 
+ sources (2027): https://www.ddays.org/2027/\, https://www.ddays.org/2027/
+ abstract-submission/\nScope last checked: 2026-10-08\nOfficial deadline d
+ ay\; exact cutoff hour/timezone is unannounced. Verify the organizer's su
+ bmission portal.
+URL:https://www.ddays.org/2027/abstract-submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-us-2027-deadline-registration@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days US 2027 - Early registration deadline (cutoff time unannounced
+ )
+DESCRIPTION:Conference title: Dynamics Days US\nWebsite: https://www.ddays.
+ org/2027/\nSource URL: https://www.ddays.org/2027/registration/\nLocation
+ : La Jolla\, California\, USA\nTopics: Nonlinear Dynamics & Chaos\, Compl
+ ex Systems & Network Science\, System Identification & Data-driven Dynami
+ cs\nSize: M\nSubmission type: Abstract-based\nConfidence: confirmed\nLast
+  checked date: 2026-10-08\nNotes: Official banner confirms January 4-6 at
+  Scripps Seaside Forum. A selection of abstracts becomes single-track tal
+ ks\; poster contributions are also expected. No archival full-paper proce
+ edings verified. The November 22 deadline falls in 2026\, before the Janu
+ ary 2027 meeting\; exact cutoff hour is unannounced. Size is an editorial
+  estimate.\nScope: Single-track nonlinear science meeting on chaos\, dyna
+ mical systems and their interdisciplinary applications. Contributed abstr
+ act selection and poster discussion connect mathematical methods with phy
+ sical\, biological and neural systems. It is an abstract-based meeting\, 
+ not a routine archival full-paper proceedings venue.\nAdditional topics: 
+ Computational Neuroscience\, Time Series & Sequential Data\nScope sources
+  (2027): https://www.ddays.org/2027/\, https://www.ddays.org/2027/abstrac
+ t-submission/\nScope last checked: 2026-10-08\nOfficial deadline day\; ex
+ act cutoff hour/timezone is unannounced. Verify the organizer's submissio
+ n portal.
+URL:https://www.ddays.org/2027/registration/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-us-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270107
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days US 2027 - Conference
+DESCRIPTION:Conference title: Dynamics Days US\nWebsite: https://www.ddays.
+ org/2027/\nSource URL: https://www.ddays.org/2027/\nLocation: La Jolla\, 
+ California\, USA\nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & 
+ Network Science\, System Identification & Data-driven Dynamics\nSize: M\n
+ Submission type: Abstract-based\nConfidence: confirmed\nLast checked date
+ : 2026-10-08\nNotes: Official banner confirms January 4-6 at Scripps Seas
+ ide Forum. A selection of abstracts becomes single-track talks\; poster c
+ ontributions are also expected. No archival full-paper proceedings verifi
+ ed. The November 22 deadline falls in 2026\, before the January 2027 meet
+ ing\; exact cutoff hour is unannounced. Size is an editorial estimate.\nS
+ cope: Single-track nonlinear science meeting on chaos\, dynamical systems
+  and their interdisciplinary applications. Contributed abstract selection
+  and poster discussion connect mathematical methods with physical\, biolo
+ gical and neural systems. It is an abstract-based meeting\, not a routine
+  archival full-paper proceedings venue.\nAdditional topics: Computational
+  Neuroscience\, Time Series & Sequential Data\nScope sources (2027): http
+ s://www.ddays.org/2027/\, https://www.ddays.org/2027/abstract-submission/
+ \nScope last checked: 2026-10-08
+URL:https://www.ddays.org/2027/
+LOCATION:La Jolla\, California\, USA
+END:VEVENT
+END:VCALENDAR

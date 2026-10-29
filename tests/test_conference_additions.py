@@ -55,10 +55,14 @@ class ConferenceAdditionTests(unittest.TestCase):
 
     def test_confirmed_locations_have_map_aliases_but_estimates_do_not(self):
         events = map_events(list(self.additions.values()), load_mapping(CITIES_PATH))
+        # Latest edition per series: confirmed in-person meetings are mapped,
+        # estimates (AutoML/ProbML and projected successors) are not.
         self.assertEqual({event['id'] for event in events}, {
-            item['id'] for series, item in self.additions.items()
-            if series not in {'AutoML', 'ProbML'}
+            item['id'] for item in self.additions.values()
+            if item['confidence'] == 'confirmed' and item.get('mode') != 'online'
         })
+        self.assertFalse({event['id'] for event in events} & {
+            self.additions['AutoML']['id'], self.additions['ProbML']['id']})
 
     def test_direct_ranking_matches_do_not_inherit_other_venues(self):
         icore = load_icore_rankings()['rankings']

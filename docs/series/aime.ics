@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AIME (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aime-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115900Z
+DTEND:20270201T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Abstract s
+ ubmission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nSubmissio
+ n type: Paper-based / clinical AI\nConfidence: confirmed\nLast checked da
+ te: 2026-10-05\nNotes: Official AIME 2027 pages confirm Amsterdam\, Jul 5
+ -8 (main conference Jul 6-7)\, and the abstract\, paper\, and camera-read
+ y dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270208T115900Z
+DTEND:20270208T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Full paper
+  submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nSubmissio
+ n type: Paper-based / clinical AI\nConfidence: confirmed\nLast checked da
+ te: 2026-10-05\nNotes: Official AIME 2027 pages confirm Amsterdam\, Jul 5
+ -8 (main conference Jul 6-7)\, and the abstract\, paper\, and camera-read
+ y dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270503T115900Z
+DTEND:20270503T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Camera-rea
+ dy submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nSubmissio
+ n type: Paper-based / clinical AI\nConfidence: confirmed\nLast checked da
+ te: 2026-10-05\nNotes: Official AIME 2027 pages confirm Amsterdam\, Jul 5
+ -8 (main conference Jul 6-7)\, and the abstract\, paper\, and camera-read
+ y dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270709
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/\nLocation: Amsterdam\, Netherlands\nTopi
+ cs: Healthcare & Clinical AI\, Machine Learning\, Biomedical Imaging\, Pr
+ obabilistic\, Causal & Uncertainty ML\nSize: M\nSubmission type: Paper-ba
+ sed / clinical AI\nConfidence: confirmed\nLast checked date: 2026-10-05\n
+ Notes: Official AIME 2027 pages confirm Amsterdam\, Jul 5-8 (main confere
+ nce Jul 6-7)\, and the abstract\, paper\, and camera-ready dates\, all Ao
+ E.
+URL:https://aime27.aimedicine.info/
+LOCATION:Amsterdam\, Netherlands
+END:VEVENT
+END:VCALENDAR

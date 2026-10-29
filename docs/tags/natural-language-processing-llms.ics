@@ -4,6 +4,11 @@ PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Natural Language Processing & LLMs
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -2666,6 +2671,64 @@ DESCRIPTION:Conference title: ACM International Conference on Research and
 URL:https://sigir2027.org/pages/submit-full.html
 END:VEVENT
 BEGIN:VEVENT
+UID:neurips-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270505T115900Z
+DTEND:20270505T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Abs
+ tract submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270507T115900Z
+DTEND:20270507T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Ful
+ l paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:coling-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270509
@@ -2722,6 +2785,64 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
   Robustness & Safety\nScope sources (2026): https://2026.automl.cc/call-f
  or-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270517T115900Z
+DTEND:20270517T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Abstract
+  submission deadline (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: https://cikm2026.diag.uniroma1.it/full-research-papers/\nLocation: S
+ ydney\, Australia\nTopics: Data Mining & Data Science\, Machine Learning\
+ , Natural Language Processing & LLMs\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
+ ked date: 2026-10-29\nNotes: As of 2026-10-29 the CIKM series page names 
+ Sydney\, Australia as the 2027 host\; no CIKM 2027 site or call is publis
+ hed. Estimated meeting dates follow event manager ICMS Australasia's list
+ ing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dates are one-y
+ ear proxies from CIKM 2026.\nScope: Information retrieval\, knowledge man
+ agement\, data mining and database systems\, with a strong focus on effec
+ tive information access and knowledge at scale. The 2026 organizer descri
+ ption emphasizes AI for information access\, knowledge representation\, p
+ ersonalization and evaluation. Agentic and graph methods are relevant thr
+ ough these information and knowledge problems.\nAdditional topics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Knowledge Representation
+  & Reasoning\, Graphs & Graph Learning\, LLM Agents & Tool Use\nScope sou
+ rces (2026): https://cikm2026.diag.uniroma1.it/\nScope last checked: 2026
+ -10-07
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270524T115900Z
+DTEND:20270524T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Full pap
+ er submission deadline (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: https://cikm2026.diag.uniroma1.it/full-research-papers/\nLocation: S
+ ydney\, Australia\nTopics: Data Mining & Data Science\, Machine Learning\
+ , Natural Language Processing & LLMs\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
+ ked date: 2026-10-29\nNotes: As of 2026-10-29 the CIKM series page names 
+ Sydney\, Australia as the 2027 host\; no CIKM 2027 site or call is publis
+ hed. Estimated meeting dates follow event manager ICMS Australasia's list
+ ing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dates are one-y
+ ear proxies from CIKM 2026.\nScope: Information retrieval\, knowledge man
+ agement\, data mining and database systems\, with a strong focus on effec
+ tive information access and knowledge at scale. The 2026 organizer descri
+ ption emphasizes AI for information access\, knowledge representation\, p
+ ersonalization and evaluation. Agentic and graph methods are relevant thr
+ ough these information and knowledge problems.\nAdditional topics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Knowledge Representation
+  & Reasoning\, Graphs & Graph Learning\, LLM Agents & Tool Use\nScope sou
+ rces (2026): https://cikm2026.diag.uniroma1.it/\nScope last checked: 2026
+ -10-07
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2027-deadline-full-paper@scientific-conference-calendar
@@ -2933,6 +3054,62 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
  lForResearchPapers\nScope last checked: 2026-10-07
 URL:https://mlsys.org/Conferences/2027
 LOCATION:Bellevue\, Washington\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270621T115900Z
+DTEND:20270621T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Journal-track submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Conference-track paper submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:conll-2027-conference@scientific-conference-calendar
@@ -3171,6 +3348,62 @@ URL:https://interspeech2027.org/
 LOCATION:Sao Paulo\, Brazil
 END:VEVENT
 BEGIN:VEVENT
+UID:iclr-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270919T115900Z
+DTEND:20270919T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Abstra
+ ct submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270926T115900Z
+DTEND:20270926T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Paper 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:automl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270928
@@ -3290,6 +3523,35 @@ DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
 URL:https://lrec2026.info/third-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:cikm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271106
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Conferen
+ ce (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: http://www.cikmconference.org/\nLocation: Sydney\, Australia\nTopics
+ : Data Mining & Data Science\, Machine Learning\, Natural Language Proces
+ sing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 the CIKM series page names Sydney\, Australia as the
+  2027 host\; no CIKM 2027 site or call is published. Estimated meeting da
+ tes follow event manager ICMS Australasia's listing (1-5 Nov 2027\, ICC S
+ ydney)\; abstract and full-paper dates are one-year proxies from CIKM 202
+ 6.\nScope: Information retrieval\, knowledge management\, data mining and
+  database systems\, with a strong focus on effective information access a
+ nd knowledge at scale. The 2026 organizer description emphasizes AI for i
+ nformation access\, knowledge representation\, personalization and evalua
+ tion. Agentic and graph methods are relevant through these information an
+ d knowledge problems.\nAdditional topics: Information Retrieval & Search\
+ , Recommender Systems\, Knowledge Representation & Reasoning\, Graphs & G
+ raph Learning\, LLM Agents & Tool Use\nScope sources (2026): https://cikm
+ 2026.diag.uniroma1.it/\nScope last checked: 2026-10-07
+URL:http://www.cikmconference.org/
+LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
 UID:emnlp-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271101
@@ -3353,6 +3615,65 @@ URL:https://www.acmmm.org/
 LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
+UID:acml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271205
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/\nLoc
+ ation: To be announced\nTopics: Machine Learning\, Learning Theory & Stat
+ istical Foundations\, Explainability & Interpretability\, Robustness & Sa
+ fety\nSize: L\nSubmission type: Paper-based / OpenReview\nConfidence: est
+ imated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the ACML s
+ ite lists no 2027 edition\, host or dates. Meeting dates and both deadlin
+ es are one-year proxies from ACML 2026 (Dec 1-4\; journal track Jun 20\, 
+ conference track Jun 26 AoE\, the original date before its extension to J
+ ul 5).\nScope: Theory and practice of machine learning\, including probab
+ ilistic methods\, representation learning\, transfer and meta-learning\, 
+ reinforcement learning\, and learning theory. Generative models\, languag
+ e models\, and trustworthy learning extend this core. The broad applicati
+ ons list is not treated as evidence that every application field defines 
+ the conference.\nAdditional topics: Deep Representation Learning\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Fairness & Responsible AI\, Privacy-preserving M
+ L\nScope sources (2026): https://www.acml-conf.org/2026/calls/papers/\nSc
+ ope last checked: 2026-10-07
+URL:https://www.acml-conf.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271206
+DTEND;VALUE=DATE:20271213
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Con
+ ference (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/FutureMeetings\nLocation: Europe (city to be announced)\nTopics: 
+ Machine Learning\, Deep Representation Learning\, Time Series & Sequentia
+ l Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: P
+ aper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: 
+ As of 2026-10-29 the official NeurIPS future-meetings page lists 2027 onl
+ y as Europe\; no host city\, dates or call is published (neurips.cc/Confe
+ rences/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract
+ /May 6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nSco
+ pe: Broad research in machine learning\, especially deep and generative m
+ odels\, statistical foundations\, optimization\, probabilistic inference\
+ , and learning for decision-making. Language\, vision\, and scalable ML s
+ ystems are important research communities. Interdisciplinary applications
+  should contribute insight of wider interest to the machine-learning comm
+ unity.\nAdditional topics: Learning Theory & Statistical Foundations\, Pr
+ obabilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural 
+ Language Processing & LLMs\, Computer Vision & Pattern Recognition\, ML S
+ ystems & Infrastructure\nScope sources (2026): https://neurips.cc/Confere
+ nces/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/FutureMeetings
+LOCATION:Europe (city to be announced)
+END:VEVENT
+BEGIN:VEVENT
 UID:eccv-2028-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20280226T220000Z
@@ -3409,6 +3730,35 @@ DESCRIPTION:Conference title: European Conference on Computer Vision\nWebsi
  g\, Robustness & Safety\nScope sources (2026): https://eccv.ecva.net/Conf
  erences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://eccv.ecva.net/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280426
+DTEND;VALUE=DATE:20280501
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Confer
+ ence (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/FutureMeetings\nLocation: To be announced\nTopics: Deep Representation
+  Learning\, Machine Learning\, Explainability & Interpretability\, Robust
+ ness & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConf
+ idence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29
+  ICLR has not announced a 2028 meeting\; its official future-meetings pag
+ e lists only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 
+ 25 paper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Lea
+ rning representations and understanding deep learning\, with an emphasis 
+ on self-supervised learning\, generative models\, transfer and meta-learn
+ ing\, and the optimization and theory of learned representations. Languag
+ e\, vision\, probabilistic modeling\, and reinforcement learning are subs
+ tantial areas\, rather than unrelated application-domain tags.\nAdditiona
+ l topics: Learning Theory & Statistical Foundations\, Probabilistic\, Cau
+ sal & Uncertainty ML\, Reinforcement Learning\, Natural Language Processi
+ ng & LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastr
+ ucture\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPap
+ ers\nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/FutureMeetings
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:lrec-2028-conference@scientific-conference-calendar

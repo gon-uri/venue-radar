@@ -2642,14 +2642,14 @@
   submission_type: Paper-based
   relevance: high
   deadlines:
-    - {type: full_paper, label: Conference paper submission, datetime: '2026-11-02T23:59:00-12:00', opens_at: '2026-06-01T00:00:00+02:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
+    - {type: full_paper, label: Conference paper submission (extended), datetime: '2026-11-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
     - {type: journal_paper, label: Joint journal/conference submission, datetime: '2026-10-11T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
-    - {type: discussion_paper, label: Discussion papers (non-archival), datetime: '2027-01-15T23:59:00-12:00', opens_at: '2026-06-01T00:00:00+02:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
+    - {type: discussion_paper, label: Discussion papers (non-archival), datetime: '2027-01-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
     - {type: dissemination, label: Published IFAC journal presentations, datetime: '2027-01-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
     - {type: notification, label: Acceptance notification, datetime: '2027-02-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
-  last_checked: '2026-10-06'
+  last_checked: '2026-10-29'
   confidence: confirmed
-  notes: Triennial TC 1.1 symposium. Regular papers, joint journal papers, and dissemination/discussion routes have distinct requirements; consult the call. Published deadline days are confirmed but cutoff hours use estimated end-of-day AoE. Size is an editorial category.
+  notes: Triennial TC 1.1 symposium. On 2026-10-29 the participate page strikes out Nov 2 and gives Nov 15, 2026 for conference papers (Oct 1 to Oct 11 for joint journal papers). The submission system opened 1 June 2026 (day only, no time). Deadline days are official; cutoff hours use provisional end-of-day AoE. Size is an editorial category.
 
 - id: acc-2027
   series: ACC
@@ -6512,3 +6512,1251 @@
     identifies an abstract submission deadline for oral/poster presentations; cutoff hours were
     unannounced. No archival full-paper proceedings verified. Recurrence is irregular (the organizer
     says almost annually); as of 2026-10-28 no 2027 edition is announced. Size is an editorial estimate.
+
+# Next editions projected 2026-10-29 once the prior edition's submission routes closed (ADR-039).
+# Estimated unless a field cites an official next-edition source.
+- id: acc-2028
+  series: ACC
+  year: 2028
+  title: American Control Conference
+  short_title: ACC 2028
+  website: https://acc2028.a2c2.org/
+  cfp_url: https://acc2028.a2c2.org/call-for-papers/
+  source_urls:
+  - https://acc2028.a2c2.org/
+  - https://acc2028.a2c2.org/call-for-papers/
+  - https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.pdf
+  - https://acc2028.a2c2.org/venue/
+  location: San Francisco, California, USA
+  mode: in-person
+  conference_start: '2028-05-31'
+  conference_end: '2028-06-02'
+  timezone: America/Los_Angeles
+  topics:
+  - Control & Robotics
+  - System Identification & Data-driven Dynamics
+  - Reinforcement Learning
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: journal_paper
+    label: Joint ACC and L-CSS submission
+    datetime: '2027-09-10T23:59:00-12:00'
+    time_precision: date
+    source_url: https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.pdf
+  - type: full_paper
+    label: Regular paper submission
+    datetime: '2027-09-24T23:59:00-12:00'
+    time_precision: date
+    source_url: https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.pdf
+  - type: notification
+    label: Acceptance notification
+    datetime: '2028-01-21T23:59:00-12:00'
+    time_precision: date
+    source_url: https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.pdf
+    confidence: estimated
+  - type: camera_ready
+    label: Final manuscript submission
+    datetime: '2028-03-10T23:59:00-12:00'
+    time_precision: date
+    source_url: https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.pdf
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: confirmed
+  notes: 'Official ACC 2028 site and CFP (checked 2026-10-29): May 31-Jun 2, 2028 at the Hilton San Francisco
+    Union Square, workshops May 29-30; joint ACC+L-CSS papers due Sep 10 and ACC papers Sep 24, 2027, hours
+    unstated (end-of-day AoE provisional). The under-development homepage gives Jan 23/Mar 13 instead of the
+    CFP''s Jan 21/Mar 10 for notification/final manuscripts, so those two stay estimated.'
+
+- id: nolta-2027
+  series: NOLTA
+  year: 2027
+  title: International Symposium on Nonlinear Theory and Its Applications
+  short_title: NOLTA 2027
+  website: https://www.ieice.org/nolta/conferences/symposium/
+  cfp_url: https://nolta2026.org/
+  source_urls:
+  - https://nolta2026.org/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-11-16'
+  conference_end: '2027-11-19'
+  timezone: Etc/GMT+12
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - Complex Systems & Network Science
+  - Deep Representation Learning
+  - Control & Robotics
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Regular and special-session papers
+    datetime: '2027-04-29T23:59:00-12:00'
+    time_precision: date
+    source_url: https://nolta2026.org/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the official NOLTA 2026 site (Grenoble, Nov 17-20, 2026) announces no 2027 host
+    or dates. Meeting dates and the paper deadline are same-weekday one-year proxies from NOLTA 2026; the
+    deadline follows its original Apr 30 date, not the May 20 final extension.
+
+- id: log-2027
+  series: LoG
+  year: 2027
+  title: Learning on Graphs Conference
+  short_title: LoG 2027
+  website: https://logconference.org/
+  cfp_url: https://logconference.org/cfp/
+  source_urls:
+  - https://logconference.org/
+  - https://logconference.org/cfp/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-11-19'
+  conference_end: '2027-11-21'
+  timezone: America/New_York
+  topics:
+  - Machine Learning
+  - Deep Representation Learning
+  - Graphs & Graph Learning
+  - Learning Theory & Statistical Foundations
+  size: M
+  submission_type: Paper-based / non-archival extended abstracts
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract registration deadline
+    datetime: '2027-07-28T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://logconference.org/cfp/
+    confidence: estimated
+  - type: full_paper
+    label: Paper / extended abstract submission deadline
+    datetime: '2027-07-31T23:59:00-12:00'
+    source_url: https://logconference.org/cfp/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 logconference.org covers only LoG 2026 (Boston, Nov 20-22) and announces no
+    2027 host or dates. Meeting and abstract/paper AoE dates are one-year same-weekday proxies from LoG
+    2026, based on its original Jul 29/Aug 1 deadlines rather than the later Aug 5/7 extension.
+
+- id: corl-2027
+  series: CoRL
+  year: 2027
+  title: Conference on Robot Learning
+  short_title: CoRL 2027
+  website: https://www.corl.org/
+  cfp_url: https://2026.corl.org/contributions/call-for-papers
+  source_urls:
+  - https://www.corl.org/
+  - https://2026.corl.org/contributions/instruction-for-authors
+  - https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+  - https://api2.openreview.net/groups?id=robot-learning.org/CoRL/2026/Conference
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-11-09'
+  conference_end: '2027-11-12'
+  timezone: America/Chicago
+  topics:
+  - Machine Learning
+  - Control & Robotics
+  - Reinforcement Learning
+  - Deep Representation Learning
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Mandatory abstract registration deadline
+    datetime: '2027-05-25T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+    confidence: estimated
+  - type: full_paper
+    label: Main conference paper submission deadline
+    datetime: '2027-05-28T23:59:00-12:00'
+    source_url: https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the official CoRL site covers only CoRL 2026 (Austin, Nov 9-12, 2026) and
+    OpenReview has no CoRL 2027 venue; no 2027 host or dates are announced. Meeting dates and the May 25
+    mandatory abstract/May 28 paper deadlines (AoE) are one-year proxies from CoRL 2026.
+
+- id: satml-2028
+  series: SaTML
+  year: 2028
+  title: IEEE Conference on Secure and Trustworthy Machine Learning
+  short_title: SaTML 2028
+  website: https://satml.org/
+  cfp_url: https://satml.org/call-for-papers/
+  source_urls:
+  - https://satml.org/
+  - https://satml.org/past/
+  - https://satml.org/call-for-papers/
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-05-02'
+  conference_end: '2028-05-04'
+  timezone: Atlantic/Reykjavik
+  topics:
+  - Robustness & Safety
+  - Privacy-preserving ML
+  - Fairness & Responsible AI
+  - Explainability & Interpretability
+  size: M
+  submission_type: Paper-based / systematization of knowledge / position papers
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Mandatory abstract registration deadline
+    datetime: '2027-09-21T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://satml.org/call-for-papers/
+    confidence: estimated
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-09-28T23:59:00-12:00'
+    source_url: https://satml.org/call-for-papers/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 satml.org covers only SaTML 2027 (Reykjavik, May 3-6, 2027) and announces no
+    2028 host or dates. Main-meeting dates and the Tuesday abstract (Sep 21)/paper (Sep 28) AoE deadlines
+    are one-year same-weekday proxies from SaTML 2027; past meetings have ranged from February to May.
+
+- id: 3dv-2028
+  series: 3DV
+  year: 2028
+  title: International Conference on 3D Vision
+  short_title: 3DV 2028
+  website: https://3dvconf.github.io/
+  cfp_url: https://3dvconf.github.io/2027/call-for-papers
+  source_urls:
+  - https://3dvconf.github.io/
+  - https://3dvconf.github.io/2027/
+  - https://3dvconf.github.io/2027/dates
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-04-06'
+  conference_end: '2028-04-09'
+  timezone: Europe/Athens
+  topics:
+  - Computer Vision & Pattern Recognition
+  - Computer Graphics & Visualization
+  - Signal Processing
+  size: M
+  submission_type: Paper-based / OpenReview
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-08-28T23:59:00-12:00'
+    source_url: https://3dvconf.github.io/2027/dates
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the official 3DV site announces no 2028 host, dates or call. Meeting dates and
+    the AoE paper deadline are one-year proxies from 3DV 2027, whose abstract registration shared the
+    paper cutoff.
+
+- id: bmvc-2027
+  series: BMVC
+  year: 2027
+  title: British Machine Vision Conference
+  short_title: BMVC 2027
+  website: https://www.bmva.org/bmvc
+  cfp_url: https://bmvc2026.bmva.org/calls/call-for-papers/
+  source_urls:
+  - https://www.bmva.org/bmvc
+  - https://www.bmva.org/
+  - https://bmvc2026.bmva.org/dates/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-11-22'
+  conference_end: '2027-11-25'
+  timezone: Europe/London
+  topics:
+  - Computer Vision & Pattern Recognition
+  - Machine Learning
+  - Deep Representation Learning
+  size: L
+  submission_type: Paper-based / BMVA proceedings
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract registration deadline
+    datetime: '2027-05-21T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://bmvc2026.bmva.org/dates/
+    confidence: estimated
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-05-28T23:59:00-12:00'
+    source_url: https://bmvc2026.bmva.org/dates/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the BMVA site announces no BMVC 2027 host, dates or call. Meeting dates
+    (Mon-Thu, Nov 22-25) and the Friday abstract (May 21)/paper (May 28) AoE deadlines are one-year
+    same-weekday proxies from BMVC 2026 in Lancaster.
+
+- id: wacv-2028
+  series: WACV
+  year: 2028
+  title: IEEE/CVF Winter Conference on Applications of Computer Vision
+  short_title: WACV 2028
+  website: https://wacv.thecvf.com/
+  cfp_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+  source_urls:
+  - https://www.thecvf.com/?page_id=100
+  - https://wacv.thecvf.com/
+  - https://wacv.thecvf.com/Conferences/2027/CallForPapers
+  location: Waikoloa, Hawaii, USA
+  mode: in-person
+  conference_start: '2028-01-06'
+  conference_end: '2028-01-08'
+  timezone: Pacific/Honolulu
+  topics:
+  - Computer Vision & Pattern Recognition
+  - Machine Learning
+  - Deep Representation Learning
+  size: XL
+  submission_type: Paper-based / two independent submission rounds
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Round 1 new-paper enrollment deadline
+    datetime: '2027-06-19T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    confidence: estimated
+  - type: full_paper
+    label: Round 1 paper submission deadline
+    datetime: '2027-06-26T23:59:00-12:00'
+    source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    confidence: estimated
+  - type: late_abstract
+    label: Round 2 new-paper enrollment deadline
+    datetime: '2027-08-21T23:59:00-12:00'
+    gate_for: regular_paper
+    source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    confidence: estimated
+  - type: regular_paper
+    label: Round 2 paper submission deadline
+    datetime: '2027-08-28T23:59:00-12:00'
+    source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the CVF conference list names Waikoloa, Hawaii as the WACV 2028 host; dates
+    and calls are unannounced. Main-conference dates and both rounds' enrollment and paper deadlines
+    (AoE) are one-year proxies from WACV 2027.
+
+- id: icra-2028
+  series: ICRA
+  year: 2028
+  title: IEEE International Conference on Robotics and Automation
+  short_title: ICRA 2028
+  website: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  cfp_url: https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+  source_urls:
+  - https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  - https://www.ieee-ras.org/ras_member/eduardo-bayro-corrochano/
+  - https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+  location: Guadalajara, Mexico
+  mode: in-person
+  conference_start: '2028-05-24'
+  conference_end: '2028-05-28'
+  timezone: America/Mexico_City
+  topics:
+  - Control & Robotics
+  - Reinforcement Learning
+  - Computer Vision & Pattern Recognition
+  - System Identification & Data-driven Dynamics
+  size: XXL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-09-15T23:59:00-07:00'
+    source_url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 IEEE RAS names Guadalajara, Mexico as the ICRA 2028 host but publishes no
+    dates or call. Meeting dates are a one-year proxy from ICRA 2027; the paper deadline proxy uses
+    ICRA 2027's original September 15, 23:59 Pacific cutoff, not its one-day extension.
+
+- id: complex-networks-2027
+  series: COMPLEX NETWORKS
+  year: 2027
+  title: International Conference on Complex Networks and Their Applications
+  short_title: COMPLEX NETWORKS 2027
+  website: https://complexnetworks.org/
+  cfp_url: https://complexnetworks.org/submission/
+  source_urls:
+  - https://complexnetworks.org/
+  - https://complexnetworks.org/submission/
+  - https://cssociety.org/events/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-12-01'
+  conference_end: '2027-12-03'
+  timezone: Europe/Madrid
+  topics:
+  - Complex Systems & Network Science
+  - Graphs & Graph Learning
+  - Nonlinear Dynamics & Chaos
+  - Data Mining & Data Science
+  size: L
+  submission_type: Paper-based + extended abstracts
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Full paper submission deadline
+    datetime: '2027-09-01T23:59:00-12:00'
+    source_url: https://complexnetworks.org/
+    confidence: estimated
+  - type: extended_abstract
+    label: Extended abstract submission deadline (independent route)
+    datetime: '2027-09-01T23:59:00-12:00'
+    source_url: https://complexnetworks.org/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 complexnetworks.org and the Complex Systems Society events page announce no
+    2027 host or dates. Meeting and AoE full-paper/extended-abstract dates are one-year same-weekday
+    proxies from COMPLEX NETWORKS 2026 (Granada, Dec 2-4), based on its original Sep 2 deadline rather
+    than the Sep 13 extension.
+
+- id: complenet-2028
+  series: CompleNet
+  year: 2028
+  title: International Conference on Complex Networks
+  short_title: CompleNet 2028
+  website: https://complenet.github.io/
+  cfp_url: https://complenet.github.io/cfp.html
+  source_urls:
+  - https://complenet.github.io/
+  - https://complenet.github.io/past-editions.html
+  - https://complenet.github.io/cfp.html
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-03-07'
+  conference_end: '2028-03-10'
+  timezone: America/New_York
+  topics:
+  - Complex Systems & Network Science
+  - Graphs & Graph Learning
+  - Nonlinear Dynamics & Chaos
+  - Computational Neuroscience
+  size: M
+  submission_type: Full/short papers + extended abstracts
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Long-paper submission deadline
+    datetime: '2027-10-16T23:59:00-12:00'
+    source_url: https://complenet.github.io/cfp.html
+    confidence: estimated
+  - type: short_paper
+    label: Short-paper submission deadline (independent route)
+    datetime: '2027-10-16T23:59:00-12:00'
+    source_url: https://complenet.github.io/cfp.html
+    confidence: estimated
+  - type: extended_abstract
+    label: Extended abstract submission deadline (independent route)
+    datetime: '2027-10-16T23:59:00-12:00'
+    source_url: https://complenet.github.io/cfp.html
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Rochester, Mar 9-12, 2027) and
+    announces no 2028 host or dates; hosts rotate yearly. Meeting and the shared AoE long-paper, short-paper
+    and abstract deadline are one-year same-weekday proxies from CompleNet 2027.
+
+- id: dynamics-days-lac-2028
+  series: Dynamics Days LAC
+  year: 2028
+  title: Dynamics Days Latin America and the Caribbean
+  short_title: Dynamics Days LAC 2028
+  website: https://dynamicsdays.info/lac
+  cfp_url: https://fisica.ufpr.br/DDaysLAC2026/index.html
+  source_urls:
+  - https://dynamicsdays.info/lac
+  - https://fisica.ufpr.br/DDaysLAC2026/index.html
+  - https://fisica.ufpr.br/DDaysLAC2026/page1.html
+  - https://web.archive.org/web/20260521082858/https://fisica.ufpr.br/DDaysLAC2026/index.html
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-12-03'
+  conference_end: '2028-12-08'
+  timezone: America/Sao_Paulo
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - Complex Systems & Network Science
+  - Time Series & Sequential Data
+  - Computational Neuroscience
+  size: M
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Contributed abstract submission deadline
+    datetime: '2028-07-07T23:59:00-03:00'
+    source_url: https://web.archive.org/web/20260521082858/https://fisica.ufpr.br/DDaysLAC2026/index.html
+    time_precision: date
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 neither the Dynamics Days LAC 2026 site nor the dynamicsdays.info LAC page announces
+    a 2028 host or dates; the 2026 site calls the series biennial. Meeting (Sun-Fri) and abstract dates
+    are two-year same-weekday proxies from the 2026 edition (Curitiba, Dec 6-11), using its original July
+    10 abstract deadline rather than the October 10 extension.
+
+- id: neurips-2027
+  series: NeurIPS
+  year: 2027
+  title: Conference on Neural Information Processing Systems
+  short_title: NeurIPS 2027
+  website: https://neurips.cc/
+  cfp_url: https://neurips.cc/Conferences/2026/CallForPapers
+  source_urls:
+  - https://neurips.cc/Conferences/FutureMeetings
+  - https://neurips.cc/Conferences/2026/Dates
+  location: Europe (city to be announced)
+  mode: in-person
+  conference_start: '2027-12-06'
+  conference_end: '2027-12-12'
+  timezone: Etc/GMT+12
+  topics:
+  - Machine Learning
+  - Deep Representation Learning
+  - Time Series & Sequential Data
+  - Explainability & Interpretability
+  size: XXL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline
+    datetime: '2027-05-04T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://neurips.cc/Conferences/2026/Dates
+    confidence: estimated
+  - type: full_paper
+    label: Full paper submission deadline
+    datetime: '2027-05-06T23:59:00-12:00'
+    source_url: https://neurips.cc/Conferences/2026/Dates
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as Europe; no
+    host city, dates or call is published (neurips.cc/Conferences/2027 returns 404). Meeting dates
+    (Dec 6-12) and the May 4 abstract/May 6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.
+
+- id: iclr-2028
+  series: ICLR
+  year: 2028
+  title: International Conference on Learning Representations
+  short_title: ICLR 2028
+  website: https://iclr.cc/
+  cfp_url: https://iclr.cc/Conferences/2027/CallForPapers
+  source_urls:
+  - https://iclr.cc/Conferences/FutureMeetings
+  - https://iclr.cc/Conferences/2027/Dates
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-04-26'
+  conference_end: '2028-04-30'
+  timezone: Etc/GMT+12
+  topics:
+  - Deep Representation Learning
+  - Machine Learning
+  - Explainability & Interpretability
+  - Robustness & Safety
+  size: XXL
+  submission_type: Paper-based / OpenReview
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline
+    datetime: '2027-09-18T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://iclr.cc/Conferences/2027/Dates
+    confidence: estimated
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-09-25T23:59:00-12:00'
+    source_url: https://iclr.cc/Conferences/2027/Dates
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 ICLR has not announced a 2028 meeting; its official future-meetings page lists
+    only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 paper deadlines (AoE) are one-year
+    proxies from ICLR 2027.
+
+- id: aistats-2028
+  series: AISTATS
+  year: 2028
+  title: International Conference on Artificial Intelligence and Statistics
+  short_title: AISTATS 2028
+  website: https://aistats.org/
+  cfp_url: https://virtual.aistats.org/Conferences/2027/CallForPapers
+  source_urls:
+  - https://aistats.org/
+  - https://aistats.org/other.html
+  - https://aistats.org/aistats2027/dates.html
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-05-03'
+  conference_end: '2028-05-06'
+  timezone: Etc/GMT+12
+  topics:
+  - Learning Theory & Statistical Foundations
+  - Machine Learning
+  - Probabilistic, Causal & Uncertainty ML
+  - Time Series & Sequential Data
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline
+    datetime: '2027-09-29T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://aistats.org/aistats2027/dates.html
+    confidence: estimated
+  - type: full_paper
+    label: Full paper submission deadline
+    datetime: '2027-10-06T23:59:00-12:00'
+    source_url: https://aistats.org/aistats2027/dates.html
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 aistats.org announces only the 2027 meeting (Montreal); no 2028 host or dates
+    are published. Meeting dates (May 3-6) and the Sep 29 abstract/Oct 6 paper deadlines (AoE) are one-year
+    proxies from AISTATS 2027.
+
+- id: aaai-2028
+  series: AAAI
+  year: 2028
+  title: AAAI Conference on Artificial Intelligence
+  short_title: AAAI 2028
+  website: https://aaai.org/conference/aaai/
+  cfp_url: https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+  source_urls:
+  - https://aaai.org/conference/aaai/
+  - https://aaai.org/conference/aaai/aaai-27/
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-02-16'
+  conference_end: '2028-02-23'
+  timezone: Etc/GMT+12
+  topics:
+  - Machine Learning
+  - Deep Representation Learning
+  - Data Mining & Data Science
+  - Fairness & Responsible AI
+  size: XXL
+  submission_type: Paper-based / OpenReview
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline
+    datetime: '2027-07-21T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://aaai.org/conference/aaai/aaai-27/
+    confidence: estimated
+  - type: full_paper
+    label: Full paper submission deadline
+    datetime: '2027-07-28T23:59:00-12:00'
+    source_url: https://aaai.org/conference/aaai/aaai-27/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the official AAAI conference page lists nothing after AAAI-27 (Montreal, Feb
+    16-23, 2027); no AAAI-28 dates or host are announced. Meeting dates (Feb 16-23) and the Jul 21
+    abstract/Jul 28 full-paper deadlines (AoE) are one-year proxies from AAAI-27.
+
+- id: cikm-2027
+  series: CIKM
+  year: 2027
+  title: ACM International Conference on Information and Knowledge Management
+  short_title: CIKM 2027
+  website: http://www.cikmconference.org/
+  cfp_url: https://cikm2026.diag.uniroma1.it/full-research-papers/
+  source_urls:
+  - http://www.cikmconference.org/
+  - https://www.icmsaust.com.au/calendar-of-events/2027/acm-international-conference-on-information-and-knowledge-management-2027
+  - https://cikm2026.diag.uniroma1.it/full-research-papers/
+  location: Sydney, Australia
+  mode: in-person
+  conference_start: '2027-11-01'
+  conference_end: '2027-11-05'
+  timezone: Australia/Sydney
+  topics:
+  - Data Mining & Data Science
+  - Machine Learning
+  - Natural Language Processing & LLMs
+  - Human-AI Interaction & Deployment
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline
+    datetime: '2027-05-16T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://cikm2026.diag.uniroma1.it/full-research-papers/
+    confidence: estimated
+  - type: full_paper
+    label: Full paper submission deadline
+    datetime: '2027-05-23T23:59:00-12:00'
+    source_url: https://cikm2026.diag.uniroma1.it/full-research-papers/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the CIKM series page names Sydney, Australia as the 2027 host; no CIKM 2027
+    site or call is published. Estimated meeting dates follow event manager ICMS Australasia's listing
+    (1-5 Nov 2027, ICC Sydney); abstract and full-paper dates are one-year proxies from CIKM 2026.
+
+- id: icdm-2027
+  series: ICDM
+  year: 2027
+  title: IEEE International Conference on Data Mining
+  short_title: ICDM 2027
+  website: https://icdm.zhonghuapu.com/main.shtml
+  cfp_url: https://icdm2026.neu.edu.cn/CallforResearchTrack/list.htm
+  source_urls:
+  - https://icdm.zhonghuapu.com/main.shtml
+  - https://www.icmsaust.com.au/calendar-of-events/2027/ieee-international-conference-on-data-mining-2027
+  - https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+  location: Brisbane, Australia
+  mode: in-person
+  conference_start: '2027-11-15'
+  conference_end: '2027-11-18'
+  timezone: Australia/Brisbane
+  topics:
+  - Data Mining & Data Science
+  - Time Series & Sequential Data
+  - Machine Learning
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Research or applied track full paper submission
+    datetime: '2027-06-06T23:59:00-12:00'
+    source_url: https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+    confidence: estimated
+  - type: workshop_paper
+    label: Workshop paper submission
+    datetime: '2027-08-20T23:59:00-12:00'
+    source_url: https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: confirmed
+  notes: The ICDM steering committee's series page (checked 2026-10-29) lists ICDM 2027 in Brisbane,
+    Australia, Nov 15-18; event manager ICMS Australasia lists Nov 15-17 at the Brisbane Convention and
+    Exhibition Centre. No ICDM 2027 call is confirmed; paper and workshop dates are one-year proxies from
+    ICDM 2026.
+
+- id: sdm-2027
+  series: SDM
+  year: 2027
+  title: SIAM International Conference on Data Mining
+  short_title: SDM 2027
+  website: https://www.siam.org/get-involved/connect-with-a-community/activity-groups/data-science/
+  cfp_url: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+  source_urls:
+  - https://www.siam.org/get-involved/connect-with-a-community/activity-groups/data-science/
+  - https://www.siam.org/conferences-events/siam-conferences/
+  - https://www.siam.org/conferences-events/siam-conferences/sdm26/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-11-19'
+  conference_end: '2027-11-20'
+  timezone: Etc/GMT+12
+  topics:
+  - Data Mining & Data Science
+  - Time Series & Sequential Data
+  - Explainability & Interpretability
+  - Machine Learning
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline
+    datetime: '2027-04-10T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+    confidence: estimated
+  - type: full_paper
+    label: Full paper submission deadline
+    datetime: '2027-04-17T23:59:00-12:00'
+    source_url: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 SIAM describes SDM as yearly but lists no SDM27 among its upcoming
+    conferences. Meeting and paper dates are one-year proxies from SDM26 (Nov 19-20, 2026, held jointly
+    with IS26 and MDS26 after earlier spring editions), so 2027 timing is uncertain.
+
+- id: discovery-science-2027
+  series: Discovery Science
+  year: 2027
+  title: International Conference on Discovery Science
+  short_title: Discovery Science 2027
+  website: https://discovery-science.org/
+  cfp_url: https://discovery-science.org/main-research-track/
+  source_urls:
+  - https://discovery-science.org/
+  - https://discovery-science.org/important-dates/
+  - https://discovery-science.org/main-research-track/
+  - https://web.archive.org/web/20260413203246/https://discovery-science.org/important-dates/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-10-05'
+  conference_end: '2027-10-09'
+  timezone: Europe/Berlin
+  topics:
+  - Data Mining & Data Science
+  - Machine Learning
+  - Learning Theory & Statistical Foundations
+  - Time Series & Sequential Data
+  size: M
+  submission_type: Paper-based / research forum
+  relevance: high
+  deadlines:
+  - type: full_paper_abstract
+    label: Main track abstract submission
+    datetime: '2027-06-01T23:59:00-12:00'
+    time_precision: date
+    gate_for: full_paper
+    source_url: https://web.archive.org/web/20260413203246/https://discovery-science.org/important-dates/
+    confidence: estimated
+  - type: full_paper
+    label: Main track full paper submission
+    datetime: '2027-06-08T23:59:00-12:00'
+    time_precision: date
+    source_url: https://web.archive.org/web/20260413203246/https://discovery-science.org/important-dates/
+    confidence: estimated
+  - type: abstract
+    label: Late-breaking abstract submission
+    datetime: '2027-09-30T23:59:00-12:00'
+    time_precision: date
+    source_url: https://discovery-science.org/important-dates/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 discovery-science.org (the DS 2026 Mainz site) announces no 2027 edition.
+    Meeting and deadlines are one-year proxies from DS 2026; main-track abstract/paper use its
+    original Jun 1/8 dates (later extended to Jun 15/22), with the abstract gate implied by that CMT
+    schedule. Late-breaking abstracts are 2-page non-proceedings posters. End-of-day AoE cutoffs are
+    provisional.
+
+- id: dsaa-2027
+  series: DSAA
+  year: 2027
+  title: IEEE International Conference on Data Science and Advanced Analytics
+  short_title: DSAA 2027
+  website: https://dsaa.co/
+  cfp_url: https://dsaa-2026.vercel.app/key-dates
+  source_urls:
+  - https://dsaa.co/
+  - https://dsaa.co/call-for-hosting-dsaa-proposals/
+  - https://dsaa-2026.vercel.app/key-dates
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-10-06'
+  conference_end: '2027-10-09'
+  timezone: Etc/GMT+12
+  topics:
+  - Data Mining & Data Science
+  - Machine Learning
+  - Time Series & Sequential Data
+  - Human-AI Interaction & Deployment
+  size: M
+  submission_type: Paper-based / applied tracks
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-05-01T23:59:00-12:00'
+    source_url: https://dsaa-2026.vercel.app/key-dates
+    confidence: estimated
+  - type: special_session_paper
+    label: Special session paper submission
+    datetime: '2027-05-01T23:59:00-12:00'
+    source_url: https://dsaa-2026.vercel.app/key-dates
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 dsaa.co announces no DSAA 2027 host or dates (it solicits bids for 2028-2030).
+    Meeting dates are one-year proxies from DSAA 2026 (New Delhi, Oct 6-9); paper proxies use DSAA 2026's
+    original May 1 AoE deadline, later extended to Jun 7.
+
+- id: adma-2027
+  series: ADMA
+  year: 2027
+  title: International Conference on Advanced Data Mining and Applications
+  short_title: ADMA 2027
+  website: https://adma2027.github.io/
+  cfp_url: https://adma2026.github.io/important_date.html
+  source_urls:
+  - https://adma2027.github.io/
+  - https://adma2027.github.io/important_date.html
+  - https://adma2027.github.io/organisation_committee.html
+  - https://adma2026.github.io/important_date.html
+  - https://web.archive.org/web/20260608204215/https://adma2026.github.io/important_date.html
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-11-13'
+  conference_end: '2027-11-15'
+  timezone: Asia/Hong_Kong
+  topics:
+  - Data Mining & Data Science
+  - Machine Learning
+  - Time Series & Sequential Data
+  - Explainability & Interpretability
+  size: M
+  submission_type: Paper-based / special sessions
+  relevance: high
+  deadlines:
+  - type: regular_paper
+    label: Main track paper submission
+    datetime: '2027-06-26T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260608204215/https://adma2026.github.io/important_date.html
+    confidence: estimated
+  - type: full_paper
+    label: Industry and special-session paper submission
+    datetime: '2027-06-26T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260608204215/https://adma2026.github.io/important_date.html
+    confidence: estimated
+  - type: short_paper
+    label: Short paper submission
+    datetime: '2027-08-07T23:59:00-12:00'
+    source_url: https://adma2026.github.io/important_date.html
+    confidence: estimated
+  - type: poster
+    label: Poster paper submission
+    datetime: '2027-09-11T23:59:00-12:00'
+    source_url: https://adma2026.github.io/important_date.html
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 no ADMA 2027 host or dates are confirmed; adma2027.github.io lists a
+    committee but still shows a placeholder host and conflicting dates (Nov 13-15 vs Oct 22-24).
+    Meeting and AoE deadlines are one-year proxies from ADMA 2026; main, industry and
+    special-session papers use its original Jun 26 deadline, not the later Jul 17/31 extensions.
+
+- id: ideal-2027
+  series: IDEAL
+  year: 2027
+  title: International Conference on Intelligent Data Engineering and Automated Learning
+  short_title: IDEAL 2027
+  website: https://www.ideal2026.org/
+  cfp_url: https://www.ideal2026.org/calls/key-dates
+  source_urls:
+  - https://www.ideal2026.org/
+  - https://www.ideal2026.org/past-events
+  - https://www.ideal2026.org/calls/key-dates
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-11-19'
+  conference_end: '2027-11-21'
+  timezone: Europe/London
+  topics:
+  - Machine Learning
+  - Data Mining & Data Science
+  - Deep Representation Learning
+  - Learning Theory & Statistical Foundations
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Paper submission
+    datetime: '2027-07-01T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.ideal2026.org/calls/key-dates
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 official IDEAL pages announce no 2027 host, dates or call. Meeting dates and the
+    paper deadline are one-year proxies from IDEAL 2026 (Manchester, Nov 19-21), using its original Jul 1
+    deadline rather than the Jul 24 extension; no cutoff hour was published, so end-of-day AoE is provisional.
+
+- id: ieee-bigdata-2027
+  series: IEEE BigData
+  year: 2027
+  title: IEEE International Conference on Big Data
+  short_title: IEEE BigData 2027
+  website: https://bigdataieee.org/
+  cfp_url: https://bigdataieee.org/BigData2026/calls/papers/
+  source_urls:
+  - https://bigdataieee.org/
+  - https://bigdataieee.org/BigData2026/
+  - https://bigdataieee.org/BigData2026/important-dates/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-12-14'
+  conference_end: '2027-12-17'
+  timezone: America/Phoenix
+  topics:
+  - Data Mining & Data Science
+  - Machine Learning
+  - Time Series & Sequential Data
+  - Federated & Distributed Learning
+  size: L
+  submission_type: Paper-based / mixed tracks
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Full paper submission deadline
+    datetime: '2027-08-21T23:59:00-12:00'
+    time_precision: date
+    source_url: https://bigdataieee.org/BigData2026/important-dates/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 bigdataieee.org announces no IEEE BigData 2027 host, dates or call. Meeting and
+    full-paper dates are one-year proxies from IEEE BigData 2026 (Phoenix, Dec 14-17; full papers due Aug 21,
+    cutoff hour unannounced). In 2026, special-session calls set their own deadlines.
+
+- id: ieee-icmla-2027
+  series: IEEE ICMLA
+  year: 2027
+  title: IEEE International Conference on Machine Learning and Applications
+  short_title: IEEE ICMLA 2027
+  website: https://www.icmla-conference.org/icmla27/
+  cfp_url: https://www.icmla-conference.org/icmla26/callforpapers.html
+  source_urls:
+  - https://www.icmla-conference.org/icmla27/
+  - https://www.icmla-conference.org/
+  - https://www.icmla-conference.org/icmla26/callforpapers.html
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-10-05'
+  conference_end: '2027-10-07'
+  timezone: America/Detroit
+  topics:
+  - Machine Learning
+  - Deep Representation Learning
+  - Data Mining & Data Science
+  - Time Series & Sequential Data
+  size: M
+  submission_type: Paper-based / special sessions
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Main conference paper submission deadline
+    datetime: '2027-05-15T23:59:00-07:00'
+    source_url: https://www.icmla-conference.org/icmla26/callforpapers.html
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the official ICMLA'27 site (26th edition, in person; banner says only '2027 USA')
+    publishes no dates, city or call. Meeting and main-paper dates are one-year proxies from ICMLA 2026
+    (Oct 5-7; papers due May 15, 11:59 PM PT).
+
+- id: acml-2027
+  series: ACML
+  year: 2027
+  title: Asian Conference on Machine Learning
+  short_title: ACML 2027
+  website: https://www.acml-conf.org/
+  cfp_url: https://www.acml-conf.org/2026/calls/papers/
+  source_urls:
+  - https://www.acml-conf.org/
+  - https://www.acml-conf.org/2026/
+  - https://www.acml-conf.org/2026/calls/papers/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-12-01'
+  conference_end: '2027-12-04'
+  timezone: Australia/Melbourne
+  topics:
+  - Machine Learning
+  - Learning Theory & Statistical Foundations
+  - Explainability & Interpretability
+  - Robustness & Safety
+  size: L
+  submission_type: Paper-based / OpenReview
+  relevance: high
+  deadlines:
+  - type: journal_paper
+    label: Journal-track submission
+    datetime: '2027-06-20T23:59:00-12:00'
+    source_url: https://www.acml-conf.org/2026/calls/papers/
+    confidence: estimated
+  - type: full_paper
+    label: Conference-track paper submission
+    datetime: '2027-06-26T23:59:00-12:00'
+    source_url: https://www.acml-conf.org/2026/calls/papers/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the ACML site lists no 2027 edition, host or dates. Meeting dates and both deadlines are one-year proxies from ACML 2026 (Dec 1-4; journal track Jun 20, conference track Jun 26 AoE, the original date before its extension to Jul 5).
+
+- id: aaltd-2027
+  series: AALTD
+  year: 2027
+  title: Workshop on Advanced Analytics and Learning on Temporal Data
+  short_title: AALTD 2027
+  website: https://ecmlpkdd.org/
+  cfp_url: https://ecml-aaltd.github.io/aaltd2026/dates.html
+  source_urls:
+  - https://ecmlpkdd.org/2027/
+  - https://ecml-aaltd.github.io/aaltd2026/past.html
+  - https://ecml-aaltd.github.io/aaltd2026/dates.html
+  - https://ecml-aaltd.github.io/aaltd2026/program.html
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-09-03'
+  conference_end: '2027-09-03'
+  timezone: Europe/Rome
+  topics:
+  - Time Series & Sequential Data
+  - Data Mining & Data Science
+  - Machine Learning
+  - Explainability & Interpretability
+  size: S
+  submission_type: Workshop / paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline
+    datetime: '2027-05-28T23:59:00-07:00'
+    gate_for: full_paper
+    source_url: https://ecml-aaltd.github.io/aaltd2026/dates.html
+    confidence: estimated
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-06-04T23:59:00-07:00'
+    source_url: https://ecml-aaltd.github.io/aaltd2026/dates.html
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 no AALTD 2027 is announced; all 11 editions ran with ECML PKDD, whose 2027 edition is officially Eindhoven, Aug 30-Sep 3. Proxies follow AALTD 2026, held on the host conference's final day, giving a Fri Sep 3 meeting with abstract and paper deadlines 14 and 13 weeks earlier (23:59 Pacific).
+
+- id: aies-2027
+  series: AIES
+  year: 2027
+  title: AAAI/ACM Conference on AI, Ethics, and Society
+  short_title: AIES 2027
+  website: https://www.aies-conference.com/
+  cfp_url: https://www.aies-conference.com/2026/call-for-papers/
+  source_urls:
+  - https://aaai.org/conference/aies/
+  - https://www.aies-conference.com/
+  - https://www.aies-conference.com/2026/
+  - https://www.aies-conference.com/2026/call-for-papers/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-10-11'
+  conference_end: '2027-10-13'
+  timezone: Etc/GMT+12
+  topics:
+  - Ethics & Governance
+  - Fairness & Responsible AI
+  - Explainability & Interpretability
+  - Robustness & Safety
+  size: M
+  submission_type: Paper-based / interdisciplinary
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract registration
+    datetime: '2027-05-13T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://www.aies-conference.com/2026/call-for-papers/
+    confidence: estimated
+  - type: full_paper
+    label: Paper submission
+    datetime: '2027-05-20T23:59:00-12:00'
+    source_url: https://www.aies-conference.com/2026/call-for-papers/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 AAAI lists the tenth AIES with "additional information to come"; no 2027 dates or host are announced. Meeting (Mon-Wed) and the mandatory abstract pre-registration and paper deadlines (Thursdays, AoE) are one-year proxies from AIES 2026 (Oct 12-14; May 14 and May 21).
+
+- id: ml4h-2027
+  series: ML4H
+  year: 2027
+  title: Machine Learning for Health Symposium
+  short_title: ML4H 2027
+  website: https://ml4h.ahli.cc/
+  cfp_url: https://ml4h.ahli.cc/submit/call-for-papers/
+  source_urls:
+  - https://ml4h.ahli.cc/
+  - https://ahli.cc/
+  - https://ml4h.ahli.cc/submit/call-for-papers/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-12-06'
+  conference_end: '2027-12-07'
+  timezone: Etc/GMT+12
+  topics:
+  - Healthcare & Clinical AI
+  - Machine Learning
+  - Time Series & Sequential Data
+  - Deep Representation Learning
+  size: M
+  submission_type: Proceedings + findings tracks
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-09-10T23:59:00-12:00'
+    source_url: https://ml4h.ahli.cc/submit/call-for-papers/
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 the official ML4H and AHLI sites cover only ML4H 2026 (Sydney, Dec 6-7) and
+    announce no 2027 host or dates. Meeting dates and the Sep 10 paper deadline (23:59 AoE) are one-year
+    proxies from ML4H 2026; its non-archival demo track and production dates are not projected.
+
+- id: cosyne-2028
+  series: COSYNE
+  year: 2028
+  title: Computational and Systems Neuroscience
+  short_title: COSYNE 2028
+  website: https://www.cosyne.org/
+  cfp_url: https://www.cosyne.org/abstracts-submission
+  source_urls:
+  - https://www.cosyne.org/
+  - https://www.cosyne.org/abstracts-submission
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-03-11'
+  conference_end: '2028-03-16'
+  timezone: Etc/GMT+12
+  topics:
+  - Computational Neuroscience
+  - EEG/MEG & Neural Signals
+  - Machine Learning
+  - Deep Representation Learning
+  size: L
+  submission_type: Abstract-based / talks highly selective
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline
+    datetime: '2027-10-18T23:59:00-12:00'
+    source_url: https://www.cosyne.org/abstracts-submission
+    confidence: estimated
+  last_checked: '2026-10-29'
+  confidence: estimated
+  notes: As of 2026-10-29 cosyne.org announces only COSYNE 2027 (Montreal, Mar 11-16, 2027); no 2028
+    dates or host are published. Meeting dates (Mar 11-16) and the Oct 18 abstract deadline are
+    one-year proxies from COSYNE 2027.

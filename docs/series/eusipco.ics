@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EUSIPCO (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:eusipco-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260213T225900Z
+DTEND:20260213T235900Z
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2026 - Conference pap
+ er submission deadline
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2026.org/\nSource URL: https://eusipco2026.org/submissi
+ ons/\nLocation: Bruges\, Belgium\nTopics: Signal Processing\, Machine Lea
+ rning\, Time Series & Sequential Data\, Computer Vision & Pattern Recogni
+ tion\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast
+  checked date: 2026-08-20\nNotes: Official EUSIPCO 2026 pages list Bruges
+ \, Aug 31-Sep 4\, and the extended conference-paper deadline.
+URL:https://eusipco2026.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260905
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2026 - Conference
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2026.org/\nSource URL: https://eusipco2026.org/\nLocati
+ on: Bruges\, Belgium\nTopics: Signal Processing\, Machine Learning\, Time
+  Series & Sequential Data\, Computer Vision & Pattern Recognition\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-08-20\nNotes: Official EUSIPCO 2026 pages list Bruges\, Aug 31-Se
+ p 4\, and the extended conference-paper deadline.
+URL:https://eusipco2026.org/
+LOCATION:Bruges\, Belgium
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2027 - Conference pap
+ er submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2027.de/\nSource URL: https://eusipco2027.de/\nLocation
+ : Darmstadt\, Germany\nTopics: Signal Processing\, Machine Learning\, Tim
+ e Series & Sequential Data\, Computer Vision & Pattern Recognition\nSize:
+  XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked da
+ te: 2026-10-06\nNotes: EUSIPCO 2027 confirms Darmstadt\, Aug 30-Sep 3\, a
+ nd Feb 6 paper deadline. The cutoff hour/timezone is unspecified\; 23:59 
+ local is only a calendar proxy.\nOfficial deadline day\; exact cutoff hou
+ r/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://eusipco2027.de/
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270904
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2027 - Conference
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2027.de/\nSource URL: https://eusipco2027.de/\nLocation
+ : Darmstadt\, Germany\nTopics: Signal Processing\, Machine Learning\, Tim
+ e Series & Sequential Data\, Computer Vision & Pattern Recognition\nSize:
+  XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked da
+ te: 2026-10-06\nNotes: EUSIPCO 2027 confirms Darmstadt\, Aug 30-Sep 3\, a
+ nd Feb 6 paper deadline. The cutoff hour/timezone is unspecified\; 23:59 
+ local is only a calendar proxy.
+URL:https://eusipco2027.de/
+LOCATION:Darmstadt\, Germany
+END:VEVENT
+END:VCALENDAR

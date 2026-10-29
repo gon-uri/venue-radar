@@ -1,0 +1,261 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AAMAS (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aamas-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261002T115900Z
+DTEND:20261002T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Main-track 
+ abstract registration deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
+ einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
+  Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
+ Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
+ -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed\, even before the O
+ ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
+ forthcoming opportunity\; author registration is announced for Oct 20 but
+  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
+ short papers. AAAI fast-track and already published JAAMAS presentations 
+ are not general new-paper routes. Size XL is an editorial estimate. Histo
+ rical acceptance covers main full papers only\, not Blue Sky Ideas or the
+  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
+ i-agent systems: learning and adaptation\, coordination\, game theory\, p
+ lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
+ o covers human-agent interaction\, robot teams\, norms and governance\, a
+ nd generative agents. The contribution should concern agents or their int
+ eraction\; generic language-model or learning results are not automatical
+ ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
+ stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
+ etwork Science\, Ethics & Governance\, Explainability & Interpretability\
+ nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+ call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261009T115900Z
+DTEND:20261009T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Main papers
+  (registered abstracts only) deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
+ einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
+  Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
+ Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
+ -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed\, even before the O
+ ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
+ forthcoming opportunity\; author registration is announced for Oct 20 but
+  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
+ short papers. AAAI fast-track and already published JAAMAS presentations 
+ are not general new-paper routes. Size XL is an editorial estimate. Histo
+ rical acceptance covers main full papers only\, not Blue Sky Ideas or the
+  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
+ i-agent systems: learning and adaptation\, coordination\, game theory\, p
+ lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
+ o covers human-agent interaction\, robot teams\, norms and governance\, a
+ nd generative agents. The contribution should concern agents or their int
+ eraction\; generic language-model or learning results are not automatical
+ ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
+ stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
+ etwork Science\, Ethics & Governance\, Explainability & Interpretability\
+ nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+ call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261106T115900Z
+DTEND:20261106T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Blue Sky Id
+ eas abstract registration deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
+ \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
+ n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
+ lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
+ 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed\, even before t
+ he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
+ s a forthcoming opportunity\; author registration is announced for Oct 20
+  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
+  12 short papers. AAAI fast-track and already published JAAMAS presentati
+ ons are not general new-paper routes. Size XL is an editorial estimate. H
+ istorical acceptance covers main full papers only\, not Blue Sky Ideas or
+  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
+ multi-agent systems: learning and adaptation\, coordination\, game theory
+ \, planning\, reasoning\, agent engineering\, and agent-based simulation.
+  Also covers human-agent interaction\, robot teams\, norms and governance
+ \, and generative agents. The contribution should concern agents or their
+  interaction\; generic language-model or learning results are not automat
+ ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
+ bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
+  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
+ lls/call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
+ as/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261113T115900Z
+DTEND:20261113T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Blue Sky Id
+ eas paper submission deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
+ \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
+ n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
+ lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
+ 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed\, even before t
+ he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
+ s a forthcoming opportunity\; author registration is announced for Oct 20
+  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
+  12 short papers. AAAI fast-track and already published JAAMAS presentati
+ ons are not general new-paper routes. Size XL is an editorial estimate. H
+ istorical acceptance covers main full papers only\, not Blue Sky Ideas or
+  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
+ multi-agent systems: learning and adaptation\, coordination\, game theory
+ \, planning\, reasoning\, agent engineering\, and agent-based simulation.
+  Also covers human-agent interaction\, robot teams\, norms and governance
+ \, and generative agents. The contribution should concern agents or their
+  interaction\; generic language-model or learning results are not automat
+ ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
+ bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
+  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
+ lls/call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
+ as/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270126T115900Z
+DTEND:20270126T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Main-track 
+ camera-ready deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
+ einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
+  Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
+ Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
+ -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed\, even before the O
+ ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
+ forthcoming opportunity\; author registration is announced for Oct 20 but
+  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
+ short papers. AAAI fast-track and already published JAAMAS presentations 
+ are not general new-paper routes. Size XL is an editorial estimate. Histo
+ rical acceptance covers main full papers only\, not Blue Sky Ideas or the
+  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
+ i-agent systems: learning and adaptation\, coordination\, game theory\, p
+ lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
+ o covers human-agent interaction\, robot teams\, norms and governance\, a
+ nd generative agents. The contribution should concern agents or their int
+ eraction\; generic language-model or learning results are not automatical
+ ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
+ stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
+ etwork Science\, Ethics & Governance\, Explainability & Interpretability\
+ nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+ call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-blue-sky-camera-ready@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20270212T115900Z
+DTEND:20270212T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Blue Sky Id
+ eas camera-ready deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
+ \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
+ n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
+ lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
+ 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed\, even before t
+ he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
+ s a forthcoming opportunity\; author registration is announced for Oct 20
+  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
+  12 short papers. AAAI fast-track and already published JAAMAS presentati
+ ons are not general new-paper routes. Size XL is an editorial estimate. H
+ istorical acceptance covers main full papers only\, not Blue Sky Ideas or
+  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
+ multi-agent systems: learning and adaptation\, coordination\, game theory
+ \, planning\, reasoning\, agent engineering\, and agent-based simulation.
+  Also covers human-agent interaction\, robot teams\, norms and governance
+ \, and generative agents. The contribution should concern agents or their
+  interaction\; generic language-model or learning results are not automat
+ ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
+ bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
+  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
+ lls/call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
+ as/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270508
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/\nLocation
+ : Hanoi\, Vietnam\nTopics: Machine Learning\, Reinforcement Learning\, Au
+ tonomous Agents & Multiagent Systems\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short papers\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual flagshi
+ p meeting in Hanoi. New main-track submissions are closed because the Oct
+  1 abstract gate has passed\, even before the Oct 8 paper cutoff. The sep
+ arate four-page Blue Sky Ideas track remains a forthcoming opportunity\; 
+ author registration is announced for Oct 20 but no exact opening hour is 
+ given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI fast-tr
+ ack and already published JAAMAS presentations are not general new-paper 
+ routes. Size XL is an editorial estimate. Historical acceptance covers ma
+ in full papers only\, not Blue Sky Ideas or the newly introduced 2027 Fin
+ dings track.\nScope: Autonomous agents and multi-agent systems: learning 
+ and adaptation\, coordination\, game theory\, planning\, reasoning\, agen
+ t engineering\, and agent-based simulation. Also covers human-agent inter
+ action\, robot teams\, norms and governance\, and generative agents. The 
+ contribution should concern agents or their interaction\; generic languag
+ e-model or learning results are not automatically in scope.\nAdditional t
+ opics: Deep Representation Learning\, Probabilistic\, Causal & Uncertaint
+ y ML\, Control & Robotics\, Complex Systems & Network Science\, Ethics & 
+ Governance\, Explainability & Interpretability\nScope sources (2027): htt
+ ps://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/\nScop
+ e last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+LOCATION:Hanoi\, Vietnam
+END:VEVENT
+END:VCALENDAR

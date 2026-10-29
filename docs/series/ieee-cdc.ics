@@ -1,0 +1,175 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE CDC (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ieee-cdc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2026 - Regular paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2026.ieeecss.org/\nSource URL: https://cdc2026.ieeecss.or
+ g/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Control & Robotics\, Syste
+ m Identification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Re
+ inforcement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence:
+  confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEEE CSS confere
+ nce. Main meeting excludes December 14 workshops. No current ICORE rank i
+ s inferred from the removed CORE2018 listing. Deadline cutoff hours use e
+ stimated end-of-day AoE. Size is an editorial category.\nOfficial deadlin
+ e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
+  submission portal.
+URL:https://cdc2026.ieeecss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2026 - Final manuscript submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2026.ieeecss.org/\nSource URL: https://cdc2026.ieeecss.or
+ g/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Control & Robotics\, Syste
+ m Identification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Re
+ inforcement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence:
+  confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEEE CSS confere
+ nce. Main meeting excludes December 14 workshops. No current ICORE rank i
+ s inferred from the removed CORE2018 listing. Deadline cutoff hours use e
+ stimated end-of-day AoE. Size is an editorial category.\nOfficial deadlin
+ e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
+  submission portal.
+URL:https://cdc2026.ieeecss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261219
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2026 - Conference
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2026.ieeecss.org/\nSource URL: https://cdc2026.ieeecss.or
+ g/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Control & Robotics\, Syste
+ m Identification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Re
+ inforcement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence:
+  confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEEE CSS confere
+ nce. Main meeting excludes December 14 workshops. No current ICORE rank i
+ s inferred from the removed CORE2018 listing. Deadline cutoff hours use e
+ stimated end-of-day AoE. Size is an editorial category.
+URL:https://cdc2026.ieeecss.org/
+LOCATION:Honolulu\, Hawaii\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Joint L-CSS and CDC submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
+  Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
+ mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al future edition at the Lisbon Congress Centre\, Dec 14-17\, 2027\; the 
+ main meeting excludes the December 13 workshops. Deadline days are publis
+ hed without hours\, so cutoffs use a provisional end-of-day AoE. The subm
+ ission site opens Jan 8\, 2027 (day only\, no time). Size is an editorial
+  category.\nOfficial deadline day\; exact cutoff hour/timezone is unannou
+ nced. Verify the organizer's submission portal.
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Regular paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
+  Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
+ mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al future edition at the Lisbon Congress Centre\, Dec 14-17\, 2027\; the 
+ main meeting excludes the December 13 workshops. Deadline days are publis
+ hed without hours\, so cutoffs use a provisional end-of-day AoE. The subm
+ ission site opens Jan 8\, 2027 (day only\, no time). Size is an editorial
+  category.\nOfficial deadline day\; exact cutoff hour/timezone is unannou
+ nced. Verify the organizer's submission portal.
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Workshop proposals (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
+  Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
+ mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al future edition at the Lisbon Congress Centre\, Dec 14-17\, 2027\; the 
+ main meeting excludes the December 13 workshops. Deadline days are publis
+ hed without hours\, so cutoffs use a provisional end-of-day AoE. The subm
+ ission site opens Jan 8\, 2027 (day only\, no time). Size is an editorial
+  category.\nOfficial deadline day\; exact cutoff hour/timezone is unannou
+ nced. Verify the organizer's submission portal.
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
+  Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
+ mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al future edition at the Lisbon Congress Centre\, Dec 14-17\, 2027\; the 
+ main meeting excludes the December 13 workshops. Deadline days are publis
+ hed without hours\, so cutoffs use a provisional end-of-day AoE. The subm
+ ission site opens Jan 8\, 2027 (day only\, no time). Size is an editorial
+  category.\nOfficial deadline day\; exact cutoff hour/timezone is unannou
+ nced. Verify the organizer's submission portal.
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271214
+DTEND;VALUE=DATE:20271218
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Conference
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/\nLocation: Lisbon\, Portugal\nTopics: Control & Robotics\, System Iden
+ tification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Reinforc
+ ement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence: confi
+ rmed\nLast checked date: 2026-10-28\nNotes: Official future edition at th
+ e Lisbon Congress Centre\, Dec 14-17\, 2027\; the main meeting excludes t
+ he December 13 workshops. Deadline days are published without hours\, so 
+ cutoffs use a provisional end-of-day AoE. The submission site opens Jan 8
+ \, 2027 (day only\, no time). Size is an editorial category.
+URL:https://cdc2027.ieeecss.org/
+LOCATION:Lisbon\, Portugal
+END:VEVENT
+END:VCALENDAR

@@ -4,6 +4,11 @@ PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Signal Processing
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -2114,6 +2119,35 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
 URL:https://embc.embs.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:nolta-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2027 - Regular and special-session papers (estimated) (cutoff time una
+ nnounced)
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://www.ieice.org/nolta/conferences/sym
+ posium/\nSource URL: https://nolta2026.org/\nLocation: To be announced\nT
+ opics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\, D
+ eep Representation Learning\, Control & Robotics\nSize: M\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 the official NOLTA 2026 site (Grenoble\, Nov 17-20\,
+  2026) announces no 2027 host or dates. Meeting dates and the paper deadl
+ ine are same-weekday one-year proxies from NOLTA 2026\; the deadline foll
+ ows its original Apr 30 date\, not the May 20 final extension.\nScope: No
+ nlinear theory and its applications\, centered on chaos\, bifurcations\, 
+ oscillations\, synchronization\, nonlinear circuits\, and complex network
+ s. Neural computation\, evolutionary algorithms\, control\, and signal pr
+ ocessing connect to this nonlinear-systems focus. Individual application 
+ examples are not taken as additional specialist identities.\nAdditional t
+ opics: Signal Processing\, Evolutionary Computation & Optimization\nScope
+  sources (2026): https://nolta2026.org/\nScope last checked: 2026-10-07\n
+ Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
+  the organizer's submission portal.
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-ssp-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270501T115900Z
@@ -2184,6 +2218,31 @@ URL:https://2027.ieeeicassp.org/
 LOCATION:Toronto\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:bmvc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270522T115900Z
+DTEND:20270522T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] BMVC 2027
+  - Abstract registration deadline (estimated)
+DESCRIPTION:Conference title: British Machine Vision Conference\nWebsite: h
+ ttps://www.bmva.org/bmvc\nSource URL: https://bmvc2026.bmva.org/dates/\nL
+ ocation: To be announced\nTopics: Computer Vision & Pattern Recognition\,
+  Machine Learning\, Deep Representation Learning\nSize: L\nSubmission typ
+ e: Paper-based / BMVA proceedings\nConfidence: estimated\nLast checked da
+ te: 2026-10-29\nNotes: As of 2026-10-29 the BMVA site announces no BMVC 2
+ 027 host\, dates or call. Meeting dates (Mon-Thu\, Nov 22-25) and the Fri
+ day abstract (May 21)/paper (May 28) AoE deadlines are one-year same-week
+ day proxies from BMVC 2026 in Lancaster.\nScope: Computer vision\, image 
+ processing\, and visual pattern recognition\, including visual learning\,
+  recognition and segmentation\, reconstruction\, motion and video analysi
+ s\, and evaluation of vision methods. The single-track BMVA conference co
+ mbines methodological and applied vision research. It is an established b
+ road vision venue\, not a specialist biomedical-imaging meeting.\nAdditio
+ nal topics: Signal Processing\nScope sources (2026): https://bmvc2026.bmv
+ a.org/calls/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://bmvc2026.bmva.org/dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:isbi-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270525
@@ -2221,6 +2280,31 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  r.org still shows 2023 content.
 URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
  -CFPv.6.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:bmvc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T115900Z
+DTEND:20270529T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] BMVC 2027
+  - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: British Machine Vision Conference\nWebsite: h
+ ttps://www.bmva.org/bmvc\nSource URL: https://bmvc2026.bmva.org/dates/\nL
+ ocation: To be announced\nTopics: Computer Vision & Pattern Recognition\,
+  Machine Learning\, Deep Representation Learning\nSize: L\nSubmission typ
+ e: Paper-based / BMVA proceedings\nConfidence: estimated\nLast checked da
+ te: 2026-10-29\nNotes: As of 2026-10-29 the BMVA site announces no BMVC 2
+ 027 host\, dates or call. Meeting dates (Mon-Thu\, Nov 22-25) and the Fri
+ day abstract (May 21)/paper (May 28) AoE deadlines are one-year same-week
+ day proxies from BMVC 2026 in Lancaster.\nScope: Computer vision\, image 
+ processing\, and visual pattern recognition\, including visual learning\,
+  recognition and segmentation\, reconstruction\, motion and video analysi
+ s\, and evaluation of vision methods. The single-track BMVA conference co
+ mbines methodological and applied vision research. It is an established b
+ road vision venue\, not a specialist biomedical-imaging meeting.\nAdditio
+ nal topics: Signal Processing\nScope sources (2026): https://bmvc2026.bmv
+ a.org/calls/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://bmvc2026.bmva.org/dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:interspeech-2027-deadline-camera-ready@scientific-conference-calendar
@@ -2354,6 +2438,62 @@ DESCRIPTION:Conference title: European Conference on Visual Information Pro
 URL:https://euvip2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
+UID:wacv-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270620T115900Z
+DTEND:20270620T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 1 new-paper enrollment deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 1 paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-ssp-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270628
@@ -2392,6 +2532,64 @@ URL:https://embc.embs.org/2027/
 LOCATION:Singapore
 END:VEVENT
 BEGIN:VEVENT
+UID:log-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270729T115900Z
+DTEND:20270729T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Abstrac
+ t registration deadline (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: To be announced\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Graphs & Graph Learning\, Learning Theory & Statistical Foundations
+ \nSize: M\nSubmission type: Paper-based / non-archival extended abstracts
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and an
+ nounces no 2027 host or dates. Meeting and abstract/paper AoE dates are o
+ ne-year same-weekday proxies from LoG 2026\, based on its original Jul 29
+ /Aug 1 deadlines rather than the later Aug 5/7 extension.\nScope: Learnin
+ g on graphs and geometry: graph neural networks\, equivariant models\, gr
+ aph kernels\, geometric and graph generative models\, and statistical the
+ ory for structured data. Graph signal processing\, causal graph models\, 
+ robustness\, and scalable graph-learning infrastructure are meaningful ex
+ tensions. A graph or geometric contribution should remain central\, even 
+ in an application such as language or molecular modeling.\nAdditional top
+ ics: Complex Systems & Network Science\, Probabilistic\, Causal & Uncerta
+ inty ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastr
+ ucture\nScope sources (2026): https://logconference.org/cfp/\nScope last 
+ checked: 2026-10-07
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270801T115900Z
+DTEND:20270801T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Paper /
+  extended abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: To be announced\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Graphs & Graph Learning\, Learning Theory & Statistical Foundations
+ \nSize: M\nSubmission type: Paper-based / non-archival extended abstracts
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and an
+ nounces no 2027 host or dates. Meeting and abstract/paper AoE dates are o
+ ne-year same-weekday proxies from LoG 2026\, based on its original Jul 29
+ /Aug 1 deadlines rather than the later Aug 5/7 extension.\nScope: Learnin
+ g on graphs and geometry: graph neural networks\, equivariant models\, gr
+ aph kernels\, geometric and graph generative models\, and statistical the
+ ory for structured data. Graph signal processing\, causal graph models\, 
+ robustness\, and scalable graph-learning infrastructure are meaningful ex
+ tensions. A graph or geometric contribution should remain central\, even 
+ in an application such as language or molecular modeling.\nAdditional top
+ ics: Complex Systems & Network Science\, Probabilistic\, Causal & Uncerta
+ inty ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastr
+ ucture\nScope sources (2026): https://logconference.org/cfp/\nScope last 
+ checked: 2026-10-07
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcb-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270803T115900Z
@@ -2424,6 +2622,34 @@ DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
 URL:https://ijcb2027.ieee-biometrics.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:wacv-2028-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270822T115900Z
+DTEND:20270822T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 2 new-paper enrollment deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:interspeech-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270829
@@ -2452,6 +2678,60 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
  t checked: 2026-10-07
 URL:https://interspeech2027.org/
 LOCATION:Sao Paulo\, Brazil
+END:VEVENT
+BEGIN:VEVENT
+UID:3dv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270829T115900Z
+DTEND:20270829T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Computer Graphics & Visuali
+ zation] 3DV 2028 - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on 3D Vision\nWebsit
+ e: https://3dvconf.github.io/\nSource URL: https://3dvconf.github.io/2027
+ /dates\nLocation: To be announced\nTopics: Computer Vision & Pattern Reco
+ gnition\, Computer Graphics & Visualization\, Signal Processing\nSize: M\
+ nSubmission type: Paper-based / OpenReview\nConfidence: estimated\nLast c
+ hecked date: 2026-10-29\nNotes: As of 2026-10-29 the official 3DV site an
+ nounces no 2028 host\, dates or call. Meeting dates and the AoE paper dea
+ dline are one-year proxies from 3DV 2027\, whose abstract registration sh
+ ared the paper cutoff.\nScope: Three-dimensional computer vision and grap
+ hics\, especially sensing\, geometric modeling and representations\, reco
+ nstruction\, analysis\, rendering\, and visualization. It is a focused ve
+ nue for recovering and understanding 3D structure rather than all of comp
+ uter vision. Papers combine geometric\, imaging\, and computational metho
+ ds\; unrelated applications and every possible ML technique are not added
+  as separate scope tags.\nAdditional topics: \nScope sources (2027): http
+ s://3dvconf.github.io/2027/\, https://3dvconf.github.io/2027/author-guide
+ lines/\nScope last checked: 2026-10-07
+URL:https://3dvconf.github.io/2027/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270829T115900Z
+DTEND:20270829T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 2 paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
 UID:eusipco-2027-conference@scientific-conference-calendar
@@ -2681,6 +2961,89 @@ URL:https://www.acmmm.org/
 LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
+UID:nolta-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271120
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://www.ieice.org/nolta/conferences/sym
+ posium/\nSource URL: https://nolta2026.org/\nLocation: To be announced\nT
+ opics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\, D
+ eep Representation Learning\, Control & Robotics\nSize: M\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 the official NOLTA 2026 site (Grenoble\, Nov 17-20\,
+  2026) announces no 2027 host or dates. Meeting dates and the paper deadl
+ ine are same-weekday one-year proxies from NOLTA 2026\; the deadline foll
+ ows its original Apr 30 date\, not the May 20 final extension.\nScope: No
+ nlinear theory and its applications\, centered on chaos\, bifurcations\, 
+ oscillations\, synchronization\, nonlinear circuits\, and complex network
+ s. Neural computation\, evolutionary algorithms\, control\, and signal pr
+ ocessing connect to this nonlinear-systems focus. Individual application 
+ examples are not taken as additional specialist identities.\nAdditional t
+ opics: Signal Processing\, Evolutionary Computation & Optimization\nScope
+  sources (2026): https://nolta2026.org/\nScope last checked: 2026-10-07
+URL:https://nolta2026.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271122
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Confere
+ nce (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
+ To be announced\nTopics: Machine Learning\, Deep Representation Learning\
+ , Graphs & Graph Learning\, Learning Theory & Statistical Foundations\nSi
+ ze: M\nSubmission type: Paper-based / non-archival extended abstracts\nCo
+ nfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-
+ 29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and announ
+ ces no 2027 host or dates. Meeting and abstract/paper AoE dates are one-y
+ ear same-weekday proxies from LoG 2026\, based on its original Jul 29/Aug
+  1 deadlines rather than the later Aug 5/7 extension.\nScope: Learning on
+  graphs and geometry: graph neural networks\, equivariant models\, graph 
+ kernels\, geometric and graph generative models\, and statistical theory 
+ for structured data. Graph signal processing\, causal graph models\, robu
+ stness\, and scalable graph-learning infrastructure are meaningful extens
+ ions. A graph or geometric contribution should remain central\, even in a
+ n application such as language or molecular modeling.\nAdditional topics:
+  Complex Systems & Network Science\, Probabilistic\, Causal & Uncertainty
+  ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastructu
+ re\nScope sources (2026): https://logconference.org/cfp/\nScope last chec
+ ked: 2026-10-07
+URL:https://logconference.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:bmvc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271126
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] BMVC 2027
+  - Conference (estimated)
+DESCRIPTION:Conference title: British Machine Vision Conference\nWebsite: h
+ ttps://www.bmva.org/bmvc\nSource URL: https://www.bmva.org/bmvc\nLocation
+ : To be announced\nTopics: Computer Vision & Pattern Recognition\, Machin
+ e Learning\, Deep Representation Learning\nSize: L\nSubmission type: Pape
+ r-based / BMVA proceedings\nConfidence: estimated\nLast checked date: 202
+ 6-10-29\nNotes: As of 2026-10-29 the BMVA site announces no BMVC 2027 hos
+ t\, dates or call. Meeting dates (Mon-Thu\, Nov 22-25) and the Friday abs
+ tract (May 21)/paper (May 28) AoE deadlines are one-year same-weekday pro
+ xies from BMVC 2026 in Lancaster.\nScope: Computer vision\, image process
+ ing\, and visual pattern recognition\, including visual learning\, recogn
+ ition and segmentation\, reconstruction\, motion and video analysis\, and
+  evaluation of vision methods. The single-track BMVA conference combines 
+ methodological and applied vision research. It is an established broad vi
+ sion venue\, not a specialist biomedical-imaging meeting.\nAdditional top
+ ics: Signal Processing\nScope sources (2026): https://bmvc2026.bmva.org/c
+ alls/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://www.bmva.org/bmvc
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:icip-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271129
@@ -2707,6 +3070,62 @@ DESCRIPTION:Conference title: IEEE International Conference on Image Proces
  ip.org/topics/\nScope last checked: 2026-10-07
 URL:https://2027.ieeeicip.org/
 LOCATION:Singapore
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280109
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Conference (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ www.thecvf.com/?page_id=100\nLocation: Waikoloa\, Hawaii\, USA\nTopics: C
+ omputer Vision & Pattern Recognition\, Machine Learning\, Deep Representa
+ tion Learning\nSize: XL\nSubmission type: Paper-based / two independent s
+ ubmission rounds\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 the CVF conference list names Waikoloa\, Hawaii as
+  the WACV 2028 host\; dates and calls are unannounced. Main-conference da
+ tes and both rounds' enrollment and paper deadlines (AoE) are one-year pr
+ oxies from WACV 2027.\nScope: Applied computer vision and visual learning
+ \, with an emphasis on practical recognition\, detection\, segmentation\,
+  image/video analysis\, 3D perception\, and deployable visual systems. Hu
+ man analysis and multimodal visual methods are established areas. Compare
+ d with the flagship trio\, WACV particularly welcomes meaningful applicat
+ ion-driven contributions supported by sound evaluation\; its two submissi
+ on rounds are routes\, not different fields.\nAdditional topics: Signal P
+ rocessing\, Biometrics & Human Sensing\, Multimedia Learning & Retrieval\
+ nScope sources (2027): https://wacv.thecvf.com/Conferences/2027/CallForPa
+ pers\nScope last checked: 2026-10-07
+URL:https://www.thecvf.com/?page_id=100
+LOCATION:Waikoloa\, Hawaii\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:3dv-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280406
+DTEND;VALUE=DATE:20280410
+SUMMARY:[Computer Vision & Pattern Recognition][Computer Graphics & Visuali
+ zation] 3DV 2028 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on 3D Vision\nWebsit
+ e: https://3dvconf.github.io/\nSource URL: https://3dvconf.github.io/\nLo
+ cation: To be announced\nTopics: Computer Vision & Pattern Recognition\, 
+ Computer Graphics & Visualization\, Signal Processing\nSize: M\nSubmissio
+ n type: Paper-based / OpenReview\nConfidence: estimated\nLast checked dat
+ e: 2026-10-29\nNotes: As of 2026-10-29 the official 3DV site announces no
+  2028 host\, dates or call. Meeting dates and the AoE paper deadline are 
+ one-year proxies from 3DV 2027\, whose abstract registration shared the p
+ aper cutoff.\nScope: Three-dimensional computer vision and graphics\, esp
+ ecially sensing\, geometric modeling and representations\, reconstruction
+ \, analysis\, rendering\, and visualization. It is a focused venue for re
+ covering and understanding 3D structure rather than all of computer visio
+ n. Papers combine geometric\, imaging\, and computational methods\; unrel
+ ated applications and every possible ML technique are not added as separa
+ te scope tags.\nAdditional topics: \nScope sources (2027): https://3dvcon
+ f.github.io/2027/\, https://3dvconf.github.io/2027/author-guidelines/\nSc
+ ope last checked: 2026-10-07
+URL:https://3dvconf.github.io/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:biomag-2028-deadline-abstract@scientific-conference-calendar

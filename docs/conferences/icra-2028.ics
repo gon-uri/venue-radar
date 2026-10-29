@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICRA 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icra-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270916T065900Z
+DTEND:20270916T075900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] ICRA 2028 - Paper subm
+ ission deadline (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Robotics and
+  Automation\nWebsite: https://www.ieee-ras.org/conferences-workshops/full
+ y-sponsored/icra\nSource URL: https://www.ieee-ras.org/conferences-worksh
+ ops/fully-sponsored/icra\nLocation: Guadalajara\, Mexico\nTopics: Control
+  & Robotics\, Reinforcement Learning\, Computer Vision & Pattern Recognit
+ ion\, System Identification & Data-driven Dynamics\nSize: XXL\nSubmission
+  type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 IEEE RAS names Guadalajara\, Mexico as the ICRA 
+ 2028 host but publishes no dates or call. Meeting dates are a one-year pr
+ oxy from ICRA 2027\; the paper deadline proxy uses ICRA 2027's original S
+ eptember 15\, 23:59 Pacific cutoff\, not its one-day extension.\nScope: R
+ obotics and automation across perception\, motion and manipulation\, plan
+ ning and control\, human-robot interaction\, and autonomous systems. Lear
+ ning-based robotics\, reinforcement and imitation learning\, and data-dri
+ ven models are relevant when they advance physical robotic capability. Ge
+ neric ML with no robotics connection is not the core remit.\nAdditional t
+ opics: Planning & Search\, Deep Representation Learning\, Human-AI Intera
+ ction & Deployment\, Robustness & Safety\nScope sources (2027): https://2
+ 027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-subm
+ issions/\nScope last checked: 2026-10-07
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280524
+DTEND;VALUE=DATE:20280529
+SUMMARY:[Control & Robotics][Reinforcement Learning] ICRA 2028 - Conference
+  (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Robotics and
+  Automation\nWebsite: https://www.ieee-ras.org/conferences-workshops/full
+ y-sponsored/icra\nSource URL: https://www.ieee-ras.org/conferences-worksh
+ ops/fully-sponsored/icra\nLocation: Guadalajara\, Mexico\nTopics: Control
+  & Robotics\, Reinforcement Learning\, Computer Vision & Pattern Recognit
+ ion\, System Identification & Data-driven Dynamics\nSize: XXL\nSubmission
+  type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 IEEE RAS names Guadalajara\, Mexico as the ICRA 
+ 2028 host but publishes no dates or call. Meeting dates are a one-year pr
+ oxy from ICRA 2027\; the paper deadline proxy uses ICRA 2027's original S
+ eptember 15\, 23:59 Pacific cutoff\, not its one-day extension.\nScope: R
+ obotics and automation across perception\, motion and manipulation\, plan
+ ning and control\, human-robot interaction\, and autonomous systems. Lear
+ ning-based robotics\, reinforcement and imitation learning\, and data-dri
+ ven models are relevant when they advance physical robotic capability. Ge
+ neric ML with no robotics connection is not the core remit.\nAdditional t
+ opics: Planning & Search\, Deep Representation Learning\, Human-AI Intera
+ ction & Deployment\, Robustness & Safety\nScope sources (2027): https://2
+ 027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-subm
+ issions/\nScope last checked: 2026-10-07
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+LOCATION:Guadalajara\, Mexico
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UAI (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:uai-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260226T115900Z
+DTEND:20260226T125900Z
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
+ 6 - Paper submission deadline
+DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
+ ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
+ auai.org/uai2026/important_dates\nLocation: Amsterdam\, Netherlands\nTopi
+ cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Learning
+  Theory & Statistical Foundations\nSize: L\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official UA
+ I 2026 pages list tutorials\, main conference\, workshops\, and paper sub
+ mission deadline.\nScope: Learning and reasoning under uncertainty\, cent
+ ered on probabilistic and Bayesian modeling\, graphical models\, causal i
+ nference\, approximate inference\, and decision theory. Includes Monte Ca
+ rlo and variational methods\, uncertainty quantification\, sequential mod
+ els\, and principled analysis of learning algorithms. Uncertainty is the 
+ organizing theme\, not just another application of general-purpose AI.\nA
+ dditional topics: Deep Representation Learning\, Reinforcement Learning\,
+  Time Series & Sequential Data\, Explainability & Interpretability\, Robu
+ stness & Safety\nScope sources (2026): https://www.auai.org/uai2026/subje
+ ct_areas\, https://www.auai.org/uai2026/call_for_papers\nScope last check
+ ed: 2026-10-07
+URL:https://www.auai.org/uai2026/important_dates
+END:VEVENT
+BEGIN:VEVENT
+UID:uai-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260709T115900Z
+DTEND:20260709T125900Z
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
+ 6 - Camera-ready deadline
+DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
+ ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
+ auai.org/uai2026/important_dates\nLocation: Amsterdam\, Netherlands\nTopi
+ cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Learning
+  Theory & Statistical Foundations\nSize: L\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official UA
+ I 2026 pages list tutorials\, main conference\, workshops\, and paper sub
+ mission deadline.\nScope: Learning and reasoning under uncertainty\, cent
+ ered on probabilistic and Bayesian modeling\, graphical models\, causal i
+ nference\, approximate inference\, and decision theory. Includes Monte Ca
+ rlo and variational methods\, uncertainty quantification\, sequential mod
+ els\, and principled analysis of learning algorithms. Uncertainty is the 
+ organizing theme\, not just another application of general-purpose AI.\nA
+ dditional topics: Deep Representation Learning\, Reinforcement Learning\,
+  Time Series & Sequential Data\, Explainability & Interpretability\, Robu
+ stness & Safety\nScope sources (2026): https://www.auai.org/uai2026/subje
+ ct_areas\, https://www.auai.org/uai2026/call_for_papers\nScope last check
+ ed: 2026-10-07
+URL:https://www.auai.org/uai2026/important_dates
+END:VEVENT
+BEGIN:VEVENT
+UID:uai-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260822
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
+ 6 - Conference
+DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
+ ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
+ auai.org/uai2026/\nLocation: Amsterdam\, Netherlands\nTopics: Probabilist
+ ic\, Causal & Uncertainty ML\, Machine Learning\, Learning Theory & Stati
+ stical Foundations\nSize: L\nSubmission type: Paper-based\nConfidence: co
+ nfirmed\nLast checked date: 2026-08-20\nNotes: Official UAI 2026 pages li
+ st tutorials\, main conference\, workshops\, and paper submission deadlin
+ e.\nScope: Learning and reasoning under uncertainty\, centered on probabi
+ listic and Bayesian modeling\, graphical models\, causal inference\, appr
+ oximate inference\, and decision theory. Includes Monte Carlo and variati
+ onal methods\, uncertainty quantification\, sequential models\, and princ
+ ipled analysis of learning algorithms. Uncertainty is the organizing them
+ e\, not just another application of general-purpose AI.\nAdditional topic
+ s: Deep Representation Learning\, Reinforcement Learning\, Time Series & 
+ Sequential Data\, Explainability & Interpretability\, Robustness & Safety
+ \nScope sources (2026): https://www.auai.org/uai2026/subject_areas\, http
+ s://www.auai.org/uai2026/call_for_papers\nScope last checked: 2026-10-07
+URL:https://www.auai.org/uai2026/
+LOCATION:Amsterdam\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
+UID:uai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270226T115900Z
+DTEND:20270226T125900Z
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
+ 7 - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
+ ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
+ auai.org/uai2026/important_dates\nLocation: To be announced\nTopics: Prob
+ abilistic\, Causal & Uncertainty ML\, Machine Learning\, Learning Theory 
+ & Statistical Foundations\nSize: L\nSubmission type: Paper-based\nConfide
+ nce: estimated\nLast checked date: 2026-10-06\nNotes: Provisional 1-year 
+ cadence projection from UAI 2026. Meeting dates\, location\, and deadline
+ s require organizer confirmation\; website and source links refer to the 
+ prior edition. In the 2026-10-28 review auai.org announced no UAI 2027 an
+ d /uai2027/ returned 404\; dates unchanged.\nScope: Learning and reasonin
+ g under uncertainty\, centered on probabilistic and Bayesian modeling\, g
+ raphical models\, causal inference\, approximate inference\, and decision
+  theory. Includes Monte Carlo and variational methods\, uncertainty quant
+ ification\, sequential models\, and principled analysis of learning algor
+ ithms. Uncertainty is the organizing theme\, not just another application
+  of general-purpose AI.\nAdditional topics: Deep Representation Learning\
+ , Reinforcement Learning\, Time Series & Sequential Data\, Explainability
+  & Interpretability\, Robustness & Safety\nScope sources (2026): https://
+ www.auai.org/uai2026/subject_areas\, https://www.auai.org/uai2026/call_fo
+ r_papers\nScope last checked: 2026-10-07
+URL:https://www.auai.org/uai2026/important_dates
+END:VEVENT
+BEGIN:VEVENT
+UID:uai-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270709T115900Z
+DTEND:20270709T125900Z
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
+ 7 - Camera-ready deadline (estimated)
+DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
+ ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
+ auai.org/uai2026/important_dates\nLocation: To be announced\nTopics: Prob
+ abilistic\, Causal & Uncertainty ML\, Machine Learning\, Learning Theory 
+ & Statistical Foundations\nSize: L\nSubmission type: Paper-based\nConfide
+ nce: estimated\nLast checked date: 2026-10-06\nNotes: Provisional 1-year 
+ cadence projection from UAI 2026. Meeting dates\, location\, and deadline
+ s require organizer confirmation\; website and source links refer to the 
+ prior edition. In the 2026-10-28 review auai.org announced no UAI 2027 an
+ d /uai2027/ returned 404\; dates unchanged.\nScope: Learning and reasonin
+ g under uncertainty\, centered on probabilistic and Bayesian modeling\, g
+ raphical models\, causal inference\, approximate inference\, and decision
+  theory. Includes Monte Carlo and variational methods\, uncertainty quant
+ ification\, sequential models\, and principled analysis of learning algor
+ ithms. Uncertainty is the organizing theme\, not just another application
+  of general-purpose AI.\nAdditional topics: Deep Representation Learning\
+ , Reinforcement Learning\, Time Series & Sequential Data\, Explainability
+  & Interpretability\, Robustness & Safety\nScope sources (2026): https://
+ www.auai.org/uai2026/subject_areas\, https://www.auai.org/uai2026/call_fo
+ r_papers\nScope last checked: 2026-10-07
+URL:https://www.auai.org/uai2026/important_dates
+END:VEVENT
+BEGIN:VEVENT
+UID:uai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270822
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
+ 7 - Conference (estimated)
+DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
+ ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
+ auai.org/uai2026/\nLocation: To be announced\nTopics: Probabilistic\, Cau
+ sal & Uncertainty ML\, Machine Learning\, Learning Theory & Statistical F
+ oundations\nSize: L\nSubmission type: Paper-based\nConfidence: estimated\
+ nLast checked date: 2026-10-06\nNotes: Provisional 1-year cadence project
+ ion from UAI 2026. Meeting dates\, location\, and deadlines require organ
+ izer confirmation\; website and source links refer to the prior edition. 
+ In the 2026-10-28 review auai.org announced no UAI 2027 and /uai2027/ ret
+ urned 404\; dates unchanged.\nScope: Learning and reasoning under uncerta
+ inty\, centered on probabilistic and Bayesian modeling\, graphical models
+ \, causal inference\, approximate inference\, and decision theory. Includ
+ es Monte Carlo and variational methods\, uncertainty quantification\, seq
+ uential models\, and principled analysis of learning algorithms. Uncertai
+ nty is the organizing theme\, not just another application of general-pur
+ pose AI.\nAdditional topics: Deep Representation Learning\, Reinforcement
+  Learning\, Time Series & Sequential Data\, Explainability & Interpretabi
+ lity\, Robustness & Safety\nScope sources (2026): https://www.auai.org/ua
+ i2026/subject_areas\, https://www.auai.org/uai2026/call_for_papers\nScope
+  last checked: 2026-10-07
+URL:https://www.auai.org/uai2026/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
@@ -7,6 +8,7 @@ from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_sco
 
 from validate import (
     DATA_PATH,
+    SUBMISSION_TYPES,
     load_conferences,
     load_controlled_topics,
     parse_date,
@@ -21,6 +23,8 @@ DOCS_DIR = ROOT / "docs"
 TAGS_DIR = DOCS_DIR / "tags"
 # Preserve published event identities independently of repository renames.
 UID_DOMAIN = "scientific-conference-calendar"
+# Public site address used in subscribe links and feed descriptions.
+SITE_URL = "https://gon-uri.github.io/venue-radar/"
 DTSTAMP = "19700101T000000Z"
 
 
@@ -175,6 +179,13 @@ def _conference_event(conference: dict[str, Any]) -> list[str]:
     return lines
 
 
+FEED_DESCRIPTION = (
+    f"Venue Radar ({SITE_URL}): reviewed scientific "
+    "conference dates and deadlines. Estimated items are marked; always check the "
+    "organizer's call before submitting."
+)
+
+
 def _calendar(name: str, events: Iterable[list[str]]) -> str:
     lines = [
         "BEGIN:VCALENDAR",
@@ -183,6 +194,10 @@ def _calendar(name: str, events: Iterable[list[str]]) -> str:
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         *_property("X-WR-CALNAME", name),
+        *_property("X-WR-CALDESC", FEED_DESCRIPTION),
+        # Hint subscribed clients to refresh daily (RFC 7986 and legacy form).
+        "REFRESH-INTERVAL;VALUE=DURATION:P1D",
+        "X-PUBLISHED-TTL:P1D",
     ]
     for event in events:
         lines.extend(event)
@@ -223,6 +238,45 @@ def _deadline_events(conferences: list[dict[str, Any]]) -> list[list[str]]:
 
 def _conference_events(conferences: list[dict[str, Any]]) -> list[list[str]]:
     return [_conference_event(conference) for conference in _conference_items(conferences)]
+
+
+def is_submission_step(deadline: dict[str, Any]) -> bool:
+    """Fresh-submission routes and the mandatory steps that gate them."""
+    return deadline.get("type") in SUBMISSION_TYPES or bool(deadline.get("gate_for"))
+
+
+def _submission_events(conferences: list[dict[str, Any]]) -> list[list[str]]:
+    return [
+        _deadline_event(conference, deadline)
+        for conference, deadline in _deadline_items(conferences)
+        if is_submission_step(deadline)
+    ]
+
+
+def series_slug(series: str) -> str:
+    """Stable feed key for a series; it follows the exact series key, not titles."""
+    return stable_slug(series)
+
+
+def series_groups(conferences: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    groups: dict[str, dict[str, Any]] = {}
+    for conference in conferences:
+        slug = series_slug(conference["series"])
+        group = groups.setdefault(slug, {"series": conference["series"], "conferences": []})
+        if group["series"] != conference["series"]:
+            raise ValueError(
+                f"series {group['series']!r} and {conference['series']!r} share feed key {slug!r}"
+            )
+        group["conferences"].append(conference)
+    return groups
+
+
+def series_display_name(group: dict[str, Any]) -> str:
+    """Human name for a series feed: the latest edition's title without its
+    year (e.g. "AIS (formerly LOD)"), falling back to the stable series key."""
+    latest = max(group["conferences"], key=lambda item: (item["year"], str(item["conference_start"])))
+    name = re.sub(r"\s+", " ", re.sub(r"\b(19|20)\d{2}\b", "", latest["short_title"])).strip()
+    return name or group["series"]
 
 
 def _all_events(conferences: list[dict[str, Any]]) -> list[list[str]]:
@@ -301,6 +355,23 @@ def _write_conference_feeds(
     return outputs
 
 
+def _write_series_feeds(conferences: list[dict[str, Any]], series_dir: Path) -> list[Path]:
+    """One feed per series that keeps every edition, so subscriptions roll forward."""
+    series_dir.mkdir(parents=True, exist_ok=True)
+    for old_feed in sorted(series_dir.glob("*.ics")):
+        old_feed.unlink()
+
+    outputs: list[Path] = []
+    for slug, group in sorted(series_groups(conferences).items()):
+        path = series_dir / f"{slug}.ics"
+        path.write_text(
+            _calendar(f"{series_display_name(group)} (all editions)", _all_events(group["conferences"])),
+            encoding="utf-8",
+        )
+        outputs.append(path)
+    return outputs
+
+
 def build_calendars(
     data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR,
     scopes_path: Path = SCOPES_PATH,
@@ -328,6 +399,10 @@ def build_calendars(
             docs_dir / "conferences.ics",
             _calendar("Scientific Conference Dates", _conference_events(conferences)),
         ),
+        (
+            docs_dir / "submissions.ics",
+            _calendar("Venue Radar: Submission Deadlines", _submission_events(conferences)),
+        ),
     ]
 
     paths: list[Path] = []
@@ -337,6 +412,7 @@ def build_calendars(
 
     paths.extend(_write_topic_feeds(conferences, docs_dir / "tags"))
     paths.extend(_write_conference_feeds(conferences, docs_dir / "conferences"))
+    paths.extend(_write_series_feeds(conferences, docs_dir / "series"))
     return paths
 
 

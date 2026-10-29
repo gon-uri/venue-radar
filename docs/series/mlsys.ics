@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MLSys (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mlsys-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T200000Z
+DTEND:20261030T210000Z
+SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Resear
+ ch and industrial paper submission deadline
+DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
+ ebsite: https://mlsys.org/Conferences/2027\nSource URL: https://mlsys.org
+ /Conferences/2027/CallForResearchPapers\nLocation: Bellevue\, Washington\
+ , USA\nTopics: ML Systems & Infrastructure\, Machine Learning\, Federated
+  & Distributed Learning\, Natural Language Processing & LLMs\nSize: L\nSu
+ bmission type: Paper-based / research and industrial tracks\nConfidence: 
+ confirmed\nLast checked date: 2026-10-07\nNotes: Tenth annual edition. CF
+ P explicitly specifies 20:00 UTC for Oct 10 opening and Oct 30 closing. T
+ he homepage's noon PDT listing is inconsistent by one hour\; prefer the e
+ xplicit CFP UTC times and recheck the submission portal before the deadli
+ ne. No separate abstract prerequisite is announced. Size L is an editoria
+ l estimate.\nScope: The intersection of machine learning and computer sys
+ tems\, including efficient training\, inference and serving\, compilers a
+ nd runtimes\, programming abstractions\, specialized hardware\, distribut
+ ed learning\, and system monitoring. LLM and agentic workloads are consid
+ ered from a systems perspective. Both systems for ML and ML methods that 
+ improve computing systems are relevant.\nAdditional topics: Reinforcement
+  Learning\, Privacy-preserving ML\nScope sources (2027): https://mlsys.or
+ g/Conferences/2027/CallForResearchPapers\nScope last checked: 2026-10-07
+URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsys-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270626
+SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Confer
+ ence
+DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
+ ebsite: https://mlsys.org/Conferences/2027\nSource URL: https://mlsys.org
+ /Conferences/2027\nLocation: Bellevue\, Washington\, USA\nTopics: ML Syst
+ ems & Infrastructure\, Machine Learning\, Federated & Distributed Learnin
+ g\, Natural Language Processing & LLMs\nSize: L\nSubmission type: Paper-b
+ ased / research and industrial tracks\nConfidence: confirmed\nLast checke
+ d date: 2026-10-07\nNotes: Tenth annual edition. CFP explicitly specifies
+  20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
+  listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
+ and recheck the submission portal before the deadline. No separate abstra
+ ct prerequisite is announced. Size L is an editorial estimate.\nScope: Th
+ e intersection of machine learning and computer systems\, including effic
+ ient training\, inference and serving\, compilers and runtimes\, programm
+ ing abstractions\, specialized hardware\, distributed learning\, and syst
+ em monitoring. LLM and agentic workloads are considered from a systems pe
+ rspective. Both systems for ML and ML methods that improve computing syst
+ ems are relevant.\nAdditional topics: Reinforcement Learning\, Privacy-pr
+ eserving ML\nScope sources (2027): https://mlsys.org/Conferences/2027/Cal
+ lForResearchPapers\nScope last checked: 2026-10-07
+URL:https://mlsys.org/Conferences/2027
+LOCATION:Bellevue\, Washington\, USA
+END:VEVENT
+END:VCALENDAR

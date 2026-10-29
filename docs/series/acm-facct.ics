@@ -1,0 +1,155 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACM FAccT (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261028T115900Z
+DTEND:20261028T125900Z
+SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
+ FAccT 2027 - Mandatory abstract registration deadline
+DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
+  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
+ ps://facctconference.org/2027/cfp.html\nLocation: Porto\, Portugal\nTopic
+ s: Fairness & Responsible AI\, Explainability & Interpretability\, Ethics
+  & Governance\, Privacy-preserving ML\nSize: M\nSubmission type: Paper-ba
+ sed / interdisciplinary\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-28\nNotes: Official 2027 CFP confirms Jun 21-24 and 11:59 PM AoE deadli
+ nes\; the author guide makes abstract registration mandatory\, so after O
+ ct 27 new papers are closed (OpenReview submission invitation expired by 
+ 2026-10-28). Homepage and OpenReview venue name Porto\, Portugal (tenth F
+ AccT). Camera-ready TBD.\nScope: Fairness\, accountability\, and transpar
+ ency in computing\, combining algorithmic research with sociotechnical\, 
+ legal\, philosophical\, and human-centered approaches. Characteristic con
+ tributions include audits and evaluation practices\, governance\, human e
+ xperiences of systems\, and responsible development and deployment. A fai
+ rness or accountability question should be substantive\, not a passing mo
+ tivation for generic ML.\nAdditional topics: Human-AI Interaction & Deplo
+ yment\, Robustness & Safety\nScope sources (2026): https://facctconferenc
+ e.org/2026/cfp.html\nScope last checked: 2026-10-07
+URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-facct-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261104T115900Z
+DTEND:20261104T125900Z
+SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
+ FAccT 2027 - Paper submission deadline
+DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
+  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
+ ps://facctconference.org/2027/cfp.html\nLocation: Porto\, Portugal\nTopic
+ s: Fairness & Responsible AI\, Explainability & Interpretability\, Ethics
+  & Governance\, Privacy-preserving ML\nSize: M\nSubmission type: Paper-ba
+ sed / interdisciplinary\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-28\nNotes: Official 2027 CFP confirms Jun 21-24 and 11:59 PM AoE deadli
+ nes\; the author guide makes abstract registration mandatory\, so after O
+ ct 27 new papers are closed (OpenReview submission invitation expired by 
+ 2026-10-28). Homepage and OpenReview venue name Porto\, Portugal (tenth F
+ AccT). Camera-ready TBD.\nScope: Fairness\, accountability\, and transpar
+ ency in computing\, combining algorithmic research with sociotechnical\, 
+ legal\, philosophical\, and human-centered approaches. Characteristic con
+ tributions include audits and evaluation practices\, governance\, human e
+ xperiences of systems\, and responsible development and deployment. A fai
+ rness or accountability question should be substantive\, not a passing mo
+ tivation for generic ML.\nAdditional topics: Human-AI Interaction & Deplo
+ yment\, Robustness & Safety\nScope sources (2026): https://facctconferenc
+ e.org/2026/cfp.html\nScope last checked: 2026-10-07
+URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-facct-2027-deadline-revision@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270129T115900Z
+DTEND:20270129T125900Z
+SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
+ FAccT 2027 - Revision and rebuttal due (first-round revise decisions)
+DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
+  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
+ ps://facctconference.org/2027/cfp.html\nLocation: Porto\, Portugal\nTopic
+ s: Fairness & Responsible AI\, Explainability & Interpretability\, Ethics
+  & Governance\, Privacy-preserving ML\nSize: M\nSubmission type: Paper-ba
+ sed / interdisciplinary\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-28\nNotes: Official 2027 CFP confirms Jun 21-24 and 11:59 PM AoE deadli
+ nes\; the author guide makes abstract registration mandatory\, so after O
+ ct 27 new papers are closed (OpenReview submission invitation expired by 
+ 2026-10-28). Homepage and OpenReview venue name Porto\, Portugal (tenth F
+ AccT). Camera-ready TBD.\nScope: Fairness\, accountability\, and transpar
+ ency in computing\, combining algorithmic research with sociotechnical\, 
+ legal\, philosophical\, and human-centered approaches. Characteristic con
+ tributions include audits and evaluation practices\, governance\, human e
+ xperiences of systems\, and responsible development and deployment. A fai
+ rness or accountability question should be substantive\, not a passing mo
+ tivation for generic ML.\nAdditional topics: Human-AI Interaction & Deplo
+ yment\, Robustness & Safety\nScope sources (2026): https://facctconferenc
+ e.org/2026/cfp.html\nScope last checked: 2026-10-07
+URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-facct-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
+ FAccT 2027 - Final accept/reject notification (cutoff time unannounced)
+DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
+  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
+ ps://facctconference.org/2027/cfp.html\nLocation: Porto\, Portugal\nTopic
+ s: Fairness & Responsible AI\, Explainability & Interpretability\, Ethics
+  & Governance\, Privacy-preserving ML\nSize: M\nSubmission type: Paper-ba
+ sed / interdisciplinary\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-28\nNotes: Official 2027 CFP confirms Jun 21-24 and 11:59 PM AoE deadli
+ nes\; the author guide makes abstract registration mandatory\, so after O
+ ct 27 new papers are closed (OpenReview submission invitation expired by 
+ 2026-10-28). Homepage and OpenReview venue name Porto\, Portugal (tenth F
+ AccT). Camera-ready TBD.\nScope: Fairness\, accountability\, and transpar
+ ency in computing\, combining algorithmic research with sociotechnical\, 
+ legal\, philosophical\, and human-centered approaches. Characteristic con
+ tributions include audits and evaluation practices\, governance\, human e
+ xperiences of systems\, and responsible development and deployment. A fai
+ rness or accountability question should be substantive\, not a passing mo
+ tivation for generic ML.\nAdditional topics: Human-AI Interaction & Deplo
+ yment\, Robustness & Safety\nScope sources (2026): https://facctconferenc
+ e.org/2026/cfp.html\nScope last checked: 2026-10-07\nOfficial deadline da
+ y\; exact cutoff hour/timezone is unannounced. Verify the organizer's sub
+ mission portal.
+URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-facct-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270625
+SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
+ FAccT 2027 - Conference
+DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
+  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
+ ps://facctconference.org/2027/cfp.html\nLocation: Porto\, Portugal\nTopic
+ s: Fairness & Responsible AI\, Explainability & Interpretability\, Ethics
+  & Governance\, Privacy-preserving ML\nSize: M\nSubmission type: Paper-ba
+ sed / interdisciplinary\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-28\nNotes: Official 2027 CFP confirms Jun 21-24 and 11:59 PM AoE deadli
+ nes\; the author guide makes abstract registration mandatory\, so after O
+ ct 27 new papers are closed (OpenReview submission invitation expired by 
+ 2026-10-28). Homepage and OpenReview venue name Porto\, Portugal (tenth F
+ AccT). Camera-ready TBD.\nScope: Fairness\, accountability\, and transpar
+ ency in computing\, combining algorithmic research with sociotechnical\, 
+ legal\, philosophical\, and human-centered approaches. Characteristic con
+ tributions include audits and evaluation practices\, governance\, human e
+ xperiences of systems\, and responsible development and deployment. A fai
+ rness or accountability question should be substantive\, not a passing mo
+ tivation for generic ML.\nAdditional topics: Human-AI Interaction & Deplo
+ yment\, Robustness & Safety\nScope sources (2026): https://facctconferenc
+ e.org/2026/cfp.html\nScope last checked: 2026-10-07
+URL:https://facctconference.org/2027/cfp.html
+LOCATION:Porto\, Portugal
+END:VEVENT
+END:VCALENDAR

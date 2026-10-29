@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AALTD 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aaltd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T065900Z
+DTEND:20270529T075900Z
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 027 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecmlpkdd.org/\nSource URL: https://ecml
+ -aaltd.github.io/aaltd2026/dates.html\nLocation: To be announced\nTopics:
+  Time Series & Sequential Data\, Data Mining & Data Science\, Machine Lea
+ rning\, Explainability & Interpretability\nSize: S\nSubmission type: Work
+ shop / paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 no AALTD 2027 is announced\; all 11 editions ran
+  with ECML PKDD\, whose 2027 edition is officially Eindhoven\, Aug 30-Sep
+  3. Proxies follow AALTD 2026\, held on the host conference's final day\,
+  giving a Fri Sep 3 meeting with abstract and paper deadlines 14 and 13 w
+ eeks earlier (23:59 Pacific).\nScope: Analytics and learning specifically
+  for temporal data: time-series classification\, clustering\, forecasting
+ \, segmentation\, anomaly detection\, temporal representations\, and metr
+ ic or kernel learning. Includes temporal foundation models\, data streams
+ \, and explainable temporal analysis. Climate\, health\, and energy are e
+ xamples of applications rather than separate defining topic assignments.\
+ nAdditional topics: Deep Representation Learning\nScope sources (2026): h
+ ttps://ecml-aaltd.github.io/aaltd2026/\nScope last checked: 2026-10-07
+URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:aaltd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270605T065900Z
+DTEND:20270605T075900Z
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 027 - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecmlpkdd.org/\nSource URL: https://ecml
+ -aaltd.github.io/aaltd2026/dates.html\nLocation: To be announced\nTopics:
+  Time Series & Sequential Data\, Data Mining & Data Science\, Machine Lea
+ rning\, Explainability & Interpretability\nSize: S\nSubmission type: Work
+ shop / paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 no AALTD 2027 is announced\; all 11 editions ran
+  with ECML PKDD\, whose 2027 edition is officially Eindhoven\, Aug 30-Sep
+  3. Proxies follow AALTD 2026\, held on the host conference's final day\,
+  giving a Fri Sep 3 meeting with abstract and paper deadlines 14 and 13 w
+ eeks earlier (23:59 Pacific).\nScope: Analytics and learning specifically
+  for temporal data: time-series classification\, clustering\, forecasting
+ \, segmentation\, anomaly detection\, temporal representations\, and metr
+ ic or kernel learning. Includes temporal foundation models\, data streams
+ \, and explainable temporal analysis. Climate\, health\, and energy are e
+ xamples of applications rather than separate defining topic assignments.\
+ nAdditional topics: Deep Representation Learning\nScope sources (2026): h
+ ttps://ecml-aaltd.github.io/aaltd2026/\nScope last checked: 2026-10-07
+URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:aaltd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270904
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 027 - Conference (estimated)
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecmlpkdd.org/\nSource URL: https://ecml
+ pkdd.org/2027/\nLocation: To be announced\nTopics: Time Series & Sequenti
+ al Data\, Data Mining & Data Science\, Machine Learning\, Explainability 
+ & Interpretability\nSize: S\nSubmission type: Workshop / paper-based\nCon
+ fidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-2
+ 9 no AALTD 2027 is announced\; all 11 editions ran with ECML PKDD\, whose
+  2027 edition is officially Eindhoven\, Aug 30-Sep 3. Proxies follow AALT
+ D 2026\, held on the host conference's final day\, giving a Fri Sep 3 mee
+ ting with abstract and paper deadlines 14 and 13 weeks earlier (23:59 Pac
+ ific).\nScope: Analytics and learning specifically for temporal data: tim
+ e-series classification\, clustering\, forecasting\, segmentation\, anoma
+ ly detection\, temporal representations\, and metric or kernel learning. 
+ Includes temporal foundation models\, data streams\, and explainable temp
+ oral analysis. Climate\, health\, and energy are examples of applications
+  rather than separate defining topic assignments.\nAdditional topics: Dee
+ p Representation Learning\nScope sources (2026): https://ecml-aaltd.githu
+ b.io/aaltd2026/\nScope last checked: 2026-10-07
+URL:https://ecmlpkdd.org/2027/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

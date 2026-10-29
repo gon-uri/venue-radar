@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICDM (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icdm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260607T115900Z
+DTEND:20260607T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
+ 26 - Research or applied track full paper submission
+DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
+ nWebsite: https://icdm2026.neu.edu.cn/\nSource URL: https://icdm2026.neu.
+ edu.cn/ImportantDates/list.htm\nLocation: Shenyang\, China\nTopics: Data 
+ Mining & Data Science\, Time Series & Sequential Data\, Machine Learning\
+ nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\nLast check
+ ed date: 2026-10-28\nNotes: Official ICDM 2026 site confirms Shenyang\, N
+ ov 12-15\, 2026\, held in person. Its dates page states 11:59 PM AoE: res
+ earch and applied tracks (alternative routes\, no separate abstract deadl
+ ine) closed Jun 6\; general workshop papers closed Aug 20. Individual wor
+ kshops may set their own dates.
+URL:https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2026-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260821T115900Z
+DTEND:20260821T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
+ 26 - Workshop paper submission
+DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
+ nWebsite: https://icdm2026.neu.edu.cn/\nSource URL: https://icdm2026.neu.
+ edu.cn/ImportantDates/list.htm\nLocation: Shenyang\, China\nTopics: Data 
+ Mining & Data Science\, Time Series & Sequential Data\, Machine Learning\
+ nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\nLast check
+ ed date: 2026-10-28\nNotes: Official ICDM 2026 site confirms Shenyang\, N
+ ov 12-15\, 2026\, held in person. Its dates page states 11:59 PM AoE: res
+ earch and applied tracks (alternative routes\, no separate abstract deadl
+ ine) closed Jun 6\; general workshop papers closed Aug 20. Individual wor
+ kshops may set their own dates.
+URL:https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261116
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
+ 26 - Conference
+DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
+ nWebsite: https://icdm2026.neu.edu.cn/\nSource URL: https://icdm2026.neu.
+ edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
+  Time Series & Sequential Data\, Machine Learning\nSize: L\nSubmission ty
+ pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNo
+ tes: Official ICDM 2026 site confirms Shenyang\, Nov 12-15\, 2026\, held 
+ in person. Its dates page states 11:59 PM AoE: research and applied track
+ s (alternative routes\, no separate abstract deadline) closed Jun 6\; gen
+ eral workshop papers closed Aug 20. Individual workshops may set their ow
+ n dates.
+URL:https://icdm2026.neu.edu.cn/
+LOCATION:Shenyang\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270607T115900Z
+DTEND:20270607T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
+ 27 - Research or applied track full paper submission (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
+ nWebsite: https://icdm.zhonghuapu.com/main.shtml\nSource URL: https://icd
+ m2026.neu.edu.cn/ImportantDates/list.htm\nLocation: Brisbane\, Australia\
+ nTopics: Data Mining & Data Science\, Time Series & Sequential Data\, Mac
+ hine Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimat
+ ed\nLast checked date: 2026-10-29\nNotes: The ICDM steering committee's s
+ eries page (checked 2026-10-29) lists ICDM 2027 in Brisbane\, Australia\,
+  Nov 15-18\; event manager ICMS Australasia lists Nov 15-17 at the Brisba
+ ne Convention and Exhibition Centre. No ICDM 2027 call is confirmed\; pap
+ er and workshop dates are one-year proxies from ICDM 2026.
+URL:https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270821T115900Z
+DTEND:20270821T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
+ 27 - Workshop paper submission (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
+ nWebsite: https://icdm.zhonghuapu.com/main.shtml\nSource URL: https://icd
+ m2026.neu.edu.cn/ImportantDates/list.htm\nLocation: Brisbane\, Australia\
+ nTopics: Data Mining & Data Science\, Time Series & Sequential Data\, Mac
+ hine Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimat
+ ed\nLast checked date: 2026-10-29\nNotes: The ICDM steering committee's s
+ eries page (checked 2026-10-29) lists ICDM 2027 in Brisbane\, Australia\,
+  Nov 15-18\; event manager ICMS Australasia lists Nov 15-17 at the Brisba
+ ne Convention and Exhibition Centre. No ICDM 2027 call is confirmed\; pap
+ er and workshop dates are one-year proxies from ICDM 2026.
+URL:https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271119
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
+ 27 - Conference
+DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
+ nWebsite: https://icdm.zhonghuapu.com/main.shtml\nSource URL: https://icd
+ m.zhonghuapu.com/main.shtml\nLocation: Brisbane\, Australia\nTopics: Data
+  Mining & Data Science\, Time Series & Sequential Data\, Machine Learning
+ \nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\nLast chec
+ ked date: 2026-10-29\nNotes: The ICDM steering committee's series page (c
+ hecked 2026-10-29) lists ICDM 2027 in Brisbane\, Australia\, Nov 15-18\; 
+ event manager ICMS Australasia lists Nov 15-17 at the Brisbane Convention
+  and Exhibition Centre. No ICDM 2027 call is confirmed\; paper and worksh
+ op dates are one-year proxies from ICDM 2026.
+URL:https://icdm.zhonghuapu.com/main.shtml
+LOCATION:Brisbane\, Australia
+END:VEVENT
+END:VCALENDAR

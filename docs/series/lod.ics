@@ -1,0 +1,155 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AIS (formerly LOD) (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:lod-2026-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260624T115900Z
+DTEND:20260624T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2026 (formerly L
+ OD) - First-batch paper submission deadline
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2026.icas.events/\nSource URL: https://ais2026.i
+ cas.events/\nLocation: Castiglione della Pescaia\, Italy\nTopics: Machine
+  Learning\, Data Mining & Data Science\, Learning Theory & Statistical Fo
+ undations\, Time Series & Sequential Data\nSize: M\nSubmission type: Pape
+ r-based / Springer proceedings\nConfidence: confirmed\nLast checked date:
+  2026-10-06\nNotes: The organizer says LOD was renamed AIS in 2026 and co
+ nfirms Sep 21-24 in Tuscany. Its page lists a Jun 23 first batch and an e
+ xtended Aug 18 second-batch countdown. The prior lod-2026 ID is retained 
+ for stable calendar subscriptions.
+URL:https://ais2026.icas.events/
+END:VEVENT
+BEGIN:VEVENT
+UID:lod-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260818T225900Z
+DTEND:20260818T235900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2026 (formerly L
+ OD) - Second-batch paper submission deadline
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2026.icas.events/\nSource URL: https://ais2026.i
+ cas.events/\nLocation: Castiglione della Pescaia\, Italy\nTopics: Machine
+  Learning\, Data Mining & Data Science\, Learning Theory & Statistical Fo
+ undations\, Time Series & Sequential Data\nSize: M\nSubmission type: Pape
+ r-based / Springer proceedings\nConfidence: confirmed\nLast checked date:
+  2026-10-06\nNotes: The organizer says LOD was renamed AIS in 2026 and co
+ nfirms Sep 21-24 in Tuscany. Its page lists a Jun 23 first batch and an e
+ xtended Aug 18 second-batch countdown. The prior lod-2026 ID is retained 
+ for stable calendar subscriptions.
+URL:https://ais2026.icas.events/
+END:VEVENT
+BEGIN:VEVENT
+UID:lod-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260925
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2026 (formerly L
+ OD) - Conference
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2026.icas.events/\nSource URL: https://ais2026.i
+ cas.events/\nLocation: Castiglione della Pescaia\, Italy\nTopics: Machine
+  Learning\, Data Mining & Data Science\, Learning Theory & Statistical Fo
+ undations\, Time Series & Sequential Data\nSize: M\nSubmission type: Pape
+ r-based / Springer proceedings\nConfidence: confirmed\nLast checked date:
+  2026-10-06\nNotes: The organizer says LOD was renamed AIS in 2026 and co
+ nfirms Sep 21-24 in Tuscany. Its page lists a Jun 23 first batch and an e
+ xtended Aug 18 second-batch countdown. The prior lod-2026 ID is retained 
+ for stable calendar subscriptions.
+URL:https://ais2026.icas.events/
+LOCATION:Castiglione della Pescaia\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270416T115900Z
+DTEND:20270416T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
+ OD) - Late-breaking abstract submission deadline
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2027.icas.events/\nSource URL: https://ais2027.i
+ cas.events/call-for-late-breaking-abstracts/\nLocation: Castiglione della
+  Pescaia\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\,
+  Learning Theory & Statistical Foundations\, Time Series & Sequential Dat
+ a\nSize: M\nSubmission type: Paper-based / Springer proceedings\nConfiden
+ ce: confirmed\nLast checked date: 2026-10-28\nNotes: The official AIS 202
+ 7 site lists Sep 19-23\, 2027 at Riva del Sole\, Castiglione della Pescai
+ a\, and Apr 15\, 2027 (AoE) paper and late-breaking abstract deadlines\; 
+ its homepage countdown instead targets 23:59 UTC+01:00\, so submit early.
+  Only one paper batch is listed so far\; the July second batch is a proxy
+  from 2026. Remote presentation is offered.
+URL:https://ais2027.icas.events/call-for-late-breaking-abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270416T115900Z
+DTEND:20270416T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
+ OD) - Paper submission deadline
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2027.icas.events/\nSource URL: https://ais2027.i
+ cas.events/call-for-papers/\nLocation: Castiglione della Pescaia\, Italy\
+ nTopics: Machine Learning\, Data Mining & Data Science\, Learning Theory 
+ & Statistical Foundations\, Time Series & Sequential Data\nSize: M\nSubmi
+ ssion type: Paper-based / Springer proceedings\nConfidence: confirmed\nLa
+ st checked date: 2026-10-28\nNotes: The official AIS 2027 site lists Sep 
+ 19-23\, 2027 at Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 
+ 2027 (AoE) paper and late-breaking abstract deadlines\; its homepage coun
+ tdown instead targets 23:59 UTC+01:00\, so submit early. Only one paper b
+ atch is listed so far\; the July second batch is a proxy from 2026. Remot
+ e presentation is offered.
+URL:https://ais2027.icas.events/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270723T115900Z
+DTEND:20270723T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
+ OD) - Second-batch paper submission deadline (estimated)
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2027.icas.events/\nSource URL: https://ais2026.i
+ cas.events/deadlines/\nLocation: Castiglione della Pescaia\, Italy\nTopic
+ s: Machine Learning\, Data Mining & Data Science\, Learning Theory & Stat
+ istical Foundations\, Time Series & Sequential Data\nSize: M\nSubmission 
+ type: Paper-based / Springer proceedings\nConfidence: estimated\nLast che
+ cked date: 2026-10-28\nNotes: The official AIS 2027 site lists Sep 19-23\
+ , 2027 at Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 2027 (
+ AoE) paper and late-breaking abstract deadlines\; its homepage countdown 
+ instead targets 23:59 UTC+01:00\, so submit early. Only one paper batch i
+ s listed so far\; the July second batch is a proxy from 2026. Remote pres
+ entation is offered.
+URL:https://ais2026.icas.events/deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270924
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
+ OD) - Conference
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2027.icas.events/\nSource URL: https://ais2027.i
+ cas.events/\nLocation: Castiglione della Pescaia\, Italy\nTopics: Machine
+  Learning\, Data Mining & Data Science\, Learning Theory & Statistical Fo
+ undations\, Time Series & Sequential Data\nSize: M\nSubmission type: Pape
+ r-based / Springer proceedings\nConfidence: confirmed\nLast checked date:
+  2026-10-28\nNotes: The official AIS 2027 site lists Sep 19-23\, 2027 at 
+ Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 2027 (AoE) paper
+  and late-breaking abstract deadlines\; its homepage countdown instead ta
+ rgets 23:59 UTC+01:00\, so submit early. Only one paper batch is listed s
+ o far\; the July second batch is a proxy from 2026. Remote presentation i
+ s offered.
+URL:https://ais2027.icas.events/
+LOCATION:Castiglione della Pescaia\, Italy
+END:VEVENT
+END:VCALENDAR

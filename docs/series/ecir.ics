@@ -1,0 +1,251 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ECIR (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ecir-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
+ ull-paper abstract deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
+ n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
+ & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
+  calls confirm paper days but no exact cutoff hour. Full/short abstract g
+ ates are already closed\; replicability and resource papers remain indepe
+ ndent opportunities. Resource papers report original research resources\,
+  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ n retrieval and ranking\, recommendation\, conversational search and RAG\
+ , user information interaction\, system efficiency\, and rigorous evaluat
+ ion. The 2027 call explicitly includes language models and agentic retrie
+ val workflows. Replicability and research-resource papers are distinct ro
+ utes. Fairness and explainability concern information access rather than 
+ generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
+  Deployment\, Explainability & Interpretability\, Fairness & Responsible 
+ AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-full-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
+ ull paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
+ n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
+ & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
+  calls confirm paper days but no exact cutoff hour. Full/short abstract g
+ ates are already closed\; replicability and resource papers remain indepe
+ ndent opportunities. Resource papers report original research resources\,
+  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ n retrieval and ranking\, recommendation\, conversational search and RAG\
+ , user information interaction\, system efficiency\, and rigorous evaluat
+ ion. The 2027 call explicitly includes language models and agentic retrie
+ val workflows. Replicability and research-resource papers are distinct ro
+ utes. Fairness and explainability concern information access rather than 
+ generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
+  Deployment\, Explainability & Interpretability\, Fairness & Responsible 
+ AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-full-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - S
+ hort-paper abstract deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
+ on Retrieval & Search\, Recommender Systems\, Natural Language Processing
+  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
+ c calls confirm paper days but no exact cutoff hour. Full/short abstract 
+ gates are already closed\; replicability and resource papers remain indep
+ endent opportunities. Resource papers report original research resources\
+ , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ on retrieval and ranking\, recommendation\, conversational search and RAG
+ \, user information interaction\, system efficiency\, and rigorous evalua
+ tion. The 2027 call explicitly includes language models and agentic retri
+ eval workflows. Replicability and research-resource papers are distinct r
+ outes. Fairness and explainability concern information access rather than
+  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction 
+ & Deployment\, Explainability & Interpretability\, Fairness & Responsible
+  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.
+ ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffi
+ cial deadline day\; exact cutoff hour/timezone is unannounced. Verify the
+  organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-short-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - R
+ eplicability-paper abstract deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
+  Information Retrieval & Search\, Recommender Systems\, Natural Language 
+ Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
+ ck-specific calls confirm paper days but no exact cutoff hour. Full/short
+  abstract gates are already closed\; replicability and resource papers re
+ main independent opportunities. Resource papers report original research 
+ resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+  Information retrieval and ranking\, recommendation\, conversational sear
+ ch and RAG\, user information interaction\, system efficiency\, and rigor
+ ous evaluation. The 2027 call explicitly includes language models and age
+ ntic retrieval workflows. Replicability and research-resource papers are 
+ distinct routes. Fairness and explainability concern information access r
+ ather than generic responsible-AI topics.\nAdditional topics: Human-AI In
+ teraction & Deployment\, Explainability & Interpretability\, Fairness & R
+ esponsible AI\, Multimedia Learning & Retrieval\nScope sources (2027): ht
+ tps://www.ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-1
+ 0-07\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. 
+ Verify the organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-reproducibility-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - S
+ hort paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
+ on Retrieval & Search\, Recommender Systems\, Natural Language Processing
+  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
+ c calls confirm paper days but no exact cutoff hour. Full/short abstract 
+ gates are already closed\; replicability and resource papers remain indep
+ endent opportunities. Resource papers report original research resources\
+ , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ on retrieval and ranking\, recommendation\, conversational search and RAG
+ \, user information interaction\, system efficiency\, and rigorous evalua
+ tion. The 2027 call explicitly includes language models and agentic retri
+ eval workflows. Replicability and research-resource papers are distinct r
+ outes. Fairness and explainability concern information access rather than
+  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction 
+ & Deployment\, Explainability & Interpretability\, Fairness & Responsible
+  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.
+ ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffi
+ cial deadline day\; exact cutoff hour/timezone is unannounced. Verify the
+  organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-short-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - R
+ eplicability paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
+  Information Retrieval & Search\, Recommender Systems\, Natural Language 
+ Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
+ ck-specific calls confirm paper days but no exact cutoff hour. Full/short
+  abstract gates are already closed\; replicability and resource papers re
+ main independent opportunities. Resource papers report original research 
+ resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+  Information retrieval and ranking\, recommendation\, conversational sear
+ ch and RAG\, user information interaction\, system efficiency\, and rigor
+ ous evaluation. The 2027 call explicitly includes language models and age
+ ntic retrieval workflows. Replicability and research-resource papers are 
+ distinct routes. Fairness and explainability concern information access r
+ ather than generic responsible-AI topics.\nAdditional topics: Human-AI In
+ teraction & Deployment\, Explainability & Interpretability\, Fairness & R
+ esponsible AI\, Multimedia Learning & Retrieval\nScope sources (2027): ht
+ tps://www.ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-1
+ 0-07\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. 
+ Verify the organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-reproducibility-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - R
+ esource paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-resource-papers\nLocation: Southampton\, UK\nTopics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Natural Language Process
+ ing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based
+ \nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-spec
+ ific calls confirm paper days but no exact cutoff hour. Full/short abstra
+ ct gates are already closed\; replicability and resource papers remain in
+ dependent opportunities. Resource papers report original research resourc
+ es\, not camera-ready work. Size is an editorial estimate.\nScope: Inform
+ ation retrieval and ranking\, recommendation\, conversational search and 
+ RAG\, user information interaction\, system efficiency\, and rigorous eva
+ luation. The 2027 call explicitly includes language models and agentic re
+ trieval workflows. Replicability and research-resource papers are distinc
+ t routes. Fairness and explainability concern information access rather t
+ han generic responsible-AI topics.\nAdditional topics: Human-AI Interacti
+ on & Deployment\, Explainability & Interpretability\, Fairness & Responsi
+ ble AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://w
+ ww.ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nO
+ fficial deadline day\; exact cutoff hour/timezone is unannounced. Verify 
+ the organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-resource-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270326
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - C
+ onference
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/\nLocation: Southampton\, UK\nTopics: Information Retrieval & Search
+ \, Recommender Systems\, Natural Language Processing & LLMs\, LLM Agents 
+ & Tool Use\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\
+ nLast checked date: 2026-10-07\nNotes: Track-specific calls confirm paper
+  days but no exact cutoff hour. Full/short abstract gates are already clo
+ sed\; replicability and resource papers remain independent opportunities.
+  Resource papers report original research resources\, not camera-ready wo
+ rk. Size is an editorial estimate.\nScope: Information retrieval and rank
+ ing\, recommendation\, conversational search and RAG\, user information i
+ nteraction\, system efficiency\, and rigorous evaluation. The 2027 call e
+ xplicitly includes language models and agentic retrieval workflows. Repli
+ cability and research-resource papers are distinct routes. Fairness and e
+ xplainability concern information access rather than generic responsible-
+ AI topics.\nAdditional topics: Human-AI Interaction & Deployment\, Explai
+ nability & Interpretability\, Fairness & Responsible AI\, Multimedia Lear
+ ning & Retrieval\nScope sources (2027): https://www.ecir2027.co.uk/call-f
+ or-full-papers\nScope last checked: 2026-10-07
+URL:https://www.ecir2027.co.uk/
+LOCATION:Southampton\, UK
+END:VEVENT
+END:VCALENDAR

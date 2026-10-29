@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE ICMLA 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ieee-icmla-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270516T065900Z
+DTEND:20270516T075900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE ICMLA 2027 - 
+ Main conference paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Machine Lear
+ ning and Applications\nWebsite: https://www.icmla-conference.org/icmla27/
+ \nSource URL: https://www.icmla-conference.org/icmla26/callforpapers.html
+ \nLocation: To be announced\nTopics: Machine Learning\, Deep Representati
+ on Learning\, Data Mining & Data Science\, Time Series & Sequential Data\
+ nSize: M\nSubmission type: Paper-based / special sessions\nConfidence: es
+ timated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the offic
+ ial ICMLA'27 site (26th edition\, in person\; banner says only '2027 USA'
+ ) publishes no dates\, city or call. Meeting and main-paper dates are one
+ -year proxies from ICMLA 2026 (Oct 5-7\; papers due May 15\, 11:59 PM PT)
+ .
+URL:https://www.icmla-conference.org/icmla26/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-icmla-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271008
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE ICMLA 2027 - 
+ Conference (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Machine Lear
+ ning and Applications\nWebsite: https://www.icmla-conference.org/icmla27/
+ \nSource URL: https://www.icmla-conference.org/icmla27/\nLocation: To be 
+ announced\nTopics: Machine Learning\, Deep Representation Learning\, Data
+  Mining & Data Science\, Time Series & Sequential Data\nSize: M\nSubmissi
+ on type: Paper-based / special sessions\nConfidence: estimated\nLast chec
+ ked date: 2026-10-29\nNotes: As of 2026-10-29 the official ICMLA'27 site 
+ (26th edition\, in person\; banner says only '2027 USA') publishes no dat
+ es\, city or call. Meeting and main-paper dates are one-year proxies from
+  ICMLA 2026 (Oct 5-7\; papers due May 15\, 11:59 PM PT).
+URL:https://www.icmla-conference.org/icmla27/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

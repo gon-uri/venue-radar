@@ -5,6 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Learning Theory & Statistical Foundati
  ons
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:ijcai-ecai-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -2186,6 +2191,35 @@ URL:https://aistats.org/aistats2027/index.html
 LOCATION:Montreal\, Quebec\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:neurips-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270505T115900Z
+DTEND:20270505T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Abs
+ tract submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:colt-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270507T115900Z
@@ -2212,6 +2246,35 @@ DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
  e sources (2026): https://learningtheory.org/colt2026/cfp.html\nScope las
  t checked: 2026-10-07
 URL:https://learningtheory.org/colt2026/workshops.html
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270507T115900Z
+DTEND:20270507T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Ful
+ l paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:automl-2027-deadline-full-paper@scientific-conference-calendar
@@ -2242,6 +2305,115 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
   Robustness & Safety\nScope sources (2026): https://2026.automl.cc/call-f
  or-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270526T115900Z
+DTEND:20270526T125900Z
+SUMMARY:[Machine Learning][Control & Robotics] CoRL 2027 - Mandatory abstra
+ ct registration deadline (estimated)
+DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
+ //www.corl.org/\nSource URL: https://openreview.net/group?id=robot-learni
+ ng.org/CoRL/2026/Conference\nLocation: To be announced\nTopics: Machine L
+ earning\, Control & Robotics\, Reinforcement Learning\, Deep Representati
+ on Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimated
+ \nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the official CoR
+ L site covers only CoRL 2026 (Austin\, Nov 9-12\, 2026) and OpenReview ha
+ s no CoRL 2027 venue\; no 2027 host or dates are announced. Meeting dates
+  and the May 25 mandatory abstract/May 28 paper deadlines (AoE) are one-y
+ ear proxies from CoRL 2026.\nScope: Machine learning for physical robots\
+ , especially imitation and reinforcement learning\, learned perception an
+ d control\, robot foundation models\, and learning-based task and motion 
+ planning. Includes uncertainty\, generalization\, safety\, human-robot in
+ teraction\, and datasets grounded in manipulation\, navigation\, or locom
+ otion. General ML is relevant when it makes a substantive contribution to
+  robot learning.\nAdditional topics: Computer Vision & Pattern Recognitio
+ n\, Probabilistic\, Causal & Uncertainty ML\, Human-AI Interaction & Depl
+ oyment\, Robustness & Safety\, Learning Theory & Statistical Foundations\
+ nScope sources (2026): https://www.corl.org/contributions/call-for-papers
+ \nScope last checked: 2026-10-07
+URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T115900Z
+DTEND:20270529T125900Z
+SUMMARY:[Machine Learning][Control & Robotics] CoRL 2027 - Main conference 
+ paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
+ //www.corl.org/\nSource URL: https://openreview.net/group?id=robot-learni
+ ng.org/CoRL/2026/Conference\nLocation: To be announced\nTopics: Machine L
+ earning\, Control & Robotics\, Reinforcement Learning\, Deep Representati
+ on Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimated
+ \nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the official CoR
+ L site covers only CoRL 2026 (Austin\, Nov 9-12\, 2026) and OpenReview ha
+ s no CoRL 2027 venue\; no 2027 host or dates are announced. Meeting dates
+  and the May 25 mandatory abstract/May 28 paper deadlines (AoE) are one-y
+ ear proxies from CoRL 2026.\nScope: Machine learning for physical robots\
+ , especially imitation and reinforcement learning\, learned perception an
+ d control\, robot foundation models\, and learning-based task and motion 
+ planning. Includes uncertainty\, generalization\, safety\, human-robot in
+ teraction\, and datasets grounded in manipulation\, navigation\, or locom
+ otion. General ML is relevant when it makes a substantive contribution to
+  robot learning.\nAdditional topics: Computer Vision & Pattern Recognitio
+ n\, Probabilistic\, Causal & Uncertainty ML\, Human-AI Interaction & Depl
+ oyment\, Robustness & Safety\, Learning Theory & Statistical Foundations\
+ nScope sources (2026): https://www.corl.org/contributions/call-for-papers
+ \nScope last checked: 2026-10-07
+URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2027-deadline-full-paper-abstract@scientific-conferen
+ ce-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Main track abstract submission (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://web.archiv
+ e.org/web/20260413203246/https://discovery-science.org/important-dates/\n
+ Location: To be announced\nTopics: Data Mining & Data Science\, Machine L
+ earning\, Learning Theory & Statistical Foundations\, Time Series & Seque
+ ntial Data\nSize: M\nSubmission type: Paper-based / research forum\nConfi
+ dence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 
+ discovery-science.org (the DS 2026 Mainz site) announces no 2027 edition.
+  Meeting and deadlines are one-year proxies from DS 2026\; main-track abs
+ tract/paper use its original Jun 1/8 dates (later extended to Jun 15/22)\
+ , with the abstract gate implied by that CMT schedule. Late-breaking abst
+ racts are 2-page non-proceedings posters. End-of-day AoE cutoffs are prov
+ isional.\nOfficial deadline day\; exact cutoff hour/timezone is unannounc
+ ed. Verify the organizer's submission portal.
+URL:https://web.archive.org/web/20260413203246/https://discovery-science.or
+ g/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2027-deadline-full-paper@scientific-conference-calend
+ ar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Main track full paper submission (estimated) (cutoff time unannounce
+ d)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://web.archiv
+ e.org/web/20260413203246/https://discovery-science.org/important-dates/\n
+ Location: To be announced\nTopics: Data Mining & Data Science\, Machine L
+ earning\, Learning Theory & Statistical Foundations\, Time Series & Seque
+ ntial Data\nSize: M\nSubmission type: Paper-based / research forum\nConfi
+ dence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 
+ discovery-science.org (the DS 2026 Mainz site) announces no 2027 edition.
+  Meeting and deadlines are one-year proxies from DS 2026\; main-track abs
+ tract/paper use its original Jun 1/8 dates (later extended to Jun 15/22)\
+ , with the abstract gate implied by that CMT schedule. Late-breaking abst
+ racts are 2-page non-proceedings posters. End-of-day AoE cutoffs are prov
+ isional.\nOfficial deadline day\; exact cutoff hour/timezone is unannounc
+ ed. Verify the organizer's submission portal.
+URL:https://web.archive.org/web/20260413203246/https://discovery-science.or
+ g/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcnn-2027-conference@scientific-conference-calendar
@@ -2291,6 +2463,62 @@ URL:https://l4dc2027.control.ee.ethz.ch/home
 LOCATION:Stockholm\, Sweden
 END:VEVENT
 BEGIN:VEVENT
+UID:acml-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270621T115900Z
+DTEND:20270621T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Journal-track submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Conference-track paper submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:colt-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270628
@@ -2336,6 +2564,28 @@ DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
  rack submission and Mar 19 camera-ready deadlines\, all AoE.
 URL:https://pakdd2027.org/
 LOCATION:Wellington\, New Zealand
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2027 - Paper s
+ ubmission (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/calls/key-dates\nLocation: To be an
+ nounced\nTopics: Machine Learning\, Data Mining & Data Science\, Deep Rep
+ resentation Learning\, Learning Theory & Statistical Foundations\nSize: M
+ \nSubmission type: Paper-based\nConfidence: estimated\nLast checked date:
+  2026-10-29\nNotes: As of 2026-10-29 official IDEAL pages announce no 202
+ 7 host\, dates or call. Meeting dates and the paper deadline are one-year
+  proxies from IDEAL 2026 (Manchester\, Nov 19-21)\, using its original Ju
+ l 1 deadline rather than the Jul 24 extension\; no cutoff hour was publis
+ hed\, so end-of-day AoE is provisional.\nOfficial deadline day\; exact cu
+ toff hour/timezone is unannounced. Verify the organizer's submission port
+ al.
+URL:https://www.ideal2026.org/calls/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:probml-2027-conference@scientific-conference-calendar
@@ -2497,6 +2747,35 @@ DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
 URL:https://ais2026.icas.events/deadlines/
 END:VEVENT
 BEGIN:VEVENT
+UID:log-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270729T115900Z
+DTEND:20270729T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Abstrac
+ t registration deadline (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: To be announced\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Graphs & Graph Learning\, Learning Theory & Statistical Foundations
+ \nSize: M\nSubmission type: Paper-based / non-archival extended abstracts
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and an
+ nounces no 2027 host or dates. Meeting and abstract/paper AoE dates are o
+ ne-year same-weekday proxies from LoG 2026\, based on its original Jul 29
+ /Aug 1 deadlines rather than the later Aug 5/7 extension.\nScope: Learnin
+ g on graphs and geometry: graph neural networks\, equivariant models\, gr
+ aph kernels\, geometric and graph generative models\, and statistical the
+ ory for structured data. Graph signal processing\, causal graph models\, 
+ robustness\, and scalable graph-learning infrastructure are meaningful ex
+ tensions. A graph or geometric contribution should remain central\, even 
+ in an application such as language or molecular modeling.\nAdditional top
+ ics: Complex Systems & Network Science\, Probabilistic\, Causal & Uncerta
+ inty ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastr
+ ucture\nScope sources (2026): https://logconference.org/cfp/\nScope last 
+ checked: 2026-10-07
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:automl-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270731T115900Z
@@ -2525,6 +2804,35 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
   Robustness & Safety\nScope sources (2026): https://2026.automl.cc/call-f
  or-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270801T115900Z
+DTEND:20270801T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Paper /
+  extended abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: To be announced\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Graphs & Graph Learning\, Learning Theory & Statistical Foundations
+ \nSize: M\nSubmission type: Paper-based / non-archival extended abstracts
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and an
+ nounces no 2027 host or dates. Meeting and abstract/paper AoE dates are o
+ ne-year same-weekday proxies from LoG 2026\, based on its original Jul 29
+ /Aug 1 deadlines rather than the later Aug 5/7 extension.\nScope: Learnin
+ g on graphs and geometry: graph neural networks\, equivariant models\, gr
+ aph kernels\, geometric and graph generative models\, and statistical the
+ ory for structured data. Graph signal processing\, causal graph models\, 
+ robustness\, and scalable graph-learning infrastructure are meaningful ex
+ tensions. A graph or geometric contribution should remain central\, even 
+ in an application such as language or molecular modeling.\nAdditional top
+ ics: Complex Systems & Network Science\, Probabilistic\, Causal & Uncerta
+ inty ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastr
+ ucture\nScope sources (2026): https://logconference.org/cfp/\nScope last 
+ checked: 2026-10-07
+URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-conference@scientific-conference-calendar
@@ -2598,6 +2906,62 @@ URL:https://ais2027.icas.events/
 LOCATION:Castiglione della Pescaia\, Italy
 END:VEVENT
 BEGIN:VEVENT
+UID:iclr-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270919T115900Z
+DTEND:20270919T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Abstra
+ ct submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270926T115900Z
+DTEND:20270926T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Paper 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:automl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270928
@@ -2629,6 +2993,56 @@ URL:https://2026.automl.cc/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:aistats-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270930T115900Z
+DTEND:20270930T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2028 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2027/dates.html\nLocation: To be announced\nTopics: L
+ earning Theory & Statistical Foundations\, Machine Learning\, Probabilist
+ ic\, Causal & Uncertainty ML\, Time Series & Sequential Data\nSize: L\nSu
+ bmission type: Paper-based\nConfidence: estimated\nLast checked date: 202
+ 6-10-29\nNotes: As of 2026-10-29 aistats.org announces only the 2027 meet
+ ing (Montreal)\; no 2028 host or dates are published. Meeting dates (May 
+ 3-6) and the Sep 29 abstract/Oct 6 paper deadlines (AoE) are one-year pro
+ xies from AISTATS 2027.\nScope: Research at the interface of artificial i
+ ntelligence\, machine learning\, and statistics. Its defining emphasis is
+  on statistical foundations and methodology for learning and inference\, 
+ rather than a particular application domain. Research bridges statistical
+  reasoning and learning algorithms\, with archival contributions to both 
+ communities.\nAdditional topics: \nScope sources (2027): https://aistats.
+ org/aistats2027/\, https://aistats.org/aistats2027/call-for-papers.html\n
+ Scope last checked: 2026-10-07
+URL:https://aistats.org/aistats2027/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Late-breaking abstract submission (estimated) (cutoff time unannounc
+ ed)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://discovery-
+ science.org/important-dates/\nLocation: To be announced\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Learning Theory & Statistical Fou
+ ndations\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper
+ -based / research forum\nConfidence: estimated\nLast checked date: 2026-1
+ 0-29\nNotes: As of 2026-10-29 discovery-science.org (the DS 2026 Mainz si
+ te) announces no 2027 edition. Meeting and deadlines are one-year proxies
+  from DS 2026\; main-track abstract/paper use its original Jun 1/8 dates 
+ (later extended to Jun 15/22)\, with the abstract gate implied by that CM
+ T schedule. Late-breaking abstracts are 2-page non-proceedings posters. E
+ nd-of-day AoE cutoffs are provisional.\nOfficial deadline day\; exact cut
+ off hour/timezone is unannounced. Verify the organizer's submission porta
+ l.
+URL:https://discovery-science.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:ecai-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271002
@@ -2646,6 +3060,28 @@ DESCRIPTION:Conference title: European Conference on Artificial Intelligenc
  explicitly estimated placeholder.
 URL:https://ecai2027.org/
 LOCATION:Athens\, Greece
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271010
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://discovery-
+ science.org/\nLocation: To be announced\nTopics: Data Mining & Data Scien
+ ce\, Machine Learning\, Learning Theory & Statistical Foundations\, Time 
+ Series & Sequential Data\nSize: M\nSubmission type: Paper-based / researc
+ h forum\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As 
+ of 2026-10-29 discovery-science.org (the DS 2026 Mainz site) announces no
+  2027 edition. Meeting and deadlines are one-year proxies from DS 2026\; 
+ main-track abstract/paper use its original Jun 1/8 dates (later extended 
+ to Jun 15/22)\, with the abstract gate implied by that CMT schedule. Late
+ -breaking abstracts are 2-page non-proceedings posters. End-of-day AoE cu
+ toffs are provisional.
+URL:https://discovery-science.org/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:colm-2027-conference@scientific-conference-calendar
@@ -2674,6 +3110,227 @@ DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
  6): https://colm.cc/Conferences/2026/CallForPapers\nScope last checked: 2
  026-10-07
 URL:https://colm.cc/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271007T115900Z
+DTEND:20271007T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2028 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2027/dates.html\nLocation: To be announced\nTopics: L
+ earning Theory & Statistical Foundations\, Machine Learning\, Probabilist
+ ic\, Causal & Uncertainty ML\, Time Series & Sequential Data\nSize: L\nSu
+ bmission type: Paper-based\nConfidence: estimated\nLast checked date: 202
+ 6-10-29\nNotes: As of 2026-10-29 aistats.org announces only the 2027 meet
+ ing (Montreal)\; no 2028 host or dates are published. Meeting dates (May 
+ 3-6) and the Sep 29 abstract/Oct 6 paper deadlines (AoE) are one-year pro
+ xies from AISTATS 2027.\nScope: Research at the interface of artificial i
+ ntelligence\, machine learning\, and statistics. Its defining emphasis is
+  on statistical foundations and methodology for learning and inference\, 
+ rather than a particular application domain. Research bridges statistical
+  reasoning and learning algorithms\, with archival contributions to both 
+ communities.\nAdditional topics: \nScope sources (2027): https://aistats.
+ org/aistats2027/\, https://aistats.org/aistats2027/call-for-papers.html\n
+ Scope last checked: 2026-10-07
+URL:https://aistats.org/aistats2027/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271113
+SUMMARY:[Machine Learning][Control & Robotics] CoRL 2027 - Conference (esti
+ mated)
+DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
+ //www.corl.org/\nSource URL: https://www.corl.org/\nLocation: To be annou
+ nced\nTopics: Machine Learning\, Control & Robotics\, Reinforcement Learn
+ ing\, Deep Representation Learning\nSize: L\nSubmission type: Paper-based
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 the official CoRL site covers only CoRL 2026 (Austin\, Nov 9-12\, 
+ 2026) and OpenReview has no CoRL 2027 venue\; no 2027 host or dates are a
+ nnounced. Meeting dates and the May 25 mandatory abstract/May 28 paper de
+ adlines (AoE) are one-year proxies from CoRL 2026.\nScope: Machine learni
+ ng for physical robots\, especially imitation and reinforcement learning\
+ , learned perception and control\, robot foundation models\, and learning
+ -based task and motion planning. Includes uncertainty\, generalization\, 
+ safety\, human-robot interaction\, and datasets grounded in manipulation\
+ , navigation\, or locomotion. General ML is relevant when it makes a subs
+ tantive contribution to robot learning.\nAdditional topics: Computer Visi
+ on & Pattern Recognition\, Probabilistic\, Causal & Uncertainty ML\, Huma
+ n-AI Interaction & Deployment\, Robustness & Safety\, Learning Theory & S
+ tatistical Foundations\nScope sources (2026): https://www.corl.org/contri
+ butions/call-for-papers\nScope last checked: 2026-10-07
+URL:https://www.corl.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271122
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2027 - Confere
+ nce (estimated)
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/\nLocation: To be announced\nTopics
+ : Machine Learning\, Data Mining & Data Science\, Deep Representation Lea
+ rning\, Learning Theory & Statistical Foundations\nSize: M\nSubmission ty
+ pe: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNo
+ tes: As of 2026-10-29 official IDEAL pages announce no 2027 host\, dates 
+ or call. Meeting dates and the paper deadline are one-year proxies from I
+ DEAL 2026 (Manchester\, Nov 19-21)\, using its original Jul 1 deadline ra
+ ther than the Jul 24 extension\; no cutoff hour was published\, so end-of
+ -day AoE is provisional.
+URL:https://www.ideal2026.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271122
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Confere
+ nce (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
+ To be announced\nTopics: Machine Learning\, Deep Representation Learning\
+ , Graphs & Graph Learning\, Learning Theory & Statistical Foundations\nSi
+ ze: M\nSubmission type: Paper-based / non-archival extended abstracts\nCo
+ nfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-
+ 29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and announ
+ ces no 2027 host or dates. Meeting and abstract/paper AoE dates are one-y
+ ear same-weekday proxies from LoG 2026\, based on its original Jul 29/Aug
+  1 deadlines rather than the later Aug 5/7 extension.\nScope: Learning on
+  graphs and geometry: graph neural networks\, equivariant models\, graph 
+ kernels\, geometric and graph generative models\, and statistical theory 
+ for structured data. Graph signal processing\, causal graph models\, robu
+ stness\, and scalable graph-learning infrastructure are meaningful extens
+ ions. A graph or geometric contribution should remain central\, even in a
+ n application such as language or molecular modeling.\nAdditional topics:
+  Complex Systems & Network Science\, Probabilistic\, Causal & Uncertainty
+  ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastructu
+ re\nScope sources (2026): https://logconference.org/cfp/\nScope last chec
+ ked: 2026-10-07
+URL:https://logconference.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271205
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/\nLoc
+ ation: To be announced\nTopics: Machine Learning\, Learning Theory & Stat
+ istical Foundations\, Explainability & Interpretability\, Robustness & Sa
+ fety\nSize: L\nSubmission type: Paper-based / OpenReview\nConfidence: est
+ imated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the ACML s
+ ite lists no 2027 edition\, host or dates. Meeting dates and both deadlin
+ es are one-year proxies from ACML 2026 (Dec 1-4\; journal track Jun 20\, 
+ conference track Jun 26 AoE\, the original date before its extension to J
+ ul 5).\nScope: Theory and practice of machine learning\, including probab
+ ilistic methods\, representation learning\, transfer and meta-learning\, 
+ reinforcement learning\, and learning theory. Generative models\, languag
+ e models\, and trustworthy learning extend this core. The broad applicati
+ ons list is not treated as evidence that every application field defines 
+ the conference.\nAdditional topics: Deep Representation Learning\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Fairness & Responsible AI\, Privacy-preserving M
+ L\nScope sources (2026): https://www.acml-conf.org/2026/calls/papers/\nSc
+ ope last checked: 2026-10-07
+URL:https://www.acml-conf.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271206
+DTEND;VALUE=DATE:20271213
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Con
+ ference (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/FutureMeetings\nLocation: Europe (city to be announced)\nTopics: 
+ Machine Learning\, Deep Representation Learning\, Time Series & Sequentia
+ l Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: P
+ aper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: 
+ As of 2026-10-29 the official NeurIPS future-meetings page lists 2027 onl
+ y as Europe\; no host city\, dates or call is published (neurips.cc/Confe
+ rences/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract
+ /May 6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nSco
+ pe: Broad research in machine learning\, especially deep and generative m
+ odels\, statistical foundations\, optimization\, probabilistic inference\
+ , and learning for decision-making. Language\, vision\, and scalable ML s
+ ystems are important research communities. Interdisciplinary applications
+  should contribute insight of wider interest to the machine-learning comm
+ unity.\nAdditional topics: Learning Theory & Statistical Foundations\, Pr
+ obabilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural 
+ Language Processing & LLMs\, Computer Vision & Pattern Recognition\, ML S
+ ystems & Infrastructure\nScope sources (2026): https://neurips.cc/Confere
+ nces/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/FutureMeetings
+LOCATION:Europe (city to be announced)
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280426
+DTEND;VALUE=DATE:20280501
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Confer
+ ence (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/FutureMeetings\nLocation: To be announced\nTopics: Deep Representation
+  Learning\, Machine Learning\, Explainability & Interpretability\, Robust
+ ness & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConf
+ idence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29
+  ICLR has not announced a 2028 meeting\; its official future-meetings pag
+ e lists only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 
+ 25 paper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Lea
+ rning representations and understanding deep learning\, with an emphasis 
+ on self-supervised learning\, generative models\, transfer and meta-learn
+ ing\, and the optimization and theory of learned representations. Languag
+ e\, vision\, probabilistic modeling\, and reinforcement learning are subs
+ tantial areas\, rather than unrelated application-domain tags.\nAdditiona
+ l topics: Learning Theory & Statistical Foundations\, Probabilistic\, Cau
+ sal & Uncertainty ML\, Reinforcement Learning\, Natural Language Processi
+ ng & LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastr
+ ucture\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPap
+ ers\nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/FutureMeetings
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280503
+DTEND;VALUE=DATE:20280507
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2028 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/\nLocation: To be announced\nTopics: Learning Theory & Stati
+ stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
+ nty ML\, Time Series & Sequential Data\nSize: L\nSubmission type: Paper-b
+ ased\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 
+ 2026-10-29 aistats.org announces only the 2027 meeting (Montreal)\; no 20
+ 28 host or dates are published. Meeting dates (May 3-6) and the Sep 29 ab
+ stract/Oct 6 paper deadlines (AoE) are one-year proxies from AISTATS 2027
+ .\nScope: Research at the interface of artificial intelligence\, machine 
+ learning\, and statistics. Its defining emphasis is on statistical founda
+ tions and methodology for learning and inference\, rather than a particul
+ ar application domain. Research bridges statistical reasoning and learnin
+ g algorithms\, with archival contributions to both communities.\nAddition
+ al topics: \nScope sources (2027): https://aistats.org/aistats2027/\, htt
+ ps://aistats.org/aistats2027/call-for-papers.html\nScope last checked: 20
+ 26-10-07
+URL:https://aistats.org/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT

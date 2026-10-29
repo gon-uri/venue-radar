@@ -1,5 +1,6 @@
 function initializeMobileCards() {
-  document.querySelector('#filter-details').open = !matchMedia('(max-width: 760px)').matches;
+  // The filter panel's responsive default is set by an inline script right
+  // after the panel, before first paint, to avoid a mobile layout shift.
   document.querySelectorAll('[data-filter-row]').forEach((row) => {
     const button = row.querySelector('.mobile-info-toggle');
     const view = row.hasAttribute('data-deadline-group') ? 'deadlines' : 'conferences';
@@ -30,24 +31,115 @@ function syncTopicParents() {
   });
 }
 
-function venueTopicMatch(row) {
-  const selected = [...document.querySelectorAll('[data-topic-family]:checked')];
+// Selected families and leaves, read once per filter pass.
+function topicFilterContext() {
   const families = new Map();
-  selected.forEach((input) => {
+  document.querySelectorAll('[data-topic-family]:checked').forEach((input) => {
     const group = families.get(input.dataset.topicFamily) || [];
     group.push(input.value);
     families.set(input.dataset.topicFamily, group);
   });
-  const topics = row.dataset.topics.split(' ');
-  const centralFamilies = (row.dataset.families || '').split(' ');
-  const matches = [...families.entries()].map(([family, group]) => {
-    const parent = document.querySelector(`[data-family-toggle="${family}"]`);
-    return parent.checked ? centralFamilies.includes(family)
-      : group.some((topic) => topics.includes(topic));
+  return {
+    entries: [...families.entries()].map(([family, leaves]) => ({
+      family,
+      leaves,
+      whole: document.querySelector(`[data-family-toggle="${family}"]`).checked,
+    })),
+    all: document.querySelector('#topic-match').value === 'all',
+  };
+}
+
+// Whole families match central identities; partial selections match the
+// curated topic union (ADR-030). `cache` holds the row's parsed sets.
+function venueTopicMatch(row, context = topicFilterContext(), cache = null) {
+  if (!context.entries.length) return true;
+  const topics = cache ? cache.topics : new Set(row.dataset.topics.split(' '));
+  const centralFamilies = cache ? cache.families : new Set((row.dataset.families || '').split(' '));
+  const matches = context.entries.map(({family, leaves, whole}) => (
+    whole ? centralFamilies.has(family) : leaves.some((topic) => topics.has(topic))
+  ));
+  return context.all ? matches.every(Boolean) : matches.some(Boolean);
+}
+
+function feedUrls(path) {
+  const base = document.querySelector('#calendar-menu')?.dataset.siteUrl || location.href;
+  const https = new URL(path, base).href;
+  const webcal = https.replace(/^https:/, 'webcal:');
+  return {https, webcal, google: `https://calendar.google.com/calendar/render?cid=${webcal}`};
+}
+
+function setFeedActions(actions, path) {
+  const urls = feedUrls(path);
+  actions.querySelector('[data-feed-google]').href = urls.google;
+  actions.querySelector('[data-feed-webcal]').href = urls.webcal;
+  actions.querySelector('[data-feed-download]').setAttribute('href', path);
+  actions.querySelector('[data-copy-feed]').dataset.copyFeed = urls.https;
+}
+
+async function copyFeedLink(button) {
+  const url = button.dataset.copyFeed;
+  const original = button.dataset.label || (button.dataset.label = button.textContent);
+  try {
+    await navigator.clipboard.writeText(url);
+    button.textContent = 'Copied';
+  } catch (error) {
+    window.prompt('Copy this calendar address:', url);
+  }
+  setTimeout(() => { button.textContent = original; }, 2000);
+}
+
+function initializeCalendarMenu() {
+  const menu = document.querySelector('#calendar-menu');
+  if (!menu) return;
+  let opener = null;
+  const syncPickers = () => menu.querySelectorAll('[data-feed-select]').forEach((select) => {
+    setFeedActions(select.closest('.feed-row').querySelector('[data-feed-actions]'), select.value);
   });
-  if (!matches.length) return true;
-  return document.querySelector('#topic-match').value === 'all'
-    ? matches.every(Boolean) : matches.some(Boolean);
+  menu.querySelectorAll('[data-feed-select]').forEach((select) => {
+    select.addEventListener('change', syncPickers);
+  });
+  // Browsers restore <select> values after scripts run on back/forward
+  // navigation; re-sync the links so they always match the visible choice.
+  window.addEventListener('pageshow', syncPickers);
+  menu.querySelectorAll('[data-copy-feed]').forEach((button) => {
+    button.addEventListener('click', () => copyFeedLink(button));
+  });
+  const closeMenu = (returnFocus) => {
+    menu.open = false;
+    const target = opener && opener.isConnected ? opener : menu.querySelector('summary');
+    opener = null;
+    if (returnFocus) target.focus();
+  };
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && menu.open) closeMenu(menu.contains(document.activeElement));
+  });
+  // Close when keyboard focus leaves, so the panel never covers focused controls.
+  menu.addEventListener('focusout', (event) => {
+    if (menu.open && event.relatedTarget && !menu.contains(event.relatedTarget)) closeMenu(false);
+  });
+  menu.addEventListener('toggle', () => {
+    if (!menu.open) opener = null;
+  });
+  document.addEventListener('click', (event) => {
+    if (menu.open && !menu.contains(event.target)) closeMenu(false);
+  });
+  // A row's "Series" link opens the menu with that series selected; without
+  // JavaScript it simply downloads the series feed.
+  document.querySelectorAll('[data-subscribe-series]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const select = menu.querySelector('#feed-series');
+      const option = select.querySelector(`[data-series-slug="${link.dataset.subscribeSeries}"]`);
+      if (!option) return;
+      event.preventDefault();
+      event.stopPropagation();
+      select.value = option.value;
+      select.dispatchEvent(new Event('change'));
+      menu.open = true;
+      opener = link;
+      menu.scrollIntoView({block: 'nearest'});
+      select.focus({preventScroll: true});
+    });
+  });
 }
 
 let conferenceMap;
@@ -60,12 +152,32 @@ function resetConferenceMap() {
   conferenceMap.fitBounds(worldMapBounds, {padding: [12, 12], animate: false});
 }
 
+let mapUnavailable = false;
+
+function showMapUnavailable() {
+  mapUnavailable = true;
+  document.querySelector('#conference-map').hidden = true;
+  const message = document.querySelector('#map-empty');
+  message.textContent = 'The map could not load; the table below lists every conference.';
+  message.hidden = false;
+}
+
 function updateConferenceMap() {
-  if (document.querySelector('#panel-conferences').hidden) return;
+  if (document.querySelector('#panel-conferences').hidden || mapUnavailable) return;
+  try {
+    drawConferenceMap();
+  } catch (error) {
+    showMapUnavailable();
+  }
+}
+
+function drawConferenceMap() {
   if (!conferenceMap) {
+    const animate = !matchMedia('(prefers-reduced-motion: reduce)').matches;
     conferenceMap = L.map('conference-map', {
       crs: L.CRS.EPSG4326, minZoom: -1, maxZoom: 7, zoomSnap: .25,
       scrollWheelZoom: false, worldCopyJump: false,
+      zoomAnimation: animate, fadeAnimation: animate, markerZoomAnimation: animate,
       // Leave enough room for popup auto-pan at the full-world zoom.
       maxBounds: [[-180, -360], [180, 360]], maxBoundsViscosity: .8,
     }).fitBounds(worldMapBounds, {padding: [12, 12]});
@@ -168,5 +280,16 @@ function loadCommunityComments() {
   Object.entries(settings).forEach(([key, value]) => script.setAttribute(`data-${key}`, value));
   script.crossOrigin = 'anonymous';
   script.async = true;
-  document.querySelector('.giscus').append(script);
+  const container = document.querySelector('.giscus');
+  const fallback = () => {
+    if (container.querySelector('iframe, .giscus-fallback')) return;
+    const link = document.createElement('a');
+    link.className = 'giscus-fallback';
+    link.href = 'https://github.com/gon-uri/venue-radar/discussions';
+    link.textContent = 'Comments could not load here; join the discussion on GitHub.';
+    container.append(link);
+  };
+  script.addEventListener('error', fallback);
+  setTimeout(fallback, 10000);
+  container.append(script);
 }

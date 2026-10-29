@@ -84,8 +84,15 @@ module boundaries; a documentation cleanup is not a reason to move behavior.
 - `docs/calendar-all.ics`: meeting dates plus recorded deadlines.
 - `docs/deadlines.ics`: recorded deadlines, including schedule-only steps.
 - `docs/conferences.ics`: meeting dates only.
+- `docs/submissions.ics`: supported fresh-submission deadlines and their mandatory gates.
 - `docs/tags/<leaf-slug>.ics`: topic-union events, not broad central-family feeds.
 - `docs/conferences/<edition-id>.ics`: one edition's meeting and milestones.
+- `docs/series/<series-key-slug>.ics`: every edition of one series; subscriptions
+  roll forward as new editions are added. Keyed by the exact `series` value.
+
+Every feed asks clients to refresh daily (REFRESH-INTERVAL/X-PUBLISHED-TTL).
+The header's Subscribe to calendar menu offers Google/Apple/copy-link/download
+for the aggregate, topic and series feeds (ADR-039).
 
 All recorded milestones can enter ICS even if they are not fresh-submission
 opportunities. The website's opportunities checkbox does not rewrite downloads.
@@ -121,6 +128,12 @@ identities. Topic slugs and Giscus IDs/mapping are similarly durable.
   preserves the user's disclosure choices; no-JS retains full metadata access.
 - Abstract-only publication formats use existing milestone/status wording and
   documented notes, not a new column or filter (ADR-036).
+- Confirmed exact cutoffs show their stored clock ("23:59 AoE", "20:00 UTC")
+  and the viewer's local time; estimated/date-only ones never show an hour.
+  Mobile cards repeat the counted-down action under Time left (ADR-039).
+- Search is accent-insensitive and requires every word; short words match word
+  starts. Empty views explain hidden closed/unannounced matches; closed rows
+  link to a tracked successor edition. Re-renders never move focused rows.
 
 UI dimensions/colors and their approved history are covered by source assets,
 regression tests and ADR-022/024/025/032-036, not repeated in every handbook file.

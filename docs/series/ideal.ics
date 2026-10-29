@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IDEAL (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ideal-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2026 - Paper s
+ ubmission deadline (extended) (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/calls/key-dates\nLocation: Manchest
+ er\, United Kingdom\nTopics: Machine Learning\, Data Mining & Data Scienc
+ e\, Deep Representation Learning\, Learning Theory & Statistical Foundati
+ ons\nSize: M\nSubmission type: Paper-based\nConfidence: confirmed\nLast c
+ hecked date: 2026-10-28\nNotes: Official IDEAL 2026 pages confirm the Uni
+ versity of Manchester\, Nov 19-21\, 2026\, joint with WSOM+ 2026. The pap
+ er deadline was extended from Jul 1 to Jul 24\, 2026\; no cutoff hour or 
+ timezone is published\, so the time is a provisional end-of-day AoE.\nOff
+ icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
+ e organizer's submission portal.
+URL:https://www.ideal2026.org/calls/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261122
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2026 - Confere
+ nce
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/\nLocation: Manchester\, United Kin
+ gdom\nTopics: Machine Learning\, Data Mining & Data Science\, Deep Repres
+ entation Learning\, Learning Theory & Statistical Foundations\nSize: M\nS
+ ubmission type: Paper-based\nConfidence: confirmed\nLast checked date: 20
+ 26-10-28\nNotes: Official IDEAL 2026 pages confirm the University of Manc
+ hester\, Nov 19-21\, 2026\, joint with WSOM+ 2026. The paper deadline was
+  extended from Jul 1 to Jul 24\, 2026\; no cutoff hour or timezone is pub
+ lished\, so the time is a provisional end-of-day AoE.
+URL:https://www.ideal2026.org/
+LOCATION:Manchester\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2027 - Paper s
+ ubmission (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/calls/key-dates\nLocation: To be an
+ nounced\nTopics: Machine Learning\, Data Mining & Data Science\, Deep Rep
+ resentation Learning\, Learning Theory & Statistical Foundations\nSize: M
+ \nSubmission type: Paper-based\nConfidence: estimated\nLast checked date:
+  2026-10-29\nNotes: As of 2026-10-29 official IDEAL pages announce no 202
+ 7 host\, dates or call. Meeting dates and the paper deadline are one-year
+  proxies from IDEAL 2026 (Manchester\, Nov 19-21)\, using its original Ju
+ l 1 deadline rather than the Jul 24 extension\; no cutoff hour was publis
+ hed\, so end-of-day AoE is provisional.\nOfficial deadline day\; exact cu
+ toff hour/timezone is unannounced. Verify the organizer's submission port
+ al.
+URL:https://www.ideal2026.org/calls/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271122
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2027 - Confere
+ nce (estimated)
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/\nLocation: To be announced\nTopics
+ : Machine Learning\, Data Mining & Data Science\, Deep Representation Lea
+ rning\, Learning Theory & Statistical Foundations\nSize: M\nSubmission ty
+ pe: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNo
+ tes: As of 2026-10-29 official IDEAL pages announce no 2027 host\, dates 
+ or call. Meeting dates and the paper deadline are one-year proxies from I
+ DEAL 2026 (Manchester\, Nov 19-21)\, using its original Jul 1 deadline ra
+ ther than the Jul 24 extension\; no cutoff hour was published\, so end-of
+ -day AoE is provisional.
+URL:https://www.ideal2026.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

@@ -6,6 +6,7 @@ import {chromium} from 'playwright';
 import {checkSubmissionBehavior} from './submission_behavior.mjs';
 import {checkMobileCards} from './mobile_cards.mjs';
 import {checkDynamicsNeuroscience} from './dynamics_neuroscience.mjs';
+import {checkVenueFeatures} from './venue_features.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -85,7 +86,7 @@ try {
   await checkMobileCards(page, url, output);
   await page.locator('#filter-details > summary').click();
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
-  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 93);
+  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 123);
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>
     rows.every(row => ['open', 'scheduled', 'opportunity', 'estimated'].includes(stateByRow.get(row).kind))));
   const repository = 'https://github.com/gon-uri/venue-radar';
@@ -126,7 +127,7 @@ try {
   assert(!(await page.locator('footer').innerText()).includes('Assistant Professor'));
   assert.equal(await page.getByRole('link', {name: 'University profile', exact: true}).getAttribute('href'), 'https://www.su.se/profiles/g/gour8957');
   assert.equal(await page.getByRole('heading', {name: 'On the map', exact: true}).count(), 0);
-  assert.deepEqual((await page.locator('.header-actions a').allTextContents()).map(text => text.trim()), ['Share on X', 'Star the repo', 'All events (.ics)']);
+  assert.deepEqual((await page.locator('.header-actions > a, .calendar-menu > summary').allTextContents()).map(text => text.trim()), ['Share on X', 'Star the repo', 'Subscribe to calendar']);
   assert(await page.locator('a[download]').evaluateAll(links => links.length > 0 && links.every(link => {
     const path = link.getAttribute('href');
     return path.endsWith('.ics') && !path.startsWith('/') && !path.includes(':');
@@ -151,12 +152,13 @@ try {
   const filterSummary = page.locator('#filter-details > summary');
   assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
   assert(await page.locator('#clear-filters').isVisible());
-  assert.equal(await filterSummary.locator('span:last-child').innerText(), 'Filters & search');
+  assert.equal(await filterSummary.locator('span:nth-child(2)').innerText(), 'Filters & search');
+  assert(await filterSummary.locator('#filter-count').isHidden(), 'No active-filter badge by default');
   assert.equal(await filterSummary.evaluate(summary => getComputedStyle(summary).fontSize), '20px');
   assert.equal(await filterSummary.evaluate(summary => getComputedStyle(summary).columnGap), '14px');
   assert.equal(await page.locator('.filter-disclosure-icon').evaluate(icon => getComputedStyle(icon).fontSize), '20px');
   assert.equal(await page.locator('.filter-disclosure-icon').getAttribute('aria-hidden'), 'true');
-  assert.equal(await page.locator('input:not(#open-only), select').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details')).length), 0);
+  assert.equal(await page.locator('input:not(#open-only), select').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details') && !control.closest('#calendar-menu')).length), 0);
   assert(await page.locator('#clear-filters').evaluate(button => !button.closest('#filter-details') && !!button.closest('.filter-section')));
   assert(await page.getByLabel('Show submission options only', {exact: true}).isVisible());
   assert(await page.locator('#open-only').evaluate(input => !input.closest('#filter-details') && !!input.closest('.tab-toolbar')));
@@ -176,7 +178,7 @@ try {
   const ccfPage = 'https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml';
   assert.equal(await page.getByRole('link', {name: 'CCF Rank', exact: true}).getAttribute('href'), ccfPage);
   assert(await page.locator('.rank-link-ccf').evaluateAll(links => links.every(link => link.href === 'https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml')));
-  assert.equal(await page.locator('.calendar-caption').innerText(), 'Download calendar');
+  assert.equal(await page.locator('.calendar-caption').innerText(), 'Auto-updating .ics feeds');
   assert(await page.locator('header').evaluate(header => header.querySelector('.calendar-action').getBoundingClientRect().right > header.querySelector('.brand-line').getBoundingClientRect().right));
   assert.equal(await page.locator('.brand-mark').evaluate(image => image.clientWidth), 82);
   assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSize), '42px');
@@ -307,8 +309,8 @@ try {
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '107 confirmed editions in 86 cities');
-  assert.equal(await page.locator('.city-marker').count(), 86);
+  assert.equal(await page.locator('#map-count').innerText(), '109 confirmed editions in 87 cities');
+  assert.equal(await page.locator('.city-marker').count(), 87);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();
   const montreal = page.locator('.city-marker[title^="Montreal"]');
@@ -544,20 +546,20 @@ try {
     assert(Math.abs(headingBox.y + headingBox.height / 2 - clearBox.y - clearBox.height / 2) < 1, `Disclosure and Clear filters must align at ${width}px`);
     assert(headingBox.x + headingBox.width < clearBox.x, `Clear filters must not overlap the heading at ${width}px`);
     assert(await page.locator('.topic-tree').evaluate(tree => tree.scrollHeight <= tree.clientHeight), `All eight collapsed families must fit at ${width}px`);
-    assert(await page.locator('.header-actions a').evaluateAll(links => links.every(link => {
+    assert(await page.locator('.header-actions > a, .calendar-menu > summary').evaluateAll(links => links.every(link => {
       const box = link.getBoundingClientRect();
       return box.left >= 0 && box.right <= innerWidth;
     })), `Header actions must fit at ${width}px`);
     assert(await page.locator('.calendar-action').evaluate(action => {
-      const button = action.querySelector('a').getBoundingClientRect();
-      const caption = action.querySelector('span').getBoundingClientRect();
+      const button = action.querySelector('summary').getBoundingClientRect();
+      const caption = action.querySelector('.calendar-caption').getBoundingClientRect();
       return caption.top >= button.bottom && caption.left >= button.left && caption.right <= button.right;
-    }), `Download caption must fit below its button at ${width}px`);
+    }), `Calendar caption must fit below its button at ${width}px`);
     assert(await page.locator('.header-actions').evaluate(actions => {
-      const links = [...actions.querySelectorAll('a')].map(link => link.getBoundingClientRect());
+      const links = [...actions.querySelectorAll(':scope > a, .calendar-menu > summary')].map(link => link.getBoundingClientRect());
       return links.at(-1).right >= Math.max(...links.map(link => link.right)) - 1 &&
         (innerWidth <= 760 || links.every(link => Math.abs(link.top - links[0].top) < 1));
-    }), `Download must be rightmost and desktop buttons aligned at ${width}px`);
+    }), `Calendar menu must be rightmost and desktop buttons aligned at ${width}px`);
     assert(await page.locator('.table-tabs button').evaluateAll(tabs => tabs.every(tab => {
       const range = document.createRange();
       range.selectNodeContents(tab);
@@ -577,6 +579,7 @@ try {
     await page.locator('#tab-conferences').click();
   }
   await checkDynamicsNeuroscience(page);
+  await checkVenueFeatures(page, url);
   assert.deepEqual(fontRequests, [], 'The title font must not require a network request');
   assert.deepEqual(errors, []);
   console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);

@@ -4,6 +4,11 @@ PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Biometrics & Human Sensing
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:eccv-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -891,6 +896,62 @@ URL:https://cvpr.thecvf.com/Conferences/2027
 LOCATION:Seattle\, Washington\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:wacv-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270620T115900Z
+DTEND:20270620T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 1 new-paper enrollment deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 1 paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcb-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270803T115900Z
@@ -921,6 +982,62 @@ DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
  s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
  st checked: 2026-10-07
 URL:https://ijcb2027.ieee-biometrics.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270822T115900Z
+DTEND:20270822T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 2 new-paper enrollment deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270829T115900Z
+DTEND:20270829T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 2 paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcb-2027-conference@scientific-conference-calendar
@@ -1017,6 +1134,35 @@ DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
  ecked: 2026-10-07
 URL:https://iccv.thecvf.com/Conferences/2027
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280109
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Conference (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ www.thecvf.com/?page_id=100\nLocation: Waikoloa\, Hawaii\, USA\nTopics: C
+ omputer Vision & Pattern Recognition\, Machine Learning\, Deep Representa
+ tion Learning\nSize: XL\nSubmission type: Paper-based / two independent s
+ ubmission rounds\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 the CVF conference list names Waikoloa\, Hawaii as
+  the WACV 2028 host\; dates and calls are unannounced. Main-conference da
+ tes and both rounds' enrollment and paper deadlines (AoE) are one-year pr
+ oxies from WACV 2027.\nScope: Applied computer vision and visual learning
+ \, with an emphasis on practical recognition\, detection\, segmentation\,
+  image/video analysis\, 3D perception\, and deployable visual systems. Hu
+ man analysis and multimodal visual methods are established areas. Compare
+ d with the flagship trio\, WACV particularly welcomes meaningful applicat
+ ion-driven contributions supported by sound evaluation\; its two submissi
+ on rounds are routes\, not different fields.\nAdditional topics: Signal P
+ rocessing\, Biometrics & Human Sensing\, Multimedia Learning & Retrieval\
+ nScope sources (2027): https://wacv.thecvf.com/Conferences/2027/CallForPa
+ pers\nScope last checked: 2026-10-07
+URL:https://www.thecvf.com/?page_id=100
+LOCATION:Waikoloa\, Hawaii\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:eccv-2028-deadline-abstract@scientific-conference-calendar

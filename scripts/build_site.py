@@ -9,6 +9,7 @@ from typing import Any
 from urllib.parse import urlencode
 
 import yaml
+from build_ics import SITE_URL, series_display_name, series_groups, series_slug
 from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata, validate_conference_families
 from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
@@ -44,7 +45,6 @@ TIME_ESTIMATE_TOOLTIP = (
     "Official day; exact hour/timezone unannounced. "
     "Countdown uses a provisional calendar time."
 )
-SITE_URL = "https://gon-uri.github.io/venue-radar/"
 SHARE_TEXT = (
     "Check out Venue Radar, a new conference calendar for ML, AI, neuroscience, and related fields. "
     "Search and filter submission deadlines, compare ICORE/CCF rankings, "
@@ -105,6 +105,30 @@ def _deadline_iso_utc(value: Any) -> str:
 def _display_deadline_datetime(value: Any) -> str:
     parsed = parse_datetime(value)
     return _format_date(parsed)
+
+
+def _offset_minutes(value: Any) -> int:
+    parsed = parse_datetime(value)
+    if parsed.tzinfo is None or parsed.utcoffset() is None:
+        return 0
+    return int(parsed.utcoffset().total_seconds() // 60)
+
+
+def _clock_label(value: Any) -> str:
+    """Cutoff in the stored offset: '23:59 AoE', '20:00 UTC' or '17:00 UTC-4'.
+
+    Zone abbreviations are never guessed; only the recorded offset is shown.
+    """
+    parsed = parse_datetime(value)
+    minutes = _offset_minutes(value)
+    if minutes == -12 * 60:
+        zone = "AoE"
+    elif minutes == 0:
+        zone = "UTC"
+    else:
+        hours, rest = divmod(abs(minutes), 60)
+        zone = f"UTC{'+' if minutes > 0 else '-'}{hours}" + (f":{rest:02d}" if rest else "")
+    return f"{parsed.hour:02d}:{parsed.minute:02d} {zone}"
 
 
 def _display_deadline_label(label: str) -> str:
@@ -237,13 +261,36 @@ def _conference_calendar_link(conference: dict[str, Any]) -> str:
         f"Download an ICS calendar file for {conference['short_title']} with "
         "conference dates and deadlines."
     )
+    slug = series_slug(conference["series"])
+    series_title = (
+        f"Calendar feed with every {conference['series']} edition; subscribe once "
+        "and future editions appear automatically."
+    )
     return (
+        '<div class="row-calendar-actions">'
         f'<a class="row-calendar-button" href="{_attr(_conference_calendar_href(conference))}" '
         f'download title="{_attr(title)}" '
         f'aria-label="Download calendar for {_attr(conference["short_title"])}">' +
         (ASSETS_DIR / "vendor" / "download.svg").read_text(encoding="utf-8") +
         "</a>"
+        f'<a class="row-series-link" href="series/{_attr(slug)}.ics" '
+        f'data-subscribe-series="{_attr(slug)}" title="{_attr(series_title)}" '
+        f'aria-label="Series feed: subscribe to all {_attr(conference["series"])} editions">Series</a>'
+        "</div>"
     )
+
+
+def _successors(conferences: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Map each edition ID to the next tracked edition of the same series."""
+    by_series: dict[str, list[dict[str, Any]]] = {}
+    for conference in conferences:
+        by_series.setdefault(conference["series"], []).append(conference)
+    result: dict[str, dict[str, Any]] = {}
+    for editions in by_series.values():
+        ordered = sorted(editions, key=lambda item: (item["year"], str(item["conference_start"])))
+        for current, following in zip(ordered, ordered[1:]):
+            result[current["id"]] = following
+    return result
 
 
 def _colgroup(widths: list[str]) -> str:
@@ -301,25 +348,39 @@ def _milestones(conference: dict[str, Any]) -> list[dict[str, Any]]:
             "datetime": deadline["datetime"],
             "estimated": deadline.get("confidence", conference["confidence"]) != "confirmed",
             "approximate_time": deadline.get("time_precision") == "date",
+            "show_time": True,
         })
         if deadline.get("opens_at"):
+            # A recorded opening is always an exact published time (schema rule),
+            # so it does not inherit the cutoff's date-only precision.
             milestones.append({
                 "type": f'{deadline["type"]}_opens',
                 "label": f'{_display_deadline_label(deadline["label"])} opens',
                 "datetime": deadline["opens_at"],
                 "estimated": deadline.get("confidence", conference["confidence"]) != "confirmed",
-                "approximate_time": deadline.get("time_precision") == "date",
+                "approximate_time": False,
+                "show_time": True,
             })
     milestones.append({
         "type": "conference_start",
         "label": "Conference starts",
         "datetime": f'{conference["conference_start"]}T00:00:00Z',
         "estimated": conference["confidence"] in {"estimated", "not_yet_announced", "stale"},
+        "show_time": False,
     })
     return sorted(milestones, key=lambda item: _deadline_iso_utc(item["datetime"]))
 
 
-def _deadline_grid_rows(milestones: list[dict[str, Any]]) -> str:
+def _shows_clock(milestone: dict[str, Any]) -> bool:
+    """Only confirmed cutoffs with a published hour show a clock time (ADR-039)."""
+    return (
+        milestone.get("show_time", False)
+        and not milestone["estimated"]
+        and not milestone.get("approximate_time")
+    )
+
+
+def _deadline_grid_rows(milestones: list[dict[str, Any]], grid_id: str = "") -> str:
     rows = []
     for index, milestone in enumerate(milestones):
         deadline_utc = _deadline_iso_utc(milestone["datetime"])
@@ -328,17 +389,25 @@ def _deadline_grid_rows(milestones: list[dict[str, Any]]) -> str:
         time_title = ""
         if milestone.get("approximate_time") and not milestone["estimated"]:
             time_title = f' title="{_attr(TIME_ESTIMATE_TOOLTIP)}"'
+        clock = local = ""
+        if _shows_clock(milestone):
+            clock = (
+                f'<span class="deadline-clock" data-offset="{_offset_minutes(milestone["datetime"])}">'
+                f'{escape(_clock_label(milestone["datetime"]))}</span>'
+            )
+            local = '<span class="deadline-local" data-local-time hidden></span>'
         rows.append(
             f'<div class="deadline-grid-row" data-deadline-row data-entry-index="{index}" '
             f'data-deadline-type="{_attr(milestone["type"])}"{row_hidden}>'
             f'<time datetime="{_attr(deadline_utc)}"{time_title}>'
-            f"{escape(_display_deadline_datetime(milestone['datetime']))}</time>{estimate}"
+            f"{escape(_display_deadline_datetime(milestone['datetime']))}</time>{clock}{estimate}"
             f'<span class="deadline-milestone">'
-            f"{escape(milestone['label'])}</span>"
+            f"{escape(milestone['label'])}</span>{local}"
             f'<span class="deadline-passed" data-deadline-passed="{_attr(deadline_utc)}"></span>'
             "</div>"
         )
-    return f'<div class="deadline-grid" data-deadline-grid>{"".join(rows)}</div>'
+    grid_attr = f' id="{_attr(grid_id)}"' if grid_id else ""
+    return f'<div class="deadline-grid" data-deadline-grid{grid_attr}>{"".join(rows)}</div>'
 
 
 def _mobile_row_disclosure(title: str) -> str:
@@ -358,39 +427,51 @@ def _deadline_group_rows(
     ccf: dict[str, Any],
     ccf_page: str,
     rates: dict[str, Any],
+    successors: dict[str, dict[str, Any]] | None = None,
 ) -> str:
+    successors = successors or {}
     rows = []
     for conference in conferences:
         milestones = _milestones(conference)
         search_extras = []
         for deadline in conference.get("deadlines", []):
-            search_extras.extend(
-                [
-                    _display_deadline_label(deadline["label"]),
-                    deadline["type"],
-                    _deadline_source_url(conference, deadline),
-                ]
-            )
+            # Labels and types are searchable; source URLs are not (they made
+            # queries such as "2026" match later editions via old links).
+            search_extras.extend([_display_deadline_label(deadline["label"]), deadline["type"]])
         search_text = _search_text(conference, search_extras)
         group_id = stable_slug(conference["id"])
+        grid_id = f"milestones-{group_id}"
         toggle_html = ""
         if len(milestones) > 1:
             toggle_html = (
                 f"<button class=\"deadline-toggle\" type=\"button\" aria-expanded=\"false\" "
+                f"aria-controls=\"{_attr(grid_id)}\" "
                 f"aria-label=\"Show milestones for {_attr(conference['short_title'])}\">"
                 "<span class=\"expand-icon\" aria-hidden=\"true\">&#9656;</span>"
                 "</button>"
             )
+        successor_html = ""
+        following = successors.get(conference["id"])
+        if following:
+            successor_html = (
+                f'<a class="successor-link" data-successor-link href="#deadline-{_attr(following["id"])}" '
+                f'data-successor="{_attr(following["id"])}" hidden>'
+                f'Next: {escape(following["short_title"])}</a>'
+            )
         rows.append(
-            f'<tr class="deadline-group-row" {_filter_attributes(conference, search_text, icore, ccf, rates)} '
+            f'<tr class="deadline-group-row" id="deadline-{_attr(group_id)}" '
+            f'{_filter_attributes(conference, search_text, icore, ccf, rates)} '
             f'data-deadline-group="{_attr(group_id)}" data-expanded="false">'
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
-            '<td data-label="Submission status"><span class="submission-status" data-submission-status>Checking...</span></td>'
+            '<td data-label="Submission status"><div class="status-cell">'
+            '<span class="submission-status" data-submission-status>Checking...</span>'
+            f'{successor_html}</div></td>'
             '<td data-label="Time left"><div class="time-left-cell">'
             '<span class="time-left" data-time-left>&mdash;</span>'
             f'<span class="time-estimate" data-time-estimate hidden title="{_attr(TIME_ESTIMATE_TOOLTIP)}">(time est.)</span>'
+            '<span class="next-step" data-next-step hidden></span>'
             '</div></td>'
-            f'<td class="deadline-combined-cell mobile-detail" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}{_deadline_grid_rows(milestones)}</div></td>'
+            f'<td class="deadline-combined-cell mobile-detail" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}{_deadline_grid_rows(milestones, grid_id)}</div></td>'
             f"<td class=\"mobile-detail\" data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f'<td class="mobile-detail" data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
             f'<td class="mobile-detail" data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
@@ -413,15 +494,15 @@ def _conference_rows(
         conferences,
         key=lambda item: (parse_date(item["conference_start"]), item["id"]),
     ):
-        source_url = _conference_source_url(conference)
-        search_text = _search_text(conference, [source_url])
+        search_text = _search_text(conference)
         date_estimate = (
             ' <span class="milestone-estimate" title="Conference dates estimated">(est.)</span>'
             if conference["confidence"] in {"estimated", "not_yet_announced", "stale"}
             else ""
         )
         rows.append(
-            f'<tr {_filter_attributes(conference, search_text, icore, ccf, rates)} data-conference-row>'
+            f'<tr id="conference-{_attr(stable_slug(conference["id"]))}" '
+            f'{_filter_attributes(conference, search_text, icore, ccf, rates)} data-conference-row>'
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td data-label=\"Dates\">{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}{date_estimate}</td>"
             f"<td data-label=\"Location\">{escape(conference.get('location', 'TBD'))}</td>"
@@ -508,6 +589,79 @@ def _checkbox_group(
     )
 
 
+FEED_ROWS = [
+    ("submissions.ics", "Submission deadlines",
+     "New-paper and abstract deadlines, including required registration steps"),
+    ("calendar-all.ics", "All events", "Meeting dates plus every recorded milestone"),
+    ("conferences.ics", "Conference dates", "Meeting dates only"),
+]
+
+
+def _feed_actions(path: str, name: str) -> str:
+    https_url = SITE_URL + path
+    webcal_url = "webcal://" + https_url.split("://", 1)[1]
+    google_url = "https://calendar.google.com/calendar/render?cid=" + webcal_url
+    return (
+        f'<div class="feed-actions" data-feed-actions data-feed-name="{_attr(name)}">'
+        f'<a class="feed-link" data-feed-google href="{_attr(google_url)}" target="_blank" '
+        f'rel="noopener noreferrer" title="Subscribe in Google Calendar">Google</a>'
+        f'<a class="feed-link" data-feed-webcal href="{_attr(webcal_url)}" '
+        f'title="Subscribe in Apple Calendar or another app that opens webcal links">Apple</a>'
+        f'<button class="feed-link" type="button" data-copy-feed="{_attr(https_url)}" '
+        f'title="Copy the feed address to paste into Outlook or any calendar app">Copy link</button>'
+        f'<a class="feed-link" data-feed-download href="{_attr(path)}" download '
+        f'title="Download a one-time snapshot; it will not receive updates">Download</a>'
+        '</div>'
+    )
+
+
+def _calendar_menu(conferences: list[dict[str, Any]], icon: str) -> str:
+    rows = "".join(
+        f'<li class="feed-row"><div class="feed-name"><strong>{escape(name)}</strong>'
+        f'<span>{escape(description)}</span></div>{_feed_actions(path, name)}</li>'
+        for path, name, description in FEED_ROWS
+    )
+    topics = sorted(
+        {topic for conference in conferences for topic in all_topics(conference)},
+        key=lambda topic: TOPIC_CATALOG["labels"].get(topic, topic).casefold(),
+    )
+    topic_options = "".join(
+        f'<option value="tags/{_attr(stable_slug(topic))}.ics">'
+        f'{escape(TOPIC_CATALOG["labels"].get(topic, topic))}</option>'
+        for topic in topics
+    )
+    groups = sorted(series_groups(conferences).items(),
+                    key=lambda item: series_display_name(item[1]).casefold())
+    series_options = "".join(
+        f'<option value="series/{_attr(slug)}.ics" data-series-slug="{_attr(slug)}">'
+        f'{escape(series_display_name(group))}</option>'
+        for slug, group in groups
+    )
+    first_topic = f"tags/{stable_slug(topics[0])}.ics"
+    first_series = f"series/{groups[0][0]}.ics"
+    pickers = (
+        '<li class="feed-row feed-picker"><label class="feed-name" for="feed-topic">'
+        '<strong>One topic</strong><span>All events for a subtopic</span></label>'
+        f'<select id="feed-topic" data-feed-select>{topic_options}</select>'
+        f'{_feed_actions(first_topic, "Topic feed")}</li>'
+        '<li class="feed-row feed-picker"><label class="feed-name" for="feed-series">'
+        '<strong>One conference series</strong><span>Every edition, including future ones</span></label>'
+        f'<select id="feed-series" data-feed-select>{series_options}</select>'
+        f'{_feed_actions(first_series, "Series feed")}</li>'
+    )
+    return (
+        f'<details class="calendar-menu" id="calendar-menu" data-site-url="{_attr(SITE_URL)}">'
+        f'<summary class="calendar-button">{icon}Subscribe to calendar</summary>'
+        '<div class="calendar-panel">'
+        '<p class="calendar-panel-intro">Subscribed feeds update automatically when Venue Radar changes.</p>'
+        f'<ul class="feed-list">{rows}{pickers}</ul>'
+        '<p class="calendar-panel-note">Outlook: Add calendar &rarr; Subscribe from web, then paste a '
+        'copied link. Google can take up to a day to refresh. Single-edition files are in the '
+        'Conferences &amp; Map table.</p>'
+        '</div></details>'
+    )
+
+
 def _topic_filter() -> str:
     families = []
     for family in TOPIC_CATALOG["families"]:
@@ -573,7 +727,9 @@ def build_site(
         'land': json.loads((ASSETS_DIR / 'vendor' / 'world-land.geojson').read_text()),
         'resetIcon': (ASSETS_DIR / 'vendor' / 'globe.svg').read_text(encoding='utf-8'),
     }, separators=(',', ':')).replace('</', '<\\/')
-    download_icon = (ASSETS_DIR / 'vendor' / 'download.svg').read_text(encoding='utf-8')
+    calendar_icon = (ASSETS_DIR / 'vendor' / 'calendar-plus.svg').read_text(encoding='utf-8')
+    calendar_menu = _calendar_menu(conferences, calendar_icon)
+    successors = _successors(conferences)
     share_icon = (ASSETS_DIR / 'vendor' / 'share-2.svg').read_text(encoding='utf-8')
     star_icon = (ASSETS_DIR / 'vendor' / 'star.svg').read_text(encoding='utf-8')
     vendor_notices = '\n\n'.join(
@@ -1203,8 +1359,20 @@ def build_site(
     }}
     {custom_css}
   </style>
+  <noscript><style>
+    /* Without JavaScript, show every table, date and milestone (no live status). */
+    #panel-conferences[hidden] {{ display: block !important; }}
+    .deadline-grid-row[hidden] {{ display: flex !important; }}
+    .table-tabs, .open-toggle, .toolbar-actions, .filter-section, .map-section,
+    .deadline-toggle, .calendar-menu > .calendar-panel .feed-picker, [data-copy-feed] {{ display: none !important; }}
+    #panel-deadlines col:nth-child(2), #panel-deadlines col:nth-child(3),
+    #panel-deadlines th:nth-child(2), #panel-deadlines th:nth-child(3),
+    #panel-deadlines td[data-label="Submission status"], #panel-deadlines td[data-label="Time left"] {{ display: none !important; }}
+    .noscript-note {{ display: block !important; }}
+  </style></noscript>
 </head>
 <body>
+  <a class="skip-link" href="#tables">Skip to conference tables</a>
   <main>
     <header>
       <div class="brand-copy">
@@ -1215,15 +1383,15 @@ def build_site(
         <a class="header-button share-button" href="{_attr(share_url)}" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X">{share_icon}Share on X</a>
         <a class="header-button star-button" href="https://github.com/gon-uri/venue-radar" target="_blank" rel="noopener noreferrer" title="Open Venue Radar on GitHub to star the repository">{star_icon}Star the repo</a>
         <div class="calendar-action">
-          <a class="calendar-button" href="calendar-all.ics" download>{download_icon}All events (.ics)</a>
-          <span class="calendar-caption">Download calendar</span>
+          {calendar_menu}
+          <span class="calendar-caption">Auto-updating .ics feeds</span>
         </div>
       </div>
     </header>
 
     <section class="controls filter-section" aria-label="Filters and search">
     <details class="filter-details" id="filter-details" open>
-      <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>Filters &amp; search</span></summary>
+      <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>Filters &amp; search</span><span class="filter-count" id="filter-count" hidden></span></summary>
       <div class="filter-content">
         <div class="filter-grid">
           {_topic_filter()}
@@ -1241,10 +1409,12 @@ def build_site(
         </div>
       </div>
     </details>
+    <script>document.querySelector('#filter-details').open = !matchMedia('(max-width: 760px)').matches;</script>
     <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
     </section>
 
-    <section class="tab-shell" aria-label="Conference calendar tables">
+    <section class="tab-shell" id="tables" tabindex="-1" aria-label="Conference calendar tables">
+      <p class="noscript-note">Live submission status, countdowns and filters need JavaScript. Every conference, date and milestone is still listed below.</p>
       <div class="tab-toolbar">
         <div class="table-tabs" role="tablist" aria-label="Table view">
           <button class="tab-button" id="tab-deadlines" type="button" role="tab" aria-selected="true" aria-controls="panel-deadlines" data-tab-target="deadlines">Upcoming Deadlines</button>
@@ -1253,27 +1423,30 @@ def build_site(
         <label class="open-toggle"><input id="open-only" type="checkbox" checked>Show submission options only</label>
         <div class="toolbar-actions">
           <span id="result-count" aria-live="polite"></span>
+          <button class="link-button" id="show-hidden" type="button" hidden></button>
         </div>
       </div>
 
       <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
+        <div class="empty-state" id="deadlines-empty" hidden></div>
         <div class="table-wrap">
           <table>
+            <caption class="visually-hidden">Upcoming submission deadlines, ordered by the next required action</caption>
             {_colgroup(["12%", "14%", "7%", "30%", "15%", "9%", "9%", "4%"])}
             <thead>
               <tr>
-                <th>Conference</th>
-                <th>Submission status</th>
-                <th>Time left</th>
-                <th>Next milestone</th>
-                <th>Topics</th>
-                <th>Accept. rate</th>
-                <th>ICORE / CCF</th>
-                <th>Size</th>
+                <th scope="col">Conference</th>
+                <th scope="col">Submission status</th>
+                <th scope="col">Time left</th>
+                <th scope="col">Next milestone</th>
+                <th scope="col">Topics</th>
+                <th scope="col">Accept. rate</th>
+                <th scope="col">ICORE / CCF</th>
+                <th scope="col">Size</th>
               </tr>
             </thead>
             <tbody id="deadlines-body">
-              {_deadline_group_rows(conferences, icore, ccf, ccf_page, rates)}
+              {_deadline_group_rows(conferences, icore, ccf, ccf_page, rates, successors)}
             </tbody>
           </table>
         </div>
@@ -1286,19 +1459,21 @@ def build_site(
           <p id="map-empty" class="map-empty" hidden>No confirmed upcoming locations match these filters.</p>
           <div id="map-cities" class="map-cities" aria-label="Conference cities"></div>
         </section>
+        <div class="empty-state" id="conferences-empty" hidden></div>
         <div class="table-wrap">
           <table>
+            <caption class="visually-hidden">Upcoming conferences by meeting date</caption>
             {_colgroup(["15%", "15%", "16%", "22%", "10%", "10%", "5%", "7%"])}
             <thead>
               <tr>
-                <th>Conference</th>
-                <th>Dates</th>
-                <th>Location</th>
-                <th>Topics</th>
-                <th>Accept. rate</th>
-                <th>ICORE / CCF</th>
-                <th>Size</th>
-                <th>Calendar</th>
+                <th scope="col">Conference</th>
+                <th scope="col">Dates</th>
+                <th scope="col">Location</th>
+                <th scope="col">Topics</th>
+                <th scope="col">Accept. rate</th>
+                <th scope="col">ICORE / CCF</th>
+                <th scope="col">Size</th>
+                <th scope="col">Calendar</th>
               </tr>
             </thead>
             <tbody id="upcoming-conferences-body">
@@ -1310,8 +1485,9 @@ def build_site(
           <summary>Ongoing and past conferences</summary>
           <div class="table-wrap">
             <table>
+              <caption class="visually-hidden">Ongoing and past conferences</caption>
               {_colgroup(["15%", "15%", "16%", "22%", "10%", "10%", "5%", "7%"])}
-              <thead><tr><th>Conference</th><th>Dates</th><th>Location</th><th>Topics</th><th>Accept. rate</th><th>ICORE / CCF</th><th>Size</th><th>Calendar</th></tr></thead>
+              <thead><tr><th scope="col">Conference</th><th scope="col">Dates</th><th scope="col">Location</th><th scope="col">Topics</th><th scope="col">Accept. rate</th><th scope="col">ICORE / CCF</th><th scope="col">Size</th><th scope="col">Calendar</th></tr></thead>
               <tbody id="past-conferences-body"></tbody>
             </table>
           </div>
@@ -1349,6 +1525,8 @@ def build_site(
     const rows = [...document.querySelectorAll("[data-filter-row]")];
     const openOnly = document.querySelector("#open-only");
     const resultCount = document.querySelector("#result-count");
+    const showHidden = document.querySelector("#show-hidden");
+    const filterCount = document.querySelector("#filter-count");
     const clearFilters = document.querySelector("#clear-filters");
     const tabButtons = [...document.querySelectorAll("[data-tab-target]")];
     const tabPanels = [...document.querySelectorAll("[data-tab-panel]")];
@@ -1358,7 +1536,11 @@ def build_site(
     const upcomingConferenceBody = document.querySelector("#upcoming-conferences-body");
     const pastConferenceBody = document.querySelector("#past-conferences-body");
     const pastSection = document.querySelector("#past-conferences-section");
+    const deadlinesEmpty = document.querySelector("#deadlines-empty");
+    const conferencesEmpty = document.querySelector("#conferences-empty");
     const submissionTypes = new Set({json.dumps(sorted(SUBMISSION_TYPES))});
+    const metadataGroups = ["size", "icore", "ccf", "acceptance"];
+    const eligibleKinds = ["open", "scheduled", "opportunity", "estimated"];
     const deadlineData = new Map(rows.map((row) => [
       row,
       JSON.parse(row.dataset.deadlines).map((deadline) => ({{
@@ -1367,6 +1549,21 @@ def build_site(
       }})),
     ]));
     const stateByRow = new Map();
+    const baseMatchByRow = new Map();
+
+    // Accent- and punctuation-insensitive text, e.g. "Montréal" -> "montreal".
+    function normalizeSearch(value) {{
+      return value.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ").trim();
+    }}
+
+    const splitSet = (value) => new Set((value || "").split(" ").filter(Boolean));
+    const rowCache = new Map(rows.map((row) => [row, {{
+      haystack: ` ${{normalizeSearch(row.dataset.search || "")}} `,
+      topics: splitSet(row.dataset.topics),
+      families: splitSet(row.dataset.families),
+      groups: Object.fromEntries(metadataGroups.map((group) => [group, splitSet(row.dataset[group])])),
+    }}]));
 
     function selectedValues(group) {{
       return filters
@@ -1374,30 +1571,32 @@ def build_site(
         .map((input) => input.value);
     }}
 
-    function matchesGroup(row, group, selected) {{
-      if (!selected.length) {{
-        return true;
-      }}
-      const values = (row.dataset[group] || "").split(" ").filter(Boolean);
-      return selected.some((value) => values.includes(value));
+    // Computed once per pass instead of once per row.
+    function filterContext() {{
+      return {{
+        tokens: normalizeSearch(search.value).split(" ").filter(Boolean),
+        groups: metadataGroups.map((group) => [group, new Set(selectedValues(group))])
+          .filter(([, values]) => values.size),
+        topics: topicFilterContext(),
+      }};
     }}
 
-    function rowMatchesFilters(row) {{
-      const query = search.value.trim().toLowerCase();
-      const selectedSizes = selectedValues("size");
-      const selectedIcore = selectedValues("icore");
-      const selectedCcf = selectedValues("ccf");
-      const selectedAcceptance = selectedValues("acceptance");
+    // Every word must match; one- and two-letter words match word starts only,
+    // so "ai" finds AIES but not "fairness".
+    function matchesSearch(haystack, tokens) {{
+      return tokens.every((token) => haystack.includes(token.length <= 2 ? ` ${{token}}` : token));
+    }}
 
-      const haystack = row.dataset.search.toLowerCase();
-      const matchesSearch = !query || haystack.includes(query);
-      const matchesTopic = venueTopicMatch(row);
-      const matchesSize = matchesGroup(row, "size", selectedSizes);
-      const matchesIcore = matchesGroup(row, "icore", selectedIcore);
-      const matchesCcf = matchesGroup(row, "ccf", selectedCcf);
-      const matchesAcceptance = matchesGroup(row, "acceptance", selectedAcceptance);
-      const matchesOpen = !row.hasAttribute("data-deadline-group") || !openOnly.checked || ["open", "scheduled", "opportunity", "estimated"].includes(stateByRow.get(row)?.kind);
-      return matchesSearch && matchesTopic && matchesSize && matchesIcore && matchesCcf && matchesAcceptance && matchesOpen;
+    function rowMatchesFilters(row, context = filterContext()) {{
+      const cache = rowCache.get(row);
+      return matchesSearch(cache.haystack, context.tokens)
+        && context.groups.every(([group, values]) => [...cache.groups[group]].some((value) => values.has(value)))
+        && venueTopicMatch(row, context.topics, cache);
+    }}
+
+    function passesOpenOnly(row) {{
+      return !row.hasAttribute("data-deadline-group") || !openOnly.checked
+        || eligibleKinds.includes(stateByRow.get(row)?.kind);
     }}
 
     function formatRemaining(deadline, now) {{
@@ -1414,6 +1613,32 @@ def build_site(
         return `${{hours}}h`;
       }}
       return "<1h";
+    }}
+
+    const utcFormatter = new Intl.DateTimeFormat("en", {{
+      month: "short", day: "numeric", year: "numeric", hour: "2-digit", minute: "2-digit",
+      hourCycle: "h23", timeZone: "UTC",
+    }});
+    const localFormatter = new Intl.DateTimeFormat(undefined, {{
+      weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+      timeZoneName: "short",
+    }});
+
+    function describeInstant(time) {{
+      return `${{utcFormatter.format(time)}} UTC (your time: ${{localFormatter.format(time)}})`;
+    }}
+
+    // Shows the viewer's local time under each confirmed exact cutoff, unless
+    // the viewer is already in the deadline's own UTC offset.
+    function renderLocalTimes() {{
+      document.querySelectorAll("[data-local-time]").forEach((node) => {{
+        const row = node.closest("[data-deadline-row]");
+        const at = Date.parse(row.querySelector("time").dateTime);
+        const clock = row.querySelector(".deadline-clock");
+        const sameZone = Number(clock.dataset.offset) === -new Date(at).getTimezoneOffset();
+        node.textContent = sameZone ? "" : `Your time: ${{localFormatter.format(at)}}`;
+        node.hidden = sameZone;
+      }});
     }}
 
     function openLabel(type) {{
@@ -1473,7 +1698,7 @@ def build_site(
             : open ? openLabel(action.type) : scheduled ? "Scheduled submission" : "Submission opportunity",
           description: estimated ? "Submission timing or eligibility is estimated; check the organizer's call."
             : open ? "Opening evidence is recorded for this submission step."
-            : scheduled ? `This submission step opens ${{new Date(opensAt).toISOString()}}; the countdown targets its deadline.`
+            : scheduled ? `This submission step opens ${{describeInstant(opensAt)}}; the countdown targets its deadline.`
             : "A submission deadline is confirmed, but opening information has not been verified.",
           action,
           milestone: action,
@@ -1492,9 +1717,81 @@ def build_site(
     function updateStatus(row, state) {{
       const label = row.querySelector("[data-submission-status]");
       if (!label) return;
-      label.textContent = state.label;
-      label.className = `submission-status status-${{state.kind}}`;
-      label.title = state.description || "";
+      const className = `submission-status status-${{state.kind}}`;
+      if (label.textContent !== state.label) label.textContent = state.label;
+      if (label.className !== className) label.className = className;
+      if (label.title !== (state.description || "")) label.title = state.description || "";
+    }}
+
+    // Moves only rows that are out of place, so a focused control is never
+    // detached by a re-render (filters, toggles or the minute refresh).
+    function placeRows(body, orderedRows) {{
+      const active = document.activeElement;
+      let cursor = body.firstElementChild;
+      orderedRows.forEach((row) => {{
+        if (row === cursor) {{
+          cursor = cursor.nextElementSibling;
+          return;
+        }}
+        body.insertBefore(row, cursor);
+      }});
+      if (active && active !== document.activeElement && active.isConnected) {{
+        active.focus({{ preventScroll: true }});
+      }}
+    }}
+
+    // Mobile cards show the counted-down action under Time left, because the
+    // Next milestone column is behind "More info" there.
+    function renderNextStep(group, state, summaryDetail) {{
+      const nextStep = group.querySelector("[data-next-step]");
+      if (!nextStep) return;
+      if (!state.action || !summaryDetail) {{
+        nextStep.hidden = true;
+        return;
+      }}
+      const when = summaryDetail.querySelector("time").textContent;
+      const clock = summaryDetail.querySelector(".deadline-clock")?.textContent;
+      const local = summaryDetail.querySelector("[data-local-time]");
+      const label = summaryDetail.querySelector(".deadline-milestone").textContent;
+      const parts = [clock ? `${{when}}, ${{clock}}` : when, state.action.estimated ? "(est.)" : "", label,
+        local && !local.hidden ? local.textContent : ""];
+      const key = parts.join("|");
+      if (nextStep.dataset.key !== key) {{
+        nextStep.dataset.key = key;
+        const date = document.createElement("strong");
+        date.textContent = parts[0];
+        const what = document.createElement("span");
+        what.textContent = `${{parts[1] ? parts[1] + " " : ""}}${{label}}`;
+        nextStep.replaceChildren(date, what);
+        if (parts[3]) {{
+          const yours = document.createElement("span");
+          yours.className = "next-step-local";
+          yours.textContent = parts[3];
+          nextStep.append(yours);
+        }}
+      }}
+      nextStep.hidden = false;
+    }}
+
+    // A closed or unannounced edition points to the next tracked edition's call.
+    function renderSuccessor(group, state) {{
+      const link = group.querySelector("[data-successor-link]");
+      if (!link) return;
+      const successorRow = document.getElementById(`deadline-${{link.dataset.successor}}`);
+      const successor = successorRow && stateByRow.get(successorRow);
+      const show = ["closed", "unknown"].includes(state.kind) && Boolean(successor?.action);
+      link.hidden = !show;
+      if (!show) return;
+      link.dataset.baseText = link.dataset.baseText || link.textContent;
+      // Month and year come from the successor's displayed date, which is in
+      // the deadline's own offset ("May 4, 2027" -> "May 2027").
+      const detail = [...successorRow.querySelectorAll("[data-deadline-row]")].find((item) =>
+        item.dataset.deadlineType === successor.action.type &&
+        Date.parse(item.querySelector("time").dateTime) === successor.action.time);
+      const [month, , year] = (detail?.querySelector("time").textContent || "").replace(",", "").split(" ");
+      const when = month && year ? `${{month.slice(0, 3)}} ${{year}}` : "";
+      const text = `${{link.dataset.baseText}}${{when ? ` · ${{successor.action.estimated ? "~" : ""}}${{when}}` : ""}}${{successor.action.estimated ? " (est.)" : ""}}`;
+      if (link.textContent !== text) link.textContent = text;
     }}
 
     function renderDeadlineGroups(now) {{
@@ -1509,22 +1806,25 @@ def build_site(
           Date.parse(detail.querySelector("time").dateTime) === state.milestone.time
         ) || details[0];
         const canExpand = details.length > 1;
-        const button = group.querySelector(".deadline-toggle");
         const expanded = canExpand && group.dataset.expanded === "true";
         group.hidden = !groupMatches || !state.milestone || state.kind === "past";
         group.classList.toggle("is-expanded", expanded);
         const timeLeft = group.querySelector("[data-time-left]");
-        timeLeft.textContent = state.kind === "closed" ? "Closed" : state.action
+        const remaining = state.kind === "closed" ? "Closed" : state.action
           ? `${{state.action.estimated || state.action.approximate_time ? "~" : ""}}${{formatRemaining(state.action.time, now)}}`
           : "\u2014";
+        if (timeLeft.textContent !== remaining) timeLeft.textContent = remaining;
         group.querySelector("[data-time-estimate]").hidden =
           !(state.action?.approximate_time && !state.action.estimated);
         details.forEach((detail) => {{
           detail.hidden = !(expanded || detail === summaryDetail);
           const passed = Date.parse(detail.querySelector("time").dateTime) <= now;
           detail.classList.toggle("is-past", passed);
-          detail.querySelector("[data-deadline-passed]").textContent = passed ? "Passed" : "";
+          const marker = detail.querySelector("[data-deadline-passed]");
+          if (marker.textContent !== (passed ? "Passed" : "")) marker.textContent = passed ? "Passed" : "";
         }});
+        renderNextStep(group, state, summaryDetail);
+        renderSuccessor(group, state);
         if (!group.hidden) {{
           blocks.push({{
             sortTime: state.milestone?.time ?? Infinity,
@@ -1534,34 +1834,101 @@ def build_site(
         }}
       }});
 
-      blocks
+      placeRows(deadlinesBody, blocks
         .sort((left, right) => {{
           const timeSort = left.sortTime - right.sortTime;
           return timeSort || left.id.localeCompare(right.id);
         }})
-        .forEach((block) => {{
-          deadlinesBody.appendChild(block.row);
-        }});
+        .map((block) => block.row));
+    }}
+
+    function actionButton(text, handler) {{
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "link-button";
+      button.textContent = text;
+      button.addEventListener("click", handler);
+      return button;
+    }}
+
+    function showClosedAndUnannounced() {{
+      openOnly.checked = false;
+      applyFilters();
+      openOnly.focus();
+    }}
+
+    // Explains an empty view instead of showing a bare table header.
+    function renderEmptyState(container, show, hiddenCount) {{
+      container.hidden = !show;
+      // The table that follows would only show its header row.
+      container.nextElementSibling.hidden = show;
+      if (!show) {{
+        delete container.dataset.key;
+        return;
+      }}
+      const key = String(hiddenCount);
+      if (container.dataset.key === key) return;
+      container.dataset.key = key;
+      const message = document.createElement("p");
+      message.textContent = hiddenCount
+        ? `No open or upcoming submission options match these filters. ${{hiddenCount}} matching conference${{hiddenCount === 1 ? " is" : "s are"}} closed or ${{hiddenCount === 1 ? "has" : "have"}} no announced deadline.`
+        : "No conferences match these filters.";
+      const actions = document.createElement("p");
+      actions.className = "empty-state-actions";
+      if (hiddenCount) actions.append(actionButton(hiddenCount === 1 ? "Show it" : "Show them", showClosedAndUnannounced));
+      actions.append(actionButton("Clear filters", () => clearFilters.click()));
+      const request = document.createElement("a");
+      request.href = "https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml";
+      request.textContent = "Request a conference";
+      actions.append(request);
+      container.replaceChildren(message, actions);
     }}
 
     function updateResultCount() {{
       const active = document.querySelector('[role="tab"][aria-selected="true"]').dataset.tabTarget;
-      const visible = (active === "deadlines" ? deadlineGroups : conferenceRows)
+      const onDeadlines = active === "deadlines";
+      const visible = (onDeadlines ? deadlineGroups : conferenceRows)
         .filter((row) => !row.hidden).length;
-      const total = active === "deadlines"
+      const total = onDeadlines
         ? deadlineGroups.filter((row) => stateByRow.get(row)?.milestone).length
         : conferenceRows.length;
-      resultCount.textContent = `${{visible}} of ${{total}} conferences`;
+      const text = `${{visible}} of ${{total}} conferences`;
+      if (resultCount.textContent !== text) resultCount.textContent = text;
+      const hiddenByOpenOnly = onDeadlines && openOnly.checked ? deadlineGroups.filter((row) => {{
+        const state = stateByRow.get(row);
+        return baseMatchByRow.get(row) && state?.milestone && state.kind !== "past" && !passesOpenOnly(row);
+      }}).length : 0;
+      showHidden.hidden = hiddenByOpenOnly === 0;
+      const hiddenText = `Show ${{hiddenByOpenOnly}} closed or unannounced`;
+      if (showHidden.textContent !== hiddenText) showHidden.textContent = hiddenText;
+      renderEmptyState(deadlinesEmpty, onDeadlines && visible === 0, hiddenByOpenOnly);
+      renderEmptyState(conferencesEmpty, !onDeadlines && visible === 0, 0);
+    }}
+
+    // Badge on the (often collapsed) filter panel: how many restrictions apply.
+    function updateFilterCount(context) {{
+      let count = context.tokens.length ? 1 : 0;
+      count += filters.filter((input) => input.checked && input.dataset.filterGroup !== "topics").length;
+      document.querySelectorAll("[data-family-toggle]").forEach((parent) => {{
+        count += parent.checked ? 1
+          : document.querySelectorAll(`[data-topic-family="${{parent.dataset.familyToggle}}"]:checked`).length;
+      }});
+      filterCount.hidden = count === 0;
+      const text = `${{count}} active`;
+      if (filterCount.textContent !== text) filterCount.textContent = text;
     }}
 
     function applyFilters() {{
       syncTopicParents();
       const now = Date.now();
+      const context = filterContext();
       rows.forEach((row) => {{
         const state = submissionState(row, now);
         stateByRow.set(row, state);
         updateStatus(row, state);
-        row.dataset.filterMatch = String(rowMatchesFilters(row));
+        const base = rowMatchesFilters(row, context);
+        baseMatchByRow.set(row, base);
+        row.dataset.filterMatch = String(base && passesOpenOnly(row));
       }});
       renderDeadlineGroups(now);
       conferenceRows.forEach((row) => {{
@@ -1570,11 +1937,11 @@ def build_site(
         if (row.parentElement !== target) target.appendChild(row);
         row.hidden = row.dataset.filterMatch !== "true";
       }});
-      [...pastConferenceBody.children]
-        .sort((a, b) => b.dataset.conferenceStart.localeCompare(a.dataset.conferenceStart))
-        .forEach((row) => pastConferenceBody.appendChild(row));
+      placeRows(pastConferenceBody, [...pastConferenceBody.children]
+        .sort((a, b) => b.dataset.conferenceStart.localeCompare(a.dataset.conferenceStart)));
       pastSection.hidden = ![...pastConferenceBody.children].some((row) => !row.hidden);
       updateResultCount();
+      updateFilterCount(context);
       updateConferenceMap();
     }}
 
@@ -1595,12 +1962,12 @@ def build_site(
     tabButtons.forEach((button, index) => {{
       button.addEventListener("click", () => activateTab(button.dataset.tabTarget));
       button.addEventListener("keydown", (event) => {{
-        if (!["ArrowLeft", "ArrowRight"].includes(event.key)) {{
+        const targets = {{ ArrowRight: index + 1, ArrowLeft: index - 1, Home: 0, End: tabButtons.length - 1 }};
+        if (!(event.key in targets)) {{
           return;
         }}
         event.preventDefault();
-        const direction = event.key === "ArrowRight" ? 1 : -1;
-        const nextIndex = (index + direction + tabButtons.length) % tabButtons.length;
+        const nextIndex = (targets[event.key] + tabButtons.length) % tabButtons.length;
         tabButtons[nextIndex].focus();
         activateTab(tabButtons[nextIndex].dataset.tabTarget);
       }});
@@ -1626,6 +1993,26 @@ def build_site(
       }});
     }});
 
+    document.querySelectorAll("[data-successor-link]").forEach((link) => {{
+      link.addEventListener("click", (event) => {{
+        const target = document.getElementById(`deadline-${{link.dataset.successor}}`);
+        if (!target) return;
+        event.preventDefault();
+        if (target.hidden) {{
+          search.value = target.querySelector('td[data-label="Conference"] a').textContent.trim();
+          applyFilters();
+          if (target.hidden) {{
+            clearFilters.click();
+          }}
+        }}
+        const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+        target.scrollIntoView({{ block: "center", behavior: reduceMotion ? "auto" : "smooth" }});
+        target.classList.add("is-linked");
+        setTimeout(() => target.classList.remove("is-linked"), 2400);
+        target.querySelector("td a")?.focus({{ preventScroll: true }});
+      }});
+    }});
+
     search.addEventListener("input", applyFilters);
     filters.forEach((input) => input.addEventListener("change", applyFilters));
     document.querySelectorAll("[data-family-toggle]").forEach((input) => input.addEventListener("change", () => {{
@@ -1634,6 +2021,7 @@ def build_site(
     }}));
     document.querySelector("#topic-match").addEventListener("change", applyFilters);
     openOnly.addEventListener("change", applyFilters);
+    showHidden.addEventListener("click", showClosedAndUnannounced);
     clearFilters.addEventListener("click", () => {{
       search.value = "";
       filters.forEach((input) => {{ input.checked = false; }});
@@ -1644,6 +2032,8 @@ def build_site(
       else clearFilters.focus();
     }});
     initializeMobileCards();
+    initializeCalendarMenu();
+    renderLocalTimes();
     applyFilters();
     setInterval(applyFilters, 60 * 1000);
     const commentObserver = new IntersectionObserver((entries) => {{

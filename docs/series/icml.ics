@@ -1,0 +1,230 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICML (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icml-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260124T115900Z
+DTEND:20260124T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial ICML 2026 dates page lists tutorials\, main conference\, workshops\
+ , and paper deadlines.\nScope: Methodological and theoretical machine lea
+ rning\, including supervised and unsupervised learning\, deep generative 
+ models\, optimization\, statistical learning theory\, Bayesian methods\, 
+ and reinforcement learning. Scalable systems and trustworthy learning are
+  established parts of the scope\; application papers should offer contrib
+ utions of wider interest to ML.\nAdditional topics: Probabilistic\, Causa
+ l & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpreta
+ bility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & 
+ Distributed Learning\nScope sources (2026): https://icml.cc/Conferences/2
+ 026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260129T115900Z
+DTEND:20260129T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Full paper submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial ICML 2026 dates page lists tutorials\, main conference\, workshops\
+ , and paper deadlines.\nScope: Methodological and theoretical machine lea
+ rning\, including supervised and unsupervised learning\, deep generative 
+ models\, optimization\, statistical learning theory\, Bayesian methods\, 
+ and reinforcement learning. Scalable systems and trustworthy learning are
+  established parts of the scope\; application papers should offer contrib
+ utions of wider interest to ML.\nAdditional topics: Probabilistic\, Causa
+ l & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpreta
+ bility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & 
+ Distributed Learning\nScope sources (2026): https://icml.cc/Conferences/2
+ 026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260214T115900Z
+DTEND:20260214T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Workshop application deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial ICML 2026 dates page lists tutorials\, main conference\, workshops\
+ , and paper deadlines.\nScope: Methodological and theoretical machine lea
+ rning\, including supervised and unsupervised learning\, deep generative 
+ models\, optimization\, statistical learning theory\, Bayesian methods\, 
+ and reinforcement learning. Scalable systems and trustworthy learning are
+  established parts of the scope\; application papers should offer contrib
+ utions of wider interest to ML.\nAdditional topics: Probabilistic\, Causa
+ l & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpreta
+ bility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & 
+ Distributed Learning\nScope sources (2026): https://icml.cc/Conferences/2
+ 026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260712
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Conference
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial ICML 2026 dates page lists tutorials\, main conference\, workshops\
+ , and paper deadlines.\nScope: Methodological and theoretical machine lea
+ rning\, including supervised and unsupervised learning\, deep generative 
+ models\, optimization\, statistical learning theory\, Bayesian methods\, 
+ and reinforcement learning. Scalable systems and trustworthy learning are
+  established parts of the scope\; application papers should offer contrib
+ utions of wider interest to ML.\nAdditional topics: Probabilistic\, Causa
+ l & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpreta
+ bility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & 
+ Distributed Learning\nScope sources (2026): https://icml.cc/Conferences/2
+ 026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+LOCATION:Seoul\, South Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270124T115900Z
+DTEND:20270124T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-28\nNotes: As of 2026-10-28 ICML's Future Meetings page list
+ s 2027 only as South America\; no 2027 site\, host city\, dates or call h
+ as been published (icml.cc/Conferences/2027 returns 404). Dates are annua
+ l-cadence proxies from the 2026 edition.\nScope: Methodological and theor
+ etical machine learning\, including supervised and unsupervised learning\
+ , deep generative models\, optimization\, statistical learning theory\, B
+ ayesian methods\, and reinforcement learning. Scalable systems and trustw
+ orthy learning are established parts of the scope\; application papers sh
+ ould offer contributions of wider interest to ML.\nAdditional topics: Pro
+ babilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Explainab
+ ility & Interpretability\, Robustness & Safety\, ML Systems & Infrastruct
+ ure\, Federated & Distributed Learning\nScope sources (2026): https://icm
+ l.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270129T115900Z
+DTEND:20270129T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-28\nNotes: As of 2026-10-28 ICML's Future Meetings page list
+ s 2027 only as South America\; no 2027 site\, host city\, dates or call h
+ as been published (icml.cc/Conferences/2027 returns 404). Dates are annua
+ l-cadence proxies from the 2026 edition.\nScope: Methodological and theor
+ etical machine learning\, including supervised and unsupervised learning\
+ , deep generative models\, optimization\, statistical learning theory\, B
+ ayesian methods\, and reinforcement learning. Scalable systems and trustw
+ orthy learning are established parts of the scope\; application papers sh
+ ould offer contributions of wider interest to ML.\nAdditional topics: Pro
+ babilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Explainab
+ ility & Interpretability\, Robustness & Safety\, ML Systems & Infrastruct
+ ure\, Federated & Distributed Learning\nScope sources (2026): https://icm
+ l.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270214T115900Z
+DTEND:20270214T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Workshop application deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-28\nNotes: As of 2026-10-28 ICML's Future Meetings page list
+ s 2027 only as South America\; no 2027 site\, host city\, dates or call h
+ as been published (icml.cc/Conferences/2027 returns 404). Dates are annua
+ l-cadence proxies from the 2026 edition.\nScope: Methodological and theor
+ etical machine learning\, including supervised and unsupervised learning\
+ , deep generative models\, optimization\, statistical learning theory\, B
+ ayesian methods\, and reinforcement learning. Scalable systems and trustw
+ orthy learning are established parts of the scope\; application papers sh
+ ould offer contributions of wider interest to ML.\nAdditional topics: Pro
+ babilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Explainab
+ ility & Interpretability\, Robustness & Safety\, ML Systems & Infrastruct
+ ure\, Federated & Distributed Learning\nScope sources (2026): https://icm
+ l.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270712
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/FutureMeetings\nLocation: South America (city to be 
+ announced)\nTopics: Machine Learning\, Learning Theory & Statistical Foun
+ dations\, Deep Representation Learning\, Time Series & Sequential Data\nS
+ ize: XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast check
+ ed date: 2026-10-28\nNotes: As of 2026-10-28 ICML's Future Meetings page 
+ lists 2027 only as South America\; no 2027 site\, host city\, dates or ca
+ ll has been published (icml.cc/Conferences/2027 returns 404). Dates are a
+ nnual-cadence proxies from the 2026 edition.\nScope: Methodological and t
+ heoretical machine learning\, including supervised and unsupervised learn
+ ing\, deep generative models\, optimization\, statistical learning theory
+ \, Bayesian methods\, and reinforcement learning. Scalable systems and tr
+ ustworthy learning are established parts of the scope\; application paper
+ s should offer contributions of wider interest to ML.\nAdditional topics:
+  Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Expla
+ inability & Interpretability\, Robustness & Safety\, ML Systems & Infrast
+ ructure\, Federated & Distributed Learning\nScope sources (2026): https:/
+ /icml.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/FutureMeetings
+LOCATION:South America (city to be announced)
+END:VEVENT
+END:VCALENDAR

@@ -177,5 +177,6 @@ approval; current abstract labels/status already indicate the contribution.
 UIDs are `<id>-conference@scientific-conference-calendar` and
 `<id>-deadline-<type-slug>@scientific-conference-calendar`. Correct dates, labels
 and sources in place; preserve IDs/types and the historical namespace after
-rebrands. Topic feeds use stable leaf slugs. A genuinely new route needs its own
+rebrands. Topic feeds use stable leaf slugs; series feeds (`docs/series/`) use
+the slug of the exact `series` key, so changing a series key moves its feed. A genuinely new route needs its own
 unique type; changing a type is an identity migration, not cosmetic cleanup.

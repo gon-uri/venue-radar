@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACL (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:acl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270105T115900Z
+DTEND:20270105T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ ACL 2027 - ARR paper submission deadline
+DESCRIPTION:Conference title: Annual Meeting of the Association for Computa
+ tional Linguistics\nWebsite: https://2027.aclweb.org/\nSource URL: https:
+ //2027.aclweb.org/calls/main/\nLocation: Kyoto\, Japan\nTopics: Natural L
+ anguage Processing & LLMs\, Deep Representation Learning\, LLM Agents & T
+ ool Use\, Information Retrieval & Search\nSize: XXL\nSubmission type: Pap
+ er-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
+ ficial site confirms Kyoto\, August 17-22 and January 4 ARR cutoff at 23:
+ 59 AoE. Main sessions August 20-22\; tutorials/workshops earlier. Commitm
+ ent dates are unannounced. Size is an editorial estimate.\nScope: Computa
+ tional linguistics and language processing: language modeling\, linguisti
+ c structure\, multilinguality and translation\, generation\, dialogue\, r
+ esources\, and evaluation. Language-grounded agent and retrieval work is 
+ relevant. The 2027 theme examines homogenization and knowledge collapse i
+ n LLMs. A language contribution remains central\; general medical or robo
+ tics applications do not make this a specialist venue.\nAdditional topics
+ : Cognitive Science & Computational Cognition\, Explainability & Interpre
+ tability\, Fairness & Responsible AI\, Human-AI Interaction & Deployment\
+ , Knowledge Representation & Reasoning\nScope sources (2027): https://202
+ 7.aclweb.org/calls/main/\nScope last checked: 2026-10-07
+URL:https://2027.aclweb.org/calls/main/
+END:VEVENT
+BEGIN:VEVENT
+UID:acl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270823
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ ACL 2027 - Conference
+DESCRIPTION:Conference title: Annual Meeting of the Association for Computa
+ tional Linguistics\nWebsite: https://2027.aclweb.org/\nSource URL: https:
+ //2027.aclweb.org/\nLocation: Kyoto\, Japan\nTopics: Natural Language Pro
+ cessing & LLMs\, Deep Representation Learning\, LLM Agents & Tool Use\, I
+ nformation Retrieval & Search\nSize: XXL\nSubmission type: Paper-based\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official site
+  confirms Kyoto\, August 17-22 and January 4 ARR cutoff at 23:59 AoE. Mai
+ n sessions August 20-22\; tutorials/workshops earlier. Commitment dates a
+ re unannounced. Size is an editorial estimate.\nScope: Computational ling
+ uistics and language processing: language modeling\, linguistic structure
+ \, multilinguality and translation\, generation\, dialogue\, resources\, 
+ and evaluation. Language-grounded agent and retrieval work is relevant. T
+ he 2027 theme examines homogenization and knowledge collapse in LLMs. A l
+ anguage contribution remains central\; general medical or robotics applic
+ ations do not make this a specialist venue.\nAdditional topics: Cognitive
+  Science & Computational Cognition\, Explainability & Interpretability\, 
+ Fairness & Responsible AI\, Human-AI Interaction & Deployment\, Knowledge
+  Representation & Reasoning\nScope sources (2027): https://2027.aclweb.or
+ g/calls/main/\nScope last checked: 2026-10-07
+URL:https://2027.aclweb.org/
+LOCATION:Kyoto\, Japan
+END:VEVENT
+END:VCALENDAR

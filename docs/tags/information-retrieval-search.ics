@@ -4,6 +4,11 @@ PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Information Retrieval & Search
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:colm-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -1505,6 +1510,64 @@ URL:https://www2027.thewebconf.org/
 LOCATION:Dublin\, Ireland
 END:VEVENT
 BEGIN:VEVENT
+UID:cikm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270517T115900Z
+DTEND:20270517T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Abstract
+  submission deadline (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: https://cikm2026.diag.uniroma1.it/full-research-papers/\nLocation: S
+ ydney\, Australia\nTopics: Data Mining & Data Science\, Machine Learning\
+ , Natural Language Processing & LLMs\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
+ ked date: 2026-10-29\nNotes: As of 2026-10-29 the CIKM series page names 
+ Sydney\, Australia as the 2027 host\; no CIKM 2027 site or call is publis
+ hed. Estimated meeting dates follow event manager ICMS Australasia's list
+ ing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dates are one-y
+ ear proxies from CIKM 2026.\nScope: Information retrieval\, knowledge man
+ agement\, data mining and database systems\, with a strong focus on effec
+ tive information access and knowledge at scale. The 2026 organizer descri
+ ption emphasizes AI for information access\, knowledge representation\, p
+ ersonalization and evaluation. Agentic and graph methods are relevant thr
+ ough these information and knowledge problems.\nAdditional topics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Knowledge Representation
+  & Reasoning\, Graphs & Graph Learning\, LLM Agents & Tool Use\nScope sou
+ rces (2026): https://cikm2026.diag.uniroma1.it/\nScope last checked: 2026
+ -10-07
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270524T115900Z
+DTEND:20270524T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Full pap
+ er submission deadline (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: https://cikm2026.diag.uniroma1.it/full-research-papers/\nLocation: S
+ ydney\, Australia\nTopics: Data Mining & Data Science\, Machine Learning\
+ , Natural Language Processing & LLMs\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
+ ked date: 2026-10-29\nNotes: As of 2026-10-29 the CIKM series page names 
+ Sydney\, Australia as the 2027 host\; no CIKM 2027 site or call is publis
+ hed. Estimated meeting dates follow event manager ICMS Australasia's list
+ ing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dates are one-y
+ ear proxies from CIKM 2026.\nScope: Information retrieval\, knowledge man
+ agement\, data mining and database systems\, with a strong focus on effec
+ tive information access and knowledge at scale. The 2026 organizer descri
+ ption emphasizes AI for information access\, knowledge representation\, p
+ ersonalization and evaluation. Agentic and graph methods are relevant thr
+ ough these information and knowledge problems.\nAdditional topics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Knowledge Representation
+  & Reasoning\, Graphs & Graph Learning\, LLM Agents & Tool Use\nScope sou
+ rces (2026): https://cikm2026.diag.uniroma1.it/\nScope last checked: 2026
+ -10-07
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:emnlp-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270526T115900Z
@@ -1706,6 +1769,35 @@ DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
  ecked: 2026-10-07
 URL:https://swsa.semanticweb.org/conferences/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271106
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Conferen
+ ce (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: http://www.cikmconference.org/\nLocation: Sydney\, Australia\nTopics
+ : Data Mining & Data Science\, Machine Learning\, Natural Language Proces
+ sing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 the CIKM series page names Sydney\, Australia as the
+  2027 host\; no CIKM 2027 site or call is published. Estimated meeting da
+ tes follow event manager ICMS Australasia's listing (1-5 Nov 2027\, ICC S
+ ydney)\; abstract and full-paper dates are one-year proxies from CIKM 202
+ 6.\nScope: Information retrieval\, knowledge management\, data mining and
+  database systems\, with a strong focus on effective information access a
+ nd knowledge at scale. The 2026 organizer description emphasizes AI for i
+ nformation access\, knowledge representation\, personalization and evalua
+ tion. Agentic and graph methods are relevant through these information an
+ d knowledge problems.\nAdditional topics: Information Retrieval & Search\
+ , Recommender Systems\, Knowledge Representation & Reasoning\, Graphs & G
+ raph Learning\, LLM Agents & Tool Use\nScope sources (2026): https://cikm
+ 2026.diag.uniroma1.it/\nScope last checked: 2026-10-07
+URL:http://www.cikmconference.org/
+LOCATION:Sydney\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2027-conference@scientific-conference-calendar

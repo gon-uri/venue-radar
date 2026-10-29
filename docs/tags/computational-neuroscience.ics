@@ -4,6 +4,11 @@ PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Computational Neuroscience
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:areadne-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -1924,6 +1929,65 @@ URL:https://cognitivesciencesociety.org/cogsci-2027/
 LOCATION:Bilbao\, Spain
 END:VEVENT
 BEGIN:VEVENT
+UID:complex-networks-2027-deadline-extended-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Extended abstract submission deadline (independent rout
+ e) (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-full-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:icann-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270914
@@ -1967,6 +2031,108 @@ URL:https://bernstein-network.de/bernstein-conference/bernstein-conference-
 LOCATION:Lausanne\, Switzerland
 END:VEVENT
 BEGIN:VEVENT
+UID:complenet-2028-deadline-extended-abstract@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Extended abstract submission deadline (independent route) (est
+ imated)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: To be announced\nTopics: Complex Systems & Net
+ work Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Com
+ putational Neuroscience\nSize: M\nSubmission type: Full/short papers + ex
+ tended abstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Ro
+ chester\, Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts ro
+ tate yearly. Meeting and the shared AoE long-paper\, short-paper and abst
+ ract deadline are one-year same-weekday proxies from CompleNet 2027.\nSco
+ pe: Network science across mathematical\, biological\, technological and 
+ social systems\, with characteristic interests in network dynamics\, comm
+ unity structure\, temporal and multilayer networks\, network neuroscience
+  and learning on networks. Long and short reviewed papers are distinct fr
+ om abstract-only presentations.\nAdditional topics: Time Series & Sequent
+ ial Data\, Data Mining & Data Science\, Machine Learning\nScope sources (
+ 2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-10-
+ 08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Long-paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: To be announced\nTopics: Complex Systems & Net
+ work Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Com
+ putational Neuroscience\nSize: M\nSubmission type: Full/short papers + ex
+ tended abstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Ro
+ chester\, Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts ro
+ tate yearly. Meeting and the shared AoE long-paper\, short-paper and abst
+ ract deadline are one-year same-weekday proxies from CompleNet 2027.\nSco
+ pe: Network science across mathematical\, biological\, technological and 
+ social systems\, with characteristic interests in network dynamics\, comm
+ unity structure\, temporal and multilayer networks\, network neuroscience
+  and learning on networks. Long and short reviewed papers are distinct fr
+ om abstract-only presentations.\nAdditional topics: Time Series & Sequent
+ ial Data\, Data Mining & Data Science\, Machine Learning\nScope sources (
+ 2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-10-
+ 08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Short-paper submission deadline (independent route) (estimated
+ )
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: To be announced\nTopics: Complex Systems & Net
+ work Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Com
+ putational Neuroscience\nSize: M\nSubmission type: Full/short papers + ex
+ tended abstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Ro
+ chester\, Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts ro
+ tate yearly. Meeting and the shared AoE long-paper\, short-paper and abst
+ ract deadline are one-year same-weekday proxies from CompleNet 2027.\nSco
+ pe: Network science across mathematical\, biological\, technological and 
+ social systems\, with characteristic interests in network dynamics\, comm
+ unity structure\, temporal and multilayer networks\, network neuroscience
+  and learning on networks. Long and short reviewed papers are distinct fr
+ om abstract-only presentations.\nAdditional topics: Time Series & Sequent
+ ial Data\, Data Mining & Data Science\, Machine Learning\nScope sources (
+ 2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-10-
+ 08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271019T115900Z
+DTEND:20271019T125900Z
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2028 
+ - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/abstracts
+ -submission\nLocation: To be announced\nTopics: Computational Neuroscienc
+ e\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation Lea
+ rning\nSize: L\nSubmission type: Abstract-based / talks highly selective\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 cosyne.org announces only COSYNE 2027 (Montreal\, Mar 11-16\, 2027)
+ \; no 2028 dates or host are published. Meeting dates (Mar 11-16) and the
+  Oct 18 abstract deadline are one-year proxies from COSYNE 2027.
+URL:https://www.cosyne.org/abstracts-submission
+END:VEVENT
+BEGIN:VEVENT
 UID:sfn-neuroscience-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271023
@@ -1994,6 +2160,35 @@ DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
  .sfn.org/meetings\nScope last checked: 2026-10-08
 URL:https://www.sfn.org/meetings
 LOCATION:Chicago\, Illinois\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271204
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:areadne-2028-deadline-abstract@scientific-conference-calendar
@@ -2024,6 +2219,52 @@ DESCRIPTION:Conference title: AREADNE: Research in Encoding and Decoding of
  ine day\; exact cutoff hour/timezone is unannounced. Verify the organizer
  's submission portal.
 URL:https://areadne.org/2026/important-dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280311
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/\nLocation: To be announced\nTopics: Complex Systems & Network Sci
+ ence\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Computation
+ al Neuroscience\nSize: M\nSubmission type: Full/short papers + extended a
+ bstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As
+  of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Rochester\
+ , Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts rotate yea
+ rly. Meeting and the shared AoE long-paper\, short-paper and abstract dea
+ dline are one-year same-weekday proxies from CompleNet 2027.\nScope: Netw
+ ork science across mathematical\, biological\, technological and social s
+ ystems\, with characteristic interests in network dynamics\, community st
+ ructure\, temporal and multilayer networks\, network neuroscience and lea
+ rning on networks. Long and short reviewed papers are distinct from abstr
+ act-only presentations.\nAdditional topics: Time Series & Sequential Data
+ \, Data Mining & Data Science\, Machine Learning\nScope sources (2027): h
+ ttps://complenet.github.io/cfp.html\nScope last checked: 2026-10-08
+URL:https://complenet.github.io/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280311
+DTEND;VALUE=DATE:20280317
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2028 
+ - Conference (estimated)
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
+ n: To be announced\nTopics: Computational Neuroscience\, EEG/MEG & Neural
+  Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nSubm
+ ission type: Abstract-based / talks highly selective\nConfidence: estimat
+ ed\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 cosyne.org ann
+ ounces only COSYNE 2027 (Montreal\, Mar 11-16\, 2027)\; no 2028 dates or 
+ host are published. Meeting dates (Mar 11-16) and the Oct 18 abstract dea
+ dline are one-year proxies from COSYNE 2027.
+URL:https://www.cosyne.org/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:biomag-2028-deadline-abstract@scientific-conference-calendar
@@ -2131,6 +2372,38 @@ URL:https://areadne.org/2028/home.html
 LOCATION:Milos\, Greece
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-lac-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280707
+DTEND;VALUE=DATE:20280708
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2028 - Contributed abstract submission deadline (estimated
+ ) (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://dynamicsdays.info/lac\nSource URL: https://web.archive
+ .org/web/20260521082858/https://fisica.ufpr.br/DDaysLAC2026/index.html\nL
+ ocation: To be announced\nTopics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\, Time Series & Sequential Data\, Computational N
+ euroscience\nSize: M\nSubmission type: Abstract-based\nConfidence: estima
+ ted\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 neither the D
+ ynamics Days LAC 2026 site nor the dynamicsdays.info LAC page announces a
+  2028 host or dates\; the 2026 site calls the series biennial. Meeting (S
+ un-Fri) and abstract dates are two-year same-weekday proxies from the 202
+ 6 edition (Curitiba\, Dec 6-11)\, using its original July 10 abstract dea
+ dline rather than the October 10 extension.\nScope: Nonlinear and complex
+  systems across disciplines\, including chaos\, synchronization\, network
+ s\, time series\, neurodynamics and learning-based modeling. The Latin Am
+ erican and Caribbean meeting supports contributed scientific talks and po
+ sters through abstracts\, with an explicit interest in cross-disciplinary
+  nonlinear science.\nAdditional topics: Machine Learning\, Graphs & Graph
+  Learning\, Control & Robotics\nScope sources (2026): https://fisica.ufpr
+ .br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08\nOfficial dea
+ dline day\; exact cutoff hour/timezone is unannounced. Verify the organiz
+ er's submission portal.
+URL:https://web.archive.org/web/20260521082858/https://fisica.ufpr.br/DDays
+ LAC2026/index.html
+END:VEVENT
+BEGIN:VEVENT
 UID:biomag-2028-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20280823
@@ -2178,6 +2451,34 @@ DESCRIPTION:Conference title: International Conference on Simulation of Ada
  & Multiagent Systems\nScope sources (2026): https://sab-conference.org/ca
  ll-for-contributions/\nScope last checked: 2026-10-08
 URL:https://sab-conference.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-lac-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281203
+DTEND;VALUE=DATE:20281209
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2028 - Conference (estimated)
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://dynamicsdays.info/lac\nSource URL: https://dynamicsday
+ s.info/lac\nLocation: To be announced\nTopics: Nonlinear Dynamics & Chaos
+ \, Complex Systems & Network Science\, Time Series & Sequential Data\, Co
+ mputational Neuroscience\nSize: M\nSubmission type: Abstract-based\nConfi
+ dence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 
+ neither the Dynamics Days LAC 2026 site nor the dynamicsdays.info LAC pag
+ e announces a 2028 host or dates\; the 2026 site calls the series biennia
+ l. Meeting (Sun-Fri) and abstract dates are two-year same-weekday proxies
+  from the 2026 edition (Curitiba\, Dec 6-11)\, using its original July 10
+  abstract deadline rather than the October 10 extension.\nScope: Nonlinea
+ r and complex systems across disciplines\, including chaos\, synchronizat
+ ion\, networks\, time series\, neurodynamics and learning-based modeling.
+  The Latin American and Caribbean meeting supports contributed scientific
+  talks and posters through abstracts\, with an explicit interest in cross
+ -disciplinary nonlinear science.\nAdditional topics: Machine Learning\, G
+ raphs & Graph Learning\, Control & Robotics\nScope sources (2026): https:
+ //fisica.ufpr.br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08
+URL:https://dynamicsdays.info/lac
 LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

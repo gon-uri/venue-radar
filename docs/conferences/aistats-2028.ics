@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AISTATS 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aistats-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270930T115900Z
+DTEND:20270930T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2028 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2027/dates.html\nLocation: To be announced\nTopics: L
+ earning Theory & Statistical Foundations\, Machine Learning\, Probabilist
+ ic\, Causal & Uncertainty ML\, Time Series & Sequential Data\nSize: L\nSu
+ bmission type: Paper-based\nConfidence: estimated\nLast checked date: 202
+ 6-10-29\nNotes: As of 2026-10-29 aistats.org announces only the 2027 meet
+ ing (Montreal)\; no 2028 host or dates are published. Meeting dates (May 
+ 3-6) and the Sep 29 abstract/Oct 6 paper deadlines (AoE) are one-year pro
+ xies from AISTATS 2027.\nScope: Research at the interface of artificial i
+ ntelligence\, machine learning\, and statistics. Its defining emphasis is
+  on statistical foundations and methodology for learning and inference\, 
+ rather than a particular application domain. Research bridges statistical
+  reasoning and learning algorithms\, with archival contributions to both 
+ communities.\nAdditional topics: \nScope sources (2027): https://aistats.
+ org/aistats2027/\, https://aistats.org/aistats2027/call-for-papers.html\n
+ Scope last checked: 2026-10-07
+URL:https://aistats.org/aistats2027/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271007T115900Z
+DTEND:20271007T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2028 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2027/dates.html\nLocation: To be announced\nTopics: L
+ earning Theory & Statistical Foundations\, Machine Learning\, Probabilist
+ ic\, Causal & Uncertainty ML\, Time Series & Sequential Data\nSize: L\nSu
+ bmission type: Paper-based\nConfidence: estimated\nLast checked date: 202
+ 6-10-29\nNotes: As of 2026-10-29 aistats.org announces only the 2027 meet
+ ing (Montreal)\; no 2028 host or dates are published. Meeting dates (May 
+ 3-6) and the Sep 29 abstract/Oct 6 paper deadlines (AoE) are one-year pro
+ xies from AISTATS 2027.\nScope: Research at the interface of artificial i
+ ntelligence\, machine learning\, and statistics. Its defining emphasis is
+  on statistical foundations and methodology for learning and inference\, 
+ rather than a particular application domain. Research bridges statistical
+  reasoning and learning algorithms\, with archival contributions to both 
+ communities.\nAdditional topics: \nScope sources (2027): https://aistats.
+ org/aistats2027/\, https://aistats.org/aistats2027/call-for-papers.html\n
+ Scope last checked: 2026-10-07
+URL:https://aistats.org/aistats2027/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280503
+DTEND;VALUE=DATE:20280507
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2028 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/\nLocation: To be announced\nTopics: Learning Theory & Stati
+ stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
+ nty ML\, Time Series & Sequential Data\nSize: L\nSubmission type: Paper-b
+ ased\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 
+ 2026-10-29 aistats.org announces only the 2027 meeting (Montreal)\; no 20
+ 28 host or dates are published. Meeting dates (May 3-6) and the Sep 29 ab
+ stract/Oct 6 paper deadlines (AoE) are one-year proxies from AISTATS 2027
+ .\nScope: Research at the interface of artificial intelligence\, machine 
+ learning\, and statistics. Its defining emphasis is on statistical founda
+ tions and methodology for learning and inference\, rather than a particul
+ ar application domain. Research bridges statistical reasoning and learnin
+ g algorithms\, with archival contributions to both communities.\nAddition
+ al topics: \nScope sources (2027): https://aistats.org/aistats2027/\, htt
+ ps://aistats.org/aistats2027/call-for-papers.html\nScope last checked: 20
+ 26-10-07
+URL:https://aistats.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

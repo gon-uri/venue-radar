@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IJCAI (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ijcai-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270105T115900Z
+DTEND:20270105T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI 2027 - Abstr
+ act submission deadline
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence\nWebsite: https://2027.ijcai.org/\nSource URL: https://2027.
+ ijcai.org/\nLocation: Kyoto\, Japan\nTopics: Machine Learning\, Deep Repr
+ esentation Learning\, Learning Theory & Statistical Foundations\, Fairnes
+ s & Responsible AI\nSize: XL\nSubmission type: Paper-based\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-06\nNotes: Official IJCAI 2027 site 
+ confirms the Kyoto main meeting Aug 7-13 and Jan 4 abstract/Jan 11 paper 
+ deadlines\, all 23:59 AoE. A separate Hengqin satellite event is not dupl
+ icated as a main conference.
+URL:https://2027.ijcai.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270112T115900Z
+DTEND:20270112T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI 2027 - Full 
+ paper submission deadline
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence\nWebsite: https://2027.ijcai.org/\nSource URL: https://2027.
+ ijcai.org/\nLocation: Kyoto\, Japan\nTopics: Machine Learning\, Deep Repr
+ esentation Learning\, Learning Theory & Statistical Foundations\, Fairnes
+ s & Responsible AI\nSize: XL\nSubmission type: Paper-based\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-06\nNotes: Official IJCAI 2027 site 
+ confirms the Kyoto main meeting Aug 7-13 and Jan 4 abstract/Jan 11 paper 
+ deadlines\, all 23:59 AoE. A separate Hengqin satellite event is not dupl
+ icated as a main conference.
+URL:https://2027.ijcai.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270814
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI 2027 - Confe
+ rence
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence\nWebsite: https://2027.ijcai.org/\nSource URL: https://2027.
+ ijcai.org/\nLocation: Kyoto\, Japan\nTopics: Machine Learning\, Deep Repr
+ esentation Learning\, Learning Theory & Statistical Foundations\, Fairnes
+ s & Responsible AI\nSize: XL\nSubmission type: Paper-based\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-06\nNotes: Official IJCAI 2027 site 
+ confirms the Kyoto main meeting Aug 7-13 and Jan 4 abstract/Jan 11 paper 
+ deadlines\, all 23:59 AoE. A separate Hengqin satellite event is not dupl
+ icated as a main conference.
+URL:https://2027.ijcai.org/
+LOCATION:Kyoto\, Japan
+END:VEVENT
+END:VCALENDAR

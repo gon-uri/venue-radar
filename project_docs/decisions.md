@@ -21,7 +21,8 @@ explicit refinements take precedence. Current rules live in
 | Offline confirmed-city map | ADR-021; tab naming refined by ADR-034 |
 | Brand, licensing, copy and community | ADR-022/023/026/034 |
 | Filters and default opportunities | ADR-025/033; responsive defaults refined by ADR-035 |
-| Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement |
+| Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line |
+| Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
 
 ## ADR-001: Keep the Project Static
 
@@ -608,3 +609,65 @@ explicit refinements take precedence. Current rules live in
   backup and are not secured by Gitignore. The move removes current tracked
   diaries/proposals, not previously published Git history; no history rewrite
   is performed. ADR-006/008/037's public session-log requirements are superseded.
+
+## ADR-039: Show Exact Cutoffs, Subscribe To Feeds, Track Successors Early
+
+- Date: 2026-10-29
+- Context: The owner approved the top five improvement proposals plus bug
+  fixes after a review. Researchers could not see cutoff hours (274 of 396
+  deadlines are exact), downloaded calendars never received corrections, 29 of
+  129 series had no future deadline (searching "neurips" showed nothing by
+  default), filtered views went blank without explanation, and re-rendering
+  dropped keyboard focus every minute.
+- Display: a milestone shows its clock only when it is confirmed and has an
+  exact hour (`time_precision` not `date`): "20:00 UTC", "23:59 AoE" or
+  "UTC-5" style offsets taken from the stored datetime, never guessed zone
+  abbreviations. Estimated and date-only cutoffs keep the date with "(est.)" or
+  "(time est.)" (ADR-024 unchanged). The browser adds "Your time: ..." when the
+  viewer's offset differs. Recorded openings are exact and no longer inherit a
+  cutoff's date-only precision. Milestone rows show date and clock above the
+  label. Up to 760px the Time left cell also shows the counted-down action's
+  date and label, refining ADR-035; desktop keeps the Next milestone column.
+- Subscriptions: the header's rightmost action is a native "Subscribe to
+  calendar" disclosure (refines ADR-034) with Google (render?cid=webcal),
+  Apple (webcal), Copy link and Download for submissions.ics, calendar-all.ics
+  and conferences.ics, plus topic and series pickers. Outlook has no documented
+  deep link, so the menu explains Subscribe from web with a copied link. New
+  permanent paths: docs/submissions.ics (supported submission types and their
+  gates) and docs/series/<series-key-slug>.ics (every edition of one series,
+  keyed by the exact series key so renamed editions such as LOD/AIS stay in one
+  feed). Both reuse the existing VEVENT code, so UIDs are identical to the other
+  feeds. Every feed carries X-WR-CALDESC, REFRESH-INTERVAL and X-PUBLISHED-TTL
+  (P1D). Download links stay relative (ADR-026); subscribe links and feed
+  descriptions use SITE_URL, now defined once in scripts/build_ics.py and passed
+  to the client as data-site-url on the calendar menu.
+- Successors (refines ADR-017): rollover may propose the next edition once all
+  fresh-submission routes of the latest edition have closed, not only after the
+  meeting. CADENCE_YEARS gains 32 annual and 4 biennial established series;
+  irregular, joint, one-off workshop and renamed-ID series stay out. AALTD is a
+  reviewed exception: an annual ECML PKDD workshop since 2015. Drafts keep the
+  prior edition's last_checked (never stamped as reviewed), drop shifted
+  opens_at, and --series limits --write. Thirty successors were then reviewed
+  against official future-meeting pages and fact-checked: they stay estimated
+  unless an official next-edition source supports a field. Closed or
+  unannounced rows link to the successor ("Next: NeurIPS 2027 · ~May 2027 (est.)").
+- Search and empty states: search folds accents and punctuation, requires every
+  word, matches one- and two-letter words at word starts, and no longer indexes
+  source URLs. Filter selections are computed once per pass. When a view is
+  empty the page explains how many matching rows are closed or unannounced and
+  offers Show them, Clear filters and Request a conference; a "Show N closed or
+  unannounced" link and an "N active" badge on the filter summary keep hidden
+  restrictions visible. Clear filters keeps ADR-033 semantics.
+- Fixes: rows are moved only when out of order and focus is restored, so
+  toggles and the minute refresh keep keyboard focus. Tablet tables (761-1099px)
+  wrap between words with rebalanced columns. Accessibility: visible
+  focus-visible outlines, 3.4:1 control borders, table captions and column
+  scopes, a skip link, Home/End on the tablist, aria-controls on milestone
+  toggles, reduced motion for CSS and Leaflet. Without JavaScript the conference
+  table, every milestone and a short note are visible instead of "Checking...".
+  The filter panel's responsive default runs inline before first paint; map and
+  Giscus failures show fallbacks.
+- Consequences: catalog 196 editions across 129 series; feeds grow to four
+  aggregates, 43 topic, 196 edition and 129 series files. No existing UID,
+  edition ID, deadline type, topic slug or status semantics changed. Browser
+  regressions live in tests/venue_features.mjs.

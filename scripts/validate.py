@@ -294,7 +294,10 @@ def validate_conferences(
 
                     if "datetime" in deadline:
                         try:
-                            parse_datetime(deadline["datetime"])
+                            if parse_datetime(deadline["datetime"]).utcoffset() is None:
+                                # The site would read a naive time as UTC while ICS
+                                # exports floating local time; require an offset.
+                                errors.append(f"{deadline_label}: datetime needs an explicit UTC offset")
                         except (TypeError, ValueError) as exc:
                             errors.append(f"{deadline_label}: datetime is invalid: {exc}")
 
@@ -312,6 +315,8 @@ def validate_conferences(
                         try:
                             opening = parse_datetime(deadline[field]) if field == "opens_at" else parse_date(deadline[field])
                             closing = parse_datetime(deadline["datetime"])
+                            if field == "opens_at" and opening.utcoffset() is None:
+                                errors.append(f"{deadline_label}: opens_at needs an explicit UTC offset")
                             opening_day = opening.date() if isinstance(opening, datetime) else opening
                             if opening_day > closing.date():
                                 errors.append(f"{deadline_label}: {field} is after deadline")

@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RecSys (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:recsys-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270415T115900Z
+DTEND:20270415T125900Z
+SUMMARY:[Recommender Systems][Machine Learning] RecSys 2027 - Estimated mai
+ n-track abstract deadline (estimated)
+DESCRIPTION:Conference title: ACM Conference on Recommender Systems\nWebsit
+ e: https://recsys.acm.org/recsys27/\nSource URL: https://recsys.acm.org/r
+ ecsys26/call/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Recommender Sys
+ tems\, Machine Learning\, Information Retrieval & Search\, Human-AI Inter
+ action & Deployment\nSize: L\nSubmission type: Paper-based\nConfidence: e
+ stimated\nLast checked date: 2026-10-28\nNotes: Official site confirms Ho
+ nolulu (Hilton Hawaiian Village)\, Aug 23-27. As of 2026-10-28 it publish
+ es no 2027 call\; deadlines are one-year proxies from the 2026 call (Apr 
+ 14 abstract\, Apr 21 paper\, AoE)\, where long and short papers shared th
+ e abstract gate. Do not infer a special anniversary track for 2027. Size 
+ is an editorial estimate.\nScope: Recommendation and personalization: use
+ r-item modeling\, collaborative and content-based methods\, sequential an
+ d conversational recommendation\, evaluation\, and deployed recommendatio
+ n systems. Human and economic impacts matter alongside algorithms. Sequen
+ tial data is relevant specifically through recommendation behavior\; this
+  is not a general forecasting conference.\nAdditional topics: Time Series
+  & Sequential Data\, Natural Language Processing & LLMs\, Fairness & Resp
+ onsible AI\, Explainability & Interpretability\nScope sources (2026): htt
+ ps://recsys.acm.org/recsys26/call/\nScope last checked: 2026-10-07
+URL:https://recsys.acm.org/recsys26/call/
+END:VEVENT
+BEGIN:VEVENT
+UID:recsys-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270422T115900Z
+DTEND:20270422T125900Z
+SUMMARY:[Recommender Systems][Machine Learning] RecSys 2027 - Estimated mai
+ n-track paper deadline (estimated)
+DESCRIPTION:Conference title: ACM Conference on Recommender Systems\nWebsit
+ e: https://recsys.acm.org/recsys27/\nSource URL: https://recsys.acm.org/r
+ ecsys26/call/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Recommender Sys
+ tems\, Machine Learning\, Information Retrieval & Search\, Human-AI Inter
+ action & Deployment\nSize: L\nSubmission type: Paper-based\nConfidence: e
+ stimated\nLast checked date: 2026-10-28\nNotes: Official site confirms Ho
+ nolulu (Hilton Hawaiian Village)\, Aug 23-27. As of 2026-10-28 it publish
+ es no 2027 call\; deadlines are one-year proxies from the 2026 call (Apr 
+ 14 abstract\, Apr 21 paper\, AoE)\, where long and short papers shared th
+ e abstract gate. Do not infer a special anniversary track for 2027. Size 
+ is an editorial estimate.\nScope: Recommendation and personalization: use
+ r-item modeling\, collaborative and content-based methods\, sequential an
+ d conversational recommendation\, evaluation\, and deployed recommendatio
+ n systems. Human and economic impacts matter alongside algorithms. Sequen
+ tial data is relevant specifically through recommendation behavior\; this
+  is not a general forecasting conference.\nAdditional topics: Time Series
+  & Sequential Data\, Natural Language Processing & LLMs\, Fairness & Resp
+ onsible AI\, Explainability & Interpretability\nScope sources (2026): htt
+ ps://recsys.acm.org/recsys26/call/\nScope last checked: 2026-10-07
+URL:https://recsys.acm.org/recsys26/call/
+END:VEVENT
+BEGIN:VEVENT
+UID:recsys-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270828
+SUMMARY:[Recommender Systems][Machine Learning] RecSys 2027 - Conference
+DESCRIPTION:Conference title: ACM Conference on Recommender Systems\nWebsit
+ e: https://recsys.acm.org/recsys27/\nSource URL: https://recsys.acm.org/r
+ ecsys27/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Recommender Systems\
+ , Machine Learning\, Information Retrieval & Search\, Human-AI Interactio
+ n & Deployment\nSize: L\nSubmission type: Paper-based\nConfidence: confir
+ med\nLast checked date: 2026-10-28\nNotes: Official site confirms Honolul
+ u (Hilton Hawaiian Village)\, Aug 23-27. As of 2026-10-28 it publishes no
+  2027 call\; deadlines are one-year proxies from the 2026 call (Apr 14 ab
+ stract\, Apr 21 paper\, AoE)\, where long and short papers shared the abs
+ tract gate. Do not infer a special anniversary track for 2027. Size is an
+  editorial estimate.\nScope: Recommendation and personalization: user-ite
+ m modeling\, collaborative and content-based methods\, sequential and con
+ versational recommendation\, evaluation\, and deployed recommendation sys
+ tems. Human and economic impacts matter alongside algorithms. Sequential 
+ data is relevant specifically through recommendation behavior\; this is n
+ ot a general forecasting conference.\nAdditional topics: Time Series & Se
+ quential Data\, Natural Language Processing & LLMs\, Fairness & Responsib
+ le AI\, Explainability & Interpretability\nScope sources (2026): https://
+ recsys.acm.org/recsys26/call/\nScope last checked: 2026-10-07
+URL:https://recsys.acm.org/recsys27/
+LOCATION:Honolulu\, Hawaii\, USA
+END:VEVENT
+END:VCALENDAR

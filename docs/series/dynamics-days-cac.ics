@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dynamics Days CAC (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:dynamics-days-cac-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260415
+DTEND;VALUE=DATE:20260416
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days CAC 2026 - Contributed oral/poster abstract submission deadlin
+ e (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Central Asia and the Caucasus\n
+ Website: https://physics-congress.kz/dynamics_days\nSource URL: https://p
+ hysics-congress.kz/dynamics_days\nLocation: Astana\, Kazakhstan\nTopics: 
+ Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\nSize: M\n
+ Submission type: Abstract-based\nConfidence: confirmed\nLast checked date
+ : 2026-10-28\nNotes: Historical 10th edition. Although the form says pape
+ r/article\, its date table explicitly identifies an abstract submission d
+ eadline for oral/poster presentations\; cutoff hours were unannounced. No
+  archival full-paper proceedings verified. Recurrence is irregular (the o
+ rganizer says almost annually)\; as of 2026-10-28 no 2027 edition is anno
+ unced. Size is an editorial estimate.\nScope: Fundamental nonlinear scien
+ ce and complex-system physics\, including chaos\, collective dynamics\, s
+ tatistical physics and biological systems. The Central Asian and Caucasia
+ n meeting promotes collaboration across nonlinear science and its physica
+ l applications. Its oral/poster submission form uses paper terminology\, 
+ but the official date table specifies abstract submissions.\nAdditional t
+ opics: \nScope sources (2026): https://physics-congress.kz/dynamics_days\
+ nScope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hou
+ r/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://physics-congress.kz/dynamics_days
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-cac-2026-deadline-notification@scientific-conference-cale
+ ndar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260426
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days CAC 2026 - Abstract acceptance notification (cutoff time unann
+ ounced)
+DESCRIPTION:Conference title: Dynamics Days Central Asia and the Caucasus\n
+ Website: https://physics-congress.kz/dynamics_days\nSource URL: https://p
+ hysics-congress.kz/dynamics_days\nLocation: Astana\, Kazakhstan\nTopics: 
+ Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\nSize: M\n
+ Submission type: Abstract-based\nConfidence: confirmed\nLast checked date
+ : 2026-10-28\nNotes: Historical 10th edition. Although the form says pape
+ r/article\, its date table explicitly identifies an abstract submission d
+ eadline for oral/poster presentations\; cutoff hours were unannounced. No
+  archival full-paper proceedings verified. Recurrence is irregular (the o
+ rganizer says almost annually)\; as of 2026-10-28 no 2027 edition is anno
+ unced. Size is an editorial estimate.\nScope: Fundamental nonlinear scien
+ ce and complex-system physics\, including chaos\, collective dynamics\, s
+ tatistical physics and biological systems. The Central Asian and Caucasia
+ n meeting promotes collaboration across nonlinear science and its physica
+ l applications. Its oral/poster submission form uses paper terminology\, 
+ but the official date table specifies abstract submissions.\nAdditional t
+ opics: \nScope sources (2026): https://physics-congress.kz/dynamics_days\
+ nScope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hou
+ r/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://physics-congress.kz/dynamics_days
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-cac-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260529
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days CAC 2026 - Conference
+DESCRIPTION:Conference title: Dynamics Days Central Asia and the Caucasus\n
+ Website: https://physics-congress.kz/dynamics_days\nSource URL: https://p
+ hysics-congress.kz/dynamics_days\nLocation: Astana\, Kazakhstan\nTopics: 
+ Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\nSize: M\n
+ Submission type: Abstract-based\nConfidence: confirmed\nLast checked date
+ : 2026-10-28\nNotes: Historical 10th edition. Although the form says pape
+ r/article\, its date table explicitly identifies an abstract submission d
+ eadline for oral/poster presentations\; cutoff hours were unannounced. No
+  archival full-paper proceedings verified. Recurrence is irregular (the o
+ rganizer says almost annually)\; as of 2026-10-28 no 2027 edition is anno
+ unced. Size is an editorial estimate.\nScope: Fundamental nonlinear scien
+ ce and complex-system physics\, including chaos\, collective dynamics\, s
+ tatistical physics and biological systems. The Central Asian and Caucasia
+ n meeting promotes collaboration across nonlinear science and its physica
+ l applications. Its oral/poster submission form uses paper terminology\, 
+ but the official date table specifies abstract submissions.\nAdditional t
+ opics: \nScope sources (2026): https://physics-congress.kz/dynamics_days\
+ nScope last checked: 2026-10-08
+URL:https://physics-congress.kz/dynamics_days
+LOCATION:Astana\, Kazakhstan
+END:VEVENT
+END:VCALENDAR

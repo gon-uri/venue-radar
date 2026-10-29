@@ -1,0 +1,233 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CCN (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ccn-2026-deadline-full-paper-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260210T115900Z
+DTEND:20260210T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - 8-page paper abstract deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: New York\, New York\, USA\nTopics:
+  Computational Neuroscience\, Deep Representation Learning\, Neuroimaging
+  & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pro
+ ceedings + extended abstracts\nConfidence: confirmed\nLast checked date: 
+ 2026-08-31\nNotes: Official CCN 2026 pages confirm New York University\, 
+ Aug 3-6\, and the two submission-track deadlines.\nScope: Cognitive compu
+ tational neuroscience\, connecting experiments and models of brain comput
+ ation with artificial intelligence. Characteristic work compares biologic
+ al and artificial representations\, models perception\, cognition and act
+ ion\, studies neural connectivity and dynamics\, and uses mechanistic int
+ erpretability to understand neural-network models. The aim is understandi
+ ng computation and behavior across brains and AI systems.\nAdditional top
+ ics: Cognitive Science & Computational Cognition\, Explainability & Inter
+ pretability\nScope sources (2027): https://2027.ccneuro.org/\nScope last 
+ checked: 2026-10-07
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260213T115900Z
+DTEND:20260213T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - 8-page full paper submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: New York\, New York\, USA\nTopics:
+  Computational Neuroscience\, Deep Representation Learning\, Neuroimaging
+  & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pro
+ ceedings + extended abstracts\nConfidence: confirmed\nLast checked date: 
+ 2026-08-31\nNotes: Official CCN 2026 pages confirm New York University\, 
+ Aug 3-6\, and the two submission-track deadlines.\nScope: Cognitive compu
+ tational neuroscience\, connecting experiments and models of brain comput
+ ation with artificial intelligence. Characteristic work compares biologic
+ al and artificial representations\, models perception\, cognition and act
+ ion\, studies neural connectivity and dynamics\, and uses mechanistic int
+ erpretability to understand neural-network models. The aim is understandi
+ ng computation and behavior across brains and AI systems.\nAdditional top
+ ics: Cognitive Science & Computational Cognition\, Explainability & Inter
+ pretability\nScope sources (2027): https://2027.ccneuro.org/\nScope last 
+ checked: 2026-10-07
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260403T115900Z
+DTEND:20260403T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - 2-page extended abstract submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: New York\, New York\, USA\nTopics:
+  Computational Neuroscience\, Deep Representation Learning\, Neuroimaging
+  & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pro
+ ceedings + extended abstracts\nConfidence: confirmed\nLast checked date: 
+ 2026-08-31\nNotes: Official CCN 2026 pages confirm New York University\, 
+ Aug 3-6\, and the two submission-track deadlines.\nScope: Cognitive compu
+ tational neuroscience\, connecting experiments and models of brain comput
+ ation with artificial intelligence. Characteristic work compares biologic
+ al and artificial representations\, models perception\, cognition and act
+ ion\, studies neural connectivity and dynamics\, and uses mechanistic int
+ erpretability to understand neural-network models. The aim is understandi
+ ng computation and behavior across brains and AI systems.\nAdditional top
+ ics: Cognitive Science & Computational Cognition\, Explainability & Inter
+ pretability\nScope sources (2027): https://2027.ccneuro.org/\nScope last 
+ checked: 2026-10-07
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260807
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - Conference
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/\nLocation: New York\, New York\, USA\nTopics: Computational Neuro
+ science\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, M
+ achine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended 
+ abstracts\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: O
+ fficial CCN 2026 pages confirm New York University\, Aug 3-6\, and the tw
+ o submission-track deadlines.\nScope: Cognitive computational neuroscienc
+ e\, connecting experiments and models of brain computation with artificia
+ l intelligence. Characteristic work compares biological and artificial re
+ presentations\, models perception\, cognition and action\, studies neural
+  connectivity and dynamics\, and uses mechanistic interpretability to und
+ erstand neural-network models. The aim is understanding computation and b
+ ehavior across brains and AI systems.\nAdditional topics: Cognitive Scien
+ ce & Computational Cognition\, Explainability & Interpretability\nScope s
+ ources (2027): https://2027.ccneuro.org/\nScope last checked: 2026-10-07
+URL:https://2026.ccneuro.org/
+LOCATION:New York\, New York\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 8-page proceedings paper abstract deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ The official CCN 2027 site (2027.ccneuro.org\, redirecting to ccneuro.org
+  on 2026-10-28) confirms the Edinburgh International Conference Centre\, 
+ Jul 26-29\, with end-of-day AoE deadlines for the 8-page abstract (Feb 1)
+ \, full paper (Feb 4) and 2-page extended abstract (Apr 1). Event proposa
+ ls (GACs\, community events) are due Mar 18\; a fuller dates page is pend
+ ing.\nScope: Cognitive computational neuroscience\, connecting experiment
+ s and models of brain computation with artificial intelligence. Character
+ istic work compares biological and artificial representations\, models pe
+ rception\, cognition and action\, studies neural connectivity and dynamic
+ s\, and uses mechanistic interpretability to understand neural-network mo
+ dels. The aim is understanding computation and behavior across brains and
+  AI systems.\nAdditional topics: Cognitive Science & Computational Cognit
+ ion\, Explainability & Interpretability\nScope sources (2027): https://20
+ 27.ccneuro.org/\nScope last checked: 2026-10-07
+URL:https://2027.ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270205T115900Z
+DTEND:20270205T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 8-page proceedings full paper submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ The official CCN 2027 site (2027.ccneuro.org\, redirecting to ccneuro.org
+  on 2026-10-28) confirms the Edinburgh International Conference Centre\, 
+ Jul 26-29\, with end-of-day AoE deadlines for the 8-page abstract (Feb 1)
+ \, full paper (Feb 4) and 2-page extended abstract (Apr 1). Event proposa
+ ls (GACs\, community events) are due Mar 18\; a fuller dates page is pend
+ ing.\nScope: Cognitive computational neuroscience\, connecting experiment
+ s and models of brain computation with artificial intelligence. Character
+ istic work compares biological and artificial representations\, models pe
+ rception\, cognition and action\, studies neural connectivity and dynamic
+ s\, and uses mechanistic interpretability to understand neural-network mo
+ dels. The aim is understanding computation and behavior across brains and
+  AI systems.\nAdditional topics: Cognitive Science & Computational Cognit
+ ion\, Explainability & Interpretability\nScope sources (2027): https://20
+ 27.ccneuro.org/\nScope last checked: 2026-10-07
+URL:https://2027.ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270402T115900Z
+DTEND:20270402T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 2-page extended abstract submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ The official CCN 2027 site (2027.ccneuro.org\, redirecting to ccneuro.org
+  on 2026-10-28) confirms the Edinburgh International Conference Centre\, 
+ Jul 26-29\, with end-of-day AoE deadlines for the 8-page abstract (Feb 1)
+ \, full paper (Feb 4) and 2-page extended abstract (Apr 1). Event proposa
+ ls (GACs\, community events) are due Mar 18\; a fuller dates page is pend
+ ing.\nScope: Cognitive computational neuroscience\, connecting experiment
+ s and models of brain computation with artificial intelligence. Character
+ istic work compares biological and artificial representations\, models pe
+ rception\, cognition and action\, studies neural connectivity and dynamic
+ s\, and uses mechanistic interpretability to understand neural-network mo
+ dels. The aim is understanding computation and behavior across brains and
+  AI systems.\nAdditional topics: Cognitive Science & Computational Cognit
+ ion\, Explainability & Interpretability\nScope sources (2027): https://20
+ 27.ccneuro.org/\nScope last checked: 2026-10-07
+URL:https://2027.ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270730
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - Conference
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ The official CCN 2027 site (2027.ccneuro.org\, redirecting to ccneuro.org
+  on 2026-10-28) confirms the Edinburgh International Conference Centre\, 
+ Jul 26-29\, with end-of-day AoE deadlines for the 8-page abstract (Feb 1)
+ \, full paper (Feb 4) and 2-page extended abstract (Apr 1). Event proposa
+ ls (GACs\, community events) are due Mar 18\; a fuller dates page is pend
+ ing.\nScope: Cognitive computational neuroscience\, connecting experiment
+ s and models of brain computation with artificial intelligence. Character
+ istic work compares biological and artificial representations\, models pe
+ rception\, cognition and action\, studies neural connectivity and dynamic
+ s\, and uses mechanistic interpretability to understand neural-network mo
+ dels. The aim is understanding computation and behavior across brains and
+  AI systems.\nAdditional topics: Cognitive Science & Computational Cognit
+ ion\, Explainability & Interpretability\nScope sources (2027): https://20
+ 27.ccneuro.org/\nScope last checked: 2026-10-07
+URL:https://2027.ccneuro.org/
+LOCATION:Edinburgh\, United Kingdom
+END:VEVENT
+END:VCALENDAR

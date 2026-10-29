@@ -4,6 +4,11 @@ PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Human-AI Interaction & Deployment
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:chil-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -2609,6 +2614,44 @@ DESCRIPTION:Conference title: ACM International Conference on Research and
 URL:https://sigir2027.org/pages/submit-full.html
 END:VEVENT
 BEGIN:VEVENT
+UID:dsaa-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270502T115900Z
+DTEND:20270502T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2027 - Paper su
+ bmission deadline (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa.co/\nSource URL: https://d
+ saa-2026.vercel.app/key-dates\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Machine Learning\, Time Series & Sequential Data\, 
+ Human-AI Interaction & Deployment\nSize: M\nSubmission type: Paper-based 
+ / applied tracks\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 dsaa.co announces no DSAA 2027 host or dates (it s
+ olicits bids for 2028-2030). Meeting dates are one-year proxies from DSAA
+  2026 (New Delhi\, Oct 6-9)\; paper proxies use DSAA 2026's original May 
+ 1 AoE deadline\, later extended to Jun 7.
+URL:https://dsaa-2026.vercel.app/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2027-deadline-special-session-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270502T115900Z
+DTEND:20270502T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2027 - Special 
+ session paper submission (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa.co/\nSource URL: https://d
+ saa-2026.vercel.app/key-dates\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Machine Learning\, Time Series & Sequential Data\, 
+ Human-AI Interaction & Deployment\nSize: M\nSubmission type: Paper-based 
+ / applied tracks\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 dsaa.co announces no DSAA 2027 host or dates (it s
+ olicits bids for 2028-2030). Meeting dates are one-year proxies from DSAA
+  2026 (New Delhi\, Oct 6-9)\; paper proxies use DSAA 2026's original May 
+ 1 AoE deadline\, later extended to Jun 7.
+URL:https://dsaa-2026.vercel.app/key-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:aamas-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270503
@@ -2697,6 +2740,62 @@ URL:https://chi2027.acm.org/
 LOCATION:Pittsburgh\, Pennsylvania\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:aies-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270514T115900Z
+DTEND:20270514T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2027 - Abstra
+ ct registration (estimated)
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/\nSource URL: https://www.a
+ ies-conference.com/2026/call-for-papers/\nLocation: To be announced\nTopi
+ cs: Ethics & Governance\, Fairness & Responsible AI\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper-bas
+ ed / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10
+ -29\nNotes: As of 2026-10-29 AAAI lists the tenth AIES with "additional i
+ nformation to come"\; no 2027 dates or host are announced. Meeting (Mon-W
+ ed) and the mandatory abstract pre-registration and paper deadlines (Thur
+ sdays\, AoE) are one-year proxies from AIES 2026 (Oct 12-14\; May 14 and 
+ May 21).\nScope: Ethics and societal consequences of AI\, connecting comp
+ uter science\, law and policy\, social science\, and philosophy. Defining
+  concerns include governance and power\, accountability after deployment\
+ , value alignment\, fairness\, human-AI interaction\, and institutional p
+ ractice. Technical work is relevant through a serious ethical or societal
+  contribution.\nAdditional topics: Human-AI Interaction & Deployment\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.aies-conference.co
+ m/2026/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270517T115900Z
+DTEND:20270517T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Abstract
+  submission deadline (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: https://cikm2026.diag.uniroma1.it/full-research-papers/\nLocation: S
+ ydney\, Australia\nTopics: Data Mining & Data Science\, Machine Learning\
+ , Natural Language Processing & LLMs\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
+ ked date: 2026-10-29\nNotes: As of 2026-10-29 the CIKM series page names 
+ Sydney\, Australia as the 2027 host\; no CIKM 2027 site or call is publis
+ hed. Estimated meeting dates follow event manager ICMS Australasia's list
+ ing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dates are one-y
+ ear proxies from CIKM 2026.\nScope: Information retrieval\, knowledge man
+ agement\, data mining and database systems\, with a strong focus on effec
+ tive information access and knowledge at scale. The 2026 organizer descri
+ ption emphasizes AI for information access\, knowledge representation\, p
+ ersonalization and evaluation. Agentic and graph methods are relevant thr
+ ough these information and knowledge problems.\nAdditional topics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Knowledge Representation
+  & Reasoning\, Graphs & Graph Learning\, LLM Agents & Tool Use\nScope sou
+ rces (2026): https://cikm2026.diag.uniroma1.it/\nScope last checked: 2026
+ -10-07
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2027-deadline-short-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270517
@@ -2729,6 +2828,33 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
 URL:https://www.ieeesmc2026.org/Important-Dates
 END:VEVENT
 BEGIN:VEVENT
+UID:aies-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270521T115900Z
+DTEND:20270521T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2027 - Paper 
+ submission (estimated)
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/\nSource URL: https://www.a
+ ies-conference.com/2026/call-for-papers/\nLocation: To be announced\nTopi
+ cs: Ethics & Governance\, Fairness & Responsible AI\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper-bas
+ ed / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10
+ -29\nNotes: As of 2026-10-29 AAAI lists the tenth AIES with "additional i
+ nformation to come"\; no 2027 dates or host are announced. Meeting (Mon-W
+ ed) and the mandatory abstract pre-registration and paper deadlines (Thur
+ sdays\, AoE) are one-year proxies from AIES 2026 (Oct 12-14\; May 14 and 
+ May 21).\nScope: Ethics and societal consequences of AI\, connecting comp
+ uter science\, law and policy\, social science\, and philosophy. Defining
+  concerns include governance and power\, accountability after deployment\
+ , value alignment\, fairness\, human-AI interaction\, and institutional p
+ ractice. Technical work is relevant through a serious ethical or societal
+  contribution.\nAdditional topics: Human-AI Interaction & Deployment\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.aies-conference.co
+ m/2026/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:icra-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270524
@@ -2755,6 +2881,64 @@ DESCRIPTION:Conference title: IEEE International Conference on Robotics and
  ssions/\nScope last checked: 2026-10-07
 URL:https://2027.ieee-icra.org/
 LOCATION:Seoul\, South Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270524T115900Z
+DTEND:20270524T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Full pap
+ er submission deadline (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: https://cikm2026.diag.uniroma1.it/full-research-papers/\nLocation: S
+ ydney\, Australia\nTopics: Data Mining & Data Science\, Machine Learning\
+ , Natural Language Processing & LLMs\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
+ ked date: 2026-10-29\nNotes: As of 2026-10-29 the CIKM series page names 
+ Sydney\, Australia as the 2027 host\; no CIKM 2027 site or call is publis
+ hed. Estimated meeting dates follow event manager ICMS Australasia's list
+ ing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dates are one-y
+ ear proxies from CIKM 2026.\nScope: Information retrieval\, knowledge man
+ agement\, data mining and database systems\, with a strong focus on effec
+ tive information access and knowledge at scale. The 2026 organizer descri
+ ption emphasizes AI for information access\, knowledge representation\, p
+ ersonalization and evaluation. Agentic and graph methods are relevant thr
+ ough these information and knowledge problems.\nAdditional topics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Knowledge Representation
+  & Reasoning\, Graphs & Graph Learning\, LLM Agents & Tool Use\nScope sou
+ rces (2026): https://cikm2026.diag.uniroma1.it/\nScope last checked: 2026
+ -10-07
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270526T115900Z
+DTEND:20270526T125900Z
+SUMMARY:[Machine Learning][Control & Robotics] CoRL 2027 - Mandatory abstra
+ ct registration deadline (estimated)
+DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
+ //www.corl.org/\nSource URL: https://openreview.net/group?id=robot-learni
+ ng.org/CoRL/2026/Conference\nLocation: To be announced\nTopics: Machine L
+ earning\, Control & Robotics\, Reinforcement Learning\, Deep Representati
+ on Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimated
+ \nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the official CoR
+ L site covers only CoRL 2026 (Austin\, Nov 9-12\, 2026) and OpenReview ha
+ s no CoRL 2027 venue\; no 2027 host or dates are announced. Meeting dates
+  and the May 25 mandatory abstract/May 28 paper deadlines (AoE) are one-y
+ ear proxies from CoRL 2026.\nScope: Machine learning for physical robots\
+ , especially imitation and reinforcement learning\, learned perception an
+ d control\, robot foundation models\, and learning-based task and motion 
+ planning. Includes uncertainty\, generalization\, safety\, human-robot in
+ teraction\, and datasets grounded in manipulation\, navigation\, or locom
+ otion. General ML is relevant when it makes a substantive contribution to
+  robot learning.\nAdditional topics: Computer Vision & Pattern Recognitio
+ n\, Probabilistic\, Causal & Uncertainty ML\, Human-AI Interaction & Depl
+ oyment\, Robustness & Safety\, Learning Theory & Statistical Foundations\
+ nScope sources (2026): https://www.corl.org/contributions/call-for-papers
+ \nScope last checked: 2026-10-07
+URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2027-deadline-full-paper@scientific-conference-calendar
@@ -2785,6 +2969,35 @@ DESCRIPTION:Conference title: Conference on Empirical Methods in Natural La
  26): https://2026.emnlp.org/calls/main_conference_papers/\nScope last che
  cked: 2026-10-07
 URL:https://2026.emnlp.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T115900Z
+DTEND:20270529T125900Z
+SUMMARY:[Machine Learning][Control & Robotics] CoRL 2027 - Main conference 
+ paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
+ //www.corl.org/\nSource URL: https://openreview.net/group?id=robot-learni
+ ng.org/CoRL/2026/Conference\nLocation: To be announced\nTopics: Machine L
+ earning\, Control & Robotics\, Reinforcement Learning\, Deep Representati
+ on Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimated
+ \nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the official CoR
+ L site covers only CoRL 2026 (Austin\, Nov 9-12\, 2026) and OpenReview ha
+ s no CoRL 2027 venue\; no 2027 host or dates are announced. Meeting dates
+  and the May 25 mandatory abstract/May 28 paper deadlines (AoE) are one-y
+ ear proxies from CoRL 2026.\nScope: Machine learning for physical robots\
+ , especially imitation and reinforcement learning\, learned perception an
+ d control\, robot foundation models\, and learning-based task and motion 
+ planning. Includes uncertainty\, generalization\, safety\, human-robot in
+ teraction\, and datasets grounded in manipulation\, navigation\, or locom
+ otion. General ML is relevant when it makes a substantive contribution to
+  robot learning.\nAdditional topics: Computer Vision & Pattern Recognitio
+ n\, Probabilistic\, Causal & Uncertainty ML\, Human-AI Interaction & Depl
+ oyment\, Robustness & Safety\, Learning Theory & Statistical Foundations\
+ nScope sources (2026): https://www.corl.org/contributions/call-for-papers
+ \nScope last checked: 2026-10-07
+URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
 END:VEVENT
 BEGIN:VEVENT
 UID:naacl-2027-conference@scientific-conference-calendar
@@ -3015,6 +3228,55 @@ URL:https://recsys.acm.org/recsys27/
 LOCATION:Honolulu\, Hawaii\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:icra-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270916T065900Z
+DTEND:20270916T075900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] ICRA 2028 - Paper subm
+ ission deadline (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Robotics and
+  Automation\nWebsite: https://www.ieee-ras.org/conferences-workshops/full
+ y-sponsored/icra\nSource URL: https://www.ieee-ras.org/conferences-worksh
+ ops/fully-sponsored/icra\nLocation: Guadalajara\, Mexico\nTopics: Control
+  & Robotics\, Reinforcement Learning\, Computer Vision & Pattern Recognit
+ ion\, System Identification & Data-driven Dynamics\nSize: XXL\nSubmission
+  type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 IEEE RAS names Guadalajara\, Mexico as the ICRA 
+ 2028 host but publishes no dates or call. Meeting dates are a one-year pr
+ oxy from ICRA 2027\; the paper deadline proxy uses ICRA 2027's original S
+ eptember 15\, 23:59 Pacific cutoff\, not its one-day extension.\nScope: R
+ obotics and automation across perception\, motion and manipulation\, plan
+ ning and control\, human-robot interaction\, and autonomous systems. Lear
+ ning-based robotics\, reinforcement and imitation learning\, and data-dri
+ ven models are relevant when they advance physical robotic capability. Ge
+ neric ML with no robotics connection is not the core remit.\nAdditional t
+ opics: Planning & Search\, Deep Representation Learning\, Human-AI Intera
+ ction & Deployment\, Robustness & Safety\nScope sources (2027): https://2
+ 027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-subm
+ issions/\nScope last checked: 2026-10-07
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271010
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2027 - Conferen
+ ce (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa.co/\nSource URL: https://d
+ saa.co/\nLocation: To be announced\nTopics: Data Mining & Data Science\, 
+ Machine Learning\, Time Series & Sequential Data\, Human-AI Interaction &
+  Deployment\nSize: M\nSubmission type: Paper-based / applied tracks\nConf
+ idence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29
+  dsaa.co announces no DSAA 2027 host or dates (it solicits bids for 2028-
+ 2030). Meeting dates are one-year proxies from DSAA 2026 (New Delhi\, Oct
+  6-9)\; paper proxies use DSAA 2026's original May 1 AoE deadline\, later
+  extended to Jun 7.
+URL:https://dsaa.co/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271007
@@ -3044,6 +3306,63 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
  ed: 2026-10-07
 URL:https://www.ieeesmc.org/conferences/calendar/
 LOCATION:Ho Chi Minh City\, Vietnam
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271014
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2027 - Confer
+ ence (estimated)
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/\nSource URL: https://aaai.
+ org/conference/aies/\nLocation: To be announced\nTopics: Ethics & Governa
+ nce\, Fairness & Responsible AI\, Explainability & Interpretability\, Rob
+ ustness & Safety\nSize: M\nSubmission type: Paper-based / interdisciplina
+ ry\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 20
+ 26-10-29 AAAI lists the tenth AIES with "additional information to come"\
+ ; no 2027 dates or host are announced. Meeting (Mon-Wed) and the mandator
+ y abstract pre-registration and paper deadlines (Thursdays\, AoE) are one
+ -year proxies from AIES 2026 (Oct 12-14\; May 14 and May 21).\nScope: Eth
+ ics and societal consequences of AI\, connecting computer science\, law a
+ nd policy\, social science\, and philosophy. Defining concerns include go
+ vernance and power\, accountability after deployment\, value alignment\, 
+ fairness\, human-AI interaction\, and institutional practice. Technical w
+ ork is relevant through a serious ethical or societal contribution.\nAddi
+ tional topics: Human-AI Interaction & Deployment\, Privacy-preserving ML\
+ nScope sources (2026): https://www.aies-conference.com/2026/call-for-pape
+ rs/\nScope last checked: 2026-10-07
+URL:https://aaai.org/conference/aies/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271106
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Conferen
+ ce (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: http://www.cikmconference.org/\nLocation: Sydney\, Australia\nTopics
+ : Data Mining & Data Science\, Machine Learning\, Natural Language Proces
+ sing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 the CIKM series page names Sydney\, Australia as the
+  2027 host\; no CIKM 2027 site or call is published. Estimated meeting da
+ tes follow event manager ICMS Australasia's listing (1-5 Nov 2027\, ICC S
+ ydney)\; abstract and full-paper dates are one-year proxies from CIKM 202
+ 6.\nScope: Information retrieval\, knowledge management\, data mining and
+  database systems\, with a strong focus on effective information access a
+ nd knowledge at scale. The 2026 organizer description emphasizes AI for i
+ nformation access\, knowledge representation\, personalization and evalua
+ tion. Agentic and graph methods are relevant through these information an
+ d knowledge problems.\nAdditional topics: Information Retrieval & Search\
+ , Recommender Systems\, Knowledge Representation & Reasoning\, Graphs & G
+ raph Learning\, LLM Agents & Tool Use\nScope sources (2026): https://cikm
+ 2026.diag.uniroma1.it/\nScope last checked: 2026-10-07
+URL:http://www.cikmconference.org/
+LOCATION:Sydney\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2027-conference@scientific-conference-calendar
@@ -3078,6 +3397,35 @@ URL:https://www.aclweb.org/portal/content/joint-call-workshops-proposals-20
 LOCATION:Mexico or Central America\; city to be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:corl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271113
+SUMMARY:[Machine Learning][Control & Robotics] CoRL 2027 - Conference (esti
+ mated)
+DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
+ //www.corl.org/\nSource URL: https://www.corl.org/\nLocation: To be annou
+ nced\nTopics: Machine Learning\, Control & Robotics\, Reinforcement Learn
+ ing\, Deep Representation Learning\nSize: L\nSubmission type: Paper-based
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 the official CoRL site covers only CoRL 2026 (Austin\, Nov 9-12\, 
+ 2026) and OpenReview has no CoRL 2027 venue\; no 2027 host or dates are a
+ nnounced. Meeting dates and the May 25 mandatory abstract/May 28 paper de
+ adlines (AoE) are one-year proxies from CoRL 2026.\nScope: Machine learni
+ ng for physical robots\, especially imitation and reinforcement learning\
+ , learned perception and control\, robot foundation models\, and learning
+ -based task and motion planning. Includes uncertainty\, generalization\, 
+ safety\, human-robot interaction\, and datasets grounded in manipulation\
+ , navigation\, or locomotion. General ML is relevant when it makes a subs
+ tantive contribution to robot learning.\nAdditional topics: Computer Visi
+ on & Pattern Recognition\, Probabilistic\, Causal & Uncertainty ML\, Huma
+ n-AI Interaction & Deployment\, Robustness & Safety\, Learning Theory & S
+ tatistical Foundations\nScope sources (2026): https://www.corl.org/contri
+ butions/call-for-papers\nScope last checked: 2026-10-07
+URL:https://www.corl.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-mm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271110
@@ -3107,5 +3455,35 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
  html\, https://2026.acmmm.org/\nScope last checked: 2026-10-07
 URL:https://www.acmmm.org/
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280524
+DTEND;VALUE=DATE:20280529
+SUMMARY:[Control & Robotics][Reinforcement Learning] ICRA 2028 - Conference
+  (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Robotics and
+  Automation\nWebsite: https://www.ieee-ras.org/conferences-workshops/full
+ y-sponsored/icra\nSource URL: https://www.ieee-ras.org/conferences-worksh
+ ops/fully-sponsored/icra\nLocation: Guadalajara\, Mexico\nTopics: Control
+  & Robotics\, Reinforcement Learning\, Computer Vision & Pattern Recognit
+ ion\, System Identification & Data-driven Dynamics\nSize: XXL\nSubmission
+  type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 IEEE RAS names Guadalajara\, Mexico as the ICRA 
+ 2028 host but publishes no dates or call. Meeting dates are a one-year pr
+ oxy from ICRA 2027\; the paper deadline proxy uses ICRA 2027's original S
+ eptember 15\, 23:59 Pacific cutoff\, not its one-day extension.\nScope: R
+ obotics and automation across perception\, motion and manipulation\, plan
+ ning and control\, human-robot interaction\, and autonomous systems. Lear
+ ning-based robotics\, reinforcement and imitation learning\, and data-dri
+ ven models are relevant when they advance physical robotic capability. Ge
+ neric ML with no robotics connection is not the core remit.\nAdditional t
+ opics: Planning & Search\, Deep Representation Learning\, Human-AI Intera
+ ction & Deployment\, Robustness & Safety\nScope sources (2027): https://2
+ 027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-subm
+ issions/\nScope last checked: 2026-10-07
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+LOCATION:Guadalajara\, Mexico
 END:VEVENT
 END:VCALENDAR

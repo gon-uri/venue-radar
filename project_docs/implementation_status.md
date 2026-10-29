@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-10-28. This is the current-state summary, not a release
+Last synchronized: 2026-10-29. This is the current-state summary, not a release
 history. Start with [the documentation index](README.md); technical history
 remains in [decisions](decisions.md). Detailed local working notes follow the
 [documentation policy](documentation_policy.md) and are not required to onboard.
@@ -12,11 +12,11 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Repository | `gon-uri/venue-radar`; GitHub Pages publishes `main/docs`. |
 | Website | https://gon-uri.github.io/venue-radar/ |
 | Architecture | Reviewed YAML + Python generators + standalone static HTML/ICS; no backend or SQL database. |
-| Catalog | 166 edition records across 129 distinct series. Website row counts refer to editions, not unique series. |
+| Catalog | 196 edition records across 129 distinct series, including 30 next editions added 2026-10-29 (28 estimated; ICDM 2027 and ACC 2028 confirmed). Website row counts refer to editions, not unique series. |
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
 | Detailed scopes | 79 reviewed profiles; 50 series still lack a reviewed profile. |
 | Evidence maps | 66 direct ICORE 2026 ranks, 55 direct CCF 2026 ranks, 34 historical rate/qualitative-band entries. |
-| Public feeds | 212 ICS files: three aggregates, 43 leaf-topic feeds and 166 edition feeds. |
+| Public feeds | 372 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 196 edition and 129 series feeds. |
 | Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
@@ -49,9 +49,18 @@ additions, not from an older session entry or a filtered website screenshot.
 - Venue Radar branding uses the selected Audiowide title, four-color calendar/
   radar PNG, radar-only favicon, restrained teal styling and semibold names.
   Source assets, notices and optical-alignment regressions are maintained.
-- Header actions are Share on X, Star the repo and All events (.ics), with the
-  download caption below. Neither social action posts/stars automatically.
-  Per-edition downloads remain in Conferences & Map, not deadline rows.
+- Header actions are Share on X, Star the repo and a Subscribe to calendar menu
+  (Google/Apple/copy-link/download for submissions, all events, conference
+  dates, any topic or series), with its caption below. Neither social action
+  posts/stars automatically. Per-edition downloads and a Series feed link stay
+  in Conferences & Map, not deadline rows.
+- Confirmed exact cutoffs show their clock ("23:59 AoE") and the viewer's local
+  time; mobile cards repeat the counted-down action under Time left. Closed or
+  unannounced rows link to a tracked successor edition. Empty views explain
+  hidden closed/unannounced matches; an active-filter badge shows on the panel.
+- Search is accent-insensitive and matches every word. Re-renders keep keyboard
+  focus. Tablet tables wrap between words; focus outlines, captions, a skip
+  link and reduced motion are in place; no-JS shows every table and milestone.
 - Giscus uses verified repository/category IDs and the stable discussion term;
   GitHub issue links work independently. Public README stays nontechnical,
   credits Gonzalo Uribarri and includes the personal-project clarification.
@@ -64,8 +73,9 @@ historical prose in a design proposal.
 
 [Data maintenance](data_maintenance.md) explains the read-only monthly edition,
 rate and scope queues, official-source review and confidence handling.
-Cadence-aware rollover previews estimates for an explicit allowlist; `--write`
-requires review and never overwrites existing editions. There is no unattended
+Cadence-aware rollover previews estimates for an explicit allowlist once a
+series' submission routes close; `--write` (optionally `--series`) requires
+review, keeps the prior review date and never overwrites existing editions. There is no unattended
 source scraping, freshness enforcement or automatic data promotion.
 
 [Adding conferences](adding_conferences.md) covers identity/approval, all owning
@@ -156,3 +166,20 @@ The 12 changed workbook catalog cells were patched in place without the
 optional artifact tool. All other workbook parts are byte-identical, and a
 re-import matches all 129 exported rows. No visual render of the workbook was
 performed. Not yet committed or published.
+
+The 2026-10-29 feature release (ADR-039; not yet committed or published) adds
+exact cutoff clocks with local time, the subscribe menu and submissions/series
+feeds, earlier successor tracking with 30 officially reviewed estimated next
+editions (ICDM 2027 Brisbane and ACC 2028 San Francisco have official dates),
+normalized search, empty states and the focus, tablet and accessibility fixes.
+An adversarial review then fixed 18 issues (menu focus/Escape and restored
+picker state, successor month/hidden rows, tablet overlaps, no-JS columns) and
+found IFAC SYSID 2027's Nov 15 extension and day-only June 1 opening; ACC
+2028's conflicting notification/final dates are now estimated. Validation
+now rejects deadline or opening times without an explicit UTC offset.
+Checks: validation of 196 records, 99 Python tests, deterministic builds,
+no removed UID versus HEAD, the non-ICS whitespace check, and the full browser
+suite at 1440/1051/1050/768/390/320px including tests/venue_features.mjs (123
+opportunities at its frozen date). The workbook's 21 changed Source cells
+were patched in place and all 129 rows re-import. Calendar-app behavior of the
+Google/Apple subscribe links is untested here (no signed-in client).

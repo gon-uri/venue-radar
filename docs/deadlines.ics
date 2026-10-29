@@ -4,6 +4,11 @@ PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conference Deadlines
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -4049,20 +4054,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -4872,35 +4878,6 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
 URL:https://www.ecir2027.co.uk/call-for-resource-papers
 END:VEVENT
 BEGIN:VEVENT
-UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
- IFAC SYSID 2027 - Conference paper submission (cutoff time unannounced)
-DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
- ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
- /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
- ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
- botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
- ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
-URL:https://conferences.ifac-control.org/sysid2027/participate/
-END:VEVENT
-BEGIN:VEVENT
 UID:wacv-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261103T115900Z
@@ -5345,6 +5322,37 @@ DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
  ope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/t
  imezone is unannounced. Verify the organizer's submission portal.
 URL:https://brain.korea.ac.kr/bci2027/importantdate.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Conference paper submission (extended) (cutoff time una
+ nnounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcnn-2027-deadline-workshop-proposal@scientific-conference-calendar
@@ -6518,20 +6526,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -6548,20 +6557,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -7796,20 +7806,21 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
  botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
  ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
- 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
- apers\, and dissemination/discussion routes have distinct requirements\; 
- consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
- em identification and data-driven modeling for dynamical systems and cont
- rol. Characteristic themes include nonlinear identification\, model reduc
- tion\, identification software and benchmarks\, learning across systems\,
-  and dynamic networks. Application tracks remain grounded in identifying 
- or learning dynamical models\, rather than becoming general-purpose domai
- n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
- ystems & Network Science\nScope sources (2027): https://conferences.ifac-
- control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ 0-29\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate pa
+ ge strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 1
+  to Oct 11 for joint journal papers). The submission system opened 1 June
+  2026 (day only\, no time). Deadline days are official\; cutoff hours use
+  provisional end-of-day AoE. Size is an editorial category.\nScope: Syste
+ m identification and data-driven modeling for dynamical systems and contr
+ ol. Characteristic themes include nonlinear identification\, model reduct
+ ion\, identification software and benchmarks\, learning across systems\, 
+ and dynamic networks. Application tracks remain grounded in identifying o
+ r learning dynamical models\, rather than becoming general-purpose domain
+  conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\nScope sources (2027): https://conferences.ifac-c
+ ontrol.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -8772,6 +8783,26 @@ DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
 URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:sdm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270411T115900Z
+DTEND:20270411T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 7 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/get-involved/connect-with-a-community/acti
+ vity-groups/data-science/\nSource URL: https://www.siam.org/conferences-e
+ vents/siam-conferences/sdm26/\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Time Series & Sequential Data\, Explainability & In
+ terpretability\, Machine Learning\nSize: M\nSubmission type: Paper-based\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 SIAM describes SDM as yearly but lists no SDM27 among its upcoming 
+ conferences. Meeting and paper dates are one-year proxies from SDM26 (Nov
+  19-20\, 2026\, held jointly with IS26 and MDS26 after earlier spring edi
+ tions)\, so 2027 timing is uncertain.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
 UID:icmr-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270411T115959Z
@@ -9037,6 +9068,26 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
 URL:https://mlhc.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:sdm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270418T115900Z
+DTEND:20270418T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 7 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/get-involved/connect-with-a-community/acti
+ vity-groups/data-science/\nSource URL: https://www.siam.org/conferences-e
+ vents/siam-conferences/sdm26/\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Time Series & Sequential Data\, Explainability & In
+ terpretability\, Machine Learning\nSize: M\nSubmission type: Paper-based\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 SIAM describes SDM as yearly but lists no SDM27 among its upcoming 
+ conferences. Meeting and paper dates are one-year proxies from SDM26 (Nov
+  19-20\, 2026\, held jointly with IS26 and MDS26 after earlier spring edi
+ tions)\, so 2027 timing is uncertain.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
 UID:l4dc-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270419
@@ -9228,6 +9279,35 @@ DESCRIPTION:Conference title: International Conference on Principles of Kno
 URL:https://kr.org/KR2027/dates.html
 END:VEVENT
 BEGIN:VEVENT
+UID:nolta-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2027 - Regular and special-session papers (estimated) (cutoff time una
+ nnounced)
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://www.ieice.org/nolta/conferences/sym
+ posium/\nSource URL: https://nolta2026.org/\nLocation: To be announced\nT
+ opics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\, D
+ eep Representation Learning\, Control & Robotics\nSize: M\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\nNot
+ es: As of 2026-10-29 the official NOLTA 2026 site (Grenoble\, Nov 17-20\,
+  2026) announces no 2027 host or dates. Meeting dates and the paper deadl
+ ine are same-weekday one-year proxies from NOLTA 2026\; the deadline foll
+ ows its original Apr 30 date\, not the May 20 final extension.\nScope: No
+ nlinear theory and its applications\, centered on chaos\, bifurcations\, 
+ oscillations\, synchronization\, nonlinear circuits\, and complex network
+ s. Neural computation\, evolutionary algorithms\, control\, and signal pr
+ ocessing connect to this nonlinear-systems focus. Individual application 
+ examples are not taken as additional specialist identities.\nAdditional t
+ opics: Signal Processing\, Evolutionary Computation & Optimization\nScope
+  sources (2026): https://nolta2026.org/\nScope last checked: 2026-10-07\n
+ Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
+  the organizer's submission portal.
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-cdc-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270430
@@ -9299,6 +9379,44 @@ DESCRIPTION:Conference title: ACM International Conference on Research and
  \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
  ission portal.
 URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270502T115900Z
+DTEND:20270502T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2027 - Paper su
+ bmission deadline (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa.co/\nSource URL: https://d
+ saa-2026.vercel.app/key-dates\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Machine Learning\, Time Series & Sequential Data\, 
+ Human-AI Interaction & Deployment\nSize: M\nSubmission type: Paper-based 
+ / applied tracks\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 dsaa.co announces no DSAA 2027 host or dates (it s
+ olicits bids for 2028-2030). Meeting dates are one-year proxies from DSAA
+  2026 (New Delhi\, Oct 6-9)\; paper proxies use DSAA 2026's original May 
+ 1 AoE deadline\, later extended to Jun 7.
+URL:https://dsaa-2026.vercel.app/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2027-deadline-special-session-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270502T115900Z
+DTEND:20270502T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2027 - Special 
+ session paper submission (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa.co/\nSource URL: https://d
+ saa-2026.vercel.app/key-dates\nLocation: To be announced\nTopics: Data Mi
+ ning & Data Science\, Machine Learning\, Time Series & Sequential Data\, 
+ Human-AI Interaction & Deployment\nSize: M\nSubmission type: Paper-based 
+ / applied tracks\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 dsaa.co announces no DSAA 2027 host or dates (it s
+ olicits bids for 2028-2030). Meeting dates are one-year proxies from DSAA
+  2026 (New Delhi\, Oct 6-9)\; paper proxies use DSAA 2026's original May 
+ 1 AoE deadline\, later extended to Jun 7.
+URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:aime-2027-deadline-camera-ready@scientific-conference-calendar
@@ -9377,6 +9495,35 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
 URL:https://www.ieeesmc2026.org/Important-Dates
 END:VEVENT
 BEGIN:VEVENT
+UID:neurips-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270505T115900Z
+DTEND:20270505T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Abs
+ tract submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:colt-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270507T115900Z
@@ -9403,6 +9550,35 @@ DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
  e sources (2026): https://learningtheory.org/colt2026/cfp.html\nScope las
  t checked: 2026-10-07
 URL:https://learningtheory.org/colt2026/workshops.html
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270507T115900Z
+DTEND:20270507T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2027 - Ful
+ l paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/\nSource URL: https://neurips.cc/Conf
+ erences/2026/Dates\nLocation: Europe (city to be announced)\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Time Series & Sequential Da
+ ta\, Explainability & Interpretability\nSize: XXL\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As o
+ f 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as
+  Europe\; no host city\, dates or call is published (neurips.cc/Conferenc
+ es/2027 returns 404). Meeting dates (Dec 6-12) and the May 4 abstract/May
+  6 paper deadlines (AoE) are one-year proxies from NeurIPS 2026.\nScope: 
+ Broad research in machine learning\, especially deep and generative model
+ s\, statistical foundations\, optimization\, probabilistic inference\, an
+ d learning for decision-making. Language\, vision\, and scalable ML syste
+ ms are important research communities. Interdisciplinary applications sho
+ uld contribute insight of wider interest to the machine-learning communit
+ y.\nAdditional topics: Learning Theory & Statistical Foundations\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Computer Vision & Pattern Recognition\, ML Syste
+ ms & Infrastructure\nScope sources (2026): https://neurips.cc/Conferences
+ /2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-biocas-2027-deadline-abstract@scientific-conference-calendar
@@ -9461,6 +9637,33 @@ DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
 URL:https://iswc2026.semanticweb.org/importantdates
 END:VEVENT
 BEGIN:VEVENT
+UID:aies-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270514T115900Z
+DTEND:20270514T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2027 - Abstra
+ ct registration (estimated)
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/\nSource URL: https://www.a
+ ies-conference.com/2026/call-for-papers/\nLocation: To be announced\nTopi
+ cs: Ethics & Governance\, Fairness & Responsible AI\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper-bas
+ ed / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10
+ -29\nNotes: As of 2026-10-29 AAAI lists the tenth AIES with "additional i
+ nformation to come"\; no 2027 dates or host are announced. Meeting (Mon-W
+ ed) and the mandatory abstract pre-registration and paper deadlines (Thur
+ sdays\, AoE) are one-year proxies from AIES 2026 (Oct 12-14\; May 14 and 
+ May 21).\nScope: Ethics and societal consequences of AI\, connecting comp
+ uter science\, law and policy\, social science\, and philosophy. Defining
+  concerns include governance and power\, accountability after deployment\
+ , value alignment\, fairness\, human-AI interaction\, and institutional p
+ ractice. Technical work is relevant through a serious ethical or societal
+  contribution.\nAdditional topics: Human-AI Interaction & Deployment\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.aies-conference.co
+ m/2026/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:automl-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270515T115900Z
@@ -9516,6 +9719,55 @@ DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
  L\, Robustness & Safety\nScope sources (2027): https://roboticsconference
  .org/information/cfp/\nScope last checked: 2026-10-07
 URL:https://roboticsconference.org/information/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-icmla-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270516T065900Z
+DTEND:20270516T075900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE ICMLA 2027 - 
+ Main conference paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Machine Lear
+ ning and Applications\nWebsite: https://www.icmla-conference.org/icmla27/
+ \nSource URL: https://www.icmla-conference.org/icmla26/callforpapers.html
+ \nLocation: To be announced\nTopics: Machine Learning\, Deep Representati
+ on Learning\, Data Mining & Data Science\, Time Series & Sequential Data\
+ nSize: M\nSubmission type: Paper-based / special sessions\nConfidence: es
+ timated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the offic
+ ial ICMLA'27 site (26th edition\, in person\; banner says only '2027 USA'
+ ) publishes no dates\, city or call. Meeting and main-paper dates are one
+ -year proxies from ICMLA 2026 (Oct 5-7\; papers due May 15\, 11:59 PM PT)
+ .
+URL:https://www.icmla-conference.org/icmla26/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270517T115900Z
+DTEND:20270517T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Abstract
+  submission deadline (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: https://cikm2026.diag.uniroma1.it/full-research-papers/\nLocation: S
+ ydney\, Australia\nTopics: Data Mining & Data Science\, Machine Learning\
+ , Natural Language Processing & LLMs\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
+ ked date: 2026-10-29\nNotes: As of 2026-10-29 the CIKM series page names 
+ Sydney\, Australia as the 2027 host\; no CIKM 2027 site or call is publis
+ hed. Estimated meeting dates follow event manager ICMS Australasia's list
+ ing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dates are one-y
+ ear proxies from CIKM 2026.\nScope: Information retrieval\, knowledge man
+ agement\, data mining and database systems\, with a strong focus on effec
+ tive information access and knowledge at scale. The 2026 organizer descri
+ ption emphasizes AI for information access\, knowledge representation\, p
+ ersonalization and evaluation. Agentic and graph methods are relevant thr
+ ough these information and knowledge problems.\nAdditional topics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Knowledge Representation
+  & Reasoning\, Graphs & Graph Learning\, LLM Agents & Tool Use\nScope sou
+ rces (2026): https://cikm2026.diag.uniroma1.it/\nScope last checked: 2026
+ -10-07
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-2027-deadline-short-paper@scientific-conference-calendar
@@ -9579,6 +9831,87 @@ DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
 URL:https://www.sfn.org/cfa
 END:VEVENT
 BEGIN:VEVENT
+UID:aies-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270521T115900Z
+DTEND:20270521T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2027 - Paper 
+ submission (estimated)
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/\nSource URL: https://www.a
+ ies-conference.com/2026/call-for-papers/\nLocation: To be announced\nTopi
+ cs: Ethics & Governance\, Fairness & Responsible AI\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper-bas
+ ed / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10
+ -29\nNotes: As of 2026-10-29 AAAI lists the tenth AIES with "additional i
+ nformation to come"\; no 2027 dates or host are announced. Meeting (Mon-W
+ ed) and the mandatory abstract pre-registration and paper deadlines (Thur
+ sdays\, AoE) are one-year proxies from AIES 2026 (Oct 12-14\; May 14 and 
+ May 21).\nScope: Ethics and societal consequences of AI\, connecting comp
+ uter science\, law and policy\, social science\, and philosophy. Defining
+  concerns include governance and power\, accountability after deployment\
+ , value alignment\, fairness\, human-AI interaction\, and institutional p
+ ractice. Technical work is relevant through a serious ethical or societal
+  contribution.\nAdditional topics: Human-AI Interaction & Deployment\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.aies-conference.co
+ m/2026/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:bmvc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270522T115900Z
+DTEND:20270522T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] BMVC 2027
+  - Abstract registration deadline (estimated)
+DESCRIPTION:Conference title: British Machine Vision Conference\nWebsite: h
+ ttps://www.bmva.org/bmvc\nSource URL: https://bmvc2026.bmva.org/dates/\nL
+ ocation: To be announced\nTopics: Computer Vision & Pattern Recognition\,
+  Machine Learning\, Deep Representation Learning\nSize: L\nSubmission typ
+ e: Paper-based / BMVA proceedings\nConfidence: estimated\nLast checked da
+ te: 2026-10-29\nNotes: As of 2026-10-29 the BMVA site announces no BMVC 2
+ 027 host\, dates or call. Meeting dates (Mon-Thu\, Nov 22-25) and the Fri
+ day abstract (May 21)/paper (May 28) AoE deadlines are one-year same-week
+ day proxies from BMVC 2026 in Lancaster.\nScope: Computer vision\, image 
+ processing\, and visual pattern recognition\, including visual learning\,
+  recognition and segmentation\, reconstruction\, motion and video analysi
+ s\, and evaluation of vision methods. The single-track BMVA conference co
+ mbines methodological and applied vision research. It is an established b
+ road vision venue\, not a specialist biomedical-imaging meeting.\nAdditio
+ nal topics: Signal Processing\nScope sources (2026): https://bmvc2026.bmv
+ a.org/calls/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://bmvc2026.bmva.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270524T115900Z
+DTEND:20270524T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2027 - Full pap
+ er submission deadline (estimated)
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: http://www.cikmconference.org/\nSource 
+ URL: https://cikm2026.diag.uniroma1.it/full-research-papers/\nLocation: S
+ ydney\, Australia\nTopics: Data Mining & Data Science\, Machine Learning\
+ , Natural Language Processing & LLMs\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
+ ked date: 2026-10-29\nNotes: As of 2026-10-29 the CIKM series page names 
+ Sydney\, Australia as the 2027 host\; no CIKM 2027 site or call is publis
+ hed. Estimated meeting dates follow event manager ICMS Australasia's list
+ ing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dates are one-y
+ ear proxies from CIKM 2026.\nScope: Information retrieval\, knowledge man
+ agement\, data mining and database systems\, with a strong focus on effec
+ tive information access and knowledge at scale. The 2026 organizer descri
+ ption emphasizes AI for information access\, knowledge representation\, p
+ ersonalization and evaluation. Agentic and graph methods are relevant thr
+ ough these information and knowledge problems.\nAdditional topics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Knowledge Representation
+  & Reasoning\, Graphs & Graph Learning\, LLM Agents & Tool Use\nScope sou
+ rces (2026): https://cikm2026.diag.uniroma1.it/\nScope last checked: 2026
+ -10-07
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270525T065900Z
@@ -9599,6 +9932,35 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  r.org still shows 2023 content.
 URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
  -CFPv.6.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270526T115900Z
+DTEND:20270526T125900Z
+SUMMARY:[Machine Learning][Control & Robotics] CoRL 2027 - Mandatory abstra
+ ct registration deadline (estimated)
+DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
+ //www.corl.org/\nSource URL: https://openreview.net/group?id=robot-learni
+ ng.org/CoRL/2026/Conference\nLocation: To be announced\nTopics: Machine L
+ earning\, Control & Robotics\, Reinforcement Learning\, Deep Representati
+ on Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimated
+ \nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the official CoR
+ L site covers only CoRL 2026 (Austin\, Nov 9-12\, 2026) and OpenReview ha
+ s no CoRL 2027 venue\; no 2027 host or dates are announced. Meeting dates
+  and the May 25 mandatory abstract/May 28 paper deadlines (AoE) are one-y
+ ear proxies from CoRL 2026.\nScope: Machine learning for physical robots\
+ , especially imitation and reinforcement learning\, learned perception an
+ d control\, robot foundation models\, and learning-based task and motion 
+ planning. Includes uncertainty\, generalization\, safety\, human-robot in
+ teraction\, and datasets grounded in manipulation\, navigation\, or locom
+ otion. General ML is relevant when it makes a substantive contribution to
+  robot learning.\nAdditional topics: Computer Vision & Pattern Recognitio
+ n\, Probabilistic\, Causal & Uncertainty ML\, Human-AI Interaction & Depl
+ oyment\, Robustness & Safety\, Learning Theory & Statistical Foundations\
+ nScope sources (2026): https://www.corl.org/contributions/call-for-papers
+ \nScope last checked: 2026-10-07
+URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2027-deadline-full-paper@scientific-conference-calendar
@@ -9631,6 +9993,87 @@ DESCRIPTION:Conference title: Conference on Empirical Methods in Natural La
 URL:https://2026.emnlp.org/calls/main_conference_papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:aaltd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T065900Z
+DTEND:20270529T075900Z
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 027 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecmlpkdd.org/\nSource URL: https://ecml
+ -aaltd.github.io/aaltd2026/dates.html\nLocation: To be announced\nTopics:
+  Time Series & Sequential Data\, Data Mining & Data Science\, Machine Lea
+ rning\, Explainability & Interpretability\nSize: S\nSubmission type: Work
+ shop / paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 no AALTD 2027 is announced\; all 11 editions ran
+  with ECML PKDD\, whose 2027 edition is officially Eindhoven\, Aug 30-Sep
+  3. Proxies follow AALTD 2026\, held on the host conference's final day\,
+  giving a Fri Sep 3 meeting with abstract and paper deadlines 14 and 13 w
+ eeks earlier (23:59 Pacific).\nScope: Analytics and learning specifically
+  for temporal data: time-series classification\, clustering\, forecasting
+ \, segmentation\, anomaly detection\, temporal representations\, and metr
+ ic or kernel learning. Includes temporal foundation models\, data streams
+ \, and explainable temporal analysis. Climate\, health\, and energy are e
+ xamples of applications rather than separate defining topic assignments.\
+ nAdditional topics: Deep Representation Learning\nScope sources (2026): h
+ ttps://ecml-aaltd.github.io/aaltd2026/\nScope last checked: 2026-10-07
+URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:bmvc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T115900Z
+DTEND:20270529T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] BMVC 2027
+  - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: British Machine Vision Conference\nWebsite: h
+ ttps://www.bmva.org/bmvc\nSource URL: https://bmvc2026.bmva.org/dates/\nL
+ ocation: To be announced\nTopics: Computer Vision & Pattern Recognition\,
+  Machine Learning\, Deep Representation Learning\nSize: L\nSubmission typ
+ e: Paper-based / BMVA proceedings\nConfidence: estimated\nLast checked da
+ te: 2026-10-29\nNotes: As of 2026-10-29 the BMVA site announces no BMVC 2
+ 027 host\, dates or call. Meeting dates (Mon-Thu\, Nov 22-25) and the Fri
+ day abstract (May 21)/paper (May 28) AoE deadlines are one-year same-week
+ day proxies from BMVC 2026 in Lancaster.\nScope: Computer vision\, image 
+ processing\, and visual pattern recognition\, including visual learning\,
+  recognition and segmentation\, reconstruction\, motion and video analysi
+ s\, and evaluation of vision methods. The single-track BMVA conference co
+ mbines methodological and applied vision research. It is an established b
+ road vision venue\, not a specialist biomedical-imaging meeting.\nAdditio
+ nal topics: Signal Processing\nScope sources (2026): https://bmvc2026.bmv
+ a.org/calls/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://bmvc2026.bmva.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T115900Z
+DTEND:20270529T125900Z
+SUMMARY:[Machine Learning][Control & Robotics] CoRL 2027 - Main conference 
+ paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
+ //www.corl.org/\nSource URL: https://openreview.net/group?id=robot-learni
+ ng.org/CoRL/2026/Conference\nLocation: To be announced\nTopics: Machine L
+ earning\, Control & Robotics\, Reinforcement Learning\, Deep Representati
+ on Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimated
+ \nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the official CoR
+ L site covers only CoRL 2026 (Austin\, Nov 9-12\, 2026) and OpenReview ha
+ s no CoRL 2027 venue\; no 2027 host or dates are announced. Meeting dates
+  and the May 25 mandatory abstract/May 28 paper deadlines (AoE) are one-y
+ ear proxies from CoRL 2026.\nScope: Machine learning for physical robots\
+ , especially imitation and reinforcement learning\, learned perception an
+ d control\, robot foundation models\, and learning-based task and motion 
+ planning. Includes uncertainty\, generalization\, safety\, human-robot in
+ teraction\, and datasets grounded in manipulation\, navigation\, or locom
+ otion. General ML is relevant when it makes a substantive contribution to
+  robot learning.\nAdditional topics: Computer Vision & Pattern Recognitio
+ n\, Probabilistic\, Causal & Uncertainty ML\, Human-AI Interaction & Depl
+ oyment\, Robustness & Safety\, Learning Theory & Statistical Foundations\
+ nScope sources (2026): https://www.corl.org/contributions/call-for-papers
+ \nScope last checked: 2026-10-07
+URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+END:VEVENT
+BEGIN:VEVENT
 UID:acpr-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270602T065900Z
@@ -9651,6 +10094,77 @@ DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
 URL:https://www.acpr2025.com/date
 END:VEVENT
 BEGIN:VEVENT
+UID:discovery-science-2027-deadline-full-paper-abstract@scientific-conferen
+ ce-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Main track abstract submission (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://web.archiv
+ e.org/web/20260413203246/https://discovery-science.org/important-dates/\n
+ Location: To be announced\nTopics: Data Mining & Data Science\, Machine L
+ earning\, Learning Theory & Statistical Foundations\, Time Series & Seque
+ ntial Data\nSize: M\nSubmission type: Paper-based / research forum\nConfi
+ dence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 
+ discovery-science.org (the DS 2026 Mainz site) announces no 2027 edition.
+  Meeting and deadlines are one-year proxies from DS 2026\; main-track abs
+ tract/paper use its original Jun 1/8 dates (later extended to Jun 15/22)\
+ , with the abstract gate implied by that CMT schedule. Late-breaking abst
+ racts are 2-page non-proceedings posters. End-of-day AoE cutoffs are prov
+ isional.\nOfficial deadline day\; exact cutoff hour/timezone is unannounc
+ ed. Verify the organizer's submission portal.
+URL:https://web.archive.org/web/20260413203246/https://discovery-science.or
+ g/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaltd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270605T065900Z
+DTEND:20270605T075900Z
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 027 - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecmlpkdd.org/\nSource URL: https://ecml
+ -aaltd.github.io/aaltd2026/dates.html\nLocation: To be announced\nTopics:
+  Time Series & Sequential Data\, Data Mining & Data Science\, Machine Lea
+ rning\, Explainability & Interpretability\nSize: S\nSubmission type: Work
+ shop / paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 no AALTD 2027 is announced\; all 11 editions ran
+  with ECML PKDD\, whose 2027 edition is officially Eindhoven\, Aug 30-Sep
+  3. Proxies follow AALTD 2026\, held on the host conference's final day\,
+  giving a Fri Sep 3 meeting with abstract and paper deadlines 14 and 13 w
+ eeks earlier (23:59 Pacific).\nScope: Analytics and learning specifically
+  for temporal data: time-series classification\, clustering\, forecasting
+ \, segmentation\, anomaly detection\, temporal representations\, and metr
+ ic or kernel learning. Includes temporal foundation models\, data streams
+ \, and explainable temporal analysis. Climate\, health\, and energy are e
+ xamples of applications rather than separate defining topic assignments.\
+ nAdditional topics: Deep Representation Learning\nScope sources (2026): h
+ ttps://ecml-aaltd.github.io/aaltd2026/\nScope last checked: 2026-10-07
+URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270607T115900Z
+DTEND:20270607T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
+ 27 - Research or applied track full paper submission (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
+ nWebsite: https://icdm.zhonghuapu.com/main.shtml\nSource URL: https://icd
+ m2026.neu.edu.cn/ImportantDates/list.htm\nLocation: Brisbane\, Australia\
+ nTopics: Data Mining & Data Science\, Time Series & Sequential Data\, Mac
+ hine Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimat
+ ed\nLast checked date: 2026-10-29\nNotes: The ICDM steering committee's s
+ eries page (checked 2026-10-29) lists ICDM 2027 in Brisbane\, Australia\,
+  Nov 15-18\; event manager ICMS Australasia lists Nov 15-17 at the Brisba
+ ne Convention and Exhibition Centre. No ICDM 2027 call is confirmed\; pap
+ er and workshop dates are one-year proxies from ICDM 2026.
+URL:https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+END:VEVENT
+BEGIN:VEVENT
 UID:acpr-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270609T065900Z
@@ -9669,6 +10183,32 @@ DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
  are proxies from 2025's original PT lead times\; the 2025 mandatory abstr
  act step is assumed.
 URL:http://acpr2027.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2027-deadline-full-paper@scientific-conference-calend
+ ar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Main track full paper submission (estimated) (cutoff time unannounce
+ d)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://web.archiv
+ e.org/web/20260413203246/https://discovery-science.org/important-dates/\n
+ Location: To be announced\nTopics: Data Mining & Data Science\, Machine L
+ earning\, Learning Theory & Statistical Foundations\, Time Series & Seque
+ ntial Data\nSize: M\nSubmission type: Paper-based / research forum\nConfi
+ dence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 
+ discovery-science.org (the DS 2026 Mainz site) announces no 2027 edition.
+  Meeting and deadlines are one-year proxies from DS 2026\; main-track abs
+ tract/paper use its original Jun 1/8 dates (later extended to Jun 15/22)\
+ , with the abstract gate implied by that CMT schedule. Late-breaking abst
+ racts are 2-page non-proceedings posters. End-of-day AoE cutoffs are prov
+ isional.\nOfficial deadline day\; exact cutoff hour/timezone is unannounc
+ ed. Verify the organizer's submission portal.
+URL:https://web.archive.org/web/20260413203246/https://discovery-science.or
+ g/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:interspeech-2027-deadline-camera-ready@scientific-conference-calendar
@@ -9782,6 +10322,162 @@ DESCRIPTION:Conference title: European Conference on Visual Information Pro
 URL:https://euvip2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
+UID:wacv-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270620T115900Z
+DTEND:20270620T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 1 new-paper enrollment deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270621T115900Z
+DTEND:20270621T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Journal-track submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Conference-track paper submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2027 - Industry
+  and special-session paper submission (estimated)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2027.github.io/\nSource URL: h
+ ttps://web.archive.org/web/20260608204215/https://adma2026.github.io/impo
+ rtant_date.html\nLocation: To be announced\nTopics: Data Mining & Data Sc
+ ience\, Machine Learning\, Time Series & Sequential Data\, Explainability
+  & Interpretability\nSize: M\nSubmission type: Paper-based / special sess
+ ions\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 
+ 2026-10-29 no ADMA 2027 host or dates are confirmed\; adma2027.github.io 
+ lists a committee but still shows a placeholder host and conflicting date
+ s (Nov 13-15 vs Oct 22-24). Meeting and AoE deadlines are one-year proxie
+ s from ADMA 2026\; main\, industry and special-session papers use its ori
+ ginal Jun 26 deadline\, not the later Jul 17/31 extensions.
+URL:https://web.archive.org/web/20260608204215/https://adma2026.github.io/i
+ mportant_date.html
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2027 - Main tra
+ ck paper submission (estimated)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2027.github.io/\nSource URL: h
+ ttps://web.archive.org/web/20260608204215/https://adma2026.github.io/impo
+ rtant_date.html\nLocation: To be announced\nTopics: Data Mining & Data Sc
+ ience\, Machine Learning\, Time Series & Sequential Data\, Explainability
+  & Interpretability\nSize: M\nSubmission type: Paper-based / special sess
+ ions\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 
+ 2026-10-29 no ADMA 2027 host or dates are confirmed\; adma2027.github.io 
+ lists a committee but still shows a placeholder host and conflicting date
+ s (Nov 13-15 vs Oct 22-24). Meeting and AoE deadlines are one-year proxie
+ s from ADMA 2026\; main\, industry and special-session papers use its ori
+ ginal Jun 26 deadline\, not the later Jul 17/31 extensions.
+URL:https://web.archive.org/web/20260608204215/https://adma2026.github.io/i
+ mportant_date.html
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 1 paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:kr-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270630
@@ -9836,6 +10532,28 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  s may close earlier than this proxy.
 URL:https://bernstein-network.de/en/bernstein-conference/general-informatio
  n/important-dates-faq/
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2027 - Paper s
+ ubmission (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/calls/key-dates\nLocation: To be an
+ nounced\nTopics: Machine Learning\, Data Mining & Data Science\, Deep Rep
+ resentation Learning\, Learning Theory & Statistical Foundations\nSize: M
+ \nSubmission type: Paper-based\nConfidence: estimated\nLast checked date:
+  2026-10-29\nNotes: As of 2026-10-29 official IDEAL pages announce no 202
+ 7 host\, dates or call. Meeting dates and the paper deadline are one-year
+  proxies from IDEAL 2026 (Manchester\, Nov 19-21)\, using its original Ju
+ l 1 deadline rather than the Jul 24 extension\; no cutoff hour was publis
+ hed\, so end-of-day AoE is provisional.\nOfficial deadline day\; exact cu
+ toff hour/timezone is unannounced. Verify the organizer's submission port
+ al.
+URL:https://www.ideal2026.org/calls/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:uai-2027-deadline-camera-ready@scientific-conference-calendar
@@ -9919,6 +10637,25 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270722T115900Z
+DTEND:20270722T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2028 - Abstra
+ ct submission deadline (estimated)
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/\nSource URL: https://aaai.org/c
+ onference/aaai/aaai-27/\nLocation: To be announced\nTopics: Machine Learn
+ ing\, Deep Representation Learning\, Data Mining & Data Science\, Fairnes
+ s & Responsible AI\nSize: XXL\nSubmission type: Paper-based / OpenReview\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 the official AAAI conference page lists nothing after AAAI-27 (Mont
+ real\, Feb 16-23\, 2027)\; no AAAI-28 dates or host are announced. Meetin
+ g dates (Feb 16-23) and the Jul 21 abstract/Jul 28 full-paper deadlines (
+ AoE) are one-year proxies from AAAI-27.
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
 UID:ais-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270723T115900Z
@@ -9938,6 +10675,54 @@ DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
  s listed so far\; the July second batch is a proxy from 2026. Remote pres
  entation is offered.
 URL:https://ais2026.icas.events/deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270729T115900Z
+DTEND:20270729T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2028 - Full p
+ aper submission deadline (estimated)
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/\nSource URL: https://aaai.org/c
+ onference/aaai/aaai-27/\nLocation: To be announced\nTopics: Machine Learn
+ ing\, Deep Representation Learning\, Data Mining & Data Science\, Fairnes
+ s & Responsible AI\nSize: XXL\nSubmission type: Paper-based / OpenReview\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 the official AAAI conference page lists nothing after AAAI-27 (Mont
+ real\, Feb 16-23\, 2027)\; no AAAI-28 dates or host are announced. Meetin
+ g dates (Feb 16-23) and the Jul 21 abstract/Jul 28 full-paper deadlines (
+ AoE) are one-year proxies from AAAI-27.
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270729T115900Z
+DTEND:20270729T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Abstrac
+ t registration deadline (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: To be announced\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Graphs & Graph Learning\, Learning Theory & Statistical Foundations
+ \nSize: M\nSubmission type: Paper-based / non-archival extended abstracts
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and an
+ nounces no 2027 host or dates. Meeting and abstract/paper AoE dates are o
+ ne-year same-weekday proxies from LoG 2026\, based on its original Jul 29
+ /Aug 1 deadlines rather than the later Aug 5/7 extension.\nScope: Learnin
+ g on graphs and geometry: graph neural networks\, equivariant models\, gr
+ aph kernels\, geometric and graph generative models\, and statistical the
+ ory for structured data. Graph signal processing\, causal graph models\, 
+ robustness\, and scalable graph-learning infrastructure are meaningful ex
+ tensions. A graph or geometric contribution should remain central\, even 
+ in an application such as language or molecular modeling.\nAdditional top
+ ics: Complex Systems & Network Science\, Probabilistic\, Causal & Uncerta
+ inty ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastr
+ ucture\nScope sources (2026): https://logconference.org/cfp/\nScope last 
+ checked: 2026-10-07
+URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:automl-2027-deadline-camera-ready@scientific-conference-calendar
@@ -9970,6 +10755,35 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
 URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:log-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270801T115900Z
+DTEND:20270801T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2027 - Paper /
+  extended abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: To be announced\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Graphs & Graph Learning\, Learning Theory & Statistical Foundations
+ \nSize: M\nSubmission type: Paper-based / non-archival extended abstracts
+ \nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026
+ -10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-22) and an
+ nounces no 2027 host or dates. Meeting and abstract/paper AoE dates are o
+ ne-year same-weekday proxies from LoG 2026\, based on its original Jul 29
+ /Aug 1 deadlines rather than the later Aug 5/7 extension.\nScope: Learnin
+ g on graphs and geometry: graph neural networks\, equivariant models\, gr
+ aph kernels\, geometric and graph generative models\, and statistical the
+ ory for structured data. Graph signal processing\, causal graph models\, 
+ robustness\, and scalable graph-learning infrastructure are meaningful ex
+ tensions. A graph or geometric contribution should remain central\, even 
+ in an application such as language or molecular modeling.\nAdditional top
+ ics: Complex Systems & Network Science\, Probabilistic\, Causal & Uncerta
+ inty ML\, Signal Processing\, Robustness & Safety\, ML Systems & Infrastr
+ ucture\nScope sources (2026): https://logconference.org/cfp/\nScope last 
+ checked: 2026-10-07
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcb-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270803T115900Z
@@ -10000,6 +10814,611 @@ DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
  s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
  st checked: 2026-10-07
 URL:https://ijcb2027.ieee-biometrics.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270808T115900Z
+DTEND:20270808T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2027 - Short pa
+ per submission (estimated)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2027.github.io/\nSource URL: h
+ ttps://adma2026.github.io/important_date.html\nLocation: To be announced\
+ nTopics: Data Mining & Data Science\, Machine Learning\, Time Series & Se
+ quential Data\, Explainability & Interpretability\nSize: M\nSubmission ty
+ pe: Paper-based / special sessions\nConfidence: estimated\nLast checked d
+ ate: 2026-10-29\nNotes: As of 2026-10-29 no ADMA 2027 host or dates are c
+ onfirmed\; adma2027.github.io lists a committee but still shows a placeho
+ lder host and conflicting dates (Nov 13-15 vs Oct 22-24). Meeting and AoE
+  deadlines are one-year proxies from ADMA 2026\; main\, industry and spec
+ ial-session papers use its original Jun 26 deadline\, not the later Jul 1
+ 7/31 extensions.
+URL:https://adma2026.github.io/important_date.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270821T115900Z
+DTEND:20270821T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
+ 27 - Workshop paper submission (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
+ nWebsite: https://icdm.zhonghuapu.com/main.shtml\nSource URL: https://icd
+ m2026.neu.edu.cn/ImportantDates/list.htm\nLocation: Brisbane\, Australia\
+ nTopics: Data Mining & Data Science\, Time Series & Sequential Data\, Mac
+ hine Learning\nSize: L\nSubmission type: Paper-based\nConfidence: estimat
+ ed\nLast checked date: 2026-10-29\nNotes: The ICDM steering committee's s
+ eries page (checked 2026-10-29) lists ICDM 2027 in Brisbane\, Australia\,
+  Nov 15-18\; event manager ICMS Australasia lists Nov 15-17 at the Brisba
+ ne Convention and Exhibition Centre. No ICDM 2027 call is confirmed\; pap
+ er and workshop dates are one-year proxies from ICDM 2026.
+URL:https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2027 - 
+ Full paper submission deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/\nSource URL: https://bigdataieee.org/BigD
+ ata2026/important-dates/\nLocation: To be announced\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Time Series & Sequential Data\, Feder
+ ated & Distributed Learning\nSize: L\nSubmission type: Paper-based / mixe
+ d tracks\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As
+  of 2026-10-29 bigdataieee.org announces no IEEE BigData 2027 host\, date
+ s or call. Meeting and full-paper dates are one-year proxies from IEEE Bi
+ gData 2026 (Phoenix\, Dec 14-17\; full papers due Aug 21\, cutoff hour un
+ announced). In 2026\, special-session calls set their own deadlines.\nOff
+ icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
+ e organizer's submission portal.
+URL:https://bigdataieee.org/BigData2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270822T115900Z
+DTEND:20270822T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 2 new-paper enrollment deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:3dv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270829T115900Z
+DTEND:20270829T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Computer Graphics & Visuali
+ zation] 3DV 2028 - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on 3D Vision\nWebsit
+ e: https://3dvconf.github.io/\nSource URL: https://3dvconf.github.io/2027
+ /dates\nLocation: To be announced\nTopics: Computer Vision & Pattern Reco
+ gnition\, Computer Graphics & Visualization\, Signal Processing\nSize: M\
+ nSubmission type: Paper-based / OpenReview\nConfidence: estimated\nLast c
+ hecked date: 2026-10-29\nNotes: As of 2026-10-29 the official 3DV site an
+ nounces no 2028 host\, dates or call. Meeting dates and the AoE paper dea
+ dline are one-year proxies from 3DV 2027\, whose abstract registration sh
+ ared the paper cutoff.\nScope: Three-dimensional computer vision and grap
+ hics\, especially sensing\, geometric modeling and representations\, reco
+ nstruction\, analysis\, rendering\, and visualization. It is a focused ve
+ nue for recovering and understanding 3D structure rather than all of comp
+ uter vision. Papers combine geometric\, imaging\, and computational metho
+ ds\; unrelated applications and every possible ML technique are not added
+  as separate scope tags.\nAdditional topics: \nScope sources (2027): http
+ s://3dvconf.github.io/2027/\, https://3dvconf.github.io/2027/author-guide
+ lines/\nScope last checked: 2026-10-07
+URL:https://3dvconf.github.io/2027/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270829T115900Z
+DTEND:20270829T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] WACV 2028
+  - Round 2 paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF Winter Conference on Applications of
+  Computer Vision\nWebsite: https://wacv.thecvf.com/\nSource URL: https://
+ wacv.thecvf.com/Conferences/2027/CallForPapers\nLocation: Waikoloa\, Hawa
+ ii\, USA\nTopics: Computer Vision & Pattern Recognition\, Machine Learnin
+ g\, Deep Representation Learning\nSize: XL\nSubmission type: Paper-based 
+ / two independent submission rounds\nConfidence: estimated\nLast checked 
+ date: 2026-10-29\nNotes: As of 2026-10-29 the CVF conference list names W
+ aikoloa\, Hawaii as the WACV 2028 host\; dates and calls are unannounced.
+  Main-conference dates and both rounds' enrollment and paper deadlines (A
+ oE) are one-year proxies from WACV 2027.\nScope: Applied computer vision 
+ and visual learning\, with an emphasis on practical recognition\, detecti
+ on\, segmentation\, image/video analysis\, 3D perception\, and deployable
+  visual systems. Human analysis and multimodal visual methods are establi
+ shed areas. Compared with the flagship trio\, WACV particularly welcomes 
+ meaningful application-driven contributions supported by sound evaluation
+ \; its two submission rounds are routes\, not different fields.\nAddition
+ al topics: Signal Processing\, Biometrics & Human Sensing\, Multimedia Le
+ arning & Retrieval\nScope sources (2027): https://wacv.thecvf.com/Confere
+ nces/2027/CallForPapers\nScope last checked: 2026-10-07
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-extended-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Extended abstract submission deadline (independent rout
+ e) (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-full-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2028 - Joint ACC and L-CSS submission (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2028.a2c2.org/\nSource URL: https://acc2028.a2c2.org/wp-content/uploa
+ ds/2026/02/ACC2028-CFP-pdf-1.pdf\nLocation: San Francisco\, California\, 
+ USA\nTopics: Control & Robotics\, System Identification & Data-driven Dyn
+ amics\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-based\nC
+ onfidence: confirmed\nLast checked date: 2026-10-29\nNotes: Official ACC 
+ 2028 site and CFP (checked 2026-10-29): May 31-Jun 2\, 2028 at the Hilton
+  San Francisco Union Square\, workshops May 29-30\; joint ACC+L-CSS paper
+ s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
+ E provisional). The under-development homepage gives Jan 23/Mar 13 instea
+ d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
+ e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
+END:VEVENT
+BEGIN:VEVENT
+UID:ml4h-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270911T115900Z
+DTEND:20270911T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2027 - Paper subm
+ ission deadline (estimated)
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
+ r-papers/\nLocation: To be announced\nTopics: Healthcare & Clinical AI\, 
+ Machine Learning\, Time Series & Sequential Data\, Deep Representation Le
+ arning\nSize: M\nSubmission type: Proceedings + findings tracks\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the
+  official ML4H and AHLI sites cover only ML4H 2026 (Sydney\, Dec 6-7) and
+  announce no 2027 host or dates. Meeting dates and the Sep 10 paper deadl
+ ine (23:59 AoE) are one-year proxies from ML4H 2026\; its non-archival de
+ mo track and production dates are not projected.
+URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270912T115900Z
+DTEND:20270912T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2027 - Poster p
+ aper submission (estimated)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2027.github.io/\nSource URL: h
+ ttps://adma2026.github.io/important_date.html\nLocation: To be announced\
+ nTopics: Data Mining & Data Science\, Machine Learning\, Time Series & Se
+ quential Data\, Explainability & Interpretability\nSize: M\nSubmission ty
+ pe: Paper-based / special sessions\nConfidence: estimated\nLast checked d
+ ate: 2026-10-29\nNotes: As of 2026-10-29 no ADMA 2027 host or dates are c
+ onfirmed\; adma2027.github.io lists a committee but still shows a placeho
+ lder host and conflicting dates (Nov 13-15 vs Oct 22-24). Meeting and AoE
+  deadlines are one-year proxies from ADMA 2026\; main\, industry and spec
+ ial-session papers use its original Jun 26 deadline\, not the later Jul 1
+ 7/31 extensions.
+URL:https://adma2026.github.io/important_date.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270916T065900Z
+DTEND:20270916T075900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] ICRA 2028 - Paper subm
+ ission deadline (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Robotics and
+  Automation\nWebsite: https://www.ieee-ras.org/conferences-workshops/full
+ y-sponsored/icra\nSource URL: https://www.ieee-ras.org/conferences-worksh
+ ops/fully-sponsored/icra\nLocation: Guadalajara\, Mexico\nTopics: Control
+  & Robotics\, Reinforcement Learning\, Computer Vision & Pattern Recognit
+ ion\, System Identification & Data-driven Dynamics\nSize: XXL\nSubmission
+  type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-29\
+ nNotes: As of 2026-10-29 IEEE RAS names Guadalajara\, Mexico as the ICRA 
+ 2028 host but publishes no dates or call. Meeting dates are a one-year pr
+ oxy from ICRA 2027\; the paper deadline proxy uses ICRA 2027's original S
+ eptember 15\, 23:59 Pacific cutoff\, not its one-day extension.\nScope: R
+ obotics and automation across perception\, motion and manipulation\, plan
+ ning and control\, human-robot interaction\, and autonomous systems. Lear
+ ning-based robotics\, reinforcement and imitation learning\, and data-dri
+ ven models are relevant when they advance physical robotic capability. Ge
+ neric ML with no robotics connection is not the core remit.\nAdditional t
+ opics: Planning & Search\, Deep Representation Learning\, Human-AI Intera
+ ction & Deployment\, Robustness & Safety\nScope sources (2027): https://2
+ 027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-subm
+ issions/\nScope last checked: 2026-10-07
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270919T115900Z
+DTEND:20270919T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Abstra
+ ct submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270922T115900Z
+DTEND:20270922T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2028 - Mandatory
+  abstract registration deadline (estimated)
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: To be announced\nTopics: Robustness & Safety
+ \, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability & I
+ nterpretability\nSize: M\nSubmission type: Paper-based / systematization 
+ of knowledge / position papers\nConfidence: estimated\nLast checked date:
+  2026-10-29\nNotes: As of 2026-10-29 satml.org covers only SaTML 2027 (Re
+ ykjavik\, May 3-6\, 2027) and announces no 2028 host or dates. Main-meeti
+ ng dates and the Tuesday abstract (Sep 21)/paper (Sep 28) AoE deadlines a
+ re one-year same-weekday proxies from SaTML 2027\; past meetings have ran
+ ged from February to May.\nScope: Security\, safety\, and trustworthiness
+  of machine learning. Characteristic work studies attacks and defenses\, 
+ privacy\, verification\, ML-system security\, fairness\, interpretability
+ \, and trustworthy data curation. Theoretical\, empirical\, and applied p
+ apers must engage substantively with a safety or trustworthiness question
+ \; merely using an ML model is insufficient.\nAdditional topics: Machine 
+ Learning\, ML Systems & Infrastructure\nScope sources (2027): https://sat
+ ml.org/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2028 - Regular paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2028.a2c2.org/\nSource URL: https://acc2028.a2c2.org/wp-content/uploa
+ ds/2026/02/ACC2028-CFP-pdf-1.pdf\nLocation: San Francisco\, California\, 
+ USA\nTopics: Control & Robotics\, System Identification & Data-driven Dyn
+ amics\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-based\nC
+ onfidence: confirmed\nLast checked date: 2026-10-29\nNotes: Official ACC 
+ 2028 site and CFP (checked 2026-10-29): May 31-Jun 2\, 2028 at the Hilton
+  San Francisco Union Square\, workshops May 29-30\; joint ACC+L-CSS paper
+ s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
+ E provisional). The under-development homepage gives Jan 23/Mar 13 instea
+ d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
+ e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270926T115900Z
+DTEND:20270926T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Paper 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270929T115900Z
+DTEND:20270929T125900Z
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2028 - Paper sub
+ mission deadline (estimated)
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /call-for-papers/\nLocation: To be announced\nTopics: Robustness & Safety
+ \, Privacy-preserving ML\, Fairness & Responsible AI\, Explainability & I
+ nterpretability\nSize: M\nSubmission type: Paper-based / systematization 
+ of knowledge / position papers\nConfidence: estimated\nLast checked date:
+  2026-10-29\nNotes: As of 2026-10-29 satml.org covers only SaTML 2027 (Re
+ ykjavik\, May 3-6\, 2027) and announces no 2028 host or dates. Main-meeti
+ ng dates and the Tuesday abstract (Sep 21)/paper (Sep 28) AoE deadlines a
+ re one-year same-weekday proxies from SaTML 2027\; past meetings have ran
+ ged from February to May.\nScope: Security\, safety\, and trustworthiness
+  of machine learning. Characteristic work studies attacks and defenses\, 
+ privacy\, verification\, ML-system security\, fairness\, interpretability
+ \, and trustworthy data curation. Theoretical\, empirical\, and applied p
+ apers must engage substantively with a safety or trustworthiness question
+ \; merely using an ML model is insufficient.\nAdditional topics: Machine 
+ Learning\, ML Systems & Infrastructure\nScope sources (2027): https://sat
+ ml.org/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270930T115900Z
+DTEND:20270930T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2028 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2027/dates.html\nLocation: To be announced\nTopics: L
+ earning Theory & Statistical Foundations\, Machine Learning\, Probabilist
+ ic\, Causal & Uncertainty ML\, Time Series & Sequential Data\nSize: L\nSu
+ bmission type: Paper-based\nConfidence: estimated\nLast checked date: 202
+ 6-10-29\nNotes: As of 2026-10-29 aistats.org announces only the 2027 meet
+ ing (Montreal)\; no 2028 host or dates are published. Meeting dates (May 
+ 3-6) and the Sep 29 abstract/Oct 6 paper deadlines (AoE) are one-year pro
+ xies from AISTATS 2027.\nScope: Research at the interface of artificial i
+ ntelligence\, machine learning\, and statistics. Its defining emphasis is
+  on statistical foundations and methodology for learning and inference\, 
+ rather than a particular application domain. Research bridges statistical
+  reasoning and learning algorithms\, with archival contributions to both 
+ communities.\nAdditional topics: \nScope sources (2027): https://aistats.
+ org/aistats2027/\, https://aistats.org/aistats2027/call-for-papers.html\n
+ Scope last checked: 2026-10-07
+URL:https://aistats.org/aistats2027/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 27 - Late-breaking abstract submission (estimated) (cutoff time unannounc
+ ed)
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://discovery-
+ science.org/important-dates/\nLocation: To be announced\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Learning Theory & Statistical Fou
+ ndations\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper
+ -based / research forum\nConfidence: estimated\nLast checked date: 2026-1
+ 0-29\nNotes: As of 2026-10-29 discovery-science.org (the DS 2026 Mainz si
+ te) announces no 2027 edition. Meeting and deadlines are one-year proxies
+  from DS 2026\; main-track abstract/paper use its original Jun 1/8 dates 
+ (later extended to Jun 15/22)\, with the abstract gate implied by that CM
+ T schedule. Late-breaking abstracts are 2-page non-proceedings posters. E
+ nd-of-day AoE cutoffs are provisional.\nOfficial deadline day\; exact cut
+ off hour/timezone is unannounced. Verify the organizer's submission porta
+ l.
+URL:https://discovery-science.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271007T115900Z
+DTEND:20271007T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2028 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2027/dates.html\nLocation: To be announced\nTopics: L
+ earning Theory & Statistical Foundations\, Machine Learning\, Probabilist
+ ic\, Causal & Uncertainty ML\, Time Series & Sequential Data\nSize: L\nSu
+ bmission type: Paper-based\nConfidence: estimated\nLast checked date: 202
+ 6-10-29\nNotes: As of 2026-10-29 aistats.org announces only the 2027 meet
+ ing (Montreal)\; no 2028 host or dates are published. Meeting dates (May 
+ 3-6) and the Sep 29 abstract/Oct 6 paper deadlines (AoE) are one-year pro
+ xies from AISTATS 2027.\nScope: Research at the interface of artificial i
+ ntelligence\, machine learning\, and statistics. Its defining emphasis is
+  on statistical foundations and methodology for learning and inference\, 
+ rather than a particular application domain. Research bridges statistical
+  reasoning and learning algorithms\, with archival contributions to both 
+ communities.\nAdditional topics: \nScope sources (2027): https://aistats.
+ org/aistats2027/\, https://aistats.org/aistats2027/call-for-papers.html\n
+ Scope last checked: 2026-10-07
+URL:https://aistats.org/aistats2027/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-extended-abstract@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Extended abstract submission deadline (independent route) (est
+ imated)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: To be announced\nTopics: Complex Systems & Net
+ work Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Com
+ putational Neuroscience\nSize: M\nSubmission type: Full/short papers + ex
+ tended abstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Ro
+ chester\, Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts ro
+ tate yearly. Meeting and the shared AoE long-paper\, short-paper and abst
+ ract deadline are one-year same-weekday proxies from CompleNet 2027.\nSco
+ pe: Network science across mathematical\, biological\, technological and 
+ social systems\, with characteristic interests in network dynamics\, comm
+ unity structure\, temporal and multilayer networks\, network neuroscience
+  and learning on networks. Long and short reviewed papers are distinct fr
+ om abstract-only presentations.\nAdditional topics: Time Series & Sequent
+ ial Data\, Data Mining & Data Science\, Machine Learning\nScope sources (
+ 2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-10-
+ 08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Long-paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: To be announced\nTopics: Complex Systems & Net
+ work Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Com
+ putational Neuroscience\nSize: M\nSubmission type: Full/short papers + ex
+ tended abstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Ro
+ chester\, Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts ro
+ tate yearly. Meeting and the shared AoE long-paper\, short-paper and abst
+ ract deadline are one-year same-weekday proxies from CompleNet 2027.\nSco
+ pe: Network science across mathematical\, biological\, technological and 
+ social systems\, with characteristic interests in network dynamics\, comm
+ unity structure\, temporal and multilayer networks\, network neuroscience
+  and learning on networks. Long and short reviewed papers are distinct fr
+ om abstract-only presentations.\nAdditional topics: Time Series & Sequent
+ ial Data\, Data Mining & Data Science\, Machine Learning\nScope sources (
+ 2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-10-
+ 08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2028 - Short-paper submission deadline (independent route) (estimated
+ )
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: To be announced\nTopics: Complex Systems & Net
+ work Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, Com
+ putational Neuroscience\nSize: M\nSubmission type: Full/short papers + ex
+ tended abstracts\nConfidence: estimated\nLast checked date: 2026-10-29\nN
+ otes: As of 2026-10-29 complenet.github.io covers only CompleNet 2027 (Ro
+ chester\, Mar 9-12\, 2027) and announces no 2028 host or dates\; hosts ro
+ tate yearly. Meeting and the shared AoE long-paper\, short-paper and abst
+ ract deadline are one-year same-weekday proxies from CompleNet 2027.\nSco
+ pe: Network science across mathematical\, biological\, technological and 
+ social systems\, with characteristic interests in network dynamics\, comm
+ unity structure\, temporal and multilayer networks\, network neuroscience
+  and learning on networks. Long and short reviewed papers are distinct fr
+ om abstract-only presentations.\nAdditional topics: Time Series & Sequent
+ ial Data\, Data Mining & Data Science\, Machine Learning\nScope sources (
+ 2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-10-
+ 08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271019T115900Z
+DTEND:20271019T125900Z
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2028 
+ - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/abstracts
+ -submission\nLocation: To be announced\nTopics: Computational Neuroscienc
+ e\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation Lea
+ rning\nSize: L\nSubmission type: Abstract-based / talks highly selective\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 cosyne.org announces only COSYNE 2027 (Montreal\, Mar 11-16\, 2027)
+ \; no 2028 dates or host are published. Meeting dates (Mar 11-16) and the
+  Oct 18 abstract deadline are one-year proxies from COSYNE 2027.
+URL:https://www.cosyne.org/abstracts-submission
 END:VEVENT
 BEGIN:VEVENT
 UID:lrec-2028-deadline-full-paper@scientific-conference-calendar
@@ -10048,6 +11467,29 @@ DESCRIPTION:Conference title: International Conference on Pattern Recogniti
  tes page says "Will be available soon"\; papers use 15-page LNCS format.
 URL:https://icpr2028.org/wp-content/uploads/2026/08/ICPR-2028-CALL-FOR-PAPE
  RS.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280121
+DTEND;VALUE=DATE:20280122
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2028 - Acceptance notification (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2028.a2c2.org/\nSource URL: https://acc2028.a2c2.org/wp-content/uploa
+ ds/2026/02/ACC2028-CFP-pdf-1.pdf\nLocation: San Francisco\, California\, 
+ USA\nTopics: Control & Robotics\, System Identification & Data-driven Dyn
+ amics\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-10-29\nNotes: Official ACC 
+ 2028 site and CFP (checked 2026-10-29): May 31-Jun 2\, 2028 at the Hilton
+  San Francisco Union Square\, workshops May 29-30\; joint ACC+L-CSS paper
+ s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
+ E provisional). The under-development homepage gives Jan 23/Mar 13 instea
+ d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
+ e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 UID:areadne-2028-deadline-abstract@scientific-conference-calendar
@@ -10136,6 +11578,30 @@ DESCRIPTION:Conference title: European Conference on Computer Vision\nWebsi
  g\, Robustness & Safety\nScope sources (2026): https://eccv.ecva.net/Conf
  erences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://eccv.ecva.net/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2028 - Final manuscript submission (estimated) (cutoff time unannounc
+ ed)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2028.a2c2.org/\nSource URL: https://acc2028.a2c2.org/wp-content/uploa
+ ds/2026/02/ACC2028-CFP-pdf-1.pdf\nLocation: San Francisco\, California\, 
+ USA\nTopics: Control & Robotics\, System Identification & Data-driven Dyn
+ amics\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-10-29\nNotes: Official ACC 
+ 2028 site and CFP (checked 2026-10-29): May 31-Jun 2\, 2028 at the Hilton
+  San Francisco Union Square\, workshops May 29-30\; joint ACC+L-CSS paper
+ s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
+ E provisional). The under-development homepage gives Jan 23/Mar 13 instea
+ d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
+ e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 UID:biomag-2028-deadline-abstract@scientific-conference-calendar
@@ -10234,6 +11700,38 @@ DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
  g 20-24\, 2028 in Sydney\, but co-location is not guaranteed\, so the pro
  xy is unchanged.
 URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-lac-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280707
+DTEND;VALUE=DATE:20280708
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2028 - Contributed abstract submission deadline (estimated
+ ) (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://dynamicsdays.info/lac\nSource URL: https://web.archive
+ .org/web/20260521082858/https://fisica.ufpr.br/DDaysLAC2026/index.html\nL
+ ocation: To be announced\nTopics: Nonlinear Dynamics & Chaos\, Complex Sy
+ stems & Network Science\, Time Series & Sequential Data\, Computational N
+ euroscience\nSize: M\nSubmission type: Abstract-based\nConfidence: estima
+ ted\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 neither the D
+ ynamics Days LAC 2026 site nor the dynamicsdays.info LAC page announces a
+  2028 host or dates\; the 2026 site calls the series biennial. Meeting (S
+ un-Fri) and abstract dates are two-year same-weekday proxies from the 202
+ 6 edition (Curitiba\, Dec 6-11)\, using its original July 10 abstract dea
+ dline rather than the October 10 extension.\nScope: Nonlinear and complex
+  systems across disciplines\, including chaos\, synchronization\, network
+ s\, time series\, neurodynamics and learning-based modeling. The Latin Am
+ erican and Caribbean meeting supports contributed scientific talks and po
+ sters through abstracts\, with an explicit interest in cross-disciplinary
+  nonlinear science.\nAdditional topics: Machine Learning\, Graphs & Graph
+  Learning\, Control & Robotics\nScope sources (2026): https://fisica.ufpr
+ .br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08\nOfficial dea
+ dline day\; exact cutoff hour/timezone is unannounced. Verify the organiz
+ er's submission portal.
+URL:https://web.archive.org/web/20260521082858/https://fisica.ufpr.br/DDays
+ LAC2026/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:s-sspr-2028-deadline-camera-ready@scientific-conference-calendar

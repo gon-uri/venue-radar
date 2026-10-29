@@ -2,18 +2,29 @@
 
 This is an editorial helper, not an automatic source of confirmed dates. Review
 official pages and edit the appended records before publication.
+
+A series becomes a candidate once its latest edition has ended or once every
+fresh-submission route of that edition has closed (ADR-039), so the next call
+can appear while the current meeting is still upcoming.
 """
 
 from __future__ import annotations
 
 import argparse
 from copy import deepcopy
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import yaml
 
-from validate import DATA_PATH, load_conferences, parse_date, stable_slug
+from validate import (
+    DATA_PATH,
+    SUBMISSION_TYPES,
+    load_conferences,
+    parse_date,
+    parse_datetime,
+    stable_slug,
+)
 
 
 # Only series with a documented recurring cadence belong here. Irregular
@@ -40,7 +51,35 @@ CADENCE_YEARS = {
     "SAB": 2, "BCI Winter": 1, "IEEE BioCAS": 1, "AREADNE": 2,
     "SfN Neuroscience": 1, "Dynamics Days Europe": 1,
     "Dynamics Days US": 1, "Dynamics Days LAC": 2,
+    # Long-running annual series added 2026-10-29 (ADR-039).
+    "NeurIPS": 1, "ICLR": 1, "AISTATS": 1, "AAAI": 1, "IJCAI": 1,
+    "COLT": 1, "CIKM": 1, "ICDM": 1, "SDM": 1, "WSDM": 1, "PAKDD": 1,
+    "IDA": 1, "Discovery Science": 1, "DSAA": 1, "ADMA": 1, "IDEAL": 1,
+    "IEEE BigData": 1, "IEEE ICMLA": 1, "ACML": 1, "ICONIP": 1,
+    "IJCNN": 1, "ESANN": 1, "AALTD": 1, "AIES": 1, "ACM FAccT": 1,
+    "CHI": 1, "ICASSP": 1, "ISBI": 1, "IEEE BHI": 1, "ML4H": 1,
+    "COSYNE": 1, "OHBM": 1,
+    # Biennial series added 2026-10-29.
+    "ACPR": 2, "IEEE NER": 2, "IEEE SSP": 2, "International BCI Meeting": 2,
 }
+
+
+def _submissions_closed(edition: dict, as_of: date) -> bool:
+    """True when the edition had fresh-submission routes and all have passed."""
+    routes = [
+        deadline for deadline in edition.get("deadlines", [])
+        if deadline.get("type") in SUBMISSION_TYPES
+    ]
+    if not routes:
+        return False
+    cutoff = datetime(as_of.year, as_of.month, as_of.day, tzinfo=timezone.utc)
+    for deadline in routes:
+        moment = parse_datetime(deadline["datetime"])
+        if moment.tzinfo is None:
+            moment = moment.replace(tzinfo=timezone.utc)
+        if moment >= cutoff:
+            return False
+    return True
 
 
 def _shift(value: str, years: int) -> str:
@@ -52,15 +91,22 @@ def _shift(value: str, years: int) -> str:
     return shifted.isoformat()
 
 
-def rollover_candidates(conferences: list[dict], as_of: date) -> list[dict]:
+def rollover_candidates(
+    conferences: list[dict], as_of: date, series_filter: set[str] | None = None,
+) -> list[dict]:
     latest = {}
     for item in conferences:
         if item["series"] not in latest or item["year"] > latest[item["series"]]["year"]:
             latest[item["series"]] = item
     candidates = []
     for series, cadence in CADENCE_YEARS.items():
+        if series_filter is not None and series not in series_filter:
+            continue
         previous = latest.get(series)
-        if previous is None or parse_date(previous["conference_end"]) >= as_of:
+        if previous is None:
+            continue
+        ended = parse_date(previous["conference_end"]) < as_of
+        if not ended and not _submissions_closed(previous, as_of):
             continue
         years = cadence
         while parse_date(_shift(previous["conference_end"], years)) < as_of:
@@ -73,7 +119,9 @@ def rollover_candidates(conferences: list[dict], as_of: date) -> list[dict]:
         projected["conference_end"] = _shift(previous["conference_end"], years)
         projected["location"] = "To be announced"
         projected["confidence"] = "estimated"
-        projected["last_checked"] = as_of.isoformat()
+        # A draft is not a fresh review: keep the prior edition's review date
+        # so the maintenance queue still flags it until sources are checked.
+        projected["last_checked"] = previous["last_checked"]
         projected["notes"] = (
             f'Provisional {cadence}-year cadence projection from {previous["short_title"]}. '
             "Meeting dates, location, and deadlines require organizer confirmation; "
@@ -83,8 +131,8 @@ def rollover_candidates(conferences: list[dict], as_of: date) -> list[dict]:
             deadline["datetime"] = _shift(deadline["datetime"], years)
             deadline["confidence"] = "estimated"
             deadline.pop("open_observed_on", None)
-            if deadline.get("opens_at"):
-                deadline["opens_at"] = _shift(deadline["opens_at"], years)
+            # Openings are never guessed; a shifted prior opening is not evidence.
+            deadline.pop("opens_at", None)
         candidates.append(projected)
     return candidates
 
@@ -101,8 +149,17 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--as-of", type=date.fromisoformat, default=date.today())
     parser.add_argument("--write", action="store_true", help="Append projected records to data/conferences.yml")
+    parser.add_argument(
+        "--series", action="append", metavar="SERIES",
+        help="Limit drafts to this exact series key (repeatable); use with --write after review.",
+    )
     args = parser.parse_args()
-    candidates = rollover_candidates(load_conferences(), args.as_of)
+    series_filter = set(args.series) if args.series else None
+    if series_filter:
+        unknown = sorted(series_filter - set(CADENCE_YEARS))
+        if unknown:
+            parser.error(f"series not in CADENCE_YEARS: {', '.join(unknown)}")
+    candidates = rollover_candidates(load_conferences(), args.as_of, series_filter)
     for item in candidates:
         print(f'{item["id"]}: estimated from {item["notes"].split(" from ")[1].split(".")[0]}')
     if args.write:

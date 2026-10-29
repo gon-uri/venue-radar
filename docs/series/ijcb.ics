@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IJCB (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ijcb-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270410T115900Z
+DTEND:20270410T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  IJCB 2027 - Full paper submission deadline
+DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
+ iometrics\nWebsite: https://ijcb2027.ieee-biometrics.org/\nSource URL: ht
+ tps://ijcb2027.ieee-biometrics.org/call-for-papers/\nLocation: Foz do Igu
+ acu\, Brazil\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Privacy-preserving ML\nS
+ ize: M\nSubmission type: Paper-based / biometrics and identity science\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official 2027
+  CFP confirms Foz do Iguacu\, September 13-17\, March 15 submission openi
+ ng\, and April 9 paper cutoff\; its date table specifies 23:59 AoE for al
+ l dates. IJCB combines BTAS and ICB\; do not create duplicate rows or inh
+ erit a distinct predecessor's rankings. M is an editorial estimate.\nScop
+ e: Biometrics and identity science across face\, fingerprint\, iris\, voi
+ ce\, gait\, and behavioral modalities. Defining concerns include recognit
+ ion and verification\, multimodal fusion\, presentation-attack and deepfa
+ ke detection\, biometric template security\, privacy\, demographic fairne
+ ss\, and rigorous benchmarking. Learned representations and foundation mo
+ dels are important methods\; federated learning belongs here through secu
+ re biometric systems. Healthcare\, banking\, and robotics are application
+ s\, not blanket scope tags.\nAdditional topics: Machine Learning\, Robust
+ ness & Safety\, Fairness & Responsible AI\, Explainability & Interpretabi
+ lity\, Federated & Distributed Learning\, Signal Processing\nScope source
+ s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcb-2027-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270417T115900Z
+DTEND:20270417T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  IJCB 2027 - Supplementary material deadline
+DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
+ iometrics\nWebsite: https://ijcb2027.ieee-biometrics.org/\nSource URL: ht
+ tps://ijcb2027.ieee-biometrics.org/call-for-papers/\nLocation: Foz do Igu
+ acu\, Brazil\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Privacy-preserving ML\nS
+ ize: M\nSubmission type: Paper-based / biometrics and identity science\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official 2027
+  CFP confirms Foz do Iguacu\, September 13-17\, March 15 submission openi
+ ng\, and April 9 paper cutoff\; its date table specifies 23:59 AoE for al
+ l dates. IJCB combines BTAS and ICB\; do not create duplicate rows or inh
+ erit a distinct predecessor's rankings. M is an editorial estimate.\nScop
+ e: Biometrics and identity science across face\, fingerprint\, iris\, voi
+ ce\, gait\, and behavioral modalities. Defining concerns include recognit
+ ion and verification\, multimodal fusion\, presentation-attack and deepfa
+ ke detection\, biometric template security\, privacy\, demographic fairne
+ ss\, and rigorous benchmarking. Learned representations and foundation mo
+ dels are important methods\; federated learning belongs here through secu
+ re biometric systems. Healthcare\, banking\, and robotics are application
+ s\, not blanket scope tags.\nAdditional topics: Machine Learning\, Robust
+ ness & Safety\, Fairness & Responsible AI\, Explainability & Interpretabi
+ lity\, Federated & Distributed Learning\, Signal Processing\nScope source
+ s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcb-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270803T115900Z
+DTEND:20270803T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  IJCB 2027 - Camera-ready and author registration deadline
+DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
+ iometrics\nWebsite: https://ijcb2027.ieee-biometrics.org/\nSource URL: ht
+ tps://ijcb2027.ieee-biometrics.org/important-dates/\nLocation: Foz do Igu
+ acu\, Brazil\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Privacy-preserving ML\nS
+ ize: M\nSubmission type: Paper-based / biometrics and identity science\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official 2027
+  CFP confirms Foz do Iguacu\, September 13-17\, March 15 submission openi
+ ng\, and April 9 paper cutoff\; its date table specifies 23:59 AoE for al
+ l dates. IJCB combines BTAS and ICB\; do not create duplicate rows or inh
+ erit a distinct predecessor's rankings. M is an editorial estimate.\nScop
+ e: Biometrics and identity science across face\, fingerprint\, iris\, voi
+ ce\, gait\, and behavioral modalities. Defining concerns include recognit
+ ion and verification\, multimodal fusion\, presentation-attack and deepfa
+ ke detection\, biometric template security\, privacy\, demographic fairne
+ ss\, and rigorous benchmarking. Learned representations and foundation mo
+ dels are important methods\; federated learning belongs here through secu
+ re biometric systems. Healthcare\, banking\, and robotics are application
+ s\, not blanket scope tags.\nAdditional topics: Machine Learning\, Robust
+ ness & Safety\, Fairness & Responsible AI\, Explainability & Interpretabi
+ lity\, Federated & Distributed Learning\, Signal Processing\nScope source
+ s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://ijcb2027.ieee-biometrics.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcb-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270918
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  IJCB 2027 - Conference
+DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
+ iometrics\nWebsite: https://ijcb2027.ieee-biometrics.org/\nSource URL: ht
+ tps://ijcb2027.ieee-biometrics.org/important-dates/\nLocation: Foz do Igu
+ acu\, Brazil\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Privacy-preserving ML\nS
+ ize: M\nSubmission type: Paper-based / biometrics and identity science\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official 2027
+  CFP confirms Foz do Iguacu\, September 13-17\, March 15 submission openi
+ ng\, and April 9 paper cutoff\; its date table specifies 23:59 AoE for al
+ l dates. IJCB combines BTAS and ICB\; do not create duplicate rows or inh
+ erit a distinct predecessor's rankings. M is an editorial estimate.\nScop
+ e: Biometrics and identity science across face\, fingerprint\, iris\, voi
+ ce\, gait\, and behavioral modalities. Defining concerns include recognit
+ ion and verification\, multimodal fusion\, presentation-attack and deepfa
+ ke detection\, biometric template security\, privacy\, demographic fairne
+ ss\, and rigorous benchmarking. Learned representations and foundation mo
+ dels are important methods\; federated learning belongs here through secu
+ re biometric systems. Healthcare\, banking\, and robotics are application
+ s\, not blanket scope tags.\nAdditional topics: Machine Learning\, Robust
+ ness & Safety\, Fairness & Responsible AI\, Explainability & Interpretabi
+ lity\, Federated & Distributed Learning\, Signal Processing\nScope source
+ s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://ijcb2027.ieee-biometrics.org/important-dates/
+LOCATION:Foz do Iguacu\, Brazil
+END:VEVENT
+END:VCALENDAR

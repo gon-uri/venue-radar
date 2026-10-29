@@ -1,0 +1,120 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RSS (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rss-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] RSS 2027 - Stage 1 ext
+ ended abstract submission deadline
+DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
+ ://roboticsconference.org/\nSource URL: https://roboticsconference.org/in
+ formation/cfp/\nLocation: Athens\, Greece\nTopics: Control & Robotics\, R
+ einforcement Learning\, System Identification & Data-driven Dynamics\, Co
+ mputer Vision & Pattern Recognition\nSize: M\nSubmission type: Paper-base
+ d\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: New two-s
+ tage 2027 process requires a six-page initial submission by December 4\, 
+ 2026. Only authors invited after review may submit the April final paper\
+ ; it is not a fresh-paper route after stage 1 closes. Size is an editoria
+ l estimate.\nScope: Focused robotics research linking perception\, learni
+ ng\, planning\, control\, manipulation\, and robot-system science. Reinfo
+ rcement and imitation learning\, model-based behavior\, and reliable auto
+ nomous systems are characteristic intersections. The 2027 review process 
+ emphasizes a scientifically developed robotic hypothesis through gated in
+ itial and invited final submissions.\nAdditional topics: Planning & Searc
+ h\, Deep Representation Learning\, Probabilistic\, Causal & Uncertainty M
+ L\, Robustness & Safety\nScope sources (2027): https://roboticsconference
+ .org/information/cfp/\nScope last checked: 2026-10-07
+URL:https://roboticsconference.org/information/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:rss-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270417T115900Z
+DTEND:20270417T125900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] RSS 2027 - Stage 2 fin
+ al paper deadline (invited authors only)
+DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
+ ://roboticsconference.org/\nSource URL: https://roboticsconference.org/in
+ formation/cfp/\nLocation: Athens\, Greece\nTopics: Control & Robotics\, R
+ einforcement Learning\, System Identification & Data-driven Dynamics\, Co
+ mputer Vision & Pattern Recognition\nSize: M\nSubmission type: Paper-base
+ d\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: New two-s
+ tage 2027 process requires a six-page initial submission by December 4\, 
+ 2026. Only authors invited after review may submit the April final paper\
+ ; it is not a fresh-paper route after stage 1 closes. Size is an editoria
+ l estimate.\nScope: Focused robotics research linking perception\, learni
+ ng\, planning\, control\, manipulation\, and robot-system science. Reinfo
+ rcement and imitation learning\, model-based behavior\, and reliable auto
+ nomous systems are characteristic intersections. The 2027 review process 
+ emphasizes a scientifically developed robotic hypothesis through gated in
+ itial and invited final submissions.\nAdditional topics: Planning & Searc
+ h\, Deep Representation Learning\, Probabilistic\, Causal & Uncertainty M
+ L\, Robustness & Safety\nScope sources (2027): https://roboticsconference
+ .org/information/cfp/\nScope last checked: 2026-10-07
+URL:https://roboticsconference.org/information/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:rss-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270515T115900Z
+DTEND:20270515T125900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] RSS 2027 - Camera-read
+ y deadline
+DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
+ ://roboticsconference.org/\nSource URL: https://roboticsconference.org/in
+ formation/cfp/\nLocation: Athens\, Greece\nTopics: Control & Robotics\, R
+ einforcement Learning\, System Identification & Data-driven Dynamics\, Co
+ mputer Vision & Pattern Recognition\nSize: M\nSubmission type: Paper-base
+ d\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: New two-s
+ tage 2027 process requires a six-page initial submission by December 4\, 
+ 2026. Only authors invited after review may submit the April final paper\
+ ; it is not a fresh-paper route after stage 1 closes. Size is an editoria
+ l estimate.\nScope: Focused robotics research linking perception\, learni
+ ng\, planning\, control\, manipulation\, and robot-system science. Reinfo
+ rcement and imitation learning\, model-based behavior\, and reliable auto
+ nomous systems are characteristic intersections. The 2027 review process 
+ emphasizes a scientifically developed robotic hypothesis through gated in
+ itial and invited final submissions.\nAdditional topics: Planning & Searc
+ h\, Deep Representation Learning\, Probabilistic\, Causal & Uncertainty M
+ L\, Robustness & Safety\nScope sources (2027): https://roboticsconference
+ .org/information/cfp/\nScope last checked: 2026-10-07
+URL:https://roboticsconference.org/information/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:rss-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270712
+SUMMARY:[Control & Robotics][Reinforcement Learning] RSS 2027 - Conference
+DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
+ ://roboticsconference.org/\nSource URL: https://roboticsconference.org/\n
+ Location: Athens\, Greece\nTopics: Control & Robotics\, Reinforcement Lea
+ rning\, System Identification & Data-driven Dynamics\, Computer Vision & 
+ Pattern Recognition\nSize: M\nSubmission type: Paper-based\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-07\nNotes: New two-stage 2027 proces
+ s requires a six-page initial submission by December 4\, 2026. Only autho
+ rs invited after review may submit the April final paper\; it is not a fr
+ esh-paper route after stage 1 closes. Size is an editorial estimate.\nSco
+ pe: Focused robotics research linking perception\, learning\, planning\, 
+ control\, manipulation\, and robot-system science. Reinforcement and imit
+ ation learning\, model-based behavior\, and reliable autonomous systems a
+ re characteristic intersections. The 2027 review process emphasizes a sci
+ entifically developed robotic hypothesis through gated initial and invite
+ d final submissions.\nAdditional topics: Planning & Search\, Deep Represe
+ ntation Learning\, Probabilistic\, Causal & Uncertainty ML\, Robustness &
+  Safety\nScope sources (2027): https://roboticsconference.org/information
+ /cfp/\nScope last checked: 2026-10-07
+URL:https://roboticsconference.org/
+LOCATION:Athens\, Greece
+END:VEVENT
+END:VCALENDAR

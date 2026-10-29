@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TS4H (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ts4h-2025-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251208
+SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2025
+  - Conference
+DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
+ \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
+ series4health.github.io/\nLocation: San Diego\, California\, USA\nTopics:
+  Time Series & Sequential Data\, Healthcare & Clinical AI\, Signal Proces
+ sing\, Explainability & Interpretability\nSize: S\nSubmission type: Works
+ hop / paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ Notes: Official TS4H page still describes the completed NeurIPS 2025 work
+ shop. As of 2026-10-28 no TS4H-named workshop is on the ICLR\, ICML or Ne
+ urIPS 2026 lists\; the same organizers ran Structured Data for Health at 
+ ICML 2026 (Jul 11)\, whose site lists TS4H editions as prior years. No 20
+ 27 edition is announced.
+URL:https://timeseries4health.github.io/
+LOCATION:San Diego\, California\, USA
+END:VEVENT
+END:VCALENDAR

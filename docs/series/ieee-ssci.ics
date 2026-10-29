@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE SSCI (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ieee-ssci-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260914T115900Z
+DTEND:20260914T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE SSCI 2027 - F
+ ull and short paper submission deadline (main track and special sessions\
+ , extended)
+DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
+ igence\nWebsite: https://attend.ieee.org/ssci-2027/\nSource URL: https://
+ ssl.linklings.net/conferences/SSCI/?args=tUbb0XfQbGCfffzztC9M9aTAprcnt3Dx
+ GzQArsf0IQ3THQP0Aprcnt3DxfGzb0sprcnt3Dyprcnt3DUI0HQP0Aprcnt3Dxf\nLocation
+ : Gold Coast\, Queensland\, Australia\nTopics: Machine Learning\, Deep Re
+ presentation Learning\, Reinforcement Learning\, Control & Robotics\nSize
+ : L\nSubmission type: Paper-based / symposium series\nConfidence: confirm
+ ed\nLast checked date: 2026-10-28\nNotes: Site moved to attend.ieee.org (
+ old GitHub Pages URLs 404). Checked 2026-10-28: Gold Coast\, Feb 14-17\, 
+ 2027\, primarily in person with remote presentation. Website extended ful
+ l/short papers from Aug 10 to Sep 10\; Linklings forms closed Sep 13\, 23
+ :59 AoE. Late-breaking/poster-only/J2C forms close Nov 1\, 23:59 AoE (not
+  in proceedings). Homepage revisions supersede older CFP notification/cam
+ era-ready dates.
+URL:https://ssl.linklings.net/conferences/SSCI/?args=tUbb0XfQbGCfffzztC9M9a
+ TAprcnt3DxGzQArsf0IQ3THQP0Aprcnt3DxfGzb0sprcnt3Dyprcnt3DUI0HQP0Aprcnt3Dxf
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssci-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261102T115900Z
+DTEND:20261102T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE SSCI 2027 - L
+ ate-breaking paper\, poster-only abstract and J2C submission deadline (no
+ t in proceedings)
+DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
+ igence\nWebsite: https://attend.ieee.org/ssci-2027/\nSource URL: https://
+ ssl.linklings.net/conferences/SSCI/?args=tUbb0XfQbGCfffzztC9M9aTAprcnt3Dx
+ GzQArsf0IQ3THQP0Aprcnt3DxfGzb0sprcnt3Dyprcnt3DUI0HQP0Aprcnt3Dxf\nLocation
+ : Gold Coast\, Queensland\, Australia\nTopics: Machine Learning\, Deep Re
+ presentation Learning\, Reinforcement Learning\, Control & Robotics\nSize
+ : L\nSubmission type: Paper-based / symposium series\nConfidence: confirm
+ ed\nLast checked date: 2026-10-28\nNotes: Site moved to attend.ieee.org (
+ old GitHub Pages URLs 404). Checked 2026-10-28: Gold Coast\, Feb 14-17\, 
+ 2027\, primarily in person with remote presentation. Website extended ful
+ l/short papers from Aug 10 to Sep 10\; Linklings forms closed Sep 13\, 23
+ :59 AoE. Late-breaking/poster-only/J2C forms close Nov 1\, 23:59 AoE (not
+  in proceedings). Homepage revisions supersede older CFP notification/cam
+ era-ready dates.
+URL:https://ssl.linklings.net/conferences/SSCI/?args=tUbb0XfQbGCfffzztC9M9a
+ TAprcnt3DxGzQArsf0IQ3THQP0Aprcnt3DxfGzb0sprcnt3Dyprcnt3DUI0HQP0Aprcnt3Dxf
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssci-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE SSCI 2027 - M
+ ain-track notification (extended) (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
+ igence\nWebsite: https://attend.ieee.org/ssci-2027/\nSource URL: https://
+ attend.ieee.org/ssci-2027/\nLocation: Gold Coast\, Queensland\, Australia
+ \nTopics: Machine Learning\, Deep Representation Learning\, Reinforcement
+  Learning\, Control & Robotics\nSize: L\nSubmission type: Paper-based / s
+ ymposium series\nConfidence: confirmed\nLast checked date: 2026-10-28\nNo
+ tes: Site moved to attend.ieee.org (old GitHub Pages URLs 404). Checked 2
+ 026-10-28: Gold Coast\, Feb 14-17\, 2027\, primarily in person with remot
+ e presentation. Website extended full/short papers from Aug 10 to Sep 10\
+ ; Linklings forms closed Sep 13\, 23:59 AoE. Late-breaking/poster-only/J2
+ C forms close Nov 1\, 23:59 AoE (not in proceedings). Homepage revisions 
+ supersede older CFP notification/camera-ready dates.\nOfficial deadline d
+ ay\; exact cutoff hour/timezone is unannounced. Verify the organizer's su
+ bmission portal.
+URL:https://attend.ieee.org/ssci-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssci-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE SSCI 2027 - F
+ inal camera-ready version due (extended) (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
+ igence\nWebsite: https://attend.ieee.org/ssci-2027/\nSource URL: https://
+ attend.ieee.org/ssci-2027/\nLocation: Gold Coast\, Queensland\, Australia
+ \nTopics: Machine Learning\, Deep Representation Learning\, Reinforcement
+  Learning\, Control & Robotics\nSize: L\nSubmission type: Paper-based / s
+ ymposium series\nConfidence: confirmed\nLast checked date: 2026-10-28\nNo
+ tes: Site moved to attend.ieee.org (old GitHub Pages URLs 404). Checked 2
+ 026-10-28: Gold Coast\, Feb 14-17\, 2027\, primarily in person with remot
+ e presentation. Website extended full/short papers from Aug 10 to Sep 10\
+ ; Linklings forms closed Sep 13\, 23:59 AoE. Late-breaking/poster-only/J2
+ C forms close Nov 1\, 23:59 AoE (not in proceedings). Homepage revisions 
+ supersede older CFP notification/camera-ready dates.\nOfficial deadline d
+ ay\; exact cutoff hour/timezone is unannounced. Verify the organizer's su
+ bmission portal.
+URL:https://attend.ieee.org/ssci-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssci-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270218
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE SSCI 2027 - C
+ onference
+DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
+ igence\nWebsite: https://attend.ieee.org/ssci-2027/\nSource URL: https://
+ attend.ieee.org/ssci-2027/\nLocation: Gold Coast\, Queensland\, Australia
+ \nTopics: Machine Learning\, Deep Representation Learning\, Reinforcement
+  Learning\, Control & Robotics\nSize: L\nSubmission type: Paper-based / s
+ ymposium series\nConfidence: confirmed\nLast checked date: 2026-10-28\nNo
+ tes: Site moved to attend.ieee.org (old GitHub Pages URLs 404). Checked 2
+ 026-10-28: Gold Coast\, Feb 14-17\, 2027\, primarily in person with remot
+ e presentation. Website extended full/short papers from Aug 10 to Sep 10\
+ ; Linklings forms closed Sep 13\, 23:59 AoE. Late-breaking/poster-only/J2
+ C forms close Nov 1\, 23:59 AoE (not in proceedings). Homepage revisions 
+ supersede older CFP notification/camera-ready dates.
+URL:https://attend.ieee.org/ssci-2027/
+LOCATION:Gold Coast\, Queensland\, Australia
+END:VEVENT
+END:VCALENDAR

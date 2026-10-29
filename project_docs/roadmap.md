@@ -120,7 +120,11 @@ below are history, not instructions to reimplement old designs.
 - Priority: Medium
 - Dependencies: `scripts/build_site.py`, generated `docs/index.html`, committed ICS feeds.
 - Estimated complexity: Medium
-- Completion status: Completed for current scope
+- Completion status: Completed for current scope; ADR-039 added cutoff clocks,
+  subscriptions, series/submission feeds, successor links, empty states and
+  accessibility/tablet fixes. Remaining ranked ideas (compact mobile cards,
+  shareable links, evidence display, link previews, safer date-only cutoffs,
+  maintenance triage/CI guardrails) await approval.
 
 ### Conference Ranking Column
 

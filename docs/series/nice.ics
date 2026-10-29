@@ -1,0 +1,155 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NICE (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nice-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261112T115900Z
+DTEND:20261112T125900Z
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Regular research paper submission deadline
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Regular paper acceptance notification (cutoff time unannou
+ nced)
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezo
+ ne is unannounced. Verify the organizer's submission portal.
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Late-breaking abstract submission deadline
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270310T115900Z
+DTEND:20270310T125900Z
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Camera-ready research paper deadline
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270409
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Conference
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ni
+ ceworkshop.org/nice-2027/\nLocation: Brighton\, United Kingdom\nTopics: N
+ euromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mac
+ hine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research
+  papers + late-breaking abstracts\nConfidence: confirmed\nLast checked da
+ te: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Ap
+ ril 9. Accepted proceedings research papers are published through IEEE\; 
+ late-breaking abstracts are non-archival\, and some poster contributions 
+ may not enter the proceedings. Neither a scheduled opening nor a live sub
+ mission portal has been verified. Size is an editorial estimate.\nScope: 
+ Neuromorphic and brain-inspired computing at the intersection of neurosci
+ ence\, algorithms and hardware. Characteristic work includes spiking neur
+ al networks\, learning in neural systems\, event-driven computation\, neu
+ romorphic processors and embodied applications. Research papers and late-
+ breaking abstracts are different contribution routes.\nAdditional topics:
+  ML Systems & Infrastructure\, Deep Representation Learning\, Control & R
+ obotics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope 
+ last checked: 2026-10-08
+URL:https://niceworkshop.org/nice-2027/
+LOCATION:Brighton\, United Kingdom
+END:VEVENT
+END:VCALENDAR

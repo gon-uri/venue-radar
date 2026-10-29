@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ML4H 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ml4h-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270911T115900Z
+DTEND:20270911T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2027 - Paper subm
+ ission deadline (estimated)
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
+ r-papers/\nLocation: To be announced\nTopics: Healthcare & Clinical AI\, 
+ Machine Learning\, Time Series & Sequential Data\, Deep Representation Le
+ arning\nSize: M\nSubmission type: Proceedings + findings tracks\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the
+  official ML4H and AHLI sites cover only ML4H 2026 (Sydney\, Dec 6-7) and
+  announce no 2027 host or dates. Meeting dates and the Sep 10 paper deadl
+ ine (23:59 AoE) are one-year proxies from ML4H 2026\; its non-archival de
+ mo track and production dates are not projected.
+URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ml4h-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271206
+DTEND;VALUE=DATE:20271208
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2027 - Conference
+  (estimated)
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/\nLocation: To
+  be announced\nTopics: Healthcare & Clinical AI\, Machine Learning\, Time
+  Series & Sequential Data\, Deep Representation Learning\nSize: M\nSubmis
+ sion type: Proceedings + findings tracks\nConfidence: estimated\nLast che
+ cked date: 2026-10-29\nNotes: As of 2026-10-29 the official ML4H and AHLI
+  sites cover only ML4H 2026 (Sydney\, Dec 6-7) and announce no 2027 host 
+ or dates. Meeting dates and the Sep 10 paper deadline (23:59 AoE) are one
+ -year proxies from ML4H 2026\; its non-archival demo track and production
+  dates are not projected.
+URL:https://ml4h.ahli.cc/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

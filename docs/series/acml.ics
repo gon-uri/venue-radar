@@ -1,0 +1,214 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACML (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:acml-2026-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260621T115900Z
+DTEND:20260621T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Journal-track submission deadline (OpenReview and Springer)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Learning Theory & Statistical Foundations\, Explainability & Inter
+ pretability\, Robustness & Safety\nSize: L\nSubmission type: Paper-based 
+ / OpenReview\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes
+ : Official ACML 2026 pages (checked 2026-10-28) list RMIT's Swanston Acad
+ emic Building\, Melbourne\, Dec 1-4\, with all deadlines 23:59 AoE. The c
+ onference track closed Jul 5 (revised) and the journal track Jun 20\, 202
+ 6\; the Encore track for already-published work closed Oct 25 (extended).
+  Conference-track camera-ready is due Nov 1\, 2026.\nScope: Theory and pr
+ actice of machine learning\, including probabilistic methods\, representa
+ tion learning\, transfer and meta-learning\, reinforcement learning\, and
+  learning theory. Generative models\, language models\, and trustworthy l
+ earning extend this core. The broad applications list is not treated as e
+ vidence that every application field defines the conference.\nAdditional 
+ topics: Deep Representation Learning\, Probabilistic\, Causal & Uncertain
+ ty ML\, Reinforcement Learning\, Natural Language Processing & LLMs\, Fai
+ rness & Responsible AI\, Privacy-preserving ML\nScope sources (2026): htt
+ ps://www.acml-conf.org/2026/calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260706T115900Z
+DTEND:20260706T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference-track paper submission deadline
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Learning Theory & Statistical Foundations\, Explainability & Inter
+ pretability\, Robustness & Safety\nSize: L\nSubmission type: Paper-based 
+ / OpenReview\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes
+ : Official ACML 2026 pages (checked 2026-10-28) list RMIT's Swanston Acad
+ emic Building\, Melbourne\, Dec 1-4\, with all deadlines 23:59 AoE. The c
+ onference track closed Jul 5 (revised) and the journal track Jun 20\, 202
+ 6\; the Encore track for already-published work closed Oct 25 (extended).
+  Conference-track camera-ready is due Nov 1\, 2026.\nScope: Theory and pr
+ actice of machine learning\, including probabilistic methods\, representa
+ tion learning\, transfer and meta-learning\, reinforcement learning\, and
+  learning theory. Generative models\, language models\, and trustworthy l
+ earning extend this core. The broad applications list is not treated as e
+ vidence that every application field defines the conference.\nAdditional 
+ topics: Deep Representation Learning\, Probabilistic\, Causal & Uncertain
+ ty ML\, Reinforcement Learning\, Natural Language Processing & LLMs\, Fai
+ rness & Responsible AI\, Privacy-preserving ML\nScope sources (2026): htt
+ ps://www.acml-conf.org/2026/calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261102T115900Z
+DTEND:20261102T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference-track camera-ready deadline (OpenReview)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Learning Theory & Statistical Foundations\, Explainability & Inter
+ pretability\, Robustness & Safety\nSize: L\nSubmission type: Paper-based 
+ / OpenReview\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes
+ : Official ACML 2026 pages (checked 2026-10-28) list RMIT's Swanston Acad
+ emic Building\, Melbourne\, Dec 1-4\, with all deadlines 23:59 AoE. The c
+ onference track closed Jul 5 (revised) and the journal track Jun 20\, 202
+ 6\; the Encore track for already-published work closed Oct 25 (extended).
+  Conference-track camera-ready is due Nov 1\, 2026.\nScope: Theory and pr
+ actice of machine learning\, including probabilistic methods\, representa
+ tion learning\, transfer and meta-learning\, reinforcement learning\, and
+  learning theory. Generative models\, language models\, and trustworthy l
+ earning extend this core. The broad applications list is not treated as e
+ vidence that every application field defines the conference.\nAdditional 
+ topics: Deep Representation Learning\, Probabilistic\, Causal & Uncertain
+ ty ML\, Reinforcement Learning\, Natural Language Processing & LLMs\, Fai
+ rness & Responsible AI\, Privacy-preserving ML\nScope sources (2026): htt
+ ps://www.acml-conf.org/2026/calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261205
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Learni
+ ng Theory & Statistical Foundations\, Explainability & Interpretability\,
+  Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenReview\
+ nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official AC
+ ML 2026 pages (checked 2026-10-28) list RMIT's Swanston Academic Building
+ \, Melbourne\, Dec 1-4\, with all deadlines 23:59 AoE. The conference tra
+ ck closed Jul 5 (revised) and the journal track Jun 20\, 2026\; the Encor
+ e track for already-published work closed Oct 25 (extended). Conference-t
+ rack camera-ready is due Nov 1\, 2026.\nScope: Theory and practice of mac
+ hine learning\, including probabilistic methods\, representation learning
+ \, transfer and meta-learning\, reinforcement learning\, and learning the
+ ory. Generative models\, language models\, and trustworthy learning exten
+ d this core. The broad applications list is not treated as evidence that 
+ every application field defines the conference.\nAdditional topics: Deep 
+ Representation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinf
+ orcement Learning\, Natural Language Processing & LLMs\, Fairness & Respo
+ nsible AI\, Privacy-preserving ML\nScope sources (2026): https://www.acml
+ -conf.org/2026/calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/
+LOCATION:Melbourne\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270621T115900Z
+DTEND:20270621T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Journal-track submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Conference-track paper submission (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/2026/
+ calls/papers/\nLocation: To be announced\nTopics: Machine Learning\, Lear
+ ning Theory & Statistical Foundations\, Explainability & Interpretability
+ \, Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 202
+ 6-10-29 the ACML site lists no 2027 edition\, host or dates. Meeting date
+ s and both deadlines are one-year proxies from ACML 2026 (Dec 1-4\; journ
+ al track Jun 20\, conference track Jun 26 AoE\, the original date before 
+ its extension to Jul 5).\nScope: Theory and practice of machine learning\
+ , including probabilistic methods\, representation learning\, transfer an
+ d meta-learning\, reinforcement learning\, and learning theory. Generativ
+ e models\, language models\, and trustworthy learning extend this core. T
+ he broad applications list is not treated as evidence that every applicat
+ ion field defines the conference.\nAdditional topics: Deep Representation
+  Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learn
+ ing\, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Pr
+ ivacy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026
+ /calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271205
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/\nSource URL: https://www.acml-conf.org/\nLoc
+ ation: To be announced\nTopics: Machine Learning\, Learning Theory & Stat
+ istical Foundations\, Explainability & Interpretability\, Robustness & Sa
+ fety\nSize: L\nSubmission type: Paper-based / OpenReview\nConfidence: est
+ imated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 the ACML s
+ ite lists no 2027 edition\, host or dates. Meeting dates and both deadlin
+ es are one-year proxies from ACML 2026 (Dec 1-4\; journal track Jun 20\, 
+ conference track Jun 26 AoE\, the original date before its extension to J
+ ul 5).\nScope: Theory and practice of machine learning\, including probab
+ ilistic methods\, representation learning\, transfer and meta-learning\, 
+ reinforcement learning\, and learning theory. Generative models\, languag
+ e models\, and trustworthy learning extend this core. The broad applicati
+ ons list is not treated as evidence that every application field defines 
+ the conference.\nAdditional topics: Deep Representation Learning\, Probab
+ ilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Natural Lang
+ uage Processing & LLMs\, Fairness & Responsible AI\, Privacy-preserving M
+ L\nScope sources (2026): https://www.acml-conf.org/2026/calls/papers/\nSc
+ ope last checked: 2026-10-07
+URL:https://www.acml-conf.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

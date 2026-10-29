@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICPR (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icpr-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251221T115900Z
+DTEND:20251221T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] ICPR 2026
+  - Paper submission deadline
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/file
+ s/flyerCallFP.pdf\nLocation: Lyon\, France\nTopics: Computer Vision & Pat
+ tern Recognition\, Machine Learning\, Deep Representation Learning\, Biom
+ edical Imaging\nSize: XL\nSubmission type: Paper-based\nConfidence: confi
+ rmed\nLast checked date: 2026-09-14\nNotes: Official ICPR 2026 CFP confir
+ ms Lyon\, Aug 17-22\, and the Dec 20\, 2025 main-paper submission deadlin
+ e.
+URL:https://icpr2026.org/files/flyerCallFP.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:icpr-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260823
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] ICPR 2026
+  - Conference
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/\nLo
+ cation: Lyon\, France\nTopics: Computer Vision & Pattern Recognition\, Ma
+ chine Learning\, Deep Representation Learning\, Biomedical Imaging\nSize:
+  XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked da
+ te: 2026-09-14\nNotes: Official ICPR 2026 CFP confirms Lyon\, Aug 17-22\,
+  and the Dec 20\, 2025 main-paper submission deadline.
+URL:https://icpr2026.org/
+LOCATION:Lyon\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:icpr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280104T115900Z
+DTEND:20280104T125900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] ICPR 2028
+  - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://icpr2028.org/\nSource URL: https://icpr2028.org/wp-c
+ ontent/uploads/2026/08/ICPR-2028-CALL-FOR-PAPERS.pdf\nLocation: Sydney\, 
+ Australia\nTopics: Computer Vision & Pattern Recognition\, Machine Learni
+ ng\, Deep Representation Learning\, Biomedical Imaging\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-
+ 28\nNotes: The official 30th ICPR preliminary CFP confirms the Internatio
+ nal Convention Centre Sydney\, Aug 20-24\, 2028\, and gives the paper dea
+ dline only as "January 2028"\; the stored Jan 3 AoE cutoff is an early-mo
+ nth placeholder\, not an announced day. As of 2026-10-28 the important-da
+ tes page says "Will be available soon"\; papers use 15-page LNCS format.
+URL:https://icpr2028.org/wp-content/uploads/2026/08/ICPR-2028-CALL-FOR-PAPE
+ RS.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:icpr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280820
+DTEND;VALUE=DATE:20280825
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] ICPR 2028
+  - Conference
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://icpr2028.org/\nSource URL: https://icpr2028.org/\nLo
+ cation: Sydney\, Australia\nTopics: Computer Vision & Pattern Recognition
+ \, Machine Learning\, Deep Representation Learning\, Biomedical Imaging\n
+ Size: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast check
+ ed date: 2026-10-28\nNotes: The official 30th ICPR preliminary CFP confir
+ ms the International Convention Centre Sydney\, Aug 20-24\, 2028\, and gi
+ ves the paper deadline only as "January 2028"\; the stored Jan 3 AoE cuto
+ ff is an early-month placeholder\, not an announced day. As of 2026-10-28
+  the important-dates page says "Will be available soon"\; papers use 15-p
+ age LNCS format.
+URL:https://icpr2028.org/
+LOCATION:Sydney\, Australia
+END:VEVENT
+END:VCALENDAR

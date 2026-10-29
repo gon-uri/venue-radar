@@ -160,3 +160,92 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
   .topic-family summary { font-size: .75rem; }
   .topic-family summary label { width: calc(100% - 22px); gap: 5px; }
 }
+
+/* ADR-039: cutoff clock, local time and the date-above-label milestone layout. */
+:root { --control-border: #7f8e92; }
+.deadline-grid-row { flex-wrap: wrap; row-gap: 1px; }
+.deadline-passed { order: 1; }
+.deadline-milestone { order: 2; flex: 1 1 100%; }
+.deadline-local { order: 3; flex: 1 1 100%; color: var(--muted); font-size: .72rem; line-height: 1.3; }
+.deadline-clock { flex: 0 0 auto; color: #3f4f54; font-size: .74rem; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.deadline-clock::before { content: "\00b7"; margin-right: 5px; color: var(--muted); font-weight: 400; }
+.next-step { display: none; }
+.status-cell { min-width: 0; }
+.successor-link { display: block; margin-top: 6px; font-size: .76rem; font-weight: 600; text-underline-offset: 3px; }
+.deadline-group-row.is-linked > td { background: #fff7df; }
+
+/* Empty results, hidden-row count and active-filter badge. */
+.empty-state { margin: 0 0 12px; padding: 14px 16px; border: 1px dashed var(--line-strong); border-radius: 4px; background: var(--surface); font-size: .88rem; }
+.empty-state p { margin: 0; max-width: none; color: var(--text); }
+.empty-state .empty-state-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; margin-top: 8px; }
+.link-button { border: 0; padding: 0; background: none; color: var(--accent-dark); font: inherit; font-weight: 650; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+#show-hidden { font-size: .82rem; }
+.filter-count { flex: 0 0 auto; white-space: nowrap; padding: 1px 8px; border-radius: 999px; background: var(--accent-dark); color: #fff; font-size: .74rem; font-weight: 650; line-height: 1.5; }
+
+/* Calendar subscription menu (header) and per-row series feeds. */
+.calendar-action { position: relative; }
+.calendar-menu > summary { list-style: none; cursor: pointer; }
+.calendar-menu > summary::-webkit-details-marker { display: none; }
+.calendar-panel { position: absolute; right: 0; top: calc(100% + 6px); z-index: 30; box-sizing: border-box; width: min(460px, calc(100vw - 24px)); padding: 12px 14px; border: 1px solid var(--line-strong); border-radius: 6px; background: #fff; box-shadow: 0 8px 24px rgba(38, 50, 56, .14); text-align: left; }
+.calendar-panel-intro, .calendar-panel-note { margin: 0; max-width: none; color: var(--muted); font-size: .78rem; line-height: 1.45; }
+.calendar-panel-note { margin-top: 10px; }
+.feed-list { display: grid; gap: 10px; margin: 10px 0 0; padding: 0; list-style: none; }
+.feed-row { display: grid; gap: 6px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.feed-name { display: grid; gap: 1px; color: var(--text); font-size: .84rem; }
+.feed-name span { color: var(--muted); font-size: .74rem; font-weight: 400; }
+.feed-picker select { width: 100%; padding: 5px 8px; font-size: .82rem; }
+.feed-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.feed-link { display: inline-flex; align-items: center; min-height: 30px; box-sizing: border-box; padding: 3px 10px; border: 1px solid var(--line-strong); border-radius: 4px; background: #fff; color: var(--accent-dark); font: inherit; font-size: .78rem; font-weight: 650; text-decoration: none; cursor: pointer; }
+.feed-link:hover { border-color: var(--accent); background: var(--surface); }
+.row-calendar-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.row-series-link { font-size: .74rem; font-weight: 650; text-underline-offset: 3px; }
+.giscus-fallback { display: inline-block; margin-top: 8px; font-size: .85rem; }
+
+/* Accessibility: visible focus, readable control borders, skip link. */
+:where(a, button, summary, select, [tabindex]):focus-visible { outline: 2px solid var(--accent-dark); outline-offset: 2px; }
+input:focus-visible, select:focus-visible { outline: 2px solid var(--accent-dark); outline-offset: 1px; }
+.deadline-toggle:focus-visible, .row-calendar-button:focus-visible { outline: 2px solid var(--accent-dark); outline-offset: 2px; }
+input[type="search"], select { border-color: var(--control-border); }
+#tables:focus { outline: none; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip-link { position: absolute; left: 12px; top: -80px; z-index: 100; padding: 8px 12px; border: 2px solid var(--accent-dark); border-radius: 4px; background: #fff; color: var(--accent-dark); font-weight: 650; }
+.skip-link:focus { top: 12px; }
+.noscript-note { display: none; margin: 0 0 10px; font-size: .85rem; }
+
+/* Tablet tables (761-1099px): no mid-word breaks, rebalanced columns. */
+@media (min-width: 761px) and (max-width: 1099px) {
+  th, td { overflow-wrap: break-word; padding-left: 6px; padding-right: 6px; }
+  th { white-space: normal; }
+  .acceptance-cell a { white-space: normal; }
+  .time-left { white-space: normal; }
+  .rank-pair { flex-wrap: wrap; gap: 0 2px; }
+  #panel-deadlines col:nth-child(1) { width: 13% !important; }
+  #panel-deadlines col:nth-child(2) { width: 14% !important; }
+  #panel-deadlines col:nth-child(3) { width: 10% !important; }
+  #panel-deadlines col:nth-child(4) { width: 23% !important; }
+  #panel-deadlines col:nth-child(5) { width: 15% !important; }
+  #panel-deadlines col:nth-child(6) { width: 9% !important; }
+  #panel-deadlines col:nth-child(7) { width: 10% !important; }
+  #panel-deadlines col:nth-child(8) { width: 6% !important; }
+  #panel-conferences col:nth-child(1) { width: 14% !important; }
+  #panel-conferences col:nth-child(2) { width: 14% !important; }
+  #panel-conferences col:nth-child(3) { width: 15% !important; }
+  #panel-conferences col:nth-child(4) { width: 19% !important; }
+  #panel-conferences col:nth-child(5) { width: 10% !important; }
+  #panel-conferences col:nth-child(6) { width: 11% !important; }
+  #panel-conferences col:nth-child(7) { width: 7% !important; }
+  #panel-conferences col:nth-child(8) { width: 10% !important; }
+}
+
+@media (max-width: 760px) {
+  .next-step:not([hidden]) { display: grid; gap: 1px; margin-top: 5px; color: #3f4f54; font-size: .78rem; font-weight: 400; line-height: 1.35; }
+  .next-step strong { color: var(--text); font-weight: 650; }
+  .next-step-local { color: var(--muted); font-size: .74rem; }
+  header { position: relative; }
+  .calendar-action { position: static; }
+  .calendar-panel { left: 0; right: 0; width: auto; top: auto; margin-top: 6px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0s !important; animation-duration: 0s !important; scroll-behavior: auto !important; }
+}

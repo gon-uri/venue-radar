@@ -30,7 +30,7 @@ export async function checkSubmissionBehavior(page) {
   await aamas.locator('.deadline-toggle').click();
 
   assert.equal(await status(mlsys).innerText(), 'Scheduled submission');
-  assert.match(await status(mlsys).getAttribute('title'), /2026-10-10T20:00:00.000Z/);
+  assert.match(await status(mlsys).getAttribute('title'), /opens Oct 10, 2026, 20:00 UTC \(your time: /);
   assert.equal(await summary(mlsys).getAttribute('data-deadline-type'), 'full_paper');
   await checkCountdown(mlsys, '2026-10-30T20:00:00Z');
   await mlsys.locator('.deadline-toggle').click();

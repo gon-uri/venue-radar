@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ISBI (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261027T035900Z
+DTEND:20261027T045900Z
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 4-page paper su
+ bmission deadline
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
+ Last checked date: 2026-10-06\nNotes: Official ISBI 2027 page lists Lausa
+ nne\, May 25-28\, and the four-page paper and one-page abstract deadlines
+ . The paper submission link was live on Oct 6.
+URL:https://biomedicalimaging.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T045900Z
+DTEND:20270202T055900Z
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 1-page abstract
+  submission deadline
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
+ Last checked date: 2026-10-06\nNotes: Official ISBI 2027 page lists Lausa
+ nne\, May 25-28\, and the four-page paper and one-page abstract deadlines
+ . The paper submission link was live on Oct 6.
+URL:https://biomedicalimaging.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270529
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - Conference
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
+ Last checked date: 2026-10-06\nNotes: Official ISBI 2027 page lists Lausa
+ nne\, May 25-28\, and the four-page paper and one-page abstract deadlines
+ . The paper submission link was live on Oct 6.
+URL:https://biomedicalimaging.org/2027/
+LOCATION:Lausanne\, Switzerland
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AAAI 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aaai-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270722T115900Z
+DTEND:20270722T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2028 - Abstra
+ ct submission deadline (estimated)
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/\nSource URL: https://aaai.org/c
+ onference/aaai/aaai-27/\nLocation: To be announced\nTopics: Machine Learn
+ ing\, Deep Representation Learning\, Data Mining & Data Science\, Fairnes
+ s & Responsible AI\nSize: XXL\nSubmission type: Paper-based / OpenReview\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 the official AAAI conference page lists nothing after AAAI-27 (Mont
+ real\, Feb 16-23\, 2027)\; no AAAI-28 dates or host are announced. Meetin
+ g dates (Feb 16-23) and the Jul 21 abstract/Jul 28 full-paper deadlines (
+ AoE) are one-year proxies from AAAI-27.
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270729T115900Z
+DTEND:20270729T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2028 - Full p
+ aper submission deadline (estimated)
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/\nSource URL: https://aaai.org/c
+ onference/aaai/aaai-27/\nLocation: To be announced\nTopics: Machine Learn
+ ing\, Deep Representation Learning\, Data Mining & Data Science\, Fairnes
+ s & Responsible AI\nSize: XXL\nSubmission type: Paper-based / OpenReview\
+ nConfidence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-
+ 10-29 the official AAAI conference page lists nothing after AAAI-27 (Mont
+ real\, Feb 16-23\, 2027)\; no AAAI-28 dates or host are announced. Meetin
+ g dates (Feb 16-23) and the Jul 21 abstract/Jul 28 full-paper deadlines (
+ AoE) are one-year proxies from AAAI-27.
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280216
+DTEND;VALUE=DATE:20280224
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2028 - Confer
+ ence (estimated)
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/\nSource URL: https://aaai.org/c
+ onference/aaai/\nLocation: To be announced\nTopics: Machine Learning\, De
+ ep Representation Learning\, Data Mining & Data Science\, Fairness & Resp
+ onsible AI\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfide
+ nce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 th
+ e official AAAI conference page lists nothing after AAAI-27 (Montreal\, F
+ eb 16-23\, 2027)\; no AAAI-28 dates or host are announced. Meeting dates 
+ (Feb 16-23) and the Jul 21 abstract/Jul 28 full-paper deadlines (AoE) are
+  one-year proxies from AAAI-27.
+URL:https://aaai.org/conference/aaai/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

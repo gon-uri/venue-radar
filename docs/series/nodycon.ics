@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NODYCON (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nodycon-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Presentation abstract submission deadline (cutoff 
+ time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://nodycon2026.app.earendelplatform.com/\nLocation: Rome\, Italy\nTopics:
+  Nonlinear Dynamics & Chaos\, System Identification & Data-driven Dynamic
+ s\, Control & Robotics\, Complex Systems & Network Science\nSize: L\nSubm
+ ission type: Abstract-based + optional full-length papers\nConfidence: co
+ nfirmed\nLast checked date: 2026-10-28\nNotes: Historical 2026 meeting. E
+ dition-site key dates (read 2026-10-28) give abstracts May 15 and full-le
+ ngth papers Aug 31 (extended from Jul 1)\, kept over the conflicting SISC
+ O page (May 1/Jul 3)\; cutoff hours unannounced. The optional paper step 
+ (Springer Advances in Nonlinear Dynamics\; invited Nonlinear Dynamics iss
+ ue) is not a fresh route. No next edition announced. Size is an editorial
+  estimate.\nScope: Nonlinear dynamics in engineering and physical systems
+ : bifurcations\, chaos\, vibrations\, synchronization\, nonlinear control
+ \, system identification and data-driven dynamical modeling. Machine lear
+ ning is relevant through discovering\, forecasting or controlling dynamic
+ s. Publication is edition-specific: past Springer volumes do not imply th
+ at every later meeting has standard proceedings.\nAdditional topics: Time
+  Series & Sequential Data\, Machine Learning\nScope sources (2026): https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nScope last checked: 2026-10-08\nOfficial deadli
+ ne day\; exact cutoff hour/timezone is unannounced. Verify the organizer'
+ s submission portal.
+URL:https://nodycon2026.app.earendelplatform.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-deadline-journal-manuscript@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Full-length manuscript deadline for presented work
+  (cutoff time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://nodycon2026.app.earendelplatform.com/\nLocation: Rome\, Italy\nTopics:
+  Nonlinear Dynamics & Chaos\, System Identification & Data-driven Dynamic
+ s\, Control & Robotics\, Complex Systems & Network Science\nSize: L\nSubm
+ ission type: Abstract-based + optional full-length papers\nConfidence: co
+ nfirmed\nLast checked date: 2026-10-28\nNotes: Historical 2026 meeting. E
+ dition-site key dates (read 2026-10-28) give abstracts May 15 and full-le
+ ngth papers Aug 31 (extended from Jul 1)\, kept over the conflicting SISC
+ O page (May 1/Jul 3)\; cutoff hours unannounced. The optional paper step 
+ (Springer Advances in Nonlinear Dynamics\; invited Nonlinear Dynamics iss
+ ue) is not a fresh route. No next edition announced. Size is an editorial
+  estimate.\nScope: Nonlinear dynamics in engineering and physical systems
+ : bifurcations\, chaos\, vibrations\, synchronization\, nonlinear control
+ \, system identification and data-driven dynamical modeling. Machine lear
+ ning is relevant through discovering\, forecasting or controlling dynamic
+ s. Publication is edition-specific: past Springer volumes do not imply th
+ at every later meeting has standard proceedings.\nAdditional topics: Time
+  Series & Sequential Data\, Machine Learning\nScope sources (2026): https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nScope last checked: 2026-10-08\nOfficial deadli
+ ne day\; exact cutoff hour/timezone is unannounced. Verify the organizer'
+ s submission portal.
+URL:https://nodycon2026.app.earendelplatform.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260924
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Conference
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://nodycon2026.app.earendelplatform.com/\nLocation: Rome\, Italy\nTopics:
+  Nonlinear Dynamics & Chaos\, System Identification & Data-driven Dynamic
+ s\, Control & Robotics\, Complex Systems & Network Science\nSize: L\nSubm
+ ission type: Abstract-based + optional full-length papers\nConfidence: co
+ nfirmed\nLast checked date: 2026-10-28\nNotes: Historical 2026 meeting. E
+ dition-site key dates (read 2026-10-28) give abstracts May 15 and full-le
+ ngth papers Aug 31 (extended from Jul 1)\, kept over the conflicting SISC
+ O page (May 1/Jul 3)\; cutoff hours unannounced. The optional paper step 
+ (Springer Advances in Nonlinear Dynamics\; invited Nonlinear Dynamics iss
+ ue) is not a fresh route. No next edition announced. Size is an editorial
+  estimate.\nScope: Nonlinear dynamics in engineering and physical systems
+ : bifurcations\, chaos\, vibrations\, synchronization\, nonlinear control
+ \, system identification and data-driven dynamical modeling. Machine lear
+ ning is relevant through discovering\, forecasting or controlling dynamic
+ s. Publication is edition-specific: past Springer volumes do not imply th
+ at every later meeting has standard proceedings.\nAdditional topics: Time
+  Series & Sequential Data\, Machine Learning\nScope sources (2026): https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nScope last checked: 2026-10-08
+URL:https://nodycon2026.app.earendelplatform.com/
+LOCATION:Rome\, Italy
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NetSci (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:netsci-2027-deadline-satellite-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:[Complex Systems & Network Science][Data Mining & Data Science] Net
+ Sci 2027 - Satellite symposium proposal deadline (cutoff time unannounced
+ )
+DESCRIPTION:Conference title: International School and Conference on Networ
+ k Science\nWebsite: https://netsci2027.github.io/\nSource URL: https://ne
+ tsci2027.github.io/calls/satellites/\nLocation: Dresden\, Germany\nTopics
+ : Complex Systems & Network Science\, Data Mining & Data Science\, Nonlin
+ ear Dynamics & Chaos\nSize: L\nSubmission type: Abstract-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-28\nNotes: Official NetSci 2027 
+ site (TU Dresden) confirms May 17-21\, 2027 (satellites/school May 17-18\
+ , main conference May 18-21). One-page abstracts with a mandatory figure 
+ are due December 1\, 2026\; the call opened October 9. No cutoff hour/zon
+ e is stated\, so T23:59 AoE is provisional. Presentation route\, not arch
+ ival proceedings. Distinct from NetSciX. Size is editorial.\nOfficial dea
+ dline day\; exact cutoff hour/timezone is unannounced. Verify the organiz
+ er's submission portal.
+URL:https://netsci2027.github.io/calls/satellites/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:[Complex Systems & Network Science][Data Mining & Data Science] Net
+ Sci 2027 - One-page abstract submission (talk/poster) (cutoff time unanno
+ unced)
+DESCRIPTION:Conference title: International School and Conference on Networ
+ k Science\nWebsite: https://netsci2027.github.io/\nSource URL: https://ne
+ tsci2027.github.io/calls/abstracts/\nLocation: Dresden\, Germany\nTopics:
+  Complex Systems & Network Science\, Data Mining & Data Science\, Nonline
+ ar Dynamics & Chaos\nSize: L\nSubmission type: Abstract-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-28\nNotes: Official NetSci 2027 s
+ ite (TU Dresden) confirms May 17-21\, 2027 (satellites/school May 17-18\,
+  main conference May 18-21). One-page abstracts with a mandatory figure a
+ re due December 1\, 2026\; the call opened October 9. No cutoff hour/zone
+  is stated\, so T23:59 AoE is provisional. Presentation route\, not archi
+ val proceedings. Distinct from NetSciX. Size is editorial.\nOfficial dead
+ line day\; exact cutoff hour/timezone is unannounced. Verify the organize
+ r's submission portal.
+URL:https://netsci2027.github.io/calls/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:[Complex Systems & Network Science][Data Mining & Data Science] Net
+ Sci 2027 - Abstract acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: International School and Conference on Networ
+ k Science\nWebsite: https://netsci2027.github.io/\nSource URL: https://ne
+ tsci2027.github.io/calls/abstracts/\nLocation: Dresden\, Germany\nTopics:
+  Complex Systems & Network Science\, Data Mining & Data Science\, Nonline
+ ar Dynamics & Chaos\nSize: L\nSubmission type: Abstract-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-28\nNotes: Official NetSci 2027 s
+ ite (TU Dresden) confirms May 17-21\, 2027 (satellites/school May 17-18\,
+  main conference May 18-21). One-page abstracts with a mandatory figure a
+ re due December 1\, 2026\; the call opened October 9. No cutoff hour/zone
+  is stated\, so T23:59 AoE is provisional. Presentation route\, not archi
+ val proceedings. Distinct from NetSciX. Size is editorial.\nOfficial dead
+ line day\; exact cutoff hour/timezone is unannounced. Verify the organize
+ r's submission portal.
+URL:https://netsci2027.github.io/calls/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270522
+SUMMARY:[Complex Systems & Network Science][Data Mining & Data Science] Net
+ Sci 2027 - Conference
+DESCRIPTION:Conference title: International School and Conference on Networ
+ k Science\nWebsite: https://netsci2027.github.io/\nSource URL: https://ne
+ tsci2027.github.io/\nLocation: Dresden\, Germany\nTopics: Complex Systems
+  & Network Science\, Data Mining & Data Science\, Nonlinear Dynamics & Ch
+ aos\nSize: L\nSubmission type: Abstract-based\nConfidence: confirmed\nLas
+ t checked date: 2026-10-28\nNotes: Official NetSci 2027 site (TU Dresden)
+  confirms May 17-21\, 2027 (satellites/school May 17-18\, main conference
+  May 18-21). One-page abstracts with a mandatory figure are due December 
+ 1\, 2026\; the call opened October 9. No cutoff hour/zone is stated\, so 
+ T23:59 AoE is provisional. Presentation route\, not archival proceedings.
+  Distinct from NetSciX. Size is editorial.
+URL:https://netsci2027.github.io/
+LOCATION:Dresden\, Germany
+END:VEVENT
+END:VCALENDAR

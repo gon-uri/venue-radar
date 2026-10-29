@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE SSP (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-special-session-proposal@scientific-conference-c
+ alendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Special sessi
+ on and tutorial proposals due (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/call-for-papers/\nLocation: Annecy\, France\nTopics: Signal Processing\
+ , Machine Learning\, Time Series & Sequential Data\, Probabilistic\, Caus
+ al & Uncertainty ML\nSize: M\nSubmission type: Paper-based / specialist w
+ orkshop\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Off
+ icial SSP 2027 pages confirm the 24th edition at Centre de Congres Imperi
+ al\, Annecy\, Jun 28-Jul 1\, 2027. The author page states deadlines are 2
+ 3:59 AoE (UTC-12)\; regular and special-session papers share the Feb 7 de
+ adline and one submission system. The Dec 7 proposal cutoff hour is unsta
+ ted.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. 
+ Verify the organizer's submission portal.
+URL:https://ssp27.ieeesps.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270208T115900Z
+DTEND:20270208T125900Z
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Paper submiss
+ ion deadline
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/submit-paper/\nLocation: Annecy\, France\nTopics: Signal Processing\, M
+ achine Learning\, Time Series & Sequential Data\, Probabilistic\, Causal 
+ & Uncertainty ML\nSize: M\nSubmission type: Paper-based / specialist work
+ shop\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al SSP 2027 pages confirm the 24th edition at Centre de Congres Imperial\
+ , Annecy\, Jun 28-Jul 1\, 2027. The author page states deadlines are 23:5
+ 9 AoE (UTC-12)\; regular and special-session papers share the Feb 7 deadl
+ ine and one submission system. The Dec 7 proposal cutoff hour is unstated
+ .
+URL:https://ssp27.ieeesps.org/submit-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Notification 
+ of acceptance (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/submit-paper/\nLocation: Annecy\, France\nTopics: Signal Processing\, M
+ achine Learning\, Time Series & Sequential Data\, Probabilistic\, Causal 
+ & Uncertainty ML\nSize: M\nSubmission type: Paper-based / specialist work
+ shop\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al SSP 2027 pages confirm the 24th edition at Centre de Congres Imperial\
+ , Annecy\, Jun 28-Jul 1\, 2027. The author page states deadlines are 23:5
+ 9 AoE (UTC-12)\; regular and special-session papers share the Feb 7 deadl
+ ine and one submission system. The Dec 7 proposal cutoff hour is unstated
+ .\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Ver
+ ify the organizer's submission portal.
+URL:https://ssp27.ieeesps.org/submit-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270501T115900Z
+DTEND:20270501T125900Z
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Camera-ready 
+ and author registration deadline
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/submit-paper/\nLocation: Annecy\, France\nTopics: Signal Processing\, M
+ achine Learning\, Time Series & Sequential Data\, Probabilistic\, Causal 
+ & Uncertainty ML\nSize: M\nSubmission type: Paper-based / specialist work
+ shop\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al SSP 2027 pages confirm the 24th edition at Centre de Congres Imperial\
+ , Annecy\, Jun 28-Jul 1\, 2027. The author page states deadlines are 23:5
+ 9 AoE (UTC-12)\; regular and special-session papers share the Feb 7 deadl
+ ine and one submission system. The Dec 7 proposal cutoff hour is unstated
+ .
+URL:https://ssp27.ieeesps.org/submit-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270702
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Conference
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/\nLocation: Annecy\, France\nTopics: Signal Processing\, Machine Learni
+ ng\, Time Series & Sequential Data\, Probabilistic\, Causal & Uncertainty
+  ML\nSize: M\nSubmission type: Paper-based / specialist workshop\nConfide
+ nce: confirmed\nLast checked date: 2026-10-28\nNotes: Official SSP 2027 p
+ ages confirm the 24th edition at Centre de Congres Imperial\, Annecy\, Ju
+ n 28-Jul 1\, 2027. The author page states deadlines are 23:59 AoE (UTC-12
+ )\; regular and special-session papers share the Feb 7 deadline and one s
+ ubmission system. The Dec 7 proposal cutoff hour is unstated.
+URL:https://ssp27.ieeesps.org/
+LOCATION:Annecy\, France
+END:VEVENT
+END:VCALENDAR

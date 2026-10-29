@@ -25,7 +25,7 @@ class LanguageRoboticsAdditionTests(unittest.TestCase):
 
     def test_approved_series_have_reviewed_source_metadata(self):
         self.assertEqual({item['series'] for item in self.records.values()}, ADDED)
-        self.assertEqual(len(self.records), 22)
+        self.assertGreaterEqual(len(self.records), 22)  # later editions may be added
         scopes = load_scopes()
         for series in ADDED:
             self.assertEqual(scopes[series]['scope_last_checked'], '2026-10-07')

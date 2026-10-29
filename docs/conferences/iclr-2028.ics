@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICLR 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:iclr-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270919T115900Z
+DTEND:20270919T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Abstra
+ ct submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270926T115900Z
+DTEND:20270926T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Paper 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2027/Dates\nLocation: To be announced\nTopics: Deep Representation Lea
+ rning\, Machine Learning\, Explainability & Interpretability\, Robustness
+  & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConfiden
+ ce: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29 ICL
+ R has not announced a 2028 meeting\; its official future-meetings page li
+ sts only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 25 p
+ aper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Learnin
+ g representations and understanding deep learning\, with an emphasis on s
+ elf-supervised learning\, generative models\, transfer and meta-learning\
+ , and the optimization and theory of learned representations. Language\, 
+ vision\, probabilistic modeling\, and reinforcement learning are substant
+ ial areas\, rather than unrelated application-domain tags.\nAdditional to
+ pics: Learning Theory & Statistical Foundations\, Probabilistic\, Causal 
+ & Uncertainty ML\, Reinforcement Learning\, Natural Language Processing &
+  LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastructu
+ re\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\
+ nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280426
+DTEND;VALUE=DATE:20280501
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2028 - Confer
+ ence (estimated)
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/FutureMeetings\nLocation: To be announced\nTopics: Deep Representation
+  Learning\, Machine Learning\, Explainability & Interpretability\, Robust
+ ness & Safety\nSize: XXL\nSubmission type: Paper-based / OpenReview\nConf
+ idence: estimated\nLast checked date: 2026-10-29\nNotes: As of 2026-10-29
+  ICLR has not announced a 2028 meeting\; its official future-meetings pag
+ e lists only 2027. Meeting dates (Apr 26-30) and the Sep 18 abstract/Sep 
+ 25 paper deadlines (AoE) are one-year proxies from ICLR 2027.\nScope: Lea
+ rning representations and understanding deep learning\, with an emphasis 
+ on self-supervised learning\, generative models\, transfer and meta-learn
+ ing\, and the optimization and theory of learned representations. Languag
+ e\, vision\, probabilistic modeling\, and reinforcement learning are subs
+ tantial areas\, rather than unrelated application-domain tags.\nAdditiona
+ l topics: Learning Theory & Statistical Foundations\, Probabilistic\, Cau
+ sal & Uncertainty ML\, Reinforcement Learning\, Natural Language Processi
+ ng & LLMs\, Computer Vision & Pattern Recognition\, ML Systems & Infrastr
+ ucture\nScope sources (2027): https://iclr.cc/Conferences/2027/CallForPap
+ ers\nScope last checked: 2026-10-07
+URL:https://iclr.cc/Conferences/FutureMeetings
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

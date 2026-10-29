@@ -1,0 +1,214 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MIDL (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:midl-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251204T115900Z
+DTEND:20251204T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Full
+  paper registration deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-based\nConf
+ idence: confirmed\nLast checked date: 2026-08-20\nNotes: Official MIDL 20
+ 26 pages list conference dates\, location\, and paper deadlines.\nScope: 
+ Deep learning for biomedical image analysis\, especially segmentation\, d
+ etection\, reconstruction\, registration\, generative imaging\, and learn
+ ing from limited labels. Uncertainty\, interpretability\, multi-site lear
+ ning\, robustness\, and clinical validation extend that imaging core. Mul
+ timodal foundation models are relevant when grounded in medical imaging.\
+ nAdditional topics: Computer Vision & Pattern Recognition\, Probabilistic
+ \, Causal & Uncertainty ML\, Explainability & Interpretability\, Robustne
+ ss & Safety\, Federated & Distributed Learning\nScope sources (2026): htt
+ ps://2026.midl.io/call-for-papers\nScope last checked: 2026-10-07
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251211T115900Z
+DTEND:20251211T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-based\nConf
+ idence: confirmed\nLast checked date: 2026-08-20\nNotes: Official MIDL 20
+ 26 pages list conference dates\, location\, and paper deadlines.\nScope: 
+ Deep learning for biomedical image analysis\, especially segmentation\, d
+ etection\, reconstruction\, registration\, generative imaging\, and learn
+ ing from limited labels. Uncertainty\, interpretability\, multi-site lear
+ ning\, robustness\, and clinical validation extend that imaging core. Mul
+ timodal foundation models are relevant when grounded in medical imaging.\
+ nAdditional topics: Computer Vision & Pattern Recognition\, Probabilistic
+ \, Causal & Uncertainty ML\, Explainability & Interpretability\, Robustne
+ ss & Safety\, Federated & Distributed Learning\nScope sources (2026): htt
+ ps://2026.midl.io/call-for-papers\nScope last checked: 2026-10-07
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260416T115900Z
+DTEND:20260416T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Shor
+ t paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-based\nConf
+ idence: confirmed\nLast checked date: 2026-08-20\nNotes: Official MIDL 20
+ 26 pages list conference dates\, location\, and paper deadlines.\nScope: 
+ Deep learning for biomedical image analysis\, especially segmentation\, d
+ etection\, reconstruction\, registration\, generative imaging\, and learn
+ ing from limited labels. Uncertainty\, interpretability\, multi-site lear
+ ning\, robustness\, and clinical validation extend that imaging core. Mul
+ timodal foundation models are relevant when grounded in medical imaging.\
+ nAdditional topics: Computer Vision & Pattern Recognition\, Probabilistic
+ \, Causal & Uncertainty ML\, Explainability & Interpretability\, Robustne
+ ss & Safety\, Federated & Distributed Learning\nScope sources (2026): htt
+ ps://2026.midl.io/call-for-papers\nScope last checked: 2026-10-07
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260711
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Conf
+ erence
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/\nLocation: Taipe
+ i\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learning\, H
+ ealthcare & Clinical AI\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-08-20\nNotes: Official MIDL 2026 pa
+ ges list conference dates\, location\, and paper deadlines.\nScope: Deep 
+ learning for biomedical image analysis\, especially segmentation\, detect
+ ion\, reconstruction\, registration\, generative imaging\, and learning f
+ rom limited labels. Uncertainty\, interpretability\, multi-site learning\
+ , robustness\, and clinical validation extend that imaging core. Multimod
+ al foundation models are relevant when grounded in medical imaging.\nAddi
+ tional topics: Computer Vision & Pattern Recognition\, Probabilistic\, Ca
+ usal & Uncertainty ML\, Explainability & Interpretability\, Robustness & 
+ Safety\, Federated & Distributed Learning\nScope sources (2026): https://
+ 2026.midl.io/call-for-papers\nScope last checked: 2026-10-07
+URL:https://2026.midl.io/
+LOCATION:Taipei\, Taiwan
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261201T115900Z
+DTEND:20261201T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Full
+  paper registration deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.\nScope: Deep learning for biomedical image analysis\, especially segm
+ entation\, detection\, reconstruction\, registration\, generative imaging
+ \, and learning from limited labels. Uncertainty\, interpretability\, mul
+ ti-site learning\, robustness\, and clinical validation extend that imagi
+ ng core. Multimodal foundation models are relevant when grounded in medic
+ al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
+ robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
+ y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
+  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
+ 0-07
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.\nScope: Deep learning for biomedical image analysis\, especially segm
+ entation\, detection\, reconstruction\, registration\, generative imaging
+ \, and learning from limited labels. Uncertainty\, interpretability\, mul
+ ti-site learning\, robustness\, and clinical validation extend that imagi
+ ng core. Multimodal foundation models are relevant when grounded in medic
+ al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
+ robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
+ y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
+  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
+ 0-07
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270313T115900Z
+DTEND:20270313T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Came
+ ra-ready deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.\nScope: Deep learning for biomedical image analysis\, especially segm
+ entation\, detection\, reconstruction\, registration\, generative imaging
+ \, and learning from limited labels. Uncertainty\, interpretability\, mul
+ ti-site learning\, robustness\, and clinical validation extend that imagi
+ ng core. Multimodal foundation models are relevant when grounded in medic
+ al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
+ robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
+ y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
+  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
+ 0-07
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Conf
+ erence
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.\nScope: Deep learning for biomedical image analysis\, especially segm
+ entation\, detection\, reconstruction\, registration\, generative imaging
+ \, and learning from limited labels. Uncertainty\, interpretability\, mul
+ ti-site learning\, robustness\, and clinical validation extend that imagi
+ ng core. Multimodal foundation models are relevant when grounded in medic
+ al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
+ robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
+ y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
+  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
+ 0-07
+URL:https://2027.midl.io/important-dates
+LOCATION:Porto\, Portugal
+END:VEVENT
+END:VCALENDAR

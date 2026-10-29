@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:COMPLEX NETWORKS 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-extended-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Extended abstract submission deadline (independent rout
+ e) (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-full-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271204
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: To be announced\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: estimated\nLast checked date: 2026
+ -10-29\nNotes: As of 2026-10-29 complexnetworks.org and the Complex Syste
+ ms Society events page announce no 2027 host or dates. Meeting and AoE fu
+ ll-paper/extended-abstract dates are one-year same-weekday proxies from C
+ OMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on its original Sep 2 de
+ adline rather than the Sep 13 extension.\nScope: Structure\, inference an
+ d dynamics of complex networks\, including community structure\, multilay
+ er and temporal networks\, spreading processes\, graph learning and netwo
+ rk neuroscience. Network methods\, rather than a broad inventory of every
+  application\, characterize the meeting. Full papers and extended abstrac
+ ts have separate publication outcomes.\nAdditional topics: Time Series & 
+ Sequential Data\, Machine Learning\, Computational Neuroscience\nScope so
+ urces (2026): https://complexnetworks.org/submission/\nScope last checked
+ : 2026-10-08
+URL:https://complexnetworks.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

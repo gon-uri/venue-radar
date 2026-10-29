@@ -59,7 +59,7 @@ are valid. Conflicting organizer dates stay provisional pending reconciliation.
 | `scripts/rollover_editions.py` | Add to `CADENCE_YEARS` only for verified recurrence. | Recheck cadence; irregular/joint series stay outside automatic projection. |
 | `data/metadata.yml` | Update actual dataset-review date before rebuilding. | Same rule. |
 | `data/core_conferences_normalized_tags.xlsx` | Synchronize from YAML; verify the appended series. | Synchronize if its latest-edition mirrored fields change. |
-| `project_docs/` | Update current status/topic counts, sources/caveats and session log; resolve any candidate-backlog change. | Record verified changes and outstanding review items. |
+| `project_docs/` | Update current status/topic counts, sources/caveats and material verification; resolve any candidate-backlog change. | Record verified changes and outstanding review items. |
 | `tests/` and generated `docs/` | Cover changed behavior/identity risks; update catalog-specific browser expectations and rebuild. | Same verification rule; existing event IDs must stay stable. |
 
 Read [topic audit](topic_audit.md) and [scope curation](conference_scopes.md)

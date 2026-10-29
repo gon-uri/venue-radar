@@ -189,7 +189,9 @@ The maintained configuration lives in `assets/site.js`. It uses repository ID
 `Venue Radar community` for this repository. Preserve that mapping during
 routine edits; changing it can create a new comment thread. GitHub sign-in is
 required. The direct Discussions link and request form work independently.
-Existing setup was verified in the dated session records, not rechecked by a build.
+Existing setup verification is a historical baseline, not something rechecked
+by a build. Recheck the official configuration when changing these services;
+private session notes are not required for that workflow.
 
 ### Repository Rename
 

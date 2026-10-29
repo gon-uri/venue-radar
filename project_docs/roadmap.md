@@ -20,8 +20,8 @@ below are history, not instructions to reimplement old designs.
   header calendar action, more evident tab selection, inline Search, clearer
   topic/subtopic disclosure cues, and an always-visible deadline opportunities
   checkbox outside the filter panel. Larger title/logo and filter-disclosure
-  sizing accompany the selected, locally embedded Audiowide title. Ten font
-  specimens and the final choice are documented in typography_proposal.md.
+  sizing accompany the selected, locally embedded Audiowide title. Selected
+  typography and asset provenance are documented in [branding](branding.md).
   Conference names now use semibold weight 600 without increasing font size
   or changing color in either table, including past editions.
 - Completed mobile scanning: cards show only their first three fields initially,
@@ -41,7 +41,8 @@ below are history, not instructions to reimplement old designs.
   plain-text README department name, approved Conferences & Map label and
   personal-project clarification at the end of README's final paragraph.
   The selected ML/AI-first introduction highlights neuroscience, healthcare,
-  complex systems and control. Exact copy and alternatives are in site_copy.md.
+  complex systems and control. Exact current copy is in site_copy.md;
+  rejected alternatives remain optional local working history.
 - Completed repository migration: gon-uri/venue-radar with updated public
   links, Giscus name, attribution, and Git origin. Preserve all published event
   UIDs and the existing community mapping; old feed subscriptions need new URLs.
@@ -170,9 +171,12 @@ below are history, not instructions to reimplement old designs.
 - Goal: Make the repository self-documenting for future Codex sessions without relying on conversation history.
 - Priority: High
 - Dependencies: AGENTS.md, the documentation index, current status/architecture,
-  field reference, addition/maintenance/development guides, ADRs and session log.
+  field reference, addition/maintenance/development guides and technical ADRs.
 - Estimated complexity: Low
 - Completion status: Completed
 - Completed onboarding audit: task-based navigation, complete addition checklist,
   schema examples, current-versus-historical separation and link/example regressions.
   Keep these guides synchronized as schema or workflow changes.
+- Completed documentation boundary: gitignored local session/design/copy notes,
+  self-contained public handbook, current-branding guide and ignore/tracking
+  regressions. Detailed working logs are not required for a fresh clone.

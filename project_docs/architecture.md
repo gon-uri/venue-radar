@@ -44,7 +44,8 @@ backend. No calendar/ranking/filter feature depends on it.
 | `data/core_conferences_normalized_tags.xlsx` | Latest-series catalog, vocabulary and scope review mirror; not canonical data. |
 | `assets/` | Embedded site CSS/JS, logos, favicon, font, map geometry and vendor notices. |
 | `docs/` | Generated public HTML and ICS only; never edit by hand. |
-| `project_docs/` | Maintained handbook, evidence, decisions and session history. |
+| `project_docs/` | Public handbook, source evidence and technical decisions. |
+| `private_notes/` | Optional gitignored working logs, brainstorming and design/copy history; not a build input. |
 | `.github/ISSUE_TEMPLATE/` | Public conference request form. |
 | `.github/workflows/build.yml` | Python validation/tests/build CI. |
 
@@ -123,7 +124,8 @@ identities. Topic slugs and Giscus IDs/mapping are similarly durable.
 
 UI dimensions/colors and their approved history are covered by source assets,
 regression tests and ADR-022/024/025/032-036, not repeated in every handbook file.
-Selected copy lives in [site copy](site_copy.md) and [sharing](sharing.md).
+Selected copy lives in [site copy](site_copy.md) and [sharing](sharing.md);
+selected assets/provenance in [branding](branding.md).
 Licensing: MIT code, CC BY 4.0 original content/artwork, preserved vendor notices.
 Both licenses permit commercial reuse with their respective notices/attribution.
 
@@ -137,8 +139,9 @@ build output. Pages serves the committed files, not CI's working copy.
 
 Use [data maintenance](data_maintenance.md), [adding conferences](adding_conferences.md)
 and [development](development.md) for commands and acceptance criteria. Current
-state belongs in [implementation status](implementation_status.md), future work
-in [roadmap](roadmap.md), rationale in [decisions](decisions.md), and actual
-checks/outcomes in the newest [session entry](session_log.md). Follow
+state and release verification belong in [implementation status](implementation_status.md),
+future work in [roadmap](roadmap.md), and technical rationale in [decisions](decisions.md).
+Detailed working logs stay local under the [documentation policy](documentation_policy.md);
+private notes are never a required input for agents, contributors or builds. Follow
 [AGENTS.md](../AGENTS.md) and the [documentation index](README.md), not a requirement
 to read every historical proposal before a small change.

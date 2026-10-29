@@ -1,8 +1,9 @@
 # Implementation Status
 
 Last synchronized: 2026-10-08. This is the current-state summary, not a release
-history. Start with [the documentation index](README.md); historical counts and
-prior designs remain in [decisions](decisions.md) and [session log](session_log.md).
+history. Start with [the documentation index](README.md); technical history
+remains in [decisions](decisions.md). Detailed local working notes follow the
+[documentation policy](documentation_policy.md) and are not required to onboard.
 
 ## Current Snapshot
 
@@ -72,9 +73,10 @@ files, taxonomy, dates, publication caveats and verification. [Development](deve
 covers Python setup, standalone validation, tests, builds, XLSX synchronization,
 browser checks and publication. Optional Node tools are not website/build dependencies.
 
-The onboarding audit adds a task index, field/addition guides and six automated
-documentation checks. All 87 Python tests pass; a full rebuild preserves every
-public artifact and canonical/mirrored data value. See the newest session entry.
+The onboarding audit added a task index, field/addition guides and six automated
+documentation checks; its 87-test baseline and rebuild changed no public
+artifact or canonical/mirrored data. The public/private documentation split
+adds ignore/tracking checks and keeps onboarding independent of private notes.
 
 ## Open Editorial Work
 
@@ -108,5 +110,12 @@ and Pages `37794090302` passed; live HTML and all 28 aggregate/new feeds matched
 local output and live browser smoke passed. Documentation follow-up `63ccda5`
 changed no data, assets, scripts, tests or generated outputs.
 
-New checks and publication results belong in the newest session entry. Do not
-infer a fresh source review from this historical verification baseline.
+Documentation release `eddd814` passed all 87 Python tests, Build `37841704695`
+and Pages `37841704129`; canonical data, workbook, assets and generated outputs
+were unchanged. The documentation split likewise changes no conference or UI
+behavior: all 89 Python tests pass, 166 records validate, local documentation
+links resolve, private notes are ignored/untracked, and a full rebuild leaves
+all data, workbook, assets, scripts, public README and HTML/212 feeds unchanged.
+No new browser check, source refresh or publication is claimed for this local
+documentation split. Record new material checks/limitations here and detailed
+working logs locally; do not infer a fresh source review from these baselines.

@@ -141,10 +141,13 @@ regenerate artwork during a conference-data or documentation-only update.
    git diff --check -- . ':!docs/*.ics' ':!docs/conferences/*.ics' ':!docs/tags/*.ics'
    ```
 
-5. Update affected current guides, dated evidence and the newest session entry;
-   add an ADR only for a meaningful new decision. Keep public README simple.
+5. Update affected current guides, dated evidence and material verification in
+   public status; add an ADR only for a meaningful technical decision. Keep
+   detailed session logs in ignored local notes and public README simple.
    Documentation-only work should leave `data/`, `assets/`, `scripts/`, `docs/`
    and the public README byte-identical; new documentation tests are acceptable.
+   Follow [documentation policy](documentation_policy.md) and check
+   `git ls-files -- private_notes/` is empty; never force-add private notes.
 6. When publication is requested, commit source/data/output/docs together and
    push the intended branch. Current Pages deployment is `main/docs`; changing
    that configuration is not part of a routine update.
@@ -152,7 +155,7 @@ regenerate artwork during a conference-data or documentation-only update.
    aggregate/topic/edition feeds with the tested files. Run affected live
    browser checks when appropriate. A successful push alone is not proof of a
    deployed page. Record workflow IDs/results and any unresolved limitations;
-   a docs-only verification note can be a follow-up commit with no artifact changes.
+   material results belong in public status, the detailed diary stays local.
 
 Giscus authentication/posting is deliberately outside smoke tests. Owner setup
 and rename safeguards are in [project services](data_maintenance.md#project-services).

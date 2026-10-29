@@ -11,11 +11,16 @@ Read these files before changing anything:
 - [Current status](project_docs/implementation_status.md)
 - [Roadmap](project_docs/roadmap.md)
 - [Architecture and file ownership](project_docs/architecture.md)
-- [Decisions](project_docs/decisions.md), respecting later superseding decisions
-- [Session log](project_docs/session_log.md), starting with the newest entries
+- [Technical decisions](project_docs/decisions.md), respecting later refinements
+- [Public/private documentation policy](project_docs/documentation_policy.md)
 
 Then reconstruct the current project state from the repository. If the docs and
 code disagree, update the docs before implementing new work.
+
+Optional local context may exist in `private_notes/README.md` and
+`private_notes/session_log.md`. Read it only when useful; a fresh clone without
+private notes must be fully maintainable. Current source/public guides take
+precedence over historical notes. Never force-add or publish this directory.
 
 ## Choose The Workflow
 
@@ -47,6 +52,10 @@ code disagree, update the docs before implementing new work.
 - `docs/` is reserved for generated GitHub Pages outputs: `index.html` and
   `.ics` feeds.
 - `project_docs/` contains maintained project-state documentation.
+- `private_notes/` is gitignored local working history: detailed session logs,
+  brainstorming, personal preferences, unfinished plans and rejected designs.
+  Public requirements, source evidence and maintenance procedures stay in
+  `project_docs/`; do not put credentials or sensitive material in local notes.
 - `project_docs/conference_candidates.md` preserves the dated AI Deadlines
   comparison and untracked candidate backlog. Consult it before expanding the
   catalog; candidates are not approved additions or confirmed calendar data.
@@ -89,9 +98,13 @@ python3 scripts/build_all.py
 
 - Update affected files in `project_docs/`.
 - Record important technical decisions in `project_docs/decisions.md`.
-- Add a dated session entry at the top of `project_docs/session_log.md`.
+- Keep detailed session entries in `private_notes/session_log.md`, newest first;
+  create the ignored directory/log locally if needed. Public status/guides must
+  still contain material outcomes, evidence gaps and verification limitations.
 - Verify source changes and generated outputs together; include browser checks
   for affected data/UI behavior and workbook checks when the mirror changes.
 - Follow the development guide's publication checklist when publishing is
   requested; record checks actually performed and any remaining limitations.
+- Check that no private notes are staged; Git does not back them up or erase
+  their previously published history.
 - Keep changes small and reviewable.

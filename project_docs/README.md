@@ -11,14 +11,14 @@ this directory is the maintainer/agent handbook.
 
 1. Read [AGENTS.md](../AGENTS.md), [current status](implementation_status.md),
    [roadmap](roadmap.md) and [architecture](architecture.md).
-2. Read [decisions](decisions.md) for the invariants and relevant ADRs, then
-   the newest [session entries](session_log.md) for recent work and verification.
+2. Read [technical decisions](decisions.md) for the invariants and relevant ADRs,
+   and [documentation policy](documentation_policy.md) for the public/private split.
 3. Check `git status --short`; preserve unrelated local changes. Choose the
    task guide below and inspect the relevant source files before editing.
 
-Current guides describe the implemented behavior. ADRs and session entries are
-dated history: older counts, designs and rejected proposals are not current
-requirements. Follow an explicitly superseding ADR, not an earlier alternative.
+Current guides describe the implemented behavior. ADRs are dated technical
+history: older counts and superseded designs are not current requirements.
+Follow an explicitly superseding ADR, not an earlier alternative.
 If code and current guidance disagree, investigate and correct the documentation
 before new implementation work. Do not silently change code to match old prose.
 
@@ -37,7 +37,9 @@ before new implementation work. Do not silently change code to match old prose.
 | Configure Giscus or migrate repository URLs | [Data maintenance: project services](data_maintenance.md#project-services) |
 | Find deferred conference candidates | [Candidate backlog](conference_candidates.md) |
 | Understand a technical tradeoff | [Decisions](decisions.md) |
-| Recover recent checks and publication results | [Session log](session_log.md) |
+| Check release verification | [Current status](implementation_status.md), relevant tests, commits and CI results |
+| Decide what is public documentation or a local working note | [Documentation policy](documentation_policy.md) |
+| Maintain the selected logo, font, banner and provenance | [Current branding](branding.md) |
 
 ## Evidence And Design Records
 
@@ -51,16 +53,20 @@ approval to add venues:
 - [Complex-systems/neuroscience expansion](dynamics_neuroscience_expansion.md):
   abstract-only formats, regional Dynamics Days, date conflicts and follow-ups.
 - [Site copy](site_copy.md) and [sharing](sharing.md): selected public wording.
-- [Branding proposal](branding_proposal.md) and
-  [typography proposal](typography_proposal.md): design exploration and selected
-  assets; alternatives are historical, not instructions to apply every design.
+- [Current branding](branding.md): selected assets, typography and provenance.
+
+Detailed session logs, font/logo explorations and rejected copy drafts live
+in the ignored `private_notes/` folder when available locally. They are optional
+context, not linked dependencies or part of a fresh clone. The public handbook
+retains everything needed to understand and maintain the project.
 
 ## Keep The Handbook Useful
 
 - Put current behavior in status/architecture and task procedures in their
   owning guide. Link to detail rather than repeat it across every file.
-- Record new rationale in the next numbered ADR and outcomes in a new dated
-  session entry at the top. Preserve historical evidence and decisions.
+- Record material technical rationale in the next numbered ADR. Keep detailed
+  working history in local private notes; promote requirements, evidence,
+  follow-ups and important verification results into their public owning guide.
 - Update the index when adding a maintained guide. Counts in dated audit
   snapshots are historical; current catalog counts belong in status/topic audit.
 - Record what was actually verified. Structural validation does not prove an

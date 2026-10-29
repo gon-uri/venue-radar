@@ -1,5 +1,6 @@
 from pathlib import Path
 import re
+import subprocess
 import sys
 import unittest
 from urllib.parse import unquote, urlsplit
@@ -39,6 +40,8 @@ class DocumentationTests(unittest.TestCase):
                 with self.subTest(document=document.name, href=href):
                     self.assertTrue(target.is_file(), f'Missing link target: {target}')
                     self.assertIn(ROOT, target.parents, 'Maintained links must be repository-local')
+                    self.assertNotIn(ROOT / 'private_notes', target.parents,
+                                     'Public documentation must not depend on private notes')
                     if url.fragment and target.suffix == '.md':
                         self.assertIn(unquote(url.fragment), heading_anchors(target.read_text(encoding='utf-8')))
 
@@ -52,13 +55,28 @@ class DocumentationTests(unittest.TestCase):
     def test_agent_entrypoint_includes_workflows_and_full_local_checks(self):
         agents = (ROOT / 'AGENTS.md').read_text()
         for name in ['README', 'implementation_status', 'architecture', 'roadmap',
-                     'decisions', 'session_log', 'adding_conferences', 'data_schema',
+                     'decisions', 'documentation_policy', 'adding_conferences', 'data_schema',
                      'data_maintenance', 'development', 'conference_scopes', 'topic_audit']:
             self.assertIn(f'project_docs/{name}.md', agents)
         for command in ['python3 scripts/validate.py',
                         'python3 -m unittest discover -s tests -v',
                         'python3 scripts/build_all.py']:
             self.assertIn(command, agents)
+
+    def test_private_notes_are_ignored_without_requiring_files_to_exist(self):
+        paths = ['private_notes/README.md', 'private_notes/session_log.md',
+                 'private_notes/nested/unfinished-plan.md']
+        result = subprocess.run(['git', 'check-ignore', '--no-index', '--stdin'],
+                                input='\n'.join(paths) + '\n', text=True,
+                                capture_output=True, cwd=ROOT)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(result.stdout.splitlines(), paths)
+
+    def test_private_notes_are_not_tracked(self):
+        result = subprocess.run(['git', 'ls-files', '--', 'private_notes/'],
+                                text=True, capture_output=True, cwd=ROOT)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(result.stdout, '', 'Private notes must never be committed')
 
     def test_field_reference_matches_required_fields_and_supported_types(self):
         schema = (ROOT / 'project_docs' / 'data_schema.md').read_text()

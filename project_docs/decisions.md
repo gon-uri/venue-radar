@@ -13,7 +13,7 @@ explicit refinements take precedence. Current rules live in
 | --- | --- |
 | Static architecture, YAML ownership, committed outputs | ADR-001/002/003/005/007 |
 | Stable identities, joint editions, renames | ADR-004/009/019/026 |
-| Agent handbook and documentation ownership | ADR-006/008/037 |
+| Agent handbook and documentation ownership | ADR-038 refines ADR-006/008/037; private working logs are optional |
 | Reviewed evidence, date-only precision, conservative recurrence | ADR-011/015/017/024/031/036 |
 | Direct ranks and historical rates | ADR-012/014/018/025 |
 | Eight central families and curated leaves/scopes | ADR-028/030/036; ADR-020's earlier seven-family matching is superseded |
@@ -66,6 +66,8 @@ explicit refinements take precedence. Current rules live in
 ## ADR-006: Maintain Persistent Project-State Documentation
 
 - Date: 2026-07-08
+- Refinement: ADR-038 keeps public project state self-contained while moving
+  detailed session diaries to optional ignored local notes.
 - Context: Codex chat context may expire, but future sessions must be able to continue from repository state alone.
 - Decision: Maintain `project_docs/implementation_status.md`, `project_docs/roadmap.md`, `project_docs/architecture.md`, `project_docs/decisions.md`, and `project_docs/session_log.md` as required project-state files.
 - Alternatives considered: Rely on chat history; keep notes outside the repo; use only `README.md`.
@@ -568,6 +570,8 @@ explicit refinements take precedence. Current rules live in
 ## ADR-037: Separate Current Guides From Historical Project Memory
 
 - Date: 2026-10-08
+- Refinement: ADR-038 replaces tracked session/design diaries with local private
+  notes; source evidence, current guides and technical rationale stay public.
 - Context: A new agent had to reconstruct a conference update from lengthy
   status, architecture, maintenance and history files. No complete addition
   checklist or field guide explained the cross-file requirements and traps.
@@ -588,3 +592,19 @@ explicit refinements take precedence. Current rules live in
 - Consequences: Documentation-only work must preserve conference YAML, XLSX,
   website sources, artwork, public copy and generated output. Documentation
   tests check local links, guide coverage and executable schema examples.
+
+## ADR-038: Keep Working Notes Local And Public Guides Self-Contained
+
+- Date: 2026-10-08
+- Decision: Ignore the root `private_notes/` directory. Put detailed session
+  diaries, brainstorming, unfinished plans, personal preferences and rejected
+  design/copy options there. Keep AGENTS, the handbook, evidence, current
+  requirements, material release verification and technical decisions public.
+- Maintenance: Private notes are optional, never an onboarding/build/CI
+  dependency. Update current public guides before relying on a new local note;
+  never force-add the private directory. The public documentation policy owns
+  this boundary; concise branding/copy guides retain implemented choices.
+- Consequences: A fresh clone remains maintainable. Private notes need separate
+  backup and are not secured by Gitignore. The move removes current tracked
+  diaries/proposals, not previously published Git history; no history rewrite
+  is performed. ADR-006/008/037's public session-log requirements are superseded.

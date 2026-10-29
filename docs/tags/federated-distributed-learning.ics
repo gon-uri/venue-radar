@@ -315,8 +315,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsys-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261030T200000Z
-DTEND:20261030T210000Z
+DTSTART:20261030T190000Z
+DTEND:20261030T200000Z
 SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Resear
  ch and industrial paper submission deadline
 DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
@@ -325,19 +325,22 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
  , USA\nTopics: ML Systems & Infrastructure\, Machine Learning\, Federated
   & Distributed Learning\, Natural Language Processing & LLMs\nSize: L\nSu
  bmission type: Paper-based / research and industrial tracks\nConfidence: 
- confirmed\nLast checked date: 2026-10-07\nNotes: Tenth annual edition. CF
- P explicitly specifies 20:00 UTC for Oct 10 opening and Oct 30 closing. T
- he homepage's noon PDT listing is inconsistent by one hour\; prefer the e
- xplicit CFP UTC times and recheck the submission portal before the deadli
- ne. No separate abstract prerequisite is announced. Size L is an editoria
- l estimate.\nScope: The intersection of machine learning and computer sys
- tems\, including efficient training\, inference and serving\, compilers a
- nd runtimes\, programming abstractions\, specialized hardware\, distribut
- ed learning\, and system monitoring. LLM and agentic workloads are consid
- ered from a systems perspective. Both systems for ML and ML methods that 
- improve computing systems are relevant.\nAdditional topics: Reinforcement
-  Learning\, Privacy-preserving ML\nScope sources (2027): https://mlsys.or
- g/Conferences/2027/CallForResearchPapers\nScope last checked: 2026-10-07
+ confirmed\nLast checked date: 2026-10-29\nNotes: Tenth annual edition. Th
+ e CFP and OpenReview give 20:00 UTC for the Oct 19 opening and Oct 30 clo
+ sing\, while the homepage and Dates page list noon PDT (19:00 UTC)\; the 
+ earlier closing instant is stored per the cutoff note\, and opens_at foll
+ ows the OpenReview portal. No separate abstract prerequisite is announced
+ . Size L is an editorial estimate.\nScope: The intersection of machine le
+ arning and computer systems\, including efficient training\, inference an
+ d serving\, compilers and runtimes\, programming abstractions\, specializ
+ ed hardware\, distributed learning\, and system monitoring. LLM and agent
+ ic workloads are considered from a systems perspective. Both systems for 
+ ML and ML methods that improve computing systems are relevant.\nAdditiona
+ l topics: Reinforcement Learning\, Privacy-preserving ML\nScope sources (
+ 2027): https://mlsys.org/Conferences/2027/CallForResearchPapers\nScope la
+ st checked: 2026-10-07\nCutoff note: CFP and OpenReview say Oct 30 20:00 
+ UTC\; homepage and Dates page say 12:00 PM PDT (19:00 UTC). Earliest inst
+ ant stored.
 URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -680,19 +683,19 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
  ems & Infrastructure\, Machine Learning\, Federated & Distributed Learnin
  g\, Natural Language Processing & LLMs\nSize: L\nSubmission type: Paper-b
  ased / research and industrial tracks\nConfidence: confirmed\nLast checke
- d date: 2026-10-07\nNotes: Tenth annual edition. CFP explicitly specifies
-  20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
-  listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
- and recheck the submission portal before the deadline. No separate abstra
- ct prerequisite is announced. Size L is an editorial estimate.\nScope: Th
- e intersection of machine learning and computer systems\, including effic
- ient training\, inference and serving\, compilers and runtimes\, programm
- ing abstractions\, specialized hardware\, distributed learning\, and syst
- em monitoring. LLM and agentic workloads are considered from a systems pe
- rspective. Both systems for ML and ML methods that improve computing syst
- ems are relevant.\nAdditional topics: Reinforcement Learning\, Privacy-pr
- eserving ML\nScope sources (2027): https://mlsys.org/Conferences/2027/Cal
- lForResearchPapers\nScope last checked: 2026-10-07
+ d date: 2026-10-29\nNotes: Tenth annual edition. The CFP and OpenReview g
+ ive 20:00 UTC for the Oct 19 opening and Oct 30 closing\, while the homep
+ age and Dates page list noon PDT (19:00 UTC)\; the earlier closing instan
+ t is stored per the cutoff note\, and opens_at follows the OpenReview por
+ tal. No separate abstract prerequisite is announced. Size L is an editori
+ al estimate.\nScope: The intersection of machine learning and computer sy
+ stems\, including efficient training\, inference and serving\, compilers 
+ and runtimes\, programming abstractions\, specialized hardware\, distribu
+ ted learning\, and system monitoring. LLM and agentic workloads are consi
+ dered from a systems perspective. Both systems for ML and ML methods that
+  improve computing systems are relevant.\nAdditional topics: Reinforcemen
+ t Learning\, Privacy-preserving ML\nScope sources (2027): https://mlsys.o
+ rg/Conferences/2027/CallForResearchPapers\nScope last checked: 2026-10-07
 URL:https://mlsys.org/Conferences/2027
 LOCATION:Bellevue\, Washington\, USA
 END:VEVENT

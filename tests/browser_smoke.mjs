@@ -283,9 +283,10 @@ try {
   });
   assert(!(await page.locator('[data-deadline-group][data-edition="wacv-2027"]').isVisible()), 'WACV round 2 enrollment gates its later paper cutoff');
   await page.evaluate(() => {
-    Date.now = () => Date.parse('2026-10-11T12:00:00Z');
+    Date.now = () => Date.parse('2026-10-20T12:00:00Z');
     applyFilters();
   });
+  // MLSys opens Oct 19, 20:00 UTC (CFP and OpenReview).
   assert.equal(await page.locator('[data-edition="mlsys-2027"] [data-submission-status]').innerText(), 'Open paper submissions');
   await page.evaluate(() => {
     Date.now = () => Date.parse('2026-11-06T12:00:00Z');

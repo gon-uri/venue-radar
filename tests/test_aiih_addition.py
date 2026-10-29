@@ -30,12 +30,13 @@ class AIiHAdditionTests(unittest.TestCase):
 
     def test_routes_are_independent_and_keep_the_stated_offset(self) -> None:
         deadlines = {d["type"]: d for d in self.record["deadlines"]}
-        self.assertEqual(deadlines["full_paper"]["datetime"], "2027-04-09T23:59:00-08:00")
-        self.assertEqual(deadlines["abstract"]["datetime"], "2027-04-09T23:59:00-08:00")
+        # "11.59PM Pacific Time (GMT-8)" in a PDT month: earliest instant (GMT-7) plus a note.
+        self.assertEqual(deadlines["full_paper"]["datetime"], "2027-04-09T23:59:00-07:00")
+        self.assertEqual(deadlines["abstract"]["datetime"], "2027-04-09T23:59:00-07:00")
+        self.assertIn("GMT-8", deadlines["full_paper"]["cutoff_note"])
         self.assertTrue(all("gate_for" not in d for d in self.record["deadlines"]),
                         "The April abstract is an independent route, not a gate")
         self.assertEqual(deadlines["late_abstract"]["datetime"][:10], "2027-07-02")
-        self.assertIn("GMT-7", self.record["notes"], "The PT/GMT-8 discrepancy is documented")
         self.assertNotIn("AIiH", load_icore_rankings()["rankings"], "No unverified rank")
 
     def test_scope_profile_is_curated(self) -> None:

@@ -13,7 +13,13 @@ export async function checkVenueFeatures(page, url) {
 
   // Confirmed exact cutoffs show their recorded clock; estimates never do.
   const mlsysSummary = row('mlsys-2027').locator('[data-deadline-row]:visible');
-  assert.equal(await mlsysSummary.locator('.deadline-clock').innerText(), '20:00 UTC');
+  // MLSys: CFP says 20:00 UTC, homepage 12:00 PDT; the earliest instant is stored with a note.
+  assert.equal(await mlsysSummary.locator('.deadline-clock').innerText(), '12:00 UTC-7');
+  assert.equal(await mlsysSummary.locator('.cutoff-note-mark').innerText(), '*');
+  const [markBox, clockBox] = await Promise.all([mlsysSummary.locator('.cutoff-note-mark'), mlsysSummary.locator('.deadline-clock')]
+    .map(locator => locator.boundingBox()));
+  assert(Math.abs(markBox.y - clockBox.y) < 4 && markBox.x > clockBox.x, 'The asterisk stays on the clock line');
+  assert.match(await mlsysSummary.locator('.deadline-note').innerText(), /^(Note:\s*)?\* .*Earliest instant stored\.$/);
   assert.equal(await row('icml-2027').locator('.deadline-clock').count(), 0, 'Estimated rows have no clock');
   assert.equal(await row('ifac-sysid-2027').locator('[data-deadline-row]:visible .deadline-clock').count(), 0,
     'Date-only cutoffs have no clock');
@@ -115,7 +121,7 @@ export async function checkVenueFeatures(page, url) {
   await page.setViewportSize({width: 390, height: 844});
   const nextStep = row('mlsys-2027').locator('[data-next-step]');
   assert(await nextStep.isVisible());
-  assert.match(await nextStep.innerText(), /October 30, 2026, 20:00 UTC/);
+  assert.match(await nextStep.innerText(), /October 30, 2026, 12:00 UTC-7\*/);
   assert.match(await nextStep.innerText(), /Research and industrial paper submission/);
   assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), 'Mobile next step fits');
   await page.locator('#open-only').uncheck();

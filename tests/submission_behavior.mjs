@@ -30,9 +30,9 @@ export async function checkSubmissionBehavior(page) {
   await aamas.locator('.deadline-toggle').click();
 
   assert.equal(await status(mlsys).innerText(), 'Scheduled submission');
-  assert.match(await status(mlsys).getAttribute('title'), /opens Oct 10, 2026, 20:00 UTC \(your time: /);
+  assert.match(await status(mlsys).getAttribute('title'), /opens Oct 19, 2026, 20:00 UTC \(your time: /);
   assert.equal(await summary(mlsys).getAttribute('data-deadline-type'), 'full_paper');
-  await checkCountdown(mlsys, '2026-10-30T20:00:00Z');
+  await checkCountdown(mlsys, '2026-10-30T19:00:00Z');
   await mlsys.locator('.deadline-toggle').click();
   assert(await mlsys.locator('[data-deadline-type="full_paper_opens"]').isVisible());
   await mlsys.locator('.deadline-toggle').click();
@@ -44,11 +44,11 @@ export async function checkSubmissionBehavior(page) {
   assert.equal(await status(estimated).evaluate(label => getComputedStyle(label).color), 'rgb(118, 83, 33)');
   assert.match(await timeLeft(estimated).innerText(), /^~/);
 
-  await setClock('2026-10-10T19:59:59Z');
+  await setClock('2026-10-19T19:59:59Z');
   assert.equal(await status(mlsys).innerText(), 'Scheduled submission');
-  await setClock('2026-10-10T20:00:00Z');
+  await setClock('2026-10-19T20:00:00Z');
   assert.equal(await status(mlsys).innerText(), 'Open paper submissions');
-  await checkCountdown(mlsys, '2026-10-30T20:00:00Z');
+  await checkCountdown(mlsys, '2026-10-30T19:00:00Z');
 
   await setClock('2026-11-06T12:00:00Z');
   assert.equal(await status(aamas).innerText(), 'Closed to new submissions');

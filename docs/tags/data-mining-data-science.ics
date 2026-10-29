@@ -640,12 +640,13 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
- type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-29\n
  Notes: Official BHI 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-p
  age abstracts were extended to Aug 31 and late abstracts to Oct 31. The s
- ite says all deadlines are 11:59pm USA (PST)\, recorded as -08:00\, altho
- ugh Pacific clocks are on PDT (-07:00) on those dates\; the abstract Open
- Review group lists Nov 1 23:59 UTC.
+ ite says all deadlines are 11:59pm USA (PST)\, although Pacific clocks ar
+ e on PDT (-07:00) on those dates\; the abstract OpenReview group lists No
+ v 1 23:59 UTC. The closed rows keep -08:00\; the open late-abstract row s
+ tores the earliest (PDT) instant per its cutoff note.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -1066,12 +1067,13 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
- type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-29\n
  Notes: Official BHI 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-p
  age abstracts were extended to Aug 31 and late abstracts to Oct 31. The s
- ite says all deadlines are 11:59pm USA (PST)\, recorded as -08:00\, altho
- ugh Pacific clocks are on PDT (-07:00) on those dates\; the abstract Open
- Review group lists Nov 1 23:59 UTC.
+ ite says all deadlines are 11:59pm USA (PST)\, although Pacific clocks ar
+ e on PDT (-07:00) on those dates\; the abstract OpenReview group lists No
+ v 1 23:59 UTC. The closed rows keep -08:00\; the open late-abstract row s
+ tores the earliest (PDT) instant per its cutoff note.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -1548,8 +1550,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bhi-2026-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261101T075900Z
-DTEND:20261101T085900Z
+DTSTART:20261101T065900Z
+DTEND:20261101T075900Z
 SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
  6 - Late 1-page abstract submission (extended)
 DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
@@ -1557,12 +1559,15 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
- type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-29\n
  Notes: Official BHI 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-p
  age abstracts were extended to Aug 31 and late abstracts to Oct 31. The s
- ite says all deadlines are 11:59pm USA (PST)\, recorded as -08:00\, altho
- ugh Pacific clocks are on PDT (-07:00) on those dates\; the abstract Open
- Review group lists Nov 1 23:59 UTC.
+ ite says all deadlines are 11:59pm USA (PST)\, although Pacific clocks ar
+ e on PDT (-07:00) on those dates\; the abstract OpenReview group lists No
+ v 1 23:59 UTC. The closed rows keep -08:00\; the open late-abstract row s
+ tores the earliest (PDT) instant per its cutoff note.\nCutoff note: Site 
+ says Oct 31 11:59pm USA (PST)\, but Pacific clocks are on PDT then\; Open
+ Review says Nov 1 23:59 UTC. Earliest (PDT) instant stored.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -1915,8 +1920,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ida-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261129T115959Z
-DTEND:20261129T125959Z
+DTSTART:20261129T105959Z
+DTEND:20261129T115959Z
 SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Abstract 
  submission deadline
 DESCRIPTION:Conference title: International Symposium on Intelligent Data A
@@ -1924,12 +1929,16 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
  ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
  Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
- sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes: 
  Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
- 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\,
-  which would be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gat
- e follows the abstract-then-paper CMT schedule\, as in 2026\; the page do
- es not explicitly call it mandatory.
+ 2027 (venue TBA). Deadlines are labelled AoE\, but the regular-track CFP 
+ also says 'All deadlines are 23:59:59 SST'\, read as Samoa time (UTC-11)\
+ , so its rows store that earlier -11:00 instant per their cutoff notes\; 
+ the PhD Forum page states only AOE (-12:00). The abstract gate follows th
+ e abstract-then-paper CMT schedule\, as in 2026\; the page does not expli
+ citly call it mandatory.\nCutoff note: CFP lists dates as AOE but says 'A
+ ll deadlines are 23:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11)
+  is 1 h before AoE. Earliest instant stored.
 URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -2009,8 +2018,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ida-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261206T115959Z
-DTEND:20261206T125959Z
+DTSTART:20261206T105959Z
+DTEND:20261206T115959Z
 SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Regular p
  aper submission deadline
 DESCRIPTION:Conference title: International Symposium on Intelligent Data A
@@ -2018,12 +2027,16 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
  ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
  Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
- sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes: 
  Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
- 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\,
-  which would be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gat
- e follows the abstract-then-paper CMT schedule\, as in 2026\; the page do
- es not explicitly call it mandatory.
+ 2027 (venue TBA). Deadlines are labelled AoE\, but the regular-track CFP 
+ also says 'All deadlines are 23:59:59 SST'\, read as Samoa time (UTC-11)\
+ , so its rows store that earlier -11:00 instant per their cutoff notes\; 
+ the PhD Forum page states only AOE (-12:00). The abstract gate follows th
+ e abstract-then-paper CMT schedule\, as in 2026\; the page does not expli
+ citly call it mandatory.\nCutoff note: CFP lists dates as AOE but says 'A
+ ll deadlines are 23:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11)
+  is 1 h before AoE. Earliest instant stored.
 URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -2038,12 +2051,13 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/\nLocation: Hong Kong\, China\nTopics: Heal
  thcare & Clinical AI\, Data Mining & Data Science\, Machine Learning\, Hu
  man-AI Interaction & Deployment\nSize: M\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official BHI 
+ onfidence: confirmed\nLast checked date: 2026-10-29\nNotes: Official BHI 
  2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-page abstracts were e
  xtended to Aug 31 and late abstracts to Oct 31. The site says all deadlin
- es are 11:59pm USA (PST)\, recorded as -08:00\, although Pacific clocks a
- re on PDT (-07:00) on those dates\; the abstract OpenReview group lists N
- ov 1 23:59 UTC.
+ es are 11:59pm USA (PST)\, although Pacific clocks are on PDT (-07:00) on
+  those dates\; the abstract OpenReview group lists Nov 1 23:59 UTC. The c
+ losed rows keep -08:00\; the open late-abstract row stores the earliest (
+ PDT) instant per its cutoff note.
 URL:https://bhi.embs.org/2026/
 LOCATION:Hong Kong\, China
 END:VEVENT
@@ -2242,6 +2256,30 @@ DESCRIPTION:Conference title: ACM SIGMM International Conference on Multime
 URL:https://www.icmr2027.org/date
 END:VEVENT
 BEGIN:VEVENT
+UID:ida-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T105959Z
+DTEND:20270202T115959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Camera-re
+ ady deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2027.eu/\nSource URL: https://ida2027.eu/reg
+ ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
+ ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
+ Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes: 
+ Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
+ 2027 (venue TBA). Deadlines are labelled AoE\, but the regular-track CFP 
+ also says 'All deadlines are 23:59:59 SST'\, read as Samoa time (UTC-11)\
+ , so its rows store that earlier -11:00 instant per their cutoff notes\; 
+ the PhD Forum page states only AOE (-12:00). The abstract gate follows th
+ e abstract-then-paper CMT schedule\, as in 2026\; the page does not expli
+ citly call it mandatory.\nCutoff note: CFP lists dates as AOE but says 'A
+ ll deadlines are 23:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11)
+  is 1 h before AoE. Earliest instant stored.
+URL:https://ida2027.eu/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
 UID:kdd-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270202T115900Z
@@ -2269,26 +2307,6 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/r
  esearch-track-call-for-papers/\nScope last checked: 2026-10-07
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:ida-2027-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270202T115959Z
-DTEND:20270202T125959Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Camera-re
- ady deadline
-DESCRIPTION:Conference title: International Symposium on Intelligent Data A
- nalysis\nWebsite: https://ida2027.eu/\nSource URL: https://ida2027.eu/reg
- ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
- ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
- Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
- sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
- Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
- 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\,
-  which would be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gat
- e follows the abstract-then-paper CMT schedule\, as in 2026\; the page do
- es not explicitly call it mandatory.
-URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:kdd-2027-deadline-full-paper@scientific-conference-calendar
@@ -2353,12 +2371,14 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  -forum/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Science\, Mac
  hine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Series & S
  equential Data\nSize: M\nSubmission type: Paper-based / interdisciplinary
- \nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official I
+ \nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes: Official I
  DA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 2027 (venu
- e TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\, which wou
- ld be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gate follows 
- the abstract-then-paper CMT schedule\, as in 2026\; the page does not exp
- licitly call it mandatory.
+ e TBA). Deadlines are labelled AoE\, but the regular-track CFP also says 
+ 'All deadlines are 23:59:59 SST'\, read as Samoa time (UTC-11)\, so its r
+ ows store that earlier -11:00 instant per their cutoff notes\; the PhD Fo
+ rum page states only AOE (-12:00). The abstract gate follows the abstract
+ -then-paper CMT schedule\, as in 2026\; the page does not explicitly call
+  it mandatory.
 URL:https://ida2027.eu/phd-forum/
 END:VEVENT
 BEGIN:VEVENT
@@ -2612,6 +2632,30 @@ DESCRIPTION:Conference title: ACM SIGMM International Conference on Multime
 URL:https://www.icmr2027.org/date
 END:VEVENT
 BEGIN:VEVENT
+UID:ais-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270415T225900Z
+DTEND:20270415T235900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
+ OD) - Paper submission deadline
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2027.icas.events/\nSource URL: https://ais2027.i
+ cas.events/call-for-papers/\nLocation: Castiglione della Pescaia\, Italy\
+ nTopics: Machine Learning\, Data Mining & Data Science\, Learning Theory 
+ & Statistical Foundations\, Time Series & Sequential Data\nSize: M\nSubmi
+ ssion type: Paper-based / Springer proceedings\nConfidence: confirmed\nLa
+ st checked date: 2026-10-29\nNotes: The official AIS 2027 site lists Sep 
+ 19-23\, 2027 at Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 
+ 2027 (AoE) paper and late-breaking abstract deadlines\; its homepage 'Sub
+ mission' countdown instead targets 23:59 UTC+01:00\, so the paper row sto
+ res that earlier instant per its cutoff note\; the late-breaking abstract
+  call states only AoE. Only one paper batch is listed so far\; the July s
+ econd batch is a proxy from 2026. Remote presentation is offered.\nCutoff
+  note: CFP pages say Apr 15 AoE\; homepage submission countdown ends 2027
+ -04-15 23:59 UTC+01:00. Earliest instant stored.
+URL:https://ais2027.icas.events/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ais-2027-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270416T115900Z
@@ -2624,34 +2668,15 @@ DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
   Pescaia\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\,
   Learning Theory & Statistical Foundations\, Time Series & Sequential Dat
  a\nSize: M\nSubmission type: Paper-based / Springer proceedings\nConfiden
- ce: confirmed\nLast checked date: 2026-10-28\nNotes: The official AIS 202
+ ce: confirmed\nLast checked date: 2026-10-29\nNotes: The official AIS 202
  7 site lists Sep 19-23\, 2027 at Riva del Sole\, Castiglione della Pescai
  a\, and Apr 15\, 2027 (AoE) paper and late-breaking abstract deadlines\; 
- its homepage countdown instead targets 23:59 UTC+01:00\, so submit early.
-  Only one paper batch is listed so far\; the July second batch is a proxy
-  from 2026. Remote presentation is offered.
+ its homepage 'Submission' countdown instead targets 23:59 UTC+01:00\, so 
+ the paper row stores that earlier instant per its cutoff note\; the late-
+ breaking abstract call states only AoE. Only one paper batch is listed so
+  far\; the July second batch is a proxy from 2026. Remote presentation is
+  offered.
 URL:https://ais2027.icas.events/call-for-late-breaking-abstracts/
-END:VEVENT
-BEGIN:VEVENT
-UID:ais-2027-deadline-regular-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270416T115900Z
-DTEND:20270416T125900Z
-SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
- OD) - Paper submission deadline
-DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
- OD)\nWebsite: https://ais2027.icas.events/\nSource URL: https://ais2027.i
- cas.events/call-for-papers/\nLocation: Castiglione della Pescaia\, Italy\
- nTopics: Machine Learning\, Data Mining & Data Science\, Learning Theory 
- & Statistical Foundations\, Time Series & Sequential Data\nSize: M\nSubmi
- ssion type: Paper-based / Springer proceedings\nConfidence: confirmed\nLa
- st checked date: 2026-10-28\nNotes: The official AIS 2027 site lists Sep 
- 19-23\, 2027 at Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 
- 2027 (AoE) paper and late-breaking abstract deadlines\; its homepage coun
- tdown instead targets 23:59 UTC+01:00\, so submit early. Only one paper b
- atch is listed so far\; the July second batch is a proxy from 2026. Remot
- e presentation is offered.
-URL:https://ais2027.icas.events/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:sdm-2027-deadline-full-paper@scientific-conference-calendar
@@ -2685,12 +2710,14 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  ocation: Pisa\, Italy\nTopics: Data Mining & Data Science\, Machine Learn
  ing\, Probabilistic\, Causal & Uncertainty ML\, Time Series & Sequential 
  Data\nSize: M\nSubmission type: Paper-based / interdisciplinary\nConfiden
- ce: confirmed\nLast checked date: 2026-10-28\nNotes: Official IDA 2027 si
+ ce: confirmed\nLast checked date: 2026-10-29\nNotes: Official IDA 2027 si
  te confirms the 25th symposium in Pisa\, Apr 21-23\, 2027 (venue TBA). De
- adlines are labelled AoE (the CFP also writes 'SST'\, which would be UTC-
- 11)\; 23:59:59 AoE (-12:00) is used. The abstract gate follows the abstra
- ct-then-paper CMT schedule\, as in 2026\; the page does not explicitly ca
- ll it mandatory.
+ adlines are labelled AoE\, but the regular-track CFP also says 'All deadl
+ ines are 23:59:59 SST'\, read as Samoa time (UTC-11)\, so its rows store 
+ that earlier -11:00 instant per their cutoff notes\; the PhD Forum page s
+ tates only AOE (-12:00). The abstract gate follows the abstract-then-pape
+ r CMT schedule\, as in 2026\; the page does not explicitly call it mandat
+ ory.
 URL:https://ida2027.eu/
 LOCATION:Pisa\, Italy
 END:VEVENT
@@ -3225,12 +3252,13 @@ DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
  s: Machine Learning\, Data Mining & Data Science\, Learning Theory & Stat
  istical Foundations\, Time Series & Sequential Data\nSize: M\nSubmission 
  type: Paper-based / Springer proceedings\nConfidence: estimated\nLast che
- cked date: 2026-10-28\nNotes: The official AIS 2027 site lists Sep 19-23\
+ cked date: 2026-10-29\nNotes: The official AIS 2027 site lists Sep 19-23\
  , 2027 at Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 2027 (
- AoE) paper and late-breaking abstract deadlines\; its homepage countdown 
- instead targets 23:59 UTC+01:00\, so submit early. Only one paper batch i
- s listed so far\; the July second batch is a proxy from 2026. Remote pres
- entation is offered.
+ AoE) paper and late-breaking abstract deadlines\; its homepage 'Submissio
+ n' countdown instead targets 23:59 UTC+01:00\, so the paper row stores th
+ at earlier instant per its cutoff note\; the late-breaking abstract call 
+ states only AoE. Only one paper batch is listed so far\; the July second 
+ batch is a proxy from 2026. Remote presentation is offered.
 URL:https://ais2026.icas.events/deadlines/
 END:VEVENT
 BEGIN:VEVENT
@@ -3504,12 +3532,13 @@ DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
   Learning\, Data Mining & Data Science\, Learning Theory & Statistical Fo
  undations\, Time Series & Sequential Data\nSize: M\nSubmission type: Pape
  r-based / Springer proceedings\nConfidence: confirmed\nLast checked date:
-  2026-10-28\nNotes: The official AIS 2027 site lists Sep 19-23\, 2027 at 
+  2026-10-29\nNotes: The official AIS 2027 site lists Sep 19-23\, 2027 at 
  Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 2027 (AoE) paper
-  and late-breaking abstract deadlines\; its homepage countdown instead ta
- rgets 23:59 UTC+01:00\, so submit early. Only one paper batch is listed s
- o far\; the July second batch is a proxy from 2026. Remote presentation i
- s offered.
+  and late-breaking abstract deadlines\; its homepage 'Submission' countdo
+ wn instead targets 23:59 UTC+01:00\, so the paper row stores that earlier
+  instant per its cutoff note\; the late-breaking abstract call states onl
+ y AoE. Only one paper batch is listed so far\; the July second batch is a
+  proxy from 2026. Remote presentation is offered.
 URL:https://ais2027.icas.events/
 LOCATION:Castiglione della Pescaia\, Italy
 END:VEVENT

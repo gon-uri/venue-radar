@@ -63,7 +63,7 @@ class ClockDisplayTests(unittest.TestCase):
         successors = _successors(load_conferences())
         self.assertEqual(successors["neurips-2026"]["id"], "neurips-2027")
         self.assertEqual(successors["lod-2026"]["id"], "ais-2027")
-        self.assertNotIn("ts4h-2025", successors)
+        self.assertEqual(successors["ts4h-2025"]["id"], "sd4h-2026", "SD4H continues TS4H (owner decision)")
 
 
 class FeedTests(unittest.TestCase):

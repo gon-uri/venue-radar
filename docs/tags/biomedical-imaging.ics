@@ -198,18 +198,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261027T035900Z
-DTEND:20261027T045900Z
+DTSTART:20261103T045900Z
+DTEND:20261103T055900Z
 SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 4-page paper su
- bmission deadline
+ bmission deadline (extended)
 DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
  aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
  biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
  omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
   Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
- Last checked date: 2026-10-06\nNotes: Official ISBI 2027 page lists Lausa
- nne\, May 25-28\, and the four-page paper and one-page abstract deadlines
- . The paper submission link was live on Oct 6.
+ Last checked date: 2026-10-29\nNotes: Official ISBI 2027 page (rechecked 
+ 2026-10-29) lists Lausanne (SwissTech Convention Center)\, May 25-28\, an
+ d 'All deadlines are 11:59pm USA (ET)'. Four-page papers moved from Oct 2
+ 6 to Mon Nov 2\, 2026 (EST after the Nov 1 clock change)\; one-page abstr
+ acts Feb 1\, 2027. The paper submission link was live on Oct 6.
 URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
@@ -281,20 +283,22 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -327,9 +331,11 @@ DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
  biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
  omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
   Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
- Last checked date: 2026-10-06\nNotes: Official ISBI 2027 page lists Lausa
- nne\, May 25-28\, and the four-page paper and one-page abstract deadlines
- . The paper submission link was live on Oct 6.
+ Last checked date: 2026-10-29\nNotes: Official ISBI 2027 page (rechecked 
+ 2026-10-29) lists Lausanne (SwissTech Convention Center)\, May 25-28\, an
+ d 'All deadlines are 11:59pm USA (ET)'. Four-page papers moved from Oct 2
+ 6 to Mon Nov 2\, 2026 (EST after the Nov 1 clock change)\; one-page abstr
+ acts Feb 1\, 2027. The paper submission link was live on Oct 6.
 URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
@@ -421,8 +427,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270410T075900Z
-DTEND:20270410T085900Z
+DTSTART:20270410T065900Z
+DTEND:20270410T075900Z
 SUMMARY:[Healthcare & Clinical AI][Biomedical Imaging] AIiH 2027 - Abstract
   submission (poster or spotlight talk)
 DESCRIPTION:Conference title: International Conference on AI in Healthcare\
@@ -434,27 +440,31 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nCutoff note: Dates page says 11.59PM Pacific Time (GMT-8)\, bu
+ t Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored
+ .
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270410T075900Z
-DTEND:20270410T085900Z
+DTSTART:20270410T065900Z
+DTEND:20270410T075900Z
 SUMMARY:[Healthcare & Clinical AI][Biomedical Imaging] AIiH 2027 - Full pap
  er submission (main and special sessions)
 DESCRIPTION:Conference title: International Conference on AI in Healthcare\
@@ -466,20 +476,24 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nCutoff note: Dates page says 11.59PM Pacific Time (GMT-8)\, bu
+ t Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored
+ .
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -511,9 +525,11 @@ DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
  biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
  omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
   Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
- Last checked date: 2026-10-06\nNotes: Official ISBI 2027 page lists Lausa
- nne\, May 25-28\, and the four-page paper and one-page abstract deadlines
- . The paper submission link was live on Oct 6.
+ Last checked date: 2026-10-29\nNotes: Official ISBI 2027 page (rechecked 
+ 2026-10-29) lists Lausanne (SwissTech Convention Center)\, May 25-28\, an
+ d 'All deadlines are 11:59pm USA (ET)'. Four-page papers moved from Oct 2
+ 6 to Mon Nov 2\, 2026 (EST after the Nov 1 clock change)\; one-page abstr
+ acts Feb 1\, 2027. The paper submission link was live on Oct 6.
 URL:https://biomedicalimaging.org/2027/
 LOCATION:Lausanne\, Switzerland
 END:VEVENT
@@ -533,29 +549,30 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29\nOfficial dead
- line day\; exact cutoff hour/timezone is unannounced. Verify the organize
- r's submission portal.
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270612T075900Z
-DTEND:20270612T085900Z
+DTSTART:20270612T065900Z
+DTEND:20270612T075900Z
 SUMMARY:[Healthcare & Clinical AI][Biomedical Imaging] AIiH 2027 - Camera-r
  eady (April submissions)
 DESCRIPTION:Conference title: International Conference on AI in Healthcare\
@@ -567,27 +584,31 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nCutoff note: Dates page says 11.59PM Pacific Time (GMT-8)\, bu
+ t Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored
+ .
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270703T075900Z
-DTEND:20270703T085900Z
+DTSTART:20270703T065900Z
+DTEND:20270703T075900Z
 SUMMARY:[Healthcare & Clinical AI][Biomedical Imaging] AIiH 2027 - Late-bre
  aking abstract and STARS survey submission
 DESCRIPTION:Conference title: International Conference on AI in Healthcare\
@@ -599,20 +620,24 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nCutoff note: Dates page says 11.59PM Pacific Time (GMT-8)\, bu
+ t Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored
+ .
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -676,20 +701,21 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  Last checked date: 2026-10-29\nNotes: Official AIiH pages (checked 2026-1
  0-29) list the fourth edition at the Mathematical Institute\, University 
  of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are publ
- ished as 11.59PM Pacific Time (GMT-8) and stored at -08:00\, although Pac
- ific clocks are on GMT-7 from March\, so submit an hour early. Full paper
- s are double-blind via CMT (2026 papers appeared in Springer LNCS)\; abst
- racts and STARS surveys are archived on Zenodo. Size is an editorial esti
- mate.\nScope: Artificial intelligence for healthcare and medicine\, inclu
- ding predictive analytics\, early diagnosis and prevention\, machine and 
- deep learning on health data\, AI-aided medical signal processing and ima
- ging\, digital pathology and neurology\, drug discovery\, digital twins a
- nd precision medicine. Ethics\, patient data privacy and patient-centred 
- deployment are recurring themes. Original research papers\, abstracts and
-  state-of-the-art surveys are accepted.\nAdditional topics: Ethics & Gove
- rnance\, Privacy-preserving ML\, Human-AI Interaction & Deployment\nScope
-  sources (2027): https://aiih.cc/call-for-papers/\, https://aiih.cc/call-
- for-stars/\nScope last checked: 2026-10-29
+ ished as 11.59PM Pacific Time (GMT-8)\; the January proposal row keeps -0
+ 8:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the earli
+ er GMT-7 instant per their cutoff notes\, and the date-only notification 
+ keeps -08:00. Full papers are double-blind via CMT (2026 papers appeared 
+ in Springer LNCS)\; abstracts and STARS surveys are archived on Zenodo. S
+ ize is an editorial estimate.\nScope: Artificial intelligence for healthc
+ are and medicine\, including predictive analytics\, early diagnosis and p
+ revention\, machine and deep learning on health data\, AI-aided medical s
+ ignal processing and imaging\, digital pathology and neurology\, drug dis
+ covery\, digital twins and precision medicine. Ethics\, patient data priv
+ acy and patient-centred deployment are recurring themes. Original researc
+ h papers\, abstracts and state-of-the-art surveys are accepted.\nAddition
+ al topics: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interac
+ tion & Deployment\nScope sources (2027): https://aiih.cc/call-for-papers/
+ \, https://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
 URL:https://aiih.cc/
 LOCATION:Oxford\, United Kingdom
 END:VEVENT

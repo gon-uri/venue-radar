@@ -635,9 +635,9 @@
   submission_type: "Workshop / paper-based"
   relevance: "high"
   deadlines: []
-  last_checked: "2026-10-28"
+  last_checked: "2026-10-29"
   confidence: "confirmed"
-  notes: "Official TS4H page still describes the completed NeurIPS 2025 workshop. As of 2026-10-28 no TS4H-named workshop is on the ICLR, ICML or NeurIPS 2026 lists; the same organizers ran Structured Data for Health at ICML 2026 (Jul 11), whose site lists TS4H editions as prior years. No 2027 edition is announced."
+  notes: "Official TS4H page still describes the completed NeurIPS 2025 workshop and does not link a successor. Successor: Structured Data for Health (sd4h-2026, ICML 2026, Jul 11, Seoul), whose site lists TS4H's NeurIPS 2022, ICLR 2024 and NeurIPS 2025 workshops as prior years and shares organizers; tracked under the TS4H key by owner decision. As of 2026-10-29 no TS4H-named workshop is on the ICLR, ICML or NeurIPS 2026 lists."
 
 - id: "fmts-neurips-2026"
   series: "FMTS @ NeurIPS"
@@ -772,17 +772,17 @@
   relevance: "high"
   deadlines:
     - type: "full_paper"
-      label: "4-page paper submission deadline"
-      datetime: "2026-10-26T23:59:00-04:00"
+      label: "4-page paper submission deadline (extended)"
+      datetime: "2026-11-02T23:59:00-05:00"
       open_observed_on: "2026-10-06"
       source_url: "https://biomedicalimaging.org/2027/"
     - type: "abstract"
       label: "1-page abstract submission deadline"
       datetime: "2027-02-01T23:59:00-05:00"
       source_url: "https://biomedicalimaging.org/2027/"
-  last_checked: "2026-10-06"
+  last_checked: "2026-10-29"
   confidence: "confirmed"
-  notes: "Official ISBI 2027 page lists Lausanne, May 25-28, and the four-page paper and one-page abstract deadlines. The paper submission link was live on Oct 6."
+  notes: "Official ISBI 2027 page (rechecked 2026-10-29) lists Lausanne (SwissTech Convention Center), May 25-28, and 'All deadlines are 11:59pm USA (ET)'. Four-page papers moved from Oct 26 to Mon Nov 2, 2026 (EST after the Nov 1 clock change); one-page abstracts Feb 1, 2027. The paper submission link was live on Oct 6."
 
 - id: "ieee-bhi-2026"
   series: "IEEE BHI"
@@ -819,11 +819,12 @@
       source_url: "https://bhi.embs.org/2026/contributors/papers/"
     - type: "late_abstract"
       label: "Late 1-page abstract submission (extended)"
-      datetime: "2026-10-31T23:59:00-08:00"
+      datetime: "2026-10-31T23:59:00-07:00"
+      cutoff_note: "Site says Oct 31 11:59pm USA (PST), but Pacific clocks are on PDT then; OpenReview says Nov 1 23:59 UTC. Earliest (PDT) instant stored."
       source_url: "https://bhi.embs.org/2026/contributors/papers/"
-  last_checked: "2026-10-28"
+  last_checked: "2026-10-29"
   confidence: "confirmed"
-  notes: "Official BHI 2026 pages confirm Dec 12-15 at CUHK, Hong Kong. 1-page abstracts were extended to Aug 31 and late abstracts to Oct 31. The site says all deadlines are 11:59pm USA (PST), recorded as -08:00, although Pacific clocks are on PDT (-07:00) on those dates; the abstract OpenReview group lists Nov 1 23:59 UTC."
+  notes: "Official BHI 2026 pages confirm Dec 12-15 at CUHK, Hong Kong. 1-page abstracts were extended to Aug 31 and late abstracts to Oct 31. The site says all deadlines are 11:59pm USA (PST), although Pacific clocks are on PDT (-07:00) on those dates; the abstract OpenReview group lists Nov 1 23:59 UTC. The closed rows keep -08:00; the open late-abstract row stores the earliest (PDT) instant per its cutoff note."
 
 - id: "ieee-embc-2026"
   series: "IEEE EMBC"
@@ -1774,24 +1775,27 @@
   deadlines:
     - type: "abstract"
       label: "Abstract submission deadline"
-      datetime: "2026-11-28T23:59:59-12:00"
+      datetime: "2026-11-28T23:59:59-11:00"
+      cutoff_note: "CFP lists dates as AOE but says 'All deadlines are 23:59:59 SST (Anywhere on Earth)'; SST (Samoa, UTC-11) is 1 h before AoE. Earliest instant stored."
       gate_for: "full_paper"
       source_url: "https://ida2027.eu/regular-paper-track/"
     - type: "full_paper"
       label: "Regular paper submission deadline"
-      datetime: "2026-12-05T23:59:59-12:00"
+      datetime: "2026-12-05T23:59:59-11:00"
+      cutoff_note: "CFP lists dates as AOE but says 'All deadlines are 23:59:59 SST (Anywhere on Earth)'; SST (Samoa, UTC-11) is 1 h before AoE. Earliest instant stored."
       source_url: "https://ida2027.eu/regular-paper-track/"
     - type: "camera_ready"
       label: "Camera-ready deadline"
-      datetime: "2027-02-01T23:59:59-12:00"
+      datetime: "2027-02-01T23:59:59-11:00"
+      cutoff_note: "CFP lists dates as AOE but says 'All deadlines are 23:59:59 SST (Anywhere on Earth)'; SST (Samoa, UTC-11) is 1 h before AoE. Earliest instant stored."
       source_url: "https://ida2027.eu/regular-paper-track/"
     - type: "phd_forum"
       label: "PhD Forum 2-page paper submission (graduate students)"
       datetime: "2027-02-12T23:59:59-12:00"
       source_url: "https://ida2027.eu/phd-forum/"
-  last_checked: "2026-10-28"
+  last_checked: "2026-10-29"
   confidence: "confirmed"
-  notes: "Official IDA 2027 site confirms the 25th symposium in Pisa, Apr 21-23, 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST', which would be UTC-11); 23:59:59 AoE (-12:00) is used. The abstract gate follows the abstract-then-paper CMT schedule, as in 2026; the page does not explicitly call it mandatory."
+  notes: "Official IDA 2027 site confirms the 25th symposium in Pisa, Apr 21-23, 2027 (venue TBA). Deadlines are labelled AoE, but the regular-track CFP also says 'All deadlines are 23:59:59 SST', read as Samoa time (UTC-11), so its rows store that earlier -11:00 instant per their cutoff notes; the PhD Forum page states only AOE (-12:00). The abstract gate follows the abstract-then-paper CMT schedule, as in 2026; the page does not explicitly call it mandatory."
 
 - id: "adma-2026"
   series: "ADMA"
@@ -2283,7 +2287,8 @@
   deadlines:
     - type: "regular_paper"
       label: "Paper submission deadline"
-      datetime: "2027-04-15T23:59:00-12:00"
+      datetime: "2027-04-15T23:59:00+01:00"
+      cutoff_note: "CFP pages say Apr 15 AoE; homepage submission countdown ends 2027-04-15 23:59 UTC+01:00. Earliest instant stored."
       source_url: "https://ais2027.icas.events/call-for-papers/"
     - type: "late_abstract"
       label: "Late-breaking abstract submission deadline"
@@ -2294,9 +2299,9 @@
       datetime: "2027-07-22T23:59:00-12:00"
       confidence: "estimated"
       source_url: "https://ais2026.icas.events/deadlines/"
-  last_checked: "2026-10-28"
+  last_checked: "2026-10-29"
   confidence: "confirmed"
-  notes: "The official AIS 2027 site lists Sep 19-23, 2027 at Riva del Sole, Castiglione della Pescaia, and Apr 15, 2027 (AoE) paper and late-breaking abstract deadlines; its homepage countdown instead targets 23:59 UTC+01:00, so submit early. Only one paper batch is listed so far; the July second batch is a proxy from 2026. Remote presentation is offered."
+  notes: "The official AIS 2027 site lists Sep 19-23, 2027 at Riva del Sole, Castiglione della Pescaia, and Apr 15, 2027 (AoE) paper and late-breaking abstract deadlines; its homepage 'Submission' countdown instead targets 23:59 UTC+01:00, so the paper row stores that earlier instant per its cutoff note; the late-breaking abstract call states only AoE. Only one paper batch is listed so far; the July second batch is a proxy from 2026. Remote presentation is offered."
 
 - id: "eusipco-2026"
   series: "EUSIPCO"
@@ -3834,6 +3839,8 @@
   source_urls:
     - https://mlsys.org/Conferences/2027
     - https://mlsys.org/Conferences/2027/CallForResearchPapers
+    - https://mlsys.org/Conferences/2027/Dates
+    - https://openreview.net/group?id=MLSys.org/2027/Conference
   location: Bellevue, Washington, USA
   mode: in-person
   conference_start: '2027-06-21'
@@ -3850,16 +3857,17 @@
   deadlines:
     - type: full_paper
       label: Research and industrial paper submission deadline
-      datetime: '2026-10-30T20:00:00Z'
-      opens_at: '2026-10-10T20:00:00Z'
+      datetime: '2026-10-30T12:00:00-07:00'
+      cutoff_note: 'CFP and OpenReview say Oct 30 20:00 UTC; homepage and Dates page say 12:00 PM PDT (19:00 UTC). Earliest instant stored.'
+      opens_at: '2026-10-19T20:00:00Z'
       source_url: https://mlsys.org/Conferences/2027/CallForResearchPapers
-  last_checked: '2026-10-07'
+  last_checked: '2026-10-29'
   confidence: confirmed
-  notes: Tenth annual edition. CFP explicitly specifies 20:00 UTC for Oct 10
-    opening and Oct 30 closing. The homepage's noon PDT listing is inconsistent
-    by one hour; prefer the explicit CFP UTC times and recheck the submission
-    portal before the deadline. No separate abstract prerequisite is announced.
-    Size L is an editorial estimate.
+  notes: Tenth annual edition. The CFP and OpenReview give 20:00 UTC for the
+    Oct 19 opening and Oct 30 closing, while the homepage and Dates page list
+    noon PDT (19:00 UTC); the earlier closing instant is stored per the cutoff
+    note, and opens_at follows the OpenReview portal. No separate abstract
+    prerequisite is announced. Size L is an editorial estimate.
 
 - id: cogsci-2027
   series: CogSci
@@ -6544,6 +6552,7 @@
     label: Joint ACC and L-CSS submission
     datetime: '2027-09-10T23:59:00-12:00'
     time_precision: date
+    cutoff_note: 'CFP PDF says L-CSS submissions are due Sep 10, 2027; Author Information page says Sep 12. Earliest date stored.'
     source_url: https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.pdf
   - type: full_paper
     label: Regular paper submission
@@ -6562,12 +6571,14 @@
     time_precision: date
     source_url: https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.pdf
     confidence: estimated
+    cutoff_note: 'CFP PDF says final manuscripts are due Mar 10, 2028; homepage says Mar 13. Earliest date stored.'
   last_checked: '2026-10-29'
   confidence: confirmed
   notes: 'Official ACC 2028 site and CFP (checked 2026-10-29): May 31-Jun 2, 2028 at the Hilton San Francisco
     Union Square, workshops May 29-30; joint ACC+L-CSS papers due Sep 10 and ACC papers Sep 24, 2027, hours
     unstated (end-of-day AoE provisional). The under-development homepage gives Jan 23/Mar 13 instead of the
-    CFP''s Jan 21/Mar 10 for notification/final manuscripts, so those two stay estimated.'
+    CFP''s Jan 21/Mar 10 for notification/final manuscripts, so those two stay estimated. The Author Information
+    page gives Sep 12, 2027 as the L-CSS deadline; the CFP''s earlier Sep 10 is kept per the cutoff note.'
 
 - id: nolta-2027
   series: NOLTA
@@ -7794,11 +7805,13 @@
     source_url: https://aiih.cc/important-dates/
   - type: full_paper
     label: Full paper submission (main and special sessions)
-    datetime: '2027-04-09T23:59:00-08:00'
+    datetime: '2027-04-09T23:59:00-07:00'
+    cutoff_note: 'Dates page says 11.59PM Pacific Time (GMT-8), but Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored.'
     source_url: https://aiih.cc/important-dates/
   - type: abstract
     label: Abstract submission (poster or spotlight talk)
-    datetime: '2027-04-09T23:59:00-08:00'
+    datetime: '2027-04-09T23:59:00-07:00'
+    cutoff_note: 'Dates page says 11.59PM Pacific Time (GMT-8), but Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored.'
     source_url: https://aiih.cc/important-dates/
   - type: notification
     label: Author notification (April submissions)
@@ -7807,16 +7820,59 @@
     source_url: https://aiih.cc/important-dates/
   - type: camera_ready
     label: Camera-ready (April submissions)
-    datetime: '2027-06-11T23:59:00-08:00'
+    datetime: '2027-06-11T23:59:00-07:00'
+    cutoff_note: 'Dates page says 11.59PM Pacific Time (GMT-8), but Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored.'
     source_url: https://aiih.cc/important-dates/
   - type: late_abstract
     label: Late-breaking abstract and STARS survey submission
-    datetime: '2027-07-02T23:59:00-08:00'
+    datetime: '2027-07-02T23:59:00-07:00'
+    cutoff_note: 'Dates page says 11.59PM Pacific Time (GMT-8), but Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored.'
     source_url: https://aiih.cc/important-dates/
   last_checked: '2026-10-29'
   confidence: confirmed
   notes: Official AIiH pages (checked 2026-10-29) list the fourth edition at the Mathematical Institute,
     University of Oxford, Sep 1-3, 2027; the format is not stated. Deadlines are published as 11.59PM
-    Pacific Time (GMT-8) and stored at -08:00, although Pacific clocks are on GMT-7 from March, so submit an
-    hour early. Full papers are double-blind via CMT (2026 papers appeared in Springer LNCS); abstracts and
+    Pacific Time (GMT-8); the January proposal row keeps -08:00, while rows falling in PDT (Apr 9, Jun 11,
+    Jul 2) store the earlier GMT-7 instant per their cutoff notes, and the date-only notification keeps
+    -08:00. Full papers are double-blind via CMT (2026 papers appeared in Springer LNCS); abstracts and
     STARS surveys are archived on Zenodo. Size is an editorial estimate.
+
+# Owner decision 2026-10-29: Structured Data for Health continues the TS4H series.
+- id: "sd4h-2026"
+  series: "TS4H"
+  year: 2026
+  title: "Structured Data for Health Workshop"
+  short_title: "SD4H 2026 (formerly TS4H)"
+  website: "https://structureddata4health.github.io/"
+  cfp_url: "https://structureddata4health.github.io/call_for_papers.html"
+  source_urls:
+    - "https://icml.cc/virtual/2026/workshop/54090"
+    - "https://structureddata4health.github.io/"
+    - "https://structureddata4health.github.io/call_for_papers.html"
+    - "https://structureddata4health.github.io/schedule.html"
+    - "https://openreview.net/group?id=ICML.cc/2026/Workshop/SD4H"
+  location: "Seoul, South Korea"
+  mode: "in-person"
+  conference_start: "2026-07-11"
+  conference_end: "2026-07-11"
+  timezone: "Asia/Seoul"
+  topics:
+    - "Healthcare & Clinical AI"
+    - "Time Series & Sequential Data"
+    - "Signal Processing"
+    - "Deep Representation Learning"
+  size: "S"
+  submission_type: "Workshop / non-archival short paper"
+  relevance: "high"
+  deadlines:
+    - type: "short_paper"
+      label: "Workshop paper submission deadline (4 pages, non-archival)"
+      datetime: "2026-05-02T23:59:00-12:00"
+      source_url: "https://structureddata4health.github.io/call_for_papers.html"
+    - type: "camera_ready"
+      label: "Camera-ready deadline"
+      datetime: "2026-06-26T23:59:00-12:00"
+      source_url: "https://structureddata4health.github.io/call_for_papers.html"
+  last_checked: "2026-10-29"
+  confidence: "confirmed"
+  notes: "ICML's official workshop page and the SD4H site confirm Sat Jul 11, 2026 in Hall D2, COEX, Seoul (ICML lists 8:00-17:00 KST); accepted papers had to be presented in person and the workshop is non-archival (no proceedings). The site's Prior Years menu links TS4H's NeurIPS 2025, ICLR 2024 and NeurIPS 2022 pages and organizers overlap, but no formal rename is stated; it is tracked under the TS4H key by owner decision. 4-page papers were due May 2 AoE after an extension (OpenReview's venue page and submission invitation instead record May 1 12:00 UTC); camera-ready was Jun 26 AoE. As of 2026-10-29 no later SD4H or TS4H edition is announced."

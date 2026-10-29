@@ -132,12 +132,13 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  series4health.github.io/\nLocation: San Diego\, California\, USA\nTopics:
   Time Series & Sequential Data\, Healthcare & Clinical AI\, Signal Proces
  sing\, Explainability & Interpretability\nSize: S\nSubmission type: Works
- hop / paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ hop / paper-based\nConfidence: confirmed\nLast checked date: 2026-10-29\n
  Notes: Official TS4H page still describes the completed NeurIPS 2025 work
- shop. As of 2026-10-28 no TS4H-named workshop is on the ICLR\, ICML or Ne
- urIPS 2026 lists\; the same organizers ran Structured Data for Health at 
- ICML 2026 (Jul 11)\, whose site lists TS4H editions as prior years. No 20
- 27 edition is announced.
+ shop and does not link a successor. Successor: Structured Data for Health
+  (sd4h-2026\, ICML 2026\, Jul 11\, Seoul)\, whose site lists TS4H's NeurI
+ PS 2022\, ICLR 2024 and NeurIPS 2025 workshops as prior years and shares 
+ organizers\; tracked under the TS4H key by owner decision. As of 2026-10-
+ 29 no TS4H-named workshop is on the ICLR\, ICML or NeurIPS 2026 lists.
 URL:https://timeseries4health.github.io/
 LOCATION:San Diego\, California\, USA
 END:VEVENT
@@ -1275,6 +1276,32 @@ DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
 URL:https://iswc2026.semanticweb.org/importantdates
 END:VEVENT
 BEGIN:VEVENT
+UID:sd4h-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260503T115900Z
+DTEND:20260503T125900Z
+SUMMARY:[Healthcare & Clinical AI][Time Series & Sequential Data] SD4H 2026
+  (formerly TS4H) - Workshop paper submission deadline (4 pages\, non-arch
+ ival)
+DESCRIPTION:Conference title: Structured Data for Health Workshop\nWebsite:
+  https://structureddata4health.github.io/\nSource URL: https://structured
+ data4health.github.io/call_for_papers.html\nLocation: Seoul\, South Korea
+ \nTopics: Healthcare & Clinical AI\, Time Series & Sequential Data\, Sign
+ al Processing\, Deep Representation Learning\nSize: S\nSubmission type: W
+ orkshop / non-archival short paper\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-29\nNotes: ICML's official workshop page and the SD4H site c
+ onfirm Sat Jul 11\, 2026 in Hall D2\, COEX\, Seoul (ICML lists 8:00-17:00
+  KST)\; accepted papers had to be presented in person and the workshop is
+  non-archival (no proceedings). The site's Prior Years menu links TS4H's 
+ NeurIPS 2025\, ICLR 2024 and NeurIPS 2022 pages and organizers overlap\, 
+ but no formal rename is stated\; it is tracked under the TS4H key by owne
+ r decision. 4-page papers were due May 2 AoE after an extension (OpenRevi
+ ew's venue page and submission invitation instead record May 1 12:00 UTC)
+ \; camera-ready was Jun 26 AoE. As of 2026-10-29 no later SD4H or TS4H ed
+ ition is announced.
+URL:https://structureddata4health.github.io/call_for_papers.html
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260503
@@ -2320,6 +2347,31 @@ DESCRIPTION:Conference title: IEEE Biomedical Circuits and Systems Conferen
 URL:https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
 END:VEVENT
 BEGIN:VEVENT
+UID:sd4h-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260627T115900Z
+DTEND:20260627T125900Z
+SUMMARY:[Healthcare & Clinical AI][Time Series & Sequential Data] SD4H 2026
+  (formerly TS4H) - Camera-ready deadline
+DESCRIPTION:Conference title: Structured Data for Health Workshop\nWebsite:
+  https://structureddata4health.github.io/\nSource URL: https://structured
+ data4health.github.io/call_for_papers.html\nLocation: Seoul\, South Korea
+ \nTopics: Healthcare & Clinical AI\, Time Series & Sequential Data\, Sign
+ al Processing\, Deep Representation Learning\nSize: S\nSubmission type: W
+ orkshop / non-archival short paper\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-29\nNotes: ICML's official workshop page and the SD4H site c
+ onfirm Sat Jul 11\, 2026 in Hall D2\, COEX\, Seoul (ICML lists 8:00-17:00
+  KST)\; accepted papers had to be presented in person and the workshop is
+  non-archival (no proceedings). The site's Prior Years menu links TS4H's 
+ NeurIPS 2025\, ICLR 2024 and NeurIPS 2022 pages and organizers overlap\, 
+ but no formal rename is stated\; it is tracked under the TS4H key by owne
+ r decision. 4-page papers were due May 2 AoE after an extension (OpenRevi
+ ew's venue page and submission invitation instead record May 1 12:00 UTC)
+ \; camera-ready was Jun 26 AoE. As of 2026-10-29 no later SD4H or TS4H ed
+ ition is announced.
+URL:https://structureddata4health.github.io/call_for_papers.html
+END:VEVENT
+BEGIN:VEVENT
 UID:wacv-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260627T115900Z
@@ -2462,12 +2514,13 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
- type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-29\n
  Notes: Official BHI 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-p
  age abstracts were extended to Aug 31 and late abstracts to Oct 31. The s
- ite says all deadlines are 11:59pm USA (PST)\, recorded as -08:00\, altho
- ugh Pacific clocks are on PDT (-07:00) on those dates\; the abstract Open
- Review group lists Nov 1 23:59 UTC.
+ ite says all deadlines are 11:59pm USA (PST)\, although Pacific clocks ar
+ e on PDT (-07:00) on those dates\; the abstract OpenReview group lists No
+ v 1 23:59 UTC. The closed rows keep -08:00\; the open late-abstract row s
+ tores the earliest (PDT) instant per its cutoff note.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -2626,6 +2679,32 @@ DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
  nd the Mar 18 extended abstract deadline.
 URL:https://www.cnsorg.org/cns-2026
 LOCATION:Halifax\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:sd4h-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:[Healthcare & Clinical AI][Time Series & Sequential Data] SD4H 2026
+  (formerly TS4H) - Conference
+DESCRIPTION:Conference title: Structured Data for Health Workshop\nWebsite:
+  https://structureddata4health.github.io/\nSource URL: https://icml.cc/vi
+ rtual/2026/workshop/54090\nLocation: Seoul\, South Korea\nTopics: Healthc
+ are & Clinical AI\, Time Series & Sequential Data\, Signal Processing\, D
+ eep Representation Learning\nSize: S\nSubmission type: Workshop / non-arc
+ hival short paper\nConfidence: confirmed\nLast checked date: 2026-10-29\n
+ Notes: ICML's official workshop page and the SD4H site confirm Sat Jul 11
+ \, 2026 in Hall D2\, COEX\, Seoul (ICML lists 8:00-17:00 KST)\; accepted 
+ papers had to be presented in person and the workshop is non-archival (no
+  proceedings). The site's Prior Years menu links TS4H's NeurIPS 2025\, IC
+ LR 2024 and NeurIPS 2022 pages and organizers overlap\, but no formal ren
+ ame is stated\; it is tracked under the TS4H key by owner decision. 4-pag
+ e papers were due May 2 AoE after an extension (OpenReview's venue page a
+ nd submission invitation instead record May 1 12:00 UTC)\; camera-ready w
+ as Jun 26 AoE. As of 2026-10-29 no later SD4H or TS4H edition is announce
+ d.
+URL:https://icml.cc/virtual/2026/workshop/54090
+LOCATION:Seoul\, South Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-2026-deadline-extended-abstract@scientific-conference-calendar
@@ -3754,12 +3833,13 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
- type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-29\n
  Notes: Official BHI 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-p
  age abstracts were extended to Aug 31 and late abstracts to Oct 31. The s
- ite says all deadlines are 11:59pm USA (PST)\, recorded as -08:00\, altho
- ugh Pacific clocks are on PDT (-07:00) on those dates\; the abstract Open
- Review group lists Nov 1 23:59 UTC.
+ ite says all deadlines are 11:59pm USA (PST)\, although Pacific clocks ar
+ e on PDT (-07:00) on those dates\; the abstract OpenReview group lists No
+ v 1 23:59 UTC. The closed rows keep -08:00\; the open late-abstract row s
+ tores the earliest (PDT) instant per its cutoff note.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -5634,23 +5714,6 @@ DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
 URL:https://www2027.thewebconf.org/research-track-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261027T035900Z
-DTEND:20261027T045900Z
-SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 4-page paper su
- bmission deadline
-DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
- aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
- biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
- omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
-  Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
- Last checked date: 2026-10-06\nNotes: Official ISBI 2027 page lists Lausa
- nne\, May 25-28\, and the four-page paper and one-page abstract deadlines
- . The paper submission link was live on Oct 6.
-URL:https://biomedicalimaging.org/2027/
-END:VEVENT
-BEGIN:VEVENT
 UID:siam-ds-2027-deadline-minisymposium@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261027T035900Z
@@ -5702,8 +5765,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsys-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261030T200000Z
-DTEND:20261030T210000Z
+DTSTART:20261030T190000Z
+DTEND:20261030T200000Z
 SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Resear
  ch and industrial paper submission deadline
 DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
@@ -5712,19 +5775,22 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
  , USA\nTopics: ML Systems & Infrastructure\, Machine Learning\, Federated
   & Distributed Learning\, Natural Language Processing & LLMs\nSize: L\nSu
  bmission type: Paper-based / research and industrial tracks\nConfidence: 
- confirmed\nLast checked date: 2026-10-07\nNotes: Tenth annual edition. CF
- P explicitly specifies 20:00 UTC for Oct 10 opening and Oct 30 closing. T
- he homepage's noon PDT listing is inconsistent by one hour\; prefer the e
- xplicit CFP UTC times and recheck the submission portal before the deadli
- ne. No separate abstract prerequisite is announced. Size L is an editoria
- l estimate.\nScope: The intersection of machine learning and computer sys
- tems\, including efficient training\, inference and serving\, compilers a
- nd runtimes\, programming abstractions\, specialized hardware\, distribut
- ed learning\, and system monitoring. LLM and agentic workloads are consid
- ered from a systems perspective. Both systems for ML and ML methods that 
- improve computing systems are relevant.\nAdditional topics: Reinforcement
-  Learning\, Privacy-preserving ML\nScope sources (2027): https://mlsys.or
- g/Conferences/2027/CallForResearchPapers\nScope last checked: 2026-10-07
+ confirmed\nLast checked date: 2026-10-29\nNotes: Tenth annual edition. Th
+ e CFP and OpenReview give 20:00 UTC for the Oct 19 opening and Oct 30 clo
+ sing\, while the homepage and Dates page list noon PDT (19:00 UTC)\; the 
+ earlier closing instant is stored per the cutoff note\, and opens_at foll
+ ows the OpenReview portal. No separate abstract prerequisite is announced
+ . Size L is an editorial estimate.\nScope: The intersection of machine le
+ arning and computer systems\, including efficient training\, inference an
+ d serving\, compilers and runtimes\, programming abstractions\, specializ
+ ed hardware\, distributed learning\, and system monitoring. LLM and agent
+ ic workloads are considered from a systems perspective. Both systems for 
+ ML and ML methods that improve computing systems are relevant.\nAdditiona
+ l topics: Reinforcement Learning\, Privacy-preserving ML\nScope sources (
+ 2027): https://mlsys.org/Conferences/2027/CallForResearchPapers\nScope la
+ st checked: 2026-10-07\nCutoff note: CFP and OpenReview say Oct 30 20:00 
+ UTC\; homepage and Dates page say 12:00 PM PDT (19:00 UTC). Earliest inst
+ ant stored.
 URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -5811,8 +5877,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bhi-2026-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261101T075900Z
-DTEND:20261101T085900Z
+DTSTART:20261101T065900Z
+DTEND:20261101T075900Z
 SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
  6 - Late 1-page abstract submission (extended)
 DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
@@ -5820,12 +5886,15 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
- type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-29\n
  Notes: Official BHI 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-p
  age abstracts were extended to Aug 31 and late abstracts to Oct 31. The s
- ite says all deadlines are 11:59pm USA (PST)\, recorded as -08:00\, altho
- ugh Pacific clocks are on PDT (-07:00) on those dates\; the abstract Open
- Review group lists Nov 1 23:59 UTC.
+ ite says all deadlines are 11:59pm USA (PST)\, although Pacific clocks ar
+ e on PDT (-07:00) on those dates\; the abstract OpenReview group lists No
+ v 1 23:59 UTC. The closed rows keep -08:00\; the open late-abstract row s
+ tores the earliest (PDT) instant per its cutoff note.\nCutoff note: Site 
+ says Oct 31 11:59pm USA (PST)\, but Pacific clocks are on PDT then\; Open
+ Review says Nov 1 23:59 UTC. Earliest (PDT) instant stored.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -5912,6 +5981,25 @@ DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
  era-ready dates.
 URL:https://ssl.linklings.net/conferences/SSCI/?args=tUbb0XfQbGCfffzztC9M9a
  TAprcnt3DxGzQArsf0IQ3THQP0Aprcnt3DxfGzb0sprcnt3Dyprcnt3DUI0HQP0Aprcnt3Dxf
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261103T045900Z
+DTEND:20261103T055900Z
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 4-page paper su
+ bmission deadline (extended)
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
+ Last checked date: 2026-10-29\nNotes: Official ISBI 2027 page (rechecked 
+ 2026-10-29) lists Lausanne (SwissTech Convention Center)\, May 25-28\, an
+ d 'All deadlines are 11:59pm USA (ET)'. Four-page papers moved from Oct 2
+ 6 to Mon Nov 2\, 2026 (EST after the Nov 1 clock change)\; one-page abstr
+ acts Feb 1\, 2027. The paper submission link was live on Oct 6.
+URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-resource-paper@scientific-conference-calendar
@@ -7141,8 +7229,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ida-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261129T115959Z
-DTEND:20261129T125959Z
+DTSTART:20261129T105959Z
+DTEND:20261129T115959Z
 SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Abstract 
  submission deadline
 DESCRIPTION:Conference title: International Symposium on Intelligent Data A
@@ -7150,12 +7238,16 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
  ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
  Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
- sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes: 
  Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
- 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\,
-  which would be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gat
- e follows the abstract-then-paper CMT schedule\, as in 2026\; the page do
- es not explicitly call it mandatory.
+ 2027 (venue TBA). Deadlines are labelled AoE\, but the regular-track CFP 
+ also says 'All deadlines are 23:59:59 SST'\, read as Samoa time (UTC-11)\
+ , so its rows store that earlier -11:00 instant per their cutoff notes\; 
+ the PhD Forum page states only AOE (-12:00). The abstract gate follows th
+ e abstract-then-paper CMT schedule\, as in 2026\; the page does not expli
+ citly call it mandatory.\nCutoff note: CFP lists dates as AOE but says 'A
+ ll deadlines are 23:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11)
+  is 1 h before AoE. Earliest instant stored.
 URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -7493,8 +7585,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ida-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261206T115959Z
-DTEND:20261206T125959Z
+DTSTART:20261206T105959Z
+DTEND:20261206T115959Z
 SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Regular p
  aper submission deadline
 DESCRIPTION:Conference title: International Symposium on Intelligent Data A
@@ -7502,12 +7594,16 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
  ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
  Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
- sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes: 
  Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
- 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\,
-  which would be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gat
- e follows the abstract-then-paper CMT schedule\, as in 2026\; the page do
- es not explicitly call it mandatory.
+ 2027 (venue TBA). Deadlines are labelled AoE\, but the regular-track CFP 
+ also says 'All deadlines are 23:59:59 SST'\, read as Samoa time (UTC-11)\
+ , so its rows store that earlier -11:00 instant per their cutoff notes\; 
+ the PhD Forum page states only AOE (-12:00). The abstract gate follows th
+ e abstract-then-paper CMT schedule\, as in 2026\; the page does not expli
+ citly call it mandatory.\nCutoff note: CFP lists dates as AOE but says 'A
+ ll deadlines are 23:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11)
+  is 1 h before AoE. Earliest instant stored.
 URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -7601,12 +7697,13 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/\nLocation: Hong Kong\, China\nTopics: Heal
  thcare & Clinical AI\, Data Mining & Data Science\, Machine Learning\, Hu
  man-AI Interaction & Deployment\nSize: M\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official BHI 
+ onfidence: confirmed\nLast checked date: 2026-10-29\nNotes: Official BHI 
  2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-page abstracts were e
  xtended to Aug 31 and late abstracts to Oct 31. The site says all deadlin
- es are 11:59pm USA (PST)\, recorded as -08:00\, although Pacific clocks a
- re on PDT (-07:00) on those dates\; the abstract OpenReview group lists N
- ov 1 23:59 UTC.
+ es are 11:59pm USA (PST)\, although Pacific clocks are on PDT (-07:00) on
+  those dates\; the abstract OpenReview group lists Nov 1 23:59 UTC. The c
+ losed rows keep -08:00\; the open late-abstract row stores the earliest (
+ PDT) instant per its cutoff note.
 URL:https://bhi.embs.org/2026/
 LOCATION:Hong Kong\, China
 END:VEVENT
@@ -8484,20 +8581,22 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -9069,10 +9168,36 @@ DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
  biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
  omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
   Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
- Last checked date: 2026-10-06\nNotes: Official ISBI 2027 page lists Lausa
- nne\, May 25-28\, and the four-page paper and one-page abstract deadlines
- . The paper submission link was live on Oct 6.
+ Last checked date: 2026-10-29\nNotes: Official ISBI 2027 page (rechecked 
+ 2026-10-29) lists Lausanne (SwissTech Convention Center)\, May 25-28\, an
+ d 'All deadlines are 11:59pm USA (ET)'. Four-page papers moved from Oct 2
+ 6 to Mon Nov 2\, 2026 (EST after the Nov 1 clock change)\; one-page abstr
+ acts Feb 1\, 2027. The paper submission link was live on Oct 6.
 URL:https://biomedicalimaging.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T105959Z
+DTEND:20270202T115959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Camera-re
+ ady deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2027.eu/\nSource URL: https://ida2027.eu/reg
+ ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
+ ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
+ Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes: 
+ Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
+ 2027 (venue TBA). Deadlines are labelled AoE\, but the regular-track CFP 
+ also says 'All deadlines are 23:59:59 SST'\, read as Samoa time (UTC-11)\
+ , so its rows store that earlier -11:00 instant per their cutoff notes\; 
+ the PhD Forum page states only AOE (-12:00). The abstract gate follows th
+ e abstract-then-paper CMT schedule\, as in 2026\; the page does not expli
+ citly call it mandatory.\nCutoff note: CFP lists dates as AOE but says 'A
+ ll deadlines are 23:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11)
+  is 1 h before AoE. Earliest instant stored.
+URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:ccn-2027-deadline-full-paper-abstract@scientific-conference-calendar
@@ -9159,26 +9284,6 @@ DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
  botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
  ast checked: 2026-10-08
 URL:https://easychair.org/cfp/nice2027
-END:VEVENT
-BEGIN:VEVENT
-UID:ida-2027-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270202T115959Z
-DTEND:20270202T125959Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Camera-re
- ady deadline
-DESCRIPTION:Conference title: International Symposium on Intelligent Data A
- nalysis\nWebsite: https://ida2027.eu/\nSource URL: https://ida2027.eu/reg
- ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
- ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
- Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
- sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
- Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
- 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\,
-  which would be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gat
- e follows the abstract-then-paper CMT schedule\, as in 2026\; the page do
- es not explicitly call it mandatory.
-URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:cogsci-2027-deadline-full-paper@scientific-conference-calendar
@@ -9476,12 +9581,14 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  -forum/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Science\, Mac
  hine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Series & S
  equential Data\nSize: M\nSubmission type: Paper-based / interdisciplinary
- \nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official I
+ \nConfidence: confirmed\nLast checked date: 2026-10-29\nNotes: Official I
  DA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 2027 (venu
- e TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\, which wou
- ld be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gate follows 
- the abstract-then-paper CMT schedule\, as in 2026\; the page does not exp
- licitly call it mandatory.
+ e TBA). Deadlines are labelled AoE\, but the regular-track CFP also says 
+ 'All deadlines are 23:59:59 SST'\, read as Samoa time (UTC-11)\, so its r
+ ows store that earlier -11:00 instant per their cutoff notes\; the PhD Fo
+ rum page states only AOE (-12:00). The abstract gate follows the abstract
+ -then-paper CMT schedule\, as in 2026\; the page does not explicitly call
+  it mandatory.
 URL:https://ida2027.eu/phd-forum/
 END:VEVENT
 BEGIN:VEVENT
@@ -10736,8 +10843,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270410T075900Z
-DTEND:20270410T085900Z
+DTSTART:20270410T065900Z
+DTEND:20270410T075900Z
 SUMMARY:[Healthcare & Clinical AI][Biomedical Imaging] AIiH 2027 - Abstract
   submission (poster or spotlight talk)
 DESCRIPTION:Conference title: International Conference on AI in Healthcare\
@@ -10749,27 +10856,31 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nCutoff note: Dates page says 11.59PM Pacific Time (GMT-8)\, bu
+ t Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored
+ .
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270410T075900Z
-DTEND:20270410T085900Z
+DTSTART:20270410T065900Z
+DTEND:20270410T075900Z
 SUMMARY:[Healthcare & Clinical AI][Biomedical Imaging] AIiH 2027 - Full pap
  er submission (main and special sessions)
 DESCRIPTION:Conference title: International Conference on AI in Healthcare\
@@ -10781,20 +10892,24 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nCutoff note: Dates page says 11.59PM Pacific Time (GMT-8)\, bu
+ t Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored
+ .
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -11027,6 +11142,30 @@ DESCRIPTION:Conference title: ACM Conference on Recommender Systems\nWebsit
 URL:https://recsys.acm.org/recsys26/call/
 END:VEVENT
 BEGIN:VEVENT
+UID:ais-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270415T225900Z
+DTEND:20270415T235900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
+ OD) - Paper submission deadline
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2027.icas.events/\nSource URL: https://ais2027.i
+ cas.events/call-for-papers/\nLocation: Castiglione della Pescaia\, Italy\
+ nTopics: Machine Learning\, Data Mining & Data Science\, Learning Theory 
+ & Statistical Foundations\, Time Series & Sequential Data\nSize: M\nSubmi
+ ssion type: Paper-based / Springer proceedings\nConfidence: confirmed\nLa
+ st checked date: 2026-10-29\nNotes: The official AIS 2027 site lists Sep 
+ 19-23\, 2027 at Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 
+ 2027 (AoE) paper and late-breaking abstract deadlines\; its homepage 'Sub
+ mission' countdown instead targets 23:59 UTC+01:00\, so the paper row sto
+ res that earlier instant per its cutoff note\; the late-breaking abstract
+  call states only AoE. Only one paper batch is listed so far\; the July s
+ econd batch is a proxy from 2026. Remote presentation is offered.\nCutoff
+  note: CFP pages say Apr 15 AoE\; homepage submission countdown ends 2027
+ -04-15 23:59 UTC+01:00. Earliest instant stored.
+URL:https://ais2027.icas.events/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ais-2027-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270416T115900Z
@@ -11039,34 +11178,15 @@ DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
   Pescaia\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\,
   Learning Theory & Statistical Foundations\, Time Series & Sequential Dat
  a\nSize: M\nSubmission type: Paper-based / Springer proceedings\nConfiden
- ce: confirmed\nLast checked date: 2026-10-28\nNotes: The official AIS 202
+ ce: confirmed\nLast checked date: 2026-10-29\nNotes: The official AIS 202
  7 site lists Sep 19-23\, 2027 at Riva del Sole\, Castiglione della Pescai
  a\, and Apr 15\, 2027 (AoE) paper and late-breaking abstract deadlines\; 
- its homepage countdown instead targets 23:59 UTC+01:00\, so submit early.
-  Only one paper batch is listed so far\; the July second batch is a proxy
-  from 2026. Remote presentation is offered.
+ its homepage 'Submission' countdown instead targets 23:59 UTC+01:00\, so 
+ the paper row stores that earlier instant per its cutoff note\; the late-
+ breaking abstract call states only AoE. Only one paper batch is listed so
+  far\; the July second batch is a proxy from 2026. Remote presentation is
+  offered.
 URL:https://ais2027.icas.events/call-for-late-breaking-abstracts/
-END:VEVENT
-BEGIN:VEVENT
-UID:ais-2027-deadline-regular-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270416T115900Z
-DTEND:20270416T125900Z
-SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
- OD) - Paper submission deadline
-DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
- OD)\nWebsite: https://ais2027.icas.events/\nSource URL: https://ais2027.i
- cas.events/call-for-papers/\nLocation: Castiglione della Pescaia\, Italy\
- nTopics: Machine Learning\, Data Mining & Data Science\, Learning Theory 
- & Statistical Foundations\, Time Series & Sequential Data\nSize: M\nSubmi
- ssion type: Paper-based / Springer proceedings\nConfidence: confirmed\nLa
- st checked date: 2026-10-28\nNotes: The official AIS 2027 site lists Sep 
- 19-23\, 2027 at Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 
- 2027 (AoE) paper and late-breaking abstract deadlines\; its homepage coun
- tdown instead targets 23:59 UTC+01:00\, so submit early. Only one paper b
- atch is listed so far\; the July second batch is a proxy from 2026. Remot
- e presentation is offered.
-URL:https://ais2027.icas.events/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcb-2027-deadline-supplementary@scientific-conference-calendar
@@ -11226,12 +11346,14 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  ocation: Pisa\, Italy\nTopics: Data Mining & Data Science\, Machine Learn
  ing\, Probabilistic\, Causal & Uncertainty ML\, Time Series & Sequential 
  Data\nSize: M\nSubmission type: Paper-based / interdisciplinary\nConfiden
- ce: confirmed\nLast checked date: 2026-10-28\nNotes: Official IDA 2027 si
+ ce: confirmed\nLast checked date: 2026-10-29\nNotes: Official IDA 2027 si
  te confirms the 25th symposium in Pisa\, Apr 21-23\, 2027 (venue TBA). De
- adlines are labelled AoE (the CFP also writes 'SST'\, which would be UTC-
- 11)\; 23:59:59 AoE (-12:00) is used. The abstract gate follows the abstra
- ct-then-paper CMT schedule\, as in 2026\; the page does not explicitly ca
- ll it mandatory.
+ adlines are labelled AoE\, but the regular-track CFP also says 'All deadl
+ ines are 23:59:59 SST'\, read as Samoa time (UTC-11)\, so its rows store 
+ that earlier -11:00 instant per their cutoff notes\; the PhD Forum page s
+ tates only AOE (-12:00). The abstract gate follows the abstract-then-pape
+ r CMT schedule\, as in 2026\; the page does not explicitly call it mandat
+ ory.
 URL:https://ida2027.eu/
 LOCATION:Pisa\, Italy
 END:VEVENT
@@ -12366,9 +12488,11 @@ DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
  biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
  omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
   Learning\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\n
- Last checked date: 2026-10-06\nNotes: Official ISBI 2027 page lists Lausa
- nne\, May 25-28\, and the four-page paper and one-page abstract deadlines
- . The paper submission link was live on Oct 6.
+ Last checked date: 2026-10-29\nNotes: Official ISBI 2027 page (rechecked 
+ 2026-10-29) lists Lausanne (SwissTech Convention Center)\, May 25-28\, an
+ d 'All deadlines are 11:59pm USA (ET)'. Four-page papers moved from Oct 2
+ 6 to Mon Nov 2\, 2026 (EST after the Nov 1 clock change)\; one-page abstr
+ acts Feb 1\, 2027. The paper submission link was live on Oct 6.
 URL:https://biomedicalimaging.org/2027/
 LOCATION:Lausanne\, Switzerland
 END:VEVENT
@@ -12496,22 +12620,23 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29\nOfficial dead
- line day\; exact cutoff hour/timezone is unannounced. Verify the organize
- r's submission portal.
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -12851,8 +12976,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270612T075900Z
-DTEND:20270612T085900Z
+DTSTART:20270612T065900Z
+DTEND:20270612T075900Z
 SUMMARY:[Healthcare & Clinical AI][Biomedical Imaging] AIiH 2027 - Camera-r
  eady (April submissions)
 DESCRIPTION:Conference title: International Conference on AI in Healthcare\
@@ -12864,20 +12989,24 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nCutoff note: Dates page says 11.59PM Pacific Time (GMT-8)\, bu
+ t Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored
+ .
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -13077,19 +13206,19 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
  ems & Infrastructure\, Machine Learning\, Federated & Distributed Learnin
  g\, Natural Language Processing & LLMs\nSize: L\nSubmission type: Paper-b
  ased / research and industrial tracks\nConfidence: confirmed\nLast checke
- d date: 2026-10-07\nNotes: Tenth annual edition. CFP explicitly specifies
-  20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
-  listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
- and recheck the submission portal before the deadline. No separate abstra
- ct prerequisite is announced. Size L is an editorial estimate.\nScope: Th
- e intersection of machine learning and computer systems\, including effic
- ient training\, inference and serving\, compilers and runtimes\, programm
- ing abstractions\, specialized hardware\, distributed learning\, and syst
- em monitoring. LLM and agentic workloads are considered from a systems pe
- rspective. Both systems for ML and ML methods that improve computing syst
- ems are relevant.\nAdditional topics: Reinforcement Learning\, Privacy-pr
- eserving ML\nScope sources (2027): https://mlsys.org/Conferences/2027/Cal
- lForResearchPapers\nScope last checked: 2026-10-07
+ d date: 2026-10-29\nNotes: Tenth annual edition. The CFP and OpenReview g
+ ive 20:00 UTC for the Oct 19 opening and Oct 30 closing\, while the homep
+ age and Dates page list noon PDT (19:00 UTC)\; the earlier closing instan
+ t is stored per the cutoff note\, and opens_at follows the OpenReview por
+ tal. No separate abstract prerequisite is announced. Size L is an editori
+ al estimate.\nScope: The intersection of machine learning and computer sy
+ stems\, including efficient training\, inference and serving\, compilers 
+ and runtimes\, programming abstractions\, specialized hardware\, distribu
+ ted learning\, and system monitoring. LLM and agentic workloads are consi
+ dered from a systems perspective. Both systems for ML and ML methods that
+  improve computing systems are relevant.\nAdditional topics: Reinforcemen
+ t Learning\, Privacy-preserving ML\nScope sources (2027): https://mlsys.o
+ rg/Conferences/2027/CallForResearchPapers\nScope last checked: 2026-10-07
 URL:https://mlsys.org/Conferences/2027
 LOCATION:Bellevue\, Washington\, USA
 END:VEVENT
@@ -13476,8 +13605,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270703T075900Z
-DTEND:20270703T085900Z
+DTSTART:20270703T065900Z
+DTEND:20270703T075900Z
 SUMMARY:[Healthcare & Clinical AI][Biomedical Imaging] AIiH 2027 - Late-bre
  aking abstract and STARS survey submission
 DESCRIPTION:Conference title: International Conference on AI in Healthcare\
@@ -13489,20 +13618,24 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  nce: confirmed\nLast checked date: 2026-10-29\nNotes: Official AIiH pages
   (checked 2026-10-29) list the fourth edition at the Mathematical Institu
  te\, University of Oxford\, Sep 1-3\, 2027\; the format is not stated. De
- adlines are published as 11.59PM Pacific Time (GMT-8) and stored at -08:0
- 0\, although Pacific clocks are on GMT-7 from March\, so submit an hour e
- arly. Full papers are double-blind via CMT (2026 papers appeared in Sprin
- ger LNCS)\; abstracts and STARS surveys are archived on Zenodo. Size is a
- n editorial estimate.\nScope: Artificial intelligence for healthcare and 
- medicine\, including predictive analytics\, early diagnosis and preventio
- n\, machine and deep learning on health data\, AI-aided medical signal pr
- ocessing and imaging\, digital pathology and neurology\, drug discovery\,
-  digital twins and precision medicine. Ethics\, patient data privacy and 
- patient-centred deployment are recurring themes. Original research papers
- \, abstracts and state-of-the-art surveys are accepted.\nAdditional topic
- s: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interaction & D
- eployment\nScope sources (2027): https://aiih.cc/call-for-papers/\, https
- ://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
+ adlines are published as 11.59PM Pacific Time (GMT-8)\; the January propo
+ sal row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2)
+  store the earlier GMT-7 instant per their cutoff notes\, and the date-on
+ ly notification keeps -08:00. Full papers are double-blind via CMT (2026 
+ papers appeared in Springer LNCS)\; abstracts and STARS surveys are archi
+ ved on Zenodo. Size is an editorial estimate.\nScope: Artificial intellig
+ ence for healthcare and medicine\, including predictive analytics\, early
+  diagnosis and prevention\, machine and deep learning on health data\, AI
+ -aided medical signal processing and imaging\, digital pathology and neur
+ ology\, drug discovery\, digital twins and precision medicine. Ethics\, p
+ atient data privacy and patient-centred deployment are recurring themes. 
+ Original research papers\, abstracts and state-of-the-art surveys are acc
+ epted.\nAdditional topics: Ethics & Governance\, Privacy-preserving ML\, 
+ Human-AI Interaction & Deployment\nScope sources (2027): https://aiih.cc/
+ call-for-papers/\, https://aiih.cc/call-for-stars/\nScope last checked: 2
+ 026-10-29\nCutoff note: Dates page says 11.59PM Pacific Time (GMT-8)\, bu
+ t Pacific clocks are on GMT-7 (PDT) on this date. Earliest instant stored
+ .
 URL:https://aiih.cc/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -13975,12 +14108,13 @@ DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
  s: Machine Learning\, Data Mining & Data Science\, Learning Theory & Stat
  istical Foundations\, Time Series & Sequential Data\nSize: M\nSubmission 
  type: Paper-based / Springer proceedings\nConfidence: estimated\nLast che
- cked date: 2026-10-28\nNotes: The official AIS 2027 site lists Sep 19-23\
+ cked date: 2026-10-29\nNotes: The official AIS 2027 site lists Sep 19-23\
  , 2027 at Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 2027 (
- AoE) paper and late-breaking abstract deadlines\; its homepage countdown 
- instead targets 23:59 UTC+01:00\, so submit early. Only one paper batch i
- s listed so far\; the July second batch is a proxy from 2026. Remote pres
- entation is offered.
+ AoE) paper and late-breaking abstract deadlines\; its homepage 'Submissio
+ n' countdown instead targets 23:59 UTC+01:00\, so the paper row stores th
+ at earlier instant per its cutoff note\; the late-breaking abstract call 
+ states only AoE. Only one paper batch is listed so far\; the July second 
+ batch is a proxy from 2026. Remote presentation is offered.
 URL:https://ais2026.icas.events/deadlines/
 END:VEVENT
 BEGIN:VEVENT
@@ -14591,20 +14725,21 @@ DESCRIPTION:Conference title: International Conference on AI in Healthcare\
  Last checked date: 2026-10-29\nNotes: Official AIiH pages (checked 2026-1
  0-29) list the fourth edition at the Mathematical Institute\, University 
  of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are publ
- ished as 11.59PM Pacific Time (GMT-8) and stored at -08:00\, although Pac
- ific clocks are on GMT-7 from March\, so submit an hour early. Full paper
- s are double-blind via CMT (2026 papers appeared in Springer LNCS)\; abst
- racts and STARS surveys are archived on Zenodo. Size is an editorial esti
- mate.\nScope: Artificial intelligence for healthcare and medicine\, inclu
- ding predictive analytics\, early diagnosis and prevention\, machine and 
- deep learning on health data\, AI-aided medical signal processing and ima
- ging\, digital pathology and neurology\, drug discovery\, digital twins a
- nd precision medicine. Ethics\, patient data privacy and patient-centred 
- deployment are recurring themes. Original research papers\, abstracts and
-  state-of-the-art surveys are accepted.\nAdditional topics: Ethics & Gove
- rnance\, Privacy-preserving ML\, Human-AI Interaction & Deployment\nScope
-  sources (2027): https://aiih.cc/call-for-papers/\, https://aiih.cc/call-
- for-stars/\nScope last checked: 2026-10-29
+ ished as 11.59PM Pacific Time (GMT-8)\; the January proposal row keeps -0
+ 8:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the earli
+ er GMT-7 instant per their cutoff notes\, and the date-only notification 
+ keeps -08:00. Full papers are double-blind via CMT (2026 papers appeared 
+ in Springer LNCS)\; abstracts and STARS surveys are archived on Zenodo. S
+ ize is an editorial estimate.\nScope: Artificial intelligence for healthc
+ are and medicine\, including predictive analytics\, early diagnosis and p
+ revention\, machine and deep learning on health data\, AI-aided medical s
+ ignal processing and imaging\, digital pathology and neurology\, drug dis
+ covery\, digital twins and precision medicine. Ethics\, patient data priv
+ acy and patient-centred deployment are recurring themes. Original researc
+ h papers\, abstracts and state-of-the-art surveys are accepted.\nAddition
+ al topics: Ethics & Governance\, Privacy-preserving ML\, Human-AI Interac
+ tion & Deployment\nScope sources (2027): https://aiih.cc/call-for-papers/
+ \, https://aiih.cc/call-for-stars/\nScope last checked: 2026-10-29
 URL:https://aiih.cc/
 LOCATION:Oxford\, United Kingdom
 END:VEVENT
@@ -14734,8 +14869,12 @@ DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
  s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
  E provisional). The under-development homepage gives Jan 23/Mar 13 instea
  d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
- e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
-  is unannounced. Verify the organizer's submission portal.
+ e two stay estimated. The Author Information page gives Sep 12\, 2027 as 
+ the L-CSS deadline\; the CFP's earlier Sep 10 is kept per the cutoff note
+ .\nCutoff note: CFP PDF says L-CSS submissions are due Sep 10\, 2027\; Au
+ thor Information page says Sep 12. Earliest date stored.\nOfficial deadli
+ ne day\; exact cutoff hour/timezone is unannounced. Verify the organizer'
+ s submission portal.
 URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
  df
 END:VEVENT
@@ -14935,12 +15074,13 @@ DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
   Learning\, Data Mining & Data Science\, Learning Theory & Statistical Fo
  undations\, Time Series & Sequential Data\nSize: M\nSubmission type: Pape
  r-based / Springer proceedings\nConfidence: confirmed\nLast checked date:
-  2026-10-28\nNotes: The official AIS 2027 site lists Sep 19-23\, 2027 at 
+  2026-10-29\nNotes: The official AIS 2027 site lists Sep 19-23\, 2027 at 
  Riva del Sole\, Castiglione della Pescaia\, and Apr 15\, 2027 (AoE) paper
-  and late-breaking abstract deadlines\; its homepage countdown instead ta
- rgets 23:59 UTC+01:00\, so submit early. Only one paper batch is listed s
- o far\; the July second batch is a proxy from 2026. Remote presentation i
- s offered.
+  and late-breaking abstract deadlines\; its homepage 'Submission' countdo
+ wn instead targets 23:59 UTC+01:00\, so the paper row stores that earlier
+  instant per its cutoff note\; the late-breaking abstract call states onl
+ y AoE. Only one paper batch is listed so far\; the July second batch is a
+  proxy from 2026. Remote presentation is offered.
 URL:https://ais2027.icas.events/
 LOCATION:Castiglione della Pescaia\, Italy
 END:VEVENT
@@ -15049,8 +15189,10 @@ DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
  s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
  E provisional). The under-development homepage gives Jan 23/Mar 13 instea
  d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
- e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
-  is unannounced. Verify the organizer's submission portal.
+ e two stay estimated. The Author Information page gives Sep 12\, 2027 as 
+ the L-CSS deadline\; the CFP's earlier Sep 10 is kept per the cutoff note
+ .\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Ver
+ ify the organizer's submission portal.
 URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
  df
 END:VEVENT
@@ -16237,8 +16379,10 @@ DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
  s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
  E provisional). The under-development homepage gives Jan 23/Mar 13 instea
  d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
- e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
-  is unannounced. Verify the organizer's submission portal.
+ e two stay estimated. The Author Information page gives Sep 12\, 2027 as 
+ the L-CSS deadline\; the CFP's earlier Sep 10 is kept per the cutoff note
+ .\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Ver
+ ify the organizer's submission portal.
 URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
  df
 END:VEVENT
@@ -16415,8 +16559,12 @@ DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
  s due Sep 10 and ACC papers Sep 24\, 2027\, hours unstated (end-of-day Ao
  E provisional). The under-development homepage gives Jan 23/Mar 13 instea
  d of the CFP's Jan 21/Mar 10 for notification/final manuscripts\, so thos
- e two stay estimated.\nOfficial deadline day\; exact cutoff hour/timezone
-  is unannounced. Verify the organizer's submission portal.
+ e two stay estimated. The Author Information page gives Sep 12\, 2027 as 
+ the L-CSS deadline\; the CFP's earlier Sep 10 is kept per the cutoff note
+ .\nCutoff note: CFP PDF says final manuscripts are due Mar 10\, 2028\; ho
+ mepage says Mar 13. Earliest date stored.\nOfficial deadline day\; exact 
+ cutoff hour/timezone is unannounced. Verify the organizer's submission po
+ rtal.
 URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
  df
 END:VEVENT
@@ -16704,7 +16852,9 @@ DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
  0\; joint ACC+L-CSS papers due Sep 10 and ACC papers Sep 24\, 2027\, hour
  s unstated (end-of-day AoE provisional). The under-development homepage g
  ives Jan 23/Mar 13 instead of the CFP's Jan 21/Mar 10 for notification/fi
- nal manuscripts\, so those two stay estimated.
+ nal manuscripts\, so those two stay estimated. The Author Information pag
+ e gives Sep 12\, 2027 as the L-CSS deadline\; the CFP's earlier Sep 10 is
+  kept per the cutoff note.
 URL:https://acc2028.a2c2.org/
 LOCATION:San Francisco\, California\, USA
 END:VEVENT

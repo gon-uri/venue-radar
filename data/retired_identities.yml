@@ -1,0 +1,17 @@
+# Intentionally retired published identities.
+#
+# Calendar clients key subscribed events on their UID (ADR-004). Removing a
+# published event UID from docs/calendar-all.ics, or an edition ID from
+# data/conferences.yml, silently drops that event (and its per-edition feed)
+# for subscribers. scripts/check_identity.py therefore fails CI when a
+# published identity disappears. Keep identities stable whenever possible.
+#
+# When a removal is intentional and reviewed, list it here (newest last):
+#
+#   - id: "example-2026"     # edition ID, or a full event UID
+#     reason: "Duplicate of example-joint-2026 after organizer review."
+#     date: "2026-10-29"     # ISO date the retirement was approved
+#
+# A retired edition ID also covers its generated event UIDs
+# (<id>-conference@... and <id>-deadline-<type>@...). Never reuse a retired ID.
+[]

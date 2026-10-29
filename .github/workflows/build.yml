@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          # Full history so the identity check can read the base commit.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,3 +33,84 @@ jobs:
 
       - name: Build generated files
         run: python scripts/build_all.py
+
+      # Report-only guardrails: CI never commits regenerated output (ADR-005/015).
+      - name: Check committed docs/ match a fresh build
+        run: |
+          if [ -n "$(git status --porcelain -- docs/)" ]; then
+            echo "::error::Committed docs/ differs from a fresh build of the committed data."
+            git status --porcelain -- docs/
+            git diff --stat -- docs/
+            echo "Hint: run python scripts/build_all.py and commit docs/"
+            exit 1
+          fi
+          echo "docs/ matches a fresh build."
+
+      - name: Check inline JavaScript syntax in docs/index.html
+        run: |
+          node --version
+          js_dir="$(mktemp -d)"
+          python - "$js_dir" <<'PY'
+          import sys
+          from html.parser import HTMLParser
+          from pathlib import Path
+
+          class Scripts(HTMLParser):
+              def __init__(self):
+                  super().__init__(convert_charrefs=False)
+                  self.inline, self.blocks, self.buffer = None, [], []
+
+              def handle_starttag(self, tag, attrs):
+                  if tag == "script":
+                      attrs = dict(attrs)
+                      kind = (attrs.get("type") or "text/javascript").lower()
+                      js = kind in {"module", "text/javascript", "application/javascript"}
+                      self.inline = ("mjs" if kind == "module" else "js") if js and "src" not in attrs else None
+                      self.buffer = []
+
+              def handle_data(self, data):
+                  if self.inline:
+                      self.buffer.append(data)
+
+              def handle_endtag(self, tag):
+                  if tag == "script" and self.inline:
+                      self.blocks.append((self.inline, "".join(self.buffer)))
+                  if tag == "script":
+                      self.inline = None
+
+          parser = Scripts()
+          parser.feed(Path("docs/index.html").read_text(encoding="utf-8"))
+          if not parser.blocks:
+              sys.exit("No inline scripts found in docs/index.html")
+          for index, (extension, code) in enumerate(parser.blocks, 1):
+              Path(sys.argv[1], f"inline-{index}.{extension}").write_text(code, encoding="utf-8")
+          print(f"Extracted {len(parser.blocks)} inline script(s).")
+          PY
+          for file in "$js_dir"/inline-*; do
+            echo "node --check $(basename "$file")"
+            node --check "$file"
+          done
+
+      - name: Check published UIDs and edition IDs are not removed
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            base="$PR_BASE_SHA"
+          else
+            base="$PUSH_BEFORE_SHA"
+          fi
+          case "$base" in
+            *[!0]*) ;;
+            *)
+              echo "No base commit (new branch or initial push); skipping identity check."
+              exit 0
+              ;;
+          esac
+          if ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
+            echo "::warning::Base commit $base is unavailable (force push?); skipping identity check."
+            exit 0
+          fi
+          python scripts/check_identity.py --base "$base"

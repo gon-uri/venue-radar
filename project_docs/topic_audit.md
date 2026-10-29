@@ -6,9 +6,9 @@ The current model below takes precedence over the explicitly historical audit.
 
 ## Current Eight-Family Model
 
-Reviewed: 2026-10-08, after the complex-systems/neuroscience expansion. These counts use
+Reviewed: 2026-10-29, after adding AIiH (healthcare). These counts use
 explicit central series identities, not the presence of any generic method tag.
-There are 129 series, 43 leaves and 79 reviewed profiles; 50 profiles remain queued.
+There are 130 series, 43 leaves and 80 reviewed profiles; 50 profiles remain queued.
 
 | Family | Central series | Subtopics |
 | --- | --- | --- |
@@ -17,7 +17,7 @@ There are 129 series, 43 leaves and 79 reviewed profiles; 50 profiles remain que
 | Vision & Multimedia | 16 | Vision/pattern recognition; graphics/visualization; multimedia/retrieval |
 | RL, Robotics & Control | 11 | Reinforcement learning; control/robotics; planning/search |
 | Complex Systems, Time Series & Signals | 30 | Nonlinear dynamics; complex systems/networks; graphs/graph learning; system identification; time series; signals; artificial life/adaptive systems |
-| Healthcare & Biometrics | 13 | Healthcare/clinical AI; biomedical imaging; biometrics/human sensing |
+| Healthcare & Biometrics | 14 | Healthcare/clinical AI; biomedical imaging; biometrics/human sensing |
 | Neuroscience & Neurotechnology | 17 | Computational neuroscience; EEG/MEG; BCI; neuroimaging; computational cognition; neuromorphic/brain-inspired computing; systems/experimental neuroscience |
 | Responsible & Trustworthy AI | 4 | Fairness/accountability; explainability; ethics/governance; privacy; robustness/safety; human-AI interaction |
 

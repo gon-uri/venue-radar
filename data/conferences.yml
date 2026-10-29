@@ -7760,3 +7760,63 @@
   notes: As of 2026-10-29 cosyne.org announces only COSYNE 2027 (Montreal, Mar 11-16, 2027); no 2028
     dates or host are published. Meeting dates (Mar 11-16) and the Oct 18 abstract deadline are
     one-year proxies from COSYNE 2027.
+
+# User-requested addition 2026-10-29 (official AIiH pages reviewed).
+- id: aiih-2027
+  series: AIiH
+  year: 2027
+  title: International Conference on AI in Healthcare
+  short_title: AIiH 2027
+  website: https://aiih.cc/
+  cfp_url: https://aiih.cc/call-for-papers/
+  source_urls:
+  - https://aiih.cc/
+  - https://aiih.cc/important-dates/
+  - https://aiih.cc/call-for-papers/
+  - https://aiih.cc/call-for-stars/
+  location: Oxford, United Kingdom
+  mode: in-person
+  conference_start: '2027-09-01'
+  conference_end: '2027-09-03'
+  timezone: Europe/London
+  topics:
+  - Healthcare & Clinical AI
+  - Biomedical Imaging
+  - Machine Learning
+  - Signal Processing
+  size: M
+  submission_type: Full papers (double-blind, proceedings) or abstracts (posters/spotlights, Zenodo); late-breaking abstracts and STARS surveys
+  relevance: high
+  deadlines:
+  - type: special_session_proposal
+    label: Special session proposals
+    datetime: '2027-01-22T23:59:00-08:00'
+    source_url: https://aiih.cc/important-dates/
+  - type: full_paper
+    label: Full paper submission (main and special sessions)
+    datetime: '2027-04-09T23:59:00-08:00'
+    source_url: https://aiih.cc/important-dates/
+  - type: abstract
+    label: Abstract submission (poster or spotlight talk)
+    datetime: '2027-04-09T23:59:00-08:00'
+    source_url: https://aiih.cc/important-dates/
+  - type: notification
+    label: Author notification (April submissions)
+    datetime: '2027-05-28T23:59:00-08:00'
+    time_precision: date
+    source_url: https://aiih.cc/important-dates/
+  - type: camera_ready
+    label: Camera-ready (April submissions)
+    datetime: '2027-06-11T23:59:00-08:00'
+    source_url: https://aiih.cc/important-dates/
+  - type: late_abstract
+    label: Late-breaking abstract and STARS survey submission
+    datetime: '2027-07-02T23:59:00-08:00'
+    source_url: https://aiih.cc/important-dates/
+  last_checked: '2026-10-29'
+  confidence: confirmed
+  notes: Official AIiH pages (checked 2026-10-29) list the fourth edition at the Mathematical Institute,
+    University of Oxford, Sep 1-3, 2027; the format is not stated. Deadlines are published as 11.59PM
+    Pacific Time (GMT-8) and stored at -08:00, although Pacific clocks are on GMT-7 from March, so submit an
+    hour early. Full papers are double-blind via CMT (2026 papers appeared in Springer LNCS); abstracts and
+    STARS surveys are archived on Zenodo. Size is an editorial estimate.

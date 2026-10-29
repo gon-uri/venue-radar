@@ -97,7 +97,7 @@ below are history, not instructions to reimplement old designs.
 - Completed: sourced profile schema, primary/additional matching in search,
   filters and topic feeds, scope evidence in calendar descriptions, a separate
   workbook sheet, and a missing/stale/prior-edition review queue.
-- Current coverage: 79 of 129 series, including all 42 AI Deadlines additions
+- Current coverage: 80 of 130 series, including all 42 AI Deadlines additions
   and all 16 complex-systems/neuroscience additions.
 - Remaining work: curate the 50 missing profiles from official sources and
   review existing profiles about monthly. Prior-edition evidence stays dated.

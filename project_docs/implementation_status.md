@@ -12,11 +12,11 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Repository | `gon-uri/venue-radar`; GitHub Pages publishes `main/docs`. |
 | Website | https://gon-uri.github.io/venue-radar/ |
 | Architecture | Reviewed YAML + Python generators + standalone static HTML/ICS; no backend or SQL database. |
-| Catalog | 196 edition records across 129 distinct series, including 30 next editions added 2026-10-29 (28 estimated; ICDM 2027 and ACC 2028 confirmed). Website row counts refer to editions, not unique series. |
+| Catalog | 197 edition records across 130 distinct series, including 30 next editions added 2026-10-29 (28 estimated; ICDM 2027 and ACC 2028 confirmed) and the user-requested AIiH 2027. Website row counts refer to editions, not unique series. |
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
-| Detailed scopes | 79 reviewed profiles; 50 series still lack a reviewed profile. |
+| Detailed scopes | 80 reviewed profiles; 50 series still lack a reviewed profile. |
 | Evidence maps | 66 direct ICORE 2026 ranks, 55 direct CCF 2026 ranks, 34 historical rate/qualitative-band entries. |
-| Public feeds | 372 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 196 edition and 129 series feeds. |
+| Public feeds | 374 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 197 edition and 130 series feeds. |
 | Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
@@ -177,6 +177,13 @@ picker state, successor month/hidden rows, tablet overlaps, no-JS columns) and
 found IFAC SYSID 2027's Nov 15 extension and day-only June 1 opening; ACC
 2028's conflicting notification/final dates are now estimated. Validation
 now rejects deadline or opening times without an explicit UTC offset.
+AIiH (International Conference on AI in Healthcare) was added on request:
+AIiH 2027 in Oxford, Sep 1-3, with independent Apr 9 paper/abstract routes
+and a Jul 2 late-breaking/STARS route (published as 11.59PM Pacific, GMT-8),
+a healthcare identity, a sourced scope profile, an Oxford alias and annual
+cadence. No ICORE/CCF rank is mapped (the ICORE portal refused automated
+access; CCF predates the 2024 series). The workbook gained its catalog and
+scope rows (tables extended in place; 130 catalog rows re-import exactly).
 Checks: validation of 196 records, 99 Python tests, deterministic builds,
 no removed UID versus HEAD, the non-ICS whitespace check, and the full browser
 suite at 1440/1051/1050/768/390/320px including tests/venue_features.mjs (123

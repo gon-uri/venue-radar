@@ -12,7 +12,7 @@ from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, map_event
 from conference_scopes import load_scopes
 from export_catalog import catalog_payload
 from rollover_editions import CADENCE_YEARS, rollover_candidates
-from validate import load_acceptance_rates, load_ccf_rankings, load_conferences, load_icore_rankings
+from validate import load_acceptance_rates, load_ccf_rankings, load_conferences, load_controlled_topics, load_icore_rankings
 
 
 ADDED = {'EuroGP', 'KR', 'ICAPS', '3DV', 'ACM MM', 'ACM SIGGRAPH', 'BMVC',
@@ -121,9 +121,10 @@ class VisionAIAdditionTests(unittest.TestCase):
         payload = catalog_payload()
         self.assertTrue(ADDED <= {row[0] for row in payload['rows']})
         self.assertTrue(ADDED <= {row[0] for row in payload['scopes']})
-        self.assertEqual(len(payload['rows']), 129)
-        self.assertEqual(len(payload['topics']), 43)
-        self.assertEqual(len(payload['scopes']), 79)
+        # One row per tracked series, controlled leaf and reviewed profile.
+        self.assertEqual(len(payload['rows']), len({c['series'] for c in load_conferences()}))
+        self.assertEqual(len(payload['topics']), len(load_controlled_topics()))
+        self.assertEqual(len(payload['scopes']), len(load_scopes()))
 
 
 if __name__ == '__main__':

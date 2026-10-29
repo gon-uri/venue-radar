@@ -58,7 +58,7 @@ CADENCE_YEARS = {
     "IEEE BigData": 1, "IEEE ICMLA": 1, "ACML": 1, "ICONIP": 1,
     "IJCNN": 1, "ESANN": 1, "AALTD": 1, "AIES": 1, "ACM FAccT": 1,
     "CHI": 1, "ICASSP": 1, "ISBI": 1, "IEEE BHI": 1, "ML4H": 1,
-    "COSYNE": 1, "OHBM": 1,
+    "COSYNE": 1, "OHBM": 1, "AIiH": 1,
     # Biennial series added 2026-10-29.
     "ACPR": 2, "IEEE NER": 2, "IEEE SSP": 2, "International BCI Meeting": 2,
 }

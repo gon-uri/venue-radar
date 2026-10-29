@@ -1,6 +1,6 @@
 # Data Maintenance
 
-Last synchronized: 2026-10-08.
+Last synchronized: 2026-10-29.
 
 Use this guide to refresh tracked information. For a new series/edition use
 [adding conferences](adding_conferences.md); for fields and submission semantics
@@ -20,8 +20,11 @@ the website never refreshes organizer information automatically.
 
    Replace `YYYY-MM-DD` with the actual review date. Omitting `--as-of` uses
    the host's current date, which is not necessarily the user's local date.
-2. Review the edition, acceptance and scope queues using official sources.
-   Check current CFP/date pages even when a plausible proxy already exists.
+2. Work through the edition queue tier by tier (`act-now`, `soon`, `later`,
+   `call-unannounced`, `schedule-only`, `successor-missing`), then the advisory checks and the
+   acceptance and scope backlogs, using official sources. `scripts/source_check.py`
+   can list dead links and successor pages first (see below). Check current
+   CFP/date pages even when a plausible proxy already exists.
    Recheck final extensions, cutoff zones, mandatory gates, opening evidence,
    meeting/location changes and production steps. An aggregator is discovery
    evidence, not a substitute for the official edition's instructions.
@@ -56,6 +59,65 @@ the website never refreshes organizer information automatically.
   resolve conflicting official pages, detect every missing submission in a
   nonempty schedule-only list, or verify historical statistics. Review those
   cases editorially and never claim that an empty queue proves data accuracy.
+
+### Tiers, Formats And Advisory Checks
+
+Each queued edition gets one tier, most urgent first:
+
+- `act-now`: a fresh-submission route, or its mandatory gate, is due within 30
+  days (an estimated route within 90 days).
+- `soon`: due within 90 days. `later`: due after that.
+- `call-unannounced`: a meeting that has not started and has no recorded
+  fresh-submission route (the site's "Deadline unannounced"); find this
+  edition's call. Once the meeting starts it counts as closed.
+- `schedule-only`: every recorded fresh-submission route has passed.
+- `successor-missing`: the series' latest edition is past or has no remaining
+  route, and no later edition is tracked (IJCAI-ECAI stays exempt).
+
+Route rules mirror the site: only supported types count and a gate is never a
+route on its own. Advisory checks, listed apart from the queue, flag passed
+estimated deadlines of upcoming meetings, confirmed future locations without a
+city alias, confirmed records citing an older year's URL, and aggregator or
+social-media sources. The acceptance and scope backlogs print a count plus a
+sample (`--backlog-sample N`); `--full` lists every row. `--format markdown`
+writes a GitHub issue body and `--format json` a machine-readable report.
+
+### Weekly Review Issue
+
+`.github/workflows/maintenance-report.yml` runs every Monday at 06:00 UTC (or by
+hand) and rewrites the body of the single issue titled "Review queue" that the
+workflow itself created (author `app/github-actions`), creating or reopening it
+as needed; an issue someone else opens with that title is ignored. It has `contents: read` and `issues: write` only and
+never commits, pushes or comments. Ticked boxes reset each week; discuss in
+comments. GitHub disables scheduled workflows after 60 days without repository
+activity; if the issue stops updating, re-enable the workflow under Actions.
+
+### Source Checks (Manual, Networked)
+
+```sh
+python3 scripts/source_check.py --as-of YYYY-MM-DD --limit 20
+python3 scripts/source_check.py --id icml-2027 --id kdd-2027
+python3 scripts/source_check.py --series NeurIPS --format markdown --output /tmp/source-check.md
+```
+
+It fetches every cited URL of upcoming editions (or the selected ones) and
+reports `dead`, `blocked` (403/429; check by hand), `robots` and cross-host
+`redirect` links. For estimated editions it probes next-year URLs, and for HTML
+pages it prints keyword/date snippets beside the YAML dates. `--series` is
+ignored when `--id` is given. Snippets are hints,
+not evidence. It respects robots.txt, waits at least 1 s per host and writes
+only the optional `--output` file. A full run takes 10-15 minutes; on macOS wrap
+it in `caffeinate -is` (this does not help with the lid closed). The python.org
+macOS Python ships without CA certificates: install `certifi`, run "Install
+Certificates.command" or use the system `/usr/bin/python3`, otherwise every HTTPS
+URL shows as `dead`.
+
+### Correction Reports
+
+"Report outdated info" in each evidence line opens the `correction.yml` issue
+form with the edition ID and title filled in. Check the reported problem against
+the official source, edit the YAML with that source, rebuild and close the issue
+with the commit. A report is a lead, not evidence; never apply it unverified.
 
 ## Estimates And Next Editions
 
@@ -108,7 +170,10 @@ opening evidence are independent. In particular:
 
 - A confirmed meeting can have an estimated paper deadline or no known call.
 - A known deadline day with an unknown hour uses `time_precision: date`; it is
-  not an inferred day. Document the provisional ordering timestamp.
+  not an inferred day. Store 23:59 AoE; the site counts down to 23:59 in the
+  host city's `tz` instead, so confirmed cities need a correct zone.
+- When official sources disagree on a cutoff, store the earliest stated instant
+  and a short `cutoff_note`; the page marks it with an asterisk (ADR-040).
 - A day-only opening stays in notes until an exact published time or live
   portal can be verified. Do not manufacture midnight `opens_at`.
 - Mandatory abstract/registration gates close fresh submission routes when
@@ -128,8 +193,8 @@ central series identities, not any incidental ML method; individual leaves
 use the curated primary/additional union. Main tags cap at four, extras at six;
 these are limits, not targets. Never import an exhaustive CFP inventory.
 
-Only confirmed cities get exact `location` aliases and approximate centers in
-`data/cities.yml`. Distinguish homonymous cities; do not guess hosts, silently
+Only confirmed cities get exact `location` aliases, approximate centers and an
+IANA `tz` in `data/cities.yml`. Distinguish homonymous cities; do not guess hosts, silently
 geocode ambiguous strings or claim venue-level accuracy. When organizers name
 only an island or region (CNS* and ITISE: "Gran Canaria"), an explicitly
 commented region-level alias may use its geographic centre. Future confirmed/

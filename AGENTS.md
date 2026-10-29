@@ -86,12 +86,20 @@ Validate data:
 ```bash
 python3 scripts/validate.py
 python3 -m unittest discover -s tests -v
+node --test tests/js/*.test.mjs
 ```
 
 Build all generated outputs:
 
 ```bash
 python3 scripts/build_all.py
+```
+
+Before committing a release, run the combined check and the identity check:
+
+```bash
+python3 scripts/release_check.py
+python3 scripts/check_identity.py --base origin/main
 ```
 
 ## After Changes

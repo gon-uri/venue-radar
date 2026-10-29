@@ -1,13 +1,14 @@
 # Architecture
 
-Last synchronized: 2026-10-08.
+Last synchronized: 2026-10-29.
 
 ## System In Brief
 
 Venue Radar is versioned YAML plus Python generators and a self-contained static
 HTML page. GitHub Pages publishes committed `docs/` from `main`. There is no
 SQL database, backend, paid hosting or OpenAI API dependency. Python/PyYAML are
-the required build tools; optional Node tools support workbook/branding/browser QA.
+the required build tools. CI also runs Node's built-in test runner on the client
+logic; optional Node tools support workbook/branding/browser QA.
 
 Repository: https://github.com/gon-uri/venue-radar
 Website: https://gon-uri.github.io/venue-radar/
@@ -36,18 +37,21 @@ backend. No calendar/ranking/filter feature depends on it.
 | `data/topic_families.yml` | Eight-family IDs/names/order, leaf ownership and compact display labels. |
 | `data/conference_families.yml` | One-to-three central family identities per exact series. |
 | `data/conference_scopes.yml` | Sourced series prose, curated extra leaves and independent review date/year. |
-| `data/cities.yml` | Exact location aliases and approximate city centers. |
+| `data/cities.yml` | Exact location aliases, approximate city centers and each city's IANA time zone (`tz`). |
 | `data/icore_rankings.yml` | Direct current-release series ranks and official portal IDs/evidence. |
 | `data/ccf_rankings.yml` | Direct series ranks, PDF/page evidence and separate navigation webpage. |
 | `data/acceptance_rates.yml` | Historical track/year/percentage or sourced qualitative-only bands. |
 | `data/metadata.yml` | Published dataset review date. |
+| `data/retired_identities.yml` | Reviewed list of intentionally retired edition IDs or event UIDs (normally empty). |
 | `data/core_conferences_normalized_tags.xlsx` | Latest-series catalog, vocabulary and scope review mirror; not canonical data. |
-| `assets/` | Embedded site CSS/JS, logos, favicon, font, map geometry and vendor notices. |
+| `assets/` | Embedded site CSS/JS, logos, favicon, font, map geometry, link-preview card and vendor notices. |
 | `docs/` | Generated public HTML and ICS only; never edit by hand. |
 | `project_docs/` | Public handbook, source evidence and technical decisions. |
 | `private_notes/` | Optional gitignored working logs, brainstorming and design/copy history; not a build input. |
-| `.github/ISSUE_TEMPLATE/` | Public conference request form. |
-| `.github/workflows/build.yml` | Python validation/tests/build CI. |
+| `.github/ISSUE_TEMPLATE/` | Public conference request and correction forms. |
+| `.github/workflows/build.yml` | CI: validation, Python and Node unit tests, build, then docs-drift, inline-script and identity checks. Never commits. |
+| `.github/workflows/maintenance-report.yml` | Weekly rewrite of the single "Review queue" issue. Never commits. |
+| `.github/pull_request_template.md` | Publication checklist for pull requests. |
 
 Each record is an edition; shared maps join by exact `series`. Ranks/rates/scopes
 are not copied into each edition. See [data schema](data_schema.md) for fields
@@ -61,26 +65,37 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 | `scripts/catalog_metadata.py` | Family/city and complete series-family validation; confirmed-city event payload. |
 | `scripts/conference_scopes.py` | Profile validation, deduplicated topic union and missing/stale/prior-edition scope queue. |
 | `scripts/build_ics.py` | Escaped/folded VCALENDAR output, stable ordering/UIDs, exact and all-day deadline events. |
-| `scripts/build_site.py` | HTML/table/milestone generation and embedded core JavaScript for filters, submission-route selection, countdowns and sorting. |
-| `assets/site.js` | Mobile-card initialization, family/leaf matching, offline map and optional Giscus loading; embedded by the site generator. |
-| `assets/site.css` | Custom layout/brand/mobile styling, embedded alongside generator styles. |
+| `scripts/build_site.py` | HTML/table/milestone generation, head metadata, icon sprite, evidence lines and host-zone cutoff instants. Embeds the assets below and a small JSON config. |
+| `assets/logic.js` | Pure client logic: search normalization, countdown text, UTC/local clocks and submission-route state. Unit-tested in `tests/js/`. |
+| `assets/core.js` | Page wiring: filters, URL state and deep links, starring, row ordering, next-step/successor lines, empty states and the minute refresh. |
+| `assets/site.js` | Mobile cards, family/leaf matching, calendar menu, offline map and optional Giscus loading. |
+| `assets/base.css`, `assets/site.css` | Base tokens and layout, then brand/mobile/feature styling; embedded in that order. |
 | `scripts/build_all.py` | Validate source data, build ICS and standalone HTML. Run the standalone validator too; do not skip registry checks. |
-| `scripts/maintenance_report.py` | Read-only edition, acceptance and scope review queues. |
+| `scripts/maintenance_report.py` | Read-only edition queue with urgency tiers, advisory checks, and acceptance/scope backlogs (text, markdown or JSON). |
+| `scripts/source_check.py` | Manual, networked check of cited URLs and successor pages. Report-only; never run in CI. |
+| `scripts/check_identity.py` | Fails when a published UID or edition ID disappears without a retirement entry. |
+| `scripts/release_check.py` | Local release gate: validation, tests, build, determinism, docs drift, whitespace, private notes and dataset freshness. |
 | `scripts/rollover_editions.py` | Preview or explicitly append cadence-based estimates; never overwrites existing edition IDs. |
 | `scripts/export_catalog.py` | JSON export of each series' latest edition, ranks/rates, vocabulary and profiles. |
 | `scripts/sync_workbook.mjs` | Optional artifact-tool workbook synchronization, table/style preservation, checks and previews. |
-| `scripts/recolor_logo.mjs`, `scripts/build_readme_banner.mjs` | Optional tools deriving brand outputs from immutable sources and the real title font. |
+| `scripts/recolor_logo.mjs`, `scripts/build_readme_banner.mjs`, `scripts/build_social_card.mjs` | Optional tools deriving brand outputs from immutable sources and the real title font. |
 | `tests/test_*.py` | Unit/data/rendering/workflow/documentation regressions. |
+| `tests/js/*.test.mjs` | Node built-in-runner tests for `assets/logic.js`. |
 | `tests/browser_smoke.mjs` and imported suites | Interactive desktop/mobile, route, map and overflow regressions using a frozen reference date. |
 
-Do not assume every browser function lives in `assets/site.js`: core submission
-logic is currently emitted inside `scripts/build_site.py`. Prefer existing
-module boundaries; a documentation cleanup is not a reason to move behavior.
+Client code lives in `assets/` (ADR-040). Pure functions that need no page go
+in `logic.js` with a unit test; code that reads or changes the page goes in
+`core.js` or `site.js`. The generator emits markup, the `#venue-config` JSON and
+the asset contents in this order: map data and site.js, config, logic.js and
+core.js, then Leaflet. Prefer these boundaries; a documentation cleanup is not a
+reason to move behavior.
 
 ## Generated Outputs And Identity
 
 - `docs/index.html`: standalone HTML with embedded local logo, radar favicon,
-  Audiowide font, CSS/JS, pinned Leaflet and Natural Earth land geometry.
+  Audiowide font, CSS/JS, pinned Leaflet and Natural Earth land geometry. Its
+  link-preview image is `assets/branding/social-card.png`, served from the
+  repository's `main` branch because `docs/` holds only generated output.
 - `docs/calendar-all.ics`: meeting dates plus recorded deadlines.
 - `docs/deadlines.ics`: recorded deadlines, including schedule-only steps.
 - `docs/conferences.ics`: meeting dates only.
@@ -96,7 +111,8 @@ for the aggregate, topic and series feeds (ADR-039).
 
 All recorded milestones can enter ICS even if they are not fresh-submission
 opportunities. The website's opportunities checkbox does not rewrite downloads.
-Date-only cutoffs export all-day events. UTF-8 line folding and CRLF are
+Date-only cutoffs export all-day events. A `cutoff_note` is added to the event
+description. UTF-8 line folding and CRLF are
 intentional; do not trim folded content spaces as cosmetic whitespace fixes.
 
 Published edition IDs/deadline types determine UIDs. Keep the historical
@@ -123,8 +139,10 @@ identities. Topic slugs and Giscus IDs/mapping are similarly durable.
 - At meeting start, the edition leaves Upcoming Deadlines and the future table;
   ongoing/past editions remain in a separate collapsible conference table.
   Map markers require confirmed/announced, mapped, non-online future meetings.
-- Mobile is up to 760px: three fields plus independent More info disclosures;
-  desktop keeps all columns. Filters start collapsed only on mobile. Resizing
+- Mobile is up to 760px: compact cards put the name and countdown (or dates)
+  on the first row with status and next step below, plus independent More info
+  disclosures. Desktop keeps all columns under a sticky header, with topics on
+  one wrapped line. Filters start collapsed only on mobile. Resizing
   preserves the user's disclosure choices; no-JS retains full metadata access.
 - Abstract-only publication formats use existing milestone/status wording and
   documented notes, not a new column or filter (ADR-036).
@@ -134,6 +152,18 @@ identities. Topic slugs and Giscus IDs/mapping are similarly durable.
 - Search is accent-insensitive and requires every word; short words match word
   starts. Empty views explain hidden closed/unannounced matches; closed rows
   link to a tracked successor edition. Re-renders never move focused rows.
+- A day-only cutoff stored as 23:59 AoE counts down to 23:59 in the host city's
+  zone (cities.yml `tz`, else a real edition `timezone`) on that day, never
+  later than AoE; the tooltip names the zone. A cutoff with a `cutoff_note`
+  shows an asterisk and the note (ADR-040).
+- Rows have stable anchors: `#<edition-id>` opens that edition and
+  `#<series-slug>` the series' next edition, revealing it if filters hide it.
+  Filters, search, match mode, tab and toggles live in the query string; a
+  followed hash is dropped once the visitor changes the view. Series
+  can be starred per browser (localStorage `venue-radar:starred`), with a
+  Starred only filter and feed shortcuts. Expanded schedules and mobile More
+  info show an evidence line: sources, review date, Copy link and a prefilled
+  correction form.
 
 UI dimensions/colors and their approved history are covered by source assets,
 regression tests and ADR-022/024/025/032-036, not repeated in every handbook file.
@@ -146,9 +176,12 @@ Both licenses permit commercial reuse with their respective notices/attribution.
 
 Maintainers review official sources, edit owning YAML, update actual review
 dates, synchronize mirrored fields, validate/test/build, inspect results and
-commit source/output together when publishing. CI validates and rebuilds but
-does not scrape sources, refresh evidence, enforce freshness, or commit its
-build output. Pages serves the committed files, not CI's working copy.
+commit source/output together when publishing. CI validates, runs the Python
+and Node unit tests and rebuilds. It fails when committed `docs/` differ from
+the fresh build, when an inline script has a syntax error, or when a published
+identity disappears without a retirement entry. It does not scrape sources,
+refresh evidence, enforce freshness, or commit its build output. Pages serves
+the committed files, not CI's working copy.
 
 Use [data maintenance](data_maintenance.md), [adding conferences](adding_conferences.md)
 and [development](development.md) for commands and acceptance criteria. Current

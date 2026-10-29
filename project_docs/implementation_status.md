@@ -12,11 +12,11 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Repository | `gon-uri/venue-radar`; GitHub Pages publishes `main/docs`. |
 | Website | https://gon-uri.github.io/venue-radar/ |
 | Architecture | Reviewed YAML + Python generators + standalone static HTML/ICS; no backend or SQL database. |
-| Catalog | 197 edition records across 130 distinct series, including 30 next editions added 2026-10-29 (28 estimated; ICDM 2027 and ACC 2028 confirmed) and the user-requested AIiH 2027. Website row counts refer to editions, not unique series. |
+| Catalog | 198 edition records across 130 distinct series, including 30 next editions added 2026-10-29 (28 estimated; ICDM 2027 and ACC 2028 confirmed), the user-requested AIiH 2027 and SD4H 2026 as TS4H's successor. Website row counts refer to editions, not unique series. |
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
 | Detailed scopes | 80 reviewed profiles; 50 series still lack a reviewed profile. |
 | Evidence maps | 66 direct ICORE 2026 ranks, 55 direct CCF 2026 ranks, 34 historical rate/qualitative-band entries. |
-| Public feeds | 374 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 197 edition and 130 series feeds. |
+| Public feeds | 375 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 198 edition and 130 series feeds. |
 | Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
@@ -42,9 +42,10 @@ additions, not from an older session entry or a filtered website screenshot.
   evidence remains Unknown; ranks are independent, not predicted acceptance.
 - Confirmed/announced future, non-online meetings in known cities appear on an
   offline Leaflet/Natural Earth map. Estimates remain in tables, not the map.
-- Filters open by default above 760px and close initially on mobile. Mobile
-  cards show three fields and independently expand More info; desktop tables
-  stay complete. Disclosure state survives filters/tabs/resizing; no-JS keeps
+- Filters open by default above 760px and close initially on mobile. Compact
+  mobile cards put the name and countdown on one row with status and next step
+  below, and independently expand More info; desktop tables stay complete
+  under a sticky header. Disclosure state survives filters/tabs/resizing; no-JS keeps
   full metadata accessible. Mobile visual refinement is covered by ADR-035.
 - Venue Radar branding uses the selected Audiowide title, four-color calendar/
   radar PNG, radar-only favicon, restrained teal styling and semibold names.
@@ -58,6 +59,13 @@ additions, not from an older session entry or a filtered website screenshot.
   time; mobile cards repeat the counted-down action under Time left. Closed or
   unannounced rows link to a tracked successor edition. Empty views explain
   hidden closed/unannounced matches; an active-filter badge shows on the panel.
+- Day-only cutoffs count down to 23:59 in the host city (never later than AoE).
+  When official sources disagree, the earliest cutoff is stored and shown with
+  an asterisk and a note (12 deadlines on 2026-10-29). Rows have deep links
+  (`#<edition-id>`, `#<series>`), filters live in the URL, series can be
+  starred per browser, and expanded rows show an evidence line with Copy link
+  and a prefilled correction form. A status guide explains the pills; link
+  previews use a 1200x630 card (ADR-040).
 - Search is accent-insensitive and matches every word. Re-renders keep keyboard
   focus. Tablet tables wrap between words; focus outlines, captions, a skip
   link and reduced motion are in place; no-JS shows every table and milestone.
@@ -76,7 +84,11 @@ rate and scope queues, official-source review and confidence handling.
 Cadence-aware rollover previews estimates for an explicit allowlist once a
 series' submission routes close; `--write` (optionally `--series`) requires
 review, keeps the prior review date and never overwrites existing editions. There is no unattended
-source scraping, freshness enforcement or automatic data promotion.
+source scraping, freshness enforcement or automatic data promotion. The report
+tiers the queue by urgency and lists advisory checks; a weekly workflow rewrites
+one "Review queue" issue; `scripts/source_check.py` checks cited links by hand.
+CI fails on docs drift, inline-script syntax errors and removed published
+identities, and runs Node unit tests for the client logic.
 
 [Adding conferences](adding_conferences.md) covers identity/approval, all owning
 files, taxonomy, dates, publication caveats and verification. [Development](development.md)
@@ -100,13 +112,12 @@ adds ignore/tracking checks and keeps onboarding independent of private notes.
   Asia-Pacific/Dynamics Days CAC announcements. Their gaps are deliberately
   retained in the review queue rather than converted into false future dates.
   On 2026-10-28 iccn2026.jp no longer resolved (registry status Suspended), so
-  the estimated ICCN record now rests on unverifiable evidence; decide whether
-  to keep it.
-- Owner decisions from the 2026-10-28 refresh: IAPR's first virtual ICPR
-  (ICPRv, Oct 4-15, 2027, Mar 2027 paper deadline) is not tracked until its
-  series identity and rank inheritance are approved; Structured Data for Health
-  (ICML 2026) may succeed TS4H but no identity link is asserted; SIGIR 2027's
-  draft Perspectives track awaits a final call and a suitable archival type.
+  the estimated ICCN record now rests on unverifiable evidence. The owner
+  decided on 2026-10-29 to keep it.
+- Owner decisions of 2026-10-29: IAPR's first virtual ICPR (ICPRv, Oct 4-15,
+  2027) is not tracked; Structured Data for Health (SD4H, ICML 2026, Seoul) is
+  tracked as TS4H's successor under the TS4H series key. SIGIR 2027's draft
+  Perspectives track still awaits a final call and a suitable archival type.
 - ACPR 2027's acpr2027.com is still a draft site that IAPR does not list, so its
   Suzhou dates stay estimated and off the map until the organizer confirms them.
 - Revisit unannounced ALIFE/BCI/SfN calls and BioCAS's exact paper route;
@@ -165,9 +176,11 @@ suite at 1440/1051/1050/768/390/320px (93 opportunities at its frozen date).
 The 12 changed workbook catalog cells were patched in place without the
 optional artifact tool. All other workbook parts are byte-identical, and a
 re-import matches all 129 exported rows. No visual render of the workbook was
-performed. Not yet committed or published.
+performed. Committed as 5e3b262 on branch `oct-2026-refresh-and-features`;
+not published.
 
-The 2026-10-29 feature release (ADR-039; not yet committed or published) adds
+The 2026-10-29 feature release (ADR-039; committed as d5285e4 and 1bab28a on
+the same branch, not published) adds
 exact cutoff clocks with local time, the subscribe menu and submissions/series
 feeds, earlier successor tracking with 30 officially reviewed estimated next
 editions (ICDM 2027 Brisbane and ACC 2028 San Francisco have official dates),
@@ -179,7 +192,8 @@ found IFAC SYSID 2027's Nov 15 extension and day-only June 1 opening; ACC
 now rejects deadline or opening times without an explicit UTC offset.
 AIiH (International Conference on AI in Healthcare) was added on request:
 AIiH 2027 in Oxford, Sep 1-3, with independent Apr 9 paper/abstract routes
-and a Jul 2 late-breaking/STARS route (published as 11.59PM Pacific, GMT-8),
+and a Jul 2 late-breaking/STARS route (published as "11.59PM Pacific Time
+(GMT-8)"; since ADR-040 stored at the earlier PDT instant with a cutoff note),
 a healthcare identity, a sourced scope profile, an Oxford alias and annual
 cadence. No ICORE/CCF rank is mapped (the ICORE portal refused automated
 access; CCF predates the 2024 series). The workbook gained its catalog and
@@ -190,3 +204,19 @@ suite at 1440/1051/1050/768/390/320px including tests/venue_features.mjs (123
 opportunities at its frozen date). The workbook's 21 changed Source cells
 were patched in place and all 129 rows re-import. Calendar-app behavior of the
 Google/Apple subscribe links is untested here (no signed-in client).
+
+The 2026-10-29 ADR-040 round (committed on the same branch, not published)
+records the owner decisions and implements the remaining proposals: earliest
+cutoff plus `cutoff_note` on 12 deadlines, SD4H 2026 as TS4H's successor
+(workbook TS4H row updated; 130 rows re-import exactly), ISBI 2027's Nov 2
+extension, host-zone day-only countdowns, the client-code split, deep links
+and URL state, starring, evidence lines with a correction form, compact cards,
+link previews and the maintenance/CI tooling. An adversarial review confirmed
+21 findings and a second agent pass verified their fixes and found 13 smaller
+follow-ups, all fixed. Checks: validation of 198 records, 157 Python and 32
+Node tests, deterministic builds, the identity check (658 -> 661 UIDs, 197 ->
+198 edition IDs, none removed), the non-ICS whitespace check and the full
+browser suite at 1440/1051/1050/768/390/320px (124 opportunities at its frozen
+date). Not verified: the new GitHub workflows (they have not run on GitHub),
+link previews on real platforms (the card is served from `main`), Giscus
+sign-in with the new URL handling, and calendar-app behavior of subscriptions.

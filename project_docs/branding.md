@@ -1,6 +1,6 @@
 # Current Branding
 
-Reviewed: 2026-10-08. This is the implemented identity, not a design proposal.
+Reviewed: 2026-10-29. This is the implemented identity, not a design proposal.
 Regeneration commands are in [development](development.md#branding-tools).
 
 ## Logo And Banner
@@ -27,6 +27,8 @@ the calendar interior white; it does not redraw or trace the mark.
   the current mark with the actual Audiowide title face.
 - `assets/favicon.svg`: separate radar-only mark on opaque white, not the full
   calendar logo. It is embedded in the generated page.
+- `assets/branding/social-card.png`: 1200x630 link-preview card (logo, Audiowide
+  title, short description) rendered by `scripts/build_social_card.mjs`.
 
 Do not recolor an already transformed output. The banner uses website
 proportions/optical alignment scaled by 1.5 and links to the calendar in README.

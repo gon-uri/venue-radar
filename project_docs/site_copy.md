@@ -55,3 +55,23 @@ Approved with ADR-039 (implementation proposal; adjust wording here first):
   conferences match these filters." Toolbar link: "Show N closed or unannounced".
 - Filter badge: "N active". No-JS note: "Live submission status, countdowns and
   filters need JavaScript. Every conference, date and milestone is still listed below."
+
+## Page Title, Status Guide And Evidence Line
+
+Approved with ADR-040:
+
+- Title: "Venue Radar: ML, AI & Neuroscience Conference Deadlines". Description:
+  "Conference deadlines for machine learning, AI, neuroscience, healthcare,
+  complex systems and control, with live countdowns, rankings, acceptance rates
+  and auto-updating calendars." The same text feeds the Open Graph and X tags.
+- Status guide (collapsed above the deadlines table): "What do the statuses
+  mean?" It defines each status pill, "~4d 14h · (est.)" ("Estimated countdown
+  or date."), "(time est.)" ("Official
+  day; the cutoff hour is not announced.") and "*" ("Official sources disagree
+  on the cutoff; the earliest stated time is shown, with the note below it.").
+- Evidence line: "Call for papers" or "Previous call", "Dates source" or
+  "Previous dates" (a link to an older year's page says Previous), "Checked
+  <Mon D, YYYY>", Hybrid/Online, "Dates estimated", "Copy link", "Report
+  outdated info".
+- Starring: "Starred only (N)" filter; calendar menu row "Your starred series"
+  ("Pick one to subscribe to all its editions").

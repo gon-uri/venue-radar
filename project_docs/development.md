@@ -1,6 +1,6 @@
 # Development And Publication
 
-Reviewed: 2026-10-08. Run commands from the repository root. See
+Reviewed: 2026-10-29. Run commands from the repository root. See
 [the documentation index](README.md) for data ownership and task guides.
 The public README remains nontechnical. This project needs no dev server,
 backend, npm app build, secret, paid hosting or OpenAI API.
@@ -22,12 +22,35 @@ already has them. Standard verification is:
 ```sh
 python3 scripts/validate.py
 python3 -m unittest discover -s tests -v
+node --test tests/js/*.test.mjs
 python3 scripts/build_all.py
 ```
 
 Run standalone validation even though the build also validates: it explicitly
-checks all family/city/series registries. CI runs all three steps; it does not
-commit regenerated files or independently confirm organizer facts.
+checks all family/city/series registries. The Node tests need Node 18 or later
+and no npm install; pass the glob, not the bare directory. CI runs all four
+steps, then fails if the committed `docs/` differ from its fresh build, if an
+inline script fails `node --check`, or if a published identity disappeared. It
+does not commit regenerated files or independently confirm organizer facts.
+
+### Release Check And Identity Check
+
+```sh
+python3 scripts/release_check.py [--skip-tests]
+python3 scripts/check_identity.py --base origin/main
+```
+
+`release_check.py` runs validation, the Python tests, the build, a second build
+compared byte for byte, a check that `docs/` matches the git index, the
+whitespace check below, an empty `git ls-files private_notes/`, and
+`metadata.yml` `last_updated` not older than the newest `last_checked`. Run it
+after staging the intended change; it regenerates `docs/` but never stages,
+commits or pushes. It does not run the Node tests, browser smoke, workbook sync
+or the identity check. `check_identity.py` compares `docs/calendar-all.ics` UIDs
+and edition IDs with a base ref; run it after `build_all.py`. A removal needs a
+reviewed entry in `data/retired_identities.yml` (see the
+[data schema](data_schema.md#companion-files-and-stable-identity)).
+`requirements.txt` pins PyYAML; bump it in its own commit.
 
 Open `docs/index.html` directly for preview. Builders embed local assets;
 no development server is required. Never manually edit generated HTML/ICS.
@@ -40,9 +63,11 @@ when editing public UI. Inspect representative desktop and mobile screenshots.
 Documentation-only edits can use unit/link/example checks and prove all public
 artifacts unchanged without repeating an unrelated browser run.
 
-`tests/browser_smoke.mjs` imports the submission, mobile-card, expansion and
+`tests/browser_smoke.mjs` imports the submission, mobile-card, expansion,
 venue-feature (cutoff clocks, focus, search, empty states, successors,
-calendar menu, tablet and no-JS) suites. It freezes a reference date and checks desktop/mobile at
+calendar menu, tablet and no-JS) and more-feature (deep links, URL state,
+evidence line, starring, status guide, host-zone cutoffs, sticky header,
+compact cards, link previews) suites. It freezes a reference date and checks desktop/mobile at
 1440/1051/1050/768/390/320px, route/countdown/gate transitions, independent card
 expansion, filters/scope matching, maps, branding, accessibility and overflow.
 Catalog-specific expected counts/IDs need review after additions; derive them
@@ -115,11 +140,17 @@ Both are optional maintainer dependencies, not runtime requirements.
 With the same isolated runtime:
 
 ```sh
-cp scripts/recolor_logo.mjs scripts/build_readme_banner.mjs "$TOOLS_DIR/"
+cp scripts/recolor_logo.mjs scripts/build_readme_banner.mjs scripts/build_social_card.mjs "$TOOLS_DIR/"
 "$NODE_BIN" "$TOOLS_DIR/recolor_logo.mjs" "$PWD"
 CHROME_BIN="$CHROME_BIN" "$NODE_BIN" "$TOOLS_DIR/build_readme_banner.mjs" "$PWD"
+CHROME_BIN="$CHROME_BIN" "$NODE_BIN" "$TOOLS_DIR/build_social_card.mjs" "$PWD"
 python3 scripts/build_all.py
 ```
+
+The social card (`assets/branding/social-card.png`, 1200x630) is the Open Graph
+and X preview image. Pages serves only `docs/`, so the page points at the file
+on the repository's `main` branch; a new card shows in previews only after it
+reaches `main`, and platforms cache old previews.
 
 Inspect logo, banner, licensing notices and desktop/mobile results. Do not
 regenerate artwork during a conference-data or documentation-only update.
@@ -130,9 +161,10 @@ regenerate artwork during a conference-data or documentation-only update.
    metadata review dates and companion-file completeness. Update dataset
    `last_updated` **before** generation for reviewed data changes; do not change
    it merely because a build or documentation edit happened.
-2. Synchronize mirrored fields as applicable. Run standalone validation, all
-   Python tests and the full build; perform affected browser/visual checks.
-   Rebuild twice if needed to confirm deterministic output.
+2. Synchronize mirrored fields as applicable. Run `scripts/release_check.py`
+   (or standalone validation, all Python tests and the full build) plus the
+   Node tests, and perform affected browser/visual checks. Run
+   `scripts/check_identity.py --base origin/main` before pushing.
 3. Review generated HTML/feed links, estimated versus confirmed labels,
    gated countdowns, archive/map placement and existing UID stability.
    Source changes without rebuilt committed output are not a published update.
@@ -141,7 +173,7 @@ regenerate artwork during a conference-data or documentation-only update.
    UIDs and timing instead of trimming whitespace mechanically:
 
    ```sh
-   git diff --check -- . ':!docs/*.ics' ':!docs/conferences/*.ics' ':!docs/tags/*.ics'
+   git diff --check -- . ':!*.ics'
    ```
 
 5. Update affected current guides, dated evidence and material verification in
@@ -163,4 +195,5 @@ regenerate artwork during a conference-data or documentation-only update.
 Giscus authentication/posting is deliberately outside smoke tests. Owner setup
 and rename safeguards are in [project services](data_maintenance.md#project-services).
 The monthly maintenance process is editorial, never authorization to publish
-unverified scraped dates or silently mutate the repository on a schedule.
+unverified scraped dates or silently mutate the repository on a schedule. The
+weekly Review queue workflow only rewrites one issue.

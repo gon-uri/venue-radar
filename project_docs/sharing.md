@@ -1,6 +1,6 @@
 # Sharing Copy And Controls
 
-Reviewed: 2026-10-08. This records the current draft and controls.
+Reviewed: 2026-10-29. This records the current draft and controls.
 
 ## Share Text
 
@@ -33,3 +33,13 @@ The favicon is maintained separately in `assets/favicon.svg`: radar arcs,
 sweep and location dot on opaque white. It is embedded in generated HTML and
 does not replace the full calendar/radar logo in the header or README. See
 [current branding](branding.md). Rejected drafts belong in local private notes.
+
+## Link Previews
+
+The page sets a canonical URL, Open Graph tags and an X `summary_large_image`
+card from `PAGE_TITLE`, `PAGE_DESCRIPTION` and `SOCIAL_CARD_URL` in
+`scripts/build_site.py` (ADR-040). The 1200x630 image is
+`assets/branding/social-card.png`, loaded from the repository's `main` branch.
+Platforms cache previews, so a changed card can take days to appear; their
+debuggers can refresh it. Each edition's "Copy link" copies the page URL with
+`#<edition-id>`.

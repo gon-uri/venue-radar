@@ -1,6 +1,6 @@
 # Project Documentation
 
-Reviewed: 2026-10-08.
+Reviewed: 2026-10-29.
 
 Venue Radar tracks scientific conferences through reviewed YAML and publishes
 static HTML/calendar feeds. There is no backend database. The public
@@ -34,6 +34,7 @@ before new implementation work. Do not silently change code to match old prose.
 | Assign central families or consider a new subtopic | [Topic audit](topic_audit.md) |
 | Write characteristic scope prose and extra topics | [Conference scopes](conference_scopes.md) |
 | Set up Python, build/test, preview, synchronize XLSX, publish | [Development and publication](development.md) |
+| Triage the weekly Review queue, check sources, handle correction reports | [Data maintenance](data_maintenance.md) |
 | Configure Giscus or migrate repository URLs | [Data maintenance: project services](data_maintenance.md#project-services) |
 | Find deferred conference candidates | [Candidate backlog](conference_candidates.md) |
 | Understand a technical tradeoff | [Decisions](decisions.md) |

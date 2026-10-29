@@ -1,6 +1,6 @@
 # Conference Data Reference
 
-Reviewed against the implementation: 2026-10-08.
+Reviewed against the implementation: 2026-10-29.
 
 The validators in `scripts/validate.py`, `scripts/catalog_metadata.py` and
 `scripts/conference_scopes.py` are the executable contract. This guide explains
@@ -66,11 +66,14 @@ invent dates just to satisfy the required fields or make a row appear upcoming.
 | `gate_for` | Exact type of another, later supported submission in this edition; only when that earlier step is mandatory. |
 | `opens_at` | Published opening datetime for this action, with offset and supporting evidence; never a guessed opening. |
 | `open_observed_on` | ISO day when this action's live submission portal was actually verified open. |
+| `cutoff_note` | Optional, at most 200 characters, only when official sources state conflicting cutoffs. `datetime` then holds the earliest stated instant. The page shows an asterisk and the note; ICS adds it to the description. |
 
 Quote dates/datetimes in YAML for consistency. Use `-12:00` only for explicit
 Anywhere on Earth evidence or a documented provisional assumption, not as the
-default for every exact cutoff. A stated PST/PDT/local-zone inconsistency needs
-a note and source reconciliation, not an unexplained conversion.
+default for every exact cutoff. When official sources state conflicting
+cutoffs (for example "Pacific Time (GMT-8)" in a PDT month, or two pages with
+different hours), store the earliest stated instant and explain the conflict in
+`cutoff_note` (ADR-040); keep longer evidence in `notes`. Never convert silently.
 
 ### Four Independent Questions
 
@@ -79,7 +82,10 @@ a note and source reconciliation, not an unexplained conversion.
    differs, including a confirmed call on an otherwise estimated meeting.
 3. Is its cutoff hour known? For a known day without an hour, use
    `time_precision: date` and a documented provisional end-of-day datetime.
-   The site shows `(time est.)`; ICS exports an all-day event.
+   The site shows `(time est.)`; ICS exports an all-day event. When that
+   datetime is 23:59 AoE and the host city's `tz` (or a real edition
+   `timezone`) is known, the countdown and closing use 23:59 in that zone on
+   the same day, which is never later than AoE (ADR-040).
 4. Is this action's portal known to be open? Record `opens_at` only for an exact
    published opening, or `open_observed_on` after checking the live portal.
    If only an opening day is published, retain it in notes until its precise
@@ -161,8 +167,9 @@ approval; current abstract labels/status already indicate the contribution.
   leaves and at most 1,200 characters of characteristic prose. New series should
   receive a reviewed profile where evidence exists; absent is better than guessed.
   See [the exact five-field schema](conference_scopes.md).
-- `cities.yml`: exact location aliases and approximate city centers; distinguish
-  different cities sharing a name. Confirmed/announced, mapped, non-online future
+- `cities.yml`: exact location aliases, approximate city centers and a valid
+  IANA `tz` per city (used for day-only cutoffs); distinguish different cities
+  sharing a name. Confirmed/announced, mapped, non-online future
   meetings appear on the map; estimated dates do not.
 - `icore_rankings.yml`: release, review date, official source and exact-series
   `rank`/`portal_id` mapping. `ccf_rankings.yml` additionally separates catalog
@@ -180,3 +187,8 @@ and sources in place; preserve IDs/types and the historical namespace after
 rebrands. Topic feeds use stable leaf slugs; series feeds (`docs/series/`) use
 the slug of the exact `series` key, so changing a series key moves its feed. A genuinely new route needs its own
 unique type; changing a type is an identity migration, not cosmetic cleanup.
+
+CI's identity check (`scripts/check_identity.py`) fails when a published event
+UID or edition ID disappears. An intentional, reviewed removal needs an entry
+(`id`, `reason`, ISO `date`) in `data/retired_identities.yml`; a retired edition
+ID also covers its generated UIDs. Never reuse a retired ID.

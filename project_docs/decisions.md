@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-Last synchronized: 2026-10-08
+Last synchronized: 2026-10-29
 
 This is a dated decision history, not the current operating manual. Later
 explicit refinements take precedence. Current rules live in
@@ -23,6 +23,7 @@ explicit refinements take precedence. Current rules live in
 | Filters and default opportunities | ADR-025/033; responsive defaults refined by ADR-035 |
 | Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line |
 | Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
+| Conflicting cutoffs, date-only countdowns, deep links, starring, compact cards, code layout | ADR-040 (refines ADR-024, ADR-027's MLSys choice, ADR-035 and ADR-039) |
 
 ## ADR-001: Keep the Project Static
 
@@ -671,3 +672,73 @@ explicit refinements take precedence. Current rules live in
   aggregates, 43 topic, 196 edition and 129 series files. No existing UID,
   edition ID, deadline type, topic slug or status semantics changed. Browser
   regressions live in tests/venue_features.mjs.
+
+## ADR-040: Owner Decisions And The Remaining Improvement Proposals
+
+- Date: 2026-10-29
+- Owner decisions: (1) IAPR's virtual ICPRv 2027 is not tracked. (2) The
+  ICCN 2026 record is kept although its domain is suspended. (3) Structured
+  Data for Health (SD4H, ICML 2026) is tracked as TS4H's successor under the
+  stable TS4H series key (as LOD/AIS in ADR-019). (4) When official sources
+  state conflicting cutoffs for one deadline, store the earliest stated
+  instant and record an optional `cutoff_note`; the page shows an asterisk
+  after the time plus the note, and calendars add it to the description. This
+  supersedes "conflicts stay provisional" for cutoffs and ADR-027's preference
+  for MLSys's CFP time. (5) The remaining ranked proposals were approved.
+- Date-only cutoffs (refines ADR-024): a published day without an hour is still
+  stored as 23:59 AoE, which drives ICS and the maintenance report. When the
+  host city (cities.yml `tz`) or a real edition time zone is known, the page's
+  countdown, closing and row order use 23:59 in that zone on the same day,
+  which is never later than AoE; an unannounced host ("To be announced") has
+  no zone. The tooltip names the zone; ICS stays all-day; explicit organizer
+  offsets are kept.
+- Interface: compact mobile cards put name and countdown (or dates) on the
+  first row with status, next step and successor below (refines ADR-035).
+  Desktop tables keep a sticky header and show topics as one wrapped line. An
+  evidence line (call, dates source, review date, mode, estimate, Copy link,
+  Report outdated info -> correction issue form) appears with the expanded
+  schedule and in mobile More info; prior-edition links say "Previous call".
+  Rows have stable anchors: #<edition-id> opens that edition and #<series-slug>
+  its next edition, revealing it (clearing filters, Starred only and, for a
+  past edition, opening the archive) if filters hide it. Filters, search, match
+  mode, tab and toggles are kept in the query string (q, topics, families,
+  size, icore, ccf, acc, match, all, starred, tab); other parameters (such as
+  Giscus's sign-in return) are left alone, and starred=1 applies only where
+  this browser has stars. A followed hash stays in the address bar until the
+  visitor changes the view, so a reload keeps their newer filters; Back and
+  Forward restore the controls from the URL; #deadline-<id> and
+  #conference-<id> links are rewritten to #<id>. Clear filters resets search, filters, match mode and toggles
+  (the URL then keeps all=1, because every row is shown) and removes the hash;
+  the active tab is kept. Series can be starred per browser (localStorage, series key),
+  with a Starred only filter and feed shortcuts. A status guide explains pills
+  and markers; countdowns have screen-reader text.
+- Discoverability: search-intent title/description, canonical, Open Graph and
+  X card tags with a 1200x630 card (assets/branding/social-card.png, generated
+  by scripts/build_social_card.mjs) served from the repository because docs/
+  holds only generated output; README mentions subscriptions.
+- Performance and code layout: icons come from one inline sprite, conference
+  rows omit deadline JSON, land geometry is rounded to 3 decimals and Leaflet
+  loads after the page logic, saving roughly 270 KB that the evidence lines,
+  star buttons and status guide largely spend again (net 2.62 -> 2.61 MB,
+  339 -> 336 KB gzipped, against the ADR-039 page). Client logic moved out of the Python template into
+  assets/logic.js (pure, unit-tested with node:test in tests/js/) and
+  assets/core.js; generator CSS moved to assets/base.css with one merged token
+  set (zero computed-style differences across 18,418 elements at three widths).
+- Tooling (report-only, ADR-015 unchanged): urgency-tiered maintenance report
+  with markdown/json output and advisory checks, a networked source checker run
+  by hand, a weekly workflow that rewrites one "Review queue" issue, and CI
+  guardrails (docs drift, inline-script syntax check, pinned PyYAML,
+  release_check.py, PR template). A published UID or edition ID may disappear
+  only through a reviewed entry in data/retired_identities.yml; CI's identity
+  check enforces this (refines ADR-004).
+- Review: an adversarial review confirmed 21 findings (none high), all fixed:
+  deep links into the archive or past Starred only, malformed hashes, stale
+  hashes overriding newer filters, rows without a toggle hiding their evidence
+  line, rollover copying cutoff notes into projections, prior-host zones on
+  unannounced editions, sticky headers covering keyboard focus, an unfillable
+  sprite star and a changing star label, the clipped asterisk, compact-card
+  highlight and contrast, an upcoming edition without a call being tiered
+  successor-missing (new call-unannounced tier), and the weekly workflow
+  adopting anyone's "Review queue" issue (now limited to its own).
+- Consequences: no published UID, edition ID, deadline type or topic slug
+  changed. Browser regressions: tests/venue_more.mjs; Python: test_page_features.

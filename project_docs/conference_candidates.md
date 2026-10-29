@@ -69,8 +69,9 @@ Normalized aliases include SIGKDD/KDD, FAccT/ACM FAccT, and ECML-PKDD/ECML PKDD.
   Revisit these approximations when recent attendance figures are published.
 - Priority checks: AutoML/ProbML 2027 announcements; CogSci 2027 CFP; GECCO's
   stale 2026 text on its 2027 CFP; ICIP/Interspeech exact main-paper hours;
-  MLSys's homepage noon-PDT versus CFP 20:00-UTC discrepancy. The CFP's explicit
-  UTC value currently takes precedence. Confirm Blue Sky's opening once its
+  MLSys's homepage noon-PDT versus CFP 20:00-UTC discrepancy. Since ADR-040 the
+  earlier noon-PDT instant (19:00 UTC) is stored with a cutoff_note citing the
+  CFP's 20:00 UTC. Confirm Blue Sky's opening once its
   author-registration portal is actually available; Oct 20 has no exact hour.
 - Consult project_docs/data_maintenance.md for the monthly evidence review.
   Update canonical YAML first, then the workbook and generated site/feeds.

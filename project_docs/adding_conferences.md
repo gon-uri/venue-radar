@@ -43,7 +43,9 @@ Use documented estimates only when there is a defensible timing/cadence basis.
 Keep confirmed meeting dates separate from proxy deadlines. If no trustworthy
 next-edition timing exists, track the latest verified historical edition and
 queue the next call instead of fabricating an upcoming row. Empty deadlines
-are valid. Conflicting organizer dates stay provisional pending reconciliation.
+are valid. Conflicting meeting dates stay provisional pending reconciliation;
+conflicting cutoffs store the earliest stated instant with a `cutoff_note`
+(ADR-040, [data schema](data_schema.md#milestone-fields)).
 
 ## 3. Edit The Owning Files
 

@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-10-08
+Last synchronized: 2026-10-29
 
 Current implementation is summarized in [implementation status](implementation_status.md).
 Use [the documentation index](README.md) for procedures; the completed milestones
@@ -120,11 +120,14 @@ below are history, not instructions to reimplement old designs.
 - Priority: Medium
 - Dependencies: `scripts/build_site.py`, generated `docs/index.html`, committed ICS feeds.
 - Estimated complexity: Medium
-- Completion status: Completed for current scope; ADR-039 added cutoff clocks,
+- Completion status: Completed for current scope. ADR-039 added cutoff clocks,
   subscriptions, series/submission feeds, successor links, empty states and
-  accessibility/tablet fixes. Remaining ranked ideas (compact mobile cards,
-  shareable links, evidence display, link previews, safer date-only cutoffs,
-  maintenance triage/CI guardrails) await approval.
+  accessibility/tablet fixes. ADR-040 added compact mobile cards, deep links
+  and URL state, evidence lines with a correction form, starred series, a
+  status guide, link previews, host-zone day-only cutoffs, conflicting-cutoff
+  notes and the client-code split.
+- Later ideas, not approved: dark mode, deadline-window planning filters, an
+  extensions field, CITATION.cff and month dividers in long tables.
 
 ### Conference Ranking Column
 
@@ -152,7 +155,7 @@ below are history, not instructions to reimplement old designs.
 - Priority: High
 - Dependencies: `scripts/maintenance_report.py`, `scripts/rollover_editions.py`, official organizer pages, documented review procedure.
 - Estimated complexity: Ongoing
-- Completion status: Completed tooling and procedure; reviews remain recurring work.
+- Completion status: Completed tooling and procedure; reviews remain recurring work. ADR-040 added urgency tiers, advisory checks, a weekly Review queue issue and a manual source checker.
 
 ### Calendar Feed Reliability
 
@@ -168,7 +171,7 @@ below are history, not instructions to reimplement old designs.
 - Priority: Medium
 - Dependencies: Existing build scripts, selected test framework or script conventions.
 - Estimated complexity: Medium
-- Completion status: In Progress; targeted metadata/ICS tests and repeatable browser smoke checks cover the redesign. Screenshot-baseline comparisons remain future work.
+- Completion status: In Progress; targeted metadata/ICS tests, Node unit tests for the client logic, repeatable browser smoke checks and CI drift/identity/inline-script guardrails cover the site. Screenshot-baseline comparisons remain future work.
 
 ### Persistent Project State Documentation
 

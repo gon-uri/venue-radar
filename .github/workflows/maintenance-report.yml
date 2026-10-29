@@ -1,0 +1,81 @@
+name: Maintenance report
+
+# Weekly advisory review queue (ADR-015). It reads the committed YAML and
+# refreshes a single issue titled "Review queue". It never edits data, commits,
+# pushes or comments; maintainers verify official sources before changing YAML.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: maintenance-report
+  cancel-in-progress: false
+
+jobs:
+  review-queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate review queue
+        run: |
+          body="$RUNNER_TEMP/review-queue.md"
+          today="$(date -u +%F)"
+          python scripts/maintenance_report.py --format markdown --as-of "$today" > "$body"
+          # GitHub caps issue bodies at 65,536 characters; drop backlog samples first.
+          if [ "$(wc -c < "$body")" -gt 60000 ]; then
+            python scripts/maintenance_report.py --format markdown --as-of "$today" --backlog-sample 0 > "$body"
+          fi
+          if [ "$(wc -c < "$body")" -gt 64000 ]; then
+            echo "::error::Review queue is too long for an issue body; run the report locally."
+            exit 1
+          fi
+          run_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          {
+            echo
+            echo "---"
+            echo
+            echo "_Refreshed by the [maintenance report workflow]($run_url) on $today (UTC) from commit ${GITHUB_SHA::7}. This body is overwritten on every run, so checkboxes reset; discuss items in comments or separate issues._"
+            echo
+            echo "_GitHub disables scheduled workflows after 60 days without repository activity. If this issue stops updating, re-enable **Maintenance report** under Actions or run it manually._"
+          } >> "$body"
+
+      - name: Create or update the Review queue issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          body="$RUNNER_TEMP/review-queue.md"
+          match="$(gh issue list --state all --search 'in:title "Review queue"' --limit 100 \
+            --json number,title,state \
+            --jq '[.[] | select(.title == "Review queue")] | sort_by(.number) | first | select(. != null) | "\(.number) \(.state)"')"
+          if [ -z "$match" ]; then
+            gh issue create --title "Review queue" --body-file "$body"
+          else
+            number="${match%% *}"
+            gh issue edit "$number" --body-file "$body"
+            if [ "${match#* }" = "CLOSED" ]; then
+              gh issue reopen "$number"
+            fi
+          fi

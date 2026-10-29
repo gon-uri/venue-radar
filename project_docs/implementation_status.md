@@ -77,7 +77,10 @@ additions, not from an older session entry or a filtered website screenshot.
   section and help links (ADR-041). The README test checks local links/images
   and keeps "130+ conference series" within the catalog. Verified with
   GitHub's markdown renderer and github-markdown-css at desktop and 390px in
-  light and dark themes; the white banner stays bright in dark mode.
+  light and dark themes; GitHub's dark themes show a transparent dark banner.
+  The site subtitle (also README's) is now "Find where to submit next:
+  conference deadlines for machine learning and AI, neuroscience, healthcare,
+  complex systems, and control."
 
 Exact selected wording is owned by [site copy](site_copy.md) and
 [sharing](sharing.md); field semantics by [data schema](data_schema.md), not

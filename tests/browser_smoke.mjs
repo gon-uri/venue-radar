@@ -68,7 +68,7 @@ try {
   assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => !getComputedStyle(element).fontFamily.includes('Audiowide'))));
   assert.equal(await page.title(), 'Venue Radar: ML, AI & Neuroscience Conference Deadlines');
   assert.equal(await page.locator('#tab-conferences').innerText(), 'Conferences & Map');
-  assert.equal(await page.locator('.subhead').innerText(), 'Find your next conference in machine learning and AI, or explore related opportunities in neuroscience, healthcare, complex systems, and control.');
+  assert.equal(await page.locator('.subhead').innerText(), 'Find where to submit next: conference deadlines for machine learning and AI, neuroscience, healthcare, complex systems, and control.');
   assert(await page.locator('td[data-label="Conference"] > a').evaluateAll(names =>
     names.length > 0 && names.every(name =>
       getComputedStyle(name).fontWeight === '600' &&

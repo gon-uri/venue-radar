@@ -46,7 +46,10 @@ below are history, not instructions to reimplement old designs.
 - Completed README showcase (ADR-041): centred hero with a desktop/phone
   screenshot, coverage with the eight families and host-city map, feed links,
   a trust section with short answers, and help links. Screenshots are rendered
-  from the committed page by `scripts/build_readme_images.mjs`.
+  from the committed page by `scripts/build_readme_images.mjs`; a transparent
+  dark banner serves GitHub's dark themes. The owner also chose the subtitle
+  "Find where to submit next: conference deadlines for machine learning and
+  AI, neuroscience, healthcare, complex systems, and control."
 - Completed repository migration: gon-uri/venue-radar with updated public
   links, Giscus name, attribution, and Git origin. Preserve all published event
   UIDs and the existing community mapping; old feed subscriptions need new URLs.

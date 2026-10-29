@@ -4,10 +4,12 @@ Reviewed: 2026-10-29. This records current copy, not rejected alternatives.
 
 ## Introduction
 
-Find your next conference in machine learning and AI, or explore related
-opportunities in neuroscience, healthcare, complex systems, and control.
+Find where to submit next: conference deadlines for machine learning and AI,
+neuroscience, healthcare, complex systems, and control.
 
-This is the website subtitle. README repeats it under its heading (ADR-041);
+Selected by the owner on 2026-10-29 (ADR-041). It names the task and what the
+site lists, keeping machine learning and AI first. This is the website
+subtitle. README repeats it under its heading;
 [the Share on X draft](sharing.md) remains independent. These describe the
 project's focus rather than exhaustive coverage; the eight families retain
 the detailed topic structure.
@@ -36,8 +38,9 @@ their own approved scope and affected regression checks.
 
 ## README
 
-Approved with ADR-041. README opens with the banner and the "Open Venue
-Radar" heading, then, centred: the subtitle above; Calendar feeds (linking to
+Approved with ADR-041. README opens with the banner (its transparent dark
+variant in GitHub's dark themes; not itself a link) and the "Open Venue Radar"
+heading, which links to the site, then, centred: the subtitle above; Calendar feeds (linking to
 the Subscribe once section), Request a conference and Build status badges; the
 line "130+ conference series · Free · No account · Works on your phone"; and
 the linked hero screenshot. Sections follow in this order: Deadlines at a

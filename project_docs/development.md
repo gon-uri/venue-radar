@@ -147,6 +147,11 @@ CHROME_BIN="$CHROME_BIN" "$NODE_BIN" "$TOOLS_DIR/build_social_card.mjs" "$PWD"
 python3 scripts/build_all.py
 ```
 
+`build_readme_banner.mjs` writes both README banners: white, and the
+transparent dark-mode variant. Antialiasing differs slightly between Chrome
+versions, so keep the committed white banner (restore it with git) unless the
+brand change is intended.
+
 README screenshots come from the committed page, so build first. The script
 makes no network requests, pins the page clock to noon UTC on
 `data/metadata.yml`'s `last_updated` day (Europe/Stockholm time zone, en-GB

@@ -944,7 +944,7 @@ def build_site(
     <header>
       <div class="brand-copy">
         <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="82" height="82"><h1>Venue Radar</h1></div>
-        <p class="subhead">Find your next conference in machine learning and AI, or explore related opportunities in neuroscience, healthcare, complex systems, and control.</p>
+        <p class="subhead">Find where to submit next: conference deadlines for machine learning and AI, neuroscience, healthcare, complex systems, and control.</p>
       </div>
       <div class="header-actions">
         <a class="header-button share-button" href="{_attr(share_url)}" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X">{share_icon}Share on X</a>

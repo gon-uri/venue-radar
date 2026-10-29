@@ -33,19 +33,30 @@ class SiteAssetTests(unittest.TestCase):
             ("venue-radar.png", (256, 256)),
             ("branding/venue-radar-source.png", (256, 256)),
             ("branding/venue-radar-banner.png", (1400, 175)),
+            ("branding/venue-radar-banner-dark.png", (1400, 175)),
         ):
             png = (ASSETS_DIR / name).read_bytes()
             self.assertEqual(png[:8], b"\x89PNG\r\n\x1a\n")
             self.assertEqual(struct.unpack(">II", png[16:24]), dimensions)
         readme = (ASSETS_DIR.parent / "README.md").read_text(encoding="utf-8")
-        self.assertTrue(readme.startswith('<a href="https://gon-uri.github.io/venue-radar/">'))
-        self.assertLess(readme.index("assets/branding/venue-radar-banner.png"), readme.index("# [Open Venue Radar]"))
+        # The banner comes first, as a bare <picture>: GitHub's renderer pulls the
+        # image out of a <picture> wrapped in a link, which breaks the dark source.
+        self.assertTrue(readme.startswith("<picture>\n"))
+        banner = readme[:readme.index("</picture>")]
+        self.assertNotIn("<a ", banner)
+        self.assertIn('<source media="(prefers-color-scheme: dark)" '
+                      'srcset="assets/branding/venue-radar-banner-dark.png">', banner)
+        self.assertIn('<img src="assets/branding/venue-radar-banner.png"', banner)
+        # The heading right below the banner is the link to the calendar.
+        self.assertLess(readme.index("</picture>"), readme.index("# [Open Venue Radar](https://gon-uri.github.io/venue-radar/)"))
+        # GitHub's dark themes get the transparent dark banner (RGBA PNG).
+        self.assertEqual((ASSETS_DIR / "branding/venue-radar-banner-dark.png").read_bytes()[25], 6)
         self.assertNotIn('src="assets/venue-radar.png"', readme)
 
     def test_readme_images_links_and_counts_stay_true(self) -> None:
         root = ASSETS_DIR.parent
         readme = (root / "README.md").read_text(encoding="utf-8")
-        targets = [a or b for a, b in re.findall(r'(?:src|href)="([^"]+)"|\]\(([^)\s]+)\)', readme)]
+        targets = [a or b for a, b in re.findall(r'(?:src|srcset|href)="([^"]+)"|\]\(([^)\s]+)\)', readme)]
         local = [t for t in targets if not t.startswith(("http://", "https://", "#", "mailto:"))]
         self.assertIn("assets/readme/hero.webp", local)
         for target in local:
@@ -200,9 +211,9 @@ class SiteAssetTests(unittest.TestCase):
         self.assertNotIn("On the map", html)
         self.assertIn('tabindex="-1">Conferences &amp; Map</button>', html)
         self.assertIn(
-            '<p class="subhead">Find your next conference in machine learning and AI, '
-            'or explore related opportunities in neuroscience, healthcare, '
-            'complex systems, and control.</p>', html,
+            '<p class="subhead">Find where to submit next: conference deadlines for '
+            'machine learning and AI, neuroscience, healthcare, complex systems, '
+            'and control.</p>', html,
         )
         self.assertIn('aria-label="Confirmed upcoming conference locations"', html)
         self.assertIn('Created and maintained by <strong>Gonzalo Uribarri</strong>.', html)

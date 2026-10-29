@@ -19,7 +19,7 @@ explicit refinements take precedence. Current rules live in
 | Eight central families and curated leaves/scopes | ADR-028/030/036; ADR-020's earlier seven-family matching is superseded |
 | Submission action/status/countdown/ordering | ADR-032 refines ADR-013 and supersedes the relevant parts of ADR-016 |
 | Offline confirmed-city map | ADR-021; tab naming refined by ADR-034 |
-| Brand, licensing, copy and community | ADR-022/023/026/034; ADR-041 (README showcase; refines ADR-034's independent README description) |
+| Brand, licensing, copy and community | ADR-022/023/026/034; ADR-041 (README showcase, dark banner and the current subtitle; refines ADR-034) |
 | Filters and default opportunities | ADR-025/033; responsive defaults refined by ADR-035 |
 | Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line |
 | Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
@@ -762,6 +762,17 @@ explicit refinements take precedence. Current rules live in
   theme. The website subtitle now also heads README, refining ADR-034's note
   that README's description stays independent; the X draft remains
   independent. Exact structure and wording rules live in site_copy.md.
+- Subtitle: the owner replaced ADR-034's final copy selection with "Find where
+  to submit next: conference deadlines for machine learning and AI,
+  neuroscience, healthcare, complex systems, and control." It names the task
+  and what the site lists, keeps machine learning and AI first, and is shorter.
+- Dark banner: at the owner's request a `<picture>` source shows a transparent
+  1400x175 banner in GitHub's dark themes. Its mark is an exact palette swap of
+  the current logo (border to #E6EDF3, white interior back to transparent,
+  alpha unchanged) and its title is #E6EDF3. The white banner is unchanged.
+  GitHub's markdown renderer moves the image out of a `<picture>` wrapped in a
+  link (checked with its API), so the banner is a bare `<picture>` and is no
+  longer a link; the "Open Venue Radar" heading and hero image link to the site.
 - Alternatives considered: plain screenshots (white slabs in dark mode);
   side-by-side phone and menu screenshots (illegible at phone width); a table
   of families (half-width on desktop, tall cells on phones); license and
@@ -773,6 +784,7 @@ explicit refinements take precedence. Current rules live in
   a number. Screenshots are illustrations, refreshed when the page's look
   changes rather than on every data update. README's family labels, status
   wording, feed names, menu steps and issue-form links change together with
-  the site. No data, generated page, feed or UID changes.
-  The white banner stays bright in dark mode; a dark variant would be a
-  separate brand decision.
+  the site. No data, feed or UID changes; the generated page changes only in
+  its subtitle. Rerunning build_readme_banner.mjs rewrites both banners, and
+  antialiasing can differ between Chrome versions, so keep the committed white
+  banner unless it is intentionally refreshed.

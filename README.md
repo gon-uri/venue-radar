@@ -1,11 +1,14 @@
-<a href="https://gon-uri.github.io/venue-radar/"><img src="assets/branding/venue-radar-banner.png" alt="Venue Radar: calendar-radar logo and Audiowide title" width="1400"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/branding/venue-radar-banner-dark.png">
+  <img src="assets/branding/venue-radar-banner.png" alt="Venue Radar: calendar-radar logo and Audiowide title" width="1400">
+</picture>
 
 <div align="center">
 
 # [Open Venue Radar](https://gon-uri.github.io/venue-radar/)
 
-Find your next conference in machine learning and AI, or explore related
-opportunities in neuroscience, healthcare, complex systems, and control.
+Find where to submit next: conference deadlines for machine learning and AI,
+neuroscience, healthcare, complex systems, and control.
 
 <a href="#subscribe-once"><img src="https://img.shields.io/badge/Calendar_feeds-0e5d62" alt="Calendar feeds" height="20"></a>
 <a href="https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml"><img src="https://img.shields.io/badge/Request_a_conference-137c82" alt="Request a conference" height="20"></a>

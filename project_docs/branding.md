@@ -25,6 +25,10 @@ the calendar interior white; it does not redraw or trace the mark.
 - `assets/venue-radar.png`: current header mark.
 - `assets/branding/venue-radar-banner.png`: 1400x175 white README banner pairing
   the current mark with the actual Audiowide title face.
+- `assets/branding/venue-radar-banner-dark.png`: 1400x175 dark-mode README
+  banner on a transparent background, shown by a `<picture>` source in GitHub's
+  dark themes. Title and calendar border are `#E6EDF3`; the calendar interior
+  is see-through again, as in the source; arcs, sector and dot are unchanged.
 - `assets/favicon.svg`: separate radar-only mark on opaque white, not the full
   calendar logo. It is embedded in the generated page.
 - `assets/branding/social-card.png`: 1200x630 link-preview card (logo, Audiowide
@@ -33,8 +37,14 @@ the calendar interior white; it does not redraw or trace the mark.
   hero and host-city map), rendered by `scripts/build_readme_images.mjs`.
   They illustrate the site rather than certify current dates.
 
-Do not recolor an already transformed output. The banner uses website
-proportions/optical alignment scaled by 1.5 and links to the calendar in README.
+Do not recolor an already transformed output. The one exception is the dark
+banner's mark: `scripts/build_readme_banner.mjs` swaps exact palette values of
+the current mark in memory (border to `#E6EDF3`, white interior to
+transparent), asserting only the four brand colors and unchanged foreground
+alpha, so no geometry or edge drifts. The white banner uses website
+proportions/optical alignment scaled by 1.5. In README both banners sit in a
+bare `<picture>` (GitHub's renderer pulls the image out of a `<picture>`
+inside a link), so the "Open Venue Radar" heading below is the calendar link.
 Original artwork uses CC BY 4.0; preserve the separate third-party notices.
 
 ## Title Typography And Alignment

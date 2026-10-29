@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-10-08. This is the current-state summary, not a release
+Last synchronized: 2026-10-28. This is the current-state summary, not a release
 history. Start with [the documentation index](README.md); technical history
 remains in [decisions](decisions.md). Detailed local working notes follow the
 [documentation policy](documentation_policy.md) and are not required to onboard.
@@ -89,6 +89,16 @@ adds ignore/tracking checks and keeps onboarding independent of private notes.
 - Resolve ICCN's conflicting 2026 dates and the next NODYCON/Dynamics Days
   Asia-Pacific/Dynamics Days CAC announcements. Their gaps are deliberately
   retained in the review queue rather than converted into false future dates.
+  On 2026-10-28 iccn2026.jp no longer resolved (registry status Suspended), so
+  the estimated ICCN record now rests on unverifiable evidence; decide whether
+  to keep it.
+- Owner decisions from the 2026-10-28 refresh: IAPR's first virtual ICPR
+  (ICPRv, Oct 4-15, 2027, Mar 2027 paper deadline) is not tracked until its
+  series identity and rank inheritance are approved; Structured Data for Health
+  (ICML 2026) may succeed TS4H but no identity link is asserted; SIGIR 2027's
+  draft Perspectives track awaits a final call and a suitable archival type.
+- ACPR 2027's acpr2027.com is still a draft site that IAPR does not list, so its
+  Suzhou dates stay estimated and off the map until the organizer confirms them.
 - Revisit unannounced ALIFE/BCI/SfN calls and BioCAS's exact paper route;
   preserve abstract-only versus full-paper publication notes without changing UI.
 - Keep the original AI Deadlines backlog dated: 42 approved additions, 15 still
@@ -119,3 +129,30 @@ all data, workbook, assets, scripts, public README and HTML/212 feeds unchanged.
 No new browser check, source refresh or publication is claimed for this local
 documentation split. Record new material checks/limitations here and detailed
 working logs locally; do not infer a fresh source review from these baselines.
+
+The 2026-10-28 monthly refresh reviewed all 83 queued editions against official
+organizer pages (aggregators used only for discovery), each change re-checked
+independently. 76 records advanced `last_checked`; seven (BIOMAG, Dynamics
+Days Europe, EUVIP, ICANN, ICCN, S+SSPR, UAI) had no readable official source
+for the tracked edition, so they record that in notes and keep their old date. Material
+corrections include BCI Winter 2027 (paper deadline Nov 15, not Dec 15), KR 2027
+(Buenos Aires, Sep 21-24; April deadlines), NetSci 2027 (Dec 1 abstracts), IDA,
+COLT, GECCO, CCN, AIS, OHBM, SIGGRAPH and ICPR 2028 official dates, ICASSP's Sep
+23 extension and SSCI's moved site and extensions. ESANN's "before 18.11.2026"
+is stored as Nov 17 (Bruges end of day), IEEE CDC 2027's day-only Jan 8 portal
+opening moved from a fabricated midnight `opens_at` into notes, and a dead
+EUVIP 2024 link was dropped. New supported routes (CHI
+posters, WSDM short papers, ICASSP satellite workshops, ICONIP extended
+abstracts, SSCI late-breaking abstracts, BHI late abstracts) raise the default
+opportunity view from 81 to 87 rows on 2026-10-28. The edition queue fell from
+83 to 50 items, all estimates awaiting official calls. A Gran Canaria
+island-level city alias maps ITISE and CNS*. Catalog counts and all 212 feeds
+are unchanged in number; no existing event UID changed and 49 milestone events
+were added. Snapshot fixtures that pinned the earlier review state were updated
+to the newly verified facts. Checks: standalone validation, 89 Python tests,
+two byte-identical builds, the non-ICS whitespace check and the full browser
+suite at 1440/1051/1050/768/390/320px (93 opportunities at its frozen date).
+The 12 changed workbook catalog cells were patched in place without the
+optional artifact tool. All other workbook parts are byte-identical, and a
+re-import matches all 129 exported rows. No visual render of the workbook was
+performed. Not yet committed or published.

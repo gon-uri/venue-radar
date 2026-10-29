@@ -7,18 +7,47 @@ X-WR-CALNAME:ICONIP 2026 Calendar
 BEGIN:VEVENT
 UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260531T135900Z
-DTEND:20260531T145900Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
 SUMMARY:[Machine Learning][Deep Representation Learning] ICONIP 2026 - Pape
- r submission deadline
+ r submission deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: International Conference on Neural Informatio
  n Processing\nWebsite: https://www.iconip2026.org/\nSource URL: https://w
- ww.iconip2026.org/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
- ning\, Deep Representation Learning\, Computational Neuroscience\, Signal
-  Processing\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed
- \nLast checked date: 2026-08-20\nNotes: Official ICONIP 2026 site lists M
- elbourne\, Nov 23-27\, and the extended paper deadline.
-URL:https://www.iconip2026.org/
+ ww.iconip2026.org/call-for-papers\nLocation: Melbourne\, Australia\nTopic
+ s: Machine Learning\, Deep Representation Learning\, Computational Neuros
+ cience\, Signal Processing\nSize: L\nSubmission type: Paper-based\nConfid
+ ence: confirmed\nLast checked date: 2026-10-28\nNotes: Official ICONIP 20
+ 26 site (checked 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper
+  deadline was extended to May 31\, 2026 (no cutoff hour stated). An Oct 2
+ 8\, 2026 notice extends 2-page extended-abstract submissions to Nov 10\, 
+ 2026 (no hour)\; accepted abstracts must be registered and presented in p
+ erson as posters\, in a separate open-access abstract publication.\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://www.iconip2026.org/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:iconip-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:[Machine Learning][Deep Representation Learning] ICONIP 2026 - Exte
+ nded abstract (2-page\, in-person poster) submission deadline (extended) 
+ (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Neural Informatio
+ n Processing\nWebsite: https://www.iconip2026.org/\nSource URL: https://w
+ ww.iconip2026.org/news\nLocation: Melbourne\, Australia\nTopics: Machine 
+ Learning\, Deep Representation Learning\, Computational Neuroscience\, Si
+ gnal Processing\nSize: L\nSubmission type: Paper-based\nConfidence: confi
+ rmed\nLast checked date: 2026-10-28\nNotes: Official ICONIP 2026 site (ch
+ ecked 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper deadline w
+ as extended to May 31\, 2026 (no cutoff hour stated). An Oct 28\, 2026 no
+ tice extends 2-page extended-abstract submissions to Nov 10\, 2026 (no ho
+ ur)\; accepted abstracts must be registered and presented in person as po
+ sters\, in a separate open-access abstract publication.\nOfficial deadlin
+ e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
+  submission portal.
+URL:https://www.iconip2026.org/news
 END:VEVENT
 BEGIN:VEVENT
 UID:iconip-2026-conference@scientific-conference-calendar
@@ -32,8 +61,12 @@ DESCRIPTION:Conference title: International Conference on Neural Informatio
  ww.iconip2026.org/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
  ning\, Deep Representation Learning\, Computational Neuroscience\, Signal
   Processing\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed
- \nLast checked date: 2026-08-20\nNotes: Official ICONIP 2026 site lists M
- elbourne\, Nov 23-27\, and the extended paper deadline.
+ \nLast checked date: 2026-10-28\nNotes: Official ICONIP 2026 site (checke
+ d 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper deadline was e
+ xtended to May 31\, 2026 (no cutoff hour stated). An Oct 28\, 2026 notice
+  extends 2-page extended-abstract submissions to Nov 10\, 2026 (no hour)\
+ ; accepted abstracts must be registered and presented in person as poster
+ s\, in a separate open-access abstract publication.
 URL:https://www.iconip2026.org/
 LOCATION:Melbourne\, Australia
 END:VEVENT

@@ -7,19 +7,23 @@ X-WR-CALNAME:Discovery Science 2026 Calendar
 BEGIN:VEVENT
 UID:discovery-science-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260930T215900Z
-DTEND:20260930T225900Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
 SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
- 26 - Late-breaking abstract deadline
+ 26 - Late-breaking abstract deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: International Conference on Discovery Science
  \nWebsite: https://discovery-science.org/\nSource URL: https://discovery-
- science.org/\nLocation: Mainz\, Germany\nTopics: Data Mining & Data Scien
- ce\, Machine Learning\, Learning Theory & Statistical Foundations\, Time 
- Series & Sequential Data\nSize: M\nSubmission type: Paper-based / researc
- h forum\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
- icial Discovery Science 2026 site lists Mainz\, Oct 5-9\, and the Sep 30 
- late-breaking abstract deadline.
-URL:https://discovery-science.org/
+ science.org/important-dates/\nLocation: Mainz\, Germany\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Learning Theory & Statistical Fou
+ ndations\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper
+ -based / research forum\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-28\nNotes: Official DS 2026 site lists Mainz\, Oct 5-9\, and the Sep 30
+  late-breaking abstract deadline with no hour or zone (AoE end of day pro
+ visional). Main-track (Jun 15/22\, extended) dates are not tracked here. 
+ As of 2026-10-28 discovery-science.org announces no 2027 edition.\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
+URL:https://discovery-science.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:discovery-science-2026-conference@scientific-conference-calendar
@@ -33,9 +37,11 @@ DESCRIPTION:Conference title: International Conference on Discovery Science
  science.org/\nLocation: Mainz\, Germany\nTopics: Data Mining & Data Scien
  ce\, Machine Learning\, Learning Theory & Statistical Foundations\, Time 
  Series & Sequential Data\nSize: M\nSubmission type: Paper-based / researc
- h forum\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
- icial Discovery Science 2026 site lists Mainz\, Oct 5-9\, and the Sep 30 
- late-breaking abstract deadline.
+ h forum\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Off
+ icial DS 2026 site lists Mainz\, Oct 5-9\, and the Sep 30 late-breaking a
+ bstract deadline with no hour or zone (AoE end of day provisional). Main-
+ track (Jun 15/22\, extended) dates are not tracked here. As of 2026-10-28
+  discovery-science.org announces no 2027 edition.
 URL:https://discovery-science.org/
 LOCATION:Mainz\, Germany
 END:VEVENT

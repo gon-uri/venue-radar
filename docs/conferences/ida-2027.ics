@@ -7,40 +7,82 @@ X-WR-CALNAME:IDA 2027 Calendar
 BEGIN:VEVENT
 UID:ida-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261121T115959Z
-DTEND:20261121T125959Z
+DTSTART:20261129T115959Z
+DTEND:20261129T125959Z
 SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Abstract 
- submission deadline (estimated)
+ submission deadline
 DESCRIPTION:Conference title: International Symposium on Intelligent Data A
- nalysis\nWebsite: https://www.ida-society.org/\nSource URL: https://ida20
- 26.org/regular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining 
- & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
- ML\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper-based
-  / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10-0
- 6\nNotes: The official IDA Society site confirms Pisa\, Italy\, in April 
- 2027\, but does not yet give exact days or a CFP. Apr 21-23 is a provisio
- nal calendar placeholder. Submission dates are estimates preserving the 2
- 026 CFP lead time and weekday\; verify against the 2027 CFP.
-URL:https://ida2026.org/regular-paper-track/
+ nalysis\nWebsite: https://ida2027.eu/\nSource URL: https://ida2027.eu/reg
+ ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
+ ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
+ Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
+ 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\,
+  which would be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gat
+ e follows the abstract-then-paper CMT schedule\, as in 2026\; the page do
+ es not explicitly call it mandatory.
+URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:ida-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261128T115959Z
-DTEND:20261128T125959Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Paper sub
- mission deadline (estimated)
+DTSTART:20261206T115959Z
+DTEND:20261206T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Regular p
+ aper submission deadline
 DESCRIPTION:Conference title: International Symposium on Intelligent Data A
- nalysis\nWebsite: https://www.ida-society.org/\nSource URL: https://ida20
- 26.org/regular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining 
- & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
- ML\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper-based
-  / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10-0
- 6\nNotes: The official IDA Society site confirms Pisa\, Italy\, in April 
- 2027\, but does not yet give exact days or a CFP. Apr 21-23 is a provisio
- nal calendar placeholder. Submission dates are estimates preserving the 2
- 026 CFP lead time and weekday\; verify against the 2027 CFP.
-URL:https://ida2026.org/regular-paper-track/
+ nalysis\nWebsite: https://ida2027.eu/\nSource URL: https://ida2027.eu/reg
+ ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
+ ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
+ Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
+ 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\,
+  which would be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gat
+ e follows the abstract-then-paper CMT schedule\, as in 2026\; the page do
+ es not explicitly call it mandatory.
+URL:https://ida2027.eu/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115959Z
+DTEND:20270202T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Camera-re
+ ady deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2027.eu/\nSource URL: https://ida2027.eu/reg
+ ular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Sci
+ ence\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time 
+ Series & Sequential Data\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ Official IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 
+ 2027 (venue TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\,
+  which would be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gat
+ e follows the abstract-then-paper CMT schedule\, as in 2026\; the page do
+ es not explicitly call it mandatory.
+URL:https://ida2027.eu/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2027-deadline-phd-forum@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270213T115959Z
+DTEND:20270213T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - PhD Forum
+  2-page paper submission (graduate students)
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2027.eu/\nSource URL: https://ida2027.eu/phd
+ -forum/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Science\, Mac
+ hine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Series & S
+ equential Data\nSize: M\nSubmission type: Paper-based / interdisciplinary
+ \nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official I
+ DA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 2027 (venu
+ e TBA). Deadlines are labelled AoE (the CFP also writes 'SST'\, which wou
+ ld be UTC-11)\; 23:59:59 AoE (-12:00) is used. The abstract gate follows 
+ the abstract-then-paper CMT schedule\, as in 2026\; the page does not exp
+ licitly call it mandatory.
+URL:https://ida2027.eu/phd-forum/
 END:VEVENT
 BEGIN:VEVENT
 UID:ida-2027-conference@scientific-conference-calendar
@@ -48,18 +90,19 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270424
 SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Conferenc
- e (estimated)
+ e
 DESCRIPTION:Conference title: International Symposium on Intelligent Data A
- nalysis\nWebsite: https://www.ida-society.org/\nSource URL: https://www.i
- da-society.org/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Scien
- ce\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Se
- ries & Sequential Data\nSize: M\nSubmission type: Paper-based / interdisc
- iplinary\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: Th
- e official IDA Society site confirms Pisa\, Italy\, in April 2027\, but d
- oes not yet give exact days or a CFP. Apr 21-23 is a provisional calendar
-  placeholder. Submission dates are estimates preserving the 2026 CFP lead
-  time and weekday\; verify against the 2027 CFP.
-URL:https://www.ida-society.org/
+ nalysis\nWebsite: https://ida2027.eu/\nSource URL: https://ida2027.eu/\nL
+ ocation: Pisa\, Italy\nTopics: Data Mining & Data Science\, Machine Learn
+ ing\, Probabilistic\, Causal & Uncertainty ML\, Time Series & Sequential 
+ Data\nSize: M\nSubmission type: Paper-based / interdisciplinary\nConfiden
+ ce: confirmed\nLast checked date: 2026-10-28\nNotes: Official IDA 2027 si
+ te confirms the 25th symposium in Pisa\, Apr 21-23\, 2027 (venue TBA). De
+ adlines are labelled AoE (the CFP also writes 'SST'\, which would be UTC-
+ 11)\; 23:59:59 AoE (-12:00) is used. The abstract gate follows the abstra
+ ct-then-paper CMT schedule\, as in 2026\; the page does not explicitly ca
+ ll it mandatory.
+URL:https://ida2027.eu/
 LOCATION:Pisa\, Italy
 END:VEVENT
 END:VCALENDAR

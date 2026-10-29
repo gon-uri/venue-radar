@@ -7,20 +7,23 @@ X-WR-CALNAME:CCS 2027 Calendar
 BEGIN:VEVENT
 UID:ccs-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270421T115900Z
-DTEND:20270421T125900Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
 SUMMARY:[Complex Systems & Network Science][Nonlinear Dynamics & Chaos] CCS
-  2027 - Presentation abstracts (estimated)
+  2027 - Estimated presentation abstract deadline (estimated) (cutoff time
+  unannounced)
 DESCRIPTION:Conference title: Conference on Complex Systems\nWebsite: https
- ://cssociety.org/ccs/\nSource URL: https://ccs26.cssociety.org/\nLocation
- : Wroclaw\, Poland\nTopics: Complex Systems & Network Science\, Nonlinear
-  Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type:
-  Abstract-based\nConfidence: estimated\nLast checked date: 2026-10-06\nNo
- tes: Society announces Wroclaw and September 17-24\; detailed main/satell
- ite split is not yet available. Abstract deadline is estimated from the 2
- 026 main-meeting lead time\, not officially announced. Distinct from ACM 
- CCS\; no inherited security-conference rank. Size is an editorial categor
- y.
+ ://ccs27.pwr.edu.pl/\nSource URL: https://ccs26.cssociety.org/\nLocation:
+  Wroclaw\, Poland\nTopics: Complex Systems & Network Science\, Nonlinear 
+ Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: 
+ Abstract-based\nConfidence: estimated\nLast checked date: 2026-10-28\nNot
+ es: Official CCS 2027 site and the Society confirm Wroclaw Tech\, Septemb
+ er 17-24\, 2027\, a span that includes the yrCSS warm-up (September 17-18
+ )\; the main/satellite split is unpublished. No call as of 2026-10-28\; t
+ he abstract date is a proxy from 2026's extended May 15 deadline. Distinc
+ t from ACM CCS\; no inherited security rank. Size is editorial.\nOfficial
+  deadline day\; exact cutoff hour/timezone is unannounced. Verify the org
+ anizer's submission portal.
 URL:https://ccs26.cssociety.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -31,15 +34,16 @@ DTEND;VALUE=DATE:20270925
 SUMMARY:[Complex Systems & Network Science][Nonlinear Dynamics & Chaos] CCS
   2027 - Conference
 DESCRIPTION:Conference title: Conference on Complex Systems\nWebsite: https
- ://cssociety.org/ccs/\nSource URL: https://cssociety.org/ccs/\nLocation: 
- Wroclaw\, Poland\nTopics: Complex Systems & Network Science\, Nonlinear D
- ynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: A
- bstract-based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNote
- s: Society announces Wroclaw and September 17-24\; detailed main/satellit
- e split is not yet available. Abstract deadline is estimated from the 202
- 6 main-meeting lead time\, not officially announced. Distinct from ACM CC
- S\; no inherited security-conference rank. Size is an editorial category.
-URL:https://cssociety.org/ccs/
+ ://ccs27.pwr.edu.pl/\nSource URL: https://ccs27.pwr.edu.pl/\nLocation: Wr
+ oclaw\, Poland\nTopics: Complex Systems & Network Science\, Nonlinear Dyn
+ amics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Abs
+ tract-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes:
+  Official CCS 2027 site and the Society confirm Wroclaw Tech\, September 
+ 17-24\, 2027\, a span that includes the yrCSS warm-up (September 17-18)\;
+  the main/satellite split is unpublished. No call as of 2026-10-28\; the 
+ abstract date is a proxy from 2026's extended May 15 deadline. Distinct f
+ rom ACM CCS\; no inherited security rank. Size is editorial.
+URL:https://ccs27.pwr.edu.pl/
 LOCATION:Wroclaw\, Poland
 END:VEVENT
 END:VCALENDAR

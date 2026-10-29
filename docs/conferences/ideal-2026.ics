@@ -7,18 +7,22 @@ X-WR-CALNAME:IDEAL 2026 Calendar
 BEGIN:VEVENT
 UID:ideal-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260701T225900Z
-DTEND:20260701T235900Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
 SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2026 - Paper s
- ubmission deadline
+ ubmission deadline (extended) (cutoff time unannounced)
 DESCRIPTION:Conference title: International Conference on Intelligent Data 
  Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
  Source URL: https://www.ideal2026.org/calls/key-dates\nLocation: Manchest
  er\, United Kingdom\nTopics: Machine Learning\, Data Mining & Data Scienc
  e\, Deep Representation Learning\, Learning Theory & Statistical Foundati
  ons\nSize: M\nSubmission type: Paper-based\nConfidence: confirmed\nLast c
- hecked date: 2026-08-31\nNotes: Official IDEAL 2026 pages confirm Manches
- ter\, Nov 19-21\, and the Jul 1 paper-submission deadline.
+ hecked date: 2026-10-28\nNotes: Official IDEAL 2026 pages confirm the Uni
+ versity of Manchester\, Nov 19-21\, 2026\, joint with WSOM+ 2026. The pap
+ er deadline was extended from Jul 1 to Jul 24\, 2026\; no cutoff hour or 
+ timezone is published\, so the time is a provisional end-of-day AoE.\nOff
+ icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
+ e organizer's submission portal.
 URL:https://www.ideal2026.org/calls/key-dates
 END:VEVENT
 BEGIN:VEVENT
@@ -34,8 +38,10 @@ DESCRIPTION:Conference title: International Conference on Intelligent Data
  gdom\nTopics: Machine Learning\, Data Mining & Data Science\, Deep Repres
  entation Learning\, Learning Theory & Statistical Foundations\nSize: M\nS
  ubmission type: Paper-based\nConfidence: confirmed\nLast checked date: 20
- 26-08-31\nNotes: Official IDEAL 2026 pages confirm Manchester\, Nov 19-21
- \, and the Jul 1 paper-submission deadline.
+ 26-10-28\nNotes: Official IDEAL 2026 pages confirm the University of Manc
+ hester\, Nov 19-21\, 2026\, joint with WSOM+ 2026. The paper deadline was
+  extended from Jul 1 to Jul 24\, 2026\; no cutoff hour or timezone is pub
+ lished\, so the time is a provisional end-of-day AoE.
 URL:https://www.ideal2026.org/
 LOCATION:Manchester\, United Kingdom
 END:VEVENT

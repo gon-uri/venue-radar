@@ -7,18 +7,21 @@ X-WR-CALNAME:CNS* 2027 Calendar
 BEGIN:VEVENT
 UID:cns-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270319T115900Z
-DTEND:20270319T125900Z
+DTSTART:20270319T060000Z
+DTEND:20270319T070000Z
 SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
  27 - Abstract submission deadline (estimated)
 DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
  bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/cns-20
- 26-dates\nLocation: Gran Canaria\, Spain\nTopics: Computational Neuroscie
- nce\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmissi
- on type: Abstract-based\nConfidence: estimated\nLast checked date: 2026-1
- 0-06\nNotes: OCNS confirms Gran Canaria\, Jul 10-14. Abstract deadline re
- mains a prior-edition timing estimate.
-URL:https://www.cnsorg.org/cns-2026-dates
+ 26-abstract-submission\nLocation: Gran Canaria\, Spain\nTopics: Computati
+ onal Neuroscience\, Time Series & Sequential Data\, Machine Learning\nSiz
+ e: M\nSubmission type: Abstract-based\nConfidence: estimated\nLast checke
+ d date: 2026-10-28\nNotes: OCNS confirms CNS*2027 in Gran Canaria\, Jul 1
+ 0-14 (no venue or city named). As of 2026-10-28 no 2027 call is published
+ \; the abstract proxy repeats the 2026 extended deadline (Mar 18\, 11 PM 
+ Pacific). In 2026 the corresponding author had to register before submitt
+ ing an abstract.
+URL:https://www.cnsorg.org/cns-2026-abstract-submission
 END:VEVENT
 BEGIN:VEVENT
 UID:cns-2027-conference@scientific-conference-calendar
@@ -28,15 +31,15 @@ DTEND;VALUE=DATE:20270715
 SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
  27 - Conference
 DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
- bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/index.
- php?Itemid=135&id=54&option=com_content&view=article\nLocation: Gran Cana
- ria\, Spain\nTopics: Computational Neuroscience\, Time Series & Sequentia
- l Data\, Machine Learning\nSize: M\nSubmission type: Abstract-based\nConf
- idence: confirmed\nLast checked date: 2026-10-06\nNotes: OCNS confirms Gr
- an Canaria\, Jul 10-14. Abstract deadline remains a prior-edition timing 
- estimate.
-URL:https://www.cnsorg.org/index.php?Itemid=135&id=54&option=com_content&vi
- ew=article
+ bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/\nLoca
+ tion: Gran Canaria\, Spain\nTopics: Computational Neuroscience\, Time Ser
+ ies & Sequential Data\, Machine Learning\nSize: M\nSubmission type: Abstr
+ act-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: O
+ CNS confirms CNS*2027 in Gran Canaria\, Jul 10-14 (no venue or city named
+ ). As of 2026-10-28 no 2027 call is published\; the abstract proxy repeat
+ s the 2026 extended deadline (Mar 18\, 11 PM Pacific). In 2026 the corres
+ ponding author had to register before submitting an abstract.
+URL:https://www.cnsorg.org/
 LOCATION:Gran Canaria\, Spain
 END:VEVENT
 END:VCALENDAR

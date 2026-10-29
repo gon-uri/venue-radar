@@ -27,7 +27,7 @@ class ConferenceAdditionTests(unittest.TestCase):
         self.assertEqual(set(self.additions), ADDED)
         for item in self.additions.values():
             self.assertGreaterEqual(date.fromisoformat(item['conference_end']), date(2026, 10, 7))
-            self.assertEqual(item['last_checked'], '2026-10-07')
+            self.assertGreaterEqual(item['last_checked'], '2026-10-07')
             self.assertIn(item['website'], item['source_urls'])
             self.assertTrue(all(deadline.get('source_url') for deadline in item['deadlines']))
 
@@ -37,7 +37,7 @@ class ConferenceAdditionTests(unittest.TestCase):
             self.assertEqual(item['confidence'], 'estimated')
             self.assertEqual(item['location'], 'To be announced')
             self.assertTrue(all(d['confidence'] == 'estimated' for d in item['deadlines']))
-        for series in ['GECCO', 'CogSci']:
+        for series in ['CogSci']:
             item = self.additions[series]
             self.assertEqual(item['confidence'], 'confirmed')
             self.assertTrue(all(d['confidence'] == 'estimated' for d in item['deadlines']))

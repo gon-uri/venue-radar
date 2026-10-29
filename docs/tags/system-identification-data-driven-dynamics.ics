@@ -88,41 +88,6 @@ DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
 URL:https://dde-2026.sci-meet.net/important-dates
 END:VEVENT
 BEGIN:VEVENT
-UID:nodycon-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260501
-DTEND;VALUE=DATE:20260502
-SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
- namics] NODYCON 2026 - Presentation abstract submission deadline (cutoff 
- time unannounced)
-DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
- Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
- ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
- /conferenza/nodycon-2026\nLocation: Rome\, Italy\nTopics: Nonlinear Dynam
- ics & Chaos\, System Identification & Data-driven Dynamics\, Control & Ro
- botics\, Complex Systems & Network Science\nSize: L\nSubmission type: Abs
- tract-based + selected journal papers\nConfidence: confirmed\nLast checke
- d date: 2026-10-08\nNotes: Historical 2026 meeting. Selected presented pa
- pers may be considered for Nonlinear Dynamics after additional journal re
- view\; that manuscript step is not a fresh conference submission. Prior e
- ditions have Springer proceedings\, but no blanket 2026 proceedings promi
- se is asserted. The 2025-to-2026 change breaks the earlier biennial caden
- ce\; the next edition is unannounced. Cutoff hours are unannounced. Size 
- is an editorial estimate.\nScope: Nonlinear dynamics in engineering and p
- hysical systems: bifurcations\, chaos\, vibrations\, synchronization\, no
- nlinear control\, system identification and data-driven dynamical modelin
- g. Machine learning is relevant through discovering\, forecasting or cont
- rolling dynamics. Publication is edition-specific: past Springer volumes 
- do not imply that every later meeting has standard proceedings.\nAddition
- al topics: Time Series & Sequential Data\, Machine Learning\nScope source
- s (2026): https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/
- prossimi-eventi/conferenza/nodycon-2026\nScope last checked: 2026-10-08\n
- Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
-  the organizer's submission portal.
-URL:https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi
- -eventi/conferenza/nodycon-2026
-END:VEVENT
-BEGIN:VEVENT
 UID:smc-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260503
@@ -150,6 +115,39 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
  st checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezon
  e is unannounced. Verify the organizer's submission portal.
 URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Presentation abstract submission deadline (cutoff 
+ time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://nodycon2026.app.earendelplatform.com/\nLocation: Rome\, Italy\nTopics:
+  Nonlinear Dynamics & Chaos\, System Identification & Data-driven Dynamic
+ s\, Control & Robotics\, Complex Systems & Network Science\nSize: L\nSubm
+ ission type: Abstract-based + optional full-length papers\nConfidence: co
+ nfirmed\nLast checked date: 2026-10-28\nNotes: Historical 2026 meeting. E
+ dition-site key dates (read 2026-10-28) give abstracts May 15 and full-le
+ ngth papers Aug 31 (extended from Jul 1)\, kept over the conflicting SISC
+ O page (May 1/Jul 3)\; cutoff hours unannounced. The optional paper step 
+ (Springer Advances in Nonlinear Dynamics\; invited Nonlinear Dynamics iss
+ ue) is not a fresh route. No next edition announced. Size is an editorial
+  estimate.\nScope: Nonlinear dynamics in engineering and physical systems
+ : bifurcations\, chaos\, vibrations\, synchronization\, nonlinear control
+ \, system identification and data-driven dynamical modeling. Machine lear
+ ning is relevant through discovering\, forecasting or controlling dynamic
+ s. Publication is edition-specific: past Springer volumes do not imply th
+ at every later meeting has standard proceedings.\nAdditional topics: Time
+  Series & Sequential Data\, Machine Learning\nScope sources (2026): https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nScope last checked: 2026-10-08\nOfficial deadli
+ ne day\; exact cutoff hour/timezone is unannounced. Verify the organizer'
+ s submission portal.
+URL:https://nodycon2026.app.earendelplatform.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-2026-deadline-short-paper@scientific-conference-calendar
@@ -180,41 +178,6 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
  st checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezon
  e is unannounced. Verify the organizer's submission portal.
 URL:https://www.ieeesmc2026.org/Important-Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:nodycon-2026-deadline-journal-manuscript@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260704
-SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
- namics] NODYCON 2026 - Full-length manuscript deadline for presented work
-  (cutoff time unannounced)
-DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
- Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
- ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
- /conferenza/nodycon-2026\nLocation: Rome\, Italy\nTopics: Nonlinear Dynam
- ics & Chaos\, System Identification & Data-driven Dynamics\, Control & Ro
- botics\, Complex Systems & Network Science\nSize: L\nSubmission type: Abs
- tract-based + selected journal papers\nConfidence: confirmed\nLast checke
- d date: 2026-10-08\nNotes: Historical 2026 meeting. Selected presented pa
- pers may be considered for Nonlinear Dynamics after additional journal re
- view\; that manuscript step is not a fresh conference submission. Prior e
- ditions have Springer proceedings\, but no blanket 2026 proceedings promi
- se is asserted. The 2025-to-2026 change breaks the earlier biennial caden
- ce\; the next edition is unannounced. Cutoff hours are unannounced. Size 
- is an editorial estimate.\nScope: Nonlinear dynamics in engineering and p
- hysical systems: bifurcations\, chaos\, vibrations\, synchronization\, no
- nlinear control\, system identification and data-driven dynamical modelin
- g. Machine learning is relevant through discovering\, forecasting or cont
- rolling dynamics. Publication is edition-specific: past Springer volumes 
- do not imply that every later meeting has standard proceedings.\nAddition
- al topics: Time Series & Sequential Data\, Machine Learning\nScope source
- s (2026): https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/
- prossimi-eventi/conferenza/nodycon-2026\nScope last checked: 2026-10-08\n
- Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
-  the organizer's submission portal.
-URL:https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi
- -eventi/conferenza/nodycon-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-2026-deadline-extended-abstract@scientific-conference-calendar
@@ -275,30 +238,64 @@ URL:https://dde-2026.sci-meet.net/
 LOCATION:Lisbon\, Portugal
 END:VEVENT
 BEGIN:VEVENT
+UID:nodycon-2026-deadline-journal-manuscript@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Full-length manuscript deadline for presented work
+  (cutoff time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://nodycon2026.app.earendelplatform.com/\nLocation: Rome\, Italy\nTopics:
+  Nonlinear Dynamics & Chaos\, System Identification & Data-driven Dynamic
+ s\, Control & Robotics\, Complex Systems & Network Science\nSize: L\nSubm
+ ission type: Abstract-based + optional full-length papers\nConfidence: co
+ nfirmed\nLast checked date: 2026-10-28\nNotes: Historical 2026 meeting. E
+ dition-site key dates (read 2026-10-28) give abstracts May 15 and full-le
+ ngth papers Aug 31 (extended from Jul 1)\, kept over the conflicting SISC
+ O page (May 1/Jul 3)\; cutoff hours unannounced. The optional paper step 
+ (Springer Advances in Nonlinear Dynamics\; invited Nonlinear Dynamics iss
+ ue) is not a fresh route. No next edition announced. Size is an editorial
+  estimate.\nScope: Nonlinear dynamics in engineering and physical systems
+ : bifurcations\, chaos\, vibrations\, synchronization\, nonlinear control
+ \, system identification and data-driven dynamical modeling. Machine lear
+ ning is relevant through discovering\, forecasting or controlling dynamic
+ s. Publication is edition-specific: past Springer volumes do not imply th
+ at every later meeting has standard proceedings.\nAdditional topics: Time
+  Series & Sequential Data\, Machine Learning\nScope sources (2026): https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nScope last checked: 2026-10-08\nOfficial deadli
+ ne day\; exact cutoff hour/timezone is unannounced. Verify the organizer'
+ s submission portal.
+URL:https://nodycon2026.app.earendelplatform.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260916T115900Z
 DTEND:20260916T125900Z
 SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
- 26 (day TBA) - Workshop paper submission deadline (estimated)
+ 26 - Workshop paper submission deadline
 DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
  Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
  nSource URL: https://fmts-workshop.github.io/cfp.html\nLocation: Sydney\,
   Australia\nTopics: Time Series & Sequential Data\, Machine Learning\, De
  ep Representation Learning\, Probabilistic\, Causal & Uncertainty ML\nSiz
- e: S\nSubmission type: Workshop / non-archival short paper\nConfidence: e
- stimated\nLast checked date: 2026-10-05\nNotes: Confirmed one-day NeurIPS
-  2026 workshop. NeurIPS will assign either Dec 11 or Dec 12\; Dec 11 is a
-  calendar placeholder\, not a confirmed workshop day. The Nov 6 camera-re
- ady date is tentative and is not listed as a deadline.\nScope: Foundation
-  models for temporal systems\, centered on long-horizon and probabilistic
-  forecasting\, temporal pretraining\, generative simulation\, irregularly
-  sampled and multimodal sequences\, and state-space architectures. Reliab
- ility is a defining theme: distribution shift\, calibrated uncertainty\, 
- leakage-aware benchmarks\, and consistency of simulated trajectories.\nAd
- ditional topics: System Identification & Data-driven Dynamics\, Robustnes
- s & Safety\nScope sources (2026): https://fmts-workshop.github.io/cfp.htm
- l\nScope last checked: 2026-10-07
+ e: S\nSubmission type: Workshop / non-archival short paper\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-28\nNotes: NeurIPS's official worksh
+ op page lists FMTS on Dec 11\, 2026\, 8:00 AM-5:00 PM AEDT in room MR C4.
+ 5\; the workshop site still says day TBA. The Sep 16 11:59 UTC (Sep 15 Ao
+ E) paper deadline has passed. The Nov 6 camera-ready date is still marked
+  tentative and is not listed as a deadline.\nScope: Foundation models for
+  temporal systems\, centered on long-horizon and probabilistic forecastin
+ g\, temporal pretraining\, generative simulation\, irregularly sampled an
+ d multimodal sequences\, and state-space architectures. Reliability is a 
+ defining theme: distribution shift\, calibrated uncertainty\, leakage-awa
+ re benchmarks\, and consistency of simulated trajectories.\nAdditional to
+ pics: System Identification & Data-driven Dynamics\, Robustness & Safety\
+ nScope sources (2026): https://fmts-workshop.github.io/cfp.html\nScope la
+ st checked: 2026-10-07
 URL:https://fmts-workshop.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -363,23 +360,22 @@ DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
  ://nodycon2026.app.earendelplatform.com/\nLocation: Rome\, Italy\nTopics:
   Nonlinear Dynamics & Chaos\, System Identification & Data-driven Dynamic
  s\, Control & Robotics\, Complex Systems & Network Science\nSize: L\nSubm
- ission type: Abstract-based + selected journal papers\nConfidence: confir
- med\nLast checked date: 2026-10-08\nNotes: Historical 2026 meeting. Selec
- ted presented papers may be considered for Nonlinear Dynamics after addit
- ional journal review\; that manuscript step is not a fresh conference sub
- mission. Prior editions have Springer proceedings\, but no blanket 2026 p
- roceedings promise is asserted. The 2025-to-2026 change breaks the earlie
- r biennial cadence\; the next edition is unannounced. Cutoff hours are un
- announced. Size is an editorial estimate.\nScope: Nonlinear dynamics in e
- ngineering and physical systems: bifurcations\, chaos\, vibrations\, sync
- hronization\, nonlinear control\, system identification and data-driven d
- ynamical modeling. Machine learning is relevant through discovering\, for
- ecasting or controlling dynamics. Publication is edition-specific: past S
- pringer volumes do not imply that every later meeting has standard procee
- dings.\nAdditional topics: Time Series & Sequential Data\, Machine Learni
- ng\nScope sources (2026): https://www.sisco-scienzadellecostruzioni.org/i
- ndex.php/eventi/prossimi-eventi/conferenza/nodycon-2026\nScope last check
- ed: 2026-10-08
+ ission type: Abstract-based + optional full-length papers\nConfidence: co
+ nfirmed\nLast checked date: 2026-10-28\nNotes: Historical 2026 meeting. E
+ dition-site key dates (read 2026-10-28) give abstracts May 15 and full-le
+ ngth papers Aug 31 (extended from Jul 1)\, kept over the conflicting SISC
+ O page (May 1/Jul 3)\; cutoff hours unannounced. The optional paper step 
+ (Springer Advances in Nonlinear Dynamics\; invited Nonlinear Dynamics iss
+ ue) is not a fresh route. No next edition announced. Size is an editorial
+  estimate.\nScope: Nonlinear dynamics in engineering and physical systems
+ : bifurcations\, chaos\, vibrations\, synchronization\, nonlinear control
+ \, system identification and data-driven dynamical modeling. Machine lear
+ ning is relevant through discovering\, forecasting or controlling dynamic
+ s. Publication is edition-specific: past Springer volumes do not imply th
+ at every later meeting has standard proceedings.\nAdditional topics: Time
+  Series & Sequential Data\, Machine Learning\nScope sources (2026): https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nScope last checked: 2026-10-08
 URL:https://nodycon2026.app.earendelplatform.com/
 LOCATION:Rome\, Italy
 END:VEVENT
@@ -695,26 +691,27 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
- 26 (day TBA) - Conference (estimated)
+ 26 - Conference
 DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
  Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
- nSource URL: https://fmts-workshop.github.io/\nLocation: Sydney\, Austral
- ia\nTopics: Time Series & Sequential Data\, Machine Learning\, Deep Repre
- sentation Learning\, Probabilistic\, Causal & Uncertainty ML\nSize: S\nSu
- bmission type: Workshop / non-archival short paper\nConfidence: estimated
- \nLast checked date: 2026-10-05\nNotes: Confirmed one-day NeurIPS 2026 wo
- rkshop. NeurIPS will assign either Dec 11 or Dec 12\; Dec 11 is a calenda
- r placeholder\, not a confirmed workshop day. The Nov 6 camera-ready date
-  is tentative and is not listed as a deadline.\nScope: Foundation models 
- for temporal systems\, centered on long-horizon and probabilistic forecas
- ting\, temporal pretraining\, generative simulation\, irregularly sampled
-  and multimodal sequences\, and state-space architectures. Reliability is
-  a defining theme: distribution shift\, calibrated uncertainty\, leakage-
- aware benchmarks\, and consistency of simulated trajectories.\nAdditional
-  topics: System Identification & Data-driven Dynamics\, Robustness & Safe
- ty\nScope sources (2026): https://fmts-workshop.github.io/cfp.html\nScope
-  last checked: 2026-10-07
-URL:https://fmts-workshop.github.io/
+ nSource URL: https://neurips.cc/virtual/2026/workshop/137514\nLocation: S
+ ydney\, Australia\nTopics: Time Series & Sequential Data\, Machine Learni
+ ng\, Deep Representation Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\nSize: S\nSubmission type: Workshop / non-archival short paper\nConfid
+ ence: confirmed\nLast checked date: 2026-10-28\nNotes: NeurIPS's official
+  workshop page lists FMTS on Dec 11\, 2026\, 8:00 AM-5:00 PM AEDT in room
+  MR C4.5\; the workshop site still says day TBA. The Sep 16 11:59 UTC (Se
+ p 15 AoE) paper deadline has passed. The Nov 6 camera-ready date is still
+  marked tentative and is not listed as a deadline.\nScope: Foundation mod
+ els for temporal systems\, centered on long-horizon and probabilistic for
+ ecasting\, temporal pretraining\, generative simulation\, irregularly sam
+ pled and multimodal sequences\, and state-space architectures. Reliabilit
+ y is a defining theme: distribution shift\, calibrated uncertainty\, leak
+ age-aware benchmarks\, and consistency of simulated trajectories.\nAdditi
+ onal topics: System Identification & Data-driven Dynamics\, Robustness & 
+ Safety\nScope sources (2026): https://fmts-workshop.github.io/cfp.html\nS
+ cope last checked: 2026-10-07
+URL:https://neurips.cc/virtual/2026/workshop/137514
 LOCATION:Sydney\, Australia
 END:VEVENT
 BEGIN:VEVENT
@@ -954,12 +951,13 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
   Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
  mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offici
- al future edition in Lisbon\; main meeting excludes December 13 workshops
- . Deadline days and opening day published\; exact cutoff hours use estima
- ted end-of-day AoE. Size is an editorial category.\nOfficial deadline day
- \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
- ission portal.
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al future edition at the Lisbon Congress Centre\, Dec 14-17\, 2027\; the 
+ main meeting excludes the December 13 workshops. Deadline days are publis
+ hed without hours\, so cutoffs use a provisional end-of-day AoE. The subm
+ ission site opens Jan 8\, 2027 (day only\, no time). Size is an editorial
+  category.\nOfficial deadline day\; exact cutoff hour/timezone is unannou
+ nced. Verify the organizer's submission portal.
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -974,12 +972,13 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
   Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
  mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offici
- al future edition in Lisbon\; main meeting excludes December 13 workshops
- . Deadline days and opening day published\; exact cutoff hours use estima
- ted end-of-day AoE. Size is an editorial category.\nOfficial deadline day
- \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
- ission portal.
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al future edition at the Lisbon Congress Centre\, Dec 14-17\, 2027\; the 
+ main meeting excludes the December 13 workshops. Deadline days are publis
+ hed without hours\, so cutoffs use a provisional end-of-day AoE. The subm
+ ission site opens Jan 8\, 2027 (day only\, no time). Size is an editorial
+  category.\nOfficial deadline day\; exact cutoff hour/timezone is unannou
+ nced. Verify the organizer's submission portal.
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -1081,17 +1080,19 @@ DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
  tification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-bas
  ed\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Unannoun
  ced next annual edition. Meeting dates and the contributed abstract deadl
- ine are one-year proxies from 2026\, with no assumed host location. Size 
- is an editorial estimate.\nScope: Theory and applications of nonlinear dy
- namics: chaos\, bifurcations\, synchronization\, pattern formation\, comp
- lex networks\, stochastic dynamics and time-series analysis. ML and neuro
- dynamics are characteristic interdisciplinary extensions. Contributed tal
- ks and posters use abstracts\, while minisymposium proposals are organize
- r activity.\nAdditional topics: Machine Learning\, Computational Neurosci
- ence\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026)
- : https://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked
- : 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is unann
- ounced. Verify the organizer's submission portal.
+ ine are one-year proxies from 2026\, with no assumed host location. On 20
+ 26-10-28 the series site still listed 2026 as upcoming and no official 20
+ 27 page was found\; dates unchanged. Size is an editorial estimate.\nScop
+ e: Theory and applications of nonlinear dynamics: chaos\, bifurcations\, 
+ synchronization\, pattern formation\, complex networks\, stochastic dynam
+ ics and time-series analysis. ML and neurodynamics are characteristic int
+ erdisciplinary extensions. Contributed talks and posters use abstracts\, 
+ while minisymposium proposals are organizer activity.\nAdditional topics:
+  Machine Learning\, Computational Neuroscience\, Control & Robotics\, Gra
+ phs & Graph Learning\nScope sources (2026): https://dde-2026.sci-meet.net
+ /abstract-submission-2\nScope last checked: 2026-10-08\nOfficial deadline
+  day\; exact cutoff hour/timezone is unannounced. Verify the organizer's 
+ submission portal.
 URL:https://dde-2026.sci-meet.net/important-dates
 END:VEVENT
 BEGIN:VEVENT
@@ -1106,12 +1107,13 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
   Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
  mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offici
- al future edition in Lisbon\; main meeting excludes December 13 workshops
- . Deadline days and opening day published\; exact cutoff hours use estima
- ted end-of-day AoE. Size is an editorial category.\nOfficial deadline day
- \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
- ission portal.
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al future edition at the Lisbon Congress Centre\, Dec 14-17\, 2027\; the 
+ main meeting excludes the December 13 workshops. Deadline days are publis
+ hed without hours\, so cutoffs use a provisional end-of-day AoE. The subm
+ ission site opens Jan 8\, 2027 (day only\, no time). Size is an editorial
+  category.\nOfficial deadline day\; exact cutoff hour/timezone is unannou
+ nced. Verify the organizer's submission portal.
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -1128,21 +1130,22 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
   Chi Minh City\, Vietnam\nTopics: Control & Robotics\, Complex Systems & 
  Network Science\, Machine Learning\, Human-AI Interaction & Deployment\nS
  ize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast checked
-  date: 2026-10-07\nNotes: Society confirms the 2027 host city. October 7-
- 10 appears only in the hosting proposal\, so remains provisional\; deadli
- nes are one-year proxies from 2026. Do not present proposal dates or unan
- nounced cutoff hours as confirmed. Size is an editorial estimate.\nScope:
-  Systems science\, cybernetics\, and human-machine systems. Characteristi
- c ML-facing work includes intelligent and learning-based control\, autono
- mous systems\, adaptive decision-making\, and human-AI interaction\; brai
- n-machine interfaces and cognitive systems are meaningful extensions. Its
-  interdisciplinary remit is curated without tagging every industrial appl
- ication as a core specialty.\nAdditional topics: Reinforcement Learning\,
-  System Identification & Data-driven Dynamics\, BCI & Neurotechnology\, C
- ognitive Science & Computational Cognition\nScope sources (2026): https:/
- /www.ieeesmc2026.org/call-for-papers\nScope last checked: 2026-10-07\nOff
- icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
- e organizer's submission portal.
+  date: 2026-10-28\nNotes: As of 2026-10-28 the society calendar lists SMC
+  2027 in Ho Chi Minh City without dates or a website\; October 7-10 appea
+ rs only in the hosting proposal\, so remains provisional. ieeesmc2027.org
+  is a parked domain for sale\, not an official site. Deadlines are one-ye
+ ar proxies from 2026 with unannounced cutoff hours. Size is an editorial 
+ estimate.\nScope: Systems science\, cybernetics\, and human-machine syste
+ ms. Characteristic ML-facing work includes intelligent and learning-based
+  control\, autonomous systems\, adaptive decision-making\, and human-AI i
+ nteraction\; brain-machine interfaces and cognitive systems are meaningfu
+ l extensions. Its interdisciplinary remit is curated without tagging ever
+ y industrial application as a core specialty.\nAdditional topics: Reinfor
+ cement Learning\, System Identification & Data-driven Dynamics\, BCI & Ne
+ urotechnology\, Cognitive Science & Computational Cognition\nScope source
+ s (2026): https://www.ieeesmc2026.org/call-for-papers\nScope last checked
+ : 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is unann
+ ounced. Verify the organizer's submission portal.
 URL:https://www.ieeesmc2026.org/Important-Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -1186,21 +1189,22 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
   Chi Minh City\, Vietnam\nTopics: Control & Robotics\, Complex Systems & 
  Network Science\, Machine Learning\, Human-AI Interaction & Deployment\nS
  ize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast checked
-  date: 2026-10-07\nNotes: Society confirms the 2027 host city. October 7-
- 10 appears only in the hosting proposal\, so remains provisional\; deadli
- nes are one-year proxies from 2026. Do not present proposal dates or unan
- nounced cutoff hours as confirmed. Size is an editorial estimate.\nScope:
-  Systems science\, cybernetics\, and human-machine systems. Characteristi
- c ML-facing work includes intelligent and learning-based control\, autono
- mous systems\, adaptive decision-making\, and human-AI interaction\; brai
- n-machine interfaces and cognitive systems are meaningful extensions. Its
-  interdisciplinary remit is curated without tagging every industrial appl
- ication as a core specialty.\nAdditional topics: Reinforcement Learning\,
-  System Identification & Data-driven Dynamics\, BCI & Neurotechnology\, C
- ognitive Science & Computational Cognition\nScope sources (2026): https:/
- /www.ieeesmc2026.org/call-for-papers\nScope last checked: 2026-10-07\nOff
- icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
- e organizer's submission portal.
+  date: 2026-10-28\nNotes: As of 2026-10-28 the society calendar lists SMC
+  2027 in Ho Chi Minh City without dates or a website\; October 7-10 appea
+ rs only in the hosting proposal\, so remains provisional. ieeesmc2027.org
+  is a parked domain for sale\, not an official site. Deadlines are one-ye
+ ar proxies from 2026 with unannounced cutoff hours. Size is an editorial 
+ estimate.\nScope: Systems science\, cybernetics\, and human-machine syste
+ ms. Characteristic ML-facing work includes intelligent and learning-based
+  control\, autonomous systems\, adaptive decision-making\, and human-AI i
+ nteraction\; brain-machine interfaces and cognitive systems are meaningfu
+ l extensions. Its interdisciplinary remit is curated without tagging ever
+ y industrial application as a core specialty.\nAdditional topics: Reinfor
+ cement Learning\, System Identification & Data-driven Dynamics\, BCI & Ne
+ urotechnology\, Cognitive Science & Computational Cognition\nScope source
+ s (2026): https://www.ieeesmc2026.org/call-for-papers\nScope last checked
+ : 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is unann
+ ounced. Verify the organizer's submission portal.
 URL:https://www.ieeesmc2026.org/Important-Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -1365,12 +1369,13 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
   Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
  mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offici
- al future edition in Lisbon\; main meeting excludes December 13 workshops
- . Deadline days and opening day published\; exact cutoff hours use estima
- ted end-of-day AoE. Size is an editorial category.\nOfficial deadline day
- \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
- ission portal.
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al future edition at the Lisbon Congress Centre\, Dec 14-17\, 2027\; the 
+ main meeting excludes the December 13 workshops. Deadline days are publis
+ hed without hours\, so cutoffs use a provisional end-of-day AoE. The subm
+ ission site opens Jan 8\, 2027 (day only\, no time). Size is an editorial
+  category.\nOfficial deadline day\; exact cutoff hour/timezone is unannou
+ nced. Verify the organizer's submission portal.
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -1387,15 +1392,17 @@ DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
  a-driven Dynamics\nSize: L\nSubmission type: Abstract-based\nConfidence: 
  estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next annual 
  edition. Meeting dates and the contributed abstract deadline are one-year
-  proxies from 2026\, with no assumed host location. Size is an editorial 
- estimate.\nScope: Theory and applications of nonlinear dynamics: chaos\, 
- bifurcations\, synchronization\, pattern formation\, complex networks\, s
- tochastic dynamics and time-series analysis. ML and neurodynamics are cha
- racteristic interdisciplinary extensions. Contributed talks and posters u
- se abstracts\, while minisymposium proposals are organizer activity.\nAdd
- itional topics: Machine Learning\, Computational Neuroscience\, Control &
-  Robotics\, Graphs & Graph Learning\nScope sources (2026): https://dde-20
- 26.sci-meet.net/abstract-submission-2\nScope last checked: 2026-10-08
+  proxies from 2026\, with no assumed host location. On 2026-10-28 the ser
+ ies site still listed 2026 as upcoming and no official 2027 page was foun
+ d\; dates unchanged. Size is an editorial estimate.\nScope: Theory and ap
+ plications of nonlinear dynamics: chaos\, bifurcations\, synchronization\
+ , pattern formation\, complex networks\, stochastic dynamics and time-ser
+ ies analysis. ML and neurodynamics are characteristic interdisciplinary e
+ xtensions. Contributed talks and posters use abstracts\, while minisympos
+ ium proposals are organizer activity.\nAdditional topics: Machine Learnin
+ g\, Computational Neuroscience\, Control & Robotics\, Graphs & Graph Lear
+ ning\nScope sources (2026): https://dde-2026.sci-meet.net/abstract-submis
+ sion-2\nScope last checked: 2026-10-08
 URL:https://www.dynamicsdays.org/
 LOCATION:To be announced
 END:VEVENT
@@ -1412,19 +1419,21 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
  Ho Chi Minh City\, Vietnam\nTopics: Control & Robotics\, Complex Systems 
  & Network Science\, Machine Learning\, Human-AI Interaction & Deployment\
  nSize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast check
- ed date: 2026-10-07\nNotes: Society confirms the 2027 host city. October 
- 7-10 appears only in the hosting proposal\, so remains provisional\; dead
- lines are one-year proxies from 2026. Do not present proposal dates or un
- announced cutoff hours as confirmed. Size is an editorial estimate.\nScop
- e: Systems science\, cybernetics\, and human-machine systems. Characteris
- tic ML-facing work includes intelligent and learning-based control\, auto
- nomous systems\, adaptive decision-making\, and human-AI interaction\; br
- ain-machine interfaces and cognitive systems are meaningful extensions. I
- ts interdisciplinary remit is curated without tagging every industrial ap
- plication as a core specialty.\nAdditional topics: Reinforcement Learning
- \, System Identification & Data-driven Dynamics\, BCI & Neurotechnology\,
-  Cognitive Science & Computational Cognition\nScope sources (2026): https
- ://www.ieeesmc2026.org/call-for-papers\nScope last checked: 2026-10-07
+ ed date: 2026-10-28\nNotes: As of 2026-10-28 the society calendar lists S
+ MC 2027 in Ho Chi Minh City without dates or a website\; October 7-10 app
+ ears only in the hosting proposal\, so remains provisional. ieeesmc2027.o
+ rg is a parked domain for sale\, not an official site. Deadlines are one-
+ year proxies from 2026 with unannounced cutoff hours. Size is an editoria
+ l estimate.\nScope: Systems science\, cybernetics\, and human-machine sys
+ tems. Characteristic ML-facing work includes intelligent and learning-bas
+ ed control\, autonomous systems\, adaptive decision-making\, and human-AI
+  interaction\; brain-machine interfaces and cognitive systems are meaning
+ ful extensions. Its interdisciplinary remit is curated without tagging ev
+ ery industrial application as a core specialty.\nAdditional topics: Reinf
+ orcement Learning\, System Identification & Data-driven Dynamics\, BCI & 
+ Neurotechnology\, Cognitive Science & Computational Cognition\nScope sour
+ ces (2026): https://www.ieeesmc2026.org/call-for-papers\nScope last check
+ ed: 2026-10-07
 URL:https://www.ieeesmc.org/conferences/calendar/
 LOCATION:Ho Chi Minh City\, Vietnam
 END:VEVENT
@@ -1440,10 +1449,11 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  g/\nLocation: Lisbon\, Portugal\nTopics: Control & Robotics\, System Iden
  tification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Reinforc
  ement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence: confi
- rmed\nLast checked date: 2026-10-06\nNotes: Official future edition in Li
- sbon\; main meeting excludes December 13 workshops. Deadline days and ope
- ning day published\; exact cutoff hours use estimated end-of-day AoE. Siz
- e is an editorial category.
+ rmed\nLast checked date: 2026-10-28\nNotes: Official future edition at th
+ e Lisbon Congress Centre\, Dec 14-17\, 2027\; the main meeting excludes t
+ he December 13 workshops. Deadline days are published without hours\, so 
+ cutoffs use a provisional end-of-day AoE. The submission site opens Jan 8
+ \, 2027 (day only\, no time). Size is an editorial category.
 URL:https://cdc2027.ieeecss.org/
 LOCATION:Lisbon\, Portugal
 END:VEVENT

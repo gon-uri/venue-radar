@@ -106,3 +106,5 @@ southampton: {label: 'Southampton, UK', lat: 50.910, lon: -1.404, locations: ['S
 dublin: {label: 'Dublin, Ireland', lat: 53.350, lon: -6.260, locations: ['Dublin, Ireland']}
 bari: {label: 'Bari, Italy', lat: 41.117, lon: 16.872, locations: ['Bari, Italy']}
 ho-chi-minh-city: {label: 'Ho Chi Minh City, Vietnam', lat: 10.823, lon: 106.630, locations: ['Ho Chi Minh City, Vietnam']}
+# Island-level alias: organizers name only Gran Canaria, so the marker uses the island centre.
+gran-canaria: {label: 'Gran Canaria, Spain', lat: 27.958, lon: -15.592, locations: ['Gran Canaria, Spain']}

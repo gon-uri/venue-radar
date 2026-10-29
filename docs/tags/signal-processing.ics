@@ -41,10 +41,12 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  series4health.github.io/\nLocation: San Diego\, California\, USA\nTopics:
   Time Series & Sequential Data\, Healthcare & Clinical AI\, Signal Proces
  sing\, Explainability & Interpretability\nSize: S\nSubmission type: Works
- hop / paper-based\nConfidence: confirmed\nLast checked date: 2026-10-05\n
- Notes: Official TS4H page describes the completed NeurIPS 2025 workshop. 
- No TS4H 2026 edition appears on the official NeurIPS 2026 workshop list\;
-  the former 2026 placeholder has been retired.
+ hop / paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ Notes: Official TS4H page still describes the completed NeurIPS 2025 work
+ shop. As of 2026-10-28 no TS4H-named workshop is on the ICLR\, ICML or Ne
+ urIPS 2026 lists\; the same organizers ran Structured Data for Health at 
+ ICML 2026 (Jul 11)\, whose site lists TS4H editions as prior years. No 20
+ 27 edition is announced.
 URL:https://timeseries4health.github.io/
 LOCATION:San Diego\, California\, USA
 END:VEVENT
@@ -331,18 +333,24 @@ END:VEVENT
 BEGIN:VEVENT
 UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260531T135900Z
-DTEND:20260531T145900Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
 SUMMARY:[Machine Learning][Deep Representation Learning] ICONIP 2026 - Pape
- r submission deadline
+ r submission deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: International Conference on Neural Informatio
  n Processing\nWebsite: https://www.iconip2026.org/\nSource URL: https://w
- ww.iconip2026.org/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
- ning\, Deep Representation Learning\, Computational Neuroscience\, Signal
-  Processing\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed
- \nLast checked date: 2026-08-20\nNotes: Official ICONIP 2026 site lists M
- elbourne\, Nov 23-27\, and the extended paper deadline.
-URL:https://www.iconip2026.org/
+ ww.iconip2026.org/call-for-papers\nLocation: Melbourne\, Australia\nTopic
+ s: Machine Learning\, Deep Representation Learning\, Computational Neuros
+ cience\, Signal Processing\nSize: L\nSubmission type: Paper-based\nConfid
+ ence: confirmed\nLast checked date: 2026-10-28\nNotes: Official ICONIP 20
+ 26 site (checked 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper
+  deadline was extended to May 31\, 2026 (no cutoff hour stated). An Oct 2
+ 8\, 2026 notice extends 2-page extended-abstract submissions to Nov 10\, 
+ 2026 (no hour)\; accepted abstracts must be registered and presented in p
+ erson as posters\, in a separate open-access abstract publication.\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://www.iconip2026.org/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-mlsp-2026-deadline-full-paper@scientific-conference-calendar
@@ -903,19 +911,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:icassp-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260917T115900Z
-DTEND:20260917T125900Z
+DTSTART:20260924T115900Z
+DTEND:20260924T125900Z
 SUMMARY:[Signal Processing][Machine Learning] ICASSP 2027 - Paper submissio
  n deadline
 DESCRIPTION:Conference title: IEEE International Conference on Acoustics\, 
  Speech\, and Signal Processing\nWebsite: https://2027.ieeeicassp.org/\nSo
- urce URL: https://2027.ieeeicassp.org/call-for-papers/\nLocation: Toronto
- \, Canada\nTopics: Signal Processing\, Machine Learning\, Time Series & S
- equential Data\, Computer Vision & Pattern Recognition\nSize: XL\nSubmiss
- ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-
- 20\nNotes: Official ICASSP 2027 pages list Toronto\, May 16-21\, 2027 con
- ference dates\, and the full paper submission deadline.
-URL:https://2027.ieeeicassp.org/call-for-papers/
+ urce URL: https://cmsworkshops.com/ICASSP2027/papers.php\nLocation: Toron
+ to\, Canada\nTopics: Signal Processing\, Machine Learning\, Time Series &
+  Sequential Data\, Computer Vision & Pattern Recognition\nSize: XL\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-28\nNotes: Official ICASSP 2027 pages list Toronto\, May 16-21\, 2027. 
+ The CFP/important-dates pages give the paper deadline as Sep 23\, 2026 an
+ d the portal (updated Sep 21) as 24:00 International Date Line (AoE)\; th
+ e paper kit (updated Sep 7) and OJSP page still cite Sep 16. Satellite-wo
+ rkshop (shared call) and production dates are day-only\; cutoff hours una
+ nnounced.
+URL:https://cmsworkshops.com/ICASSP2027/papers.php
 END:VEVENT
 BEGIN:VEVENT
 UID:euvip-2026-conference@scientific-conference-calendar
@@ -1127,6 +1139,102 @@ URL:https://2026.acmmm.org/
 LOCATION:Rio de Janeiro\, Brazil
 END:VEVENT
 BEGIN:VEVENT
+UID:iconip-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:[Machine Learning][Deep Representation Learning] ICONIP 2026 - Exte
+ nded abstract (2-page\, in-person poster) submission deadline (extended) 
+ (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Neural Informatio
+ n Processing\nWebsite: https://www.iconip2026.org/\nSource URL: https://w
+ ww.iconip2026.org/news\nLocation: Melbourne\, Australia\nTopics: Machine 
+ Learning\, Deep Representation Learning\, Computational Neuroscience\, Si
+ gnal Processing\nSize: L\nSubmission type: Paper-based\nConfidence: confi
+ rmed\nLast checked date: 2026-10-28\nNotes: Official ICONIP 2026 site (ch
+ ecked 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper deadline w
+ as extended to May 31\, 2026 (no cutoff hour stated). An Oct 28\, 2026 no
+ tice extends 2-page extended-abstract submissions to Nov 10\, 2026 (no ho
+ ur)\; accepted abstracts must be registered and presented in person as po
+ sters\, in a separate open-access abstract publication.\nOfficial deadlin
+ e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
+  submission portal.
+URL:https://www.iconip2026.org/news
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:[Signal Processing][Machine Learning] ICASSP 2027 - Satellite works
+ hop paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Acoustics\, 
+ Speech\, and Signal Processing\nWebsite: https://2027.ieeeicassp.org/\nSo
+ urce URL: https://2027.ieeeicassp.org/call-for-satellite-workshops/\nLoca
+ tion: Toronto\, Canada\nTopics: Signal Processing\, Machine Learning\, Ti
+ me Series & Sequential Data\, Computer Vision & Pattern Recognition\nSize
+ : XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-28\nNotes: Official ICASSP 2027 pages list Toronto\, May 16-
+ 21\, 2027. The CFP/important-dates pages give the paper deadline as Sep 2
+ 3\, 2026 and the portal (updated Sep 21) as 24:00 International Date Line
+  (AoE)\; the paper kit (updated Sep 7) and OJSP page still cite Sep 16. S
+ atellite-workshop (shared call) and production dates are day-only\; cutof
+ f hours unannounced.\nOfficial deadline day\; exact cutoff hour/timezone 
+ is unannounced. Verify the organizer's submission portal.
+URL:https://2027.ieeeicassp.org/call-for-satellite-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:bci-winter-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] BCI Winter 2027 -
+  Paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
+ uter Interface\nWebsite: https://brain.korea.ac.kr/bci2027/\nSource URL: 
+ https://brain.korea.ac.kr/bci2027/importantdate.php\nLocation: Jeongseon\
+ , South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\,
+  Signal Processing\, Machine Learning\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Officia
+ l 2027 site and CFP confirm February 22-24\, 2027 at High1 Resort\, Jeong
+ seon\, with papers due November 15\, 2026 (up to 6 pages\, double-blind\,
+  IEEE Xplore subject to quality review). No cutoff hour or zone is stated
+ \; T23:59 AoE is provisional. The 2026 deadline moved from October to Dec
+ ember\, so check for extensions. Size is an editorial estimate.\nScope: B
+ rain-computer interfaces\, neural signal decoding\, multimodal brain meas
+ urements\, neurofeedback and adaptive interfaces. Machine learning is cen
+ tral to biosignal classification and decoding\; neurorehabilitation and i
+ nteraction with real or virtual environments are characteristic applicati
+ ons. IEEE-style reviewed research papers are the established publication 
+ route.\nAdditional topics: Healthcare & Clinical AI\, Neuroimaging & Brai
+ n Mapping\nScope sources (2027): https://brain.korea.ac.kr/bci2027/callfo
+ rpaper.php\, https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nSc
+ ope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/t
+ imezone is unannounced. Verify the organizer's submission portal.
+URL:https://brain.korea.ac.kr/bci2027/importantdate.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCNN 2027 - Speci
+ al session and workshop proposal deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Joint Conference on Neural Netw
+ orks\nWebsite: https://ijcnn.org/2027\nSource URL: https://ijcnn.org/2027
+ /authors/call-for-papers\nLocation: Cape Town\, South Africa\nTopics: Mac
+ hine Learning\, Deep Representation Learning\, Learning Theory & Statisti
+ cal Foundations\, Signal Processing\nSize: XL\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official
+  IJCNN 2027 pages (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-18
+ \, and the Jan 31\, 2027 regular-paper deadline with no cutoff hour (prov
+ isional AoE end of day). CMT paper submissions are announced to open Dec 
+ 1\, 2026. Camera-ready and registration payment are due Apr 12\, 2027\, 2
+ 3:59 AoE.\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
+URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:nolta-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261117
@@ -1156,19 +1264,24 @@ END:VEVENT
 BEGIN:VEVENT
 UID:esann-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261118T225900Z
-DTEND:20261118T235900Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
 SUMMARY:[Machine Learning][Deep Representation Learning] ESANN 2027 - Paper
-  submission deadline
+  submission deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
  rks\, Computational Intelligence and Machine Learning\nWebsite: https://w
- ww.esann.org/\nSource URL: https://www.esann.org/\nLocation: Bruges\, Bel
- gium\nTopics: Machine Learning\, Deep Representation Learning\, Learning 
- Theory & Statistical Foundations\, Signal Processing\nSize: M\nSubmission
-  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\
- nNotes: Official ESANN 2027 pages confirm Bruges\, Apr 21-23\, 2027\, and
-  the Nov 18\, 2026 submission deadline.
-URL:https://www.esann.org/
+ ww.esann.org/\nSource URL: https://www.esann.org/node/3\nLocation: Bruges
+ \, Belgium\nTopics: Machine Learning\, Deep Representation Learning\, Lea
+ rning Theory & Statistical Foundations\, Signal Processing\nSize: M\nSubm
+ ission type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-
+ 10-28\nNotes: Official ESANN 2027 pages (checked 2026-10-28) list Bruges 
+ and online (hybrid mode)\, Apr 21-23\, 2027\, and decisions on Jan 22\, 2
+ 027. The call asks for submissions 'before 18.11.2026' with no cutoff hou
+ r\, so the last safe day\, Nov 17\, is stored with a provisional end of d
+ ay in Bruges time. Special-session papers follow the regular deadline and
+  procedure.\nOfficial deadline day\; exact cutoff hour/timezone is unanno
+ unced. Verify the organizer's submission portal.
+URL:https://www.esann.org/node/3
 END:VEVENT
 BEGIN:VEVENT
 UID:log-2026-conference@scientific-conference-calendar
@@ -1240,42 +1353,117 @@ DESCRIPTION:Conference title: International Conference on Neural Informatio
  ww.iconip2026.org/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
  ning\, Deep Representation Learning\, Computational Neuroscience\, Signal
   Processing\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed
- \nLast checked date: 2026-08-20\nNotes: Official ICONIP 2026 site lists M
- elbourne\, Nov 23-27\, and the extended paper deadline.
+ \nLast checked date: 2026-10-28\nNotes: Official ICONIP 2026 site (checke
+ d 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper deadline was e
+ xtended to May 31\, 2026 (no cutoff hour stated). An Oct 28\, 2026 notice
+  extends 2-page extended-abstract submissions to Nov 10\, 2026 (no hour)\
+ ; accepted abstracts must be registered and presented in person as poster
+ s\, in a separate open-access abstract publication.
 URL:https://www.iconip2026.org/
 LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
-UID:bci-winter-2027-deadline-full-paper@scientific-conference-calendar
+UID:ijcnn-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCNN 2027 - Compe
+ tition and tutorial proposal deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Joint Conference on Neural Netw
+ orks\nWebsite: https://ijcnn.org/2027\nSource URL: https://ijcnn.org/2027
+ /authors/call-for-papers\nLocation: Cape Town\, South Africa\nTopics: Mac
+ hine Learning\, Deep Representation Learning\, Learning Theory & Statisti
+ cal Foundations\, Signal Processing\nSize: XL\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official
+  IJCNN 2027 pages (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-18
+ \, and the Jan 31\, 2027 regular-paper deadline with no cutoff hour (prov
+ isional AoE end of day). CMT paper submissions are announced to open Dec 
+ 1\, 2026. Camera-ready and registration payment are due Apr 12\, 2027\, 2
+ 3:59 AoE.\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
+URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-special-session-proposal@scientific-conference-c
+ alendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Special sessi
+ on and tutorial proposals due (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/call-for-papers/\nLocation: Annecy\, France\nTopics: Signal Processing\
+ , Machine Learning\, Time Series & Sequential Data\, Probabilistic\, Caus
+ al & Uncertainty ML\nSize: M\nSubmission type: Paper-based / specialist w
+ orkshop\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Off
+ icial SSP 2027 pages confirm the 24th edition at Centre de Congres Imperi
+ al\, Annecy\, Jun 28-Jul 1\, 2027. The author page states deadlines are 2
+ 3:59 AoE (UTC-12)\; regular and special-session papers share the Feb 7 de
+ adline and one submission system. The Dec 7 proposal cutoff hour is unsta
+ ted.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. 
+ Verify the organizer's submission portal.
+URL:https://ssp27.ieeesps.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:bci-winter-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] BCI Winter 2027 -
-  Estimated paper submission deadline (estimated) (cutoff time unannounced
- )
+  Acceptance notification (cutoff time unannounced)
 DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
  uter Interface\nWebsite: https://brain.korea.ac.kr/bci2027/\nSource URL: 
- https://brain.korea.ac.kr/bci2026/authorinstructions.php\nLocation: Jeong
- seon\, South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
- als\, Signal Processing\, Machine Learning\nSize: M\nSubmission type: Pap
- er-based\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Co
- -organizer confirms February 22-24\, 2027 at High1 Resort\, Jeongseon. Th
- e 2027 deadline is unannounced\; December 15 is a one-year proxy from the
-  final 2026 author instructions and CFP\, which supersede an older Octobe
- r date. Prior six-page papers use IEEE proceedings subject to IEEE qualit
- y review\; the 2027 publication details await the final CFP. The exact cu
- toff hour is unknown. Size is an editorial estimate.\nScope: Brain-comput
- er interfaces\, neural signal decoding\, multimodal brain measurements\, 
- neurofeedback and adaptive interfaces. Machine learning is central to bio
- signal classification and decoding\; neurorehabilitation and interaction 
- with real or virtual environments are characteristic applications. IEEE-s
- tyle reviewed research papers are the established publication route.\nAdd
- itional topics: Healthcare & Clinical AI\, Neuroimaging & Brain Mapping\n
- Scope sources (2027): https://brain.korea.ac.kr/bci2027/callforpaper.php\
- , https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nScope last ch
- ecked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is 
- unannounced. Verify the organizer's submission portal.
-URL:https://brain.korea.ac.kr/bci2026/authorinstructions.php
+ https://brain.korea.ac.kr/bci2027/importantdate.php\nLocation: Jeongseon\
+ , South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\,
+  Signal Processing\, Machine Learning\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Officia
+ l 2027 site and CFP confirm February 22-24\, 2027 at High1 Resort\, Jeong
+ seon\, with papers due November 15\, 2026 (up to 6 pages\, double-blind\,
+  IEEE Xplore subject to quality review). No cutoff hour or zone is stated
+ \; T23:59 AoE is provisional. The 2026 deadline moved from October to Dec
+ ember\, so check for extensions. Size is an editorial estimate.\nScope: B
+ rain-computer interfaces\, neural signal decoding\, multimodal brain meas
+ urements\, neurofeedback and adaptive interfaces. Machine learning is cen
+ tral to biosignal classification and decoding\; neurorehabilitation and i
+ nteraction with real or virtual environments are characteristic applicati
+ ons. IEEE-style reviewed research papers are the established publication 
+ route.\nAdditional topics: Healthcare & Clinical AI\, Neuroimaging & Brai
+ n Mapping\nScope sources (2027): https://brain.korea.ac.kr/bci2027/callfo
+ rpaper.php\, https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nSc
+ ope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/t
+ imezone is unannounced. Verify the organizer's submission portal.
+URL:https://brain.korea.ac.kr/bci2027/importantdate.php
+END:VEVENT
+BEGIN:VEVENT
+UID:bci-winter-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] BCI Winter 2027 -
+  Camera-ready manuscript deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
+ uter Interface\nWebsite: https://brain.korea.ac.kr/bci2027/\nSource URL: 
+ https://brain.korea.ac.kr/bci2027/importantdate.php\nLocation: Jeongseon\
+ , South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\,
+  Signal Processing\, Machine Learning\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Officia
+ l 2027 site and CFP confirm February 22-24\, 2027 at High1 Resort\, Jeong
+ seon\, with papers due November 15\, 2026 (up to 6 pages\, double-blind\,
+  IEEE Xplore subject to quality review). No cutoff hour or zone is stated
+ \; T23:59 AoE is provisional. The 2026 deadline moved from October to Dec
+ ember\, so check for extensions. Size is an editorial estimate.\nScope: B
+ rain-computer interfaces\, neural signal decoding\, multimodal brain meas
+ urements\, neurofeedback and adaptive interfaces. Machine learning is cen
+ tral to biosignal classification and decoding\; neurorehabilitation and i
+ nteraction with real or virtual environments are characteristic applicati
+ ons. IEEE-style reviewed research papers are the established publication 
+ route.\nAdditional topics: Healthcare & Clinical AI\, Neuroimaging & Brai
+ n Mapping\nScope sources (2027): https://brain.korea.ac.kr/bci2027/callfo
+ rpaper.php\, https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nSc
+ ope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/t
+ imezone is unannounced. Verify the organizer's submission portal.
+URL:https://brain.korea.ac.kr/bci2027/importantdate.php
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-2027-conference@scientific-conference-calendar
@@ -1308,6 +1496,50 @@ URL:https://wacv.thecvf.com/Conferences/2027
 LOCATION:Lake Buena Vista\, Florida\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:icassp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:[Signal Processing][Machine Learning] ICASSP 2027 - Paper acceptanc
+ e notification (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Acoustics\, 
+ Speech\, and Signal Processing\nWebsite: https://2027.ieeeicassp.org/\nSo
+ urce URL: https://2027.ieeeicassp.org/important-dates/\nLocation: Toronto
+ \, Canada\nTopics: Signal Processing\, Machine Learning\, Time Series & S
+ equential Data\, Computer Vision & Pattern Recognition\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
+ 28\nNotes: Official ICASSP 2027 pages list Toronto\, May 16-21\, 2027. Th
+ e CFP/important-dates pages give the paper deadline as Sep 23\, 2026 and 
+ the portal (updated Sep 21) as 24:00 International Date Line (AoE)\; the 
+ paper kit (updated Sep 7) and OJSP page still cite Sep 16. Satellite-work
+ shop (shared call) and production dates are day-only\; cutoff hours unann
+ ounced.\nOfficial deadline day\; exact cutoff hour/timezone is unannounce
+ d. Verify the organizer's submission portal.
+URL:https://2027.ieeeicassp.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:esann-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:[Machine Learning][Deep Representation Learning] ESANN 2027 - Accep
+ tance decisions (cutoff time unannounced)
+DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
+ rks\, Computational Intelligence and Machine Learning\nWebsite: https://w
+ ww.esann.org/\nSource URL: https://www.esann.org/\nLocation: Bruges\, Bel
+ gium\nTopics: Machine Learning\, Deep Representation Learning\, Learning 
+ Theory & Statistical Foundations\, Signal Processing\nSize: M\nSubmission
+  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\
+ nNotes: Official ESANN 2027 pages (checked 2026-10-28) list Bruges and on
+ line (hybrid mode)\, Apr 21-23\, 2027\, and decisions on Jan 22\, 2027. T
+ he call asks for submissions 'before 18.11.2026' with no cutoff hour\, so
+  the last safe day\, Nov 17\, is stored with a provisional end of day in 
+ Bruges time. Special-session papers follow the regular deadline and proce
+ dure.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced.
+  Verify the organizer's submission portal.
+URL:https://www.esann.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-embc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270124
@@ -1328,20 +1560,47 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
 URL:https://embc.embs.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:icassp-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:[Signal Processing][Machine Learning] ICASSP 2027 - Final paper dea
+ dline (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Acoustics\, 
+ Speech\, and Signal Processing\nWebsite: https://2027.ieeeicassp.org/\nSo
+ urce URL: https://2027.ieeeicassp.org/important-dates/\nLocation: Toronto
+ \, Canada\nTopics: Signal Processing\, Machine Learning\, Time Series & S
+ equential Data\, Computer Vision & Pattern Recognition\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
+ 28\nNotes: Official ICASSP 2027 pages list Toronto\, May 16-21\, 2027. Th
+ e CFP/important-dates pages give the paper deadline as Sep 23\, 2026 and 
+ the portal (updated Sep 21) as 24:00 International Date Line (AoE)\; the 
+ paper kit (updated Sep 7) and OJSP page still cite Sep 16. Satellite-work
+ shop (shared call) and production dates are day-only\; cutoff hours unann
+ ounced.\nOfficial deadline day\; exact cutoff hour/timezone is unannounce
+ d. Verify the organizer's submission portal.
+URL:https://2027.ieeeicassp.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcnn-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270201T115900Z
-DTEND:20270201T125900Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
 SUMMARY:[Machine Learning][Deep Representation Learning] IJCNN 2027 - Regul
- ar paper submission deadline
+ ar paper submission deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: International Joint Conference on Neural Netw
  orks\nWebsite: https://ijcnn.org/2027\nSource URL: https://ijcnn.org/2027
- \nLocation: Cape Town\, South Africa\nTopics: Machine Learning\, Deep Rep
- resentation Learning\, Learning Theory & Statistical Foundations\, Signal
-  Processing\nSize: XL\nSubmission type: Paper-based\nConfidence: confirme
- d\nLast checked date: 2026-08-20\nNotes: Official IJCNN 2027 site lists C
- ape Town\, Jun 14-18\, and the regular-paper deadline.
-URL:https://ijcnn.org/2027
+ /authors/call-for-papers\nLocation: Cape Town\, South Africa\nTopics: Mac
+ hine Learning\, Deep Representation Learning\, Learning Theory & Statisti
+ cal Foundations\, Signal Processing\nSize: XL\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official
+  IJCNN 2027 pages (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-18
+ \, and the Jan 31\, 2027 regular-paper deadline with no cutoff hour (prov
+ isional AoE end of day). CMT paper submissions are announced to open Dec 
+ 1\, 2026. Camera-ready and registration payment are due Apr 12\, 2027\, 2
+ 3:59 AoE.\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
+URL:https://ijcnn.org/2027/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:isbi-2027-deadline-abstract@scientific-conference-calendar
@@ -1381,19 +1640,22 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ssp-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270207T225900Z
-DTEND:20270207T235900Z
+DTSTART:20270208T115900Z
+DTEND:20270208T125900Z
 SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Paper submiss
  ion deadline
 DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
  Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
- g/call-for-papers/\nLocation: Annecy\, France\nTopics: Signal Processing\
- , Machine Learning\, Time Series & Sequential Data\, Probabilistic\, Caus
- al & Uncertainty ML\nSize: M\nSubmission type: Paper-based / specialist w
- orkshop\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Off
- icial IEEE SSP 2027 pages confirm Annecy\, Jun 28-Jul 1\, 2027\, and the 
- Feb 7 paper-submission deadline.
-URL:https://ssp27.ieeesps.org/call-for-papers/
+ g/submit-paper/\nLocation: Annecy\, France\nTopics: Signal Processing\, M
+ achine Learning\, Time Series & Sequential Data\, Probabilistic\, Causal 
+ & Uncertainty ML\nSize: M\nSubmission type: Paper-based / specialist work
+ shop\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al SSP 2027 pages confirm the 24th edition at Centre de Congres Imperial\
+ , Annecy\, Jun 28-Jul 1\, 2027. The author page states deadlines are 23:5
+ 9 AoE (UTC-12)\; regular and special-session papers share the Feb 7 deadl
+ ine and one submission system. The Dec 7 proposal cutoff hour is unstated
+ .
+URL:https://ssp27.ieeesps.org/submit-paper/
 END:VEVENT
 BEGIN:VEVENT
 UID:interspeech-2027-deadline-full-paper@scientific-conference-calendar
@@ -1469,21 +1731,21 @@ DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
  https://brain.korea.ac.kr/bci2027/\nLocation: Jeongseon\, South Korea\nTo
  pics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\, Signal Processin
  g\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidence: 
- confirmed\nLast checked date: 2026-10-08\nNotes: Co-organizer confirms Fe
- bruary 22-24\, 2027 at High1 Resort\, Jeongseon. The 2027 deadline is una
- nnounced\; December 15 is a one-year proxy from the final 2026 author ins
- tructions and CFP\, which supersede an older October date. Prior six-page
-  papers use IEEE proceedings subject to IEEE quality review\; the 2027 pu
- blication details await the final CFP. The exact cutoff hour is unknown. 
- Size is an editorial estimate.\nScope: Brain-computer interfaces\, neural
-  signal decoding\, multimodal brain measurements\, neurofeedback and adap
- tive interfaces. Machine learning is central to biosignal classification 
- and decoding\; neurorehabilitation and interaction with real or virtual e
- nvironments are characteristic applications. IEEE-style reviewed research
-  papers are the established publication route.\nAdditional topics: Health
- care & Clinical AI\, Neuroimaging & Brain Mapping\nScope sources (2027): 
- https://brain.korea.ac.kr/bci2027/callforpaper.php\, https://brain.korea.
- ac.kr/bci2026/assets/CFP_BCI2026.pdf\nScope last checked: 2026-10-08
+ confirmed\nLast checked date: 2026-10-28\nNotes: Official 2027 site and C
+ FP confirm February 22-24\, 2027 at High1 Resort\, Jeongseon\, with paper
+ s due November 15\, 2026 (up to 6 pages\, double-blind\, IEEE Xplore subj
+ ect to quality review). No cutoff hour or zone is stated\; T23:59 AoE is 
+ provisional. The 2026 deadline moved from October to December\, so check 
+ for extensions. Size is an editorial estimate.\nScope: Brain-computer int
+ erfaces\, neural signal decoding\, multimodal brain measurements\, neurof
+ eedback and adaptive interfaces. Machine learning is central to biosignal
+  classification and decoding\; neurorehabilitation and interaction with r
+ eal or virtual environments are characteristic applications. IEEE-style r
+ eviewed research papers are the established publication route.\nAdditiona
+ l topics: Healthcare & Clinical AI\, Neuroimaging & Brain Mapping\nScope 
+ sources (2027): https://brain.korea.ac.kr/bci2027/callforpaper.php\, http
+ s://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nScope last checked:
+  2026-10-08
 URL:https://brain.korea.ac.kr/bci2027/
 LOCATION:Jeongseon\, South Korea
 END:VEVENT
@@ -1518,6 +1780,27 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
 URL:https://interspeech2027.org/calls/call_show_and_tell/
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcnn-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCNN 2027 - Regul
+ ar paper acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: International Joint Conference on Neural Netw
+ orks\nWebsite: https://ijcnn.org/2027\nSource URL: https://ijcnn.org/2027
+ /authors/call-for-papers\nLocation: Cape Town\, South Africa\nTopics: Mac
+ hine Learning\, Deep Representation Learning\, Learning Theory & Statisti
+ cal Foundations\, Signal Processing\nSize: XL\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official
+  IJCNN 2027 pages (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-18
+ \, and the Jan 31\, 2027 regular-paper deadline with no cutoff hour (prov
+ isional AoE end of day). CMT paper submissions are announced to open Dec 
+ 1\, 2026. Camera-ready and registration payment are due Apr 12\, 2027\, 2
+ 3:59 AoE.\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
+URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:icann-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270317T115900Z
@@ -1531,7 +1814,9 @@ DESCRIPTION:Conference title: International Conference on Artificial Neural
  sing\nSize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast 
  checked date: 2026-10-06\nNotes: Provisional 1-year cadence projection fr
  om ICANN 2026. Meeting dates\, location\, and deadlines require organizer
-  confirmation\; website and source links refer to the prior edition.
+  confirmation\; website and source links refer to the prior edition. 2026
+ -10-28 review - ENNS home\, news and ICANNs pages show no ICANN 2027 anno
+ uncement yet\; dates unchanged.
 URL:https://e-nns.org/icann2026/
 END:VEVENT
 BEGIN:VEVENT
@@ -1539,17 +1824,20 @@ UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270324T065900Z
 DTEND:20270324T075900Z
-SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - F
- ull paper submission deadline (estimated)
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - E
+ stimated 6-page paper submission deadline (estimated)
 DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
- Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://neuro.em
- bs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nLocat
- ion: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
- als\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmission t
- ype: Paper-based / engineering-focused\nConfidence: estimated\nLast check
- ed date: 2026-10-06\nNotes: The official IEEE EMBS announcement confirms 
- Milan\, Sep 7-10\, 2027. Submission dates are estimates using the 2025 CF
- P lead times before the meeting\; the 2027 CFP is not yet published.
+ Engineering\nWebsite: https://neuro.embs.org/2027/\nSource URL: https://n
+ euro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf
+ \nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neur
+ al Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmi
+ ssion type: Paper-based / engineering-focused\nConfidence: estimated\nLas
+ t checked date: 2026-10-28\nNotes: The official NER 2027 site (13th editi
+ on) confirms Milan\, Sep 7-10\, 2027\; as of 2026-10-28 its Call for Pape
+ rs link is a placeholder and no deadlines are posted. Both dates are prox
+ ies from the 2025 CFP lead times (6-page paper 168 days\, 1-page abstract
+  106 days before the meeting)\; cutoff hour and zone are unknown. ieee-ne
+ r.org still shows 2023 content.
 URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
  -CFPv.6.pdf
 END:VEVENT
@@ -1567,23 +1855,23 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
  ning & Retrieval\, Computer Vision & Pattern Recognition\, Deep Represent
  ation Learning\, Signal Processing\nSize: XL\nSubmission type: Paper-base
  d / multimedia research\nConfidence: estimated\nLast checked date: 2026-1
- 0-07\nNotes: The steering committee announces Hong Kong for 2027 with dat
- es TBA. Meeting and main-paper timing are annual proxies from 2026\, not 
- official 2027 dates. The location is announced\, but the estimated meetin
- g is excluded from the confirmed-conference map. XL is an editorial size 
- estimate.\nScope: Multimedia understanding\, learning\, generation\, and 
- retrieval across image\, video\, audio\, language\, and other modalities.
-  Characteristic work includes multimodal fusion\, generative and foundati
- on models\, scalable indexing and search\, cross-modal alignment\, and hu
- man-centered multimedia experiences. The 2026 steering-committee scope al
- so emphasizes explainability. Healthcare\, education\, and entertainment 
- are applications\, not blanket topical identities.\nAdditional topics: Ma
- chine Learning\, Natural Language Processing & LLMs\, Human-AI Interactio
- n & Deployment\, Data Mining & Data Science\, Explainability & Interpreta
- bility\nScope sources (2026): https://2026.acmmm.org/site/topics.html\, h
- ttps://2026.acmmm.org/\nScope last checked: 2026-10-07\nOfficial deadline
-  day\; exact cutoff hour/timezone is unannounced. Verify the organizer's 
- submission portal.
+ 0-28\nNotes: As of 2026-10-28 the steering-committee site still lists Hon
+ g Kong for 2027 with dates TBA\, and 2027.acmmm.org is only a placeholder
+ . Meeting and main-paper timing are annual proxies from 2026's day-only i
+ mportant-dates page. The estimated meeting stays off the confirmed-confer
+ ence map. XL is an editorial size estimate.\nScope: Multimedia understand
+ ing\, learning\, generation\, and retrieval across image\, video\, audio\
+ , language\, and other modalities. Characteristic work includes multimoda
+ l fusion\, generative and foundation models\, scalable indexing and searc
+ h\, cross-modal alignment\, and human-centered multimedia experiences. Th
+ e 2026 steering-committee scope also emphasizes explainability. Healthcar
+ e\, education\, and entertainment are applications\, not blanket topical 
+ identities.\nAdditional topics: Machine Learning\, Natural Language Proce
+ ssing & LLMs\, Human-AI Interaction & Deployment\, Data Mining & Data Sci
+ ence\, Explainability & Interpretability\nScope sources (2026): https://2
+ 026.acmmm.org/site/topics.html\, https://2026.acmmm.org/\nScope last chec
+ ked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is un
+ announced. Verify the organizer's submission portal.
 URL:https://2026.acmmm.org/site/important-dates.html
 END:VEVENT
 BEGIN:VEVENT
@@ -1631,23 +1919,23 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
  ning & Retrieval\, Computer Vision & Pattern Recognition\, Deep Represent
  ation Learning\, Signal Processing\nSize: XL\nSubmission type: Paper-base
  d / multimedia research\nConfidence: estimated\nLast checked date: 2026-1
- 0-07\nNotes: The steering committee announces Hong Kong for 2027 with dat
- es TBA. Meeting and main-paper timing are annual proxies from 2026\, not 
- official 2027 dates. The location is announced\, but the estimated meetin
- g is excluded from the confirmed-conference map. XL is an editorial size 
- estimate.\nScope: Multimedia understanding\, learning\, generation\, and 
- retrieval across image\, video\, audio\, language\, and other modalities.
-  Characteristic work includes multimodal fusion\, generative and foundati
- on models\, scalable indexing and search\, cross-modal alignment\, and hu
- man-centered multimedia experiences. The 2026 steering-committee scope al
- so emphasizes explainability. Healthcare\, education\, and entertainment 
- are applications\, not blanket topical identities.\nAdditional topics: Ma
- chine Learning\, Natural Language Processing & LLMs\, Human-AI Interactio
- n & Deployment\, Data Mining & Data Science\, Explainability & Interpreta
- bility\nScope sources (2026): https://2026.acmmm.org/site/topics.html\, h
- ttps://2026.acmmm.org/\nScope last checked: 2026-10-07\nOfficial deadline
-  day\; exact cutoff hour/timezone is unannounced. Verify the organizer's 
- submission portal.
+ 0-28\nNotes: As of 2026-10-28 the steering-committee site still lists Hon
+ g Kong for 2027 with dates TBA\, and 2027.acmmm.org is only a placeholder
+ . Meeting and main-paper timing are annual proxies from 2026's day-only i
+ mportant-dates page. The estimated meeting stays off the confirmed-confer
+ ence map. XL is an editorial size estimate.\nScope: Multimedia understand
+ ing\, learning\, generation\, and retrieval across image\, video\, audio\
+ , language\, and other modalities. Characteristic work includes multimoda
+ l fusion\, generative and foundation models\, scalable indexing and searc
+ h\, cross-modal alignment\, and human-centered multimedia experiences. Th
+ e 2026 steering-committee scope also emphasizes explainability. Healthcar
+ e\, education\, and entertainment are applications\, not blanket topical 
+ identities.\nAdditional topics: Machine Learning\, Natural Language Proce
+ ssing & LLMs\, Human-AI Interaction & Deployment\, Data Mining & Data Sci
+ ence\, Explainability & Interpretability\nScope sources (2026): https://2
+ 026.acmmm.org/site/topics.html\, https://2026.acmmm.org/\nScope last chec
+ ked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is un
+ announced. Verify the organizer's submission portal.
 URL:https://2026.acmmm.org/site/important-dates.html
 END:VEVENT
 BEGIN:VEVENT
@@ -1711,6 +1999,47 @@ DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
 URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcnn-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270413T115900Z
+DTEND:20270413T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCNN 2027 - Camer
+ a-ready submission and registration fee payment (all tracks)
+DESCRIPTION:Conference title: International Joint Conference on Neural Netw
+ orks\nWebsite: https://ijcnn.org/2027\nSource URL: https://ijcnn.org/2027
+ /authors/initial-author-instructions\nLocation: Cape Town\, South Africa\
+ nTopics: Machine Learning\, Deep Representation Learning\, Learning Theor
+ y & Statistical Foundations\, Signal Processing\nSize: XL\nSubmission typ
+ e: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNot
+ es: Official IJCNN 2027 pages (checked 2026-10-28) list Cape Town (CTICC)
+ \, Jun 14-18\, and the Jan 31\, 2027 regular-paper deadline with no cutof
+ f hour (provisional AoE end of day). CMT paper submissions are announced 
+ to open Dec 1\, 2026. Camera-ready and registration payment are due Apr 1
+ 2\, 2027\, 23:59 AoE.
+URL:https://ijcnn.org/2027/authors/initial-author-instructions
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Notification 
+ of acceptance (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/submit-paper/\nLocation: Annecy\, France\nTopics: Signal Processing\, M
+ achine Learning\, Time Series & Sequential Data\, Probabilistic\, Causal 
+ & Uncertainty ML\nSize: M\nSubmission type: Paper-based / specialist work
+ shop\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al SSP 2027 pages confirm the 24th edition at Centre de Congres Imperial\
+ , Annecy\, Jun 28-Jul 1\, 2027. The author page states deadlines are 23:5
+ 9 AoE (UTC-12)\; regular and special-session papers share the Feb 7 deadl
+ ine and one submission system. The Dec 7 proposal cutoff hour is unstated
+ .\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Ver
+ ify the organizer's submission portal.
+URL:https://ssp27.ieeesps.org/submit-paper/
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcb-2027-deadline-supplementary@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270417T115900Z
@@ -1754,9 +2083,13 @@ DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
  ww.esann.org/\nSource URL: https://www.esann.org/\nLocation: Bruges\, Bel
  gium\nTopics: Machine Learning\, Deep Representation Learning\, Learning 
  Theory & Statistical Foundations\, Signal Processing\nSize: M\nSubmission
-  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\
- nNotes: Official ESANN 2027 pages confirm Bruges\, Apr 21-23\, 2027\, and
-  the Nov 18\, 2026 submission deadline.
+  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\
+ nNotes: Official ESANN 2027 pages (checked 2026-10-28) list Bruges and on
+ line (hybrid mode)\, Apr 21-23\, 2027\, and decisions on Jan 22\, 2027. T
+ he call asks for submissions 'before 18.11.2026' with no cutoff hour\, so
+  the last safe day\, Nov 17\, is stored with a provisional end of day in 
+ Bruges time. Special-session papers follow the regular deadline and proce
+ dure.
 URL:https://www.esann.org/
 LOCATION:Bruges\, Belgium
 END:VEVENT
@@ -1779,6 +2112,26 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
   submission portal.
 URL:https://embc.embs.org/2027/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270501T115900Z
+DTEND:20270501T125900Z
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Camera-ready 
+ and author registration deadline
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/submit-paper/\nLocation: Annecy\, France\nTopics: Signal Processing\, M
+ achine Learning\, Time Series & Sequential Data\, Probabilistic\, Causal 
+ & Uncertainty ML\nSize: M\nSubmission type: Paper-based / specialist work
+ shop\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offici
+ al SSP 2027 pages confirm the 24th edition at Centre de Congres Imperial\
+ , Annecy\, Jun 28-Jul 1\, 2027. The author page states deadlines are 23:5
+ 9 AoE (UTC-12)\; regular and special-session papers share the Feb 7 deadl
+ ine and one submission system. The Dec 7 proposal cutoff hour is unstated
+ .
+URL:https://ssp27.ieeesps.org/submit-paper/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-biocas-2027-deadline-abstract@scientific-conference-calendar
@@ -1821,9 +2174,12 @@ DESCRIPTION:Conference title: IEEE International Conference on Acoustics\,
  urce URL: https://2027.ieeeicassp.org/\nLocation: Toronto\, Canada\nTopic
  s: Signal Processing\, Machine Learning\, Time Series & Sequential Data\,
   Computer Vision & Pattern Recognition\nSize: XL\nSubmission type: Paper-
- based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offic
- ial ICASSP 2027 pages list Toronto\, May 16-21\, 2027 conference dates\, 
- and the full paper submission deadline.
+ based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Offic
+ ial ICASSP 2027 pages list Toronto\, May 16-21\, 2027. The CFP/important-
+ dates pages give the paper deadline as Sep 23\, 2026 and the portal (upda
+ ted Sep 21) as 24:00 International Date Line (AoE)\; the paper kit (updat
+ ed Sep 7) and OJSP page still cite Sep 16. Satellite-workshop (shared cal
+ l) and production dates are day-only\; cutoff hours unannounced.
 URL:https://2027.ieeeicassp.org/
 LOCATION:Toronto\, Canada
 END:VEVENT
@@ -1849,17 +2205,20 @@ UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270525T065900Z
 DTEND:20270525T075900Z
-SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - L
- ate-breaking abstract deadline (estimated)
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - E
+ stimated late-breaking 1-page abstract deadline (estimated)
 DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
- Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://neuro.em
- bs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nLocat
- ion: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
- als\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmission t
- ype: Paper-based / engineering-focused\nConfidence: estimated\nLast check
- ed date: 2026-10-06\nNotes: The official IEEE EMBS announcement confirms 
- Milan\, Sep 7-10\, 2027. Submission dates are estimates using the 2025 CF
- P lead times before the meeting\; the 2027 CFP is not yet published.
+ Engineering\nWebsite: https://neuro.embs.org/2027/\nSource URL: https://n
+ euro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf
+ \nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neur
+ al Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmi
+ ssion type: Paper-based / engineering-focused\nConfidence: estimated\nLas
+ t checked date: 2026-10-28\nNotes: The official NER 2027 site (13th editi
+ on) confirms Milan\, Sep 7-10\, 2027\; as of 2026-10-28 its Call for Pape
+ rs link is a placeholder and no deadlines are posted. Both dates are prox
+ ies from the 2025 CFP lead times (6-page paper 168 days\, 1-page abstract
+  106 days before the meeting)\; cutoff hour and zone are unknown. ieee-ne
+ r.org still shows 2023 content.
 URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
  -CFPv.6.pdf
 END:VEVENT
@@ -1933,13 +2292,15 @@ DTEND:20270613T125900Z
 SUMMARY:[Machine Learning][Signal Processing] IEEE MLSP 2027 - Conference p
  aper submission deadline (estimated)
 DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
- ng for Signal Processing\nWebsite: https://signalprocessingsociety.org/ta
- gs/mlsp-2027\nSource URL: https://signalprocessingsociety.org/event-names
- /mlsp\nLocation: Uppsala\, Sweden\nTopics: Machine Learning\, Signal Proc
- essing\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper-b
- ased / workshop-style conference\nConfidence: estimated\nLast checked dat
- e: 2026-10-06\nNotes: IEEE SPS confirms Uppsala\, Sep 13-16. Paper deadli
- ne remains an estimated 2026 timing proxy until the 2027 CFP appears.
+ ng for Signal Processing\nWebsite: https://2027.ieeemlsp.org/\nSource URL
+ : https://signalprocessingsociety.org/event-names/mlsp\nLocation: Uppsala
+ \, Sweden\nTopics: Machine Learning\, Signal Processing\, Time Series & S
+ equential Data\nSize: M\nSubmission type: Paper-based / workshop-style co
+ nference\nConfidence: estimated\nLast checked date: 2026-10-28\nNotes: IE
+ EE SPS and the official 2027.ieeemlsp.org placeholder confirm Uppsala\, S
+ ep 13-16\, 2027. As of 2026-10-28 no 2027 call or deadlines are published
+ \; the June 12 paper deadline is an estimated proxy from MLSP 2026's June
+  12 deadline.
 URL:https://signalprocessingsociety.org/event-names/mlsp
 END:VEVENT
 BEGIN:VEVENT
@@ -1954,8 +2315,11 @@ DESCRIPTION:Conference title: International Joint Conference on Neural Netw
  \nLocation: Cape Town\, South Africa\nTopics: Machine Learning\, Deep Rep
  resentation Learning\, Learning Theory & Statistical Foundations\, Signal
   Processing\nSize: XL\nSubmission type: Paper-based\nConfidence: confirme
- d\nLast checked date: 2026-08-20\nNotes: Official IJCNN 2027 site lists C
- ape Town\, Jun 14-18\, and the regular-paper deadline.
+ d\nLast checked date: 2026-10-28\nNotes: Official IJCNN 2027 pages (check
+ ed 2026-10-28) list Cape Town (CTICC)\, Jun 14-18\, and the Jan 31\, 2027
+  regular-paper deadline with no cutoff hour (provisional AoE end of day).
+  CMT paper submissions are announced to open Dec 1\, 2026. Camera-ready a
+ nd registration payment are due Apr 12\, 2027\, 23:59 AoE.
 URL:https://ijcnn.org/2027
 LOCATION:Cape Town\, South Africa
 END:VEVENT
@@ -1972,21 +2336,21 @@ DESCRIPTION:Conference title: European Conference on Visual Information Pro
  omputer Vision & Pattern Recognition\, Machine Learning\, Deep Representa
  tion Learning\nSize: S\nSubmission type: Paper-based / visual information
   processing\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes:
-  No organizer-confirmed 2027 edition was found. Meeting and paper timing 
- are annual planning proxies from 2026's final extended deadline. The next
-  first deadline may be earlier\; do not treat a prior extension as guaran
- teed. Website and timezone belong to the previous edition\; location is u
- nannounced.\nScope: Visual information processing across image\, video\, 
- 3D\, and unconventional sensing modalities. Its defining areas are comput
- ational imaging\, restoration and enhancement\, coding\, recognition\, mu
- ltimodal fusion\, and subjective/objective quality assessment. Rendering 
- and visualizing data\, human/biometric analysis\, and robust evaluation a
- re recurring strands. An extensive applications list is not treated as eq
- ual coverage of every application domain or every responsible-AI subtopic
- .\nAdditional topics: Multimedia Learning & Retrieval\, Computer Graphics
-  & Visualization\, Biometrics & Human Sensing\, Robustness & Safety\nScop
- e sources (2026): https://euvip2026.github.io/C4P.pdf\, https://euvip2026
- .github.io/calls/\nScope last checked: 2026-10-07
+  No organizer-confirmed 2027 edition\; 2026-10-28 review found no success
+ or on the EUVIP 2026 site or programme. Meeting and paper timing are annu
+ al proxies from 2026's final extended deadline\; the first 2027 deadline 
+ may be earlier. Website and timezone belong to the 2026 edition\; locatio
+ n is unannounced.\nScope: Visual information processing across image\, vi
+ deo\, 3D\, and unconventional sensing modalities. Its defining areas are 
+ computational imaging\, restoration and enhancement\, coding\, recognitio
+ n\, multimodal fusion\, and subjective/objective quality assessment. Rend
+ ering and visualizing data\, human/biometric analysis\, and robust evalua
+ tion are recurring strands. An extensive applications list is not treated
+  as equal coverage of every application domain or every responsible-AI su
+ btopic.\nAdditional topics: Multimedia Learning & Retrieval\, Computer Gr
+ aphics & Visualization\, Biometrics & Human Sensing\, Robustness & Safety
+ \nScope sources (2026): https://euvip2026.github.io/C4P.pdf\, https://euv
+ ip2026.github.io/calls/\nScope last checked: 2026-10-07
 URL:https://euvip2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
@@ -2000,9 +2364,11 @@ DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
  g/\nLocation: Annecy\, France\nTopics: Signal Processing\, Machine Learni
  ng\, Time Series & Sequential Data\, Probabilistic\, Causal & Uncertainty
   ML\nSize: M\nSubmission type: Paper-based / specialist workshop\nConfide
- nce: confirmed\nLast checked date: 2026-08-31\nNotes: Official IEEE SSP 2
- 027 pages confirm Annecy\, Jun 28-Jul 1\, 2027\, and the Feb 7 paper-subm
- ission deadline.
+ nce: confirmed\nLast checked date: 2026-10-28\nNotes: Official SSP 2027 p
+ ages confirm the 24th edition at Centre de Congres Imperial\, Annecy\, Ju
+ n 28-Jul 1\, 2027. The author page states deadlines are 23:59 AoE (UTC-12
+ )\; regular and special-session papers share the Feb 7 deadline and one s
+ ubmission system. The Dec 7 proposal cutoff hour is unstated.
 URL:https://ssp27.ieeesps.org/
 LOCATION:Annecy\, France
 END:VEVENT
@@ -2112,15 +2478,17 @@ DTEND;VALUE=DATE:20270911
 SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - C
  onference
 DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
- Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
- .org/\nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG &
-  Neural Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\n
- Submission type: Paper-based / engineering-focused\nConfidence: confirmed
- \nLast checked date: 2026-10-06\nNotes: The official IEEE EMBS announceme
- nt confirms Milan\, Sep 7-10\, 2027. Submission dates are estimates using
-  the 2025 CFP lead times before the meeting\; the 2027 CFP is not yet pub
- lished.
-URL:https://ieee-ner.org/
+ Engineering\nWebsite: https://neuro.embs.org/2027/\nSource URL: https://n
+ euro.embs.org/2027/\nLocation: Milan\, Italy\nTopics: BCI & Neurotechnolo
+ gy\, EEG/MEG & Neural Signals\, Signal Processing\, Healthcare & Clinical
+  AI\nSize: M\nSubmission type: Paper-based / engineering-focused\nConfide
+ nce: confirmed\nLast checked date: 2026-10-28\nNotes: The official NER 20
+ 27 site (13th edition) confirms Milan\, Sep 7-10\, 2027\; as of 2026-10-2
+ 8 its Call for Papers link is a placeholder and no deadlines are posted. 
+ Both dates are proxies from the 2025 CFP lead times (6-page paper 168 day
+ s\, 1-page abstract 106 days before the meeting)\; cutoff hour and zone a
+ re unknown. ieee-ner.org still shows 2023 content.
+URL:https://neuro.embs.org/2027/
 LOCATION:Milan\, Italy
 END:VEVENT
 BEGIN:VEVENT
@@ -2130,14 +2498,15 @@ DTSTART;VALUE=DATE:20270913
 DTEND;VALUE=DATE:20270917
 SUMMARY:[Machine Learning][Signal Processing] IEEE MLSP 2027 - Conference
 DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
- ng for Signal Processing\nWebsite: https://signalprocessingsociety.org/ta
- gs/mlsp-2027\nSource URL: https://signalprocessingsociety.org/tags/mlsp-2
- 027\nLocation: Uppsala\, Sweden\nTopics: Machine Learning\, Signal Proces
- sing\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper-bas
- ed / workshop-style conference\nConfidence: confirmed\nLast checked date:
-  2026-10-06\nNotes: IEEE SPS confirms Uppsala\, Sep 13-16. Paper deadline
-  remains an estimated 2026 timing proxy until the 2027 CFP appears.
-URL:https://signalprocessingsociety.org/tags/mlsp-2027
+ ng for Signal Processing\nWebsite: https://2027.ieeemlsp.org/\nSource URL
+ : https://2027.ieeemlsp.org/\nLocation: Uppsala\, Sweden\nTopics: Machine
+  Learning\, Signal Processing\, Time Series & Sequential Data\nSize: M\nS
+ ubmission type: Paper-based / workshop-style conference\nConfidence: conf
+ irmed\nLast checked date: 2026-10-28\nNotes: IEEE SPS and the official 20
+ 27.ieeemlsp.org placeholder confirm Uppsala\, Sep 13-16\, 2027. As of 202
+ 6-10-28 no 2027 call or deadlines are published\; the June 12 paper deadl
+ ine is an estimated proxy from MLSP 2026's June 12 deadline.
+URL:https://2027.ieeemlsp.org/
 LOCATION:Uppsala\, Sweden
 END:VEVENT
 BEGIN:VEVENT
@@ -2187,7 +2556,9 @@ DESCRIPTION:Conference title: International Conference on Artificial Neural
  sing\nSize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast 
  checked date: 2026-10-06\nNotes: Provisional 1-year cadence projection fr
  om ICANN 2026. Meeting dates\, location\, and deadlines require organizer
-  confirmation\; website and source links refer to the prior edition.
+  confirmation\; website and source links refer to the prior edition. 2026
+ -10-28 review - ENNS home\, news and ICANNs pages show no ICANN 2027 anno
+ uncement yet\; dates unchanged.
 URL:https://e-nns.org/icann2026/
 LOCATION:To be announced
 END:VEVENT
@@ -2204,21 +2575,21 @@ DESCRIPTION:Conference title: European Conference on Visual Information Pro
  omputer Vision & Pattern Recognition\, Machine Learning\, Deep Representa
  tion Learning\nSize: S\nSubmission type: Paper-based / visual information
   processing\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes:
-  No organizer-confirmed 2027 edition was found. Meeting and paper timing 
- are annual planning proxies from 2026's final extended deadline. The next
-  first deadline may be earlier\; do not treat a prior extension as guaran
- teed. Website and timezone belong to the previous edition\; location is u
- nannounced.\nScope: Visual information processing across image\, video\, 
- 3D\, and unconventional sensing modalities. Its defining areas are comput
- ational imaging\, restoration and enhancement\, coding\, recognition\, mu
- ltimodal fusion\, and subjective/objective quality assessment. Rendering 
- and visualizing data\, human/biometric analysis\, and robust evaluation a
- re recurring strands. An extensive applications list is not treated as eq
- ual coverage of every application domain or every responsible-AI subtopic
- .\nAdditional topics: Multimedia Learning & Retrieval\, Computer Graphics
-  & Visualization\, Biometrics & Human Sensing\, Robustness & Safety\nScop
- e sources (2026): https://euvip2026.github.io/C4P.pdf\, https://euvip2026
- .github.io/calls/\nScope last checked: 2026-10-07
+  No organizer-confirmed 2027 edition\; 2026-10-28 review found no success
+ or on the EUVIP 2026 site or programme. Meeting and paper timing are annu
+ al proxies from 2026's final extended deadline\; the first 2027 deadline 
+ may be earlier. Website and timezone belong to the 2026 edition\; locatio
+ n is unannounced.\nScope: Visual information processing across image\, vi
+ deo\, 3D\, and unconventional sensing modalities. Its defining areas are 
+ computational imaging\, restoration and enhancement\, coding\, recognitio
+ n\, multimodal fusion\, and subjective/objective quality assessment. Rend
+ ering and visualizing data\, human/biometric analysis\, and robust evalua
+ tion are recurring strands. An extensive applications list is not treated
+  as equal coverage of every application domain or every responsible-AI su
+ btopic.\nAdditional topics: Multimedia Learning & Retrieval\, Computer Gr
+ aphics & Visualization\, Biometrics & Human Sensing\, Robustness & Safety
+ \nScope sources (2026): https://euvip2026.github.io/C4P.pdf\, https://euv
+ ip2026.github.io/calls/\nScope last checked: 2026-10-07
 URL:https://euvip2026.github.io/
 LOCATION:To be announced
 END:VEVENT
@@ -2263,18 +2634,19 @@ DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
  ec2026.info/third-call-for-papers/\nLocation: To be announced\nTopics: Na
  tural Language Processing & LLMs\, Data Mining & Data Science\, Signal Pr
  ocessing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\n
- Last checked date: 2026-10-07\nNotes: ELRA explicitly organizes LREC bien
- nially and is soliciting 2028/2030 hosts. Exact 2028 meeting and submissi
- on dates are two-year proxies from 2026\, not an invented annual 2027 edi
- tion. Size is an editorial estimate.\nScope: Language resources\, annotat
- ion\, corpora and datasets\, speech and multimodal resources\, benchmarki
- ng\, and evaluation for human-language technologies. Contributions often 
- create or analyze reusable resources and methods for linguistic coverage 
- and reliable assessment. The breadth of language applications is summariz
- ed without treating every domain as a defining topic.\nAdditional topics:
-  Multimedia Learning & Retrieval\, Fairness & Responsible AI\nScope sourc
- es (2026): https://lrec2026.info/third-call-for-papers/\nScope last check
- ed: 2026-10-07
+ Last checked date: 2026-10-28\nNotes: ELRA organizes LREC biennially. As 
+ of 2026-10-28 its LREC page names no 2028 host or dates\; its call for ex
+ pressions of interest to host 2028/2030 had a 22 June 2026 deadline. Meet
+ ing and submission dates are two-year proxies from 2026\, not an invented
+  annual 2027 edition. Size is an editorial estimate.\nScope: Language res
+ ources\, annotation\, corpora and datasets\, speech and multimodal resour
+ ces\, benchmarking\, and evaluation for human-language technologies. Cont
+ ributions often create or analyze reusable resources and methods for ling
+ uistic coverage and reliable assessment. The breadth of language applicat
+ ions is summarized without treating every domain as a defining topic.\nAd
+ ditional topics: Multimedia Learning & Retrieval\, Fairness & Responsible
+  AI\nScope sources (2026): https://lrec2026.info/third-call-for-papers/\n
+ Scope last checked: 2026-10-07
 URL:https://lrec2026.info/third-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -2289,22 +2661,22 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
  ion: Hong Kong\, China\nTopics: Multimedia Learning & Retrieval\, Compute
  r Vision & Pattern Recognition\, Deep Representation Learning\, Signal Pr
  ocessing\nSize: XL\nSubmission type: Paper-based / multimedia research\nC
- onfidence: estimated\nLast checked date: 2026-10-07\nNotes: The steering 
- committee announces Hong Kong for 2027 with dates TBA. Meeting and main-p
- aper timing are annual proxies from 2026\, not official 2027 dates. The l
- ocation is announced\, but the estimated meeting is excluded from the con
- firmed-conference map. XL is an editorial size estimate.\nScope: Multimed
- ia understanding\, learning\, generation\, and retrieval across image\, v
- ideo\, audio\, language\, and other modalities. Characteristic work inclu
- des multimodal fusion\, generative and foundation models\, scalable index
- ing and search\, cross-modal alignment\, and human-centered multimedia ex
- periences. The 2026 steering-committee scope also emphasizes explainabili
- ty. Healthcare\, education\, and entertainment are applications\, not bla
- nket topical identities.\nAdditional topics: Machine Learning\, Natural L
- anguage Processing & LLMs\, Human-AI Interaction & Deployment\, Data Mini
- ng & Data Science\, Explainability & Interpretability\nScope sources (202
- 6): https://2026.acmmm.org/site/topics.html\, https://2026.acmmm.org/\nSc
- ope last checked: 2026-10-07
+ onfidence: estimated\nLast checked date: 2026-10-28\nNotes: As of 2026-10
+ -28 the steering-committee site still lists Hong Kong for 2027 with dates
+  TBA\, and 2027.acmmm.org is only a placeholder. Meeting and main-paper t
+ iming are annual proxies from 2026's day-only important-dates page. The e
+ stimated meeting stays off the confirmed-conference map. XL is an editori
+ al size estimate.\nScope: Multimedia understanding\, learning\, generatio
+ n\, and retrieval across image\, video\, audio\, language\, and other mod
+ alities. Characteristic work includes multimodal fusion\, generative and 
+ foundation models\, scalable indexing and search\, cross-modal alignment\
+ , and human-centered multimedia experiences. The 2026 steering-committee 
+ scope also emphasizes explainability. Healthcare\, education\, and entert
+ ainment are applications\, not blanket topical identities.\nAdditional to
+ pics: Machine Learning\, Natural Language Processing & LLMs\, Human-AI In
+ teraction & Deployment\, Data Mining & Data Science\, Explainability & In
+ terpretability\nScope sources (2026): https://2026.acmmm.org/site/topics.
+ html\, https://2026.acmmm.org/\nScope last checked: 2026-10-07
 URL:https://www.acmmm.org/
 LOCATION:Hong Kong\, China
 END:VEVENT
@@ -2342,16 +2714,19 @@ DTSTAMP:19700101T000000Z
 DTSTART:20280501T115900Z
 DTEND:20280501T125900Z
 SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
- 8 - Abstract submission deadline (estimated)
+ 8 - Estimated abstract submission deadline (estimated)
 DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  site: https://mm.scimeeting.cn/en/web/index/31426\nSource URL: https://mm
  .scimeeting.cn/en/web/index/31426\nLocation: To be announced\nTopics: EEG
  /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
  oscience\, Signal Processing\nSize: M\nSubmission type: Abstract-based / 
  specialist venue\nConfidence: estimated\nLast checked date: 2026-10-06\nN
- otes: Provisional 2-year cadence projection from BIOMAG 2026. Meeting dat
- es\, location\, and deadlines require organizer confirmation\; website an
- d source links refer to the prior edition.
+ otes: Provisional 2-year cadence projection from BIOMAG 2026\; dates\, ve
+ nue and deadline await an official 2028 site\, and links refer to the pri
+ or edition. An archived BIOMAG 2024 page names the winning 2028 bid (Univ
+ . G. d'Annunzio Chieti-Pescara\, Montesilvano Marina\, Pescara\, Italy). 
+ On 2026-10-28 no live 2028 page was found and biomag2024.org redirected t
+ o an unrelated site\; dates unchanged.
 URL:https://mm.scimeeting.cn/en/web/index/31426
 END:VEVENT
 BEGIN:VEVENT
@@ -2366,18 +2741,19 @@ DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
  w.elra.info/elra-events/lrec/\nLocation: To be announced\nTopics: Natural
   Language Processing & LLMs\, Data Mining & Data Science\, Signal Process
  ing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast 
- checked date: 2026-10-07\nNotes: ELRA explicitly organizes LREC bienniall
- y and is soliciting 2028/2030 hosts. Exact 2028 meeting and submission da
- tes are two-year proxies from 2026\, not an invented annual 2027 edition.
-  Size is an editorial estimate.\nScope: Language resources\, annotation\,
-  corpora and datasets\, speech and multimodal resources\, benchmarking\, 
- and evaluation for human-language technologies. Contributions often creat
- e or analyze reusable resources and methods for linguistic coverage and r
- eliable assessment. The breadth of language applications is summarized wi
- thout treating every domain as a defining topic.\nAdditional topics: Mult
- imedia Learning & Retrieval\, Fairness & Responsible AI\nScope sources (2
- 026): https://lrec2026.info/third-call-for-papers/\nScope last checked: 2
- 026-10-07
+ checked date: 2026-10-28\nNotes: ELRA organizes LREC biennially. As of 20
+ 26-10-28 its LREC page names no 2028 host or dates\; its call for express
+ ions of interest to host 2028/2030 had a 22 June 2026 deadline. Meeting a
+ nd submission dates are two-year proxies from 2026\, not an invented annu
+ al 2027 edition. Size is an editorial estimate.\nScope: Language resource
+ s\, annotation\, corpora and datasets\, speech and multimodal resources\,
+  benchmarking\, and evaluation for human-language technologies. Contribut
+ ions often create or analyze reusable resources and methods for linguisti
+ c coverage and reliable assessment. The breadth of language applications 
+ is summarized without treating every domain as a defining topic.\nAdditio
+ nal topics: Multimedia Learning & Retrieval\, Fairness & Responsible AI\n
+ Scope sources (2026): https://lrec2026.info/third-call-for-papers/\nScope
+  last checked: 2026-10-07
 URL:https://www.elra.info/elra-events/lrec/
 LOCATION:To be announced
 END:VEVENT
@@ -2394,9 +2770,12 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
  oscience\, Signal Processing\nSize: M\nSubmission type: Abstract-based / 
  specialist venue\nConfidence: estimated\nLast checked date: 2026-10-06\nN
- otes: Provisional 2-year cadence projection from BIOMAG 2026. Meeting dat
- es\, location\, and deadlines require organizer confirmation\; website an
- d source links refer to the prior edition.
+ otes: Provisional 2-year cadence projection from BIOMAG 2026\; dates\, ve
+ nue and deadline await an official 2028 site\, and links refer to the pri
+ or edition. An archived BIOMAG 2024 page names the winning 2028 bid (Univ
+ . G. d'Annunzio Chieti-Pescara\, Montesilvano Marina\, Pescara\, Italy). 
+ On 2026-10-28 no live 2028 page was found and biomag2024.org redirected t
+ o an unrelated site\; dates unchanged.
 URL:https://mm.scimeeting.cn/en/web/index/31426
 LOCATION:To be announced
 END:VEVENT

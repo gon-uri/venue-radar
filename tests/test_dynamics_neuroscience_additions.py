@@ -30,7 +30,7 @@ class DynamicsNeuroscienceAdditionTests(unittest.TestCase):
         self.assertEqual(len(self.records), 22)
         scopes = load_scopes()
         for c in self.records.values():
-            self.assertEqual(c['last_checked'], '2026-10-08')
+            self.assertGreaterEqual(c['last_checked'], '2026-10-08')
             self.assertTrue(c['source_urls'])
             self.assertLessEqual(len(c['topics']), 4)
             self.assertTrue(all(d['source_url'] for d in c['deadlines']))
@@ -77,11 +77,11 @@ class DynamicsNeuroscienceAdditionTests(unittest.TestCase):
         self.assertEqual(bio['datetime'][:10], '2027-05-07')
 
     def test_confirmed_meetings_do_not_confirm_proxy_deadlines(self):
-        for key in ['alife-2027', 'bci-winter-2027', 'sfn-neuroscience-2027']:
+        for key in ['alife-2027', 'areadne-2028', 'sfn-neuroscience-2027']:
             c = self.records[key]
             self.assertEqual(c['confidence'], 'confirmed')
             self.assertTrue(all(d['confidence'] == 'estimated' for d in c['deadlines']))
-        for key in ['areadne-2028', 'sab-2028', 'dynamics-days-europe-2027', 'iccn-2026']:
+        for key in ['sab-2028', 'dynamics-days-europe-2027', 'iccn-2026']:
             self.assertEqual(self.records[key]['confidence'], 'estimated')
         self.assertFalse(self.records['iccn-2026']['deadlines'])
         self.assertIn('October 27-30', self.records['iccn-2026']['notes'])
@@ -108,7 +108,8 @@ class DynamicsNeuroscienceAdditionTests(unittest.TestCase):
         self.assertEqual(mapped['complenet-2027'], 'rochester-new-york')
         self.assertEqual(mapped['dynamics-days-us-2027'], 'san-diego')
         self.assertNotIn('iccn-2026', mapped)
-        self.assertNotIn('areadne-2028', mapped)
+        self.assertEqual(mapped['areadne-2028'], 'milos')
+        self.assertNotIn('sab-2028', mapped)
         us = self.records['dynamics-days-us-2027']
         self.assertEqual(us['conference_start'], '2027-01-04')
         self.assertEqual(us['deadlines'][0]['datetime'][:10], '2026-11-22')

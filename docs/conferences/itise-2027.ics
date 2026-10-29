@@ -5,25 +5,70 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ITISE 2027 Calendar
 BEGIN:VEVENT
-UID:itise-2027-deadline-abstract@scientific-conference-calendar
+UID:itise-2027-deadline-special-session-proposal@scientific-conference-cale
+ ndar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
-SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Pape
- r or abstract submission deadline (estimated) (cutoff time unannounced)
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Spec
+ ial session proposal deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: International Conference on Time Series and F
  orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
  /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
  ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
  Learning Theory & Statistical Foundations\nSize: M\nSubmission type: Pape
- r-based / forecasting-focused\nConfidence: estimated\nLast checked date: 
- 2026-10-06\nNotes: Official ITISE 2027 page lists Gran Canaria\, Jul 14-1
- 6\, and Jan 15 paper/abstract submission. Its timeline is explicitly prov
- isional in the source and deadlines may be extended. The cutoff hour/time
- zone is unannounced\; 23:59 Canary time is only a calendar proxy. Retain 
- estimated confidence pending a finalized CFP.\nOfficial deadline day\; ex
- act cutoff hour/timezone is unannounced. Verify the organizer's submissio
- n portal.
+ r-based / forecasting-focused\nConfidence: confirmed\nLast checked date: 
+ 2026-10-28\nNotes: Official ITISE 2027 page lists the 13th edition at Hot
+ el Lopesan Villa del Conde\, Meloneras\, Gran Canaria\, Jul 14-16\, with 
+ Jan 15 paper/abstract submission and states deadlines can be extended. Cu
+ toff hour/timezone is unannounced\; 23:59 Canary time (UTC+0) is a calend
+ ar proxy. EasyChair accepted new submissions on 2026-10-28.\nOfficial dea
+ dline day\; exact cutoff hour/timezone is unannounced. Verify the organiz
+ er's submission portal.
+URL:https://itise.ugr.es/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:itise-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Pape
+ r or abstract submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Time Series and F
+ orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
+ /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
+ ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
+ Learning Theory & Statistical Foundations\nSize: M\nSubmission type: Pape
+ r-based / forecasting-focused\nConfidence: confirmed\nLast checked date: 
+ 2026-10-28\nNotes: Official ITISE 2027 page lists the 13th edition at Hot
+ el Lopesan Villa del Conde\, Meloneras\, Gran Canaria\, Jul 14-16\, with 
+ Jan 15 paper/abstract submission and states deadlines can be extended. Cu
+ toff hour/timezone is unannounced\; 23:59 Canary time (UTC+0) is a calend
+ ar proxy. EasyChair accepted new submissions on 2026-10-28.\nOfficial dea
+ dline day\; exact cutoff hour/timezone is unannounced. Verify the organiz
+ er's submission portal.
+URL:https://itise.ugr.es/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:itise-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Noti
+ fication of provisional acceptance (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Time Series and F
+ orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
+ /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
+ ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
+ Learning Theory & Statistical Foundations\nSize: M\nSubmission type: Pape
+ r-based / forecasting-focused\nConfidence: confirmed\nLast checked date: 
+ 2026-10-28\nNotes: Official ITISE 2027 page lists the 13th edition at Hot
+ el Lopesan Villa del Conde\, Meloneras\, Gran Canaria\, Jul 14-16\, with 
+ Jan 15 paper/abstract submission and states deadlines can be extended. Cu
+ toff hour/timezone is unannounced\; 23:59 Canary time (UTC+0) is a calend
+ ar proxy. EasyChair accepted new submissions on 2026-10-28.\nOfficial dea
+ dline day\; exact cutoff hour/timezone is unannounced. Verify the organiz
+ er's submission portal.
 URL:https://itise.ugr.es/index.html
 END:VEVENT
 BEGIN:VEVENT
@@ -32,18 +77,18 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Conf
- erence (estimated)
+ erence
 DESCRIPTION:Conference title: International Conference on Time Series and F
  orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
  /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
  ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
  Learning Theory & Statistical Foundations\nSize: M\nSubmission type: Pape
- r-based / forecasting-focused\nConfidence: estimated\nLast checked date: 
- 2026-10-06\nNotes: Official ITISE 2027 page lists Gran Canaria\, Jul 14-1
- 6\, and Jan 15 paper/abstract submission. Its timeline is explicitly prov
- isional in the source and deadlines may be extended. The cutoff hour/time
- zone is unannounced\; 23:59 Canary time is only a calendar proxy. Retain 
- estimated confidence pending a finalized CFP.
+ r-based / forecasting-focused\nConfidence: confirmed\nLast checked date: 
+ 2026-10-28\nNotes: Official ITISE 2027 page lists the 13th edition at Hot
+ el Lopesan Villa del Conde\, Meloneras\, Gran Canaria\, Jul 14-16\, with 
+ Jan 15 paper/abstract submission and states deadlines can be extended. Cu
+ toff hour/timezone is unannounced\; 23:59 Canary time (UTC+0) is a calend
+ ar proxy. EasyChair accepted new submissions on 2026-10-28.
 URL:https://itise.ugr.es/index.html
 LOCATION:Gran Canaria\, Spain
 END:VEVENT

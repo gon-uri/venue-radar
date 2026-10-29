@@ -5,21 +5,84 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ADMA 2026 Calendar
 BEGIN:VEVENT
-UID:adma-2026-deadline-full-paper@scientific-conference-calendar
+UID:adma-2026-deadline-regular-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260731T155900Z
-DTEND:20260731T165900Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Industry
-  and special-session paper deadline
+DTSTART:20260718T115900Z
+DTEND:20260718T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Main tra
+ ck paper deadline (extended)
 DESCRIPTION:Conference title: International Conference on Advanced Data Min
  ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
- ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
- ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
- xplainability & Interpretability\nSize: M\nSubmission type: Paper-based /
-  special sessions\nConfidence: confirmed\nLast checked date: 2026-08-20\n
- Notes: Official ADMA 2026 page lists Hong Kong\, Nov 13-15\, and the exte
- nded industry/special-session deadline.
-URL:https://adma2026.github.io/
+ ttps://adma2026.github.io/important_date.html\nLocation: Hong Kong\, Chin
+ a\nTopics: Data Mining & Data Science\, Machine Learning\, Time Series & 
+ Sequential Data\, Explainability & Interpretability\nSize: M\nSubmission 
+ type: Paper-based / special sessions\nConfidence: confirmed\nLast checked
+  date: 2026-10-28\nNotes: Official ADMA 2026 site confirms Hong Kong (Reg
+ al Riverside Hotel\, Sha Tin)\, Nov 13-15\, 2026. Its dates page gives al
+ l deadlines in AoE: main track Jul 17\, industry/special-session papers J
+ ul 31 (both extended)\, short papers Aug 7\, posters Sep 11. The earlier 
+ +08:00 cutoff was corrected to AoE.
+URL:https://adma2026.github.io/important_date.html
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260801T115900Z
+DTEND:20260801T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Industry
+  and special-session paper deadline (extended)
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
+ ttps://adma2026.github.io/important_date.html\nLocation: Hong Kong\, Chin
+ a\nTopics: Data Mining & Data Science\, Machine Learning\, Time Series & 
+ Sequential Data\, Explainability & Interpretability\nSize: M\nSubmission 
+ type: Paper-based / special sessions\nConfidence: confirmed\nLast checked
+  date: 2026-10-28\nNotes: Official ADMA 2026 site confirms Hong Kong (Reg
+ al Riverside Hotel\, Sha Tin)\, Nov 13-15\, 2026. Its dates page gives al
+ l deadlines in AoE: main track Jul 17\, industry/special-session papers J
+ ul 31 (both extended)\, short papers Aug 7\, posters Sep 11. The earlier 
+ +08:00 cutoff was corrected to AoE.
+URL:https://adma2026.github.io/important_date.html
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260808T115900Z
+DTEND:20260808T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Short pa
+ per deadline
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
+ ttps://adma2026.github.io/important_date.html\nLocation: Hong Kong\, Chin
+ a\nTopics: Data Mining & Data Science\, Machine Learning\, Time Series & 
+ Sequential Data\, Explainability & Interpretability\nSize: M\nSubmission 
+ type: Paper-based / special sessions\nConfidence: confirmed\nLast checked
+  date: 2026-10-28\nNotes: Official ADMA 2026 site confirms Hong Kong (Reg
+ al Riverside Hotel\, Sha Tin)\, Nov 13-15\, 2026. Its dates page gives al
+ l deadlines in AoE: main track Jul 17\, industry/special-session papers J
+ ul 31 (both extended)\, short papers Aug 7\, posters Sep 11. The earlier 
+ +08:00 cutoff was corrected to AoE.
+URL:https://adma2026.github.io/important_date.html
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260912T115900Z
+DTEND:20260912T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Poster p
+ aper deadline
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
+ ttps://adma2026.github.io/important_date.html\nLocation: Hong Kong\, Chin
+ a\nTopics: Data Mining & Data Science\, Machine Learning\, Time Series & 
+ Sequential Data\, Explainability & Interpretability\nSize: M\nSubmission 
+ type: Paper-based / special sessions\nConfidence: confirmed\nLast checked
+  date: 2026-10-28\nNotes: Official ADMA 2026 site confirms Hong Kong (Reg
+ al Riverside Hotel\, Sha Tin)\, Nov 13-15\, 2026. Its dates page gives al
+ l deadlines in AoE: main track Jul 17\, industry/special-session papers J
+ ul 31 (both extended)\, short papers Aug 7\, posters Sep 11. The earlier 
+ +08:00 cutoff was corrected to AoE.
+URL:https://adma2026.github.io/important_date.html
 END:VEVENT
 BEGIN:VEVENT
 UID:adma-2026-conference@scientific-conference-calendar
@@ -33,9 +96,12 @@ DESCRIPTION:Conference title: International Conference on Advanced Data Min
  ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
  ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
  xplainability & Interpretability\nSize: M\nSubmission type: Paper-based /
-  special sessions\nConfidence: confirmed\nLast checked date: 2026-08-20\n
- Notes: Official ADMA 2026 page lists Hong Kong\, Nov 13-15\, and the exte
- nded industry/special-session deadline.
+  special sessions\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ Notes: Official ADMA 2026 site confirms Hong Kong (Regal Riverside Hotel\
+ , Sha Tin)\, Nov 13-15\, 2026. Its dates page gives all deadlines in AoE:
+  main track Jul 17\, industry/special-session papers Jul 31 (both extende
+ d)\, short papers Aug 7\, posters Sep 11. The earlier +08:00 cutoff was c
+ orrected to AoE.
 URL:https://adma2026.github.io/
 LOCATION:Hong Kong\, China
 END:VEVENT

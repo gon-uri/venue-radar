@@ -288,19 +288,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bigdata-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260822T065900Z
-DTEND:20260822T075900Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
 SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
- Full paper submission deadline
+ Full paper submission deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
  bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
  eee.org/BigData2026/important-dates/\nLocation: Phoenix\, Arizona\, USA\n
  Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
  uential Data\, Federated & Distributed Learning\nSize: L\nSubmission type
  : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
- 026-09-14\nNotes: Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 1
- 4-17\, the Aug 21 full-paper deadline\, and the Nov 14 camera-ready deadl
- ine.
+ 026-10-28\nNotes: Official IEEE BigData 2026 pages confirm Phoenix (Shera
+ ton Phoenix Downtown)\, Dec 14-17\, the Aug 21 full-paper and Nov 14 came
+ ra-ready deadlines. No cutoff hour or timezone is published\, so times ar
+ e provisional end-of-day AoE. Special-session calls set their own deadlin
+ es (Aug 29-Oct 15\, 2026 in the calls reviewed).\nOfficial deadline day\;
+  exact cutoff hour/timezone is unannounced. Verify the organizer's submis
+ sion portal.
 URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -334,19 +338,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bigdata-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261115T065900Z
-DTEND:20261115T075900Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
- Camera-ready deadline
+ Camera-ready deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
  bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
  eee.org/BigData2026/important-dates/\nLocation: Phoenix\, Arizona\, USA\n
  Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
  uential Data\, Federated & Distributed Learning\nSize: L\nSubmission type
  : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
- 026-09-14\nNotes: Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 1
- 4-17\, the Aug 21 full-paper deadline\, and the Nov 14 camera-ready deadl
- ine.
+ 026-10-28\nNotes: Official IEEE BigData 2026 pages confirm Phoenix (Shera
+ ton Phoenix Downtown)\, Dec 14-17\, the Aug 21 full-paper and Nov 14 came
+ ra-ready deadlines. No cutoff hour or timezone is published\, so times ar
+ e provisional end-of-day AoE. Special-session calls set their own deadlin
+ es (Aug 29-Oct 15\, 2026 in the calls reviewed).\nOfficial deadline day\;
+  exact cutoff hour/timezone is unannounced. Verify the organizer's submis
+ sion portal.
 URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -413,9 +421,12 @@ DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
  eee.org/BigData2026/\nLocation: Phoenix\, Arizona\, USA\nTopics: Data Min
  ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, F
  ederated & Distributed Learning\nSize: L\nSubmission type: Paper-based / 
- mixed tracks\nConfidence: confirmed\nLast checked date: 2026-09-14\nNotes
- : Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 14-17\, the Aug 2
- 1 full-paper deadline\, and the Nov 14 camera-ready deadline.
+ mixed tracks\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes
+ : Official IEEE BigData 2026 pages confirm Phoenix (Sheraton Phoenix Down
+ town)\, Dec 14-17\, the Aug 21 full-paper and Nov 14 camera-ready deadlin
+ es. No cutoff hour or timezone is published\, so times are provisional en
+ d-of-day AoE. Special-session calls set their own deadlines (Aug 29-Oct 1
+ 5\, 2026 in the calls reviewed).
 URL:https://bigdataieee.org/BigData2026/
 LOCATION:Phoenix\, Arizona\, USA
 END:VEVENT
@@ -432,18 +443,19 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
  ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
   XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
- t has not published dates or deadlines. Dates use the 2026 edition as an 
- annual-cadence proxy.\nScope: Methodological and theoretical machine lear
- ning\, including supervised and unsupervised learning\, deep generative m
- odels\, optimization\, statistical learning theory\, Bayesian methods\, a
- nd reinforcement learning. Scalable systems and trustworthy learning are 
- established parts of the scope\; application papers should offer contribu
- tions of wider interest to ML.\nAdditional topics: Probabilistic\, Causal
-  & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpretab
- ility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & D
- istributed Learning\nScope sources (2026): https://icml.cc/Conferences/20
- 26/CallForPapers\nScope last checked: 2026-10-07
+ ate: 2026-10-28\nNotes: As of 2026-10-28 ICML's Future Meetings page list
+ s 2027 only as South America\; no 2027 site\, host city\, dates or call h
+ as been published (icml.cc/Conferences/2027 returns 404). Dates are annua
+ l-cadence proxies from the 2026 edition.\nScope: Methodological and theor
+ etical machine learning\, including supervised and unsupervised learning\
+ , deep generative models\, optimization\, statistical learning theory\, B
+ ayesian methods\, and reinforcement learning. Scalable systems and trustw
+ orthy learning are established parts of the scope\; application papers sh
+ ould offer contributions of wider interest to ML.\nAdditional topics: Pro
+ babilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Explainab
+ ility & Interpretability\, Robustness & Safety\, ML Systems & Infrastruct
+ ure\, Federated & Distributed Learning\nScope sources (2026): https://icm
+ l.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://icml.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -459,18 +471,19 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
  ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
   XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
- t has not published dates or deadlines. Dates use the 2026 edition as an 
- annual-cadence proxy.\nScope: Methodological and theoretical machine lear
- ning\, including supervised and unsupervised learning\, deep generative m
- odels\, optimization\, statistical learning theory\, Bayesian methods\, a
- nd reinforcement learning. Scalable systems and trustworthy learning are 
- established parts of the scope\; application papers should offer contribu
- tions of wider interest to ML.\nAdditional topics: Probabilistic\, Causal
-  & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpretab
- ility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & D
- istributed Learning\nScope sources (2026): https://icml.cc/Conferences/20
- 26/CallForPapers\nScope last checked: 2026-10-07
+ ate: 2026-10-28\nNotes: As of 2026-10-28 ICML's Future Meetings page list
+ s 2027 only as South America\; no 2027 site\, host city\, dates or call h
+ as been published (icml.cc/Conferences/2027 returns 404). Dates are annua
+ l-cadence proxies from the 2026 edition.\nScope: Methodological and theor
+ etical machine learning\, including supervised and unsupervised learning\
+ , deep generative models\, optimization\, statistical learning theory\, B
+ ayesian methods\, and reinforcement learning. Scalable systems and trustw
+ orthy learning are established parts of the scope\; application papers sh
+ ould offer contributions of wider interest to ML.\nAdditional topics: Pro
+ babilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Explainab
+ ility & Interpretability\, Robustness & Safety\, ML Systems & Infrastruct
+ ure\, Federated & Distributed Learning\nScope sources (2026): https://icm
+ l.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://icml.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -486,19 +499,20 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
  e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
  Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
- checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
- 5. The first research-track cycle closed in July 2026. A February 2027 cy
- cle is announced but exact dates are still TBA\; the February abstract/pa
- per dates here are estimated from 2026.\nScope: Knowledge discovery and d
- ata science\, centered on extracting useful structure from large\, hetero
- geneous data. Characteristic areas include clustering\, structured and re
- lational learning\, graph and text mining\, recommender systems\, scalabl
- e data analysis\, and responsible data use. Generative AI is relevant whe
- n it advances data science\, not simply because a paper uses an LLM.\nAdd
- itional topics: Deep Representation Learning\, Natural Language Processin
- g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
-  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
- research-track-call-for-papers/\nScope last checked: 2026-10-07
+ checked date: 2026-10-28\nNotes: Official site confirms San Jose McEnery 
+ Convention Center\, Aug 1-5. Cycle 1 closed July 2026 (notification Nov 1
+ 4\, 2026). As of 2026-10-28 the CFP/FAQ still give no Feb 2027 Cycle 2 da
+ tes\; the FAQ says it accepts new submissions. The abstract/paper dates h
+ ere are AoE proxies from 2026 Cycle 2.\nScope: Knowledge discovery and da
+ ta science\, centered on extracting useful structure from large\, heterog
+ eneous data. Characteristic areas include clustering\, structured and rel
+ ational learning\, graph and text mining\, recommender systems\, scalable
+  data analysis\, and responsible data use. Generative AI is relevant when
+  it advances data science\, not simply because a paper uses an LLM.\nAddi
+ tional topics: Deep Representation Learning\, Natural Language Processing
+  & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML 
+ Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/r
+ esearch-track-call-for-papers/\nScope last checked: 2026-10-07
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -514,19 +528,20 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
  e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
  Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
- checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
- 5. The first research-track cycle closed in July 2026. A February 2027 cy
- cle is announced but exact dates are still TBA\; the February abstract/pa
- per dates here are estimated from 2026.\nScope: Knowledge discovery and d
- ata science\, centered on extracting useful structure from large\, hetero
- geneous data. Characteristic areas include clustering\, structured and re
- lational learning\, graph and text mining\, recommender systems\, scalabl
- e data analysis\, and responsible data use. Generative AI is relevant whe
- n it advances data science\, not simply because a paper uses an LLM.\nAdd
- itional topics: Deep Representation Learning\, Natural Language Processin
- g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
-  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
- research-track-call-for-papers/\nScope last checked: 2026-10-07
+ checked date: 2026-10-28\nNotes: Official site confirms San Jose McEnery 
+ Convention Center\, Aug 1-5. Cycle 1 closed July 2026 (notification Nov 1
+ 4\, 2026). As of 2026-10-28 the CFP/FAQ still give no Feb 2027 Cycle 2 da
+ tes\; the FAQ says it accepts new submissions. The abstract/paper dates h
+ ere are AoE proxies from 2026 Cycle 2.\nScope: Knowledge discovery and da
+ ta science\, centered on extracting useful structure from large\, heterog
+ eneous data. Characteristic areas include clustering\, structured and rel
+ ational learning\, graph and text mining\, recommender systems\, scalable
+  data analysis\, and responsible data use. Generative AI is relevant when
+  it advances data science\, not simply because a paper uses an LLM.\nAddi
+ tional topics: Deep Representation Learning\, Natural Language Processing
+  & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML 
+ Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/r
+ esearch-track-call-for-papers/\nScope last checked: 2026-10-07
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -542,18 +557,19 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
  ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
   XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
- t has not published dates or deadlines. Dates use the 2026 edition as an 
- annual-cadence proxy.\nScope: Methodological and theoretical machine lear
- ning\, including supervised and unsupervised learning\, deep generative m
- odels\, optimization\, statistical learning theory\, Bayesian methods\, a
- nd reinforcement learning. Scalable systems and trustworthy learning are 
- established parts of the scope\; application papers should offer contribu
- tions of wider interest to ML.\nAdditional topics: Probabilistic\, Causal
-  & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpretab
- ility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & D
- istributed Learning\nScope sources (2026): https://icml.cc/Conferences/20
- 26/CallForPapers\nScope last checked: 2026-10-07
+ ate: 2026-10-28\nNotes: As of 2026-10-28 ICML's Future Meetings page list
+ s 2027 only as South America\; no 2027 site\, host city\, dates or call h
+ as been published (icml.cc/Conferences/2027 returns 404). Dates are annua
+ l-cadence proxies from the 2026 edition.\nScope: Methodological and theor
+ etical machine learning\, including supervised and unsupervised learning\
+ , deep generative models\, optimization\, statistical learning theory\, B
+ ayesian methods\, and reinforcement learning. Scalable systems and trustw
+ orthy learning are established parts of the scope\; application papers sh
+ ould offer contributions of wider interest to ML.\nAdditional topics: Pro
+ babilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Explainab
+ ility & Interpretability\, Robustness & Safety\, ML Systems & Infrastruct
+ ure\, Federated & Distributed Learning\nScope sources (2026): https://icm
+ l.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://icml.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -688,18 +704,19 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  announced)\nTopics: Machine Learning\, Learning Theory & Statistical Foun
  dations\, Deep Representation Learning\, Time Series & Sequential Data\nS
  ize: XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast check
- ed date: 2026-10-06\nNotes: ICML confirms the 2027 region as South Americ
- a but has not published dates or deadlines. Dates use the 2026 edition as
-  an annual-cadence proxy.\nScope: Methodological and theoretical machine 
- learning\, including supervised and unsupervised learning\, deep generati
- ve models\, optimization\, statistical learning theory\, Bayesian methods
- \, and reinforcement learning. Scalable systems and trustworthy learning 
- are established parts of the scope\; application papers should offer cont
- ributions of wider interest to ML.\nAdditional topics: Probabilistic\, Ca
- usal & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpr
- etability\, Robustness & Safety\, ML Systems & Infrastructure\, Federated
-  & Distributed Learning\nScope sources (2026): https://icml.cc/Conference
- s/2026/CallForPapers\nScope last checked: 2026-10-07
+ ed date: 2026-10-28\nNotes: As of 2026-10-28 ICML's Future Meetings page 
+ lists 2027 only as South America\; no 2027 site\, host city\, dates or ca
+ ll has been published (icml.cc/Conferences/2027 returns 404). Dates are a
+ nnual-cadence proxies from the 2026 edition.\nScope: Methodological and t
+ heoretical machine learning\, including supervised and unsupervised learn
+ ing\, deep generative models\, optimization\, statistical learning theory
+ \, Bayesian methods\, and reinforcement learning. Scalable systems and tr
+ ustworthy learning are established parts of the scope\; application paper
+ s should offer contributions of wider interest to ML.\nAdditional topics:
+  Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learning\, Expla
+ inability & Interpretability\, Robustness & Safety\, ML Systems & Infrast
+ ructure\, Federated & Distributed Learning\nScope sources (2026): https:/
+ /icml.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://icml.cc/Conferences/FutureMeetings
 LOCATION:South America (city to be announced)
 END:VEVENT
@@ -742,20 +759,21 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  dd2027.kdd.org/\nLocation: San Jose\, California\, USA\nTopics: Data Mini
  ng & Data Science\, Machine Learning\, Time Series & Sequential Data\, Fe
  derated & Distributed Learning\nSize: XL\nSubmission type: Paper-based / 
- mixed tracks\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes
- : Official site confirms San Jose\, Aug 1-5. The first research-track cyc
- le closed in July 2026. A February 2027 cycle is announced but exact date
- s are still TBA\; the February abstract/paper dates here are estimated fr
- om 2026.\nScope: Knowledge discovery and data science\, centered on extra
- cting useful structure from large\, heterogeneous data. Characteristic ar
- eas include clustering\, structured and relational learning\, graph and t
- ext mining\, recommender systems\, scalable data analysis\, and responsib
- le data use. Generative AI is relevant when it advances data science\, no
- t simply because a paper uses an LLM.\nAdditional topics: Deep Representa
- tion Learning\, Natural Language Processing & LLMs\, Explainability & Int
- erpretability\, Privacy-preserving ML\, ML Systems & Infrastructure\nScop
- e sources (2027): https://kdd2027.kdd.org/research-track-call-for-papers/
- \nScope last checked: 2026-10-07
+ mixed tracks\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes
+ : Official site confirms San Jose McEnery Convention Center\, Aug 1-5. Cy
+ cle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 the
+  CFP/FAQ still give no Feb 2027 Cycle 2 dates\; the FAQ says it accepts n
+ ew submissions. The abstract/paper dates here are AoE proxies from 2026 C
+ ycle 2.\nScope: Knowledge discovery and data science\, centered on extrac
+ ting useful structure from large\, heterogeneous data. Characteristic are
+ as include clustering\, structured and relational learning\, graph and te
+ xt mining\, recommender systems\, scalable data analysis\, and responsibl
+ e data use. Generative AI is relevant when it advances data science\, not
+  simply because a paper uses an LLM.\nAdditional topics: Deep Representat
+ ion Learning\, Natural Language Processing & LLMs\, Explainability & Inte
+ rpretability\, Privacy-preserving ML\, ML Systems & Infrastructure\nScope
+  sources (2027): https://kdd2027.kdd.org/research-track-call-for-papers/\
+ nScope last checked: 2026-10-07
 URL:https://kdd2027.kdd.org/
 LOCATION:San Jose\, California\, USA
 END:VEVENT

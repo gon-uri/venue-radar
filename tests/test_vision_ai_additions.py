@@ -68,13 +68,13 @@ class VisionAIAdditionTests(unittest.TestCase):
             self.assertEqual(CADENCE_YEARS[series], 2 if series in {'ECCV', 'ICCV'} else 1)
         future = rollover_candidates([self.records['eccv-2026']], date(2026, 10, 7))
         self.assertEqual(future[0]['year'], 2028)
-        for key in ['kr-2027', 'acm-mm-2027', 'eccv-2028', 'euvip-2027']:
+        for key in ['acm-mm-2027', 'eccv-2028', 'euvip-2027']:
             item = self.records[key]
             self.assertEqual(item['confidence'], 'estimated')
             self.assertTrue(all(d['confidence'] == 'estimated' for d in item['deadlines']))
 
     def test_confirmed_meetings_do_not_confirm_proxy_paper_deadlines(self):
-        for key in ['iccv-2027', 'acm-siggraph-2027']:
+        for key in ['iccv-2027']:
             item = self.records[key]
             self.assertEqual(item['confidence'], 'confirmed')
             self.assertTrue(all(d['confidence'] == 'estimated' for d in item['deadlines']))

@@ -39,7 +39,7 @@ export async function checkSubmissionBehavior(page) {
   for (const row of [aamas, mlsys]) {
     assert.equal(await status(row).evaluate(label => getComputedStyle(label).color), 'rgb(61, 112, 68)');
   }
-  const estimated = page.locator('[data-deadline-group][data-edition="ida-2027"]');
+  const estimated = page.locator('[data-deadline-group][data-edition="icml-2027"]');
   assert.equal(await status(estimated).innerText(), 'Submission opportunity (estimated)');
   assert.equal(await status(estimated).evaluate(label => getComputedStyle(label).color), 'rgb(118, 83, 33)');
   assert.match(await timeLeft(estimated).innerText(), /^~/);

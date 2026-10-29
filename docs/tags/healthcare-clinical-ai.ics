@@ -40,10 +40,12 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  series4health.github.io/\nLocation: San Diego\, California\, USA\nTopics:
   Time Series & Sequential Data\, Healthcare & Clinical AI\, Signal Proces
  sing\, Explainability & Interpretability\nSize: S\nSubmission type: Works
- hop / paper-based\nConfidence: confirmed\nLast checked date: 2026-10-05\n
- Notes: Official TS4H page describes the completed NeurIPS 2025 workshop. 
- No TS4H 2026 edition appears on the official NeurIPS 2026 workshop list\;
-  the former 2026 placeholder has been retired.
+ hop / paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ Notes: Official TS4H page still describes the completed NeurIPS 2025 work
+ shop. As of 2026-10-28 no TS4H-named workshop is on the ICLR\, ICML or Ne
+ urIPS 2026 lists\; the same organizers ran Structured Data for Health at 
+ ICML 2026 (Jul 11)\, whose site lists TS4H editions as prior years. No 20
+ 27 edition is announced.
 URL:https://timeseries4health.github.io/
 LOCATION:San Diego\, California\, USA
 END:VEVENT
@@ -300,9 +302,12 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
- type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\n
- Notes: Official BHI 2026 pages list conference dates\, location\, and sub
- mission deadlines.
+ type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ Notes: Official BHI 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-p
+ age abstracts were extended to Aug 31 and late abstracts to Oct 31. The s
+ ite says all deadlines are 11:59pm USA (PST)\, recorded as -08:00\, altho
+ ugh Pacific clocks are on PDT (-07:00) on those dates\; the abstract Open
+ Review group lists Nov 1 23:59 UTC.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -350,23 +355,6 @@ URL:https://embc.embs.org/2026/
 LOCATION:Toronto\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:ieee-bhi-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260801T075900Z
-DTEND:20260801T085900Z
-SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
- 6 - 1-page abstract submission
-DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
- cal and Health Informatics\nWebsite: https://bhi.embs.org/2026/\nSource U
- RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
-  China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
- achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
- type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\n
- Notes: Official BHI 2026 pages list conference dates\, location\, and sub
- mission deadlines.
-URL:https://bhi.embs.org/2026/contributors/papers/
-END:VEVENT
-BEGIN:VEVENT
 UID:mlhc-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260812
@@ -383,6 +371,26 @@ URL:https://mlhc.org/
 LOCATION:Baltimore\, Maryland\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-bhi-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260901T075900Z
+DTEND:20260901T085900Z
+SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
+ 6 - 1-page abstract submission
+DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
+ cal and Health Informatics\nWebsite: https://bhi.embs.org/2026/\nSource U
+ RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
+  China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
+ achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
+ type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ Notes: Official BHI 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-p
+ age abstracts were extended to Aug 31 and late abstracts to Oct 31. The s
+ ite says all deadlines are 11:59pm USA (PST)\, recorded as -08:00\, altho
+ ugh Pacific clocks are on PDT (-07:00) on those dates\; the abstract Open
+ Review group lists Nov 1 23:59 UTC.
+URL:https://bhi.embs.org/2026/contributors/papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ml4h-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260911T115900Z
@@ -394,9 +402,31 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
  \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
   Learning\nSize: M\nSubmission type: Proceedings + findings tracks\nConfi
- dence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ML4H 202
- 6 pages list symposium dates\, location\, and paper deadline.
+ dence: confirmed\nLast checked date: 2026-10-28\nNotes: Official ML4H 202
+ 6 pages (all times AoE) confirm Dec 6-7 at the SMC Conference & Function 
+ Centre\, Sydney\, the Sep 10 paper and Sep 14 demo deadlines\, and decisi
+ ons released Oct 26. The Nov 7 camera-ready date is marked tentative with
+  no hour\; 23:59 AoE is a placeholder.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ml4h-2026-deadline-demo-submission@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260915T115900Z
+DTEND:20260915T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Demo track
+  submission (non-archival)
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
+ r-demonstrations/\nLocation: Sydney\, Australia\nTopics: Healthcare & Cli
+ nical AI\, Machine Learning\, Time Series & Sequential Data\, Deep Repres
+ entation Learning\nSize: M\nSubmission type: Proceedings + findings track
+ s\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official 
+ ML4H 2026 pages (all times AoE) confirm Dec 6-7 at the SMC Conference & F
+ unction Centre\, Sydney\, the Sep 10 paper and Sep 14 demo deadlines\, an
+ d decisions released Oct 26. The Nov 7 camera-ready date is marked tentat
+ ive with no hour\; 23:59 AoE is a placeholder.
+URL:https://ml4h.ahli.cc/submit/call-for-demonstrations/
 END:VEVENT
 BEGIN:VEVENT
 UID:miccai-2026-conference@scientific-conference-calendar
@@ -416,23 +446,6 @@ DESCRIPTION:Conference title: International Conference on Medical Image Com
  aper registration/submission deadlines.
 URL:https://conferences.miccai.org/2026/en/default.asp
 LOCATION:Strasbourg\, France
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-bhi-2026-deadline-late-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261003T075900Z
-DTEND:20261003T085900Z
-SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
- 6 - Late abstract submission
-DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
- cal and Health Informatics\nWebsite: https://bhi.embs.org/2026/\nSource U
- RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
-  China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
- achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
- type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\n
- Notes: Official BHI 2026 pages list conference dates\, location\, and sub
- mission deadlines.
-URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-biocas-2026-conference@scientific-conference-calendar
@@ -479,20 +492,75 @@ DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
 URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-bhi-2026-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261101T075900Z
+DTEND:20261101T085900Z
+SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
+ 6 - Late 1-page abstract submission (extended)
+DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
+ cal and Health Informatics\nWebsite: https://bhi.embs.org/2026/\nSource U
+ RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
+  China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
+ achine Learning\, Human-AI Interaction & Deployment\nSize: M\nSubmission 
+ type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\n
+ Notes: Official BHI 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-p
+ age abstracts were extended to Aug 31 and late abstracts to Oct 31. The s
+ ite says all deadlines are 11:59pm USA (PST)\, recorded as -08:00\, altho
+ ugh Pacific clocks are on PDT (-07:00) on those dates\; the abstract Open
+ Review group lists Nov 1 23:59 UTC.
+URL:https://bhi.embs.org/2026/contributors/papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ml4h-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261108T115900Z
-DTEND:20261108T125900Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
 SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Camera-rea
- dy deadline
+ dy deadline (tentative) (estimated) (cutoff time unannounced)
 DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
  r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
  \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
   Learning\nSize: M\nSubmission type: Proceedings + findings tracks\nConfi
- dence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ML4H 202
- 6 pages list symposium dates\, location\, and paper deadline.
+ dence: estimated\nLast checked date: 2026-10-28\nNotes: Official ML4H 202
+ 6 pages (all times AoE) confirm Dec 6-7 at the SMC Conference & Function 
+ Centre\, Sydney\, the Sep 10 paper and Sep 14 demo deadlines\, and decisi
+ ons released Oct 26. The Nov 7 camera-ready date is marked tentative with
+  no hour\; 23:59 AoE is a placeholder.\nOfficial deadline day\; exact cut
+ off hour/timezone is unannounced. Verify the organizer's submission porta
+ l.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:bci-winter-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] BCI Winter 2027 -
+  Paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
+ uter Interface\nWebsite: https://brain.korea.ac.kr/bci2027/\nSource URL: 
+ https://brain.korea.ac.kr/bci2027/importantdate.php\nLocation: Jeongseon\
+ , South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\,
+  Signal Processing\, Machine Learning\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Officia
+ l 2027 site and CFP confirm February 22-24\, 2027 at High1 Resort\, Jeong
+ seon\, with papers due November 15\, 2026 (up to 6 pages\, double-blind\,
+  IEEE Xplore subject to quality review). No cutoff hour or zone is stated
+ \; T23:59 AoE is provisional. The 2026 deadline moved from October to Dec
+ ember\, so check for extensions. Size is an editorial estimate.\nScope: B
+ rain-computer interfaces\, neural signal decoding\, multimodal brain meas
+ urements\, neurofeedback and adaptive interfaces. Machine learning is cen
+ tral to biosignal classification and decoding\; neurorehabilitation and i
+ nteraction with real or virtual environments are characteristic applicati
+ ons. IEEE-style reviewed research papers are the established publication 
+ route.\nAdditional topics: Healthcare & Clinical AI\, Neuroimaging & Brai
+ n Mapping\nScope sources (2027): https://brain.korea.ac.kr/bci2027/callfo
+ rpaper.php\, https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nSc
+ ope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/t
+ imezone is unannounced. Verify the organizer's submission portal.
+URL:https://brain.korea.ac.kr/bci2027/importantdate.php
 END:VEVENT
 BEGIN:VEVENT
 UID:midl-2027-deadline-abstract@scientific-conference-calendar
@@ -557,8 +625,11 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  dney\, Australia\nTopics: Healthcare & Clinical AI\, Machine Learning\, T
  ime Series & Sequential Data\, Deep Representation Learning\nSize: M\nSub
  mission type: Proceedings + findings tracks\nConfidence: confirmed\nLast 
- checked date: 2026-08-20\nNotes: Official ML4H 2026 pages list symposium 
- dates\, location\, and paper deadline.
+ checked date: 2026-10-28\nNotes: Official ML4H 2026 pages (all times AoE)
+  confirm Dec 6-7 at the SMC Conference & Function Centre\, Sydney\, the S
+ ep 10 paper and Sep 14 demo deadlines\, and decisions released Oct 26. Th
+ e Nov 7 camera-ready date is marked tentative with no hour\; 23:59 AoE is
+  a placeholder.
 URL:https://ml4h.ahli.cc/
 LOCATION:Sydney\, Australia
 END:VEVENT
@@ -574,60 +645,96 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  RL: https://bhi.embs.org/2026/\nLocation: Hong Kong\, China\nTopics: Heal
  thcare & Clinical AI\, Data Mining & Data Science\, Machine Learning\, Hu
  man-AI Interaction & Deployment\nSize: M\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official BHI 
- 2026 pages list conference dates\, location\, and submission deadlines.
+ onfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official BHI 
+ 2026 pages confirm Dec 12-15 at CUHK\, Hong Kong. 1-page abstracts were e
+ xtended to Aug 31 and late abstracts to Oct 31. The site says all deadlin
+ es are 11:59pm USA (PST)\, recorded as -08:00\, although Pacific clocks a
+ re on PDT (-07:00) on those dates\; the abstract OpenReview group lists N
+ ov 1 23:59 UTC.
 URL:https://bhi.embs.org/2026/
 LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
-UID:bci-winter-2027-deadline-full-paper@scientific-conference-calendar
+UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261215T045900Z
+DTEND:20261215T055900Z
+SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
+ - Poster abstract submission deadline
+DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
+ eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
+ tps://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract_Sub
+ mission_Guidelines_FINAL.docx.pdf\nLocation: Toronto\, Canada\nTopics: Ne
+ uroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare & Clin
+ ical AI\, Computational Neuroscience\nSize: XL\nSubmission type: Abstract
+ -based / talks selective\nConfidence: confirmed\nLast checked date: 2026-
+ 10-28\nNotes: Official OHBM 2027 pages confirm Toronto (Metro Toronto Con
+ vention Centre)\, Jun 26-30\, 2027. The submission site opens Mon Nov 2\,
+  2026 (day only)\; abstracts are due Mon Dec 14\, 2026 at 11:59 p.m. EST\
+ , the same close as symposium\, course and roundtable proposals. At least
+  one author must present in person\; decisions by Feb 2027.
+URL:https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract
+ _Submission_Guidelines_FINAL.docx.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:bci-winter-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] BCI Winter 2027 -
-  Estimated paper submission deadline (estimated) (cutoff time unannounced
- )
+  Acceptance notification (cutoff time unannounced)
 DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
  uter Interface\nWebsite: https://brain.korea.ac.kr/bci2027/\nSource URL: 
- https://brain.korea.ac.kr/bci2026/authorinstructions.php\nLocation: Jeong
- seon\, South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
- als\, Signal Processing\, Machine Learning\nSize: M\nSubmission type: Pap
- er-based\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Co
- -organizer confirms February 22-24\, 2027 at High1 Resort\, Jeongseon. Th
- e 2027 deadline is unannounced\; December 15 is a one-year proxy from the
-  final 2026 author instructions and CFP\, which supersede an older Octobe
- r date. Prior six-page papers use IEEE proceedings subject to IEEE qualit
- y review\; the 2027 publication details await the final CFP. The exact cu
- toff hour is unknown. Size is an editorial estimate.\nScope: Brain-comput
- er interfaces\, neural signal decoding\, multimodal brain measurements\, 
- neurofeedback and adaptive interfaces. Machine learning is central to bio
- signal classification and decoding\; neurorehabilitation and interaction 
- with real or virtual environments are characteristic applications. IEEE-s
- tyle reviewed research papers are the established publication route.\nAdd
- itional topics: Healthcare & Clinical AI\, Neuroimaging & Brain Mapping\n
- Scope sources (2027): https://brain.korea.ac.kr/bci2027/callforpaper.php\
- , https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nScope last ch
- ecked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is 
- unannounced. Verify the organizer's submission portal.
-URL:https://brain.korea.ac.kr/bci2026/authorinstructions.php
+ https://brain.korea.ac.kr/bci2027/importantdate.php\nLocation: Jeongseon\
+ , South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\,
+  Signal Processing\, Machine Learning\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Officia
+ l 2027 site and CFP confirm February 22-24\, 2027 at High1 Resort\, Jeong
+ seon\, with papers due November 15\, 2026 (up to 6 pages\, double-blind\,
+  IEEE Xplore subject to quality review). No cutoff hour or zone is stated
+ \; T23:59 AoE is provisional. The 2026 deadline moved from October to Dec
+ ember\, so check for extensions. Size is an editorial estimate.\nScope: B
+ rain-computer interfaces\, neural signal decoding\, multimodal brain meas
+ urements\, neurofeedback and adaptive interfaces. Machine learning is cen
+ tral to biosignal classification and decoding\; neurorehabilitation and i
+ nteraction with real or virtual environments are characteristic applicati
+ ons. IEEE-style reviewed research papers are the established publication 
+ route.\nAdditional topics: Healthcare & Clinical AI\, Neuroimaging & Brai
+ n Mapping\nScope sources (2027): https://brain.korea.ac.kr/bci2027/callfo
+ rpaper.php\, https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nSc
+ ope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/t
+ imezone is unannounced. Verify the organizer's submission portal.
+URL:https://brain.korea.ac.kr/bci2027/importantdate.php
 END:VEVENT
 BEGIN:VEVENT
-UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
+UID:bci-winter-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261216T115900Z
-DTEND:20261216T125900Z
-SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
- - Abstract submission deadline (estimated)
-DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
- eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
- tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
- s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
-  Clinical AI\, Computational Neuroscience\nSize: XL\nSubmission type: Abs
- tract-based / talks selective\nConfidence: estimated\nLast checked date: 
- 2026-10-05\nNotes: Official OHBM 2027 page confirms Toronto and Jun 26-30
- \, 2027\; it publishes the abstract window only as December 2026\, so the
-  exact deadline remains estimated.
-URL:https://humanbrainmapping.org/ohbm-2027/
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] BCI Winter 2027 -
+  Camera-ready manuscript deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
+ uter Interface\nWebsite: https://brain.korea.ac.kr/bci2027/\nSource URL: 
+ https://brain.korea.ac.kr/bci2027/importantdate.php\nLocation: Jeongseon\
+ , South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\,
+  Signal Processing\, Machine Learning\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Officia
+ l 2027 site and CFP confirm February 22-24\, 2027 at High1 Resort\, Jeong
+ seon\, with papers due November 15\, 2026 (up to 6 pages\, double-blind\,
+  IEEE Xplore subject to quality review). No cutoff hour or zone is stated
+ \; T23:59 AoE is provisional. The 2026 deadline moved from October to Dec
+ ember\, so check for extensions. Size is an editorial estimate.\nScope: B
+ rain-computer interfaces\, neural signal decoding\, multimodal brain meas
+ urements\, neurofeedback and adaptive interfaces. Machine learning is cen
+ tral to biosignal classification and decoding\; neurorehabilitation and i
+ nteraction with real or virtual environments are characteristic applicati
+ ons. IEEE-style reviewed research papers are the established publication 
+ route.\nAdditional topics: Healthcare & Clinical AI\, Neuroimaging & Brai
+ n Mapping\nScope sources (2027): https://brain.korea.ac.kr/bci2027/callfo
+ rpaper.php\, https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nSc
+ ope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/t
+ imezone is unannounced. Verify the organizer's submission portal.
+URL:https://brain.korea.ac.kr/bci2027/importantdate.php
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-embc-2027-deadline-full-paper@scientific-conference-calendar
@@ -687,28 +794,31 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chil-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270205T115900Z
-DTEND:20270205T125900Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
 SUMMARY:[Healthcare & Clinical AI][Probabilistic\, Causal & Uncertainty ML]
-  CHIL 2027 - Submissions due (estimated)
+  CHIL 2027 - Submissions due (cutoff time unannounced)
 DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  ng\nWebsite: https://chil.ahli.cc/\nSource URL: https://chil.ahli.cc/subm
- it/call-for-papers/\nLocation: To be announced\nTopics: Healthcare & Clin
- ical AI\, Probabilistic\, Causal & Uncertainty ML\, Fairness & Responsibl
- e AI\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
- e: estimated\nLast checked date: 2026-10-06\nNotes: Provisional 1-year ca
- dence projection from CHIL 2026. Meeting dates\, location\, and deadlines
-  require organizer confirmation\; website and source links refer to the p
- rior edition.\nScope: Machine learning and inference for clinical\, publi
- c\, and population health. Distinguishing areas include causal inference\
- , survival analysis\, multimodal health data\, generalization across popu
- lations\, interpretability\, and clinical evaluation and deployment. Rese
- arch may emphasize methods\, practical applications\, or societal impact.
-  Health-focused inference and evaluation remain the common thread across 
- these tracks.\nAdditional topics: Explainability & Interpretability\, Hum
- an-AI Interaction & Deployment\, Robustness & Safety\, Time Series & Sequ
- ential Data\nScope sources (2026): https://chil.ahli.cc/submit/call-for-p
- apers/\nScope last checked: 2026-10-07
+ it/call-for-papers/\nLocation: Chicago\, Illinois\, USA\nTopics: Healthca
+ re & Clinical AI\, Probabilistic\, Causal & Uncertainty ML\, Fairness & R
+ esponsible AI\, Machine Learning\nSize: M\nSubmission type: Paper-based\n
+ Confidence: confirmed\nLast checked date: 2026-10-28\nNotes: The official
+  CHIL 2027 call lists Chicago\, IL (venue TBA)\, conference Jun 28-30\, 2
+ 027 marked tentative\, and submissions due Wed Feb 3\, 2027 via OpenRevie
+ w (author accounts by Jan 15)\; no cutoff hour\, so 23:59 AoE is a placeh
+ older. The doctoral symposium call has no date yet\; Mar 13 is a 2026 pro
+ xy.\nScope: Machine learning and inference for clinical\, public\, and po
+ pulation health. Distinguishing areas include causal inference\, survival
+  analysis\, multimodal health data\, generalization across populations\, 
+ interpretability\, and clinical evaluation and deployment. Research may e
+ mphasize methods\, practical applications\, or societal impact. Health-fo
+ cused inference and evaluation remain the common thread across these trac
+ ks.\nAdditional topics: Explainability & Interpretability\, Human-AI Inte
+ raction & Deployment\, Robustness & Safety\, Time Series & Sequential Dat
+ a\nScope sources (2026): https://chil.ahli.cc/submit/call-for-papers/\nSc
+ ope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/t
+ imezone is unannounced. Verify the organizer's submission portal.
 URL:https://chil.ahli.cc/submit/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -737,14 +847,17 @@ DTEND:20270213T125900Z
 SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2027 - Paper 
  registration deadline (estimated)
 DESCRIPTION:Conference title: International Conference on Medical Image Com
- puting and Computer Assisted Intervention\nWebsite: https://miccai.org/up
- coming-conferences/\nSource URL: https://conferences.miccai.org/2026/en/d
- efault.asp\nLocation: Auckland\, New Zealand\nTopics: Biomedical Imaging\
- , Healthcare & Clinical AI\, Deep Representation Learning\, Neuroimaging 
- & Brain Mapping\nSize: XL\nSubmission type: Paper-based\nConfidence: esti
- mated\nLast checked date: 2026-10-06\nNotes: The current MICCAI Society u
- pcoming-conferences page gives Auckland\, Sep 26-Oct 1. Paper dates are u
- nannounced\; February dates are prior-edition proxies.
+ puting and Computer Assisted Intervention\nWebsite: https://conferences.m
+ iccai.org/2027/en/default.asp\nSource URL: https://conferences.miccai.org
+ /2026/en/default.asp\nLocation: Auckland\, New Zealand\nTopics: Biomedica
+ l Imaging\, Healthcare & Clinical AI\, Deep Representation Learning\, Neu
+ roimaging & Brain Mapping\nSize: XL\nSubmission type: Paper-based\nConfid
+ ence: estimated\nLast checked date: 2026-10-28\nNotes: The MICCAI 2027 si
+ te gives Sep 27-Oct 1 at the NZ International Convention Centre\, Aucklan
+ d (also the Society's Feb 18\, 2026 announcement)\; the Society upcoming 
+ page says Sep 26-Oct 1\, so the edition site is used. As of 2026-10-28 th
+ e paper-submission and calls pages are under construction\; February date
+ s are 2026-edition proxies.
 URL:https://conferences.miccai.org/2026/en/default.asp
 END:VEVENT
 BEGIN:VEVENT
@@ -759,21 +872,21 @@ DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
  https://brain.korea.ac.kr/bci2027/\nLocation: Jeongseon\, South Korea\nTo
  pics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\, Signal Processin
  g\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidence: 
- confirmed\nLast checked date: 2026-10-08\nNotes: Co-organizer confirms Fe
- bruary 22-24\, 2027 at High1 Resort\, Jeongseon. The 2027 deadline is una
- nnounced\; December 15 is a one-year proxy from the final 2026 author ins
- tructions and CFP\, which supersede an older October date. Prior six-page
-  papers use IEEE proceedings subject to IEEE quality review\; the 2027 pu
- blication details await the final CFP. The exact cutoff hour is unknown. 
- Size is an editorial estimate.\nScope: Brain-computer interfaces\, neural
-  signal decoding\, multimodal brain measurements\, neurofeedback and adap
- tive interfaces. Machine learning is central to biosignal classification 
- and decoding\; neurorehabilitation and interaction with real or virtual e
- nvironments are characteristic applications. IEEE-style reviewed research
-  papers are the established publication route.\nAdditional topics: Health
- care & Clinical AI\, Neuroimaging & Brain Mapping\nScope sources (2027): 
- https://brain.korea.ac.kr/bci2027/callforpaper.php\, https://brain.korea.
- ac.kr/bci2026/assets/CFP_BCI2026.pdf\nScope last checked: 2026-10-08
+ confirmed\nLast checked date: 2026-10-28\nNotes: Official 2027 site and C
+ FP confirm February 22-24\, 2027 at High1 Resort\, Jeongseon\, with paper
+ s due November 15\, 2026 (up to 6 pages\, double-blind\, IEEE Xplore subj
+ ect to quality review). No cutoff hour or zone is stated\; T23:59 AoE is 
+ provisional. The 2026 deadline moved from October to December\, so check 
+ for extensions. Size is an editorial estimate.\nScope: Brain-computer int
+ erfaces\, neural signal decoding\, multimodal brain measurements\, neurof
+ eedback and adaptive interfaces. Machine learning is central to biosignal
+  classification and decoding\; neurorehabilitation and interaction with r
+ eal or virtual environments are characteristic applications. IEEE-style r
+ eviewed research papers are the established publication route.\nAdditiona
+ l topics: Healthcare & Clinical AI\, Neuroimaging & Brain Mapping\nScope 
+ sources (2027): https://brain.korea.ac.kr/bci2027/callforpaper.php\, http
+ s://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nScope last checked:
+  2026-10-08
 URL:https://brain.korea.ac.kr/bci2027/
 LOCATION:Jeongseon\, South Korea
 END:VEVENT
@@ -785,14 +898,17 @@ DTEND:20270227T125900Z
 SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2027 - Full p
  aper submission deadline (estimated)
 DESCRIPTION:Conference title: International Conference on Medical Image Com
- puting and Computer Assisted Intervention\nWebsite: https://miccai.org/up
- coming-conferences/\nSource URL: https://conferences.miccai.org/2026/en/d
- efault.asp\nLocation: Auckland\, New Zealand\nTopics: Biomedical Imaging\
- , Healthcare & Clinical AI\, Deep Representation Learning\, Neuroimaging 
- & Brain Mapping\nSize: XL\nSubmission type: Paper-based\nConfidence: esti
- mated\nLast checked date: 2026-10-06\nNotes: The current MICCAI Society u
- pcoming-conferences page gives Auckland\, Sep 26-Oct 1. Paper dates are u
- nannounced\; February dates are prior-edition proxies.
+ puting and Computer Assisted Intervention\nWebsite: https://conferences.m
+ iccai.org/2027/en/default.asp\nSource URL: https://conferences.miccai.org
+ /2026/en/default.asp\nLocation: Auckland\, New Zealand\nTopics: Biomedica
+ l Imaging\, Healthcare & Clinical AI\, Deep Representation Learning\, Neu
+ roimaging & Brain Mapping\nSize: XL\nSubmission type: Paper-based\nConfid
+ ence: estimated\nLast checked date: 2026-10-28\nNotes: The MICCAI 2027 si
+ te gives Sep 27-Oct 1 at the NZ International Convention Centre\, Aucklan
+ d (also the Society's Feb 18\, 2026 announcement)\; the Society upcoming 
+ page says Sep 26-Oct 1\, so the edition site is used. As of 2026-10-28 th
+ e paper-submission and calls pages are under construction\; February date
+ s are 2026-edition proxies.
 URL:https://conferences.miccai.org/2026/en/default.asp
 END:VEVENT
 BEGIN:VEVENT
@@ -829,24 +945,26 @@ DTEND:20270314T125900Z
 SUMMARY:[Healthcare & Clinical AI][Probabilistic\, Causal & Uncertainty ML]
   CHIL 2027 - Doctoral symposium application (estimated)
 DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
- ng\nWebsite: https://chil.ahli.cc/\nSource URL: https://chil.ahli.cc/\nLo
- cation: To be announced\nTopics: Healthcare & Clinical AI\, Probabilistic
- \, Causal & Uncertainty ML\, Fairness & Responsible AI\, Machine Learning
- \nSize: M\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
- ked date: 2026-10-06\nNotes: Provisional 1-year cadence projection from C
- HIL 2026. Meeting dates\, location\, and deadlines require organizer conf
- irmation\; website and source links refer to the prior edition.\nScope: M
- achine learning and inference for clinical\, public\, and population heal
- th. Distinguishing areas include causal inference\, survival analysis\, m
- ultimodal health data\, generalization across populations\, interpretabil
- ity\, and clinical evaluation and deployment. Research may emphasize meth
- ods\, practical applications\, or societal impact. Health-focused inferen
- ce and evaluation remain the common thread across these tracks.\nAddition
- al topics: Explainability & Interpretability\, Human-AI Interaction & Dep
- loyment\, Robustness & Safety\, Time Series & Sequential Data\nScope sour
- ces (2026): https://chil.ahli.cc/submit/call-for-papers/\nScope last chec
- ked: 2026-10-07
-URL:https://chil.ahli.cc/
+ ng\nWebsite: https://chil.ahli.cc/\nSource URL: https://chil.ahli.cc/subm
+ it/doctoral-symposium/\nLocation: Chicago\, Illinois\, USA\nTopics: Healt
+ hcare & Clinical AI\, Probabilistic\, Causal & Uncertainty ML\, Fairness 
+ & Responsible AI\, Machine Learning\nSize: M\nSubmission type: Paper-base
+ d\nConfidence: estimated\nLast checked date: 2026-10-28\nNotes: The offic
+ ial CHIL 2027 call lists Chicago\, IL (venue TBA)\, conference Jun 28-30\
+ , 2027 marked tentative\, and submissions due Wed Feb 3\, 2027 via OpenRe
+ view (author accounts by Jan 15)\; no cutoff hour\, so 23:59 AoE is a pla
+ ceholder. The doctoral symposium call has no date yet\; Mar 13 is a 2026 
+ proxy.\nScope: Machine learning and inference for clinical\, public\, and
+  population health. Distinguishing areas include causal inference\, survi
+ val analysis\, multimodal health data\, generalization across populations
+ \, interpretability\, and clinical evaluation and deployment. Research ma
+ y emphasize methods\, practical applications\, or societal impact. Health
+ -focused inference and evaluation remain the common thread across these t
+ racks.\nAdditional topics: Explainability & Interpretability\, Human-AI I
+ nteraction & Deployment\, Robustness & Safety\, Time Series & Sequential 
+ Data\nScope sources (2026): https://chil.ahli.cc/submit/call-for-papers/\
+ nScope last checked: 2026-10-07
+URL:https://chil.ahli.cc/submit/doctoral-symposium/
 END:VEVENT
 BEGIN:VEVENT
 UID:probml-2027-deadline-extended-abstract@scientific-conference-calendar
@@ -861,22 +979,21 @@ DESCRIPTION:Conference title: Symposium on Probabilistic Machine Learning\n
  n: To be announced\nTopics: Probabilistic\, Causal & Uncertainty ML\, Lea
  rning Theory & Statistical Foundations\, Machine Learning\, Healthcare & 
  Clinical AI\nSize: S\nSubmission type: Paper-based / non-archival extende
- d abstracts\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes:
-  Formerly AABI. Recent editions recur annually\, but no official 2027 sch
- edule was found. Meeting and submission dates project ProbML 2026 timing\
- ; location\, ICML co-location\, and the 2026 healthcare/climate applicati
- on focus require reconfirmation. The prior fast track requires a paper ac
- cepted elsewhere\, so it is not treated as a fresh submission route. Size
-  S is an editorial estimate for this specialist symposium.\nScope: Probab
- ilistic and Bayesian machine learning\, emphasizing approximate inference
- \, variational and Monte Carlo methods\, Gaussian processes\, graphical a
- nd state-space models\, calibration\, and decisions under uncertainty. In
- cludes Bayesian optimization and uncertainty-aware deep learning. The rev
- iewed 2026 application focus is healthcare and climate\; probabilistic re
- asoning remains essential to a suitable contribution.\nAdditional topics:
-  Deep Representation Learning\, Reinforcement Learning\, Time Series & Se
- quential Data\, Robustness & Safety\nScope sources (2026): https://probml
- .cc/call/\nScope last checked: 2026-10-07
+ d abstracts\nConfidence: estimated\nLast checked date: 2026-10-28\nNotes:
+  Formerly AABI. As of 2026-10-28 probml.cc still shows ProbML 2026 and no
+  2027 schedule is published. Meeting and submission dates project ProbML 
+ 2026 timing\; location\, ICML co-location and the 2026 healthcare/climate
+  focus need reconfirmation. The fast track requires a paper accepted else
+ where\, so it is not a fresh route. Size S is an editorial estimate.\nSco
+ pe: Probabilistic and Bayesian machine learning\, emphasizing approximate
+  inference\, variational and Monte Carlo methods\, Gaussian processes\, g
+ raphical and state-space models\, calibration\, and decisions under uncer
+ tainty. Includes Bayesian optimization and uncertainty-aware deep learnin
+ g. The reviewed 2026 application focus is healthcare and climate\; probab
+ ilistic reasoning remains essential to a suitable contribution.\nAddition
+ al topics: Deep Representation Learning\, Reinforcement Learning\, Time S
+ eries & Sequential Data\, Robustness & Safety\nScope sources (2026): http
+ s://probml.cc/call/\nScope last checked: 2026-10-07
 URL:https://probml.cc/call/
 END:VEVENT
 BEGIN:VEVENT
@@ -892,22 +1009,21 @@ DESCRIPTION:Conference title: Symposium on Probabilistic Machine Learning\n
  n: To be announced\nTopics: Probabilistic\, Causal & Uncertainty ML\, Lea
  rning Theory & Statistical Foundations\, Machine Learning\, Healthcare & 
  Clinical AI\nSize: S\nSubmission type: Paper-based / non-archival extende
- d abstracts\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes:
-  Formerly AABI. Recent editions recur annually\, but no official 2027 sch
- edule was found. Meeting and submission dates project ProbML 2026 timing\
- ; location\, ICML co-location\, and the 2026 healthcare/climate applicati
- on focus require reconfirmation. The prior fast track requires a paper ac
- cepted elsewhere\, so it is not treated as a fresh submission route. Size
-  S is an editorial estimate for this specialist symposium.\nScope: Probab
- ilistic and Bayesian machine learning\, emphasizing approximate inference
- \, variational and Monte Carlo methods\, Gaussian processes\, graphical a
- nd state-space models\, calibration\, and decisions under uncertainty. In
- cludes Bayesian optimization and uncertainty-aware deep learning. The rev
- iewed 2026 application focus is healthcare and climate\; probabilistic re
- asoning remains essential to a suitable contribution.\nAdditional topics:
-  Deep Representation Learning\, Reinforcement Learning\, Time Series & Se
- quential Data\, Robustness & Safety\nScope sources (2026): https://probml
- .cc/call/\nScope last checked: 2026-10-07
+ d abstracts\nConfidence: estimated\nLast checked date: 2026-10-28\nNotes:
+  Formerly AABI. As of 2026-10-28 probml.cc still shows ProbML 2026 and no
+  2027 schedule is published. Meeting and submission dates project ProbML 
+ 2026 timing\; location\, ICML co-location and the 2026 healthcare/climate
+  focus need reconfirmation. The fast track requires a paper accepted else
+ where\, so it is not a fresh route. Size S is an editorial estimate.\nSco
+ pe: Probabilistic and Bayesian machine learning\, emphasizing approximate
+  inference\, variational and Monte Carlo methods\, Gaussian processes\, g
+ raphical and state-space models\, calibration\, and decisions under uncer
+ tainty. Includes Bayesian optimization and uncertainty-aware deep learnin
+ g. The reviewed 2026 application focus is healthcare and climate\; probab
+ ilistic reasoning remains essential to a suitable contribution.\nAddition
+ al topics: Deep Representation Learning\, Reinforcement Learning\, Time S
+ eries & Sequential Data\, Robustness & Safety\nScope sources (2026): http
+ s://probml.cc/call/\nScope last checked: 2026-10-07
 URL:https://probml.cc/call/
 END:VEVENT
 BEGIN:VEVENT
@@ -915,19 +1031,52 @@ UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270324T065900Z
 DTEND:20270324T075900Z
-SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - F
- ull paper submission deadline (estimated)
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - E
+ stimated 6-page paper submission deadline (estimated)
 DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
- Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://neuro.em
- bs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nLocat
- ion: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
- als\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmission t
- ype: Paper-based / engineering-focused\nConfidence: estimated\nLast check
- ed date: 2026-10-06\nNotes: The official IEEE EMBS announcement confirms 
- Milan\, Sep 7-10\, 2027. Submission dates are estimates using the 2025 CF
- P lead times before the meeting\; the 2027 CFP is not yet published.
+ Engineering\nWebsite: https://neuro.embs.org/2027/\nSource URL: https://n
+ euro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf
+ \nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neur
+ al Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmi
+ ssion type: Paper-based / engineering-focused\nConfidence: estimated\nLas
+ t checked date: 2026-10-28\nNotes: The official NER 2027 site (13th editi
+ on) confirms Milan\, Sep 7-10\, 2027\; as of 2026-10-28 its Call for Pape
+ rs link is a placeholder and no deadlines are posted. Both dates are prox
+ ies from the 2025 CFP lead times (6-page paper 168 days\, 1-page abstract
+  106 days before the meeting)\; cutoff hour and zone are unknown. ieee-ne
+ r.org still shows 2023 content.
 URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
  -CFPv.6.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:chil-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:[Healthcare & Clinical AI][Probabilistic\, Causal & Uncertainty ML]
+  CHIL 2027 - Author notification (cutoff time unannounced)
+DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
+ ng\nWebsite: https://chil.ahli.cc/\nSource URL: https://chil.ahli.cc/subm
+ it/call-for-papers/\nLocation: Chicago\, Illinois\, USA\nTopics: Healthca
+ re & Clinical AI\, Probabilistic\, Causal & Uncertainty ML\, Fairness & R
+ esponsible AI\, Machine Learning\nSize: M\nSubmission type: Paper-based\n
+ Confidence: confirmed\nLast checked date: 2026-10-28\nNotes: The official
+  CHIL 2027 call lists Chicago\, IL (venue TBA)\, conference Jun 28-30\, 2
+ 027 marked tentative\, and submissions due Wed Feb 3\, 2027 via OpenRevie
+ w (author accounts by Jan 15)\; no cutoff hour\, so 23:59 AoE is a placeh
+ older. The doctoral symposium call has no date yet\; Mar 13 is a 2026 pro
+ xy.\nScope: Machine learning and inference for clinical\, public\, and po
+ pulation health. Distinguishing areas include causal inference\, survival
+  analysis\, multimodal health data\, generalization across populations\, 
+ interpretability\, and clinical evaluation and deployment. Research may e
+ mphasize methods\, practical applications\, or societal impact. Health-fo
+ cused inference and evaluation remain the common thread across these trac
+ ks.\nAdditional topics: Explainability & Interpretability\, Human-AI Inte
+ raction & Deployment\, Robustness & Safety\, Time Series & Sequential Dat
+ a\nScope sources (2026): https://chil.ahli.cc/submit/call-for-papers/\nSc
+ ope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/t
+ imezone is unannounced. Verify the organizer's submission portal.
+URL:https://chil.ahli.cc/submit/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:mlhc-2027-deadline-full-paper@scientific-conference-calendar
@@ -941,8 +1090,9 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  h\, Switzerland\nTopics: Healthcare & Clinical AI\, Machine Learning\, Ti
  me Series & Sequential Data\, Explainability & Interpretability\nSize: M\
  nSubmission type: Paper-based\nConfidence: estimated\nLast checked date: 
- 2026-10-06\nNotes: MLHC confirms Aug 11-13 at ETH Zurich. Submission date
-  remains a 2026 timing proxy until organizers publish the 2027 call.
+ 2026-10-28\nNotes: As of 2026-10-28 mlhc.org confirms Aug 11-13\, 2027 at
+  ETH Zurich ("Details coming soon") but has not published a 2027 call. Th
+ e April 17 submission date is a proxy from the 2026 edition.
 URL:https://mlhc.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -1035,17 +1185,20 @@ UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270525T065900Z
 DTEND:20270525T075900Z
-SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - L
- ate-breaking abstract deadline (estimated)
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - E
+ stimated late-breaking 1-page abstract deadline (estimated)
 DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
- Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://neuro.em
- bs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nLocat
- ion: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
- als\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmission t
- ype: Paper-based / engineering-focused\nConfidence: estimated\nLast check
- ed date: 2026-10-06\nNotes: The official IEEE EMBS announcement confirms 
- Milan\, Sep 7-10\, 2027. Submission dates are estimates using the 2025 CF
- P lead times before the meeting\; the 2027 CFP is not yet published.
+ Engineering\nWebsite: https://neuro.embs.org/2027/\nSource URL: https://n
+ euro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf
+ \nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neur
+ al Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmi
+ ssion type: Paper-based / engineering-focused\nConfidence: estimated\nLas
+ t checked date: 2026-10-28\nNotes: The official NER 2027 site (13th editi
+ on) confirms Milan\, Sep 7-10\, 2027\; as of 2026-10-28 its Call for Pape
+ rs link is a placeholder and no deadlines are posted. Both dates are prox
+ ies from the 2025 CFP lead times (6-page paper 168 days\, 1-page abstract
+  106 days before the meeting)\; cutoff hour and zone are unknown. ieee-ne
+ r.org still shows 2023 content.
 URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
  -CFPv.6.pdf
 END:VEVENT
@@ -1055,16 +1208,18 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270701
 SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
- - Conference (estimated)
+ - Conference
 DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
  tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
  s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
   Clinical AI\, Computational Neuroscience\nSize: XL\nSubmission type: Abs
- tract-based / talks selective\nConfidence: estimated\nLast checked date: 
- 2026-10-05\nNotes: Official OHBM 2027 page confirms Toronto and Jun 26-30
- \, 2027\; it publishes the abstract window only as December 2026\, so the
-  exact deadline remains estimated.
+ tract-based / talks selective\nConfidence: confirmed\nLast checked date: 
+ 2026-10-28\nNotes: Official OHBM 2027 pages confirm Toronto (Metro Toront
+ o Convention Centre)\, Jun 26-30\, 2027. The submission site opens Mon No
+ v 2\, 2026 (day only)\; abstracts are due Mon Dec 14\, 2026 at 11:59 p.m.
+  EST\, the same close as symposium\, course and roundtable proposals. At 
+ least one author must present in person\; decisions by Feb 2027.
 URL:https://humanbrainmapping.org/ohbm-2027/
 LOCATION:Toronto\, Canada
 END:VEVENT
@@ -1077,24 +1232,26 @@ SUMMARY:[Healthcare & Clinical AI][Probabilistic\, Causal & Uncertainty ML]
   CHIL 2027 - Conference (estimated)
 DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  ng\nWebsite: https://chil.ahli.cc/\nSource URL: https://chil.ahli.cc/\nLo
- cation: To be announced\nTopics: Healthcare & Clinical AI\, Probabilistic
- \, Causal & Uncertainty ML\, Fairness & Responsible AI\, Machine Learning
- \nSize: M\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
- ked date: 2026-10-06\nNotes: Provisional 1-year cadence projection from C
- HIL 2026. Meeting dates\, location\, and deadlines require organizer conf
- irmation\; website and source links refer to the prior edition.\nScope: M
- achine learning and inference for clinical\, public\, and population heal
- th. Distinguishing areas include causal inference\, survival analysis\, m
- ultimodal health data\, generalization across populations\, interpretabil
- ity\, and clinical evaluation and deployment. Research may emphasize meth
- ods\, practical applications\, or societal impact. Health-focused inferen
- ce and evaluation remain the common thread across these tracks.\nAddition
- al topics: Explainability & Interpretability\, Human-AI Interaction & Dep
- loyment\, Robustness & Safety\, Time Series & Sequential Data\nScope sour
- ces (2026): https://chil.ahli.cc/submit/call-for-papers/\nScope last chec
- ked: 2026-10-07
+ cation: Chicago\, Illinois\, USA\nTopics: Healthcare & Clinical AI\, Prob
+ abilistic\, Causal & Uncertainty ML\, Fairness & Responsible AI\, Machine
+  Learning\nSize: M\nSubmission type: Paper-based\nConfidence: estimated\n
+ Last checked date: 2026-10-28\nNotes: The official CHIL 2027 call lists C
+ hicago\, IL (venue TBA)\, conference Jun 28-30\, 2027 marked tentative\, 
+ and submissions due Wed Feb 3\, 2027 via OpenReview (author accounts by J
+ an 15)\; no cutoff hour\, so 23:59 AoE is a placeholder. The doctoral sym
+ posium call has no date yet\; Mar 13 is a 2026 proxy.\nScope: Machine lea
+ rning and inference for clinical\, public\, and population health. Distin
+ guishing areas include causal inference\, survival analysis\, multimodal 
+ health data\, generalization across populations\, interpretability\, and 
+ clinical evaluation and deployment. Research may emphasize methods\, prac
+ tical applications\, or societal impact. Health-focused inference and eva
+ luation remain the common thread across these tracks.\nAdditional topics:
+  Explainability & Interpretability\, Human-AI Interaction & Deployment\, 
+ Robustness & Safety\, Time Series & Sequential Data\nScope sources (2026)
+ : https://chil.ahli.cc/submit/call-for-papers/\nScope last checked: 2026-
+ 10-07
 URL:https://chil.ahli.cc/
-LOCATION:To be announced
+LOCATION:Chicago\, Illinois\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:aime-2027-conference@scientific-conference-calendar
@@ -1126,22 +1283,21 @@ DESCRIPTION:Conference title: Symposium on Probabilistic Machine Learning\n
   be announced\nTopics: Probabilistic\, Causal & Uncertainty ML\, Learning
   Theory & Statistical Foundations\, Machine Learning\, Healthcare & Clini
  cal AI\nSize: S\nSubmission type: Paper-based / non-archival extended abs
- tracts\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Form
- erly AABI. Recent editions recur annually\, but no official 2027 schedule
-  was found. Meeting and submission dates project ProbML 2026 timing\; loc
- ation\, ICML co-location\, and the 2026 healthcare/climate application fo
- cus require reconfirmation. The prior fast track requires a paper accepte
- d elsewhere\, so it is not treated as a fresh submission route. Size S is
-  an editorial estimate for this specialist symposium.\nScope: Probabilist
- ic and Bayesian machine learning\, emphasizing approximate inference\, va
- riational and Monte Carlo methods\, Gaussian processes\, graphical and st
- ate-space models\, calibration\, and decisions under uncertainty. Include
- s Bayesian optimization and uncertainty-aware deep learning. The reviewed
-  2026 application focus is healthcare and climate\; probabilistic reasoni
- ng remains essential to a suitable contribution.\nAdditional topics: Deep
-  Representation Learning\, Reinforcement Learning\, Time Series & Sequent
- ial Data\, Robustness & Safety\nScope sources (2026): https://probml.cc/c
- all/\nScope last checked: 2026-10-07
+ tracts\nConfidence: estimated\nLast checked date: 2026-10-28\nNotes: Form
+ erly AABI. As of 2026-10-28 probml.cc still shows ProbML 2026 and no 2027
+  schedule is published. Meeting and submission dates project ProbML 2026 
+ timing\; location\, ICML co-location and the 2026 healthcare/climate focu
+ s need reconfirmation. The fast track requires a paper accepted elsewhere
+ \, so it is not a fresh route. Size S is an editorial estimate.\nScope: P
+ robabilistic and Bayesian machine learning\, emphasizing approximate infe
+ rence\, variational and Monte Carlo methods\, Gaussian processes\, graphi
+ cal and state-space models\, calibration\, and decisions under uncertaint
+ y. Includes Bayesian optimization and uncertainty-aware deep learning. Th
+ e reviewed 2026 application focus is healthcare and climate\; probabilist
+ ic reasoning remains essential to a suitable contribution.\nAdditional to
+ pics: Deep Representation Learning\, Reinforcement Learning\, Time Series
+  & Sequential Data\, Robustness & Safety\nScope sources (2026): https://p
+ robml.cc/call/\nScope last checked: 2026-10-07
 URL:https://probml.cc/
 LOCATION:To be announced
 END:VEVENT
@@ -1202,8 +1358,9 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  h\, Switzerland\nTopics: Healthcare & Clinical AI\, Machine Learning\, Ti
  me Series & Sequential Data\, Explainability & Interpretability\nSize: M\
  nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date: 
- 2026-10-06\nNotes: MLHC confirms Aug 11-13 at ETH Zurich. Submission date
-  remains a 2026 timing proxy until organizers publish the 2027 call.
+ 2026-10-28\nNotes: As of 2026-10-28 mlhc.org confirms Aug 11-13\, 2027 at
+  ETH Zurich ("Details coming soon") but has not published a 2027 call. Th
+ e April 17 submission date is a proxy from the 2026 edition.
 URL:https://mlhc.org/
 LOCATION:Zurich\, Switzerland
 END:VEVENT
@@ -1215,34 +1372,39 @@ DTEND;VALUE=DATE:20270911
 SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - C
  onference
 DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
- Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
- .org/\nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG &
-  Neural Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\n
- Submission type: Paper-based / engineering-focused\nConfidence: confirmed
- \nLast checked date: 2026-10-06\nNotes: The official IEEE EMBS announceme
- nt confirms Milan\, Sep 7-10\, 2027. Submission dates are estimates using
-  the 2025 CFP lead times before the meeting\; the 2027 CFP is not yet pub
- lished.
-URL:https://ieee-ner.org/
+ Engineering\nWebsite: https://neuro.embs.org/2027/\nSource URL: https://n
+ euro.embs.org/2027/\nLocation: Milan\, Italy\nTopics: BCI & Neurotechnolo
+ gy\, EEG/MEG & Neural Signals\, Signal Processing\, Healthcare & Clinical
+  AI\nSize: M\nSubmission type: Paper-based / engineering-focused\nConfide
+ nce: confirmed\nLast checked date: 2026-10-28\nNotes: The official NER 20
+ 27 site (13th edition) confirms Milan\, Sep 7-10\, 2027\; as of 2026-10-2
+ 8 its Call for Papers link is a placeholder and no deadlines are posted. 
+ Both dates are proxies from the 2025 CFP lead times (6-page paper 168 day
+ s\, 1-page abstract 106 days before the meeting)\; cutoff hour and zone a
+ re unknown. ieee-ner.org still shows 2023 content.
+URL:https://neuro.embs.org/2027/
 LOCATION:Milan\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:miccai-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270926
+DTSTART;VALUE=DATE:20270927
 DTEND;VALUE=DATE:20271002
 SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2027 - Confer
  ence
 DESCRIPTION:Conference title: International Conference on Medical Image Com
- puting and Computer Assisted Intervention\nWebsite: https://miccai.org/up
- coming-conferences/\nSource URL: https://miccai.org/upcoming-conferences/
- \nLocation: Auckland\, New Zealand\nTopics: Biomedical Imaging\, Healthca
- re & Clinical AI\, Deep Representation Learning\, Neuroimaging & Brain Ma
- pping\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLas
- t checked date: 2026-10-06\nNotes: The current MICCAI Society upcoming-co
- nferences page gives Auckland\, Sep 26-Oct 1. Paper dates are unannounced
- \; February dates are prior-edition proxies.
-URL:https://miccai.org/upcoming-conferences/
+ puting and Computer Assisted Intervention\nWebsite: https://conferences.m
+ iccai.org/2027/en/default.asp\nSource URL: https://conferences.miccai.org
+ /2027/en/default.asp\nLocation: Auckland\, New Zealand\nTopics: Biomedica
+ l Imaging\, Healthcare & Clinical AI\, Deep Representation Learning\, Neu
+ roimaging & Brain Mapping\nSize: XL\nSubmission type: Paper-based\nConfid
+ ence: confirmed\nLast checked date: 2026-10-28\nNotes: The MICCAI 2027 si
+ te gives Sep 27-Oct 1 at the NZ International Convention Centre\, Aucklan
+ d (also the Society's Feb 18\, 2026 announcement)\; the Society upcoming 
+ page says Sep 26-Oct 1\, so the edition site is used. As of 2026-10-28 th
+ e paper-submission and calls pages are under construction\; February date
+ s are 2026-edition proxies.
+URL:https://conferences.miccai.org/2027/en/default.asp
 LOCATION:Auckland\, New Zealand
 END:VEVENT
 BEGIN:VEVENT

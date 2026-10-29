@@ -124,7 +124,9 @@ these are limits, not targets. Never import an exhaustive CFP inventory.
 
 Only confirmed cities get exact `location` aliases and approximate centers in
 `data/cities.yml`. Distinguish homonymous cities; do not guess hosts, silently
-geocode ambiguous strings or claim venue-level accuracy. Future confirmed/
+geocode ambiguous strings or claim venue-level accuracy. When organizers name
+only an island or region (CNS* and ITISE: "Gran Canaria"), an explicitly
+commented region-level alias may use its geographic centre. Future confirmed/
 announced non-online meetings appear on the map; estimates and ongoing/past
 meetings do not. The submission-options filter is deadlines-only.
 

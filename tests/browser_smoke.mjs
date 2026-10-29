@@ -85,7 +85,7 @@ try {
   await checkMobileCards(page, url, output);
   await page.locator('#filter-details > summary').click();
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
-  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 87);
+  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 93);
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>
     rows.every(row => ['open', 'scheduled', 'opportunity', 'estimated'].includes(stateByRow.get(row).kind))));
   const repository = 'https://github.com/gon-uri/venue-radar';
@@ -222,8 +222,8 @@ try {
   assert(await timeEstimate.isVisible());
   await sysid.locator('.deadline-toggle').click();
   assert(!(await page.locator('[data-deadline-group][data-edition="aistats-2027"] [data-time-estimate]').isVisible()));
-  assert(!(await page.locator('[data-deadline-group][data-edition="ida-2027"] [data-time-estimate]').isVisible()));
-  assert((await page.locator('[data-deadline-group][data-edition="ida-2027"] [data-label="Next milestone"]').innerText()).includes('(est.)'));
+  assert(!(await page.locator('[data-deadline-group][data-edition="icml-2027"] [data-time-estimate]').isVisible()));
+  assert((await page.locator('[data-deadline-group][data-edition="icml-2027"] [data-label="Next milestone"]').innerText()).includes('(est.)'));
   await page.evaluate(() => {
     Date.now = () => Date.parse('2027-06-01T12:00:00Z');
     applyFilters();
@@ -307,8 +307,8 @@ try {
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '96 confirmed editions in 80 cities');
-  assert.equal(await page.locator('.city-marker').count(), 80);
+  assert.equal(await page.locator('#map-count').innerText(), '107 confirmed editions in 86 cities');
+  assert.equal(await page.locator('.city-marker').count(), 86);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();
   const montreal = page.locator('.city-marker[title^="Montreal"]');

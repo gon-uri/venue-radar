@@ -16,24 +16,51 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
  \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
   Learning\nSize: M\nSubmission type: Proceedings + findings tracks\nConfi
- dence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ML4H 202
- 6 pages list symposium dates\, location\, and paper deadline.
+ dence: confirmed\nLast checked date: 2026-10-28\nNotes: Official ML4H 202
+ 6 pages (all times AoE) confirm Dec 6-7 at the SMC Conference & Function 
+ Centre\, Sydney\, the Sep 10 paper and Sep 14 demo deadlines\, and decisi
+ ons released Oct 26. The Nov 7 camera-ready date is marked tentative with
+  no hour\; 23:59 AoE is a placeholder.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ml4h-2026-deadline-demo-submission@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260915T115900Z
+DTEND:20260915T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Demo track
+  submission (non-archival)
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
+ r-demonstrations/\nLocation: Sydney\, Australia\nTopics: Healthcare & Cli
+ nical AI\, Machine Learning\, Time Series & Sequential Data\, Deep Repres
+ entation Learning\nSize: M\nSubmission type: Proceedings + findings track
+ s\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Official 
+ ML4H 2026 pages (all times AoE) confirm Dec 6-7 at the SMC Conference & F
+ unction Centre\, Sydney\, the Sep 10 paper and Sep 14 demo deadlines\, an
+ d decisions released Oct 26. The Nov 7 camera-ready date is marked tentat
+ ive with no hour\; 23:59 AoE is a placeholder.
+URL:https://ml4h.ahli.cc/submit/call-for-demonstrations/
 END:VEVENT
 BEGIN:VEVENT
 UID:ml4h-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261108T115900Z
-DTEND:20261108T125900Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
 SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Camera-rea
- dy deadline
+ dy deadline (tentative) (estimated) (cutoff time unannounced)
 DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
  r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
  \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
   Learning\nSize: M\nSubmission type: Proceedings + findings tracks\nConfi
- dence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ML4H 202
- 6 pages list symposium dates\, location\, and paper deadline.
+ dence: estimated\nLast checked date: 2026-10-28\nNotes: Official ML4H 202
+ 6 pages (all times AoE) confirm Dec 6-7 at the SMC Conference & Function 
+ Centre\, Sydney\, the Sep 10 paper and Sep 14 demo deadlines\, and decisi
+ ons released Oct 26. The Nov 7 camera-ready date is marked tentative with
+  no hour\; 23:59 AoE is a placeholder.\nOfficial deadline day\; exact cut
+ off hour/timezone is unannounced. Verify the organizer's submission porta
+ l.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -47,8 +74,11 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  dney\, Australia\nTopics: Healthcare & Clinical AI\, Machine Learning\, T
  ime Series & Sequential Data\, Deep Representation Learning\nSize: M\nSub
  mission type: Proceedings + findings tracks\nConfidence: confirmed\nLast 
- checked date: 2026-08-20\nNotes: Official ML4H 2026 pages list symposium 
- dates\, location\, and paper deadline.
+ checked date: 2026-10-28\nNotes: Official ML4H 2026 pages (all times AoE)
+  confirm Dec 6-7 at the SMC Conference & Function Centre\, Sydney\, the S
+ ep 10 paper and Sep 14 demo deadlines\, and decisions released Oct 26. Th
+ e Nov 7 camera-ready date is marked tentative with no hour\; 23:59 AoE is
+  a placeholder.
 URL:https://ml4h.ahli.cc/
 LOCATION:Sydney\, Australia
 END:VEVENT

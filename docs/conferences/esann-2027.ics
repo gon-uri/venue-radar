@@ -7,18 +7,45 @@ X-WR-CALNAME:ESANN 2027 Calendar
 BEGIN:VEVENT
 UID:esann-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261118T225900Z
-DTEND:20261118T235900Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
 SUMMARY:[Machine Learning][Deep Representation Learning] ESANN 2027 - Paper
-  submission deadline
+  submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
+ rks\, Computational Intelligence and Machine Learning\nWebsite: https://w
+ ww.esann.org/\nSource URL: https://www.esann.org/node/3\nLocation: Bruges
+ \, Belgium\nTopics: Machine Learning\, Deep Representation Learning\, Lea
+ rning Theory & Statistical Foundations\, Signal Processing\nSize: M\nSubm
+ ission type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-
+ 10-28\nNotes: Official ESANN 2027 pages (checked 2026-10-28) list Bruges 
+ and online (hybrid mode)\, Apr 21-23\, 2027\, and decisions on Jan 22\, 2
+ 027. The call asks for submissions 'before 18.11.2026' with no cutoff hou
+ r\, so the last safe day\, Nov 17\, is stored with a provisional end of d
+ ay in Bruges time. Special-session papers follow the regular deadline and
+  procedure.\nOfficial deadline day\; exact cutoff hour/timezone is unanno
+ unced. Verify the organizer's submission portal.
+URL:https://www.esann.org/node/3
+END:VEVENT
+BEGIN:VEVENT
+UID:esann-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:[Machine Learning][Deep Representation Learning] ESANN 2027 - Accep
+ tance decisions (cutoff time unannounced)
 DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
  rks\, Computational Intelligence and Machine Learning\nWebsite: https://w
  ww.esann.org/\nSource URL: https://www.esann.org/\nLocation: Bruges\, Bel
  gium\nTopics: Machine Learning\, Deep Representation Learning\, Learning 
  Theory & Statistical Foundations\, Signal Processing\nSize: M\nSubmission
-  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\
- nNotes: Official ESANN 2027 pages confirm Bruges\, Apr 21-23\, 2027\, and
-  the Nov 18\, 2026 submission deadline.
+  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\
+ nNotes: Official ESANN 2027 pages (checked 2026-10-28) list Bruges and on
+ line (hybrid mode)\, Apr 21-23\, 2027\, and decisions on Jan 22\, 2027. T
+ he call asks for submissions 'before 18.11.2026' with no cutoff hour\, so
+  the last safe day\, Nov 17\, is stored with a provisional end of day in 
+ Bruges time. Special-session papers follow the regular deadline and proce
+ dure.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced.
+  Verify the organizer's submission portal.
 URL:https://www.esann.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -33,9 +60,13 @@ DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
  ww.esann.org/\nSource URL: https://www.esann.org/\nLocation: Bruges\, Bel
  gium\nTopics: Machine Learning\, Deep Representation Learning\, Learning 
  Theory & Statistical Foundations\, Signal Processing\nSize: M\nSubmission
-  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\
- nNotes: Official ESANN 2027 pages confirm Bruges\, Apr 21-23\, 2027\, and
-  the Nov 18\, 2026 submission deadline.
+  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-28\
+ nNotes: Official ESANN 2027 pages (checked 2026-10-28) list Bruges and on
+ line (hybrid mode)\, Apr 21-23\, 2027\, and decisions on Jan 22\, 2027. T
+ he call asks for submissions 'before 18.11.2026' with no cutoff hour\, so
+  the last safe day\, Nov 17\, is stored with a provisional end of day in 
+ Bruges time. Special-session papers follow the regular deadline and proce
+ dure.
 URL:https://www.esann.org/
 LOCATION:Bruges\, Belgium
 END:VEVENT

@@ -547,92 +547,31 @@ END:VEVENT
 BEGIN:VEVENT
 UID:acm-siggraph-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270115T220000Z
-DTEND:20270115T230000Z
+DTSTART:20270121T220000Z
+DTEND:20270121T230000Z
 SUMMARY:[Computer Graphics & Visualization][Machine Learning] ACM SIGGRAPH 
- 2027 - Technical-paper submission form deadline (estimated)
+ 2027 - Technical-paper submission form and conflicts deadline
 DESCRIPTION:Conference title: ACM SIGGRAPH Annual Conference\nWebsite: http
- s://s2027.siggraph.org/\nSource URL: https://s2026.siggraph.org/program/t
+ s://s2027.siggraph.org/\nSource URL: https://s2027.siggraph.org/program/t
  echnical-papers/\nLocation: Anaheim\, California\, USA\nTopics: Computer 
  Graphics & Visualization\, Machine Learning\, Computer Vision & Pattern R
  ecognition\nSize: XXL\nSubmission type: Technical papers / conference and
-  ACM TOG tracks\nConfidence: estimated\nLast checked date: 2026-10-07\nNo
- tes: ACM SIGGRAPH confirms Anaheim\, August 8-12\, 2027. The technical-pa
- per schedule remains an annual proxy from the 2026 CFP's explicit 22:00 U
- TC cutoffs. The later file upload is not a new paper route. This is SIGGR
- APH\, not SIGGRAPH Asia\; ranks refer to the conference series\, not the 
- TOG journal. XXL is an editorial estimate for the overall conference and 
- exhibition.\nScope: Computer graphics and interactive techniques\, center
- ed on rendering\, geometric modeling\, animation\, physical simulation\, 
- imaging\, visualization\, and immersive visual experiences. Generative AI
-  and machine learning are relevant when they advance visual computing\, s
- uch as neural rendering and learned animation. Technical papers use integ
- rated conference and ACM TOG journal tracks\; this profile does not descr
- ibe SIGGRAPH Asia or all of AI.\nAdditional topics: Deep Representation L
- earning\, Human-AI Interaction & Deployment\nScope sources (2026): https:
- //s2026.siggraph.org/program/technical-papers/\nScope last checked: 2026-
- 10-07
-URL:https://s2026.siggraph.org/program/technical-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:acm-siggraph-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270122T220000Z
-DTEND:20270122T230000Z
-SUMMARY:[Computer Graphics & Visualization][Machine Learning] ACM SIGGRAPH 
- 2027 - Technical-paper and checksum deadline (estimated)
-DESCRIPTION:Conference title: ACM SIGGRAPH Annual Conference\nWebsite: http
- s://s2027.siggraph.org/\nSource URL: https://s2026.siggraph.org/program/t
- echnical-papers/\nLocation: Anaheim\, California\, USA\nTopics: Computer 
- Graphics & Visualization\, Machine Learning\, Computer Vision & Pattern R
- ecognition\nSize: XXL\nSubmission type: Technical papers / conference and
-  ACM TOG tracks\nConfidence: estimated\nLast checked date: 2026-10-07\nNo
- tes: ACM SIGGRAPH confirms Anaheim\, August 8-12\, 2027. The technical-pa
- per schedule remains an annual proxy from the 2026 CFP's explicit 22:00 U
- TC cutoffs. The later file upload is not a new paper route. This is SIGGR
- APH\, not SIGGRAPH Asia\; ranks refer to the conference series\, not the 
- TOG journal. XXL is an editorial estimate for the overall conference and 
- exhibition.\nScope: Computer graphics and interactive techniques\, center
- ed on rendering\, geometric modeling\, animation\, physical simulation\, 
- imaging\, visualization\, and immersive visual experiences. Generative AI
-  and machine learning are relevant when they advance visual computing\, s
- uch as neural rendering and learned animation. Technical papers use integ
- rated conference and ACM TOG journal tracks\; this profile does not descr
- ibe SIGGRAPH Asia or all of AI.\nAdditional topics: Deep Representation L
- earning\, Human-AI Interaction & Deployment\nScope sources (2026): https:
- //s2026.siggraph.org/program/technical-papers/\nScope last checked: 2026-
- 10-07
-URL:https://s2026.siggraph.org/program/technical-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:acm-siggraph-2027-deadline-paper-update@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270123T220000Z
-DTEND:20270123T230000Z
-SUMMARY:[Computer Graphics & Visualization][Machine Learning] ACM SIGGRAPH 
- 2027 - Upload deadline for previously submitted checksums (estimated)
-DESCRIPTION:Conference title: ACM SIGGRAPH Annual Conference\nWebsite: http
- s://s2027.siggraph.org/\nSource URL: https://s2026.siggraph.org/program/t
- echnical-papers/\nLocation: Anaheim\, California\, USA\nTopics: Computer 
- Graphics & Visualization\, Machine Learning\, Computer Vision & Pattern R
- ecognition\nSize: XXL\nSubmission type: Technical papers / conference and
-  ACM TOG tracks\nConfidence: estimated\nLast checked date: 2026-10-07\nNo
- tes: ACM SIGGRAPH confirms Anaheim\, August 8-12\, 2027. The technical-pa
- per schedule remains an annual proxy from the 2026 CFP's explicit 22:00 U
- TC cutoffs. The later file upload is not a new paper route. This is SIGGR
- APH\, not SIGGRAPH Asia\; ranks refer to the conference series\, not the 
- TOG journal. XXL is an editorial estimate for the overall conference and 
- exhibition.\nScope: Computer graphics and interactive techniques\, center
- ed on rendering\, geometric modeling\, animation\, physical simulation\, 
- imaging\, visualization\, and immersive visual experiences. Generative AI
-  and machine learning are relevant when they advance visual computing\, s
- uch as neural rendering and learned animation. Technical papers use integ
- rated conference and ACM TOG journal tracks\; this profile does not descr
- ibe SIGGRAPH Asia or all of AI.\nAdditional topics: Deep Representation L
- earning\, Human-AI Interaction & Deployment\nScope sources (2026): https:
- //s2026.siggraph.org/program/technical-papers/\nScope last checked: 2026-
- 10-07
-URL:https://s2026.siggraph.org/program/technical-papers/
+  ACM TOG tracks\nConfidence: confirmed\nLast checked date: 2026-10-28\nNo
+ tes: The 2027 site confirms the Anaheim Convention Center\, Aug 8-12\, 20
+ 27. Its Technical Papers page (updated 2026-09-30) gives Jan 21/28/29\, 2
+ 027 at 22:00 UTC\; the older Submit page still says TBA and no exact open
+ ing is published. The upload step is not a new paper route. Not SIGGRAPH 
+ Asia\; ranks refer to the conference\, not TOG. XXL is an editorial estim
+ ate.\nScope: Computer graphics and interactive techniques\, centered on r
+ endering\, geometric modeling\, animation\, physical simulation\, imaging
+ \, visualization\, and immersive visual experiences. Generative AI and ma
+ chine learning are relevant when they advance visual computing\, such as 
+ neural rendering and learned animation. Technical papers use integrated c
+ onference and ACM TOG journal tracks\; this profile does not describe SIG
+ GRAPH Asia or all of AI.\nAdditional topics: Deep Representation Learning
+ \, Human-AI Interaction & Deployment\nScope sources (2026): https://s2026
+ .siggraph.org/program/technical-papers/\nScope last checked: 2026-10-07
+URL:https://s2027.siggraph.org/program/technical-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:fg-2027-deadline-camera-ready@scientific-conference-calendar
@@ -667,6 +606,64 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
 URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:acm-siggraph-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270128T220000Z
+DTEND:20270128T230000Z
+SUMMARY:[Computer Graphics & Visualization][Machine Learning] ACM SIGGRAPH 
+ 2027 - Technical-paper deadline
+DESCRIPTION:Conference title: ACM SIGGRAPH Annual Conference\nWebsite: http
+ s://s2027.siggraph.org/\nSource URL: https://s2027.siggraph.org/program/t
+ echnical-papers/\nLocation: Anaheim\, California\, USA\nTopics: Computer 
+ Graphics & Visualization\, Machine Learning\, Computer Vision & Pattern R
+ ecognition\nSize: XXL\nSubmission type: Technical papers / conference and
+  ACM TOG tracks\nConfidence: confirmed\nLast checked date: 2026-10-28\nNo
+ tes: The 2027 site confirms the Anaheim Convention Center\, Aug 8-12\, 20
+ 27. Its Technical Papers page (updated 2026-09-30) gives Jan 21/28/29\, 2
+ 027 at 22:00 UTC\; the older Submit page still says TBA and no exact open
+ ing is published. The upload step is not a new paper route. Not SIGGRAPH 
+ Asia\; ranks refer to the conference\, not TOG. XXL is an editorial estim
+ ate.\nScope: Computer graphics and interactive techniques\, centered on r
+ endering\, geometric modeling\, animation\, physical simulation\, imaging
+ \, visualization\, and immersive visual experiences. Generative AI and ma
+ chine learning are relevant when they advance visual computing\, such as 
+ neural rendering and learned animation. Technical papers use integrated c
+ onference and ACM TOG journal tracks\; this profile does not describe SIG
+ GRAPH Asia or all of AI.\nAdditional topics: Deep Representation Learning
+ \, Human-AI Interaction & Deployment\nScope sources (2026): https://s2026
+ .siggraph.org/program/technical-papers/\nScope last checked: 2026-10-07
+URL:https://s2027.siggraph.org/program/technical-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-siggraph-2027-deadline-paper-update@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270129T220000Z
+DTEND:20270129T230000Z
+SUMMARY:[Computer Graphics & Visualization][Machine Learning] ACM SIGGRAPH 
+ 2027 - Technical-paper upload deadline
+DESCRIPTION:Conference title: ACM SIGGRAPH Annual Conference\nWebsite: http
+ s://s2027.siggraph.org/\nSource URL: https://s2027.siggraph.org/program/t
+ echnical-papers/\nLocation: Anaheim\, California\, USA\nTopics: Computer 
+ Graphics & Visualization\, Machine Learning\, Computer Vision & Pattern R
+ ecognition\nSize: XXL\nSubmission type: Technical papers / conference and
+  ACM TOG tracks\nConfidence: confirmed\nLast checked date: 2026-10-28\nNo
+ tes: The 2027 site confirms the Anaheim Convention Center\, Aug 8-12\, 20
+ 27. Its Technical Papers page (updated 2026-09-30) gives Jan 21/28/29\, 2
+ 027 at 22:00 UTC\; the older Submit page still says TBA and no exact open
+ ing is published. The upload step is not a new paper route. Not SIGGRAPH 
+ Asia\; ranks refer to the conference\, not TOG. XXL is an editorial estim
+ ate.\nScope: Computer graphics and interactive techniques\, centered on r
+ endering\, geometric modeling\, animation\, physical simulation\, imaging
+ \, visualization\, and immersive visual experiences. Generative AI and ma
+ chine learning are relevant when they advance visual computing\, such as 
+ neural rendering and learned animation. Technical papers use integrated c
+ onference and ACM TOG journal tracks\; this profile does not describe SIG
+ GRAPH Asia or all of AI.\nAdditional topics: Deep Representation Learning
+ \, Human-AI Interaction & Deployment\nScope sources (2026): https://s2026
+ .siggraph.org/program/technical-papers/\nScope last checked: 2026-10-07
+URL:https://s2027.siggraph.org/program/technical-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:iccv-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270304T095900Z
@@ -678,24 +675,23 @@ DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
  ttps://iccv.thecvf.com/Conferences/2025/CallForPapers\nLocation: Hong Kon
  g\, China\nTopics: Computer Vision & Pattern Recognition\, Deep Represent
  ation Learning\, Machine Learning\nSize: XXL\nSubmission type: Paper-base
- d / OpenReview\nConfidence: estimated\nLast checked date: 2026-10-07\nNot
- es: The 2027 homepage explicitly announces October 2-8 at the Hong Kong C
- onvention and Exhibition Centre. Its Dates page conflicts with a generic 
- October 19-23 placeholder and blank venue\; the named-venue homepage take
- s precedence pending organizer reconciliation. Paper deadlines are bienni
- al proxies from 2025's explicit 23:59 Hawaii time\, not confirmed 2027 da
- tes. XXL is an editorial estimate for the overall flagship event.\nScope:
-  Broad computer vision\, from geometry and computational imaging to visua
- l learning\, recognition\, segmentation\, generation\, and video understa
- nding. Vision-language and multimodal methods\, visual graphics\, face/bo
- dy/gesture analysis\, and reliable perception are substantial strands. It
-  is a biennial flagship\, not a general AI applications conference. The c
- urrent scope is grounded in its 2025 CFP because the 2027 call is not yet
-  published.\nAdditional topics: Computer Graphics & Visualization\, Multi
- media Learning & Retrieval\, Natural Language Processing & LLMs\, Biometr
- ics & Human Sensing\, Robustness & Safety\nScope sources (2025): https://
- iccv.thecvf.com/Conferences/2025/CallForPapers\nScope last checked: 2026-
- 10-07
+ d / OpenReview\nConfidence: estimated\nLast checked date: 2026-10-28\nNot
+ es: As of 2026-10-28 the 2027 homepage header and Dates page give Sun Oct
+  3 to Thu Oct 7 (workshops/tutorials Oct 3-4\, main conference Oct 5-7) a
+ t the Hong Kong Convention and Expo Center (HKCEC)\; the homepage venue p
+ aragraph conflicts\, still saying Oct 2-8. No 2027 call is published\; pa
+ per dates are biennial proxies from 2025's 23:59 Hawaii time. XXL is an e
+ ditorial estimate.\nScope: Broad computer vision\, from geometry and comp
+ utational imaging to visual learning\, recognition\, segmentation\, gener
+ ation\, and video understanding. Vision-language and multimodal methods\,
+  visual graphics\, face/body/gesture analysis\, and reliable perception a
+ re substantial strands. It is a biennial flagship\, not a general AI appl
+ ications conference. The current scope is grounded in its 2025 CFP becaus
+ e the 2027 call is not yet published.\nAdditional topics: Computer Graphi
+ cs & Visualization\, Multimedia Learning & Retrieval\, Natural Language P
+ rocessing & LLMs\, Biometrics & Human Sensing\, Robustness & Safety\nScop
+ e sources (2025): https://iccv.thecvf.com/Conferences/2025/CallForPapers\
+ nScope last checked: 2026-10-07
 URL:https://iccv.thecvf.com/Conferences/2025/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -710,24 +706,23 @@ DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
  ttps://iccv.thecvf.com/Conferences/2025/CallForPapers\nLocation: Hong Kon
  g\, China\nTopics: Computer Vision & Pattern Recognition\, Deep Represent
  ation Learning\, Machine Learning\nSize: XXL\nSubmission type: Paper-base
- d / OpenReview\nConfidence: estimated\nLast checked date: 2026-10-07\nNot
- es: The 2027 homepage explicitly announces October 2-8 at the Hong Kong C
- onvention and Exhibition Centre. Its Dates page conflicts with a generic 
- October 19-23 placeholder and blank venue\; the named-venue homepage take
- s precedence pending organizer reconciliation. Paper deadlines are bienni
- al proxies from 2025's explicit 23:59 Hawaii time\, not confirmed 2027 da
- tes. XXL is an editorial estimate for the overall flagship event.\nScope:
-  Broad computer vision\, from geometry and computational imaging to visua
- l learning\, recognition\, segmentation\, generation\, and video understa
- nding. Vision-language and multimodal methods\, visual graphics\, face/bo
- dy/gesture analysis\, and reliable perception are substantial strands. It
-  is a biennial flagship\, not a general AI applications conference. The c
- urrent scope is grounded in its 2025 CFP because the 2027 call is not yet
-  published.\nAdditional topics: Computer Graphics & Visualization\, Multi
- media Learning & Retrieval\, Natural Language Processing & LLMs\, Biometr
- ics & Human Sensing\, Robustness & Safety\nScope sources (2025): https://
- iccv.thecvf.com/Conferences/2025/CallForPapers\nScope last checked: 2026-
- 10-07
+ d / OpenReview\nConfidence: estimated\nLast checked date: 2026-10-28\nNot
+ es: As of 2026-10-28 the 2027 homepage header and Dates page give Sun Oct
+  3 to Thu Oct 7 (workshops/tutorials Oct 3-4\, main conference Oct 5-7) a
+ t the Hong Kong Convention and Expo Center (HKCEC)\; the homepage venue p
+ aragraph conflicts\, still saying Oct 2-8. No 2027 call is published\; pa
+ per dates are biennial proxies from 2025's 23:59 Hawaii time. XXL is an e
+ ditorial estimate.\nScope: Broad computer vision\, from geometry and comp
+ utational imaging to visual learning\, recognition\, segmentation\, gener
+ ation\, and video understanding. Vision-language and multimodal methods\,
+  visual graphics\, face/body/gesture analysis\, and reliable perception a
+ re substantial strands. It is a biennial flagship\, not a general AI appl
+ ications conference. The current scope is grounded in its 2025 CFP becaus
+ e the 2027 call is not yet published.\nAdditional topics: Computer Graphi
+ cs & Visualization\, Multimedia Learning & Retrieval\, Natural Language P
+ rocessing & LLMs\, Biometrics & Human Sensing\, Robustness & Safety\nScop
+ e sources (2025): https://iccv.thecvf.com/Conferences/2025/CallForPapers\
+ nScope last checked: 2026-10-07
 URL:https://iccv.thecvf.com/Conferences/2025/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -804,21 +799,21 @@ DESCRIPTION:Conference title: European Conference on Visual Information Pro
  omputer Vision & Pattern Recognition\, Machine Learning\, Deep Representa
  tion Learning\nSize: S\nSubmission type: Paper-based / visual information
   processing\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes:
-  No organizer-confirmed 2027 edition was found. Meeting and paper timing 
- are annual planning proxies from 2026's final extended deadline. The next
-  first deadline may be earlier\; do not treat a prior extension as guaran
- teed. Website and timezone belong to the previous edition\; location is u
- nannounced.\nScope: Visual information processing across image\, video\, 
- 3D\, and unconventional sensing modalities. Its defining areas are comput
- ational imaging\, restoration and enhancement\, coding\, recognition\, mu
- ltimodal fusion\, and subjective/objective quality assessment. Rendering 
- and visualizing data\, human/biometric analysis\, and robust evaluation a
- re recurring strands. An extensive applications list is not treated as eq
- ual coverage of every application domain or every responsible-AI subtopic
- .\nAdditional topics: Multimedia Learning & Retrieval\, Computer Graphics
-  & Visualization\, Biometrics & Human Sensing\, Robustness & Safety\nScop
- e sources (2026): https://euvip2026.github.io/C4P.pdf\, https://euvip2026
- .github.io/calls/\nScope last checked: 2026-10-07
+  No organizer-confirmed 2027 edition\; 2026-10-28 review found no success
+ or on the EUVIP 2026 site or programme. Meeting and paper timing are annu
+ al proxies from 2026's final extended deadline\; the first 2027 deadline 
+ may be earlier. Website and timezone belong to the 2026 edition\; locatio
+ n is unannounced.\nScope: Visual information processing across image\, vi
+ deo\, 3D\, and unconventional sensing modalities. Its defining areas are 
+ computational imaging\, restoration and enhancement\, coding\, recognitio
+ n\, multimodal fusion\, and subjective/objective quality assessment. Rend
+ ering and visualizing data\, human/biometric analysis\, and robust evalua
+ tion are recurring strands. An extensive applications list is not treated
+  as equal coverage of every application domain or every responsible-AI su
+ btopic.\nAdditional topics: Multimedia Learning & Retrieval\, Computer Gr
+ aphics & Visualization\, Biometrics & Human Sensing\, Robustness & Safety
+ \nScope sources (2026): https://euvip2026.github.io/C4P.pdf\, https://euv
+ ip2026.github.io/calls/\nScope last checked: 2026-10-07
 URL:https://euvip2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
@@ -860,27 +855,26 @@ DTEND;VALUE=DATE:20270813
 SUMMARY:[Computer Graphics & Visualization][Machine Learning] ACM SIGGRAPH 
  2027 - Conference
 DESCRIPTION:Conference title: ACM SIGGRAPH Annual Conference\nWebsite: http
- s://s2027.siggraph.org/\nSource URL: https://www.siggraph.org/siggraph-ev
- ents/conferences/\nLocation: Anaheim\, California\, USA\nTopics: Computer
-  Graphics & Visualization\, Machine Learning\, Computer Vision & Pattern 
- Recognition\nSize: XXL\nSubmission type: Technical papers / conference an
- d ACM TOG tracks\nConfidence: confirmed\nLast checked date: 2026-10-07\nN
- otes: ACM SIGGRAPH confirms Anaheim\, August 8-12\, 2027. The technical-p
- aper schedule remains an annual proxy from the 2026 CFP's explicit 22:00 
- UTC cutoffs. The later file upload is not a new paper route. This is SIGG
- RAPH\, not SIGGRAPH Asia\; ranks refer to the conference series\, not the
-  TOG journal. XXL is an editorial estimate for the overall conference and
-  exhibition.\nScope: Computer graphics and interactive techniques\, cente
- red on rendering\, geometric modeling\, animation\, physical simulation\,
-  imaging\, visualization\, and immersive visual experiences. Generative A
- I and machine learning are relevant when they advance visual computing\, 
- such as neural rendering and learned animation. Technical papers use inte
- grated conference and ACM TOG journal tracks\; this profile does not desc
- ribe SIGGRAPH Asia or all of AI.\nAdditional topics: Deep Representation 
- Learning\, Human-AI Interaction & Deployment\nScope sources (2026): https
- ://s2026.siggraph.org/program/technical-papers/\nScope last checked: 2026
- -10-07
-URL:https://www.siggraph.org/siggraph-events/conferences/
+ s://s2027.siggraph.org/\nSource URL: https://s2027.siggraph.org/\nLocatio
+ n: Anaheim\, California\, USA\nTopics: Computer Graphics & Visualization\
+ , Machine Learning\, Computer Vision & Pattern Recognition\nSize: XXL\nSu
+ bmission type: Technical papers / conference and ACM TOG tracks\nConfiden
+ ce: confirmed\nLast checked date: 2026-10-28\nNotes: The 2027 site confir
+ ms the Anaheim Convention Center\, Aug 8-12\, 2027. Its Technical Papers 
+ page (updated 2026-09-30) gives Jan 21/28/29\, 2027 at 22:00 UTC\; the ol
+ der Submit page still says TBA and no exact opening is published. The upl
+ oad step is not a new paper route. Not SIGGRAPH Asia\; ranks refer to the
+  conference\, not TOG. XXL is an editorial estimate.\nScope: Computer gra
+ phics and interactive techniques\, centered on rendering\, geometric mode
+ ling\, animation\, physical simulation\, imaging\, visualization\, and im
+ mersive visual experiences. Generative AI and machine learning are releva
+ nt when they advance visual computing\, such as neural rendering and lear
+ ned animation. Technical papers use integrated conference and ACM TOG jou
+ rnal tracks\; this profile does not describe SIGGRAPH Asia or all of AI.\
+ nAdditional topics: Deep Representation Learning\, Human-AI Interaction &
+  Deployment\nScope sources (2026): https://s2026.siggraph.org/program/tec
+ hnical-papers/\nScope last checked: 2026-10-07
+URL:https://s2027.siggraph.org/
 LOCATION:Anaheim\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
@@ -896,29 +890,29 @@ DESCRIPTION:Conference title: European Conference on Visual Information Pro
  omputer Vision & Pattern Recognition\, Machine Learning\, Deep Representa
  tion Learning\nSize: S\nSubmission type: Paper-based / visual information
   processing\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes:
-  No organizer-confirmed 2027 edition was found. Meeting and paper timing 
- are annual planning proxies from 2026's final extended deadline. The next
-  first deadline may be earlier\; do not treat a prior extension as guaran
- teed. Website and timezone belong to the previous edition\; location is u
- nannounced.\nScope: Visual information processing across image\, video\, 
- 3D\, and unconventional sensing modalities. Its defining areas are comput
- ational imaging\, restoration and enhancement\, coding\, recognition\, mu
- ltimodal fusion\, and subjective/objective quality assessment. Rendering 
- and visualizing data\, human/biometric analysis\, and robust evaluation a
- re recurring strands. An extensive applications list is not treated as eq
- ual coverage of every application domain or every responsible-AI subtopic
- .\nAdditional topics: Multimedia Learning & Retrieval\, Computer Graphics
-  & Visualization\, Biometrics & Human Sensing\, Robustness & Safety\nScop
- e sources (2026): https://euvip2026.github.io/C4P.pdf\, https://euvip2026
- .github.io/calls/\nScope last checked: 2026-10-07
+  No organizer-confirmed 2027 edition\; 2026-10-28 review found no success
+ or on the EUVIP 2026 site or programme. Meeting and paper timing are annu
+ al proxies from 2026's final extended deadline\; the first 2027 deadline 
+ may be earlier. Website and timezone belong to the 2026 edition\; locatio
+ n is unannounced.\nScope: Visual information processing across image\, vi
+ deo\, 3D\, and unconventional sensing modalities. Its defining areas are 
+ computational imaging\, restoration and enhancement\, coding\, recognitio
+ n\, multimodal fusion\, and subjective/objective quality assessment. Rend
+ ering and visualizing data\, human/biometric analysis\, and robust evalua
+ tion are recurring strands. An extensive applications list is not treated
+  as equal coverage of every application domain or every responsible-AI su
+ btopic.\nAdditional topics: Multimedia Learning & Retrieval\, Computer Gr
+ aphics & Visualization\, Biometrics & Human Sensing\, Robustness & Safety
+ \nScope sources (2026): https://euvip2026.github.io/C4P.pdf\, https://euv
+ ip2026.github.io/calls/\nScope last checked: 2026-10-07
 URL:https://euvip2026.github.io/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:iccv-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20271002
-DTEND;VALUE=DATE:20271009
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271008
 SUMMARY:[Computer Vision & Pattern Recognition][Deep Representation Learnin
  g] ICCV 2027 - Conference
 DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
@@ -926,23 +920,23 @@ DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
  ttps://iccv.thecvf.com/Conferences/2027\nLocation: Hong Kong\, China\nTop
  ics: Computer Vision & Pattern Recognition\, Deep Representation Learning
  \, Machine Learning\nSize: XXL\nSubmission type: Paper-based / OpenReview
- \nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: The 2027 h
- omepage explicitly announces October 2-8 at the Hong Kong Convention and 
- Exhibition Centre. Its Dates page conflicts with a generic October 19-23 
- placeholder and blank venue\; the named-venue homepage takes precedence p
- ending organizer reconciliation. Paper deadlines are biennial proxies fro
- m 2025's explicit 23:59 Hawaii time\, not confirmed 2027 dates. XXL is an
-  editorial estimate for the overall flagship event.\nScope: Broad compute
- r vision\, from geometry and computational imaging to visual learning\, r
- ecognition\, segmentation\, generation\, and video understanding. Vision-
- language and multimodal methods\, visual graphics\, face/body/gesture ana
- lysis\, and reliable perception are substantial strands. It is a biennial
-  flagship\, not a general AI applications conference. The current scope i
- s grounded in its 2025 CFP because the 2027 call is not yet published.\nA
- dditional topics: Computer Graphics & Visualization\, Multimedia Learning
-  & Retrieval\, Natural Language Processing & LLMs\, Biometrics & Human Se
- nsing\, Robustness & Safety\nScope sources (2025): https://iccv.thecvf.co
- m/Conferences/2025/CallForPapers\nScope last checked: 2026-10-07
+ \nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: As of 2026
+ -10-28 the 2027 homepage header and Dates page give Sun Oct 3 to Thu Oct 
+ 7 (workshops/tutorials Oct 3-4\, main conference Oct 5-7) at the Hong Kon
+ g Convention and Expo Center (HKCEC)\; the homepage venue paragraph confl
+ icts\, still saying Oct 2-8. No 2027 call is published\; paper dates are 
+ biennial proxies from 2025's 23:59 Hawaii time. XXL is an editorial estim
+ ate.\nScope: Broad computer vision\, from geometry and computational imag
+ ing to visual learning\, recognition\, segmentation\, generation\, and vi
+ deo understanding. Vision-language and multimodal methods\, visual graphi
+ cs\, face/body/gesture analysis\, and reliable perception are substantial
+  strands. It is a biennial flagship\, not a general AI applications confe
+ rence. The current scope is grounded in its 2025 CFP because the 2027 cal
+ l is not yet published.\nAdditional topics: Computer Graphics & Visualiza
+ tion\, Multimedia Learning & Retrieval\, Natural Language Processing & LL
+ Ms\, Biometrics & Human Sensing\, Robustness & Safety\nScope sources (202
+ 5): https://iccv.thecvf.com/Conferences/2025/CallForPapers\nScope last ch
+ ecked: 2026-10-07
 URL:https://iccv.thecvf.com/Conferences/2027
 LOCATION:Hong Kong\, China
 END:VEVENT
@@ -958,21 +952,21 @@ DESCRIPTION:Conference title: European Conference on Computer Vision\nWebsi
  /2026/Dates\nLocation: To be announced\nTopics: Computer Vision & Pattern
   Recognition\, Deep Representation Learning\, Machine Learning\nSize: XXL
  \nSubmission type: Paper-based / Springer proceedings\nConfidence: estima
- ted\nLast checked date: 2026-10-07\nNotes: No official 2028 schedule or l
- ocation was found. Meeting and main-paper dates are two-year proxies from
-  ECCV 2026\; no annual 2027 edition is invented. The source links and tim
- ezone refer to the prior edition\, not a confirmed 2028 host. Only the ne
- xt paper route is projected\, not every ancillary event.\nScope: Broad re
- search in visual perception\, representation learning\, recognition\, seg
- mentation\, 3D geometry and reconstruction\, computational imaging\, and 
- image/video synthesis. Vision-language models\, multimodal understanding\
- , human motion and appearance\, and robust visual systems extend this cor
- e. ECCV is the biennial European flagship for computer vision\; the scope
-  uses the actual published 2026 CFP\, not an invented 2028 call.\nAdditio
- nal topics: Computer Graphics & Visualization\, Multimedia Learning & Ret
- rieval\, Natural Language Processing & LLMs\, Biometrics & Human Sensing\
- , Robustness & Safety\nScope sources (2026): https://eccv.ecva.net/Confer
- ences/2026/CallForPapers\nScope last checked: 2026-10-07
+ ted\nLast checked date: 2026-10-28\nNotes: As of 2026-10-28 the ECCV site
+  still shows only 2026 (no 2028 page) and the ECVA and CVF conference lis
+ ts name no 2028 host. Meeting and main-paper dates are two-year proxies f
+ rom ECCV 2026's 22:00 UTC cutoffs\; no annual 2027 edition is invented. T
+ he timezone refers to the prior edition\, not a 2028 host.\nScope: Broad 
+ research in visual perception\, representation learning\, recognition\, s
+ egmentation\, 3D geometry and reconstruction\, computational imaging\, an
+ d image/video synthesis. Vision-language models\, multimodal understandin
+ g\, human motion and appearance\, and robust visual systems extend this c
+ ore. ECCV is the biennial European flagship for computer vision\; the sco
+ pe uses the actual published 2026 CFP\, not an invented 2028 call.\nAddit
+ ional topics: Computer Graphics & Visualization\, Multimedia Learning & R
+ etrieval\, Natural Language Processing & LLMs\, Biometrics & Human Sensin
+ g\, Robustness & Safety\nScope sources (2026): https://eccv.ecva.net/Conf
+ erences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://eccv.ecva.net/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -987,21 +981,21 @@ DESCRIPTION:Conference title: European Conference on Computer Vision\nWebsi
  /2026/Dates\nLocation: To be announced\nTopics: Computer Vision & Pattern
   Recognition\, Deep Representation Learning\, Machine Learning\nSize: XXL
  \nSubmission type: Paper-based / Springer proceedings\nConfidence: estima
- ted\nLast checked date: 2026-10-07\nNotes: No official 2028 schedule or l
- ocation was found. Meeting and main-paper dates are two-year proxies from
-  ECCV 2026\; no annual 2027 edition is invented. The source links and tim
- ezone refer to the prior edition\, not a confirmed 2028 host. Only the ne
- xt paper route is projected\, not every ancillary event.\nScope: Broad re
- search in visual perception\, representation learning\, recognition\, seg
- mentation\, 3D geometry and reconstruction\, computational imaging\, and 
- image/video synthesis. Vision-language models\, multimodal understanding\
- , human motion and appearance\, and robust visual systems extend this cor
- e. ECCV is the biennial European flagship for computer vision\; the scope
-  uses the actual published 2026 CFP\, not an invented 2028 call.\nAdditio
- nal topics: Computer Graphics & Visualization\, Multimedia Learning & Ret
- rieval\, Natural Language Processing & LLMs\, Biometrics & Human Sensing\
- , Robustness & Safety\nScope sources (2026): https://eccv.ecva.net/Confer
- ences/2026/CallForPapers\nScope last checked: 2026-10-07
+ ted\nLast checked date: 2026-10-28\nNotes: As of 2026-10-28 the ECCV site
+  still shows only 2026 (no 2028 page) and the ECVA and CVF conference lis
+ ts name no 2028 host. Meeting and main-paper dates are two-year proxies f
+ rom ECCV 2026's 22:00 UTC cutoffs\; no annual 2027 edition is invented. T
+ he timezone refers to the prior edition\, not a 2028 host.\nScope: Broad 
+ research in visual perception\, representation learning\, recognition\, s
+ egmentation\, 3D geometry and reconstruction\, computational imaging\, an
+ d image/video synthesis. Vision-language models\, multimodal understandin
+ g\, human motion and appearance\, and robust visual systems extend this c
+ ore. ECCV is the biennial European flagship for computer vision\; the sco
+ pe uses the actual published 2026 CFP\, not an invented 2028 call.\nAddit
+ ional topics: Computer Graphics & Visualization\, Multimedia Learning & R
+ etrieval\, Natural Language Processing & LLMs\, Biometrics & Human Sensin
+ g\, Robustness & Safety\nScope sources (2026): https://eccv.ecva.net/Conf
+ erences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://eccv.ecva.net/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -1016,21 +1010,21 @@ DESCRIPTION:Conference title: European Conference on Computer Vision\nWebsi
  /2026/Dates\nLocation: To be announced\nTopics: Computer Vision & Pattern
   Recognition\, Deep Representation Learning\, Machine Learning\nSize: XXL
  \nSubmission type: Paper-based / Springer proceedings\nConfidence: estima
- ted\nLast checked date: 2026-10-07\nNotes: No official 2028 schedule or l
- ocation was found. Meeting and main-paper dates are two-year proxies from
-  ECCV 2026\; no annual 2027 edition is invented. The source links and tim
- ezone refer to the prior edition\, not a confirmed 2028 host. Only the ne
- xt paper route is projected\, not every ancillary event.\nScope: Broad re
- search in visual perception\, representation learning\, recognition\, seg
- mentation\, 3D geometry and reconstruction\, computational imaging\, and 
- image/video synthesis. Vision-language models\, multimodal understanding\
- , human motion and appearance\, and robust visual systems extend this cor
- e. ECCV is the biennial European flagship for computer vision\; the scope
-  uses the actual published 2026 CFP\, not an invented 2028 call.\nAdditio
- nal topics: Computer Graphics & Visualization\, Multimedia Learning & Ret
- rieval\, Natural Language Processing & LLMs\, Biometrics & Human Sensing\
- , Robustness & Safety\nScope sources (2026): https://eccv.ecva.net/Confer
- ences/2026/CallForPapers\nScope last checked: 2026-10-07
+ ted\nLast checked date: 2026-10-28\nNotes: As of 2026-10-28 the ECCV site
+  still shows only 2026 (no 2028 page) and the ECVA and CVF conference lis
+ ts name no 2028 host. Meeting and main-paper dates are two-year proxies f
+ rom ECCV 2026's 22:00 UTC cutoffs\; no annual 2027 edition is invented. T
+ he timezone refers to the prior edition\, not a 2028 host.\nScope: Broad 
+ research in visual perception\, representation learning\, recognition\, s
+ egmentation\, 3D geometry and reconstruction\, computational imaging\, an
+ d image/video synthesis. Vision-language models\, multimodal understandin
+ g\, human motion and appearance\, and robust visual systems extend this c
+ ore. ECCV is the biennial European flagship for computer vision\; the sco
+ pe uses the actual published 2026 CFP\, not an invented 2028 call.\nAddit
+ ional topics: Computer Graphics & Visualization\, Multimedia Learning & R
+ etrieval\, Natural Language Processing & LLMs\, Biometrics & Human Sensin
+ g\, Robustness & Safety\nScope sources (2026): https://eccv.ecva.net/Conf
+ erences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://eccv.ecva.net/Conferences/2026/Dates
 LOCATION:To be announced
 END:VEVENT

@@ -306,18 +306,24 @@ END:VEVENT
 BEGIN:VEVENT
 UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260531T135900Z
-DTEND:20260531T145900Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
 SUMMARY:[Machine Learning][Deep Representation Learning] ICONIP 2026 - Pape
- r submission deadline
+ r submission deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: International Conference on Neural Informatio
  n Processing\nWebsite: https://www.iconip2026.org/\nSource URL: https://w
- ww.iconip2026.org/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
- ning\, Deep Representation Learning\, Computational Neuroscience\, Signal
-  Processing\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed
- \nLast checked date: 2026-08-20\nNotes: Official ICONIP 2026 site lists M
- elbourne\, Nov 23-27\, and the extended paper deadline.
-URL:https://www.iconip2026.org/
+ ww.iconip2026.org/call-for-papers\nLocation: Melbourne\, Australia\nTopic
+ s: Machine Learning\, Deep Representation Learning\, Computational Neuros
+ cience\, Signal Processing\nSize: L\nSubmission type: Paper-based\nConfid
+ ence: confirmed\nLast checked date: 2026-10-28\nNotes: Official ICONIP 20
+ 26 site (checked 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper
+  deadline was extended to May 31\, 2026 (no cutoff hour stated). An Oct 2
+ 8\, 2026 notice extends 2-page extended-abstract submissions to Nov 10\, 
+ 2026 (no hour)\; accepted abstracts must be registered and presented in p
+ erson as posters\, in a separate open-access abstract publication.\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://www.iconip2026.org/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:sfn-neuroscience-2026-deadline-abstract@scientific-conference-calendar
@@ -927,22 +933,69 @@ DESCRIPTION:Conference title: International Conference on Cognitive Neurody
  cience & Computational Cognition\, Nonlinear Dynamics & Chaos\, Complex S
  ystems & Network Science\nSize: M\nSubmission type: Abstract-based\; publ
  ication unconfirmed\nConfidence: estimated\nLast checked date: 2026-10-08
- \nNotes: The organizer page body lists October 22-25\, while its metadata
-  says October 27-30\, and the live domain was unreachable on review. Date
- s remain provisional pending organizer confirmation. No submission deadli
- ne or current proceedings promise was verified. Earlier editions have Spr
- inger edited proceedings\; do not confuse this series with clinical neuro
- physiology congresses also abbreviated ICCN. Size is an editorial estimat
- e.\nScope: Cognitive neurodynamics and the relation between neural dynami
- cs\, computation\, cognition and behavior. The meeting connects theoretic
- al and computational neuroscience with nonlinear dynamics and complex neu
- ral systems. Current submission and publication details require organizer
-  confirmation\; historical edited proceedings are not a guarantee for 202
- 6.\nAdditional topics: Systems & Experimental Neuroscience\nScope sources
-  (2026): https://iccn2026.jp/\, https://link.springer.com/book/10.1007/97
- 8-981-16-0317-4\nScope last checked: 2026-10-08
+ \nNotes: Organizer page body listed October 22-25 but its metadata said O
+ ctober 27-30\; dates stay provisional. In the 2026-10-28 review iccn2026.
+ jp did not resolve (JPRS whois status Suspended\, updated 2026-10-01)\; d
+ ates unchanged and unverified\, and no successor edition was found. No de
+ adline or proceedings promise verified. Not the clinical ICCN congresses.
+  Size is an editorial estimate.\nScope: Cognitive neurodynamics and the r
+ elation between neural dynamics\, computation\, cognition and behavior. T
+ he meeting connects theoretical and computational neuroscience with nonli
+ near dynamics and complex neural systems. Current submission and publicat
+ ion details require organizer confirmation\; historical edited proceeding
+ s are not a guarantee for 2026.\nAdditional topics: Systems & Experimenta
+ l Neuroscience\nScope sources (2026): https://iccn2026.jp/\, https://link
+ .springer.com/book/10.1007/978-981-16-0317-4\nScope last checked: 2026-10
+ -08
 URL:https://iccn2026.jp/
 LOCATION:Osaka\, Japan
+END:VEVENT
+BEGIN:VEVENT
+UID:international-bci-meeting-2027-deadline-concurrent-session-proposal@sci
+ entific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] International BCI
+  Meeting 2027 - Concurrent session (workshop/symposium) proposal deadline
+  (cutoff time unannounced)
+DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
+ g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
+ ociety.org/concurrent-proposal/\nLocation: Sibenik\, Croatia\nTopics: BCI
+  & Neurotechnology\, EEG/MEG & Neural Signals\, Computational Neuroscienc
+ e\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Abstract
+ /community-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nN
+ otes: Official BCI Society pages confirm the 12th International BCI Meeti
+ ng\, June 7-10\, 2027\, Convention Centre Sibenik. One-page poster/oral a
+ bstracts (public abstract book) are due Jan 15\, 2027\; the call opens No
+ v 9\, 2026. No cutoff hour/zone is stated\, so T23:59 AoE is provisional\
+ ; the society says exact dates are subject to change.\nOfficial deadline 
+ day\; exact cutoff hour/timezone is unannounced. Verify the organizer's s
+ ubmission portal.
+URL:https://bcisociety.org/concurrent-proposal/
+END:VEVENT
+BEGIN:VEVENT
+UID:iconip-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:[Machine Learning][Deep Representation Learning] ICONIP 2026 - Exte
+ nded abstract (2-page\, in-person poster) submission deadline (extended) 
+ (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Neural Informatio
+ n Processing\nWebsite: https://www.iconip2026.org/\nSource URL: https://w
+ ww.iconip2026.org/news\nLocation: Melbourne\, Australia\nTopics: Machine 
+ Learning\, Deep Representation Learning\, Computational Neuroscience\, Si
+ gnal Processing\nSize: L\nSubmission type: Paper-based\nConfidence: confi
+ rmed\nLast checked date: 2026-10-28\nNotes: Official ICONIP 2026 site (ch
+ ecked 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper deadline w
+ as extended to May 31\, 2026 (no cutoff hour stated). An Oct 28\, 2026 no
+ tice extends 2-page extended-abstract submissions to Nov 10\, 2026 (no ho
+ ur)\; accepted abstracts must be registered and presented in person as po
+ sters\, in a separate open-access abstract publication.\nOfficial deadlin
+ e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
+  submission portal.
+URL:https://www.iconip2026.org/news
 END:VEVENT
 BEGIN:VEVENT
 UID:nice-2027-deadline-regular-paper@scientific-conference-calendar
@@ -1042,8 +1095,12 @@ DESCRIPTION:Conference title: International Conference on Neural Informatio
  ww.iconip2026.org/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
  ning\, Deep Representation Learning\, Computational Neuroscience\, Signal
   Processing\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed
- \nLast checked date: 2026-08-20\nNotes: Official ICONIP 2026 site lists M
- elbourne\, Nov 23-27\, and the extended paper deadline.
+ \nLast checked date: 2026-10-28\nNotes: Official ICONIP 2026 site (checke
+ d 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper deadline was e
+ xtended to May 31\, 2026 (no cutoff hour stated). An Oct 28\, 2026 notice
+  extends 2-page extended-abstract submissions to Nov 10\, 2026 (no hour)\
+ ; accepted abstracts must be registered and presented in person as poster
+ s\, in a separate open-access abstract publication.
 URL:https://www.iconip2026.org/
 LOCATION:Melbourne\, Australia
 END:VEVENT
@@ -1167,20 +1224,24 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261216T115900Z
-DTEND:20261216T125900Z
+DTSTART:20261215T045900Z
+DTEND:20261215T055900Z
 SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
- - Abstract submission deadline (estimated)
+ - Poster abstract submission deadline
 DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
- tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
- s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
-  Clinical AI\, Computational Neuroscience\nSize: XL\nSubmission type: Abs
- tract-based / talks selective\nConfidence: estimated\nLast checked date: 
- 2026-10-05\nNotes: Official OHBM 2027 page confirms Toronto and Jun 26-30
- \, 2027\; it publishes the abstract window only as December 2026\, so the
-  exact deadline remains estimated.
-URL:https://humanbrainmapping.org/ohbm-2027/
+ tps://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract_Sub
+ mission_Guidelines_FINAL.docx.pdf\nLocation: Toronto\, Canada\nTopics: Ne
+ uroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare & Clin
+ ical AI\, Computational Neuroscience\nSize: XL\nSubmission type: Abstract
+ -based / talks selective\nConfidence: confirmed\nLast checked date: 2026-
+ 10-28\nNotes: Official OHBM 2027 pages confirm Toronto (Metro Toronto Con
+ vention Centre)\, Jun 26-30\, 2027. The submission site opens Mon Nov 2\,
+  2026 (day only)\; abstracts are due Mon Dec 14\, 2026 at 11:59 p.m. EST\
+ , the same close as symposium\, course and roundtable proposals. At least
+  one author must present in person\; decisions by Feb 2027.
+URL:https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract
+ _Submission_Guidelines_FINAL.docx.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:nice-2027-deadline-notification@scientific-conference-calendar
@@ -1244,20 +1305,54 @@ BEGIN:VEVENT
 UID:international-bci-meeting-2027-deadline-abstract@scientific-conference-
  calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270116T115900Z
-DTEND:20270116T125900Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
 SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] International BCI
-  Meeting 2027 - Abstract submission deadline
+  Meeting 2027 - Abstract submission deadline (poster/oral) (cutoff time u
+ nannounced)
 DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
- ociety.org/bci-meeting/\nLocation: Sibenik\, Croatia\nTopics: BCI & Neuro
- technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
- n-AI Interaction & Deployment\nSize: M\nSubmission type: Abstract/communi
- ty-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Of
- ficial BCI Society page lists the 12th International BCI Meeting in Siben
- ik\, Croatia\, June 7-10\, 2027\, with poster/oral abstract submission du
- e Jan 15\, 2027.
-URL:https://bcisociety.org/bci-meeting/
+ ociety.org/bci-meeting/abstract-submission/\nLocation: Sibenik\, Croatia\
+ nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\, Computational
+  Neuroscience\, Human-AI Interaction & Deployment\nSize: M\nSubmission ty
+ pe: Abstract/community-based\nConfidence: confirmed\nLast checked date: 2
+ 026-10-28\nNotes: Official BCI Society pages confirm the 12th Internation
+ al BCI Meeting\, June 7-10\, 2027\, Convention Centre Sibenik. One-page p
+ oster/oral abstracts (public abstract book) are due Jan 15\, 2027\; the c
+ all opens Nov 9\, 2026. No cutoff hour/zone is stated\, so T23:59 AoE is 
+ provisional\; the society says exact dates are subject to change.\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
+URL:https://bcisociety.org/bci-meeting/abstract-submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 8-page proceedings paper abstract deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ The official CCN 2027 site (2027.ccneuro.org\, redirecting to ccneuro.org
+  on 2026-10-28) confirms the Edinburgh International Conference Centre\, 
+ Jul 26-29\, with end-of-day AoE deadlines for the 8-page abstract (Feb 1)
+ \, full paper (Feb 4) and 2-page extended abstract (Apr 1). Event proposa
+ ls (GACs\, community events) are due Mar 18\; a fuller dates page is pend
+ ing.\nScope: Cognitive computational neuroscience\, connecting experiment
+ s and models of brain computation with artificial intelligence. Character
+ istic work compares biological and artificial representations\, models pe
+ rception\, cognition and action\, studies neural connectivity and dynamic
+ s\, and uses mechanistic interpretability to understand neural-network mo
+ dels. The aim is understanding computation and behavior across brains and
+  AI systems.\nAdditional topics: Cognitive Science & Computational Cognit
+ ion\, Explainability & Interpretability\nScope sources (2027): https://20
+ 27.ccneuro.org/\nScope last checked: 2026-10-07
+URL:https://2027.ccneuro.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:nice-2027-deadline-late-abstract@scientific-conference-calendar
@@ -1296,76 +1391,78 @@ SUMMARY:[Cognitive Science & Computational Cognition][Computational Neurosc
  ience] CogSci 2027 - Contributed paper submission deadline (estimated)
 DESCRIPTION:Conference title: Annual Meeting of the Cognitive Science Socie
  ty\nWebsite: https://cognitivesciencesociety.org/cogsci-2027/\nSource URL
- : https://cognitivesciencesociety.org/cogsci-2026/\nLocation: Bilbao\, Sp
+ : https://cognitivesciencesociety.org/submissions/\nLocation: Bilbao\, Sp
  ain\nTopics: Cognitive Science & Computational Cognition\, Computational 
  Neuroscience\, Machine Learning\, Natural Language Processing & LLMs\nSiz
  e: L\nSubmission type: Paper-based / abstract presentations\nConfidence: 
- estimated\nLast checked date: 2026-10-07\nNotes: Society confirms Bilbao\
- , Euskalduna Convention Centre\, Jul 28-31. No 2027 submission timetable 
- found. The paper deadline is a Feb 2 proxy from the prior annual meeting\
- ; the cutoff hour and submission tracks need reconfirmation. Size L is an
-  editorial estimate.\nScope: Interdisciplinary study of cognition and the
-  mind\, connecting psychology\, linguistics\, artificial intelligence\, n
- euroscience\, philosophy\, anthropology\, and education. Computational mo
- dels and experiments should illuminate cognitive processes and behavior. 
- An AI paper belongs here through its contribution to understanding cognit
- ion\, not solely through a predictive performance improvement.\nAdditiona
- l topics: \nScope sources (2026): https://cognitivesciencesociety.org/sub
- missions-faq/\, https://cognitivesciencesociety.org/\nScope last checked:
-  2026-10-07
-URL:https://cognitivesciencesociety.org/cogsci-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:ccn-2027-deadline-full-paper-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270210T115900Z
-DTEND:20270210T125900Z
-SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
-  - 8-page paper abstract deadline (estimated)
-DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
- ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
- ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
- : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
- g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
- oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
-  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
- remain prior-edition timing estimates until the 2027 CFP is released.\nSc
- ope: Cognitive computational neuroscience\, connecting experiments and mo
- dels of brain computation with artificial intelligence. Characteristic wo
- rk compares biological and artificial representations\, models perception
- \, cognition and action\, studies neural connectivity and dynamics\, and 
- uses mechanistic interpretability to understand neural-network models. Th
- e aim is understanding computation and behavior across brains and AI syst
- ems.\nAdditional topics: Cognitive Science & Computational Cognition\, Ex
- plainability & Interpretability\nScope sources (2027): https://2027.ccneu
- ro.org/\nScope last checked: 2026-10-07
-URL:https://2026.ccneuro.org/dates-and-deadlines/
+ estimated\nLast checked date: 2026-10-28\nNotes: Society confirms Bilbao\
+ , Euskalduna Convention Centre\, Jul 28-31. As of 2026-10-28 no 2027 call
+  is published\; the society submissions page still shows the 2026 call (N
+ ov 26-Feb 2\, midnight "UTC-11" yet open while the date lasts anywhere). 
+ The Feb 2 paper deadline is a proxy\; tracks and cutoff need reconfirmati
+ on. Size L is an editorial estimate.\nScope: Interdisciplinary study of c
+ ognition and the mind\, connecting psychology\, linguistics\, artificial 
+ intelligence\, neuroscience\, philosophy\, anthropology\, and education. 
+ Computational models and experiments should illuminate cognitive processe
+ s and behavior. An AI paper belongs here through its contribution to unde
+ rstanding cognition\, not solely through a predictive performance improve
+ ment.\nAdditional topics: \nScope sources (2026): https://cognitivescienc
+ esociety.org/submissions-faq/\, https://cognitivesciencesociety.org/\nSco
+ pe last checked: 2026-10-07
+URL:https://cognitivesciencesociety.org/submissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:ccn-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270213T115900Z
-DTEND:20270213T125900Z
+DTSTART:20270205T115900Z
+DTEND:20270205T125900Z
 SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
-  - 8-page full paper submission deadline (estimated)
+  - 8-page proceedings full paper submission deadline
 DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
- ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
- ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
- : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
- g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
- oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
-  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
- remain prior-edition timing estimates until the 2027 CFP is released.\nSc
- ope: Cognitive computational neuroscience\, connecting experiments and mo
- dels of brain computation with artificial intelligence. Characteristic wo
- rk compares biological and artificial representations\, models perception
- \, cognition and action\, studies neural connectivity and dynamics\, and 
- uses mechanistic interpretability to understand neural-network models. Th
- e aim is understanding computation and behavior across brains and AI syst
- ems.\nAdditional topics: Cognitive Science & Computational Cognition\, Ex
- plainability & Interpretability\nScope sources (2027): https://2027.ccneu
- ro.org/\nScope last checked: 2026-10-07
-URL:https://2026.ccneuro.org/dates-and-deadlines/
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ The official CCN 2027 site (2027.ccneuro.org\, redirecting to ccneuro.org
+  on 2026-10-28) confirms the Edinburgh International Conference Centre\, 
+ Jul 26-29\, with end-of-day AoE deadlines for the 8-page abstract (Feb 1)
+ \, full paper (Feb 4) and 2-page extended abstract (Apr 1). Event proposa
+ ls (GACs\, community events) are due Mar 18\; a fuller dates page is pend
+ ing.\nScope: Cognitive computational neuroscience\, connecting experiment
+ s and models of brain computation with artificial intelligence. Character
+ istic work compares biological and artificial representations\, models pe
+ rception\, cognition and action\, studies neural connectivity and dynamic
+ s\, and uses mechanistic interpretability to understand neural-network mo
+ dels. The aim is understanding computation and behavior across brains and
+  AI systems.\nAdditional topics: Cognitive Science & Computational Cognit
+ ion\, Explainability & Interpretability\nScope sources (2027): https://20
+ 27.ccneuro.org/\nScope last checked: 2026-10-07
+URL:https://2027.ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:international-bci-meeting-2027-deadline-notification@scientific-confere
+ nce-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] International BCI
+  Meeting 2027 - Abstract acceptance notification (cutoff time unannounced
+ )
+DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
+ g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
+ ociety.org/bci-meeting/abstract-submission/\nLocation: Sibenik\, Croatia\
+ nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\, Computational
+  Neuroscience\, Human-AI Interaction & Deployment\nSize: M\nSubmission ty
+ pe: Abstract/community-based\nConfidence: confirmed\nLast checked date: 2
+ 026-10-28\nNotes: Official BCI Society pages confirm the 12th Internation
+ al BCI Meeting\, June 7-10\, 2027\, Convention Centre Sibenik. One-page p
+ oster/oral abstracts (public abstract book) are due Jan 15\, 2027\; the c
+ all opens Nov 9\, 2026. No cutoff hour/zone is stated\, so T23:59 AoE is 
+ provisional\; the society says exact dates are subject to change.\nOffici
+ al deadline day\; exact cutoff hour/timezone is unannounced. Verify the o
+ rganizer's submission portal.
+URL:https://bcisociety.org/bci-meeting/abstract-submission/
 END:VEVENT
 BEGIN:VEVENT
 UID:complenet-2027-conference@scientific-conference-calendar
@@ -1454,18 +1551,19 @@ DESCRIPTION:Conference title: Conference on Computational Natural Language
  \nTopics: Natural Language Processing & LLMs\, Cognitive Science & Comput
  ational Cognition\, Computational Neuroscience\, Explainability & Interpr
  etability\nSize: S\nSubmission type: Paper-based\nConfidence: estimated\n
- Last checked date: 2026-10-07\nNotes: Annual series. Meeting is a one-yea
- r proxy from the confirmed 2026 meeting\; paper timing is a two-year prox
- y from the last retrievable 2025 direct-submission CFP\, not verified 202
- 6 timing. Host/co-location and submission mechanism require confirmation.
-  Size is an editorial estimate.\nScope: Scientifically\, cognitively\, an
- d linguistically motivated computational language learning. Characteristi
- c work concerns language acquisition\, psycholinguistics\, grammars and m
- eaning\, multilinguality\, language and the brain\, and grounded language
-  models. This is a focused scientific NLP venue rather than a generic emp
- irical language-model benchmark conference.\nAdditional topics: Deep Repr
- esentation Learning\, Multimedia Learning & Retrieval\nScope sources (202
- 6): https://www.conll.org/2026\nScope last checked: 2026-10-07
+ Last checked date: 2026-10-28\nNotes: As of 2026-10-28 conll.org publishe
+ s no 2027 dates\, host\, co-location or call. Meeting is a one-year proxy
+  from 2026 (co-located with ACL)\; ACL 2027 is Aug 17-22\, so it may shif
+ t. Paper timing is a two-year proxy from the 2025 direct-submission CFP\,
+  since 2026 pages no longer show deadlines. Size is an editorial estimate
+ .\nScope: Scientifically\, cognitively\, and linguistically motivated com
+ putational language learning. Characteristic work concerns language acqui
+ sition\, psycholinguistics\, grammars and meaning\, multilinguality\, lan
+ guage and the brain\, and grounded language models. This is a focused sci
+ entific NLP venue rather than a generic empirical language-model benchmar
+ k conference.\nAdditional topics: Deep Representation Learning\, Multimed
+ ia Learning & Retrieval\nScope sources (2026): https://www.conll.org/2026
+ \nScope last checked: 2026-10-07
 URL:https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -1482,50 +1580,58 @@ DESCRIPTION:Conference title: International Conference on Artificial Neural
  sing\nSize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast 
  checked date: 2026-10-06\nNotes: Provisional 1-year cadence projection fr
  om ICANN 2026. Meeting dates\, location\, and deadlines require organizer
-  confirmation\; website and source links refer to the prior edition.
+  confirmation\; website and source links refer to the prior edition. 2026
+ -10-28 review - ENNS home\, news and ICANNs pages show no ICANN 2027 anno
+ uncement yet\; dates unchanged.
 URL:https://e-nns.org/icann2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:cns-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270319T115900Z
-DTEND:20270319T125900Z
+DTSTART:20270319T060000Z
+DTEND:20270319T070000Z
 SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
  27 - Abstract submission deadline (estimated)
 DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
  bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/cns-20
- 26-dates\nLocation: Gran Canaria\, Spain\nTopics: Computational Neuroscie
- nce\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmissi
- on type: Abstract-based\nConfidence: estimated\nLast checked date: 2026-1
- 0-06\nNotes: OCNS confirms Gran Canaria\, Jul 10-14. Abstract deadline re
- mains a prior-edition timing estimate.
-URL:https://www.cnsorg.org/cns-2026-dates
+ 26-abstract-submission\nLocation: Gran Canaria\, Spain\nTopics: Computati
+ onal Neuroscience\, Time Series & Sequential Data\, Machine Learning\nSiz
+ e: M\nSubmission type: Abstract-based\nConfidence: estimated\nLast checke
+ d date: 2026-10-28\nNotes: OCNS confirms CNS*2027 in Gran Canaria\, Jul 1
+ 0-14 (no venue or city named). As of 2026-10-28 no 2027 call is published
+ \; the abstract proxy repeats the 2026 extended deadline (Mar 18\, 11 PM 
+ Pacific). In 2026 the corresponding author had to register before submitt
+ ing an abstract.
+URL:https://www.cnsorg.org/cns-2026-abstract-submission
 END:VEVENT
 BEGIN:VEVENT
 UID:ccn-2027-deadline-extended-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270403T115900Z
-DTEND:20270403T125900Z
+DTSTART:20270402T115900Z
+DTEND:20270402T125900Z
 SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
-  - 2-page extended abstract submission deadline (estimated)
+  - 2-page extended abstract submission deadline
 DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
- ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
- ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
- : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
- g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
- oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
-  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
- remain prior-edition timing estimates until the 2027 CFP is released.\nSc
- ope: Cognitive computational neuroscience\, connecting experiments and mo
- dels of brain computation with artificial intelligence. Characteristic wo
- rk compares biological and artificial representations\, models perception
- \, cognition and action\, studies neural connectivity and dynamics\, and 
- uses mechanistic interpretability to understand neural-network models. Th
- e aim is understanding computation and behavior across brains and AI syst
- ems.\nAdditional topics: Cognitive Science & Computational Cognition\, Ex
- plainability & Interpretability\nScope sources (2027): https://2027.ccneu
- ro.org/\nScope last checked: 2026-10-07
-URL:https://2026.ccneuro.org/dates-and-deadlines/
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ The official CCN 2027 site (2027.ccneuro.org\, redirecting to ccneuro.org
+  on 2026-10-28) confirms the Edinburgh International Conference Centre\, 
+ Jul 26-29\, with end-of-day AoE deadlines for the 8-page abstract (Feb 1)
+ \, full paper (Feb 4) and 2-page extended abstract (Apr 1). Event proposa
+ ls (GACs\, community events) are due Mar 18\; a fuller dates page is pend
+ ing.\nScope: Cognitive computational neuroscience\, connecting experiment
+ s and models of brain computation with artificial intelligence. Character
+ istic work compares biological and artificial representations\, models pe
+ rception\, cognition and action\, studies neural connectivity and dynamic
+ s\, and uses mechanistic interpretability to understand neural-network mo
+ dels. The aim is understanding computation and behavior across brains and
+  AI systems.\nAdditional topics: Cognitive Science & Computational Cognit
+ ion\, Explainability & Interpretability\nScope sources (2027): https://20
+ 27.ccneuro.org/\nScope last checked: 2026-10-07
+URL:https://2027.ccneuro.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:nice-2027-conference@scientific-conference-calendar
@@ -1572,18 +1678,49 @@ DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
  tification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-bas
  ed\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Unannoun
  ced next annual edition. Meeting dates and the contributed abstract deadl
- ine are one-year proxies from 2026\, with no assumed host location. Size 
- is an editorial estimate.\nScope: Theory and applications of nonlinear dy
- namics: chaos\, bifurcations\, synchronization\, pattern formation\, comp
- lex networks\, stochastic dynamics and time-series analysis. ML and neuro
- dynamics are characteristic interdisciplinary extensions. Contributed tal
- ks and posters use abstracts\, while minisymposium proposals are organize
- r activity.\nAdditional topics: Machine Learning\, Computational Neurosci
- ence\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026)
- : https://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked
- : 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is unann
- ounced. Verify the organizer's submission portal.
+ ine are one-year proxies from 2026\, with no assumed host location. On 20
+ 26-10-28 the series site still listed 2026 as upcoming and no official 20
+ 27 page was found\; dates unchanged. Size is an editorial estimate.\nScop
+ e: Theory and applications of nonlinear dynamics: chaos\, bifurcations\, 
+ synchronization\, pattern formation\, complex networks\, stochastic dynam
+ ics and time-series analysis. ML and neurodynamics are characteristic int
+ erdisciplinary extensions. Contributed talks and posters use abstracts\, 
+ while minisymposium proposals are organizer activity.\nAdditional topics:
+  Machine Learning\, Computational Neuroscience\, Control & Robotics\, Gra
+ phs & Graph Learning\nScope sources (2026): https://dde-2026.sci-meet.net
+ /abstract-submission-2\nScope last checked: 2026-10-08\nOfficial deadline
+  day\; exact cutoff hour/timezone is unannounced. Verify the organizer's 
+ submission portal.
 URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:sfn-neuroscience-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270519T210000Z
+DTEND:20270519T220000Z
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
+ fN Neuroscience 2027 - Estimated regular research abstract submission dea
+ dline (estimated)
+DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
+ ite: https://www.sfn.org/meetings\nSource URL: https://www.sfn.org/cfa\nL
+ ocation: Chicago\, Illinois\, USA\nTopics: Systems & Experimental Neurosc
+ ience\, Computational Neuroscience\, Cognitive Science & Computational Co
+ gnition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmission type: Abstr
+ act-based\nConfidence: estimated\nLast checked date: 2026-10-28\nNotes: S
+ fN confirms Chicago\, Oct 23-27\, 2027\; no 2027 call is published as of 
+ 2026-10-28. The abstract date is a meeting-relative proxy (extended abstr
+ act deadlines fell 149-163 days before the 2024-2026 meetings)\, not a pu
+ blished call. No opening\, late-breaking or proceedings route is assumed.
+  Size is an editorial estimate.\nScope: Broad neuroscience annual meeting
+  spanning molecular and cellular neuroscience\, neural circuits\, systems
+  and behavioral neuroscience\, cognition\, development and disease. Compu
+ tational neuroscience\, neuroimaging and neurotechnology are relevant par
+ ts of this broad remit\, not its exclusive identity. Research abstracts a
+ re presented and archived\; they are not standard full-paper conference p
+ roceedings.\nAdditional topics: EEG/MEG & Neural Signals\, BCI & Neurotec
+ hnology\nScope sources (2026): https://www.sfn.org/cfa\, https://www.sfn.
+ org/meetings\nScope last checked: 2026-10-08
+URL:https://www.sfn.org/cfa
 END:VEVENT
 BEGIN:VEVENT
 UID:international-bci-meeting-2027-conference@scientific-conference-calenda
@@ -1598,40 +1735,14 @@ DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  ociety.org/bci-meeting/\nLocation: Sibenik\, Croatia\nTopics: BCI & Neuro
  technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
  n-AI Interaction & Deployment\nSize: M\nSubmission type: Abstract/communi
- ty-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Of
- ficial BCI Society page lists the 12th International BCI Meeting in Siben
- ik\, Croatia\, June 7-10\, 2027\, with poster/oral abstract submission du
- e Jan 15\, 2027.
+ ty-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: Of
+ ficial BCI Society pages confirm the 12th International BCI Meeting\, Jun
+ e 7-10\, 2027\, Convention Centre Sibenik. One-page poster/oral abstracts
+  (public abstract book) are due Jan 15\, 2027\; the call opens Nov 9\, 20
+ 26. No cutoff hour/zone is stated\, so T23:59 AoE is provisional\; the so
+ ciety says exact dates are subject to change.
 URL:https://bcisociety.org/bci-meeting/
 LOCATION:Sibenik\, Croatia
-END:VEVENT
-BEGIN:VEVENT
-UID:sfn-neuroscience-2027-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270610T210000Z
-DTEND:20270610T220000Z
-SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
- fN Neuroscience 2027 - Estimated regular research abstract submission dea
- dline (estimated)
-DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
- ite: https://www.sfn.org/meetings\nSource URL: https://www.sfn.org/cfa\nL
- ocation: Chicago\, Illinois\, USA\nTopics: Systems & Experimental Neurosc
- ience\, Computational Neuroscience\, Cognitive Science & Computational Co
- gnition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmission type: Abstr
- act-based\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: S
- fN confirms the Chicago meeting dates. The regular abstract deadline is a
-  one-year proxy from 2026\, not a published 2027 call. No opening date\, 
- late-breaking capacity or proceedings-paper route is assumed. Size is an 
- editorial estimate.\nScope: Broad neuroscience annual meeting spanning mo
- lecular and cellular neuroscience\, neural circuits\, systems and behavio
- ral neuroscience\, cognition\, development and disease. Computational neu
- roscience\, neuroimaging and neurotechnology are relevant parts of this b
- road remit\, not its exclusive identity. Research abstracts are presented
-  and archived\; they are not standard full-paper conference proceedings.\
- nAdditional topics: EEG/MEG & Neural Signals\, BCI & Neurotechnology\nSco
- pe sources (2026): https://www.sfn.org/cfa\, https://www.sfn.org/meetings
- \nScope last checked: 2026-10-08
-URL:https://www.sfn.org/cfa
 END:VEVENT
 BEGIN:VEVENT
 UID:ohbm-2027-conference@scientific-conference-calendar
@@ -1639,16 +1750,18 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270701
 SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
- - Conference (estimated)
+ - Conference
 DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
  tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
  s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
   Clinical AI\, Computational Neuroscience\nSize: XL\nSubmission type: Abs
- tract-based / talks selective\nConfidence: estimated\nLast checked date: 
- 2026-10-05\nNotes: Official OHBM 2027 page confirms Toronto and Jun 26-30
- \, 2027\; it publishes the abstract window only as December 2026\, so the
-  exact deadline remains estimated.
+ tract-based / talks selective\nConfidence: confirmed\nLast checked date: 
+ 2026-10-28\nNotes: Official OHBM 2027 pages confirm Toronto (Metro Toront
+ o Convention Centre)\, Jun 26-30\, 2027. The submission site opens Mon No
+ v 2\, 2026 (day only)\; abstracts are due Mon Dec 14\, 2026 at 11:59 p.m.
+  EST\, the same close as symposium\, course and roundtable proposals. At 
+ least one author must present in person\; decisions by Feb 2027.
 URL:https://humanbrainmapping.org/ohbm-2027/
 LOCATION:Toronto\, Canada
 END:VEVENT
@@ -1666,9 +1779,12 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  on/important-dates-faq/\nLocation: Lausanne\, Switzerland\nTopics: Comput
  ational Neuroscience\, EEG/MEG & Neural Signals\, Machine Learning\, Time
   Series & Sequential Data\nSize: M\nSubmission type: Abstract-based / tal
- ks selective\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes
- : Bernstein Network confirms Lausanne\, Sep 15-18. Abstract date is a pri
- or-edition timing estimate until the 2027 call appears.
+ ks selective\nConfidence: estimated\nLast checked date: 2026-10-28\nNotes
+ : Bernstein Network confirms Lausanne (SwissTech Convention Center\, EPFL
+ )\, Sep 15-18\, 2027. As of 2026-10-28 no 2027 call is published\; the ab
+ stract date is a one-year proxy from 2026. In 2026 contributed talks were
+  notified (early July) before posters (late July)\, so 2027 talk abstract
+ s may close earlier than this proxy.
 URL:https://bernstein-network.de/en/bernstein-conference/general-informatio
  n/important-dates-faq/
 END:VEVENT
@@ -1684,19 +1800,19 @@ DESCRIPTION:Conference title: Conference on Computational Natural Language
  org/\nLocation: To be announced\nTopics: Natural Language Processing & LL
  Ms\, Cognitive Science & Computational Cognition\, Computational Neurosci
  ence\, Explainability & Interpretability\nSize: S\nSubmission type: Paper
- -based\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Annu
- al series. Meeting is a one-year proxy from the confirmed 2026 meeting\; 
- paper timing is a two-year proxy from the last retrievable 2025 direct-su
- bmission CFP\, not verified 2026 timing. Host/co-location and submission 
- mechanism require confirmation. Size is an editorial estimate.\nScope: Sc
- ientifically\, cognitively\, and linguistically motivated computational l
- anguage learning. Characteristic work concerns language acquisition\, psy
- cholinguistics\, grammars and meaning\, multilinguality\, language and th
- e brain\, and grounded language models. This is a focused scientific NLP 
- venue rather than a generic empirical language-model benchmark conference
- .\nAdditional topics: Deep Representation Learning\, Multimedia Learning 
- & Retrieval\nScope sources (2026): https://www.conll.org/2026\nScope last
-  checked: 2026-10-07
+ -based\nConfidence: estimated\nLast checked date: 2026-10-28\nNotes: As o
+ f 2026-10-28 conll.org publishes no 2027 dates\, host\, co-location or ca
+ ll. Meeting is a one-year proxy from 2026 (co-located with ACL)\; ACL 202
+ 7 is Aug 17-22\, so it may shift. Paper timing is a two-year proxy from t
+ he 2025 direct-submission CFP\, since 2026 pages no longer show deadlines
+ . Size is an editorial estimate.\nScope: Scientifically\, cognitively\, a
+ nd linguistically motivated computational language learning. Characterist
+ ic work concerns language acquisition\, psycholinguistics\, grammars and 
+ meaning\, multilinguality\, language and the brain\, and grounded languag
+ e models. This is a focused scientific NLP venue rather than a generic em
+ pirical language-model benchmark conference.\nAdditional topics: Deep Rep
+ resentation Learning\, Multimedia Learning & Retrieval\nScope sources (20
+ 26): https://www.conll.org/2026\nScope last checked: 2026-10-07
 URL:https://www.conll.org/
 LOCATION:To be announced
 END:VEVENT
@@ -1708,15 +1824,15 @@ DTEND;VALUE=DATE:20270715
 SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
  27 - Conference
 DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
- bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/index.
- php?Itemid=135&id=54&option=com_content&view=article\nLocation: Gran Cana
- ria\, Spain\nTopics: Computational Neuroscience\, Time Series & Sequentia
- l Data\, Machine Learning\nSize: M\nSubmission type: Abstract-based\nConf
- idence: confirmed\nLast checked date: 2026-10-06\nNotes: OCNS confirms Gr
- an Canaria\, Jul 10-14. Abstract deadline remains a prior-edition timing 
- estimate.
-URL:https://www.cnsorg.org/index.php?Itemid=135&id=54&option=com_content&vi
- ew=article
+ bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/\nLoca
+ tion: Gran Canaria\, Spain\nTopics: Computational Neuroscience\, Time Ser
+ ies & Sequential Data\, Machine Learning\nSize: M\nSubmission type: Abstr
+ act-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: O
+ CNS confirms CNS*2027 in Gran Canaria\, Jul 10-14 (no venue or city named
+ ). As of 2026-10-28 no 2027 call is published\; the abstract proxy repeat
+ s the 2026 extended deadline (Mar 18\, 11 PM Pacific). In 2026 the corres
+ ponding author had to register before submitting an abstract.
+URL:https://www.cnsorg.org/
 LOCATION:Gran Canaria\, Spain
 END:VEVENT
 BEGIN:VEVENT
@@ -1733,15 +1849,17 @@ DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
  a-driven Dynamics\nSize: L\nSubmission type: Abstract-based\nConfidence: 
  estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next annual 
  edition. Meeting dates and the contributed abstract deadline are one-year
-  proxies from 2026\, with no assumed host location. Size is an editorial 
- estimate.\nScope: Theory and applications of nonlinear dynamics: chaos\, 
- bifurcations\, synchronization\, pattern formation\, complex networks\, s
- tochastic dynamics and time-series analysis. ML and neurodynamics are cha
- racteristic interdisciplinary extensions. Contributed talks and posters u
- se abstracts\, while minisymposium proposals are organizer activity.\nAdd
- itional topics: Machine Learning\, Computational Neuroscience\, Control &
-  Robotics\, Graphs & Graph Learning\nScope sources (2026): https://dde-20
- 26.sci-meet.net/abstract-submission-2\nScope last checked: 2026-10-08
+  proxies from 2026\, with no assumed host location. On 2026-10-28 the ser
+ ies site still listed 2026 as upcoming and no official 2027 page was foun
+ d\; dates unchanged. Size is an editorial estimate.\nScope: Theory and ap
+ plications of nonlinear dynamics: chaos\, bifurcations\, synchronization\
+ , pattern formation\, complex networks\, stochastic dynamics and time-ser
+ ies analysis. ML and neurodynamics are characteristic interdisciplinary e
+ xtensions. Contributed talks and posters use abstracts\, while minisympos
+ ium proposals are organizer activity.\nAdditional topics: Machine Learnin
+ g\, Computational Neuroscience\, Control & Robotics\, Graphs & Graph Lear
+ ning\nScope sources (2026): https://dde-2026.sci-meet.net/abstract-submis
+ sion-2\nScope last checked: 2026-10-08
 URL:https://www.dynamicsdays.org/
 LOCATION:To be announced
 END:VEVENT
@@ -1757,18 +1875,21 @@ DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
  ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
  oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
  Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
-  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: 
- CCN confirms Edinburgh\, Jul 26-29. Submission dates remain prior-edition
-  timing estimates until the 2027 CFP is released.\nScope: Cognitive compu
- tational neuroscience\, connecting experiments and models of brain comput
- ation with artificial intelligence. Characteristic work compares biologic
- al and artificial representations\, models perception\, cognition and act
- ion\, studies neural connectivity and dynamics\, and uses mechanistic int
- erpretability to understand neural-network models. The aim is understandi
- ng computation and behavior across brains and AI systems.\nAdditional top
- ics: Cognitive Science & Computational Cognition\, Explainability & Inter
- pretability\nScope sources (2027): https://2027.ccneuro.org/\nScope last 
- checked: 2026-10-07
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-28\nNotes: 
+ The official CCN 2027 site (2027.ccneuro.org\, redirecting to ccneuro.org
+  on 2026-10-28) confirms the Edinburgh International Conference Centre\, 
+ Jul 26-29\, with end-of-day AoE deadlines for the 8-page abstract (Feb 1)
+ \, full paper (Feb 4) and 2-page extended abstract (Apr 1). Event proposa
+ ls (GACs\, community events) are due Mar 18\; a fuller dates page is pend
+ ing.\nScope: Cognitive computational neuroscience\, connecting experiment
+ s and models of brain computation with artificial intelligence. Character
+ istic work compares biological and artificial representations\, models pe
+ rception\, cognition and action\, studies neural connectivity and dynamic
+ s\, and uses mechanistic interpretability to understand neural-network mo
+ dels. The aim is understanding computation and behavior across brains and
+  AI systems.\nAdditional topics: Cognitive Science & Computational Cognit
+ ion\, Explainability & Interpretability\nScope sources (2027): https://20
+ 27.ccneuro.org/\nScope last checked: 2026-10-07
 URL:https://2027.ccneuro.org/
 LOCATION:Edinburgh\, United Kingdom
 END:VEVENT
@@ -1785,19 +1906,20 @@ DESCRIPTION:Conference title: Annual Meeting of the Cognitive Science Socie
  ain\nTopics: Cognitive Science & Computational Cognition\, Computational 
  Neuroscience\, Machine Learning\, Natural Language Processing & LLMs\nSiz
  e: L\nSubmission type: Paper-based / abstract presentations\nConfidence: 
- confirmed\nLast checked date: 2026-10-07\nNotes: Society confirms Bilbao\
- , Euskalduna Convention Centre\, Jul 28-31. No 2027 submission timetable 
- found. The paper deadline is a Feb 2 proxy from the prior annual meeting\
- ; the cutoff hour and submission tracks need reconfirmation. Size L is an
-  editorial estimate.\nScope: Interdisciplinary study of cognition and the
-  mind\, connecting psychology\, linguistics\, artificial intelligence\, n
- euroscience\, philosophy\, anthropology\, and education. Computational mo
- dels and experiments should illuminate cognitive processes and behavior. 
- An AI paper belongs here through its contribution to understanding cognit
- ion\, not solely through a predictive performance improvement.\nAdditiona
- l topics: \nScope sources (2026): https://cognitivesciencesociety.org/sub
- missions-faq/\, https://cognitivesciencesociety.org/\nScope last checked:
-  2026-10-07
+ confirmed\nLast checked date: 2026-10-28\nNotes: Society confirms Bilbao\
+ , Euskalduna Convention Centre\, Jul 28-31. As of 2026-10-28 no 2027 call
+  is published\; the society submissions page still shows the 2026 call (N
+ ov 26-Feb 2\, midnight "UTC-11" yet open while the date lasts anywhere). 
+ The Feb 2 paper deadline is a proxy\; tracks and cutoff need reconfirmati
+ on. Size L is an editorial estimate.\nScope: Interdisciplinary study of c
+ ognition and the mind\, connecting psychology\, linguistics\, artificial 
+ intelligence\, neuroscience\, philosophy\, anthropology\, and education. 
+ Computational models and experiments should illuminate cognitive processe
+ s and behavior. An AI paper belongs here through its contribution to unde
+ rstanding cognition\, not solely through a predictive performance improve
+ ment.\nAdditional topics: \nScope sources (2026): https://cognitivescienc
+ esociety.org/submissions-faq/\, https://cognitivesciencesociety.org/\nSco
+ pe last checked: 2026-10-07
 URL:https://cognitivesciencesociety.org/cogsci-2027/
 LOCATION:Bilbao\, Spain
 END:VEVENT
@@ -1815,7 +1937,9 @@ DESCRIPTION:Conference title: International Conference on Artificial Neural
  sing\nSize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast 
  checked date: 2026-10-06\nNotes: Provisional 1-year cadence projection fr
  om ICANN 2026. Meeting dates\, location\, and deadlines require organizer
-  confirmation\; website and source links refer to the prior edition.
+  confirmation\; website and source links refer to the prior edition. 2026
+ -10-28 review - ENNS home\, news and ICANNs pages show no ICANN 2027 anno
+ uncement yet\; dates unchanged.
 URL:https://e-nns.org/icann2026/
 LOCATION:To be announced
 END:VEVENT
@@ -1832,9 +1956,12 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  -2027/\nLocation: Lausanne\, Switzerland\nTopics: Computational Neuroscie
  nce\, EEG/MEG & Neural Signals\, Machine Learning\, Time Series & Sequent
  ial Data\nSize: M\nSubmission type: Abstract-based / talks selective\nCon
- fidence: confirmed\nLast checked date: 2026-10-06\nNotes: Bernstein Netwo
- rk confirms Lausanne\, Sep 15-18. Abstract date is a prior-edition timing
-  estimate until the 2027 call appears.
+ fidence: confirmed\nLast checked date: 2026-10-28\nNotes: Bernstein Netwo
+ rk confirms Lausanne (SwissTech Convention Center\, EPFL)\, Sep 15-18\, 2
+ 027. As of 2026-10-28 no 2027 call is published\; the abstract date is a 
+ one-year proxy from 2026. In 2026 contributed talks were notified (early 
+ July) before posters (late July)\, so 2027 talk abstracts may close earli
+ er than this proxy.
 URL:https://bernstein-network.de/bernstein-conference/bernstein-conference-
  2027/
 LOCATION:Lausanne\, Switzerland
@@ -1851,19 +1978,20 @@ DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
  gs\nLocation: Chicago\, Illinois\, USA\nTopics: Systems & Experimental Ne
  uroscience\, Computational Neuroscience\, Cognitive Science & Computation
  al Cognition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmission type: 
- Abstract-based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNot
- es: SfN confirms the Chicago meeting dates. The regular abstract deadline
-  is a one-year proxy from 2026\, not a published 2027 call. No opening da
- te\, late-breaking capacity or proceedings-paper route is assumed. Size i
- s an editorial estimate.\nScope: Broad neuroscience annual meeting spanni
- ng molecular and cellular neuroscience\, neural circuits\, systems and be
- havioral neuroscience\, cognition\, development and disease. Computationa
- l neuroscience\, neuroimaging and neurotechnology are relevant parts of t
- his broad remit\, not its exclusive identity. Research abstracts are pres
- ented and archived\; they are not standard full-paper conference proceedi
- ngs.\nAdditional topics: EEG/MEG & Neural Signals\, BCI & Neurotechnology
- \nScope sources (2026): https://www.sfn.org/cfa\, https://www.sfn.org/mee
- tings\nScope last checked: 2026-10-08
+ Abstract-based\nConfidence: confirmed\nLast checked date: 2026-10-28\nNot
+ es: SfN confirms Chicago\, Oct 23-27\, 2027\; no 2027 call is published a
+ s of 2026-10-28. The abstract date is a meeting-relative proxy (extended 
+ abstract deadlines fell 149-163 days before the 2024-2026 meetings)\, not
+  a published call. No opening\, late-breaking or proceedings route is ass
+ umed. Size is an editorial estimate.\nScope: Broad neuroscience annual me
+ eting spanning molecular and cellular neuroscience\, neural circuits\, sy
+ stems and behavioral neuroscience\, cognition\, development and disease. 
+ Computational neuroscience\, neuroimaging and neurotechnology are relevan
+ t parts of this broad remit\, not its exclusive identity. Research abstra
+ cts are presented and archived\; they are not standard full-paper confere
+ nce proceedings.\nAdditional topics: EEG/MEG & Neural Signals\, BCI & Neu
+ rotechnology\nScope sources (2026): https://www.sfn.org/cfa\, https://www
+ .sfn.org/meetings\nScope last checked: 2026-10-08
 URL:https://www.sfn.org/meetings
 LOCATION:Chicago\, Illinois\, USA
 END:VEVENT
@@ -1876,13 +2004,15 @@ SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] A
  READNE 2028 - Estimated contributed abstract submission deadline (estimat
  ed) (cutoff time unannounced)
 DESCRIPTION:Conference title: AREADNE: Research in Encoding and Decoding of
-  Neural Ensembles\nWebsite: https://areadne.org/\nSource URL: https://are
- adne.org/\nLocation: To be announced\nTopics: Systems & Experimental Neur
- oscience\, Computational Neuroscience\, BCI & Neurotechnology\nSize: S\nS
- ubmission type: Abstract-based\nConfidence: estimated\nLast checked date:
-  2026-10-08\nNotes: Unannounced next biennial edition. Dates are two-year
-  proxies from 2026\; location is not assumed. The contribution is an abst
- ract\, not an archival paper\, and the cutoff hour is unannounced. Size i
+  Neural Ensembles\nWebsite: https://areadne.org/2028/home.html\nSource UR
+ L: https://areadne.org/2026/important-dates.html\nLocation: Milos\, Greec
+ e\nTopics: Systems & Experimental Neuroscience\, Computational Neuroscien
+ ce\, BCI & Neurotechnology\nSize: S\nSubmission type: Abstract-based\nCon
+ fidence: estimated\nLast checked date: 2026-10-28\nNotes: The official AR
+ EADNE 2028 page (early planning) lists the Eliopoulos Conference Center\,
+  Milos\, as currently scheduled for 27 Jun-1 Jul 2028. No call is publish
+ ed\; the abstract date is a two-year proxy from 2026 (closed Jan 30) and 
+ its cutoff hour is unannounced. Abstracts are not archival papers. Size i
  s an editorial estimate.\nScope: Encoding and decoding of neural ensemble
  s\, with emphasis on systems neuroscience\, neural population recordings\
  , neural representations\, computation and links to behavior. It is a foc
@@ -1893,7 +2023,7 @@ DESCRIPTION:Conference title: AREADNE: Research in Encoding and Decoding of
  26): https://areadne.org/\nScope last checked: 2026-10-08\nOfficial deadl
  ine day\; exact cutoff hour/timezone is unannounced. Verify the organizer
  's submission portal.
-URL:https://areadne.org/
+URL:https://areadne.org/2026/important-dates.html
 END:VEVENT
 BEGIN:VEVENT
 UID:biomag-2028-deadline-abstract@scientific-conference-calendar
@@ -1901,16 +2031,19 @@ DTSTAMP:19700101T000000Z
 DTSTART:20280501T115900Z
 DTEND:20280501T125900Z
 SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
- 8 - Abstract submission deadline (estimated)
+ 8 - Estimated abstract submission deadline (estimated)
 DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  site: https://mm.scimeeting.cn/en/web/index/31426\nSource URL: https://mm
  .scimeeting.cn/en/web/index/31426\nLocation: To be announced\nTopics: EEG
  /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
  oscience\, Signal Processing\nSize: M\nSubmission type: Abstract-based / 
  specialist venue\nConfidence: estimated\nLast checked date: 2026-10-06\nN
- otes: Provisional 2-year cadence projection from BIOMAG 2026. Meeting dat
- es\, location\, and deadlines require organizer confirmation\; website an
- d source links refer to the prior edition.
+ otes: Provisional 2-year cadence projection from BIOMAG 2026\; dates\, ve
+ nue and deadline await an official 2028 site\, and links refer to the pri
+ or edition. An archived BIOMAG 2024 page names the winning 2028 bid (Univ
+ . G. d'Annunzio Chieti-Pescara\, Montesilvano Marina\, Pescara\, Italy). 
+ On 2026-10-28 no live 2028 page was found and biomag2024.org redirected t
+ o an unrelated site\; dates unchanged.
 URL:https://mm.scimeeting.cn/en/web/index/31426
 END:VEVENT
 BEGIN:VEVENT
@@ -1926,17 +2059,19 @@ DESCRIPTION:Conference title: International Conference on Simulation of Ada
  opics: Artificial Life & Adaptive Systems\, Computational Neuroscience\, 
  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: M
  \nSubmission type: Reviewed papers + non-archival contributions\nConfiden
- ce: estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next bie
- nnial edition\; meeting dates and deadlines are two-year proxies from 202
- 6\, and no host location is assumed. Size is an editorial estimate.\nScop
- e: Understanding adaptive behavior through biological and artificial agen
- ts\, including embodied cognition\, neural and computational models\, rob
- otics\, learning\, evolution and collective behavior. The biennial ISAB m
- eeting combines archival proceedings papers with deliberately non-archiva
- l contributions and poster abstracts.\nAdditional topics: Machine Learnin
- g\, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\nScop
- e sources (2026): https://sab-conference.org/call-for-contributions/\nSco
- pe last checked: 2026-10-08
+ ce: estimated\nLast checked date: 2026-10-28\nNotes: As of 2026-10-28 sab
+ -conference.org still shows SAB 2026 (Berlin\, Oct 19-22) and ISAB has no
+ t announced the next biennial edition. Meeting dates and deadlines are tw
+ o-year proxies from 2026 (23:59 Pacific daylight time)\; no host location
+  is assumed. Size is an editorial estimate.\nScope: Understanding adaptiv
+ e behavior through biological and artificial agents\, including embodied 
+ cognition\, neural and computational models\, robotics\, learning\, evolu
+ tion and collective behavior. The biennial ISAB meeting combines archival
+  proceedings papers with deliberately non-archival contributions and post
+ er abstracts.\nAdditional topics: Machine Learning\, Reinforcement Learni
+ ng\, Autonomous Agents & Multiagent Systems\nScope sources (2026): https:
+ //sab-conference.org/call-for-contributions/\nScope last checked: 2026-10
+ -08
 URL:https://sab-conference.org/call-for-contributions/
 END:VEVENT
 BEGIN:VEVENT
@@ -1952,44 +2087,48 @@ DESCRIPTION:Conference title: International Conference on Simulation of Ada
  opics: Artificial Life & Adaptive Systems\, Computational Neuroscience\, 
  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: M
  \nSubmission type: Reviewed papers + non-archival contributions\nConfiden
- ce: estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next bie
- nnial edition\; meeting dates and deadlines are two-year proxies from 202
- 6\, and no host location is assumed. Size is an editorial estimate.\nScop
- e: Understanding adaptive behavior through biological and artificial agen
- ts\, including embodied cognition\, neural and computational models\, rob
- otics\, learning\, evolution and collective behavior. The biennial ISAB m
- eeting combines archival proceedings papers with deliberately non-archiva
- l contributions and poster abstracts.\nAdditional topics: Machine Learnin
- g\, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\nScop
- e sources (2026): https://sab-conference.org/call-for-contributions/\nSco
- pe last checked: 2026-10-08
+ ce: estimated\nLast checked date: 2026-10-28\nNotes: As of 2026-10-28 sab
+ -conference.org still shows SAB 2026 (Berlin\, Oct 19-22) and ISAB has no
+ t announced the next biennial edition. Meeting dates and deadlines are tw
+ o-year proxies from 2026 (23:59 Pacific daylight time)\; no host location
+  is assumed. Size is an editorial estimate.\nScope: Understanding adaptiv
+ e behavior through biological and artificial agents\, including embodied 
+ cognition\, neural and computational models\, robotics\, learning\, evolu
+ tion and collective behavior. The biennial ISAB meeting combines archival
+  proceedings papers with deliberately non-archival contributions and post
+ er abstracts.\nAdditional topics: Machine Learning\, Reinforcement Learni
+ ng\, Autonomous Agents & Multiagent Systems\nScope sources (2026): https:
+ //sab-conference.org/call-for-contributions/\nScope last checked: 2026-10
+ -08
 URL:https://sab-conference.org/call-for-contributions/
 END:VEVENT
 BEGIN:VEVENT
 UID:areadne-2028-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20280623
-DTEND;VALUE=DATE:20280628
+DTSTART;VALUE=DATE:20280627
+DTEND;VALUE=DATE:20280702
 SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] A
- READNE 2028 - Conference (estimated)
+ READNE 2028 - Conference
 DESCRIPTION:Conference title: AREADNE: Research in Encoding and Decoding of
-  Neural Ensembles\nWebsite: https://areadne.org/\nSource URL: https://are
- adne.org/\nLocation: To be announced\nTopics: Systems & Experimental Neur
- oscience\, Computational Neuroscience\, BCI & Neurotechnology\nSize: S\nS
- ubmission type: Abstract-based\nConfidence: estimated\nLast checked date:
-  2026-10-08\nNotes: Unannounced next biennial edition. Dates are two-year
-  proxies from 2026\; location is not assumed. The contribution is an abst
- ract\, not an archival paper\, and the cutoff hour is unannounced. Size i
- s an editorial estimate.\nScope: Encoding and decoding of neural ensemble
- s\, with emphasis on systems neuroscience\, neural population recordings\
- , neural representations\, computation and links to behavior. It is a foc
- used experimental/computational neuroscience meeting rather than a genera
- l neuroscience congress. Contributions are reviewed abstracts for talks a
- nd posters\; its proceedings book is a collection of abstracts.\nAddition
- al topics: Cognitive Science & Computational Cognition\nScope sources (20
- 26): https://areadne.org/\nScope last checked: 2026-10-08
-URL:https://areadne.org/
-LOCATION:To be announced
+  Neural Ensembles\nWebsite: https://areadne.org/2028/home.html\nSource UR
+ L: https://areadne.org/2028/home.html\nLocation: Milos\, Greece\nTopics: 
+ Systems & Experimental Neuroscience\, Computational Neuroscience\, BCI & 
+ Neurotechnology\nSize: S\nSubmission type: Abstract-based\nConfidence: co
+ nfirmed\nLast checked date: 2026-10-28\nNotes: The official AREADNE 2028 
+ page (early planning) lists the Eliopoulos Conference Center\, Milos\, as
+  currently scheduled for 27 Jun-1 Jul 2028. No call is published\; the ab
+ stract date is a two-year proxy from 2026 (closed Jan 30) and its cutoff 
+ hour is unannounced. Abstracts are not archival papers. Size is an editor
+ ial estimate.\nScope: Encoding and decoding of neural ensembles\, with em
+ phasis on systems neuroscience\, neural population recordings\, neural re
+ presentations\, computation and links to behavior. It is a focused experi
+ mental/computational neuroscience meeting rather than a general neuroscie
+ nce congress. Contributions are reviewed abstracts for talks and posters\
+ ; its proceedings book is a collection of abstracts.\nAdditional topics: 
+ Cognitive Science & Computational Cognition\nScope sources (2026): https:
+ //areadne.org/\nScope last checked: 2026-10-08
+URL:https://areadne.org/2028/home.html
+LOCATION:Milos\, Greece
 END:VEVENT
 BEGIN:VEVENT
 UID:biomag-2028-conference@scientific-conference-calendar
@@ -2004,9 +2143,12 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
  oscience\, Signal Processing\nSize: M\nSubmission type: Abstract-based / 
  specialist venue\nConfidence: estimated\nLast checked date: 2026-10-06\nN
- otes: Provisional 2-year cadence projection from BIOMAG 2026. Meeting dat
- es\, location\, and deadlines require organizer confirmation\; website an
- d source links refer to the prior edition.
+ otes: Provisional 2-year cadence projection from BIOMAG 2026\; dates\, ve
+ nue and deadline await an official 2028 site\, and links refer to the pri
+ or edition. An archived BIOMAG 2024 page names the winning 2028 bid (Univ
+ . G. d'Annunzio Chieti-Pescara\, Montesilvano Marina\, Pescara\, Italy). 
+ On 2026-10-28 no live 2028 page was found and biomag2024.org redirected t
+ o an unrelated site\; dates unchanged.
 URL:https://mm.scimeeting.cn/en/web/index/31426
 LOCATION:To be announced
 END:VEVENT
@@ -2023,17 +2165,18 @@ DESCRIPTION:Conference title: International Conference on Simulation of Ada
  & Adaptive Systems\, Computational Neuroscience\, Cognitive Science & Com
  putational Cognition\, Control & Robotics\nSize: M\nSubmission type: Revi
  ewed papers + non-archival contributions\nConfidence: estimated\nLast che
- cked date: 2026-10-08\nNotes: Unannounced next biennial edition\; meeting
-  dates and deadlines are two-year proxies from 2026\, and no host locatio
- n is assumed. Size is an editorial estimate.\nScope: Understanding adapti
- ve behavior through biological and artificial agents\, including embodied
-  cognition\, neural and computational models\, robotics\, learning\, evol
- ution and collective behavior. The biennial ISAB meeting combines archiva
- l proceedings papers with deliberately non-archival contributions and pos
- ter abstracts.\nAdditional topics: Machine Learning\, Reinforcement Learn
- ing\, Autonomous Agents & Multiagent Systems\nScope sources (2026): https
- ://sab-conference.org/call-for-contributions/\nScope last checked: 2026-1
- 0-08
+ cked date: 2026-10-28\nNotes: As of 2026-10-28 sab-conference.org still s
+ hows SAB 2026 (Berlin\, Oct 19-22) and ISAB has not announced the next bi
+ ennial edition. Meeting dates and deadlines are two-year proxies from 202
+ 6 (23:59 Pacific daylight time)\; no host location is assumed. Size is an
+  editorial estimate.\nScope: Understanding adaptive behavior through biol
+ ogical and artificial agents\, including embodied cognition\, neural and 
+ computational models\, robotics\, learning\, evolution and collective beh
+ avior. The biennial ISAB meeting combines archival proceedings papers wit
+ h deliberately non-archival contributions and poster abstracts.\nAddition
+ al topics: Machine Learning\, Reinforcement Learning\, Autonomous Agents 
+ & Multiagent Systems\nScope sources (2026): https://sab-conference.org/ca
+ ll-for-contributions/\nScope last checked: 2026-10-08
 URL:https://sab-conference.org/
 LOCATION:To be announced
 END:VEVENT

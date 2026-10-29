@@ -3,32 +3,33 @@ VERSION:2.0
 PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:FMTS @ NeurIPS 2026 (day TBA) Calendar
+X-WR-CALNAME:FMTS @ NeurIPS 2026 Calendar
 BEGIN:VEVENT
 UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260916T115900Z
 DTEND:20260916T125900Z
 SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
- 26 (day TBA) - Workshop paper submission deadline (estimated)
+ 26 - Workshop paper submission deadline
 DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
  Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
  nSource URL: https://fmts-workshop.github.io/cfp.html\nLocation: Sydney\,
   Australia\nTopics: Time Series & Sequential Data\, Machine Learning\, De
  ep Representation Learning\, Probabilistic\, Causal & Uncertainty ML\nSiz
- e: S\nSubmission type: Workshop / non-archival short paper\nConfidence: e
- stimated\nLast checked date: 2026-10-05\nNotes: Confirmed one-day NeurIPS
-  2026 workshop. NeurIPS will assign either Dec 11 or Dec 12\; Dec 11 is a
-  calendar placeholder\, not a confirmed workshop day. The Nov 6 camera-re
- ady date is tentative and is not listed as a deadline.\nScope: Foundation
-  models for temporal systems\, centered on long-horizon and probabilistic
-  forecasting\, temporal pretraining\, generative simulation\, irregularly
-  sampled and multimodal sequences\, and state-space architectures. Reliab
- ility is a defining theme: distribution shift\, calibrated uncertainty\, 
- leakage-aware benchmarks\, and consistency of simulated trajectories.\nAd
- ditional topics: System Identification & Data-driven Dynamics\, Robustnes
- s & Safety\nScope sources (2026): https://fmts-workshop.github.io/cfp.htm
- l\nScope last checked: 2026-10-07
+ e: S\nSubmission type: Workshop / non-archival short paper\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-28\nNotes: NeurIPS's official worksh
+ op page lists FMTS on Dec 11\, 2026\, 8:00 AM-5:00 PM AEDT in room MR C4.
+ 5\; the workshop site still says day TBA. The Sep 16 11:59 UTC (Sep 15 Ao
+ E) paper deadline has passed. The Nov 6 camera-ready date is still marked
+  tentative and is not listed as a deadline.\nScope: Foundation models for
+  temporal systems\, centered on long-horizon and probabilistic forecastin
+ g\, temporal pretraining\, generative simulation\, irregularly sampled an
+ d multimodal sequences\, and state-space architectures. Reliability is a 
+ defining theme: distribution shift\, calibrated uncertainty\, leakage-awa
+ re benchmarks\, and consistency of simulated trajectories.\nAdditional to
+ pics: System Identification & Data-driven Dynamics\, Robustness & Safety\
+ nScope sources (2026): https://fmts-workshop.github.io/cfp.html\nScope la
+ st checked: 2026-10-07
 URL:https://fmts-workshop.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -37,26 +38,27 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
- 26 (day TBA) - Conference (estimated)
+ 26 - Conference
 DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
  Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
- nSource URL: https://fmts-workshop.github.io/\nLocation: Sydney\, Austral
- ia\nTopics: Time Series & Sequential Data\, Machine Learning\, Deep Repre
- sentation Learning\, Probabilistic\, Causal & Uncertainty ML\nSize: S\nSu
- bmission type: Workshop / non-archival short paper\nConfidence: estimated
- \nLast checked date: 2026-10-05\nNotes: Confirmed one-day NeurIPS 2026 wo
- rkshop. NeurIPS will assign either Dec 11 or Dec 12\; Dec 11 is a calenda
- r placeholder\, not a confirmed workshop day. The Nov 6 camera-ready date
-  is tentative and is not listed as a deadline.\nScope: Foundation models 
- for temporal systems\, centered on long-horizon and probabilistic forecas
- ting\, temporal pretraining\, generative simulation\, irregularly sampled
-  and multimodal sequences\, and state-space architectures. Reliability is
-  a defining theme: distribution shift\, calibrated uncertainty\, leakage-
- aware benchmarks\, and consistency of simulated trajectories.\nAdditional
-  topics: System Identification & Data-driven Dynamics\, Robustness & Safe
- ty\nScope sources (2026): https://fmts-workshop.github.io/cfp.html\nScope
-  last checked: 2026-10-07
-URL:https://fmts-workshop.github.io/
+ nSource URL: https://neurips.cc/virtual/2026/workshop/137514\nLocation: S
+ ydney\, Australia\nTopics: Time Series & Sequential Data\, Machine Learni
+ ng\, Deep Representation Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\nSize: S\nSubmission type: Workshop / non-archival short paper\nConfid
+ ence: confirmed\nLast checked date: 2026-10-28\nNotes: NeurIPS's official
+  workshop page lists FMTS on Dec 11\, 2026\, 8:00 AM-5:00 PM AEDT in room
+  MR C4.5\; the workshop site still says day TBA. The Sep 16 11:59 UTC (Se
+ p 15 AoE) paper deadline has passed. The Nov 6 camera-ready date is still
+  marked tentative and is not listed as a deadline.\nScope: Foundation mod
+ els for temporal systems\, centered on long-horizon and probabilistic for
+ ecasting\, temporal pretraining\, generative simulation\, irregularly sam
+ pled and multimodal sequences\, and state-space architectures. Reliabilit
+ y is a defining theme: distribution shift\, calibrated uncertainty\, leak
+ age-aware benchmarks\, and consistency of simulated trajectories.\nAdditi
+ onal topics: System Identification & Data-driven Dynamics\, Robustness & 
+ Safety\nScope sources (2026): https://fmts-workshop.github.io/cfp.html\nS
+ cope last checked: 2026-10-07
+URL:https://neurips.cc/virtual/2026/workshop/137514
 LOCATION:Sydney\, Australia
 END:VEVENT
 END:VCALENDAR

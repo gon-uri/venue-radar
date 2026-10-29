@@ -133,6 +133,8 @@ def rollover_candidates(
             deadline.pop("open_observed_on", None)
             # Openings are never guessed; a shifted prior opening is not evidence.
             deadline.pop("opens_at", None)
+            # A note about last year's conflicting pages does not describe a projection.
+            deadline.pop("cutoff_note", None)
         candidates.append(projected)
     return candidates
 

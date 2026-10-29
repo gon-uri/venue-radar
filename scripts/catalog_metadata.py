@@ -1,5 +1,6 @@
 """Shared topic hierarchy and offline map metadata."""
 
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 from pathlib import Path
 import yaml
 from validate import ROOT, parse_date
@@ -56,6 +57,10 @@ def validate_catalog_metadata(topics: set[str], families: dict, cities: dict) ->
             value = city.get(axis)
             if not isinstance(value, (int, float)) or isinstance(value, bool) or not -limit <= value <= limit:
                 errors.append(f'{key}: invalid {axis}')
+        try:
+            ZoneInfo(city.get('tz') or '')
+        except (ValueError, ZoneInfoNotFoundError):
+            errors.append(f'{key}: tz must be an IANA time zone')
         aliases = city.get('locations', [])
         if not isinstance(aliases, list) or not all(isinstance(alias, str) and alias.strip() for alias in aliases):
             errors.append(f'{key}: location aliases must be non-empty strings')

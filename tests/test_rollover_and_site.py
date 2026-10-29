@@ -52,7 +52,7 @@ class RolloverAndSiteTests(unittest.TestCase):
                 {"type": "abstract", "datetime": "2026-05-04T23:59:00-12:00",
                  "gate_for": "full_paper", "opens_at": "2026-04-01T00:00:00Z"},
                 {"type": "full_paper", "datetime": "2026-05-06T23:59:00-12:00",
-                 "open_observed_on": "2026-04-20"},
+                 "open_observed_on": "2026-04-20", "cutoff_note": "CFP and site disagree."},
             ],
         }
         drafts = rollover_candidates([edition], date(2026, 10, 29))
@@ -65,6 +65,7 @@ class RolloverAndSiteTests(unittest.TestCase):
             self.assertEqual(deadline["confidence"], "estimated")
             self.assertNotIn("opens_at", deadline)
             self.assertNotIn("open_observed_on", deadline)
+            self.assertNotIn("cutoff_note", deadline, "last year's source conflict is not carried over")
         still_open = dict(edition, deadlines=[dict(edition["deadlines"][1], datetime="2026-11-30T23:59:00-12:00")])
         self.assertEqual(rollover_candidates([still_open], date(2026, 10, 29)), [])
         no_routes = dict(edition, deadlines=[{"type": "camera_ready", "datetime": "2026-06-01T00:00:00Z"}])

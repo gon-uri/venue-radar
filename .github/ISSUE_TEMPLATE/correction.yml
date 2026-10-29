@@ -1,0 +1,26 @@
+name: Correction
+description: Report outdated or wrong information for a tracked conference edition.
+title: "Correction: "
+body:
+  - type: input
+    id: edition
+    attributes:
+      label: Edition ID
+      description: Prefilled when you use the link on the site, for example neurips-2026.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or outdated?
+      description: For example a new deadline, an extension, a changed city or a broken link.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: The organizer page that shows the correct information.
+      placeholder: https://
+    validations:
+      required: true

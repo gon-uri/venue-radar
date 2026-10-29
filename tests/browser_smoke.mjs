@@ -7,6 +7,7 @@ import {checkSubmissionBehavior} from './submission_behavior.mjs';
 import {checkMobileCards} from './mobile_cards.mjs';
 import {checkDynamicsNeuroscience} from './dynamics_neuroscience.mjs';
 import {checkVenueFeatures} from './venue_features.mjs';
+import {checkMoreFeatures} from './venue_more.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -65,7 +66,7 @@ try {
   assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontWeight), '400');
   assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSynthesis), 'none');
   assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => !getComputedStyle(element).fontFamily.includes('Audiowide'))));
-  assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
+  assert.equal(await page.title(), 'Venue Radar: ML, AI & Neuroscience Conference Deadlines');
   assert.equal(await page.locator('#tab-conferences').innerText(), 'Conferences & Map');
   assert.equal(await page.locator('.subhead').innerText(), 'Find your next conference in machine learning and AI, or explore related opportunities in neuroscience, healthcare, complex systems, and control.');
   assert(await page.locator('td[data-label="Conference"] > a').evaluateAll(names =>
@@ -158,7 +159,7 @@ try {
   assert.equal(await filterSummary.evaluate(summary => getComputedStyle(summary).columnGap), '14px');
   assert.equal(await page.locator('.filter-disclosure-icon').evaluate(icon => getComputedStyle(icon).fontSize), '20px');
   assert.equal(await page.locator('.filter-disclosure-icon').getAttribute('aria-hidden'), 'true');
-  assert.equal(await page.locator('input:not(#open-only), select').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details') && !control.closest('#calendar-menu')).length), 0);
+  assert.equal(await page.locator('input:not(#open-only):not(#starred-only), select').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details') && !control.closest('#calendar-menu')).length), 0);
   assert(await page.locator('#clear-filters').evaluate(button => !button.closest('#filter-details') && !!button.closest('.filter-section')));
   assert(await page.getByLabel('Show submission options only', {exact: true}).isVisible());
   assert(await page.locator('#open-only').evaluate(input => !input.closest('#filter-details') && !!input.closest('.tab-toolbar')));
@@ -580,6 +581,7 @@ try {
   }
   await checkDynamicsNeuroscience(page);
   await checkVenueFeatures(page, url);
+  await checkMoreFeatures(page, url);
   assert.deepEqual(fontRequests, [], 'The title font must not require a network request');
   assert.deepEqual(errors, []);
   console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);

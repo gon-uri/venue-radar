@@ -163,7 +163,8 @@ function showMapUnavailable() {
 }
 
 function updateConferenceMap() {
-  if (document.querySelector('#panel-conferences').hidden || mapUnavailable) return;
+  // Leaflet loads after the page logic; the map is drawn once it exists.
+  if (document.querySelector('#panel-conferences').hidden || mapUnavailable || !window.L) return;
   try {
     drawConferenceMap();
   } catch (error) {

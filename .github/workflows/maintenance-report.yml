@@ -67,7 +67,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           body="$RUNNER_TEMP/review-queue.md"
-          match="$(gh issue list --state all --search 'in:title "Review queue"' --limit 100 \
+          match="$(gh issue list --state all --search 'in:title "Review queue" author:app/github-actions' --limit 100 \
             --json number,title,state \
             --jq '[.[] | select(.title == "Review queue")] | sort_by(.number) | first | select(. != null) | "\(.number) \(.state)"')"
           if [ -z "$match" ]; then

@@ -146,18 +146,28 @@ class TriageTests(unittest.TestCase):
                     last_checked=STALE, deadlines=[deadline("full_paper", "2026-09-01")]),
             edition(id="past-2026", series="Past", short_title="Past 2026", year=2026,
                     conference_start="2026-06-01", conference_end="2026-06-03"),
+            edition(id="pending-2027", series="Pending", short_title="Pending 2027", last_checked=STALE,
+                    deadlines=[]),
+            edition(id="camera-2027", series="Camera", short_title="Camera 2027", last_checked=STALE,
+                    deadlines=[deadline("camera_ready", "2027-03-01")]),
+            edition(id="live-2026", series="Live", short_title="Live 2026", year=2026, last_checked=STALE,
+                    conference_start=AS_OF.isoformat(), conference_end="2026-11-05", deadlines=[]),
         ]
         rows = triage(records, AS_OF, 30)
         self.assertEqual({row.id: row.tier for row in rows}, {
             "now-2027": "act-now", "est-2027": "act-now", "soon-2027": "soon",
             "later-2027": "later", "closed-2028": "later", "closed-2027": "schedule-only",
             "ijcai-ecai-2027": "schedule-only", "solo-2027": "successor-missing",
-            "past-2026": "successor-missing",
+            "past-2026": "successor-missing", "live-2026": "successor-missing",
+            # No call recorded yet: find this edition's call, not a successor.
+            "pending-2027": "call-unannounced", "camera-2027": "call-unannounced",
         })
-        self.assertEqual([row.id for row in rows], [
+        self.assertEqual([row.id for row in rows][:5], [
             "now-2027", "est-2027", "soon-2027", "later-2027", "closed-2028",
-            "closed-2027", "ijcai-ecai-2027", "past-2026", "solo-2027",
         ])
+        self.assertEqual({row.id for row in rows[5:7]}, {"pending-2027", "camera-2027"})
+        self.assertEqual([row.id for row in rows][7:9], ["closed-2027", "ijcai-ecai-2027"])
+        self.assertEqual({row.id for row in rows[9:]}, {"past-2026", "solo-2027", "live-2026"})
         self.assertEqual(rows[0].milestone.due if rows[0].milestone else None, "2026-11-20")
         self.assertEqual({row.id for row in rows}, {row[1] for row in review_queue(records, AS_OF, 30)})
 
@@ -296,6 +306,8 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("maintenance_report.py --format markdown --as-of", script)
         self.assertIn("60 days without repository activity", script)
         self.assertIn('select(.title == "Review queue")', script)
+        # Only the workflow's own issue is adopted, never one opened by someone else.
+        self.assertIn("author:app/github-actions", script)
         for forbidden in ("git commit", "git push", "gh issue comment", "gh pr", "--write"):
             self.assertNotIn(forbidden, script)
 

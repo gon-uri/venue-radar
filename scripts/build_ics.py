@@ -136,6 +136,8 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
         if date_only else [f"DTSTART:{_format_datetime(start)}", f"DTEND:{_format_datetime(end)}"]
     )
     description = _description(conference, source_url, confidence)
+    if deadline.get("cutoff_note"):
+        description += f"\nCutoff note: {deadline['cutoff_note']}"
     if date_only:
         summary += " (cutoff time unannounced)"
         description += "\nOfficial deadline day; exact cutoff hour/timezone is unannounced. Verify the organizer's submission portal."

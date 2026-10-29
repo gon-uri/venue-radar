@@ -1,112 +1,113 @@
-# Approximate city centers, not venue coordinates. Explicit location aliases
+# Approximate city centers, not venue coordinates; tz is the city's IANA zone
+# (used for date-only cutoffs, ADR-040). Explicit location aliases
 # avoid guessing cities from free-text locations. Meeting sources remain in conferences.yml.
-sydney: {label: 'Sydney, Australia', lat: -33.869, lon: 151.209, locations: ['Sydney, Australia']}
-seoul: {label: 'Seoul, South Korea', lat: 37.566, lon: 126.978, locations: ['Seoul, South Korea']}
-san-francisco: {label: 'San Francisco, USA', lat: 37.775, lon: -122.419, locations: ['San Francisco, California, USA']}
-montreal: {label: 'Montreal, Canada', lat: 45.502, lon: -73.567, locations: ['Montreal, Canada', 'Montreal, Quebec, Canada']}
-amsterdam: {label: 'Amsterdam, Netherlands', lat: 52.367, lon: 4.904, locations: ['Amsterdam, Netherlands']}
-tokyo: {label: 'Tokyo, Japan', lat: 35.676, lon: 139.650, locations: ['Tokyo, Japan']}
-naples: {label: 'Naples, Italy', lat: 40.852, lon: 14.268, locations: ['Naples, Italy']}
-jeju: {label: 'Jeju, South Korea', lat: 33.499, lon: 126.531, locations: ['Jeju, Korea']}
-shenyang: {label: 'Shenyang, China', lat: 41.805, lon: 123.432, locations: ['Shenyang, China']}
-salt-lake-city: {label: 'Salt Lake City, USA', lat: 40.761, lon: -111.891, locations: ['Salt Lake City, Utah, USA']}
-new-delhi: {label: 'New Delhi, India', lat: 28.614, lon: 77.209, locations: ['New Delhi, India']}
-baltimore: {label: 'Baltimore, USA', lat: 39.290, lon: -76.612, locations: ['Baltimore, Maryland, USA']}
-seattle: {label: 'Seattle, USA', lat: 47.606, lon: -122.332, locations: ['Seattle, Washington, USA']}
-san-diego: {label: 'San Diego, USA', lat: 32.716, lon: -117.161, locations: ['San Diego, California, USA', 'La Jolla, California, USA']}
-strasbourg: {label: 'Strasbourg, France', lat: 48.573, lon: 7.752, locations: ['Strasbourg, France']}
-taipei: {label: 'Taipei, Taiwan', lat: 25.033, lon: 121.565, locations: ['Taipei, Taiwan']}
-lausanne: {label: 'Lausanne, Switzerland', lat: 46.519, lon: 6.633, locations: ['Lausanne, Switzerland']}
-hong-kong: {label: 'Hong Kong', lat: 22.319, lon: 114.169, locations: ['Hong Kong, China']}
-toronto: {label: 'Toronto, Canada', lat: 43.653, lon: -79.383, locations: ['Toronto, Canada']}
-atlanta: {label: 'Atlanta, USA', lat: 33.749, lon: -84.388, locations: ['Atlanta, Georgia, USA']}
-new-york: {label: 'New York, USA', lat: 40.713, lon: -74.006, locations: ['New York, New York, USA']}
-frankfurt: {label: 'Frankfurt, Germany', lat: 50.111, lon: 8.682, locations: ['Frankfurt am Main, Germany']}
-halifax: {label: 'Halifax, Canada', lat: 44.648, lon: -63.575, locations: ['Halifax, Canada']}
-milan: {label: 'Milan, Italy', lat: 45.464, lon: 9.190, locations: ['Milan, Italy']}
-sibenik: {label: 'Sibenik, Croatia', lat: 43.735, lon: 15.895, locations: ['Sibenik, Croatia']}
-beijing: {label: 'Beijing, China', lat: 39.904, lon: 116.407, locations: ['Beijing, China']}
-malmo: {label: 'Malmo, Sweden', lat: 55.605, lon: 13.004, locations: ['Malmo, Sweden']}
-pittsburgh: {label: 'Pittsburgh, USA', lat: 40.441, lon: -79.996, locations: ['Pittsburgh, Pennsylvania, USA']}
-bremen: {label: 'Bremen, Germany', lat: 53.079, lon: 8.801, locations: ['Bremen, Germany']}
-kyoto: {label: 'Kyoto, Japan', lat: 35.012, lon: 135.768, locations: ['Kyoto, Japan']}
-athens: {label: 'Athens, Greece', lat: 37.984, lon: 23.728, locations: ['Athens, Greece']}
-melbourne: {label: 'Melbourne, Australia', lat: -37.814, lon: 144.963, locations: ['Melbourne, Australia']}
-wellington: {label: 'Wellington, New Zealand', lat: -41.287, lon: 174.776, locations: ['Wellington, New Zealand']}
-rome: {label: 'Rome, Italy', lat: 41.903, lon: 12.496, locations: ['Rome, Italy']}
-phoenix: {label: 'Phoenix, USA', lat: 33.448, lon: -112.074, locations: ['Phoenix, Arizona, USA']}
-mainz: {label: 'Mainz, Germany', lat: 49.992, lon: 8.247, locations: ['Mainz, Germany']}
-leiden: {label: 'Leiden, Netherlands', lat: 52.160, lon: 4.497, locations: ['Leiden, Netherlands']}
-pisa: {label: 'Pisa, Italy', lat: 43.716, lon: 10.401, locations: ['Pisa, Italy']}
-cape-town: {label: 'Cape Town, South Africa', lat: -33.925, lon: 18.424, locations: ['Cape Town, South Africa']}
-padua: {label: 'Padua, Italy', lat: 45.407, lon: 11.876, locations: ['Padua, Italy']}
-bruges: {label: 'Bruges, Belgium', lat: 51.209, lon: 3.224, locations: ['Bruges, Belgium']}
-lyon: {label: 'Lyon, France', lat: 45.764, lon: 4.836, locations: ['Lyon, France']}
-bern: {label: 'Bern, Switzerland', lat: 46.948, lon: 7.447, locations: ['Bern, Switzerland']}
-rochester: {label: 'Rochester, Michigan, USA', lat: 42.680, lon: -83.134, locations: ['Rochester, Michigan, USA']}
-gold-coast: {label: 'Gold Coast, Australia', lat: -28.017, lon: 153.400, locations: ['Gold Coast, Queensland, Australia']}
-manchester: {label: 'Manchester, UK', lat: 53.481, lon: -2.243, locations: ['Manchester, United Kingdom']}
-castiglione: {label: 'Castiglione della Pescaia, Italy', lat: 42.763, lon: 10.883, locations: ['Castiglione della Pescaia, Italy']}
-annecy: {label: 'Annecy, France', lat: 45.899, lon: 6.129, locations: ['Annecy, France']}
-eindhoven: {label: 'Eindhoven, Netherlands', lat: 51.441, lon: 5.469, locations: ['Eindhoven, Netherlands']}
-san-jose: {label: 'San Jose, USA', lat: 37.338, lon: -121.886, locations: ['San Jose, California, USA']}
-zurich: {label: 'Zurich, Switzerland', lat: 47.377, lon: 8.542, locations: ['Zurich, Switzerland']}
-auckland: {label: 'Auckland, New Zealand', lat: -36.849, lon: 174.763, locations: ['Auckland, New Zealand']}
-porto: {label: 'Porto, Portugal', lat: 41.158, lon: -8.629, locations: ['Porto, Portugal']}
-singapore: {label: 'Singapore', lat: 1.352, lon: 103.820, locations: ['Singapore']}
-uppsala: {label: 'Uppsala, Sweden', lat: 59.859, lon: 17.639, locations: ['Uppsala, Sweden']}
-edinburgh: {label: 'Edinburgh, UK', lat: 55.953, lon: -3.188, locations: ['Edinburgh, United Kingdom']}
-darmstadt: {label: 'Darmstadt, Germany', lat: 49.873, lon: 8.652, locations: ['Darmstadt, Germany']}
-stockholm: {label: 'Stockholm, Sweden', lat: 59.329, lon: 18.069, locations: ['Stockholm, Sweden']}
-philadelphia: {label: 'Philadelphia, USA', lat: 39.953, lon: -75.165, locations: ['Philadelphia, Pennsylvania, USA']}
-honolulu: {label: 'Honolulu, USA', lat: 21.307, lon: -157.858, locations: ['Honolulu, Hawaii, USA']}
-grenoble: {label: 'Grenoble, France', lat: 45.188, lon: 5.724, locations: ['Grenoble, France']}
-binghamton: {label: 'Binghamton, USA', lat: 42.098, lon: -75.918, locations: ['Binghamton, New York, USA']}
-dresden: {label: 'Dresden, Germany', lat: 51.051, lon: 13.738, locations: ['Dresden, Germany']}
-wroclaw: {label: 'Wroclaw, Poland', lat: 51.108, lon: 17.039, locations: ['Wroclaw, Poland']}
-lisbon: {label: 'Lisbon, Portugal', lat: 38.722, lon: -9.139, locations: ['Lisbon, Portugal']}
-boston: {label: 'Boston, USA', lat: 42.360, lon: -71.059, locations: ['Boston, Massachusetts, USA']}
-austin: {label: 'Austin, USA', lat: 30.267, lon: -97.743, locations: ['Austin, Texas, USA']}
-krakow: {label: 'Krakow, Poland', lat: 50.064, lon: 19.945, locations: ['Krakow, Poland']}
-granada: {label: 'Granada, Spain', lat: 37.177, lon: -3.599, locations: ['Granada, Spain']}
-rochester-new-york: {label: 'Rochester, New York, USA', lat: 43.157, lon: -77.609, locations: ['Rochester, New York, USA']}
-prague: {label: 'Prague, Czech Republic', lat: 50.075, lon: 14.438, locations: ['Prague, Czech Republic']}
-waterloo: {label: 'Waterloo, Canada', lat: 43.464, lon: -80.520, locations: ['Waterloo, Ontario, Canada']}
-brighton: {label: 'Brighton, UK', lat: 50.823, lon: -0.137, locations: ['Brighton, United Kingdom']}
-berlin: {label: 'Berlin, Germany', lat: 52.520, lon: 13.405, locations: ['Berlin, Germany']}
-jeongseon: {label: 'Jeongseon, South Korea', lat: 37.380, lon: 128.660, locations: ['Jeongseon, South Korea']}
-incheon: {label: 'Incheon, South Korea', lat: 37.456, lon: 126.705, locations: ['Incheon, South Korea']}
-oslo: {label: 'Oslo, Norway', lat: 59.914, lon: 10.752, locations: ['Oslo, Norway']}
-osaka: {label: 'Osaka, Japan', lat: 34.694, lon: 135.502, locations: ['Osaka, Japan']}
-milos: {label: 'Milos, Greece', lat: 36.727, lon: 24.431, locations: ['Milos, Greece']}
-washington-dc: {label: 'Washington, DC, USA', lat: 38.907, lon: -77.037, locations: ['Washington, DC, USA']}
-chicago: {label: 'Chicago, USA', lat: 41.878, lon: -87.630, locations: ['Chicago, Illinois, USA']}
-curitiba: {label: 'Curitiba, Brazil', lat: -25.429, lon: -49.273, locations: ['Curitiba, Brazil']}
-astana: {label: 'Astana, Kazakhstan', lat: 51.169, lon: 71.449, locations: ['Astana, Kazakhstan']}
-reykjavik: {label: 'Reykjavik, Iceland', lat: 64.147, lon: -21.943, locations: ['Reykjavik, Iceland']}
-bellevue: {label: 'Bellevue, USA', lat: 47.610, lon: -122.201, locations: ['Bellevue, Washington, USA']}
-hanoi: {label: 'Hanoi, Vietnam', lat: 21.028, lon: 105.834, locations: ['Hanoi, Vietnam']}
-bilbao: {label: 'Bilbao, Spain', lat: 43.263, lon: -2.935, locations: ['Bilbao, Spain']}
-sao-paulo: {label: 'Sao Paulo, Brazil', lat: -23.551, lon: -46.633, locations: ['Sao Paulo, Brazil']}
-columbia: {label: 'Columbia, South Carolina, USA', lat: 34.001, lon: -81.035, locations: ['Columbia, South Carolina, USA']}
-thessaloniki: {label: 'Thessaloniki, Greece', lat: 40.640, lon: 22.944, locations: ['Thessaloniki, Greece']}
-rio-de-janeiro: {label: 'Rio de Janeiro, Brazil', lat: -22.907, lon: -43.173, locations: ['Rio de Janeiro, Brazil']}
-anaheim: {label: 'Anaheim, USA', lat: 33.836, lon: -117.914, locations: ['Anaheim, California, USA']}
-lancaster: {label: 'Lancaster, UK', lat: 54.047, lon: -2.800, locations: ['Lancaster, United Kingdom']}
-marrakesh: {label: 'Marrakesh, Morocco', lat: 31.630, lon: -7.982, locations: ['Marrakesh, Morocco']}
-foz-do-iguacu: {label: 'Foz do Iguacu, Brazil', lat: -25.547, lon: -54.588, locations: ['Foz do Iguacu, Brazil']}
-lake-buena-vista: {label: 'Lake Buena Vista, USA', lat: 28.394, lon: -81.539, locations: ['Lake Buena Vista, Florida, USA']}
-luxembourg: {label: 'Luxembourg, Luxembourg', lat: 49.612, lon: 6.132, locations: ['Luxembourg, Luxembourg']}
-buenos-aires: {label: 'Buenos Aires, Argentina', lat: -34.604, lon: -58.382, locations: ['Buenos Aires, Argentina']}
-budapest: {label: 'Budapest, Hungary', lat: 47.498, lon: 19.040, locations: ['Budapest, Hungary']}
-macau: {label: 'Macau, China', lat: 22.198, lon: 113.544, locations: ['Macau, China']}
-hengqin: {label: 'Hengqin, China', lat: 22.118, lon: 113.543, locations: ['Hengqin, China']}
-palma: {label: 'Palma de Mallorca, Spain', lat: 39.570, lon: 2.650, locations: ['Palma de Mallorca, Spain']}
-southampton: {label: 'Southampton, UK', lat: 50.910, lon: -1.404, locations: ['Southampton, UK']}
-dublin: {label: 'Dublin, Ireland', lat: 53.350, lon: -6.260, locations: ['Dublin, Ireland']}
-bari: {label: 'Bari, Italy', lat: 41.117, lon: 16.872, locations: ['Bari, Italy']}
-ho-chi-minh-city: {label: 'Ho Chi Minh City, Vietnam', lat: 10.823, lon: 106.630, locations: ['Ho Chi Minh City, Vietnam']}
+sydney: {label: 'Sydney, Australia', lat: -33.869, lon: 151.209, tz: Australia/Sydney, locations: ['Sydney, Australia']}
+seoul: {label: 'Seoul, South Korea', lat: 37.566, lon: 126.978, tz: Asia/Seoul, locations: ['Seoul, South Korea']}
+san-francisco: {label: 'San Francisco, USA', lat: 37.775, lon: -122.419, tz: America/Los_Angeles, locations: ['San Francisco, California, USA']}
+montreal: {label: 'Montreal, Canada', lat: 45.502, lon: -73.567, tz: America/Toronto, locations: ['Montreal, Canada', 'Montreal, Quebec, Canada']}
+amsterdam: {label: 'Amsterdam, Netherlands', lat: 52.367, lon: 4.904, tz: Europe/Amsterdam, locations: ['Amsterdam, Netherlands']}
+tokyo: {label: 'Tokyo, Japan', lat: 35.676, lon: 139.650, tz: Asia/Tokyo, locations: ['Tokyo, Japan']}
+naples: {label: 'Naples, Italy', lat: 40.852, lon: 14.268, tz: Europe/Rome, locations: ['Naples, Italy']}
+jeju: {label: 'Jeju, South Korea', lat: 33.499, lon: 126.531, tz: Asia/Seoul, locations: ['Jeju, Korea']}
+shenyang: {label: 'Shenyang, China', lat: 41.805, lon: 123.432, tz: Asia/Shanghai, locations: ['Shenyang, China']}
+salt-lake-city: {label: 'Salt Lake City, USA', lat: 40.761, lon: -111.891, tz: America/Denver, locations: ['Salt Lake City, Utah, USA']}
+new-delhi: {label: 'New Delhi, India', lat: 28.614, lon: 77.209, tz: Asia/Kolkata, locations: ['New Delhi, India']}
+baltimore: {label: 'Baltimore, USA', lat: 39.290, lon: -76.612, tz: America/New_York, locations: ['Baltimore, Maryland, USA']}
+seattle: {label: 'Seattle, USA', lat: 47.606, lon: -122.332, tz: America/Los_Angeles, locations: ['Seattle, Washington, USA']}
+san-diego: {label: 'San Diego, USA', lat: 32.716, lon: -117.161, tz: America/Los_Angeles, locations: ['San Diego, California, USA', 'La Jolla, California, USA']}
+strasbourg: {label: 'Strasbourg, France', lat: 48.573, lon: 7.752, tz: Europe/Paris, locations: ['Strasbourg, France']}
+taipei: {label: 'Taipei, Taiwan', lat: 25.033, lon: 121.565, tz: Asia/Taipei, locations: ['Taipei, Taiwan']}
+lausanne: {label: 'Lausanne, Switzerland', lat: 46.519, lon: 6.633, tz: Europe/Zurich, locations: ['Lausanne, Switzerland']}
+hong-kong: {label: 'Hong Kong', lat: 22.319, lon: 114.169, tz: Asia/Hong_Kong, locations: ['Hong Kong, China']}
+toronto: {label: 'Toronto, Canada', lat: 43.653, lon: -79.383, tz: America/Toronto, locations: ['Toronto, Canada']}
+atlanta: {label: 'Atlanta, USA', lat: 33.749, lon: -84.388, tz: America/New_York, locations: ['Atlanta, Georgia, USA']}
+new-york: {label: 'New York, USA', lat: 40.713, lon: -74.006, tz: America/New_York, locations: ['New York, New York, USA']}
+frankfurt: {label: 'Frankfurt, Germany', lat: 50.111, lon: 8.682, tz: Europe/Berlin, locations: ['Frankfurt am Main, Germany']}
+halifax: {label: 'Halifax, Canada', lat: 44.648, lon: -63.575, tz: America/Halifax, locations: ['Halifax, Canada']}
+milan: {label: 'Milan, Italy', lat: 45.464, lon: 9.190, tz: Europe/Rome, locations: ['Milan, Italy']}
+sibenik: {label: 'Sibenik, Croatia', lat: 43.735, lon: 15.895, tz: Europe/Zagreb, locations: ['Sibenik, Croatia']}
+beijing: {label: 'Beijing, China', lat: 39.904, lon: 116.407, tz: Asia/Shanghai, locations: ['Beijing, China']}
+malmo: {label: 'Malmo, Sweden', lat: 55.605, lon: 13.004, tz: Europe/Stockholm, locations: ['Malmo, Sweden']}
+pittsburgh: {label: 'Pittsburgh, USA', lat: 40.441, lon: -79.996, tz: America/New_York, locations: ['Pittsburgh, Pennsylvania, USA']}
+bremen: {label: 'Bremen, Germany', lat: 53.079, lon: 8.801, tz: Europe/Berlin, locations: ['Bremen, Germany']}
+kyoto: {label: 'Kyoto, Japan', lat: 35.012, lon: 135.768, tz: Asia/Tokyo, locations: ['Kyoto, Japan']}
+athens: {label: 'Athens, Greece', lat: 37.984, lon: 23.728, tz: Europe/Athens, locations: ['Athens, Greece']}
+melbourne: {label: 'Melbourne, Australia', lat: -37.814, lon: 144.963, tz: Australia/Melbourne, locations: ['Melbourne, Australia']}
+wellington: {label: 'Wellington, New Zealand', lat: -41.287, lon: 174.776, tz: Pacific/Auckland, locations: ['Wellington, New Zealand']}
+rome: {label: 'Rome, Italy', lat: 41.903, lon: 12.496, tz: Europe/Rome, locations: ['Rome, Italy']}
+phoenix: {label: 'Phoenix, USA', lat: 33.448, lon: -112.074, tz: America/Phoenix, locations: ['Phoenix, Arizona, USA']}
+mainz: {label: 'Mainz, Germany', lat: 49.992, lon: 8.247, tz: Europe/Berlin, locations: ['Mainz, Germany']}
+leiden: {label: 'Leiden, Netherlands', lat: 52.160, lon: 4.497, tz: Europe/Amsterdam, locations: ['Leiden, Netherlands']}
+pisa: {label: 'Pisa, Italy', lat: 43.716, lon: 10.401, tz: Europe/Rome, locations: ['Pisa, Italy']}
+cape-town: {label: 'Cape Town, South Africa', lat: -33.925, lon: 18.424, tz: Africa/Johannesburg, locations: ['Cape Town, South Africa']}
+padua: {label: 'Padua, Italy', lat: 45.407, lon: 11.876, tz: Europe/Rome, locations: ['Padua, Italy']}
+bruges: {label: 'Bruges, Belgium', lat: 51.209, lon: 3.224, tz: Europe/Brussels, locations: ['Bruges, Belgium']}
+lyon: {label: 'Lyon, France', lat: 45.764, lon: 4.836, tz: Europe/Paris, locations: ['Lyon, France']}
+bern: {label: 'Bern, Switzerland', lat: 46.948, lon: 7.447, tz: Europe/Zurich, locations: ['Bern, Switzerland']}
+rochester: {label: 'Rochester, Michigan, USA', lat: 42.680, lon: -83.134, tz: America/Detroit, locations: ['Rochester, Michigan, USA']}
+gold-coast: {label: 'Gold Coast, Australia', lat: -28.017, lon: 153.400, tz: Australia/Brisbane, locations: ['Gold Coast, Queensland, Australia']}
+manchester: {label: 'Manchester, UK', lat: 53.481, lon: -2.243, tz: Europe/London, locations: ['Manchester, United Kingdom']}
+castiglione: {label: 'Castiglione della Pescaia, Italy', lat: 42.763, lon: 10.883, tz: Europe/Rome, locations: ['Castiglione della Pescaia, Italy']}
+annecy: {label: 'Annecy, France', lat: 45.899, lon: 6.129, tz: Europe/Paris, locations: ['Annecy, France']}
+eindhoven: {label: 'Eindhoven, Netherlands', lat: 51.441, lon: 5.469, tz: Europe/Amsterdam, locations: ['Eindhoven, Netherlands']}
+san-jose: {label: 'San Jose, USA', lat: 37.338, lon: -121.886, tz: America/Los_Angeles, locations: ['San Jose, California, USA']}
+zurich: {label: 'Zurich, Switzerland', lat: 47.377, lon: 8.542, tz: Europe/Zurich, locations: ['Zurich, Switzerland']}
+auckland: {label: 'Auckland, New Zealand', lat: -36.849, lon: 174.763, tz: Pacific/Auckland, locations: ['Auckland, New Zealand']}
+porto: {label: 'Porto, Portugal', lat: 41.158, lon: -8.629, tz: Europe/Lisbon, locations: ['Porto, Portugal']}
+singapore: {label: 'Singapore', lat: 1.352, lon: 103.820, tz: Asia/Singapore, locations: ['Singapore']}
+uppsala: {label: 'Uppsala, Sweden', lat: 59.859, lon: 17.639, tz: Europe/Stockholm, locations: ['Uppsala, Sweden']}
+edinburgh: {label: 'Edinburgh, UK', lat: 55.953, lon: -3.188, tz: Europe/London, locations: ['Edinburgh, United Kingdom']}
+darmstadt: {label: 'Darmstadt, Germany', lat: 49.873, lon: 8.652, tz: Europe/Berlin, locations: ['Darmstadt, Germany']}
+stockholm: {label: 'Stockholm, Sweden', lat: 59.329, lon: 18.069, tz: Europe/Stockholm, locations: ['Stockholm, Sweden']}
+philadelphia: {label: 'Philadelphia, USA', lat: 39.953, lon: -75.165, tz: America/New_York, locations: ['Philadelphia, Pennsylvania, USA']}
+honolulu: {label: 'Honolulu, USA', lat: 21.307, lon: -157.858, tz: Pacific/Honolulu, locations: ['Honolulu, Hawaii, USA']}
+grenoble: {label: 'Grenoble, France', lat: 45.188, lon: 5.724, tz: Europe/Paris, locations: ['Grenoble, France']}
+binghamton: {label: 'Binghamton, USA', lat: 42.098, lon: -75.918, tz: America/New_York, locations: ['Binghamton, New York, USA']}
+dresden: {label: 'Dresden, Germany', lat: 51.051, lon: 13.738, tz: Europe/Berlin, locations: ['Dresden, Germany']}
+wroclaw: {label: 'Wroclaw, Poland', lat: 51.108, lon: 17.039, tz: Europe/Warsaw, locations: ['Wroclaw, Poland']}
+lisbon: {label: 'Lisbon, Portugal', lat: 38.722, lon: -9.139, tz: Europe/Lisbon, locations: ['Lisbon, Portugal']}
+boston: {label: 'Boston, USA', lat: 42.360, lon: -71.059, tz: America/New_York, locations: ['Boston, Massachusetts, USA']}
+austin: {label: 'Austin, USA', lat: 30.267, lon: -97.743, tz: America/Chicago, locations: ['Austin, Texas, USA']}
+krakow: {label: 'Krakow, Poland', lat: 50.064, lon: 19.945, tz: Europe/Warsaw, locations: ['Krakow, Poland']}
+granada: {label: 'Granada, Spain', lat: 37.177, lon: -3.599, tz: Europe/Madrid, locations: ['Granada, Spain']}
+rochester-new-york: {label: 'Rochester, New York, USA', lat: 43.157, lon: -77.609, tz: America/New_York, locations: ['Rochester, New York, USA']}
+prague: {label: 'Prague, Czech Republic', lat: 50.075, lon: 14.438, tz: Europe/Prague, locations: ['Prague, Czech Republic']}
+waterloo: {label: 'Waterloo, Canada', lat: 43.464, lon: -80.520, tz: America/Toronto, locations: ['Waterloo, Ontario, Canada']}
+brighton: {label: 'Brighton, UK', lat: 50.823, lon: -0.137, tz: Europe/London, locations: ['Brighton, United Kingdom']}
+berlin: {label: 'Berlin, Germany', lat: 52.520, lon: 13.405, tz: Europe/Berlin, locations: ['Berlin, Germany']}
+jeongseon: {label: 'Jeongseon, South Korea', lat: 37.380, lon: 128.660, tz: Asia/Seoul, locations: ['Jeongseon, South Korea']}
+incheon: {label: 'Incheon, South Korea', lat: 37.456, lon: 126.705, tz: Asia/Seoul, locations: ['Incheon, South Korea']}
+oslo: {label: 'Oslo, Norway', lat: 59.914, lon: 10.752, tz: Europe/Oslo, locations: ['Oslo, Norway']}
+osaka: {label: 'Osaka, Japan', lat: 34.694, lon: 135.502, tz: Asia/Tokyo, locations: ['Osaka, Japan']}
+milos: {label: 'Milos, Greece', lat: 36.727, lon: 24.431, tz: Europe/Athens, locations: ['Milos, Greece']}
+washington-dc: {label: 'Washington, DC, USA', lat: 38.907, lon: -77.037, tz: America/New_York, locations: ['Washington, DC, USA']}
+chicago: {label: 'Chicago, USA', lat: 41.878, lon: -87.630, tz: America/Chicago, locations: ['Chicago, Illinois, USA']}
+curitiba: {label: 'Curitiba, Brazil', lat: -25.429, lon: -49.273, tz: America/Sao_Paulo, locations: ['Curitiba, Brazil']}
+astana: {label: 'Astana, Kazakhstan', lat: 51.169, lon: 71.449, tz: Asia/Almaty, locations: ['Astana, Kazakhstan']}
+reykjavik: {label: 'Reykjavik, Iceland', lat: 64.147, lon: -21.943, tz: Atlantic/Reykjavik, locations: ['Reykjavik, Iceland']}
+bellevue: {label: 'Bellevue, USA', lat: 47.610, lon: -122.201, tz: America/Los_Angeles, locations: ['Bellevue, Washington, USA']}
+hanoi: {label: 'Hanoi, Vietnam', lat: 21.028, lon: 105.834, tz: Asia/Bangkok, locations: ['Hanoi, Vietnam']}
+bilbao: {label: 'Bilbao, Spain', lat: 43.263, lon: -2.935, tz: Europe/Madrid, locations: ['Bilbao, Spain']}
+sao-paulo: {label: 'Sao Paulo, Brazil', lat: -23.551, lon: -46.633, tz: America/Sao_Paulo, locations: ['Sao Paulo, Brazil']}
+columbia: {label: 'Columbia, South Carolina, USA', lat: 34.001, lon: -81.035, tz: America/New_York, locations: ['Columbia, South Carolina, USA']}
+thessaloniki: {label: 'Thessaloniki, Greece', lat: 40.640, lon: 22.944, tz: Europe/Athens, locations: ['Thessaloniki, Greece']}
+rio-de-janeiro: {label: 'Rio de Janeiro, Brazil', lat: -22.907, lon: -43.173, tz: America/Sao_Paulo, locations: ['Rio de Janeiro, Brazil']}
+anaheim: {label: 'Anaheim, USA', lat: 33.836, lon: -117.914, tz: America/Los_Angeles, locations: ['Anaheim, California, USA']}
+lancaster: {label: 'Lancaster, UK', lat: 54.047, lon: -2.800, tz: Europe/London, locations: ['Lancaster, United Kingdom']}
+marrakesh: {label: 'Marrakesh, Morocco', lat: 31.630, lon: -7.982, tz: Africa/Casablanca, locations: ['Marrakesh, Morocco']}
+foz-do-iguacu: {label: 'Foz do Iguacu, Brazil', lat: -25.547, lon: -54.588, tz: America/Sao_Paulo, locations: ['Foz do Iguacu, Brazil']}
+lake-buena-vista: {label: 'Lake Buena Vista, USA', lat: 28.394, lon: -81.539, tz: America/New_York, locations: ['Lake Buena Vista, Florida, USA']}
+luxembourg: {label: 'Luxembourg, Luxembourg', lat: 49.612, lon: 6.132, tz: Europe/Luxembourg, locations: ['Luxembourg, Luxembourg']}
+buenos-aires: {label: 'Buenos Aires, Argentina', lat: -34.604, lon: -58.382, tz: America/Argentina/Buenos_Aires, locations: ['Buenos Aires, Argentina']}
+budapest: {label: 'Budapest, Hungary', lat: 47.498, lon: 19.040, tz: Europe/Budapest, locations: ['Budapest, Hungary']}
+macau: {label: 'Macau, China', lat: 22.198, lon: 113.544, tz: Asia/Macau, locations: ['Macau, China']}
+hengqin: {label: 'Hengqin, China', lat: 22.118, lon: 113.543, tz: Asia/Shanghai, locations: ['Hengqin, China']}
+palma: {label: 'Palma de Mallorca, Spain', lat: 39.570, lon: 2.650, tz: Europe/Madrid, locations: ['Palma de Mallorca, Spain']}
+southampton: {label: 'Southampton, UK', lat: 50.910, lon: -1.404, tz: Europe/London, locations: ['Southampton, UK']}
+dublin: {label: 'Dublin, Ireland', lat: 53.350, lon: -6.260, tz: Europe/Dublin, locations: ['Dublin, Ireland']}
+bari: {label: 'Bari, Italy', lat: 41.117, lon: 16.872, tz: Europe/Rome, locations: ['Bari, Italy']}
+ho-chi-minh-city: {label: 'Ho Chi Minh City, Vietnam', lat: 10.823, lon: 106.630, tz: Asia/Ho_Chi_Minh, locations: ['Ho Chi Minh City, Vietnam']}
 # Island-level alias: organizers name only Gran Canaria, so the marker uses the island centre.
-gran-canaria: {label: 'Gran Canaria, Spain', lat: 27.958, lon: -15.592, locations: ['Gran Canaria, Spain']}
-brisbane: {label: 'Brisbane, Australia', lat: -27.468, lon: 153.028, locations: ['Brisbane, Australia']}
-oxford: {label: 'Oxford, UK', lat: 51.752, lon: -1.258, locations: ['Oxford, United Kingdom']}
+gran-canaria: {label: 'Gran Canaria, Spain', lat: 27.958, lon: -15.592, tz: Atlantic/Canary, locations: ['Gran Canaria, Spain']}
+brisbane: {label: 'Brisbane, Australia', lat: -27.468, lon: 153.028, tz: Australia/Brisbane, locations: ['Brisbane, Australia']}
+oxford: {label: 'Oxford, UK', lat: 51.752, lon: -1.258, tz: Europe/London, locations: ['Oxford, United Kingdom']}

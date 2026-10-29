@@ -25,6 +25,7 @@ TIERS = {
     "act-now": ("Act now", f"fresh-submission action due within {ACT_NOW_DAYS} days ({SOON_DAYS} if estimated)"),
     "soon": ("Soon", f"fresh-submission action due within {SOON_DAYS} days"),
     "later": ("Later", f"fresh-submission action due after {SOON_DAYS} days"),
+    "call-unannounced": ("Call unannounced", "upcoming meeting with no recorded fresh-submission route"),
     "schedule-only": ("Schedule only", "no remaining fresh-submission route"),
     "successor-missing": ("Successor missing", "latest tracked edition is past or closed and no later edition exists"),
 }
@@ -172,10 +173,15 @@ def next_route_action(edition: dict, as_of: date) -> Milestone | None:
 
 def triage_tier(edition: dict, action: Milestone | None, is_latest: bool, as_of: date) -> str:
     past = parse_date(edition["conference_end"]) < as_of
-    if is_latest and edition["series"] not in JOINT_SERIES and (past or action is None):
+    # A closed route differs from a call that was never recorded (the site's
+    # "Deadline unannounced"): only the former needs a successor.
+    routes = [item for item in edition.get("deadlines") or []
+              if item.get("type") in SUBMISSION_TYPES and not item.get("gate_for")]
+    started = parse_date(edition["conference_start"]) <= as_of  # the site shows it closed
+    if is_latest and edition["series"] not in JOINT_SERIES and (past or (action is None and (routes or started))):
         return "successor-missing"
     if action is None:
-        return "schedule-only"
+        return "schedule-only" if routes or past or started else "call-unannounced"
     if action.days <= ACT_NOW_DAYS or (action.route_estimated and action.days <= SOON_DAYS):
         return "act-now"
     return "soon" if action.days <= SOON_DAYS else "later"

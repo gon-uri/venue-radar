@@ -31,6 +31,11 @@ jobs:
       - name: Test data and rendering
         run: python -m unittest discover -s tests
 
+      - name: Unit-test client logic (Node built-in runner)
+        run: |
+          node --version
+          node --test tests/js/*.test.mjs
+
       - name: Build generated files
         run: python scripts/build_all.py
 

@@ -306,6 +306,11 @@ def validate_conferences(
                     ):
                         errors.append(f"{deadline_label}: source_url must be non-empty")
 
+                    if "cutoff_note" in deadline and not (
+                        _non_empty_string(deadline["cutoff_note"]) and len(deadline["cutoff_note"]) <= 200
+                    ):
+                        errors.append(f"{deadline_label}: cutoff_note must be a non-empty string of at most 200 characters")
+
                     if "confidence" in deadline and deadline["confidence"] not in {"confirmed", "estimated"}:
                         errors.append(f"{deadline_label}: confidence must be confirmed or estimated")
 

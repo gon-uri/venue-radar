@@ -10,6 +10,9 @@ robotics and control; and responsible AI.
 
 Browse submission opportunities, conference dates and locations, rankings,
 and historical acceptance rates. Uncertain dates are clearly marked as estimates.
+Subscribe once and your calendar stays up to date: use **Subscribe to calendar**
+on the site for submission deadlines, one topic, or every edition of a
+conference series.
 
 Missing a conference? [Send a request](https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml).
 Spotted an error or have an idea for a new feature? [Open an issue](https://github.com/gon-uri/venue-radar/issues/new).

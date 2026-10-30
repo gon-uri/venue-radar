@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-10-29
+Last synchronized: 2026-10-30
 
 Current implementation is summarized in [implementation status](implementation_status.md).
 Use [the documentation index](README.md) for procedures; the completed milestones
@@ -118,7 +118,9 @@ below are history, not instructions to reimplement old designs.
   status behavior and abstract submission indications.
 - Ongoing: compare estimated calls with official CFPs monthly; resolve ICCN's
   date conflict and the unannounced NODYCON/DDAP/DDCAC next editions. Preserve
-  publication/abstract-only distinctions without adding a public UI feature.
+  publication/abstract-only distinctions in notes, without a public UI feature
+  until the Archival Option Tag And Filter milestone has an ADR the owner
+  has approved.
 - Guidance: [dynamics_neuroscience_expansion.md](dynamics_neuroscience_expansion.md).
 
 ### Website Usability
@@ -155,6 +157,89 @@ below are history, not instructions to reimplement old designs.
   yellow estimates, red closed routes, submission-action countdowns and Closed
   time-left labels. Expanded schedules and chronological closed-row placement
   remain available; AAMAS/MLSys transitions are covered by browser regressions.
+
+### Archival Option Tag And Filter
+
+- Goal: Tag each conference with whether it has an archival option, and add a
+  filter for it. "Has an archival option" means at least one track for new
+  work publishes accepted papers in archival proceedings or a journal (for
+  example the ACM Digital Library, IEEE Xplore, PMLR or Springer LNCS). It
+  does not mean every track is archival. Requested by the owner on 2026-10-30
+  after asking whether WSDM is archival. The same day the owner chose this
+  per-conference tag over marking each track, for simplicity.
+- Priority: Medium (proposed; the owner has not set a priority)
+- Dependencies: a sourced value per series, validation, the filter panel and
+  URL state, owner-approved public copy recorded in site_copy.md, the
+  maintenance report and the workbook mirror. If calendar event descriptions
+  carry the tag, they need the same definition and caution, because each
+  event is one track's deadline.
+- Estimated complexity: Low to medium for code: one filter group and a small
+  tag, with no change to statuses or countdowns. Data is the larger part: in
+  the 2026-10-30 review about 85 of 130 series had no usable evidence, but one
+  confirmed archival track settles Yes, usually from one sentence of the main
+  call for papers.
+- Completion status: Not started. The owner chose the direction (a
+  per-conference tag). First step: a new ADR with the details and the public
+  wording, approved by the owner; only then change data or code. Until then
+  these rules still apply: ADR-036's "Add no publication UI", the AGENTS.md
+  rule that abstract-only caveats stay in notes/docs, and the data schema's
+  "Do not add a publication column, badge or change to status behavior
+  without approval". That ADR must also update the matching no-UI statements
+  in architecture.md, data_maintenance.md, conference_scopes.md,
+  implementation_status.md and dynamics_neuroscience_expansion.md.
+- Values: Yes (at least one track for new work is archival); No (only
+  abstract-book, archived-abstract or non-archival tracks, such as
+  abstract-only meetings and non-archival workshops); Not checked yet (the
+  default, never shown or filtered as No). Never infer it from the free-text
+  `submission_type` (such as "Paper-based"), ranks or OpenReview use.
+- Proposed storage: one value per series, like acceptance rates, with a
+  source URL and the edition year it was checked from, shown with the tag.
+  Past proceedings are not promises for later editions (ADR-036), so take
+  the value from the latest edition with a published call and have the
+  maintenance report queue it again when a newer call appears, as it does
+  for scope profiles.
+- Open for the ADR: whether a track whose publication is opt-in or opt-out
+  (such as WSDM Findings) counts; whether only tracks of a supported
+  new-contribution type count, so that a doctoral consortium abstract or
+  NODYCON's optional paper for an already presented abstract cannot settle
+  Yes alone; and whether the filter matches a value checked from an older
+  edition.
+- Wording requirement (owner, 2026-10-30): the tag's tooltip and the filter
+  section's description must say exactly what "has an archival option"
+  means, and add a very brief caution to check which track is still open,
+  because the deadline shown may belong to a track that is not archival.
+  Tooltips (`title`) do not appear on phones, so the filter description must
+  be visible text in the filter section; filter groups have only a heading
+  and options today. Drafts, not approved. Tag tooltip, with the year
+  checked: "Archival option (2027 edition): at least one track publishes
+  accepted papers in archival proceedings or a journal. Other tracks may
+  not; check which track is still open." Filter description: "Yes: at least
+  one track publishes accepted papers in archival proceedings or a journal.
+  Other tracks may not; check which is still open. Not checked yet means
+  unknown, not No."
+- Known limitation, accepted: the tag describes the conference, not the next
+  deadline. With the filter on, WSDM 2027 still appears after its Nov 17
+  short-paper deadline and counts down to the Nov 30 WSDM Day abstract. That
+  track is in the proceedings but welcomes work under review elsewhere, and
+  its call never says archival. The deadline label names the track.
+  Per-track values can be added later without changing the tag.
+- Evidence (manual repository review on 2026-10-30; counts approximate):
+  repository text points to Yes for about 25 series and to No for about 20
+  (abstract-only venues such as SfN, AREADNE, NetSci and Dynamics Days, and
+  non-archival workshops such as TS4H), some only from a prior edition or
+  the abstract-only format. WSDM 2027 is Yes: full and short papers are
+  published in the ACM Digital Library
+  ([full](https://www.wsdm-conference.org/2027/cffp.html) and
+  [short](https://www.wsdm-conference.org/2027/cfsp.html) paper calls),
+  although its WSDM Day, doctoral, Industry Day and workshop tracks differ.
+- Before shipping: fill in every series with an open or upcoming submission
+  deadline (118 on 2026-10-30), starting with those without evidence; the
+  site collects no visit data to rank them by. When the filter shows only
+  Yes, say how many conferences are hidden as not checked yet. Once
+  released, the filter's query-string key must keep its name, because shared
+  links depend on it (ADR-040). Calendar event UIDs must not change.
+  Proposed, not decided: put the tag in an existing cell rather than a new
+  column, which would change ADR-035's mobile cards.
 
 ### Repeatable Data Refresh
 

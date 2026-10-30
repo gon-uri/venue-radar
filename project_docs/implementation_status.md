@@ -186,10 +186,10 @@ The 12 changed workbook catalog cells were patched in place without the
 optional artifact tool. All other workbook parts are byte-identical, and a
 re-import matches all 129 exported rows. No visual render of the workbook was
 performed. Committed as 5e3b262 on branch `oct-2026-refresh-and-features`;
-not published.
+published with release `923151a` (below).
 
 The 2026-10-29 feature release (ADR-039; committed as d5285e4 and 1bab28a on
-the same branch, not published) adds
+the same branch, published with `923151a`) adds
 exact cutoff clocks with local time, the subscribe menu and submissions/series
 feeds, earlier successor tracking with 30 officially reviewed estimated next
 editions (ICDM 2027 Brisbane and ACC 2028 San Francisco have official dates),
@@ -214,7 +214,7 @@ opportunities at its frozen date). The workbook's 21 changed Source cells
 were patched in place and all 129 rows re-import. Calendar-app behavior of the
 Google/Apple subscribe links is untested here (no signed-in client).
 
-The 2026-10-29 ADR-040 round (committed on the same branch, not published)
+The 2026-10-29 ADR-040 round (committed on the same branch, published with `923151a`)
 records the owner decisions and implements the remaining proposals: earliest
 cutoff plus `cutoff_note` on 12 deadlines, SD4H 2026 as TS4H's successor
 (workbook TS4H row updated; 130 rows re-import exactly), ISBI 2027's Nov 2
@@ -226,6 +226,24 @@ follow-ups, all fixed. Checks: validation of 198 records, 157 Python and 32
 Node tests, deterministic builds, the identity check (658 -> 661 UIDs, 197 ->
 198 edition IDs, none removed), the non-ICS whitespace check and the full
 browser suite at 1440/1051/1050/768/390/320px (124 opportunities at its frozen
-date). Not verified: the new GitHub workflows (they have not run on GitHub),
-link previews on real platforms (the card is served from `main`), Giscus
-sign-in with the new URL handling, and calendar-app behavior of subscriptions.
+date). Not verified at commit time: the new GitHub workflows, link previews
+on real platforms, Giscus sign-in with the new URL handling, and calendar-app
+behavior of subscriptions; the release note below says what has since run.
+
+Release `923151a` (2026-10-29) publishes the October refresh, ADR-039 to
+ADR-041, the AIiH addition and the README showcase (PR 2). `main` was
+fast-forwarded from `eddd814`, so every commit keeps its ID. Before the merge,
+`release_check.py`, 32 Node tests, the identity check (513 -> 661 UIDs and
+166 -> 198 edition IDs against `eddd814`, none removed) and the full browser
+suite at 1440/1051/1050/768/390/320px passed, as did both Build runs on the
+final commit (push `40953027530`, pull request `40953032272`), including the
+new drift, inline-script and identity steps. On `main`, Build `40953197598`
+and Pages `40953197063` passed. Live HTML and nine feeds (the four
+aggregates, the NeurIPS and TS4H series, the machine-learning topic, and the
+MLSys 2027 and AIiH 2027 editions) are byte-identical to the local output.
+The social card and dark README banner load from `main`, a live
+`#mlsys-2027` link opens and focuses its row, and README was checked on
+github.com in light and dark themes. Still unverified: link previews on real
+platforms (they cache), Giscus sign-in with the new URL handling,
+calendar-app subscription behavior, and the weekly review-queue workflow,
+which has not had its first scheduled run.

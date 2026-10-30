@@ -22,6 +22,8 @@ from typing import Any, Iterable
 
 import yaml
 
+from validate import latest_review_day
+
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
 PASS, FAIL, SKIP = "PASS", "FAIL", "SKIP"
@@ -51,8 +53,9 @@ def _as_date(value: Any) -> date:
     return value if isinstance(value, date) else date.fromisoformat(str(value))
 
 
-def freshness_problem(last_updated: Any, conferences: Iterable[dict[str, Any]]) -> str | None:
-    """Return a message when last_updated predates the newest last_checked, else None."""
+def freshness_problem(last_updated: Any, conferences: Iterable[dict[str, Any]],
+                      review_limit: date | None = None) -> str | None:
+    """Return a message when last_updated predates the newest last_checked or is in the future, else None."""
     checked = [_as_date(item["last_checked"]) for item in conferences
                if isinstance(item, dict) and item.get("last_checked")]
     if not checked:
@@ -62,6 +65,8 @@ def freshness_problem(last_updated: Any, conferences: Iterable[dict[str, Any]]) 
     newest = max(checked)
     if _as_date(last_updated) < newest:
         return f"last_updated {_as_date(last_updated)} < newest last_checked {newest}"
+    if _as_date(last_updated) > (review_limit or latest_review_day()):
+        return f"last_updated {_as_date(last_updated)} is in the future"
     return None
 
 

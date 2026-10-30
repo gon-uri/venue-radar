@@ -1,20 +1,34 @@
 # Development And Publication
 
-Reviewed: 2026-10-29. Run commands from the repository root. See
+Reviewed: 2026-10-30. Run commands from the repository root. See
 [the documentation index](README.md) for data ownership and task guides.
 The public README remains nontechnical. This project needs no dev server,
 backend, npm app build, secret, paid hosting or OpenAI API.
 
 ## Required Setup And Checks
 
-Use an available Python 3 runtime with PyYAML; CI uses Python 3.12. A local
-virtual environment is optional and keeps dependencies isolated:
+`.python-version` pins the interpreter (3.12); both CI workflows read it, and
+uv and pyenv honour it. A git-ignored `.venv` keeps dependencies isolated.
+With [uv](https://docs.astral.sh/uv/) (it fetches 3.12 if needed):
 
 ```sh
-python3 -m venv .venv
+uv venv .venv
+uv pip install --python .venv/bin/python -r requirements.txt certifi
 source .venv/bin/activate
-python3 -m pip install -r requirements.txt
 ```
+
+Or, with a Python 3.12 already installed:
+
+```sh
+python3.12 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt certifi
+```
+
+`certifi` is optional; only `scripts/source_check.py` needs a CA bundle. The
+commands below assume the activated environment. Another Python 3 with PyYAML
+also works, but check it first: on some machines the default `python3` lacks
+PyYAML, and the python.org build lacks CA certificates.
 
 Do not reinstall dependencies unnecessarily if the configured environment
 already has them. Standard verification is:

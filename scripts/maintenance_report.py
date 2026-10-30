@@ -21,8 +21,15 @@ from validate import SUBMISSION_TYPES, load_acceptance_rates, load_conferences, 
 JOINT_SERIES = frozenset({"IJCAI-ECAI"})
 ACT_NOW_DAYS = 30
 SOON_DAYS = 90
+# Late extensions and corrections cluster in the last weeks before a cutoff, so
+# a confirmed record that is otherwise fresh is rechecked shortly before it.
+RECHECK_DAYS = 21
+RECHECK_AGE_DAYS = 10
 TIERS = {
     "act-now": ("Act now", f"fresh-submission action due within {ACT_NOW_DAYS} days ({SOON_DAYS} if estimated)"),
+    "recheck": ("Recheck before deadline",
+                f"confirmed fresh-submission action due within {RECHECK_DAYS} days on a record last checked "
+                f"{RECHECK_AGE_DAYS}+ days ago: look for extensions or changes"),
     "soon": ("Soon", f"fresh-submission action due within {SOON_DAYS} days"),
     "later": ("Later", f"fresh-submission action due after {SOON_DAYS} days"),
     "call-unannounced": ("Call unannounced", "upcoming meeting with no recorded fresh-submission route"),
@@ -31,6 +38,7 @@ TIERS = {
 }
 ADVISORY_CHECKS = {
     "estimated-deadline-passed": "Estimated deadline already passed (meeting still upcoming)",
+    "midnight-opening": "Opening stored at exactly midnight on a route that is still open",
     "missing-city-alias": "Confirmed future location without a data/cities.yml alias",
     "old-year-url": "Confirmed record cites a URL from an earlier year",
     "aggregator-source": "Aggregator or social-media source",
@@ -123,6 +131,8 @@ def review_queue(
                 reasons.append("estimated deadline(s): compare with official CFP")
             if age > max_age_days:
                 reasons.append(f"last checked {age} days ago")
+            elif recheck := recheck_reason(item, as_of):
+                reasons.append(recheck)
             if not item.get("deadlines"):
                 reasons.append("no submission deadline recorded")
         elif latest_by_series[item["series"]] is item and item["series"] not in JOINT_SERIES:
@@ -131,6 +141,15 @@ def review_queue(
             source = (item.get("source_urls") or [item.get("cfp_url") or item["website"]])[0]
             queue.append((item["short_title"], item["id"], ", ".join(reasons), source))
     return sorted(queue, key=lambda row: ("next edition not tracked" in row[2], row[0].casefold()))
+
+
+def recheck_reason(edition: dict, as_of: date) -> str | None:
+    """Why a confirmed route due soon needs a fresh look, or None when it does not."""
+    action = next_route_action(edition, as_of)
+    age = (as_of - parse_date(edition["last_checked"])).days
+    if action is None or action.route_estimated or action.days > RECHECK_DAYS or age < RECHECK_AGE_DAYS:
+        return None
+    return f"confirmed {action.type} due in {action.days} days, last checked {age} days ago"
 
 
 def _due_date(deadline: dict) -> date | None:
@@ -198,6 +217,8 @@ def triage(conferences: list[dict], as_of: date, max_age_days: int) -> list[Tria
         edition = by_id[identifier]
         action = next_route_action(edition, as_of)
         tier = triage_tier(edition, action, edition["year"] >= latest_year[edition["series"]], as_of)
+        if reasons == recheck_reason(edition, as_of):  # queued only for the pre-deadline recheck
+            tier = "recheck"
         start, end = (parse_date(edition[field]).isoformat() for field in ("conference_start", "conference_end"))
         rows.append(TriagedEdition(tier, title, identifier, reasons, source, start, end, action))
 
@@ -238,6 +259,17 @@ def edition_advisories(item: dict, aliases: set[str], as_of: date) -> list[Advis
         if due and due < as_of and _confidence(item, deadline) != "confirmed":
             found.append(("estimated-deadline-passed", f"estimated {deadline.get('type')} date {due} has passed",
                           str(deadline.get("source_url") or "")))
+        opening = deadline.get("opens_at")
+        if opening and due and due >= as_of:
+            try:
+                opens = parse_datetime(opening)
+            except (TypeError, ValueError):
+                opens = None
+            if opens and (opens.hour, opens.minute, opens.second) == (0, 0, 0):
+                found.append(("midnight-opening",
+                              f"{deadline.get('type')} opens_at {opening} is exactly midnight; confirm the source "
+                              "publishes this time (a day-only opening belongs in notes)",
+                              str(deadline.get("source_url") or "")))
     location = str(item.get("location") or "").strip()
     if (item["confidence"] in MAP_CONFIDENCE and item.get("mode") != "online"
             and parse_date(item["conference_start"]) >= as_of

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -149,11 +149,18 @@ def _has_source_urls(conference: dict[str, Any]) -> bool:
     return _non_empty_string_list(conference.get("source_urls"))
 
 
+def latest_review_day() -> date:
+    """Tomorrow in UTC: no timezone's current date is later, so no review day can be."""
+    return datetime.now(timezone.utc).date() + timedelta(days=1)
+
+
 def validate_conferences(
-    conferences: list[dict[str, Any]], controlled_topics: set[str] | None = None
+    conferences: list[dict[str, Any]], controlled_topics: set[str] | None = None,
+    review_limit: date | None = None,
 ) -> list[str]:
     errors: list[str] = []
     seen_ids: set[str] = set()
+    review_limit = review_limit or latest_review_day()
 
     for index, conference in enumerate(conferences, start=1):
         label = f"entry #{index}"
@@ -214,7 +221,8 @@ def validate_conferences(
 
         if "last_checked" in conference:
             try:
-                parse_date(conference["last_checked"])
+                if parse_date(conference["last_checked"]) > review_limit:
+                    errors.append(f"{label}: last_checked {conference['last_checked']} is in the future")
             except (TypeError, ValueError) as exc:
                 errors.append(f"{label}: last_checked is invalid: {exc}")
 
@@ -325,6 +333,8 @@ def validate_conferences(
                             opening_day = opening.date() if isinstance(opening, datetime) else opening
                             if opening_day > closing.date():
                                 errors.append(f"{deadline_label}: {field} is after deadline")
+                            if field == "open_observed_on" and opening_day > review_limit:
+                                errors.append(f"{deadline_label}: open_observed_on is in the future")
                         except (KeyError, TypeError, ValueError) as exc:
                             errors.append(f"{deadline_label}: {field} is invalid: {exc}")
 

@@ -94,8 +94,12 @@ Cadence-aware rollover previews estimates for an explicit allowlist once a
 series' submission routes close; `--write` (optionally `--series`) requires
 review, keeps the prior review date and never overwrites existing editions. There is no unattended
 source scraping, freshness enforcement or automatic data promotion. The report
-tiers the queue by urgency and lists advisory checks; a weekly workflow rewrites
-one "Review queue" issue; `scripts/source_check.py` checks cited links by hand.
+tiers the queue by urgency, including a "Recheck before deadline" tier for
+confirmed routes due within 21 days on records checked 10+ days earlier, and
+lists advisory checks (ADR-042); a weekly workflow rewrites one "Review queue"
+issue; `scripts/source_check.py` checks cited links by hand and reports
+certificate failures as `tls-error`, not `dead`. Validation rejects future
+review days. `.python-version` pins Python 3.12 for CI and the local `.venv`.
 CI fails on docs drift, inline-script syntax errors and removed published
 identities, and runs Node unit tests for the client logic.
 

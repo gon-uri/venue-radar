@@ -788,3 +788,32 @@ explicit refinements take precedence. Current rules live in
   its subtitle. Rerunning build_readme_banner.mjs rewrites both banners, and
   antialiasing can differ between Chrome versions, so keep the committed white
   banner unless it is intentionally refreshed.
+
+## ADR-042: Pre-Deadline Rechecks, Review-Day Lints And One Pinned Python
+
+- Date: 2026-10-30
+- Context: The 2026-10-30 re-ranking found 17 confirmed submission routes due
+  before December 8 on records last checked October 5-8, and none was queued:
+  confirmed records entered the review queue only after 30 days, although late
+  extensions cluster in the final weeks. The source checker classified TLS
+  verification failures as `dead`, so a Python without CA certificates
+  reported working organizer pages as gone, and the maintainer machine's
+  default `python3` lacked PyYAML.
+- Decision: the owner approved this batch with the proposed defaults.
+  (1) The maintenance report adds a `recheck` tier ("Recheck before deadline")
+  for records queued only because a confirmed route or its mandatory gate is
+  due within 21 days and the record was last checked 10 or more days ago. A
+  record queued for another reason keeps its tier. (2) An advisory flags an
+  `opens_at` at exactly midnight on a route that is still open. It is not an
+  error, because some portals publish midnight openings (CoRL 2026's
+  OpenReview). (3) Validation rejects `last_checked` and `open_observed_on`
+  later than tomorrow in UTC, and the release check rejects a future
+  `last_updated`; once valid these checks cannot start failing. (4)
+  `source_check.py` reports certificate failures as `tls-error`, never `dead`.
+  (5) `.python-version` pins Python 3.12 for both CI workflows
+  (`python-version-file`) and local environments; `.venv/` is ignored, and the
+  development guide documents uv and venv setup with `certifi` as the source
+  checker's optional extra.
+- Consequences: report-only tooling (ADR-015 unchanged); no data, page, feed or
+  UID change. The weekly Review queue issue gains a section. The thresholds are
+  constants in `maintenance_report.py`; changing them needs no data migration.

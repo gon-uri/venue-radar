@@ -247,7 +247,7 @@ below are history, not instructions to reimplement old designs.
 - Priority: High
 - Dependencies: `scripts/maintenance_report.py`, `scripts/rollover_editions.py`, official organizer pages, documented review procedure.
 - Estimated complexity: Ongoing
-- Completion status: Completed tooling and procedure; reviews remain recurring work. ADR-040 added urgency tiers, advisory checks, a weekly Review queue issue and a manual source checker.
+- Completion status: Completed tooling and procedure; reviews remain recurring work. ADR-040 added urgency tiers, advisory checks, a weekly Review queue issue and a manual source checker. ADR-042 added the pre-deadline recheck tier, the midnight-opening advisory, future review-day checks, `tls-error` reporting and a pinned Python 3.12.
 
 ### Calendar Feed Reliability
 

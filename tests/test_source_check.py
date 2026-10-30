@@ -169,6 +169,7 @@ class PureFunctionTests(unittest.TestCase):
             (FetchResult(url, 404, url, error="HTTP 404"), "dead"),
             (FetchResult(url, 500, url), "dead"),
             (FetchResult(url, error="timed out"), "dead"),
+            (FetchResult(url, error="[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed"), "tls-error"),
             (FetchResult(url, 403, url), "blocked"),
             (FetchResult(url, 429, url), "blocked"),
             (FetchResult(url, robots_blocked=True), "robots"),
@@ -270,6 +271,15 @@ class FetcherTests(unittest.TestCase):
         self.assertEqual(client._contexts, [second])
         self.assertEqual(web.urls().count("https://example.org/robots.txt"), 2)
 
+    def test_unverifiable_certificates_are_reported_as_tls_errors_not_dead(self) -> None:
+        failure = urllib.error.URLError(ssl.SSLCertVerificationError("CERTIFICATE_VERIFY_FAILED"))
+        web = FakeWeb({"https://example.org/robots.txt": failure})
+        client = fetcher(web)
+        client._contexts = [ssl.create_default_context()]  # no certifi fallback left
+        page = client.fetch("https://example.org/cfp")
+        self.assertEqual((classify(page), page.url), ("tls-error", "https://example.org/cfp"))
+        self.assertNotIn("https://example.org/cfp", web.urls())
+
 
 class ReportTests(unittest.TestCase):
     def test_check_edition_reports_snippets_and_successor_probes(self) -> None:
@@ -301,14 +311,15 @@ class ReportTests(unittest.TestCase):
             "sample-2027", "CNS* 2027", "estimated", ["meeting 2027-05-01 to 2027-05-03 (estimated)"],
             [UrlCheck("https://example.org/", ["website"], "ok", 200, "https://example.org/", "", ["Paper deadline: May 1"]),
              UrlCheck("https://example.org/x", ["cfp_url"], "blocked", 403, "https://example.org/x", "HTTP 403", []),
-             UrlCheck("https://example.org/y", ["source_urls"], "dead", None, "",
+             UrlCheck("https://example.org/y", ["source_urls"], "tls-error", None, "",
                       "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed", [])],
             [Probe("https://example.org/2026/", "https://example.org/2027/", "ok", 200, "https://example.org/2027/", [])],
         )]
 
     def test_renderers(self) -> None:
         text = render_text(self.sample(), AS_OF)
-        self.assertIn("dead: 1, blocked: 1, robots: 0, redirect: 0, ok: 1", text)
+        self.assertIn("dead: 0, tls-error: 1, blocked: 1, robots: 0, redirect: 0, ok: 1", text)
+        self.assertIn("tls-error    https://example.org/y", text)
         self.assertIn("successor probes: 1 of 1 found", text)
         self.assertIn("TLS verification failed for 1 URL(s)", text)
         self.assertIn("blocked 403", text)

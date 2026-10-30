@@ -52,6 +52,12 @@ class FreshnessTests(unittest.TestCase):
         problem = freshness_problem("2026-10-07", [{"last_checked": "2026-10-08"}])
         self.assertEqual(problem, "last_updated 2026-10-07 < newest last_checked 2026-10-08")
 
+    def test_last_updated_in_the_future_fails(self) -> None:
+        problem = freshness_problem("2026-11-02", [{"last_checked": "2026-10-08"}], review_limit=date(2026, 10, 31))
+        self.assertEqual(problem, "last_updated 2026-11-02 is in the future")
+        self.assertIsNone(freshness_problem("2026-10-31", [{"last_checked": "2026-10-08"}],
+                                            review_limit=date(2026, 10, 31)))
+
     def test_missing_values(self) -> None:
         self.assertIsNotNone(freshness_problem(None, [{"last_checked": "2026-10-08"}]))
         self.assertIsNone(freshness_problem("2026-10-08", [{"id": "x"}, "not-a-record"]))

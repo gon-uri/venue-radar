@@ -67,6 +67,17 @@ class CatalogMetadataTests(unittest.TestCase):
         item['topics'] = list(self.topics)[:5]
         self.assertTrue(validate_conferences([item], self.topics))
 
+    def test_review_days_cannot_be_in_the_future(self):
+        item = deepcopy(next(item for item in self.conferences if item['id'] == 'l4dc-2027'))
+        limit = date(2026, 10, 31)
+        item['last_checked'] = '2026-10-31'
+        self.assertEqual(validate_conferences([item], self.topics, review_limit=limit), [])
+        item['last_checked'] = '2026-11-01'
+        item['deadlines'][0]['open_observed_on'] = '2026-11-01'
+        errors = validate_conferences([item], self.topics, review_limit=limit)
+        self.assertIn('l4dc-2027: last_checked 2026-11-01 is in the future', errors)
+        self.assertTrue(any('open_observed_on is in the future' in error for error in errors), errors)
+
     def test_date_only_cutoff_is_all_day_but_uid_stays_stable(self):
         item = next(item for item in self.conferences if item['id'] == 'l4dc-2027')
         deadline = deepcopy(item['deadlines'][0])

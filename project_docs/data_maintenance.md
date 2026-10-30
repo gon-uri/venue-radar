@@ -1,6 +1,6 @@
 # Data Maintenance
 
-Last synchronized: 2026-10-29.
+Last synchronized: 2026-10-30.
 
 Use this guide to refresh tracked information. For a new series/edition use
 [adding conferences](adding_conferences.md); for fields and submission semantics
@@ -20,7 +20,7 @@ the website never refreshes organizer information automatically.
 
    Replace `YYYY-MM-DD` with the actual review date. Omitting `--as-of` uses
    the host's current date, which is not necessarily the user's local date.
-2. Work through the edition queue tier by tier (`act-now`, `soon`, `later`,
+2. Work through the edition queue tier by tier (`act-now`, `recheck`, `soon`, `later`,
    `call-unannounced`, `schedule-only`, `successor-missing`), then the advisory checks and the
    acceptance and scope backlogs, using official sources. `scripts/source_check.py`
    can list dead links and successor pages first (see below). Check current
@@ -49,7 +49,8 @@ the website never refreshes organizer information automatically.
 ### What The Queues Do And Do Not Prove
 
 - Edition queue: provisional/estimated upcoming records, stale reviews, empty
-  deadline lists and latest past editions with no tracked successor. The
+  deadline lists, confirmed routes due soon on records not checked lately, and
+  latest past editions with no tracked successor. The
   special joint IJCAI-ECAI series does not demand a same-name successor.
 - Acceptance queue: missing sourced evidence or evidence more than two years
   old. It does not infer a rate or selectivity band.
@@ -66,6 +67,10 @@ Each queued edition gets one tier, most urgent first:
 
 - `act-now`: a fresh-submission route, or its mandatory gate, is due within 30
   days (an estimated route within 90 days).
+- `recheck` (Recheck before deadline): a record queued only because a confirmed
+  route or its gate is due within 21 days and the record was last checked 10
+  or more days ago. Late extensions and corrections cluster in these weeks;
+  look for them. A record already queued for another reason keeps that tier.
 - `soon`: due within 90 days. `later`: due after that.
 - `call-unannounced`: a meeting that has not started and has no recorded
   fresh-submission route (the site's "Deadline unannounced"); find this
@@ -76,7 +81,9 @@ Each queued edition gets one tier, most urgent first:
 
 Route rules mirror the site: only supported types count and a gate is never a
 route on its own. Advisory checks, listed apart from the queue, flag passed
-estimated deadlines of upcoming meetings, confirmed future locations without a
+estimated deadlines of upcoming meetings, an `opens_at` stored at exactly
+midnight on a route that is still open (confirm the source publishes that time;
+a day-only opening belongs in notes), confirmed future locations without a
 city alias, confirmed records citing an older year's URL, and aggregator or
 social-media sources. The acceptance and scope backlogs print a count plus a
 sample (`--backlog-sample N`); `--full` lists every row. `--format markdown`
@@ -101,16 +108,19 @@ python3 scripts/source_check.py --series NeurIPS --format markdown --output /tmp
 ```
 
 It fetches every cited URL of upcoming editions (or the selected ones) and
-reports `dead`, `blocked` (403/429; check by hand), `robots` and cross-host
-`redirect` links. For estimated editions it probes next-year URLs, and for HTML
+reports `dead`, `tls-error` (certificate not verified), `blocked` (403/429;
+check by hand), `robots` and cross-host `redirect` links. For estimated editions it probes next-year URLs, and for HTML
 pages it prints keyword/date snippets beside the YAML dates. `--series` is
 ignored when `--id` is given. Snippets are hints,
 not evidence. It respects robots.txt, waits at least 1 s per host and writes
 only the optional `--output` file. A full run takes 10-15 minutes; on macOS wrap
-it in `caffeinate -is` (this does not help with the lid closed). The python.org
-macOS Python ships without CA certificates: install `certifi`, run "Install
-Certificates.command" or use the system `/usr/bin/python3`, otherwise every HTTPS
-URL shows as `dead`.
+it in `caffeinate -is` (this does not help with the lid closed). Run it from
+the project environment ([development setup](development.md#required-setup-and-checks)).
+The python.org macOS Python ships without CA certificates: install `certifi`,
+run "Install Certificates.command" or use the system `/usr/bin/python3`,
+otherwise every HTTPS URL shows as `tls-error`. A `tls-error` on only a few
+URLs usually means that site's certificate is broken; check it in a browser.
+Neither case is evidence that a page is gone.
 
 ### Correction Reports
 

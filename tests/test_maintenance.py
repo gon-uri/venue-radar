@@ -172,8 +172,50 @@ class TriageTests(unittest.TestCase):
         self.assertEqual({row.id for row in rows}, {row[1] for row in review_queue(records, AS_OF, 30)})
 
 
+    def test_confirmed_route_due_soon_is_rechecked_before_the_deadline(self) -> None:
+        due_soon = [deadline("full_paper", "2026-11-15")]  # 17 days after AS_OF
+        records = [
+            edition(id="recheck-2027", series="Recheck", short_title="Recheck 2027", last_checked="2026-10-15",
+                    deadlines=due_soon),
+            # Boundaries: due in exactly 21 days on a record checked exactly 10 days ago.
+            edition(id="edge-2027", series="Edge", short_title="Edge 2027", last_checked="2026-10-19",
+                    deadlines=[deadline("abstract", "2026-11-19", gate_for="full_paper"),
+                               deadline("full_paper", "2026-11-26")]),
+            edition(id="fresh-2027", series="Fresh", short_title="Fresh 2027", last_checked="2026-10-20",
+                    deadlines=due_soon),
+            edition(id="far-2027", series="Far", short_title="Far 2027", last_checked="2026-10-15",
+                    deadlines=[deadline("full_paper", "2026-11-20")]),
+            edition(id="camera-2027", series="Camera", short_title="Camera 2027", last_checked="2026-10-15",
+                    deadlines=[deadline("camera_ready", "2026-11-15"), deadline("full_paper", "2027-02-01")]),
+            # Already queued for another reason: the existing tier wins.
+            edition(id="est-2027", series="Est", short_title="Est 2027", last_checked="2026-10-15",
+                    deadlines=[deadline("full_paper", "2026-11-15", confidence="estimated")]),
+            edition(id="stale-2027", series="Stale", short_title="Stale 2027", last_checked=STALE,
+                    deadlines=due_soon),
+        ]
+        rows = triage(records, AS_OF, 30)
+        self.assertEqual({row.id: row.tier for row in rows}, {
+            "recheck-2027": "recheck", "edge-2027": "recheck", "est-2027": "act-now", "stale-2027": "act-now",
+        })
+        self.assertEqual([row.id for row in rows][2:], ["recheck-2027", "edge-2027"])
+        recheck = rows[2]
+        self.assertEqual(recheck.reasons, "confirmed full_paper due in 17 days, last checked 14 days ago")
+        self.assertEqual(recheck.milestone.due if recheck.milestone else None, "2026-11-15")
+        self.assertEqual(rows[3].reasons, "confirmed abstract due in 21 days, last checked 10 days ago")
+        self.assertEqual(TIERS["recheck"][0], "Recheck before deadline")
+
+
 class AdvisoryTests(unittest.TestCase):
     CITIES = {"paris": {"label": "Paris, France", "locations": ["Paris, France"]}}
+
+    def test_midnight_opening_on_an_open_route_is_flagged(self) -> None:
+        item = edition(deadlines=[
+            deadline("full_paper", "2027-01-10", opens_at="2026-12-01T00:00:00Z"),
+            deadline("short_paper", "2027-01-20", opens_at="2026-12-01T09:00:00-12:00"),
+            deadline("abstract", "2026-10-01", opens_at="2026-09-01T00:00:00Z"),  # route closed: quiet
+        ])
+        found = [(row.check, row.url) for row in advisories([item], self.CITIES, AS_OF)]
+        self.assertEqual(found, [("midnight-opening", "https://example.org/full_paper")])
 
     def test_flags_passed_estimates_missing_alias_old_urls_and_aggregators(self) -> None:
         item = edition(
@@ -301,7 +343,9 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(workflow["permissions"], {"contents": "read", "issues": "write"})
         steps = [step for job in workflow["jobs"].values() for step in job["steps"]]
         setup = next(step for step in steps if step.get("uses", "").startswith("actions/setup-python"))
-        self.assertEqual(setup["with"]["python-version"], "3.12")
+        # CI and local virtual environments share one pinned interpreter version.
+        self.assertEqual(setup["with"], {"python-version-file": ".python-version"})
+        self.assertEqual((ROOT / ".python-version").read_text().strip(), "3.12")
         script = "\n".join(step.get("run", "") for step in steps)
         self.assertIn("maintenance_report.py --format markdown --as-of", script)
         self.assertIn("60 days without repository activity", script)

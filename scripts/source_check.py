@@ -36,7 +36,9 @@ MAX_PROBES_PER_EDITION = 8
 PROBE_LOOKBACK_YEARS = 3
 CATEGORIES = {
     "dead": "dead (4xx/5xx, soft 404 or connection error)",
-    "blocked": "blocked (403/429): check manually in a browser",
+    "tls-error": "TLS certificate not verified: if many URLs show this, fix this Python's CA certificates; "
+                 "otherwise check the site in a browser",
+    "blocked":"blocked (403/429): check manually in a browser",
     "robots": "not fetched: robots.txt disallows it; check manually",
     "redirect": "redirected to another host",
     "ok": "loaded",
@@ -187,6 +189,9 @@ def classify(result: FetchResult) -> str:
         return "robots"
     if result.status in (403, 429):
         return "blocked"
+    # A local trust-store problem is not evidence that the organizer's page is gone.
+    if result.status is None and _is_certificate_error(result.error):
+        return "tls-error"
     if result.status is None or result.status >= 400:
         return "dead"
     if NOT_FOUND_TITLE.search(result.title):

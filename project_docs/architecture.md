@@ -1,6 +1,6 @@
 # Architecture
 
-Last synchronized: 2026-10-29.
+Last synchronized: 2026-10-30.
 
 ## System In Brief
 
@@ -61,7 +61,7 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 
 | Module | Responsibility |
 | --- | --- |
-| `scripts/validate.py` | Edition/rank/rate validation, date parsing, slugs, supported submission types and acceptance bands. Its CLI also validates families/cities/scopes. |
+| `scripts/validate.py` | Edition/rank/rate validation, date parsing (review days such as `last_checked` may not be in the future), slugs, supported submission types and acceptance bands. Its CLI also validates families/cities/scopes. |
 | `scripts/catalog_metadata.py` | Family/city and complete series-family validation; confirmed-city event payload. |
 | `scripts/conference_scopes.py` | Profile validation, deduplicated topic union and missing/stale/prior-edition scope queue. |
 | `scripts/build_ics.py` | Escaped/folded VCALENDAR output, stable ordering/UIDs, exact and all-day deadline events. |
@@ -71,10 +71,10 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 | `assets/site.js` | Mobile cards, family/leaf matching, calendar menu, offline map and optional Giscus loading. |
 | `assets/base.css`, `assets/site.css` | Base tokens and layout, then brand/mobile/feature styling; embedded in that order. |
 | `scripts/build_all.py` | Validate source data, build ICS and standalone HTML. Run the standalone validator too; do not skip registry checks. |
-| `scripts/maintenance_report.py` | Read-only edition queue with urgency tiers, advisory checks, and acceptance/scope backlogs (text, markdown or JSON). |
+| `scripts/maintenance_report.py` | Read-only edition queue with urgency tiers (including a pre-deadline recheck), advisory checks, and acceptance/scope backlogs (text, markdown or JSON). |
 | `scripts/source_check.py` | Manual, networked check of cited URLs and successor pages. Report-only; never run in CI. |
 | `scripts/check_identity.py` | Fails when a published UID or edition ID disappears without a retirement entry. |
-| `scripts/release_check.py` | Local release gate: validation, tests, build, determinism, docs drift, whitespace, private notes and dataset freshness. |
+| `scripts/release_check.py` | Local release gate: validation, tests, build, determinism, docs drift, whitespace, private notes and dataset freshness (`last_updated` not before the newest review and not in the future). |
 | `scripts/rollover_editions.py` | Preview or explicitly append cadence-based estimates; never overwrites existing edition IDs. |
 | `scripts/export_catalog.py` | JSON export of each series' latest edition, ranks/rates, vocabulary and profiles. |
 | `scripts/sync_workbook.mjs` | Optional artifact-tool workbook synchronization, table/style preservation, checks and previews. |

@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-10-29. This is the current-state summary, not a release
+Last synchronized: 2026-10-30. This is the current-state summary, not a release
 history. Start with [the documentation index](README.md); technical history
 remains in [decisions](decisions.md). Detailed local working notes follow the
 [documentation policy](documentation_policy.md) and are not required to onboard.
@@ -247,3 +247,15 @@ github.com in light and dark themes. Still unverified: link previews on real
 platforms (they cache), Giscus sign-in with the new URL handling,
 calendar-app subscription behavior, and the weekly review-queue workflow,
 which has not had its first scheduled run.
+
+On 2026-10-30 the owner asked for WSDM 2027, which was already tracked, so it
+was rechecked against its official pages instead of added. The meeting and
+existing deadlines are unchanged. The WSDM Day call (2-page extended abstracts
+on search, data mining and agentic AI; unpublished or under-review work
+welcome; in the proceedings; due Nov 30 AoE) is now an `extended_abstract`
+route, so WSDM stays open after its Nov 17 short-paper deadline. Industry Day
+talk proposals (due Oct 30) are noted but not tracked as a submission route.
+Checks: validation, 158 Python and 32 Node tests, the identity check (661 ->
+662 UIDs, none removed; edition IDs unchanged), the full browser suite, and
+the WSDM row on Oct 30, Nov 20 and Dec 2 at 1440px and 390px. Published to
+`main` on 2026-10-30 in the commit that adds this note.

@@ -150,37 +150,6 @@ URL:https://2026.alife.org/
 LOCATION:Waterloo\, Ontario\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:eurogp-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] EuroGP 
- 2027 - Genetic programming paper submission deadline (cutoff time unannou
- nced)
-DESCRIPTION:Conference title: European Conference on Genetic Programming\nW
- ebsite: https://www.evostar.org/2027/eurogp/\nSource URL: https://www.evo
- star.org/2027/important-dates/\nLocation: Mainz\, Germany\nTopics: Evolut
- ionary Computation & Optimization\, Machine Learning\, Explainability & I
- nterpretability\nSize: S\nSubmission type: Paper-based / Springer LNCS\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official EvoS
- tar pages confirm Mainz\, March 31-April 2\, in hybrid mode. Published de
- adline days have no exact cutoff hour or timezone\; AoE timestamps are pr
- ovisional and calendars use all-day events. The shared EvoStar late-break
- ing-abstract date is not yet a verified EuroGP-specific paper route. S is
-  an editorial size estimate for EuroGP\, not the whole EvoStar event.\nSc
- ope: Genetic programming and evolutionary program synthesis\, including s
- ymbolic regression\, program representations and operators\, surrogate-as
- sisted search\, multi-objective evolution\, and interpretable learned pro
- grams. Evolutionary machine learning\, AutoML pipelines\, and neuroevolut
- ion connect this focused methodological community to ML. Application doma
- ins do not define its tags.\nAdditional topics: Learning Theory & Statist
- ical Foundations\, Deep Representation Learning\nScope sources (2027): ht
- tps://www.evostar.org/2027/eurogp/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
-URL:https://www.evostar.org/2027/important-dates/
-END:VEVENT
-BEGIN:VEVENT
 UID:nolta-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261117
@@ -206,6 +175,40 @@ DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
  026-10-07
 URL:https://nolta2026.org/
 LOCATION:Grenoble\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:eurogp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] EuroGP 
+ 2027 - Extended genetic programming paper submission deadline (cutoff tim
+ e unannounced)
+DESCRIPTION:Conference title: European Conference on Genetic Programming\nW
+ ebsite: https://www.evostar.org/2027/eurogp/\nSource URL: https://www.evo
+ star.org/2027/important-dates/\nLocation: Mainz\, Germany\nTopics: Evolut
+ ionary Computation & Optimization\, Machine Learning\, Explainability & I
+ nterpretability\nSize: S\nSubmission type: Paper-based / Springer LNCS\nC
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Official EvoS
+ tar pages confirm Mainz\, March 31-April 2\, in hybrid mode. On 2026-10-3
+ 0 the Important Dates page strikes November 1 and gives November 16\, 202
+ 6 (extended) for EvoStar paper submissions\, including EuroGP\; an older 
+ post embedded on the EuroGP page still shows November 1. Published deadli
+ ne days have no exact cutoff hour or timezone\; AoE timestamps are provis
+ ional and calendars use all-day events. A shared EvoStar late-breaking-ab
+ stract date (March 21\, 2027) has no 2027 call page yet and is not tracke
+ d. S is an editorial size estimate for EuroGP\, not the whole EvoStar eve
+ nt.\nScope: Genetic programming and evolutionary program synthesis\, incl
+ uding symbolic regression\, program representations and operators\, surro
+ gate-assisted search\, multi-objective evolution\, and interpretable lear
+ ned programs. Evolutionary machine learning\, AutoML pipelines\, and neur
+ oevolution connect this focused methodological community to ML. Applicati
+ on domains do not define its tags.\nAdditional topics: Learning Theory & 
+ Statistical Foundations\, Deep Representation Learning\nScope sources (20
+ 27): https://www.evostar.org/2027/eurogp/\nScope last checked: 2026-10-07
+ \nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Veri
+ fy the organizer's submission portal.
+URL:https://www.evostar.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:gecco-2027-deadline-tutorial-proposal@scientific-conference-calendar
@@ -278,22 +281,25 @@ DESCRIPTION:Conference title: European Conference on Genetic Programming\nW
  star.org/2027/important-dates/\nLocation: Mainz\, Germany\nTopics: Evolut
  ionary Computation & Optimization\, Machine Learning\, Explainability & I
  nterpretability\nSize: S\nSubmission type: Paper-based / Springer LNCS\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official EvoS
- tar pages confirm Mainz\, March 31-April 2\, in hybrid mode. Published de
- adline days have no exact cutoff hour or timezone\; AoE timestamps are pr
- ovisional and calendars use all-day events. The shared EvoStar late-break
- ing-abstract date is not yet a verified EuroGP-specific paper route. S is
-  an editorial size estimate for EuroGP\, not the whole EvoStar event.\nSc
- ope: Genetic programming and evolutionary program synthesis\, including s
- ymbolic regression\, program representations and operators\, surrogate-as
- sisted search\, multi-objective evolution\, and interpretable learned pro
- grams. Evolutionary machine learning\, AutoML pipelines\, and neuroevolut
- ion connect this focused methodological community to ML. Application doma
- ins do not define its tags.\nAdditional topics: Learning Theory & Statist
- ical Foundations\, Deep Representation Learning\nScope sources (2027): ht
- tps://www.evostar.org/2027/eurogp/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Official EvoS
+ tar pages confirm Mainz\, March 31-April 2\, in hybrid mode. On 2026-10-3
+ 0 the Important Dates page strikes November 1 and gives November 16\, 202
+ 6 (extended) for EvoStar paper submissions\, including EuroGP\; an older 
+ post embedded on the EuroGP page still shows November 1. Published deadli
+ ne days have no exact cutoff hour or timezone\; AoE timestamps are provis
+ ional and calendars use all-day events. A shared EvoStar late-breaking-ab
+ stract date (March 21\, 2027) has no 2027 call page yet and is not tracke
+ d. S is an editorial size estimate for EuroGP\, not the whole EvoStar eve
+ nt.\nScope: Genetic programming and evolutionary program synthesis\, incl
+ uding symbolic regression\, program representations and operators\, surro
+ gate-assisted search\, multi-objective evolution\, and interpretable lear
+ ned programs. Evolutionary machine learning\, AutoML pipelines\, and neur
+ oevolution connect this focused methodological community to ML. Applicati
+ on domains do not define its tags.\nAdditional topics: Learning Theory & 
+ Statistical Foundations\, Deep Representation Learning\nScope sources (20
+ 27): https://www.evostar.org/2027/eurogp/\nScope last checked: 2026-10-07
+ \nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Veri
+ fy the organizer's submission portal.
 URL:https://www.evostar.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -400,20 +406,23 @@ DESCRIPTION:Conference title: European Conference on Genetic Programming\nW
  star.org/2027/\nLocation: Mainz\, Germany\nTopics: Evolutionary Computati
  on & Optimization\, Machine Learning\, Explainability & Interpretability\
  nSize: S\nSubmission type: Paper-based / Springer LNCS\nConfidence: confi
- rmed\nLast checked date: 2026-10-07\nNotes: Official EvoStar pages confir
- m Mainz\, March 31-April 2\, in hybrid mode. Published deadline days have
-  no exact cutoff hour or timezone\; AoE timestamps are provisional and ca
- lendars use all-day events. The shared EvoStar late-breaking-abstract dat
- e is not yet a verified EuroGP-specific paper route. S is an editorial si
- ze estimate for EuroGP\, not the whole EvoStar event.\nScope: Genetic pro
- gramming and evolutionary program synthesis\, including symbolic regressi
- on\, program representations and operators\, surrogate-assisted search\, 
- multi-objective evolution\, and interpretable learned programs. Evolution
- ary machine learning\, AutoML pipelines\, and neuroevolution connect this
-  focused methodological community to ML. Application domains do not defin
- e its tags.\nAdditional topics: Learning Theory & Statistical Foundations
- \, Deep Representation Learning\nScope sources (2027): https://www.evosta
- r.org/2027/eurogp/\nScope last checked: 2026-10-07
+ rmed\nLast checked date: 2026-10-30\nNotes: Official EvoStar pages confir
+ m Mainz\, March 31-April 2\, in hybrid mode. On 2026-10-30 the Important 
+ Dates page strikes November 1 and gives November 16\, 2026 (extended) for
+  EvoStar paper submissions\, including EuroGP\; an older post embedded on
+  the EuroGP page still shows November 1. Published deadline days have no 
+ exact cutoff hour or timezone\; AoE timestamps are provisional and calend
+ ars use all-day events. A shared EvoStar late-breaking-abstract date (Mar
+ ch 21\, 2027) has no 2027 call page yet and is not tracked. S is an edito
+ rial size estimate for EuroGP\, not the whole EvoStar event.\nScope: Gene
+ tic programming and evolutionary program synthesis\, including symbolic r
+ egression\, program representations and operators\, surrogate-assisted se
+ arch\, multi-objective evolution\, and interpretable learned programs. Ev
+ olutionary machine learning\, AutoML pipelines\, and neuroevolution conne
+ ct this focused methodological community to ML. Application domains do no
+ t define its tags.\nAdditional topics: Learning Theory & Statistical Foun
+ dations\, Deep Representation Learning\nScope sources (2027): https://www
+ .evostar.org/2027/eurogp/\nScope last checked: 2026-10-07
 URL:https://www.evostar.org/2027/
 LOCATION:Mainz\, Germany
 END:VEVENT

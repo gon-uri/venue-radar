@@ -6,16 +6,16 @@ The current model below takes precedence over the explicitly historical audit.
 
 ## Current Eight-Family Model
 
-Reviewed: 2026-10-29, after adding AIiH (healthcare). These counts use
+Reviewed: 2026-10-30, after adding ECC (control). These counts use
 explicit central series identities, not the presence of any generic method tag.
-There are 130 series, 43 leaves and 80 reviewed profiles; 50 profiles remain queued.
+There are 131 series, 43 leaves and 80 reviewed profiles; 51 profiles remain queued.
 
 | Family | Central series | Subtopics |
 | --- | --- | --- |
 | ML & Data Science | 42 | Machine learning; deep learning; theory; probabilistic/causal ML; distributed/federated learning; evolutionary optimization; ML systems; reasoning; data mining |
 | NLP, Agents & Retrieval | 19 | NLP/LLMs; autonomous/multiagent systems; LLM agents/tool use; information retrieval/RAG; recommenders |
 | Vision & Multimedia | 16 | Vision/pattern recognition; graphics/visualization; multimedia/retrieval |
-| RL, Robotics & Control | 11 | Reinforcement learning; control/robotics; planning/search |
+| RL, Robotics & Control | 12 | Reinforcement learning; control/robotics; planning/search |
 | Complex Systems, Time Series & Signals | 30 | Nonlinear dynamics; complex systems/networks; graphs/graph learning; system identification; time series; signals; artificial life/adaptive systems |
 | Healthcare & Biometrics | 14 | Healthcare/clinical AI; biomedical imaging; biometrics/human sensing |
 | Neuroscience & Neurotechnology | 17 | Computational neuroscience; EEG/MEG; BCI; neuroimaging; computational cognition; neuromorphic/brain-inspired computing; systems/experimental neuroscience |

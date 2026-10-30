@@ -10,38 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:fg-2027-deadline-workshop@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261021T115900Z
-DTEND:20261021T125900Z
-SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
-  FG 2027 - Workshop and tutorial proposal deadline
-DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
- ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
- nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
- sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
- ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
- M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
-URL:https://fg2027.ieee-biometrics.org/dates/
-END:VEVENT
-BEGIN:VEVENT
 UID:fg-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261024T115900Z
@@ -54,23 +22,26 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -86,23 +57,61 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
+URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261115T115900Z
+DTEND:20261115T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  FG 2027 - Extended workshop and tutorial proposal deadline
+DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
+ ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
+ nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
+ sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
+ M\nSubmission type: Long and short papers / face\, gesture\, and body rec
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -118,23 +127,26 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -150,23 +162,26 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -182,23 +197,26 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 LOCATION:Marrakesh\, Morocco
 END:VEVENT

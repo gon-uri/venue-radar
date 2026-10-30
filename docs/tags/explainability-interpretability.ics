@@ -1597,20 +1597,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
+DTSTART:20260922T115900Z
+DTEND:20260922T125900Z
 SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
- ull-paper abstract deadline (cutoff time unannounced)
+ ull-paper abstract deadline
 DESCRIPTION:Conference title: European Conference on Information Retrieval\
  nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
  o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
  n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
- nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
-  calls confirm paper days but no exact cutoff hour. Full/short abstract g
- ates are already closed\; replicability and resource papers remain indepe
- ndent opportunities. Resource papers report original research resources\,
-  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ nfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 2026
+ -10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abst
+ ract gate and Oct 5 paper\; the short\, replicability and resource calls 
+ give days only. Resource papers (Nov 2\, no abstract step) report origina
+ l research resources\; no extension was found. IR-for-Good papers (closed
+  Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consortiu
+ m submissions (extended to a Nov 2 abstract and Nov 9 paper) are not trac
+ ked as separate routes. Size is an editorial estimate.\nScope: Informatio
  n retrieval and ranking\, recommendation\, conversational search and RAG\
  , user information interaction\, system efficiency\, and rigorous evaluat
  ion. The 2027 call explicitly includes language models and agentic retrie
@@ -1619,9 +1622,7 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
   Deployment\, Explainability & Interpretability\, Fairness & Responsible 
  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
- cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07
 URL:https://www.ecir2027.co.uk/call-for-full-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -1724,25 +1725,26 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
  einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
   Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
  Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
- -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
- are closed because the Oct 1 abstract gate has passed\, even before the O
- ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
- forthcoming opportunity\; author registration is announced for Oct 20 but
-  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
- short papers. AAAI fast-track and already published JAAMAS presentations 
- are not general new-paper routes. Size XL is an editorial estimate. Histo
- rical acceptance covers main full papers only\, not Blue Sky Ideas or the
-  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
- i-agent systems: learning and adaptation\, coordination\, game theory\, p
- lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
- o covers human-agent interaction\, robot teams\, norms and governance\, a
- nd generative agents. The contribution should concern agents or their int
- eraction\; generic language-model or learning results are not automatical
- ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
- stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
- etwork Science\, Ethics & Governance\, Explainability & Interpretability\
- nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
- call-for-main-track/\nScope last checked: 2026-10-07
+ -30\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed. The separate four-
+ page Blue Sky Ideas track is open: its OpenReview form (opened Oct 20) wa
+ s observed live on 2026-10-30\, and its Nov 5 gate only controls the Nov 
+ 12 short papers. A Demonstrations call posted Oct 27 (four-page paper plu
+ s video\, in the proceedings\, due Dec 27 AoE) is not tracked as a separa
+ te route. The AAAI fast track is limited to highly rated AAAI-27 papers a
+ nd is not a general new-paper route. Size XL is an editorial estimate. Hi
+ storical acceptance covers main full papers only\, not Blue Sky Ideas or 
+ the newly introduced 2027 Findings track.\nScope: Autonomous agents and m
+ ulti-agent systems: learning and adaptation\, coordination\, game theory\
+ , planning\, reasoning\, agent engineering\, and agent-based simulation. 
+ Also covers human-agent interaction\, robot teams\, norms and governance\
+ , and generative agents. The contribution should concern agents or their 
+ interaction\; generic language-model or learning results are not automati
+ cally in scope.\nAdditional topics: Deep Representation Learning\, Probab
+ ilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems 
+ & Network Science\, Ethics & Governance\, Explainability & Interpretabili
+ ty\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/cal
+ ls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -1803,20 +1805,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
+DTSTART:20261006T115900Z
+DTEND:20261006T125900Z
 SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
- ull paper submission deadline (cutoff time unannounced)
+ ull paper submission deadline
 DESCRIPTION:Conference title: European Conference on Information Retrieval\
  nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
  o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
  n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
- nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
-  calls confirm paper days but no exact cutoff hour. Full/short abstract g
- ates are already closed\; replicability and resource papers remain indepe
- ndent opportunities. Resource papers report original research resources\,
-  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ nfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 2026
+ -10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abst
+ ract gate and Oct 5 paper\; the short\, replicability and resource calls 
+ give days only. Resource papers (Nov 2\, no abstract step) report origina
+ l research resources\; no extension was found. IR-for-Good papers (closed
+  Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consortiu
+ m submissions (extended to a Nov 2 abstract and Nov 9 paper) are not trac
+ ked as separate routes. Size is an editorial estimate.\nScope: Informatio
  n retrieval and ranking\, recommendation\, conversational search and RAG\
  , user information interaction\, system efficiency\, and rigorous evaluat
  ion. The 2027 call explicitly includes language models and agentic retrie
@@ -1825,9 +1830,7 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
   Deployment\, Explainability & Interpretability\, Fairness & Responsible 
  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
- cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07
 URL:https://www.ecir2027.co.uk/call-for-full-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -1842,11 +1845,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
  on Retrieval & Search\, Recommender Systems\, Natural Language Processing
   & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
- c calls confirm paper days but no exact cutoff hour. Full/short abstract 
- gates are already closed\; replicability and resource papers remain indep
- endent opportunities. Resource papers report original research resources\
- , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 202
+ 6-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abs
+ tract gate and Oct 5 paper\; the short\, replicability and resource calls
+  give days only. Resource papers (Nov 2\, no abstract step) report origin
+ al research resources\; no extension was found. IR-for-Good papers (close
+ d Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consorti
+ um submissions (extended to a Nov 2 abstract and Nov 9 paper) are not tra
+ cked as separate routes. Size is an editorial estimate.\nScope: Informati
  on retrieval and ranking\, recommendation\, conversational search and RAG
  \, user information interaction\, system efficiency\, and rigorous evalua
  tion. The 2027 call explicitly includes language models and agentic retri
@@ -1874,25 +1880,26 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
  einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
   Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
  Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
- -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
- are closed because the Oct 1 abstract gate has passed\, even before the O
- ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
- forthcoming opportunity\; author registration is announced for Oct 20 but
-  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
- short papers. AAAI fast-track and already published JAAMAS presentations 
- are not general new-paper routes. Size XL is an editorial estimate. Histo
- rical acceptance covers main full papers only\, not Blue Sky Ideas or the
-  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
- i-agent systems: learning and adaptation\, coordination\, game theory\, p
- lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
- o covers human-agent interaction\, robot teams\, norms and governance\, a
- nd generative agents. The contribution should concern agents or their int
- eraction\; generic language-model or learning results are not automatical
- ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
- stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
- etwork Science\, Ethics & Governance\, Explainability & Interpretability\
- nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
- call-for-main-track/\nScope last checked: 2026-10-07
+ -30\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed. The separate four-
+ page Blue Sky Ideas track is open: its OpenReview form (opened Oct 20) wa
+ s observed live on 2026-10-30\, and its Nov 5 gate only controls the Nov 
+ 12 short papers. A Demonstrations call posted Oct 27 (four-page paper plu
+ s video\, in the proceedings\, due Dec 27 AoE) is not tracked as a separa
+ te route. The AAAI fast track is limited to highly rated AAAI-27 papers a
+ nd is not a general new-paper route. Size XL is an editorial estimate. Hi
+ storical acceptance covers main full papers only\, not Blue Sky Ideas or 
+ the newly introduced 2027 Findings track.\nScope: Autonomous agents and m
+ ulti-agent systems: learning and adaptation\, coordination\, game theory\
+ , planning\, reasoning\, agent engineering\, and agent-based simulation. 
+ Also covers human-agent interaction\, robot teams\, norms and governance\
+ , and generative agents. The contribution should concern agents or their 
+ interaction\; generic language-model or learning results are not automati
+ cally in scope.\nAdditional topics: Deep Representation Learning\, Probab
+ ilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems 
+ & Network Science\, Ethics & Governance\, Explainability & Interpretabili
+ ty\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/cal
+ ls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -1992,11 +1999,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
   Information Retrieval & Search\, Recommender Systems\, Natural Language 
  Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
- r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
- ck-specific calls confirm paper days but no exact cutoff hour. Full/short
-  abstract gates are already closed\; replicability and resource papers re
- main independent opportunities. Resource papers report original research 
- resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rec
+ hecked 2026-10-30. The full-paper call states 11:59pm AoE for its closed 
+ Sep 21 abstract gate and Oct 5 paper\; the short\, replicability and reso
+ urce calls give days only. Resource papers (Nov 2\, no abstract step) rep
+ ort original research resources\; no extension was found. IR-for-Good pap
+ ers (closed Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctora
+ l Consortium submissions (extended to a Nov 2 abstract and Nov 9 paper) a
+ re not tracked as separate routes. Size is an editorial estimate.\nScope:
   Information retrieval and ranking\, recommendation\, conversational sear
  ch and RAG\, user information interaction\, system efficiency\, and rigor
  ous evaluation. The 2027 call explicitly includes language models and age
@@ -2022,11 +2032,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
  on Retrieval & Search\, Recommender Systems\, Natural Language Processing
   & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
- c calls confirm paper days but no exact cutoff hour. Full/short abstract 
- gates are already closed\; replicability and resource papers remain indep
- endent opportunities. Resource papers report original research resources\
- , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 202
+ 6-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abs
+ tract gate and Oct 5 paper\; the short\, replicability and resource calls
+  give days only. Resource papers (Nov 2\, no abstract step) report origin
+ al research resources\; no extension was found. IR-for-Good papers (close
+ d Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consorti
+ um submissions (extended to a Nov 2 abstract and Nov 9 paper) are not tra
+ cked as separate routes. Size is an editorial estimate.\nScope: Informati
  on retrieval and ranking\, recommendation\, conversational search and RAG
  \, user information interaction\, system efficiency\, and rigorous evalua
  tion. The 2027 call explicitly includes language models and agentic retri
@@ -2052,11 +2065,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
   Information Retrieval & Search\, Recommender Systems\, Natural Language 
  Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
- r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
- ck-specific calls confirm paper days but no exact cutoff hour. Full/short
-  abstract gates are already closed\; replicability and resource papers re
- main independent opportunities. Resource papers report original research 
- resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rec
+ hecked 2026-10-30. The full-paper call states 11:59pm AoE for its closed 
+ Sep 21 abstract gate and Oct 5 paper\; the short\, replicability and reso
+ urce calls give days only. Resource papers (Nov 2\, no abstract step) rep
+ ort original research resources\; no extension was found. IR-for-Good pap
+ ers (closed Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctora
+ l Consortium submissions (extended to a Nov 2 abstract and Nov 9 paper) a
+ re not tracked as separate routes. Size is an editorial estimate.\nScope:
   Information retrieval and ranking\, recommendation\, conversational sear
  ch and RAG\, user information interaction\, system efficiency\, and rigor
  ous evaluation. The 2027 call explicitly includes language models and age
@@ -2069,38 +2085,6 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  0-07\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. 
  Verify the organizer's submission portal.
 URL:https://www.ecir2027.co.uk/call-for-reproducibility-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:fg-2027-deadline-workshop@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261021T115900Z
-DTEND:20261021T125900Z
-SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
-  FG 2027 - Workshop and tutorial proposal deadline
-DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
- ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
- nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
- sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
- ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
- M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
-URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2026-conference@scientific-conference-calendar
@@ -2142,23 +2126,26 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -2228,23 +2215,26 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -2277,37 +2267,6 @@ DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:eurogp-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] EuroGP 
- 2027 - Genetic programming paper submission deadline (cutoff time unannou
- nced)
-DESCRIPTION:Conference title: European Conference on Genetic Programming\nW
- ebsite: https://www.evostar.org/2027/eurogp/\nSource URL: https://www.evo
- star.org/2027/important-dates/\nLocation: Mainz\, Germany\nTopics: Evolut
- ionary Computation & Optimization\, Machine Learning\, Explainability & I
- nterpretability\nSize: S\nSubmission type: Paper-based / Springer LNCS\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official EvoS
- tar pages confirm Mainz\, March 31-April 2\, in hybrid mode. Published de
- adline days have no exact cutoff hour or timezone\; AoE timestamps are pr
- ovisional and calendars use all-day events. The shared EvoStar late-break
- ing-abstract date is not yet a verified EuroGP-specific paper route. S is
-  an editorial size estimate for EuroGP\, not the whole EvoStar event.\nSc
- ope: Genetic programming and evolutionary program synthesis\, including s
- ymbolic regression\, program representations and operators\, surrogate-as
- sisted search\, multi-objective evolution\, and interpretable learned pro
- grams. Evolutionary machine learning\, AutoML pipelines\, and neuroevolut
- ion connect this focused methodological community to ML. Application doma
- ins do not define its tags.\nAdditional topics: Learning Theory & Statist
- ical Foundations\, Deep Representation Learning\nScope sources (2027): ht
- tps://www.evostar.org/2027/eurogp/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
-URL:https://www.evostar.org/2027/important-dates/
-END:VEVENT
-BEGIN:VEVENT
 UID:ecir-2027-deadline-resource-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261102
@@ -2319,11 +2278,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-resource-papers\nLocation: Southampton\, UK\nTopics: Inform
  ation Retrieval & Search\, Recommender Systems\, Natural Language Process
  ing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based
- \nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-spec
- ific calls confirm paper days but no exact cutoff hour. Full/short abstra
- ct gates are already closed\; replicability and resource papers remain in
- dependent opportunities. Resource papers report original research resourc
- es\, not camera-ready work. Size is an editorial estimate.\nScope: Inform
+ \nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 
+ 2026-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 
+ abstract gate and Oct 5 paper\; the short\, replicability and resource ca
+ lls give days only. Resource papers (Nov 2\, no abstract step) report ori
+ ginal research resources\; no extension was found. IR-for-Good papers (cl
+ osed Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Conso
+ rtium submissions (extended to a Nov 2 abstract and Nov 9 paper) are not 
+ tracked as separate routes. Size is an editorial estimate.\nScope: Inform
  ation retrieval and ranking\, recommendation\, conversational search and 
  RAG\, user information interaction\, system efficiency\, and rigorous eva
  luation. The 2027 call explicitly includes language models and agentic re
@@ -2408,25 +2370,26 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
  \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
  n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
  lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
- 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
- ons are closed because the Oct 1 abstract gate has passed\, even before t
- he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
- s a forthcoming opportunity\; author registration is announced for Oct 20
-  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
-  12 short papers. AAAI fast-track and already published JAAMAS presentati
- ons are not general new-paper routes. Size XL is an editorial estimate. H
- istorical acceptance covers main full papers only\, not Blue Sky Ideas or
-  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
- multi-agent systems: learning and adaptation\, coordination\, game theory
- \, planning\, reasoning\, agent engineering\, and agent-based simulation.
-  Also covers human-agent interaction\, robot teams\, norms and governance
- \, and generative agents. The contribution should concern agents or their
-  interaction\; generic language-model or learning results are not automat
- ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
- bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
-  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
- ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
- lls/call-for-main-track/\nScope last checked: 2026-10-07
+ 6-10-30\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed. The separate f
+ our-page Blue Sky Ideas track is open: its OpenReview form (opened Oct 20
+ ) was observed live on 2026-10-30\, and its Nov 5 gate only controls the 
+ Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page paper
+  plus video\, in the proceedings\, due Dec 27 AoE) is not tracked as a se
+ parate route. The AAAI fast track is limited to highly rated AAAI-27 pape
+ rs and is not a general new-paper route. Size XL is an editorial estimate
+ . Historical acceptance covers main full papers only\, not Blue Sky Ideas
+  or the newly introduced 2027 Findings track.\nScope: Autonomous agents a
+ nd multi-agent systems: learning and adaptation\, coordination\, game the
+ ory\, planning\, reasoning\, agent engineering\, and agent-based simulati
+ on. Also covers human-agent interaction\, robot teams\, norms and governa
+ nce\, and generative agents. The contribution should concern agents or th
+ eir interaction\; generic language-model or learning results are not auto
+ matically in scope.\nAdditional topics: Deep Representation Learning\, Pr
+ obabilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Syst
+ ems & Network Science\, Ethics & Governance\, Explainability & Interpreta
+ bility\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027
+ /calls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
@@ -2496,25 +2459,26 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
  \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
  n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
  lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
- 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
- ons are closed because the Oct 1 abstract gate has passed\, even before t
- he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
- s a forthcoming opportunity\; author registration is announced for Oct 20
-  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
-  12 short papers. AAAI fast-track and already published JAAMAS presentati
- ons are not general new-paper routes. Size XL is an editorial estimate. H
- istorical acceptance covers main full papers only\, not Blue Sky Ideas or
-  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
- multi-agent systems: learning and adaptation\, coordination\, game theory
- \, planning\, reasoning\, agent engineering\, and agent-based simulation.
-  Also covers human-agent interaction\, robot teams\, norms and governance
- \, and generative agents. The contribution should concern agents or their
-  interaction\; generic language-model or learning results are not automat
- ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
- bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
-  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
- ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
- lls/call-for-main-track/\nScope last checked: 2026-10-07
+ 6-10-30\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed. The separate f
+ our-page Blue Sky Ideas track is open: its OpenReview form (opened Oct 20
+ ) was observed live on 2026-10-30\, and its Nov 5 gate only controls the 
+ Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page paper
+  plus video\, in the proceedings\, due Dec 27 AoE) is not tracked as a se
+ parate route. The AAAI fast track is limited to highly rated AAAI-27 pape
+ rs and is not a general new-paper route. Size XL is an editorial estimate
+ . Historical acceptance covers main full papers only\, not Blue Sky Ideas
+  or the newly introduced 2027 Findings track.\nScope: Autonomous agents a
+ nd multi-agent systems: learning and adaptation\, coordination\, game the
+ ory\, planning\, reasoning\, agent engineering\, and agent-based simulati
+ on. Also covers human-agent interaction\, robot teams\, norms and governa
+ nce\, and generative agents. The contribution should concern agents or th
+ eir interaction\; generic language-model or learning results are not auto
+ matically in scope.\nAdditional topics: Deep Representation Learning\, Pr
+ obabilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Syst
+ ems & Network Science\, Ethics & Governance\, Explainability & Interpreta
+ bility\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027
+ /calls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
@@ -2550,6 +2514,75 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  cial deadline day\; exact cutoff hour/timezone is unannounced. Verify the
   organizer's submission portal.
 URL:https://2027.eacl.org/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261115T115900Z
+DTEND:20261115T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  FG 2027 - Extended workshop and tutorial proposal deadline
+DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
+ ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
+ nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
+ sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
+ M\nSubmission type: Long and short papers / face\, gesture\, and body rec
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
+URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eurogp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] EuroGP 
+ 2027 - Extended genetic programming paper submission deadline (cutoff tim
+ e unannounced)
+DESCRIPTION:Conference title: European Conference on Genetic Programming\nW
+ ebsite: https://www.evostar.org/2027/eurogp/\nSource URL: https://www.evo
+ star.org/2027/important-dates/\nLocation: Mainz\, Germany\nTopics: Evolut
+ ionary Computation & Optimization\, Machine Learning\, Explainability & I
+ nterpretability\nSize: S\nSubmission type: Paper-based / Springer LNCS\nC
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Official EvoS
+ tar pages confirm Mainz\, March 31-April 2\, in hybrid mode. On 2026-10-3
+ 0 the Important Dates page strikes November 1 and gives November 16\, 202
+ 6 (extended) for EvoStar paper submissions\, including EuroGP\; an older 
+ post embedded on the EuroGP page still shows November 1. Published deadli
+ ne days have no exact cutoff hour or timezone\; AoE timestamps are provis
+ ional and calendars use all-day events. A shared EvoStar late-breaking-ab
+ stract date (March 21\, 2027) has no 2027 call page yet and is not tracke
+ d. S is an editorial size estimate for EuroGP\, not the whole EvoStar eve
+ nt.\nScope: Genetic programming and evolutionary program synthesis\, incl
+ uding symbolic regression\, program representations and operators\, surro
+ gate-assisted search\, multi-objective evolution\, and interpretable lear
+ ned programs. Evolutionary machine learning\, AutoML pipelines\, and neur
+ oevolution connect this focused methodological community to ML. Applicati
+ on domains do not define its tags.\nAdditional topics: Learning Theory & 
+ Statistical Foundations\, Deep Representation Learning\nScope sources (20
+ 27): https://www.evostar.org/2027/eurogp/\nScope last checked: 2026-10-07
+ \nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Veri
+ fy the organizer's submission portal.
+URL:https://www.evostar.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:sdm-2026-conference@scientific-conference-calendar
@@ -2658,24 +2691,27 @@ DTSTAMP:19700101T000000Z
 DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Full
-  paper registration deadline
+ -paper abstract registration deadline
 DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
  https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
  Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
  ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
- based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
- ial 2027 dates page confirms the July meeting\, full-paper registration a
- nd submission\, and camera-ready dates. Short-paper submission is still T
- BD.\nScope: Deep learning for biomedical image analysis\, especially segm
- entation\, detection\, reconstruction\, registration\, generative imaging
- \, and learning from limited labels. Uncertainty\, interpretability\, mul
- ti-site learning\, robustness\, and clinical validation extend that imagi
- ng core. Multimodal foundation models are relevant when grounded in medic
- al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
- robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
- y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
-  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
- 0-07
+ based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Offic
+ ial 2027 dates page confirms the July meeting and 23:59 AoE full-paper ab
+ stract registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 1
+ 2) dates\, with no extension as of 2026-10-30. No new submissions are acc
+ epted after abstract registration\; its OpenReview form was observed open
+  on 2026-10-30. Short-paper submission is still TBD\; an April date brief
+ ly posted on the site was withdrawn.\nScope: Deep learning for biomedical
+  image analysis\, especially segmentation\, detection\, reconstruction\, 
+ registration\, generative imaging\, and learning from limited labels. Unc
+ ertainty\, interpretability\, multi-site learning\, robustness\, and clin
+ ical validation extend that imaging core. Multimodal foundation models ar
+ e relevant when grounded in medical imaging.\nAdditional topics: Computer
+  Vision & Pattern Recognition\, Probabilistic\, Causal & Uncertainty ML\,
+  Explainability & Interpretability\, Robustness & Safety\, Federated & Di
+ stributed Learning\nScope sources (2026): https://2026.midl.io/call-for-p
+ apers\nScope last checked: 2026-10-07
 URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
@@ -2710,19 +2746,22 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
  https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
  Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
  ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
- based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
- ial 2027 dates page confirms the July meeting\, full-paper registration a
- nd submission\, and camera-ready dates. Short-paper submission is still T
- BD.\nScope: Deep learning for biomedical image analysis\, especially segm
- entation\, detection\, reconstruction\, registration\, generative imaging
- \, and learning from limited labels. Uncertainty\, interpretability\, mul
- ti-site learning\, robustness\, and clinical validation extend that imagi
- ng core. Multimodal foundation models are relevant when grounded in medic
- al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
- robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
- y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
-  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
- 0-07
+ based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Offic
+ ial 2027 dates page confirms the July meeting and 23:59 AoE full-paper ab
+ stract registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 1
+ 2) dates\, with no extension as of 2026-10-30. No new submissions are acc
+ epted after abstract registration\; its OpenReview form was observed open
+  on 2026-10-30. Short-paper submission is still TBD\; an April date brief
+ ly posted on the site was withdrawn.\nScope: Deep learning for biomedical
+  image analysis\, especially segmentation\, detection\, reconstruction\, 
+ registration\, generative imaging\, and learning from limited labels. Unc
+ ertainty\, interpretability\, multi-site learning\, robustness\, and clin
+ ical validation extend that imaging core. Multimodal foundation models ar
+ e relevant when grounded in medical imaging.\nAdditional topics: Computer
+  Vision & Pattern Recognition\, Probabilistic\, Causal & Uncertainty ML\,
+  Explainability & Interpretability\, Robustness & Safety\, Federated & Di
+ stributed Learning\nScope sources (2026): https://2026.midl.io/call-for-p
+ apers\nScope last checked: 2026-10-07
 URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
@@ -2871,23 +2910,26 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -2998,22 +3040,25 @@ DESCRIPTION:Conference title: European Conference on Genetic Programming\nW
  star.org/2027/important-dates/\nLocation: Mainz\, Germany\nTopics: Evolut
  ionary Computation & Optimization\, Machine Learning\, Explainability & I
  nterpretability\nSize: S\nSubmission type: Paper-based / Springer LNCS\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official EvoS
- tar pages confirm Mainz\, March 31-April 2\, in hybrid mode. Published de
- adline days have no exact cutoff hour or timezone\; AoE timestamps are pr
- ovisional and calendars use all-day events. The shared EvoStar late-break
- ing-abstract date is not yet a verified EuroGP-specific paper route. S is
-  an editorial size estimate for EuroGP\, not the whole EvoStar event.\nSc
- ope: Genetic programming and evolutionary program synthesis\, including s
- ymbolic regression\, program representations and operators\, surrogate-as
- sisted search\, multi-objective evolution\, and interpretable learned pro
- grams. Evolutionary machine learning\, AutoML pipelines\, and neuroevolut
- ion connect this focused methodological community to ML. Application doma
- ins do not define its tags.\nAdditional topics: Learning Theory & Statist
- ical Foundations\, Deep Representation Learning\nScope sources (2027): ht
- tps://www.evostar.org/2027/eurogp/\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Official EvoS
+ tar pages confirm Mainz\, March 31-April 2\, in hybrid mode. On 2026-10-3
+ 0 the Important Dates page strikes November 1 and gives November 16\, 202
+ 6 (extended) for EvoStar paper submissions\, including EuroGP\; an older 
+ post embedded on the EuroGP page still shows November 1. Published deadli
+ ne days have no exact cutoff hour or timezone\; AoE timestamps are provis
+ ional and calendars use all-day events. A shared EvoStar late-breaking-ab
+ stract date (March 21\, 2027) has no 2027 call page yet and is not tracke
+ d. S is an editorial size estimate for EuroGP\, not the whole EvoStar eve
+ nt.\nScope: Genetic programming and evolutionary program synthesis\, incl
+ uding symbolic regression\, program representations and operators\, surro
+ gate-assisted search\, multi-objective evolution\, and interpretable lear
+ ned programs. Evolutionary machine learning\, AutoML pipelines\, and neur
+ oevolution connect this focused methodological community to ML. Applicati
+ on domains do not define its tags.\nAdditional topics: Learning Theory & 
+ Statistical Foundations\, Deep Representation Learning\nScope sources (20
+ 27): https://www.evostar.org/2027/eurogp/\nScope last checked: 2026-10-07
+ \nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Veri
+ fy the organizer's submission portal.
 URL:https://www.evostar.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -3030,25 +3075,26 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
  einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
   Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
  Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
- -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
- are closed because the Oct 1 abstract gate has passed\, even before the O
- ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
- forthcoming opportunity\; author registration is announced for Oct 20 but
-  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
- short papers. AAAI fast-track and already published JAAMAS presentations 
- are not general new-paper routes. Size XL is an editorial estimate. Histo
- rical acceptance covers main full papers only\, not Blue Sky Ideas or the
-  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
- i-agent systems: learning and adaptation\, coordination\, game theory\, p
- lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
- o covers human-agent interaction\, robot teams\, norms and governance\, a
- nd generative agents. The contribution should concern agents or their int
- eraction\; generic language-model or learning results are not automatical
- ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
- stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
- etwork Science\, Ethics & Governance\, Explainability & Interpretability\
- nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
- call-for-main-track/\nScope last checked: 2026-10-07
+ -30\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed. The separate four-
+ page Blue Sky Ideas track is open: its OpenReview form (opened Oct 20) wa
+ s observed live on 2026-10-30\, and its Nov 5 gate only controls the Nov 
+ 12 short papers. A Demonstrations call posted Oct 27 (four-page paper plu
+ s video\, in the proceedings\, due Dec 27 AoE) is not tracked as a separa
+ te route. The AAAI fast track is limited to highly rated AAAI-27 papers a
+ nd is not a general new-paper route. Size XL is an editorial estimate. Hi
+ storical acceptance covers main full papers only\, not Blue Sky Ideas or 
+ the newly introduced 2027 Findings track.\nScope: Autonomous agents and m
+ ulti-agent systems: learning and adaptation\, coordination\, game theory\
+ , planning\, reasoning\, agent engineering\, and agent-based simulation. 
+ Also covers human-agent interaction\, robot teams\, norms and governance\
+ , and generative agents. The contribution should concern agents or their 
+ interaction\; generic language-model or learning results are not automati
+ cally in scope.\nAdditional topics: Deep Representation Learning\, Probab
+ ilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems 
+ & Network Science\, Ethics & Governance\, Explainability & Interpretabili
+ ty\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/cal
+ ls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -3064,23 +3110,26 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -3300,25 +3349,26 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
  \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
  n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
  lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
- 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
- ons are closed because the Oct 1 abstract gate has passed\, even before t
- he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
- s a forthcoming opportunity\; author registration is announced for Oct 20
-  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
-  12 short papers. AAAI fast-track and already published JAAMAS presentati
- ons are not general new-paper routes. Size XL is an editorial estimate. H
- istorical acceptance covers main full papers only\, not Blue Sky Ideas or
-  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
- multi-agent systems: learning and adaptation\, coordination\, game theory
- \, planning\, reasoning\, agent engineering\, and agent-based simulation.
-  Also covers human-agent interaction\, robot teams\, norms and governance
- \, and generative agents. The contribution should concern agents or their
-  interaction\; generic language-model or learning results are not automat
- ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
- bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
-  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
- ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
- lls/call-for-main-track/\nScope last checked: 2026-10-07
+ 6-10-30\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed. The separate f
+ our-page Blue Sky Ideas track is open: its OpenReview form (opened Oct 20
+ ) was observed live on 2026-10-30\, and its Nov 5 gate only controls the 
+ Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page paper
+  plus video\, in the proceedings\, due Dec 27 AoE) is not tracked as a se
+ parate route. The AAAI fast track is limited to highly rated AAAI-27 pape
+ rs and is not a general new-paper route. Size XL is an editorial estimate
+ . Historical acceptance covers main full papers only\, not Blue Sky Ideas
+  or the newly introduced 2027 Findings track.\nScope: Autonomous agents a
+ nd multi-agent systems: learning and adaptation\, coordination\, game the
+ ory\, planning\, reasoning\, agent engineering\, and agent-based simulati
+ on. Also covers human-agent interaction\, robot teams\, norms and governa
+ nce\, and generative agents. The contribution should concern agents or th
+ eir interaction\; generic language-model or learning results are not auto
+ matically in scope.\nAdditional topics: Deep Representation Learning\, Pr
+ obabilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Syst
+ ems & Network Science\, Ethics & Governance\, Explainability & Interpreta
+ bility\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027
+ /calls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
@@ -3461,19 +3511,22 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
  https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
  Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
  ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
- based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
- ial 2027 dates page confirms the July meeting\, full-paper registration a
- nd submission\, and camera-ready dates. Short-paper submission is still T
- BD.\nScope: Deep learning for biomedical image analysis\, especially segm
- entation\, detection\, reconstruction\, registration\, generative imaging
- \, and learning from limited labels. Uncertainty\, interpretability\, mul
- ti-site learning\, robustness\, and clinical validation extend that imagi
- ng core. Multimodal foundation models are relevant when grounded in medic
- al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
- robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
- y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
-  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
- 0-07
+ based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Offic
+ ial 2027 dates page confirms the July meeting and 23:59 AoE full-paper ab
+ stract registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 1
+ 2) dates\, with no extension as of 2026-10-30. No new submissions are acc
+ epted after abstract registration\; its OpenReview form was observed open
+  on 2026-10-30. Short-paper submission is still TBD\; an April date brief
+ ly posted on the site was withdrawn.\nScope: Deep learning for biomedical
+  image analysis\, especially segmentation\, detection\, reconstruction\, 
+ registration\, generative imaging\, and learning from limited labels. Unc
+ ertainty\, interpretability\, multi-site learning\, robustness\, and clin
+ ical validation extend that imaging core. Multimodal foundation models ar
+ e relevant when grounded in medical imaging.\nAdditional topics: Computer
+  Vision & Pattern Recognition\, Probabilistic\, Causal & Uncertainty ML\,
+  Explainability & Interpretability\, Robustness & Safety\, Federated & Di
+ stributed Learning\nScope sources (2026): https://2026.midl.io/call-for-p
+ apers\nScope last checked: 2026-10-07
 URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
@@ -3546,11 +3599,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/\nLocation: Southampton\, UK\nTopics: Information Retrieval & Search
  \, Recommender Systems\, Natural Language Processing & LLMs\, LLM Agents 
  & Tool Use\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\
- nLast checked date: 2026-10-07\nNotes: Track-specific calls confirm paper
-  days but no exact cutoff hour. Full/short abstract gates are already clo
- sed\; replicability and resource papers remain independent opportunities.
-  Resource papers report original research resources\, not camera-ready wo
- rk. Size is an editorial estimate.\nScope: Information retrieval and rank
+ nLast checked date: 2026-10-30\nNotes: Rechecked 2026-10-30. The full-pap
+ er call states 11:59pm AoE for its closed Sep 21 abstract gate and Oct 5 
+ paper\; the short\, replicability and resource calls give days only. Reso
+ urce papers (Nov 2\, no abstract step) report original research resources
+ \; no extension was found. IR-for-Good papers (closed Oct 5)\, demos and 
+ Industry Day proposals (Nov 2) and Doctoral Consortium submissions (exten
+ ded to a Nov 2 abstract and Nov 9 paper) are not tracked as separate rout
+ es. Size is an editorial estimate.\nScope: Information retrieval and rank
  ing\, recommendation\, conversational search and RAG\, user information i
  nteraction\, system efficiency\, and rigorous evaluation. The 2027 call e
  xplicitly includes language models and agentic retrieval workflows. Repli
@@ -3666,20 +3722,23 @@ DESCRIPTION:Conference title: European Conference on Genetic Programming\nW
  star.org/2027/\nLocation: Mainz\, Germany\nTopics: Evolutionary Computati
  on & Optimization\, Machine Learning\, Explainability & Interpretability\
  nSize: S\nSubmission type: Paper-based / Springer LNCS\nConfidence: confi
- rmed\nLast checked date: 2026-10-07\nNotes: Official EvoStar pages confir
- m Mainz\, March 31-April 2\, in hybrid mode. Published deadline days have
-  no exact cutoff hour or timezone\; AoE timestamps are provisional and ca
- lendars use all-day events. The shared EvoStar late-breaking-abstract dat
- e is not yet a verified EuroGP-specific paper route. S is an editorial si
- ze estimate for EuroGP\, not the whole EvoStar event.\nScope: Genetic pro
- gramming and evolutionary program synthesis\, including symbolic regressi
- on\, program representations and operators\, surrogate-assisted search\, 
- multi-objective evolution\, and interpretable learned programs. Evolution
- ary machine learning\, AutoML pipelines\, and neuroevolution connect this
-  focused methodological community to ML. Application domains do not defin
- e its tags.\nAdditional topics: Learning Theory & Statistical Foundations
- \, Deep Representation Learning\nScope sources (2027): https://www.evosta
- r.org/2027/eurogp/\nScope last checked: 2026-10-07
+ rmed\nLast checked date: 2026-10-30\nNotes: Official EvoStar pages confir
+ m Mainz\, March 31-April 2\, in hybrid mode. On 2026-10-30 the Important 
+ Dates page strikes November 1 and gives November 16\, 2026 (extended) for
+  EvoStar paper submissions\, including EuroGP\; an older post embedded on
+  the EuroGP page still shows November 1. Published deadline days have no 
+ exact cutoff hour or timezone\; AoE timestamps are provisional and calend
+ ars use all-day events. A shared EvoStar late-breaking-abstract date (Mar
+ ch 21\, 2027) has no 2027 call page yet and is not tracked. S is an edito
+ rial size estimate for EuroGP\, not the whole EvoStar event.\nScope: Gene
+ tic programming and evolutionary program synthesis\, including symbolic r
+ egression\, program representations and operators\, surrogate-assisted se
+ arch\, multi-objective evolution\, and interpretable learned programs. Ev
+ olutionary machine learning\, AutoML pipelines\, and neuroevolution conne
+ ct this focused methodological community to ML. Application domains do no
+ t define its tags.\nAdditional topics: Learning Theory & Statistical Foun
+ dations\, Deep Representation Learning\nScope sources (2027): https://www
+ .evostar.org/2027/eurogp/\nScope last checked: 2026-10-07
 URL:https://www.evostar.org/2027/
 LOCATION:Mainz\, Germany
 END:VEVENT
@@ -4024,23 +4083,26 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
  ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
  M\nSubmission type: Long and short papers / face\, gesture\, and body rec
- ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
- ficial CFP and dates page updated October 5 extend the abstract and paper
-  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
-  AoE. Full event includes April 26/30 workshops\; main sessions are April
-  27-29. CMT opening is announced for September 25 without an exact hour\;
-  no portal-open observation is fabricated. M is an editorial estimate.\nS
- cope: Face\, gesture\, body movement\, and human behavior from images and
-  video\, including detection\, tracking\, recognition\, facial expression
-  and affect\, pose and action analysis\, and soft biometrics. Characteris
- tic methods include advanced visual learning\, generative modeling and ne
- ural rendering\, multimodal fusion\, and evaluation across demographic an
- d acquisition conditions. Bias\, interpretability\, and robust recognitio
- n are directly tied to human sensing rather than generic application tags
- .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
- omputer Graphics & Visualization\, Explainability & Interpretability\nSco
- pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
- cope last checked: 2026-10-07
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Of
+ ficial CFP and dates pages\, rechecked 2026-10-30\, keep the abstract and
+  paper deadlines extended to October 23 and 30 (from October 9 and 16)\; 
+ cutoffs are AoE. Workshop and tutorial proposals were extended from Octob
+ er 20 to November 14\, with notification moved to November 18. The full e
+ vent includes April 26/30 workshops\; main sessions are April 27-29. Demo
+  (January 4)\, Doctoral Consortium (February 15) and competition steps ar
+ e not tracked. CMT opening was announced for September 25 without an exac
+ t hour\; no portal-open observation is fabricated. M is an editorial esti
+ mate.\nScope: Face\, gesture\, body movement\, and human behavior from im
+ ages and video\, including detection\, tracking\, recognition\, facial ex
+ pression and affect\, pose and action analysis\, and soft biometrics. Cha
+ racteristic methods include advanced visual learning\, generative modelin
+ g and neural rendering\, multimodal fusion\, and evaluation across demogr
+ aphic and acquisition conditions. Bias\, interpretability\, and robust re
+ cognition are directly tied to human sensing rather than generic applicat
+ ion tags.\nAdditional topics: Robustness & Safety\, Fairness & Responsibl
+ e AI\, Computer Graphics & Visualization\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://fg2027.ieee-biometrics.org/call-for-pa
+ pers/\nScope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
 LOCATION:Marrakesh\, Morocco
 END:VEVENT
@@ -4118,26 +4180,27 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
  : Hanoi\, Vietnam\nTopics: Machine Learning\, Reinforcement Learning\, Au
  tonomous Agents & Multiagent Systems\, Human-AI Interaction & Deployment\
  nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short papers\nCo
- nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual flagshi
+ nfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Annual flagshi
  p meeting in Hanoi. New main-track submissions are closed because the Oct
-  1 abstract gate has passed\, even before the Oct 8 paper cutoff. The sep
- arate four-page Blue Sky Ideas track remains a forthcoming opportunity\; 
- author registration is announced for Oct 20 but no exact opening hour is 
- given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI fast-tr
- ack and already published JAAMAS presentations are not general new-paper 
- routes. Size XL is an editorial estimate. Historical acceptance covers ma
- in full papers only\, not Blue Sky Ideas or the newly introduced 2027 Fin
- dings track.\nScope: Autonomous agents and multi-agent systems: learning 
- and adaptation\, coordination\, game theory\, planning\, reasoning\, agen
- t engineering\, and agent-based simulation. Also covers human-agent inter
- action\, robot teams\, norms and governance\, and generative agents. The 
- contribution should concern agents or their interaction\; generic languag
- e-model or learning results are not automatically in scope.\nAdditional t
- opics: Deep Representation Learning\, Probabilistic\, Causal & Uncertaint
- y ML\, Control & Robotics\, Complex Systems & Network Science\, Ethics & 
- Governance\, Explainability & Interpretability\nScope sources (2027): htt
- ps://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/\nScop
- e last checked: 2026-10-07
+  1 abstract gate has passed. The separate four-page Blue Sky Ideas track 
+ is open: its OpenReview form (opened Oct 20) was observed live on 2026-10
+ -30\, and its Nov 5 gate only controls the Nov 12 short papers. A Demonst
+ rations call posted Oct 27 (four-page paper plus video\, in the proceedin
+ gs\, due Dec 27 AoE) is not tracked as a separate route. The AAAI fast tr
+ ack is limited to highly rated AAAI-27 papers and is not a general new-pa
+ per route. Size XL is an editorial estimate. Historical acceptance covers
+  main full papers only\, not Blue Sky Ideas or the newly introduced 2027 
+ Findings track.\nScope: Autonomous agents and multi-agent systems: learni
+ ng and adaptation\, coordination\, game theory\, planning\, reasoning\, a
+ gent engineering\, and agent-based simulation. Also covers human-agent in
+ teraction\, robot teams\, norms and governance\, and generative agents. T
+ he contribution should concern agents or their interaction\; generic lang
+ uage-model or learning results are not automatically in scope.\nAdditiona
+ l topics: Deep Representation Learning\, Probabilistic\, Causal & Uncerta
+ inty ML\, Control & Robotics\, Complex Systems & Network Science\, Ethics
+  & Governance\, Explainability & Interpretability\nScope sources (2027): 
+ https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/\nS
+ cope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
 LOCATION:Hanoi\, Vietnam
 END:VEVENT
@@ -4786,19 +4849,22 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
  https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
  Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
  ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
- based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
- ial 2027 dates page confirms the July meeting\, full-paper registration a
- nd submission\, and camera-ready dates. Short-paper submission is still T
- BD.\nScope: Deep learning for biomedical image analysis\, especially segm
- entation\, detection\, reconstruction\, registration\, generative imaging
- \, and learning from limited labels. Uncertainty\, interpretability\, mul
- ti-site learning\, robustness\, and clinical validation extend that imagi
- ng core. Multimodal foundation models are relevant when grounded in medic
- al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
- robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
- y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
-  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
- 0-07
+ based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Offic
+ ial 2027 dates page confirms the July meeting and 23:59 AoE full-paper ab
+ stract registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 1
+ 2) dates\, with no extension as of 2026-10-30. No new submissions are acc
+ epted after abstract registration\; its OpenReview form was observed open
+  on 2026-10-30. Short-paper submission is still TBD\; an April date brief
+ ly posted on the site was withdrawn.\nScope: Deep learning for biomedical
+  image analysis\, especially segmentation\, detection\, reconstruction\, 
+ registration\, generative imaging\, and learning from limited labels. Unc
+ ertainty\, interpretability\, multi-site learning\, robustness\, and clin
+ ical validation extend that imaging core. Multimodal foundation models ar
+ e relevant when grounded in medical imaging.\nAdditional topics: Computer
+  Vision & Pattern Recognition\, Probabilistic\, Causal & Uncertainty ML\,
+  Explainability & Interpretability\, Robustness & Safety\, Federated & Di
+ stributed Learning\nScope sources (2026): https://2026.midl.io/call-for-p
+ apers\nScope last checked: 2026-10-07
 URL:https://2027.midl.io/important-dates
 LOCATION:Porto\, Portugal
 END:VEVENT

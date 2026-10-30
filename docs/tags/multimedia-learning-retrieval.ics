@@ -626,20 +626,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
+DTSTART:20260922T115900Z
+DTEND:20260922T125900Z
 SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
- ull-paper abstract deadline (cutoff time unannounced)
+ ull-paper abstract deadline
 DESCRIPTION:Conference title: European Conference on Information Retrieval\
  nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
  o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
  n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
- nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
-  calls confirm paper days but no exact cutoff hour. Full/short abstract g
- ates are already closed\; replicability and resource papers remain indepe
- ndent opportunities. Resource papers report original research resources\,
-  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ nfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 2026
+ -10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abst
+ ract gate and Oct 5 paper\; the short\, replicability and resource calls 
+ give days only. Resource papers (Nov 2\, no abstract step) report origina
+ l research resources\; no extension was found. IR-for-Good papers (closed
+  Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consortiu
+ m submissions (extended to a Nov 2 abstract and Nov 9 paper) are not trac
+ ked as separate routes. Size is an editorial estimate.\nScope: Informatio
  n retrieval and ranking\, recommendation\, conversational search and RAG\
  , user information interaction\, system efficiency\, and rigorous evaluat
  ion. The 2027 call explicitly includes language models and agentic retrie
@@ -648,9 +651,7 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
   Deployment\, Explainability & Interpretability\, Fairness & Responsible 
  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
- cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07
 URL:https://www.ecir2027.co.uk/call-for-full-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -715,20 +716,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
+DTSTART:20261006T115900Z
+DTEND:20261006T125900Z
 SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
- ull paper submission deadline (cutoff time unannounced)
+ ull paper submission deadline
 DESCRIPTION:Conference title: European Conference on Information Retrieval\
  nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
  o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
  n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
- nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
-  calls confirm paper days but no exact cutoff hour. Full/short abstract g
- ates are already closed\; replicability and resource papers remain indepe
- ndent opportunities. Resource papers report original research resources\,
-  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ nfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 2026
+ -10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abst
+ ract gate and Oct 5 paper\; the short\, replicability and resource calls 
+ give days only. Resource papers (Nov 2\, no abstract step) report origina
+ l research resources\; no extension was found. IR-for-Good papers (closed
+  Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consortiu
+ m submissions (extended to a Nov 2 abstract and Nov 9 paper) are not trac
+ ked as separate routes. Size is an editorial estimate.\nScope: Informatio
  n retrieval and ranking\, recommendation\, conversational search and RAG\
  , user information interaction\, system efficiency\, and rigorous evaluat
  ion. The 2027 call explicitly includes language models and agentic retrie
@@ -737,9 +741,7 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
   Deployment\, Explainability & Interpretability\, Fairness & Responsible 
  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
- cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07
 URL:https://www.ecir2027.co.uk/call-for-full-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -754,11 +756,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
  on Retrieval & Search\, Recommender Systems\, Natural Language Processing
   & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
- c calls confirm paper days but no exact cutoff hour. Full/short abstract 
- gates are already closed\; replicability and resource papers remain indep
- endent opportunities. Resource papers report original research resources\
- , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 202
+ 6-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abs
+ tract gate and Oct 5 paper\; the short\, replicability and resource calls
+  give days only. Resource papers (Nov 2\, no abstract step) report origin
+ al research resources\; no extension was found. IR-for-Good papers (close
+ d Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consorti
+ um submissions (extended to a Nov 2 abstract and Nov 9 paper) are not tra
+ cked as separate routes. Size is an editorial estimate.\nScope: Informati
  on retrieval and ranking\, recommendation\, conversational search and RAG
  \, user information interaction\, system efficiency\, and rigorous evalua
  tion. The 2027 call explicitly includes language models and agentic retri
@@ -784,11 +789,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
   Information Retrieval & Search\, Recommender Systems\, Natural Language 
  Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
- r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
- ck-specific calls confirm paper days but no exact cutoff hour. Full/short
-  abstract gates are already closed\; replicability and resource papers re
- main independent opportunities. Resource papers report original research 
- resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rec
+ hecked 2026-10-30. The full-paper call states 11:59pm AoE for its closed 
+ Sep 21 abstract gate and Oct 5 paper\; the short\, replicability and reso
+ urce calls give days only. Resource papers (Nov 2\, no abstract step) rep
+ ort original research resources\; no extension was found. IR-for-Good pap
+ ers (closed Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctora
+ l Consortium submissions (extended to a Nov 2 abstract and Nov 9 paper) a
+ re not tracked as separate routes. Size is an editorial estimate.\nScope:
   Information retrieval and ranking\, recommendation\, conversational sear
  ch and RAG\, user information interaction\, system efficiency\, and rigor
  ous evaluation. The 2027 call explicitly includes language models and age
@@ -814,11 +822,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
  on Retrieval & Search\, Recommender Systems\, Natural Language Processing
   & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
- c calls confirm paper days but no exact cutoff hour. Full/short abstract 
- gates are already closed\; replicability and resource papers remain indep
- endent opportunities. Resource papers report original research resources\
- , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 202
+ 6-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abs
+ tract gate and Oct 5 paper\; the short\, replicability and resource calls
+  give days only. Resource papers (Nov 2\, no abstract step) report origin
+ al research resources\; no extension was found. IR-for-Good papers (close
+ d Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consorti
+ um submissions (extended to a Nov 2 abstract and Nov 9 paper) are not tra
+ cked as separate routes. Size is an editorial estimate.\nScope: Informati
  on retrieval and ranking\, recommendation\, conversational search and RAG
  \, user information interaction\, system efficiency\, and rigorous evalua
  tion. The 2027 call explicitly includes language models and agentic retri
@@ -844,11 +855,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
   Information Retrieval & Search\, Recommender Systems\, Natural Language 
  Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
- r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
- ck-specific calls confirm paper days but no exact cutoff hour. Full/short
-  abstract gates are already closed\; replicability and resource papers re
- main independent opportunities. Resource papers report original research 
- resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rec
+ hecked 2026-10-30. The full-paper call states 11:59pm AoE for its closed 
+ Sep 21 abstract gate and Oct 5 paper\; the short\, replicability and reso
+ urce calls give days only. Resource papers (Nov 2\, no abstract step) rep
+ ort original research resources\; no extension was found. IR-for-Good pap
+ ers (closed Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctora
+ l Consortium submissions (extended to a Nov 2 abstract and Nov 9 paper) a
+ re not tracked as separate routes. Size is an editorial estimate.\nScope:
   Information retrieval and ranking\, recommendation\, conversational sear
  ch and RAG\, user information interaction\, system efficiency\, and rigor
  ous evaluation. The 2027 call explicitly includes language models and age
@@ -874,11 +888,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-resource-papers\nLocation: Southampton\, UK\nTopics: Inform
  ation Retrieval & Search\, Recommender Systems\, Natural Language Process
  ing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based
- \nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-spec
- ific calls confirm paper days but no exact cutoff hour. Full/short abstra
- ct gates are already closed\; replicability and resource papers remain in
- dependent opportunities. Resource papers report original research resourc
- es\, not camera-ready work. Size is an editorial estimate.\nScope: Inform
+ \nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 
+ 2026-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 
+ abstract gate and Oct 5 paper\; the short\, replicability and resource ca
+ lls give days only. Resource papers (Nov 2\, no abstract step) report ori
+ ginal research resources\; no extension was found. IR-for-Good papers (cl
+ osed Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Conso
+ rtium submissions (extended to a Nov 2 abstract and Nov 9 paper) are not 
+ tracked as separate routes. Size is an editorial estimate.\nScope: Inform
  ation retrieval and ranking\, recommendation\, conversational search and 
  RAG\, user information interaction\, system efficiency\, and rigorous eva
  luation. The 2027 call explicitly includes language models and agentic re
@@ -965,21 +982,25 @@ DESCRIPTION:Conference title: IEEE/CVF Conference on Computer Vision and Pa
  : Seattle\, Washington\, USA\nTopics: Computer Vision & Pattern Recogniti
  on\, Deep Representation Learning\, Machine Learning\nSize: XXL\nSubmissi
  on type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked da
- te: 2026-10-07\nNotes: Official 2027 homepage and CFP confirm Seattle and
-  AoE submission dates. Mandatory registration gates paper submission. XXL
-  is supported by the organizer's description of more than 10\,000 annual 
- attendees. Historical acceptance statistics refer to the main technical p
- rogram\, not workshops.\nScope: Broad computer vision and pattern recogni
- tion: visual representations\, recognition and segmentation\, 3D reconstr
- uction\, computational imaging\, image and video generation\, motion and 
- tracking\, and vision-language learning. Graphics\, multimodal learning\,
-  human face/body understanding\, and reliable vision are substantial recu
- rring research areas. Peripheral application fields are not tagged merely
-  because a long CFP mentions them.\nAdditional topics: Computer Graphics 
- & Visualization\, Multimedia Learning & Retrieval\, Natural Language Proc
- essing & LLMs\, Biometrics & Human Sensing\, Robustness & Safety\nScope s
- ources (2027): https://cvpr.thecvf.com/Conferences/2027/CallForPapers\nSc
- ope last checked: 2026-10-07
+ te: 2026-10-30\nNotes: Official 2027 homepage\, CFP and Dates page\, rech
+ ecked 2026-10-30\, confirm Seattle and fixed AoE dates with no extension\
+ ; the Call for Workshops states that CVPR 2027 is in person. The mandator
+ y Nov 10 paper registration gates paper submission: no new submissions an
+ d no author additions or removals after it. OpenReview's public submissio
+ n invitation\, open to all users since Oct 27 and due Nov 10 AoE\, was li
+ ve on 2026-10-30. XXL is supported by the organizer's description of more
+  than 10\,000 annual attendees. Historical acceptance statistics refer to
+  the main technical program\, not workshops.\nScope: Broad computer visio
+ n and pattern recognition: visual representations\, recognition and segme
+ ntation\, 3D reconstruction\, computational imaging\, image and video gen
+ eration\, motion and tracking\, and vision-language learning. Graphics\, 
+ multimodal learning\, human face/body understanding\, and reliable vision
+  are substantial recurring research areas. Peripheral application fields 
+ are not tagged merely because a long CFP mentions them.\nAdditional topic
+ s: Computer Graphics & Visualization\, Multimedia Learning & Retrieval\, 
+ Natural Language Processing & LLMs\, Biometrics & Human Sensing\, Robustn
+ ess & Safety\nScope sources (2027): https://cvpr.thecvf.com/Conferences/2
+ 027/CallForPapers\nScope last checked: 2026-10-07
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -995,21 +1016,25 @@ DESCRIPTION:Conference title: IEEE/CVF Conference on Computer Vision and Pa
  : Seattle\, Washington\, USA\nTopics: Computer Vision & Pattern Recogniti
  on\, Deep Representation Learning\, Machine Learning\nSize: XXL\nSubmissi
  on type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked da
- te: 2026-10-07\nNotes: Official 2027 homepage and CFP confirm Seattle and
-  AoE submission dates. Mandatory registration gates paper submission. XXL
-  is supported by the organizer's description of more than 10\,000 annual 
- attendees. Historical acceptance statistics refer to the main technical p
- rogram\, not workshops.\nScope: Broad computer vision and pattern recogni
- tion: visual representations\, recognition and segmentation\, 3D reconstr
- uction\, computational imaging\, image and video generation\, motion and 
- tracking\, and vision-language learning. Graphics\, multimodal learning\,
-  human face/body understanding\, and reliable vision are substantial recu
- rring research areas. Peripheral application fields are not tagged merely
-  because a long CFP mentions them.\nAdditional topics: Computer Graphics 
- & Visualization\, Multimedia Learning & Retrieval\, Natural Language Proc
- essing & LLMs\, Biometrics & Human Sensing\, Robustness & Safety\nScope s
- ources (2027): https://cvpr.thecvf.com/Conferences/2027/CallForPapers\nSc
- ope last checked: 2026-10-07
+ te: 2026-10-30\nNotes: Official 2027 homepage\, CFP and Dates page\, rech
+ ecked 2026-10-30\, confirm Seattle and fixed AoE dates with no extension\
+ ; the Call for Workshops states that CVPR 2027 is in person. The mandator
+ y Nov 10 paper registration gates paper submission: no new submissions an
+ d no author additions or removals after it. OpenReview's public submissio
+ n invitation\, open to all users since Oct 27 and due Nov 10 AoE\, was li
+ ve on 2026-10-30. XXL is supported by the organizer's description of more
+  than 10\,000 annual attendees. Historical acceptance statistics refer to
+  the main technical program\, not workshops.\nScope: Broad computer visio
+ n and pattern recognition: visual representations\, recognition and segme
+ ntation\, 3D reconstruction\, computational imaging\, image and video gen
+ eration\, motion and tracking\, and vision-language learning. Graphics\, 
+ multimodal learning\, human face/body understanding\, and reliable vision
+  are substantial recurring research areas. Peripheral application fields 
+ are not tagged merely because a long CFP mentions them.\nAdditional topic
+ s: Computer Graphics & Visualization\, Multimedia Learning & Retrieval\, 
+ Natural Language Processing & LLMs\, Biometrics & Human Sensing\, Robustn
+ ess & Safety\nScope sources (2027): https://cvpr.thecvf.com/Conferences/2
+ 027/CallForPapers\nScope last checked: 2026-10-07
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -1025,21 +1050,25 @@ DESCRIPTION:Conference title: IEEE/CVF Conference on Computer Vision and Pa
  : Seattle\, Washington\, USA\nTopics: Computer Vision & Pattern Recogniti
  on\, Deep Representation Learning\, Machine Learning\nSize: XXL\nSubmissi
  on type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked da
- te: 2026-10-07\nNotes: Official 2027 homepage and CFP confirm Seattle and
-  AoE submission dates. Mandatory registration gates paper submission. XXL
-  is supported by the organizer's description of more than 10\,000 annual 
- attendees. Historical acceptance statistics refer to the main technical p
- rogram\, not workshops.\nScope: Broad computer vision and pattern recogni
- tion: visual representations\, recognition and segmentation\, 3D reconstr
- uction\, computational imaging\, image and video generation\, motion and 
- tracking\, and vision-language learning. Graphics\, multimodal learning\,
-  human face/body understanding\, and reliable vision are substantial recu
- rring research areas. Peripheral application fields are not tagged merely
-  because a long CFP mentions them.\nAdditional topics: Computer Graphics 
- & Visualization\, Multimedia Learning & Retrieval\, Natural Language Proc
- essing & LLMs\, Biometrics & Human Sensing\, Robustness & Safety\nScope s
- ources (2027): https://cvpr.thecvf.com/Conferences/2027/CallForPapers\nSc
- ope last checked: 2026-10-07
+ te: 2026-10-30\nNotes: Official 2027 homepage\, CFP and Dates page\, rech
+ ecked 2026-10-30\, confirm Seattle and fixed AoE dates with no extension\
+ ; the Call for Workshops states that CVPR 2027 is in person. The mandator
+ y Nov 10 paper registration gates paper submission: no new submissions an
+ d no author additions or removals after it. OpenReview's public submissio
+ n invitation\, open to all users since Oct 27 and due Nov 10 AoE\, was li
+ ve on 2026-10-30. XXL is supported by the organizer's description of more
+  than 10\,000 annual attendees. Historical acceptance statistics refer to
+  the main technical program\, not workshops.\nScope: Broad computer visio
+ n and pattern recognition: visual representations\, recognition and segme
+ ntation\, 3D reconstruction\, computational imaging\, image and video gen
+ eration\, motion and tracking\, and vision-language learning. Graphics\, 
+ multimodal learning\, human face/body understanding\, and reliable vision
+  are substantial recurring research areas. Peripheral application fields 
+ are not tagged merely because a long CFP mentions them.\nAdditional topic
+ s: Computer Graphics & Visualization\, Multimedia Learning & Retrieval\, 
+ Natural Language Processing & LLMs\, Biometrics & Human Sensing\, Robustn
+ ess & Safety\nScope sources (2027): https://cvpr.thecvf.com/Conferences/2
+ 027/CallForPapers\nScope last checked: 2026-10-07
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -1299,11 +1328,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/\nLocation: Southampton\, UK\nTopics: Information Retrieval & Search
  \, Recommender Systems\, Natural Language Processing & LLMs\, LLM Agents 
  & Tool Use\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\
- nLast checked date: 2026-10-07\nNotes: Track-specific calls confirm paper
-  days but no exact cutoff hour. Full/short abstract gates are already clo
- sed\; replicability and resource papers remain independent opportunities.
-  Resource papers report original research resources\, not camera-ready wo
- rk. Size is an editorial estimate.\nScope: Information retrieval and rank
+ nLast checked date: 2026-10-30\nNotes: Rechecked 2026-10-30. The full-pap
+ er call states 11:59pm AoE for its closed Sep 21 abstract gate and Oct 5 
+ paper\; the short\, replicability and resource calls give days only. Reso
+ urce papers (Nov 2\, no abstract step) report original research resources
+ \; no extension was found. IR-for-Good papers (closed Oct 5)\, demos and 
+ Industry Day proposals (Nov 2) and Doctoral Consortium submissions (exten
+ ded to a Nov 2 abstract and Nov 9 paper) are not tracked as separate rout
+ es. Size is an editorial estimate.\nScope: Information retrieval and rank
  ing\, recommendation\, conversational search and RAG\, user information i
  nteraction\, system efficiency\, and rigorous evaluation. The 2027 call e
  xplicitly includes language models and agentic retrieval workflows. Repli
@@ -1571,22 +1603,26 @@ DESCRIPTION:Conference title: IEEE/CVF Conference on Computer Vision and Pa
  rce URL: https://cvpr.thecvf.com/Conferences/2027\nLocation: Seattle\, Wa
  shington\, USA\nTopics: Computer Vision & Pattern Recognition\, Deep Repr
  esentation Learning\, Machine Learning\nSize: XXL\nSubmission type: Paper
- -based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-10-07
- \nNotes: Official 2027 homepage and CFP confirm Seattle and AoE submissio
- n dates. Mandatory registration gates paper submission. XXL is supported 
- by the organizer's description of more than 10\,000 annual attendees. His
- torical acceptance statistics refer to the main technical program\, not w
- orkshops.\nScope: Broad computer vision and pattern recognition: visual r
- epresentations\, recognition and segmentation\, 3D reconstruction\, compu
- tational imaging\, image and video generation\, motion and tracking\, and
-  vision-language learning. Graphics\, multimodal learning\, human face/bo
- dy understanding\, and reliable vision are substantial recurring research
-  areas. Peripheral application fields are not tagged merely because a lon
- g CFP mentions them.\nAdditional topics: Computer Graphics & Visualizatio
- n\, Multimedia Learning & Retrieval\, Natural Language Processing & LLMs\
- , Biometrics & Human Sensing\, Robustness & Safety\nScope sources (2027):
-  https://cvpr.thecvf.com/Conferences/2027/CallForPapers\nScope last check
- ed: 2026-10-07
+ -based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-10-30
+ \nNotes: Official 2027 homepage\, CFP and Dates page\, rechecked 2026-10-
+ 30\, confirm Seattle and fixed AoE dates with no extension\; the Call for
+  Workshops states that CVPR 2027 is in person. The mandatory Nov 10 paper
+  registration gates paper submission: no new submissions and no author ad
+ ditions or removals after it. OpenReview's public submission invitation\,
+  open to all users since Oct 27 and due Nov 10 AoE\, was live on 2026-10-
+ 30. XXL is supported by the organizer's description of more than 10\,000 
+ annual attendees. Historical acceptance statistics refer to the main tech
+ nical program\, not workshops.\nScope: Broad computer vision and pattern 
+ recognition: visual representations\, recognition and segmentation\, 3D r
+ econstruction\, computational imaging\, image and video generation\, moti
+ on and tracking\, and vision-language learning. Graphics\, multimodal lea
+ rning\, human face/body understanding\, and reliable vision are substanti
+ al recurring research areas. Peripheral application fields are not tagged
+  merely because a long CFP mentions them.\nAdditional topics: Computer Gr
+ aphics & Visualization\, Multimedia Learning & Retrieval\, Natural Langua
+ ge Processing & LLMs\, Biometrics & Human Sensing\, Robustness & Safety\n
+ Scope sources (2027): https://cvpr.thecvf.com/Conferences/2027/CallForPap
+ ers\nScope last checked: 2026-10-07
 URL:https://cvpr.thecvf.com/Conferences/2027
 LOCATION:Seattle\, Washington\, USA
 END:VEVENT

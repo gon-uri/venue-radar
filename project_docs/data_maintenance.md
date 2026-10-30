@@ -186,6 +186,14 @@ opening evidence are independent. In particular:
   and a short `cutoff_note`; the page marks it with an asterisk (ADR-040).
 - A day-only opening stays in notes until an exact published time or live
   portal can be verified. Do not manufacture midnight `opens_at`.
+- A submission portal's own configuration is official evidence (ADR-043).
+  OpenReview's public API (`api2.openreview.net/invitations?id=...`) shows a
+  submission invitation's opening (`cdate`), due date (`duedate`) and who may
+  submit (`invitees: ["~"]` means any signed-in user). A due date matching the
+  page's day fixes a day-only cutoff's hour; a live, unexpired invitation open
+  to all users supports `open_observed_on`. A conference-wide EasyChair "open"
+  message supports it only when the call has one new-paper track. Say in notes
+  which evidence was used.
 - Mandatory abstract/registration gates close fresh submission routes when
   they pass. Independent abstracts do not gate unrelated papers.
 - Open/Scheduled/Submission opportunity are evidenced green states; unknown

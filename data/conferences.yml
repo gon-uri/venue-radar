@@ -1524,6 +1524,8 @@
   source_urls:
     - "https://pakdd2027.org/"
     - "https://pakdd2027.org/pages/dates"
+    - "https://pakdd2027.org/pages/calls/applied"
+    - "https://pakdd2027.org/pages/calls/survey"
   location: "Wellington, New Zealand"
   mode: "in-person"
   conference_start: "2027-06-29"
@@ -1546,9 +1548,9 @@
       label: "Camera-ready deadline"
       datetime: "2027-03-19T23:59:00-12:00"
       source_url: "https://pakdd2027.org/pages/dates"
-  last_checked: "2026-10-05"
+  last_checked: "2026-10-30"
   confidence: "confirmed"
-  notes: "Official PAKDD 2027 site confirms Wellington, Jun 29-Jul 2, and Nov 20 research-track submission and Mar 19 camera-ready deadlines, all AoE."
+  notes: "Official PAKDD 2027 site, rechecked 2026-10-30, confirms an in-person meeting in Wellington, Jun 29-Jul 2. The Nov 20 AoE paper deadline is shared by the Research, new Applied Data Science, Survey and LLM/Agentic AI tracks, with no extension; camera-ready is Mar 19 AoE. Workshop, tutorial and doctoral consortium dates are still to be announced."
 
 - id: "cikm-2026"
   series: "CIKM"
@@ -2615,8 +2617,8 @@
   title: Learning for Dynamics and Control
   short_title: L4DC 2027
   website: https://l4dc2027.control.ee.ethz.ch/home
-  cfp_url: https://l4dc2027.control.ee.ethz.ch/home
-  source_urls: [https://l4dc2027.control.ee.ethz.ch/home]
+  cfp_url: https://l4dc2027.control.ee.ethz.ch/author-information
+  source_urls: [https://l4dc2027.control.ee.ethz.ch/home, https://l4dc2027.control.ee.ethz.ch/author-information, 'https://openreview.net/group?id=L4DC.org/2027/Conference']
   location: Stockholm, Sweden
   mode: in-person
   conference_start: '2027-06-16'
@@ -2627,13 +2629,13 @@
   submission_type: Paper-based
   relevance: high
   deadlines:
-    - {type: full_paper, label: Paper submission deadline, datetime: '2026-11-13T23:59:00-12:00', time_precision: date, source_url: 'https://l4dc2027.control.ee.ethz.ch/home'}
+    - {type: full_paper, label: Paper submission deadline, datetime: '2026-11-13T23:59:00-12:00', open_observed_on: '2026-10-30', source_url: 'https://l4dc2027.control.ee.ethz.ch/author-information'}
     - {type: notification, label: Acceptance notification, datetime: '2027-01-25T23:59:00-12:00', time_precision: date, source_url: 'https://l4dc2027.control.ee.ethz.ch/home'}
     - {type: late_breaking, label: Late-breaking results (eligibility to be announced), datetime: '2027-04-05T23:59:00-12:00', time_precision: date, source_url: 'https://l4dc2027.control.ee.ethz.ch/home'}
     - {type: camera_ready, label: Camera-ready deadline, datetime: '2027-04-19T23:59:00-12:00', time_precision: date, source_url: 'https://l4dc2027.control.ee.ethz.ch/home'}
-  last_checked: '2026-10-06'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Annual conference at the ML/control interface, hosted by KTH. Official days are published; cutoff hours are unannounced and represented using estimated end-of-day AoE timing. Late-breaking results are a separate presentation route, not regular proceedings papers. Size is an editorial scale category, not a verified attendance count.
+  notes: 'Annual conference at the ML/control interface, hosted by KTH. The November 13 paper deadline is firm (rechecked 2026-10-30). The site gives only the day; the OpenReview submission form, open since October 8 and observed live on 2026-10-30, closes at 23:59 AoE. Other official days have no cutoff hour and use estimated end-of-day AoE timing. Late-breaking results are a separate presentation route whose format is not yet described. Tutorial and industrial workshop proposals (January 15) are not tracked. Size is an editorial scale category, not a verified attendance count.'
 
 - id: ifac-sysid-2027
   series: IFAC SYSID
@@ -2740,6 +2742,35 @@
   confidence: confirmed
   notes: Official future edition at the Lisbon Congress Centre, Dec 14-17, 2027; the main meeting excludes the December 13 workshops. Deadline days are published without hours, so cutoffs use a provisional end-of-day AoE. The submission site opens Jan 8, 2027 (day only, no time). Size is an editorial category.
 
+- id: ecc-2027
+  series: ECC
+  year: 2027
+  title: European Control Conference
+  short_title: ECC 2027
+  website: https://ecc27.euca-ecc.org/
+  cfp_url: https://ecc27.euca-ecc.org/call-for-papers/
+  source_urls: [https://ecc27.euca-ecc.org/, https://ecc27.euca-ecc.org/call-for-papers/, https://ecc27.euca-ecc.org/about-the-ecc/, https://ecc27.euca-ecc.org/guidelines-for-workshop-session-organisers/, https://euca-ecc.org/ecc/]
+  location: Brussels, Belgium
+  mode: in-person
+  conference_start: '2027-07-13'
+  conference_end: '2027-07-16'
+  timezone: Europe/Brussels
+  topics: [Control & Robotics, System Identification & Data-driven Dynamics, Nonlinear Dynamics & Chaos]
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - {type: full_paper, label: Extended contributed paper submission deadline, datetime: '2026-11-09T23:59:00-12:00', time_precision: date, source_url: 'https://ecc27.euca-ecc.org/call-for-papers/'}
+    - {type: special_session_proposal, label: Extended invited session proposal deadline, datetime: '2026-11-09T23:59:00-12:00', time_precision: date, source_url: 'https://ecc27.euca-ecc.org/call-for-papers/'}
+    - {type: workshop, label: Pre-conference workshop proposals, datetime: '2027-01-31T23:59:00-12:00', time_precision: date, source_url: 'https://ecc27.euca-ecc.org/call-for-papers/'}
+    - {type: tutorial_proposal, label: Tutorial session proposals, datetime: '2027-01-31T23:59:00-12:00', time_precision: date, source_url: 'https://ecc27.euca-ecc.org/call-for-papers/'}
+    - {type: industry_abstract, label: Industry abstracts (an industry-affiliated author; not in the proceedings), datetime: '2027-01-31T23:59:00-12:00', time_precision: date, source_url: 'https://ecc27.euca-ecc.org/call-for-papers/'}
+    - {type: notification, label: Acceptance notification, datetime: '2027-03-05T23:59:00-12:00', time_precision: date, source_url: 'https://ecc27.euca-ecc.org/call-for-papers/'}
+    - {type: camera_ready, label: Final manuscript submission, datetime: '2027-04-05T23:59:00-12:00', time_precision: date, source_url: 'https://ecc27.euca-ecc.org/call-for-papers/'}
+  last_checked: '2026-10-30'
+  confidence: confirmed
+  notes: Annual flagship of the European Control Association (25th ECC; annual since 2013), technically co-sponsored by IFAC and IEEE CSS; accepted papers are published in IEEE Xplore. The July 13-16 window includes the July 13 pre-conference workshops. On 2026-10-30 the CFP strikes October 31 and gives November 9, 2026 for contributed papers, invited session proposals and invited session papers, which need an organizer's session code. The PaperCept listing says no further extensions, although ECC 2026 extended twice. Industry abstracts need an industry-affiliated author and are not in the proceedings. Submissions opened September 1 (day only). No hour is published, so cutoffs use provisional end-of-day AoE. Not listed in ICORE2026 or CCF. Size L is an editorial category.
+
 - id: nolta-2026
   series: NOLTA
   year: 2026
@@ -2771,7 +2802,7 @@
   short_title: SIAM DS 2027
   website: https://www.siam.org/conferences-events/siam-conferences/ds27/
   cfp_url: https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/
-  source_urls: [https://www.siam.org/conferences-events/siam-conferences/ds27/, https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/]
+  source_urls: [https://www.siam.org/conferences-events/siam-conferences/ds27/, https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/, 'https://meetings.siam.org/start.cfm?CONFCODE=ds27']
   location: Atlanta, Georgia, USA
   mode: in-person
   conference_start: '2027-05-23'
@@ -2782,11 +2813,11 @@
   submission_type: Abstract-based
   relevance: high
   deadlines:
-    - {type: minisymposium, label: Minisymposium proposals, datetime: '2026-10-26T23:59:00-04:00', source_url: 'https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/'}
-    - {type: abstract, label: Contributed lecture and poster abstracts, datetime: '2026-11-23T23:59:00-05:00', open_observed_on: '2026-10-06', source_url: 'https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/'}
-  last_checked: '2026-10-06'
+    - {type: minisymposium, label: Minisymposium proposals, datetime: '2026-10-26T23:59:00-04:00', cutoff_note: 'siam.org pages state Oct 26, 2026, 11:59 pm ET; the SIAM submission system listed Oct 28. Earliest stated cutoff stored.', source_url: 'https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/'}
+    - {type: abstract, label: Contributed lecture and poster abstracts, datetime: '2026-11-23T23:59:00-05:00', open_observed_on: '2026-10-30', source_url: 'https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/'}
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Biennial SIAM dynamical-systems meeting. Submissions are presentation abstracts, not archival full papers. Official deadlines specify 11:59 pm Eastern Time, accounting for daylight saving. Size is an editorial category.
+  notes: 'Biennial SIAM dynamical-systems meeting. Submissions are presentation abstracts, not archival full papers. Official deadlines specify 11:59 pm Eastern Time, accounting for daylight saving. Rechecked 2026-10-30: contributed lecture and poster abstracts (Nov 23) are open in the SIAM submission system with no extension. Size is an editorial category.'
 
 - id: ccs-2026
   series: CCS
@@ -3075,6 +3106,9 @@
   cfp_url: https://2027.midl.io/important-dates
   source_urls:
   - https://2027.midl.io/important-dates
+  - https://2027.midl.io/call-for-papers
+  - https://2027.midl.io/author-instructions
+  - https://openreview.net/group?id=MIDL.io/2027/Conference
   location: Porto, Portugal
   mode: in-person
   conference_start: '2027-07-14'
@@ -3089,9 +3123,10 @@
   relevance: high
   deadlines:
   - type: abstract
-    label: Full paper registration deadline
+    label: Full-paper abstract registration deadline
     datetime: '2026-11-30T23:59:00-12:00'
     gate_for: full_paper
+    open_observed_on: '2026-10-30'
     source_url: https://2027.midl.io/important-dates
     confidence: confirmed
   - type: full_paper
@@ -3104,10 +3139,9 @@
     datetime: '2027-03-12T23:59:00-12:00'
     source_url: https://2027.midl.io/important-dates
     confidence: confirmed
-  last_checked: '2026-10-06'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Official 2027 dates page confirms the July meeting, full-paper registration
-    and submission, and camera-ready dates. Short-paper submission is still TBD.
+  notes: 'Official 2027 dates page confirms the July meeting and 23:59 AoE full-paper abstract registration (Nov 30), submission (Dec 4) and camera-ready (Mar 12) dates, with no extension as of 2026-10-30. No new submissions are accepted after abstract registration; its OpenReview form was observed open on 2026-10-30. Short-paper submission is still TBD; an April date briefly posted on the site was withdrawn.'
 - id: ieee-embc-2027
   series: IEEE EMBC
   year: 2027
@@ -3811,6 +3845,7 @@
       label: Blue Sky Ideas abstract registration deadline
       datetime: '2026-11-05T23:59:00-12:00'
       gate_for: short_paper
+      open_observed_on: '2026-10-30'
       source_url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
     - type: short_paper
       label: Blue Sky Ideas paper submission deadline
@@ -3824,16 +3859,9 @@
       label: Blue Sky Ideas camera-ready deadline
       datetime: '2027-02-11T23:59:00-12:00'
       source_url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
-  last_checked: '2026-10-07'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Annual flagship meeting in Hanoi. New main-track submissions are closed
-    because the Oct 1 abstract gate has passed, even before the Oct 8 paper cutoff.
-    The separate four-page Blue Sky Ideas track remains a forthcoming opportunity;
-    author registration is announced for Oct 20 but no exact opening hour is given.
-    Its Nov 5 gate only controls its Nov 12 short papers. AAAI fast-track and
-    already published JAAMAS presentations are not general new-paper routes.
-    Size XL is an editorial estimate. Historical acceptance covers main full
-    papers only, not Blue Sky Ideas or the newly introduced 2027 Findings track.
+  notes: 'Annual flagship meeting in Hanoi. New main-track submissions are closed because the Oct 1 abstract gate has passed. The separate four-page Blue Sky Ideas track is open: its OpenReview form (opened Oct 20) was observed live on 2026-10-30, and its Nov 5 gate only controls the Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page paper plus video, in the proceedings, due Dec 27 AoE) is not tracked as a separate route. The AAAI fast track is limited to highly rated AAAI-27 papers and is not a general new-paper route. Size XL is an editorial estimate. Historical acceptance covers main full papers only, not Blue Sky Ideas or the newly introduced 2027 Findings track.'
 
 - id: mlsys-2027
   series: MLSys
@@ -4030,8 +4058,8 @@
   relevance: high
   deadlines:
     - type: full_paper
-      label: Genetic programming paper submission deadline
-      datetime: '2026-11-01T23:59:00-12:00'
+      label: Extended genetic programming paper submission deadline
+      datetime: '2026-11-16T23:59:00-12:00'
       time_precision: date
       source_url: https://www.evostar.org/2027/important-dates/
     - type: camera_ready
@@ -4039,13 +4067,9 @@
       datetime: '2027-01-24T23:59:00-12:00'
       time_precision: date
       source_url: https://www.evostar.org/2027/important-dates/
-  last_checked: '2026-10-07'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Official EvoStar pages confirm Mainz, March 31-April 2, in hybrid mode.
-    Published deadline days have no exact cutoff hour or timezone; AoE timestamps
-    are provisional and calendars use all-day events. The shared EvoStar
-    late-breaking-abstract date is not yet a verified EuroGP-specific paper route.
-    S is an editorial size estimate for EuroGP, not the whole EvoStar event.
+  notes: 'Official EvoStar pages confirm Mainz, March 31-April 2, in hybrid mode. On 2026-10-30 the Important Dates page strikes November 1 and gives November 16, 2026 (extended) for EvoStar paper submissions, including EuroGP; an older post embedded on the EuroGP page still shows November 1. Published deadline days have no exact cutoff hour or timezone; AoE timestamps are provisional and calendars use all-day events. A shared EvoStar late-breaking-abstract date (March 21, 2027) has no 2027 call page yet and is not tracked. S is an editorial size estimate for EuroGP, not the whole EvoStar event.'
 
 - id: kr-2027
   series: KR
@@ -4356,6 +4380,10 @@
     - https://cvpr.thecvf.com/Conferences/2027
     - https://cvpr.thecvf.com/Conferences/2027/CallForPapers
     - https://www.thecvf.com/?page_id=100
+    - https://cvpr.thecvf.com/Conferences/2027/Dates
+    - https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines
+    - https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+    - https://openreview.net/group?id=thecvf.com/CVPR/2027/Conference
   location: Seattle, Washington, USA
   mode: in-person
   conference_start: '2027-06-20'
@@ -4370,6 +4398,7 @@
       label: Abstract and paper registration deadline
       datetime: '2026-11-10T23:59:00-12:00'
       gate_for: full_paper
+      open_observed_on: '2026-10-30'
       source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
     - type: full_paper
       label: Paper submission deadline
@@ -4379,12 +4408,9 @@
       label: Supplementary material deadline
       datetime: '2026-11-23T23:59:00-12:00'
       source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
-  last_checked: '2026-10-07'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Official 2027 homepage and CFP confirm Seattle and AoE submission
-    dates. Mandatory registration gates paper submission. XXL is supported by
-    the organizer's description of more than 10,000 annual attendees. Historical
-    acceptance statistics refer to the main technical program, not workshops.
+  notes: 'Official 2027 homepage, CFP and Dates page, rechecked 2026-10-30, confirm Seattle and fixed AoE dates with no extension; the Call for Workshops states that CVPR 2027 is in person. The mandatory Nov 10 paper registration gates paper submission: no new submissions and no author additions or removals after it. OpenReview''s public submission invitation, open to all users since Oct 27 and due Nov 10 AoE, was live on 2026-10-30. XXL is supported by the organizer''s description of more than 10,000 annual attendees. Historical acceptance statistics refer to the main technical program, not workshops.'
 
 - id: eccv-2026
   series: ECCV
@@ -4550,6 +4576,8 @@
     - https://fg2027.ieee-biometrics.org/dates/
     - https://fg2027.ieee-biometrics.org/call-for-papers/
     - https://ieee-biometrics.org/conferences/flagship/fg/
+    - https://fg2027.ieee-biometrics.org/news/
+    - https://fg2027.ieee-biometrics.org/call-for-workshop-tutorial-proposals/
   location: Marrakesh, Morocco
   mode: in-person
   conference_start: '2027-04-26'
@@ -4570,8 +4598,8 @@
       datetime: '2026-10-30T23:59:00-12:00'
       source_url: https://fg2027.ieee-biometrics.org/dates/
     - type: workshop
-      label: Workshop and tutorial proposal deadline
-      datetime: '2026-10-20T23:59:00-12:00'
+      label: Extended workshop and tutorial proposal deadline
+      datetime: '2026-11-14T23:59:00-12:00'
       source_url: https://fg2027.ieee-biometrics.org/dates/
     - type: workshop_paper
       label: Workshop paper submission deadline
@@ -4581,13 +4609,9 @@
       label: Main conference camera-ready deadline
       datetime: '2027-01-26T23:59:00-12:00'
       source_url: https://fg2027.ieee-biometrics.org/dates/
-  last_checked: '2026-10-07'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Official CFP and dates page updated October 5 extend the abstract and
-    paper deadlines to October 23 and 30, replacing October 9 and 16. Cutoffs
-    are AoE. Full event includes April 26/30 workshops; main sessions are
-    April 27-29. CMT opening is announced for September 25 without an exact
-    hour; no portal-open observation is fabricated. M is an editorial estimate.
+  notes: 'Official CFP and dates pages, rechecked 2026-10-30, keep the abstract and paper deadlines extended to October 23 and 30 (from October 9 and 16); cutoffs are AoE. Workshop and tutorial proposals were extended from October 20 to November 14, with notification moved to November 18. The full event includes April 26/30 workshops; main sessions are April 27-29. Demo (January 4), Doctoral Consortium (February 15) and competition steps are not tracked. CMT opening was announced for September 25 without an exact hour; no portal-open observation is fabricated. M is an editorial estimate.'
 
 - id: iccv-2027
   series: ICCV
@@ -5184,6 +5208,7 @@
   source_urls:
   - https://www.ecir2027.co.uk/
   - https://www.ecir2027.co.uk/call-for-full-papers
+  - https://www.ecir2027.co.uk/calls
   location: Southampton, UK
   mode: in-person
   conference_start: '2027-03-21'
@@ -5203,12 +5228,10 @@
     datetime: '2026-09-21T23:59:00-12:00'
     source_url: https://www.ecir2027.co.uk/call-for-full-papers
     gate_for: full_paper
-    time_precision: date
   - type: full_paper
     label: Full paper submission deadline
     datetime: '2026-10-05T23:59:00-12:00'
     source_url: https://www.ecir2027.co.uk/call-for-full-papers
-    time_precision: date
   - type: late_abstract
     label: Short-paper abstract deadline
     datetime: '2026-10-05T23:59:00-12:00'
@@ -5236,12 +5259,9 @@
     datetime: '2026-11-02T23:59:00-12:00'
     source_url: https://www.ecir2027.co.uk/call-for-resource-papers
     time_precision: date
-  last_checked: '2026-10-07'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Track-specific calls confirm paper days but no exact cutoff hour. Full/short abstract
-    gates are already closed; replicability and resource papers remain independent opportunities.
-    Resource papers report original research resources, not camera-ready work. Size is an editorial
-    estimate.
+  notes: 'Rechecked 2026-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abstract gate and Oct 5 paper; the short, replicability and resource calls give days only. Resource papers (Nov 2, no abstract step) report original research resources; no extension was found. IR-for-Good papers (closed Oct 5), demos and Industry Day proposals (Nov 2) and Doctoral Consortium submissions (extended to a Nov 2 abstract and Nov 9 paper) are not tracked as separate routes. Size is an editorial estimate.'
 - id: recsys-2027
   series: RecSys
   year: 2027
@@ -5293,6 +5313,8 @@
   source_urls:
   - https://www2027.thewebconf.org/
   - https://www2027.thewebconf.org/research-track-papers/
+  - https://www2027.thewebconf.org/important-dates/
+  - https://www2027.thewebconf.org/resource-submissions/
   location: Dublin, Ireland
   mode: in-person
   conference_start: '2027-05-10'
@@ -5321,23 +5343,25 @@
   - type: late_abstract
     label: Short-paper abstract deadline
     datetime: '2026-11-09T23:59:00-12:00'
-    source_url: https://www2027.thewebconf.org/
+    source_url: https://www2027.thewebconf.org/important-dates/
     gate_for: short_paper
-    open_observed_on: '2026-10-07'
+    open_observed_on: '2026-10-30'
   - type: short_paper
     label: Short paper submission deadline
     datetime: '2026-11-16T23:59:00-12:00'
-    source_url: https://www2027.thewebconf.org/
-    open_observed_on: '2026-10-07'
+    source_url: https://www2027.thewebconf.org/important-dates/
+    open_observed_on: '2026-10-30'
+  - type: resource_paper
+    label: Resource paper submission deadline
+    datetime: '2026-12-17T23:59:00-12:00'
+    source_url: https://www2027.thewebconf.org/resource-submissions/
   - type: camera_ready
     label: Research-track final version deadline
     datetime: '2027-01-31T23:59:00-12:00'
     source_url: https://www2027.thewebconf.org/research-track-papers/
-  last_checked: '2026-10-07'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Official homepage states full and short paper portals are open; separate mandatory
-    abstract gates. Research must substantively address the Web, not merely use a web dataset.
-    Preserve WWW as the stable series alias. Size is an editorial estimate.
+  notes: 'Full-paper abstract and paper deadlines (Oct 18/25 AoE) have passed with no extension. The short-paper OpenReview portal was observed open on 2026-10-30; separate mandatory abstract gates apply. Resource papers (four pages, non-anonymous, companion proceedings) are due Dec 17 AoE; their portal is not public yet. OpenReview''s short-paper forms close about an hour after the AoE cutoffs stored here. Demo papers (Nov 16 per the website), the PhD symposium (Jan 6 per the website) and the general workshop-paper date (Jan 4, workshops not yet listed) are not tracked as separate routes; the OpenReview demo and PhD symposium forms are set to close Nov 15, 21:00 UTC. The Web4Good track is discontinued. Research must substantively address the Web, not merely use a web dataset. Preserve WWW as the stable series alias. Size is an editorial estimate.'
 - id: colm-2026
   series: COLM
   year: 2026
@@ -5567,11 +5591,9 @@
     label: Camera-ready deadline
     datetime: '2027-05-14T23:59:00-12:00'
     source_url: https://roboticsconference.org/information/cfp/
-  last_checked: '2026-10-07'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: New two-stage 2027 process requires a six-page initial submission by December 4, 2026.
-    Only authors invited after review may submit the April final paper; it is not a fresh-paper
-    route after stage 1 closes. Size is an editorial estimate.
+  notes: 'New two-stage 2027 process requires a six-page initial submission by December 4, 2026. Only authors invited after review may submit the April final paper; it is not a fresh-paper route after stage 1 closes. Rechecked 2026-10-30 with no change; the OpenReview submission form is not public yet. Size is an editorial estimate.'
 - id: smc-2026
   series: SMC
   year: 2026
@@ -5884,6 +5906,7 @@
   source_urls:
   - https://niceworkshop.org/nice-2027/
   - https://easychair.org/cfp/nice2027
+  - https://easychair.org/conferences/?conf=nice2027
   location: Brighton, United Kingdom
   mode: in-person
   conference_start: '2027-04-06'
@@ -5902,6 +5925,7 @@
     label: Regular research paper submission deadline
     datetime: '2026-11-11T23:59:00-12:00'
     source_url: https://easychair.org/cfp/nice2027
+    open_observed_on: '2026-10-30'
   - type: late_abstract
     label: Late-breaking abstract submission deadline
     datetime: '2027-02-01T23:59:00-12:00'
@@ -5915,12 +5939,9 @@
     label: Camera-ready research paper deadline
     datetime: '2027-03-09T23:59:00-12:00'
     source_url: https://easychair.org/cfp/nice2027
-  last_checked: '2026-10-08'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Main conference April 6-8; dedicated tutorials April 9. Accepted proceedings research papers
-    are published through IEEE; late-breaking abstracts are non-archival, and some poster contributions
-    may not enter the proceedings. Neither a scheduled opening nor a live submission portal has been verified.
-    Size is an editorial estimate.
+  notes: 'Main conference April 6-8; dedicated tutorials April 9. Accepted proceedings research papers are published through IEEE (authors may opt out); late-breaking abstracts are non-archival, and some poster contributions may not enter the proceedings. Rechecked 2026-10-30 with no extension; that day the EasyChair portal reported new-paper submission open, which is recorded for regular papers only. Size is an editorial estimate.'
 - id: sab-2026
   series: SAB
   year: 2026
@@ -6412,20 +6433,18 @@
   deadlines:
   - type: abstract
     label: Contributed talk/poster abstract submission deadline
-    datetime: '2026-11-22T23:59:00-08:00'
+    datetime: '2026-11-22T23:59:00-12:00'
     source_url: https://www.ddays.org/2027/abstract-submission/
     time_precision: date
+    open_observed_on: '2026-10-30'
   - type: registration
     label: Early registration deadline
-    datetime: '2026-12-01T23:59:00-08:00'
+    datetime: '2026-12-07T23:59:00-12:00'
     source_url: https://www.ddays.org/2027/registration/
     time_precision: date
-  last_checked: '2026-10-08'
+  last_checked: '2026-10-30'
   confidence: confirmed
-  notes: Official banner confirms January 4-6 at Scripps Seaside Forum. A selection of abstracts becomes
-    single-track talks; poster contributions are also expected. No archival full-paper proceedings verified.
-    The November 22 deadline falls in 2026, before the January 2027 meeting; exact cutoff hour is unannounced.
-    Size is an editorial estimate.
+  notes: 'Official banner confirms January 4-6 at Scripps Seaside Forum. A selection of abstracts becomes single-track talks; poster contributions are also expected. No archival full-paper proceedings verified. The November 22 deadline falls in 2026, before the January 2027 meeting; exact cutoff hours are unannounced. Rechecked 2026-10-30: the abstract form is live and early registration moved from December 1 to December 7. Travel award applications (November 22, funding permitting) are not tracked. Size is an editorial estimate.'
 - id: dynamics-days-lac-2026
   series: Dynamics Days LAC
   year: 2026

@@ -136,20 +136,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
+DTSTART:20260922T115900Z
+DTEND:20260922T125900Z
 SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
- ull-paper abstract deadline (cutoff time unannounced)
+ ull-paper abstract deadline
 DESCRIPTION:Conference title: European Conference on Information Retrieval\
  nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
  o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
  n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
- nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
-  calls confirm paper days but no exact cutoff hour. Full/short abstract g
- ates are already closed\; replicability and resource papers remain indepe
- ndent opportunities. Resource papers report original research resources\,
-  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ nfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 2026
+ -10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abst
+ ract gate and Oct 5 paper\; the short\, replicability and resource calls 
+ give days only. Resource papers (Nov 2\, no abstract step) report origina
+ l research resources\; no extension was found. IR-for-Good papers (closed
+  Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consortiu
+ m submissions (extended to a Nov 2 abstract and Nov 9 paper) are not trac
+ ked as separate routes. Size is an editorial estimate.\nScope: Informatio
  n retrieval and ranking\, recommendation\, conversational search and RAG\
  , user information interaction\, system efficiency\, and rigorous evaluat
  ion. The 2027 call explicitly includes language models and agentic retrie
@@ -158,28 +161,29 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
   Deployment\, Explainability & Interpretability\, Fairness & Responsible 
  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
- cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07
 URL:https://www.ecir2027.co.uk/call-for-full-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
+DTSTART:20261006T115900Z
+DTEND:20261006T125900Z
 SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
- ull paper submission deadline (cutoff time unannounced)
+ ull paper submission deadline
 DESCRIPTION:Conference title: European Conference on Information Retrieval\
  nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
  o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
  n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
- nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
-  calls confirm paper days but no exact cutoff hour. Full/short abstract g
- ates are already closed\; replicability and resource papers remain indepe
- ndent opportunities. Resource papers report original research resources\,
-  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ nfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 2026
+ -10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abst
+ ract gate and Oct 5 paper\; the short\, replicability and resource calls 
+ give days only. Resource papers (Nov 2\, no abstract step) report origina
+ l research resources\; no extension was found. IR-for-Good papers (closed
+  Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consortiu
+ m submissions (extended to a Nov 2 abstract and Nov 9 paper) are not trac
+ ked as separate routes. Size is an editorial estimate.\nScope: Informatio
  n retrieval and ranking\, recommendation\, conversational search and RAG\
  , user information interaction\, system efficiency\, and rigorous evaluat
  ion. The 2027 call explicitly includes language models and agentic retrie
@@ -188,9 +192,7 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
   Deployment\, Explainability & Interpretability\, Fairness & Responsible 
  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
- cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
- ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
- organizer's submission portal.
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07
 URL:https://www.ecir2027.co.uk/call-for-full-papers
 END:VEVENT
 BEGIN:VEVENT
@@ -205,11 +207,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
  on Retrieval & Search\, Recommender Systems\, Natural Language Processing
   & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
- c calls confirm paper days but no exact cutoff hour. Full/short abstract 
- gates are already closed\; replicability and resource papers remain indep
- endent opportunities. Resource papers report original research resources\
- , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 202
+ 6-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abs
+ tract gate and Oct 5 paper\; the short\, replicability and resource calls
+  give days only. Resource papers (Nov 2\, no abstract step) report origin
+ al research resources\; no extension was found. IR-for-Good papers (close
+ d Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consorti
+ um submissions (extended to a Nov 2 abstract and Nov 9 paper) are not tra
+ cked as separate routes. Size is an editorial estimate.\nScope: Informati
  on retrieval and ranking\, recommendation\, conversational search and RAG
  \, user information interaction\, system efficiency\, and rigorous evalua
  tion. The 2027 call explicitly includes language models and agentic retri
@@ -235,11 +240,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
   Information Retrieval & Search\, Recommender Systems\, Natural Language 
  Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
- r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
- ck-specific calls confirm paper days but no exact cutoff hour. Full/short
-  abstract gates are already closed\; replicability and resource papers re
- main independent opportunities. Resource papers report original research 
- resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rec
+ hecked 2026-10-30. The full-paper call states 11:59pm AoE for its closed 
+ Sep 21 abstract gate and Oct 5 paper\; the short\, replicability and reso
+ urce calls give days only. Resource papers (Nov 2\, no abstract step) rep
+ ort original research resources\; no extension was found. IR-for-Good pap
+ ers (closed Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctora
+ l Consortium submissions (extended to a Nov 2 abstract and Nov 9 paper) a
+ re not tracked as separate routes. Size is an editorial estimate.\nScope:
   Information retrieval and ranking\, recommendation\, conversational sear
  ch and RAG\, user information interaction\, system efficiency\, and rigor
  ous evaluation. The 2027 call explicitly includes language models and age
@@ -265,11 +273,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
  on Retrieval & Search\, Recommender Systems\, Natural Language Processing
   & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
- c calls confirm paper days but no exact cutoff hour. Full/short abstract 
- gates are already closed\; replicability and resource papers remain indep
- endent opportunities. Resource papers report original research resources\
- , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ onfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 202
+ 6-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 abs
+ tract gate and Oct 5 paper\; the short\, replicability and resource calls
+  give days only. Resource papers (Nov 2\, no abstract step) report origin
+ al research resources\; no extension was found. IR-for-Good papers (close
+ d Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Consorti
+ um submissions (extended to a Nov 2 abstract and Nov 9 paper) are not tra
+ cked as separate routes. Size is an editorial estimate.\nScope: Informati
  on retrieval and ranking\, recommendation\, conversational search and RAG
  \, user information interaction\, system efficiency\, and rigorous evalua
  tion. The 2027 call explicitly includes language models and agentic retri
@@ -296,19 +307,27 @@ DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
  ublin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Sys
  tems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmiss
  ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
- 07\nNotes: Official homepage states full and short paper portals are open
- \; separate mandatory abstract gates. Research must substantively address
-  the Web\, not merely use a web dataset. Preserve WWW as the stable serie
- s alias. Size is an editorial estimate.\nScope: Research on the Web as in
- frastructure and a socio-technical ecosystem. Characteristic ML-facing tr
- acks include search and recommendation\, retrieval-augmented and agentic 
- information access\, graph learning\, and semantic knowledge. Responsible
-  Web and privacy research are substantive strands. Merely using a web dat
- aset or API is explicitly insufficient topical relevance.\nAdditional top
- ics: Knowledge Representation & Reasoning\, Data Mining & Data Science\, 
- Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governance\n
- Scope sources (2027): https://www2027.thewebconf.org/research-track-paper
- s/\nScope last checked: 2026-10-07
+ 30\nNotes: Full-paper abstract and paper deadlines (Oct 18/25 AoE) have p
+ assed with no extension. The short-paper OpenReview portal was observed o
+ pen on 2026-10-30\; separate mandatory abstract gates apply. Resource pap
+ ers (four pages\, non-anonymous\, companion proceedings) are due Dec 17 A
+ oE\; their portal is not public yet. OpenReview's short-paper forms close
+  about an hour after the AoE cutoffs stored here. Demo papers (Nov 16 per
+  the website)\, the PhD symposium (Jan 6 per the website) and the general
+  workshop-paper date (Jan 4\, workshops not yet listed) are not tracked a
+ s separate routes\; the OpenReview demo and PhD symposium forms are set t
+ o close Nov 15\, 21:00 UTC. The Web4Good track is discontinued. Research 
+ must substantively address the Web\, not merely use a web dataset. Preser
+ ve WWW as the stable series alias. Size is an editorial estimate.\nScope:
+  Research on the Web as infrastructure and a socio-technical ecosystem. C
+ haracteristic ML-facing tracks include search and recommendation\, retrie
+ val-augmented and agentic information access\, graph learning\, and seman
+ tic knowledge. Responsible Web and privacy research are substantive stran
+ ds. Merely using a web dataset or API is explicitly insufficient topical 
+ relevance.\nAdditional topics: Knowledge Representation & Reasoning\, Dat
+ a Mining & Data Science\, Fairness & Responsible AI\, Privacy-preserving 
+ ML\, Ethics & Governance\nScope sources (2027): https://www2027.thewebcon
+ f.org/research-track-papers/\nScope last checked: 2026-10-07
 URL:https://www2027.thewebconf.org/research-track-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -323,11 +342,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
   Information Retrieval & Search\, Recommender Systems\, Natural Language 
  Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
- r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
- ck-specific calls confirm paper days but no exact cutoff hour. Full/short
-  abstract gates are already closed\; replicability and resource papers re
- main independent opportunities. Resource papers report original research 
- resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rec
+ hecked 2026-10-30. The full-paper call states 11:59pm AoE for its closed 
+ Sep 21 abstract gate and Oct 5 paper\; the short\, replicability and reso
+ urce calls give days only. Resource papers (Nov 2\, no abstract step) rep
+ ort original research resources\; no extension was found. IR-for-Good pap
+ ers (closed Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctora
+ l Consortium submissions (extended to a Nov 2 abstract and Nov 9 paper) a
+ re not tracked as separate routes. Size is an editorial estimate.\nScope:
   Information retrieval and ranking\, recommendation\, conversational sear
  ch and RAG\, user information interaction\, system efficiency\, and rigor
  ous evaluation. The 2027 call explicitly includes language models and age
@@ -354,19 +376,27 @@ DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
  ublin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Sys
  tems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmiss
  ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
- 07\nNotes: Official homepage states full and short paper portals are open
- \; separate mandatory abstract gates. Research must substantively address
-  the Web\, not merely use a web dataset. Preserve WWW as the stable serie
- s alias. Size is an editorial estimate.\nScope: Research on the Web as in
- frastructure and a socio-technical ecosystem. Characteristic ML-facing tr
- acks include search and recommendation\, retrieval-augmented and agentic 
- information access\, graph learning\, and semantic knowledge. Responsible
-  Web and privacy research are substantive strands. Merely using a web dat
- aset or API is explicitly insufficient topical relevance.\nAdditional top
- ics: Knowledge Representation & Reasoning\, Data Mining & Data Science\, 
- Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governance\n
- Scope sources (2027): https://www2027.thewebconf.org/research-track-paper
- s/\nScope last checked: 2026-10-07
+ 30\nNotes: Full-paper abstract and paper deadlines (Oct 18/25 AoE) have p
+ assed with no extension. The short-paper OpenReview portal was observed o
+ pen on 2026-10-30\; separate mandatory abstract gates apply. Resource pap
+ ers (four pages\, non-anonymous\, companion proceedings) are due Dec 17 A
+ oE\; their portal is not public yet. OpenReview's short-paper forms close
+  about an hour after the AoE cutoffs stored here. Demo papers (Nov 16 per
+  the website)\, the PhD symposium (Jan 6 per the website) and the general
+  workshop-paper date (Jan 4\, workshops not yet listed) are not tracked a
+ s separate routes\; the OpenReview demo and PhD symposium forms are set t
+ o close Nov 15\, 21:00 UTC. The Web4Good track is discontinued. Research 
+ must substantively address the Web\, not merely use a web dataset. Preser
+ ve WWW as the stable series alias. Size is an editorial estimate.\nScope:
+  Research on the Web as infrastructure and a socio-technical ecosystem. C
+ haracteristic ML-facing tracks include search and recommendation\, retrie
+ val-augmented and agentic information access\, graph learning\, and seman
+ tic knowledge. Responsible Web and privacy research are substantive stran
+ ds. Merely using a web dataset or API is explicitly insufficient topical 
+ relevance.\nAdditional topics: Knowledge Representation & Reasoning\, Dat
+ a Mining & Data Science\, Fairness & Responsible AI\, Privacy-preserving 
+ ML\, Ethics & Governance\nScope sources (2027): https://www2027.thewebcon
+ f.org/research-track-papers/\nScope last checked: 2026-10-07
 URL:https://www2027.thewebconf.org/research-track-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -381,11 +411,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/call-for-resource-papers\nLocation: Southampton\, UK\nTopics: Inform
  ation Retrieval & Search\, Recommender Systems\, Natural Language Process
  ing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based
- \nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-spec
- ific calls confirm paper days but no exact cutoff hour. Full/short abstra
- ct gates are already closed\; replicability and resource papers remain in
- dependent opportunities. Resource papers report original research resourc
- es\, not camera-ready work. Size is an editorial estimate.\nScope: Inform
+ \nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Rechecked 
+ 2026-10-30. The full-paper call states 11:59pm AoE for its closed Sep 21 
+ abstract gate and Oct 5 paper\; the short\, replicability and resource ca
+ lls give days only. Resource papers (Nov 2\, no abstract step) report ori
+ ginal research resources\; no extension was found. IR-for-Good papers (cl
+ osed Oct 5)\, demos and Industry Day proposals (Nov 2) and Doctoral Conso
+ rtium submissions (extended to a Nov 2 abstract and Nov 9 paper) are not 
+ tracked as separate routes. Size is an editorial estimate.\nScope: Inform
  ation retrieval and ranking\, recommendation\, conversational search and 
  RAG\, user information interaction\, system efficiency\, and rigorous eva
  luation. The 2027 call explicitly includes language models and agentic re
@@ -437,24 +470,32 @@ SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Sh
  ort-paper abstract deadline
 DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
  rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
- e URL: https://www2027.thewebconf.org/\nLocation: Dublin\, Ireland\nTopic
- s: Information Retrieval & Search\, Recommender Systems\, Graphs & Graph 
- Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission type: Paper-based\
- nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official ho
- mepage states full and short paper portals are open\; separate mandatory 
- abstract gates. Research must substantively address the Web\, not merely 
- use a web dataset. Preserve WWW as the stable series alias. Size is an ed
- itorial estimate.\nScope: Research on the Web as infrastructure and a soc
- io-technical ecosystem. Characteristic ML-facing tracks include search an
- d recommendation\, retrieval-augmented and agentic information access\, g
- raph learning\, and semantic knowledge. Responsible Web and privacy resea
- rch are substantive strands. Merely using a web dataset or API is explici
- tly insufficient topical relevance.\nAdditional topics: Knowledge Represe
- ntation & Reasoning\, Data Mining & Data Science\, Fairness & Responsible
-  AI\, Privacy-preserving ML\, Ethics & Governance\nScope sources (2027): 
- https://www2027.thewebconf.org/research-track-papers/\nScope last checked
- : 2026-10-07
-URL:https://www2027.thewebconf.org/
+ e URL: https://www2027.thewebconf.org/important-dates/\nLocation: Dublin\
+ , Ireland\nTopics: Information Retrieval & Search\, Recommender Systems\,
+  Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission ty
+ pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNo
+ tes: Full-paper abstract and paper deadlines (Oct 18/25 AoE) have passed 
+ with no extension. The short-paper OpenReview portal was observed open on
+  2026-10-30\; separate mandatory abstract gates apply. Resource papers (f
+ our pages\, non-anonymous\, companion proceedings) are due Dec 17 AoE\; t
+ heir portal is not public yet. OpenReview's short-paper forms close about
+  an hour after the AoE cutoffs stored here. Demo papers (Nov 16 per the w
+ ebsite)\, the PhD symposium (Jan 6 per the website) and the general works
+ hop-paper date (Jan 4\, workshops not yet listed) are not tracked as sepa
+ rate routes\; the OpenReview demo and PhD symposium forms are set to clos
+ e Nov 15\, 21:00 UTC. The Web4Good track is discontinued. Research must s
+ ubstantively address the Web\, not merely use a web dataset. Preserve WWW
+  as the stable series alias. Size is an editorial estimate.\nScope: Resea
+ rch on the Web as infrastructure and a socio-technical ecosystem. Charact
+ eristic ML-facing tracks include search and recommendation\, retrieval-au
+ gmented and agentic information access\, graph learning\, and semantic kn
+ owledge. Responsible Web and privacy research are substantive strands. Me
+ rely using a web dataset or API is explicitly insufficient topical releva
+ nce.\nAdditional topics: Knowledge Representation & Reasoning\, Data Mini
+ ng & Data Science\, Fairness & Responsible AI\, Privacy-preserving ML\, E
+ thics & Governance\nScope sources (2027): https://www2027.thewebconf.org/
+ research-track-papers/\nScope last checked: 2026-10-07
+URL:https://www2027.thewebconf.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:wsdm-2027-deadline-doctoral-consortium@scientific-conference-calendar
@@ -498,24 +539,32 @@ SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Sh
  ort paper submission deadline
 DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
  rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
- e URL: https://www2027.thewebconf.org/\nLocation: Dublin\, Ireland\nTopic
- s: Information Retrieval & Search\, Recommender Systems\, Graphs & Graph 
- Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission type: Paper-based\
- nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official ho
- mepage states full and short paper portals are open\; separate mandatory 
- abstract gates. Research must substantively address the Web\, not merely 
- use a web dataset. Preserve WWW as the stable series alias. Size is an ed
- itorial estimate.\nScope: Research on the Web as infrastructure and a soc
- io-technical ecosystem. Characteristic ML-facing tracks include search an
- d recommendation\, retrieval-augmented and agentic information access\, g
- raph learning\, and semantic knowledge. Responsible Web and privacy resea
- rch are substantive strands. Merely using a web dataset or API is explici
- tly insufficient topical relevance.\nAdditional topics: Knowledge Represe
- ntation & Reasoning\, Data Mining & Data Science\, Fairness & Responsible
-  AI\, Privacy-preserving ML\, Ethics & Governance\nScope sources (2027): 
- https://www2027.thewebconf.org/research-track-papers/\nScope last checked
- : 2026-10-07
-URL:https://www2027.thewebconf.org/
+ e URL: https://www2027.thewebconf.org/important-dates/\nLocation: Dublin\
+ , Ireland\nTopics: Information Retrieval & Search\, Recommender Systems\,
+  Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission ty
+ pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-30\nNo
+ tes: Full-paper abstract and paper deadlines (Oct 18/25 AoE) have passed 
+ with no extension. The short-paper OpenReview portal was observed open on
+  2026-10-30\; separate mandatory abstract gates apply. Resource papers (f
+ our pages\, non-anonymous\, companion proceedings) are due Dec 17 AoE\; t
+ heir portal is not public yet. OpenReview's short-paper forms close about
+  an hour after the AoE cutoffs stored here. Demo papers (Nov 16 per the w
+ ebsite)\, the PhD symposium (Jan 6 per the website) and the general works
+ hop-paper date (Jan 4\, workshops not yet listed) are not tracked as sepa
+ rate routes\; the OpenReview demo and PhD symposium forms are set to clos
+ e Nov 15\, 21:00 UTC. The Web4Good track is discontinued. Research must s
+ ubstantively address the Web\, not merely use a web dataset. Preserve WWW
+  as the stable series alias. Size is an editorial estimate.\nScope: Resea
+ rch on the Web as infrastructure and a socio-technical ecosystem. Charact
+ eristic ML-facing tracks include search and recommendation\, retrieval-au
+ gmented and agentic information access\, graph learning\, and semantic kn
+ owledge. Responsible Web and privacy research are substantive strands. Me
+ rely using a web dataset or API is explicitly insufficient topical releva
+ nce.\nAdditional topics: Knowledge Representation & Reasoning\, Data Mini
+ ng & Data Science\, Fairness & Responsible AI\, Privacy-preserving ML\, E
+ thics & Governance\nScope sources (2027): https://www2027.thewebconf.org/
+ research-track-papers/\nScope last checked: 2026-10-07
+URL:https://www2027.thewebconf.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:wsdm-2027-deadline-short-paper@scientific-conference-calendar
@@ -582,6 +631,42 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
  cessing & LLMs\nScope sources (2027): https://www.wsdm-conference.org/202
  7/cffp.html\nScope last checked: 2026-10-07
 URL:https://www.wsdm-conference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261218T115900Z
+DTEND:20261218T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Re
+ source paper submission deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/resource-submissions/\nLocation: Du
+ blin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Syst
+ ems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmissi
+ on type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-3
+ 0\nNotes: Full-paper abstract and paper deadlines (Oct 18/25 AoE) have pa
+ ssed with no extension. The short-paper OpenReview portal was observed op
+ en on 2026-10-30\; separate mandatory abstract gates apply. Resource pape
+ rs (four pages\, non-anonymous\, companion proceedings) are due Dec 17 Ao
+ E\; their portal is not public yet. OpenReview's short-paper forms close 
+ about an hour after the AoE cutoffs stored here. Demo papers (Nov 16 per 
+ the website)\, the PhD symposium (Jan 6 per the website) and the general 
+ workshop-paper date (Jan 4\, workshops not yet listed) are not tracked as
+  separate routes\; the OpenReview demo and PhD symposium forms are set to
+  close Nov 15\, 21:00 UTC. The Web4Good track is discontinued. Research m
+ ust substantively address the Web\, not merely use a web dataset. Preserv
+ e WWW as the stable series alias. Size is an editorial estimate.\nScope: 
+ Research on the Web as infrastructure and a socio-technical ecosystem. Ch
+ aracteristic ML-facing tracks include search and recommendation\, retriev
+ al-augmented and agentic information access\, graph learning\, and semant
+ ic knowledge. Responsible Web and privacy research are substantive strand
+ s. Merely using a web dataset or API is explicitly insufficient topical r
+ elevance.\nAdditional topics: Knowledge Representation & Reasoning\, Data
+  Mining & Data Science\, Fairness & Responsible AI\, Privacy-preserving M
+ L\, Ethics & Governance\nScope sources (2027): https://www2027.thewebconf
+ .org/research-track-papers/\nScope last checked: 2026-10-07
+URL:https://www2027.thewebconf.org/resource-submissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigir-2027-deadline-abstract@scientific-conference-calendar
@@ -662,19 +747,27 @@ DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
  ublin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Sys
  tems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmiss
  ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
- 07\nNotes: Official homepage states full and short paper portals are open
- \; separate mandatory abstract gates. Research must substantively address
-  the Web\, not merely use a web dataset. Preserve WWW as the stable serie
- s alias. Size is an editorial estimate.\nScope: Research on the Web as in
- frastructure and a socio-technical ecosystem. Characteristic ML-facing tr
- acks include search and recommendation\, retrieval-augmented and agentic 
- information access\, graph learning\, and semantic knowledge. Responsible
-  Web and privacy research are substantive strands. Merely using a web dat
- aset or API is explicitly insufficient topical relevance.\nAdditional top
- ics: Knowledge Representation & Reasoning\, Data Mining & Data Science\, 
- Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governance\n
- Scope sources (2027): https://www2027.thewebconf.org/research-track-paper
- s/\nScope last checked: 2026-10-07
+ 30\nNotes: Full-paper abstract and paper deadlines (Oct 18/25 AoE) have p
+ assed with no extension. The short-paper OpenReview portal was observed o
+ pen on 2026-10-30\; separate mandatory abstract gates apply. Resource pap
+ ers (four pages\, non-anonymous\, companion proceedings) are due Dec 17 A
+ oE\; their portal is not public yet. OpenReview's short-paper forms close
+  about an hour after the AoE cutoffs stored here. Demo papers (Nov 16 per
+  the website)\, the PhD symposium (Jan 6 per the website) and the general
+  workshop-paper date (Jan 4\, workshops not yet listed) are not tracked a
+ s separate routes\; the OpenReview demo and PhD symposium forms are set t
+ o close Nov 15\, 21:00 UTC. The Web4Good track is discontinued. Research 
+ must substantively address the Web\, not merely use a web dataset. Preser
+ ve WWW as the stable series alias. Size is an editorial estimate.\nScope:
+  Research on the Web as infrastructure and a socio-technical ecosystem. C
+ haracteristic ML-facing tracks include search and recommendation\, retrie
+ val-augmented and agentic information access\, graph learning\, and seman
+ tic knowledge. Responsible Web and privacy research are substantive stran
+ ds. Merely using a web dataset or API is explicitly insufficient topical 
+ relevance.\nAdditional topics: Knowledge Representation & Reasoning\, Dat
+ a Mining & Data Science\, Fairness & Responsible AI\, Privacy-preserving 
+ ML\, Ethics & Governance\nScope sources (2027): https://www2027.thewebcon
+ f.org/research-track-papers/\nScope last checked: 2026-10-07
 URL:https://www2027.thewebconf.org/research-track-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -723,11 +816,14 @@ DESCRIPTION:Conference title: European Conference on Information Retrieval\
  o.uk/\nLocation: Southampton\, UK\nTopics: Information Retrieval & Search
  \, Recommender Systems\, Natural Language Processing & LLMs\, LLM Agents 
  & Tool Use\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\
- nLast checked date: 2026-10-07\nNotes: Track-specific calls confirm paper
-  days but no exact cutoff hour. Full/short abstract gates are already clo
- sed\; replicability and resource papers remain independent opportunities.
-  Resource papers report original research resources\, not camera-ready wo
- rk. Size is an editorial estimate.\nScope: Information retrieval and rank
+ nLast checked date: 2026-10-30\nNotes: Rechecked 2026-10-30. The full-pap
+ er call states 11:59pm AoE for its closed Sep 21 abstract gate and Oct 5 
+ paper\; the short\, replicability and resource calls give days only. Reso
+ urce papers (Nov 2\, no abstract step) report original research resources
+ \; no extension was found. IR-for-Good papers (closed Oct 5)\, demos and 
+ Industry Day proposals (Nov 2) and Doctoral Consortium submissions (exten
+ ded to a Nov 2 abstract and Nov 9 paper) are not tracked as separate rout
+ es. Size is an editorial estimate.\nScope: Information retrieval and rank
  ing\, recommendation\, conversational search and RAG\, user information i
  nteraction\, system efficiency\, and rigorous evaluation. The 2027 call e
  xplicitly includes language models and agentic retrieval workflows. Repli
@@ -840,20 +936,28 @@ DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
  e URL: https://www2027.thewebconf.org/\nLocation: Dublin\, Ireland\nTopic
  s: Information Retrieval & Search\, Recommender Systems\, Graphs & Graph 
  Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission type: Paper-based\
- nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official ho
- mepage states full and short paper portals are open\; separate mandatory 
- abstract gates. Research must substantively address the Web\, not merely 
- use a web dataset. Preserve WWW as the stable series alias. Size is an ed
- itorial estimate.\nScope: Research on the Web as infrastructure and a soc
- io-technical ecosystem. Characteristic ML-facing tracks include search an
- d recommendation\, retrieval-augmented and agentic information access\, g
- raph learning\, and semantic knowledge. Responsible Web and privacy resea
- rch are substantive strands. Merely using a web dataset or API is explici
- tly insufficient topical relevance.\nAdditional topics: Knowledge Represe
- ntation & Reasoning\, Data Mining & Data Science\, Fairness & Responsible
-  AI\, Privacy-preserving ML\, Ethics & Governance\nScope sources (2027): 
- https://www2027.thewebconf.org/research-track-papers/\nScope last checked
- : 2026-10-07
+ nConfidence: confirmed\nLast checked date: 2026-10-30\nNotes: Full-paper 
+ abstract and paper deadlines (Oct 18/25 AoE) have passed with no extensio
+ n. The short-paper OpenReview portal was observed open on 2026-10-30\; se
+ parate mandatory abstract gates apply. Resource papers (four pages\, non-
+ anonymous\, companion proceedings) are due Dec 17 AoE\; their portal is n
+ ot public yet. OpenReview's short-paper forms close about an hour after t
+ he AoE cutoffs stored here. Demo papers (Nov 16 per the website)\, the Ph
+ D symposium (Jan 6 per the website) and the general workshop-paper date (
+ Jan 4\, workshops not yet listed) are not tracked as separate routes\; th
+ e OpenReview demo and PhD symposium forms are set to close Nov 15\, 21:00
+  UTC. The Web4Good track is discontinued. Research must substantively add
+ ress the Web\, not merely use a web dataset. Preserve WWW as the stable s
+ eries alias. Size is an editorial estimate.\nScope: Research on the Web a
+ s infrastructure and a socio-technical ecosystem. Characteristic ML-facin
+ g tracks include search and recommendation\, retrieval-augmented and agen
+ tic information access\, graph learning\, and semantic knowledge. Respons
+ ible Web and privacy research are substantive strands. Merely using a web
+  dataset or API is explicitly insufficient topical relevance.\nAdditional
+  topics: Knowledge Representation & Reasoning\, Data Mining & Data Scienc
+ e\, Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governan
+ ce\nScope sources (2027): https://www2027.thewebconf.org/research-track-p
+ apers/\nScope last checked: 2026-10-07
 URL:https://www2027.thewebconf.org/
 LOCATION:Dublin\, Ireland
 END:VEVENT

@@ -35,7 +35,7 @@ CADENCE_YEARS = {
     "IEEE MLSP": 1, "CCN": 1, "Bernstein Conference": 1,
     "CNS*": 1, "ICANN": 1, "EUSIPCO": 1,
     "BIOMAG": 2, "ICPR": 2, "S+SSPR": 2,
-    "L4DC": 1, "IFAC SYSID": 3, "IEEE CDC": 1, "ACC": 1,
+    "L4DC": 1, "IFAC SYSID": 3, "IEEE CDC": 1, "ACC": 1, "ECC": 1,
     "NOLTA": 1, "SIAM DS": 2, "CCS": 1, "NetSci": 1,
     "AutoML": 1, "LoG": 1, "CoRL": 1, "GECCO": 1, "SaTML": 1,
     "ProbML": 1, "AAMAS": 1, "MLSys": 1, "CogSci": 1,

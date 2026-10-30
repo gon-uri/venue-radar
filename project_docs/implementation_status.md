@@ -12,12 +12,12 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Repository | `gon-uri/venue-radar`; GitHub Pages publishes `main/docs`. |
 | Website | https://gon-uri.github.io/venue-radar/ |
 | Architecture | Reviewed YAML + Python generators + standalone static HTML/ICS; no backend or SQL database. |
-| Catalog | 198 edition records across 130 distinct series, including 30 next editions added 2026-10-29 (28 estimated; ICDM 2027 and ACC 2028 confirmed), the user-requested AIiH 2027 and SD4H 2026 as TS4H's successor. Website row counts refer to editions, not unique series. |
+| Catalog | 199 edition records across 131 distinct series, including 30 next editions added 2026-10-29 (28 estimated; ICDM 2027 and ACC 2028 confirmed), the user-requested AIiH 2027, SD4H 2026 as TS4H's successor and the owner-approved ECC 2027 (2026-10-30). Website row counts refer to editions, not unique series. |
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
-| Detailed scopes | 80 reviewed profiles; 50 series still lack a reviewed profile. |
+| Detailed scopes | 80 reviewed profiles; 51 series still lack a reviewed profile. |
 | Evidence maps | 66 direct ICORE 2026 ranks, 55 direct CCF 2026 ranks, 34 historical rate/qualitative-band entries. |
-| Public feeds | 375 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 198 edition and 130 series feeds. |
-| Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML. |
+| Public feeds | 377 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 199 edition and 131 series feeds. `calendar-all.ics` is 1.06 MB (see the roadmap's feed note). |
+| Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML through 2026-10-29. ECC (added 2026-10-30) has no row yet: the sync helper's optional `@oai/artifact-tool` cannot be installed from public npm. The 2026-10-30 rechecks changed no mirrored column. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
 Counts are a dated catalog snapshot. Recompute them from canonical files after
@@ -117,7 +117,7 @@ adds ignore/tracking checks and keeps onboarding independent of private notes.
 
 - Review future estimates and stale checks against current official CFPs about
   monthly. Validation confirms structure/provenance presence, not factual accuracy.
-- Complete the 50 missing scope profiles gradually; curate characteristic
+- Complete the 51 missing scope profiles gradually; curate characteristic
   categories, never exhaustive CFP inventories or guessed specialist coverage.
 - Add rank/rate mappings only from direct supported evidence. Workshops, joint
   editions and similarly named conferences must not inherit a different venue's rank.
@@ -263,3 +263,29 @@ Checks: validation, 158 Python and 32 Node tests, the identity check (661 ->
 662 UIDs, none removed; edition IDs unchanged), the full browser suite, and
 the WSDM row on Oct 30, Nov 20 and Dec 2 at 1440px and 390px. Published to
 `main` on 2026-10-30 in the commit that adds this note.
+
+The 2026-10-30 pre-deadline sweep rechecked, against official pages, the 13
+editions whose confirmed submission routes fall before December 8 and whose
+records were last checked October 5-8; a second agent re-fetched each source
+to try to refute every change. Changes: EuroGP 2027 papers extended Nov 1 ->
+Nov 16 (EvoStar-wide); FG 2027 workshop/tutorial proposals extended Oct 20 ->
+Nov 14; L4DC 2027's paper cutoff stored at the OpenReview portal's 23:59 AoE
+instead of a day-only time (the page had closed it about 13 hours early);
+WWW 2027 gains a Dec 17 AoE resource-paper route; ECIR 2027's closed
+full-paper route now carries the stated 11:59pm AoE; Dynamics Days US early
+registration moved Dec 1 -> Dec 7; SIAM DS's minisymposium date gets a
+cutoff note (website Oct 26, submission system Oct 28); MIDL's gate label is
+corrected. Live portals were recorded for AAMAS Blue Sky, CVPR, L4DC, MIDL,
+NICE, SIAM DS, Dynamics Days US and WWW short papers. PAKDD, RSS, AAMAS,
+CVPR, NICE and MIDL dates are unchanged. Tracks without a supported
+submission type (demos, doctoral consortia, Industry Days, competitions) are
+mentioned in notes, not added as schedule events. The owner-approved ECC 2027
+(European Control Conference, Brussels, Jul 13-16, 2027; papers extended to
+Nov 9; IEEE Xplore; not in ICORE2026 or CCF) was added with an `rl-control`
+identity, a Brussels alias and annual cadence; its scope profile is queued.
+Checks: validation of 199 records, the Python and 32 Node tests, release and
+identity checks (662 -> 671 UIDs, 198 -> 199 edition IDs, none removed), the
+full browser suite at 1440/1051/1050/768/390/320px (125 opportunities at its
+frozen date; the map gains ECC and Brussels) and a row check of every changed
+edition at 2026-10-30. Published to `main` on 2026-10-30 in the commit that
+adds this note. Not done: the workbook row for ECC (see Review mirror).

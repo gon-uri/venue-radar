@@ -104,9 +104,9 @@ below are history, not instructions to reimplement old designs.
 - Completed: sourced profile schema, primary/additional matching in search,
   filters and topic feeds, scope evidence in calendar descriptions, a separate
   workbook sheet, and a missing/stale/prior-edition review queue.
-- Current coverage: 80 of 130 series, including all 42 AI Deadlines additions
+- Current coverage: 80 of 131 series, including all 42 AI Deadlines additions
   and all 16 complex-systems/neuroscience additions.
-- Remaining work: curate the 50 missing profiles from official sources and
+- Remaining work: curate the 51 missing profiles from official sources and
   review existing profiles about monthly. Prior-edition evidence stays dated.
 - Guidance: [conference_scopes.md](conference_scopes.md).
 
@@ -233,7 +233,7 @@ below are history, not instructions to reimplement old designs.
   [short](https://www.wsdm-conference.org/2027/cfsp.html) paper calls),
   although its WSDM Day, doctoral, Industry Day and workshop tracks differ.
 - Before shipping: fill in every series with an open or upcoming submission
-  deadline (118 on 2026-10-30), starting with those without evidence; the
+  deadline (119 on 2026-10-30), starting with those without evidence; the
   site collects no visit data to rank them by. When the filter shows only
   Yes, say how many conferences are hidden as not checked yet. Once
   released, the filter's query-string key must keep its name, because shared
@@ -255,7 +255,12 @@ below are history, not instructions to reimplement old designs.
 - Priority: High
 - Dependencies: `scripts/build_ics.py`, `scripts/validate.py`, data schema.
 - Estimated complexity: Medium
-- Completion status: Completed for current scope
+- Completion status: Completed for current scope. Open issue (2026-10-30):
+  `calendar-all.ics` is 1.06 MB, above the roughly 1 MB limit that community
+  reports give for Google Calendar URL subscriptions (not an official figure),
+  largely because each event repeats the edition's notes and scope. Leaner
+  titles ("(est.)" first) and descriptions are the next planned step and need
+  an ADR refining ADR-028; UIDs stay unchanged.
 
 ### Regression Testing Improvements
 

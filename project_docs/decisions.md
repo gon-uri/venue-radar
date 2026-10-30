@@ -817,3 +817,30 @@ explicit refinements take precedence. Current rules live in
 - Consequences: report-only tooling (ADR-015 unchanged); no data, page, feed or
   UID change. The weekly Review queue issue gains a section. The thresholds are
   constants in `maintenance_report.py`; changing them needs no data migration.
+
+## ADR-043: Portal Evidence And Untracked Tracks In Rechecks
+
+- Date: 2026-10-30
+- Context: The 2026-10-30 pre-deadline sweep (13 editions, plus ECC 2027)
+  found portals whose configuration states more than their web pages, and many
+  tracks without a supported submission type (demos, doctoral consortia,
+  Industry Days, competitions, travel awards). `calendar-all.ics` is already
+  above the roughly 1 MB size reported for Google Calendar URL feeds.
+- Decision: (1) A portal's own configuration is official evidence. An
+  OpenReview submission invitation's `duedate` that matches the page's day
+  replaces a day-only cutoff (L4DC 2027: 23:59 AoE instead of 23:59 in
+  Stockholm), and a live, unexpired invitation open to any signed-in user
+  supports `open_observed_on`. A conference-wide EasyChair "open" message
+  counts only for a call with one new-paper track (NICE yes, ECIR no). (2) In
+  rechecks, existing schedule events are corrected (FG proposals, Dynamics
+  Days US registration), new routes with a supported type are added (WWW
+  resource papers), and tracks without one are mentioned in notes rather than
+  added as events. (3) A touched day-only cutoff is stored at 23:59 AoE
+  (ADR-040), even if it previously used a host-local proxy offset; an
+  explicit organizer zone (for example Pacific Time) is kept. A general
+  workshop-paper date whose meaning is unclear and whose workshops are not yet
+  listed stays in notes (WWW 2027's "Accepted Workshop Paper Submission").
+- Consequences: Notes name the portal evidence. Adding an untracked track as a
+  schedule event later remains possible and needs no migration. A demo or
+  doctoral route that is archival and open to all authors (AAMAS 2027 demos)
+  stays visible only in notes until the owner decides how such tracks appear.

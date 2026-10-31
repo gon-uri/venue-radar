@@ -16,8 +16,8 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
 | Detailed scopes | 80 reviewed profiles; 51 series still lack a reviewed profile. |
 | Evidence maps | 66 direct ICORE 2026 ranks, 55 direct CCF 2026 ranks, 34 historical rate/qualitative-band entries. |
-| Public feeds | 377 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 199 edition and 131 series feeds. `calendar-all.ics` is 1.06 MB (see the roadmap's feed note). |
-| Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML through 2026-10-29. ECC (added 2026-10-30) has no row yet: the sync helper's optional `@oai/artifact-tool` cannot be installed from public npm. The 2026-10-30 rechecks changed no mirrored column. |
+| Public feeds | 377 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 199 edition and 131 series feeds. `calendar-all.ics` is 735 KB after ADR-044 (was 1.06 MB); a test keeps every feed below 1 MB. |
+| Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML through 2026-10-29. ECC (added 2026-10-30) has no row yet: the sync helper's optional `@oai/artifact-tool` cannot be installed from public npm. On 2026-10-31 the owner said they no longer use the workbook; retiring it is an open decision. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
 Counts are a dated catalog snapshot. Recompute them from canonical files after
@@ -289,3 +289,28 @@ full browser suite at 1440/1051/1050/768/390/320px (125 opportunities at its
 frozen date; the map gains ECC and Brussels) and a row check of every changed
 edition at 2026-10-30. Published to `main` on 2026-10-30 in the commit that
 adds this note. Not done: the workbook row for ECC (see Review mirror).
+
+On 2026-10-31 the owner reported that a Google Calendar subscription to the
+1.06 MB `calendar-all.ics` works. ADR-044 then made the feeds lean anyway, to
+restore room under the reported ~1 MB limit: event titles read
+`<short title> (est.) · <label>` (no topic prefix, one estimate marker, no
+date-only suffix); descriptions keep the full title, meeting dates for
+deadlines, status, date-only and cutoff notes, the submission format (which
+carries non-archival caveats), the source (labelled "Previous edition's page"
+when it is one), a link to the edition row and the full Notes; the four
+display topics move to CATEGORIES; scope prose and evidence leave the feeds
+and are not displayed on the site either (they stay in YAML for search and
+matching). `calendar-all.ics` is 735,061 bytes (was 1,064,162), and a test
+keeps every feed below 1 MB. On the page, exact countdowns show minutes on the
+last day (`5h 20m`, `43 min`), estimates use one coarse unit (`~3 weeks`,
+`~5 months`; the status guide example matches), and the page re-renders on
+each minute and when a tab becomes visible again. An independent review found
+13 issues before publication (lost non-archival caveats, prior-edition pages
+called official, docs claiming the site shows scope profiles, weak tests and
+others); all were fixed. Checks: 199
+records validated, 169 Python and 33 Node tests, identity check (671 -> 671
+UIDs, 199 -> 199 edition IDs), the full browser suite at
+1440/1051/1050/768/390/320px (125 opportunities at its frozen date), and a
+browser check of the new countdown states, the visibility refresh and
+countdown widths at 1440/390/320px. Published to `main` on 2026-10-31 in the
+commit that adds this note. Not yet checked in real calendar apps.

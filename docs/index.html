@@ -1875,7 +1875,7 @@ Subscribe to calendar</summary><div class="calendar-panel"><p class="calendar-pa
             <div class="status-guide-live"><dt><span class="submission-status status-estimated">Submission opportunity (estimated)</span></dt><dd>Projected from the previous edition or not yet confirmed by the organizers.</dd></div>
             <div class="status-guide-live"><dt><span class="submission-status status-closed">Closed to new submissions</span></dt><dd>Every route for new work has passed (production steps may remain).</dd></div>
             <div class="status-guide-live"><dt><span class="submission-status status-unknown">Deadline unannounced</span></dt><dd>The meeting is known but no call is published yet.</dd></div>
-            <div class="status-guide-live"><dt>~4d 14h · (est.)</dt><dd>Estimated countdown or date.</dd></div>
+            <div class="status-guide-live"><dt>~3 weeks · (est.)</dt><dd>Estimated countdown or date.</dd></div>
             <div><dt>(time est.)</dt><dd>Official day; the cutoff hour is not announced.</dd></div>
             <div><dt>*</dt><dd>Official sources disagree on the cutoff; the earliest stated time is shown, with the note below it.</dd></div>
           </dl>
@@ -2678,30 +2678,51 @@ function matchesSearch(haystack, tokens) {
   return tokens.every((token) => haystack.includes(token.length <= 2 ? ` ${token}` : token));
 }
 
-function formatRemaining(deadline, now) {
-  const diff = deadline - now;
-  const hour = 60 * 60 * 1000;
-  const day = 24 * hour;
-  const days = Math.floor(diff / day);
-  const hours = Math.floor((diff % day) / hour);
+const MINUTE_MS = 60 * 1000;
+const HOUR_MS = 60 * MINUTE_MS;
+const DAY_MS = 24 * HOUR_MS;
+const plural = (count, unit) => `${count} ${unit}${count === 1 ? "" : "s"}`;
 
-  if (days > 0) {
-    return `${days}d ${hours}h`;
-  }
-  if (hours > 0) {
-    return `${hours}h`;
-  }
-  return "<1h";
+// Estimated dates are proxies, so they get one coarse unit instead of a
+// spuriously exact "616d 14h" (ADR-044).
+function coarseRemaining(diff) {
+  const days = Math.floor(diff / DAY_MS);
+  if (days < 1) return plural(Math.max(1, Math.round(diff / HOUR_MS)), "hour");
+  if (days < 14) return plural(days, "day");
+  if (days < 56) return plural(Math.round(days / 7), "week");
+  if (days < 730) return plural(Math.round(days / 30.44), "month");
+  return plural(Math.round(days / 365.25), "year");
 }
 
-// Screen-reader text for a countdown, e.g. "4 days 14 hours left, estimated".
+// Exact countdowns: "2d 5h", then "5h 20m" on the last day, "43 min" in the
+// last hour. Estimated deadlines use coarseRemaining.
+function formatRemaining(deadline, now, estimated = false) {
+  const diff = Math.max(0, deadline - now);
+  if (estimated) return coarseRemaining(diff);
+  const days = Math.floor(diff / DAY_MS);
+  const hours = Math.floor((diff % DAY_MS) / HOUR_MS);
+  const minutes = Math.floor((diff % HOUR_MS) / MINUTE_MS);
+  if (days > 0) return `${days}d ${hours}h`;
+  if (hours > 0) return `${hours}h ${minutes}m`;
+  return minutes > 0 ? `${minutes} min` : "<1 min";
+}
+
+// The visible countdown; "~" marks an estimate or an unannounced cutoff hour.
+function countdownText(deadline, now, estimated = false, approximateTime = false) {
+  return `${estimated || approximateTime ? "~" : ""}${formatRemaining(deadline, now, estimated)}`;
+}
+
+// Screen-reader text for a countdown, e.g. "4 days 14 hours left" or
+// "about 3 weeks left, estimated".
 function describeRemaining(deadline, now, estimated = false, approximateTime = false) {
-  const hour = 60 * 60 * 1000;
-  const days = Math.floor((deadline - now) / (24 * hour));
-  const hours = Math.floor(((deadline - now) % (24 * hour)) / hour);
-  const plural = (count, unit) => `${count} ${unit}${count === 1 ? "" : "s"}`;
-  const amount = days > 0 ? `${plural(days, "day")} ${plural(hours, "hour")}`
-    : hours > 0 ? plural(hours, "hour") : "less than an hour";
+  const diff = Math.max(0, deadline - now);
+  const days = Math.floor(diff / DAY_MS);
+  const hours = Math.floor((diff % DAY_MS) / HOUR_MS);
+  const minutes = Math.floor((diff % HOUR_MS) / MINUTE_MS);
+  const amount = estimated ? coarseRemaining(diff)
+    : days > 0 ? `${plural(days, "day")} ${plural(hours, "hour")}`
+    : hours > 0 ? `${plural(hours, "hour")} ${plural(minutes, "minute")}`
+    : minutes > 0 ? plural(minutes, "minute") : "less than a minute";
   return `${estimated ? "about " : ""}${amount} left${approximateTime ? ", exact hour unannounced" : ""}${estimated ? ", estimated" : ""}`;
 }
 
@@ -3031,7 +3052,7 @@ function renderDeadlineGroups(now) {
     group.classList.toggle("is-expanded", expanded);
     const timeLeft = group.querySelector("[data-time-left]");
     const remaining = state.kind === "closed" ? "Closed" : state.action
-      ? `${state.action.estimated || state.action.approximate_time ? "~" : ""}${formatRemaining(state.action.time, now)}`
+      ? countdownText(state.action.time, now, state.action.estimated, state.action.approximate_time)
       : "\u2014";
     if (timeLeft.textContent !== remaining) timeLeft.textContent = remaining;
     const spoken = state.kind === "closed" ? "Closed to new submissions" : state.action
@@ -3439,7 +3460,13 @@ readUrlState();
 renderStars();
 applyFilters();
 followHash();
-setInterval(applyFilters, 60 * 1000);
+// Re-render on each wall-clock minute, so "43 min" never lags, and as soon as
+// a tab is shown again (background tabs throttle or suspend timers).
+(function tickEachMinute() {
+  setTimeout(() => { try { applyFilters(); } finally { tickEachMinute(); } }, MINUTE_MS - (Date.now() % MINUTE_MS) + 50);
+})();
+document.addEventListener("visibilitychange", () => { if (!document.hidden) applyFilters(); });
+window.addEventListener("pageshow", (event) => { if (event.persisted) applyFilters(); });
 const commentObserver = new IntersectionObserver((entries) => {
   if (entries.some((entry) => entry.isIntersecting)) { loadCommunityComments(); commentObserver.disconnect(); }
 }, {rootMargin: "150px"});

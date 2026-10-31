@@ -92,7 +92,10 @@ class CatalogMetadataTests(unittest.TestCase):
         )
         self.assertTrue(any(line.startswith('DTSTART;VALUE=DATE:') for line in all_day))
         self.assertFalse(any(line.startswith('DTSTART:') for line in all_day))
-        self.assertTrue(any('cutoff time unannounced' in line for line in all_day))
+        text = '\r\n'.join(all_day).replace('\r\n ', '')
+        self.assertIn('Cutoff time unannounced: official deadline day only', text)
+        self.assertNotIn('unannounced', next(line for line in text.split('\r\n') if line.startswith('SUMMARY:')),
+                         'the all-day event carries the caveat; the title stays lean (ADR-044)')
         sample = deepcopy(item)
         sample['deadlines'] = [deadline]
         milestone = next(m for m in _milestones(sample) if m['type'] == deadline['type'])

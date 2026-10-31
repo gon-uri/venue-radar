@@ -15,7 +15,7 @@ export async function checkSubmissionBehavior(page) {
   const checkCountdown = async (row, at) => {
     assert.equal(await summary(row).locator('time').getAttribute('datetime'), at);
     assert.equal(await timeLeft(row).innerText(), await page.evaluate(at =>
-      formatRemaining(Date.parse(at), Date.now()), at));
+      countdownText(Date.parse(at), Date.now()), at));
   };
 
   await setClock('2026-10-07T12:00:00Z');
@@ -139,7 +139,7 @@ export async function checkSubmissionBehavior(page) {
       const state = stateByRow.get(row);
       const summary = [...row.querySelectorAll('[data-deadline-row]')].find(detail => !detail.hidden);
       const expectedTime = state.kind === 'closed' ? 'Closed' : state.action
-        ? `${state.action.estimated || state.action.approximate_time ? '~' : ''}${formatRemaining(state.action.time, Date.now())}`
+        ? countdownText(state.action.time, Date.now(), state.action.estimated, state.action.approximate_time)
         : '\u2014';
       return summary?.dataset.deadlineType === state.milestone.type &&
         Date.parse(summary.querySelector('time').dateTime) === state.milestone.time &&

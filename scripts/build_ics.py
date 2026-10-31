@@ -77,9 +77,38 @@ def _conference_sort_datetime(conference: dict[str, Any]) -> datetime:
     )
 
 
-def _topic_prefix(conference: dict[str, Any]) -> str:
-    topics = conference.get("topics", [])[:2]
-    return "".join(f"[{topic}]" for topic in topics)
+# Lean events (ADR-044): Google Calendar is reported to reject URL feeds above
+# about 1 MB, so every feed must stay below this guard with room to grow.
+FEED_SIZE_LIMIT = 1_000_000
+# Same rule as the site's "(est.)" markers for meeting dates.
+ESTIMATED_MEETING = frozenset({"estimated", "not_yet_announced", "stale"})
+
+
+def _older_year_link(url: str, year: int) -> bool:
+    """True when a URL names only earlier years than the edition (a prior-edition page)."""
+    years = [int(value) for value in re.findall(r"(?<!\d)(20\d{2})(?!\d)", url)]
+    return bool(years) and max(years) < year
+
+
+def _deadline_estimated(conference: dict[str, Any], deadline: dict[str, Any]) -> bool:
+    return deadline.get("confidence", conference["confidence"]) != "confirmed"
+
+
+def _summary(conference: dict[str, Any], label: str, estimated: bool) -> str:
+    """'<short title> (est.) · <label>': the estimate marker stays visible even
+    when a calendar app truncates the title, and is never repeated."""
+    if estimated:
+        label = re.sub(r"^Estimated\s+", "", label)
+        label = label[:1].upper() + label[1:]
+    return f"{conference['short_title']}{' (est.)' if estimated else ''} · {label}"
+
+
+def _categories(conference: dict[str, Any]) -> list[str]:
+    topics = conference.get("topics", [])
+    if not topics:
+        return []
+    # Commas separate CATEGORIES values, so escape each topic on its own.
+    return _fold_line("CATEGORIES:" + ",".join(_escape_text(topic) for topic in topics))
 
 
 def _conference_source_url(conference: dict[str, Any]) -> str:
@@ -95,27 +124,33 @@ def _deadline_source_url(
     return deadline.get("source_url") or _conference_source_url(conference)
 
 
-def _description(conference: dict[str, Any], source_url: str, confidence: str) -> str:
-    lines = [
-        f"Conference title: {conference['title']}",
-        f"Website: {conference['website']}",
-        f"Source URL: {source_url}",
-        f"Location: {conference.get('location', 'TBD')}",
-        f"Topics: {', '.join(conference.get('topics', []))}",
-        f"Size: {conference.get('size', '')}",
-        f"Submission type: {conference.get('submission_type', '')}",
-        f"Confidence: {confidence}",
-        f"Last checked date: {conference['last_checked']}",
-        f"Notes: {conference.get('notes') or ''}",
-    ]
-    scope = conference.get("scope")
-    if scope:
-        lines.extend([
-            f"Scope: {scope['scope_summary']}",
-            f"Additional topics: {', '.join(topic for topic in all_topics(conference) if topic not in conference.get('topics', []))}",
-            f"Scope sources ({scope['source_year']}): {', '.join(scope['scope_source_urls'])}",
-            f"Scope last checked: {scope['scope_last_checked']}",
-        ])
+def _description(
+    conference: dict[str, Any], source_url: str, estimated: bool,
+    *, meeting: bool = False, details: Iterable[str] = (),
+) -> str:
+    """Event-specific facts first, then the submission format and the edition's
+    Notes, which carry publication and eligibility caveats (for example
+    non-archival routes). Topics travel in CATEGORIES; scope profiles stay in
+    YAML, where they drive search and topic matching (ADR-044)."""
+    lines = [conference["title"]]
+    if meeting:
+        marker = " (est.)" if conference["confidence"] in ESTIMATED_MEETING else ""
+        lines.append(
+            f"Meeting: {conference['conference_start']} to {conference['conference_end']}{marker}"
+            f", {conference.get('location') or 'location to be announced'}"
+        )
+    lines.append(
+        f"Status: estimated, checked {conference['last_checked']}. Check the organizer's call before relying on it."
+        if estimated else f"Status: confirmed, checked {conference['last_checked']}"
+    )
+    lines.extend(details)
+    if meeting and conference.get("submission_type"):
+        lines.append(f"Format: {conference['submission_type']}")
+    # Same rule as the site's "Previous call" links (ADR-040).
+    source_label = "Previous edition's page" if _older_year_link(source_url, conference["year"]) else "Official source"
+    lines.extend([f"{source_label}: {source_url}", f"Venue Radar: {SITE_URL}#{conference['id']}"])
+    if conference.get("notes"):
+        lines.append(f"Notes: {conference['notes']}")
     return "\n".join(lines)
 
 
@@ -123,11 +158,7 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
     start = parse_datetime(deadline["datetime"])
     end = start + timedelta(hours=1)
     deadline_key = stable_slug(deadline["type"])
-    confidence = deadline.get("confidence", conference["confidence"])
-    summary = (
-        f"{_topic_prefix(conference)} {conference['short_title']} - {deadline['label']}"
-        f'{" (estimated)" if confidence != "confirmed" else ""}'
-    )
+    estimated = _deadline_estimated(conference, deadline)
     source_url = _deadline_source_url(conference, deadline)
     date_only = deadline.get("time_precision") == "date"
     timing = (
@@ -135,12 +166,17 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
          f"DTEND;VALUE=DATE:{(start + timedelta(days=1)).strftime('%Y%m%d')}"]
         if date_only else [f"DTSTART:{_format_datetime(start)}", f"DTEND:{_format_datetime(end)}"]
     )
-    description = _description(conference, source_url, confidence)
-    if deadline.get("cutoff_note"):
-        description += f"\nCutoff note: {deadline['cutoff_note']}"
+    details = []
     if date_only:
-        summary += " (cutoff time unannounced)"
-        description += "\nOfficial deadline day; exact cutoff hour/timezone is unannounced. Verify the organizer's submission portal."
+        # The all-day event already shows that no hour is stored.
+        details.append(
+            "Estimated day only; no cutoff hour stored. Check the organizer's call for the real date and time."
+            if estimated else
+            "Cutoff time unannounced: official deadline day only. Verify the organizer's submission portal."
+        )
+    if deadline.get("cutoff_note"):
+        details.append(f"Cutoff note: {deadline['cutoff_note']}")
+    description = _description(conference, source_url, estimated, meeting=True, details=details)
 
     return [
         "BEGIN:VEVENT",
@@ -149,8 +185,9 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
         ),
         f"DTSTAMP:{DTSTAMP}",
         *timing,
-        *_property("SUMMARY", summary),
+        *_property("SUMMARY", _summary(conference, deadline["label"], estimated)),
         *_property("DESCRIPTION", description),
+        *_categories(conference),
         *_property("URL", source_url),
         "END:VEVENT",
     ]
@@ -159,10 +196,7 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
 def _conference_event(conference: dict[str, Any]) -> list[str]:
     start = parse_date(conference["conference_start"])
     end = parse_date(conference["conference_end"]) + timedelta(days=1)
-    summary = (
-        f"{_topic_prefix(conference)} {conference['short_title']} - Conference"
-        f'{" (estimated)" if conference["confidence"] != "confirmed" else ""}'
-    )
+    estimated = conference["confidence"] in ESTIMATED_MEETING
     source_url = _conference_source_url(conference)
 
     lines = [
@@ -171,8 +205,9 @@ def _conference_event(conference: dict[str, Any]) -> list[str]:
         f"DTSTAMP:{DTSTAMP}",
         f"DTSTART;VALUE=DATE:{start.strftime('%Y%m%d')}",
         f"DTEND;VALUE=DATE:{end.strftime('%Y%m%d')}",
-        *_property("SUMMARY", summary),
-        *_property("DESCRIPTION", _description(conference, source_url, conference["confidence"])),
+        *_property("SUMMARY", _summary(conference, "Conference", estimated)),
+        *_property("DESCRIPTION", _description(conference, source_url, estimated)),
+        *_categories(conference),
         *_property("URL", source_url),
     ]
     if conference.get("location"):

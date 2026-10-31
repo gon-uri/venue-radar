@@ -104,7 +104,7 @@ class DynamicsNeuroscienceAdditionTests(unittest.TestCase):
         lac = self.records['dynamics-days-lac-2026']
         event = _deadline_event(lac, lac['deadlines'][0])
         self.assertIn('DTSTART;VALUE=DATE:20261010', event)
-        self.assertTrue(any('cutoff time unannounced' in line for line in event))
+        self.assertIn('Cutoff time unannounced', '\r\n'.join(event).replace('\r\n ', ''))
         cities = load_mapping(CITIES_PATH)
         mapped = {e['id']: e['city'] for e in map_events(list(self.records.values()), cities)}
         self.assertEqual(mapped['complenet-2027'], 'rochester-new-york')

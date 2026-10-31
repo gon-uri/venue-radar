@@ -239,7 +239,7 @@ function renderDeadlineGroups(now) {
     group.classList.toggle("is-expanded", expanded);
     const timeLeft = group.querySelector("[data-time-left]");
     const remaining = state.kind === "closed" ? "Closed" : state.action
-      ? `${state.action.estimated || state.action.approximate_time ? "~" : ""}${formatRemaining(state.action.time, now)}`
+      ? countdownText(state.action.time, now, state.action.estimated, state.action.approximate_time)
       : "\u2014";
     if (timeLeft.textContent !== remaining) timeLeft.textContent = remaining;
     const spoken = state.kind === "closed" ? "Closed to new submissions" : state.action
@@ -647,7 +647,13 @@ readUrlState();
 renderStars();
 applyFilters();
 followHash();
-setInterval(applyFilters, 60 * 1000);
+// Re-render on each wall-clock minute, so "43 min" never lags, and as soon as
+// a tab is shown again (background tabs throttle or suspend timers).
+(function tickEachMinute() {
+  setTimeout(() => { try { applyFilters(); } finally { tickEachMinute(); } }, MINUTE_MS - (Date.now() % MINUTE_MS) + 50);
+})();
+document.addEventListener("visibilitychange", () => { if (!document.hidden) applyFilters(); });
+window.addEventListener("pageshow", (event) => { if (event.persisted) applyFilters(); });
 const commentObserver = new IntersectionObserver((entries) => {
   if (entries.some((entry) => entry.isIntersecting)) { loadCommunityComments(); commentObserver.disconnect(); }
 }, {rootMargin: "150px"});

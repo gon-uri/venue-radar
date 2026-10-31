@@ -96,8 +96,10 @@ coverage without blanket application-domain labels.
   Size/rank/rate filters and opportunity status are independent.
 - Both tabs and the confirmed-city map use the same expanded matching. Scope
   metadata does not make an estimated meeting eligible for the map.
-- Topic ICS feeds use the same union. Event descriptions include the curated
-  summary, additional topics, evidence year/URLs, and scope review date.
+- Topic ICS feeds use the same union. Since ADR-044, event descriptions no
+  longer carry the scope summary, additional topics or scope evidence. The
+  site does not display profiles either: they live in this YAML file, where
+  they drive search and topic matching.
   Existing feed names, event UIDs, dates, and deadline gates remain unchanged.
 - Without a reviewed profile, a conference falls back to its main topics and
   existing search data. Missing profiles are legal but visible in maintenance.

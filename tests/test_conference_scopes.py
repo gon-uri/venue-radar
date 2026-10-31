@@ -7,7 +7,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 
-from build_ics import _conference_event, _description, _topic_groups
+from build_ics import _conference_event, _description, _escape_text, _topic_groups
 from build_site import _conference_rows, _deadline_group_rows, _search_text, _topic_labels
 from conference_scopes import all_topics, load_scopes, scope_review_queue, validate_scopes, with_scopes
 from export_catalog import catalog_payload
@@ -94,11 +94,15 @@ class ConferenceScopeTests(unittest.TestCase):
         plain = next(item for item in self.raw if item['series'] == 'AutoML')
         uid = lambda item: next(line for line in _conference_event(item) if line.startswith('UID:'))
         self.assertEqual(uid(plain), uid(self.automl))
-        description = _description(self.automl, 'https://example.org', 'estimated')
-        self.assertIn('Scope: ', description)
-        self.assertIn('Scope sources (2026)', description)
-        self.assertIn('Scope last checked: 2026-10-07', description)
-        self.assertIn('Additional topics: Probabilistic', description)
+        # ADR-044: profiles widen topic-feed matching, but their prose and
+        # evidence stay on the site rather than in every calendar event.
+        description = _description(self.automl, 'https://example.org', True)
+        self.assertNotIn('Scope', description)
+        self.assertNotIn('Additional topics', description)
+        unfolded = '\r\n'.join(_conference_event(self.automl)).replace('\r\n ', '').split('\r\n')
+        categories = next(line for line in unfolded if line.startswith('CATEGORIES:'))
+        self.assertEqual(categories, 'CATEGORIES:' + ','.join(_escape_text(t) for t in self.automl['topics']),
+                         'CATEGORIES carry the four display topics, not the scope union')
 
     def test_maintenance_reports_missing_stale_and_prior_edition_profiles(self):
         profile = deepcopy(self.profiles['AutoML'])

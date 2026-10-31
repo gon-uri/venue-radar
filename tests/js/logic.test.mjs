@@ -8,8 +8,8 @@ import vm from 'node:vm';
 
 const source = readFileSync(new URL('../../assets/logic.js', import.meta.url), 'utf8');
 const context = vm.createContext({Intl, Date});
-vm.runInContext(`${source}\nthis.api = {normalizeSearch, matchesSearch, formatRemaining, openLabel, describeInstant, computeSubmissionState};`, context);
-const {normalizeSearch, matchesSearch, formatRemaining, openLabel, describeInstant, computeSubmissionState} = context.api;
+vm.runInContext(`${source}\nthis.api = {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState};`, context);
+const {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState} = context.api;
 const TYPES = new Set(['abstract', 'discussion_paper', 'extended_abstract', 'full_paper', 'journal_paper',
   'late_abstract', 'poster', 'regular_paper', 'resource_paper', 'short_paper', 'special_session_paper', 'workshop_paper']);
 
@@ -28,11 +28,35 @@ test('every word must match; short words match word starts only', () => {
   assert(matchesSearch(' neurips 2027 ', ['ips']), 'longer tokens keep infix matches');
 });
 
-test('countdowns use days and hours', () => {
+test('exact countdowns sharpen to minutes on the last day', () => {
   const now = Date.parse('2026-10-01T00:00:00Z');
   assert.equal(formatRemaining(now + (2 * 24 + 5) * 3600e3, now), '2d 5h');
-  assert.equal(formatRemaining(now + 3 * 3600e3, now), '3h');
-  assert.equal(formatRemaining(now + 10 * 60e3, now), '<1h');
+  assert.equal(formatRemaining(now + (5 * 60 + 20) * 60e3 + 30e3, now), '5h 20m');
+  assert.equal(formatRemaining(now + 3 * 3600e3, now), '3h 0m');
+  assert.equal(formatRemaining(now + 43 * 60e3 + 59e3, now), '43 min');
+  assert.equal(formatRemaining(now + 30e3, now), '<1 min');
+  assert.equal(formatRemaining(now - 60e3, now), '<1 min', 'never negative');
+  assert.equal(describeRemaining(now + (5 * 60 + 1) * 60e3, now), '5 hours 1 minute left');
+  assert.equal(describeRemaining(now + 43 * 60e3, now), '43 minutes left');
+  assert.equal(describeRemaining(now + 20e3, now), 'less than a minute left');
+});
+
+test('estimated countdowns use one coarse unit', () => {
+  const now = Date.parse('2026-10-01T00:00:00Z');
+  const days = (count) => now + count * 24 * 3600e3 + 5 * 3600e3;
+  assert.equal(countdownText(days(5), now, true), '~5 days');
+  assert.equal(countdownText(days(1), now, true), '~1 day');
+  assert.equal(countdownText(days(21), now, true), '~3 weeks');
+  assert.equal(countdownText(days(150), now, true), '~5 months');
+  assert.equal(countdownText(days(616), now, true), '~20 months');
+  assert.equal(countdownText(days(800), now, true), '~2 years');
+  assert.equal(countdownText(now + 3 * 3600e3, now, true), '~3 hours');
+  assert.equal(countdownText(now + 30 * 60e3, now, true), '~1 hour', 'an estimate never claims minutes');
+  assert.equal(describeRemaining(now + 30 * 60e3, now, true), 'about 1 hour left, estimated');
+  assert.equal(describeRemaining(days(21), now, true), 'about 3 weeks left, estimated');
+  // A confirmed day with an unannounced hour keeps exact units behind the tilde.
+  assert.equal(countdownText(days(4), now, false, true), '~4d 5h');
+  assert.equal(countdownText(days(4), now), '4d 5h');
 });
 
 test('open labels follow the contribution type', () => {

@@ -11,7 +11,7 @@ from typing import Any
 from urllib.parse import urlencode
 
 import yaml
-from build_ics import SITE_URL, series_display_name, series_groups, series_slug
+from build_ics import SITE_URL, _older_year_link, series_display_name, series_groups, series_slug
 from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata, validate_conference_families
 from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
@@ -363,12 +363,6 @@ def _star_button(conference: dict[str, Any]) -> str:
         f'aria-label="Star {_attr(conference["series"])}" title="Star this series in this browser">'
         f'{_icon("star")}</button>'
     )
-
-
-def _older_year_link(url: str, year: int) -> bool:
-    """True when a URL names only earlier years than the edition (a prior-edition page)."""
-    years = [int(value) for value in re.findall(r"(?<!\d)(20\d{2})(?!\d)", url)]
-    return bool(years) and max(years) < year
 
 
 def _evidence_line(conference: dict[str, Any]) -> str:
@@ -1005,7 +999,7 @@ def build_site(
             <div class="status-guide-live"><dt><span class="submission-status status-estimated">Submission opportunity (estimated)</span></dt><dd>Projected from the previous edition or not yet confirmed by the organizers.</dd></div>
             <div class="status-guide-live"><dt><span class="submission-status status-closed">Closed to new submissions</span></dt><dd>Every route for new work has passed (production steps may remain).</dd></div>
             <div class="status-guide-live"><dt><span class="submission-status status-unknown">Deadline unannounced</span></dt><dd>The meeting is known but no call is published yet.</dd></div>
-            <div class="status-guide-live"><dt>~4d 14h · (est.)</dt><dd>Estimated countdown or date.</dd></div>
+            <div class="status-guide-live"><dt>~3 weeks · (est.)</dt><dd>Estimated countdown or date.</dd></div>
             <div><dt>(time est.)</dt><dd>Official day; the cutoff hour is not announced.</dd></div>
             <div><dt>*</dt><dd>Official sources disagree on the cutoff; the earliest stated time is shown, with the note below it.</dd></div>
           </dl>

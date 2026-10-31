@@ -66,7 +66,7 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 | `scripts/conference_scopes.py` | Profile validation, deduplicated topic union and missing/stale/prior-edition scope queue. |
 | `scripts/build_ics.py` | Escaped/folded VCALENDAR output, stable ordering/UIDs, exact and all-day deadline events. |
 | `scripts/build_site.py` | HTML/table/milestone generation, head metadata, icon sprite, evidence lines and host-zone cutoff instants. Embeds the assets below and a small JSON config. |
-| `assets/logic.js` | Pure client logic: search normalization, countdown text, UTC/local clocks and submission-route state. Unit-tested in `tests/js/`. |
+| `assets/logic.js` | Pure client logic: search normalization, countdown text (exact units, minutes on the last day, coarse units for estimates; ADR-044), UTC/local clocks and submission-route state. Unit-tested in `tests/js/`. |
 | `assets/core.js` | Page wiring: filters, URL state and deep links, starring, row ordering, next-step/successor lines, empty states and the minute refresh. |
 | `assets/site.js` | Mobile cards, family/leaf matching, calendar menu, offline map and optional Giscus loading. |
 | `assets/base.css`, `assets/site.css` | Base tokens and layout, then brand/mobile/feature styling; embedded in that order. |
@@ -113,7 +113,10 @@ for the aggregate, topic and series feeds (ADR-039).
 All recorded milestones can enter ICS even if they are not fresh-submission
 opportunities. The website's opportunities checkbox does not rewrite downloads.
 Date-only cutoffs export all-day events. A `cutoff_note` is added to the event
-description. UTF-8 line folding and CRLF are
+description. Event titles are `<short title> (est.) · <label>`; descriptions
+carry status, submission format, the source, a link to the edition row and
+the Notes, and the four display topics travel as CATEGORIES. A test keeps every feed below
+1 MB (ADR-044). UTF-8 line folding and CRLF are
 intentional; do not trim folded content spaces as cosmetic whitespace fixes.
 
 Published edition IDs/deadline types determine UIDs. Keep the historical

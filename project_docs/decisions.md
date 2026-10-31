@@ -24,6 +24,7 @@ explicit refinements take precedence. Current rules live in
 | Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line |
 | Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
 | Conflicting cutoffs, date-only countdowns, deep links, starring, compact cards, code layout | ADR-040 (refines ADR-024, ADR-027's MLSys choice, ADR-035 and ADR-039) |
+| Calendar event titles, descriptions and feed size; countdown precision | ADR-044 (refines ADR-028's ICS clause and ADR-032's countdown text) |
 
 ## ADR-001: Keep the Project Static
 
@@ -844,3 +845,65 @@ explicit refinements take precedence. Current rules live in
   schedule event later remains possible and needs no migration. A demo or
   doctoral route that is archival and open to all authors (AAMAS 2027 demos)
   stays visible only in notes until the owner decides how such tracks appear.
+
+## ADR-044: Lean Calendar Events And Honest Countdowns
+
+- Date: 2026-10-31
+- Context: `calendar-all.ics` had grown to 1,064,162 bytes, above the roughly
+  1 MB that community reports give for Google Calendar URL feeds (the owner's
+  subscription still worked on 2026-10-31, so the margin, not the feed, was
+  gone). Three quarters of its bytes were descriptions: scope prose and
+  evidence (about 250 KB), topic lists, full titles, size and website lines.
+  Titles began with two bracketed topics, so "(estimated)" sat near character
+  100, where calendar apps truncate, and 21 titles read "Estimated ...
+  (estimated)". On the page, estimates showed spurious precision
+  ("~616d 14h"), the whole final hour read "<1h", and a background tab could
+  show a stale countdown until its next 60-second timer.
+- Decision: (1) Event titles are `<short title> (est.) · <label>`. "(est.)"
+  follows the site's rules: a deadline uses its own confidence, else the
+  edition's; a meeting is estimated only when its confidence is `estimated`,
+  `not_yet_announced` or `stale` (so `announced_no_deadlines` no longer reads
+  as estimated). An estimated label's leading "Estimated" is dropped. Date-only
+  cutoffs lose the "(cutoff time unannounced)" title suffix; the all-day event
+  and a description line carry it, worded as an estimated day when the
+  deadline is estimated. (2) Descriptions hold, in order: the full title; for
+  deadlines, the meeting dates and location; the status with the review day;
+  date-only and `cutoff_note` lines; for deadlines, `Format:` with the
+  edition's `submission_type` (often the only readable non-archival caveat,
+  e.g. LoG extended abstracts, SAB poster abstracts); the source, labelled
+  "Previous edition's page" instead of "Official source" when its URL names
+  only earlier years (ADR-040's "Previous call" rule); a Venue Radar link to
+  the edition row (`#<edition-id>`); and the edition's Notes in full. Scope
+  prose and evidence, additional topics, size and website leave the feeds.
+  The site does not display scope profiles either: they stay in
+  `data/conference_scopes.yml`, where they drive search and topic matching.
+  (3) The four display topics travel as `CATEGORIES`, each escaped on its own.
+  Topic feeds still match the scope union (ADR-028's matching is unchanged;
+  only its clause about ICS descriptions is refined). (4) A unit test keeps
+  every feed below 1,000,000 bytes (`FEED_SIZE_LIMIT`). (5) Countdowns: exact
+  deadlines show `2d 5h`, then `5h 20m` on the last day and `43 min`, then
+  `<1 min`, in the final hour. Estimated deadlines show one coarse unit
+  (`~1 hour` at least, `~5 days`, `~3 weeks`, `~5 months`, `~2 years`), and the
+  status guide's example became `~3 weeks · (est.)`. A confirmed day with an
+  unannounced hour keeps exact units behind `~`. Screen-reader text follows the
+  same units. The page re-renders on each wall-clock minute (rescheduling even
+  if a render throws) and at once when a tab becomes visible or returns from
+  the back/forward cache.
+- Identity: UIDs, dates, URLs, feed names and file paths are unchanged
+  (671 -> 671 UIDs). Subscribers see retitled events on their next refresh,
+  without duplicates.
+- Encoding: the title separator ` · ` (U+00B7) is the feeds' only non-ASCII
+  character. RFC 5545 makes UTF-8 the default, but GitHub Pages serves
+  `.ics` as `text/calendar` without a charset, so a client that guesses
+  Latin-1 would show `Â·`. If a real client does, switch the separator to an
+  ASCII one; the description already uses commas.
+- Alternatives considered: splitting or pruning the aggregate feed (changes
+  what subscribers receive); keeping topic prefixes (they push the estimate
+  marker out of view); dropping Notes or the format line (hides non-archival
+  and publication caveats); keeping "~Xd Yh" for estimates.
+- Consequences: `calendar-all.ics` is 735,061 bytes (-31%), about 265 KB of
+  room for catalog growth. Outlook may list CATEGORIES as uncoloured
+  categories; Google and Apple ignore them. Not yet checked in real calendar
+  apps: the owner's next calendar sitting should confirm the new titles, the
+  separator and CATEGORIES in Google, Apple and Outlook. Showing scope
+  profiles on the site is a separate, unscheduled idea.

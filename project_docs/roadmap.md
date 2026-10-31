@@ -102,7 +102,8 @@ below are history, not instructions to reimplement old designs.
 - Goal: Keep useful, curated series profiles beyond the four visible main
   topics, avoiding indiscriminate import of expansive CFP inventories.
 - Completed: sourced profile schema, primary/additional matching in search,
-  filters and topic feeds, scope evidence in calendar descriptions, a separate
+  filters and topic feeds, scope evidence in calendar descriptions (removed
+  from ICS by ADR-044; profiles are not displayed on the site), a separate
   workbook sheet, and a missing/stale/prior-edition review queue.
 - Current coverage: 80 of 131 series, including all 42 AI Deadlines additions
   and all 16 complex-systems/neuroscience additions.
@@ -255,12 +256,15 @@ below are history, not instructions to reimplement old designs.
 - Priority: High
 - Dependencies: `scripts/build_ics.py`, `scripts/validate.py`, data schema.
 - Estimated complexity: Medium
-- Completion status: Completed for current scope. Open issue (2026-10-30):
-  `calendar-all.ics` is 1.06 MB, above the roughly 1 MB limit that community
-  reports give for Google Calendar URL subscriptions (not an official figure),
-  largely because each event repeats the edition's notes and scope. Leaner
-  titles ("(est.)" first) and descriptions are the next planned step and need
-  an ADR refining ADR-028; UIDs stay unchanged.
+- Completion status: Completed for current scope. ADR-044 (2026-10-31)
+  shortened titles to `<short title> (est.) · <label>`, moved topics to
+  CATEGORIES, dropped scope and other row details from descriptions (keeping
+  the format line and Notes, and adding a link to the edition row) and added
+  a 1 MB size test. `calendar-all.ics` went from 1.06 MB (above the roughly
+  1 MB community reports give for Google Calendar URL feeds; not an official
+  figure) to 735 KB, with UIDs unchanged. The owner's Google subscription to the 1.06 MB
+  feed still worked on 2026-10-31. Real-app checks of the new titles are
+  pending.
 
 ### Regression Testing Improvements
 

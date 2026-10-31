@@ -14,15 +14,15 @@ UID:cns-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260319T115900Z
 DTEND:20260319T125900Z
-SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
- 26 - Abstract submission deadline
-DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
- bsite: https://www.cnsorg.org/cns-2026\nSource URL: https://www.cnsorg.or
- g/cns-2026-dates\nLocation: Halifax\, Canada\nTopics: Computational Neuro
- science\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubm
- ission type: Abstract-based\nConfidence: confirmed\nLast checked date: 20
- 26-08-31\nNotes: Official CNS* 2026 dates page confirms Halifax\, Jul 11-
- 15\, and the Mar 18 extended abstract deadline.
+SUMMARY:CNS* 2026 · Abstract submission deadline
+DESCRIPTION:Computational Neuroscience Annual Meeting\nMeeting: 2026-07-11 
+ to 2026-07-15\, Halifax\, Canada\nStatus: confirmed\, checked 2026-08-31\
+ nFormat: Abstract-based\nOfficial source: https://www.cnsorg.org/cns-2026
+ -dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#cns-2026\nNot
+ es: Official CNS* 2026 dates page confirms Halifax\, Jul 11-15\, and the 
+ Mar 18 extended abstract deadline.
+CATEGORIES:Computational Neuroscience,Time Series & Sequential Data,Machine
+  Learning
 URL:https://www.cnsorg.org/cns-2026-dates
 END:VEVENT
 BEGIN:VEVENT
@@ -30,15 +30,14 @@ UID:cns-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260711
 DTEND;VALUE=DATE:20260716
-SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
- 26 - Conference
-DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
- bsite: https://www.cnsorg.org/cns-2026\nSource URL: https://www.cnsorg.or
- g/cns-2026\nLocation: Halifax\, Canada\nTopics: Computational Neuroscienc
- e\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmission
-  type: Abstract-based\nConfidence: confirmed\nLast checked date: 2026-08-
- 31\nNotes: Official CNS* 2026 dates page confirms Halifax\, Jul 11-15\, a
- nd the Mar 18 extended abstract deadline.
+SUMMARY:CNS* 2026 · Conference
+DESCRIPTION:Computational Neuroscience Annual Meeting\nStatus: confirmed\, 
+ checked 2026-08-31\nOfficial source: https://www.cnsorg.org/cns-2026\nVen
+ ue Radar: https://gon-uri.github.io/venue-radar/#cns-2026\nNotes: Officia
+ l CNS* 2026 dates page confirms Halifax\, Jul 11-15\, and the Mar 18 exte
+ nded abstract deadline.
+CATEGORIES:Computational Neuroscience,Time Series & Sequential Data,Machine
+  Learning
 URL:https://www.cnsorg.org/cns-2026
 LOCATION:Halifax\, Canada
 END:VEVENT

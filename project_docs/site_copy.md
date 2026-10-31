@@ -86,8 +86,8 @@ Approved with ADR-040:
   complex systems and control, with live countdowns, rankings, acceptance rates
   and auto-updating calendars." The same text feeds the Open Graph and X tags.
 - Status guide (collapsed above the deadlines table): "What do the statuses
-  mean?" It defines each status pill, "~4d 14h · (est.)" ("Estimated countdown
-  or date."), "(time est.)" ("Official
+  mean?" It defines each status pill, "~3 weeks · (est.)" ("Estimated countdown
+  or date."; estimates use one coarse unit since ADR-044), "(time est.)" ("Official
   day; the cutoff hour is not announced.") and "*" ("Official sources disagree
   on the cutoff; the earliest stated time is shown, with the note below it.").
 - Evidence line: "Call for papers" or "Previous call", "Dates source" or

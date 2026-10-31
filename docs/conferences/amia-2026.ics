@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AMIA 2026 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:amia-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260311T035900Z
+DTEND:20260311T045900Z
+SUMMARY:AMIA 2026 · Podium abstracts (2 pages\, not MEDLINE-indexed)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
+  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
+  Central\; podium abstracts and posters not MEDLINE-indexed\nOfficial sou
+ rce: https://web.archive.org/web/20260307122538/https://amia.secure-platf
+ orm.com/symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#am
+ ia-2026
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260311T035900Z
+DTEND:20260311T045900Z
+SUMMARY:AMIA 2026 · Papers and student papers (5-10 pages\, proceedings ar
+ chived in PMC)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
+  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
+  Central\; podium abstracts and posters not MEDLINE-indexed\nOfficial sou
+ rce: https://web.archive.org/web/20260307122538/https://amia.secure-platf
+ orm.com/symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#am
+ ia-2026
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260311T035900Z
+DTEND:20260311T045900Z
+SUMMARY:AMIA 2026 · Posters (1 page\, not MEDLINE-indexed)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
+  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
+  Central\; podium abstracts and posters not MEDLINE-indexed\nOfficial sou
+ rce: https://web.archive.org/web/20260307122538/https://amia.secure-platf
+ orm.com/symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#am
+ ia-2026
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261112
+SUMMARY:AMIA 2026 · Conference
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nStat
+ us: confirmed\, checked 2026-10-31\nOfficial source: https://web.archive.
+ org/web/20261001143649/https://amia.org/education-events/amia-2026-annual
+ -symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2026
+ \nNotes: amia.org blocks automated access\, so its pages were read via In
+ ternet Archive captures (May-Oct 2026). They confirm Nov 7-11\, 2026 at t
+ he Hilton Anatole\, Dallas. The single submission portal gave one deadlin
+ e for all nine types\, Tuesday March 10\, 2026 at 11:59 p.m. EDT (capture
+ s Jan 20-Mar 7\, 2026)\, and now says closed. No capture from Mar 10 to A
+ pr 16 shows whether it was extended (2025 moved from Mar 19 to Mar 25). P
+ apers appear in the proceedings archived in PMC\; podium abstracts and po
+ sters are not MEDLINE-indexed. Panels\, debates\, demos\, tutorials and w
+ orkshops are not tracked as routes. AMIA cites 2\,300+ attendees for Dall
+ as. Size is an editorial estimate.
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20261001143649/https://amia.org/education-e
+ vents/amia-2026-annual-symposium
+LOCATION:Dallas\, Texas\, USA
+END:VEVENT
+END:VCALENDAR

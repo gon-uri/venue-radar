@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MTNS 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mtns-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280207
+DTEND;VALUE=DATE:20280208
+SUMMARY:MTNS 2028 (est.) · Full paper submission (IFAC-PapersOnLine)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\nOfficial source: ht
+ tps://uwaterloo.ca/international-symposium-mathematical-theory-networks-s
+ ystems/key-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#mtn
+ s-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280214
+DTEND;VALUE=DATE:20280215
+SUMMARY:MTNS 2028 (est.) · Extended abstract submission (not published)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\nOfficial source: ht
+ tps://uwaterloo.ca/international-symposium-mathematical-theory-networks-s
+ ystems/key-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#mtn
+ s-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280814
+DTEND;VALUE=DATE:20280819
+SUMMARY:MTNS 2028 (est.) · Conference
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nStatus: estimated\, checked 2026-10-31. Check the organizer's ca
+ ll before relying on it.\nOfficial source: https://uwaterloo.ca/internati
+ onal-symposium-mathematical-theory-networks-systems/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#mtns-2028\nNotes: As of 2026-10-31 the M
+ TNS 2026 site and IFAC listing announce no MTNS 2028 host\, dates or call
+ \; hosts rotate. MTNS is held every two years. Meeting dates (Mon-Fri) an
+ d the Monday full-paper (Feb 7) and extended-abstract (Feb 14) deadlines 
+ are two-year same-weekday proxies from MTNS 2026 (Aug 17-21\; Feb 9/16). 
+ The same shift maps MTNS 2024 (Cambridge\, Aug 19-23\; papers and abstrac
+ ts Feb 12 after an extension) onto 2026. Publication format is assumed fr
+ om 2026. Website and source links refer to past editions. Size is an edit
+ orial estimate.
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

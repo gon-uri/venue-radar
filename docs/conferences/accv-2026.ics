@@ -1,0 +1,145 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACCV 2026 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:accv-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260628T235900Z
+DTEND:20260629T005900Z
+SUMMARY:ACCV 2026 · Workshop and tutorial proposal deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nCutoff n
+ ote: The dates and tutorial pages give 23:59 GMT\; the workshop-proposal 
+ call says 23:59 AoE. The earlier GMT cutoff is stored.\nFormat: Paper-bas
+ ed / Springer LNCS proceedings\nOfficial source: https://accv2026.org/sub
+ missions/call-for-workshops/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/call-for-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260703T235900Z
+DTEND:20260704T005900Z
+SUMMARY:ACCV 2026 · Mandatory OpenReview paper registration (title\, abstr
+ act\, authors)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/author-guidelines/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260705T235900Z
+DTEND:20260706T005900Z
+SUMMARY:ACCV 2026 · Main-conference paper submission deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ ccv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260708T235900Z
+DTEND:20260709T005900Z
+SUMMARY:ACCV 2026 · Supplementary material deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/author-guidelines/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-demo-application@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260806T235900Z
+DTEND:20260807T005900Z
+SUMMARY:ACCV 2026 · Demo abstract submission via application form (live de
+ mos\; previously published work allowed)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/call-for-demos/\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/call-for-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:ACCV 2026 · Paper decision notification
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nCutoff t
+ ime unannounced: official deadline day only. Verify the organizer's submi
+ ssion portal.\nFormat: Paper-based / Springer LNCS proceedings\nOfficial 
+ source: https://accv2026.org/submissions/author-guidelines/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261004T235900Z
+DTEND:20261005T005900Z
+SUMMARY:ACCV 2026 · Camera-ready deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/author-guidelines/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261219
+SUMMARY:ACCV 2026 · Conference
+DESCRIPTION:Asian Conference on Computer Vision\nStatus: confirmed\, checke
+ d 2026-10-31\nOfficial source: https://accv2026.org/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#accv-2026\nNotes: Official site of the 1
+ 8th ACCV\, sponsored by the Asian Federation of Computer Vision\, confirm
+ s Grand Cube Osaka\, Dec 14-18 (workshops/tutorials Dec 14-15\, main conf
+ erence Dec 16-18)\, with in-person presentation required. Deadlines are 2
+ 3:59 GMT\, matching the OpenReview venue configuration\; the July 3 regis
+ tration was mandatory\, so every main-paper route is closed. The demo for
+ m is schedule-only because demos may show published work. Co-located work
+ shops run their own calls\, which are not tracked. Papers are 14-page LNC
+ S\, double-blind\; award papers are invited to an IJCV special issue. L r
+ eflects 378 accepted papers. Size is an editorial estimate.
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/
+LOCATION:Osaka\, Japan
+END:VEVENT
+END:VCALENDAR

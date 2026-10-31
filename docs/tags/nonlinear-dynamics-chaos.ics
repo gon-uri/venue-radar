@@ -29,6 +29,104 @@ URL:https://www2.yukawa.kyoto-u.ac.jp/~frontier24/DDAP13/
 LOCATION:Kyoto\, Japan
 END:VEVENT
 BEGIN:VEVENT
+UID:mtns-2026-deadline-mini-course-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+SUMMARY:MTNS 2026 · Mini-course proposals
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-special-session-proposal@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+SUMMARY:MTNS 2026 · Invited session proposals (session organizers)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-proposal-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:MTNS 2026 · Invited session and mini-course decisions
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260210
+SUMMARY:MTNS 2026 · Full papers\, contributed and invited sessions (4-8 pp
+ \, peer reviewed\, IFAC-PapersOnLine)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:MTNS 2026 · Extended abstracts\, contributed and invited sessions 
+ (2-4 pp\, simplified review\, not published)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-cdc-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260331
@@ -39,10 +137,7 @@ DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2026-12-15 to
  0-06\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Paper-based\nOfficial source: https:
  //cdc2026.ieeecss.org/\nVenue Radar: https://gon-uri.github.io/venue-rada
- r/#ieee-cdc-2026\nNotes: Annual IEEE CSS conference. Main meeting exclude
- s December 14 workshops. No current ICORE rank is inferred from the remov
- ed CORE2018 listing. Deadline cutoff hours use estimated end-of-day AoE. 
- Size is an editorial category.
+ r/#ieee-cdc-2026
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos,Reinforcement Learning
 URL:https://cdc2026.ieeecss.org/
@@ -60,12 +155,7 @@ DESCRIPTION:Dynamics Days Europe\nMeeting: 2026-07-19 to 2026-07-24\, Lisbo
  nced: official deadline day only. Verify the organizer's submission porta
  l.\nFormat: Abstract-based\nOfficial source: https://dde-2026.sci-meet.ne
  t/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#dy
- namics-days-europe-2026\nNotes: Historical annual meeting. Contributions 
- are talk/poster abstracts collected in a book of abstracts\, not standard
-  full-paper proceedings. Minisymposium organization is a separate non-con
- tribution milestone. Abstract submitters had to complete fee payment by M
- ay 29. Exact cutoff hours were unannounced. Size is an editorial estimate
- .
+ namics-days-europe-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
  e Series & Sequential Data,System Identification & Data-driven Dynamics
 URL:https://dde-2026.sci-meet.net/important-dates
@@ -82,14 +172,28 @@ DESCRIPTION:Dynamics Days Central Asia and the Caucasus\nMeeting: 2026-05-2
  0-28\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Abstract-based\nOfficial source: htt
  ps://physics-congress.kz/dynamics_days\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#dynamics-days-cac-2026\nNotes: Historical 10th edition
- . Although the form says paper/article\, its date table explicitly identi
- fies an abstract submission deadline for oral/poster presentations\; cuto
- ff hours were unannounced. No archival full-paper proceedings verified. R
- ecurrence is irregular (the organizer says almost annually)\; as of 2026-
- 10-28 no 2027 edition is announced. Size is an editorial estimate.
+ ub.io/venue-radar/#dynamics-days-cac-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science
 URL:https://physics-congress.kz/dynamics_days
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:MTNS 2026 · Paper decision notification
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamics-days-cac-2026-deadline-notification@scientific-conference-cale
@@ -103,12 +207,7 @@ DESCRIPTION:Dynamics Days Central Asia and the Caucasus\nMeeting: 2026-05-2
  0-28\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Abstract-based\nOfficial source: htt
  ps://physics-congress.kz/dynamics_days\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#dynamics-days-cac-2026\nNotes: Historical 10th edition
- . Although the form says paper/article\, its date table explicitly identi
- fies an abstract submission deadline for oral/poster presentations\; cuto
- ff hours were unannounced. No archival full-paper proceedings verified. R
- ecurrence is irregular (the organizer says almost annually)\; as of 2026-
- 10-28 no 2027 edition is announced. Size is an editorial estimate.
+ ub.io/venue-radar/#dynamics-days-cac-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science
 URL:https://physics-congress.kz/dynamics_days
 END:VEVENT
@@ -125,12 +224,7 @@ DESCRIPTION:Dynamics Days Europe\nMeeting: 2026-07-19 to 2026-07-24\, Lisbo
  nced: official deadline day only. Verify the organizer's submission porta
  l.\nFormat: Abstract-based\nOfficial source: https://dde-2026.sci-meet.ne
  t/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#dy
- namics-days-europe-2026\nNotes: Historical annual meeting. Contributions 
- are talk/poster abstracts collected in a book of abstracts\, not standard
-  full-paper proceedings. Minisymposium organization is a separate non-con
- tribution milestone. Abstract submitters had to complete fee payment by M
- ay 29. Exact cutoff hours were unannounced. Size is an editorial estimate
- .
+ namics-days-europe-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
  e Series & Sequential Data,System Identification & Data-driven Dynamics
 URL:https://dde-2026.sci-meet.net/important-dates
@@ -146,13 +240,7 @@ DESCRIPTION:International Nonlinear Dynamics Conference\nMeeting: 2026-09-2
  utoff time unannounced: official deadline day only. Verify the organizer'
  s submission portal.\nFormat: Abstract-based + optional full-length paper
  s\nOfficial source: https://nodycon2026.app.earendelplatform.com/\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#nodycon-2026\nNotes: Histor
- ical 2026 meeting. Edition-site key dates (read 2026-10-28) give abstract
- s May 15 and full-length papers Aug 31 (extended from Jul 1)\, kept over 
- the conflicting SISCO page (May 1/Jul 3)\; cutoff hours unannounced. The 
- optional paper step (Springer Advances in Nonlinear Dynamics\; invited No
- nlinear Dynamics issue) is not a fresh route. No next edition announced. 
- Size is an editorial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#nodycon-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
  ynamics,Control & Robotics,Complex Systems & Network Science
 URL:https://nodycon2026.app.earendelplatform.com/
@@ -168,11 +256,7 @@ DESCRIPTION:Conference on Complex Systems\nMeeting: 2026-10-12 to 2026-10-1
  Cutoff time unannounced: official deadline day only. Verify the organizer
  's submission portal.\nFormat: Abstract-based\nOfficial source: https://c
  cs26.cssociety.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- ccs-2026\nNotes: Annual Complex Systems Society flagship\, distinct from 
- ACM CCS (computer security)\; no ACM CCS rank applies. Main conference is
-  October 12-16\; October 9-10 warm-up excluded. Presentation abstracts\, 
- not archival full papers. Deadline hour uses estimated end-of-day AoE. Si
- ze is an editorial category.
+ ccs-2026
 CATEGORIES:Complex Systems & Network Science,Nonlinear Dynamics & Chaos,Dat
  a Mining & Data Science
 URL:https://ccs26.cssociety.org/
@@ -188,10 +272,7 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  ed\, checked 2026-10-06\nCutoff time unannounced: official deadline day o
  nly. Verify the organizer's submission portal.\nFormat: Paper-based\nOffi
  cial source: https://nolta2026.org/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#nolta-2026\nNotes: Annual IEICE NOLTA symposium\; officia
- l final extensions supersede older April/July dates. Proceedings papers\,
-  with neural networks and deep AI explicitly in scope. Deadline hours use
-  estimated end-of-day AoE. Size is an editorial category.
+ io/venue-radar/#nolta-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
@@ -214,6 +295,25 @@ DESCRIPTION:Dynamics Days Central Asia and the Caucasus\nStatus: confirmed\
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science
 URL:https://physics-congress.kz/dynamics_days
 LOCATION:Astana\, Kazakhstan
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+SUMMARY:MTNS 2026 · Final paper upload
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamics-days-europe-2026-conference@scientific-conference-calendar
@@ -245,13 +345,35 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  ed\, checked 2026-10-06\nCutoff time unannounced: official deadline day o
  nly. Verify the organizer's submission portal.\nFormat: Paper-based\nOffi
  cial source: https://nolta2026.org/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#nolta-2026\nNotes: Annual IEICE NOLTA symposium\; officia
- l final extensions supersede older April/July dates. Proceedings papers\,
-  with neural networks and deep AI explicitly in scope. Deadline hours use
-  estimated end-of-day AoE. Size is an editorial category.
+ io/venue-radar/#nolta-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260822
+SUMMARY:MTNS 2026 · Conference
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https:/
+ /uwaterloo.ca/international-symposium-mathematical-theory-networks-system
+ s/\nVenue Radar: https://gon-uri.github.io/venue-radar/#mtns-2026\nNotes:
+  Official pages confirm the 27th MTNS at the University of Waterloo campu
+ s\, Aug 17-21\, 2026\, co-sponsored by IFAC. Full papers (4-8 pp\, peer r
+ eviewed) go to IFAC-PapersOnLine\; extended abstracts (2-4 pp\, simplifie
+ d review) are posted on the site but not published. Invited-session paper
+ s needed an organizer's session code. A Feb 12 Wayback snapshot shows the
+  same Feb 9/16 dates. No cutoff hour or zone is published\, so cutoffs us
+ e provisional end-of-day AoE. Held every two years. ICORE2026 rank C. UW 
+ reported 170 attendees\; the program had 144 contributed talks and ten in
+ vited sessions. Size is an editorial estimate.
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/
+LOCATION:Waterloo\, Ontario\, Canada
 END:VEVENT
 BEGIN:VEVENT
 UID:nodycon-2026-deadline-journal-manuscript@scientific-conference-calendar
@@ -264,13 +386,7 @@ DESCRIPTION:International Nonlinear Dynamics Conference\nMeeting: 2026-09-2
  utoff time unannounced: official deadline day only. Verify the organizer'
  s submission portal.\nFormat: Abstract-based + optional full-length paper
  s\nOfficial source: https://nodycon2026.app.earendelplatform.com/\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#nodycon-2026\nNotes: Histor
- ical 2026 meeting. Edition-site key dates (read 2026-10-28) give abstract
- s May 15 and full-length papers Aug 31 (extended from Jul 1)\, kept over 
- the conflicting SISCO page (May 1/Jul 3)\; cutoff hours unannounced. The 
- optional paper step (Springer Advances in Nonlinear Dynamics\; invited No
- nlinear Dynamics issue) is not a fresh route. No next edition announced. 
- Size is an editorial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#nodycon-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
  ynamics,Control & Robotics,Complex Systems & Network Science
 URL:https://nodycon2026.app.earendelplatform.com/
@@ -287,12 +403,7 @@ DESCRIPTION:International Conference on Complex Networks and Their Applicat
  ions\nMeeting: 2026-12-02 to 2026-12-04\, Granada\, Spain\nStatus: confir
  med\, checked 2026-10-08\nFormat: Paper-based + extended abstracts\nOffic
  ial source: https://complexnetworks.org/submission/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#complex-networks-2026\nNotes: Main confer
- ence December 2-4\; tutorials December 1. Full papers appear in Springer 
- Studies in Computational Intelligence\; extended abstracts in a separate 
- abstract book. Abstracts are an independent contribution\, not a prerequi
- site for full papers. Production cutoff hours are unannounced. Size is an
-  editorial estimate.
+ /gon-uri.github.io/venue-radar/#complex-networks-2026
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Data Mining & Data Science
 URL:https://complexnetworks.org/submission/
@@ -308,12 +419,7 @@ DESCRIPTION:International Conference on Complex Networks and Their Applicat
  ions\nMeeting: 2026-12-02 to 2026-12-04\, Granada\, Spain\nStatus: confir
  med\, checked 2026-10-08\nFormat: Paper-based + extended abstracts\nOffic
  ial source: https://complexnetworks.org/submission/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#complex-networks-2026\nNotes: Main confer
- ence December 2-4\; tutorials December 1. Full papers appear in Springer 
- Studies in Computational Intelligence\; extended abstracts in a separate 
- abstract book. Abstracts are an independent contribution\, not a prerequi
- site for full papers. Production cutoff hours are unannounced. Size is an
-  editorial estimate.
+ /gon-uri.github.io/venue-radar/#complex-networks-2026
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Data Mining & Data Science
 URL:https://complexnetworks.org/submission/
@@ -329,10 +435,7 @@ DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2026-12-15 to
  0-06\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Paper-based\nOfficial source: https:
  //cdc2026.ieeecss.org/\nVenue Radar: https://gon-uri.github.io/venue-rada
- r/#ieee-cdc-2026\nNotes: Annual IEEE CSS conference. Main meeting exclude
- s December 14 workshops. No current ICORE rank is inferred from the remov
- ed CORE2018 listing. Deadline cutoff hours use estimated end-of-day AoE. 
- Size is an editorial category.
+ r/#ieee-cdc-2026
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos,Reinforcement Learning
 URL:https://cdc2026.ieeecss.org/
@@ -370,11 +473,7 @@ DESCRIPTION:International Conference on Complex Networks and Their Applicat
  only. Verify the organizer's submission portal.\nFormat: Paper-based + ex
  tended abstracts\nOfficial source: https://complexnetworks.org/submission
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#complex-networks-2
- 026\nNotes: Main conference December 2-4\; tutorials December 1. Full pap
- ers appear in Springer Studies in Computational Intelligence\; extended a
- bstracts in a separate abstract book. Abstracts are an independent contri
- bution\, not a prerequisite for full papers. Production cutoff hours are 
- unannounced. Size is an editorial estimate.
+ 026
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Data Mining & Data Science
 URL:https://complexnetworks.org/submission/
@@ -391,11 +490,7 @@ DESCRIPTION:Dynamics Days Latin America and the Caribbean\nMeeting: 2026-12
  0-08\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Abstract-based\nOfficial source: htt
  ps://fisica.ufpr.br/DDaysLAC2026/index.html\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#dynamics-days-lac-2026\nNotes: Latest organizer c
- utoff is October 10. Biennial meeting resumed in 2024 after the pandemic 
- gap. Contributions are talk/poster abstracts\; no current full-paper proc
- eedings commitment verified. Exact cutoff hour is unannounced. Size is an
-  editorial estimate.
+ .github.io/venue-radar/#dynamics-days-lac-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
  e Series & Sequential Data,Computational Neuroscience
 URL:https://fisica.ufpr.br/DDaysLAC2026/index.html
@@ -429,12 +524,7 @@ DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\nOfficial source: https://conferen
  ces.ifac-control.org/sysid2027/participate/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#ifac-sysid-2027\nNotes: Triennial TC 1.1 symposiu
- m. On 2026-10-29 the participate page strikes out Nov 2 and gives Nov 15\
- , 2026 for conference papers (Oct 1 to Oct 11 for joint journal papers). 
- The submission system opened 1 June 2026 (day only\, no time). Deadline d
- ays are official\; cutoff hours use provisional end-of-day AoE. Size is a
- n editorial category.
+ .github.io/venue-radar/#ifac-sysid-2027
 CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
  Time Series & Sequential Data,Machine Learning
 URL:https://conferences.ifac-control.org/sysid2027/participate/
@@ -452,11 +542,7 @@ DESCRIPTION:International Conference on Complex Networks and Their Applicat
  only. Verify the organizer's submission portal.\nFormat: Paper-based + ex
  tended abstracts\nOfficial source: https://complexnetworks.org/submission
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#complex-networks-2
- 026\nNotes: Main conference December 2-4\; tutorials December 1. Full pap
- ers appear in Springer Studies in Computational Intelligence\; extended a
- bstracts in a separate abstract book. Abstracts are an independent contri
- bution\, not a prerequisite for full papers. Production cutoff hours are 
- unannounced. Size is an editorial estimate.
+ 026
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Data Mining & Data Science
 URL:https://complexnetworks.org/submission/
@@ -473,11 +559,7 @@ DESCRIPTION:International Conference on Complex Networks\nMeeting: 2027-03-
  09 to 2027-03-12\, Rochester\, New York\, USA\nStatus: confirmed\, checke
  d 2026-10-08\nFormat: Full/short papers + extended abstracts\nOfficial so
  urce: https://complenet.github.io/cfp.html\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#complenet-2027\nNotes: University of Rochester hos
- t. Reviewed long and short papers appear in Springer Complexity\; the abs
- tract-only route does not produce a proceedings paper. All three routes s
- hare the AoE deadline\, with no mandatory abstract-registration gate. Siz
- e is an editorial estimate.
+ github.io/venue-radar/#complenet-2027
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/cfp.html
@@ -492,11 +574,7 @@ DESCRIPTION:International Conference on Complex Networks\nMeeting: 2027-03-
  09 to 2027-03-12\, Rochester\, New York\, USA\nStatus: confirmed\, checke
  d 2026-10-08\nFormat: Full/short papers + extended abstracts\nOfficial so
  urce: https://complenet.github.io/cfp.html\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#complenet-2027\nNotes: University of Rochester hos
- t. Reviewed long and short papers appear in Springer Complexity\; the abs
- tract-only route does not produce a proceedings paper. All three routes s
- hare the AoE deadline\, with no mandatory abstract-registration gate. Siz
- e is an editorial estimate.
+ github.io/venue-radar/#complenet-2027
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/cfp.html
@@ -512,11 +590,7 @@ DESCRIPTION:International Conference on Complex Networks\nMeeting: 2027-03-
  09 to 2027-03-12\, Rochester\, New York\, USA\nStatus: confirmed\, checke
  d 2026-10-08\nFormat: Full/short papers + extended abstracts\nOfficial so
  urce: https://complenet.github.io/cfp.html\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#complenet-2027\nNotes: University of Rochester hos
- t. Reviewed long and short papers appear in Springer Complexity\; the abs
- tract-only route does not produce a proceedings paper. All three routes s
- hare the AoE deadline\, with no mandatory abstract-registration gate. Siz
- e is an editorial estimate.
+ github.io/venue-radar/#complenet-2027
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/cfp.html
@@ -553,16 +627,64 @@ DESCRIPTION:SIAM Conference on Applications of Dynamical Systems\nMeeting:
  9 pm ET\; the SIAM submission system listed Oct 28. Earliest stated cutof
  f stored.\nFormat: Abstract-based\nOfficial source: https://www.siam.org/
  conferences-events/siam-conferences/ds27/submissions/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#siam-ds-2027\nNotes: Biennial SIAM dyna
- mical-systems meeting. Submissions are presentation abstracts\, not archi
- val full papers. Official deadlines specify 11:59 pm Eastern Time\, accou
- nting for daylight saving. Rechecked 2026-10-30: contributed lecture and 
- poster abstracts (Nov 23) are open in the SIAM submission system with no 
- extension. Size is an editorial category.
+ ://gon-uri.github.io/venue-radar/#siam-ds-2027
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Sys
  tem Identification & Data-driven Dynamics,Machine Learning
 URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
  ns/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-x-2027-deadline-early-notification@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:NetSci-X 2027 · First-wave acceptance notification (abstracts rece
+ ived by October 10)
+DESCRIPTION:NetSciX: International School and Conference on Network Science
+ \nMeeting: 2027-01-24 to 2027-01-27\, Hong Kong\, China\nStatus: confirme
+ d\, checked 2026-10-31\nCutoff time unannounced: official deadline day on
+ ly. Verify the organizer's submission portal.\nFormat: Abstract-based / t
+ wo-page extended abstracts\, non-archival (no proceedings announced)\nOff
+ icial source: https://netscix2027.github.io/key-dates/\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#netsci-x-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos
+URL:https://netscix2027.github.io/key-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-x-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261101T115900Z
+DTEND:20261101T125900Z
+SUMMARY:NetSci-X 2027 · Two-page extended abstract submission (talk or pos
+ ter\; extended deadline)
+DESCRIPTION:NetSciX: International School and Conference on Network Science
+ \nMeeting: 2027-01-24 to 2027-01-27\, Hong Kong\, China\nStatus: confirme
+ d\, checked 2026-10-31\nFormat: Abstract-based / two-page extended abstra
+ cts\, non-archival (no proceedings announced)\nOfficial source: https://n
+ etscix2027.github.io/submissions/\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#netsci-x-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos
+URL:https://netscix2027.github.io/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-x-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261101T115900Z
+DTEND:20261101T125900Z
+SUMMARY:NetSci-X 2027 · Themed workshop proposals (emailed\, at most three
+  pages)
+DESCRIPTION:NetSciX: International School and Conference on Network Science
+ \nMeeting: 2027-01-24 to 2027-01-27\, Hong Kong\, China\nStatus: confirme
+ d\, checked 2026-10-31\nFormat: Abstract-based / two-page extended abstra
+ cts\, non-archival (no proceedings announced)\nOfficial source: https://n
+ etscix2027.github.io/key-dates/\nVenue Radar: https://gon-uri.github.io/v
+ enue-radar/#netsci-x-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos
+URL:https://netscix2027.github.io/key-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc-2027-deadline-full-paper@scientific-conference-calendar
@@ -575,17 +697,7 @@ DESCRIPTION:European Control Conference\nMeeting: 2027-07-13 to 2027-07-16\
   unannounced: official deadline day only. Verify the organizer's submissi
  on portal.\nFormat: Paper-based\nOfficial source: https://ecc27.euca-ecc.
  org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #ecc-2027\nNotes: Annual flagship of the European Control Association (25
- th ECC\; annual since 2013)\, technically co-sponsored by IFAC and IEEE C
- SS\; accepted papers are published in IEEE Xplore. The July 13-16 window 
- includes the July 13 pre-conference workshops. On 2026-10-30 the CFP stri
- kes October 31 and gives November 9\, 2026 for contributed papers\, invit
- ed session proposals and invited session papers\, which need an organizer
- 's session code. The PaperCept listing says no further extensions\, altho
- ugh ECC 2026 extended twice. Industry abstracts need an industry-affiliat
- ed author and are not in the proceedings. Submissions opened September 1 
- (day only). No hour is published\, so cutoffs use provisional end-of-day 
- AoE. Not listed in ICORE2026 or CCF. Size L is an editorial category.
+ #ecc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos
 URL:https://ecc27.euca-ecc.org/call-for-papers/
@@ -602,17 +714,7 @@ DESCRIPTION:European Control Conference\nMeeting: 2027-07-13 to 2027-07-16\
   unannounced: official deadline day only. Verify the organizer's submissi
  on portal.\nFormat: Paper-based\nOfficial source: https://ecc27.euca-ecc.
  org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #ecc-2027\nNotes: Annual flagship of the European Control Association (25
- th ECC\; annual since 2013)\, technically co-sponsored by IFAC and IEEE C
- SS\; accepted papers are published in IEEE Xplore. The July 13-16 window 
- includes the July 13 pre-conference workshops. On 2026-10-30 the CFP stri
- kes October 31 and gives November 9\, 2026 for contributed papers\, invit
- ed session proposals and invited session papers\, which need an organizer
- 's session code. The PaperCept listing says no further extensions\, altho
- ugh ECC 2026 extended twice. Industry abstracts need an industry-affiliat
- ed author and are not in the proceedings. Submissions opened September 1 
- (day only). No hour is published\, so cutoffs use provisional end-of-day 
- AoE. Not listed in ICORE2026 or CCF. Size L is an editorial category.
+ #ecc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos
 URL:https://ecc27.euca-ecc.org/call-for-papers/
@@ -628,12 +730,7 @@ DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\nOfficial source: https://conferen
  ces.ifac-control.org/sysid2027/participate/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#ifac-sysid-2027\nNotes: Triennial TC 1.1 symposiu
- m. On 2026-10-29 the participate page strikes out Nov 2 and gives Nov 15\
- , 2026 for conference papers (Oct 1 to Oct 11 for joint journal papers). 
- The submission system opened 1 June 2026 (day only\, no time). Deadline d
- ays are official\; cutoff hours use provisional end-of-day AoE. Size is a
- n editorial category.
+ .github.io/venue-radar/#ifac-sysid-2027
 CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
  Time Series & Sequential Data,Machine Learning
 URL:https://conferences.ifac-control.org/sysid2027/participate/
@@ -649,15 +746,28 @@ DESCRIPTION:International School and Conference on Network Science\nMeeting
  ed 2026-10-28\nCutoff time unannounced: official deadline day only. Verif
  y the organizer's submission portal.\nFormat: Abstract-based\nOfficial so
  urce: https://netsci2027.github.io/calls/satellites/\nVenue Radar: https:
- //gon-uri.github.io/venue-radar/#netsci-2027\nNotes: Official NetSci 2027
-  site (TU Dresden) confirms May 17-21\, 2027 (satellites/school May 17-18
- \, main conference May 18-21). One-page abstracts with a mandatory figure
-  are due December 1\, 2026\; the call opened October 9. No cutoff hour/zo
- ne is stated\, so T23:59 AoE is provisional. Presentation route\, not arc
- hival proceedings. Distinct from NetSciX. Size is editorial.
+ //gon-uri.github.io/venue-radar/#netsci-2027
 CATEGORIES:Complex Systems & Network Science,Data Mining & Data Science,Non
  linear Dynamics & Chaos
 URL:https://netsci2027.github.io/calls/satellites/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-x-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:NetSci-X 2027 · Second-wave acceptance notification (abstracts rec
+ eived after October 10)
+DESCRIPTION:NetSciX: International School and Conference on Network Science
+ \nMeeting: 2027-01-24 to 2027-01-27\, Hong Kong\, China\nStatus: confirme
+ d\, checked 2026-10-31\nCutoff time unannounced: official deadline day on
+ ly. Verify the organizer's submission portal.\nFormat: Abstract-based / t
+ wo-page extended abstracts\, non-archival (no proceedings announced)\nOff
+ icial source: https://netscix2027.github.io/key-dates/\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#netsci-x-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos
+URL:https://netscix2027.github.io/key-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:nolta-2026-conference@scientific-conference-calendar
@@ -688,11 +798,7 @@ DESCRIPTION:International Conference on Complex Networks\nMeeting: 2027-03-
  d 2026-10-08\nCutoff time unannounced: official deadline day only. Verify
   the organizer's submission portal.\nFormat: Full/short papers + extended
   abstracts\nOfficial source: https://complenet.github.io/cfp.html\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#complenet-2027\nNotes: Univ
- ersity of Rochester host. Reviewed long and short papers appear in Spring
- er Complexity\; the abstract-only route does not produce a proceedings pa
- per. All three routes share the AoE deadline\, with no mandatory abstract
- -registration gate. Size is an editorial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#complenet-2027
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/cfp.html
@@ -709,14 +815,7 @@ DESCRIPTION:Dynamics Days US\nMeeting: 2027-01-04 to 2027-01-06\, La Jolla\
  nannounced: official deadline day only. Verify the organizer's submission
   portal.\nFormat: Abstract-based\nOfficial source: https://www.ddays.org/
  2027/abstract-submission/\nVenue Radar: https://gon-uri.github.io/venue-r
- adar/#dynamics-days-us-2027\nNotes: Official banner confirms January 4-6 
- at Scripps Seaside Forum. A selection of abstracts becomes single-track t
- alks\; poster contributions are also expected. No archival full-paper pro
- ceedings verified. The November 22 deadline falls in 2026\, before the Ja
- nuary 2027 meeting\; exact cutoff hours are unannounced. Rechecked 2026-1
- 0-30: the abstract form is live and early registration moved from Decembe
- r 1 to December 7. Travel award applications (November 22\, funding permi
- tting) are not tracked. Size is an editorial estimate.
+ adar/#dynamics-days-us-2027
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Sys
  tem Identification & Data-driven Dynamics
 URL:https://www.ddays.org/2027/abstract-submission/
@@ -731,16 +830,27 @@ DESCRIPTION:SIAM Conference on Applications of Dynamical Systems\nMeeting:
  2027-05-23 to 2027-05-27\, Atlanta\, Georgia\, USA\nStatus: confirmed\, c
  hecked 2026-10-30\nFormat: Abstract-based\nOfficial source: https://www.s
  iam.org/conferences-events/siam-conferences/ds27/submissions/\nVenue Rada
- r: https://gon-uri.github.io/venue-radar/#siam-ds-2027\nNotes: Biennial S
- IAM dynamical-systems meeting. Submissions are presentation abstracts\, n
- ot archival full papers. Official deadlines specify 11:59 pm Eastern Time
- \, accounting for daylight saving. Rechecked 2026-10-30: contributed lect
- ure and poster abstracts (Nov 23) are open in the SIAM submission system 
- with no extension. Size is an editorial category.
+ r: https://gon-uri.github.io/venue-radar/#siam-ds-2027
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Sys
  tem Identification & Data-driven Dynamics,Machine Learning
 URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
  ns/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-x-2027-deadline-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261201T115900Z
+DTEND:20261201T125900Z
+SUMMARY:NetSci-X 2027 · Early registration deadline
+DESCRIPTION:NetSciX: International School and Conference on Network Science
+ \nMeeting: 2027-01-24 to 2027-01-27\, Hong Kong\, China\nStatus: confirme
+ d\, checked 2026-10-31\nFormat: Abstract-based / two-page extended abstra
+ cts\, non-archival (no proceedings announced)\nOfficial source: https://n
+ etscix2027.github.io/registration/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#netsci-x-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos
+URL:https://netscix2027.github.io/registration/
 END:VEVENT
 BEGIN:VEVENT
 UID:complex-networks-2026-conference@scientific-conference-calendar
@@ -772,12 +882,7 @@ DESCRIPTION:International School and Conference on Network Science\nMeeting
  ed 2026-10-28\nCutoff time unannounced: official deadline day only. Verif
  y the organizer's submission portal.\nFormat: Abstract-based\nOfficial so
  urce: https://netsci2027.github.io/calls/abstracts/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#netsci-2027\nNotes: Official NetSci 2027 
- site (TU Dresden) confirms May 17-21\, 2027 (satellites/school May 17-18\
- , main conference May 18-21). One-page abstracts with a mandatory figure 
- are due December 1\, 2026\; the call opened October 9. No cutoff hour/zon
- e is stated\, so T23:59 AoE is provisional. Presentation route\, not arch
- ival proceedings. Distinct from NetSciX. Size is editorial.
+ /gon-uri.github.io/venue-radar/#netsci-2027
 CATEGORIES:Complex Systems & Network Science,Data Mining & Data Science,Non
  linear Dynamics & Chaos
 URL:https://netsci2027.github.io/calls/abstracts/
@@ -812,14 +917,7 @@ DESCRIPTION:Dynamics Days US\nMeeting: 2027-01-04 to 2027-01-06\, La Jolla\
  nannounced: official deadline day only. Verify the organizer's submission
   portal.\nFormat: Abstract-based\nOfficial source: https://www.ddays.org/
  2027/registration/\nVenue Radar: https://gon-uri.github.io/venue-radar/#d
- ynamics-days-us-2027\nNotes: Official banner confirms January 4-6 at Scri
- pps Seaside Forum. A selection of abstracts becomes single-track talks\; 
- poster contributions are also expected. No archival full-paper proceeding
- s verified. The November 22 deadline falls in 2026\, before the January 2
- 027 meeting\; exact cutoff hours are unannounced. Rechecked 2026-10-30: t
- he abstract form is live and early registration moved from December 1 to 
- December 7. Travel award applications (November 22\, funding permitting) 
- are not tracked. Size is an editorial estimate.
+ ynamics-days-us-2027
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Sys
  tem Identification & Data-driven Dynamics
 URL:https://www.ddays.org/2027/registration/
@@ -863,6 +961,24 @@ URL:https://www.ddays.org/2027/
 LOCATION:La Jolla\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:enoc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ENOC 2027 (est.) · Two-page extended abstract submission deadline
+DESCRIPTION:European Nonlinear Dynamics Conference\nMeeting: 2027-07-19 to 
+ 2027-07-23\, Aberdeen\, United Kingdom\nStatus: estimated\, checked 2026-
+ 10-31. Check the organizer's call before relying on it.\nEstimated day on
+ ly\; no cutoff hour stored. Check the organizer's call for the real date 
+ and time.\nFormat: Abstract-based / 2-page extended abstracts in a digita
+ l book of abstracts\; no full-paper submission\nOfficial source: https://
+ enoc2027.com/author/submission-guidance\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#enoc-2027
+CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
+ ynamics,Control & Robotics
+URL:https://enoc2027.com/author/submission-guidance
+END:VEVENT
+BEGIN:VEVENT
 UID:ifac-sysid-2027-deadline-discussion-paper@scientific-conference-calenda
  r
 DTSTAMP:19700101T000000Z
@@ -874,12 +990,7 @@ DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\nOfficial source: https://conferen
  ces.ifac-control.org/sysid2027/participate/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#ifac-sysid-2027\nNotes: Triennial TC 1.1 symposiu
- m. On 2026-10-29 the participate page strikes out Nov 2 and gives Nov 15\
- , 2026 for conference papers (Oct 1 to Oct 11 for joint journal papers). 
- The submission system opened 1 June 2026 (day only\, no time). Deadline d
- ays are official\; cutoff hours use provisional end-of-day AoE. Size is a
- n editorial category.
+ .github.io/venue-radar/#ifac-sysid-2027
 CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
  Time Series & Sequential Data,Machine Learning
 URL:https://conferences.ifac-control.org/sysid2027/participate/
@@ -895,12 +1006,7 @@ DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\nOfficial source: https://conferen
  ces.ifac-control.org/sysid2027/participate/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#ifac-sysid-2027\nNotes: Triennial TC 1.1 symposiu
- m. On 2026-10-29 the participate page strikes out Nov 2 and gives Nov 15\
- , 2026 for conference papers (Oct 1 to Oct 11 for joint journal papers). 
- The submission system opened 1 June 2026 (day only\, no time). Deadline d
- ays are official\; cutoff hours use provisional end-of-day AoE. Size is a
- n editorial category.
+ .github.io/venue-radar/#ifac-sysid-2027
 CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
  Time Series & Sequential Data,Machine Learning
 URL:https://conferences.ifac-control.org/sysid2027/participate/
@@ -916,15 +1022,34 @@ DESCRIPTION:International School and Conference on Network Science\nMeeting
  ed 2026-10-28\nCutoff time unannounced: official deadline day only. Verif
  y the organizer's submission portal.\nFormat: Abstract-based\nOfficial so
  urce: https://netsci2027.github.io/calls/abstracts/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#netsci-2027\nNotes: Official NetSci 2027 
- site (TU Dresden) confirms May 17-21\, 2027 (satellites/school May 17-18\
- , main conference May 18-21). One-page abstracts with a mandatory figure 
- are due December 1\, 2026\; the call opened October 9. No cutoff hour/zon
- e is stated\, so T23:59 AoE is provisional. Presentation route\, not arch
- ival proceedings. Distinct from NetSciX. Size is editorial.
+ /gon-uri.github.io/venue-radar/#netsci-2027
 CATEGORIES:Complex Systems & Network Science,Data Mining & Data Science,Non
  linear Dynamics & Chaos
 URL:https://netsci2027.github.io/calls/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-x-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270128
+SUMMARY:NetSci-X 2027 · Conference
+DESCRIPTION:NetSciX: International School and Conference on Network Science
+ \nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://netsci
+ x2027.github.io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#net
+ sci-x-2027\nNotes: Official site\, NSS event page and EasyChair CFP confi
+ rm January 24-27\, 2027 (school and conference) at the Sheraton Hong Kong
+ \, Tsim Sha Tsui. Two-page extended abstracts are due October 31\, 2026\,
+  23:59 AoE (site-wide AoE rule)\, after extensions to October 10 and then
+  October 31\; submissions opened September 1. EasyChair's login page said
+  new submissions were open on 2026-10-31. No proceedings are announced. O
+ nline participation (keynotes\, invited talks\, selected tracks) costs 15
+ % of the regular fee. Special focus: Network Science meets AI. NSS winter
+  meeting\, distinct from NetSci. Size M: smaller winter companion of NetS
+ ci\; NetSciX 2026 was mostly single-track. Size is an editorial estimate.
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos
+URL:https://netscix2027.github.io/
+LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc-2027-deadline-industry-abstract@scientific-conference-calendar
@@ -938,17 +1063,7 @@ DESCRIPTION:European Control Conference\nMeeting: 2027-07-13 to 2027-07-16\
   unannounced: official deadline day only. Verify the organizer's submissi
  on portal.\nFormat: Paper-based\nOfficial source: https://ecc27.euca-ecc.
  org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #ecc-2027\nNotes: Annual flagship of the European Control Association (25
- th ECC\; annual since 2013)\, technically co-sponsored by IFAC and IEEE C
- SS\; accepted papers are published in IEEE Xplore. The July 13-16 window 
- includes the July 13 pre-conference workshops. On 2026-10-30 the CFP stri
- kes October 31 and gives November 9\, 2026 for contributed papers\, invit
- ed session proposals and invited session papers\, which need an organizer
- 's session code. The PaperCept listing says no further extensions\, altho
- ugh ECC 2026 extended twice. Industry abstracts need an industry-affiliat
- ed author and are not in the proceedings. Submissions opened September 1 
- (day only). No hour is published\, so cutoffs use provisional end-of-day 
- AoE. Not listed in ICORE2026 or CCF. Size L is an editorial category.
+ #ecc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos
 URL:https://ecc27.euca-ecc.org/call-for-papers/
@@ -964,17 +1079,7 @@ DESCRIPTION:European Control Conference\nMeeting: 2027-07-13 to 2027-07-16\
   unannounced: official deadline day only. Verify the organizer's submissi
  on portal.\nFormat: Paper-based\nOfficial source: https://ecc27.euca-ecc.
  org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #ecc-2027\nNotes: Annual flagship of the European Control Association (25
- th ECC\; annual since 2013)\, technically co-sponsored by IFAC and IEEE C
- SS\; accepted papers are published in IEEE Xplore. The July 13-16 window 
- includes the July 13 pre-conference workshops. On 2026-10-30 the CFP stri
- kes October 31 and gives November 9\, 2026 for contributed papers\, invit
- ed session proposals and invited session papers\, which need an organizer
- 's session code. The PaperCept listing says no further extensions\, altho
- ugh ECC 2026 extended twice. Industry abstracts need an industry-affiliat
- ed author and are not in the proceedings. Submissions opened September 1 
- (day only). No hour is published\, so cutoffs use provisional end-of-day 
- AoE. Not listed in ICORE2026 or CCF. Size L is an editorial category.
+ #ecc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos
 URL:https://ecc27.euca-ecc.org/call-for-papers/
@@ -990,17 +1095,7 @@ DESCRIPTION:European Control Conference\nMeeting: 2027-07-13 to 2027-07-16\
   unannounced: official deadline day only. Verify the organizer's submissi
  on portal.\nFormat: Paper-based\nOfficial source: https://ecc27.euca-ecc.
  org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #ecc-2027\nNotes: Annual flagship of the European Control Association (25
- th ECC\; annual since 2013)\, technically co-sponsored by IFAC and IEEE C
- SS\; accepted papers are published in IEEE Xplore. The July 13-16 window 
- includes the July 13 pre-conference workshops. On 2026-10-30 the CFP stri
- kes October 31 and gives November 9\, 2026 for contributed papers\, invit
- ed session proposals and invited session papers\, which need an organizer
- 's session code. The PaperCept listing says no further extensions\, altho
- ugh ECC 2026 extended twice. Industry abstracts need an industry-affiliat
- ed author and are not in the proceedings. Submissions opened September 1 
- (day only). No hour is published\, so cutoffs use provisional end-of-day 
- AoE. Not listed in ICORE2026 or CCF. Size L is an editorial category.
+ #ecc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos
 URL:https://ecc27.euca-ecc.org/call-for-papers/
@@ -1016,15 +1111,27 @@ DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\nOfficial source: https://conferen
  ces.ifac-control.org/sysid2027/participate/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#ifac-sysid-2027\nNotes: Triennial TC 1.1 symposiu
- m. On 2026-10-29 the participate page strikes out Nov 2 and gives Nov 15\
- , 2026 for conference papers (Oct 1 to Oct 11 for joint journal papers). 
- The submission system opened 1 June 2026 (day only\, no time). Deadline d
- ays are official\; cutoff hours use provisional end-of-day AoE. Size is a
- n editorial category.
+ .github.io/venue-radar/#ifac-sysid-2027
 CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
  Time Series & Sequential Data,Machine Learning
 URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:icmns-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:ICMNS 2027 (est.) · Abstract deadline for contributed talks and po
+ sters
+DESCRIPTION:International Conference on Mathematical Neuroscience\nMeeting:
+  2027-06-01 to 2027-06-04\, Montpellier\, France\nStatus: estimated\, che
+ cked 2026-10-31. Check the organizer's call before relying on it.\nEstima
+ ted day only\; no cutoff hour stored. Check the organizer's call for the 
+ real date and time.\nFormat: Abstract-based / non-archival\nPrevious edit
+ ion's page: https://listserver.vu.nl/pipermail/icmns-beta/2026-January/00
+ 0070.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#icmns-2027
+CATEGORIES:Computational Neuroscience,Nonlinear Dynamics & Chaos
+URL:https://listserver.vu.nl/pipermail/icmns-beta/2026-January/000070.html
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc-2027-deadline-notification@scientific-conference-calendar
@@ -1037,17 +1144,7 @@ DESCRIPTION:European Control Conference\nMeeting: 2027-07-13 to 2027-07-16\
   unannounced: official deadline day only. Verify the organizer's submissi
  on portal.\nFormat: Paper-based\nOfficial source: https://ecc27.euca-ecc.
  org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #ecc-2027\nNotes: Annual flagship of the European Control Association (25
- th ECC\; annual since 2013)\, technically co-sponsored by IFAC and IEEE C
- SS\; accepted papers are published in IEEE Xplore. The July 13-16 window 
- includes the July 13 pre-conference workshops. On 2026-10-30 the CFP stri
- kes October 31 and gives November 9\, 2026 for contributed papers\, invit
- ed session proposals and invited session papers\, which need an organizer
- 's session code. The PaperCept listing says no further extensions\, altho
- ugh ECC 2026 extended twice. Industry abstracts need an industry-affiliat
- ed author and are not in the proceedings. Submissions opened September 1 
- (day only). No hour is published\, so cutoffs use provisional end-of-day 
- AoE. Not listed in ICORE2026 or CCF. Size L is an editorial category.
+ #ecc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos
 URL:https://ecc27.euca-ecc.org/call-for-papers/
@@ -1081,11 +1178,7 @@ DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2027-12-14 to
  Cutoff time unannounced: official deadline day only. Verify the organizer
  's submission portal.\nFormat: Paper-based\nOfficial source: https://cdc2
  027.ieeecss.org/authors/call-for-papers\nVenue Radar: https://gon-uri.git
- hub.io/venue-radar/#ieee-cdc-2027\nNotes: Official future edition at the 
- Lisbon Congress Centre\, Dec 14-17\, 2027\; the main meeting excludes the
-  December 13 workshops. Deadline days are published without hours\, so cu
- toffs use a provisional end-of-day AoE. The submission site opens Jan 8\,
-  2027 (day only\, no time). Size is an editorial category.
+ hub.io/venue-radar/#ieee-cdc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos,Reinforcement Learning
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
@@ -1101,11 +1194,7 @@ DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2027-12-14 to
  Cutoff time unannounced: official deadline day only. Verify the organizer
  's submission portal.\nFormat: Paper-based\nOfficial source: https://cdc2
  027.ieeecss.org/authors/call-for-papers\nVenue Radar: https://gon-uri.git
- hub.io/venue-radar/#ieee-cdc-2027\nNotes: Official future edition at the 
- Lisbon Congress Centre\, Dec 14-17\, 2027\; the main meeting excludes the
-  December 13 workshops. Deadline days are published without hours\, so cu
- toffs use a provisional end-of-day AoE. The submission site opens Jan 8\,
-  2027 (day only\, no time). Size is an editorial category.
+ hub.io/venue-radar/#ieee-cdc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos,Reinforcement Learning
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
@@ -1121,17 +1210,7 @@ DESCRIPTION:European Control Conference\nMeeting: 2027-07-13 to 2027-07-16\
   unannounced: official deadline day only. Verify the organizer's submissi
  on portal.\nFormat: Paper-based\nOfficial source: https://ecc27.euca-ecc.
  org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #ecc-2027\nNotes: Annual flagship of the European Control Association (25
- th ECC\; annual since 2013)\, technically co-sponsored by IFAC and IEEE C
- SS\; accepted papers are published in IEEE Xplore. The July 13-16 window 
- includes the July 13 pre-conference workshops. On 2026-10-30 the CFP stri
- kes October 31 and gives November 9\, 2026 for contributed papers\, invit
- ed session proposals and invited session papers\, which need an organizer
- 's session code. The PaperCept listing says no further extensions\, altho
- ugh ECC 2026 extended twice. Industry abstracts need an industry-affiliat
- ed author and are not in the proceedings. Submissions opened September 1 
- (day only). No hour is published\, so cutoffs use provisional end-of-day 
- AoE. Not listed in ICORE2026 or CCF. Size L is an editorial category.
+ #ecc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos
 URL:https://ecc27.euca-ecc.org/call-for-papers/
@@ -1147,12 +1226,7 @@ DESCRIPTION:Conference on Complex Systems\nMeeting: 2027-09-17 to 2027-09-2
  rganizer's call before relying on it.\nEstimated day only\; no cutoff hou
  r stored. Check the organizer's call for the real date and time.\nFormat:
   Abstract-based\nOfficial source: https://ccs26.cssociety.org/\nVenue Rad
- ar: https://gon-uri.github.io/venue-radar/#ccs-2027\nNotes: Official CCS 
- 2027 site and the Society confirm Wroclaw Tech\, September 17-24\, 2027\,
-  a span that includes the yrCSS warm-up (September 17-18)\; the main/sate
- llite split is unpublished. No call as of 2026-10-28\; the abstract date 
- is a proxy from 2026's extended May 15 deadline. Distinct from ACM CCS\; 
- no inherited security rank. Size is editorial.
+ ar: https://gon-uri.github.io/venue-radar/#ccs-2027
 CATEGORIES:Complex Systems & Network Science,Nonlinear Dynamics & Chaos,Dat
  a Mining & Data Science
 URL:https://ccs26.cssociety.org/
@@ -1171,11 +1245,7 @@ DESCRIPTION:Dynamics Days Europe\nMeeting: 2027-07-19 to 2027-07-24 (est.)\
  tored. Check the organizer's call for the real date and time.\nFormat: Ab
  stract-based\nPrevious edition's page: https://dde-2026.sci-meet.net/impo
  rtant-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#dynamics
- -days-europe-2027\nNotes: Unannounced next annual edition. Meeting dates 
- and the contributed abstract deadline are one-year proxies from 2026\, wi
- th no assumed host location. On 2026-10-28 the series site still listed 2
- 026 as upcoming and no official 2027 page was found\; dates unchanged. Si
- ze is an editorial estimate.
+ -days-europe-2027
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
  e Series & Sequential Data,System Identification & Data-driven Dynamics
 URL:https://dde-2026.sci-meet.net/important-dates
@@ -1192,11 +1262,7 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  n it.\nEstimated day only\; no cutoff hour stored. Check the organizer's 
  call for the real date and time.\nFormat: Paper-based\nPrevious edition's
   page: https://nolta2026.org/\nVenue Radar: https://gon-uri.github.io/ven
- ue-radar/#nolta-2027\nNotes: As of 2026-10-29 the official NOLTA 2026 sit
- e (Grenoble\, Nov 17-20\, 2026) announces no 2027 host or dates. Meeting 
- dates and the paper deadline are same-weekday one-year proxies from NOLTA
-  2026\; the deadline follows its original Apr 30 date\, not the May 20 fi
- nal extension.
+ ue-radar/#nolta-2027
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
@@ -1212,11 +1278,7 @@ DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2027-12-14 to
  Cutoff time unannounced: official deadline day only. Verify the organizer
  's submission portal.\nFormat: Paper-based\nOfficial source: https://cdc2
  027.ieeecss.org/authors/call-for-papers\nVenue Radar: https://gon-uri.git
- hub.io/venue-radar/#ieee-cdc-2027\nNotes: Official future edition at the 
- Lisbon Congress Centre\, Dec 14-17\, 2027\; the main meeting excludes the
-  December 13 workshops. Deadline days are published without hours\, so cu
- toffs use a provisional end-of-day AoE. The submission site opens Jan 8\,
-  2027 (day only\, no time). Size is an editorial category.
+ hub.io/venue-radar/#ieee-cdc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos,Reinforcement Learning
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
@@ -1260,6 +1322,29 @@ CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Sys
  tem Identification & Data-driven Dynamics,Machine Learning
 URL:https://www.siam.org/conferences-events/siam-conferences/ds27/
 LOCATION:Atlanta\, Georgia\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:icmns-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270605
+SUMMARY:ICMNS 2027 · Conference
+DESCRIPTION:International Conference on Mathematical Neuroscience\nStatus: 
+ confirmed\, checked 2026-10-31\nOfficial source: https://icmns.org/2027/\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#icmns-2027\nNotes: i
+ cmns.org\, the ICMNS'27 site and the organisers' Sep 17\, 2026 announceme
+ nt confirm the 12th edition in Montpellier\, June 1-4\, 2027 (venue unnam
+ ed). On 2026-10-31 abstract opening and deadline are TBA. The abstract da
+ te is a one-year proxy from 2026 (posters/minisymposia due Feb 28\, later
+  extended to an unverified date)\; 2024 and 2025 closed Jan 16 and Jan 19
+  after extensions\, so 2027 may close earlier. Past editions chose talks 
+ and posters from abstracts\, without proceedings\; some work later appear
+ ed in J. Math. Neurosci. special issues. ICMNS 2028 is set for Shanghai (
+ SJTU)\, dates TBA. Size from 150+ participants\, 44 talks and 80+ posters
+  in 2025. Size is an editorial estimate.
+CATEGORIES:Computational Neuroscience,Nonlinear Dynamics & Chaos
+URL:https://icmns.org/2027/
+LOCATION:Montpellier\, France
 END:VEVENT
 BEGIN:VEVENT
 UID:ifac-sysid-2027-conference@scientific-conference-calendar
@@ -1316,11 +1401,7 @@ DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2027-12-14 to
  Cutoff time unannounced: official deadline day only. Verify the organizer
  's submission portal.\nFormat: Paper-based\nOfficial source: https://cdc2
  027.ieeecss.org/authors/call-for-papers\nVenue Radar: https://gon-uri.git
- hub.io/venue-radar/#ieee-cdc-2027\nNotes: Official future edition at the 
- Lisbon Congress Centre\, Dec 14-17\, 2027\; the main meeting excludes the
-  December 13 workshops. Deadline days are published without hours\, so cu
- toffs use a provisional end-of-day AoE. The submission site opens Jan 8\,
-  2027 (day only\, no time). Size is an editorial category.
+ hub.io/venue-radar/#ieee-cdc-2027
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos,Reinforcement Learning
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
@@ -1345,6 +1426,30 @@ URL:https://www.dynamicsdays.org/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:enoc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270724
+SUMMARY:ENOC 2027 · Conference
+DESCRIPTION:European Nonlinear Dynamics Conference\nStatus: confirmed\, che
+ cked 2026-10-31\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#enoc-2027\nNotes: 12th ENOC (EUROMECH
+  ENOCC series\, triennial per ENOC 2024)\, July 19-23\, 2027\, P&J Live\,
+  Aberdeen\, per enoc2027.com and EUROMECH. Only 2-page extended abstracts
+  in 21 mini-symposia\; no full papers\; at most two presentations per aut
+ hor. The official templates say accepted abstracts appear in a digital bo
+ ok of abstracts. The site gives only "January 2027"\; Jan 15 is a proxy f
+ rom ENOC 2024's original Jan 15 deadline (extended to Feb 12) and ENOC 20
+ 22's Jan 15 extended deadline. No hour is published. Submission opened Ju
+ ly 2026 per key dates (templates say June)\; the portal shows only a sign
+ -in page. Size basis - ENOC 2024 had over 350 talks. Size is an editorial
+  estimate.
+CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
+ ynamics,Control & Robotics
+URL:https://enoc2027.com/
+LOCATION:Aberdeen\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
 UID:complex-networks-2027-deadline-extended-abstract@scientific-conference-
  calendar
 DTSTAMP:19700101T000000Z
@@ -1357,11 +1462,7 @@ DESCRIPTION:International Conference on Complex Networks and Their Applicat
   estimated\, checked 2026-10-29. Check the organizer's call before relyin
  g on it.\nFormat: Paper-based + extended abstracts\nOfficial source: http
  s://complexnetworks.org/\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#complex-networks-2027\nNotes: As of 2026-10-29 complexnetworks.org a
- nd the Complex Systems Society events page announce no 2027 host or dates
- . Meeting and AoE full-paper/extended-abstract dates are one-year same-we
- ekday proxies from COMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on i
- ts original Sep 2 deadline rather than the Sep 13 extension.
+ dar/#complex-networks-2027
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Data Mining & Data Science
 URL:https://complexnetworks.org/
@@ -1378,11 +1479,7 @@ DESCRIPTION:International Conference on Complex Networks and Their Applicat
   estimated\, checked 2026-10-29. Check the organizer's call before relyin
  g on it.\nFormat: Paper-based + extended abstracts\nOfficial source: http
  s://complexnetworks.org/\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#complex-networks-2027\nNotes: As of 2026-10-29 complexnetworks.org a
- nd the Complex Systems Society events page announce no 2027 host or dates
- . Meeting and AoE full-paper/extended-abstract dates are one-year same-we
- ekday proxies from COMPLEX NETWORKS 2026 (Granada\, Dec 2-4)\, based on i
- ts original Sep 2 deadline rather than the Sep 13 extension.
+ dar/#complex-networks-2027
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Data Mining & Data Science
 URL:https://complexnetworks.org/
@@ -1419,11 +1516,7 @@ DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
  26-10-29. Check the organizer's call before relying on it.\nFormat: Full/
  short papers + extended abstracts\nOfficial source: https://complenet.git
  hub.io/cfp.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#comp
- lenet-2028\nNotes: As of 2026-10-29 complenet.github.io covers only Compl
- eNet 2027 (Rochester\, Mar 9-12\, 2027) and announces no 2028 host or dat
- es\; hosts rotate yearly. Meeting and the shared AoE long-paper\, short-p
- aper and abstract deadline are one-year same-weekday proxies from CompleN
- et 2027.
+ lenet-2028
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/cfp.html
@@ -1439,11 +1532,7 @@ DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
  26-10-29. Check the organizer's call before relying on it.\nFormat: Full/
  short papers + extended abstracts\nOfficial source: https://complenet.git
  hub.io/cfp.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#comp
- lenet-2028\nNotes: As of 2026-10-29 complenet.github.io covers only Compl
- eNet 2027 (Rochester\, Mar 9-12\, 2027) and announces no 2028 host or dat
- es\; hosts rotate yearly. Meeting and the shared AoE long-paper\, short-p
- aper and abstract deadline are one-year same-weekday proxies from CompleN
- et 2027.
+ lenet-2028
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/cfp.html
@@ -1460,11 +1549,7 @@ DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
  26-10-29. Check the organizer's call before relying on it.\nFormat: Full/
  short papers + extended abstracts\nOfficial source: https://complenet.git
  hub.io/cfp.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#comp
- lenet-2028\nNotes: As of 2026-10-29 complenet.github.io covers only Compl
- eNet 2027 (Rochester\, Mar 9-12\, 2027) and announces no 2028 host or dat
- es\; hosts rotate yearly. Meeting and the shared AoE long-paper\, short-p
- aper and abstract deadline are one-year same-weekday proxies from CompleN
- et 2027.
+ lenet-2028
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/cfp.html
@@ -1528,6 +1613,46 @@ URL:https://cdc2027.ieeecss.org/
 LOCATION:Lisbon\, Portugal
 END:VEVENT
 BEGIN:VEVENT
+UID:mtns-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280207
+DTEND;VALUE=DATE:20280208
+SUMMARY:MTNS 2028 (est.) · Full paper submission (IFAC-PapersOnLine)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\nOfficial source: ht
+ tps://uwaterloo.ca/international-symposium-mathematical-theory-networks-s
+ ystems/key-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#mtn
+ s-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280214
+DTEND;VALUE=DATE:20280215
+SUMMARY:MTNS 2028 (est.) · Extended abstract submission (not published)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\nOfficial source: ht
+ tps://uwaterloo.ca/international-symposium-mathematical-theory-networks-s
+ ystems/key-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#mtn
+ s-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:complenet-2028-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20280307
@@ -1560,16 +1685,56 @@ DESCRIPTION:Dynamics Days Latin America and the Caribbean\nMeeting: 2028-12
  ate and time.\nFormat: Abstract-based\nPrevious edition's page: https://w
  eb.archive.org/web/20260521082858/https://fisica.ufpr.br/DDaysLAC2026/ind
  ex.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#dynamics-day
- s-lac-2028\nNotes: As of 2026-10-29 neither the Dynamics Days LAC 2026 si
- te nor the dynamicsdays.info LAC page announces a 2028 host or dates\; th
- e 2026 site calls the series biennial. Meeting (Sun-Fri) and abstract dat
- es are two-year same-weekday proxies from the 2026 edition (Curitiba\, De
- c 6-11)\, using its original July 10 abstract deadline rather than the Oc
- tober 10 extension.
+ s-lac-2028
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
  e Series & Sequential Data,Computational Neuroscience
 URL:https://web.archive.org/web/20260521082858/https://fisica.ufpr.br/DDays
  LAC2026/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280814
+DTEND;VALUE=DATE:20280819
+SUMMARY:MTNS 2028 (est.) · Conference
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nStatus: estimated\, checked 2026-10-31. Check the organizer's ca
+ ll before relying on it.\nOfficial source: https://uwaterloo.ca/internati
+ onal-symposium-mathematical-theory-networks-systems/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#mtns-2028\nNotes: As of 2026-10-31 the M
+ TNS 2026 site and IFAC listing announce no MTNS 2028 host\, dates or call
+ \; hosts rotate. MTNS is held every two years. Meeting dates (Mon-Fri) an
+ d the Monday full-paper (Feb 7) and extended-abstract (Feb 14) deadlines 
+ are two-year same-weekday proxies from MTNS 2026 (Aug 17-21\; Feb 9/16). 
+ The same shift maps MTNS 2024 (Cambridge\, Aug 19-23\; papers and abstrac
+ ts Feb 12 after an extension) onto 2026. Publication format is assumed fr
+ om 2026. Website and source links refer to past editions. Size is an edit
+ orial estimate.
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281011
+DTEND;VALUE=DATE:20281012
+SUMMARY:IFAC WC 2029 (est.) · Regular/survey paper deadline (also invited-
+ session\, open-invited-track and demonstration papers)
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nMeeting: 2029-07-08 to 2029-07-13\, Amsterdam\, Netherlands\nStatus
+ : estimated\, checked 2026-10-31. Check the organizer's call before relyi
+ ng on it.\nEstimated day only\; no cutoff hour stored. Check the organize
+ r's call for the real date and time.\nFormat: Paper-based / IFAC-PapersOn
+ Line open-access proceedings\; late-breaking/discussion papers non-archiv
+ al (preprints only)\nPrevious edition's page: https://www.ifac2026.org/fa
+ irContents.do?FAIRMENU_IDX=21837&hl=ENG\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#ifac-wc-2029
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamics-days-lac-2028-conference@scientific-conference-calendar
@@ -1590,5 +1755,49 @@ CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
  e Series & Sequential Data,Computational Neuroscience
 URL:https://dynamicsdays.info/lac
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-deadline-discussion-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20290113
+DTEND;VALUE=DATE:20290114
+SUMMARY:IFAC WC 2029 (est.) · Late-breaking/discussion paper deadline (1-4
+  pages\, preprints only\, non-archival)
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nMeeting: 2029-07-08 to 2029-07-13\, Amsterdam\, Netherlands\nStatus
+ : estimated\, checked 2026-10-31. Check the organizer's call before relyi
+ ng on it.\nEstimated day only\; no cutoff hour stored. Check the organize
+ r's call for the real date and time.\nFormat: Paper-based / IFAC-PapersOn
+ Line open-access proceedings\; late-breaking/discussion papers non-archiv
+ al (preprints only)\nPrevious edition's page: https://www.ifac2026.org/fa
+ irContents.do?FAIRMENU_IDX=21837&hl=ENG\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#ifac-wc-2029
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20290708
+DTEND;VALUE=DATE:20290714
+SUMMARY:IFAC WC 2029 · Conference
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://co
+ nferences.ifac-control.org/wc2029/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#ifac-wc-2029\nNotes: IFAC's triennial flagship since 1960.
+  The official site confirms the 24th congress at Amsterdam RAI\, July 8-1
+ 3\, 2029\; on 2026-10-31 it posts no call\, deadlines or submission site.
+  Both deadlines keep the original 2026 lead times (Busan\, Aug 23-28)\, i
+ .e. papers 270 and discussion papers 176 days before the meeting\; 2023\,
+  also in July\, used Oct 31 for papers. Cutoff hours are unknown. The 202
+ 6 IFAC-journal option is omitted (absent in 2023). Papers appear open acc
+ ess in IFAC-PapersOnLine\; discussion papers only in preprints. XL rests 
+ on IFAC's up to 4\,000 attendees and 3\,206 delegates in 2023. Size is an
+  editorial estimate.
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://conferences.ifac-control.org/wc2029/
+LOCATION:Amsterdam\, Netherlands
 END:VEVENT
 END:VCALENDAR

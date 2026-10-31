@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICDL 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icdl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270320T115900Z
+DTEND:20270320T125900Z
+SUMMARY:ICDL 2027 (est.) · Full-paper submission deadline (6 pages\, IEEE 
+ Xplore)
+DESCRIPTION:IEEE International Conference on Development and Learning\nMeet
+ ing: 2027-09-21 to 2027-09-24\, Campinas\, Brazil\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Full papers in IEEE Xplore + non-archival late-breaking results\nPrevi
+ ous edition's page: https://attend.ieee.org/icdl-2026/contribute/call-for
+ -papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icdl-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Control & Robotics,M
+ achine Learning
+URL:https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icdl-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270619T115900Z
+DTEND:20270619T125900Z
+SUMMARY:ICDL 2027 (est.) · Late-breaking result submission (1-2 pages\, po
+ ster\; not in IEEE Xplore)
+DESCRIPTION:IEEE International Conference on Development and Learning\nMeet
+ ing: 2027-09-21 to 2027-09-24\, Campinas\, Brazil\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Full papers in IEEE Xplore + non-archival late-breaking results\nPrevi
+ ous edition's page: https://attend.ieee.org/icdl-2026/contribute/call-for
+ -papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icdl-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Control & Robotics,M
+ achine Learning
+URL:https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icdl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270925
+SUMMARY:ICDL 2027 · Conference
+DESCRIPTION:IEEE International Conference on Development and Learning\nStat
+ us: confirmed\, checked 2026-10-31\nPrevious edition's page: https://atte
+ nd.ieee.org/icdl-2026/\nVenue Radar: https://gon-uri.github.io/venue-rada
+ r/#icdl-2027\nNotes: The official ICDL 2026 site (checked 2026-10-31) ann
+ ounces ICDL 2027 in Campinas\, Brazil\, Sep 21-24\, 2027\; no 2027 site o
+ r call exists yet\, so in-person mode is assumed. Annual (Prague 2025\, K
+ yoto 2026). Both deadlines are proxies from identical 2025 and 2026 lead 
+ times (papers 186\, late-breaking results 95 days before the meeting\; 20
+ 26 cutoffs 23:59 AoE)\; papers were extended to Apr 3 both years. Journal
+  presentations of already published articles (Apr 1) are not a fresh rout
+ e. icdl2027.org is the unrelated Dielectric Liquids ICDL. Size M from the
+  2026 program (about 104 full papers\, 35 late-breaking posters). Size is
+  an editorial estimate.
+CATEGORIES:Cognitive Science & Computational Cognition,Control & Robotics,M
+ achine Learning
+URL:https://attend.ieee.org/icdl-2026/
+LOCATION:Campinas\, Brazil
+END:VEVENT
+END:VCALENDAR

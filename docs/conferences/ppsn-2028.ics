@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PPSN 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ppsn-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280329T115900Z
+DTEND:20280329T125900Z
+SUMMARY:PPSN 2028 (est.) · Full-paper submission deadline
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2028-08-29 to 2028-09-02 (est.)\, To be announced\nStatus: es
+ timated\, checked 2026-10-31. Check the organizer's call before relying o
+ n it.\nFormat: Paper-based / Springer LNCS proceedings\; all accepted pap
+ ers presented as posters\nPrevious edition's page: https://web.archive.or
+ g/web/20260617225021/https://ppsn2026.disi.unitn.it/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#ppsn-2028
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280829
+DTEND;VALUE=DATE:20280903
+SUMMARY:PPSN 2028 (est.) · Conference
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nStatus: estimated\, checked 2026-10-31. Check the organizer's call bef
+ ore relying on it.\nOfficial source: https://groups.google.com/g/coseal/c
+ /BedmaxGfolg\nVenue Radar: https://gon-uri.github.io/venue-radar/#ppsn-20
+ 28\nNotes: The 20th PPSN is due in 2028\, but no host or dates exist. On 
+ 2026-09-16 the Steering Committee chair called for host bids until Nov 30
+ \, 2026\, with a decision tentatively by mid-January 2027\; that call kee
+ ps poster presentation of all accepted papers and Springer LNCS proceedin
+ gs. Meeting dates (Aug 29-Sep 2) and the Mar 28 AoE paper deadline are tw
+ o-year proxies from PPSN 2026\, using its original pre-extension deadline
+  (extended to Apr 18 in 2026). In-person mode is assumed from 2026. Size 
+ is an editorial estimate.
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://groups.google.com/g/coseal/c/BedmaxGfolg
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

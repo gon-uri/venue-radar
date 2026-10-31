@@ -1,0 +1,123 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ASRU 2025 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:asru-2025-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250528
+DTEND;VALUE=DATE:20250529
+SUMMARY:ASRU 2025 · Regular and special-session paper submission deadline
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/author
+ s/important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ sru-2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/authors/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-deadline-paper-update@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250604
+DTEND;VALUE=DATE:20250605
+SUMMARY:ASRU 2025 · Revision deadline for already submitted regular and sp
+ ecial-session papers
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/author
+ s/important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ sru-2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/authors/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250625
+DTEND;VALUE=DATE:20250626
+SUMMARY:ASRU 2025 · Demo\, system\, data and challenge paper submission de
+ adline (3 + 1 pages\, single-blind)
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/calls/
+ call-for-demos/\nVenue Radar: https://gon-uri.github.io/venue-radar/#asru
+ -2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/calls/call-for-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250806
+DTEND;VALUE=DATE:20250807
+SUMMARY:ASRU 2025 · Paper acceptance notification
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/author
+ s/important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ sru-2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/authors/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250820
+DTEND;VALUE=DATE:20250821
+SUMMARY:ASRU 2025 · Camera-ready paper deadline
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/author
+ s/important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ sru-2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/authors/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20251206
+DTEND;VALUE=DATE:20251211
+SUMMARY:ASRU 2025 · Conference
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nS
+ tatus: confirmed\, checked 2026-10-31\nOfficial source: https://2025.ieee
+ asru.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#asru-2025\
+ nNotes: Official site gives Honolulu (Hyatt Regency Waikiki)\, Dec 6-10\,
+  2025\; biennial flagship IEEE SPS SLTC workshop\, all papers as posters.
+  Regular and special-session papers (6 + 2 pages\, double-blind) were due
+  May 28\, with a June 4 revision for submitted papers\; demo/system/data 
+ and challenge papers (3 + 1 pages) were due June 25. Both tracks are in I
+ EEE Xplore. No cutoff hour was published\; AoE is provisional. Stale auth
+ or-instruction pages list an Aug 13 camera-ready\; the dates page and hom
+ e page say Aug 20. SPS reports 447 submissions\, 212 accepted and 385 reg
+ istrants. From 2027 IEEE ASLI builds on ASRU and SLT\, so no ASRU 2027 is
+  projected. Size is an editorial estimate.
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/
+LOCATION:Honolulu\, Hawaii\, USA
+END:VEVENT
+END:VCALENDAR

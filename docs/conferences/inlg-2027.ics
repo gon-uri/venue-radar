@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:INLG 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:inlg-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270716T115959Z
+DTEND:20270716T125959Z
+SUMMARY:INLG 2027 (est.) · Long and short paper direct submission
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2027-10-17 to 2027-10-21 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACL Anthology proceedings\nPrevious edition's page: http
+ s://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github.
+ io/venue-radar/#inlg-2027
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2027-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270806T115959Z
+DTEND:20270806T125959Z
+SUMMARY:INLG 2027 (est.) · Commitment of ARR-reviewed papers
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2027-10-17 to 2027-10-21 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACL Anthology proceedings\nPrevious edition's page: http
+ s://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github.
+ io/venue-radar/#inlg-2027
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271022
+SUMMARY:INLG 2027 (est.) · Conference
+DESCRIPTION:International Natural Language Generation Conference\nStatus: e
+ stimated\, checked 2026-10-31. Check the organizer's call before relying 
+ on it.\nOfficial source: https://inlgmeeting.org/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#inlg-2027\nNotes: As of 2026-10-31 no INLG 
+ 2027 host\, dates or call is published (2027.inlgmeeting.org does not res
+ olve\; SIGGEN pages list no 2027 edition). INLG has met yearly since at l
+ east 2016\, but timing varies from July to December\; 2025-2026 met in la
+ te October before EMNLP. Meeting dates are a one-year proxy from INLG 202
+ 6 (Oct 17-21). The paper and ARR-commitment dates proxy 2026's original J
+ uly 15 and Aug 5 dates (2025 and 2026 both extended papers to July 18). T
+ he 2026 non-archival track is not projected. Size is an editorial estimat
+ e.
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://inlgmeeting.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CLeaR 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:clear-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261117T115900Z
+DTEND:20261117T125900Z
+SUMMARY:CLeaR 2027 · Paper submission deadline (proceedings track\, OpenRe
+ view)
+DESCRIPTION:Conference on Causal Learning and Reasoning\nMeeting: 2027-05-0
+ 3 to 2027-05-05\, Paris\, France\nStatus: confirmed\, checked 2026-10-31\
+ nFormat: Paper-based / PMLR proceedings (optional 1-page extended-abstrac
+ t opt-out)\nOfficial source: https://www.cclear.cc/2027/CallforPapers\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#clear-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
+ g Theory & Statistical Foundations
+URL:https://www.cclear.cc/2027/CallforPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:clear-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:CLeaR 2027 · Final decisions
+DESCRIPTION:Conference on Causal Learning and Reasoning\nMeeting: 2027-05-0
+ 3 to 2027-05-05\, Paris\, France\nStatus: confirmed\, checked 2026-10-31\
+ nCutoff time unannounced: official deadline day only. Verify the organize
+ r's submission portal.\nFormat: Paper-based / PMLR proceedings (optional 
+ 1-page extended-abstract opt-out)\nOfficial source: https://www.cclear.cc
+ /2027/ImportantDates\nVenue Radar: https://gon-uri.github.io/venue-radar/
+ #clear-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
+ g Theory & Statistical Foundations
+URL:https://www.cclear.cc/2027/ImportantDates
+END:VEVENT
+BEGIN:VEVENT
+UID:clear-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270406T115900Z
+DTEND:20270406T125900Z
+SUMMARY:CLeaR 2027 · Camera-ready deadline
+DESCRIPTION:Conference on Causal Learning and Reasoning\nMeeting: 2027-05-0
+ 3 to 2027-05-05\, Paris\, France\nStatus: confirmed\, checked 2026-10-31\
+ nFormat: Paper-based / PMLR proceedings (optional 1-page extended-abstrac
+ t opt-out)\nOfficial source: https://www.cclear.cc/2027/ImportantDates\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#clear-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
+ g Theory & Statistical Foundations
+URL:https://www.cclear.cc/2027/ImportantDates
+END:VEVENT
+BEGIN:VEVENT
+UID:clear-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270506
+SUMMARY:CLeaR 2027 · Conference
+DESCRIPTION:Conference on Causal Learning and Reasoning\nStatus: confirmed\
+ , checked 2026-10-31\nOfficial source: https://www.cclear.cc/2027\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#clear-2027\nNotes: 6th CLea
+ R (annual since 2022). Official pages give May 3-5\, 2027 at Sorbonne Uni
+ versity's International Conference Center\, Paris\, planned in person wit
+ h hybrid elements for online presentations\; the OpenReview venue agrees.
+  Papers (12 PMLR pages plus appendices\, double-blind) are due Nov 16\, 2
+ 026\, 11:59pm AoE\; accepted papers appear in PMLR unless authors opt for
+  a 1-page extended abstract. On 2026-10-31 the OpenReview API showed the 
+ public Submission invitation active (opened Oct 5\, due Nov 17 11:59 UTC)
+ . The 2027 non-archival causal-dataset call is not in the site menu and l
+ ists no dates. Size M reflects 53 PMLR papers in 2026 and 58 in 2025. Siz
+ e is an editorial estimate.
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
+ g Theory & Statistical Foundations
+URL:https://www.cclear.cc/2027
+LOCATION:Paris\, France
+END:VEVENT
+END:VCALENDAR

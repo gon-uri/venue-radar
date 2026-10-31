@@ -1,0 +1,263 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IVA (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:iva-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260404T115900Z
+DTEND:20260404T125900Z
+SUMMARY:IVA 2026 · Full-paper abstract submission (required first step\; e
+ xtended from March 28)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-papers/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260411T115900Z
+DTEND:20260411T125900Z
+SUMMARY:IVA 2026 · Full paper submission\, 4-8 pages\, double-blind (exten
+ ded from April 4)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-papers/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260411T115900Z
+DTEND:20260411T125900Z
+SUMMARY:IVA 2026 · Workshop and tutorial proposals (extended)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-workshops/\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-review-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:IVA 2026 · Full-paper review notification
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based / ACM Digital
+  Library proceedings\; poster extended abstracts (optional ACM DL)\; demo
+  papers in adjunct proceedings\nOfficial source: https://iva.acm.org/2026
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+SUMMARY:IVA 2026 · Final full-paper acceptance notification
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based / ACM Digital
+  Library proceedings\; poster extended abstracts (optional ACM DL)\; demo
+  papers in adjunct proceedings\nOfficial source: https://iva.acm.org/2026
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-demo-submission@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260623T115900Z
+DTEND:20260623T125900Z
+SUMMARY:IVA 2026 · Demo submission\, 2-page demo paper and video (adjunct 
+ proceedings)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-demos/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260623T115959Z
+DTEND:20260623T125959Z
+SUMMARY:IVA 2026 · Poster track 2-3 page extended abstract (independent of
+  the paper track)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-poster/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-poster/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260708T115900Z
+DTEND:20260708T125900Z
+SUMMARY:IVA 2026 · Full-paper camera-ready deadline
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260723T115900Z
+DTEND:20260723T125900Z
+SUMMARY:IVA 2026 · Doctoral consortium application\, PhD students only (ex
+ tended)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-doctoral-cons
+ ortium/\nVenue Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-doctoral-consortium/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260912
+SUMMARY:IVA 2026 · Conference
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nSta
+ tus: confirmed\, checked 2026-10-31\nOfficial source: https://iva.acm.org
+ /2026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#iva-2026\nNot
+ es: 26th edition\, co-located with ACII 2026 at the Puebla Convention Cen
+ ter. Official pages give Sept 7-11 (welcome reception Sept 7\, paper sess
+ ions Sept 8-10\, workshop\, tutorial and doctoral consortium Sept 11). Fu
+ ll papers had a prior abstract step (the 2025 CFP calls it mandatory)\; b
+ oth were extended from Mar 28/Apr 4 (Feb 2026 Wayback snapshot). All cuto
+ ffs are 23:59 AoE. Posters were an independent 2-3 page extended-abstract
+  route with optional ACM DL inclusion. Demos (adjunct proceedings\, fee) 
+ are schedule-only. The accepted list shows 30 full papers\, 11 posters an
+ d 7 demos\; no official acceptance rate was found. Size is an editorial e
+ stimate.
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
+LOCATION:Puebla\, Mexico
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270329T115900Z
+DTEND:20270329T125900Z
+SUMMARY:IVA 2027 (est.) · Full-paper abstract submission (required first s
+ tep)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
+ mated\, checked 2026-10-31. Check the organizer's call before relying on 
+ it.\nFormat: Paper-based / ACM Digital Library proceedings (2026 format)\
+ ; poster extended abstracts\nPrevious edition's page: https://web.archive
+ .org/web/20260203041035/https://iva.acm.org/2026/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#iva-2027
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270405T115900Z
+DTEND:20270405T125900Z
+SUMMARY:IVA 2027 (est.) · Full paper submission
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
+ mated\, checked 2026-10-31. Check the organizer's call before relying on 
+ it.\nFormat: Paper-based / ACM Digital Library proceedings (2026 format)\
+ ; poster extended abstracts\nPrevious edition's page: https://web.archive
+ .org/web/20260203041035/https://iva.acm.org/2026/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#iva-2027
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270623T115959Z
+DTEND:20270623T125959Z
+SUMMARY:IVA 2027 (est.) · Poster track extended abstract (independent of t
+ he paper track)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
+ mated\, checked 2026-10-31. Check the organizer's call before relying on 
+ it.\nFormat: Paper-based / ACM Digital Library proceedings (2026 format)\
+ ; poster extended abstracts\nPrevious edition's page: https://iva.acm.org
+ /2026/call-for-poster/\nVenue Radar: https://gon-uri.github.io/venue-rada
+ r/#iva-2027
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-poster/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270912
+SUMMARY:IVA 2027 (est.) · Conference
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nSta
+ tus: estimated\, checked 2026-10-31. Check the organizer's call before re
+ lying on it.\nOfficial source: https://iva.acm.org/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#iva-2027\nNotes: As of 2026-10-31 iva.acm
+ .org announces IVA 2027 in Reykjavik\, Iceland\, in September 2027\, with
+  no exact dates\, edition site or call (iva.acm.org/2027/ returns 404). M
+ eeting days Sep 7-11 are a one-year proxy from IVA 2026. Deadlines are pr
+ oxies from the first-announced IVA 2026 dates (abstract Mar 28\, paper Ap
+ r 4\, later extended to Apr 3/Apr 10\; independent poster route June 22).
+  First-announced paper deadlines were Apr 4-11 in 2024-2026 and were exte
+ nded each year. Publication format follows 2026. Demo and doctoral-consor
+ tium tracks are not tracked as routes. Size is an editorial estimate.
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/
+LOCATION:Reykjavik\, Iceland
+END:VEVENT
+END:VCALENDAR

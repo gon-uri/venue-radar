@@ -114,8 +114,9 @@ All recorded milestones can enter ICS even if they are not fresh-submission
 opportunities. The website's opportunities checkbox does not rewrite downloads.
 Date-only cutoffs export all-day events. A `cutoff_note` is added to the event
 description. Event titles are `<short title> (est.) · <label>`; descriptions
-carry status, submission format, the source, a link to the edition row and
-the Notes, and the four display topics travel as CATEGORIES. A test keeps every feed below
+carry status, submission format, the source and a link to the edition row;
+an edition's Notes appear once, on its meeting event (ADR-045). The four
+display topics travel as CATEGORIES. A test keeps every feed below
 1 MB (ADR-044). UTF-8 line folding and CRLF are
 intentional; do not trim folded content spaces as cosmetic whitespace fixes.
 

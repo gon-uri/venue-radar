@@ -1,0 +1,201 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IUI 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:iui-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260707T115900Z
+DTEND:20260707T125900Z
+SUMMARY:IUI 2027 · Workshop proposals
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-workshops/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260814T115900Z
+DTEND:20260814T125900Z
+SUMMARY:IUI 2027 · Papers mandatory abstract registration (PCS)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260821T115900Z
+DTEND:20260821T125900Z
+SUMMARY:IUI 2027 · Papers submission (variable length\; long or short oral
+  presentation)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260821T115900Z
+DTEND:20260821T125900Z
+SUMMARY:IUI 2027 · Tutorial proposals
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-tutorials/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-tutorials/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261020T115900Z
+DTEND:20261020T125900Z
+SUMMARY:IUI 2027 · Doctoral consortium applications (doctoral or advanced 
+ master's students\; advisor letter required)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-doctoral-consortium/\nVenue Radar: https
+ ://gon-uri.github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-doctoral-consortium/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-rebuttal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261106T115900Z
+DTEND:20261106T125900Z
+SUMMARY:IUI 2027 · Papers invited rebuttal deadline (papers invited to reb
+ ut only)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261110T115900Z
+DTEND:20261110T125900Z
+SUMMARY:IUI 2027 · Workshop papers (common deadline\; submit to each accep
+ ted workshop's own CFP\; joint CEUR-or-similar proceedings\, not ACM DL)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-workshops/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261111T115900Z
+DTEND:20261111T125900Z
+SUMMARY:IUI 2027 · Posters and demos submission (4-page papers\; demos als
+ o need a video)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-posters-demos/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-posters-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261124T115900Z
+DTEND:20261124T125900Z
+SUMMARY:IUI 2027 · Papers final decision notification
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261204T115900Z
+DTEND:20261204T125900Z
+SUMMARY:IUI 2027 · Papers camera-ready submission
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270212
+SUMMARY:IUI 2027 · Conference
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nStatus: confirme
+ d\, checked 2026-10-31\nOfficial source: https://iui.acm.org/2027/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#iui-2027\nNotes: Official 
+ IUI 2027 pages confirm Feb 8-11\, 2027 at Helsinki Congress Paasitorni\; 
+ all deadlines are end of day AoE. Papers closed Aug 20 after the Aug 13 a
+ bstract registration in PCS. Still ahead on Oct 31: workshop papers (Nov 
+ 9 common date\, matched on 7 of 8 workshop sites\, each with its own CFP\
+ ; joint CEUR-or-similar proceedings) and 4-page posters and demos (Nov 10
+ \; companion proceedings). Portals not checked. ACM DL papers are open ac
+ cess\, with an APC outside ACM Open unless waived\; one author must prese
+ nt in person. IUI 2026 moved from March to July 13-16 (Limassol). Size M 
+ from 113 listed IUI 2026 papers plus posters and demos. Size is an editor
+ ial estimate.
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/
+LOCATION:Helsinki\, Finland
+END:VEVENT
+END:VCALENDAR

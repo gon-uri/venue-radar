@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:COPA 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:copa-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:COPA 2027 · Full paper submission (up to 20 pages\, JMLR style)
+DESCRIPTION:Symposium on Conformal and Probabilistic Prediction with Applic
+ ations\nMeeting: 2027-09-14 to 2027-09-16\, Genoa\, Italy\nStatus: confir
+ med\, checked 2026-10-31\nCutoff time unannounced: official deadline day 
+ only. Verify the organizer's submission portal.\nFormat: Paper-based / PM
+ LR proceedings (full papers and 2-page poster abstracts)\nOfficial source
+ : https://copa-conference.com/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#copa-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Learning Theory & Statis
+ tical Foundations,Machine Learning
+URL:https://copa-conference.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:copa-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:COPA 2027 · Author notification
+DESCRIPTION:Symposium on Conformal and Probabilistic Prediction with Applic
+ ations\nMeeting: 2027-09-14 to 2027-09-16\, Genoa\, Italy\nStatus: confir
+ med\, checked 2026-10-31\nCutoff time unannounced: official deadline day 
+ only. Verify the organizer's submission portal.\nFormat: Paper-based / PM
+ LR proceedings (full papers and 2-page poster abstracts)\nOfficial source
+ : https://copa-conference.com/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#copa-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Learning Theory & Statis
+ tical Foundations,Machine Learning
+URL:https://copa-conference.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:copa-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:COPA 2027 · Poster submission (2-page extended abstract\, publishe
+ d in PMLR)
+DESCRIPTION:Symposium on Conformal and Probabilistic Prediction with Applic
+ ations\nMeeting: 2027-09-14 to 2027-09-16\, Genoa\, Italy\nStatus: confir
+ med\, checked 2026-10-31\nCutoff time unannounced: official deadline day 
+ only. Verify the organizer's submission portal.\nFormat: Paper-based / PM
+ LR proceedings (full papers and 2-page poster abstracts)\nOfficial source
+ : https://copa-conference.com/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#copa-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Learning Theory & Statis
+ tical Foundations,Machine Learning
+URL:https://copa-conference.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:copa-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270917
+SUMMARY:COPA 2027 · Conference
+DESCRIPTION:Symposium on Conformal and Probabilistic Prediction with Applic
+ ations\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://
+ copa-conference.com/\nVenue Radar: https://gon-uri.github.io/venue-radar/
+ #copa-2027\nNotes: The official COPA 2027 page confirms the 16th symposiu
+ m at the University of Genoa\, September 14-16\, 2027\, with full papers 
+ due May 1\, 2-page poster abstracts due July 1 and author notification Ju
+ ne 15. No hour or zone is stated\, so cutoffs use provisional end-of-day 
+ AoE. COPA 2026 extended papers from May 1 to May 20 AoE and posters from 
+ July 1 to August 1\, so check for extensions. Accepted papers and poster 
+ abstracts appear in PMLR. The CMT COPA2027 site requires login\, so openi
+ ng is unverified. Annual since 2012. Size S reflects 47 full papers and 1
+ 9 extended abstracts in PMLR vol. 329 (2026)\; attendance is not publishe
+ d. Size is an editorial estimate.
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Learning Theory & Statis
+ tical Foundations,Machine Learning
+URL:https://copa-conference.com/
+LOCATION:Genoa\, Italy
+END:VEVENT
+END:VCALENDAR

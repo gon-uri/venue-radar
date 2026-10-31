@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BIOSIG 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:biosig-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:BIOSIG 2027 (est.) · Paper submission deadline
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nMeeting: 2027-11-24 to 2027-11-25 (est.)\, To be announced\nStatus: e
+ stimated\, checked 2026-10-31. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based / GI LNI proceedin
+ gs\, submitted to IEEE Xplore (2026 format)\nPrevious edition's page: htt
+ ps://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#biosig-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271126
+SUMMARY:BIOSIG 2027 (est.) · Conference
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nStatus: estimated\, checked 2026-10-31. Check the organizer's call be
+ fore relying on it.\nOfficial source: https://biosig.de/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#biosig-2027\nNotes: Not announced on
+  biosig.de or the GI BIOSIG pages as of 2026-10-31. BIOSIG is annual (CfP
+ : 'its annual conference'\; the GI archive lists an edition every year si
+ nce 2013). Meeting dates (Wed-Thu) and the paper deadline are one-year sa
+ me-weekday proxies from BIOSIG 2026\, using its original July 30 deadline
+  rather than the Aug 16 extension. Editions 2018-2025 met in mid or late 
+ September\, so 2027 timing may move earlier. Recent in-person editions me
+ t in Darmstadt (2020 was virtual)\, but no 2027 host is published. Size S
+  follows the 2026 programme. Size is an editorial estimate.
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

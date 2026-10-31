@@ -19,10 +19,7 @@ DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to
  2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
  at: Paper-based / Springer proceedings\nOfficial source: https://eccv.ecv
  a.net/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#eccv-2026\nNotes: Completed 2026 edition retained for the archiv
- e. Official dates use 23:00 CET for registration/papers (22:00 UTC)\, but
-  camera-ready is AoE. ECCV is biennial in even years. XXL is supported by
-  the 2024 organizers' report of 6\,705 participants.
+ e-radar/#eccv-2026
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://eccv.ecva.net/Conferences/2026/Dates
@@ -37,10 +34,7 @@ DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to
  2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
  at: Paper-based / Springer proceedings\nOfficial source: https://eccv.ecv
  a.net/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#eccv-2026\nNotes: Completed 2026 edition retained for the archiv
- e. Official dates use 23:00 CET for registration/papers (22:00 UTC)\, but
-  camera-ready is AoE. ECCV is biennial in even years. XXL is supported by
-  the 2024 organizers' report of 6\,705 participants.
+ e-radar/#eccv-2026
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://eccv.ecva.net/Conferences/2026/Dates
@@ -55,10 +49,7 @@ DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to
  2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
  at: Paper-based / Springer proceedings\nOfficial source: https://eccv.ecv
  a.net/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#eccv-2026\nNotes: Completed 2026 edition retained for the archiv
- e. Official dates use 23:00 CET for registration/papers (22:00 UTC)\, but
-  camera-ready is AoE. ECCV is biennial in even years. XXL is supported by
-  the 2024 organizers' report of 6\,705 participants.
+ e-radar/#eccv-2026
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://eccv.ecva.net/Conferences/2026/Dates
@@ -73,15 +64,27 @@ DESCRIPTION:European Conference on Visual Information Processing\nMeeting:
  2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
  hecked 2026-10-07\nFormat: Regular and special-session papers\nOfficial s
  ource: https://euvip2026.github.io/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#euvip-2026\nNotes: Completed 2026 edition retained for th
- e archive. Latest organizer announcements supersede the original CFP dead
- lines\, confirming June 15 for regular papers and July 7 for special sess
- ions\, both 23:59 AoE. Recent 2024-2026 editions support an annual planni
- ng cadence. S is an editorial estimate\; no ICORE or CCF rank is borrowed
-  from related venues.
+ io/venue-radar/#euvip-2026
 CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
  Learning,Deep Representation Learning
 URL:https://euvip2026.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260628T235900Z
+DTEND:20260629T005900Z
+SUMMARY:ACCV 2026 · Workshop and tutorial proposal deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nCutoff n
+ ote: The dates and tutorial pages give 23:59 GMT\; the workshop-proposal 
+ call says 23:59 AoE. The earlier GMT cutoff is stored.\nFormat: Paper-bas
+ ed / Springer LNCS proceedings\nOfficial source: https://accv2026.org/sub
+ missions/call-for-workshops/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/call-for-workshops/
 END:VEVENT
 BEGIN:VEVENT
 UID:eccv-2026-deadline-camera-ready@scientific-conference-calendar
@@ -93,13 +96,57 @@ DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to
  2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
  at: Paper-based / Springer proceedings\nOfficial source: https://eccv.ecv
  a.net/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#eccv-2026\nNotes: Completed 2026 edition retained for the archiv
- e. Official dates use 23:00 CET for registration/papers (22:00 UTC)\, but
-  camera-ready is AoE. ECCV is biennial in even years. XXL is supported by
-  the 2024 organizers' report of 6\,705 participants.
+ e-radar/#eccv-2026
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://eccv.ecva.net/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260703T235900Z
+DTEND:20260704T005900Z
+SUMMARY:ACCV 2026 · Mandatory OpenReview paper registration (title\, abstr
+ act\, authors)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/author-guidelines/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260705T235900Z
+DTEND:20260706T005900Z
+SUMMARY:ACCV 2026 · Main-conference paper submission deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ ccv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260707T115900Z
+DTEND:20260707T125900Z
+SUMMARY:IUI 2027 · Workshop proposals
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-workshops/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-workshops/
 END:VEVENT
 BEGIN:VEVENT
 UID:euvip-2026-deadline-special-session-paper@scientific-conference-calenda
@@ -112,15 +159,90 @@ DESCRIPTION:European Conference on Visual Information Processing\nMeeting:
  2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
  hecked 2026-10-07\nFormat: Regular and special-session papers\nOfficial s
  ource: https://euvip2026.github.io/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#euvip-2026\nNotes: Completed 2026 edition retained for th
- e archive. Latest organizer announcements supersede the original CFP dead
- lines\, confirming June 15 for regular papers and July 7 for special sess
- ions\, both 23:59 AoE. Recent 2024-2026 editions support an annual planni
- ng cadence. S is an editorial estimate\; no ICORE or CCF rank is borrowed
-  from related venues.
+ io/venue-radar/#euvip-2026
 CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
  Learning,Deep Representation Learning
 URL:https://euvip2026.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260708T235900Z
+DTEND:20260709T005900Z
+SUMMARY:ACCV 2026 · Supplementary material deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/author-guidelines/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-demo-application@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260806T235900Z
+DTEND:20260807T005900Z
+SUMMARY:ACCV 2026 · Demo abstract submission via application form (live de
+ mos\; previously published work allowed)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/call-for-demos/\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/call-for-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260814T115900Z
+DTEND:20260814T125900Z
+SUMMARY:IUI 2027 · Papers mandatory abstract registration (PCS)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260821T115900Z
+DTEND:20260821T125900Z
+SUMMARY:IUI 2027 · Papers submission (variable length\; long or short oral
+  presentation)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260821T115900Z
+DTEND:20260821T125900Z
+SUMMARY:IUI 2027 · Tutorial proposals
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-tutorials/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-tutorials/
 END:VEVENT
 BEGIN:VEVENT
 UID:3dv-2027-deadline-abstract@scientific-conference-calendar
@@ -132,10 +254,6 @@ DESCRIPTION:International Conference on 3D Vision\nMeeting: 2027-04-06 to 2
  027-04-09\, Thessaloniki\, Greece\nStatus: confirmed\, checked 2026-10-07
  \nFormat: Paper-based / OpenReview\nOfficial source: https://3dvconf.gith
  ub.io/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2027
- \nNotes: The official site confirms Thessaloniki and identical abstract/p
- aper cutoffs at 23:59 AoE. Its archive documents recent annual editions. 
- CCF has a direct 3DV entry\, but no direct ICORE2026 rank was found. M is
-  an editorial size estimate\, not measured attendance.
 CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
  ization,Signal Processing
 URL:https://3dvconf.github.io/2027/
@@ -150,10 +268,6 @@ DESCRIPTION:International Conference on 3D Vision\nMeeting: 2027-04-06 to 2
  027-04-09\, Thessaloniki\, Greece\nStatus: confirmed\, checked 2026-10-07
  \nFormat: Paper-based / OpenReview\nOfficial source: https://3dvconf.gith
  ub.io/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2027
- \nNotes: The official site confirms Thessaloniki and identical abstract/p
- aper cutoffs at 23:59 AoE. Its archive documents recent annual editions. 
- CCF has a direct 3DV entry\, but no direct ICORE2026 rank was found. M is
-  an editorial size estimate\, not measured attendance.
 CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
  ization,Signal Processing
 URL:https://3dvconf.github.io/2027/
@@ -168,10 +282,6 @@ DESCRIPTION:International Conference on 3D Vision\nMeeting: 2027-04-06 to 2
  027-04-09\, Thessaloniki\, Greece\nStatus: confirmed\, checked 2026-10-07
  \nFormat: Paper-based / OpenReview\nOfficial source: https://3dvconf.gith
  ub.io/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2027
- \nNotes: The official site confirms Thessaloniki and identical abstract/p
- aper cutoffs at 23:59 AoE. Its archive documents recent annual editions. 
- CCF has a direct 3DV entry\, but no direct ICORE2026 rank was found. M is
-  an editorial size estimate\, not measured attendance.
 CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
  ization,Signal Processing
 URL:https://3dvconf.github.io/2027/
@@ -195,6 +305,22 @@ URL:https://eccv.ecva.net/Conferences/2026/Dates
 LOCATION:Malmo\, Sweden
 END:VEVENT
 BEGIN:VEVENT
+UID:accv-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:ACCV 2026 · Paper decision notification
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nCutoff t
+ ime unannounced: official deadline day only. Verify the organizer's submi
+ ssion portal.\nFormat: Paper-based / Springer LNCS proceedings\nOfficial 
+ source: https://accv2026.org/submissions/author-guidelines/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
 UID:euvip-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260928
@@ -214,6 +340,56 @@ URL:https://euvip2026.github.io/
 LOCATION:Luxembourg\, Luxembourg
 END:VEVENT
 BEGIN:VEVENT
+UID:accv-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261004T235900Z
+DTEND:20261005T005900Z
+SUMMARY:ACCV 2026 · Camera-ready deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/author-guidelines/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261020T115900Z
+DTEND:20261020T125900Z
+SUMMARY:IUI 2027 · Doctoral consortium applications (doctoral or advanced 
+ master's students\; advisor letter required)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-doctoral-consortium/\nVenue Radar: https
+ ://gon-uri.github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-doctoral-consortium/
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261024T065900Z
+DTEND:20261024T075900Z
+SUMMARY:IPCAI 2027 · Regular-paper intention to submit (mandatory CMT regi
+ stration of title\, structured abstract and authors\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
 UID:fg-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261024T115900Z
@@ -224,18 +400,28 @@ DESCRIPTION:IEEE International Conference on Automatic Face and Gesture Rec
  : confirmed\, checked 2026-10-30\nFormat: Long and short papers / face\, 
  gesture\, and body recognition\nOfficial source: https://fg2027.ieee-biom
  etrics.org/dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#fg
- -2027\nNotes: Official CFP and dates pages\, rechecked 2026-10-30\, keep 
- the abstract and paper deadlines extended to October 23 and 30 (from Octo
- ber 9 and 16)\; cutoffs are AoE. Workshop and tutorial proposals were ext
- ended from October 20 to November 14\, with notification moved to Novembe
- r 18. The full event includes April 26/30 workshops\; main sessions are A
- pril 27-29. Demo (January 4)\, Doctoral Consortium (February 15) and comp
- etition steps are not tracked. CMT opening was announced for September 25
-  without an exact hour\; no portal-open observation is fabricated. M is a
- n editorial estimate.
+ -2027
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Machine Learning
 URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261031T065900Z
+DTEND:20261031T075900Z
+SUMMARY:IPCAI 2027 · Regular paper submission (up to 12 pages\, single-bli
+ nd\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
 END:VEVENT
 BEGIN:VEVENT
 UID:fg-2027-deadline-full-paper@scientific-conference-calendar
@@ -248,18 +434,44 @@ DESCRIPTION:IEEE International Conference on Automatic Face and Gesture Rec
  : confirmed\, checked 2026-10-30\nFormat: Long and short papers / face\, 
  gesture\, and body recognition\nOfficial source: https://fg2027.ieee-biom
  etrics.org/dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#fg
- -2027\nNotes: Official CFP and dates pages\, rechecked 2026-10-30\, keep 
- the abstract and paper deadlines extended to October 23 and 30 (from Octo
- ber 9 and 16)\; cutoffs are AoE. Workshop and tutorial proposals were ext
- ended from October 20 to November 14\, with notification moved to Novembe
- r 18. The full event includes April 26/30 workshops\; main sessions are A
- pril 27-29. Demo (January 4)\, Doctoral Consortium (February 15) and comp
- etition steps are not tracked. CMT opening was announced for September 25
-  without an exact hour\; no portal-open observation is fabricated. M is a
- n editorial estimate.
+ -2027
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Machine Learning
 URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-rebuttal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261106T115900Z
+DTEND:20261106T125900Z
+SUMMARY:IUI 2027 · Papers invited rebuttal deadline (papers invited to reb
+ ut only)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261110T115900Z
+DTEND:20261110T125900Z
+SUMMARY:IUI 2027 · Workshop papers (common deadline\; submit to each accep
+ ted workshop's own CFP\; joint CEUR-or-similar proceedings\, not ACM DL)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-workshops/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-workshops/
 END:VEVENT
 BEGIN:VEVENT
 UID:cvpr-2027-deadline-abstract@scientific-conference-calendar
@@ -271,19 +483,27 @@ DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
  nMeeting: 2027-06-20 to 2027-06-25\, Seattle\, Washington\, USA\nStatus: 
  confirmed\, checked 2026-10-30\nFormat: Paper-based / OpenReview\nOfficia
  l source: https://cvpr.thecvf.com/Conferences/2027/CallForPapers\nVenue R
- adar: https://gon-uri.github.io/venue-radar/#cvpr-2027\nNotes: Official 2
- 027 homepage\, CFP and Dates page\, rechecked 2026-10-30\, confirm Seattl
- e and fixed AoE dates with no extension\; the Call for Workshops states t
- hat CVPR 2027 is in person. The mandatory Nov 10 paper registration gates
-  paper submission: no new submissions and no author additions or removals
-  after it. OpenReview's public submission invitation\, open to all users 
- since Oct 27 and due Nov 10 AoE\, was live on 2026-10-30. XXL is supporte
- d by the organizer's description of more than 10\,000 annual attendees. H
- istorical acceptance statistics refer to the main technical program\, not
-  workshops.
+ adar: https://gon-uri.github.io/venue-radar/#cvpr-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261111T115900Z
+DTEND:20261111T125900Z
+SUMMARY:IUI 2027 · Posters and demos submission (4-page papers\; demos als
+ o need a video)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-posters-demos/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-posters-demos/
 END:VEVENT
 BEGIN:VEVENT
 UID:fg-2027-deadline-workshop@scientific-conference-calendar
@@ -296,15 +516,7 @@ DESCRIPTION:IEEE International Conference on Automatic Face and Gesture Rec
  : confirmed\, checked 2026-10-30\nFormat: Long and short papers / face\, 
  gesture\, and body recognition\nOfficial source: https://fg2027.ieee-biom
  etrics.org/dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#fg
- -2027\nNotes: Official CFP and dates pages\, rechecked 2026-10-30\, keep 
- the abstract and paper deadlines extended to October 23 and 30 (from Octo
- ber 9 and 16)\; cutoffs are AoE. Workshop and tutorial proposals were ext
- ended from October 20 to November 14\, with notification moved to Novembe
- r 18. The full event includes April 26/30 workshops\; main sessions are A
- pril 27-29. Demo (January 4)\, Doctoral Consortium (February 15) and comp
- etition steps are not tracked. CMT opening was announced for September 25
-  without an exact hour\; no portal-open observation is fabricated. M is a
- n editorial estimate.
+ -2027
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Machine Learning
 URL:https://fg2027.ieee-biometrics.org/dates/
@@ -319,16 +531,7 @@ DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
  nMeeting: 2027-06-20 to 2027-06-25\, Seattle\, Washington\, USA\nStatus: 
  confirmed\, checked 2026-10-30\nFormat: Paper-based / OpenReview\nOfficia
  l source: https://cvpr.thecvf.com/Conferences/2027/CallForPapers\nVenue R
- adar: https://gon-uri.github.io/venue-radar/#cvpr-2027\nNotes: Official 2
- 027 homepage\, CFP and Dates page\, rechecked 2026-10-30\, confirm Seattl
- e and fixed AoE dates with no extension\; the Call for Workshops states t
- hat CVPR 2027 is in person. The mandatory Nov 10 paper registration gates
-  paper submission: no new submissions and no author additions or removals
-  after it. OpenReview's public submission invitation\, open to all users 
- since Oct 27 and due Nov 10 AoE\, was live on 2026-10-30. XXL is supporte
- d by the organizer's description of more than 10\,000 annual attendees. H
- istorical acceptance statistics refer to the main technical program\, not
-  workshops.
+ adar: https://gon-uri.github.io/venue-radar/#cvpr-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
@@ -343,19 +546,165 @@ DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
  nMeeting: 2027-06-20 to 2027-06-25\, Seattle\, Washington\, USA\nStatus: 
  confirmed\, checked 2026-10-30\nFormat: Paper-based / OpenReview\nOfficia
  l source: https://cvpr.thecvf.com/Conferences/2027/CallForPapers\nVenue R
- adar: https://gon-uri.github.io/venue-radar/#cvpr-2027\nNotes: Official 2
- 027 homepage\, CFP and Dates page\, rechecked 2026-10-30\, confirm Seattl
- e and fixed AoE dates with no extension\; the Call for Workshops states t
- hat CVPR 2027 is in person. The mandatory Nov 10 paper registration gates
-  paper submission: no new submissions and no author additions or removals
-  after it. OpenReview's public submission invitation\, open to all users 
- since Oct 27 and due Nov 10 AoE\, was live on 2026-10-30. XXL is supporte
- d by the organizer's description of more than 10\,000 annual attendees. H
- istorical acceptance statistics refer to the main technical program\, not
-  workshops.
+ adar: https://gon-uri.github.io/venue-radar/#cvpr-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261124T115900Z
+DTEND:20261124T125900Z
+SUMMARY:IUI 2027 · Papers final decision notification
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-special-session-proposal@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20261128T115900Z
+DTEND:20261128T125900Z
+SUMMARY:ICME 2027 · Special session proposal deadline (organizers\, by ema
+ il)
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\nOfficial sou
+ rce: https://2027.ieeeicme.org/authors/call-for-special-session-proposals
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/authors/call-for-special-session-proposals
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICME 2027 · Workshop proposal deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261204T115900Z
+DTEND:20261204T125900Z
+SUMMARY:IUI 2027 · Papers camera-ready submission
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 10-31\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\nOfficial source: h
+ ttps://iui.acm.org/2027/call-for-papers/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:ICME 2027 · Tutorial proposal deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\nOfficial sou
+ rce: https://2027.ieeeicme.org/about/important-dates\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261219
+SUMMARY:ACCV 2026 · Conference
+DESCRIPTION:Asian Conference on Computer Vision\nStatus: confirmed\, checke
+ d 2026-10-31\nOfficial source: https://accv2026.org/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#accv-2026\nNotes: Official site of the 1
+ 8th ACCV\, sponsored by the Asian Federation of Computer Vision\, confirm
+ s Grand Cube Osaka\, Dec 14-18 (workshops/tutorials Dec 14-15\, main conf
+ erence Dec 16-18)\, with in-person presentation required. Deadlines are 2
+ 3:59 GMT\, matching the OpenReview venue configuration\; the July 3 regis
+ tration was mandatory\, so every main-paper route is closed. The demo for
+ m is schedule-only because demos may show published work. Co-located work
+ shops run their own calls\, which are not tracked. Papers are 14-page LNC
+ S\, double-blind\; award papers are invited to an IJCV special issue. L r
+ eflects 378 accepted papers. Size is an editorial estimate.
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/
+LOCATION:Osaka\, Japan
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261217T075900Z
+DTEND:20261217T085900Z
+SUMMARY:IPCAI 2027 · Initial regular-paper decisions (accept\, reject or r
+ evise)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-grand-challenge-proposal@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ICME 2027 · Grand challenge proposal deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261231T115900Z
+DTEND:20261231T125900Z
+SUMMARY:ICME 2027 · Regular paper submission deadline (including special-s
+ ession papers)
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\nOfficial sou
+ rce: https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web
+ -05.pdf\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web-05
+ .pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:fg-2027-deadline-workshop-paper@scientific-conference-calendar
@@ -368,18 +717,65 @@ DESCRIPTION:IEEE International Conference on Automatic Face and Gesture Rec
  : confirmed\, checked 2026-10-30\nFormat: Long and short papers / face\, 
  gesture\, and body recognition\nOfficial source: https://fg2027.ieee-biom
  etrics.org/dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#fg
- -2027\nNotes: Official CFP and dates pages\, rechecked 2026-10-30\, keep 
- the abstract and paper deadlines extended to October 23 and 30 (from Octo
- ber 9 and 16)\; cutoffs are AoE. Workshop and tutorial proposals were ext
- ended from October 20 to November 14\, with notification moved to Novembe
- r 18. The full event includes April 26/30 workshops\; main sessions are A
- pril 27-29. Demo (January 4)\, Doctoral Consortium (February 15) and comp
- etition steps are not tracked. CMT opening was announced for September 25
-  without an exact hour\; no portal-open observation is fabricated. M is a
- n editorial estimate.
+ -2027
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Machine Learning
 URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-journal-presentation@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T075900Z
+DTEND:20270116T085900Z
+SUMMARY:IPCAI 2027 · Long abstract Track 2: presentation of a journal arti
+ cle accepted or published since Oct 16\, 2025 (up to 4 pages\; no extensi
+ on)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T075900Z
+DTEND:20270116T085900Z
+SUMMARY:IPCAI 2027 · Long abstract Track 1: late-breaking research (up to 
+ 4 pages\, unpublished work\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-revision@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T075900Z
+DTEND:20270116T085900Z
+SUMMARY:IPCAI 2027 · Regular-paper revisions due (invited revise decisions
+  only)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-siggraph-2027-deadline-abstract@scientific-conference-calendar
@@ -392,12 +788,7 @@ DESCRIPTION:ACM SIGGRAPH Annual Conference\nMeeting: 2027-08-08 to 2027-08-
  12\, Anaheim\, California\, USA\nStatus: confirmed\, checked 2026-10-28\n
  Format: Technical papers / conference and ACM TOG tracks\nOfficial source
  : https://s2027.siggraph.org/program/technical-papers/\nVenue Radar: http
- s://gon-uri.github.io/venue-radar/#acm-siggraph-2027\nNotes: The 2027 sit
- e confirms the Anaheim Convention Center\, Aug 8-12\, 2027. Its Technical
-  Papers page (updated 2026-09-30) gives Jan 21/28/29\, 2027 at 22:00 UTC\
- ; the older Submit page still says TBA and no exact opening is published.
-  The upload step is not a new paper route. Not SIGGRAPH Asia\; ranks refe
- r to the conference\, not TOG. XXL is an editorial estimate.
+ s://gon-uri.github.io/venue-radar/#acm-siggraph-2027
 CATEGORIES:Computer Graphics & Visualization,Machine Learning,Computer Visi
  on & Pattern Recognition
 URL:https://s2027.siggraph.org/program/technical-papers/
@@ -413,15 +804,7 @@ DESCRIPTION:IEEE International Conference on Automatic Face and Gesture Rec
  : confirmed\, checked 2026-10-30\nFormat: Long and short papers / face\, 
  gesture\, and body recognition\nOfficial source: https://fg2027.ieee-biom
  etrics.org/dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#fg
- -2027\nNotes: Official CFP and dates pages\, rechecked 2026-10-30\, keep 
- the abstract and paper deadlines extended to October 23 and 30 (from Octo
- ber 9 and 16)\; cutoffs are AoE. Workshop and tutorial proposals were ext
- ended from October 20 to November 14\, with notification moved to Novembe
- r 18. The full event includes April 26/30 workshops\; main sessions are A
- pril 27-29. Demo (January 4)\, Doctoral Consortium (February 15) and comp
- etition steps are not tracked. CMT opening was announced for September 25
-  without an exact hour\; no portal-open observation is fabricated. M is a
- n editorial estimate.
+ -2027
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Machine Learning
 URL:https://fg2027.ieee-biometrics.org/dates/
@@ -436,12 +819,7 @@ DESCRIPTION:ACM SIGGRAPH Annual Conference\nMeeting: 2027-08-08 to 2027-08-
  12\, Anaheim\, California\, USA\nStatus: confirmed\, checked 2026-10-28\n
  Format: Technical papers / conference and ACM TOG tracks\nOfficial source
  : https://s2027.siggraph.org/program/technical-papers/\nVenue Radar: http
- s://gon-uri.github.io/venue-radar/#acm-siggraph-2027\nNotes: The 2027 sit
- e confirms the Anaheim Convention Center\, Aug 8-12\, 2027. Its Technical
-  Papers page (updated 2026-09-30) gives Jan 21/28/29\, 2027 at 22:00 UTC\
- ; the older Submit page still says TBA and no exact opening is published.
-  The upload step is not a new paper route. Not SIGGRAPH Asia\; ranks refe
- r to the conference\, not TOG. XXL is an editorial estimate.
+ s://gon-uri.github.io/venue-radar/#acm-siggraph-2027
 CATEGORIES:Computer Graphics & Visualization,Machine Learning,Computer Visi
  on & Pattern Recognition
 URL:https://s2027.siggraph.org/program/technical-papers/
@@ -456,15 +834,69 @@ DESCRIPTION:ACM SIGGRAPH Annual Conference\nMeeting: 2027-08-08 to 2027-08-
  12\, Anaheim\, California\, USA\nStatus: confirmed\, checked 2026-10-28\n
  Format: Technical papers / conference and ACM TOG tracks\nOfficial source
  : https://s2027.siggraph.org/program/technical-papers/\nVenue Radar: http
- s://gon-uri.github.io/venue-radar/#acm-siggraph-2027\nNotes: The 2027 sit
- e confirms the Anaheim Convention Center\, Aug 8-12\, 2027. Its Technical
-  Papers page (updated 2026-09-30) gives Jan 21/28/29\, 2027 at 22:00 UTC\
- ; the older Submit page still says TBA and no exact opening is published.
-  The upload step is not a new paper route. Not SIGGRAPH Asia\; ranks refe
- r to the conference\, not TOG. XXL is an editorial estimate.
+ s://gon-uri.github.io/venue-radar/#acm-siggraph-2027
 CATEGORIES:Computer Graphics & Visualization,Machine Learning,Computer Visi
  on & Pattern Recognition
 URL:https://s2027.siggraph.org/program/technical-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270212
+SUMMARY:IUI 2027 · Conference
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nStatus: confirme
+ d\, checked 2026-10-31\nOfficial source: https://iui.acm.org/2027/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#iui-2027\nNotes: Official 
+ IUI 2027 pages confirm Feb 8-11\, 2027 at Helsinki Congress Paasitorni\; 
+ all deadlines are end of day AoE. Papers closed Aug 20 after the Aug 13 a
+ bstract registration in PCS. Still ahead on Oct 31: workshop papers (Nov 
+ 9 common date\, matched on 7 of 8 workshop sites\, each with its own CFP\
+ ; joint CEUR-or-similar proceedings) and 4-page posters and demos (Nov 10
+ \; companion proceedings). Portals not checked. ACM DL papers are open ac
+ cess\, with an APC outside ACM Open unless waived\; one author must prese
+ nt in person. IUI 2026 moved from March to July 13-16 (Limassol). Size M 
+ from 113 listed IUI 2026 papers plus posters and demos. Size is an editor
+ ial estimate.
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/
+LOCATION:Helsinki\, Finland
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-final-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270217T075900Z
+DTEND:20270217T085900Z
+SUMMARY:IPCAI 2027 · Final decisions released (all papers)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270304T075900Z
+DTEND:20270304T085900Z
+SUMMARY:IPCAI 2027 · Presenting-author registration deadline (registration
+  via the CARS website)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027\nVenue Radar: https://gon-uri.github.io/venue-radar/#ipcai-
+ 2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027
 END:VEVENT
 BEGIN:VEVENT
 UID:iccv-2027-deadline-abstract@scientific-conference-calendar
@@ -477,12 +909,7 @@ DESCRIPTION:IEEE/CVF International Conference on Computer Vision\nMeeting:
   2026-10-28. Check the organizer's call before relying on it.\nFormat: Pa
  per-based / OpenReview\nPrevious edition's page: https://iccv.thecvf.com/
  Conferences/2025/CallForPapers\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#iccv-2027\nNotes: As of 2026-10-28 the 2027 homepage header an
- d Dates page give Sun Oct 3 to Thu Oct 7 (workshops/tutorials Oct 3-4\, m
- ain conference Oct 5-7) at the Hong Kong Convention and Expo Center (HKCE
- C)\; the homepage venue paragraph conflicts\, still saying Oct 2-8. No 20
- 27 call is published\; paper dates are biennial proxies from 2025's 23:59
-  Hawaii time. XXL is an editorial estimate.
+ nue-radar/#iccv-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://iccv.thecvf.com/Conferences/2025/CallForPapers
@@ -498,15 +925,43 @@ DESCRIPTION:IEEE/CVF International Conference on Computer Vision\nMeeting:
   2026-10-28. Check the organizer's call before relying on it.\nFormat: Pa
  per-based / OpenReview\nPrevious edition's page: https://iccv.thecvf.com/
  Conferences/2025/CallForPapers\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#iccv-2027\nNotes: As of 2026-10-28 the 2027 homepage header an
- d Dates page give Sun Oct 3 to Thu Oct 7 (workshops/tutorials Oct 3-4\, m
- ain conference Oct 5-7) at the Hong Kong Convention and Expo Center (HKCE
- C)\; the homepage venue paragraph conflicts\, still saying Oct 2-8. No 20
- 27 call is published\; paper dates are biennial proxies from 2025's 23:59
-  Hawaii time. XXL is an editorial estimate.
+ nue-radar/#iccv-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://iccv.thecvf.com/Conferences/2025/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270317T000000Z
+DTEND:20270317T010000Z
+SUMMARY:ICCP 2027 · Paper submission on OpenReview (TPAMI special issue or
+  ICCP proceedings track)
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:ICME 2027 · Regular paper acceptance notification
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:3dv-2027-conference@scientific-conference-calendar
@@ -525,6 +980,22 @@ CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
  ization,Signal Processing
 URL:https://3dvconf.github.io/2027/
 LOCATION:Thessaloniki\, Greece
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:ICME 2027 · Workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:fg-2027-conference@scientific-conference-calendar
@@ -550,6 +1021,56 @@ URL:https://fg2027.ieee-biometrics.org/dates/
 LOCATION:Marrakesh\, Morocco
 END:VEVENT
 BEGIN:VEVENT
+UID:icme-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:ICME 2027 · Regular paper camera-ready and author registration dea
+ dline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-rebuttal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270512T000000Z
+DTEND:20270512T010000Z
+SUMMARY:ICCP 2027 · Optional one-page author rebuttal deadline (reviews re
+ leased May 4)
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270602T000000Z
+DTEND:20270602T010000Z
+SUMMARY:ICCP 2027 · Final notification
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
+END:VEVENT
+BEGIN:VEVENT
 UID:euvip-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270616T115900Z
@@ -560,11 +1081,7 @@ DESCRIPTION:European Conference on Visual Information Processing\nMeeting:
  ecked 2026-10-07. Check the organizer's call before relying on it.\nForma
  t: Paper-based / visual information processing\nPrevious edition's page: 
  https://euvip2026.github.io/\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#euvip-2027\nNotes: No organizer-confirmed 2027 edition\; 2026-10
- -28 review found no successor on the EUVIP 2026 site or programme. Meetin
- g and paper timing are annual proxies from 2026's final extended deadline
- \; the first 2027 deadline may be earlier. Website and timezone belong to
-  the 2026 edition\; location is unannounced.
+ e-radar/#euvip-2027
 CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
  Learning,Deep Representation Learning
 URL:https://euvip2026.github.io/
@@ -591,6 +1108,94 @@ CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://cvpr.thecvf.com/Conferences/2027
 LOCATION:Seattle\, Washington\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270623T000000Z
+DTEND:20270623T010000Z
+SUMMARY:ICCP 2027 · Camera-ready (shepherded revision) deadline
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270701
+SUMMARY:IPCAI 2027 · Conference
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nStatus: confirmed\, checked 2026-10-31\nOfficial 
+ source: https://sites.google.com/view/ipcai2027\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#ipcai-2027\nNotes: 18th annual IPCAI (since 2
+ 010)\, held with CARS 2027 (Jun 28-Jul 1) at Langenbeck-Virchow-Haus\, Be
+ rlin\; no remote option is announced (2022-24 were hybrid). All cutoffs a
+ re 23:59 PT. Regular papers needed the Oct 23 intention and closed Oct 30
+ \, 2026\; accepted papers get a final IJCARS review for the IPCAI special
+  issue. Long abstracts are listed in the IPCAI-CARS proceedings\; accepte
+ d Track 1 work may be submitted as an IJCARS short communication. CMT red
+ irects to a login page\, so the portal was not verified open. IPCAI 2026 
+ accepted 75 regular papers and 24 long abstracts. Size is an editorial es
+ timate.
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027
+LOCATION:Berlin\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270718
+SUMMARY:ICME 2027 · Conference
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nStatus: c
+ onfirmed\, checked 2026-10-31\nOfficial source: https://2027.ieeeicme.org
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027\nNotes: 
+ Official 2027 pages confirm Xiamen International Conference & Exhibition 
+ Center\, July 13-17\, 2027. Regular and special-session papers share one 
+ system\, review and Dec 30\, 2026 deadline\; the PDF says AOE without an 
+ hour\, so 23:59 AoE is stored. The FAQ says submission opens in early Nov
+ ember 2026 (portal not seen open). ICME 2026 moved its paper deadline fro
+ m Dec 12 to Dec 31\, 2025. Some 2026 workshops set their own paper dates.
+  Demo proposals (Apr 16\; 2-page proceedings papers in 2026) stay in note
+ s per ADR-043. Accepted regular\, workshop\, demo and grand-challenge pap
+ ers enter the IEEE proceedings. No official size figures found. Size is a
+ n editorial estimate.
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/
+LOCATION:Xiamen\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270805
+SUMMARY:ICCP 2027 · Conference
+DESCRIPTION:IEEE International Conference on Computational Photography\nSta
+ tus: confirmed\, checked 2026-10-31\nOfficial source: https://iccp2027.ic
+ cp-conference.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#i
+ ccp-2027\nNotes: The official 2027 site says ICCP is held in person at th
+ e University of Maryland\, College Park\, Aug 2-4\, 2027 (summer school J
+ ul 31-Aug 1). Papers are due Mar 16\, 2027 at 5:00 PM Pacific (PDT) on Op
+ enReview\, which opens Mar 1 (day only). One double-blind review with an 
+ optional rebuttal places each paper in an IEEE TPAMI special issue or the
+  ICCP proceedings\, and every accepted paper is a talk. Pages beyond 12 c
+ ost $220 each\; papers over 18 pages can go only to the proceedings. ICCP
+  2026 extended its deadline by a week. Several subpages still show 2026 c
+ ontent\, and no 2027 poster/demo call is posted. Annual since 2009. Size 
+ S: 29 paper talks in 2026. Size is an editorial estimate.
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/
+LOCATION:College Park\, Maryland\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-siggraph-2027-conference@scientific-conference-calendar
@@ -621,10 +1226,7 @@ DESCRIPTION:International Conference on 3D Vision\nMeeting: 2028-04-06 to 2
  028-04-09 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-2
  9. Check the organizer's call before relying on it.\nFormat: Paper-based 
  / OpenReview\nPrevious edition's page: https://3dvconf.github.io/2027/dat
- es\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2028\nNotes: 
- As of 2026-10-29 the official 3DV site announces no 2028 host\, dates or 
- call. Meeting dates and the AoE paper deadline are one-year proxies from 
- 3DV 2027\, whose abstract registration shared the paper cutoff.
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2028
 CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
  ization,Signal Processing
 URL:https://3dvconf.github.io/2027/dates
@@ -680,11 +1282,7 @@ DESCRIPTION:European Conference on Computer Vision\nMeeting: 2028-09-08 to
  28. Check the organizer's call before relying on it.\nFormat: Paper-based
   / Springer proceedings\nPrevious edition's page: https://eccv.ecva.net/C
  onferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar
- /#eccv-2028\nNotes: As of 2026-10-28 the ECCV site still shows only 2026 
- (no 2028 page) and the ECVA and CVF conference lists name no 2028 host. M
- eeting and main-paper dates are two-year proxies from ECCV 2026's 22:00 U
- TC cutoffs\; no annual 2027 edition is invented. The timezone refers to t
- he prior edition\, not a 2028 host.
+ /#eccv-2028
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://eccv.ecva.net/Conferences/2026/Dates
@@ -700,11 +1298,7 @@ DESCRIPTION:European Conference on Computer Vision\nMeeting: 2028-09-08 to
  28. Check the organizer's call before relying on it.\nFormat: Paper-based
   / Springer proceedings\nPrevious edition's page: https://eccv.ecva.net/C
  onferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar
- /#eccv-2028\nNotes: As of 2026-10-28 the ECCV site still shows only 2026 
- (no 2028 page) and the ECVA and CVF conference lists name no 2028 host. M
- eeting and main-paper dates are two-year proxies from ECCV 2026's 22:00 U
- TC cutoffs\; no annual 2027 edition is invented. The timezone refers to t
- he prior edition\, not a 2028 host.
+ /#eccv-2028
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://eccv.ecva.net/Conferences/2026/Dates
@@ -728,6 +1322,39 @@ URL:https://3dvconf.github.io/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:accv-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280703T235900Z
+DTEND:20280704T005900Z
+SUMMARY:ACCV 2028 (est.) · Mandatory paper registration (title\, abstract\
+ , authors)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2028-12-14 to 202
+ 8-12-18 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-31.
+  Check the organizer's call before relying on it.\nFormat: Paper-based / 
+ Springer LNCS proceedings\nPrevious edition's page: https://accv2026.org/
+ submissions/author-guidelines/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#accv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280705T235900Z
+DTEND:20280706T005900Z
+SUMMARY:ACCV 2028 (est.) · Main-conference paper submission deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2028-12-14 to 202
+ 8-12-18 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-31.
+  Check the organizer's call before relying on it.\nFormat: Paper-based / 
+ Springer LNCS proceedings\nPrevious edition's page: https://accv2026.org/
+ submissions/author-guidelines/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#accv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
 UID:eccv-2028-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20280908
@@ -745,6 +1372,29 @@ DESCRIPTION:European Conference on Computer Vision\nStatus: estimated\, che
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://eccv.ecva.net/Conferences/2026/Dates
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281214
+DTEND;VALUE=DATE:20281219
+SUMMARY:ACCV 2028 (est.) · Conference
+DESCRIPTION:Asian Conference on Computer Vision\nStatus: estimated\, checke
+ d 2026-10-31. Check the organizer's call before relying on it.\nPrevious 
+ edition's page: https://accv2026.org/\nVenue Radar: https://gon-uri.githu
+ b.io/venue-radar/#accv-2028\nNotes: As of 2026-10-31 no ACCV 2028 host\, 
+ dates or call is published\; the ACCV 2026 site names no successor\, Open
+ Review has no 2028 venue and afcv.org is a parked lander. The 2026 site c
+ alls ACCV biennial. Meeting dates (Dec 14-18\, workshops first) and the m
+ andatory registration (July 3) and paper (July 5) 23:59 GMT cutoffs are t
+ wo-year calendar-date proxies from ACCV 2026\; the website and CFP links 
+ belong to the 2026 edition. No timezone is set because the host is unknow
+ n. The estimated meeting stays off the map. Size is an editorial estimate
+ .
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/
 LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

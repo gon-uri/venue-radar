@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICWSM 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260916T115900Z
+DTEND:20260916T125900Z
+SUMMARY:ICWSM 2027 · Round 2: new full papers (also R&Rs from May 2026)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-round-2-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ICWSM 2027 · Round 2 notification
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / AAAI ICWSM proceedings\; non-archival Social Science and Sociophysics t
+ rack (abstract only)\nOfficial source: https://www.icwsm.org/2027/submit/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Poster papers (January round only)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Round 3 (final for 2027): new full papers (also R&Rs 
+ from September 2026)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Dataset papers (January round only\; dataset DOI requ
+ ired)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Tutorial proposals (by email)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Workshop proposals (by email)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:ICWSM 2027 · Round 3 notification (full\, poster\, demo and datase
+ t papers)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / AAAI ICWSM proceedings\; non-archival Social Science and Sociophysics t
+ rack (abstract only)\nOfficial source: https://www.icwsm.org/2027/submit/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270530
+SUMMARY:ICWSM 2027 (est.) · Conference
+DESCRIPTION:International AAAI Conference on Web and Social Media\nStatus: 
+ estimated\, checked 2026-10-31. Check the organizer's call before relying
+  on it.\nOfficial source: https://www.icwsm.org/2027/\nVenue Radar: https
+ ://gon-uri.github.io/venue-radar/#icwsm-2027\nNotes: 21st ICWSM (AAAI). O
+ n 2026-10-31 the official site and AAAI page confirm Edinburgh but give n
+ o dates or format\; May 26-29\, 2027 and in-person are one-year proxies f
+ rom ICWSM 2026. Deadlines are official\, 23:59 AoE. Round 1 (May 15\, 202
+ 6) is not stored because only two paper-round types exist. January is the
+  last round for 2027 (a January R&R moves to 2028) and the only one for p
+ osters\, demos (not tracked) and dataset papers. Social Science and Socio
+ physics track papers share full-paper deadlines but publish abstracts onl
+ y. PCS portal not checked (login). Size M follows 186 papers in the 2026 
+ program. Size is an editorial estimate.
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/
+LOCATION:Edinburgh\, United Kingdom
+END:VEVENT
+END:VCALENDAR

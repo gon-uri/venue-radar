@@ -144,7 +144,7 @@ class FeedTests(unittest.TestCase):
                 self.assertNotIn("stimated", summary, "one marker, never 'Estimated ... (estimated)'")
                 self.assertNotIn("unannounced", summary)
 
-    def test_descriptions_keep_status_format_notes_and_a_link_to_the_row(self) -> None:
+    def test_descriptions_keep_status_format_a_row_link_and_meeting_notes(self) -> None:
         events = _events(_read(self.docs / "calendar-all.ics"))
         deadlines = {
             f"{conference['id']}-deadline-{stable_slug(deadline['type'])}": (conference, deadline)
@@ -167,7 +167,10 @@ class FeedTests(unittest.TestCase):
                 if deadline.get("time_precision") == "date":
                     self.assertEqual("official deadline day" in description, not estimated, key)
             self.assertIn(_escape_text(f"Venue Radar: {SITE_URL}#{conference['id']}"), description)
-            if conference.get("notes"):
+            if deadline:
+                # ADR-045: Notes appear once per edition, on its meeting event.
+                self.assertNotIn("\\nNotes:", description, key)
+            elif conference.get("notes"):
                 self.assertIn(_escape_text(f"Notes: {conference['notes']}"), description)
             for dropped in ("Scope:", "Scope sources", "Additional topics:", "Topics:", "Conference title:", "Size:"):
                 self.assertNotRegex(description, rf"(^|\\n){re.escape(dropped)}", "dropped by ADR-044")

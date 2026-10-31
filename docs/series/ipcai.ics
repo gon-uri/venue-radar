@@ -1,0 +1,180 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IPCAI (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261024T065900Z
+DTEND:20261024T075900Z
+SUMMARY:IPCAI 2027 · Regular-paper intention to submit (mandatory CMT regi
+ stration of title\, structured abstract and authors\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261031T065900Z
+DTEND:20261031T075900Z
+SUMMARY:IPCAI 2027 · Regular paper submission (up to 12 pages\, single-bli
+ nd\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261217T075900Z
+DTEND:20261217T085900Z
+SUMMARY:IPCAI 2027 · Initial regular-paper decisions (accept\, reject or r
+ evise)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-journal-presentation@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T075900Z
+DTEND:20270116T085900Z
+SUMMARY:IPCAI 2027 · Long abstract Track 2: presentation of a journal arti
+ cle accepted or published since Oct 16\, 2025 (up to 4 pages\; no extensi
+ on)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T075900Z
+DTEND:20270116T085900Z
+SUMMARY:IPCAI 2027 · Long abstract Track 1: late-breaking research (up to 
+ 4 pages\, unpublished work\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-revision@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T075900Z
+DTEND:20270116T085900Z
+SUMMARY:IPCAI 2027 · Regular-paper revisions due (invited revise decisions
+  only)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-final-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270217T075900Z
+DTEND:20270217T085900Z
+SUMMARY:IPCAI 2027 · Final decisions released (all papers)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027/conference-timeline\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270304T075900Z
+DTEND:20270304T085900Z
+SUMMARY:IPCAI 2027 · Presenting-author registration deadline (registration
+  via the CARS website)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\nOfficial source: https://sites.google.com/v
+ iew/ipcai2027\nVenue Radar: https://gon-uri.github.io/venue-radar/#ipcai-
+ 2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270701
+SUMMARY:IPCAI 2027 · Conference
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nStatus: confirmed\, checked 2026-10-31\nOfficial 
+ source: https://sites.google.com/view/ipcai2027\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#ipcai-2027\nNotes: 18th annual IPCAI (since 2
+ 010)\, held with CARS 2027 (Jun 28-Jul 1) at Langenbeck-Virchow-Haus\, Be
+ rlin\; no remote option is announced (2022-24 were hybrid). All cutoffs a
+ re 23:59 PT. Regular papers needed the Oct 23 intention and closed Oct 30
+ \, 2026\; accepted papers get a final IJCARS review for the IPCAI special
+  issue. Long abstracts are listed in the IPCAI-CARS proceedings\; accepte
+ d Track 1 work may be submitted as an IJCARS short communication. CMT red
+ irects to a login page\, so the portal was not verified open. IPCAI 2026 
+ accepted 75 regular papers and 24 long abstracts. Size is an editorial es
+ timate.
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027
+LOCATION:Berlin\, Germany
+END:VEVENT
+END:VCALENDAR

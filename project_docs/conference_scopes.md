@@ -8,13 +8,17 @@ fields, and [development](development.md#workbook-synchronization) for mirror ch
 
 The table's up-to-four main topics are a compact description, not an exhaustive
 list. `data/conference_scopes.yml` adds a more detailed, source-grounded profile
-by exact conference series. Current coverage is 80 of 131 series, including all
-42 AI Deadlines additions, CIKM/WSDM and the 16 complex-systems/neuroscience
-additions. The other 51 are explicitly queued for review;
+by exact conference series. Current coverage is 124 of 175 series, including all
+42 AI Deadlines additions, CIKM/WSDM, the 16 complex-systems/neuroscience
+additions and the 44 related-venue additions of 2026-10-31. The other 51 are
+explicitly queued for review;
 an absent profile is not replaced by guessed information.
 
-The new batch's publication formats and abstract-only caveats are documented in
-`dynamics_neuroscience_expansion.md`; no new public column or behavior is added.
+The 16 complex-systems/neuroscience series' publication formats and abstract-only
+caveats are documented in `dynamics_neuroscience_expansion.md`. For the 44
+related-venue series added on 2026-10-31, see the
+[candidate backlog](conference_candidates.md#related-venue-search-2026-10-3031)
+and each edition's notes. No new public column or behavior is added.
 
 ## Data Ownership
 

@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACCV 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:accv-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280703T235900Z
+DTEND:20280704T005900Z
+SUMMARY:ACCV 2028 (est.) · Mandatory paper registration (title\, abstract\
+ , authors)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2028-12-14 to 202
+ 8-12-18 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-31.
+  Check the organizer's call before relying on it.\nFormat: Paper-based / 
+ Springer LNCS proceedings\nPrevious edition's page: https://accv2026.org/
+ submissions/author-guidelines/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#accv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280705T235900Z
+DTEND:20280706T005900Z
+SUMMARY:ACCV 2028 (est.) · Main-conference paper submission deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2028-12-14 to 202
+ 8-12-18 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-31.
+  Check the organizer's call before relying on it.\nFormat: Paper-based / 
+ Springer LNCS proceedings\nPrevious edition's page: https://accv2026.org/
+ submissions/author-guidelines/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#accv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281214
+DTEND;VALUE=DATE:20281219
+SUMMARY:ACCV 2028 (est.) · Conference
+DESCRIPTION:Asian Conference on Computer Vision\nStatus: estimated\, checke
+ d 2026-10-31. Check the organizer's call before relying on it.\nPrevious 
+ edition's page: https://accv2026.org/\nVenue Radar: https://gon-uri.githu
+ b.io/venue-radar/#accv-2028\nNotes: As of 2026-10-31 no ACCV 2028 host\, 
+ dates or call is published\; the ACCV 2026 site names no successor\, Open
+ Review has no 2028 venue and afcv.org is a parked lander. The 2026 site c
+ alls ACCV biennial. Meeting dates (Dec 14-18\, workshops first) and the m
+ andatory registration (July 3) and paper (July 5) 23:59 GMT cutoffs are t
+ wo-year calendar-date proxies from ACCV 2026\; the website and CFP links 
+ belong to the 2026 edition. No timezone is set because the host is unknow
+ n. The estimated meeting stays off the map. Size is an editorial estimate
+ .
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

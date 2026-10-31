@@ -1,0 +1,191 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE CEC (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-special-session-proposal@scientific-conference-c
+ alendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:IEEE CEC 2027 · Special session and workshop proposal deadline
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nCutoff note: The CFP PDF gives November
+  15\, 2026\; the website's dates\, special-session and workshop pages giv
+ e November 29\, 2026.\nFormat: Paper-based / IEEE Xplore proceedings (8-p
+ age full papers)\; 4-page short papers in a separate Companion Proceeding
+ s\nOfficial source: https://confcats-siteplex.s3.amazonaws.com/ieeecec/fi
+ les/cec27-cfp_web-13.pdf\nVenue Radar: https://gon-uri.github.io/venue-ra
+ dar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://confcats-siteplex.s3.amazonaws.com/ieeecec/files/cec27-cfp_web-
+ 13.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:IEEE CEC 2027 · Competition and tutorial proposal deadline
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/authors/call-for-
+ papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:IEEE CEC 2027 · Full paper submission\, 8 pages incl. special-sess
+ ion papers (no extension)
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/authors/call-for-
+ papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-graduate-student-symposium@scientific-conference
+ -calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IEEE CEC 2027 · Graduate Student Symposium research proposal (enro
+ lled Master's/doctoral students\; proposal not published)
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/program/graduate-
+ student-symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#ie
+ ee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/program/graduate-student-symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-j2c-application@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IEEE CEC 2027 · Journal-to-Conference presentation application (pu
+ blished IEEE CIS journal papers only)
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/j2c-paper-present
+ ations\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/j2c-paper-presentations
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270316T115900Z
+DTEND:20270316T125900Z
+SUMMARY:IEEE CEC 2027 · Short paper submission\, 4 pages\, Companion Proce
+ edings (no extension)
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nFormat: Paper-based / IEEE Xplore proceedings (8-page full pap
+ ers)\; 4-page short papers in a separate Companion Proceedings\nOfficial 
+ source: https://ieeecec.org/2027/call-for-short-papers\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/call-for-short-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:IEEE CEC 2027 · Full paper acceptance notification
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/authors/call-for-
+ papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-short-paper-notification@scientific-conference-c
+ alendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:IEEE CEC 2027 · Short paper acceptance notification
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/call-for-short-pa
+ pers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/call-for-short-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:IEEE CEC 2027 · Final paper submission and early/author registrati
+ on deadline
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/authors/call-for-
+ papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270729
+SUMMARY:IEEE CEC 2027 · Conference
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nStatus: confirmed\, 
+ checked 2026-10-31\nOfficial source: https://ieeecec.org/2027\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#ieee-cec-2027\nNotes: Official 
+ CEC 2027 pages (checked 2026-10-31) confirm the EICC\, Edinburgh\, Jul 25
+ -28. Full papers (8 pages\, double-anonymous\, incl. special-session pape
+ rs) are due Feb 28 with no hour stated (provisional AoE end of day) and g
+ o to IEEE Xplore\; 4-page short papers are due Mar 15\, 23:59 AoE\, prese
+ nted as posters in a separate Companion Proceedings. Both say no extensio
+ n. The FAQ gives a Sep 1\, 2026 submission opening\; EDAS needs login\, s
+ o not verified. The CFP PDF gives Nov 15 for session/workshop proposals\,
+  web pages Nov 29. The student-only GSS and journal-only J2C calls are sc
+ hedule-only. Size L basis: 443 of 751 papers accepted in 2013\; no recent
+  counts. Size is an editorial estimate.
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027
+LOCATION:Edinburgh\, United Kingdom
+END:VEVENT
+END:VCALENDAR

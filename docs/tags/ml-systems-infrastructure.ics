@@ -19,8 +19,6 @@ DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
  06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
  08-20\nFormat: Paper-based\nOfficial source: https://icml.cc/Conferences/
  2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#icml-2026
- \nNotes: Official ICML 2026 dates page lists tutorials\, main conference\
- , workshops\, and paper deadlines.
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
@@ -35,8 +33,6 @@ DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
  06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
  08-20\nFormat: Paper-based\nOfficial source: https://icml.cc/Conferences/
  2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#icml-2026
- \nNotes: Official ICML 2026 dates page lists tutorials\, main conference\
- , workshops\, and paper deadlines.
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
@@ -51,8 +47,7 @@ DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2026-08-09 to 2026-08-13\, Jeju\, Korea\nStatus: confirmed\, chec
  ked 2026-08-20\nFormat: Paper-based / mixed tracks\nOfficial source: http
  s://kdd2026.kdd.org/research-track-call-for-papers/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#kdd-2026\nNotes: Official SIGKDD and KDD 
- 2026 pages list conference dates and research-track Cycle 2 deadlines.
+ /gon-uri.github.io/venue-radar/#kdd-2026
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Federated & Distributed Learning
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
@@ -67,8 +62,7 @@ DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2026-08-09 to 2026-08-13\, Jeju\, Korea\nStatus: confirmed\, chec
  ked 2026-08-20\nFormat: Paper-based / mixed tracks\nOfficial source: http
  s://kdd2026.kdd.org/research-track-call-for-papers/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#kdd-2026\nNotes: Official SIGKDD and KDD 
- 2026 pages list conference dates and research-track Cycle 2 deadlines.
+ /gon-uri.github.io/venue-radar/#kdd-2026
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Federated & Distributed Learning
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
@@ -83,11 +77,43 @@ DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
  06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
  08-20\nFormat: Paper-based\nOfficial source: https://icml.cc/Conferences/
  2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#icml-2026
- \nNotes: Official ICML 2026 dates page lists tutorials\, main conference\
- , workshops\, and paper deadlines.
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260409T115900Z
+DTEND:20260409T125900Z
+SUMMARY:ICONS 2026 · Full paper submission (up to 8 pages\; extended from 
+ April 1\, no further extension)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings
+  (full and short papers)\; students-only poster competition\nOfficial sou
+ rce: https://iconsneuromorphic.cc/calls-2026/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#icons-2026
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260409T115900Z
+DTEND:20260409T125900Z
+SUMMARY:ICONS 2026 · Short paper submission (up to 4 pages\; position or p
+ reliminary results)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings
+  (full and short papers)\; students-only poster competition\nOfficial sou
+ rce: https://iconsneuromorphic.cc/calls-2026/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#icons-2026
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
@@ -99,10 +125,7 @@ DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
  026-12-06 to 2026-12-12\, Sydney\, Australia\nStatus: confirmed\, checked
   2026-10-28\nFormat: Paper-based\nOfficial source: https://neurips.cc/Con
  ferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- neurips-2026\nNotes: Official NeurIPS 2026 pages (checked 2026-10-28) lis
- t Sydney as the main site\, Dec 6-12\, with Atlanta and Paris satellite s
- ites Dec 9-13\, and the May 4 abstract/May 6 paper deadlines (AoE). Paper
-  submissions are closed\; no extension was published.
+ neurips-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/2026/Dates
@@ -117,13 +140,27 @@ DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
  026-12-06 to 2026-12-12\, Sydney\, Australia\nStatus: confirmed\, checked
   2026-10-28\nFormat: Paper-based\nOfficial source: https://neurips.cc/Con
  ferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- neurips-2026\nNotes: Official NeurIPS 2026 pages (checked 2026-10-28) lis
- t Sydney as the main site\, Dec 6-12\, with Atlanta and Paris satellite s
- ites Dec 9-13\, and the May 4 abstract/May 6 paper deadlines (AoE). Paper
-  submissions are closed\; no extension was published.
+ neurips-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:ICONS 2026 · Final notification of acceptance
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / ACM Digi
+ tal Library proceedings (full and short papers)\; students-only poster co
+ mpetition\nOfficial source: https://iconsneuromorphic.cc/calls-2026/\nVen
+ ue Radar: https://gon-uri.github.io/venue-radar/#icons-2026
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-deadline-workshop@scientific-conference-calendar
@@ -135,13 +172,27 @@ DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
  026-12-06 to 2026-12-12\, Sydney\, Australia\nStatus: confirmed\, checked
   2026-10-28\nFormat: Paper-based\nOfficial source: https://neurips.cc/Con
  ferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- neurips-2026\nNotes: Official NeurIPS 2026 pages (checked 2026-10-28) lis
- t Sydney as the main site\, Dec 6-12\, with Atlanta and Paris satellite s
- ites Dec 9-13\, and the May 4 abstract/May 6 paper deadlines (AoE). Paper
-  submissions are closed\; no extension was published.
+ neurips-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:ICONS 2026 · Camera-ready papers due
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / ACM Digi
+ tal Library proceedings (full and short papers)\; students-only poster co
+ mpetition\nOfficial source: https://iconsneuromorphic.cc/calls-2026/\nVen
+ ue Radar: https://gon-uri.github.io/venue-radar/#icons-2026
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-biocas-2026-deadline-full-paper@scientific-conference-calendar
@@ -154,13 +205,28 @@ DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2026-
  2026-10-08\nCutoff time unannounced: official deadline day only. Verify t
  he organizer's submission portal.\nFormat: Paper-based\nOfficial source: 
  https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-2026\nNotes
- : Main conference October 8-10\; adjacent workshops are October 7 and 11.
-  Reviewed accepted papers appear in IEEE proceedings. Exact submission cu
- toff hour is unannounced. Size is an editorial estimate.
+ nue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-2026
 CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
  ,Neuromorphic & Brain-inspired Computing
 URL:https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2026-deadline-student-poster-competition@scientific-conference-ca
+ lendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:ICONS 2026 · Student poster competition submission (students only)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / ACM Digi
+ tal Library proceedings (full and short papers)\; students-only poster co
+ mpetition\nOfficial source: https://iconsneuromorphic.cc/Students-2026/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#icons-2026
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/Students-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2026-conference@scientific-conference-calendar
@@ -179,6 +245,31 @@ URL:https://icml.cc/Conferences/2026/Dates
 LOCATION:Seoul\, South Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:icons-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260807
+SUMMARY:ICONS 2026 · Conference
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nStatus: c
+ onfirmed\, checked 2026-10-31\nOfficial source: https://iconsneuromorphic
+ .cc/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icons-2026\nNot
+ es: Official pages confirm ICONS 2026 on Aug 4-6\, 2026 at the Chicago Ma
+ rriott Naperville (Chicago area)\, with virtual registration\; each proce
+ edings paper needs an in-person registration. Papers were due Apr 8 AoE (
+ the site strikes Apr 1\; EasyChair still lists Apr 1)\; rejected papers m
+ ay become posters. Proceedings are ACM DL open access (ACM Open or APC). 
+ Tutorial and special-session proposals were organiser routes outside the 
+ proceedings. The students-only poster form gave no hour or publication. S
+ ize basis is about 40 single-track paper talks and 9 accepted posters in 
+ 2026\, and 175 participants with 29 papers at the virtual 2021 edition (O
+ RNL). The students-only poster competition is schedule-only\, like other 
+ student-only routes. Size is an editorial estimate.
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/
+LOCATION:Chicago\, Illinois\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:log-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260806T115900Z
@@ -188,13 +279,7 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
  2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based / non-archival extended abstracts\nOfficial source: 
  https://logconference.org/cfp/\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#log-2026\nNotes: Fifth annual edition\, in person at Northeast
- ern University. Extended Aug 5/7 deadlines replace the struck-through Jul
- y 29/Aug 1 dates. Proceedings papers and non-archival extended abstracts 
- share the registration and final submission cutoffs\, represented as one 
- route. The TMLR presentation track requires an already published paper\, 
- so it is not a new-paper opportunity. LoG is distinct from LOD/AIS. Size 
- M is an editorial estimate.
+ nue-radar/#log-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
@@ -209,13 +294,7 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
  2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based / non-archival extended abstracts\nOfficial source: 
  https://logconference.org/cfp/\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#log-2026\nNotes: Fifth annual edition\, in person at Northeast
- ern University. Extended Aug 5/7 deadlines replace the struck-through Jul
- y 29/Aug 1 dates. Proceedings papers and non-archival extended abstracts 
- share the registration and final submission cutoffs\, represented as one 
- route. The TMLR presentation track requires an already published paper\, 
- so it is not a new-paper opportunity. LoG is distinct from LOD/AIS. Size 
- M is an editorial estimate.
+ nue-radar/#log-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
@@ -246,11 +325,7 @@ DESCRIPTION:International Conference on Learning Representations\nMeeting:
  2027-04-26 to 2027-04-30\, San Francisco\, California\, USA\nStatus: conf
  irmed\, checked 2026-10-28\nFormat: Paper-based / OpenReview\nOfficial so
  urce: https://iclr.cc/Conferences/2027\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#iclr-2027\nNotes: Official ICLR 2027 pages (checked 20
- 26-10-28) list Apr 26-30\, 2027 (main Apr 26-28\, workshops Apr 29-30) an
- d Sep 18 abstract/Sep 25 paper deadlines (AoE)\; submissions are closed. 
- The site header says California and OpenReview lists San Francisco\, CA\;
-  the Dates page still shows 'location to be announced' boilerplate.
+ ub.io/venue-radar/#iclr-2027
 CATEGORIES:Deep Representation Learning,Machine Learning,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://iclr.cc/Conferences/2027
@@ -265,12 +340,7 @@ DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
  ting: 2027-05-04 to 2027-05-06\, Reykjavik\, Iceland\nStatus: confirmed\,
   checked 2026-10-07\nFormat: Paper-based / systematization of knowledge /
   position papers\nOfficial source: https://satml.org/call-for-papers/\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#satml-2027\nNotes: Fift
- h annual edition. Main meeting May 4-6\; workshops May 3. The mandatory r
- egistration and new-paper deadlines have passed. Revisions are restricted
-  to existing submissions and do not reopen new-paper opportunities. Camer
- a-ready is only announced as mid-February\, exact date TBC\, so no exact 
- camera-ready event is invented. Size M is an editorial estimate.
+ nue Radar: https://gon-uri.github.io/venue-radar/#satml-2027
 CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
   AI,Explainability & Interpretability
 URL:https://satml.org/call-for-papers/
@@ -285,11 +355,7 @@ DESCRIPTION:International Conference on Learning Representations\nMeeting:
  2027-04-26 to 2027-04-30\, San Francisco\, California\, USA\nStatus: conf
  irmed\, checked 2026-10-28\nFormat: Paper-based / OpenReview\nOfficial so
  urce: https://iclr.cc/Conferences/2027\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#iclr-2027\nNotes: Official ICLR 2027 pages (checked 20
- 26-10-28) list Apr 26-30\, 2027 (main Apr 26-28\, workshops Apr 29-30) an
- d Sep 18 abstract/Sep 25 paper deadlines (AoE)\; submissions are closed. 
- The site header says California and OpenReview lists San Francisco\, CA\;
-  the Dates page still shows 'location to be announced' boilerplate.
+ ub.io/venue-radar/#iclr-2027
 CATEGORIES:Deep Representation Learning,Machine Learning,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://iclr.cc/Conferences/2027
@@ -304,12 +370,7 @@ DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
  ting: 2027-05-04 to 2027-05-06\, Reykjavik\, Iceland\nStatus: confirmed\,
   checked 2026-10-07\nFormat: Paper-based / systematization of knowledge /
   position papers\nOfficial source: https://satml.org/call-for-papers/\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#satml-2027\nNotes: Fift
- h annual edition. Main meeting May 4-6\; workshops May 3. The mandatory r
- egistration and new-paper deadlines have passed. Revisions are restricted
-  to existing submissions and do not reopen new-paper opportunities. Camer
- a-ready is only announced as mid-February\, exact date TBC\, so no exact 
- camera-ready event is invented. Size M is an editorial estimate.
+ nue Radar: https://gon-uri.github.io/venue-radar/#satml-2027
 CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
   AI,Explainability & Interpretability
 URL:https://satml.org/call-for-papers/
@@ -341,13 +402,7 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
  2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based / non-archival extended abstracts\nOfficial source: 
  https://logconference.org/cfp/\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#log-2026\nNotes: Fifth annual edition\, in person at Northeast
- ern University. Extended Aug 5/7 deadlines replace the struck-through Jul
- y 29/Aug 1 dates. Proceedings papers and non-archival extended abstracts 
- share the registration and final submission cutoffs\, represented as one 
- route. The TMLR presentation track requires an already published paper\, 
- so it is not a new-paper opportunity. LoG is distinct from LOD/AIS. Size 
- M is an editorial estimate.
+ nue-radar/#log-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
@@ -364,12 +419,7 @@ DESCRIPTION:Conference on Machine Learning and Systems\nMeeting: 2027-06-21
  age and Dates page say 12:00 PM PDT (19:00 UTC). Earliest instant stored.
  \nFormat: Paper-based / research and industrial tracks\nOfficial source: 
  https://mlsys.org/Conferences/2027/CallForResearchPapers\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#mlsys-2027\nNotes: Tenth annual edit
- ion. The CFP and OpenReview give 20:00 UTC for the Oct 19 opening and Oct
-  30 closing\, while the homepage and Dates page list noon PDT (19:00 UTC)
- \; the earlier closing instant is stored per the cutoff note\, and opens_
- at follows the OpenReview portal. No separate abstract prerequisite is an
- nounced. Size L is an editorial estimate.
+ tps://gon-uri.github.io/venue-radar/#mlsys-2027
 CATEGORIES:ML Systems & Infrastructure,Machine Learning,Federated & Distrib
  uted Learning,Natural Language Processing & LLMs
 URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
@@ -384,13 +434,7 @@ DESCRIPTION:Neuro Inspired Computational Elements Conference\nMeeting: 2027
  -04-06 to 2027-04-08\, Brighton\, United Kingdom\nStatus: confirmed\, che
  cked 2026-10-30\nFormat: Research papers + late-breaking abstracts\nOffic
  ial source: https://easychair.org/cfp/nice2027\nVenue Radar: https://gon-
- uri.github.io/venue-radar/#nice-2027\nNotes: Main conference April 6-8\; 
- dedicated tutorials April 9. Accepted proceedings research papers are pub
- lished through IEEE (authors may opt out)\; late-breaking abstracts are n
- on-archival\, and some poster contributions may not enter the proceedings
- . Rechecked 2026-10-30 with no extension\; that day the EasyChair portal 
- reported new-paper submission open\, which is recorded for regular papers
-  only. Size is an editorial estimate.
+ uri.github.io/venue-radar/#nice-2027
 CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
  ce,Machine Learning,BCI & Neurotechnology
 URL:https://easychair.org/cfp/nice2027
@@ -443,12 +487,7 @@ DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
  ting: 2027-05-04 to 2027-05-06\, Reykjavik\, Iceland\nStatus: confirmed\,
   checked 2026-10-07\nFormat: Paper-based / systematization of knowledge /
   position papers\nOfficial source: https://satml.org/call-for-papers/\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#satml-2027\nNotes: Fift
- h annual edition. Main meeting May 4-6\; workshops May 3. The mandatory r
- egistration and new-paper deadlines have passed. Revisions are restricted
-  to existing submissions and do not reopen new-paper opportunities. Camer
- a-ready is only announced as mid-February\, exact date TBC\, so no exact 
- camera-ready event is invented. Size M is an editorial estimate.
+ nue Radar: https://gon-uri.github.io/venue-radar/#satml-2027
 CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
   AI,Explainability & Interpretability
 URL:https://satml.org/call-for-papers/
@@ -464,13 +503,7 @@ DESCRIPTION:Neuro Inspired Computational Elements Conference\nMeeting: 2027
  cked 2026-10-30\nCutoff time unannounced: official deadline day only. Ver
  ify the organizer's submission portal.\nFormat: Research papers + late-br
  eaking abstracts\nOfficial source: https://easychair.org/cfp/nice2027\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#nice-2027\nNotes: Main 
- conference April 6-8\; dedicated tutorials April 9. Accepted proceedings 
- research papers are published through IEEE (authors may opt out)\; late-b
- reaking abstracts are non-archival\, and some poster contributions may no
- t enter the proceedings. Rechecked 2026-10-30 with no extension\; that da
- y the EasyChair portal reported new-paper submission open\, which is reco
- rded for regular papers only. Size is an editorial estimate.
+ nue Radar: https://gon-uri.github.io/venue-radar/#nice-2027
 CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
  ce,Machine Learning,BCI & Neurotechnology
 URL:https://easychair.org/cfp/nice2027
@@ -487,13 +520,7 @@ DESCRIPTION:ACM International Conference on Research and Development in Inf
   call before relying on it.\nEstimated day only\; no cutoff hour stored. 
  Check the organizer's call for the real date and time.\nFormat: Paper-bas
  ed\nOfficial source: https://sigir2027.org/pages/submit-full.html\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#sigir-2027\nNotes: Official
-  site now consistently gives July 19-24 (main conference Jul 20-22\, ICTI
- R Jul 24) at Signia by Hilton San Jose\; CFP says in-person. Full-paper A
- oE dates are labelled PROPOSED\; the abstract is mandatory. A Perspective
- s page lists Jan 28 abstract/Feb 4 paper but still cites SIGIR 2026 and t
- he homepage says TBA\, so that track is not yet tracked. Size is an edito
- rial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#sigir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/pages/submit-full.html
@@ -508,12 +535,7 @@ DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
  ting: 2027-05-04 to 2027-05-06\, Reykjavik\, Iceland\nStatus: confirmed\,
   checked 2026-10-07\nFormat: Paper-based / systematization of knowledge /
   position papers\nOfficial source: https://satml.org/call-for-papers/\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#satml-2027\nNotes: Fift
- h annual edition. Main meeting May 4-6\; workshops May 3. The mandatory r
- egistration and new-paper deadlines have passed. Revisions are restricted
-  to existing submissions and do not reopen new-paper opportunities. Camer
- a-ready is only announced as mid-February\, exact date TBC\, so no exact 
- camera-ready event is invented. Size M is an editorial estimate.
+ nue Radar: https://gon-uri.github.io/venue-radar/#satml-2027
 CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
   AI,Explainability & Interpretability
 URL:https://satml.org/call-for-papers/
@@ -530,13 +552,7 @@ DESCRIPTION:ACM International Conference on Research and Development in Inf
   call before relying on it.\nEstimated day only\; no cutoff hour stored. 
  Check the organizer's call for the real date and time.\nFormat: Paper-bas
  ed\nOfficial source: https://sigir2027.org/pages/submit-full.html\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#sigir-2027\nNotes: Official
-  site now consistently gives July 19-24 (main conference Jul 20-22\, ICTI
- R Jul 24) at Signia by Hilton San Jose\; CFP says in-person. Full-paper A
- oE dates are labelled PROPOSED\; the abstract is mandatory. A Perspective
- s page lists Jan 28 abstract/Feb 4 paper but still cites SIGIR 2026 and t
- he homepage says TBA\, so that track is not yet tracked. Size is an edito
- rial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#sigir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/pages/submit-full.html
@@ -552,10 +568,7 @@ DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
  stimated\, checked 2026-10-28. Check the organizer's call before relying 
  on it.\nFormat: Paper-based\nPrevious edition's page: https://icml.cc/Con
  ferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- icml-2027\nNotes: As of 2026-10-28 ICML's Future Meetings page lists 2027
-  only as South America\; no 2027 site\, host city\, dates or call has bee
- n published (icml.cc/Conferences/2027 returns 404). Dates are annual-cade
- nce proxies from the 2026 edition.
+ icml-2027
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
@@ -571,10 +584,7 @@ DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
  stimated\, checked 2026-10-28. Check the organizer's call before relying 
  on it.\nFormat: Paper-based\nPrevious edition's page: https://icml.cc/Con
  ferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- icml-2027\nNotes: As of 2026-10-28 ICML's Future Meetings page lists 2027
-  only as South America\; no 2027 site\, host city\, dates or call has bee
- n published (icml.cc/Conferences/2027 returns 404). Dates are annual-cade
- nce proxies from the 2026 edition.
+ icml-2027
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
@@ -590,11 +600,7 @@ DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  stimated\, checked 2026-10-28. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\nPrevious edition's page: http
  s://kdd2026.kdd.org/research-track-call-for-papers/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#kdd-2027\nNotes: Official site confirms S
- an Jose McEnery Convention Center\, Aug 1-5. Cycle 1 closed July 2026 (no
- tification Nov 14\, 2026). As of 2026-10-28 the CFP/FAQ still give no Feb
-  2027 Cycle 2 dates\; the FAQ says it accepts new submissions. The abstra
- ct/paper dates here are AoE proxies from 2026 Cycle 2.
+ /gon-uri.github.io/venue-radar/#kdd-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Federated & Distributed Learning
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
@@ -609,13 +615,7 @@ DESCRIPTION:Neuro Inspired Computational Elements Conference\nMeeting: 2027
  -04-06 to 2027-04-08\, Brighton\, United Kingdom\nStatus: confirmed\, che
  cked 2026-10-30\nFormat: Research papers + late-breaking abstracts\nOffic
  ial source: https://easychair.org/cfp/nice2027\nVenue Radar: https://gon-
- uri.github.io/venue-radar/#nice-2027\nNotes: Main conference April 6-8\; 
- dedicated tutorials April 9. Accepted proceedings research papers are pub
- lished through IEEE (authors may opt out)\; late-breaking abstracts are n
- on-archival\, and some poster contributions may not enter the proceedings
- . Rechecked 2026-10-30 with no extension\; that day the EasyChair portal 
- reported new-paper submission open\, which is recorded for regular papers
-  only. Size is an editorial estimate.
+ uri.github.io/venue-radar/#nice-2027
 CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
  ce,Machine Learning,BCI & Neurotechnology
 URL:https://easychair.org/cfp/nice2027
@@ -631,11 +631,7 @@ DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  stimated\, checked 2026-10-28. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\nPrevious edition's page: http
  s://kdd2026.kdd.org/research-track-call-for-papers/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#kdd-2027\nNotes: Official site confirms S
- an Jose McEnery Convention Center\, Aug 1-5. Cycle 1 closed July 2026 (no
- tification Nov 14\, 2026). As of 2026-10-28 the CFP/FAQ still give no Feb
-  2027 Cycle 2 dates\; the FAQ says it accepts new submissions. The abstra
- ct/paper dates here are AoE proxies from 2026 Cycle 2.
+ /gon-uri.github.io/venue-radar/#kdd-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Federated & Distributed Learning
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
@@ -651,10 +647,7 @@ DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
  stimated\, checked 2026-10-28. Check the organizer's call before relying 
  on it.\nFormat: Paper-based\nPrevious edition's page: https://icml.cc/Con
  ferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- icml-2027\nNotes: As of 2026-10-28 ICML's Future Meetings page lists 2027
-  only as South America\; no 2027 site\, host city\, dates or call has bee
- n published (icml.cc/Conferences/2027 returns 404). Dates are annual-cade
- nce proxies from the 2026 edition.
+ icml-2027
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
@@ -669,13 +662,7 @@ DESCRIPTION:Neuro Inspired Computational Elements Conference\nMeeting: 2027
  -04-06 to 2027-04-08\, Brighton\, United Kingdom\nStatus: confirmed\, che
  cked 2026-10-30\nFormat: Research papers + late-breaking abstracts\nOffic
  ial source: https://easychair.org/cfp/nice2027\nVenue Radar: https://gon-
- uri.github.io/venue-radar/#nice-2027\nNotes: Main conference April 6-8\; 
- dedicated tutorials April 9. Accepted proceedings research papers are pub
- lished through IEEE (authors may opt out)\; late-breaking abstracts are n
- on-archival\, and some poster contributions may not enter the proceedings
- . Rechecked 2026-10-30 with no extension\; that day the EasyChair portal 
- reported new-paper submission open\, which is recorded for regular papers
-  only. Size is an editorial estimate.
+ uri.github.io/venue-radar/#nice-2027
 CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
  ce,Machine Learning,BCI & Neurotechnology
 URL:https://easychair.org/cfp/nice2027
@@ -699,6 +686,40 @@ CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
  ce,Machine Learning,BCI & Neurotechnology
 URL:https://niceworkshop.org/nice-2027/
 LOCATION:Brighton\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270409T115900Z
+DTEND:20270409T125900Z
+SUMMARY:ICONS 2027 (est.) · Full paper submission (up to 8 pages)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACM Digital Library proceedings (full and short papers)\
+ ; students-only poster competition\nPrevious edition's page: https://icon
+ sneuromorphic.cc/calls-2026/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270409T115900Z
+DTEND:20270409T125900Z
+SUMMARY:ICONS 2027 (est.) · Short paper submission (up to 4 pages)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACM Digital Library proceedings (full and short papers)\
+ ; students-only poster competition\nPrevious edition's page: https://icon
+ sneuromorphic.cc/calls-2026/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-conference@scientific-conference-calendar
@@ -731,13 +752,7 @@ DESCRIPTION:ACM International Conference on Research and Development in Inf
   call before relying on it.\nEstimated day only\; no cutoff hour stored. 
  Check the organizer's call for the real date and time.\nFormat: Paper-bas
  ed\nOfficial source: https://sigir2027.org/pages/submit-full.html\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#sigir-2027\nNotes: Official
-  site now consistently gives July 19-24 (main conference Jul 20-22\, ICTI
- R Jul 24) at Signia by Hilton San Jose\; CFP says in-person. Full-paper A
- oE dates are labelled PROPOSED\; the abstract is mandatory. A Perspective
- s page lists Jan 28 abstract/Feb 4 paper but still cites SIGIR 2026 and t
- he homepage says TBA\, so that track is not yet tracked. Size is an edito
- rial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#sigir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/pages/submit-full.html
@@ -772,11 +787,7 @@ DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
  stimated\, checked 2026-10-29. Check the organizer's call before relying 
  on it.\nFormat: Paper-based\nPrevious edition's page: https://neurips.cc/
  Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-rada
- r/#neurips-2027\nNotes: As of 2026-10-29 the official NeurIPS future-meet
- ings page lists 2027 only as Europe\; no host city\, dates or call is pub
- lished (neurips.cc/Conferences/2027 returns 404). Meeting dates (Dec 6-12
- ) and the May 4 abstract/May 6 paper deadlines (AoE) are one-year proxies
-  from NeurIPS 2026.
+ r/#neurips-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/2026/Dates
@@ -792,11 +803,7 @@ DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
  stimated\, checked 2026-10-29. Check the organizer's call before relying 
  on it.\nFormat: Paper-based\nPrevious edition's page: https://neurips.cc/
  Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-rada
- r/#neurips-2027\nNotes: As of 2026-10-29 the official NeurIPS future-meet
- ings page lists 2027 only as Europe\; no host city\, dates or call is pub
- lished (neurips.cc/Conferences/2027 returns 404). Meeting dates (Dec 6-12
- ) and the May 4 abstract/May 6 paper deadlines (AoE) are one-year proxies
-  from NeurIPS 2026.
+ r/#neurips-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/2026/Dates
@@ -813,15 +820,28 @@ DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2027-
  08\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\nOfficial source: https://
  sscs.ieee.org/conferences/upcoming-conferences/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#ieee-biocas-2027\nNotes: Official 2027 host c
- onfirms Oslo and October 14-16. IEEE SSCS lists May 7 as Abstract Submiss
- ion Date\; it is retained with that exact action\, not relabeled as a pap
- er deadline or made a mandatory paper gate. The final 2027 CFP\, full-pap
- er deadline and cutoff hour still require review. Size is an editorial es
- timate.
+ -uri.github.io/venue-radar/#ieee-biocas-2027
 CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
  ,Neuromorphic & Brain-inspired Computing
 URL:https://sscs.ieee.org/conferences/upcoming-conferences/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:ICONS 2027 (est.) · Final notification of acceptance
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / ACM Digital Library proceedin
+ gs (full and short papers)\; students-only poster competition\nPrevious e
+ dition's page: https://iconsneuromorphic.cc/calls-2026/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:mlsys-2027-conference@scientific-conference-calendar
@@ -841,6 +861,44 @@ CATEGORIES:ML Systems & Infrastructure,Machine Learning,Federated & Distrib
  uted Learning,Natural Language Processing & LLMs
 URL:https://mlsys.org/Conferences/2027
 LOCATION:Bellevue\, Washington\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:ICONS 2027 (est.) · Camera-ready papers due
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / ACM Digital Library proceedin
+ gs (full and short papers)\; students-only poster competition\nPrevious e
+ dition's page: https://iconsneuromorphic.cc/calls-2026/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-student-poster-competition@scientific-conference-ca
+ lendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:ICONS 2027 (est.) · Student poster competition submission (student
+ s only)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / ACM Digital Library proceedin
+ gs (full and short papers)\; students-only poster competition\nPrevious e
+ dition's page: https://iconsneuromorphic.cc/Students-2026/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/Students-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-conference@scientific-conference-calendar
@@ -891,11 +949,7 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
  1 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-29. Check
   the organizer's call before relying on it.\nFormat: Paper-based / non-ar
  chival extended abstracts\nOfficial source: https://logconference.org/cfp
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#log-2027\nNotes: A
- s of 2026-10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-2
- 2) and announces no 2027 host or dates. Meeting and abstract/paper AoE da
- tes are one-year same-weekday proxies from LoG 2026\, based on its origin
- al Jul 29/Aug 1 deadlines rather than the later Aug 5/7 extension.
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#log-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
@@ -929,14 +983,34 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
  1 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-29. Check
   the organizer's call before relying on it.\nFormat: Paper-based / non-ar
  chival extended abstracts\nOfficial source: https://logconference.org/cfp
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#log-2027\nNotes: A
- s of 2026-10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-2
- 2) and announces no 2027 host or dates. Meeting and abstract/paper AoE da
- tes are one-year same-weekday proxies from LoG 2026\, based on its origin
- al Jul 29/Aug 1 deadlines rather than the later Aug 5/7 extension.
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#log-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270807
+SUMMARY:ICONS 2027 (est.) · Conference
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nStatus: e
+ stimated\, checked 2026-10-31. Check the organizer's call before relying 
+ on it.\nOfficial source: https://iconsneuromorphic.cc/\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#icons-2027\nNotes: On 2026-10-31 icons
+ neuromorphic.cc still presents ICONS 2026\; no 2027 dates\, host\, call o
+ r EasyChair page were found. ICONS has met annually since 2018 in late Ju
+ ly or early August. Meeting dates\, the Apr 8 AoE full/short paper deadli
+ ne\, the Jul 3 student poster deadline\, notification and camera-ready ar
+ e one-year proxies from ICONS 2026. Recent paper cutoffs moved (final May
+  3 in 2024\, May 4 in 2025\, Apr 8 in 2026)\, so check early. Hybrid mode
+  (2022-2026) and ACM proceedings (2026\; 2024 was IEEE/ACM) are assumed t
+ o continue. The students-only poster competition is schedule-only\, like 
+ other student-only routes. Size is an editorial estimate.
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2028-deadline-abstract@scientific-conference-calendar
@@ -949,10 +1023,7 @@ DESCRIPTION:International Conference on Learning Representations\nMeeting:
  ecked 2026-10-29. Check the organizer's call before relying on it.\nForma
  t: Paper-based / OpenReview\nPrevious edition's page: https://iclr.cc/Con
  ferences/2027/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- iclr-2028\nNotes: As of 2026-10-29 ICLR has not announced a 2028 meeting\
- ; its official future-meetings page lists only 2027. Meeting dates (Apr 2
- 6-30) and the Sep 18 abstract/Sep 25 paper deadlines (AoE) are one-year p
- roxies from ICLR 2027.
+ iclr-2028
 CATEGORIES:Deep Representation Learning,Machine Learning,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://iclr.cc/Conferences/2027/Dates
@@ -968,11 +1039,7 @@ DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
  d\, checked 2026-10-29. Check the organizer's call before relying on it.\
  nFormat: Paper-based / systematization of knowledge / position papers\nOf
  ficial source: https://satml.org/call-for-papers/\nVenue Radar: https://g
- on-uri.github.io/venue-radar/#satml-2028\nNotes: As of 2026-10-29 satml.o
- rg covers only SaTML 2027 (Reykjavik\, May 3-6\, 2027) and announces no 2
- 028 host or dates. Main-meeting dates and the Tuesday abstract (Sep 21)/p
- aper (Sep 28) AoE deadlines are one-year same-weekday proxies from SaTML 
- 2027\; past meetings have ranged from February to May.
+ on-uri.github.io/venue-radar/#satml-2028
 CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
   AI,Explainability & Interpretability
 URL:https://satml.org/call-for-papers/
@@ -988,10 +1055,7 @@ DESCRIPTION:International Conference on Learning Representations\nMeeting:
  ecked 2026-10-29. Check the organizer's call before relying on it.\nForma
  t: Paper-based / OpenReview\nPrevious edition's page: https://iclr.cc/Con
  ferences/2027/Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- iclr-2028\nNotes: As of 2026-10-29 ICLR has not announced a 2028 meeting\
- ; its official future-meetings page lists only 2027. Meeting dates (Apr 2
- 6-30) and the Sep 18 abstract/Sep 25 paper deadlines (AoE) are one-year p
- roxies from ICLR 2027.
+ iclr-2028
 CATEGORIES:Deep Representation Learning,Machine Learning,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://iclr.cc/Conferences/2027/Dates
@@ -1007,11 +1071,7 @@ DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
  d\, checked 2026-10-29. Check the organizer's call before relying on it.\
  nFormat: Paper-based / systematization of knowledge / position papers\nOf
  ficial source: https://satml.org/call-for-papers/\nVenue Radar: https://g
- on-uri.github.io/venue-radar/#satml-2028\nNotes: As of 2026-10-29 satml.o
- rg covers only SaTML 2027 (Reykjavik\, May 3-6\, 2027) and announces no 2
- 028 host or dates. Main-meeting dates and the Tuesday abstract (Sep 21)/p
- aper (Sep 28) AoE deadlines are one-year same-weekday proxies from SaTML 
- 2027\; past meetings have ranged from February to May.
+ on-uri.github.io/venue-radar/#satml-2028
 CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
   AI,Explainability & Interpretability
 URL:https://satml.org/call-for-papers/

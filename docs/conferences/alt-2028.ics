@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ALT 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:alt-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271013T115900Z
+DTEND:20271013T125900Z
+SUMMARY:ALT 2028 (est.) · Paper submission deadline
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nMeetin
+ g: 2028-03-09 to 2028-03-12 (est.)\, To be announced\nStatus: estimated\,
+  checked 2026-10-31. Check the organizer's call before relying on it.\nFo
+ rmat: Paper-based / PMLR proceedings (optional one-page extended abstract
+  instead)\nPrevious edition's page: https://algorithmiclearningtheory.org
+ /alt2027/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-r
+ adar/#alt-2028
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:alt-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280309
+DTEND;VALUE=DATE:20280313
+SUMMARY:ALT 2028 (est.) · Conference
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nStatus
+ : estimated\, checked 2026-10-31. Check the organizer's call before relyi
+ ng on it.\nOfficial source: https://algorithmiclearningtheory.org/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#alt-2028\nNotes: As of 202
+ 6-10-31 the AALT site lists only ALT 2027 (its /alt2028/ page returns 404
+ )\; no 2028 host\, dates or call is published. AALT runs ALT as its annua
+ l conference\, held every year through 2027. Meeting dates (March 9-12) a
+ nd the October 12 AoE paper deadline are one-year proxies from ALT 2027\;
+  ALT 2024-2026 met in late February with deadlines from September 26 to O
+ ctober 2\, so expect drift. Format and PMLR publication follow the 2027 c
+ all. Size is an editorial estimate.
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

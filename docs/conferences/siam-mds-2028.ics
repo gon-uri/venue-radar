@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SIAM MDS 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:siam-mds-2028-deadline-minisymposium-proposal@scientific-conference-cal
+ endar
+DTSTAMP:19700101T000000Z
+DTSTART:20280418T035900Z
+DTEND:20280418T045900Z
+SUMMARY:SIAM MDS 2028 (est.) · Minisymposium and miniposterium proposals
+DESCRIPTION:SIAM Conference on Mathematics of Data Science\nMeeting: 2028-1
+ 1-13 to 2028-11-17 (est.)\, To be announced\nStatus: estimated\, checked 
+ 2026-10-31. Check the organizer's call before relying on it.\nFormat: Abs
+ tract-based / non-archival (minisymposia and contributed posters)\nOffici
+ al source: https://web.archive.org/web/20260419233120/https://www.siam.or
+ g/conferences-events/siam-conferences/mds26/submissions/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#siam-mds-2028
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data 
+ Mining & Data Science
+URL:https://web.archive.org/web/20260419233120/https://www.siam.org/confere
+ nces-events/siam-conferences/mds26/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:siam-mds-2028-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T035900Z
+DTEND:20280516T045900Z
+SUMMARY:SIAM MDS 2028 (est.) · Contributed poster abstracts
+DESCRIPTION:SIAM Conference on Mathematics of Data Science\nMeeting: 2028-1
+ 1-13 to 2028-11-17 (est.)\, To be announced\nStatus: estimated\, checked 
+ 2026-10-31. Check the organizer's call before relying on it.\nFormat: Abs
+ tract-based / non-archival (minisymposia and contributed posters)\nOffici
+ al source: https://meetings.siam.org/start.cfm?CONFCODE=mds26\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#siam-mds-2028
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data 
+ Mining & Data Science
+URL:https://meetings.siam.org/start.cfm?CONFCODE=mds26
+END:VEVENT
+BEGIN:VEVENT
+UID:siam-mds-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281113
+DTEND;VALUE=DATE:20281118
+SUMMARY:SIAM MDS 2028 (est.) · Conference
+DESCRIPTION:SIAM Conference on Mathematics of Data Science\nStatus: estimat
+ ed\, checked 2026-10-31. Check the organizer's call before relying on it.
+ \nOfficial source: https://web.archive.org/web/20250623175859/https://www
+ .siam.org/get-involved/connect-with-a-community/activity-groups/data-scie
+ nce/\nVenue Radar: https://gon-uri.github.io/venue-radar/#siam-mds-2028\n
+ Notes: SIAM's data-science activity group calls MDS biennial in even year
+ s (MDS22 Sep 26-30\, MDS24 Oct 21-25\, MDS26 Nov 16-20\, each Monday to F
+ riday). As of 2026-10-31 no MDS28 dates\, host or call are published\, an
+ d the SIAM participation system has no mds28 code. Meeting dates and the 
+ proposal and poster-abstract cutoffs (11:59 pm ET) are same-weekday two-y
+ ear proxies from MDS26 (Apr 20 and May 18\, 2026)\; timing has drifted la
+ ter each edition. MDS24 and MDS26 took contributed posters but no contrib
+ uted lectures. Presentation abstracts only\, non-archival. Size is an edi
+ torial estimate.
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data 
+ Mining & Data Science
+URL:https://web.archive.org/web/20250623175859/https://www.siam.org/get-inv
+ olved/connect-with-a-community/activity-groups/data-science/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

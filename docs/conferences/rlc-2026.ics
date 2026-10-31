@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RLC 2026 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rlc-2026-deadline-abstract-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260306T115900Z
+DTEND:20260306T125900Z
+SUMMARY:RLC 2026 · Abstract submission (extended from March 1 to the paper
+  cutoff)
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
+ 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
+ : Paper-based / published in the Reinforcement Learning Journal (RLJ)\nOf
+ ficial source: https://rl-conference.cc/2026/callforpapers.html\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#rlc-2026
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260306T115900Z
+DTEND:20260306T125900Z
+SUMMARY:RLC 2026 · Paper submission deadline
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
+ 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
+ : Paper-based / published in the Reinforcement Learning Journal (RLJ)\nOf
+ ficial source: https://rl-conference.cc/2026/callforpapers.html\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#rlc-2026
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260506T115900Z
+DTEND:20260506T125900Z
+SUMMARY:RLC 2026 · Decision notification (moved from May 8)
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
+ 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
+ : Paper-based / published in the Reinforcement Learning Journal (RLJ)\nOf
+ ficial source: https://rl-conference.cc/2026/callforpapers.html\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#rlc-2026
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260719T115900Z
+DTEND:20260719T125900Z
+SUMMARY:RLC 2026 · Camera-ready paper due
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
+ 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
+ : Paper-based / published in the Reinforcement Learning Journal (RLJ)\nOf
+ ficial source: https://rl-conference.cc/2026/callforpapers.html\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#rlc-2026
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260819
+SUMMARY:RLC 2026 · Conference
+DESCRIPTION:Reinforcement Learning Conference\nStatus: confirmed\, checked 
+ 2026-10-31\nOfficial source: https://rl-conference.cc/2026/index.html\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#rlc-2026\nNotes: Third 
+ RLC (annual since 2024). Official pages confirm Aug 15-18\, 2026 at Unive
+ rsité de Montréal (Aug 15 workshops\, Aug 16-18 main program). Accepted
+  papers appear in the Reinforcement Learning Journal (RLJ\, ISSN 2996-857
+ 7) after double-blind OpenReview review\; one author must attend in perso
+ n. The abstract deadline was extended from March 1 to March 5 AoE\, the p
+ aper cutoff\, so it is kept as a schedule-only step. The submission site 
+ was to open by February 17 (no time given). No official acceptance rate w
+ as found. Size M rests on 148 RLJ 2026 papers in the official paper sched
+ ule\; attendance is unpublished. Size is an editorial estimate.
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/index.html
+LOCATION:Montreal\, Canada
+END:VEVENT
+END:VCALENDAR

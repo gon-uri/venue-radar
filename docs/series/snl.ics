@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SNL (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:snl-2027-deadline-symposium-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270321T115900Z
+DTEND:20270321T125900Z
+SUMMARY:SNL 2027 (est.) · Symposium proposals (organizer-led\; organizer m
+ ust be an SNL member)
+DESCRIPTION:Annual Meeting of the Society for the Neurobiology of Language\
+ nMeeting: 2027-09-24 to 2027-09-27\, Hong Kong\, China\nStatus: estimated
+ \, checked 2026-10-31. Check the organizer's call before relying on it.\n
+ Format: Abstract-based (peer-reviewed 500-word slide/poster abstracts pri
+ nted in the meeting program\; no paper proceedings)\nPrevious edition's p
+ age: https://2026.neurolang.org/symposium-submissions/\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#snl-2027
+CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Cognitive 
+ Science & Computational Cognition,Systems & Experimental Neuroscience
+URL:https://2026.neurolang.org/symposium-submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:snl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270518T115900Z
+DTEND:20270518T125900Z
+SUMMARY:SNL 2027 (est.) · Slide/poster abstract submission (first author m
+ ust be an SNL member)
+DESCRIPTION:Annual Meeting of the Society for the Neurobiology of Language\
+ nMeeting: 2027-09-24 to 2027-09-27\, Hong Kong\, China\nStatus: estimated
+ \, checked 2026-10-31. Check the organizer's call before relying on it.\n
+ Format: Abstract-based (peer-reviewed 500-word slide/poster abstracts pri
+ nted in the meeting program\; no paper proceedings)\nPrevious edition's p
+ age: https://2026.neurolang.org/abstract-submissions/\nVenue Radar: https
+ ://gon-uri.github.io/venue-radar/#snl-2027
+CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Cognitive 
+ Science & Computational Cognition,Systems & Experimental Neuroscience
+URL:https://2026.neurolang.org/abstract-submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:snl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270928
+SUMMARY:SNL 2027 · Conference
+DESCRIPTION:Annual Meeting of the Society for the Neurobiology of Language\
+ nStatus: confirmed\, checked 2026-10-31\nPrevious edition's page: https:/
+ /2026.neurolang.org/future-meetings/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#snl-2027\nNotes: SNL's future-meetings and home pages co
+ nfirm SNL 2027 in Hong Kong\, September 24-27\, 2027\; no 2027 site\, ven
+ ue or call yet. Both deadlines are proxies from SNL 2026 shifted 360 days
+  with the meeting start. Symposia were due March 25 and abstracts May 22\
+ , 2026 as first published (extended to May 26)\, end of day in the latest
+  time zone on Earth. Abstract first authors and symposium organizers must
+  be SNL members\; the 2026 fee was $40. Abstracts are peer-reviewed and p
+ rinted in the program\; there are no paper proceedings. Size from 643 pos
+ ters at SNL 2026 (first authors present)\; attendance is not published. S
+ ize is an editorial estimate.
+CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Cognitive 
+ Science & Computational Cognition,Systems & Experimental Neuroscience
+URL:https://2026.neurolang.org/future-meetings/
+LOCATION:Hong Kong\, China
+END:VEVENT
+END:VCALENDAR

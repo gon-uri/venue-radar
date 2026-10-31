@@ -1,0 +1,202 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESWC 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:eswc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261211T115900Z
+DTEND:20261211T125900Z
+SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: mandatory abst
+ ract submission
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261218T115900Z
+DTEND:20261218T125900Z
+SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: full paper sub
+ mission (15 pages\, LNCS)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261218T115900Z
+DTEND:20261218T125900Z
+SUMMARY:ESWC 2027 · Workshop proposals
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270115T115900Z
+DTEND:20270115T125900Z
+SUMMARY:ESWC 2027 · Tutorial proposals
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-rebuttal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270130T115900Z
+DTEND:20270130T125900Z
+SUMMARY:ESWC 2027 · Main-track rebuttal period closes (opens January 26)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-doctoral-symposium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270212T115900Z
+DTEND:20270212T125900Z
+SUMMARY:ESWC 2027 · Ph.D. Symposium paper (single-author PhD students only
+ )
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/calls/phd-symposium/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/calls/phd-symposium/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:ESWC 2027 · Main-track notification to authors
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nCutoff 
+ time unannounced: official deadline day only. Verify the organizer's subm
+ ission portal.\nFormat: Paper-based / Springer LNCS proceedings\; posters
+ \, demos\, industry and PhD papers in satellite proceedings\nOfficial sou
+ rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:ESWC 2027 · Main-track camera-ready papers due
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:ESWC 2027 · Industry track extended abstracts (4 pages\; at least 
+ one non-academic author required)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/calls/industry-track/\nVenue Radar: https://gon-uri.githu
+ b.io/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/calls/industry-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:ESWC 2027 · Posters and demos submission (4 pages\, LNCS\; dates s
+ ubject to change)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/calls/poster-demo/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/calls/poster-demo/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270528
+SUMMARY:ESWC 2027 · Conference
+DESCRIPTION:European Semantic Web Conference\nStatus: confirmed\, checked 2
+ 026-10-31\nOfficial source: https://2027.eswc-conferences.org/\nVenue Rad
+ ar: https://gon-uri.github.io/venue-radar/#eswc-2027\nNotes: Official sit
+ e: 24th ESWC\, May 23-27\, 2027\, St. Raphael Resort & Marina\, Limassol\
+ ; workshops/tutorials May 23-24. All deadlines 23:59 AoE. Research\, Reso
+ urces and In-Use tracks share a mandatory Dec 10 abstract and Dec 17 pape
+ r (15 pages\, Springer LNCS)\; rejected ISWC 2026 research papers may res
+ ubmit (commitment date TBA). Posters/demos (LNCS)\, industry abstracts (n
+ eeds a non-academic author) and single-author PhD papers go to satellite 
+ proceedings\; poster and PhD dates are marked subject to change. Named Eu
+ ropean again since 2026 (Extended 2010-2025)\; now overseen by SWSA. Annu
+ al since 2004. ESWC 2026 accepted 28 research\, 17 resource and 10 in-use
+  papers. Size is an editorial estimate.
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/
+LOCATION:Limassol\, Cyprus
+END:VEVENT
+END:VCALENDAR

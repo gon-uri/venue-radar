@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICME 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icme-2027-deadline-special-session-proposal@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20261128T115900Z
+DTEND:20261128T125900Z
+SUMMARY:ICME 2027 · Special session proposal deadline (organizers\, by ema
+ il)
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\nOfficial sou
+ rce: https://2027.ieeeicme.org/authors/call-for-special-session-proposals
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/authors/call-for-special-session-proposals
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICME 2027 · Workshop proposal deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:ICME 2027 · Tutorial proposal deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\nOfficial sou
+ rce: https://2027.ieeeicme.org/about/important-dates\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-grand-challenge-proposal@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ICME 2027 · Grand challenge proposal deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261231T115900Z
+DTEND:20261231T125900Z
+SUMMARY:ICME 2027 · Regular paper submission deadline (including special-s
+ ession papers)
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\nOfficial sou
+ rce: https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web
+ -05.pdf\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web-05
+ .pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:ICME 2027 · Regular paper acceptance notification
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:ICME 2027 · Workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:ICME 2027 · Regular paper camera-ready and author registration dea
+ dline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270718
+SUMMARY:ICME 2027 · Conference
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nStatus: c
+ onfirmed\, checked 2026-10-31\nOfficial source: https://2027.ieeeicme.org
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027\nNotes: 
+ Official 2027 pages confirm Xiamen International Conference & Exhibition 
+ Center\, July 13-17\, 2027. Regular and special-session papers share one 
+ system\, review and Dec 30\, 2026 deadline\; the PDF says AOE without an 
+ hour\, so 23:59 AoE is stored. The FAQ says submission opens in early Nov
+ ember 2026 (portal not seen open). ICME 2026 moved its paper deadline fro
+ m Dec 12 to Dec 31\, 2025. Some 2026 workshops set their own paper dates.
+  Demo proposals (Apr 16\; 2-page proceedings papers in 2026) stay in note
+ s per ADR-043. Accepted regular\, workshop\, demo and grand-challenge pap
+ ers enter the IEEE proceedings. No official size figures found. Size is a
+ n editorial estimate.
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/
+LOCATION:Xiamen\, China
+END:VEVENT
+END:VCALENDAR

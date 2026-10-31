@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ENOC 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:enoc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ENOC 2027 (est.) · Two-page extended abstract submission deadline
+DESCRIPTION:European Nonlinear Dynamics Conference\nMeeting: 2027-07-19 to 
+ 2027-07-23\, Aberdeen\, United Kingdom\nStatus: estimated\, checked 2026-
+ 10-31. Check the organizer's call before relying on it.\nEstimated day on
+ ly\; no cutoff hour stored. Check the organizer's call for the real date 
+ and time.\nFormat: Abstract-based / 2-page extended abstracts in a digita
+ l book of abstracts\; no full-paper submission\nOfficial source: https://
+ enoc2027.com/author/submission-guidance\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#enoc-2027
+CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
+ ynamics,Control & Robotics
+URL:https://enoc2027.com/author/submission-guidance
+END:VEVENT
+BEGIN:VEVENT
+UID:enoc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270724
+SUMMARY:ENOC 2027 · Conference
+DESCRIPTION:European Nonlinear Dynamics Conference\nStatus: confirmed\, che
+ cked 2026-10-31\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#enoc-2027\nNotes: 12th ENOC (EUROMECH
+  ENOCC series\, triennial per ENOC 2024)\, July 19-23\, 2027\, P&J Live\,
+  Aberdeen\, per enoc2027.com and EUROMECH. Only 2-page extended abstracts
+  in 21 mini-symposia\; no full papers\; at most two presentations per aut
+ hor. The official templates say accepted abstracts appear in a digital bo
+ ok of abstracts. The site gives only "January 2027"\; Jan 15 is a proxy f
+ rom ENOC 2024's original Jan 15 deadline (extended to Feb 12) and ENOC 20
+ 22's Jan 15 extended deadline. No hour is published. Submission opened Ju
+ ly 2026 per key dates (templates say June)\; the portal shows only a sign
+ -in page. Size basis - ENOC 2024 had over 350 talks. Size is an editorial
+  estimate.
+CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
+ ynamics,Control & Robotics
+URL:https://enoc2027.com/
+LOCATION:Aberdeen\, United Kingdom
+END:VEVENT
+END:VCALENDAR

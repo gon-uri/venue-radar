@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICMNS (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icmns-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:ICMNS 2027 (est.) · Abstract deadline for contributed talks and po
+ sters
+DESCRIPTION:International Conference on Mathematical Neuroscience\nMeeting:
+  2027-06-01 to 2027-06-04\, Montpellier\, France\nStatus: estimated\, che
+ cked 2026-10-31. Check the organizer's call before relying on it.\nEstima
+ ted day only\; no cutoff hour stored. Check the organizer's call for the 
+ real date and time.\nFormat: Abstract-based / non-archival\nPrevious edit
+ ion's page: https://listserver.vu.nl/pipermail/icmns-beta/2026-January/00
+ 0070.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#icmns-2027
+CATEGORIES:Computational Neuroscience,Nonlinear Dynamics & Chaos
+URL:https://listserver.vu.nl/pipermail/icmns-beta/2026-January/000070.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icmns-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270605
+SUMMARY:ICMNS 2027 · Conference
+DESCRIPTION:International Conference on Mathematical Neuroscience\nStatus: 
+ confirmed\, checked 2026-10-31\nOfficial source: https://icmns.org/2027/\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#icmns-2027\nNotes: i
+ cmns.org\, the ICMNS'27 site and the organisers' Sep 17\, 2026 announceme
+ nt confirm the 12th edition in Montpellier\, June 1-4\, 2027 (venue unnam
+ ed). On 2026-10-31 abstract opening and deadline are TBA. The abstract da
+ te is a one-year proxy from 2026 (posters/minisymposia due Feb 28\, later
+  extended to an unverified date)\; 2024 and 2025 closed Jan 16 and Jan 19
+  after extensions\, so 2027 may close earlier. Past editions chose talks 
+ and posters from abstracts\, without proceedings\; some work later appear
+ ed in J. Math. Neurosci. special issues. ICMNS 2028 is set for Shanghai (
+ SJTU)\, dates TBA. Size from 150+ participants\, 44 talks and 80+ posters
+  in 2025. Size is an editorial estimate.
+CATEGORIES:Computational Neuroscience,Nonlinear Dynamics & Chaos
+URL:https://icmns.org/2027/
+LOCATION:Montpellier\, France
+END:VEVENT
+END:VCALENDAR

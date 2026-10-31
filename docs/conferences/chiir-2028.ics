@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CHIIR 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:chiir-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271009T115900Z
+DTEND:20271009T125900Z
+SUMMARY:CHIIR 2028 (est.) · Full and perspective paper abstract (mandatory
+ )
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/full-pa
+ pers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271016T115900Z
+DTEND:20271016T125900Z
+SUMMARY:CHIIR 2028 (est.) · Full and perspective paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/full-pa
+ pers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271030T115900Z
+DTEND:20271030T125900Z
+SUMMARY:CHIIR 2028 (est.) · Resource paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/resourc
+ e-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-
+ 2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/resource-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271030T115900Z
+DTEND:20271030T125900Z
+SUMMARY:CHIIR 2028 (est.) · Short paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/short-p
+ apers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-202
+ 8
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/short-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280312
+SUMMARY:CHIIR 2028 (est.) · Conference
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nStatus: estimated\, checked 2026-10-31. Check the organizer's call 
+ before relying on it.\nPrevious edition's page: https://sigir.org/wp-cont
+ ent/uploads/2026/07/p04.pdf\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#chiir-2028\nNotes: The CHIIR 2026 general chairs' SIGIR Forum rep
+ ort (June 2026) names Helsinki as the CHIIR 2028 host\; as of 2026-10-31 
+ no 2028 website\, dates or call exist (chiir2028.github.io returns 404). 
+ chiir.org says CHIIR is annual in March. Meeting dates are a one-year pro
+ xy from CHIIR 2027 (Mar 7-11)\; CHIIR 2026 ran Mar 22-26. Deadlines repea
+ t the same 23:59 AoE days used by the 2026 and 2027 calls (abstract Oct 8
+ \, paper Oct 15\, short and resource papers Oct 29). Call links refer to 
+ CHIIR 2027. Size is an editorial estimate.
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://sigir.org/wp-content/uploads/2026/07/p04.pdf
+LOCATION:Helsinki\, Finland
+END:VEVENT
+END:VCALENDAR

@@ -11,6 +11,38 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:ppsn-2026-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260223T115900Z
+DTEND:20260223T125900Z
+SUMMARY:PPSN 2026 · Extended tutorial proposal deadline
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260313015745/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260313015745/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260223T115900Z
+DTEND:20260223T125900Z
+SUMMARY:PPSN 2026 · Extended workshop proposal deadline
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260313015745/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260313015745/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
 UID:alife-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260413T115900Z
@@ -20,15 +52,28 @@ DESCRIPTION:International Conference on Artificial Life\nMeeting: 2026-08-1
  7 to 2026-08-21\, Waterloo\, Ontario\, Canada\nStatus: confirmed\, checke
  d 2026-10-08\nFormat: Full papers + non-archival abstracts\nOfficial sour
  ce: https://2026.alife.org/call-for-papers/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#alife-2026\nNotes: Historical baseline. Reviewed 
- full papers appear in MIT Press open-access proceedings\; presentation su
- mmaries and late-breaking abstracts are non-archival. The April date was 
- an extension of the original March 30 cutoff. Size is an editorial estima
- te.
+ .github.io/venue-radar/#alife-2026
 CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
  ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
  ional Cognition
 URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260419T115900Z
+DTEND:20260419T125900Z
+SUMMARY:PPSN 2026 · Extended full-paper submission deadline (LNCS\, up to 
+ 14 pages)
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
+ it/
 END:VEVENT
 BEGIN:VEVENT
 UID:nolta-2026-deadline-full-paper@scientific-conference-calendar
@@ -41,13 +86,42 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  ed\, checked 2026-10-06\nCutoff time unannounced: official deadline day o
  nly. Verify the organizer's submission portal.\nFormat: Paper-based\nOffi
  cial source: https://nolta2026.org/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#nolta-2026\nNotes: Annual IEICE NOLTA symposium\; officia
- l final extensions supersede older April/July dates. Proceedings papers\,
-  with neural networks and deep AI explicitly in scope. Deadline hours use
-  estimated end-of-day AoE. Size is an editorial category.
+ io/venue-radar/#nolta-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260528T115900Z
+DTEND:20260528T125900Z
+SUMMARY:PPSN 2026 · Extended acceptance notification
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260613T115900Z
+DTEND:20260613T125900Z
+SUMMARY:PPSN 2026 · Camera-ready papers and author registration due
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
+ it/
 END:VEVENT
 BEGIN:VEVENT
 UID:alife-2026-deadline-late-abstract@scientific-conference-calendar
@@ -59,11 +133,7 @@ DESCRIPTION:International Conference on Artificial Life\nMeeting: 2026-08-1
  7 to 2026-08-21\, Waterloo\, Ontario\, Canada\nStatus: confirmed\, checke
  d 2026-10-08\nFormat: Full papers + non-archival abstracts\nOfficial sour
  ce: https://2026.alife.org/call-for-papers/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#alife-2026\nNotes: Historical baseline. Reviewed 
- full papers appear in MIT Press open-access proceedings\; presentation su
- mmaries and late-breaking abstracts are non-archival. The April date was 
- an extension of the original March 30 cutoff. Size is an editorial estima
- te.
+ .github.io/venue-radar/#alife-2026
 CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
  ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
  ional Cognition
@@ -80,10 +150,7 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  ed\, checked 2026-10-06\nCutoff time unannounced: official deadline day o
  nly. Verify the organizer's submission portal.\nFormat: Paper-based\nOffi
  cial source: https://nolta2026.org/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#nolta-2026\nNotes: Annual IEICE NOLTA symposium\; officia
- l final extensions supersede older April/July dates. Proceedings papers\,
-  with neural networks and deep AI explicitly in scope. Deadline hours use
-  estimated end-of-day AoE. Size is an editorial category.
+ io/venue-radar/#nolta-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
@@ -106,6 +173,50 @@ CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
  ional Cognition
 URL:https://2026.alife.org/
 LOCATION:Waterloo\, Ontario\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260903
+SUMMARY:PPSN 2026 · Conference
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://ppsn2
+ 026.disi.unitn.it/\nVenue Radar: https://gon-uri.github.io/venue-radar/#p
+ psn-2026\nNotes: 19th PPSN\, hosted by the University of Trento at Trento
+  Expo\; workshops and tutorials Aug 29-30\, main program Aug 31-Sep 2. In
+  person only (virtual participation not possible). Single-blind LNCS pape
+ rs of up to 14 pages plus references\; all accepted papers are posters an
+ d appear in Springer LNCS 16985-16989. The Mar 28 paper deadline was exte
+ nded to Apr 18 and notification from May 22 to May 27\; workshop/tutorial
+  proposals moved from Feb 8 to Feb 22. All cutoffs are end of day AoE. Th
+ e live site hides its dates\; archived snapshots are cited. Workshop pape
+ rs are not in the proceedings. Size M from 165 papers in 8 poster session
+ s\; no official acceptance rate found. Size is an editorial estimate.
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ppsn2026.disi.unitn.it/
+LOCATION:Trento\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-special-session-proposal@scientific-conference-c
+ alendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:IEEE CEC 2027 · Special session and workshop proposal deadline
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nCutoff note: The CFP PDF gives November
+  15\, 2026\; the website's dates\, special-session and workshop pages giv
+ e November 29\, 2026.\nFormat: Paper-based / IEEE Xplore proceedings (8-p
+ age full papers)\; 4-page short papers in a separate Companion Proceeding
+ s\nOfficial source: https://confcats-siteplex.s3.amazonaws.com/ieeecec/fi
+ les/cec27-cfp_web-13.pdf\nVenue Radar: https://gon-uri.github.io/venue-ra
+ dar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://confcats-siteplex.s3.amazonaws.com/ieeecec/files/cec27-cfp_web-
+ 13.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:nolta-2026-conference@scientific-conference-calendar
@@ -137,15 +248,7 @@ DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
  nCutoff time unannounced: official deadline day only. Verify the organize
  r's submission portal.\nFormat: Paper-based / Springer LNCS\nOfficial sou
  rce: https://www.evostar.org/2027/important-dates/\nVenue Radar: https://
- gon-uri.github.io/venue-radar/#eurogp-2027\nNotes: Official EvoStar pages
-  confirm Mainz\, March 31-April 2\, in hybrid mode. On 2026-10-30 the Imp
- ortant Dates page strikes November 1 and gives November 16\, 2026 (extend
- ed) for EvoStar paper submissions\, including EuroGP\; an older post embe
- dded on the EuroGP page still shows November 1. Published deadline days h
- ave no exact cutoff hour or timezone\; AoE timestamps are provisional and
-  calendars use all-day events. A shared EvoStar late-breaking-abstract da
- te (March 21\, 2027) has no 2027 call page yet and is not tracked. S is a
- n editorial size estimate for EuroGP\, not the whole EvoStar event.
+ gon-uri.github.io/venue-radar/#eurogp-2027
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Explain
  ability & Interpretability
 URL:https://www.evostar.org/2027/important-dates/
@@ -160,15 +263,26 @@ DESCRIPTION:Genetic and Evolutionary Computation Conference\nMeeting: 2027-
  07-12 to 2027-07-16\, Krakow\, Poland\nStatus: confirmed\, checked 2026-1
  0-28\nFormat: Paper-based / poster papers\nOfficial source: https://gecco
  -2027.sigevo.org/Tutorial+Proposals\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#gecco-2027\nNotes: Official 2027 CFP confirms Krakow\, Ju
- l 12-16\, in person only\, with a mandatory full-paper abstract by Jan 18
-  and non-extensible Jan 25 full and poster-only deadlines (poster-only ne
- eds no abstract). Paper cutoff hours and zone are unstated\, so AoE end-o
- f-day is provisional\; tutorial proposals are stated AoE. Size L is an ed
- itorial estimate.
+ io/venue-radar/#gecco-2027
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Complex
   Systems & Network Science
 URL:https://gecco-2027.sigevo.org/Tutorial+Proposals
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:IEEE CEC 2027 · Competition and tutorial proposal deadline
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/authors/call-for-
+ papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:gecco-2027-deadline-abstract@scientific-conference-calendar
@@ -181,12 +295,7 @@ DESCRIPTION:Genetic and Evolutionary Computation Conference\nMeeting: 2027-
  0-28\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Paper-based / poster papers\nOfficia
  l source: https://gecco-2027.sigevo.org/Call+for+Papers\nVenue Radar: htt
- ps://gon-uri.github.io/venue-radar/#gecco-2027\nNotes: Official 2027 CFP 
- confirms Krakow\, Jul 12-16\, in person only\, with a mandatory full-pape
- r abstract by Jan 18 and non-extensible Jan 25 full and poster-only deadl
- ines (poster-only needs no abstract). Paper cutoff hours and zone are uns
- tated\, so AoE end-of-day is provisional\; tutorial proposals are stated 
- AoE. Size L is an editorial estimate.
+ ps://gon-uri.github.io/venue-radar/#gecco-2027
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Complex
   Systems & Network Science
 URL:https://gecco-2027.sigevo.org/Call+for+Papers
@@ -202,15 +311,7 @@ DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
  nCutoff time unannounced: official deadline day only. Verify the organize
  r's submission portal.\nFormat: Paper-based / Springer LNCS\nOfficial sou
  rce: https://www.evostar.org/2027/important-dates/\nVenue Radar: https://
- gon-uri.github.io/venue-radar/#eurogp-2027\nNotes: Official EvoStar pages
-  confirm Mainz\, March 31-April 2\, in hybrid mode. On 2026-10-30 the Imp
- ortant Dates page strikes November 1 and gives November 16\, 2026 (extend
- ed) for EvoStar paper submissions\, including EuroGP\; an older post embe
- dded on the EuroGP page still shows November 1. Published deadline days h
- ave no exact cutoff hour or timezone\; AoE timestamps are provisional and
-  calendars use all-day events. A shared EvoStar late-breaking-abstract da
- te (March 21\, 2027) has no 2027 call page yet and is not tracked. S is a
- n editorial size estimate for EuroGP\, not the whole EvoStar event.
+ gon-uri.github.io/venue-radar/#eurogp-2027
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Explain
  ability & Interpretability
 URL:https://www.evostar.org/2027/important-dates/
@@ -226,12 +327,7 @@ DESCRIPTION:Genetic and Evolutionary Computation Conference\nMeeting: 2027-
  0-28\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Paper-based / poster papers\nOfficia
  l source: https://gecco-2027.sigevo.org/Call+for+Papers\nVenue Radar: htt
- ps://gon-uri.github.io/venue-radar/#gecco-2027\nNotes: Official 2027 CFP 
- confirms Krakow\, Jul 12-16\, in person only\, with a mandatory full-pape
- r abstract by Jan 18 and non-extensible Jan 25 full and poster-only deadl
- ines (poster-only needs no abstract). Paper cutoff hours and zone are uns
- tated\, so AoE end-of-day is provisional\; tutorial proposals are stated 
- AoE. Size L is an editorial estimate.
+ ps://gon-uri.github.io/venue-radar/#gecco-2027
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Complex
   Systems & Network Science
 URL:https://gecco-2027.sigevo.org/Call+for+Papers
@@ -248,15 +344,79 @@ DESCRIPTION:Genetic and Evolutionary Computation Conference\nMeeting: 2027-
  0-28\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Paper-based / poster papers\nOfficia
  l source: https://gecco-2027.sigevo.org/Call+for+Papers\nVenue Radar: htt
- ps://gon-uri.github.io/venue-radar/#gecco-2027\nNotes: Official 2027 CFP 
- confirms Krakow\, Jul 12-16\, in person only\, with a mandatory full-pape
- r abstract by Jan 18 and non-extensible Jan 25 full and poster-only deadl
- ines (poster-only needs no abstract). Paper cutoff hours and zone are uns
- tated\, so AoE end-of-day is provisional\; tutorial proposals are stated 
- AoE. Size L is an editorial estimate.
+ ps://gon-uri.github.io/venue-radar/#gecco-2027
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Complex
   Systems & Network Science
 URL:https://gecco-2027.sigevo.org/Call+for+Papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:IEEE CEC 2027 · Full paper submission\, 8 pages incl. special-sess
+ ion papers (no extension)
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/authors/call-for-
+ papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-graduate-student-symposium@scientific-conference
+ -calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IEEE CEC 2027 · Graduate Student Symposium research proposal (enro
+ lled Master's/doctoral students\; proposal not published)
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/program/graduate-
+ student-symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#ie
+ ee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/program/graduate-student-symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-j2c-application@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IEEE CEC 2027 · Journal-to-Conference presentation application (pu
+ blished IEEE CIS journal papers only)
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/j2c-paper-present
+ ations\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/j2c-paper-presentations
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270316T115900Z
+DTEND:20270316T125900Z
+SUMMARY:IEEE CEC 2027 · Short paper submission\, 4 pages\, Companion Proce
+ edings (no extension)
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nFormat: Paper-based / IEEE Xplore proceedings (8-page full pap
+ ers)\; 4-page short papers in a separate Companion Proceedings\nOfficial 
+ source: https://ieeecec.org/2027/call-for-short-papers\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/call-for-short-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:gecco-2027-deadline-notification@scientific-conference-calendar
@@ -269,12 +429,7 @@ DESCRIPTION:Genetic and Evolutionary Computation Conference\nMeeting: 2027-
  0-28\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Paper-based / poster papers\nOfficia
  l source: https://gecco-2027.sigevo.org/Important+Dates\nVenue Radar: htt
- ps://gon-uri.github.io/venue-radar/#gecco-2027\nNotes: Official 2027 CFP 
- confirms Krakow\, Jul 12-16\, in person only\, with a mandatory full-pape
- r abstract by Jan 18 and non-extensible Jan 25 full and poster-only deadl
- ines (poster-only needs no abstract). Paper cutoff hours and zone are uns
- tated\, so AoE end-of-day is provisional\; tutorial proposals are stated 
- AoE. Size L is an editorial estimate.
+ ps://gon-uri.github.io/venue-radar/#gecco-2027
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Complex
   Systems & Network Science
 URL:https://gecco-2027.sigevo.org/Important+Dates
@@ -313,16 +468,27 @@ DESCRIPTION:International Conference on Artificial Life\nMeeting: 2027-07-1
  26-10-28. Check the organizer's call before relying on it.\nFormat: Full 
  papers + non-archival abstracts\nPrevious edition's page: https://2026.al
  ife.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#alife-2027\nNotes: Organizer site (2027.alife.org redirects there) c
- onfirms July 19-23 at the Dejvice Campus\, Prague\; as of 2026-10-28 no 2
- 027 call or deadlines are published and the program is in early planning.
-  The full-paper cutoff is a one-year proxy from the original 2026 March 3
- 0 deadline\, not its extension\; no late-breaking abstract proxy is copie
- d. Size is an editorial estimate.
+ dar/#alife-2027
 CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
  ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
  ional Cognition
 URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:IEEE CEC 2027 · Full paper acceptance notification
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/authors/call-for-
+ papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:gecco-2027-deadline-camera-ready@scientific-conference-calendar
@@ -335,15 +501,27 @@ DESCRIPTION:Genetic and Evolutionary Computation Conference\nMeeting: 2027-
  0-28\nCutoff time unannounced: official deadline day only. Verify the org
  anizer's submission portal.\nFormat: Paper-based / poster papers\nOfficia
  l source: https://gecco-2027.sigevo.org/Important+Dates\nVenue Radar: htt
- ps://gon-uri.github.io/venue-radar/#gecco-2027\nNotes: Official 2027 CFP 
- confirms Krakow\, Jul 12-16\, in person only\, with a mandatory full-pape
- r abstract by Jan 18 and non-extensible Jan 25 full and poster-only deadl
- ines (poster-only needs no abstract). Paper cutoff hours and zone are uns
- tated\, so AoE end-of-day is provisional\; tutorial proposals are stated 
- AoE. Size L is an editorial estimate.
+ ps://gon-uri.github.io/venue-radar/#gecco-2027
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Complex
   Systems & Network Science
 URL:https://gecco-2027.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-short-paper-notification@scientific-conference-c
+ alendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:IEEE CEC 2027 · Short paper acceptance notification
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/call-for-short-pa
+ pers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/call-for-short-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:nolta-2027-deadline-full-paper@scientific-conference-calendar
@@ -357,14 +535,27 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  n it.\nEstimated day only\; no cutoff hour stored. Check the organizer's 
  call for the real date and time.\nFormat: Paper-based\nPrevious edition's
   page: https://nolta2026.org/\nVenue Radar: https://gon-uri.github.io/ven
- ue-radar/#nolta-2027\nNotes: As of 2026-10-29 the official NOLTA 2026 sit
- e (Grenoble\, Nov 17-20\, 2026) announces no 2027 host or dates. Meeting 
- dates and the paper deadline are same-weekday one-year proxies from NOLTA
-  2026\; the deadline follows its original Apr 30 date\, not the May 20 fi
- nal extension.
+ ue-radar/#nolta-2027
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:IEEE CEC 2027 · Final paper submission and early/author registrati
+ on deadline
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\nOfficial source: https://ieeecec.org/2027/authors/call-for-
+ papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:automl-2027-deadline-full-paper@scientific-conference-calendar
@@ -376,12 +567,7 @@ DESCRIPTION:International Conference on Automated Machine Learning\nMeeting
  : 2027-09-28 to 2027-10-01 (est.)\, To be announced\nStatus: estimated\, 
  checked 2026-10-28. Check the organizer's call before relying on it.\nFor
  mat: Paper-based\nPrevious edition's page: https://2026.automl.cc/dates/\
- nVenue Radar: https://gon-uri.github.io/venue-radar/#automl-2027\nNotes: 
- As of 2026-10-28 automl.cc still redirects to the AutoML 2026 site and no
-  2027 host\, dates or call are published. Meeting and main-track deadline
- s are projections from AutoML 2026\; links refer to prior editions. ABCD 
- covers applications\, benchmarks\, challenges\, and datasets. Size M is a
- n editorial estimate for this specialist conference.
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#automl-2027
 CATEGORIES:Machine Learning,Evolutionary Computation & Optimization,Deep Re
  presentation Learning,Learning Theory & Statistical Foundations
 URL:https://2026.automl.cc/dates/
@@ -426,6 +612,29 @@ URL:https://alife.vscht.cz/
 LOCATION:Prague\, Czech Republic
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-cec-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270729
+SUMMARY:IEEE CEC 2027 · Conference
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nStatus: confirmed\, 
+ checked 2026-10-31\nOfficial source: https://ieeecec.org/2027\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#ieee-cec-2027\nNotes: Official 
+ CEC 2027 pages (checked 2026-10-31) confirm the EICC\, Edinburgh\, Jul 25
+ -28. Full papers (8 pages\, double-anonymous\, incl. special-session pape
+ rs) are due Feb 28 with no hour stated (provisional AoE end of day) and g
+ o to IEEE Xplore\; 4-page short papers are due Mar 15\, 23:59 AoE\, prese
+ nted as posters in a separate Companion Proceedings. Both say no extensio
+ n. The FAQ gives a Sep 1\, 2026 submission opening\; EDAS needs login\, s
+ o not verified. The CFP PDF gives Nov 15 for session/workshop proposals\,
+  web pages Nov 29. The student-only GSS and journal-only J2C calls are sc
+ hedule-only. Size L basis: 443 of 751 papers accepted in 2013\; no recent
+  counts. Size is an editorial estimate.
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ieeecec.org/2027
+LOCATION:Edinburgh\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
 UID:automl-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270731T115900Z
@@ -435,12 +644,7 @@ DESCRIPTION:International Conference on Automated Machine Learning\nMeeting
  : 2027-09-28 to 2027-10-01 (est.)\, To be announced\nStatus: estimated\, 
  checked 2026-10-28. Check the organizer's call before relying on it.\nFor
  mat: Paper-based\nPrevious edition's page: https://2026.automl.cc/dates/\
- nVenue Radar: https://gon-uri.github.io/venue-radar/#automl-2027\nNotes: 
- As of 2026-10-28 automl.cc still redirects to the AutoML 2026 site and no
-  2027 host\, dates or call are published. Meeting and main-track deadline
- s are projections from AutoML 2026\; links refer to prior editions. ABCD 
- covers applications\, benchmarks\, challenges\, and datasets. Size M is a
- n editorial estimate for this specialist conference.
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#automl-2027
 CATEGORIES:Machine Learning,Evolutionary Computation & Optimization,Deep Re
  presentation Learning,Learning Theory & Statistical Foundations
 URL:https://2026.automl.cc/dates/
@@ -482,6 +686,45 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280329T115900Z
+DTEND:20280329T125900Z
+SUMMARY:PPSN 2028 (est.) · Full-paper submission deadline
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2028-08-29 to 2028-09-02 (est.)\, To be announced\nStatus: es
+ timated\, checked 2026-10-31. Check the organizer's call before relying o
+ n it.\nFormat: Paper-based / Springer LNCS proceedings\; all accepted pap
+ ers presented as posters\nPrevious edition's page: https://web.archive.or
+ g/web/20260617225021/https://ppsn2026.disi.unitn.it/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#ppsn-2028
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280829
+DTEND;VALUE=DATE:20280903
+SUMMARY:PPSN 2028 (est.) · Conference
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nStatus: estimated\, checked 2026-10-31. Check the organizer's call bef
+ ore relying on it.\nOfficial source: https://groups.google.com/g/coseal/c
+ /BedmaxGfolg\nVenue Radar: https://gon-uri.github.io/venue-radar/#ppsn-20
+ 28\nNotes: The 20th PPSN is due in 2028\, but no host or dates exist. On 
+ 2026-09-16 the Steering Committee chair called for host bids until Nov 30
+ \, 2026\, with a decision tentatively by mid-January 2027\; that call kee
+ ps poster presentation of all accepted papers and Springer LNCS proceedin
+ gs. Meeting dates (Aug 29-Sep 2) and the Mar 28 AoE paper deadline are tw
+ o-year proxies from PPSN 2026\, using its original pre-extension deadline
+  (extended to Apr 18 in 2026). In-person mode is assumed from 2026. Size 
+ is an editorial estimate.
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://groups.google.com/g/coseal/c/BedmaxGfolg
 LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

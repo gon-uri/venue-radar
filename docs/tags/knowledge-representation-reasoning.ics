@@ -10,6 +10,61 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:amia-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260311T035900Z
+DTEND:20260311T045900Z
+SUMMARY:AMIA 2026 · Podium abstracts (2 pages\, not MEDLINE-indexed)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
+  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
+  Central\; podium abstracts and posters not MEDLINE-indexed\nOfficial sou
+ rce: https://web.archive.org/web/20260307122538/https://amia.secure-platf
+ orm.com/symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#am
+ ia-2026
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260311T035900Z
+DTEND:20260311T045900Z
+SUMMARY:AMIA 2026 · Papers and student papers (5-10 pages\, proceedings ar
+ chived in PMC)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
+  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
+  Central\; podium abstracts and posters not MEDLINE-indexed\nOfficial sou
+ rce: https://web.archive.org/web/20260307122538/https://amia.secure-platf
+ orm.com/symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#am
+ ia-2026
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260311T035900Z
+DTEND:20260311T045900Z
+SUMMARY:AMIA 2026 · Posters (1 page\, not MEDLINE-indexed)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
+  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
+  Central\; podium abstracts and posters not MEDLINE-indexed\nOfficial sou
+ rce: https://web.archive.org/web/20260307122538/https://amia.secure-platf
+ orm.com/symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#am
+ ia-2026
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
 UID:iswc-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260503T115900Z
@@ -18,10 +73,7 @@ SUMMARY:ISWC 2026 · Research/resource/in-use abstract deadline
 DESCRIPTION:International Semantic Web Conference\nMeeting: 2026-10-25 to 2
  026-10-29\, Bari\, Italy\nStatus: confirmed\, checked 2026-10-07\nFormat:
   Paper-based\nOfficial source: https://iswc2026.semanticweb.org/important
- dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026\nNot
- es: Semantic Web ISWC\, not IEEE Symposium on Wearable Computers. Officia
- l JavaScript-rendered date table specifies 23:59 AoE\; main sessions Octo
- ber 27-29 after workshops/tutorials. Size is an editorial estimate.
+ dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -35,10 +87,7 @@ SUMMARY:ISWC 2026 · Research/resource/in-use paper deadline
 DESCRIPTION:International Semantic Web Conference\nMeeting: 2026-10-25 to 2
  026-10-29\, Bari\, Italy\nStatus: confirmed\, checked 2026-10-07\nFormat:
   Paper-based\nOfficial source: https://iswc2026.semanticweb.org/important
- dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026\nNot
- es: Semantic Web ISWC\, not IEEE Symposium on Wearable Computers. Officia
- l JavaScript-rendered date table specifies 23:59 AoE\; main sessions Octo
- ber 27-29 after workshops/tutorials. Size is an editorial estimate.
+ dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -53,11 +102,7 @@ DESCRIPTION:ACM International Conference on Information and Knowledge Manag
  ement\nMeeting: 2026-11-07 to 2026-11-11\, Rome\, Italy\nStatus: confirme
  d\, checked 2026-10-28\nFormat: Paper-based\nOfficial source: https://cik
  m2026.diag.uniroma1.it/full-research-papers/\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#cikm-2026\nNotes: Official CIKM 2026 pages (rech
- ecked 2026-10-28) confirm Rome\, Nov 7-11 (tutorials/PhD symposium Nov 7\
- , workshops Nov 8\, main conference Nov 9-11) and AoE full-paper deadline
- s of May 16 (abstract) and May 23. Short\, resource and demo papers had a
-  separate May 30/June 6 cycle\, not tracked here.
+ i.github.io/venue-radar/#cikm-2026
 CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
@@ -72,11 +117,7 @@ DESCRIPTION:ACM International Conference on Information and Knowledge Manag
  ement\nMeeting: 2026-11-07 to 2026-11-11\, Rome\, Italy\nStatus: confirme
  d\, checked 2026-10-28\nFormat: Paper-based\nOfficial source: https://cik
  m2026.diag.uniroma1.it/full-research-papers/\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#cikm-2026\nNotes: Official CIKM 2026 pages (rech
- ecked 2026-10-28) confirm Rome\, Nov 7-11 (tutorials/PhD symposium Nov 7\
- , workshops Nov 8\, main conference Nov 9-11) and AoE full-paper deadline
- s of May 16 (abstract) and May 23. Short\, resource and demo papers had a
-  separate May 30/June 6 cycle\, not tracked here.
+ i.github.io/venue-radar/#cikm-2026
 CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
@@ -90,10 +131,7 @@ SUMMARY:ISWC 2026 · Research/resource/in-use camera-ready deadline
 DESCRIPTION:International Semantic Web Conference\nMeeting: 2026-10-25 to 2
  026-10-29\, Bari\, Italy\nStatus: confirmed\, checked 2026-10-07\nFormat:
   Paper-based\nOfficial source: https://iswc2026.semanticweb.org/important
- dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026\nNot
- es: Semantic Web ISWC\, not IEEE Symposium on Wearable Computers. Officia
- l JavaScript-rendered date table specifies 23:59 AoE\; main sessions Octo
- ber 27-29 after workshops/tutorials. Size is an editorial estimate.
+ dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -108,10 +146,7 @@ DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
  26-10-07\nFormat: Paper-based\nOfficial source: https://2027.coling-iccl.
  org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#coling-2027\nNotes: Main in-person window May 9-14\; separa
- te virtual sessions May 6-7. Shared ARR cycle with NAACL does not permit 
- dual commitment. Recent COLING cadence is irregular\; no automatic annual
-  forecast. Size is an editorial estimate.
+ /venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  Knowledge Representation & Reasoning,LLM Agents & Tool Use
 URL:https://2027.coling-iccl.org/calls/main_conference_papers/
@@ -126,19 +161,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/research-track-papers/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and pape
- r deadlines (Oct 18/25 AoE) have passed with no extension. The short-pape
- r OpenReview portal was observed open on 2026-10-30\; separate mandatory 
- abstract gates apply. Resource papers (four pages\, non-anonymous\, compa
- nion proceedings) are due Dec 17 AoE\; their portal is not public yet. Op
- enReview's short-paper forms close about an hour after the AoE cutoffs st
- ored here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 
- 6 per the website) and the general workshop-paper date (Jan 4\, workshops
-  not yet listed) are not tracked as separate routes\; the OpenReview demo
-  and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Goo
- d track is discontinued. Research must substantively address the Web\, no
- t merely use a web dataset. Preserve WWW as the stable series alias. Size
-  is an editorial estimate.
+ -uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
@@ -170,22 +193,36 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/research-track-papers/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and pape
- r deadlines (Oct 18/25 AoE) have passed with no extension. The short-pape
- r OpenReview portal was observed open on 2026-10-30\; separate mandatory 
- abstract gates apply. Resource papers (four pages\, non-anonymous\, compa
- nion proceedings) are due Dec 17 AoE\; their portal is not public yet. Op
- enReview's short-paper forms close about an hour after the AoE cutoffs st
- ored here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 
- 6 per the website) and the general workshop-paper date (Jan 4\, workshops
-  not yet listed) are not tracked as separate routes\; the OpenReview demo
-  and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Goo
- d track is discontinued. Research must substantively address the Web\, no
- t merely use a web dataset. Preserve WWW as the stable series alias. Size
-  is an editorial estimate.
+ -uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261112
+SUMMARY:AMIA 2026 · Conference
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nStat
+ us: confirmed\, checked 2026-10-31\nOfficial source: https://web.archive.
+ org/web/20261001143649/https://amia.org/education-events/amia-2026-annual
+ -symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2026
+ \nNotes: amia.org blocks automated access\, so its pages were read via In
+ ternet Archive captures (May-Oct 2026). They confirm Nov 7-11\, 2026 at t
+ he Hilton Anatole\, Dallas. The single submission portal gave one deadlin
+ e for all nine types\, Tuesday March 10\, 2026 at 11:59 p.m. EDT (capture
+ s Jan 20-Mar 7\, 2026)\, and now says closed. No capture from Mar 10 to A
+ pr 16 shows whether it was extended (2025 moved from Mar 19 to Mar 25). P
+ apers appear in the proceedings archived in PMC\; podium abstracts and po
+ sters are not MEDLINE-indexed. Panels\, debates\, demos\, tutorials and w
+ orkshops are not tracked as routes. AMIA cites 2\,300+ attendees for Dall
+ as. Size is an editorial estimate.
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20261001143649/https://amia.org/education-e
+ vents/amia-2026-annual-symposium
+LOCATION:Dallas\, Texas\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2026-conference@scientific-conference-calendar
@@ -216,19 +253,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#www-2027\nNotes: Full-paper abstract and paper dead
- lines (Oct 18/25 AoE) have passed with no extension. The short-paper Open
- Review portal was observed open on 2026-10-30\; separate mandatory abstra
- ct gates apply. Resource papers (four pages\, non-anonymous\, companion p
- roceedings) are due Dec 17 AoE\; their portal is not public yet. OpenRevi
- ew's short-paper forms close about an hour after the AoE cutoffs stored h
- ere. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 6 per 
- the website) and the general workshop-paper date (Jan 4\, workshops not y
- et listed) are not tracked as separate routes\; the OpenReview demo and P
- hD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Good trac
- k is discontinued. Research must substantively address the Web\, not mere
- ly use a web dataset. Preserve WWW as the stable series alias. Size is an
-  editorial estimate.
+ ithub.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/important-dates/
@@ -243,19 +268,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#www-2027\nNotes: Full-paper abstract and paper dead
- lines (Oct 18/25 AoE) have passed with no extension. The short-paper Open
- Review portal was observed open on 2026-10-30\; separate mandatory abstra
- ct gates apply. Resource papers (four pages\, non-anonymous\, companion p
- roceedings) are due Dec 17 AoE\; their portal is not public yet. OpenRevi
- ew's short-paper forms close about an hour after the AoE cutoffs stored h
- ere. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 6 per 
- the website) and the general workshop-paper date (Jan 4\, workshops not y
- et listed) are not tracked as separate routes\; the OpenReview demo and P
- hD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Good trac
- k is discontinued. Research must substantively address the Web\, not mere
- ly use a web dataset. Preserve WWW as the stable series alias. Size is an
-  editorial estimate.
+ ithub.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/important-dates/
@@ -270,14 +283,27 @@ DESCRIPTION:International Conference on Automated Planning and Scheduling\n
  Meeting: 2027-06-27 to 2027-07-02\, Columbia\, South Carolina\, USA\nStat
  us: confirmed\, checked 2026-10-07\nFormat: Long and short papers / autom
  ated planning\nOfficial source: https://icaps27.icaps-conference.org/call
- s/cfp/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icaps-2027\nN
- otes: Official CFP confirms the meeting and 23:59 UTC-12 abstract/paper d
- eadlines. Learning and foundation-model papers require a substantive plan
- ning or scheduling contribution\; reinforcement learning alone is explici
- tly outside the main-track scope. M is an editorial size estimate.
+ s/cfp/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icaps-2027
 CATEGORIES:Planning & Search,Knowledge Representation & Reasoning,Machine L
  earning,Control & Robotics
 URL:https://icaps27.icaps-conference.org/calls/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261211T115900Z
+DTEND:20261211T125900Z
+SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: mandatory abst
+ ract submission
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:icaps-2027-deadline-full-paper@scientific-conference-calendar
@@ -289,14 +315,43 @@ DESCRIPTION:International Conference on Automated Planning and Scheduling\n
  Meeting: 2027-06-27 to 2027-07-02\, Columbia\, South Carolina\, USA\nStat
  us: confirmed\, checked 2026-10-07\nFormat: Long and short papers / autom
  ated planning\nOfficial source: https://icaps27.icaps-conference.org/call
- s/cfp/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icaps-2027\nN
- otes: Official CFP confirms the meeting and 23:59 UTC-12 abstract/paper d
- eadlines. Learning and foundation-model papers require a substantive plan
- ning or scheduling contribution\; reinforcement learning alone is explici
- tly outside the main-track scope. M is an editorial size estimate.
+ s/cfp/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icaps-2027
 CATEGORIES:Planning & Search,Knowledge Representation & Reasoning,Machine L
  earning,Control & Robotics
 URL:https://icaps27.icaps-conference.org/calls/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261218T115900Z
+DTEND:20261218T125900Z
+SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: full paper sub
+ mission (15 pages\, LNCS)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261218T115900Z
+DTEND:20261218T125900Z
+SUMMARY:ESWC 2027 · Workshop proposals
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-resource-paper@scientific-conference-calendar
@@ -308,19 +363,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/resource-submissions/\nVenue Radar: https://gon-
- uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and paper
-  deadlines (Oct 18/25 AoE) have passed with no extension. The short-paper
-  OpenReview portal was observed open on 2026-10-30\; separate mandatory a
- bstract gates apply. Resource papers (four pages\, non-anonymous\, compan
- ion proceedings) are due Dec 17 AoE\; their portal is not public yet. Ope
- nReview's short-paper forms close about an hour after the AoE cutoffs sto
- red here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 6
-  per the website) and the general workshop-paper date (Jan 4\, workshops 
- not yet listed) are not tracked as separate routes\; the OpenReview demo 
- and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Good
-  track is discontinued. Research must substantively address the Web\, not
-  merely use a web dataset. Preserve WWW as the stable series alias. Size 
- is an editorial estimate.
+ uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/resource-submissions/
@@ -335,10 +378,7 @@ DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
  26-10-07\nFormat: Paper-based\nOfficial source: https://2027.coling-iccl.
  org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#coling-2027\nNotes: Main in-person window May 9-14\; separa
- te virtual sessions May 6-7. Shared ARR cycle with NAACL does not permit 
- dual commitment. Recent COLING cadence is irregular\; no automatic annual
-  forecast. Size is an editorial estimate.
+ /venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  Knowledge Representation & Reasoning,LLM Agents & Tool Use
 URL:https://2027.coling-iccl.org/calls/main_conference_papers/
@@ -353,13 +393,42 @@ DESCRIPTION:Annual Meeting of the Association for Computational Linguistics
  \nMeeting: 2027-08-17 to 2027-08-22\, Kyoto\, Japan\nStatus: confirmed\, 
  checked 2026-10-07\nFormat: Paper-based\nOfficial source: https://2027.ac
  lweb.org/calls/main/\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #acl-2027\nNotes: Official site confirms Kyoto\, August 17-22 and January
-  4 ARR cutoff at 23:59 AoE. Main sessions August 20-22\; tutorials/worksh
- ops earlier. Commitment dates are unannounced. Size is an editorial estim
- ate.
+ #acl-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2027.aclweb.org/calls/main/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270115T115900Z
+DTEND:20270115T125900Z
+SUMMARY:ESWC 2027 · Tutorial proposals
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-rebuttal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270130T115900Z
+DTEND:20270130T125900Z
+SUMMARY:ESWC 2027 · Main-track rebuttal period closes (opens January 26)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-camera-ready@scientific-conference-calendar
@@ -371,22 +440,150 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/research-track-papers/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and pape
- r deadlines (Oct 18/25 AoE) have passed with no extension. The short-pape
- r OpenReview portal was observed open on 2026-10-30\; separate mandatory 
- abstract gates apply. Resource papers (four pages\, non-anonymous\, compa
- nion proceedings) are due Dec 17 AoE\; their portal is not public yet. Op
- enReview's short-paper forms close about an hour after the AoE cutoffs st
- ored here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 
- 6 per the website) and the general workshop-paper date (Jan 4\, workshops
-  not yet listed) are not tracked as separate routes\; the OpenReview demo
-  and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Goo
- d track is discontinued. Research must substantively address the Web\, no
- t merely use a web dataset. Preserve WWW as the stable series alias. Size
-  is an editorial estimate.
+ -uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-doctoral-symposium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270212T115900Z
+DTEND:20270212T125900Z
+SUMMARY:ESWC 2027 · Ph.D. Symposium paper (single-author PhD students only
+ )
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/calls/phd-symposium/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/calls/phd-symposium/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:ESWC 2027 · Main-track notification to authors
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nCutoff 
+ time unannounced: official deadline day only. Verify the organizer's subm
+ ission portal.\nFormat: Paper-based / Springer LNCS proceedings\; posters
+ \, demos\, industry and PhD papers in satellite proceedings\nOfficial sou
+ rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270311T045900Z
+DTEND:20270311T055900Z
+SUMMARY:AMIA 2027 (est.) · Podium abstracts (2 pages\, not MEDLINE-indexed
+ )
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2027-11-06 to 2027-11-10\, San Diego\, California\, USA\nStatus: est
+ imated\, checked 2026-10-31. Check the organizer's call before relying on
+  it.\nFormat: Paper-based / proceedings archived in PubMed Central\; podi
+ um abstracts and posters not MEDLINE-indexed\nOfficial source: https://we
+ b.archive.org/web/20260307122538/https://amia.secure-platform.com/symposi
+ um\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2027
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270311T045900Z
+DTEND:20270311T055900Z
+SUMMARY:AMIA 2027 (est.) · Papers and student papers (5-10 pages\, proceed
+ ings archived in PMC)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2027-11-06 to 2027-11-10\, San Diego\, California\, USA\nStatus: est
+ imated\, checked 2026-10-31. Check the organizer's call before relying on
+  it.\nFormat: Paper-based / proceedings archived in PubMed Central\; podi
+ um abstracts and posters not MEDLINE-indexed\nOfficial source: https://we
+ b.archive.org/web/20260307122538/https://amia.secure-platform.com/symposi
+ um\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2027
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270311T045900Z
+DTEND:20270311T055900Z
+SUMMARY:AMIA 2027 (est.) · Posters (1 page\, not MEDLINE-indexed)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2027-11-06 to 2027-11-10\, San Diego\, California\, USA\nStatus: est
+ imated\, checked 2026-10-31. Check the organizer's call before relying on
+  it.\nFormat: Paper-based / proceedings archived in PubMed Central\; podi
+ um abstracts and posters not MEDLINE-indexed\nOfficial source: https://we
+ b.archive.org/web/20260307122538/https://amia.secure-platform.com/symposi
+ um\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2027
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:ESWC 2027 · Main-track camera-ready papers due
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:ESWC 2027 · Industry track extended abstracts (4 pages\; at least 
+ one non-academic author required)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/calls/industry-track/\nVenue Radar: https://gon-uri.githu
+ b.io/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/calls/industry-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:ESWC 2027 · Posters and demos submission (4 pages\, LNCS\; dates s
+ ubject to change)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/calls/poster-demo/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/calls/poster-demo/
 END:VEVENT
 BEGIN:VEVENT
 UID:kr-2027-deadline-abstract@scientific-conference-calendar
@@ -398,13 +595,7 @@ DESCRIPTION:International Conference on Principles of Knowledge Representat
  ion and Reasoning\nMeeting: 2027-09-21 to 2027-09-24\, Buenos Aires\, Arg
  entina\nStatus: confirmed\, checked 2026-10-28\nFormat: Paper-based / for
  mal and symbolic AI\nOfficial source: https://kr.org/KR2027/dates.html\nV
- enue Radar: https://gon-uri.github.io/venue-radar/#kr-2027\nNotes: The of
- ficial KR 2027 site lists Sep 21-24\, 2027 in Buenos Aires (workshops Sep
-  18-20) and AoE (UTC-12) main-track dates\; the main-track call page is n
- ot yet published. The title-and-abstract step is kept as a gate per KR's 
- two-step timetable\, though neither the 2026 nor the 2027 page says it is
-  mandatory. No 2027 special tracks are announced yet. M is an editorial e
- stimate.
+ enue Radar: https://gon-uri.github.io/venue-radar/#kr-2027
 CATEGORIES:Knowledge Representation & Reasoning,Explainability & Interpreta
  bility
 URL:https://kr.org/KR2027/dates.html
@@ -419,13 +610,7 @@ DESCRIPTION:International Conference on Principles of Knowledge Representat
  ion and Reasoning\nMeeting: 2027-09-21 to 2027-09-24\, Buenos Aires\, Arg
  entina\nStatus: confirmed\, checked 2026-10-28\nFormat: Paper-based / for
  mal and symbolic AI\nOfficial source: https://kr.org/KR2027/dates.html\nV
- enue Radar: https://gon-uri.github.io/venue-radar/#kr-2027\nNotes: The of
- ficial KR 2027 site lists Sep 21-24\, 2027 in Buenos Aires (workshops Sep
-  18-20) and AoE (UTC-12) main-track dates\; the main-track call page is n
- ot yet published. The title-and-abstract step is kept as a gate per KR's 
- two-step timetable\, though neither the 2026 nor the 2027 page says it is
-  mandatory. No 2027 special tracks are announced yet. M is an editorial e
- stimate.
+ enue Radar: https://gon-uri.github.io/venue-radar/#kr-2027
 CATEGORIES:Knowledge Representation & Reasoning,Explainability & Interpreta
  bility
 URL:https://kr.org/KR2027/dates.html
@@ -440,11 +625,7 @@ DESCRIPTION:International Semantic Web Conference\nMeeting: 2027-10-25 to 2
  027-10-29 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-2
  8. Check the organizer's call before relying on it.\nFormat: Paper-based\
  nPrevious edition's page: https://iswc2026.semanticweb.org/importantdates
- \nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2027\nNotes: A
- s of 2026-10-28 SWSA lists ISWC 2027 for October/November 2027 with locat
- ion to be announced\; iswc2027.semanticweb.org is only a placeholder page
- . October 25-29 and submission cutoffs are one-year proxies from ISWC 202
- 6. Size is an editorial estimate.
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2027
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -459,11 +640,7 @@ DESCRIPTION:International Semantic Web Conference\nMeeting: 2027-10-25 to 2
  027-10-29 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-2
  8. Check the organizer's call before relying on it.\nFormat: Paper-based\
  nPrevious edition's page: https://iswc2026.semanticweb.org/importantdates
- \nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2027\nNotes: A
- s of 2026-10-28 SWSA lists ISWC 2027 for October/November 2027 with locat
- ion to be announced\; iswc2027.semanticweb.org is only a placeholder page
- . October 25-29 and submission cutoffs are one-year proxies from ISWC 202
- 6. Size is an editorial estimate.
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2027
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -524,14 +701,34 @@ DESCRIPTION:ACM International Conference on Information and Knowledge Manag
  tus: estimated\, checked 2026-10-29. Check the organizer's call before re
  lying on it.\nFormat: Paper-based\nPrevious edition's page: https://cikm2
  026.diag.uniroma1.it/full-research-papers/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#cikm-2027\nNotes: As of 2026-10-29 the CIKM series
-  page names Sydney\, Australia as the 2027 host\; no CIKM 2027 site or ca
- ll is published. Estimated meeting dates follow event manager ICMS Austra
- lasia's listing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dat
- es are one-year proxies from CIKM 2026.
+ github.io/venue-radar/#cikm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270528
+SUMMARY:ESWC 2027 · Conference
+DESCRIPTION:European Semantic Web Conference\nStatus: confirmed\, checked 2
+ 026-10-31\nOfficial source: https://2027.eswc-conferences.org/\nVenue Rad
+ ar: https://gon-uri.github.io/venue-radar/#eswc-2027\nNotes: Official sit
+ e: 24th ESWC\, May 23-27\, 2027\, St. Raphael Resort & Marina\, Limassol\
+ ; workshops/tutorials May 23-24. All deadlines 23:59 AoE. Research\, Reso
+ urces and In-Use tracks share a mandatory Dec 10 abstract and Dec 17 pape
+ r (15 pages\, Springer LNCS)\; rejected ISWC 2026 research papers may res
+ ubmit (commitment date TBA). Posters/demos (LNCS)\, industry abstracts (n
+ eeds a non-academic author) and single-author PhD papers go to satellite 
+ proceedings\; poster and PhD dates are marked subject to change. Named Eu
+ ropean again since 2026 (Extended 2010-2025)\; now overseen by SWSA. Annu
+ al since 2004. ESWC 2026 accepted 28 research\, 17 resource and 10 in-use
+  papers. Size is an editorial estimate.
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/
+LOCATION:Limassol\, Cyprus
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2027-deadline-full-paper@scientific-conference-calendar
@@ -544,11 +741,7 @@ DESCRIPTION:ACM International Conference on Information and Knowledge Manag
  tus: estimated\, checked 2026-10-29. Check the organizer's call before re
  lying on it.\nFormat: Paper-based\nPrevious edition's page: https://cikm2
  026.diag.uniroma1.it/full-research-papers/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#cikm-2027\nNotes: As of 2026-10-29 the CIKM series
-  page names Sydney\, Australia as the 2027 host\; no CIKM 2027 site or ca
- ll is published. Estimated meeting dates follow event manager ICMS Austra
- lasia's listing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dat
- es are one-year proxies from CIKM 2026.
+ github.io/venue-radar/#cikm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
@@ -584,12 +777,7 @@ DESCRIPTION:International Conference on Principles of Knowledge Representat
  official deadline day only. Verify the organizer's submission portal.\nFo
  rmat: Paper-based / formal and symbolic AI\nOfficial source: https://kr.o
  rg/KR2027/dates.html\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #kr-2027\nNotes: The official KR 2027 site lists Sep 21-24\, 2027 in Buen
- os Aires (workshops Sep 18-20) and AoE (UTC-12) main-track dates\; the ma
- in-track call page is not yet published. The title-and-abstract step is k
- ept as a gate per KR's two-step timetable\, though neither the 2026 nor t
- he 2027 page says it is mandatory. No 2027 special tracks are announced y
- et. M is an editorial estimate.
+ #kr-2027
 CATEGORIES:Knowledge Representation & Reasoning,Explainability & Interpreta
  bility
 URL:https://kr.org/KR2027/dates.html
@@ -604,13 +792,7 @@ DESCRIPTION:International Conference on Principles of Knowledge Representat
  ion and Reasoning\nMeeting: 2027-09-21 to 2027-09-24\, Buenos Aires\, Arg
  entina\nStatus: confirmed\, checked 2026-10-28\nFormat: Paper-based / for
  mal and symbolic AI\nOfficial source: https://kr.org/KR2027/dates.html\nV
- enue Radar: https://gon-uri.github.io/venue-radar/#kr-2027\nNotes: The of
- ficial KR 2027 site lists Sep 21-24\, 2027 in Buenos Aires (workshops Sep
-  18-20) and AoE (UTC-12) main-track dates\; the main-track call page is n
- ot yet published. The title-and-abstract step is kept as a gate per KR's 
- two-step timetable\, though neither the 2026 nor the 2027 page says it is
-  mandatory. No 2027 special tracks are announced yet. M is an editorial e
- stimate.
+ enue Radar: https://gon-uri.github.io/venue-radar/#kr-2027
 CATEGORIES:Knowledge Representation & Reasoning,Explainability & Interpreta
  bility
 URL:https://kr.org/KR2027/dates.html
@@ -689,5 +871,31 @@ CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:http://www.cikmconference.org/
 LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271111
+SUMMARY:AMIA 2027 · Conference
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nStat
+ us: confirmed\, checked 2026-10-31\nOfficial source: https://web.archive.
+ org/web/20260708112717/https://amia.org/education-events/annual-symposium
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2027\nNotes: A
+ MIA's Annual Symposium page (Internet Archive capture of 2026-07-08\; ami
+ a.org blocks automated access) lists future sites\, including Nov 6-10\, 
+ 2027 in San Diego. No 2027 call was published by 2026-10-31\; the live po
+ rtal still shows the closed 2026 call. The March 10\, 2027 deadline for p
+ apers\, podium abstracts and posters is a one-year proxy from AMIA 2026 (
+ one deadline\, Mar 10\, 2026\, 11:59 p.m. Eastern\; 2025 was Mar 19\, ext
+ ended to Mar 25)\, kept at 11:59 p.m. Eastern (EST on that date). Both ea
+ rlier portals were open by mid-January. Papers appear in the PMC-archived
+  proceedings\; podium abstracts and posters are not MEDLINE-indexed. Size
+  is an editorial estimate.
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260708112717/https://amia.org/education-e
+ vents/annual-symposium
+LOCATION:San Diego\, California\, USA
 END:VEVENT
 END:VCALENDAR

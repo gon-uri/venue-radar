@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICONS 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icons-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270409T115900Z
+DTEND:20270409T125900Z
+SUMMARY:ICONS 2027 (est.) · Full paper submission (up to 8 pages)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACM Digital Library proceedings (full and short papers)\
+ ; students-only poster competition\nPrevious edition's page: https://icon
+ sneuromorphic.cc/calls-2026/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270409T115900Z
+DTEND:20270409T125900Z
+SUMMARY:ICONS 2027 (est.) · Short paper submission (up to 4 pages)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACM Digital Library proceedings (full and short papers)\
+ ; students-only poster competition\nPrevious edition's page: https://icon
+ sneuromorphic.cc/calls-2026/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:ICONS 2027 (est.) · Final notification of acceptance
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / ACM Digital Library proceedin
+ gs (full and short papers)\; students-only poster competition\nPrevious e
+ dition's page: https://iconsneuromorphic.cc/calls-2026/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:ICONS 2027 (est.) · Camera-ready papers due
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / ACM Digital Library proceedin
+ gs (full and short papers)\; students-only poster competition\nPrevious e
+ dition's page: https://iconsneuromorphic.cc/calls-2026/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-student-poster-competition@scientific-conference-ca
+ lendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:ICONS 2027 (est.) · Student poster competition submission (student
+ s only)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / ACM Digital Library proceedin
+ gs (full and short papers)\; students-only poster competition\nPrevious e
+ dition's page: https://iconsneuromorphic.cc/Students-2026/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/Students-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270807
+SUMMARY:ICONS 2027 (est.) · Conference
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nStatus: e
+ stimated\, checked 2026-10-31. Check the organizer's call before relying 
+ on it.\nOfficial source: https://iconsneuromorphic.cc/\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#icons-2027\nNotes: On 2026-10-31 icons
+ neuromorphic.cc still presents ICONS 2026\; no 2027 dates\, host\, call o
+ r EasyChair page were found. ICONS has met annually since 2018 in late Ju
+ ly or early August. Meeting dates\, the Apr 8 AoE full/short paper deadli
+ ne\, the Jul 3 student poster deadline\, notification and camera-ready ar
+ e one-year proxies from ICONS 2026. Recent paper cutoffs moved (final May
+  3 in 2024\, May 4 in 2025\, Apr 8 in 2026)\, so check early. Hybrid mode
+  (2022-2026) and ACM proceedings (2026\; 2024 was IEEE/ACM) are assumed t
+ o continue. The students-only poster competition is schedule-only\, like 
+ other student-only routes. Size is an editorial estimate.
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

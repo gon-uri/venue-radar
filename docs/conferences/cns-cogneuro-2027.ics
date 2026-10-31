@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CNS CogNeuro 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cns-cogneuro-2027-deadline-symposium-proposal@scientific-conference-cal
+ endar
+DTSTAMP:19700101T000000Z
+DTSTART:20260923T115900Z
+DTEND:20260923T125900Z
+SUMMARY:CNS CogNeuro 2027 · Symposium proposal deadline (CNS-member organi
+ ser\, four confirmed speakers)
+DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nMeeting: 2027-03
+ -20 to 2027-03-23\, Boston\, Massachusetts\, USA\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Abstract-based / members-only poster abstracts i
+ n online meeting proceedings\; no full papers\nOfficial source: https://w
+ ww.cogneurosociety.org/submit-a-symposium/\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#cns-cogneuro-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
+  Mapping,EEG/MEG & Neural Signals
+URL:https://www.cogneurosociety.org/submit-a-symposium/
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-cogneuro-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261104T115900Z
+DTEND:20261104T125900Z
+SUMMARY:CNS CogNeuro 2027 · Poster abstract submission\, incl. Sketchpad S
+ eries (current CNS members only)
+DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nMeeting: 2027-03
+ -20 to 2027-03-23\, Boston\, Massachusetts\, USA\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Abstract-based / members-only poster abstracts i
+ n online meeting proceedings\; no full papers\nOfficial source: https://w
+ ww.cogneurosociety.org/submit-a-poster/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#cns-cogneuro-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
+  Mapping,EEG/MEG & Neural Signals
+URL:https://www.cogneurosociety.org/submit-a-poster/
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-cogneuro-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:CNS CogNeuro 2027 · Poster acceptance notifications emailed
+DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nMeeting: 2027-03
+ -20 to 2027-03-23\, Boston\, Massachusetts\, USA\nStatus: confirmed\, che
+ cked 2026-10-31\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Abstract-based / members-
+ only poster abstracts in online meeting proceedings\; no full papers\nOff
+ icial source: https://www.cogneurosociety.org/dates-and-deadlines/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#cns-cogneuro-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
+  Mapping,EEG/MEG & Neural Signals
+URL:https://www.cogneurosociety.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-cogneuro-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:CNS CogNeuro 2027 (est.) · Late-breaking poster abstract submissio
+ n (current CNS members only)
+DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nMeeting: 2027-03
+ -20 to 2027-03-23\, Boston\, Massachusetts\, USA\nStatus: estimated\, che
+ cked 2026-10-31. Check the organizer's call before relying on it.\nEstima
+ ted day only\; no cutoff hour stored. Check the organizer's call for the 
+ real date and time.\nFormat: Abstract-based / members-only poster abstrac
+ ts in online meeting proceedings\; no full papers\nOfficial source: https
+ ://www.cogneurosociety.org/dates-and-deadlines/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#cns-cogneuro-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
+  Mapping,EEG/MEG & Neural Signals
+URL:https://www.cogneurosociety.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-cogneuro-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270324
+SUMMARY:CNS CogNeuro 2027 · Conference
+DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nStatus: confirme
+ d\, checked 2026-10-31\nOfficial source: https://www.cogneurosociety.org/
+ annual-meeting/\nVenue Radar: https://gon-uri.github.io/venue-radar/#cns-
+ cogneuro-2027\nNotes: 34th annual meeting of the Cognitive Neuroscience S
+ ociety (not the OCNS CNS* meeting)\, in person at the Boston Marriott Cop
+ ley Place. Only current CNS members may submit: one first-authored 250-wo
+ rd poster abstract ($75\; Sketchpad Series for work in progress). The Nov
+  3 cutoff is midnight AoE and will not be extended\; submissions opened S
+ ep 1 (day only). The dates page\, marked tentative\, lists late-breaking 
+ posters Dec 8\, 2026 to Jan 19\, 2027 with no hour. Abstracts except Sket
+ chpad are published by default in online CNS proceedings\; Crossref lists
+  2026 items with DOIs in JoCN Forum. Size L: over 1\,500 participants exp
+ ected (exhibit page). Size is an editorial estimate.
+CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
+  Mapping,EEG/MEG & Neural Signals
+URL:https://www.cogneurosociety.org/annual-meeting/
+LOCATION:Boston\, Massachusetts\, USA
+END:VEVENT
+END:VCALENDAR

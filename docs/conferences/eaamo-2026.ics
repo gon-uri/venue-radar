@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EAAMO 2026 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260509T115900Z
+DTEND:20260509T125900Z
+SUMMARY:EAAMO 2026 · Mandatory abstract registration on OpenReview
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 8 AoE
+ \; the OpenReview venue page lists abstract registration until May 9\, 13
+ :00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or n
+ on-archival\; WiP posters non-archival\nOfficial source: https://conferen
+ ce2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260516T115900Z
+DTEND:20260516T125900Z
+SUMMARY:EAAMO 2026 · Paper submission (archival or non-archival option)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 15 Ao
+ E\; the OpenReview venue page lists the submission deadline as May 16\, 1
+ 3:00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or 
+ non-archival\; WiP posters non-archival\nOfficial source: https://confere
+ nce2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rada
+ r/#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:EAAMO 2026 · Paper notification
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
+ osters non-archival\nOfficial source: https://conference2026.eaamo.org/cf
+ p/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260908T115900Z
+DTEND:20260908T125900Z
+SUMMARY:EAAMO 2026 · Work-in-progress poster (title and abstract\; non-arc
+ hival)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM DL pro
+ ceedings (archival option) or non-archival\; WiP posters non-archival\nOf
+ ficial source: https://conference2026.eaamo.org/call_for_posters/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/call_for_posters/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-poster-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:EAAMO 2026 · Work-in-progress poster notification
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
+ osters non-archival\nOfficial source: https://conference2026.eaamo.org/ca
+ ll_for_posters/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eaam
+ o-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/call_for_posters/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261108
+SUMMARY:EAAMO 2026 · Conference
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nStatus: confirmed\, checked 2026-10-31\nOfficial sour
+ ce: https://conference2026.eaamo.org/\nVenue Radar: https://gon-uri.githu
+ b.io/venue-radar/#eaamo-2026\nNotes: Sixth ACM EAAMO\, Nov 5-7\, 2026 at 
+ LMU Munich\; virtual-only Zoom registration covers keynotes and paper tal
+ ks. Abstract/paper deadlines were postponed one week from May 1/8 (AoE). 
+ OpenReview's abstract registration stage gates papers\, which choose an a
+ rchival (ACM DL\, up to 14 pages camera-ready) or non-archival option\; d
+ ouble-blind\, six tracks. WiP posters need only a title and abstract and 
+ are not in the proceedings. Size basis is 70 accepted papers (34 orals\, 
+ 36 posters) and a 150+ seat main hall in the host call. Size is an editor
+ ial estimate.
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/
+LOCATION:Munich\, Germany
+END:VEVENT
+END:VCALENDAR

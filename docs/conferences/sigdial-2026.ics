@@ -1,0 +1,127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SIGDIAL 2026 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260303T115900Z
+DTEND:20260303T125900Z
+SUMMARY:SIGDIAL 2026 · Workshop and tutorial proposals
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/workshops_tutorials/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/workshops_tutorials/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260414T115900Z
+DTEND:20260414T125900Z
+SUMMARY:SIGDIAL 2026 · Mandatory title and abstract registration (Softconf
+ /START)
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/main_conference/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260421T115900Z
+DTEND:20260421T125900Z
+SUMMARY:SIGDIAL 2026 · Long\, short and demo paper PDF submission
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/main_conference/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260526T115900Z
+DTEND:20260526T125900Z
+SUMMARY:SIGDIAL 2026 · Commitment of ARR-reviewed papers
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/main_conference/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:SIGDIAL 2026 · Paper notification
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nCutoff time unannounced: official de
+ adline day only. Verify the organizer's submission portal.\nFormat: Paper
+ -based / ACL Anthology proceedings (long\, short and demo papers\; ARR co
+ mmitment accepted)\nOfficial source: https://2026.sigdial.org/calls/main_
+ conference/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sigdial-
+ 2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260630T115900Z
+DTEND:20260630T125900Z
+SUMMARY:SIGDIAL 2026 · Final camera-ready submission
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/main_conference/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260806
+SUMMARY:SIGDIAL 2026 · Conference
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https:/
+ /2026.sigdial.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ igdial-2026\nNotes: 27th meeting at Emory University\, Atlanta\, Aug 2-5\
+ , 2026 (Aug 2 workshops/tutorials\, Aug 3-5 main)\, fully in person\; mov
+ ed in Feb 2026 from July 13-17 for the World Cup. CFP deadlines are 23:59
+  AoE. Title/abstract registration on Apr 13 was mandatory\; only the PDF 
+ could change until Apr 20. ARR commitment (May 25) was for already-review
+ ed papers. Long (8p)\, short (4p) and demo papers\; proceedings in the AC
+ L Anthology. The chairs' preface reports 61 of 134 accepted (45.5%). Size
+  M (about 60 papers a year\; attendance not published). Size is an editor
+ ial estimate.
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/
+LOCATION:Atlanta\, Georgia\, USA
+END:VEVENT
+END:VCALENDAR

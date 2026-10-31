@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ALT (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:alt-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261013T115900Z
+DTEND:20261013T125900Z
+SUMMARY:ALT 2027 · Paper submission deadline (OpenReview)
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nMeetin
+ g: 2027-03-09 to 2027-03-12\, Leiden\, Netherlands\nStatus: confirmed\, c
+ hecked 2026-10-31\nFormat: Paper-based / PMLR proceedings (optional one-p
+ age extended abstract instead)\nOfficial source: https://algorithmiclearn
+ ingtheory.org/alt2027/call-for-papers/\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#alt-2027
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:alt-2027-deadline-author-feedback@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:ALT 2027 · Author feedback (rebuttal) window closes\; opens Novemb
+ er 30
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nMeetin
+ g: 2027-03-09 to 2027-03-12\, Leiden\, Netherlands\nStatus: confirmed\, c
+ hecked 2026-10-31\nCutoff time unannounced: official deadline day only. V
+ erify the organizer's submission portal.\nFormat: Paper-based / PMLR proc
+ eedings (optional one-page extended abstract instead)\nOfficial source: h
+ ttps://algorithmiclearningtheory.org/alt2027/call-for-papers/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#alt-2027
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:alt-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:ALT 2027 · Author notification
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nMeetin
+ g: 2027-03-09 to 2027-03-12\, Leiden\, Netherlands\nStatus: confirmed\, c
+ hecked 2026-10-31\nCutoff time unannounced: official deadline day only. V
+ erify the organizer's submission portal.\nFormat: Paper-based / PMLR proc
+ eedings (optional one-page extended abstract instead)\nOfficial source: h
+ ttps://algorithmiclearningtheory.org/alt2027/call-for-papers/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#alt-2027
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:alt-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270313
+SUMMARY:ALT 2027 · Conference
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nStatus
+ : confirmed\, checked 2026-10-31\nOfficial source: https://algorithmiclea
+ rningtheory.org/alt2027/\nVenue Radar: https://gon-uri.github.io/venue-ra
+ dar/#alt-2027\nNotes: Official ALT 2027 pages confirm the 38th ALT on Mar
+ ch 9-12\, 2027 at Scheltema Leiden\, in person with no remote talks (an a
+ uthor must present). Papers were due October 12\, 2026\, 11:59 p.m. AoE o
+ n OpenReview\; no other fresh-submission route is listed\, so the edition
+  is closed. Accepted papers appear in PMLR\, or authors may opt for a one
+ -page extended abstract pointing to an archival full version. Feedback an
+ d notification days have no stated hour. Size basis is 69 papers in PMLR 
+ v313 (ALT 2026) and 51 of 144 accepted at ALT 2025. Size is an editorial 
+ estimate.
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/alt2027/
+LOCATION:Leiden\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
+UID:alt-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271013T115900Z
+DTEND:20271013T125900Z
+SUMMARY:ALT 2028 (est.) · Paper submission deadline
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nMeetin
+ g: 2028-03-09 to 2028-03-12 (est.)\, To be announced\nStatus: estimated\,
+  checked 2026-10-31. Check the organizer's call before relying on it.\nFo
+ rmat: Paper-based / PMLR proceedings (optional one-page extended abstract
+  instead)\nPrevious edition's page: https://algorithmiclearningtheory.org
+ /alt2027/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-r
+ adar/#alt-2028
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:alt-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280309
+DTEND;VALUE=DATE:20280313
+SUMMARY:ALT 2028 (est.) · Conference
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nStatus
+ : estimated\, checked 2026-10-31. Check the organizer's call before relyi
+ ng on it.\nOfficial source: https://algorithmiclearningtheory.org/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#alt-2028\nNotes: As of 202
+ 6-10-31 the AALT site lists only ALT 2027 (its /alt2028/ page returns 404
+ )\; no 2028 host\, dates or call is published. AALT runs ALT as its annua
+ l conference\, held every year through 2027. Meeting dates (March 9-12) a
+ nd the October 12 AoE paper deadline are one-year proxies from ALT 2027\;
+  ALT 2024-2026 met in late February with deadlines from September 26 to O
+ ctober 2\, so expect drift. Format and PMLR publication follow the 2027 c
+ all. Size is an editorial estimate.
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

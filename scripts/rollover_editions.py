@@ -51,6 +51,14 @@ CADENCE_YEARS = {
     "SAB": 2, "BCI Winter": 1, "IEEE BioCAS": 1, "AREADNE": 2,
     "SfN Neuroscience": 1, "Dynamics Days Europe": 1,
     "Dynamics Days US": 1, "Dynamics Days LAC": 2,
+    # Owner-approved related venues added 2026-10-31 with documented cadence.
+    "ACCV": 2, "ALT": 1, "AMIA": 1, "BIOSIG": 1, "CHIIR": 1, "CLeaR": 1,
+    "CNS CogNeuro": 1, "COPA": 1, "ENOC": 3, "ESWC": 1, "FENS Forum": 2,
+    "FORC": 1, "ICCP": 1, "ICDL": 1, "ICME": 1, "ICMNS": 1, "ICONS": 1,
+    "ICWSM": 1, "IEEE CEC": 1, "INLG": 1, "IPCAI": 1, "IPMI": 2, "IROS": 1,
+    "ISF": 1, "IUI": 1, "IVA": 1, "MTNS": 2, "NCM": 1, "NetSci-X": 1,
+    "PPSN": 2, "RLC": 1, "SIGDIAL": 1, "SNL": 1, "UMAP": 1, "WASPAA": 2,
+    "EAAMO": 1, "ECAF": 1, "IFAC WC": 3, "SIAM MDS": 2,
     # Long-running annual series added 2026-10-29 (ADR-039).
     "NeurIPS": 1, "ICLR": 1, "AISTATS": 1, "AAAI": 1, "IJCAI": 1,
     "COLT": 1, "CIKM": 1, "ICDM": 1, "SDM": 1, "WSDM": 1, "PAKDD": 1,

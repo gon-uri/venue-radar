@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NAISys (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:naisys-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:NAISys 2027 · One-page abstract for talk/poster selection (meeting
+  registration required first)
+DESCRIPTION:From Neuroscience to Artificially Intelligent Systems\nMeeting:
+  2027-09-27 to 2027-10-01\, Cold Spring Harbor\, New York\, USA\nStatus: 
+ confirmed\, checked 2026-10-31\nCutoff time unannounced: official deadlin
+ e day only. Verify the organizer's submission portal.\nFormat: Abstract-b
+ ased / non-archival (one-page abstracts in the confidential CSHL program 
+ book)\nOfficial source: https://meetings.cshl.edu/meetings.aspx?meet=NAIS
+ YS&year=27\nVenue Radar: https://gon-uri.github.io/venue-radar/#naisys-20
+ 27
+CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
+ ce,Machine Learning,Deep Representation Learning
+URL:https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=27
+END:VEVENT
+BEGIN:VEVENT
+UID:naisys-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270927
+DTEND;VALUE=DATE:20271002
+SUMMARY:NAISys 2027 · Conference
+DESCRIPTION:From Neuroscience to Artificially Intelligent Systems\nStatus: 
+ confirmed\, checked 2026-10-31\nOfficial source: https://meetings.cshl.ed
+ u/meetings.aspx?meet=NAISYS&year=27\nVenue Radar: https://gon-uri.github.
+ io/venue-radar/#naisys-2027\nNotes: Fourth Cold Spring Harbor Laboratory 
+ NAISys meeting (earlier: virtual Nov 2020\, Apr 2022\, Sep 28-Oct 2 2024\
+ ; irregular cadence). The 2027 page and CSHL meetings list give Sep 27 (7
+ :30 pm) to Oct 1 (lunch) and a July 9\, 2027 abstract deadline\; the Abst
+ racts tab header says Sep 27-30. No cutoff hour is published\, so 23:59 A
+ oE is provisional. Abstracts are submitted via an emailed link after regi
+ stering\; organizers pick talks and posters\, and presenters should atten
+ d in person (Zoom/virtual packages for others). Abstract texts appear onl
+ y in the confidential program book. 2024 listed 140 accepted abstracts (3
+ 3 talks) plus 20 invited speakers. Size is an editorial estimate.
+CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
+ ce,Machine Learning,Deep Representation Learning
+URL:https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=27
+LOCATION:Cold Spring Harbor\, New York\, USA
+END:VEVENT
+END:VCALENDAR

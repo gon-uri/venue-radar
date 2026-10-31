@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UMAP 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:umap-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261212T115900Z
+DTEND:20261212T125900Z
+SUMMARY:UMAP 2027 · Tutorial proposal submission
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-tutorial-proposals/\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-tutorial-proposals/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261212T115900Z
+DTEND:20261212T125900Z
+SUMMARY:UMAP 2027 · Workshop proposal submission
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-workshop-proposals/\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-workshop-proposals/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270123T115900Z
+DTEND:20270123T125900Z
+SUMMARY:UMAP 2027 · Mandatory abstract registration for long and short pap
+ ers (title\, abstract\, final author list)
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-full-and-short-paper/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270130T115900Z
+DTEND:20270130T125900Z
+SUMMARY:UMAP 2027 · Main-track long (8 pp) and short (4 pp) paper submissi
+ on
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-full-and-short-paper/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270207T115900Z
+DTEND:20270207T125900Z
+SUMMARY:UMAP 2027 · Doctoral consortium submission (doctoral students only
+ )
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-doctoral-consortium-submissions/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-doctoral-consortium-submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270316T115900Z
+DTEND:20270316T125900Z
+SUMMARY:UMAP 2027 · Long and short paper notification
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-full-and-short-paper/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270323T115900Z
+DTEND:20270323T125900Z
+SUMMARY:UMAP 2027 · Late-breaking results (LBR) and demo submission (up to
+  4 pp including references)
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-late-breaking-results-lbr-demos/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-late-breaking-results-lbr-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270323T115900Z
+DTEND:20270323T125900Z
+SUMMARY:UMAP 2027 · Industry track paper submission (4 pp plus 1 p referen
+ ces\, single-blind)
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-industry-papers/\nVenue Radar: https://gon-uri.github.
+ io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-industry-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270331T115900Z
+DTEND:20270331T125900Z
+SUMMARY:UMAP 2027 · Long and short paper camera-ready
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nCutoff note: The paper call
+  gives March 30\, 2027\; the homepage important dates give April 2\, 2027
+ .\nFormat: Paper-based / ACM Digital Library proceedings (open access)\nO
+ fficial source: https://um.org/umap2027/call-for-full-and-short-paper/\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270613
+SUMMARY:UMAP 2027 · Conference
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nStatus: confirmed\, checked 2026-10-31\nOfficial source:
+  https://um.org/umap2027/\nVenue Radar: https://gon-uri.github.io/venue-r
+ adar/#umap-2027\nNotes: Official UMAP 2027 pages confirm the 35th edition
+ \, fully in person at Conviser Law Center\, Chicago\, June 9-12\, 2027 (w
+ orkshops and tutorials June 9\; Doctoral Consortium for selected students
+  June 8). All dates are 11:59 pm AoE. The January 22 abstract with the fi
+ nal author list is mandatory for long and short papers. Long\, short\, in
+ dustry\, LBR and demo papers appear in the ACM DL (open access\; long and
+  short papers may owe an APC)\; workshop papers go to CEUR-WS via per-wor
+ kshop calls not yet published. On 2026-10-31 EasyChair said new submissio
+ ns were open\, but several tracks share it\, so no opening is recorded. U
+ MAP 2026 accepted 57 of 195 main-track papers. Size is an editorial estim
+ ate.
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/
+LOCATION:Chicago\, Illinois\, USA
+END:VEVENT
+END:VCALENDAR

@@ -105,8 +105,9 @@ below are history, not instructions to reimplement old designs.
   filters and topic feeds, scope evidence in calendar descriptions (removed
   from ICS by ADR-044; profiles are not displayed on the site), a separate
   workbook sheet, and a missing/stale/prior-edition review queue.
-- Current coverage: 80 of 131 series, including all 42 AI Deadlines additions
-  and all 16 complex-systems/neuroscience additions.
+- Current coverage: 124 of 175 series, including all 42 AI Deadlines additions,
+  all 16 complex-systems/neuroscience additions and all 44 related-venue
+  additions (2026-10-31).
 - Remaining work: curate the 51 missing profiles from official sources and
   review existing profiles about monthly. Prior-edition evidence stays dated.
 - Guidance: [conference_scopes.md](conference_scopes.md).
@@ -123,6 +124,18 @@ below are history, not instructions to reimplement old designs.
   until the Archival Option Tag And Filter milestone has an ADR the owner
   has approved.
 - Guidance: [dynamics_neuroscience_expansion.md](dynamics_neuroscience_expansion.md).
+
+### Related-Venue Expansion
+
+- Completed (2026-10-31): a vetted search of 198 related venues and the
+  owner's selection of 44 series (60 edition records: 45 confirmed meetings,
+  15 estimated), each drafted from official pages and re-checked by an
+  independent verifier, with families, scope profiles, 26 host cities,
+  17 ICORE and 12 CCF ranks, 15 sourced acceptance rates and cadences.
+- Open: whether to track IEEE ASLI, the 2027 successor of ASRU and SLT; the
+  owner's two "maybe" venues (SIGGRAPH Asia, VSS) and 148 further candidates,
+  preserved for later rounds; showing edition Notes on the site (ADR-045).
+- Guidance: [candidate backlog](conference_candidates.md#related-venue-search-2026-10-3031).
 
 ### Website Usability
 
@@ -262,7 +275,11 @@ below are history, not instructions to reimplement old designs.
   the format line and Notes, and adding a link to the edition row) and added
   a 1 MB size test. `calendar-all.ics` went from 1.06 MB (above the roughly
   1 MB community reports give for Google Calendar URL feeds; not an official
-  figure) to 735 KB, with UIDs unchanged. The owner's Google subscription to the 1.06 MB
+  figure) to 735 KB, with UIDs unchanged. ADR-045 (2026-10-31) keeps it under
+  the limit after the 44-venue addition by putting each edition's Notes only
+  on its meeting event (864 KB). Next levers, if the catalog keeps growing:
+  drop CATEGORIES or prune past editions from the aggregate feeds (owner
+  decisions). The owner's Google subscription to the 1.06 MB
   feed still worked on 2026-10-31. Real-app checks of the new titles are
   pending.
 

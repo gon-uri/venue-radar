@@ -24,7 +24,7 @@ explicit refinements take precedence. Current rules live in
 | Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line |
 | Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
 | Conflicting cutoffs, date-only countdowns, deep links, starring, compact cards, code layout | ADR-040 (refines ADR-024, ADR-027's MLSys choice, ADR-035 and ADR-039) |
-| Calendar event titles, descriptions and feed size; countdown precision | ADR-044 (refines ADR-028's ICS clause and ADR-032's countdown text) |
+| Calendar event titles, descriptions and feed size; countdown precision | ADR-044 (refines ADR-028's ICS clause and ADR-032's countdown text); ADR-045 puts Notes once per edition |
 
 ## ADR-001: Keep the Project Static
 
@@ -907,3 +907,25 @@ explicit refinements take precedence. Current rules live in
   apps: the owner's next calendar sitting should confirm the new titles, the
   separator and CATEGORIES in Google, Apple and Outlook. Showing scope
   profiles on the site is a separate, unscheduled idea.
+
+## ADR-045: Notes Once Per Edition In Calendar Feeds
+
+- Date: 2026-10-31
+- Context: The owner approved 44 related venues (60 edition records). With
+  them, `calendar-all.ics` grew from 735,061 to 1,209,059 bytes and ADR-044's
+  1 MB test failed. Notes were 433 KB of it, because each edition's notes
+  repeated on every milestone; CATEGORIES were 107 KB.
+- Decision: refine ADR-044 (2). An edition's Notes appear once, on its
+  meeting event. Deadline events keep the full title, meeting dates and
+  location, status, date-only and `cutoff_note` lines, the `Format:` line
+  (publication and non-archival caveats), the source and the Venue Radar row
+  link. CATEGORIES stay, as approved. `calendar-all.ics` is 863,838 bytes.
+- Alternatives considered: Notes also on fresh-submission deadlines (about
+  1.02-1.06 MB, depending on whether mandatory gates keep them; still over); truncated Notes (about 1.0 MB); also dropping
+  CATEGORIES (about 754 KB); pruning past editions from the aggregate feeds.
+  The last two remain the next levers and need the owner's decision.
+- Consequences: `deadlines.ics` and `submissions.ics` contain no meeting
+  events, so they carry no Notes; readers follow the row link. The site does
+  not display Notes either, so they are visible only on meeting events and in
+  YAML; showing them on the site is an open idea. About 136 KB of headroom
+  remains below the test's limit. UIDs, titles and dates are unchanged.

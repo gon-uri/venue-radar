@@ -10,6 +10,78 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:amia-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260311T035900Z
+DTEND:20260311T045900Z
+SUMMARY:AMIA 2026 · Podium abstracts (2 pages\, not MEDLINE-indexed)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
+  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
+  Central\; podium abstracts and posters not MEDLINE-indexed\nOfficial sou
+ rce: https://web.archive.org/web/20260307122538/https://amia.secure-platf
+ orm.com/symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#am
+ ia-2026
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260311T035900Z
+DTEND:20260311T045900Z
+SUMMARY:AMIA 2026 · Papers and student papers (5-10 pages\, proceedings ar
+ chived in PMC)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
+  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
+  Central\; podium abstracts and posters not MEDLINE-indexed\nOfficial sou
+ rce: https://web.archive.org/web/20260307122538/https://amia.secure-platf
+ orm.com/symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#am
+ ia-2026
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260311T035900Z
+DTEND:20260311T045900Z
+SUMMARY:AMIA 2026 · Posters (1 page\, not MEDLINE-indexed)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
+  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
+  Central\; podium abstracts and posters not MEDLINE-indexed\nOfficial sou
+ rce: https://web.archive.org/web/20260307122538/https://amia.secure-platf
+ orm.com/symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#am
+ ia-2026
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260509T115900Z
+DTEND:20260509T125900Z
+SUMMARY:EAAMO 2026 · Mandatory abstract registration on OpenReview
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 8 AoE
+ \; the OpenReview venue page lists abstract registration until May 9\, 13
+ :00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or n
+ on-archival\; WiP posters non-archival\nOfficial source: https://conferen
+ ce2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:aies-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260515T115900Z
@@ -19,14 +91,27 @@ DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2026
  -10-12 to 2026-10-14\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-1
  0-28\nFormat: Paper-based / interdisciplinary\nOfficial source: https://w
  ww.aies-conference.com/2026/call-for-papers/\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#aies-2026\nNotes: Official AIES 2026 pages list 
- Malmo\, Oct 12-14\, 2026\, mandatory abstract pre-registration by May 14 
- and papers by May 21 (AoE). As of 2026-10-28 no 2027 edition is announced
- \; AAAI's AIES page lists the tenth AIES with 'additional information to 
- come'.
+ i.github.io/venue-radar/#aies-2026
 CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260516T115900Z
+DTEND:20260516T125900Z
+SUMMARY:EAAMO 2026 · Paper submission (archival or non-archival option)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 15 Ao
+ E\; the OpenReview venue page lists the submission deadline as May 16\, 1
+ 3:00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or 
+ non-archival\; WiP posters non-archival\nOfficial source: https://confere
+ nce2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rada
+ r/#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:aies-2026-deadline-full-paper@scientific-conference-calendar
@@ -38,14 +123,76 @@ DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2026
  -10-12 to 2026-10-14\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-1
  0-28\nFormat: Paper-based / interdisciplinary\nOfficial source: https://w
  ww.aies-conference.com/2026/call-for-papers/\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#aies-2026\nNotes: Official AIES 2026 pages list 
- Malmo\, Oct 12-14\, 2026\, mandatory abstract pre-registration by May 14 
- and papers by May 21 (AoE). As of 2026-10-28 no 2027 edition is announced
- \; AAAI's AIES page lists the tenth AIES with 'additional information to 
- come'.
+ i.github.io/venue-radar/#aies-2026
 CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:EAAMO 2026 · Paper notification
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
+ osters non-archival\nOfficial source: https://conference2026.eaamo.org/cf
+ p/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:BIOSIG 2026 · Paper submission deadline (extended from July 30)
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
+ irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
+ y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
+ GI LNI proceedings\, submitted to IEEE Xplore\nOfficial source: https://b
+ iosig.de/\nVenue Radar: https://gon-uri.github.io/venue-radar/#biosig-202
+ 6
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260908T115900Z
+DTEND:20260908T125900Z
+SUMMARY:EAAMO 2026 · Work-in-progress poster (title and abstract\; non-arc
+ hival)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM DL pro
+ ceedings (archival option) or non-archival\; WiP posters non-archival\nOf
+ ficial source: https://conference2026.eaamo.org/call_for_posters/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/call_for_posters/
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:BIOSIG 2026 · Notification of authors
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
+ irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
+ y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
+ GI LNI proceedings\, submitted to IEEE Xplore\nOfficial source: https://b
+ iosig.de/\nVenue Radar: https://gon-uri.github.io/venue-radar/#biosig-202
+ 6
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-deadline-abstract@scientific-conference-calendar
@@ -58,19 +205,27 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-main-track/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track submi
- ssions are closed because the Oct 1 abstract gate has passed. The separat
- e four-page Blue Sky Ideas track is open: its OpenReview form (opened Oct
-  20) was observed live on 2026-10-30\, and its Nov 5 gate only controls t
- he Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page pa
- per plus video\, in the proceedings\, due Dec 27 AoE) is not tracked as a
-  separate route. The AAAI fast track is limited to highly rated AAAI-27 p
- apers and is not a general new-paper route. Size XL is an editorial estim
- ate. Historical acceptance covers main full papers only\, not Blue Sky Id
- eas or the newly introduced 2027 Findings track.
+ aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-poster-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:EAAMO 2026 · Work-in-progress poster notification
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
+ osters non-archival\nOfficial source: https://conference2026.eaamo.org/ca
+ ll_for_posters/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eaam
+ o-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/call_for_posters/
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-deadline-full-paper@scientific-conference-calendar
@@ -83,19 +238,26 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-main-track/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track submi
- ssions are closed because the Oct 1 abstract gate has passed. The separat
- e four-page Blue Sky Ideas track is open: its OpenReview form (opened Oct
-  20) was observed live on 2026-10-30\, and its Nov 5 gate only controls t
- he Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page pa
- per plus video\, in the proceedings\, due Dec 27 AoE) is not tracked as a
-  separate route. The AAAI fast track is limited to highly rated AAAI-27 p
- apers and is not a general new-paper route. Size XL is an editorial estim
- ate. Historical acceptance covers main full papers only\, not Blue Sky Id
- eas or the newly introduced 2027 Findings track.
+ aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261009T115900Z
+DTEND:20261009T125900Z
+SUMMARY:CHIIR 2027 · Full and perspective paper abstract (mandatory\, max.
+  250 words)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/f
+ ull-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chii
+ r-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:aies-2026-conference@scientific-conference-calendar
@@ -116,6 +278,57 @@ URL:https://www.aies-conference.com/2026/
 LOCATION:Malmo\, Sweden
 END:VEVENT
 BEGIN:VEVENT
+UID:neural-interfaces-2027-deadline-speaker-proposal@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261012T180000Z
+DTEND:20261012T190000Z
+SUMMARY:Neural Interfaces 2027 · Call for Proposals (speaker and session i
+ deas that build the agenda\; not a research-abstract route)
+DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
+ \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-10-31\nFo
+ rmat: Abstract-based / oral or poster presentations\; no proceedings anno
+ unced\nOfficial source: https://www.nans.org/neural-interfaces/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#neural-interfaces-2027
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:BIOSIG 2026 · Final papers (ready for press)\; one full author reg
+ istration required
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
+ irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
+ y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
+ GI LNI proceedings\, submitted to IEEE Xplore\nOfficial source: https://b
+ iosig.de/\nVenue Radar: https://gon-uri.github.io/venue-radar/#biosig-202
+ 6
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261016T115900Z
+DTEND:20261016T125900Z
+SUMMARY:CHIIR 2027 · Full and perspective paper submission (up to 10 pages
+ )
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/f
+ ull-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chii
+ r-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
 UID:www-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261019T115900Z
@@ -125,22 +338,25 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/research-track-papers/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and pape
- r deadlines (Oct 18/25 AoE) have passed with no extension. The short-pape
- r OpenReview portal was observed open on 2026-10-30\; separate mandatory 
- abstract gates apply. Resource papers (four pages\, non-anonymous\, compa
- nion proceedings) are due Dec 17 AoE\; their portal is not public yet. Op
- enReview's short-paper forms close about an hour after the AoE cutoffs st
- ored here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 
- 6 per the website) and the general workshop-paper date (Jan 4\, workshops
-  not yet listed) are not tracked as separate routes\; the OpenReview demo
-  and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Goo
- d track is discontinued. Research must substantively address the Web\, no
- t merely use a web dataset. Preserve WWW as the stable series alias. Size
-  is an editorial estimate.
+ -uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261023T115900Z
+DTEND:20261023T125900Z
+SUMMARY:CHIIR 2027 · Tutorial and workshop proposals
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/w
+ orkshops.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-
+ 2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/workshops.html
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-full-paper@scientific-conference-calendar
@@ -152,19 +368,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/research-track-papers/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and pape
- r deadlines (Oct 18/25 AoE) have passed with no extension. The short-pape
- r OpenReview portal was observed open on 2026-10-30\; separate mandatory 
- abstract gates apply. Resource papers (four pages\, non-anonymous\, compa
- nion proceedings) are due Dec 17 AoE\; their portal is not public yet. Op
- enReview's short-paper forms close about an hour after the AoE cutoffs st
- ored here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 
- 6 per the website) and the general workshop-paper date (Jan 4\, workshops
-  not yet listed) are not tracked as separate routes\; the OpenReview demo
-  and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Goo
- d track is discontinued. Research must substantively address the Web\, no
- t merely use a web dataset. Preserve WWW as the stable series alias. Size
-  is an editorial estimate.
+ -uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
@@ -179,14 +383,42 @@ DESCRIPTION:ACM Conference on Fairness\, Accountability\, and Transparency\
  nMeeting: 2027-06-21 to 2027-06-24\, Porto\, Portugal\nStatus: confirmed\
  , checked 2026-10-28\nFormat: Paper-based / interdisciplinary\nOfficial s
  ource: https://facctconference.org/2027/cfp.html\nVenue Radar: https://go
- n-uri.github.io/venue-radar/#acm-facct-2027\nNotes: Official 2027 CFP con
- firms Jun 21-24 and 11:59 PM AoE deadlines\; the author guide makes abstr
- act registration mandatory\, so after Oct 27 new papers are closed (OpenR
- eview submission invitation expired by 2026-10-28). Homepage and OpenRevi
- ew venue name Porto\, Portugal (tenth FAccT). Camera-ready TBD.
+ n-uri.github.io/venue-radar/#acm-facct-2027
 CATEGORIES:Fairness & Responsible AI,Explainability & Interpretability,Ethi
  cs & Governance,Privacy-preserving ML
 URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T115900Z
+DTEND:20261030T125900Z
+SUMMARY:CHIIR 2027 · Resource paper submission (datasets or software\; up 
+ to 4 pages)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/r
+ esource-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ chiir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/resource-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T115900Z
+DTEND:20261030T125900Z
+SUMMARY:CHIIR 2027 · Short paper submission (up to 4 pages\; presented as 
+ posters)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/s
+ hort-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chi
+ ir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/short-papers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-full-paper@scientific-conference-calendar
@@ -198,14 +430,32 @@ DESCRIPTION:ACM Conference on Fairness\, Accountability\, and Transparency\
  nMeeting: 2027-06-21 to 2027-06-24\, Porto\, Portugal\nStatus: confirmed\
  , checked 2026-10-28\nFormat: Paper-based / interdisciplinary\nOfficial s
  ource: https://facctconference.org/2027/cfp.html\nVenue Radar: https://go
- n-uri.github.io/venue-radar/#acm-facct-2027\nNotes: Official 2027 CFP con
- firms Jun 21-24 and 11:59 PM AoE deadlines\; the author guide makes abstr
- act registration mandatory\, so after Oct 27 new papers are closed (OpenR
- eview submission invitation expired by 2026-10-28). Homepage and OpenRevi
- ew venue name Porto\, Portugal (tenth FAccT). Camera-ready TBD.
+ n-uri.github.io/venue-radar/#acm-facct-2027
 CATEGORIES:Fairness & Responsible AI,Explainability & Interpretability,Ethi
  cs & Governance,Privacy-preserving ML
 URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261108
+SUMMARY:EAAMO 2026 · Conference
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nStatus: confirmed\, checked 2026-10-31\nOfficial sour
+ ce: https://conference2026.eaamo.org/\nVenue Radar: https://gon-uri.githu
+ b.io/venue-radar/#eaamo-2026\nNotes: Sixth ACM EAAMO\, Nov 5-7\, 2026 at 
+ LMU Munich\; virtual-only Zoom registration covers keynotes and paper tal
+ ks. Abstract/paper deadlines were postponed one week from May 1/8 (AoE). 
+ OpenReview's abstract registration stage gates papers\, which choose an a
+ rchival (ACM DL\, up to 14 pages camera-ready) or non-archival option\; d
+ ouble-blind\, six tracks. WiP posters need only a title and abstract and 
+ are not in the proceedings. Size basis is 70 accepted papers (34 orals\, 
+ 36 posters) and a 150+ seat main hall in the host call. Size is an editor
+ ial estimate.
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/
+LOCATION:Munich\, Germany
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-deadline-late-abstract@scientific-conference-calendar
@@ -218,20 +468,37 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-blue-sky-ideas/\nVenue Radar: https://gon-uri.github.io/venue-rad
- ar/#aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track s
- ubmissions are closed because the Oct 1 abstract gate has passed. The sep
- arate four-page Blue Sky Ideas track is open: its OpenReview form (opened
-  Oct 20) was observed live on 2026-10-30\, and its Nov 5 gate only contro
- ls the Nov 12 short papers. A Demonstrations call posted Oct 27 (four-pag
- e paper plus video\, in the proceedings\, due Dec 27 AoE) is not tracked 
- as a separate route. The AAAI fast track is limited to highly rated AAAI-
- 27 papers and is not a general new-paper route. Size XL is an editorial e
- stimate. Historical acceptance covers main full papers only\, not Blue Sk
- y Ideas or the newly introduced 2027 Findings track.
+ ar/#aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261112
+SUMMARY:AMIA 2026 · Conference
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nStat
+ us: confirmed\, checked 2026-10-31\nOfficial source: https://web.archive.
+ org/web/20261001143649/https://amia.org/education-events/amia-2026-annual
+ -symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2026
+ \nNotes: amia.org blocks automated access\, so its pages were read via In
+ ternet Archive captures (May-Oct 2026). They confirm Nov 7-11\, 2026 at t
+ he Hilton Anatole\, Dallas. The single submission portal gave one deadlin
+ e for all nine types\, Tuesday March 10\, 2026 at 11:59 p.m. EDT (capture
+ s Jan 20-Mar 7\, 2026)\, and now says closed. No capture from Mar 10 to A
+ pr 16 shows whether it was extended (2025 moved from Mar 19 to Mar 25). P
+ apers appear in the proceedings archived in PMC\; podium abstracts and po
+ sters are not MEDLINE-indexed. Panels\, debates\, demos\, tutorials and w
+ orkshops are not tracked as routes. AMIA cites 2\,300+ attendees for Dall
+ as. Size is an editorial estimate.
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20261001143649/https://amia.org/education-e
+ vents/amia-2026-annual-symposium
+LOCATION:Dallas\, Texas\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-late-abstract@scientific-conference-calendar
@@ -243,22 +510,26 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#www-2027\nNotes: Full-paper abstract and paper dead
- lines (Oct 18/25 AoE) have passed with no extension. The short-paper Open
- Review portal was observed open on 2026-10-30\; separate mandatory abstra
- ct gates apply. Resource papers (four pages\, non-anonymous\, companion p
- roceedings) are due Dec 17 AoE\; their portal is not public yet. OpenRevi
- ew's short-paper forms close about an hour after the AoE cutoffs stored h
- ere. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 6 per 
- the website) and the general workshop-paper date (Jan 4\, workshops not y
- et listed) are not tracked as separate routes\; the OpenReview demo and P
- hD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Good trac
- k is discontinued. Research must substantively address the Web\, not mere
- ly use a web dataset. Preserve WWW as the stable series alias. Size is an
-  editorial estimate.
+ ithub.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261112T115900Z
+DTEND:20261112T125900Z
+SUMMARY:FORC 2027 · First-cycle paper submission (archival\, LIPIcs)
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nFormat: Paper-based / LIPIcs proceedings (10 pages\, 
+ or a one-page abstract on request)\; non-archival highlights talks\nOffic
+ ial source: https://responsiblecomputing.org/forc-2027-call-for-papers/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-deadline-short-paper@scientific-conference-calendar
@@ -271,16 +542,7 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-blue-sky-ideas/\nVenue Radar: https://gon-uri.github.io/venue-rad
- ar/#aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track s
- ubmissions are closed because the Oct 1 abstract gate has passed. The sep
- arate four-page Blue Sky Ideas track is open: its OpenReview form (opened
-  Oct 20) was observed live on 2026-10-30\, and its Nov 5 gate only contro
- ls the Nov 12 short papers. A Demonstrations call posted Oct 27 (four-pag
- e paper plus video\, in the proceedings\, due Dec 27 AoE) is not tracked 
- as a separate route. The AAAI fast track is limited to highly rated AAAI-
- 27 papers and is not a general new-paper route. Size XL is an editorial e
- stimate. Historical acceptance covers main full papers only\, not Blue Sk
- y Ideas or the newly introduced 2027 Findings track.
+ ar/#aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
@@ -296,22 +558,67 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#www-2027\nNotes: Full-paper abstract and paper dead
- lines (Oct 18/25 AoE) have passed with no extension. The short-paper Open
- Review portal was observed open on 2026-10-30\; separate mandatory abstra
- ct gates apply. Resource papers (four pages\, non-anonymous\, companion p
- roceedings) are due Dec 17 AoE\; their portal is not public yet. OpenRevi
- ew's short-paper forms close about an hour after the AoE cutoffs stored h
- ere. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 6 per 
- the website) and the general workshop-paper date (Jan 4\, workshops not y
- et listed) are not tracked as separate routes\; the OpenReview demo and P
- hD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Good trac
- k is discontinued. Research must substantively address the Web\, not mere
- ly use a web dataset. Preserve WWW as the stable series alias. Size is an
-  editorial estimate.
+ ithub.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261127
+SUMMARY:BIOSIG 2026 · Conference
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://bios
+ ig.de/\nVenue Radar: https://gon-uri.github.io/venue-radar/#biosig-2026\n
+ Notes: 25th annual edition\, run by the GI BIOSIG group with CAST\, BSI\,
+  EAB and Fraunhofer IGD\; IEEE technical co-sponsor. biosig.de and the GI
+  event page give Nov 25-26\, 2026 at Fraunhofer IGD\, after a Nov 24 foru
+ m. The CfP PDF said July 30\; the site's updated deadline is Aug 16\, wit
+ h no hour\, so AoE end-of-day is provisional. Double-blind CMT papers: 8 
+ pages plus 2 of references (LNI format)\, oral or poster. LNI proceedings
+ \; papers go to IEEE Xplore (approval pending in the CfP). No online tick
+ et is offered. Size S: 28 papers in the 2026 programme\; 87 attendees in 
+ 2023. Size is an editorial estimate.
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/
+LOCATION:Darmstadt\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261202T115900Z
+DTEND:20261202T125900Z
+SUMMARY:CHIIR 2027 · Doctoral consortium paper (single-authored\, PhD stud
+ ents only)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff note: The DC call and Call for Contribu
+ tions give December 1\, 2026\; the homepage lists December 6. The earlies
+ t stated date is stored.\nFormat: Paper-based / ACM open-access proceedin
+ gs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/do
+ ctoral-consortium-papers.html\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#chiir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/doctoral-consortium-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:CHIIR 2027 · Acceptance notification
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / A
+ CM open-access proceedings (ACM Digital Library)\nOfficial source: https:
+ //chiir2027.github.io/papers.html\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#chiir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/papers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-resource-paper@scientific-conference-calendar
@@ -323,22 +630,28 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/resource-submissions/\nVenue Radar: https://gon-
- uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and paper
-  deadlines (Oct 18/25 AoE) have passed with no extension. The short-paper
-  OpenReview portal was observed open on 2026-10-30\; separate mandatory a
- bstract gates apply. Resource papers (four pages\, non-anonymous\, compan
- ion proceedings) are due Dec 17 AoE\; their portal is not public yet. Ope
- nReview's short-paper forms close about an hour after the AoE cutoffs sto
- red here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 6
-  per the website) and the general workshop-paper date (Jan 4\, workshops 
- not yet listed) are not tracked as separate routes\; the OpenReview demo 
- and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Good
-  track is discontinued. Research must substantively address the Web\, not
-  merely use a web dataset. Preserve WWW as the stable series alias. Size 
- is an editorial estimate.
+ uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/resource-submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:FORC 2027 · First-cycle author notification
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / LIPIcs p
+ roceedings (10 pages\, or a one-page abstract on request)\; non-archival 
+ highlights talks\nOfficial source: https://responsiblecomputing.org/forc-
+ 2027-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-special-session-proposal@scientific-conference-calen
@@ -352,15 +665,7 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  026-10-29\nFormat: Full papers (double-blind\, proceedings) or abstracts 
  (posters/spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys
  \nOfficial source: https://aiih.cc/important-dates/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (ch
- ecked 2026-10-29) list the fourth edition at the Mathematical Institute\,
-  University of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadli
- nes are published as 11.59PM Pacific Time (GMT-8)\; the January proposal 
- row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) sto
- re the earlier GMT-7 instant per their cutoff notes\, and the date-only n
- otification keeps -08:00. Full papers are double-blind via CMT (2026 pape
- rs appeared in Springer LNCS)\; abstracts and STARS surveys are archived 
- on Zenodo. Size is an editorial estimate.
+ /gon-uri.github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
@@ -376,16 +681,7 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-main-track/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track submi
- ssions are closed because the Oct 1 abstract gate has passed. The separat
- e four-page Blue Sky Ideas track is open: its OpenReview form (opened Oct
-  20) was observed live on 2026-10-30\, and its Nov 5 gate only controls t
- he Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page pa
- per plus video\, in the proceedings\, due Dec 27 AoE) is not tracked as a
-  separate route. The AAAI fast track is limited to highly rated AAAI-27 p
- apers and is not a general new-paper route. Size XL is an editorial estim
- ate. Historical acceptance covers main full papers only\, not Blue Sky Id
- eas or the newly introduced 2027 Findings track.
+ aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
@@ -401,11 +697,7 @@ DESCRIPTION:ACM Conference on Fairness\, Accountability\, and Transparency\
  nMeeting: 2027-06-21 to 2027-06-24\, Porto\, Portugal\nStatus: confirmed\
  , checked 2026-10-28\nFormat: Paper-based / interdisciplinary\nOfficial s
  ource: https://facctconference.org/2027/cfp.html\nVenue Radar: https://go
- n-uri.github.io/venue-radar/#acm-facct-2027\nNotes: Official 2027 CFP con
- firms Jun 21-24 and 11:59 PM AoE deadlines\; the author guide makes abstr
- act registration mandatory\, so after Oct 27 new papers are closed (OpenR
- eview submission invitation expired by 2026-10-28). Homepage and OpenRevi
- ew venue name Porto\, Portugal (tenth FAccT). Camera-ready TBD.
+ n-uri.github.io/venue-radar/#acm-facct-2027
 CATEGORIES:Fairness & Responsible AI,Explainability & Interpretability,Ethi
  cs & Governance,Privacy-preserving ML
 URL:https://facctconference.org/2027/cfp.html
@@ -420,19 +712,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/research-track-papers/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and pape
- r deadlines (Oct 18/25 AoE) have passed with no extension. The short-pape
- r OpenReview portal was observed open on 2026-10-30\; separate mandatory 
- abstract gates apply. Resource papers (four pages\, non-anonymous\, compa
- nion proceedings) are due Dec 17 AoE\; their portal is not public yet. Op
- enReview's short-paper forms close about an hour after the AoE cutoffs st
- ored here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 
- 6 per the website) and the general workshop-paper date (Jan 4\, workshops
-  not yet listed) are not tracked as separate routes\; the OpenReview demo
-  and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Goo
- d track is discontinued. Research must substantively address the Web\, no
- t merely use a web dataset. Preserve WWW as the stable series alias. Size
-  is an editorial estimate.
+ -uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
@@ -449,20 +729,141 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-blue-sky-ideas/\nVenue Radar: https://gon-uri.github.io/venue-rad
- ar/#aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track s
- ubmissions are closed because the Oct 1 abstract gate has passed. The sep
- arate four-page Blue Sky Ideas track is open: its OpenReview form (opened
-  Oct 20) was observed live on 2026-10-30\, and its Nov 5 gate only contro
- ls the Nov 12 short papers. A Demonstrations call posted Oct 27 (four-pag
- e paper plus video\, in the proceedings\, due Dec 27 AoE) is not tracked 
- as a separate route. The AAAI fast track is limited to highly rated AAAI-
- 27 papers and is not a general new-paper route. Size XL is an editorial e
- stimate. Historical acceptance covers main full papers only\, not Blue Sk
- y Ideas or the newly introduced 2027 Findings track.
+ ar/#aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
+END:VEVENT
+BEGIN:VEVENT
+UID:neural-interfaces-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270217T180000Z
+DTEND:20270217T190000Z
+SUMMARY:Neural Interfaces 2027 · Original research abstract submission (ca
+ ll opens November 12\, 2026)
+DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
+ \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-10-31\nCu
+ toff note: Page says Feb 17\, 2027\, 1:00 PM CDT\, but Central clocks are
+  on CST (UTC-6) then. Earliest (CDT) instant stored.\nFormat: Abstract-ba
+ sed / oral or poster presentations\; no proceedings announced\nOfficial s
+ ource: https://www.nans.org/neural-interfaces/\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#neural-interfaces-2027
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-highlights-nomination@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270218T115900Z
+DTEND:20270218T125900Z
+SUMMARY:FORC 2027 · Highlights-track talk nomination (non-archival\, one p
+ age)
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nFormat: Paper-based / LIPIcs proceedings (10 pages\, 
+ or a one-page abstract on request)\; non-archival highlights talks\nOffic
+ ial source: https://responsiblecomputing.org/forc-2027-call-for-papers/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270218T115900Z
+DTEND:20270218T125900Z
+SUMMARY:FORC 2027 · Second-cycle paper submission (archival\, LIPIcs)
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nFormat: Paper-based / LIPIcs proceedings (10 pages\, 
+ or a one-page abstract on request)\; non-archival highlights talks\nOffic
+ ial source: https://responsiblecomputing.org/forc-2027-call-for-papers/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270312
+SUMMARY:CHIIR 2027 · Conference
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://ch
+ iir2027.github.io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#c
+ hiir-2027\nNotes: Official CHIIR 2027 pages\, checked 2026-10-31\, confir
+ m an in-person meeting at Humboldt-Universität zu Berlin\, Mar 7-11\, 20
+ 27 (doctoral consortium Mar 7\; tutorials and workshops Mar 11)\; deadlin
+ es are 23:59 AoE. The abstract gates full and perspective papers. Short\,
+  resource\, demo/design and industry papers (4 pages\, all in the proceed
+ ings) closed Oct 29 with no extension shown\; the demo/design and industr
+ y tracks are not stored as events. The doctoral consortium takes single-a
+ uthored PhD student papers. ACM open-access proceedings (APCs outside ACM
+  Open). Size S reflects 116 registered participants and 63 accepted paper
+ s at CHIIR 2026 (SIGIR Forum report). Size is an editorial estimate.
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/
+LOCATION:Berlin\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270311T045900Z
+DTEND:20270311T055900Z
+SUMMARY:AMIA 2027 (est.) · Podium abstracts (2 pages\, not MEDLINE-indexed
+ )
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2027-11-06 to 2027-11-10\, San Diego\, California\, USA\nStatus: est
+ imated\, checked 2026-10-31. Check the organizer's call before relying on
+  it.\nFormat: Paper-based / proceedings archived in PubMed Central\; podi
+ um abstracts and posters not MEDLINE-indexed\nOfficial source: https://we
+ b.archive.org/web/20260307122538/https://amia.secure-platform.com/symposi
+ um\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2027
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270311T045900Z
+DTEND:20270311T055900Z
+SUMMARY:AMIA 2027 (est.) · Papers and student papers (5-10 pages\, proceed
+ ings archived in PMC)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2027-11-06 to 2027-11-10\, San Diego\, California\, USA\nStatus: est
+ imated\, checked 2026-10-31. Check the organizer's call before relying on
+  it.\nFormat: Paper-based / proceedings archived in PubMed Central\; podi
+ um abstracts and posters not MEDLINE-indexed\nOfficial source: https://we
+ b.archive.org/web/20260307122538/https://amia.secure-platform.com/symposi
+ um\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2027
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270311T045900Z
+DTEND:20270311T055900Z
+SUMMARY:AMIA 2027 (est.) · Posters (1 page\, not MEDLINE-indexed)
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
+ ing: 2027-11-06 to 2027-11-10\, San Diego\, California\, USA\nStatus: est
+ imated\, checked 2026-10-31. Check the organizer's call before relying on
+  it.\nFormat: Paper-based / proceedings archived in PubMed Central\; podi
+ um abstracts and posters not MEDLINE-indexed\nOfficial source: https://we
+ b.archive.org/web/20260307122538/https://amia.secure-platform.com/symposi
+ um\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2027
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
+ .com/symposium
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-notification@scientific-conference-calendar
@@ -475,15 +876,29 @@ DESCRIPTION:ACM Conference on Fairness\, Accountability\, and Transparency\
  , checked 2026-10-28\nCutoff time unannounced: official deadline day only
  . Verify the organizer's submission portal.\nFormat: Paper-based / interd
  isciplinary\nOfficial source: https://facctconference.org/2027/cfp.html\n
- Venue Radar: https://gon-uri.github.io/venue-radar/#acm-facct-2027\nNotes
- : Official 2027 CFP confirms Jun 21-24 and 11:59 PM AoE deadlines\; the a
- uthor guide makes abstract registration mandatory\, so after Oct 27 new p
- apers are closed (OpenReview submission invitation expired by 2026-10-28)
- . Homepage and OpenReview venue name Porto\, Portugal (tenth FAccT). Came
- ra-ready TBD.
+ Venue Radar: https://gon-uri.github.io/venue-radar/#acm-facct-2027
 CATEGORIES:Fairness & Responsible AI,Explainability & Interpretability,Ethi
  cs & Governance,Privacy-preserving ML
 URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-second-cycle-notification@scientific-conference-cale
+ ndar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:FORC 2027 · Second-cycle author notification
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / LIPIcs p
+ roceedings (10 pages\, or a one-page abstract on request)\; non-archival 
+ highlights talks\nOfficial source: https://responsiblecomputing.org/forc-
+ 2027-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-abstract@scientific-conference-calendar
@@ -498,15 +913,7 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  .\nFormat: Full papers (double-blind\, proceedings) or abstracts (posters
  /spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys\nOffici
  al source: https://aiih.cc/important-dates/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (checked 20
- 26-10-29) list the fourth edition at the Mathematical Institute\, Univers
- ity of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are 
- published as 11.59PM Pacific Time (GMT-8)\; the January proposal row keep
- s -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the e
- arlier GMT-7 instant per their cutoff notes\, and the date-only notificat
- ion keeps -08:00. Full papers are double-blind via CMT (2026 papers appea
- red in Springer LNCS)\; abstracts and STARS surveys are archived on Zenod
- o. Size is an editorial estimate.
+ .github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
@@ -524,18 +931,43 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  .\nFormat: Full papers (double-blind\, proceedings) or abstracts (posters
  /spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys\nOffici
  al source: https://aiih.cc/important-dates/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (checked 20
- 26-10-29) list the fourth edition at the Mathematical Institute\, Univers
- ity of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are 
- published as 11.59PM Pacific Time (GMT-8)\; the January proposal row keep
- s -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the e
- arlier GMT-7 instant per their cutoff notes\, and the date-only notificat
- ion keeps -08:00. Full papers are double-blind via CMT (2026 papers appea
- red in Springer LNCS)\; abstracts and STARS surveys are archived on Zenod
- o. Size is an editorial estimate.
+ .github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecaf-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270410T115900Z
+DTEND:20270410T125900Z
+SUMMARY:ECAF 2027 (est.) · Full paper (15 pp) / extended abstract (4 pp) s
+ ubmission deadline
+DESCRIPTION:European Conference on Algorithmic Fairness\nMeeting: 2027-08-2
+ 5 to 2027-08-27\, Vilnius\, Lithuania\nStatus: estimated\, checked 2026-1
+ 0-31. Check the organizer's call before relying on it.\nFormat: Full pape
+ rs or extended abstracts / PMLR proceedings or non-archival (author's cho
+ ice)\; non-archival posters\nPrevious edition's page: https://2026.ecafco
+ nference.org/callForPapers\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#ecaf-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance
+URL:https://2026.ecafconference.org/callForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270501T115900Z
+DTEND:20270501T125900Z
+SUMMARY:EAAMO 2027 (est.) · Mandatory abstract registration
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
+ unced\nStatus: estimated\, checked 2026-10-31. Check the organizer's call
+  before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
+ l option) or non-archival\; WiP posters non-archival\nPrevious edition's 
+ page: https://conference2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#eaamo-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-conference@scientific-conference-calendar
@@ -560,6 +992,42 @@ CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
 LOCATION:Hanoi\, Vietnam
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270508T115900Z
+DTEND:20270508T125900Z
+SUMMARY:EAAMO 2027 (est.) · Paper submission (archival or non-archival opt
+ ion)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
+ unced\nStatus: estimated\, checked 2026-10-31. Check the organizer's call
+  before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
+ l option) or non-archival\; WiP posters non-archival\nPrevious edition's 
+ page: https://conference2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#eaamo-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecaf-2027-deadline-interactive-session-proposal@scientific-conference-c
+ alendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:ECAF 2027 (est.) · Interactive session proposal deadline (workshop
+ s\, panels\, other formats)
+DESCRIPTION:European Conference on Algorithmic Fairness\nMeeting: 2027-08-2
+ 5 to 2027-08-27\, Vilnius\, Lithuania\nStatus: estimated\, checked 2026-1
+ 0-31. Check the organizer's call before relying on it.\nEstimated day onl
+ y\; no cutoff hour stored. Check the organizer's call for the real date a
+ nd time.\nFormat: Full papers or extended abstracts / PMLR proceedings or
+  non-archival (author's choice)\; non-archival posters\nPrevious edition'
+ s page: https://2026.ecafconference.org/callForInteractiveSessions\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#ecaf-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance
+URL:https://2026.ecafconference.org/callForInteractiveSessions
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-conference@scientific-conference-calendar
@@ -599,14 +1067,34 @@ DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2027
  d 2026-10-29. Check the organizer's call before relying on it.\nFormat: P
  aper-based / interdisciplinary\nPrevious edition's page: https://www.aies
  -conference.com/2026/call-for-papers/\nVenue Radar: https://gon-uri.githu
- b.io/venue-radar/#aies-2027\nNotes: As of 2026-10-29 AAAI lists the tenth
-  AIES with "additional information to come"\; no 2027 dates or host are a
- nnounced. Meeting (Mon-Wed) and the mandatory abstract pre-registration a
- nd paper deadlines (Thursdays\, AoE) are one-year proxies from AIES 2026 
- (Oct 12-14\; May 14 and May 21).
+ b.io/venue-radar/#aies-2027
 CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:neural-interfaces-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270523
+SUMMARY:Neural Interfaces 2027 · Conference
+DESCRIPTION:Neural Interfaces Conference\nStatus: confirmed\, checked 2026-
+ 10-31\nOfficial source: https://www.nans.org/neural-interfaces/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#neural-interfaces-2027\nNotes
+ : NANS's official pages confirm Neural Interfaces 2027 on May 20-22\, 202
+ 7 in Arlington\, Virginia (venue not named). Original research abstracts 
+ are accepted from November 12\, 2026 (day only) to February 17\, 2027\, 1
+ :00 PM\; details are pending. The closed Call for Proposals gathered spea
+ ker and session ideas. In 2025 (June 12-14\, Arlington) abstracts were bl
+ ind-reviewed for oral or paper-poster slots and published in meeting mate
+ rials\; no proceedings are stated. Billed as biennial (2012\, 2014 and 20
+ 16 editions are documented)\, but NANS's recent editions were 2021 and 20
+ 25. Size M reflects a three-day hotel meeting with poster receptions\; no
+  attendance is published. Size is an editorial estimate.
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
+LOCATION:Arlington\, Virginia\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:aies-2027-deadline-full-paper@scientific-conference-calendar
@@ -619,11 +1107,7 @@ DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2027
  d 2026-10-29. Check the organizer's call before relying on it.\nFormat: P
  aper-based / interdisciplinary\nPrevious edition's page: https://www.aies
  -conference.com/2026/call-for-papers/\nVenue Radar: https://gon-uri.githu
- b.io/venue-radar/#aies-2027\nNotes: As of 2026-10-29 AAAI lists the tenth
-  AIES with "additional information to come"\; no 2027 dates or host are a
- nnounced. Meeting (Mon-Wed) and the mandatory abstract pre-registration a
- nd paper deadlines (Thursdays\, AoE) are one-year proxies from AIES 2026 
- (Oct 12-14\; May 14 and May 21).
+ b.io/venue-radar/#aies-2027
 CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://www.aies-conference.com/2026/call-for-papers/
@@ -640,18 +1124,34 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  e organizer's submission portal.\nFormat: Full papers (double-blind\, pro
  ceedings) or abstracts (posters/spotlights\, Zenodo)\; late-breaking abst
  racts and STARS surveys\nOfficial source: https://aiih.cc/important-dates
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#aiih-2027\nNotes: 
- Official AIiH pages (checked 2026-10-29) list the fourth edition at the M
- athematical Institute\, University of Oxford\, Sep 1-3\, 2027\; the forma
- t is not stated. Deadlines are published as 11.59PM Pacific Time (GMT-8)\
- ; the January proposal row keeps -08:00\, while rows falling in PDT (Apr 
- 9\, Jun 11\, Jul 2) store the earlier GMT-7 instant per their cutoff note
- s\, and the date-only notification keeps -08:00. Full papers are double-b
- lind via CMT (2026 papers appeared in Springer LNCS)\; abstracts and STAR
- S surveys are archived on Zenodo. Size is an editorial estimate.
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270605
+SUMMARY:FORC 2027 · Conference
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nStatus: conf
+ irmed\, checked 2026-10-31\nOfficial source: https://responsiblecomputing
+ .org/forc-2027-call-for-papers/\nVenue Radar: https://gon-uri.github.io/v
+ enue-radar/#forc-2027\nNotes: 8th annual FORC (annual since 2020\; LIPIcs
+  proceedings). The 2027 CFP confirms Stanford University\, June 2-4\, 202
+ 7\, and two archival paper cycles due Nov 11\, 2026 and Feb 17\, 2027 AoE
+ \; cycle-1 rejects should resubmit only after addressing the reviews\, wi
+ th a change note. Highlights nominations (one page\, Feb 17 AoE\; own or 
+ others' already-public papers\, tutorials or panels) stay schedule-only. 
+ On 2026-10-31 the OpenReview API showed the cycle-1 submission invitation
+  active for any user (opened Oct 22\; due Nov 12 11:59 UTC). Size S from 
+ 22 papers of 45 submissions plus 14 highlight talks in 2026. Size is an e
+ ditorial estimate.
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+LOCATION:Stanford\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-camera-ready@scientific-conference-calendar
@@ -666,15 +1166,7 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  .\nFormat: Full papers (double-blind\, proceedings) or abstracts (posters
  /spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys\nOffici
  al source: https://aiih.cc/important-dates/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (checked 20
- 26-10-29) list the fourth edition at the Mathematical Institute\, Univers
- ity of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are 
- published as 11.59PM Pacific Time (GMT-8)\; the January proposal row keep
- s -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the e
- arlier GMT-7 instant per their cutoff notes\, and the date-only notificat
- ion keeps -08:00. Full papers are double-blind via CMT (2026 papers appea
- red in Springer LNCS)\; abstracts and STARS surveys are archived on Zenod
- o. Size is an editorial estimate.
+ .github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
@@ -711,18 +1203,67 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  .\nFormat: Full papers (double-blind\, proceedings) or abstracts (posters
  /spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys\nOffici
  al source: https://aiih.cc/important-dates/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (checked 20
- 26-10-29) list the fourth edition at the Mathematical Institute\, Univers
- ity of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are 
- published as 11.59PM Pacific Time (GMT-8)\; the January proposal row keep
- s -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the e
- arlier GMT-7 instant per their cutoff notes\, and the date-only notificat
- ion keeps -08:00. Full papers are double-blind via CMT (2026 papers appea
- red in Springer LNCS)\; abstracts and STARS surveys are archived on Zenod
- o. Size is an editorial estimate.
+ .github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:BIOSIG 2027 (est.) · Paper submission deadline
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nMeeting: 2027-11-24 to 2027-11-25 (est.)\, To be announced\nStatus: e
+ stimated\, checked 2026-10-31. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based / GI LNI proceedin
+ gs\, submitted to IEEE Xplore (2026 format)\nPrevious edition's page: htt
+ ps://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#biosig-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:ecaf-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270808T115900Z
+DTEND:20270808T125900Z
+SUMMARY:ECAF 2027 (est.) · Non-archival poster submission deadline
+DESCRIPTION:European Conference on Algorithmic Fairness\nMeeting: 2027-08-2
+ 5 to 2027-08-27\, Vilnius\, Lithuania\nStatus: estimated\, checked 2026-1
+ 0-31. Check the organizer's call before relying on it.\nFormat: Full pape
+ rs or extended abstracts / PMLR proceedings or non-archival (author's cho
+ ice)\; non-archival posters\nPrevious edition's page: https://2026.ecafco
+ nference.org/callForPosters\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecaf-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance
+URL:https://2026.ecafconference.org/callForPosters
+END:VEVENT
+BEGIN:VEVENT
+UID:ecaf-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270828
+SUMMARY:ECAF 2027 · Conference
+DESCRIPTION:European Conference on Algorithmic Fairness\nStatus: confirmed\
+ , checked 2026-10-31\nOfficial source: https://2027.ecafconference.org/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#ecaf-2027\nNotes: Six
+ th edition (EWAF until 2025)\, run annually by the European Association f
+ or Algorithmic Fairness. On 2026-10-31 the official site confirms Vilnius
+  University\, Aug 25-27\, 2027\, with all calls TBA and no OpenReview gro
+ up yet. Estimates keep ECAF 2026 lead times (meeting Sep 2-4\; papers Apr
+  17\, extended to Apr 30 23:59 AoE\; session proposals May 15\, no hour\;
+  posters Aug 15 AoE)\; EWAF 2025 used a shorter 109-day paper lead. Full 
+ papers and 4-page extended abstracts share one route\; authors choose PML
+ R or non-archival. Posters admit early or previously submitted work. Size
+  M from about 200 expected participants and 69 accepted papers in 2026. S
+ ize is an editorial estimate.
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance
+URL:https://2027.ecafconference.org/
+LOCATION:Vilnius\, Lithuania
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-conference@scientific-conference-calendar
@@ -747,6 +1288,39 @@ URL:https://aiih.cc/
 LOCATION:Oxford\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
+UID:eaamo-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270907T115900Z
+DTEND:20270907T125900Z
+SUMMARY:EAAMO 2027 (est.) · Work-in-progress poster (title and abstract\; 
+ non-archival)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
+ unced\nStatus: estimated\, checked 2026-10-31. Check the organizer's call
+  before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
+ l option) or non-archival\; WiP posters non-archival\nPrevious edition's 
+ page: https://conference2026.eaamo.org/call_for_posters/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#eaamo-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/call_for_posters/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271009T115900Z
+DTEND:20271009T125900Z
+SUMMARY:CHIIR 2028 (est.) · Full and perspective paper abstract (mandatory
+ )
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/full-pa
+ pers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
 UID:aies-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271011
@@ -764,5 +1338,145 @@ CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://aaai.org/conference/aies/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271016T115900Z
+DTEND:20271016T125900Z
+SUMMARY:CHIIR 2028 (est.) · Full and perspective paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/full-pa
+ pers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271030T115900Z
+DTEND:20271030T125900Z
+SUMMARY:CHIIR 2028 (est.) · Resource paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/resourc
+ e-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-
+ 2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/resource-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271030T115900Z
+DTEND:20271030T125900Z
+SUMMARY:CHIIR 2028 (est.) · Short paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/short-p
+ apers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-202
+ 8
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/short-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271107
+SUMMARY:EAAMO 2027 (est.) · Conference
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nStatus: estimated\, checked 2026-10-31. Check the org
+ anizer's call before relying on it.\nOfficial source: https://conference.
+ eaamo.org/call_for_location/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#eaamo-2027\nNotes: As of 2026-10-31 conference.eaamo.org covers 
+ only EAAMO 2026 and runs a call for 2027 host proposals (timing last week
+  of October or first week of November)\; no 2027 host\, dates or call exi
+ st. Annual since 2021. Meeting and AoE dates are one-year same-weekday pr
+ oxies from EAAMO 2026\, using its original May 1/8 abstract/paper dates\,
+  not the one-week postponement (2025 used Apr 24/May 1). The poster proxy
+  follows 2026's Sep 7 call\; 2025's closed Jul 25. Mode assumes the virtu
+ al option of 2025-2026. Size follows 2026. Size is an editorial estimate.
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference.eaamo.org/call_for_location/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:amia-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271111
+SUMMARY:AMIA 2027 · Conference
+DESCRIPTION:American Medical Informatics Association Annual Symposium\nStat
+ us: confirmed\, checked 2026-10-31\nOfficial source: https://web.archive.
+ org/web/20260708112717/https://amia.org/education-events/annual-symposium
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2027\nNotes: A
+ MIA's Annual Symposium page (Internet Archive capture of 2026-07-08\; ami
+ a.org blocks automated access) lists future sites\, including Nov 6-10\, 
+ 2027 in San Diego. No 2027 call was published by 2026-10-31\; the live po
+ rtal still shows the closed 2026 call. The March 10\, 2027 deadline for p
+ apers\, podium abstracts and posters is a one-year proxy from AMIA 2026 (
+ one deadline\, Mar 10\, 2026\, 11:59 p.m. Eastern\; 2025 was Mar 19\, ext
+ ended to Mar 25)\, kept at 11:59 p.m. Eastern (EST on that date). Both ea
+ rlier portals were open by mid-January. Papers appear in the PMC-archived
+  proceedings\; podium abstracts and posters are not MEDLINE-indexed. Size
+  is an editorial estimate.
+CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
+ eraction & Deployment
+URL:https://web.archive.org/web/20260708112717/https://amia.org/education-e
+ vents/annual-symposium
+LOCATION:San Diego\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271126
+SUMMARY:BIOSIG 2027 (est.) · Conference
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nStatus: estimated\, checked 2026-10-31. Check the organizer's call be
+ fore relying on it.\nOfficial source: https://biosig.de/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#biosig-2027\nNotes: Not announced on
+  biosig.de or the GI BIOSIG pages as of 2026-10-31. BIOSIG is annual (CfP
+ : 'its annual conference'\; the GI archive lists an edition every year si
+ nce 2013). Meeting dates (Wed-Thu) and the paper deadline are one-year sa
+ me-weekday proxies from BIOSIG 2026\, using its original July 30 deadline
+  rather than the Aug 16 extension. Editions 2018-2025 met in mid or late 
+ September\, so 2027 timing may move earlier. Recent in-person editions me
+ t in Darmstadt (2020 was virtual)\, but no 2027 host is published. Size S
+  follows the 2026 programme. Size is an editorial estimate.
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280312
+SUMMARY:CHIIR 2028 (est.) · Conference
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nStatus: estimated\, checked 2026-10-31. Check the organizer's call 
+ before relying on it.\nPrevious edition's page: https://sigir.org/wp-cont
+ ent/uploads/2026/07/p04.pdf\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#chiir-2028\nNotes: The CHIIR 2026 general chairs' SIGIR Forum rep
+ ort (June 2026) names Helsinki as the CHIIR 2028 host\; as of 2026-10-31 
+ no 2028 website\, dates or call exist (chiir2028.github.io returns 404). 
+ chiir.org says CHIIR is annual in March. Meeting dates are a one-year pro
+ xy from CHIIR 2027 (Mar 7-11)\; CHIIR 2026 ran Mar 22-26. Deadlines repea
+ t the same 23:59 AoE days used by the 2026 and 2027 calls (abstract Oct 8
+ \, paper Oct 15\, short and resource papers Oct 29). Call links refer to 
+ CHIIR 2027. Size is an editorial estimate.
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://sigir.org/wp-content/uploads/2026/07/p04.pdf
+LOCATION:Helsinki\, Finland
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RLC 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rlc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270302T115900Z
+DTEND:20270302T125900Z
+SUMMARY:RLC 2027 (est.) · Abstract submission deadline (assumed mandatory)
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
+ 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
+ Status: estimated\, checked 2026-10-31. Check the organizer's call before
+  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
+  call not yet published)\nPrevious edition's page: https://rl-conference.
+ cc/2026/callforpapers.html\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#rlc-2027
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270306T115900Z
+DTEND:20270306T125900Z
+SUMMARY:RLC 2027 (est.) · Paper submission deadline
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
+ 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
+ Status: estimated\, checked 2026-10-31. Check the organizer's call before
+  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
+  call not yet published)\nPrevious edition's page: https://rl-conference.
+ cc/2026/callforpapers.html\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#rlc-2027
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270506T115900Z
+DTEND:20270506T125900Z
+SUMMARY:RLC 2027 (est.) · Decision notification
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
+ 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
+ Status: estimated\, checked 2026-10-31. Check the organizer's call before
+  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
+  call not yet published)\nPrevious edition's page: https://rl-conference.
+ cc/2026/callforpapers.html\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#rlc-2027
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270901
+SUMMARY:RLC 2027 (est.) · Conference
+DESCRIPTION:Reinforcement Learning Conference\nStatus: estimated\, checked 
+ 2026-10-31. Check the organizer's call before relying on it.\nPrevious ed
+ ition's page: https://rl-conference.cc/2026/index.html\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#rlc-2027\nNotes: The RLC 2026 site ann
+ ounces RLC 2027 at two in-person sites: Brown University\, USA (early Aug
+ ust) and Odense\, Denmark (late August\, one joint event with EWRL)\; exa
+ ct dates are TBA and authors of accepted papers choose where to present. 
+ Aug 1-31 bounds both sites\; it is not a shift of Aug 15-18\, 2026. No 20
+ 27 call is published\; abstract Mar 1 and paper Mar 5 AoE are one-year pr
+ oxies from the original 2026 call (2024: Mar 1/8\; 2025: Feb 21/28)\, wit
+ h the abstract assumed mandatory. The RLJ home page now describes quarter
+ ly volumes with rolling submissions\, so the 2027 route may change. Size 
+ is an editorial estimate.
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/index.html
+LOCATION:Providence\, USA (Brown University) and Odense\, Denmark
+END:VEVENT
+END:VCALENDAR

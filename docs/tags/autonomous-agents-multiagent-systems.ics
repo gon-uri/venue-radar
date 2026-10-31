@@ -10,6 +10,100 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:sigdial-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260303T115900Z
+DTEND:20260303T125900Z
+SUMMARY:SIGDIAL 2026 · Workshop and tutorial proposals
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/workshops_tutorials/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/workshops_tutorials/
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2026-deadline-abstract-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260306T115900Z
+DTEND:20260306T125900Z
+SUMMARY:RLC 2026 · Abstract submission (extended from March 1 to the paper
+  cutoff)
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
+ 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
+ : Paper-based / published in the Reinforcement Learning Journal (RLJ)\nOf
+ ficial source: https://rl-conference.cc/2026/callforpapers.html\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#rlc-2026
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260306T115900Z
+DTEND:20260306T125900Z
+SUMMARY:RLC 2026 · Paper submission deadline
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
+ 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
+ : Paper-based / published in the Reinforcement Learning Journal (RLJ)\nOf
+ ficial source: https://rl-conference.cc/2026/callforpapers.html\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#rlc-2026
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260404T115900Z
+DTEND:20260404T125900Z
+SUMMARY:IVA 2026 · Full-paper abstract submission (required first step\; e
+ xtended from March 28)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-papers/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260411T115900Z
+DTEND:20260411T125900Z
+SUMMARY:IVA 2026 · Full paper submission\, 4-8 pages\, double-blind (exten
+ ded from April 4)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-papers/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260411T115900Z
+DTEND:20260411T125900Z
+SUMMARY:IVA 2026 · Workshop and tutorial proposals (extended)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-workshops/\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-workshops/
+END:VEVENT
+BEGIN:VEVENT
 UID:alife-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260413T115900Z
@@ -19,15 +113,73 @@ DESCRIPTION:International Conference on Artificial Life\nMeeting: 2026-08-1
  7 to 2026-08-21\, Waterloo\, Ontario\, Canada\nStatus: confirmed\, checke
  d 2026-10-08\nFormat: Full papers + non-archival abstracts\nOfficial sour
  ce: https://2026.alife.org/call-for-papers/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#alife-2026\nNotes: Historical baseline. Reviewed 
- full papers appear in MIT Press open-access proceedings\; presentation su
- mmaries and late-breaking abstracts are non-archival. The April date was 
- an extension of the original March 30 cutoff. Size is an editorial estima
- te.
+ .github.io/venue-radar/#alife-2026
 CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
  ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
  ional Cognition
 URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260414T115900Z
+DTEND:20260414T125900Z
+SUMMARY:SIGDIAL 2026 · Mandatory title and abstract registration (Softconf
+ /START)
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/main_conference/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260421T115900Z
+DTEND:20260421T125900Z
+SUMMARY:SIGDIAL 2026 · Long\, short and demo paper PDF submission
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/main_conference/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260506T115900Z
+DTEND:20260506T125900Z
+SUMMARY:RLC 2026 · Decision notification (moved from May 8)
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
+ 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
+ : Paper-based / published in the Reinforcement Learning Journal (RLJ)\nOf
+ ficial source: https://rl-conference.cc/2026/callforpapers.html\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#rlc-2026
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260509T115900Z
+DTEND:20260509T125900Z
+SUMMARY:EAAMO 2026 · Mandatory abstract registration on OpenReview
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 8 AoE
+ \; the OpenReview venue page lists abstract registration until May 9\, 13
+ :00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or n
+ on-archival\; WiP posters non-archival\nOfficial source: https://conferen
+ ce2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:sab-2026-deadline-abstract@scientific-conference-calendar
@@ -39,11 +191,7 @@ DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  eting: 2026-10-19 to 2026-10-22\, Berlin\, Germany\nStatus: confirmed\, c
  hecked 2026-10-08\nFormat: Reviewed papers + non-archival contributions\n
  Official source: https://sab-conference.org/call-for-contributions/\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#sab-2026\nNotes: Biennial
-  ISAB conference. Reviewed track-1 papers appear in Springer LNAI\; the o
- ther tracks include non-archival papers\, poster abstracts and position p
- apers. The stated submission cutoff is Pacific Time\, not AoE\; May 15 us
- es daylight time. Size is an editorial estimate.
+ e Radar: https://gon-uri.github.io/venue-radar/#sab-2026
 CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
  gnitive Science & Computational Cognition,Control & Robotics
 URL:https://sab-conference.org/call-for-contributions/
@@ -58,14 +206,93 @@ DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  eting: 2026-10-19 to 2026-10-22\, Berlin\, Germany\nStatus: confirmed\, c
  hecked 2026-10-08\nFormat: Reviewed papers + non-archival contributions\n
  Official source: https://sab-conference.org/call-for-contributions/\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#sab-2026\nNotes: Biennial
-  ISAB conference. Reviewed track-1 papers appear in Springer LNAI\; the o
- ther tracks include non-archival papers\, poster abstracts and position p
- apers. The stated submission cutoff is Pacific Time\, not AoE\; May 15 us
- es daylight time. Size is an editorial estimate.
+ e Radar: https://gon-uri.github.io/venue-radar/#sab-2026
 CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
  gnitive Science & Computational Cognition,Control & Robotics
 URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260516T115900Z
+DTEND:20260516T125900Z
+SUMMARY:EAAMO 2026 · Paper submission (archival or non-archival option)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 15 Ao
+ E\; the OpenReview venue page lists the submission deadline as May 16\, 1
+ 3:00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or 
+ non-archival\; WiP posters non-archival\nOfficial source: https://confere
+ nce2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rada
+ r/#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-review-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:IVA 2026 · Full-paper review notification
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based / ACM Digital
+  Library proceedings\; poster extended abstracts (optional ACM DL)\; demo
+  papers in adjunct proceedings\nOfficial source: https://iva.acm.org/2026
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260526T115900Z
+DTEND:20260526T125900Z
+SUMMARY:SIGDIAL 2026 · Commitment of ARR-reviewed papers
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/main_conference/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:SIGDIAL 2026 · Paper notification
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nCutoff time unannounced: official de
+ adline day only. Verify the organizer's submission portal.\nFormat: Paper
+ -based / ACL Anthology proceedings (long\, short and demo papers\; ARR co
+ mmitment accepted)\nOfficial source: https://2026.sigdial.org/calls/main_
+ conference/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sigdial-
+ 2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+SUMMARY:IVA 2026 · Final full-paper acceptance notification
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based / ACM Digital
+  Library proceedings\; poster extended abstracts (optional ACM DL)\; demo
+  papers in adjunct proceedings\nOfficial source: https://iva.acm.org/2026
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:sab-2026-deadline-notification@scientific-conference-calendar
@@ -79,13 +306,75 @@ DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  erify the organizer's submission portal.\nFormat: Reviewed papers + non-a
  rchival contributions\nOfficial source: https://sab-conference.org/call-f
  or-contributions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sa
- b-2026\nNotes: Biennial ISAB conference. Reviewed track-1 papers appear i
- n Springer LNAI\; the other tracks include non-archival papers\, poster a
- bstracts and position papers. The stated submission cutoff is Pacific Tim
- e\, not AoE\; May 15 uses daylight time. Size is an editorial estimate.
+ b-2026
 CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
  gnitive Science & Computational Cognition,Control & Robotics
 URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-demo-submission@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260623T115900Z
+DTEND:20260623T125900Z
+SUMMARY:IVA 2026 · Demo submission\, 2-page demo paper and video (adjunct 
+ proceedings)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-demos/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260623T115959Z
+DTEND:20260623T125959Z
+SUMMARY:IVA 2026 · Poster track 2-3 page extended abstract (independent of
+  the paper track)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-poster/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-poster/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260630T115900Z
+DTEND:20260630T125900Z
+SUMMARY:SIGDIAL 2026 · Final camera-ready submission
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2026-08-02 to 2026-08-05\, Atlanta\, Georgia\, USA\nSta
+ tus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACL Anthology 
+ proceedings (long\, short and demo papers\; ARR commitment accepted)\nOff
+ icial source: https://2026.sigdial.org/calls/main_conference/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#sigdial-2026
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260708T115900Z
+DTEND:20260708T125900Z
+SUMMARY:IVA 2026 · Full-paper camera-ready deadline
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:sab-2026-deadline-camera-ready@scientific-conference-calendar
@@ -99,13 +388,24 @@ DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  erify the organizer's submission portal.\nFormat: Reviewed papers + non-a
  rchival contributions\nOfficial source: https://sab-conference.org/call-f
  or-contributions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sa
- b-2026\nNotes: Biennial ISAB conference. Reviewed track-1 papers appear i
- n Springer LNAI\; the other tracks include non-archival papers\, poster a
- bstracts and position papers. The stated submission cutoff is Pacific Tim
- e\, not AoE\; May 15 uses daylight time. Size is an editorial estimate.
+ b-2026
 CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
  gnitive Science & Computational Cognition,Control & Robotics
 URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260719T115900Z
+DTEND:20260719T125900Z
+SUMMARY:RLC 2026 · Camera-ready paper due
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
+ 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
+ : Paper-based / published in the Reinforcement Learning Journal (RLJ)\nOf
+ ficial source: https://rl-conference.cc/2026/callforpapers.html\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#rlc-2026
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:alife-2026-deadline-late-abstract@scientific-conference-calendar
@@ -117,15 +417,88 @@ DESCRIPTION:International Conference on Artificial Life\nMeeting: 2026-08-1
  7 to 2026-08-21\, Waterloo\, Ontario\, Canada\nStatus: confirmed\, checke
  d 2026-10-08\nFormat: Full papers + non-archival abstracts\nOfficial sour
  ce: https://2026.alife.org/call-for-papers/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#alife-2026\nNotes: Historical baseline. Reviewed 
- full papers appear in MIT Press open-access proceedings\; presentation su
- mmaries and late-breaking abstracts are non-archival. The April date was 
- an extension of the original March 30 cutoff. Size is an editorial estima
- te.
+ .github.io/venue-radar/#alife-2026
 CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
  ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
  ional Cognition
 URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2026-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260723T115900Z
+DTEND:20260723T125900Z
+SUMMARY:IVA 2026 · Doctoral consortium application\, PhD students only (ex
+ tended)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2026-09-07 to 2026-09-11\, Puebla\, Mexico\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings\; 
+ poster extended abstracts (optional ACM DL)\; demo papers in adjunct proc
+ eedings\nOfficial source: https://iva.acm.org/2026/call-for-doctoral-cons
+ ortium/\nVenue Radar: https://gon-uri.github.io/venue-radar/#iva-2026
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-doctoral-consortium/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260806
+SUMMARY:SIGDIAL 2026 · Conference
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https:/
+ /2026.sigdial.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ igdial-2026\nNotes: 27th meeting at Emory University\, Atlanta\, Aug 2-5\
+ , 2026 (Aug 2 workshops/tutorials\, Aug 3-5 main)\, fully in person\; mov
+ ed in Feb 2026 from July 13-17 for the World Cup. CFP deadlines are 23:59
+  AoE. Title/abstract registration on Apr 13 was mandatory\; only the PDF 
+ could change until Apr 20. ARR commitment (May 25) was for already-review
+ ed papers. Long (8p)\, short (4p) and demo papers\; proceedings in the AC
+ L Anthology. The chairs' preface reports 61 of 134 accepted (45.5%). Size
+  M (about 60 papers a year\; attendance not published). Size is an editor
+ ial estimate.
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/
+LOCATION:Atlanta\, Georgia\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:EAAMO 2026 · Paper notification
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
+ osters non-archival\nOfficial source: https://conference2026.eaamo.org/cf
+ p/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260819
+SUMMARY:RLC 2026 · Conference
+DESCRIPTION:Reinforcement Learning Conference\nStatus: confirmed\, checked 
+ 2026-10-31\nOfficial source: https://rl-conference.cc/2026/index.html\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#rlc-2026\nNotes: Third 
+ RLC (annual since 2024). Official pages confirm Aug 15-18\, 2026 at Unive
+ rsité de Montréal (Aug 15 workshops\, Aug 16-18 main program). Accepted
+  papers appear in the Reinforcement Learning Journal (RLJ\, ISSN 2996-857
+ 7) after double-blind OpenReview review\; one author must attend in perso
+ n. The abstract deadline was extended from March 1 to March 5 AoE\, the p
+ aper cutoff\, so it is kept as a schedule-only step. The submission site 
+ was to open by February 17 (no time given). No official acceptance rate w
+ as found. Size M rests on 148 RLJ 2026 papers in the official paper sched
+ ule\; attendance is unpublished. Size is an editorial estimate.
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/index.html
+LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
 UID:alife-2026-conference@scientific-conference-calendar
@@ -147,6 +520,46 @@ URL:https://2026.alife.org/
 LOCATION:Waterloo\, Ontario\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:iva-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260912
+SUMMARY:IVA 2026 · Conference
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nSta
+ tus: confirmed\, checked 2026-10-31\nOfficial source: https://iva.acm.org
+ /2026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#iva-2026\nNot
+ es: 26th edition\, co-located with ACII 2026 at the Puebla Convention Cen
+ ter. Official pages give Sept 7-11 (welcome reception Sept 7\, paper sess
+ ions Sept 8-10\, workshop\, tutorial and doctoral consortium Sept 11). Fu
+ ll papers had a prior abstract step (the 2025 CFP calls it mandatory)\; b
+ oth were extended from Mar 28/Apr 4 (Feb 2026 Wayback snapshot). All cuto
+ ffs are 23:59 AoE. Posters were an independent 2-3 page extended-abstract
+  route with optional ACM DL inclusion. Demos (adjunct proceedings\, fee) 
+ are schedule-only. The accepted list shows 30 full papers\, 11 posters an
+ d 7 demos\; no official acceptance rate was found. Size is an editorial e
+ stimate.
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
+LOCATION:Puebla\, Mexico
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260908T115900Z
+DTEND:20260908T125900Z
+SUMMARY:EAAMO 2026 · Work-in-progress poster (title and abstract\; non-arc
+ hival)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM DL pro
+ ceedings (archival option) or non-archival\; WiP posters non-archival\nOf
+ ficial source: https://conference2026.eaamo.org/call_for_posters/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#eaamo-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/call_for_posters/
+END:VEVENT
+BEGIN:VEVENT
 UID:aamas-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261002T115900Z
@@ -157,19 +570,27 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-main-track/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track submi
- ssions are closed because the Oct 1 abstract gate has passed. The separat
- e four-page Blue Sky Ideas track is open: its OpenReview form (opened Oct
-  20) was observed live on 2026-10-30\, and its Nov 5 gate only controls t
- he Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page pa
- per plus video\, in the proceedings\, due Dec 27 AoE) is not tracked as a
-  separate route. The AAAI fast track is limited to highly rated AAAI-27 p
- apers and is not a general new-paper route. Size XL is an editorial estim
- ate. Historical acceptance covers main full papers only\, not Blue Sky Id
- eas or the newly introduced 2027 Findings track.
+ aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2026-deadline-poster-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:EAAMO 2026 · Work-in-progress poster notification
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
+ osters non-archival\nOfficial source: https://conference2026.eaamo.org/ca
+ ll_for_posters/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eaam
+ o-2026
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/call_for_posters/
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-deadline-full-paper@scientific-conference-calendar
@@ -182,16 +603,7 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-main-track/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track submi
- ssions are closed because the Oct 1 abstract gate has passed. The separat
- e four-page Blue Sky Ideas track is open: its OpenReview form (opened Oct
-  20) was observed live on 2026-10-30\, and its Nov 5 gate only controls t
- he Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page pa
- per plus video\, in the proceedings\, due Dec 27 AoE) is not tracked as a
-  separate route. The AAAI fast track is limited to highly rated AAAI-27 p
- apers and is not a general new-paper route. Size XL is an editorial estim
- ate. Historical acceptance covers main full papers only\, not Blue Sky Id
- eas or the newly introduced 2027 Findings track.
+ aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
@@ -207,10 +619,7 @@ DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based\nOfficial source: https://2027.naacl.org/calls/main_
  conference_papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#n
- aacl-2027\nNotes: Formerly North American Chapter\; retains NAACL acronym
- . Shares October ARR cycle with COLING\, but authors may commit to only o
- ne primary venue. Commitment is not a fresh-paper route. Size is an edito
- rial estimate.
+ aacl-2027
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/calls/main_conference_papers/
@@ -234,6 +643,28 @@ URL:https://sab-conference.org/
 LOCATION:Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
+UID:eaamo-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261108
+SUMMARY:EAAMO 2026 · Conference
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nStatus: confirmed\, checked 2026-10-31\nOfficial sour
+ ce: https://conference2026.eaamo.org/\nVenue Radar: https://gon-uri.githu
+ b.io/venue-radar/#eaamo-2026\nNotes: Sixth ACM EAAMO\, Nov 5-7\, 2026 at 
+ LMU Munich\; virtual-only Zoom registration covers keynotes and paper tal
+ ks. Abstract/paper deadlines were postponed one week from May 1/8 (AoE). 
+ OpenReview's abstract registration stage gates papers\, which choose an a
+ rchival (ACM DL\, up to 14 pages camera-ready) or non-archival option\; d
+ ouble-blind\, six tracks. WiP posters need only a title and abstract and 
+ are not in the proceedings. Size basis is 70 accepted papers (34 orals\, 
+ 36 posters) and a 150+ seat main hall in the host call. Size is an editor
+ ial estimate.
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/
+LOCATION:Munich\, Germany
+END:VEVENT
+BEGIN:VEVENT
 UID:aamas-2027-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261106T115900Z
@@ -244,16 +675,7 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-blue-sky-ideas/\nVenue Radar: https://gon-uri.github.io/venue-rad
- ar/#aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track s
- ubmissions are closed because the Oct 1 abstract gate has passed. The sep
- arate four-page Blue Sky Ideas track is open: its OpenReview form (opened
-  Oct 20) was observed live on 2026-10-30\, and its Nov 5 gate only contro
- ls the Nov 12 short papers. A Demonstrations call posted Oct 27 (four-pag
- e paper plus video\, in the proceedings\, due Dec 27 AoE) is not tracked 
- as a separate route. The AAAI fast track is limited to highly rated AAAI-
- 27 papers and is not a general new-paper route. Size XL is an editorial e
- stimate. Historical acceptance covers main full papers only\, not Blue Sk
- y Ideas or the newly introduced 2027 Findings track.
+ ar/#aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
@@ -270,16 +692,7 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-blue-sky-ideas/\nVenue Radar: https://gon-uri.github.io/venue-rad
- ar/#aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track s
- ubmissions are closed because the Oct 1 abstract gate has passed. The sep
- arate four-page Blue Sky Ideas track is open: its OpenReview form (opened
-  Oct 20) was observed live on 2026-10-30\, and its Nov 5 gate only contro
- ls the Nov 12 short papers. A Demonstrations call posted Oct 27 (four-pag
- e paper plus video\, in the proceedings\, due Dec 27 AoE) is not tracked 
- as a separate route. The AAAI fast track is limited to highly rated AAAI-
- 27 papers and is not a general new-paper route. Size XL is an editorial e
- stimate. Historical acceptance covers main full papers only\, not Blue Sk
- y Ideas or the newly introduced 2027 Findings track.
+ ar/#aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
@@ -296,10 +709,7 @@ DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based\nOfficial source: https://2027.naacl.org/calls/main_
  conference_papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#n
- aacl-2027\nNotes: Formerly North American Chapter\; retains NAACL acronym
- . Shares October ARR cycle with COLING\, but authors may commit to only o
- ne primary venue. Commitment is not a fresh-paper route. Size is an edito
- rial estimate.
+ aacl-2027
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/calls/main_conference_papers/
@@ -315,16 +725,7 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-main-track/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track submi
- ssions are closed because the Oct 1 abstract gate has passed. The separat
- e four-page Blue Sky Ideas track is open: its OpenReview form (opened Oct
-  20) was observed live on 2026-10-30\, and its Nov 5 gate only controls t
- he Nov 12 short papers. A Demonstrations call posted Oct 27 (four-page pa
- per plus video\, in the proceedings\, due Dec 27 AoE) is not tracked as a
-  separate route. The AAAI fast track is limited to highly rated AAAI-27 p
- apers and is not a general new-paper route. Size XL is an editorial estim
- ate. Historical acceptance covers main full papers only\, not Blue Sky Id
- eas or the newly introduced 2027 Findings track.
+ aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
@@ -341,20 +742,27 @@ DESCRIPTION:International Conference on Autonomous Agents and Multiagent Sy
  rmed\, checked 2026-10-30\nFormat: Paper-based / Blue Sky Ideas short pap
  ers\nOfficial source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/c
  all-for-blue-sky-ideas/\nVenue Radar: https://gon-uri.github.io/venue-rad
- ar/#aamas-2027\nNotes: Annual flagship meeting in Hanoi. New main-track s
- ubmissions are closed because the Oct 1 abstract gate has passed. The sep
- arate four-page Blue Sky Ideas track is open: its OpenReview form (opened
-  Oct 20) was observed live on 2026-10-30\, and its Nov 5 gate only contro
- ls the Nov 12 short papers. A Demonstrations call posted Oct 27 (four-pag
- e paper plus video\, in the proceedings\, due Dec 27 AoE) is not tracked 
- as a separate route. The AAAI fast track is limited to highly rated AAAI-
- 27 papers and is not a general new-paper route. Size XL is an editorial e
- stimate. Historical acceptance covers main full papers only\, not Blue Sk
- y Ideas or the newly introduced 2027 Findings track.
+ ar/#aamas-2027
 CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270302T115900Z
+DTEND:20270302T125900Z
+SUMMARY:RLC 2027 (est.) · Abstract submission deadline (assumed mandatory)
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
+ 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
+ Status: estimated\, checked 2026-10-31. Check the organizer's call before
+  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
+  call not yet published)\nPrevious edition's page: https://rl-conference.
+ cc/2026/callforpapers.html\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#rlc-2027
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:naacl-2027-deadline-camera-ready@scientific-conference-calendar
@@ -367,13 +775,44 @@ DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based\nOfficial source: https://2027.naacl.org/calls/main_
  conference_papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#n
- aacl-2027\nNotes: Formerly North American Chapter\; retains NAACL acronym
- . Shares October ARR cycle with COLING\, but authors may commit to only o
- ne primary venue. Commitment is not a fresh-paper route. Size is an edito
- rial estimate.
+ aacl-2027
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270306T115900Z
+DTEND:20270306T125900Z
+SUMMARY:RLC 2027 (est.) · Paper submission deadline
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
+ 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
+ Status: estimated\, checked 2026-10-31. Check the organizer's call before
+  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
+  call not yet published)\nPrevious edition's page: https://rl-conference.
+ cc/2026/callforpapers.html\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#rlc-2027
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270329T115900Z
+DTEND:20270329T125900Z
+SUMMARY:IVA 2027 (est.) · Full-paper abstract submission (required first s
+ tep)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
+ mated\, checked 2026-10-31. Check the organizer's call before relying on 
+ it.\nFormat: Paper-based / ACM Digital Library proceedings (2026 format)\
+ ; poster extended abstracts\nPrevious edition's page: https://web.archive
+ .org/web/20260203041035/https://iva.acm.org/2026/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#iva-2027
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:alife-2027-deadline-full-paper@scientific-conference-calendar
@@ -386,16 +825,76 @@ DESCRIPTION:International Conference on Artificial Life\nMeeting: 2027-07-1
  26-10-28. Check the organizer's call before relying on it.\nFormat: Full 
  papers + non-archival abstracts\nPrevious edition's page: https://2026.al
  ife.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#alife-2027\nNotes: Organizer site (2027.alife.org redirects there) c
- onfirms July 19-23 at the Dejvice Campus\, Prague\; as of 2026-10-28 no 2
- 027 call or deadlines are published and the program is in early planning.
-  The full-paper cutoff is a one-year proxy from the original 2026 March 3
- 0 deadline\, not its extension\; no late-breaking abstract proxy is copie
- d. Size is an editorial estimate.
+ dar/#alife-2027
 CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
  ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
  ional Cognition
 URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270405T115900Z
+DTEND:20270405T125900Z
+SUMMARY:IVA 2027 (est.) · Full paper submission
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
+ mated\, checked 2026-10-31. Check the organizer's call before relying on 
+ it.\nFormat: Paper-based / ACM Digital Library proceedings (2026 format)\
+ ; poster extended abstracts\nPrevious edition's page: https://web.archive
+ .org/web/20260203041035/https://iva.acm.org/2026/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#iva-2027
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270414T115900Z
+DTEND:20270414T125900Z
+SUMMARY:SIGDIAL 2027 (est.) · Mandatory title and abstract registration
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACL Anthology proceedings (long\, shor
+ t and demo papers\; ARR commitment accepted)\nPrevious edition's page: ht
+ tps://2026.sigdial.org/calls/main_conference/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#sigdial-2027
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270421T115900Z
+DTEND:20270421T125900Z
+SUMMARY:SIGDIAL 2027 (est.) · Long\, short and demo paper PDF submission
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACL Anthology proceedings (long\, shor
+ t and demo papers\; ARR commitment accepted)\nPrevious edition's page: ht
+ tps://2026.sigdial.org/calls/main_conference/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#sigdial-2027
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270501T115900Z
+DTEND:20270501T125900Z
+SUMMARY:EAAMO 2027 (est.) · Mandatory abstract registration
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
+ unced\nStatus: estimated\, checked 2026-10-31. Check the organizer's call
+  before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
+ l option) or non-archival\; WiP posters non-archival\nPrevious edition's 
+ page: https://conference2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#eaamo-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-conference@scientific-conference-calendar
@@ -422,6 +921,55 @@ URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
 LOCATION:Hanoi\, Vietnam
 END:VEVENT
 BEGIN:VEVENT
+UID:rlc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270506T115900Z
+DTEND:20270506T125900Z
+SUMMARY:RLC 2027 (est.) · Decision notification
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
+ 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
+ Status: estimated\, checked 2026-10-31. Check the organizer's call before
+  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
+  call not yet published)\nPrevious edition's page: https://rl-conference.
+ cc/2026/callforpapers.html\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#rlc-2027
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270508T115900Z
+DTEND:20270508T125900Z
+SUMMARY:EAAMO 2027 (est.) · Paper submission (archival or non-archival opt
+ ion)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
+ unced\nStatus: estimated\, checked 2026-10-31. Check the organizer's call
+  before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
+ l option) or non-archival\; WiP posters non-archival\nPrevious edition's 
+ page: https://conference2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#eaamo-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2027-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270526T115900Z
+DTEND:20270526T125900Z
+SUMMARY:SIGDIAL 2027 (est.) · Commitment of ARR-reviewed papers
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACL Anthology proceedings (long\, shor
+ t and demo papers\; ARR commitment accepted)\nPrevious edition's page: ht
+ tps://2026.sigdial.org/calls/main_conference/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#sigdial-2027
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
 UID:naacl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270601
@@ -438,6 +986,24 @@ CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/
 LOCATION:San Francisco\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270623T115959Z
+DTEND:20270623T125959Z
+SUMMARY:IVA 2027 (est.) · Poster track extended abstract (independent of t
+ he paper track)
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
+ mated\, checked 2026-10-31. Check the organizer's call before relying on 
+ it.\nFormat: Paper-based / ACM Digital Library proceedings (2026 format)\
+ ; poster extended abstracts\nPrevious edition's page: https://iva.acm.org
+ /2026/call-for-poster/\nVenue Radar: https://gon-uri.github.io/venue-rada
+ r/#iva-2027
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/call-for-poster/
 END:VEVENT
 BEGIN:VEVENT
 UID:alife-2027-conference@scientific-conference-calendar
@@ -460,6 +1026,112 @@ URL:https://alife.vscht.cz/
 LOCATION:Prague\, Czech Republic
 END:VEVENT
 BEGIN:VEVENT
+UID:rlc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270901
+SUMMARY:RLC 2027 (est.) · Conference
+DESCRIPTION:Reinforcement Learning Conference\nStatus: estimated\, checked 
+ 2026-10-31. Check the organizer's call before relying on it.\nPrevious ed
+ ition's page: https://rl-conference.cc/2026/index.html\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#rlc-2027\nNotes: The RLC 2026 site ann
+ ounces RLC 2027 at two in-person sites: Brown University\, USA (early Aug
+ ust) and Odense\, Denmark (late August\, one joint event with EWRL)\; exa
+ ct dates are TBA and authors of accepted papers choose where to present. 
+ Aug 1-31 bounds both sites\; it is not a shift of Aug 15-18\, 2026. No 20
+ 27 call is published\; abstract Mar 1 and paper Mar 5 AoE are one-year pr
+ oxies from the original 2026 call (2024: Mar 1/8\; 2025: Feb 21/28)\, wit
+ h the abstract assumed mandatory. The RLJ home page now describes quarter
+ ly volumes with rolling submissions\, so the 2027 route may change. Size 
+ is an editorial estimate.
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2026/index.html
+LOCATION:Providence\, USA (Brown University) and Odense\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270826
+SUMMARY:SIGDIAL 2027 (est.) · Conference
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nStatus: estimated\, checked 2026-10-31. Check the organizer's ca
+ ll before relying on it.\nOfficial source: https://www.sigdial.org/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#sigdial-2027\nNotes: No S
+ IGDIAL 2027 site or CFP on 2026-10-31\; 2027.sigdial.org redirects to sig
+ dial.org\, which still shows 2026. The SIGdial President's 2026Q3 ACL rep
+ ort (edited June 16\, 2026) says 2027 is planned in Japan\, tentatively A
+ ug 23-25\; those dates are used as an estimate and the city is unannounce
+ d. Deadlines are one-year proxies from 2026 (abstract Apr 13\, PDF Apr 20
+ \, ARR commitment May 25\, all AoE)\; 2025 used Apr 21\, Apr 28 and Jun 6
+  for an Aug 25-27 meeting. Size is an editorial estimate.
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://www.sigdial.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270912
+SUMMARY:IVA 2027 (est.) · Conference
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nSta
+ tus: estimated\, checked 2026-10-31. Check the organizer's call before re
+ lying on it.\nOfficial source: https://iva.acm.org/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#iva-2027\nNotes: As of 2026-10-31 iva.acm
+ .org announces IVA 2027 in Reykjavik\, Iceland\, in September 2027\, with
+  no exact dates\, edition site or call (iva.acm.org/2027/ returns 404). M
+ eeting days Sep 7-11 are a one-year proxy from IVA 2026. Deadlines are pr
+ oxies from the first-announced IVA 2026 dates (abstract Mar 28\, paper Ap
+ r 4\, later extended to Apr 3/Apr 10\; independent poster route June 22).
+  First-announced paper deadlines were Apr 4-11 in 2024-2026 and were exte
+ nded each year. Publication format follows 2026. Demo and doctoral-consor
+ tium tracks are not tracked as routes. Size is an editorial estimate.
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/
+LOCATION:Reykjavik\, Iceland
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270907T115900Z
+DTEND:20270907T125900Z
+SUMMARY:EAAMO 2027 (est.) · Work-in-progress poster (title and abstract\; 
+ non-archival)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
+ unced\nStatus: estimated\, checked 2026-10-31. Check the organizer's call
+  before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
+ l option) or non-archival\; WiP posters non-archival\nPrevious edition's 
+ page: https://conference2026.eaamo.org/call_for_posters/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#eaamo-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/call_for_posters/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271107
+SUMMARY:EAAMO 2027 (est.) · Conference
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nStatus: estimated\, checked 2026-10-31. Check the org
+ anizer's call before relying on it.\nOfficial source: https://conference.
+ eaamo.org/call_for_location/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#eaamo-2027\nNotes: As of 2026-10-31 conference.eaamo.org covers 
+ only EAAMO 2026 and runs a call for 2027 host proposals (timing last week
+  of October or first week of November)\; no 2027 host\, dates or call exi
+ st. Annual since 2021. Meeting and AoE dates are one-year same-weekday pr
+ oxies from EAAMO 2026\, using its original May 1/8 abstract/paper dates\,
+  not the one-week postponement (2025 used Apr 24/May 1). The poster proxy
+  follows 2026's Sep 7 call\; 2025's closed Jul 25. Mode assumes the virtu
+ al option of 2025-2026. Size follows 2026. Size is an editorial estimate.
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference.eaamo.org/call_for_location/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:sab-2028-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20280516T065900Z
@@ -470,11 +1142,7 @@ DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  ed\, checked 2026-10-28. Check the organizer's call before relying on it.
  \nFormat: Reviewed papers + non-archival contributions\nOfficial source: 
  https://sab-conference.org/call-for-contributions/\nVenue Radar: https://
- gon-uri.github.io/venue-radar/#sab-2028\nNotes: As of 2026-10-28 sab-conf
- erence.org still shows SAB 2026 (Berlin\, Oct 19-22) and ISAB has not ann
- ounced the next biennial edition. Meeting dates and deadlines are two-yea
- r proxies from 2026 (23:59 Pacific daylight time)\; no host location is a
- ssumed. Size is an editorial estimate.
+ gon-uri.github.io/venue-radar/#sab-2028
 CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
  gnitive Science & Computational Cognition,Control & Robotics
 URL:https://sab-conference.org/call-for-contributions/
@@ -490,11 +1158,7 @@ DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  ed\, checked 2026-10-28. Check the organizer's call before relying on it.
  \nFormat: Reviewed papers + non-archival contributions\nOfficial source: 
  https://sab-conference.org/call-for-contributions/\nVenue Radar: https://
- gon-uri.github.io/venue-radar/#sab-2028\nNotes: As of 2026-10-28 sab-conf
- erence.org still shows SAB 2026 (Berlin\, Oct 19-22) and ISAB has not ann
- ounced the next biennial edition. Meeting dates and deadlines are two-yea
- r proxies from 2026 (23:59 Pacific daylight time)\; no host location is a
- ssumed. Size is an editorial estimate.
+ gon-uri.github.io/venue-radar/#sab-2028
 CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
  gnitive Science & Computational Cognition,Control & Robotics
 URL:https://sab-conference.org/call-for-contributions/

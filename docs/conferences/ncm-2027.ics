@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NCM 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ncm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261202T075900Z
+DTEND:20261202T085900Z
+SUMMARY:NCM 2027 · Individual oral abstracts (NCM members only\; team sess
+ ion submissions close the same day)
+DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
+ t\nMeeting: 2027-04-26 to 2027-04-30\, Seville\, Spain\nStatus: confirmed
+ \, checked 2026-10-31\nFormat: Abstract-based / non-archival\nOfficial so
+ urce: https://ncm-society.org/submission/\nVenue Radar: https://gon-uri.g
+ ithub.io/venue-radar/#ncm-2027
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
+URL:https://ncm-society.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:ncm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:NCM 2027 · Team and individual oral decisions
+DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
+ t\nMeeting: 2027-04-26 to 2027-04-30\, Seville\, Spain\nStatus: confirmed
+ \, checked 2026-10-31\nCutoff time unannounced: official deadline day onl
+ y. Verify the organizer's submission portal.\nFormat: Abstract-based / no
+ n-archival\nOfficial source: https://ncm-society.org/key-dates/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ncm-2027
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
+URL:https://ncm-society.org/key-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ncm-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270223T075900Z
+DTEND:20270223T085900Z
+SUMMARY:NCM 2027 · Poster abstracts (NCM members only)
+DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
+ t\nMeeting: 2027-04-26 to 2027-04-30\, Seville\, Spain\nStatus: confirmed
+ \, checked 2026-10-31\nFormat: Abstract-based / non-archival\nOfficial so
+ urce: https://ncm-society.org/submission/\nVenue Radar: https://gon-uri.g
+ ithub.io/venue-radar/#ncm-2027
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
+URL:https://ncm-society.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:ncm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270501
+SUMMARY:NCM 2027 · Conference
+DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
+ t\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://ncm-s
+ ociety.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ncm-2027
+ \nNotes: 36th annual meeting\, April 26-30\, 2027 at the Melia Sevilla\, 
+ as the home and 2027 pages state: a cerebellar satellite and welcome rece
+ ption on Monday April 26 (also misdated April 24)\, then the annual confe
+ rence April 27-30. Calls opened October 29\, 2026 (day only)\; the portal
+  is login-gated and was not checked. Submitters must be NCM members in go
+ od standing\; one oral talk per member a year. Orals (individual or team 
+ session) close December 1 and posters February 22 at midnight PST\, read 
+ as 23:59 PST. Oral decisions January 11 per key dates\, end of January pe
+ r the submission page. Abstracts are not archival. Attendance was 291-600
+  in 2022-2026. Size is an editorial estimate.
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
+URL:https://ncm-society.org/
+LOCATION:Seville\, Spain
+END:VEVENT
+END:VCALENDAR

@@ -6,20 +6,22 @@ The current model below takes precedence over the explicitly historical audit.
 
 ## Current Eight-Family Model
 
-Reviewed: 2026-10-30, after adding ECC (control). These counts use
-explicit central series identities, not the presence of any generic method tag.
-There are 131 series, 43 leaves and 80 reviewed profiles; 51 profiles remain queued.
+Reviewed: 2026-10-31, after adding 44 owner-approved related venues (see the
+[candidate backlog](conference_candidates.md#related-venue-search-2026-10-3031)).
+These counts use explicit central series identities, not the presence of any
+generic method tag. There are 175 series, 43 leaves and 124 reviewed
+profiles; 51 profiles remain queued. No family or leaf was added or renamed.
 
 | Family | Central series | Subtopics |
 | --- | --- | --- |
-| ML & Data Science | 42 | Machine learning; deep learning; theory; probabilistic/causal ML; distributed/federated learning; evolutionary optimization; ML systems; reasoning; data mining |
-| NLP, Agents & Retrieval | 19 | NLP/LLMs; autonomous/multiagent systems; LLM agents/tool use; information retrieval/RAG; recommenders |
-| Vision & Multimedia | 16 | Vision/pattern recognition; graphics/visualization; multimedia/retrieval |
-| RL, Robotics & Control | 12 | Reinforcement learning; control/robotics; planning/search |
-| Complex Systems, Time Series & Signals | 30 | Nonlinear dynamics; complex systems/networks; graphs/graph learning; system identification; time series; signals; artificial life/adaptive systems |
-| Healthcare & Biometrics | 14 | Healthcare/clinical AI; biomedical imaging; biometrics/human sensing |
-| Neuroscience & Neurotechnology | 17 | Computational neuroscience; EEG/MEG; BCI; neuroimaging; computational cognition; neuromorphic/brain-inspired computing; systems/experimental neuroscience |
-| Responsible & Trustworthy AI | 4 | Fairness/accountability; explainability; ethics/governance; privacy; robustness/safety; human-AI interaction |
+| ML & Data Science | 52 | Machine learning; deep learning; theory; probabilistic/causal ML; distributed/federated learning; evolutionary optimization; ML systems; reasoning; data mining |
+| NLP, Agents & Retrieval | 29 | NLP/LLMs; autonomous/multiagent systems; LLM agents/tool use; information retrieval/RAG; recommenders |
+| Vision & Multimedia | 21 | Vision/pattern recognition; graphics/visualization; multimedia/retrieval |
+| RL, Robotics & Control | 19 | Reinforcement learning; control/robotics; planning/search |
+| Complex Systems, Time Series & Signals | 40 | Nonlinear dynamics; complex systems/networks; graphs/graph learning; system identification; time series; signals; artificial life/adaptive systems |
+| Healthcare & Biometrics | 19 | Healthcare/clinical AI; biomedical imaging; biometrics/human sensing |
+| Neuroscience & Neurotechnology | 27 | Computational neuroscience; EEG/MEG; BCI; neuroimaging; computational cognition; neuromorphic/brain-inspired computing; systems/experimental neuroscience |
+| Responsible & Trustworthy AI | 9 | Fairness/accountability; explainability; ethics/governance; privacy; robustness/safety; human-AI interaction |
 
 Counts overlap: a genuinely cross-field series may have one to three central
 identities. Whole-family selection uses these curated identities; individual
@@ -38,7 +40,7 @@ scope, not enormous incidental CFP inventories. Stable leaf slugs remain intact.
 The long complex-systems label is untruncated and one line, including at 320px.
 README order follows central coverage broadly, while the filter keeps the agreed
 family order. See nlp_robotics_expansion.md for the earlier 16 additions and
-dynamics_neuroscience_expansion.md for the latest 16 series, focused new leaves,
+dynamics_neuroscience_expansion.md for the 16 complex-systems/neuroscience series of 2026-10-08, focused new leaves,
 abstract-only formats, source caveats and monthly follow-up. No existing family
 or leaf name is renamed by this batch.
 

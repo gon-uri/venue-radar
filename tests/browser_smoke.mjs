@@ -87,7 +87,7 @@ try {
   await checkMobileCards(page, url, output);
   await page.locator('#filter-details > summary').click();
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
-  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 125);  // +ECC 2027 (2026-10-30)
+  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 169);  // +44 related venues (2026-10-31)
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>
     rows.every(row => ['open', 'scheduled', 'opportunity', 'estimated'].includes(stateByRow.get(row).kind))));
   const repository = 'https://github.com/gon-uri/venue-radar';
@@ -311,8 +311,8 @@ try {
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '111 confirmed editions in 89 cities');  // +ECC 2027 in Brussels
-  assert.equal(await page.locator('.city-marker').count(), 89);
+  assert.equal(await page.locator('#map-count').innerText(), '147 confirmed editions in 113 cities');  // +36 editions, +24 cities from the 2026-10-31 additions
+  assert.equal(await page.locator('.city-marker').count(), 113);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();
   const montreal = page.locator('.city-marker[title^="Montreal"]');

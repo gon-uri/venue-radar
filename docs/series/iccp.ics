@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICCP (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:iccp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270317T000000Z
+DTEND:20270317T010000Z
+SUMMARY:ICCP 2027 · Paper submission on OpenReview (TPAMI special issue or
+  ICCP proceedings track)
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-rebuttal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270512T000000Z
+DTEND:20270512T010000Z
+SUMMARY:ICCP 2027 · Optional one-page author rebuttal deadline (reviews re
+ leased May 4)
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270602T000000Z
+DTEND:20270602T010000Z
+SUMMARY:ICCP 2027 · Final notification
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270623T000000Z
+DTEND:20270623T010000Z
+SUMMARY:ICCP 2027 · Camera-ready (shepherded revision) deadline
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270805
+SUMMARY:ICCP 2027 · Conference
+DESCRIPTION:IEEE International Conference on Computational Photography\nSta
+ tus: confirmed\, checked 2026-10-31\nOfficial source: https://iccp2027.ic
+ cp-conference.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#i
+ ccp-2027\nNotes: The official 2027 site says ICCP is held in person at th
+ e University of Maryland\, College Park\, Aug 2-4\, 2027 (summer school J
+ ul 31-Aug 1). Papers are due Mar 16\, 2027 at 5:00 PM Pacific (PDT) on Op
+ enReview\, which opens Mar 1 (day only). One double-blind review with an 
+ optional rebuttal places each paper in an IEEE TPAMI special issue or the
+  ICCP proceedings\, and every accepted paper is a talk. Pages beyond 12 c
+ ost $220 each\; papers over 18 pages can go only to the proceedings. ICCP
+  2026 extended its deadline by a week. Several subpages still show 2026 c
+ ontent\, and no 2027 poster/demo call is posted. Annual since 2009. Size 
+ S: 29 paper talks in 2026. Size is an editorial estimate.
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/
+LOCATION:College Park\, Maryland\, USA
+END:VEVENT
+END:VCALENDAR

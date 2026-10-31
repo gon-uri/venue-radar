@@ -184,3 +184,80 @@ rates:
     year: 2023
     track: "Research papers"
     source_url: "https://www.sigir.org/wp-content/uploads/2023/07/p08.pdf"
+  "ACCV":
+    percent: 32.18
+    year: 2024
+    track: "Main conference (270 full papers selected from 839 submissions, per the Springer LNCS proceedings description); calculated"
+    source_url: "https://link.springer.com/book/10.1007/978-981-96-0901-7"
+  "ALT":
+    percent: 35.42
+    year: 2025
+    track: "Main papers (51 accepted of 144 submissions); calculated from the PMLR v272 preface counts"
+    source_url: "https://raw.githubusercontent.com/mlresearch/v272/main/assets/kamath25a/kamath25a.pdf"
+  "ASRU":
+    percent: 47.43
+    year: 2025
+    track: "All paper tracks combined (212 of 447 submissions: regular, special session, challenge and demo)"
+    source_url: "https://signalprocessingsociety.org/our-story/news-updates/2025/12/ieee-asru-2025-towards-new-era-speech-understanding"
+  "BIOSIG":
+    percent: 58.8
+    approximate: true
+    year: 2025
+    track: "Full scientific papers in the LNI proceedings (preface states ~58.8%; double-blind, at least five reviews per paper)"
+    source_url: "https://dl.gi.de/handle/20.500.12116/48128"
+  "CHIIR":
+    percent: 35.1
+    year: 2026
+    track: "Full and perspective papers (27 accepted of 77 submissions; chairs' rounded rate 35%)"
+    source_url: "https://sigir.org/wp-content/uploads/2026/07/p04.pdf"
+  "FORC":
+    percent: 48.89
+    year: 2026
+    track: "Archival papers across both submission cycles (22 selected of 45 submissions); calculated from the LIPIcs vol. 368 preface counts"
+    source_url: "https://drops.dagstuhl.de/storage/00lipics/lipics-vol368-forc2026/LIPIcs.FORC.2026.0/LIPIcs.FORC.2026.0.pdf"
+  "INLG":
+    percent: 39.4
+    year: 2025
+    track: "Long and short papers (50 accepted of 127 conference submissions, including 5 from ARR; demos excluded); calculated from the proceedings preface counts"
+    source_url: "https://aclanthology.org/2025.inlg-main.0.pdf"
+  "IPCAI":
+    percent: 63.04
+    year: 2022
+    track: "Regular papers (29 accepted of 46 submissions, per the IJCARS IPCAI 2022 special-issue editorial)"
+    source_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9110467/"
+  "IPMI":
+    percent: 35.66
+    year: 2025
+    track: "Full papers (51 accepted of 143 submissions; LNCS 15829-15830)"
+    source_url: "https://link.springer.com/book/10.1007/978-3-031-96628-6"
+  "IROS":
+    percent: 46.2
+    approximate: true
+    year: 2025
+    track: "Conference papers; chairs' stated rate (1,991 accepted; the same recap reports 4,381 submissions, i.e. 45.4%); 686 journal transfers excluded"
+    source_url: "https://ieeexplore.ieee.org/document/11563949"
+  "SIGDIAL":
+    percent: 45.5
+    year: 2026
+    track: "Main conference, long, short and demo papers combined (61 accepted of 134 submissions left after desk rejections and withdrawals, 5 of them ARR commitments); chairs' rate"
+    source_url: "https://aclanthology.org/2026.sigdial-1.0.pdf"
+  "UMAP":
+    percent: 29.2
+    year: 2026
+    track: "Main track long and short papers (35 full + 22 short accepted of 195 submissions, after 248 abstract registrations); calculated from organizer counts"
+    source_url: "https://www.um.org/umap2026/wp-content/uploads/2026/06/Opening-slides-UMAP-2026.pdf"
+  "WASPAA":
+    percent: 45.02
+    year: 2025
+    track: "Regular 4+1-page papers (95 accepted of 211 reviewed; 246 initial submissions); calculated from the general chairs' counts, reported as 45%"
+    source_url: "https://signalprocessingsociety.org/our-story/news-updates/2025/11/waspaa-2025-lake-tahoe-new-chapter-beloved-audio-and-acoustic-signal-processing-workshop"
+  "ECAF":
+    percent: 70.0
+    year: 2026
+    track: "Full papers (21 accepted of 30 submitted); calculated from the ECAF'26 proceedings preface; extended abstracts (48 of 54) excluded"
+    source_url: "https://proceedings.mlr.press/v350/de-bie26a.html"
+  "IFAC WC":
+    percent: 72.4
+    year: 2023
+    track: "Overall rate for papers in the official IFAC-PapersOnLine proceedings (official final report; 73% for regular and survey papers, 78% open invited tracks, 85% invited sessions; discussion papers are preprints only)"
+    source_url: "https://www.ifac2023.org/archives/001/202404/IFAC2023_FinalReport.pdf"

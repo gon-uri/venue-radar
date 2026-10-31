@@ -7901,3 +7901,3306 @@
   last_checked: "2026-10-29"
   confidence: "confirmed"
   notes: "ICML's official workshop page and the SD4H site confirm Sat Jul 11, 2026 in Hall D2, COEX, Seoul (ICML lists 8:00-17:00 KST); accepted papers had to be presented in person and the workshop is non-archival (no proceedings). The site's Prior Years menu links TS4H's NeurIPS 2025, ICLR 2024 and NeurIPS 2022 pages and organizers overlap, but no formal rename is stated; it is tracked under the TS4H key by owner decision. 4-page papers were due May 2 AoE after an extension (OpenReview's venue page and submission invitation instead record May 1 12:00 UTC); camera-ready was Jun 26 AoE. As of 2026-10-29 no later SD4H or TS4H edition is announced."
+# Owner-approved related-venue additions, reviewed 2026-10-31 (44 series; see
+# project_docs/conference_candidates.md).
+- id: accv-2026
+  series: ACCV
+  year: 2026
+  title: Asian Conference on Computer Vision
+  short_title: ACCV 2026
+  website: https://accv2026.org/
+  cfp_url: https://accv2026.org/submissions/
+  source_urls:
+  - https://accv2026.org/
+  - https://accv2026.org/submissions/
+  - https://accv2026.org/submissions/author-guidelines/
+  - https://accv2026.org/submissions/call-for-workshops/
+  - https://accv2026.org/call-for-tutorials/
+  - https://accv2026.org/submissions/call-for-demos/
+  - https://accv2026.org/venue/
+  - https://accv2026.org/presentation-guidelines/
+  - https://accv2026.org/accepted-papers/
+  - https://openreview.net/group?id=afcv.org/ACCV/2026/Conference
+  location: Osaka, Japan
+  mode: in-person
+  conference_start: '2026-12-14'
+  conference_end: '2026-12-18'
+  timezone: Asia/Tokyo
+  topics:
+  - Computer Vision & Pattern Recognition
+  - Deep Representation Learning
+  - Machine Learning
+  size: L
+  submission_type: Paper-based / Springer LNCS proceedings
+  deadlines:
+  - type: workshop_proposal
+    label: Workshop and tutorial proposal deadline
+    datetime: '2026-06-28T23:59:00+00:00'
+    cutoff_note: The dates and tutorial pages give 23:59 GMT; the workshop-proposal call says 23:59 AoE. The earlier
+      GMT cutoff is stored.
+    source_url: https://accv2026.org/submissions/call-for-workshops/
+  - type: abstract
+    label: Mandatory OpenReview paper registration (title, abstract, authors)
+    datetime: '2026-07-03T23:59:00+00:00'
+    gate_for: full_paper
+    source_url: https://accv2026.org/submissions/author-guidelines/
+  - type: full_paper
+    label: Main-conference paper submission deadline
+    datetime: '2026-07-05T23:59:00+00:00'
+    source_url: https://accv2026.org/submissions/
+  - type: supplementary
+    label: Supplementary material deadline
+    datetime: '2026-07-08T23:59:00+00:00'
+    source_url: https://accv2026.org/submissions/author-guidelines/
+  - type: demo_application
+    label: Demo abstract submission via application form (live demos; previously published work allowed)
+    datetime: '2026-08-06T23:59:00+00:00'
+    source_url: https://accv2026.org/submissions/call-for-demos/
+  - type: notification
+    label: Paper decision notification
+    datetime: '2026-09-20T23:59:00+00:00'
+    time_precision: date
+    source_url: https://accv2026.org/submissions/author-guidelines/
+  - type: camera_ready
+    label: Camera-ready deadline
+    datetime: '2026-10-04T23:59:00+00:00'
+    source_url: https://accv2026.org/submissions/author-guidelines/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official site of the 18th ACCV, sponsored by the Asian Federation of Computer Vision, confirms Grand Cube
+    Osaka, Dec 14-18 (workshops/tutorials Dec 14-15, main conference Dec 16-18), with in-person presentation required.
+    Deadlines are 23:59 GMT, matching the OpenReview venue configuration; the July 3 registration was mandatory,
+    so every main-paper route is closed. The demo form is schedule-only because demos may show published work. Co-located
+    workshops run their own calls, which are not tracked. Papers are 14-page LNCS, double-blind; award papers are
+    invited to an IJCV special issue. L reflects 378 accepted papers. Size is an editorial estimate.
+- id: accv-2028
+  series: ACCV
+  year: 2028
+  title: Asian Conference on Computer Vision
+  short_title: ACCV 2028
+  website: https://accv2026.org/
+  cfp_url: https://accv2026.org/submissions/
+  source_urls:
+  - https://accv2026.org/
+  - https://accv2026.org/submissions/author-guidelines/
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-12-14'
+  conference_end: '2028-12-18'
+  topics:
+  - Computer Vision & Pattern Recognition
+  - Deep Representation Learning
+  - Machine Learning
+  size: L
+  submission_type: Paper-based / Springer LNCS proceedings
+  deadlines:
+  - type: abstract
+    label: Mandatory paper registration (title, abstract, authors)
+    datetime: '2028-07-03T23:59:00+00:00'
+    gate_for: full_paper
+    confidence: estimated
+    source_url: https://accv2026.org/submissions/author-guidelines/
+  - type: full_paper
+    label: Main-conference paper submission deadline
+    datetime: '2028-07-05T23:59:00+00:00'
+    confidence: estimated
+    source_url: https://accv2026.org/submissions/author-guidelines/
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: As of 2026-10-31 no ACCV 2028 host, dates or call is published; the ACCV 2026 site names no successor,
+    OpenReview has no 2028 venue and afcv.org is a parked lander. The 2026 site calls ACCV biennial. Meeting dates
+    (Dec 14-18, workshops first) and the mandatory registration (July 3) and paper (July 5) 23:59 GMT cutoffs are
+    two-year calendar-date proxies from ACCV 2026; the website and CFP links belong to the 2026 edition. No timezone
+    is set because the host is unknown. The estimated meeting stays off the map. Size is an editorial estimate.
+- id: alt-2027
+  series: ALT
+  year: 2027
+  title: International Conference on Algorithmic Learning Theory
+  short_title: ALT 2027
+  website: https://algorithmiclearningtheory.org/alt2027/
+  cfp_url: https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+  source_urls:
+  - https://algorithmiclearningtheory.org/alt2027/
+  - https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+  - https://algorithmiclearningtheory.org/alt2027/submission-instructions/
+  - https://algorithmiclearningtheory.org/alt2027/venue-information/
+  - https://algorithmiclearningtheory.org/
+  - https://proceedings.mlr.press/v313/
+  - https://proceedings.mlr.press/v272/
+  location: Leiden, Netherlands
+  mode: in-person
+  conference_start: '2027-03-09'
+  conference_end: '2027-03-12'
+  timezone: Europe/Amsterdam
+  topics:
+  - Learning Theory & Statistical Foundations
+  - Machine Learning
+  size: M
+  submission_type: Paper-based / PMLR proceedings (optional one-page extended abstract instead)
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline (OpenReview)
+    datetime: '2026-10-12T23:59:00-12:00'
+    source_url: https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+  - type: author_feedback
+    label: Author feedback (rebuttal) window closes; opens November 30
+    datetime: '2026-12-06T23:59:00-12:00'
+    time_precision: date
+    source_url: https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+  - type: notification
+    label: Author notification
+    datetime: '2027-01-05T23:59:00-12:00'
+    time_precision: date
+    source_url: https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official ALT 2027 pages confirm the 38th ALT on March 9-12, 2027 at Scheltema Leiden, in person with no
+    remote talks (an author must present). Papers were due October 12, 2026, 11:59 p.m. AoE on OpenReview; no other
+    fresh-submission route is listed, so the edition is closed. Accepted papers appear in PMLR, or authors may opt
+    for a one-page extended abstract pointing to an archival full version. Feedback and notification days have no
+    stated hour. Size basis is 69 papers in PMLR v313 (ALT 2026) and 51 of 144 accepted at ALT 2025. Size is an
+    editorial estimate.
+- id: alt-2028
+  series: ALT
+  year: 2028
+  title: International Conference on Algorithmic Learning Theory
+  short_title: ALT 2028
+  website: https://algorithmiclearningtheory.org/
+  cfp_url: https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+  source_urls:
+  - https://algorithmiclearningtheory.org/
+  - https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+  - https://algorithmiclearningtheory.org/alt2026/call-for-papers/
+  - https://algorithmiclearningtheory.org/alt2025/call-for-papers/
+  - https://algorithmiclearningtheory.org/alt2024/call-for-papers/
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-03-09'
+  conference_end: '2028-03-12'
+  topics:
+  - Learning Theory & Statistical Foundations
+  - Machine Learning
+  size: M
+  submission_type: Paper-based / PMLR proceedings (optional one-page extended abstract instead)
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-10-12T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: As of 2026-10-31 the AALT site lists only ALT 2027 (its /alt2028/ page returns 404); no 2028 host, dates
+    or call is published. AALT runs ALT as its annual conference, held every year through 2027. Meeting dates (March
+    9-12) and the October 12 AoE paper deadline are one-year proxies from ALT 2027; ALT 2024-2026 met in late February
+    with deadlines from September 26 to October 2, so expect drift. Format and PMLR publication follow the 2027
+    call. Size is an editorial estimate.
+- id: amia-2026
+  series: AMIA
+  year: 2026
+  title: American Medical Informatics Association Annual Symposium
+  short_title: AMIA 2026
+  website: https://amia.org/education-events/amia-2026-annual-symposium
+  cfp_url: https://amia.org/education-events/amia-2026-annual-symposium/call-participation
+  source_urls:
+  - https://web.archive.org/web/20261001143649/https://amia.org/education-events/amia-2026-annual-symposium
+  - https://web.archive.org/web/20260506064340/https://amia.org/education-events/amia-2026-annual-symposium/venue
+  - https://web.archive.org/web/20260506064156/https://amia.org/education-events/amia-2026-annual-symposium/call-participation
+  - https://web.archive.org/web/20260708112717/https://amia.org/education-events/annual-symposium
+  - https://web.archive.org/web/20260307122538/https://amia.secure-platform.com/symposium
+  - https://amia.secure-platform.com/symposium
+  - https://pmc.ncbi.nlm.nih.gov/journals/362/
+  location: Dallas, Texas, USA
+  mode: in-person
+  conference_start: '2026-11-07'
+  conference_end: '2026-11-11'
+  timezone: America/Chicago
+  topics:
+  - Healthcare & Clinical AI
+  - Data Mining & Data Science
+  - Human-AI Interaction & Deployment
+  size: XL
+  submission_type: Paper-based / proceedings archived in PubMed Central; podium abstracts and posters not MEDLINE-indexed
+  deadlines:
+  - type: full_paper
+    label: Papers and student papers (5-10 pages, proceedings archived in PMC)
+    datetime: '2026-03-10T23:59:00-04:00'
+    source_url: https://web.archive.org/web/20260307122538/https://amia.secure-platform.com/symposium
+  - type: abstract
+    label: Podium abstracts (2 pages, not MEDLINE-indexed)
+    datetime: '2026-03-10T23:59:00-04:00'
+    source_url: https://web.archive.org/web/20260307122538/https://amia.secure-platform.com/symposium
+  - type: poster
+    label: Posters (1 page, not MEDLINE-indexed)
+    datetime: '2026-03-10T23:59:00-04:00'
+    source_url: https://web.archive.org/web/20260307122538/https://amia.secure-platform.com/symposium
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: amia.org blocks automated access, so its pages were read via Internet Archive captures (May-Oct 2026).
+    They confirm Nov 7-11, 2026 at the Hilton Anatole, Dallas. The single submission portal gave one deadline for
+    all nine types, Tuesday March 10, 2026 at 11:59 p.m. EDT (captures Jan 20-Mar 7, 2026), and now says closed.
+    No capture from Mar 10 to Apr 16 shows whether it was extended (2025 moved from Mar 19 to Mar 25). Papers appear
+    in the proceedings archived in PMC; podium abstracts and posters are not MEDLINE-indexed. Panels, debates, demos,
+    tutorials and workshops are not tracked as routes. AMIA cites 2,300+ attendees for Dallas. Size is an editorial
+    estimate.
+- id: amia-2027
+  series: AMIA
+  year: 2027
+  title: American Medical Informatics Association Annual Symposium
+  short_title: AMIA 2027
+  website: https://amia.org/education-events/annual-symposium
+  cfp_url: https://amia.secure-platform.com/symposium
+  source_urls:
+  - https://web.archive.org/web/20260708112717/https://amia.org/education-events/annual-symposium
+  - https://web.archive.org/web/20260307122538/https://amia.secure-platform.com/symposium
+  - https://web.archive.org/web/20250322205613/https://amia.secure-platform.com/symposium
+  - https://amia.secure-platform.com/symposium
+  - https://pmc.ncbi.nlm.nih.gov/journals/362/
+  location: San Diego, California, USA
+  mode: in-person
+  conference_start: '2027-11-06'
+  conference_end: '2027-11-10'
+  timezone: America/Los_Angeles
+  topics:
+  - Healthcare & Clinical AI
+  - Data Mining & Data Science
+  - Human-AI Interaction & Deployment
+  size: XL
+  submission_type: Paper-based / proceedings archived in PubMed Central; podium abstracts and posters not MEDLINE-indexed
+  deadlines:
+  - type: full_paper
+    label: Papers and student papers (5-10 pages, proceedings archived in PMC)
+    datetime: '2027-03-10T23:59:00-05:00'
+    confidence: estimated
+    source_url: https://web.archive.org/web/20260307122538/https://amia.secure-platform.com/symposium
+  - type: abstract
+    label: Podium abstracts (2 pages, not MEDLINE-indexed)
+    datetime: '2027-03-10T23:59:00-05:00'
+    confidence: estimated
+    source_url: https://web.archive.org/web/20260307122538/https://amia.secure-platform.com/symposium
+  - type: poster
+    label: Posters (1 page, not MEDLINE-indexed)
+    datetime: '2027-03-10T23:59:00-05:00'
+    confidence: estimated
+    source_url: https://web.archive.org/web/20260307122538/https://amia.secure-platform.com/symposium
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: AMIA's Annual Symposium page (Internet Archive capture of 2026-07-08; amia.org blocks automated access)
+    lists future sites, including Nov 6-10, 2027 in San Diego. No 2027 call was published by 2026-10-31; the live
+    portal still shows the closed 2026 call. The March 10, 2027 deadline for papers, podium abstracts and posters
+    is a one-year proxy from AMIA 2026 (one deadline, Mar 10, 2026, 11:59 p.m. Eastern; 2025 was Mar 19, extended
+    to Mar 25), kept at 11:59 p.m. Eastern (EST on that date). Both earlier portals were open by mid-January. Papers
+    appear in the PMC-archived proceedings; podium abstracts and posters are not MEDLINE-indexed. Size is an editorial
+    estimate.
+- id: asru-2025
+  series: ASRU
+  year: 2025
+  title: IEEE Automatic Speech Recognition and Understanding Workshop
+  short_title: ASRU 2025
+  website: https://2025.ieeeasru.org/
+  cfp_url: https://2025.ieeeasru.org/calls/call-for-papers/
+  source_urls:
+  - https://2025.ieeeasru.org/
+  - https://2025.ieeeasru.org/calls/call-for-papers/
+  - https://2025.ieeeasru.org/authors/important-dates/
+  - https://2025.ieeeasru.org/authors/author-instructions/
+  - https://2025.ieeeasru.org/calls/call-for-demos/
+  - https://2025.ieeeasru.org/authors/author-instructions-for-demo-and-challenge-papers/
+  - https://signalprocessingsociety.org/our-story/news-updates/2025/12/ieee-asru-2025-towards-new-era-speech-understanding
+  - https://signalprocessingsociety.org/events/conferences
+  - https://2027.ieeeasli.org/call-for-papers/
+  location: Honolulu, Hawaii, USA
+  mode: in-person
+  conference_start: '2025-12-06'
+  conference_end: '2025-12-10'
+  timezone: Pacific/Honolulu
+  topics:
+  - Signal Processing
+  - Natural Language Processing & LLMs
+  - Machine Learning
+  - Deep Representation Learning
+  size: M
+  submission_type: Paper-based / IEEE Xplore proceedings
+  deadlines:
+  - type: full_paper
+    label: Regular and special-session paper submission deadline
+    datetime: '2025-05-28T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2025.ieeeasru.org/authors/important-dates/
+  - type: paper_update
+    label: Revision deadline for already submitted regular and special-session papers
+    datetime: '2025-06-04T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2025.ieeeasru.org/authors/important-dates/
+  - type: short_paper
+    label: Demo, system, data and challenge paper submission deadline (3 + 1 pages, single-blind)
+    datetime: '2025-06-25T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2025.ieeeasru.org/calls/call-for-demos/
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2025-08-06T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2025.ieeeasru.org/authors/important-dates/
+  - type: camera_ready
+    label: Camera-ready paper deadline
+    datetime: '2025-08-20T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2025.ieeeasru.org/authors/important-dates/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official site gives Honolulu (Hyatt Regency Waikiki), Dec 6-10, 2025; biennial flagship IEEE SPS SLTC workshop,
+    all papers as posters. Regular and special-session papers (6 + 2 pages, double-blind) were due May 28, with
+    a June 4 revision for submitted papers; demo/system/data and challenge papers (3 + 1 pages) were due June 25.
+    Both tracks are in IEEE Xplore. No cutoff hour was published; AoE is provisional. Stale author-instruction pages
+    list an Aug 13 camera-ready; the dates page and home page say Aug 20. SPS reports 447 submissions, 212 accepted
+    and 385 registrants. From 2027 IEEE ASLI builds on ASRU and SLT, so no ASRU 2027 is projected. Size is an editorial
+    estimate.
+- id: biosig-2026
+  series: BIOSIG
+  year: 2026
+  title: International Conference of the Biometrics Special Interest Group
+  short_title: BIOSIG 2026
+  website: https://biosig.de/
+  cfp_url: https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
+  source_urls:
+  - https://biosig.de/
+  - https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
+  - https://biosig.de/paper-submission
+  - https://biosig.de/program
+  - https://biosig.de/organisation
+  - https://fg-biosig.gi.de/veranstaltung/biosig-2026
+  - https://eveeno.com/biosig2026
+  location: Darmstadt, Germany
+  mode: in-person
+  conference_start: '2026-11-25'
+  conference_end: '2026-11-26'
+  timezone: Europe/Berlin
+  topics:
+  - Biometrics & Human Sensing
+  - Computer Vision & Pattern Recognition
+  - Robustness & Safety
+  - Privacy-preserving ML
+  size: S
+  submission_type: Paper-based / GI LNI proceedings, submitted to IEEE Xplore
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline (extended from July 30)
+    datetime: '2026-08-16T23:59:00-12:00'
+    time_precision: date
+    source_url: https://biosig.de/
+  - type: notification
+    label: Notification of authors
+    datetime: '2026-09-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://biosig.de/
+  - type: camera_ready
+    label: Final papers (ready for press); one full author registration required
+    datetime: '2026-10-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://biosig.de/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: '25th annual edition, run by the GI BIOSIG group with CAST, BSI, EAB and Fraunhofer IGD; IEEE technical
+    co-sponsor. biosig.de and the GI event page give Nov 25-26, 2026 at Fraunhofer IGD, after a Nov 24 forum. The
+    CfP PDF said July 30; the site''s updated deadline is Aug 16, with no hour, so AoE end-of-day is provisional.
+    Double-blind CMT papers: 8 pages plus 2 of references (LNI format), oral or poster. LNI proceedings; papers
+    go to IEEE Xplore (approval pending in the CfP). No online ticket is offered. Size S: 28 papers in the 2026
+    programme; 87 attendees in 2023. Size is an editorial estimate.'
+- id: biosig-2027
+  series: BIOSIG
+  year: 2027
+  title: International Conference of the Biometrics Special Interest Group
+  short_title: BIOSIG 2027
+  website: https://biosig.de/
+  cfp_url: https://biosig.de/call-for-paper
+  source_urls:
+  - https://biosig.de/
+  - https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
+  - https://fg-biosig.gi.de/aktivitaeten/veranstaltungen/archiv
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-11-24'
+  conference_end: '2027-11-25'
+  topics:
+  - Biometrics & Human Sensing
+  - Computer Vision & Pattern Recognition
+  - Robustness & Safety
+  - Privacy-preserving ML
+  size: S
+  submission_type: Paper-based / GI LNI proceedings, submitted to IEEE Xplore (2026 format)
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-07-29T23:59:00-12:00'
+    time_precision: date
+    source_url: https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: 'Not announced on biosig.de or the GI BIOSIG pages as of 2026-10-31. BIOSIG is annual (CfP: ''its annual
+    conference''; the GI archive lists an edition every year since 2013). Meeting dates (Wed-Thu) and the paper
+    deadline are one-year same-weekday proxies from BIOSIG 2026, using its original July 30 deadline rather than
+    the Aug 16 extension. Editions 2018-2025 met in mid or late September, so 2027 timing may move earlier. Recent
+    in-person editions met in Darmstadt (2020 was virtual), but no 2027 host is published. Size S follows the 2026
+    programme. Size is an editorial estimate.'
+- id: chiir-2027
+  series: CHIIR
+  year: 2027
+  title: ACM SIGIR Conference on Human Information Interaction and Retrieval
+  short_title: CHIIR 2027
+  website: https://chiir2027.github.io/
+  cfp_url: https://chiir2027.github.io/papers.html
+  source_urls:
+  - https://chiir2027.github.io/
+  - https://chiir2027.github.io/papers.html
+  - https://chiir2027.github.io/full-papers.html
+  - https://chiir2027.github.io/short-papers.html
+  - https://chiir2027.github.io/resource-papers.html
+  - https://chiir2027.github.io/demo-and-design-papers.html
+  - https://chiir2027.github.io/industry-papers.html
+  - https://chiir2027.github.io/workshops.html
+  - https://chiir2027.github.io/tutorials.html
+  - https://chiir2027.github.io/doctoral-consortium-papers.html
+  - https://chiir2027.github.io/registration.html
+  - https://sigir.org/wp-content/uploads/2026/07/p04.pdf
+  location: Berlin, Germany
+  mode: in-person
+  conference_start: '2027-03-07'
+  conference_end: '2027-03-11'
+  timezone: Europe/Berlin
+  topics:
+  - Information Retrieval & Search
+  - Human-AI Interaction & Deployment
+  size: S
+  submission_type: Paper-based / ACM open-access proceedings (ACM Digital Library)
+  deadlines:
+  - type: abstract
+    label: Full and perspective paper abstract (mandatory, max. 250 words)
+    datetime: '2026-10-08T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/full-papers.html
+    gate_for: full_paper
+  - type: full_paper
+    label: Full and perspective paper submission (up to 10 pages)
+    datetime: '2026-10-15T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/full-papers.html
+  - type: workshop_proposal
+    label: Tutorial and workshop proposals
+    datetime: '2026-10-22T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/workshops.html
+  - type: short_paper
+    label: Short paper submission (up to 4 pages; presented as posters)
+    datetime: '2026-10-29T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/short-papers.html
+  - type: resource_paper
+    label: Resource paper submission (datasets or software; up to 4 pages)
+    datetime: '2026-10-29T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/resource-papers.html
+  - type: doctoral_consortium
+    label: Doctoral consortium paper (single-authored, PhD students only)
+    datetime: '2026-12-01T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/doctoral-consortium-papers.html
+    cutoff_note: The DC call and Call for Contributions give December 1, 2026; the homepage lists December 6. The
+      earliest stated date is stored.
+  - type: notification
+    label: Acceptance notification
+    datetime: '2026-12-15T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/papers.html
+    time_precision: date
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official CHIIR 2027 pages, checked 2026-10-31, confirm an in-person meeting at Humboldt-Universität zu
+    Berlin, Mar 7-11, 2027 (doctoral consortium Mar 7; tutorials and workshops Mar 11); deadlines are 23:59 AoE.
+    The abstract gates full and perspective papers. Short, resource, demo/design and industry papers (4 pages, all
+    in the proceedings) closed Oct 29 with no extension shown; the demo/design and industry tracks are not stored
+    as events. The doctoral consortium takes single-authored PhD student papers. ACM open-access proceedings (APCs
+    outside ACM Open). Size S reflects 116 registered participants and 63 accepted papers at CHIIR 2026 (SIGIR Forum
+    report). Size is an editorial estimate.
+- id: chiir-2028
+  series: CHIIR
+  year: 2028
+  title: ACM SIGIR Conference on Human Information Interaction and Retrieval
+  short_title: CHIIR 2028
+  website: https://www.chiir.org/
+  cfp_url: https://chiir2027.github.io/papers.html
+  source_urls:
+  - https://sigir.org/wp-content/uploads/2026/07/p04.pdf
+  - https://www.chiir.org/
+  - https://chiir2027.github.io/papers.html
+  - https://chiir2026.github.io/
+  location: Helsinki, Finland
+  mode: in-person
+  conference_start: '2028-03-07'
+  conference_end: '2028-03-11'
+  timezone: Europe/Helsinki
+  topics:
+  - Information Retrieval & Search
+  - Human-AI Interaction & Deployment
+  size: S
+  submission_type: Paper-based / ACM open-access proceedings (ACM Digital Library)
+  deadlines:
+  - type: abstract
+    label: Full and perspective paper abstract (mandatory)
+    datetime: '2027-10-08T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/full-papers.html
+    gate_for: full_paper
+    confidence: estimated
+  - type: full_paper
+    label: Full and perspective paper submission
+    datetime: '2027-10-15T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/full-papers.html
+    confidence: estimated
+  - type: short_paper
+    label: Short paper submission
+    datetime: '2027-10-29T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/short-papers.html
+    confidence: estimated
+  - type: resource_paper
+    label: Resource paper submission
+    datetime: '2027-10-29T23:59:00-12:00'
+    source_url: https://chiir2027.github.io/resource-papers.html
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: The CHIIR 2026 general chairs' SIGIR Forum report (June 2026) names Helsinki as the CHIIR 2028 host; as
+    of 2026-10-31 no 2028 website, dates or call exist (chiir2028.github.io returns 404). chiir.org says CHIIR is
+    annual in March. Meeting dates are a one-year proxy from CHIIR 2027 (Mar 7-11); CHIIR 2026 ran Mar 22-26. Deadlines
+    repeat the same 23:59 AoE days used by the 2026 and 2027 calls (abstract Oct 8, paper Oct 15, short and resource
+    papers Oct 29). Call links refer to CHIIR 2027. Size is an editorial estimate.
+- id: clear-2027
+  series: CLeaR
+  year: 2027
+  title: Conference on Causal Learning and Reasoning
+  short_title: CLeaR 2027
+  website: https://www.cclear.cc/2027
+  cfp_url: https://www.cclear.cc/2027/CallforPapers
+  source_urls:
+  - https://www.cclear.cc/2027
+  - https://www.cclear.cc/2027/CallforPapers
+  - https://www.cclear.cc/2027/ImportantDates
+  - https://www.cclear.cc/2027/CallforDatasets
+  - https://openreview.net/group?id=cclear.cc/CLeaR/2027/Conference
+  - https://proceedings.mlr.press/v323/
+  - https://proceedings.mlr.press/v275/
+  location: Paris, France
+  mode: in-person
+  conference_start: '2027-05-03'
+  conference_end: '2027-05-05'
+  timezone: Europe/Paris
+  topics:
+  - Probabilistic, Causal & Uncertainty ML
+  - Machine Learning
+  - Learning Theory & Statistical Foundations
+  size: M
+  submission_type: Paper-based / PMLR proceedings (optional 1-page extended-abstract opt-out)
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline (proceedings track, OpenReview)
+    datetime: '2026-11-16T23:59:00-12:00'
+    open_observed_on: '2026-10-31'
+    source_url: https://www.cclear.cc/2027/CallforPapers
+  - type: notification
+    label: Final decisions
+    datetime: '2027-02-22T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.cclear.cc/2027/ImportantDates
+  - type: camera_ready
+    label: Camera-ready deadline
+    datetime: '2027-04-05T23:59:00-12:00'
+    source_url: https://www.cclear.cc/2027/ImportantDates
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 6th CLeaR (annual since 2022). Official pages give May 3-5, 2027 at Sorbonne University's International
+    Conference Center, Paris, planned in person with hybrid elements for online presentations; the OpenReview venue
+    agrees. Papers (12 PMLR pages plus appendices, double-blind) are due Nov 16, 2026, 11:59pm AoE; accepted papers
+    appear in PMLR unless authors opt for a 1-page extended abstract. On 2026-10-31 the OpenReview API showed the
+    public Submission invitation active (opened Oct 5, due Nov 17 11:59 UTC). The 2027 non-archival causal-dataset
+    call is not in the site menu and lists no dates. Size M reflects 53 PMLR papers in 2026 and 58 in 2025. Size
+    is an editorial estimate.
+- id: cns-cogneuro-2027
+  series: CNS CogNeuro
+  year: 2027
+  title: Cognitive Neuroscience Society Annual Meeting
+  short_title: CNS CogNeuro 2027
+  website: https://www.cogneurosociety.org/annual-meeting/
+  cfp_url: https://www.cogneurosociety.org/submit-a-poster/
+  source_urls:
+  - https://www.cogneurosociety.org/annual-meeting/
+  - https://www.cogneurosociety.org/dates-and-deadlines/
+  - https://www.cogneurosociety.org/submit-a-poster/
+  - https://www.cogneurosociety.org/submit-a-symposium/
+  - https://www.cogneurosociety.org/meeting-information/
+  - https://www.cogneurosociety.org/exhibit/
+  - https://www.cogneurosociety.org/previous-meetings/
+  location: Boston, Massachusetts, USA
+  mode: in-person
+  conference_start: '2027-03-20'
+  conference_end: '2027-03-23'
+  timezone: America/New_York
+  topics:
+  - Cognitive Science & Computational Cognition
+  - Neuroimaging & Brain Mapping
+  - EEG/MEG & Neural Signals
+  size: L
+  submission_type: Abstract-based / members-only poster abstracts in online meeting proceedings; no full papers
+  deadlines:
+  - type: symposium_proposal
+    label: Symposium proposal deadline (CNS-member organiser, four confirmed speakers)
+    datetime: '2026-09-22T23:59:00-12:00'
+    source_url: https://www.cogneurosociety.org/submit-a-symposium/
+  - type: abstract
+    label: Poster abstract submission, incl. Sketchpad Series (current CNS members only)
+    datetime: '2026-11-03T23:59:00-12:00'
+    source_url: https://www.cogneurosociety.org/submit-a-poster/
+  - type: notification
+    label: Poster acceptance notifications emailed
+    datetime: '2026-12-04T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.cogneurosociety.org/dates-and-deadlines/
+  - type: late_abstract
+    label: Late-breaking poster abstract submission (current CNS members only)
+    datetime: '2027-01-19T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.cogneurosociety.org/dates-and-deadlines/
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: '34th annual meeting of the Cognitive Neuroscience Society (not the OCNS CNS* meeting), in person at the
+    Boston Marriott Copley Place. Only current CNS members may submit: one first-authored 250-word poster abstract
+    ($75; Sketchpad Series for work in progress). The Nov 3 cutoff is midnight AoE and will not be extended; submissions
+    opened Sep 1 (day only). The dates page, marked tentative, lists late-breaking posters Dec 8, 2026 to Jan 19,
+    2027 with no hour. Abstracts except Sketchpad are published by default in online CNS proceedings; Crossref lists
+    2026 items with DOIs in JoCN Forum. Size L: over 1,500 participants expected (exhibit page). Size is an editorial
+    estimate.'
+- id: copa-2027
+  series: COPA
+  year: 2027
+  title: Symposium on Conformal and Probabilistic Prediction with Applications
+  short_title: COPA 2027
+  website: https://copa-conference.com/
+  cfp_url: https://copa-conference.com/#nav-cfp
+  source_urls:
+  - https://copa-conference.com/
+  - https://copa-conference.com/copa2026/
+  - https://proceedings.mlr.press/v329/
+  location: Genoa, Italy
+  mode: in-person
+  conference_start: '2027-09-14'
+  conference_end: '2027-09-16'
+  timezone: Europe/Rome
+  topics:
+  - Probabilistic, Causal & Uncertainty ML
+  - Learning Theory & Statistical Foundations
+  - Machine Learning
+  size: S
+  submission_type: Paper-based / PMLR proceedings (full papers and 2-page poster abstracts)
+  deadlines:
+  - type: full_paper
+    label: Full paper submission (up to 20 pages, JMLR style)
+    datetime: '2027-05-01T23:59:00-12:00'
+    time_precision: date
+    source_url: https://copa-conference.com/
+  - type: notification
+    label: Author notification
+    datetime: '2027-06-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://copa-conference.com/
+  - type: poster
+    label: Poster submission (2-page extended abstract, published in PMLR)
+    datetime: '2027-07-01T23:59:00-12:00'
+    time_precision: date
+    source_url: https://copa-conference.com/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: The official COPA 2027 page confirms the 16th symposium at the University of Genoa, September 14-16, 2027,
+    with full papers due May 1, 2-page poster abstracts due July 1 and author notification June 15. No hour or zone
+    is stated, so cutoffs use provisional end-of-day AoE. COPA 2026 extended papers from May 1 to May 20 AoE and
+    posters from July 1 to August 1, so check for extensions. Accepted papers and poster abstracts appear in PMLR.
+    The CMT COPA2027 site requires login, so opening is unverified. Annual since 2012. Size S reflects 47 full papers
+    and 19 extended abstracts in PMLR vol. 329 (2026); attendance is not published. Size is an editorial estimate.
+- id: enoc-2027
+  series: ENOC
+  year: 2027
+  title: European Nonlinear Dynamics Conference
+  short_title: ENOC 2027
+  website: https://enoc2027.com/
+  cfp_url: https://enoc2027.com/author/submission-guidance
+  source_urls:
+  - https://enoc2027.com/
+  - https://enoc2027.com/author/submission-guidance
+  - https://enoc2027.com/onewebmedia/ENOC2027_two_page_Word_template.docx
+  - https://enoc2027.com/Programme/mini-symposia
+  - https://euromech.org/conferences/all-events/enoc12/
+  - https://enoc24.dryfta.com/74-about/75-keydates
+  - https://d1j0dbg7fhovrj.cloudfront.net/assets/enoc24/eventdocs/1721225853ENOC24Conferencebooklet.pdf
+  - https://enoc2020.sciencesconf.org/
+  location: Aberdeen, United Kingdom
+  mode: in-person
+  conference_start: '2027-07-19'
+  conference_end: '2027-07-23'
+  timezone: Europe/London
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - System Identification & Data-driven Dynamics
+  - Control & Robotics
+  size: M
+  submission_type: Abstract-based / 2-page extended abstracts in a digital book of abstracts; no full-paper submission
+  deadlines:
+  - type: abstract
+    label: Two-page extended abstract submission deadline
+    datetime: '2027-01-15T23:59:00-12:00'
+    source_url: https://enoc2027.com/author/submission-guidance
+    confidence: estimated
+    time_precision: date
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 12th ENOC (EUROMECH ENOCC series, triennial per ENOC 2024), July 19-23, 2027, P&J Live, Aberdeen, per enoc2027.com
+    and EUROMECH. Only 2-page extended abstracts in 21 mini-symposia; no full papers; at most two presentations
+    per author. The official templates say accepted abstracts appear in a digital book of abstracts. The site gives
+    only "January 2027"; Jan 15 is a proxy from ENOC 2024's original Jan 15 deadline (extended to Feb 12) and ENOC
+    2022's Jan 15 extended deadline. No hour is published. Submission opened July 2026 per key dates (templates
+    say June); the portal shows only a sign-in page. Size basis - ENOC 2024 had over 350 talks. Size is an editorial
+    estimate.
+- id: eswc-2027
+  series: ESWC
+  year: 2027
+  title: European Semantic Web Conference
+  short_title: ESWC 2027
+  website: https://2027.eswc-conferences.org/
+  cfp_url: https://2027.eswc-conferences.org/calls/contributions-eswc/
+  source_urls:
+  - https://2027.eswc-conferences.org/
+  - https://2027.eswc-conferences.org/important-dates/
+  - https://2027.eswc-conferences.org/calls/contributions-eswc/
+  - https://2027.eswc-conferences.org/calls/papers-research-track/
+  - https://2027.eswc-conferences.org/calls/papers-resource-track/
+  - https://2027.eswc-conferences.org/calls/papers-in-use-track/
+  - https://2027.eswc-conferences.org/calls/iswc/
+  - https://2027.eswc-conferences.org/calls/poster-demo/
+  - https://2027.eswc-conferences.org/calls/industry-track/
+  - https://2027.eswc-conferences.org/calls/phd-symposium/
+  - https://2027.eswc-conferences.org/attending/venue/
+  - https://2027.eswc-conferences.org/history/
+  - https://2026.eswc-conferences.org/program/accepted-papers/main-tracks/
+  location: Limassol, Cyprus
+  mode: in-person
+  conference_start: '2027-05-23'
+  conference_end: '2027-05-27'
+  timezone: Asia/Nicosia
+  topics:
+  - Knowledge Representation & Reasoning
+  - Graphs & Graph Learning
+  - Data Mining & Data Science
+  - Information Retrieval & Search
+  size: M
+  submission_type: Paper-based / Springer LNCS proceedings; posters, demos, industry and PhD papers in satellite
+    proceedings
+  deadlines:
+  - type: abstract
+    label: 'Research, Resources and In-Use tracks: mandatory abstract submission'
+    datetime: '2026-12-10T23:59:00-12:00'
+    source_url: https://2027.eswc-conferences.org/important-dates/
+    gate_for: full_paper
+  - type: full_paper
+    label: 'Research, Resources and In-Use tracks: full paper submission (15 pages, LNCS)'
+    datetime: '2026-12-17T23:59:00-12:00'
+    source_url: https://2027.eswc-conferences.org/important-dates/
+  - type: workshop_proposal
+    label: Workshop proposals
+    datetime: '2026-12-17T23:59:00-12:00'
+    source_url: https://2027.eswc-conferences.org/important-dates/
+  - type: tutorial_proposal
+    label: Tutorial proposals
+    datetime: '2027-01-14T23:59:00-12:00'
+    source_url: https://2027.eswc-conferences.org/important-dates/
+  - type: rebuttal
+    label: Main-track rebuttal period closes (opens January 26)
+    datetime: '2027-01-29T23:59:00-12:00'
+    source_url: https://2027.eswc-conferences.org/important-dates/
+  - type: doctoral_symposium
+    label: Ph.D. Symposium paper (single-author PhD students only)
+    datetime: '2027-02-11T23:59:00-12:00'
+    source_url: https://2027.eswc-conferences.org/calls/phd-symposium/
+  - type: notification
+    label: Main-track notification to authors
+    datetime: '2027-02-19T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.eswc-conferences.org/important-dates/
+  - type: camera_ready
+    label: Main-track camera-ready papers due
+    datetime: '2027-03-18T23:59:00-12:00'
+    source_url: https://2027.eswc-conferences.org/important-dates/
+  - type: poster
+    label: Posters and demos submission (4 pages, LNCS; dates subject to change)
+    datetime: '2027-03-18T23:59:00-12:00'
+    source_url: https://2027.eswc-conferences.org/calls/poster-demo/
+  - type: extended_abstract
+    label: Industry track extended abstracts (4 pages; at least one non-academic author required)
+    datetime: '2027-03-18T23:59:00-12:00'
+    source_url: https://2027.eswc-conferences.org/calls/industry-track/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 'Official site: 24th ESWC, May 23-27, 2027, St. Raphael Resort & Marina, Limassol; workshops/tutorials
+    May 23-24. All deadlines 23:59 AoE. Research, Resources and In-Use tracks share a mandatory Dec 10 abstract
+    and Dec 17 paper (15 pages, Springer LNCS); rejected ISWC 2026 research papers may resubmit (commitment date
+    TBA). Posters/demos (LNCS), industry abstracts (needs a non-academic author) and single-author PhD papers go
+    to satellite proceedings; poster and PhD dates are marked subject to change. Named European again since 2026
+    (Extended 2010-2025); now overseen by SWSA. Annual since 2004. ESWC 2026 accepted 28 research, 17 resource and
+    10 in-use papers. Size is an editorial estimate.'
+- id: fens-forum-2028
+  series: FENS Forum
+  year: 2028
+  title: FENS Forum of Neuroscience
+  short_title: FENS Forum 2028
+  website: https://www.fens.org/meetings/fens-forum
+  cfp_url: https://fensforum.org/abstract-submission/
+  source_urls:
+  - https://www.fens.org/meetings/fens-forum
+  - https://www.fens.org/meetings
+  - https://www.fens.org/meetings/fens-forum/past-forums
+  - https://www.fens.org/news-activities/news/fens-forum-2028-location-announcement
+  - https://fensforum.org/
+  - https://fensforum.org/dates-and-deadlines/
+  - https://fensforum.org/abstract-submission/
+  - https://forum2024.fensforum.org/dates-and-deadlines/
+  - https://forum2022.fensforum.org/dates-and-deadlines/
+  location: Glasgow, United Kingdom
+  mode: in-person
+  conference_start: '2028-07-08'
+  conference_end: '2028-07-12'
+  timezone: Europe/London
+  topics:
+  - Systems & Experimental Neuroscience
+  - Computational Neuroscience
+  - Cognitive Science & Computational Cognition
+  size: XXL
+  submission_type: Abstract-based / poster abstracts, no paper proceedings
+  deadlines:
+  - type: abstract
+    label: Estimated regular poster-abstract submission deadline (paid Forum registration required)
+    datetime: '2028-02-05T23:59:00+01:00'
+    source_url: https://fensforum.org/abstract-submission/
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: FENS confirms Glasgow, 8-12 July 2028, hosted by the British Neuroscience Association; no venue or 2028
+    call is published as of 2026-10-31. The abstract date is a proxy from the 2026 final cutoff (5 Feb, 23:59 CET,
+    extended from 5 Jan); final cutoffs were 1 Mar 2022 (17:00 CEST) and 20 Feb 2024, also after extensions. In
+    2026 abstracts were poster-only, needed paid registration plus a fee, one per in-person presenter. Late-breaking
+    poster calls (Apr-May) and symposium proposals are not projected. Abstracts are published as submitted in the
+    programme, not as paper proceedings. XXL reflects FENS's figure of over 8,000 delegates. Size is an editorial
+    estimate.
+- id: forc-2027
+  series: FORC
+  year: 2027
+  title: Symposium on Foundations of Responsible Computing
+  short_title: FORC 2027
+  website: https://responsiblecomputing.org/
+  cfp_url: https://responsiblecomputing.org/forc-2027-call-for-papers/
+  source_urls:
+  - https://responsiblecomputing.org/forc-2027-call-for-papers/
+  - https://responsiblecomputing.org/
+  - https://responsiblecomputing.org/past-conferences/
+  - https://openreview.net/group?id=responsiblecomputing.org/FORC/2027/Symposium
+  - https://drops.dagstuhl.de/entities/conference/FORC
+  - https://drops.dagstuhl.de/storage/00lipics/lipics-vol368-forc2026/LIPIcs.FORC.2026.0/LIPIcs.FORC.2026.0.pdf
+  location: Stanford, California, USA
+  mode: in-person
+  conference_start: '2027-06-02'
+  conference_end: '2027-06-04'
+  timezone: America/Los_Angeles
+  topics:
+  - Fairness & Responsible AI
+  - Privacy-preserving ML
+  - Learning Theory & Statistical Foundations
+  size: S
+  submission_type: Paper-based / LIPIcs proceedings (10 pages, or a one-page abstract on request); non-archival
+    highlights talks
+  deadlines:
+  - type: full_paper
+    label: First-cycle paper submission (archival, LIPIcs)
+    datetime: '2026-11-11T23:59:00-12:00'
+    source_url: https://responsiblecomputing.org/forc-2027-call-for-papers/
+    open_observed_on: '2026-10-31'
+  - type: notification
+    label: First-cycle author notification
+    datetime: '2026-12-23T23:59:00-12:00'
+    time_precision: date
+    source_url: https://responsiblecomputing.org/forc-2027-call-for-papers/
+  - type: regular_paper
+    label: Second-cycle paper submission (archival, LIPIcs)
+    datetime: '2027-02-17T23:59:00-12:00'
+    source_url: https://responsiblecomputing.org/forc-2027-call-for-papers/
+  - type: highlights_nomination
+    label: Highlights-track talk nomination (non-archival, one page)
+    datetime: '2027-02-17T23:59:00-12:00'
+    source_url: https://responsiblecomputing.org/forc-2027-call-for-papers/
+  - type: second_cycle_notification
+    label: Second-cycle author notification
+    datetime: '2027-03-31T23:59:00-12:00'
+    time_precision: date
+    source_url: https://responsiblecomputing.org/forc-2027-call-for-papers/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 8th annual FORC (annual since 2020; LIPIcs proceedings). The 2027 CFP confirms Stanford University, June
+    2-4, 2027, and two archival paper cycles due Nov 11, 2026 and Feb 17, 2027 AoE; cycle-1 rejects should resubmit
+    only after addressing the reviews, with a change note. Highlights nominations (one page, Feb 17 AoE; own or
+    others' already-public papers, tutorials or panels) stay schedule-only. On 2026-10-31 the OpenReview API showed
+    the cycle-1 submission invitation active for any user (opened Oct 22; due Nov 12 11:59 UTC). Size S from 22
+    papers of 45 submissions plus 14 highlight talks in 2026. Size is an editorial estimate.
+- id: iccp-2027
+  series: ICCP
+  year: 2027
+  title: IEEE International Conference on Computational Photography
+  short_title: ICCP 2027
+  website: https://iccp2027.iccp-conference.org/
+  cfp_url: https://iccp2027.iccp-conference.org/#callforpapers
+  source_urls:
+  - https://iccp2027.iccp-conference.org/
+  - https://iccp2027.iccp-conference.org/#callforpapers
+  - https://iccp2027.iccp-conference.org/#team
+  - https://iccp2026.iccp-conference.org/#program
+  - https://iccp2026.iccp-conference.org/#callforpapers
+  - https://tc.computer.org/tcpami/conferences/
+  location: College Park, Maryland, USA
+  mode: in-person
+  conference_start: '2027-08-02'
+  conference_end: '2027-08-04'
+  timezone: America/New_York
+  topics:
+  - Computer Vision & Pattern Recognition
+  - Computer Graphics & Visualization
+  - Signal Processing
+  size: S
+  submission_type: Paper-based / one common review places papers in an IEEE TPAMI special issue or the ICCP proceedings
+  deadlines:
+  - type: full_paper
+    label: Paper submission on OpenReview (TPAMI special issue or ICCP proceedings track)
+    datetime: '2027-03-16T17:00:00-07:00'
+    source_url: https://iccp2027.iccp-conference.org/#callforpapers
+  - type: rebuttal
+    label: Optional one-page author rebuttal deadline (reviews released May 4)
+    datetime: '2027-05-11T17:00:00-07:00'
+    source_url: https://iccp2027.iccp-conference.org/#callforpapers
+  - type: notification
+    label: Final notification
+    datetime: '2027-06-01T17:00:00-07:00'
+    source_url: https://iccp2027.iccp-conference.org/#callforpapers
+  - type: camera_ready
+    label: Camera-ready (shepherded revision) deadline
+    datetime: '2027-06-22T17:00:00-07:00'
+    source_url: https://iccp2027.iccp-conference.org/#callforpapers
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 'The official 2027 site says ICCP is held in person at the University of Maryland, College Park, Aug 2-4,
+    2027 (summer school Jul 31-Aug 1). Papers are due Mar 16, 2027 at 5:00 PM Pacific (PDT) on OpenReview, which
+    opens Mar 1 (day only). One double-blind review with an optional rebuttal places each paper in an IEEE TPAMI
+    special issue or the ICCP proceedings, and every accepted paper is a talk. Pages beyond 12 cost $220 each; papers
+    over 18 pages can go only to the proceedings. ICCP 2026 extended its deadline by a week. Several subpages still
+    show 2026 content, and no 2027 poster/demo call is posted. Annual since 2009. Size S: 29 paper talks in 2026.
+    Size is an editorial estimate.'
+- id: icdl-2027
+  series: ICDL
+  year: 2027
+  title: IEEE International Conference on Development and Learning
+  short_title: ICDL 2027
+  website: https://attend.ieee.org/icdl-2026/
+  cfp_url: https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+  source_urls:
+  - https://attend.ieee.org/icdl-2026/
+  - https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+  - https://attend.ieee.org/icdl-2026/program/detailed-program/
+  - https://icdl2025.fel.cvut.cz/important-dates/
+  location: Campinas, Brazil
+  mode: in-person
+  conference_start: '2027-09-21'
+  conference_end: '2027-09-24'
+  timezone: America/Sao_Paulo
+  topics:
+  - Cognitive Science & Computational Cognition
+  - Control & Robotics
+  - Machine Learning
+  size: M
+  submission_type: Full papers in IEEE Xplore + non-archival late-breaking results
+  deadlines:
+  - type: full_paper
+    label: Estimated full-paper submission deadline (6 pages, IEEE Xplore)
+    datetime: '2027-03-19T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+  - type: late_abstract
+    label: Estimated late-breaking result submission (1-2 pages, poster; not in IEEE Xplore)
+    datetime: '2027-06-18T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: The official ICDL 2026 site (checked 2026-10-31) announces ICDL 2027 in Campinas, Brazil, Sep 21-24, 2027;
+    no 2027 site or call exists yet, so in-person mode is assumed. Annual (Prague 2025, Kyoto 2026). Both deadlines
+    are proxies from identical 2025 and 2026 lead times (papers 186, late-breaking results 95 days before the meeting;
+    2026 cutoffs 23:59 AoE); papers were extended to Apr 3 both years. Journal presentations of already published
+    articles (Apr 1) are not a fresh route. icdl2027.org is the unrelated Dielectric Liquids ICDL. Size M from the
+    2026 program (about 104 full papers, 35 late-breaking posters). Size is an editorial estimate.
+- id: icme-2027
+  series: ICME
+  year: 2027
+  title: IEEE International Conference on Multimedia and Expo
+  short_title: ICME 2027
+  website: https://2027.ieeeicme.org/
+  cfp_url: https://2027.ieeeicme.org/authors/call-for-papers
+  source_urls:
+  - https://2027.ieeeicme.org/
+  - https://2027.ieeeicme.org/authors/call-for-papers
+  - https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web-05.pdf
+  - https://2027.ieeeicme.org/about/important-dates
+  - https://2027.ieeeicme.org/authors/call-for-special-session-proposals
+  - https://2027.ieeeicme.org/authors/workshop-proposals
+  - https://2027.ieeeicme.org/about/general-faq
+  - https://2027.ieeeicme.org/travel/venue
+  location: Xiamen, China
+  mode: in-person
+  conference_start: '2027-07-13'
+  conference_end: '2027-07-17'
+  timezone: Asia/Shanghai
+  topics:
+  - Multimedia Learning & Retrieval
+  - Computer Vision & Pattern Recognition
+  - Signal Processing
+  size: L
+  submission_type: Paper-based / IEEE conference proceedings
+  deadlines:
+  - type: special_session_proposal
+    label: Special session proposal deadline (organizers, by email)
+    datetime: '2026-11-27T23:59:00-12:00'
+    source_url: https://2027.ieeeicme.org/authors/call-for-special-session-proposals
+  - type: workshop_proposal
+    label: Workshop proposal deadline
+    datetime: '2026-11-27T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ieeeicme.org/about/important-dates
+  - type: tutorial_proposal
+    label: Tutorial proposal deadline
+    datetime: '2026-12-04T23:59:00-12:00'
+    source_url: https://2027.ieeeicme.org/about/important-dates
+  - type: grand_challenge_proposal
+    label: Grand challenge proposal deadline
+    datetime: '2026-12-18T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ieeeicme.org/about/important-dates
+  - type: full_paper
+    label: Regular paper submission deadline (including special-session papers)
+    datetime: '2026-12-30T23:59:00-12:00'
+    source_url: https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web-05.pdf
+  - type: notification
+    label: Regular paper acceptance notification
+    datetime: '2027-03-24T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ieeeicme.org/about/important-dates
+  - type: workshop_paper
+    label: Workshop paper submission deadline
+    datetime: '2027-04-09T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ieeeicme.org/about/important-dates
+  - type: camera_ready
+    label: Regular paper camera-ready and author registration deadline
+    datetime: '2027-05-10T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ieeeicme.org/about/important-dates
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official 2027 pages confirm Xiamen International Conference & Exhibition Center, July 13-17, 2027. Regular
+    and special-session papers share one system, review and Dec 30, 2026 deadline; the PDF says AOE without an hour,
+    so 23:59 AoE is stored. The FAQ says submission opens in early November 2026 (portal not seen open). ICME 2026
+    moved its paper deadline from Dec 12 to Dec 31, 2025. Some 2026 workshops set their own paper dates. Demo proposals
+    (Apr 16; 2-page proceedings papers in 2026) stay in notes per ADR-043. Accepted regular, workshop, demo and
+    grand-challenge papers enter the IEEE proceedings. No official size figures found. Size is an editorial estimate.
+- id: icmns-2027
+  series: ICMNS
+  year: 2027
+  title: International Conference on Mathematical Neuroscience
+  short_title: ICMNS 2027
+  website: https://project.inria.fr/icmns2027/
+  cfp_url: https://icmns.org/2027/
+  source_urls:
+  - https://icmns.org/2027/
+  - https://project.inria.fr/icmns2027/
+  - https://listserver.vu.nl/pipermail/icmns-beta/2026-September/000076.html
+  - https://icmns.org/news/2026/10/16/icmns-2028-shanghai/
+  - https://icmns.org/editions/
+  - https://listserver.vu.nl/pipermail/icmns-beta/2026-January/000070.html
+  - https://listserver.vu.nl/pipermail/icmns-beta/2026-March/000074.html
+  - https://listserver.vu.nl/pipermail/icmns-beta/2025-January/000038.html
+  - https://listserver.vu.nl/pipermail/icmns-beta/2023-December/000014.html
+  - https://icmns.org/2025/
+  - https://icmns.org/about/
+  location: Montpellier, France
+  mode: in-person
+  conference_start: '2027-06-01'
+  conference_end: '2027-06-04'
+  timezone: Europe/Paris
+  topics:
+  - Computational Neuroscience
+  - Nonlinear Dynamics & Chaos
+  size: M
+  submission_type: Abstract-based / non-archival
+  deadlines:
+  - type: abstract
+    label: Estimated abstract deadline for contributed talks and posters
+    datetime: '2027-02-28T23:59:00-12:00'
+    time_precision: date
+    confidence: estimated
+    source_url: https://listserver.vu.nl/pipermail/icmns-beta/2026-January/000070.html
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: icmns.org, the ICMNS'27 site and the organisers' Sep 17, 2026 announcement confirm the 12th edition in
+    Montpellier, June 1-4, 2027 (venue unnamed). On 2026-10-31 abstract opening and deadline are TBA. The abstract
+    date is a one-year proxy from 2026 (posters/minisymposia due Feb 28, later extended to an unverified date);
+    2024 and 2025 closed Jan 16 and Jan 19 after extensions, so 2027 may close earlier. Past editions chose talks
+    and posters from abstracts, without proceedings; some work later appeared in J. Math. Neurosci. special issues.
+    ICMNS 2028 is set for Shanghai (SJTU), dates TBA. Size from 150+ participants, 44 talks and 80+ posters in 2025.
+    Size is an editorial estimate.
+- id: icons-2026
+  series: ICONS
+  year: 2026
+  title: ACM International Conference on Neuromorphic Systems
+  short_title: ICONS 2026
+  website: https://iconsneuromorphic.cc/
+  cfp_url: https://iconsneuromorphic.cc/calls-2026/
+  source_urls:
+  - https://iconsneuromorphic.cc/
+  - https://iconsneuromorphic.cc/calls-2026/
+  - https://easychair.org/cfp/ACM-ICONS-2026
+  - https://iconsneuromorphic.cc/Schedule-2026/
+  - https://iconsneuromorphic.cc/Registration-2026/
+  - https://iconsneuromorphic.cc/Students-2026/
+  - https://iconsneuromorphic.cc/proceedings-2025/
+  - https://www.ornl.gov/news/brain-inspired-computing-concepts-take-center-stage-icons-conference
+  location: Chicago, Illinois, USA
+  mode: hybrid
+  conference_start: '2026-08-04'
+  conference_end: '2026-08-06'
+  timezone: America/Chicago
+  topics:
+  - Neuromorphic & Brain-inspired Computing
+  - ML Systems & Infrastructure
+  - Machine Learning
+  size: S
+  submission_type: Paper-based / ACM Digital Library proceedings (full and short papers); students-only poster competition
+  deadlines:
+  - type: full_paper
+    label: Full paper submission (up to 8 pages; extended from April 1, no further extension)
+    datetime: '2026-04-08T23:59:00-12:00'
+    source_url: https://iconsneuromorphic.cc/calls-2026/
+  - type: short_paper
+    label: Short paper submission (up to 4 pages; position or preliminary results)
+    datetime: '2026-04-08T23:59:00-12:00'
+    source_url: https://iconsneuromorphic.cc/calls-2026/
+  - type: notification
+    label: Final notification of acceptance
+    datetime: '2026-06-05T23:59:00-12:00'
+    time_precision: date
+    source_url: https://iconsneuromorphic.cc/calls-2026/
+  - type: camera_ready
+    label: Camera-ready papers due
+    datetime: '2026-06-24T23:59:00-12:00'
+    time_precision: date
+    source_url: https://iconsneuromorphic.cc/calls-2026/
+  - type: student_poster_competition
+    label: Student poster competition submission (students only)
+    datetime: '2026-07-03T23:59:00-12:00'
+    time_precision: date
+    source_url: https://iconsneuromorphic.cc/Students-2026/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official pages confirm ICONS 2026 on Aug 4-6, 2026 at the Chicago Marriott Naperville (Chicago area), with
+    virtual registration; each proceedings paper needs an in-person registration. Papers were due Apr 8 AoE (the
+    site strikes Apr 1; EasyChair still lists Apr 1); rejected papers may become posters. Proceedings are ACM DL
+    open access (ACM Open or APC). Tutorial and special-session proposals were organiser routes outside the proceedings.
+    The students-only poster form gave no hour or publication. Size basis is about 40 single-track paper talks and
+    9 accepted posters in 2026, and 175 participants with 29 papers at the virtual 2021 edition (ORNL). The students-only
+    poster competition is schedule-only, like other student-only routes. Size is an editorial estimate.
+- id: icons-2027
+  series: ICONS
+  year: 2027
+  title: ACM International Conference on Neuromorphic Systems
+  short_title: ICONS 2027
+  website: https://iconsneuromorphic.cc/
+  cfp_url: https://iconsneuromorphic.cc/calls-2026/
+  source_urls:
+  - https://iconsneuromorphic.cc/
+  - https://iconsneuromorphic.cc/calls-2026/
+  - https://iconsneuromorphic.cc/Students-2026/
+  - https://iconsneuromorphic.cc/icons2025-2/
+  - https://iconsneuromorphic.cc/icons-2024/
+  location: To be announced
+  mode: hybrid
+  conference_start: '2027-08-04'
+  conference_end: '2027-08-06'
+  topics:
+  - Neuromorphic & Brain-inspired Computing
+  - ML Systems & Infrastructure
+  - Machine Learning
+  size: S
+  submission_type: Paper-based / ACM Digital Library proceedings (full and short papers); students-only poster competition
+  deadlines:
+  - type: full_paper
+    label: Full paper submission (up to 8 pages)
+    datetime: '2027-04-08T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://iconsneuromorphic.cc/calls-2026/
+  - type: short_paper
+    label: Short paper submission (up to 4 pages)
+    datetime: '2027-04-08T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://iconsneuromorphic.cc/calls-2026/
+  - type: notification
+    label: Final notification of acceptance
+    datetime: '2027-06-05T23:59:00-12:00'
+    confidence: estimated
+    time_precision: date
+    source_url: https://iconsneuromorphic.cc/calls-2026/
+  - type: camera_ready
+    label: Camera-ready papers due
+    datetime: '2027-06-24T23:59:00-12:00'
+    confidence: estimated
+    time_precision: date
+    source_url: https://iconsneuromorphic.cc/calls-2026/
+  - type: student_poster_competition
+    label: Student poster competition submission (students only)
+    datetime: '2027-07-03T23:59:00-12:00'
+    confidence: estimated
+    time_precision: date
+    source_url: https://iconsneuromorphic.cc/Students-2026/
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: On 2026-10-31 iconsneuromorphic.cc still presents ICONS 2026; no 2027 dates, host, call or EasyChair page
+    were found. ICONS has met annually since 2018 in late July or early August. Meeting dates, the Apr 8 AoE full/short
+    paper deadline, the Jul 3 student poster deadline, notification and camera-ready are one-year proxies from ICONS
+    2026. Recent paper cutoffs moved (final May 3 in 2024, May 4 in 2025, Apr 8 in 2026), so check early. Hybrid
+    mode (2022-2026) and ACM proceedings (2026; 2024 was IEEE/ACM) are assumed to continue. The students-only poster
+    competition is schedule-only, like other student-only routes. Size is an editorial estimate.
+- id: icwsm-2026
+  series: ICWSM
+  year: 2026
+  title: International AAAI Conference on Web and Social Media
+  short_title: ICWSM 2026
+  website: https://www.icwsm.org/2026/
+  cfp_url: https://www.icwsm.org/2026/submit.html
+  source_urls:
+  - https://www.icwsm.org/2026/
+  - https://www.icwsm.org/2026/submit.html
+  - https://www.icwsm.org/2026/attend.html
+  - https://www.icwsm.org/2026/data/dates.json
+  - https://www.icwsm.org/2026/data/schedule.json
+  - https://aaai.org/conference/icwsm/
+  location: Los Angeles, California, USA
+  mode: in-person
+  conference_start: '2026-05-26'
+  conference_end: '2026-05-29'
+  timezone: America/Los_Angeles
+  topics:
+  - Complex Systems & Network Science
+  - Natural Language Processing & LLMs
+  - Data Mining & Data Science
+  size: M
+  submission_type: Paper-based / AAAI ICWSM proceedings; non-archival Social Science and Sociophysics track (abstract
+    only)
+  deadlines:
+  - type: full_paper
+    label: 'Round 2: new full papers (also R&Rs from May 2025)'
+    datetime: '2025-09-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2026/submit.html
+  - type: round_2_notification
+    label: Round 2 notification
+    datetime: '2025-11-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.icwsm.org/2026/submit.html
+  - type: regular_paper
+    label: 'Round 3 (final): new full papers (also R&Rs from September 2025)'
+    datetime: '2026-01-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2026/submit.html
+  - type: poster
+    label: Poster papers (January round only)
+    datetime: '2026-01-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2026/submit.html
+  - type: resource_paper
+    label: Dataset papers (January round only; dataset DOI required)
+    datetime: '2026-01-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2026/submit.html
+  - type: tutorial_proposal
+    label: Tutorial proposals (by email)
+    datetime: '2026-01-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.icwsm.org/2026/submit.html
+  - type: workshop_proposal
+    label: Workshop proposals (by email)
+    datetime: '2026-01-30T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.icwsm.org/2026/submit.html
+  - type: notification
+    label: Round 3 notification (full, poster, demo and dataset papers)
+    datetime: '2026-03-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.icwsm.org/2026/submit.html
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 20th ICWSM (AAAI). Main conference May 27-29, 2026 at the Los Angeles Airport Marriott; workshops and tutorials
+    May 26 at USC ISI. Accepted papers had to be presented in person (Zoom viewing only for developing-country residents).
+    Full-paper rounds closed May 15 and Sep 15, 2025 and Jan 15, 2026 at 23:59 AoE; Round 1 is not stored because
+    only two paper-round types exist. Posters, demos (not tracked) and dataset papers used only the January round.
+    Proposal and notification days carry no explicit hour. Social Science and Sociophysics track papers publish
+    abstracts only. The official program lists 186 papers (154 full, 20 dataset, 8 poster, 4 demo). Size is an editorial
+    estimate.
+- id: icwsm-2027
+  series: ICWSM
+  year: 2027
+  title: International AAAI Conference on Web and Social Media
+  short_title: ICWSM 2027
+  website: https://www.icwsm.org/2027/
+  cfp_url: https://www.icwsm.org/2027/submit/
+  source_urls:
+  - https://www.icwsm.org/2027/
+  - https://www.icwsm.org/2027/submit/
+  - https://www.icwsm.org/2027/attend/
+  - https://www.icwsm.org/2027/organisation/
+  - https://www.icwsm.org/2026/submit.html
+  - https://aaai.org/conference/icwsm/
+  location: Edinburgh, United Kingdom
+  mode: in-person
+  conference_start: '2027-05-26'
+  conference_end: '2027-05-29'
+  timezone: Europe/London
+  topics:
+  - Complex Systems & Network Science
+  - Natural Language Processing & LLMs
+  - Data Mining & Data Science
+  size: M
+  submission_type: Paper-based / AAAI ICWSM proceedings; non-archival Social Science and Sociophysics track (abstract
+    only)
+  deadlines:
+  - type: full_paper
+    label: 'Round 2: new full papers (also R&Rs from May 2026)'
+    datetime: '2026-09-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2027/submit/
+    confidence: confirmed
+  - type: round_2_notification
+    label: Round 2 notification
+    datetime: '2026-11-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.icwsm.org/2027/submit/
+    confidence: confirmed
+  - type: regular_paper
+    label: 'Round 3 (final for 2027): new full papers (also R&Rs from September 2026)'
+    datetime: '2027-01-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2027/submit/
+    confidence: confirmed
+  - type: poster
+    label: Poster papers (January round only)
+    datetime: '2027-01-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2027/submit/
+    confidence: confirmed
+  - type: resource_paper
+    label: Dataset papers (January round only; dataset DOI required)
+    datetime: '2027-01-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2027/submit/
+    confidence: confirmed
+  - type: workshop_proposal
+    label: Workshop proposals (by email)
+    datetime: '2027-01-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2027/submit/
+    confidence: confirmed
+  - type: tutorial_proposal
+    label: Tutorial proposals (by email)
+    datetime: '2027-01-15T23:59:00-12:00'
+    source_url: https://www.icwsm.org/2027/submit/
+    confidence: confirmed
+  - type: notification
+    label: Round 3 notification (full, poster, demo and dataset papers)
+    datetime: '2027-03-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.icwsm.org/2027/submit/
+    confidence: confirmed
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: 21st ICWSM (AAAI). On 2026-10-31 the official site and AAAI page confirm Edinburgh but give no dates or
+    format; May 26-29, 2027 and in-person are one-year proxies from ICWSM 2026. Deadlines are official, 23:59 AoE.
+    Round 1 (May 15, 2026) is not stored because only two paper-round types exist. January is the last round for
+    2027 (a January R&R moves to 2028) and the only one for posters, demos (not tracked) and dataset papers. Social
+    Science and Sociophysics track papers share full-paper deadlines but publish abstracts only. PCS portal not
+    checked (login). Size M follows 186 papers in the 2026 program. Size is an editorial estimate.
+- id: ieee-cec-2027
+  series: IEEE CEC
+  year: 2027
+  title: IEEE Congress on Evolutionary Computation
+  short_title: IEEE CEC 2027
+  website: https://ieeecec.org/2027
+  cfp_url: https://ieeecec.org/2027/authors/call-for-papers
+  source_urls:
+  - https://ieeecec.org/2027
+  - https://ieeecec.org/2027/authors/call-for-papers
+  - https://confcats-siteplex.s3.amazonaws.com/ieeecec/files/cec27-cfp_web-13.pdf
+  - https://ieeecec.org/2027/call-for-short-papers
+  - https://ieeecec.org/2027/initial-paper-submission-instructions
+  - https://ieeecec.org/2027/authors/call-for-special-sessions
+  - https://ieeecec.org/2027/authors/call-for-workshop-proposals
+  - https://ieeecec.org/2027/authors/call-for-tutorial-proposals
+  - https://ieeecec.org/2027/authors/call-for-competition-proposals
+  - https://ieeecec.org/2027/program/graduate-student-symposium
+  - https://ieeecec.org/2027/j2c-paper-presentations
+  - https://ieeecec.org/2027/about/general-faq
+  - https://ieeecec.org/2027/about/history
+  - https://ieeecec.org/2027/travel/venue
+  - https://ewh.ieee.org/conf/cec/cec-2013.pdf
+  location: Edinburgh, United Kingdom
+  mode: in-person
+  conference_start: '2027-07-25'
+  conference_end: '2027-07-28'
+  timezone: Europe/London
+  topics:
+  - Evolutionary Computation & Optimization
+  - Machine Learning
+  size: L
+  submission_type: Paper-based / IEEE Xplore proceedings (8-page full papers); 4-page short papers in a separate
+    Companion Proceedings
+  deadlines:
+  - type: special_session_proposal
+    label: Special session and workshop proposal deadline
+    datetime: '2026-11-15T23:59:00-12:00'
+    time_precision: date
+    cutoff_note: The CFP PDF gives November 15, 2026; the website's dates, special-session and workshop pages give
+      November 29, 2026.
+    source_url: https://confcats-siteplex.s3.amazonaws.com/ieeecec/files/cec27-cfp_web-13.pdf
+  - type: tutorial_proposal
+    label: Competition and tutorial proposal deadline
+    datetime: '2026-12-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ieeecec.org/2027/authors/call-for-papers
+  - type: full_paper
+    label: Full paper submission, 8 pages incl. special-session papers (no extension)
+    datetime: '2027-02-28T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ieeecec.org/2027/authors/call-for-papers
+  - type: short_paper
+    label: Short paper submission, 4 pages, Companion Proceedings (no extension)
+    datetime: '2027-03-15T23:59:00-12:00'
+    source_url: https://ieeecec.org/2027/call-for-short-papers
+  - type: graduate_student_symposium
+    label: Graduate Student Symposium research proposal (enrolled Master's/doctoral students; proposal not published)
+    datetime: '2027-03-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ieeecec.org/2027/program/graduate-student-symposium
+  - type: j2c_application
+    label: Journal-to-Conference presentation application (published IEEE CIS journal papers only)
+    datetime: '2027-03-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ieeecec.org/2027/j2c-paper-presentations
+  - type: notification
+    label: Full paper acceptance notification
+    datetime: '2027-04-07T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ieeecec.org/2027/authors/call-for-papers
+  - type: short_paper_notification
+    label: Short paper acceptance notification
+    datetime: '2027-04-14T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ieeecec.org/2027/call-for-short-papers
+  - type: camera_ready
+    label: Final paper submission and early/author registration deadline
+    datetime: '2027-05-01T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ieeecec.org/2027/authors/call-for-papers
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 'Official CEC 2027 pages (checked 2026-10-31) confirm the EICC, Edinburgh, Jul 25-28. Full papers (8 pages,
+    double-anonymous, incl. special-session papers) are due Feb 28 with no hour stated (provisional AoE end of day)
+    and go to IEEE Xplore; 4-page short papers are due Mar 15, 23:59 AoE, presented as posters in a separate Companion
+    Proceedings. Both say no extension. The FAQ gives a Sep 1, 2026 submission opening; EDAS needs login, so not
+    verified. The CFP PDF gives Nov 15 for session/workshop proposals, web pages Nov 29. The student-only GSS and
+    journal-only J2C calls are schedule-only. Size L basis: 443 of 751 papers accepted in 2013; no recent counts.
+    Size is an editorial estimate.'
+- id: inlg-2026
+  series: INLG
+  year: 2026
+  title: International Natural Language Generation Conference
+  short_title: INLG 2026
+  website: https://2026.inlgmeeting.org/
+  cfp_url: https://2026.inlgmeeting.org/calls.html
+  source_urls:
+  - https://2026.inlgmeeting.org/
+  - https://2026.inlgmeeting.org/calls.html
+  - https://2026.inlgmeeting.org/program.html
+  - https://2026.inlgmeeting.org/accepted-papers.html
+  - https://2026.inlgmeeting.org/presentation-manual.html
+  - https://inlgmeeting.org/pages/events.html
+  location: Utrecht, Netherlands
+  mode: in-person
+  conference_start: '2026-10-17'
+  conference_end: '2026-10-21'
+  timezone: Europe/Amsterdam
+  topics:
+  - Natural Language Processing & LLMs
+  size: M
+  submission_type: Paper-based / ACL Anthology proceedings; separate non-archival poster track
+  deadlines:
+  - type: full_paper
+    label: Long and short paper direct submission (extended from July 15)
+    datetime: '2026-07-18T23:59:59-12:00'
+    source_url: https://2026.inlgmeeting.org/calls.html
+  - type: demo_paper
+    label: System demo paper submission (2 pages plus screencast; in the proceedings)
+    datetime: '2026-07-18T23:59:59-12:00'
+    source_url: https://2026.inlgmeeting.org/calls.html
+  - type: commitment
+    label: Commitment of ARR-reviewed papers
+    datetime: '2026-08-05T23:59:59-12:00'
+    source_url: https://2026.inlgmeeting.org/calls.html
+  - type: notification
+    label: Acceptance notification
+    datetime: '2026-08-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2026.inlgmeeting.org/calls.html
+  - type: abstract
+    label: Non-archival track (work-in-progress abstract of up to 300 words, or a paper published elsewhere; poster,
+      not in the proceedings)
+    datetime: '2026-08-22T23:59:00-12:00'
+    source_url: https://2026.inlgmeeting.org/calls.html
+  - type: shared_task_proposal
+    label: Generation Challenges shared-task proposals
+    datetime: '2026-08-22T23:59:00-12:00'
+    source_url: https://2026.inlgmeeting.org/calls.html
+  - type: camera_ready
+    label: Camera-ready deadline
+    datetime: '2026-09-07T23:59:00-12:00'
+    source_url: https://2026.inlgmeeting.org/calls.html
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 'Official INLG 2026 pages (reviewed 2026-10-31) confirm Utrecht (Spoorwegmuseum; hosted by Utrecht University),
+    Oct 17-21: workshops and tutorials Oct 17-18, main conference Oct 19-21, presentations in person only. All deadlines
+    are AoE. Direct long/short and demo submissions moved from July 15 to July 18; the last ARR submission deadline
+    eligible for commitment was May 25. A new non-archival track took work-in-progress abstracts (max 300 words)
+    or papers published elsewhere, with light review. Accepted: 82 long, 13 short and 5 demo papers (ACL Anthology)
+    plus 27 non-archival posters. Size is an editorial estimate.'
+- id: inlg-2027
+  series: INLG
+  year: 2027
+  title: International Natural Language Generation Conference
+  short_title: INLG 2027
+  website: https://inlgmeeting.org/
+  cfp_url: https://2026.inlgmeeting.org/calls.html
+  source_urls:
+  - https://inlgmeeting.org/
+  - https://inlgmeeting.org/pages/events.html
+  - https://2026.inlgmeeting.org/
+  - https://2026.inlgmeeting.org/calls.html
+  - https://2025.inlgmeeting.org/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-10-17'
+  conference_end: '2027-10-21'
+  topics:
+  - Natural Language Processing & LLMs
+  size: M
+  submission_type: Paper-based / ACL Anthology proceedings
+  deadlines:
+  - type: full_paper
+    label: Estimated long and short paper direct submission
+    datetime: '2027-07-15T23:59:59-12:00'
+    source_url: https://2026.inlgmeeting.org/calls.html
+    confidence: estimated
+  - type: commitment
+    label: Estimated commitment of ARR-reviewed papers
+    datetime: '2027-08-05T23:59:59-12:00'
+    source_url: https://2026.inlgmeeting.org/calls.html
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: As of 2026-10-31 no INLG 2027 host, dates or call is published (2027.inlgmeeting.org does not resolve;
+    SIGGEN pages list no 2027 edition). INLG has met yearly since at least 2016, but timing varies from July to
+    December; 2025-2026 met in late October before EMNLP. Meeting dates are a one-year proxy from INLG 2026 (Oct
+    17-21). The paper and ARR-commitment dates proxy 2026's original July 15 and Aug 5 dates (2025 and 2026 both
+    extended papers to July 18). The 2026 non-archival track is not projected. Size is an editorial estimate.
+- id: ipcai-2027
+  series: IPCAI
+  year: 2027
+  title: International Conference on Information Processing in Computer-Assisted Interventions
+  short_title: IPCAI 2027
+  website: https://sites.google.com/view/ipcai2027
+  cfp_url: https://sites.google.com/view/ipcai2027/call-for-papers-and-long-abstracts
+  source_urls:
+  - https://sites.google.com/view/ipcai2027
+  - https://sites.google.com/view/ipcai2027/conference-timeline
+  - https://sites.google.com/view/ipcai2027/call-for-papers-and-long-abstracts
+  - https://sites.google.com/view/ipcai2027/submission-information
+  - https://sites.google.com/view/ipcai2027/past-ipcai-conferences
+  - https://sites.google.com/view/ipcai2026/program
+  - https://cars-int.org/
+  location: Berlin, Germany
+  mode: in-person
+  conference_start: '2027-06-28'
+  conference_end: '2027-06-30'
+  timezone: Europe/Berlin
+  topics:
+  - Healthcare & Clinical AI
+  - Control & Robotics
+  - Biomedical Imaging
+  - Computer Vision & Pattern Recognition
+  size: M
+  submission_type: Paper-based / IJCARS special-issue journal papers (Springer); 4-page long abstracts listed in
+    the IPCAI-CARS proceedings
+  deadlines:
+  - type: abstract
+    label: Regular-paper intention to submit (mandatory CMT registration of title, structured abstract and authors;
+      no extension)
+    datetime: '2026-10-23T23:59:00-07:00'
+    source_url: https://sites.google.com/view/ipcai2027/conference-timeline
+    gate_for: full_paper
+  - type: full_paper
+    label: Regular paper submission (up to 12 pages, single-blind; no extension)
+    datetime: '2026-10-30T23:59:00-07:00'
+    source_url: https://sites.google.com/view/ipcai2027/conference-timeline
+  - type: notification
+    label: Initial regular-paper decisions (accept, reject or revise)
+    datetime: '2026-12-16T23:59:00-08:00'
+    source_url: https://sites.google.com/view/ipcai2027/conference-timeline
+  - type: revision
+    label: Regular-paper revisions due (invited revise decisions only)
+    datetime: '2027-01-15T23:59:00-08:00'
+    source_url: https://sites.google.com/view/ipcai2027/conference-timeline
+  - type: late_abstract
+    label: 'Long abstract Track 1: late-breaking research (up to 4 pages, unpublished work; no extension)'
+    datetime: '2027-01-15T23:59:00-08:00'
+    source_url: https://sites.google.com/view/ipcai2027/conference-timeline
+  - type: journal_presentation
+    label: 'Long abstract Track 2: presentation of a journal article accepted or published since Oct 16, 2025 (up
+      to 4 pages; no extension)'
+    datetime: '2027-01-15T23:59:00-08:00'
+    source_url: https://sites.google.com/view/ipcai2027/conference-timeline
+  - type: final_notification
+    label: Final decisions released (all papers)
+    datetime: '2027-02-16T23:59:00-08:00'
+    source_url: https://sites.google.com/view/ipcai2027/conference-timeline
+  - type: registration
+    label: Presenting-author registration deadline (registration via the CARS website)
+    datetime: '2027-03-03T23:59:00-08:00'
+    source_url: https://sites.google.com/view/ipcai2027
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 18th annual IPCAI (since 2010), held with CARS 2027 (Jun 28-Jul 1) at Langenbeck-Virchow-Haus, Berlin;
+    no remote option is announced (2022-24 were hybrid). All cutoffs are 23:59 PT. Regular papers needed the Oct
+    23 intention and closed Oct 30, 2026; accepted papers get a final IJCARS review for the IPCAI special issue.
+    Long abstracts are listed in the IPCAI-CARS proceedings; accepted Track 1 work may be submitted as an IJCARS
+    short communication. CMT redirects to a login page, so the portal was not verified open. IPCAI 2026 accepted
+    75 regular papers and 24 long abstracts. Size is an editorial estimate.
+- id: ipmi-2027
+  series: IPMI
+  year: 2027
+  title: International Conference on Information Processing in Medical Imaging
+  short_title: IPMI 2027
+  website: https://2027.ipmi-conf.org/
+  cfp_url: https://2027.ipmi-conf.org/
+  source_urls:
+  - https://2027.ipmi-conf.org/
+  - https://editions.ipmi-conf.org/
+  location: Orford, Quebec, Canada
+  mode: in-person
+  conference_start: '2027-06-27'
+  conference_end: '2027-07-02'
+  timezone: America/Toronto
+  topics:
+  - Biomedical Imaging
+  - Computer Vision & Pattern Recognition
+  - Machine Learning
+  size: S
+  submission_type: Paper-based / archival proceedings, traditionally Springer LNCS
+  deadlines:
+  - type: abstract
+    label: Paper abstract submission (the site's headline submission deadline)
+    datetime: '2026-12-07T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://2027.ipmi-conf.org/
+  - type: full_paper
+    label: Full paper submission (no extensions)
+    datetime: '2026-12-14T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ipmi-conf.org/
+  - type: notification
+    label: Decision notification
+    datetime: '2027-02-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ipmi-conf.org/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: The 2027 site and the IPMI editions page confirm the 30th biennial IPMI, June 27-July 2, 2027, at the Jouvence
+    Center, Lake Stukely (Orford), Quebec. Paper abstracts are due December 7, end of day AoE. The site gives this
+    as the submission deadline, so it gates full papers (December 14, no extensions, no hour; provisional AoE).
+    12-page double-blind LNCS-format papers; proceedings are traditionally LNCS. In-person attendance and one registration
+    per paper are required. OpenReview opens in early November and had no IPMI group on 2026-10-31. Discussion period
+    January 18-29. Attendance is capped at 120; 51 papers in 2025. Size is an editorial estimate.
+- id: iros-2027
+  series: IROS
+  year: 2027
+  title: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  short_title: IROS 2027
+  website: https://2027.ieee-iros.org/
+  cfp_url: https://2026.ieee-iros.org/contribute/call-for-papers/
+  source_urls:
+  - https://2027.ieee-iros.org/
+  - https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/iros-past-and-future-venues/
+  - https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/
+  - https://2026.ieee-iros.org/about/important-dates/
+  - https://2026.ieee-iros.org/contribute/call-for-papers/
+  - https://2026.ieee-iros.org/contribute/call-for-late-breaking-results/
+  - https://2023.ieee-iros.org/
+  - https://ramagazine.ieee.org/2026/06/29/advancing-the-human-robot-frontiers-through-global-collaboration-a-recap-of-iros-2025-in-hangzhou-china-conference-highlights/
+  location: Florence, Italy
+  mode: in-person
+  conference_start: '2027-09-27'
+  conference_end: '2027-10-01'
+  timezone: Europe/Rome
+  topics:
+  - Control & Robotics
+  - Reinforcement Learning
+  - Computer Vision & Pattern Recognition
+  - Planning & Search
+  size: XXL
+  submission_type: Paper-based / IEEE Xplore proceedings
+  deadlines:
+  - type: full_paper
+    label: Estimated paper submission deadline
+    datetime: '2027-03-02T23:59:00-12:00'
+    source_url: https://2026.ieee-iros.org/about/important-dates/
+    confidence: estimated
+    time_precision: date
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 'The official 2027 site and IEEE RAS venues page confirm Fortezza da Basso, Florence, Sep 27-Oct 1, 2027
+    (annual since 1988). As of 2026-10-31 no 2027 call is published. The paper deadline is a one-year proxy from
+    IROS 2026 (Mar 2, no hour; papers could be edited but not started until Mar 5); IROS 2023 was Mar 1, extended
+    to Mar 2. 2026 papers were up to 8 pages, double-anonymous, in IEEE Xplore, with no RA-L+IROS option. Non-archival
+    late-breaking posters (2-page abstract, full registration) are not projected; 2026 pages gave Jul 31 and Aug
+    10. Size XXL: IROS 2025 had 8,004 registrants (IEEE RA Magazine). Size is an editorial estimate.'
+- id: isf-2027
+  series: ISF
+  year: 2027
+  title: International Symposium on Forecasting
+  short_title: ISF 2027
+  website: https://isf.forecasters.org/
+  cfp_url: https://isf.forecasters.org/abstracts/
+  source_urls:
+  - https://isf.forecasters.org/
+  - https://isf.forecasters.org/abstracts/
+  - https://isf.forecasters.org/isf-2027-abstract-submission/
+  - https://isf.forecasters.org/overview/about/locations/
+  - https://isf.forecasters.org/program/program-schedule/
+  - https://isf.forecasters.org/overview/about/
+  - https://isf.forecasters.org/travel/venue/
+  - https://isf.forecasters.org/registration/
+  - https://isf.forecasters.org/resources/travel-award/
+  location: Paphos, Cyprus
+  mode: in-person
+  conference_start: '2027-06-20'
+  conference_end: '2027-06-23'
+  timezone: Asia/Nicosia
+  topics:
+  - Time Series & Sequential Data
+  - Probabilistic, Causal & Uncertainty ML
+  - Machine Learning
+  size: M
+  submission_type: Abstract-based / non-archival (accepted 350-word abstracts published as entered; no full-paper
+    proceedings)
+  deadlines:
+  - type: special_session_proposal
+    label: Invited session proposals (3-4 committed talks, emailed to the organizers)
+    datetime: '2027-02-21T23:59:00-12:00'
+    time_precision: date
+    source_url: https://isf.forecasters.org/abstracts/
+  - type: travel_award
+    label: IIF travel award applications (funding, mainly for students; full paper plus separate abstract)
+    datetime: '2027-02-21T23:59:00-12:00'
+    time_precision: date
+    source_url: https://isf.forecasters.org/resources/travel-award/
+  - type: abstract
+    label: Abstract submission (350 words; one talk per presenter; regular or invited-session track)
+    datetime: '2027-03-07T23:59:00-12:00'
+    time_precision: date
+    open_observed_on: '2026-10-31'
+    source_url: https://isf.forecasters.org/abstracts/
+  - type: notification
+    label: Notification of abstract acceptance or rejection
+    datetime: '2027-03-28T23:59:00-12:00'
+    time_precision: date
+    source_url: https://isf.forecasters.org/abstracts/
+  - type: registration
+    label: Registration deadline for accepted abstracts
+    datetime: '2027-04-25T23:59:00-12:00'
+    time_precision: date
+    source_url: https://isf.forecasters.org/abstracts/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official IIF pages give the 47th ISF as Jun 20-23, 2027 at Coral Beach Hotel near Paphos, in person only
+    (Jun 20 workshops, Jun 21-23 sessions; Women in Forecasting Jun 19). Deadlines print no year; 2027 follows from
+    the 47th-ISF and ISF 2027 form pages. No cutoff hour or zone is given, so end-of-day AoE is provisional. On
+    2026-10-31 the linked ISF 2027 abstract form rendered with a Submit button and no closed notice. Invited-session
+    talks use the same form with a chair's session code. Accepted abstracts are published as entered; no full-paper
+    proceedings. Projected attendance is 300-450. Size is an editorial estimate.
+- id: iui-2027
+  series: IUI
+  year: 2027
+  title: ACM Conference on Intelligent User Interfaces
+  short_title: IUI 2027
+  website: https://iui.acm.org/2027/
+  cfp_url: https://iui.acm.org/2027/call-for-papers/
+  source_urls:
+  - https://iui.acm.org/2027/
+  - https://iui.acm.org/2027/call-for-papers/
+  - https://iui.acm.org/2027/call-for-posters-demos/
+  - https://iui.acm.org/2027/call-for-workshops/
+  - https://iui.acm.org/2027/program/accepted-workshops/
+  - https://iui.acm.org/2027/call-for-tutorials/
+  - https://iui.acm.org/2027/call-for-doctoral-consortium/
+  - https://iui.acm.org/2027/venue/
+  - https://iui.acm.org/2026/
+  - https://iui.acm.org/2026/accepted-papers/
+  location: Helsinki, Finland
+  mode: in-person
+  conference_start: '2027-02-08'
+  conference_end: '2027-02-11'
+  timezone: Europe/Helsinki
+  topics:
+  - Human-AI Interaction & Deployment
+  - Explainability & Interpretability
+  - Natural Language Processing & LLMs
+  - Recommender Systems
+  size: M
+  submission_type: Paper-based / ACM Digital Library proceedings (open access); 4-page posters and demos in companion
+    proceedings
+  deadlines:
+  - type: workshop_proposal
+    label: Workshop proposals
+    datetime: '2026-07-06T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-workshops/
+  - type: abstract
+    label: Papers mandatory abstract registration (PCS)
+    datetime: '2026-08-13T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-papers/
+    gate_for: full_paper
+  - type: full_paper
+    label: Papers submission (variable length; long or short oral presentation)
+    datetime: '2026-08-20T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-papers/
+  - type: tutorial_proposal
+    label: Tutorial proposals
+    datetime: '2026-08-20T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-tutorials/
+  - type: doctoral_consortium
+    label: Doctoral consortium applications (doctoral or advanced master's students; advisor letter required)
+    datetime: '2026-10-19T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-doctoral-consortium/
+  - type: rebuttal
+    label: Papers invited rebuttal deadline (papers invited to rebut only)
+    datetime: '2026-11-05T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-papers/
+  - type: workshop_paper
+    label: Workshop papers (common deadline; submit to each accepted workshop's own CFP; joint CEUR-or-similar proceedings,
+      not ACM DL)
+    datetime: '2026-11-09T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-workshops/
+  - type: poster
+    label: Posters and demos submission (4-page papers; demos also need a video)
+    datetime: '2026-11-10T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-posters-demos/
+  - type: notification
+    label: Papers final decision notification
+    datetime: '2026-11-23T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-papers/
+  - type: camera_ready
+    label: Papers camera-ready submission
+    datetime: '2026-12-03T23:59:00-12:00'
+    source_url: https://iui.acm.org/2027/call-for-papers/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 'Official IUI 2027 pages confirm Feb 8-11, 2027 at Helsinki Congress Paasitorni; all deadlines are end
+    of day AoE. Papers closed Aug 20 after the Aug 13 abstract registration in PCS. Still ahead on Oct 31: workshop
+    papers (Nov 9 common date, matched on 7 of 8 workshop sites, each with its own CFP; joint CEUR-or-similar proceedings)
+    and 4-page posters and demos (Nov 10; companion proceedings). Portals not checked. ACM DL papers are open access,
+    with an APC outside ACM Open unless waived; one author must present in person. IUI 2026 moved from March to
+    July 13-16 (Limassol). Size M from 113 listed IUI 2026 papers plus posters and demos. Size is an editorial estimate.'
+- id: iva-2026
+  series: IVA
+  year: 2026
+  title: ACM International Conference on Intelligent Virtual Agents
+  short_title: IVA 2026
+  website: https://iva.acm.org/2026/
+  cfp_url: https://iva.acm.org/2026/call-for-papers/
+  source_urls:
+  - https://iva.acm.org/2026/
+  - https://iva.acm.org/2026/call-for-papers/
+  - https://iva.acm.org/2026/call-for-poster/
+  - https://iva.acm.org/2026/call-for-demos/
+  - https://iva.acm.org/2026/call-for-workshops/
+  - https://iva.acm.org/2026/call-for-doctoral-consortium/
+  - https://iva.acm.org/2026/program-at-a-glance/
+  - https://iva.acm.org/2026/accepted-papers/
+  - https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
+  - https://iva.acm.org/2025/call-for-papers/
+  location: Puebla, Mexico
+  mode: in-person
+  conference_start: '2026-09-07'
+  conference_end: '2026-09-11'
+  timezone: America/Mexico_City
+  topics:
+  - Autonomous Agents & Multiagent Systems
+  - Human-AI Interaction & Deployment
+  - Natural Language Processing & LLMs
+  size: S
+  submission_type: Paper-based / ACM Digital Library proceedings; poster extended abstracts (optional ACM DL); demo
+    papers in adjunct proceedings
+  deadlines:
+  - type: abstract
+    label: Full-paper abstract submission (required first step; extended from March 28)
+    datetime: '2026-04-03T23:59:00-12:00'
+    source_url: https://iva.acm.org/2026/call-for-papers/
+    gate_for: full_paper
+  - type: full_paper
+    label: Full paper submission, 4-8 pages, double-blind (extended from April 4)
+    datetime: '2026-04-10T23:59:00-12:00'
+    source_url: https://iva.acm.org/2026/call-for-papers/
+  - type: workshop_proposal
+    label: Workshop and tutorial proposals (extended)
+    datetime: '2026-04-10T23:59:00-12:00'
+    source_url: https://iva.acm.org/2026/call-for-workshops/
+  - type: review_notification
+    label: Full-paper review notification
+    datetime: '2026-05-23T23:59:00-12:00'
+    time_precision: date
+    source_url: https://iva.acm.org/2026/
+  - type: notification
+    label: Final full-paper acceptance notification
+    datetime: '2026-06-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://iva.acm.org/2026/
+  - type: poster
+    label: Poster track 2-3 page extended abstract (independent of the paper track)
+    datetime: '2026-06-22T23:59:59-12:00'
+    source_url: https://iva.acm.org/2026/call-for-poster/
+  - type: demo_submission
+    label: Demo submission, 2-page demo paper and video (adjunct proceedings)
+    datetime: '2026-06-22T23:59:00-12:00'
+    source_url: https://iva.acm.org/2026/call-for-demos/
+  - type: camera_ready
+    label: Full-paper camera-ready deadline
+    datetime: '2026-07-07T23:59:00-12:00'
+    source_url: https://iva.acm.org/2026/
+  - type: doctoral_consortium
+    label: Doctoral consortium application, PhD students only (extended)
+    datetime: '2026-07-22T23:59:00-12:00'
+    source_url: https://iva.acm.org/2026/call-for-doctoral-consortium/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 26th edition, co-located with ACII 2026 at the Puebla Convention Center. Official pages give Sept 7-11
+    (welcome reception Sept 7, paper sessions Sept 8-10, workshop, tutorial and doctoral consortium Sept 11). Full
+    papers had a prior abstract step (the 2025 CFP calls it mandatory); both were extended from Mar 28/Apr 4 (Feb
+    2026 Wayback snapshot). All cutoffs are 23:59 AoE. Posters were an independent 2-3 page extended-abstract route
+    with optional ACM DL inclusion. Demos (adjunct proceedings, fee) are schedule-only. The accepted list shows
+    30 full papers, 11 posters and 7 demos; no official acceptance rate was found. Size is an editorial estimate.
+- id: iva-2027
+  series: IVA
+  year: 2027
+  title: ACM International Conference on Intelligent Virtual Agents
+  short_title: IVA 2027
+  website: https://iva.acm.org/
+  source_urls:
+  - https://iva.acm.org/
+  - https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
+  - https://iva.acm.org/2026/
+  - https://iva.acm.org/2026/call-for-papers/
+  - https://iva.acm.org/2026/call-for-poster/
+  - https://iva.acm.org/2025/
+  - https://iva.acm.org/2024/
+  location: Reykjavik, Iceland
+  mode: in-person
+  conference_start: '2027-09-07'
+  conference_end: '2027-09-11'
+  timezone: Atlantic/Reykjavik
+  topics:
+  - Autonomous Agents & Multiagent Systems
+  - Human-AI Interaction & Deployment
+  - Natural Language Processing & LLMs
+  size: S
+  submission_type: Paper-based / ACM Digital Library proceedings (2026 format); poster extended abstracts
+  deadlines:
+  - type: abstract
+    label: Full-paper abstract submission (required first step)
+    datetime: '2027-03-28T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
+    gate_for: full_paper
+    confidence: estimated
+  - type: full_paper
+    label: Full paper submission
+    datetime: '2027-04-04T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
+    confidence: estimated
+  - type: poster
+    label: Poster track extended abstract (independent of the paper track)
+    datetime: '2027-06-22T23:59:59-12:00'
+    source_url: https://iva.acm.org/2026/call-for-poster/
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: As of 2026-10-31 iva.acm.org announces IVA 2027 in Reykjavik, Iceland, in September 2027, with no exact
+    dates, edition site or call (iva.acm.org/2027/ returns 404). Meeting days Sep 7-11 are a one-year proxy from
+    IVA 2026. Deadlines are proxies from the first-announced IVA 2026 dates (abstract Mar 28, paper Apr 4, later
+    extended to Apr 3/Apr 10; independent poster route June 22). First-announced paper deadlines were Apr 4-11 in
+    2024-2026 and were extended each year. Publication format follows 2026. Demo and doctoral-consortium tracks
+    are not tracked as routes. Size is an editorial estimate.
+- id: mtns-2026
+  series: MTNS
+  year: 2026
+  title: International Symposium on Mathematical Theory of Networks and Systems
+  short_title: MTNS 2026
+  website: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/
+  cfp_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/author-information
+  source_urls:
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/author-information
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - https://web.archive.org/web/20260212215951/https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/program/technical-program
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/sites/default/files/uploads/documents/mtns2026_program_booklet.pdf
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/proceedings
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/history
+  - https://uwaterloo.ca/applied-mathematics/news/27th-international-symposium-mathematical-theory-networks
+  - https://ifac-control.org/conferences/mtns-2026/
+  location: Waterloo, Ontario, Canada
+  mode: in-person
+  conference_start: '2026-08-17'
+  conference_end: '2026-08-21'
+  timezone: America/Toronto
+  topics:
+  - Control & Robotics
+  - System Identification & Data-driven Dynamics
+  - Complex Systems & Network Science
+  size: M
+  submission_type: Paper-based / IFAC-PapersOnLine full papers; non-archival extended abstracts
+  deadlines:
+  - type: special_session_proposal
+    label: Invited session proposals (session organizers)
+    datetime: '2026-02-02T23:59:00-12:00'
+    time_precision: date
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - type: mini_course_proposal
+    label: Mini-course proposals
+    datetime: '2026-02-02T23:59:00-12:00'
+    time_precision: date
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - type: proposal_notification
+    label: Invited session and mini-course decisions
+    datetime: '2026-02-05T23:59:00-12:00'
+    time_precision: date
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - type: full_paper
+    label: Full papers, contributed and invited sessions (4-8 pp, peer reviewed, IFAC-PapersOnLine)
+    datetime: '2026-02-09T23:59:00-12:00'
+    time_precision: date
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - type: extended_abstract
+    label: Extended abstracts, contributed and invited sessions (2-4 pp, simplified review, not published)
+    datetime: '2026-02-16T23:59:00-12:00'
+    time_precision: date
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - type: notification
+    label: Paper decision notification
+    datetime: '2026-04-20T23:59:00-12:00'
+    time_precision: date
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - type: camera_ready
+    label: Final paper upload
+    datetime: '2026-06-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official pages confirm the 27th MTNS at the University of Waterloo campus, Aug 17-21, 2026, co-sponsored
+    by IFAC. Full papers (4-8 pp, peer reviewed) go to IFAC-PapersOnLine; extended abstracts (2-4 pp, simplified
+    review) are posted on the site but not published. Invited-session papers needed an organizer's session code.
+    A Feb 12 Wayback snapshot shows the same Feb 9/16 dates. No cutoff hour or zone is published, so cutoffs use
+    provisional end-of-day AoE. Held every two years. ICORE2026 rank C. UW reported 170 attendees; the program had
+    144 contributed talks and ten invited sessions. Size is an editorial estimate.
+- id: mtns-2028
+  series: MTNS
+  year: 2028
+  title: International Symposium on Mathematical Theory of Networks and Systems
+  short_title: MTNS 2028
+  website: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/
+  cfp_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/author-information
+  source_urls:
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/history
+  - https://mtns2024.eng.cam.ac.uk/
+  - https://mtns2024.eng.cam.ac.uk/key-dates/
+  - https://mtns2024.eng.cam.ac.uk/news-archive/
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-08-14'
+  conference_end: '2028-08-18'
+  topics:
+  - Control & Robotics
+  - System Identification & Data-driven Dynamics
+  - Complex Systems & Network Science
+  size: M
+  submission_type: Paper-based / IFAC-PapersOnLine full papers; non-archival extended abstracts
+  deadlines:
+  - type: full_paper
+    label: Full paper submission (IFAC-PapersOnLine)
+    datetime: '2028-02-07T23:59:00-12:00'
+    time_precision: date
+    confidence: estimated
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - type: extended_abstract
+    label: Extended abstract submission (not published)
+    datetime: '2028-02-14T23:59:00-12:00'
+    time_precision: date
+    confidence: estimated
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: As of 2026-10-31 the MTNS 2026 site and IFAC listing announce no MTNS 2028 host, dates or call; hosts rotate.
+    MTNS is held every two years. Meeting dates (Mon-Fri) and the Monday full-paper (Feb 7) and extended-abstract
+    (Feb 14) deadlines are two-year same-weekday proxies from MTNS 2026 (Aug 17-21; Feb 9/16). The same shift maps
+    MTNS 2024 (Cambridge, Aug 19-23; papers and abstracts Feb 12 after an extension) onto 2026. Publication format
+    is assumed from 2026. Website and source links refer to past editions. Size is an editorial estimate.
+- id: naisys-2027
+  series: NAISys
+  year: 2027
+  title: From Neuroscience to Artificially Intelligent Systems
+  short_title: NAISys 2027
+  website: https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=27
+  cfp_url: https://meetings.cshl.edu/abstracts.aspx?meet=NAISYS&year=27
+  source_urls:
+  - https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=27
+  - https://meetings.cshl.edu/abstracts.aspx?meet=NAISYS&year=27
+  - https://meetings.cshl.edu/meetings
+  - https://meetings.cshl.edu/policies.aspx?meet=NAISYS&year=27
+  - https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=24
+  - https://meetings.cshl.edu/abstracts.aspx?meet=NAISYS&year=24
+  location: Cold Spring Harbor, New York, USA
+  mode: hybrid
+  conference_start: '2027-09-27'
+  conference_end: '2027-10-01'
+  timezone: America/New_York
+  topics:
+  - Neuromorphic & Brain-inspired Computing
+  - Computational Neuroscience
+  - Machine Learning
+  - Deep Representation Learning
+  size: M
+  submission_type: Abstract-based / non-archival (one-page abstracts in the confidential CSHL program book)
+  deadlines:
+  - type: abstract
+    label: One-page abstract for talk/poster selection (meeting registration required first)
+    datetime: '2027-07-09T23:59:00-12:00'
+    time_precision: date
+    source_url: https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=27
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 'Fourth Cold Spring Harbor Laboratory NAISys meeting (earlier: virtual Nov 2020, Apr 2022, Sep 28-Oct 2
+    2024; irregular cadence). The 2027 page and CSHL meetings list give Sep 27 (7:30 pm) to Oct 1 (lunch) and a
+    July 9, 2027 abstract deadline; the Abstracts tab header says Sep 27-30. No cutoff hour is published, so 23:59
+    AoE is provisional. Abstracts are submitted via an emailed link after registering; organizers pick talks and
+    posters, and presenters should attend in person (Zoom/virtual packages for others). Abstract texts appear only
+    in the confidential program book. 2024 listed 140 accepted abstracts (33 talks) plus 20 invited speakers. Size
+    is an editorial estimate.'
+- id: ncm-2027
+  series: NCM
+  year: 2027
+  title: Annual Meeting of the Society for the Neural Control of Movement
+  short_title: NCM 2027
+  website: https://ncm-society.org/2027-meeting/
+  cfp_url: https://ncm-society.org/submission/
+  source_urls:
+  - https://ncm-society.org/
+  - https://ncm-society.org/2027-meeting/
+  - https://ncm-society.org/key-dates/
+  - https://ncm-society.org/submission/
+  - https://ncm-society.org/destination/
+  - https://ncm-society.org/satellite-meeting/
+  - https://ncm-society.org/meeting-history/
+  location: Seville, Spain
+  mode: in-person
+  conference_start: '2027-04-26'
+  conference_end: '2027-04-30'
+  timezone: Europe/Madrid
+  topics:
+  - Systems & Experimental Neuroscience
+  - Computational Neuroscience
+  size: M
+  submission_type: Abstract-based / non-archival
+  deadlines:
+  - type: abstract
+    label: Individual oral abstracts (NCM members only; team session submissions close the same day)
+    datetime: '2026-12-01T23:59:00-08:00'
+    source_url: https://ncm-society.org/submission/
+  - type: notification
+    label: Team and individual oral decisions
+    datetime: '2027-01-11T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ncm-society.org/key-dates/
+  - type: poster
+    label: Poster abstracts (NCM members only)
+    datetime: '2027-02-22T23:59:00-08:00'
+    source_url: https://ncm-society.org/submission/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: '36th annual meeting, April 26-30, 2027 at the Melia Sevilla, as the home and 2027 pages state: a cerebellar
+    satellite and welcome reception on Monday April 26 (also misdated April 24), then the annual conference April
+    27-30. Calls opened October 29, 2026 (day only); the portal is login-gated and was not checked. Submitters must
+    be NCM members in good standing; one oral talk per member a year. Orals (individual or team session) close December
+    1 and posters February 22 at midnight PST, read as 23:59 PST. Oral decisions January 11 per key dates, end of
+    January per the submission page. Abstracts are not archival. Attendance was 291-600 in 2022-2026. Size is an
+    editorial estimate.'
+- id: netsci-x-2027
+  series: NetSci-X
+  year: 2027
+  title: 'NetSciX: International School and Conference on Network Science'
+  short_title: NetSci-X 2027
+  website: https://netscix2027.github.io/
+  cfp_url: https://netscix2027.github.io/submissions/
+  source_urls:
+  - https://netscix2027.github.io/
+  - https://netscix2027.github.io/submissions/
+  - https://netscix2027.github.io/key-dates/
+  - https://netscix2027.github.io/news/
+  - https://netscix2027.github.io/registration/
+  - https://netscix2027.github.io/about/
+  - https://easychair.org/cfp/netscix2027
+  - https://netscisociety.net/events/netscix-2027/
+  - https://netscisociety.net/netsci-conferences/
+  location: Hong Kong, China
+  mode: hybrid
+  conference_start: '2027-01-24'
+  conference_end: '2027-01-27'
+  timezone: Asia/Hong_Kong
+  topics:
+  - Complex Systems & Network Science
+  - Graphs & Graph Learning
+  - Nonlinear Dynamics & Chaos
+  size: M
+  submission_type: Abstract-based / two-page extended abstracts, non-archival (no proceedings announced)
+  deadlines:
+  - type: extended_abstract
+    label: Two-page extended abstract submission (talk or poster; extended deadline)
+    datetime: '2026-10-31T23:59:00-12:00'
+    open_observed_on: '2026-10-31'
+    source_url: https://netscix2027.github.io/submissions/
+  - type: workshop_proposal
+    label: Themed workshop proposals (emailed, at most three pages)
+    datetime: '2026-10-31T23:59:00-12:00'
+    source_url: https://netscix2027.github.io/key-dates/
+  - type: early_notification
+    label: First-wave acceptance notification (abstracts received by October 10)
+    datetime: '2026-10-31T23:59:00-12:00'
+    time_precision: date
+    source_url: https://netscix2027.github.io/key-dates/
+  - type: notification
+    label: Second-wave acceptance notification (abstracts received after October 10)
+    datetime: '2026-11-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://netscix2027.github.io/key-dates/
+  - type: registration
+    label: Early registration deadline
+    datetime: '2026-11-30T23:59:00-12:00'
+    source_url: https://netscix2027.github.io/registration/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 'Official site, NSS event page and EasyChair CFP confirm January 24-27, 2027 (school and conference) at
+    the Sheraton Hong Kong, Tsim Sha Tsui. Two-page extended abstracts are due October 31, 2026, 23:59 AoE (site-wide
+    AoE rule), after extensions to October 10 and then October 31; submissions opened September 1. EasyChair''s
+    login page said new submissions were open on 2026-10-31. No proceedings are announced. Online participation
+    (keynotes, invited talks, selected tracks) costs 15% of the regular fee. Special focus: Network Science meets
+    AI. NSS winter meeting, distinct from NetSci. Size M: smaller winter companion of NetSci; NetSciX 2026 was mostly
+    single-track. Size is an editorial estimate.'
+- id: neural-interfaces-2027
+  series: Neural Interfaces
+  year: 2027
+  title: Neural Interfaces Conference
+  short_title: Neural Interfaces 2027
+  website: https://www.nans.org/neural-interfaces/
+  cfp_url: https://www.nans.org/neural-interfaces/
+  source_urls:
+  - https://www.nans.org/neural-interfaces/
+  - https://www.nans.org/event/neural-interfaces-2027/
+  - https://web.archive.org/web/20250408143058/https://www.neuromodulation.org/neuralinterfaces.html
+  - https://web.archive.org/web/20250326143538/https://www.neuromodulation.org/nic-abstracts.html
+  - https://web.archive.org/web/20250117010055/https://www.neuromodulation.org/uploads/1/4/5/5/145560650/neural_interfaces_2025_call_for_abstracts_guidelines.pdf
+  location: Arlington, Virginia, USA
+  mode: in-person
+  conference_start: '2027-05-20'
+  conference_end: '2027-05-22'
+  timezone: America/New_York
+  topics:
+  - BCI & Neurotechnology
+  - Healthcare & Clinical AI
+  - EEG/MEG & Neural Signals
+  size: M
+  submission_type: Abstract-based / oral or poster presentations; no proceedings announced
+  deadlines:
+  - type: speaker_proposal
+    label: Call for Proposals (speaker and session ideas that build the agenda; not a research-abstract route)
+    datetime: '2026-10-12T13:00:00-05:00'
+    source_url: https://www.nans.org/neural-interfaces/
+  - type: abstract
+    label: Original research abstract submission (call opens November 12, 2026)
+    datetime: '2027-02-17T13:00:00-05:00'
+    cutoff_note: Page says Feb 17, 2027, 1:00 PM CDT, but Central clocks are on CST (UTC-6) then. Earliest (CDT)
+      instant stored.
+    source_url: https://www.nans.org/neural-interfaces/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: NANS's official pages confirm Neural Interfaces 2027 on May 20-22, 2027 in Arlington, Virginia (venue not
+    named). Original research abstracts are accepted from November 12, 2026 (day only) to February 17, 2027, 1:00
+    PM; details are pending. The closed Call for Proposals gathered speaker and session ideas. In 2025 (June 12-14,
+    Arlington) abstracts were blind-reviewed for oral or paper-poster slots and published in meeting materials;
+    no proceedings are stated. Billed as biennial (2012, 2014 and 2016 editions are documented), but NANS's recent
+    editions were 2021 and 2025. Size M reflects a three-day hotel meeting with poster receptions; no attendance
+    is published. Size is an editorial estimate.
+- id: ppsn-2026
+  series: PPSN
+  year: 2026
+  title: International Conference on Parallel Problem Solving from Nature
+  short_title: PPSN 2026
+  website: https://ppsn2026.disi.unitn.it/
+  cfp_url: https://ppsn2026.disi.unitn.it/
+  source_urls:
+  - https://ppsn2026.disi.unitn.it/
+  - https://ppsn2026.disi.unitn.it/program.html
+  - https://web.archive.org/web/20260313015745/https://ppsn2026.disi.unitn.it/
+  - https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/
+  location: Trento, Italy
+  mode: in-person
+  conference_start: '2026-08-29'
+  conference_end: '2026-09-02'
+  timezone: Europe/Rome
+  topics:
+  - Evolutionary Computation & Optimization
+  - Machine Learning
+  size: M
+  submission_type: Paper-based / Springer LNCS proceedings; all accepted papers presented as posters
+  deadlines:
+  - type: workshop_proposal
+    label: Extended workshop proposal deadline
+    datetime: '2026-02-22T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260313015745/https://ppsn2026.disi.unitn.it/
+  - type: tutorial_proposal
+    label: Extended tutorial proposal deadline
+    datetime: '2026-02-22T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260313015745/https://ppsn2026.disi.unitn.it/
+  - type: full_paper
+    label: Extended full-paper submission deadline (LNCS, up to 14 pages)
+    datetime: '2026-04-18T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/
+  - type: notification
+    label: Extended acceptance notification
+    datetime: '2026-05-27T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/
+  - type: camera_ready
+    label: Camera-ready papers and author registration due
+    datetime: '2026-06-12T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 19th PPSN, hosted by the University of Trento at Trento Expo; workshops and tutorials Aug 29-30, main program
+    Aug 31-Sep 2. In person only (virtual participation not possible). Single-blind LNCS papers of up to 14 pages
+    plus references; all accepted papers are posters and appear in Springer LNCS 16985-16989. The Mar 28 paper deadline
+    was extended to Apr 18 and notification from May 22 to May 27; workshop/tutorial proposals moved from Feb 8
+    to Feb 22. All cutoffs are end of day AoE. The live site hides its dates; archived snapshots are cited. Workshop
+    papers are not in the proceedings. Size M from 165 papers in 8 poster sessions; no official acceptance rate
+    found. Size is an editorial estimate.
+- id: ppsn-2028
+  series: PPSN
+  year: 2028
+  title: International Conference on Parallel Problem Solving from Nature
+  short_title: PPSN 2028
+  website: https://ppsn2026.disi.unitn.it/
+  cfp_url: https://ppsn2026.disi.unitn.it/
+  source_urls:
+  - https://groups.google.com/g/coseal/c/BedmaxGfolg
+  - https://ppsn2026.disi.unitn.it/
+  - https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-08-29'
+  conference_end: '2028-09-02'
+  topics:
+  - Evolutionary Computation & Optimization
+  - Machine Learning
+  size: M
+  submission_type: Paper-based / Springer LNCS proceedings; all accepted papers presented as posters
+  deadlines:
+  - type: full_paper
+    label: Full-paper submission deadline
+    datetime: '2028-03-28T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: The 20th PPSN is due in 2028, but no host or dates exist. On 2026-09-16 the Steering Committee chair called
+    for host bids until Nov 30, 2026, with a decision tentatively by mid-January 2027; that call keeps poster presentation
+    of all accepted papers and Springer LNCS proceedings. Meeting dates (Aug 29-Sep 2) and the Mar 28 AoE paper
+    deadline are two-year proxies from PPSN 2026, using its original pre-extension deadline (extended to Apr 18
+    in 2026). In-person mode is assumed from 2026. Size is an editorial estimate.
+- id: rlc-2026
+  series: RLC
+  year: 2026
+  title: Reinforcement Learning Conference
+  short_title: RLC 2026
+  website: https://rl-conference.cc/2026/index.html
+  cfp_url: https://rl-conference.cc/2026/callforpapers.html
+  source_urls:
+  - https://rl-conference.cc/2026/index.html
+  - https://rl-conference.cc/2026/callforpapers.html
+  - https://rl-conference.cc/2026/schedule.html
+  - https://rl-conference.cc/2026/paper_schedule.html
+  location: Montreal, Canada
+  mode: in-person
+  conference_start: '2026-08-15'
+  conference_end: '2026-08-18'
+  timezone: America/Toronto
+  topics:
+  - Reinforcement Learning
+  - Machine Learning
+  size: M
+  submission_type: Paper-based / published in the Reinforcement Learning Journal (RLJ)
+  deadlines:
+  - type: abstract_registration
+    label: Abstract submission (extended from March 1 to the paper cutoff)
+    datetime: '2026-03-05T23:59:00-12:00'
+    source_url: https://rl-conference.cc/2026/callforpapers.html
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2026-03-05T23:59:00-12:00'
+    source_url: https://rl-conference.cc/2026/callforpapers.html
+  - type: notification
+    label: Decision notification (moved from May 8)
+    datetime: '2026-05-05T23:59:00-12:00'
+    source_url: https://rl-conference.cc/2026/callforpapers.html
+  - type: camera_ready
+    label: Camera-ready paper due
+    datetime: '2026-07-18T23:59:00-12:00'
+    source_url: https://rl-conference.cc/2026/callforpapers.html
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Third RLC (annual since 2024). Official pages confirm Aug 15-18, 2026 at Université de Montréal (Aug 15
+    workshops, Aug 16-18 main program). Accepted papers appear in the Reinforcement Learning Journal (RLJ, ISSN
+    2996-8577) after double-blind OpenReview review; one author must attend in person. The abstract deadline was
+    extended from March 1 to March 5 AoE, the paper cutoff, so it is kept as a schedule-only step. The submission
+    site was to open by February 17 (no time given). No official acceptance rate was found. Size M rests on 148
+    RLJ 2026 papers in the official paper schedule; attendance is unpublished. Size is an editorial estimate.
+- id: rlc-2027
+  series: RLC
+  year: 2027
+  title: Reinforcement Learning Conference
+  short_title: RLC 2027
+  website: https://rl-conference.cc/
+  cfp_url: https://rl-conference.cc/2026/callforpapers.html
+  source_urls:
+  - https://rl-conference.cc/2026/index.html
+  - https://rl-conference.cc/2026/callforpapers.html
+  - https://rl-conference.cc/2025/index.html
+  - https://rl-conference.cc/2024/index.html
+  - https://rlj.cs.umass.edu/
+  location: Providence, USA (Brown University) and Odense, Denmark
+  mode: in-person
+  conference_start: '2027-08-01'
+  conference_end: '2027-08-31'
+  topics:
+  - Reinforcement Learning
+  - Machine Learning
+  size: M
+  submission_type: Paper-based / RLJ publication in 2024-2026 (2027 call not yet published)
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline (assumed mandatory)
+    datetime: '2027-03-01T23:59:00-12:00'
+    source_url: https://rl-conference.cc/2026/callforpapers.html
+    confidence: estimated
+    gate_for: full_paper
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-03-05T23:59:00-12:00'
+    source_url: https://rl-conference.cc/2026/callforpapers.html
+    confidence: estimated
+  - type: notification
+    label: Decision notification
+    datetime: '2027-05-05T23:59:00-12:00'
+    source_url: https://rl-conference.cc/2026/callforpapers.html
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: 'The RLC 2026 site announces RLC 2027 at two in-person sites: Brown University, USA (early August) and
+    Odense, Denmark (late August, one joint event with EWRL); exact dates are TBA and authors of accepted papers
+    choose where to present. Aug 1-31 bounds both sites; it is not a shift of Aug 15-18, 2026. No 2027 call is published;
+    abstract Mar 1 and paper Mar 5 AoE are one-year proxies from the original 2026 call (2024: Mar 1/8; 2025: Feb
+    21/28), with the abstract assumed mandatory. The RLJ home page now describes quarterly volumes with rolling
+    submissions, so the 2027 route may change. Size is an editorial estimate.'
+- id: rldm-2027
+  series: RLDM
+  year: 2027
+  title: Multi-disciplinary Conference on Reinforcement Learning and Decision Making
+  short_title: RLDM 2027
+  website: https://rldm.org/
+  cfp_url: https://rldm.org/call-for-abstracts-2027/
+  source_urls:
+  - https://rldm.org/
+  - https://rldm.org/call-for-abstracts-2027/
+  - https://rldm.org/past-meetings/
+  - https://rldm.org/past-meetings/rldm2025/program-at-a-glance/
+  location: Paris, France
+  mode: in-person
+  conference_start: '2027-07-06'
+  conference_end: '2027-07-09'
+  timezone: Europe/Paris
+  topics:
+  - Reinforcement Learning
+  - Computational Neuroscience
+  - Cognitive Science & Computational Cognition
+  size: M
+  submission_type: Extended-abstract-based / non-archival (no proceedings)
+  deadlines:
+  - type: extended_abstract
+    label: Extended abstract submission (summary plus 1-4 page extended abstract; posters and oral talks)
+    datetime: '2027-01-20T23:59:00-12:00'
+    source_url: https://rldm.org/call-for-abstracts-2027/
+  - type: notification
+    label: Decisions announced
+    datetime: '2027-02-26T23:59:00-12:00'
+    source_url: https://rldm.org/call-for-abstracts-2027/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official rldm.org pages give July 6-9, 2027 at Maison de la Chimie, Paris (seventh meeting after 2013-2025),
+    with submissions due January 20, 2027 AoE and decisions February 26 AoE. A submission is a summary (max 2,000
+    characters) plus a 1-4 page extended abstract, single-blind, for posters or oral talks. Non-archival, no proceedings;
+    authors choose whether the extended abstract enters the electronic booklet, and work submitted elsewhere is
+    welcome. On 2026-10-31 the portal link read 'coming soon'; tutorial and workshop calls are not out. Irregular
+    cadence (2013-2019 biennial, then 2022, 2025). No attendance counts; 2025 was single-track with three poster
+    sessions. Size is an editorial estimate.
+- id: sigdial-2026
+  series: SIGDIAL
+  year: 2026
+  title: Annual Meeting of the Special Interest Group on Discourse and Dialogue
+  short_title: SIGDIAL 2026
+  website: https://2026.sigdial.org/
+  cfp_url: https://2026.sigdial.org/calls/main_conference/
+  source_urls:
+  - https://2026.sigdial.org/
+  - https://2026.sigdial.org/calls/main_conference/
+  - https://2026.sigdial.org/calls/workshops_tutorials/
+  - https://2026.sigdial.org/date-reschedule/
+  - https://2026.sigdial.org/program/
+  - https://aclanthology.org/2026.sigdial-1.0.pdf
+  location: Atlanta, Georgia, USA
+  mode: in-person
+  conference_start: '2026-08-02'
+  conference_end: '2026-08-05'
+  timezone: America/New_York
+  topics:
+  - Natural Language Processing & LLMs
+  - LLM Agents & Tool Use
+  size: M
+  submission_type: Paper-based / ACL Anthology proceedings (long, short and demo papers; ARR commitment accepted)
+  deadlines:
+  - type: workshop_proposal
+    label: Workshop and tutorial proposals
+    datetime: '2026-03-02T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/workshops_tutorials/
+  - type: abstract
+    label: Mandatory title and abstract registration (Softconf/START)
+    datetime: '2026-04-13T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/main_conference/
+    gate_for: full_paper
+  - type: full_paper
+    label: Long, short and demo paper PDF submission
+    datetime: '2026-04-20T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/main_conference/
+  - type: commitment
+    label: Commitment of ARR-reviewed papers
+    datetime: '2026-05-25T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/main_conference/
+  - type: notification
+    label: Paper notification
+    datetime: '2026-06-01T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/main_conference/
+    time_precision: date
+  - type: camera_ready
+    label: Final camera-ready submission
+    datetime: '2026-06-29T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/main_conference/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 27th meeting at Emory University, Atlanta, Aug 2-5, 2026 (Aug 2 workshops/tutorials, Aug 3-5 main), fully
+    in person; moved in Feb 2026 from July 13-17 for the World Cup. CFP deadlines are 23:59 AoE. Title/abstract
+    registration on Apr 13 was mandatory; only the PDF could change until Apr 20. ARR commitment (May 25) was for
+    already-reviewed papers. Long (8p), short (4p) and demo papers; proceedings in the ACL Anthology. The chairs'
+    preface reports 61 of 134 accepted (45.5%). Size M (about 60 papers a year; attendance not published). Size
+    is an editorial estimate.
+- id: sigdial-2027
+  series: SIGDIAL
+  year: 2027
+  title: Annual Meeting of the Special Interest Group on Discourse and Dialogue
+  short_title: SIGDIAL 2027
+  website: https://www.sigdial.org/
+  source_urls:
+  - https://www.sigdial.org/
+  - https://www.aclweb.org/adminwiki/index.php/2026Q3_Reports:_SIGDIAL
+  - https://2026.sigdial.org/calls/main_conference/
+  - https://2025.sigdial.org/dates/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-08-23'
+  conference_end: '2027-08-25'
+  topics:
+  - Natural Language Processing & LLMs
+  - LLM Agents & Tool Use
+  size: M
+  submission_type: Paper-based / ACL Anthology proceedings (long, short and demo papers; ARR commitment accepted)
+  deadlines:
+  - type: abstract
+    label: Mandatory title and abstract registration
+    datetime: '2027-04-13T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/main_conference/
+    confidence: estimated
+    gate_for: full_paper
+  - type: full_paper
+    label: Long, short and demo paper PDF submission
+    datetime: '2027-04-20T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/main_conference/
+    confidence: estimated
+  - type: commitment
+    label: Commitment of ARR-reviewed papers
+    datetime: '2027-05-25T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/main_conference/
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: No SIGDIAL 2027 site or CFP on 2026-10-31; 2027.sigdial.org redirects to sigdial.org, which still shows
+    2026. The SIGdial President's 2026Q3 ACL report (edited June 16, 2026) says 2027 is planned in Japan, tentatively
+    Aug 23-25; those dates are used as an estimate and the city is unannounced. Deadlines are one-year proxies from
+    2026 (abstract Apr 13, PDF Apr 20, ARR commitment May 25, all AoE); 2025 used Apr 21, Apr 28 and Jun 6 for an
+    Aug 25-27 meeting. Size is an editorial estimate.
+- id: slt-2026
+  series: SLT
+  year: 2026
+  title: IEEE Spoken Language Technology Workshop
+  short_title: SLT 2026
+  website: https://attend.ieee.org/slt-2026/
+  cfp_url: https://attend.ieee.org/slt-2026/call-for-papers/
+  source_urls:
+  - https://attend.ieee.org/slt-2026/
+  - https://attend.ieee.org/slt-2026/call-for-papers/
+  - https://attend.ieee.org/slt-2026/important-dates/
+  - https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-papers/
+  - https://attend.ieee.org/slt-2026/call-for-special-sessions/
+  - https://attend.ieee.org/slt-2026/call-for-challenges/
+  - https://attend.ieee.org/slt-2026/authors-instructions/
+  - https://attend.ieee.org/slt-2026/camera-ready-instructions/
+  - https://attend.ieee.org/slt-2026/conference-venue/
+  - https://attend.ieee.org/slt-2026/program/
+  - https://attend.ieee.org/slt-2026/registration/
+  - https://signalprocessingsociety.org/events/2026-ieee-spoken-language-technology-workshop-slt
+  - https://signalprocessingsociety.org/events/asli-2028-ieee-international-conference-audio-speech-and-language-intelligence
+  location: Palermo, Italy
+  mode: in-person
+  conference_start: '2026-12-13'
+  conference_end: '2026-12-16'
+  timezone: Europe/Rome
+  topics:
+  - Natural Language Processing & LLMs
+  - Signal Processing
+  - Deep Representation Learning
+  size: M
+  submission_type: Paper-based / IEEE Xplore proceedings
+  deadlines:
+  - type: special_session_proposal
+    label: Challenge and special-session proposals (organizers, by email)
+    datetime: '2026-03-11T23:59:00-12:00'
+    source_url: https://attend.ieee.org/slt-2026/call-for-special-sessions/
+  - type: full_paper
+    label: Regular and special-session paper submission (extended from June 17)
+    datetime: '2026-06-24T23:59:00-12:00'
+    source_url: https://attend.ieee.org/slt-2026/call-for-papers/
+  - type: paper_update
+    label: Revision deadline for already-submitted regular and special-session papers
+    datetime: '2026-07-01T23:59:00-12:00'
+    source_url: https://attend.ieee.org/slt-2026/call-for-papers/
+  - type: short_paper
+    label: Demo, system, data and challenge paper submission (3 + 1 pages, single-blind)
+    datetime: '2026-07-08T23:59:00-12:00'
+    source_url: https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-papers/
+    cutoff_note: OpenReview demo and challenge portals list Jul 10 11:59 UTC (Jul 9 AoE), as did a now-hidden homepage
+      notice; the CFP and demo call say Jul 8 AoE.
+  - type: notification
+    label: Acceptance notification for all paper tracks (moved from September 1)
+    datetime: '2026-09-08T23:59:00-12:00'
+    time_precision: date
+    source_url: https://attend.ieee.org/slt-2026/call-for-papers/
+  - type: sps_journal_paper
+    label: SPS journal paper submission (no call text on the site; acceptance September 20)
+    datetime: '2026-09-11T23:59:00-12:00'
+    source_url: https://attend.ieee.org/slt-2026/call-for-papers/
+  - type: camera_ready
+    label: Camera-ready paper deadline
+    datetime: '2026-09-20T23:59:00-12:00'
+    source_url: https://attend.ieee.org/slt-2026/camera-ready-instructions/
+  - type: registration
+    label: Author and early registration deadline
+    datetime: '2026-10-04T23:59:00-12:00'
+    source_url: https://attend.ieee.org/slt-2026/camera-ready-instructions/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Organizer and SPS pages confirm Dec 13-16, 2026 at Hotel Saracen Sands, Isola delle Femmine, 15 km from
+    Palermo; accepted papers must be presented in person. Deadlines are 23:59 AoE. Regular and special-session papers
+    (6 + 2 pages, double-blind) moved from Jun 17 to Jun 24; OpenReview calls Jun 24 abstract registration and Jul
+    1 the full submission. Demo/system/data and challenge papers (3 + 1 pages) are also in IEEE Xplore. The SPS
+    journal-paper date has no call text and is schedule-only. SPS reports about 750 submissions; the program lists
+    323 papers. SPS calls this the final standalone SLT before its new ASLI conference (2027), so no SLT 2028 is
+    projected. Size is an editorial estimate.
+- id: snl-2027
+  series: SNL
+  year: 2027
+  title: Annual Meeting of the Society for the Neurobiology of Language
+  short_title: SNL 2027
+  website: https://neurolang.org/
+  cfp_url: https://neurolang.org/abstract-submissions/
+  source_urls:
+  - https://2026.neurolang.org/future-meetings/
+  - https://2026.neurolang.org/
+  - https://2026.neurolang.org/dates-and-deadlines/
+  - https://web.archive.org/web/20260422180425/https://2026.neurolang.org/dates-and-deadlines/
+  - https://2026.neurolang.org/abstract-submissions/
+  - https://2026.neurolang.org/symposium-submissions/
+  - https://2026.neurolang.org/submissions-faq/
+  - https://2026.neurolang.org/past-meetings/
+  - https://2026.neurolang.org/poster-sessions/
+  - https://2025.neurolang.org/deadlines/
+  location: Hong Kong, China
+  mode: in-person
+  conference_start: '2027-09-24'
+  conference_end: '2027-09-27'
+  timezone: Asia/Hong_Kong
+  topics:
+  - Neuroimaging & Brain Mapping
+  - EEG/MEG & Neural Signals
+  - Cognitive Science & Computational Cognition
+  - Systems & Experimental Neuroscience
+  size: L
+  submission_type: Abstract-based (peer-reviewed 500-word slide/poster abstracts printed in the meeting program;
+    no paper proceedings)
+  deadlines:
+  - type: symposium_proposal
+    label: Symposium proposals (organizer-led; organizer must be an SNL member)
+    datetime: '2027-03-20T23:59:00-12:00'
+    source_url: https://2026.neurolang.org/symposium-submissions/
+    confidence: estimated
+  - type: abstract
+    label: Slide/poster abstract submission (first author must be an SNL member)
+    datetime: '2027-05-17T23:59:00-12:00'
+    source_url: https://2026.neurolang.org/abstract-submissions/
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: SNL's future-meetings and home pages confirm SNL 2027 in Hong Kong, September 24-27, 2027; no 2027 site,
+    venue or call yet. Both deadlines are proxies from SNL 2026 shifted 360 days with the meeting start. Symposia
+    were due March 25 and abstracts May 22, 2026 as first published (extended to May 26), end of day in the latest
+    time zone on Earth. Abstract first authors and symposium organizers must be SNL members; the 2026 fee was $40.
+    Abstracts are peer-reviewed and printed in the program; there are no paper proceedings. Size from 643 posters
+    at SNL 2026 (first authors present); attendance is not published. Size is an editorial estimate.
+- id: umap-2027
+  series: UMAP
+  year: 2027
+  title: ACM International Conference on User Modeling, Adaptation and Personalization
+  short_title: UMAP 2027
+  website: https://um.org/umap2027/
+  cfp_url: https://um.org/umap2027/call-for-full-and-short-paper/
+  source_urls:
+  - https://um.org/umap2027/
+  - https://um.org/umap2027/call-for-full-and-short-paper/
+  - https://um.org/umap2027/call-for-industry-papers/
+  - https://um.org/umap2027/call-for-late-breaking-results-lbr-demos/
+  - https://um.org/umap2027/call-for-doctoral-consortium-submissions/
+  - https://um.org/umap2027/call-for-workshop-proposals/
+  - https://um.org/umap2027/call-for-tutorial-proposals/
+  - https://um.org/umap2027/proceedings-and-acm-open-policy/
+  - https://um.org/umap2027/venue/
+  - https://www.um.org/umap2026/wp-content/uploads/2026/06/Opening-slides-UMAP-2026.pdf
+  location: Chicago, Illinois, USA
+  mode: in-person
+  conference_start: '2027-06-09'
+  conference_end: '2027-06-12'
+  timezone: America/Chicago
+  topics:
+  - Recommender Systems
+  - Human-AI Interaction & Deployment
+  - Fairness & Responsible AI
+  size: M
+  submission_type: Paper-based / ACM Digital Library proceedings (open access)
+  deadlines:
+  - type: workshop_proposal
+    label: Workshop proposal submission
+    datetime: '2026-12-11T23:59:00-12:00'
+    source_url: https://um.org/umap2027/call-for-workshop-proposals/
+  - type: tutorial_proposal
+    label: Tutorial proposal submission
+    datetime: '2026-12-11T23:59:00-12:00'
+    source_url: https://um.org/umap2027/call-for-tutorial-proposals/
+  - type: abstract
+    label: Mandatory abstract registration for long and short papers (title, abstract, final author list)
+    datetime: '2027-01-22T23:59:00-12:00'
+    source_url: https://um.org/umap2027/call-for-full-and-short-paper/
+    gate_for: full_paper
+  - type: full_paper
+    label: Main-track long (8 pp) and short (4 pp) paper submission
+    datetime: '2027-01-29T23:59:00-12:00'
+    source_url: https://um.org/umap2027/call-for-full-and-short-paper/
+  - type: doctoral_consortium
+    label: Doctoral consortium submission (doctoral students only)
+    datetime: '2027-02-06T23:59:00-12:00'
+    source_url: https://um.org/umap2027/call-for-doctoral-consortium-submissions/
+  - type: notification
+    label: Long and short paper notification
+    datetime: '2027-03-15T23:59:00-12:00'
+    source_url: https://um.org/umap2027/call-for-full-and-short-paper/
+  - type: short_paper
+    label: Industry track paper submission (4 pp plus 1 p references, single-blind)
+    datetime: '2027-03-22T23:59:00-12:00'
+    source_url: https://um.org/umap2027/call-for-industry-papers/
+  - type: extended_abstract
+    label: Late-breaking results (LBR) and demo submission (up to 4 pp including references)
+    datetime: '2027-03-22T23:59:00-12:00'
+    source_url: https://um.org/umap2027/call-for-late-breaking-results-lbr-demos/
+  - type: camera_ready
+    label: Long and short paper camera-ready
+    datetime: '2027-03-30T23:59:00-12:00'
+    source_url: https://um.org/umap2027/call-for-full-and-short-paper/
+    cutoff_note: The paper call gives March 30, 2027; the homepage important dates give April 2, 2027.
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Official UMAP 2027 pages confirm the 35th edition, fully in person at Conviser Law Center, Chicago, June
+    9-12, 2027 (workshops and tutorials June 9; Doctoral Consortium for selected students June 8). All dates are
+    11:59 pm AoE. The January 22 abstract with the final author list is mandatory for long and short papers. Long,
+    short, industry, LBR and demo papers appear in the ACM DL (open access; long and short papers may owe an APC);
+    workshop papers go to CEUR-WS via per-workshop calls not yet published. On 2026-10-31 EasyChair said new submissions
+    were open, but several tracks share it, so no opening is recorded. UMAP 2026 accepted 57 of 195 main-track papers.
+    Size is an editorial estimate.
+- id: waspaa-2025
+  series: WASPAA
+  year: 2025
+  title: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics
+  short_title: WASPAA 2025
+  website: https://www.waspaa.com/waspaa25/
+  cfp_url: https://www.waspaa.com/waspaa25/call-for-papers/
+  source_urls:
+  - https://www.waspaa.com/waspaa25/
+  - https://www.waspaa.com/waspaa25/call-for-papers/
+  - https://www.waspaa.com/waspaa25/important-dates/
+  - https://www.waspaa.com/waspaa25/author-guidelines-and-paper-templates/
+  - https://www.waspaa.com/waspaa25/call-for-demonstrations/
+  - https://www.waspaa.com/waspaa25/registration/
+  - https://waspaa.com/past-waspaas/
+  - https://signalprocessingsociety.org/our-story/news-updates/2025/11/waspaa-2025-lake-tahoe-new-chapter-beloved-audio-and-acoustic-signal-processing-workshop
+  - https://ieeexplore.ieee.org/xpl/conhome/11230875/proceeding
+  location: Tahoe City, California, USA
+  mode: in-person
+  conference_start: '2025-10-12'
+  conference_end: '2025-10-15'
+  timezone: America/Los_Angeles
+  topics:
+  - Signal Processing
+  - Machine Learning
+  - Multimedia Learning & Retrieval
+  size: M
+  submission_type: Paper-based / 4+1-page double-blind papers, IEEE Xplore proceedings
+  deadlines:
+  - type: abstract
+    label: Initial CMT submission with title and abstract (mandatory; extended from Apr 23)
+    datetime: '2025-04-30T23:59:00-12:00'
+    source_url: https://www.waspaa.com/waspaa25/important-dates/
+    gate_for: full_paper
+  - type: full_paper
+    label: Full 4+1-page paper deadline (extended from Apr 30)
+    datetime: '2025-05-07T23:59:00-12:00'
+    source_url: https://www.waspaa.com/waspaa25/important-dates/
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2025-07-02T23:59:00-12:00'
+    source_url: https://www.waspaa.com/waspaa25/important-dates/
+    time_precision: date
+  - type: camera_ready
+    label: Camera-ready upload
+    datetime: '2025-07-16T23:59:00-12:00'
+    source_url: https://www.waspaa.com/waspaa25/author-guidelines-and-paper-templates/
+  - type: demo
+    label: Demonstration submissions (separate 2-page CMT track)
+    datetime: '2025-07-16T23:59:00-12:00'
+    source_url: https://www.waspaa.com/waspaa25/call-for-demonstrations/
+  - type: registration
+    label: Author registration deadline (extended from Aug 17)
+    datetime: '2025-08-19T23:59:00-12:00'
+    source_url: https://www.waspaa.com/waspaa25/important-dates/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Archived official pages confirm Granlibakken Tahoe Resort, Tahoe City, Oct 12-15, 2025, fully in-person
+    and the first WASPAA away from Mohonk Mountain House. All deadlines were 23:59 AoE; the initial CMT entry (title
+    and abstract) was mandatory, and both paper deadlines moved a week later. Papers were 4 pages plus a references
+    page, double-blind with rebuttal. The general chairs' SPS report gives 95 of 211 reviewed papers accepted (45%;
+    246 initial) and 169 attendees; the proceedings are in IEEE Xplore. Demos were a separate 2-page track. Size
+    is an editorial estimate.
+- id: waspaa-2027
+  series: WASPAA
+  year: 2027
+  title: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics
+  short_title: WASPAA 2027
+  website: https://waspaa.com/
+  cfp_url: https://waspaa.com/author-guidelines-and-paper-templates/
+  source_urls:
+  - https://waspaa.com/
+  - https://waspaa.com/author-guidelines-and-paper-templates/
+  - https://waspaa.com/organizing-committee/
+  - https://waspaa.com/past-waspaas/
+  - https://signalprocessingsociety.org/events/2027-ieee-workshop-applications-signal-processing-audio-and-acoustics-waspaa
+  location: Levi, Finland
+  mode: in-person
+  conference_start: '2027-09-19'
+  conference_end: '2027-09-22'
+  timezone: Europe/Helsinki
+  topics:
+  - Signal Processing
+  - Machine Learning
+  - Multimedia Learning & Retrieval
+  size: M
+  submission_type: Paper-based / 4+1-page double-blind papers; past editions in IEEE Xplore (2027 publication not
+    yet stated)
+  deadlines:
+  - type: abstract
+    label: Abstract submission, required before the paper
+    datetime: '2027-04-14T23:59:00-12:00'
+    source_url: https://waspaa.com/
+    time_precision: date
+    gate_for: full_paper
+  - type: full_paper
+    label: Final 4+1-page paper submission
+    datetime: '2027-04-21T23:59:00-12:00'
+    source_url: https://waspaa.com/
+    time_precision: date
+  - type: notification
+    label: Acceptance notification
+    datetime: '2027-07-02T23:59:00-12:00'
+    source_url: https://waspaa.com/
+    time_precision: date
+  - type: camera_ready
+    label: Camera-ready deadline
+    datetime: '2027-07-16T23:59:00-12:00'
+    source_url: https://waspaa.com/
+    time_precision: date
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: 'waspaa.com gives Levi, Finland (first WASPAA in Europe), Sep 19-22, 2027, in a tentative schedule subject
+    to small changes: abstract Apr 14, final paper Apr 21, notification Jul 2, camera-ready Jul 16. The IEEE SPS
+    listing gives the same place and dates, paper deadline TBD. All stay estimated until the call is posted (waspaa.com/call-for-papers/
+    returned 404 on 2026-10-31). No hour or zone is posted; 23:59 AoE follows 2025. The abstract is treated as a
+    mandatory gate, as the 2025 initial CMT entry was. Held every odd year since 1995. Size is an editorial estimate
+    (169 attendees, 95 papers in 2025).'
+- id: eaamo-2026
+  series: EAAMO
+  year: 2026
+  title: ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+  short_title: EAAMO 2026
+  website: https://conference2026.eaamo.org/
+  cfp_url: https://conference2026.eaamo.org/cfp/
+  source_urls:
+  - https://conference2026.eaamo.org/
+  - https://conference2026.eaamo.org/cfp/
+  - https://conference2026.eaamo.org/call_for_posters/
+  - https://conference2026.eaamo.org/registration/
+  - https://conference2026.eaamo.org/accepted_papers/
+  - https://conference2026.eaamo.org/program/paper_session/
+  - https://openreview.net/group?id=ACM.org/EAAMO/2026/Conference
+  location: Munich, Germany
+  mode: hybrid
+  conference_start: '2026-11-05'
+  conference_end: '2026-11-07'
+  timezone: Europe/Berlin
+  topics:
+  - Fairness & Responsible AI
+  - Ethics & Governance
+  - Machine Learning
+  size: M
+  submission_type: Paper-based / ACM DL proceedings (archival option) or non-archival; WiP posters non-archival
+  deadlines:
+  - type: abstract
+    label: Mandatory abstract registration on OpenReview
+    datetime: '2026-05-08T23:59:00-12:00'
+    gate_for: full_paper
+    cutoff_note: CFP gives May 8 AoE; the OpenReview venue page lists abstract registration until May 9, 13:00 UTC.
+    source_url: https://conference2026.eaamo.org/cfp/
+  - type: full_paper
+    label: Paper submission (archival or non-archival option)
+    datetime: '2026-05-15T23:59:00-12:00'
+    cutoff_note: CFP gives May 15 AoE; the OpenReview venue page lists the submission deadline as May 16, 13:00
+      UTC.
+    source_url: https://conference2026.eaamo.org/cfp/
+  - type: notification
+    label: Paper notification
+    datetime: '2026-08-01T23:59:00-12:00'
+    time_precision: date
+    source_url: https://conference2026.eaamo.org/cfp/
+  - type: poster
+    label: Work-in-progress poster (title and abstract; non-archival)
+    datetime: '2026-09-07T23:59:00-12:00'
+    source_url: https://conference2026.eaamo.org/call_for_posters/
+  - type: poster_notification
+    label: Work-in-progress poster notification
+    datetime: '2026-10-01T23:59:00-12:00'
+    time_precision: date
+    source_url: https://conference2026.eaamo.org/call_for_posters/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Sixth ACM EAAMO, Nov 5-7, 2026 at LMU Munich; virtual-only Zoom registration covers keynotes and paper
+    talks. Abstract/paper deadlines were postponed one week from May 1/8 (AoE). OpenReview's abstract registration
+    stage gates papers, which choose an archival (ACM DL, up to 14 pages camera-ready) or non-archival option; double-blind,
+    six tracks. WiP posters need only a title and abstract and are not in the proceedings. Size basis is 70 accepted
+    papers (34 orals, 36 posters) and a 150+ seat main hall in the host call. Size is an editorial estimate.
+- id: eaamo-2027
+  series: EAAMO
+  year: 2027
+  title: ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+  short_title: EAAMO 2027
+  website: https://conference.eaamo.org/
+  cfp_url: https://conference.eaamo.org/cfp/
+  source_urls:
+  - https://conference.eaamo.org/call_for_location/
+  - https://conference.eaamo.org/past_conferences/
+  - https://conference2026.eaamo.org/cfp/
+  - https://conference2026.eaamo.org/call_for_posters/
+  location: To be announced
+  mode: hybrid
+  conference_start: '2027-11-04'
+  conference_end: '2027-11-06'
+  topics:
+  - Fairness & Responsible AI
+  - Ethics & Governance
+  - Machine Learning
+  size: M
+  submission_type: Paper-based / ACM DL proceedings (archival option) or non-archival; WiP posters non-archival
+  deadlines:
+  - type: abstract
+    label: Mandatory abstract registration
+    datetime: '2027-04-30T23:59:00-12:00'
+    gate_for: full_paper
+    confidence: estimated
+    source_url: https://conference2026.eaamo.org/cfp/
+  - type: full_paper
+    label: Paper submission (archival or non-archival option)
+    datetime: '2027-05-07T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://conference2026.eaamo.org/cfp/
+  - type: poster
+    label: Work-in-progress poster (title and abstract; non-archival)
+    datetime: '2027-09-06T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://conference2026.eaamo.org/call_for_posters/
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: As of 2026-10-31 conference.eaamo.org covers only EAAMO 2026 and runs a call for 2027 host proposals (timing
+    last week of October or first week of November); no 2027 host, dates or call exist. Annual since 2021. Meeting
+    and AoE dates are one-year same-weekday proxies from EAAMO 2026, using its original May 1/8 abstract/paper dates,
+    not the one-week postponement (2025 used Apr 24/May 1). The poster proxy follows 2026's Sep 7 call; 2025's closed
+    Jul 25. Mode assumes the virtual option of 2025-2026. Size follows 2026. Size is an editorial estimate.
+- id: ecaf-2027
+  series: ECAF
+  year: 2027
+  title: European Conference on Algorithmic Fairness
+  short_title: ECAF 2027
+  website: https://2027.ecafconference.org/
+  cfp_url: https://2027.ecafconference.org/callForPapers
+  source_urls:
+  - https://2027.ecafconference.org/
+  - https://2027.ecafconference.org/callForPapers
+  - https://2027.ecafconference.org/callForPosters
+  - https://2027.ecafconference.org/callForInteractiveSessions
+  - https://2027.ecafconference.org/venue
+  - https://2026.ecafconference.org/callForPapers
+  - https://2026.ecafconference.org/callForPosters
+  - https://2026.ecafconference.org/callForInteractiveSessions
+  - https://2025.ewaf.org/
+  - https://ecafconference.org/
+  - https://ecafconference.org/news/ecaf27-call-for-organizers/
+  - https://proceedings.mlr.press/v350/
+  location: Vilnius, Lithuania
+  mode: in-person
+  conference_start: '2027-08-25'
+  conference_end: '2027-08-27'
+  timezone: Europe/Vilnius
+  topics:
+  - Fairness & Responsible AI
+  - Ethics & Governance
+  size: M
+  submission_type: Full papers or extended abstracts / PMLR proceedings or non-archival (author's choice); non-archival
+    posters
+  deadlines:
+  - type: full_paper
+    label: Estimated full paper (15 pp) / extended abstract (4 pp) submission deadline
+    datetime: '2027-04-09T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://2026.ecafconference.org/callForPapers
+  - type: interactive_session_proposal
+    label: Estimated interactive session proposal deadline (workshops, panels, other formats)
+    datetime: '2027-05-07T23:59:00-12:00'
+    time_precision: date
+    confidence: estimated
+    source_url: https://2026.ecafconference.org/callForInteractiveSessions
+  - type: poster
+    label: Estimated non-archival poster submission deadline
+    datetime: '2027-08-07T23:59:00-12:00'
+    confidence: estimated
+    source_url: https://2026.ecafconference.org/callForPosters
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Sixth edition (EWAF until 2025), run annually by the European Association for Algorithmic Fairness. On
+    2026-10-31 the official site confirms Vilnius University, Aug 25-27, 2027, with all calls TBA and no OpenReview
+    group yet. Estimates keep ECAF 2026 lead times (meeting Sep 2-4; papers Apr 17, extended to Apr 30 23:59 AoE;
+    session proposals May 15, no hour; posters Aug 15 AoE); EWAF 2025 used a shorter 109-day paper lead. Full papers
+    and 4-page extended abstracts share one route; authors choose PMLR or non-archival. Posters admit early or previously
+    submitted work. Size M from about 200 expected participants and 69 accepted papers in 2026. Size is an editorial
+    estimate.
+- id: ifac-wc-2029
+  series: IFAC WC
+  year: 2029
+  title: World Congress of the International Federation of Automatic Control
+  short_title: IFAC WC 2029
+  website: https://conferences.ifac-control.org/wc2029/
+  cfp_url: https://conferences.ifac-control.org/wc2029/
+  source_urls:
+  - https://conferences.ifac-control.org/wc2029/
+  - https://conferences.ifac-control.org/wc2029/venue/
+  - https://conferences.ifac-control.org/wc2029/general-information/
+  - https://ifac-control.org/conferences/ifac-congresses/
+  - https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+  - https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21648&hl=ENG
+  - https://www.ifac2023.org/archives/001/202404/IFAC2023_FinalReport.pdf
+  location: Amsterdam, Netherlands
+  mode: in-person
+  conference_start: '2029-07-08'
+  conference_end: '2029-07-13'
+  timezone: Europe/Amsterdam
+  topics:
+  - Control & Robotics
+  - System Identification & Data-driven Dynamics
+  - Nonlinear Dynamics & Chaos
+  size: XL
+  submission_type: Paper-based / IFAC-PapersOnLine open-access proceedings; late-breaking/discussion papers non-archival
+    (preprints only)
+  deadlines:
+  - type: full_paper
+    label: Estimated regular/survey paper deadline (also invited-session, open-invited-track and demonstration papers)
+    datetime: '2028-10-11T23:59:00-12:00'
+    time_precision: date
+    confidence: estimated
+    source_url: https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+  - type: discussion_paper
+    label: Estimated late-breaking/discussion paper deadline (1-4 pages, preprints only, non-archival)
+    datetime: '2029-01-13T23:59:00-12:00'
+    time_precision: date
+    confidence: estimated
+    source_url: https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: IFAC's triennial flagship since 1960. The official site confirms the 24th congress at Amsterdam RAI, July
+    8-13, 2029; on 2026-10-31 it posts no call, deadlines or submission site. Both deadlines keep the original 2026
+    lead times (Busan, Aug 23-28), i.e. papers 270 and discussion papers 176 days before the meeting; 2023, also
+    in July, used Oct 31 for papers. Cutoff hours are unknown. The 2026 IFAC-journal option is omitted (absent in
+    2023). Papers appear open access in IFAC-PapersOnLine; discussion papers only in preprints. XL rests on IFAC's
+    up to 4,000 attendees and 3,206 delegates in 2023. Size is an editorial estimate.
+- id: siam-mds-2026
+  series: SIAM MDS
+  year: 2026
+  title: SIAM Conference on Mathematics of Data Science
+  short_title: SIAM MDS 2026
+  website: https://www.siam.org/conferences-events/siam-conferences/mds26/
+  cfp_url: https://www.siam.org/conferences-events/siam-conferences/mds26/submissions/
+  source_urls:
+  - https://engage.siam.org/events/event-description?CalendarEventKey=1e208b3f-237c-4753-826e-019d075b34d7&Home=%2fevents%2fcalendar
+  - https://meetings.siam.org/start.cfm?CONFCODE=mds26
+  - https://meetings.siam.org/program.cfm?CONFCODE=mds26
+  - https://web.archive.org/web/20260419233120/https://www.siam.org/conferences-events/siam-conferences/mds26/submissions/
+  location: Salt Lake City, Utah, USA
+  mode: in-person
+  conference_start: '2026-11-16'
+  conference_end: '2026-11-20'
+  timezone: America/Denver
+  topics:
+  - Learning Theory & Statistical Foundations
+  - Machine Learning
+  - Data Mining & Data Science
+  size: L
+  submission_type: Abstract-based / non-archival (minisymposia and contributed posters)
+  deadlines:
+  - type: minisymposium_proposal
+    label: Minisymposium and miniposterium proposals
+    datetime: '2026-04-20T23:59:00-04:00'
+    source_url: https://web.archive.org/web/20260419233120/https://www.siam.org/conferences-events/siam-conferences/mds26/submissions/
+    cutoff_note: siam.org (archived Apr 19, 2026) stated Apr 20, 11:59 pm ET; the SIAM participation system lists
+      Apr 30. Earliest stated cutoff stored.
+  - type: poster
+    label: Contributed poster abstracts (no contributed lectures solicited)
+    datetime: '2026-05-18T23:59:00-04:00'
+    source_url: https://meetings.siam.org/start.cfm?CONFCODE=mds26
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: Conference of the SIAM Activity Group on Data Science, held jointly with IS26 and SDM26 at the Salt Palace
+    Convention Center. SIAM's event listing and participation system (read 2026-10-31; siam.org returned HTTP 403,
+    so its Apr 19 archived submissions page was used) confirm Nov 16-20 and closed calls at 11:59 pm ET. Contributed
+    lectures were not solicited; minisymposium speaker abstracts (May 18) come by organizer invitation. The call
+    asks only for 1,500-character presentation abstracts and names no proceedings. Size L reflects 217 minisymposium
+    sessions, plenaries and a joint poster session in the program. Size is an editorial estimate.
+- id: siam-mds-2028
+  series: SIAM MDS
+  year: 2028
+  title: SIAM Conference on Mathematics of Data Science
+  short_title: SIAM MDS 2028
+  website: https://www.siam.org/get-involved/connect-with-a-community/activity-groups/data-science/
+  cfp_url: https://www.siam.org/conferences-events/siam-conferences/mds26/submissions/
+  source_urls:
+  - https://web.archive.org/web/20250623175859/https://www.siam.org/get-involved/connect-with-a-community/activity-groups/data-science/
+  - https://meetings.siam.org/start.cfm?CONFCODE=mds26
+  - https://meetings.siam.org/start.cfm?CONFCODE=mds24
+  - https://meetings.siam.org/start.cfm?CONFCODE=mds22
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-11-13'
+  conference_end: '2028-11-17'
+  timezone: America/Denver
+  topics:
+  - Learning Theory & Statistical Foundations
+  - Machine Learning
+  - Data Mining & Data Science
+  size: L
+  submission_type: Abstract-based / non-archival (minisymposia and contributed posters)
+  deadlines:
+  - type: minisymposium_proposal
+    label: Minisymposium and miniposterium proposals
+    datetime: '2028-04-17T23:59:00-04:00'
+    source_url: https://web.archive.org/web/20260419233120/https://www.siam.org/conferences-events/siam-conferences/mds26/submissions/
+    confidence: estimated
+  - type: poster
+    label: Contributed poster abstracts
+    datetime: '2028-05-15T23:59:00-04:00'
+    source_url: https://meetings.siam.org/start.cfm?CONFCODE=mds26
+    confidence: estimated
+  last_checked: '2026-10-31'
+  confidence: estimated
+  notes: SIAM's data-science activity group calls MDS biennial in even years (MDS22 Sep 26-30, MDS24 Oct 21-25,
+    MDS26 Nov 16-20, each Monday to Friday). As of 2026-10-31 no MDS28 dates, host or call are published, and the
+    SIAM participation system has no mds28 code. Meeting dates and the proposal and poster-abstract cutoffs (11:59
+    pm ET) are same-weekday two-year proxies from MDS26 (Apr 20 and May 18, 2026); timing has drifted later each
+    edition. MDS24 and MDS26 took contributed posters but no contributed lectures. Presentation abstracts only,
+    non-archival. Size is an editorial estimate.

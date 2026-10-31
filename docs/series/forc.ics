@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FORC (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:forc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261112T115900Z
+DTEND:20261112T125900Z
+SUMMARY:FORC 2027 · First-cycle paper submission (archival\, LIPIcs)
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nFormat: Paper-based / LIPIcs proceedings (10 pages\, 
+ or a one-page abstract on request)\; non-archival highlights talks\nOffic
+ ial source: https://responsiblecomputing.org/forc-2027-call-for-papers/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:FORC 2027 · First-cycle author notification
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / LIPIcs p
+ roceedings (10 pages\, or a one-page abstract on request)\; non-archival 
+ highlights talks\nOfficial source: https://responsiblecomputing.org/forc-
+ 2027-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-highlights-nomination@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270218T115900Z
+DTEND:20270218T125900Z
+SUMMARY:FORC 2027 · Highlights-track talk nomination (non-archival\, one p
+ age)
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nFormat: Paper-based / LIPIcs proceedings (10 pages\, 
+ or a one-page abstract on request)\; non-archival highlights talks\nOffic
+ ial source: https://responsiblecomputing.org/forc-2027-call-for-papers/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270218T115900Z
+DTEND:20270218T125900Z
+SUMMARY:FORC 2027 · Second-cycle paper submission (archival\, LIPIcs)
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nFormat: Paper-based / LIPIcs proceedings (10 pages\, 
+ or a one-page abstract on request)\; non-archival highlights talks\nOffic
+ ial source: https://responsiblecomputing.org/forc-2027-call-for-papers/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-second-cycle-notification@scientific-conference-cale
+ ndar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:FORC 2027 · Second-cycle author notification
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / LIPIcs p
+ roceedings (10 pages\, or a one-page abstract on request)\; non-archival 
+ highlights talks\nOfficial source: https://responsiblecomputing.org/forc-
+ 2027-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270605
+SUMMARY:FORC 2027 · Conference
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nStatus: conf
+ irmed\, checked 2026-10-31\nOfficial source: https://responsiblecomputing
+ .org/forc-2027-call-for-papers/\nVenue Radar: https://gon-uri.github.io/v
+ enue-radar/#forc-2027\nNotes: 8th annual FORC (annual since 2020\; LIPIcs
+  proceedings). The 2027 CFP confirms Stanford University\, June 2-4\, 202
+ 7\, and two archival paper cycles due Nov 11\, 2026 and Feb 17\, 2027 AoE
+ \; cycle-1 rejects should resubmit only after addressing the reviews\, wi
+ th a change note. Highlights nominations (one page\, Feb 17 AoE\; own or 
+ others' already-public papers\, tutorials or panels) stay schedule-only. 
+ On 2026-10-31 the OpenReview API showed the cycle-1 submission invitation
+  active for any user (opened Oct 22\; due Nov 12 11:59 UTC). Size S from 
+ 22 papers of 45 submissions plus 14 highlight talks in 2026. Size is an e
+ ditorial estimate.
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+LOCATION:Stanford\, California\, USA
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,155 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PPSN (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ppsn-2026-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260223T115900Z
+DTEND:20260223T125900Z
+SUMMARY:PPSN 2026 · Extended tutorial proposal deadline
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260313015745/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260313015745/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260223T115900Z
+DTEND:20260223T125900Z
+SUMMARY:PPSN 2026 · Extended workshop proposal deadline
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260313015745/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260313015745/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260419T115900Z
+DTEND:20260419T125900Z
+SUMMARY:PPSN 2026 · Extended full-paper submission deadline (LNCS\, up to 
+ 14 pages)
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260528T115900Z
+DTEND:20260528T125900Z
+SUMMARY:PPSN 2026 · Extended acceptance notification
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260613T115900Z
+DTEND:20260613T125900Z
+SUMMARY:PPSN 2026 · Camera-ready papers and author registration due
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
+ , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
+ ll accepted papers presented as posters\nOfficial source: https://web.arc
+ hive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ppsn-2026
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260903
+SUMMARY:PPSN 2026 · Conference
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://ppsn2
+ 026.disi.unitn.it/\nVenue Radar: https://gon-uri.github.io/venue-radar/#p
+ psn-2026\nNotes: 19th PPSN\, hosted by the University of Trento at Trento
+  Expo\; workshops and tutorials Aug 29-30\, main program Aug 31-Sep 2. In
+  person only (virtual participation not possible). Single-blind LNCS pape
+ rs of up to 14 pages plus references\; all accepted papers are posters an
+ d appear in Springer LNCS 16985-16989. The Mar 28 paper deadline was exte
+ nded to Apr 18 and notification from May 22 to May 27\; workshop/tutorial
+  proposals moved from Feb 8 to Feb 22. All cutoffs are end of day AoE. Th
+ e live site hides its dates\; archived snapshots are cited. Workshop pape
+ rs are not in the proceedings. Size M from 165 papers in 8 poster session
+ s\; no official acceptance rate found. Size is an editorial estimate.
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ppsn2026.disi.unitn.it/
+LOCATION:Trento\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280329T115900Z
+DTEND:20280329T125900Z
+SUMMARY:PPSN 2028 (est.) · Full-paper submission deadline
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2028-08-29 to 2028-09-02 (est.)\, To be announced\nStatus: es
+ timated\, checked 2026-10-31. Check the organizer's call before relying o
+ n it.\nFormat: Paper-based / Springer LNCS proceedings\; all accepted pap
+ ers presented as posters\nPrevious edition's page: https://web.archive.or
+ g/web/20260617225021/https://ppsn2026.disi.unitn.it/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#ppsn-2028
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
+ it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280829
+DTEND;VALUE=DATE:20280903
+SUMMARY:PPSN 2028 (est.) · Conference
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nStatus: estimated\, checked 2026-10-31. Check the organizer's call bef
+ ore relying on it.\nOfficial source: https://groups.google.com/g/coseal/c
+ /BedmaxGfolg\nVenue Radar: https://gon-uri.github.io/venue-radar/#ppsn-20
+ 28\nNotes: The 20th PPSN is due in 2028\, but no host or dates exist. On 
+ 2026-09-16 the Steering Committee chair called for host bids until Nov 30
+ \, 2026\, with a decision tentatively by mid-January 2027\; that call kee
+ ps poster presentation of all accepted papers and Springer LNCS proceedin
+ gs. Meeting dates (Aug 29-Sep 2) and the Mar 28 AoE paper deadline are tw
+ o-year proxies from PPSN 2026\, using its original pre-extension deadline
+  (extended to Apr 18 in 2026). In-person mode is assumed from 2026. Size 
+ is an editorial estimate.
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://groups.google.com/g/coseal/c/BedmaxGfolg
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

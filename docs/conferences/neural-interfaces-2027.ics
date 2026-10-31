@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Neural Interfaces 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:neural-interfaces-2027-deadline-speaker-proposal@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261012T180000Z
+DTEND:20261012T190000Z
+SUMMARY:Neural Interfaces 2027 · Call for Proposals (speaker and session i
+ deas that build the agenda\; not a research-abstract route)
+DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
+ \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-10-31\nFo
+ rmat: Abstract-based / oral or poster presentations\; no proceedings anno
+ unced\nOfficial source: https://www.nans.org/neural-interfaces/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#neural-interfaces-2027
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
+END:VEVENT
+BEGIN:VEVENT
+UID:neural-interfaces-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270217T180000Z
+DTEND:20270217T190000Z
+SUMMARY:Neural Interfaces 2027 · Original research abstract submission (ca
+ ll opens November 12\, 2026)
+DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
+ \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-10-31\nCu
+ toff note: Page says Feb 17\, 2027\, 1:00 PM CDT\, but Central clocks are
+  on CST (UTC-6) then. Earliest (CDT) instant stored.\nFormat: Abstract-ba
+ sed / oral or poster presentations\; no proceedings announced\nOfficial s
+ ource: https://www.nans.org/neural-interfaces/\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#neural-interfaces-2027
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
+END:VEVENT
+BEGIN:VEVENT
+UID:neural-interfaces-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270523
+SUMMARY:Neural Interfaces 2027 · Conference
+DESCRIPTION:Neural Interfaces Conference\nStatus: confirmed\, checked 2026-
+ 10-31\nOfficial source: https://www.nans.org/neural-interfaces/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#neural-interfaces-2027\nNotes
+ : NANS's official pages confirm Neural Interfaces 2027 on May 20-22\, 202
+ 7 in Arlington\, Virginia (venue not named). Original research abstracts 
+ are accepted from November 12\, 2026 (day only) to February 17\, 2027\, 1
+ :00 PM\; details are pending. The closed Call for Proposals gathered spea
+ ker and session ideas. In 2025 (June 12-14\, Arlington) abstracts were bl
+ ind-reviewed for oral or paper-poster slots and published in meeting mate
+ rials\; no proceedings are stated. Billed as biennial (2012\, 2014 and 20
+ 16 editions are documented)\, but NANS's recent editions were 2021 and 20
+ 25. Size M reflects a three-day hotel meeting with poster receptions\; no
+  attendance is published. Size is an editorial estimate.
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
+LOCATION:Arlington\, Virginia\, USA
+END:VEVENT
+END:VCALENDAR

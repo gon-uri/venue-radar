@@ -10,6 +10,141 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:icwsm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20250916T115900Z
+DTEND:20250916T125900Z
+SUMMARY:ICWSM 2026 · Round 2: new full papers (also R&Rs from May 2025)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2026-05-26 to 2026-05-29\, Los Angeles\, California\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceedings\;
+  non-archival Social Science and Sociophysics track (abstract only)\nOffi
+ cial source: https://www.icwsm.org/2026/submit.html\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#icwsm-2026
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2026/submit.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2026-deadline-round-2-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20251115
+DTEND;VALUE=DATE:20251116
+SUMMARY:ICWSM 2026 · Round 2 notification
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2026-05-26 to 2026-05-29\, Los Angeles\, California\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / A
+ AAI ICWSM proceedings\; non-archival Social Science and Sociophysics trac
+ k (abstract only)\nOfficial source: https://www.icwsm.org/2026/submit.htm
+ l\nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2026
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2026/submit.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260116T115900Z
+DTEND:20260116T125900Z
+SUMMARY:ICWSM 2026 · Poster papers (January round only)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2026-05-26 to 2026-05-29\, Los Angeles\, California\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceedings\;
+  non-archival Social Science and Sociophysics track (abstract only)\nOffi
+ cial source: https://www.icwsm.org/2026/submit.html\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#icwsm-2026
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2026/submit.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2026-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260116T115900Z
+DTEND:20260116T125900Z
+SUMMARY:ICWSM 2026 · Round 3 (final): new full papers (also R&Rs from Sept
+ ember 2025)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2026-05-26 to 2026-05-29\, Los Angeles\, California\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceedings\;
+  non-archival Social Science and Sociophysics track (abstract only)\nOffi
+ cial source: https://www.icwsm.org/2026/submit.html\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#icwsm-2026
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2026/submit.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2026-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260116T115900Z
+DTEND:20260116T125900Z
+SUMMARY:ICWSM 2026 · Dataset papers (January round only\; dataset DOI requ
+ ired)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2026-05-26 to 2026-05-29\, Los Angeles\, California\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceedings\;
+  non-archival Social Science and Sociophysics track (abstract only)\nOffi
+ cial source: https://www.icwsm.org/2026/submit.html\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#icwsm-2026
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2026/submit.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2026-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+SUMMARY:ICWSM 2026 · Tutorial proposals (by email)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2026-05-26 to 2026-05-29\, Los Angeles\, California\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / A
+ AAI ICWSM proceedings\; non-archival Social Science and Sociophysics trac
+ k (abstract only)\nOfficial source: https://www.icwsm.org/2026/submit.htm
+ l\nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2026
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2026/submit.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260130
+DTEND;VALUE=DATE:20260131
+SUMMARY:ICWSM 2026 · Workshop proposals (by email)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2026-05-26 to 2026-05-29\, Los Angeles\, California\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / A
+ AAI ICWSM proceedings\; non-archival Social Science and Sociophysics trac
+ k (abstract only)\nOfficial source: https://www.icwsm.org/2026/submit.htm
+ l\nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2026
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2026/submit.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:ICWSM 2026 · Round 3 notification (full\, poster\, demo and datase
+ t papers)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2026-05-26 to 2026-05-29\, Los Angeles\, California\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / A
+ AAI ICWSM proceedings\; non-archival Social Science and Sociophysics trac
+ k (abstract only)\nOfficial source: https://www.icwsm.org/2026/submit.htm
+ l\nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2026
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2026/submit.html
+END:VEVENT
+BEGIN:VEVENT
 UID:colm-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260327T115900Z
@@ -19,9 +154,7 @@ DESCRIPTION:Conference on Language Modeling\nMeeting: 2026-10-06 to 2026-10
  -09\, San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-
  10-07\nFormat: Paper-based\nOfficial source: https://colm.cc/Conferences/
  2026/CallForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#c
- olm-2026\nNotes: Third annual edition\, Hilton Union Square. Ongoing conf
- erence with new-paper submissions closed\; October 9 workshops included. 
- Size is an editorial estimate.
+ olm-2026
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://colm.cc/Conferences/2026/CallForPapers
@@ -36,9 +169,7 @@ DESCRIPTION:Conference on Language Modeling\nMeeting: 2026-10-06 to 2026-10
  -09\, San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-
  10-07\nFormat: Paper-based\nOfficial source: https://colm.cc/Conferences/
  2026/CallForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#c
- olm-2026\nNotes: Third annual edition\, Hilton Union Square. Ongoing conf
- erence with new-paper submissions closed\; October 9 workshops included. 
- Size is an editorial estimate.
+ olm-2026
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://colm.cc/Conferences/2026/CallForPapers
@@ -52,10 +183,7 @@ SUMMARY:ISWC 2026 · Research/resource/in-use abstract deadline
 DESCRIPTION:International Semantic Web Conference\nMeeting: 2026-10-25 to 2
  026-10-29\, Bari\, Italy\nStatus: confirmed\, checked 2026-10-07\nFormat:
   Paper-based\nOfficial source: https://iswc2026.semanticweb.org/important
- dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026\nNot
- es: Semantic Web ISWC\, not IEEE Symposium on Wearable Computers. Officia
- l JavaScript-rendered date table specifies 23:59 AoE\; main sessions Octo
- ber 27-29 after workshops/tutorials. Size is an editorial estimate.
+ dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -69,10 +197,7 @@ SUMMARY:ISWC 2026 · Research/resource/in-use paper deadline
 DESCRIPTION:International Semantic Web Conference\nMeeting: 2026-10-25 to 2
  026-10-29\, Bari\, Italy\nStatus: confirmed\, checked 2026-10-07\nFormat:
   Paper-based\nOfficial source: https://iswc2026.semanticweb.org/important
- dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026\nNot
- es: Semantic Web ISWC\, not IEEE Symposium on Wearable Computers. Officia
- l JavaScript-rendered date table specifies 23:59 AoE\; main sessions Octo
- ber 27-29 after workshops/tutorials. Size is an editorial estimate.
+ dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -87,11 +212,7 @@ DESCRIPTION:ACM International Conference on Information and Knowledge Manag
  ement\nMeeting: 2026-11-07 to 2026-11-11\, Rome\, Italy\nStatus: confirme
  d\, checked 2026-10-28\nFormat: Paper-based\nOfficial source: https://cik
  m2026.diag.uniroma1.it/full-research-papers/\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#cikm-2026\nNotes: Official CIKM 2026 pages (rech
- ecked 2026-10-28) confirm Rome\, Nov 7-11 (tutorials/PhD symposium Nov 7\
- , workshops Nov 8\, main conference Nov 9-11) and AoE full-paper deadline
- s of May 16 (abstract) and May 23. Short\, resource and demo papers had a
-  separate May 30/June 6 cycle\, not tracked here.
+ i.github.io/venue-radar/#cikm-2026
 CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
@@ -106,14 +227,34 @@ DESCRIPTION:ACM International Conference on Information and Knowledge Manag
  ement\nMeeting: 2026-11-07 to 2026-11-11\, Rome\, Italy\nStatus: confirme
  d\, checked 2026-10-28\nFormat: Paper-based\nOfficial source: https://cik
  m2026.diag.uniroma1.it/full-research-papers/\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#cikm-2026\nNotes: Official CIKM 2026 pages (rech
- ecked 2026-10-28) confirm Rome\, Nov 7-11 (tutorials/PhD symposium Nov 7\
- , workshops Nov 8\, main conference Nov 9-11) and AoE full-paper deadline
- s of May 16 (abstract) and May 23. Short\, resource and demo papers had a
-  separate May 30/June 6 cycle\, not tracked here.
+ i.github.io/venue-radar/#cikm-2026
 CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260530
+SUMMARY:ICWSM 2026 · Conference
+DESCRIPTION:International AAAI Conference on Web and Social Media\nStatus: 
+ confirmed\, checked 2026-10-31\nOfficial source: https://www.icwsm.org/20
+ 26/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2026\nNote
+ s: 20th ICWSM (AAAI). Main conference May 27-29\, 2026 at the Los Angeles
+  Airport Marriott\; workshops and tutorials May 26 at USC ISI. Accepted p
+ apers had to be presented in person (Zoom viewing only for developing-cou
+ ntry residents). Full-paper rounds closed May 15 and Sep 15\, 2025 and Ja
+ n 15\, 2026 at 23:59 AoE\; Round 1 is not stored because only two paper-r
+ ound types exist. Posters\, demos (not tracked) and dataset papers used o
+ nly the January round. Proposal and notification days carry no explicit h
+ our. Social Science and Sociophysics track papers publish abstracts only.
+  The official program lists 186 papers (154 full\, 20 dataset\, 8 poster\
+ , 4 demo). Size is an editorial estimate.
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2026/
+LOCATION:Los Angeles\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2026-deadline-full-paper@scientific-conference-calendar
@@ -125,10 +266,7 @@ DESCRIPTION:Conference on Empirical Methods in Natural Language Processing\
  nMeeting: 2026-10-24 to 2026-10-29\, Budapest\, Hungary\nStatus: confirme
  d\, checked 2026-10-07\nFormat: Paper-based\nOfficial source: https://202
  6.emnlp.org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#emnlp-2026\nNotes: ARR fresh-paper submissions are 
- closed. Commitment is only for reviewed papers and is not a new-paper rou
- te. Full conference window includes workshops. Size is an editorial estim
- ate.
+ ithub.io/venue-radar/#emnlp-2026
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2026.emnlp.org/calls/main_conference_papers/
@@ -143,11 +281,7 @@ DESCRIPTION:Asia-Pacific ACL and International Joint Conference on Natural
  Language Processing\nMeeting: 2026-11-06 to 2026-11-10\, Hengqin\, China\
  nStatus: confirmed\, checked 2026-10-07\nFormat: Paper-based\nOfficial so
  urce: https://2026.aaclnet.org/calls/main_conference_papers/\nVenue Radar
- : https://gon-uri.github.io/venue-radar/#ijcnlp-2026\nNotes: Joint AACL-I
- JCNLP 2026 is one edition under the IJCNLP series\, not two conferences. 
- ARR submissions and both commitment rounds are closed. Joint-series recur
- rence is irregular\; do not automatically invent an annual next edition. 
- Size is an editorial estimate.
+ : https://gon-uri.github.io/venue-radar/#ijcnlp-2026
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2026.aaclnet.org/calls/main_conference_papers/
@@ -162,10 +296,7 @@ DESCRIPTION:Conference on Empirical Methods in Natural Language Processing\
  nMeeting: 2026-10-24 to 2026-10-29\, Budapest\, Hungary\nStatus: confirme
  d\, checked 2026-10-07\nFormat: Paper-based\nOfficial source: https://202
  6.emnlp.org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#emnlp-2026\nNotes: ARR fresh-paper submissions are 
- closed. Commitment is only for reviewed papers and is not a new-paper rou
- te. Full conference window includes workshops. Size is an editorial estim
- ate.
+ ithub.io/venue-radar/#emnlp-2026
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2026.emnlp.org/calls/main_conference_papers/
@@ -179,10 +310,7 @@ SUMMARY:ISWC 2026 · Research/resource/in-use camera-ready deadline
 DESCRIPTION:International Semantic Web Conference\nMeeting: 2026-10-25 to 2
  026-10-29\, Bari\, Italy\nStatus: confirmed\, checked 2026-10-07\nFormat:
   Paper-based\nOfficial source: https://iswc2026.semanticweb.org/important
- dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026\nNot
- es: Semantic Web ISWC\, not IEEE Symposium on Wearable Computers. Officia
- l JavaScript-rendered date table specifies 23:59 AoE\; main sessions Octo
- ber 27-29 after workshops/tutorials. Size is an editorial estimate.
+ dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2026
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -197,16 +325,7 @@ DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
  hecked 2026-10-30\nFormat: Paper-based\nOfficial source: https://www.wsdm
  -conference.org/2027/cffp.html\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#wsdm-2027\nNotes: Official WSDM 2027 pages (rechecked 2026-10-
- 30) list Hong Kong (Cordis)\, Feb 15-19\, and AoE deadlines: full-paper a
- bstract Aug 17 and paper Aug 24\, 2026 (closed\; notification Nov 2)\, sh
- ort papers (up to 4 pages\, new work) Nov 17\, doctoral consortium (singl
- e-author student packet) Nov 12\, and WSDM Day presentations Nov 30\, 202
- 6 (2-page extended abstract on search\, data mining and agentic AI\; unpu
- blished or under-review work welcome\; oral or poster on Feb 19\, in the 
- proceedings). Demo papers closed Oct 15\, 2026. Industry Day talk proposa
- ls (2 pages with speaker bio\, due Oct 30) are not tracked as a paper rou
- te.
+ nue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
  le AI,Human-AI Interaction & Deployment
 URL:https://www.wsdm-conference.org/2027/cffp.html
@@ -221,16 +340,7 @@ DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
  hecked 2026-10-30\nFormat: Paper-based\nOfficial source: https://www.wsdm
  -conference.org/2027/cffp.html\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#wsdm-2027\nNotes: Official WSDM 2027 pages (rechecked 2026-10-
- 30) list Hong Kong (Cordis)\, Feb 15-19\, and AoE deadlines: full-paper a
- bstract Aug 17 and paper Aug 24\, 2026 (closed\; notification Nov 2)\, sh
- ort papers (up to 4 pages\, new work) Nov 17\, doctoral consortium (singl
- e-author student packet) Nov 12\, and WSDM Day presentations Nov 30\, 202
- 6 (2-page extended abstract on search\, data mining and agentic AI\; unpu
- blished or under-review work welcome\; oral or poster on Feb 19\, in the 
- proceedings). Demo papers closed Oct 15\, 2026. Industry Day talk proposa
- ls (2 pages with speaker bio\, due Oct 30) are not tracked as a paper rou
- te.
+ nue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
  le AI,Human-AI Interaction & Deployment
 URL:https://www.wsdm-conference.org/2027/cffp.html
@@ -245,11 +355,7 @@ DESCRIPTION:Asia-Pacific ACL and International Joint Conference on Natural
  Language Processing\nMeeting: 2026-11-06 to 2026-11-10\, Hengqin\, China\
  nStatus: confirmed\, checked 2026-10-07\nFormat: Paper-based\nOfficial so
  urce: https://2026.aaclnet.org/calls/main_conference_papers/\nVenue Radar
- : https://gon-uri.github.io/venue-radar/#ijcnlp-2026\nNotes: Joint AACL-I
- JCNLP 2026 is one edition under the IJCNLP series\, not two conferences. 
- ARR submissions and both commitment rounds are closed. Joint-series recur
- rence is irregular\; do not automatically invent an annual next edition. 
- Size is an editorial estimate.
+ : https://gon-uri.github.io/venue-radar/#ijcnlp-2026
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2026.aaclnet.org/calls/main_conference_papers/
@@ -264,13 +370,26 @@ DESCRIPTION:Conference on Empirical Methods in Natural Language Processing\
  nMeeting: 2026-10-24 to 2026-10-29\, Budapest\, Hungary\nStatus: confirme
  d\, checked 2026-10-07\nFormat: Paper-based\nOfficial source: https://202
  6.emnlp.org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#emnlp-2026\nNotes: ARR fresh-paper submissions are 
- closed. Commitment is only for reviewed papers and is not a new-paper rou
- te. Full conference window includes workshops. Size is an editorial estim
- ate.
+ ithub.io/venue-radar/#emnlp-2026
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2026.emnlp.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260916T115900Z
+DTEND:20260916T125900Z
+SUMMARY:ICWSM 2027 · Round 2: new full papers (also R&Rs from May 2026)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
 END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-abstract@scientific-conference-calendar
@@ -282,14 +401,7 @@ DESCRIPTION:European Conference on Information Retrieval\nMeeting: 2027-03-
  21 to 2027-03-25\, Southampton\, UK\nStatus: confirmed\, checked 2026-10-
  30\nFormat: Paper-based\nOfficial source: https://www.ecir2027.co.uk/call
  -for-full-papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#eci
- r-2027\nNotes: Rechecked 2026-10-30. The full-paper call states 11:59pm A
- oE for its closed Sep 21 abstract gate and Oct 5 paper\; the short\, repl
- icability and resource calls give days only. Resource papers (Nov 2\, no 
- abstract step) report original research resources\; no extension was foun
- d. IR-for-Good papers (closed Oct 5)\, demos and Industry Day proposals (
- Nov 2) and Doctoral Consortium submissions (extended to a Nov 2 abstract 
- and Nov 9 paper) are not tracked as separate routes. Size is an editorial
-  estimate.
+ r-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.ecir2027.co.uk/call-for-full-papers
@@ -304,11 +416,7 @@ DESCRIPTION:Asia-Pacific ACL and International Joint Conference on Natural
  Language Processing\nMeeting: 2026-11-06 to 2026-11-10\, Hengqin\, China\
  nStatus: confirmed\, checked 2026-10-07\nFormat: Paper-based\nOfficial so
  urce: https://2026.aaclnet.org/calls/main_conference_papers/\nVenue Radar
- : https://gon-uri.github.io/venue-radar/#ijcnlp-2026\nNotes: Joint AACL-I
- JCNLP 2026 is one edition under the IJCNLP series\, not two conferences. 
- ARR submissions and both commitment rounds are closed. Joint-series recur
- rence is irregular\; do not automatically invent an annual next edition. 
- Size is an editorial estimate.
+ : https://gon-uri.github.io/venue-radar/#ijcnlp-2026
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2026.aaclnet.org/calls/main_conference_papers/
@@ -339,14 +447,7 @@ DESCRIPTION:European Conference on Information Retrieval\nMeeting: 2027-03-
  21 to 2027-03-25\, Southampton\, UK\nStatus: confirmed\, checked 2026-10-
  30\nFormat: Paper-based\nOfficial source: https://www.ecir2027.co.uk/call
  -for-full-papers\nVenue Radar: https://gon-uri.github.io/venue-radar/#eci
- r-2027\nNotes: Rechecked 2026-10-30. The full-paper call states 11:59pm A
- oE for its closed Sep 21 abstract gate and Oct 5 paper\; the short\, repl
- icability and resource calls give days only. Resource papers (Nov 2\, no 
- abstract step) report original research resources\; no extension was foun
- d. IR-for-Good papers (closed Oct 5)\, demos and Industry Day proposals (
- Nov 2) and Doctoral Consortium submissions (extended to a Nov 2 abstract 
- and Nov 9 paper) are not tracked as separate routes. Size is an editorial
-  estimate.
+ r-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.ecir2027.co.uk/call-for-full-papers
@@ -362,17 +463,26 @@ DESCRIPTION:European Conference on Information Retrieval\nMeeting: 2027-03-
  30\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\nOfficial source: https://
  www.ecir2027.co.uk/call-for-short-papers\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#ecir-2027\nNotes: Rechecked 2026-10-30. The full-pap
- er call states 11:59pm AoE for its closed Sep 21 abstract gate and Oct 5 
- paper\; the short\, replicability and resource calls give days only. Reso
- urce papers (Nov 2\, no abstract step) report original research resources
- \; no extension was found. IR-for-Good papers (closed Oct 5)\, demos and 
- Industry Day proposals (Nov 2) and Doctoral Consortium submissions (exten
- ded to a Nov 2 abstract and Nov 9 paper) are not tracked as separate rout
- es. Size is an editorial estimate.
+ thub.io/venue-radar/#ecir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.ecir2027.co.uk/call-for-short-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261009T115900Z
+DTEND:20261009T125900Z
+SUMMARY:CHIIR 2027 · Full and perspective paper abstract (mandatory\, max.
+  250 words)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/f
+ ull-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chii
+ r-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:coling-2027-deadline-full-paper@scientific-conference-calendar
@@ -384,10 +494,7 @@ DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
  26-10-07\nFormat: Paper-based\nOfficial source: https://2027.coling-iccl.
  org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#coling-2027\nNotes: Main in-person window May 9-14\; separa
- te virtual sessions May 6-7. Shared ARR cycle with NAACL does not permit 
- dual commitment. Recent COLING cadence is irregular\; no automatic annual
-  forecast. Size is an editorial estimate.
+ /venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  Knowledge Representation & Reasoning,LLM Agents & Tool Use
 URL:https://2027.coling-iccl.org/calls/main_conference_papers/
@@ -403,14 +510,7 @@ DESCRIPTION:European Conference on Information Retrieval\nMeeting: 2027-03-
  30\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\nOfficial source: https://
  www.ecir2027.co.uk/call-for-reproducibility-papers\nVenue Radar: https://
- gon-uri.github.io/venue-radar/#ecir-2027\nNotes: Rechecked 2026-10-30. Th
- e full-paper call states 11:59pm AoE for its closed Sep 21 abstract gate 
- and Oct 5 paper\; the short\, replicability and resource calls give days 
- only. Resource papers (Nov 2\, no abstract step) report original research
-  resources\; no extension was found. IR-for-Good papers (closed Oct 5)\, 
- demos and Industry Day proposals (Nov 2) and Doctoral Consortium submissi
- ons (extended to a Nov 2 abstract and Nov 9 paper) are not tracked as sep
- arate routes. Size is an editorial estimate.
+ gon-uri.github.io/venue-radar/#ecir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.ecir2027.co.uk/call-for-reproducibility-papers
@@ -426,14 +526,7 @@ DESCRIPTION:European Conference on Information Retrieval\nMeeting: 2027-03-
  30\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\nOfficial source: https://
  www.ecir2027.co.uk/call-for-short-papers\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#ecir-2027\nNotes: Rechecked 2026-10-30. The full-pap
- er call states 11:59pm AoE for its closed Sep 21 abstract gate and Oct 5 
- paper\; the short\, replicability and resource calls give days only. Reso
- urce papers (Nov 2\, no abstract step) report original research resources
- \; no extension was found. IR-for-Good papers (closed Oct 5)\, demos and 
- Industry Day proposals (Nov 2) and Doctoral Consortium submissions (exten
- ded to a Nov 2 abstract and Nov 9 paper) are not tracked as separate rout
- es. Size is an editorial estimate.
+ thub.io/venue-radar/#ecir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.ecir2027.co.uk/call-for-short-papers
@@ -449,13 +542,26 @@ DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based\nOfficial source: https://2027.naacl.org/calls/main_
  conference_papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#n
- aacl-2027\nNotes: Formerly North American Chapter\; retains NAACL acronym
- . Shares October ARR cycle with COLING\, but authors may commit to only o
- ne primary venue. Commitment is not a fresh-paper route. Size is an edito
- rial estimate.
+ aacl-2027
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261016T115900Z
+DTEND:20261016T125900Z
+SUMMARY:CHIIR 2027 · Full and perspective paper submission (up to 10 pages
+ )
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/f
+ ull-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chii
+ r-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-abstract@scientific-conference-calendar
@@ -467,19 +573,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/research-track-papers/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and pape
- r deadlines (Oct 18/25 AoE) have passed with no extension. The short-pape
- r OpenReview portal was observed open on 2026-10-30\; separate mandatory 
- abstract gates apply. Resource papers (four pages\, non-anonymous\, compa
- nion proceedings) are due Dec 17 AoE\; their portal is not public yet. Op
- enReview's short-paper forms close about an hour after the AoE cutoffs st
- ored here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 
- 6 per the website) and the general workshop-paper date (Jan 4\, workshops
-  not yet listed) are not tracked as separate routes\; the OpenReview demo
-  and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Goo
- d track is discontinued. Research must substantively address the Web\, no
- t merely use a web dataset. Preserve WWW as the stable series alias. Size
-  is an editorial estimate.
+ -uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
@@ -495,17 +589,25 @@ DESCRIPTION:European Conference on Information Retrieval\nMeeting: 2027-03-
  30\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\nOfficial source: https://
  www.ecir2027.co.uk/call-for-reproducibility-papers\nVenue Radar: https://
- gon-uri.github.io/venue-radar/#ecir-2027\nNotes: Rechecked 2026-10-30. Th
- e full-paper call states 11:59pm AoE for its closed Sep 21 abstract gate 
- and Oct 5 paper\; the short\, replicability and resource calls give days 
- only. Resource papers (Nov 2\, no abstract step) report original research
-  resources\; no extension was found. IR-for-Good papers (closed Oct 5)\, 
- demos and Industry Day proposals (Nov 2) and Doctoral Consortium submissi
- ons (extended to a Nov 2 abstract and Nov 9 paper) are not tracked as sep
- arate routes. Size is an editorial estimate.
+ gon-uri.github.io/venue-radar/#ecir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.ecir2027.co.uk/call-for-reproducibility-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261023T115900Z
+DTEND:20261023T125900Z
+SUMMARY:CHIIR 2027 · Tutorial and workshop proposals
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/w
+ orkshops.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-
+ 2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/workshops.html
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2026-conference@scientific-conference-calendar
@@ -551,22 +653,42 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/research-track-papers/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and pape
- r deadlines (Oct 18/25 AoE) have passed with no extension. The short-pape
- r OpenReview portal was observed open on 2026-10-30\; separate mandatory 
- abstract gates apply. Resource papers (four pages\, non-anonymous\, compa
- nion proceedings) are due Dec 17 AoE\; their portal is not public yet. Op
- enReview's short-paper forms close about an hour after the AoE cutoffs st
- ored here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 
- 6 per the website) and the general workshop-paper date (Jan 4\, workshops
-  not yet listed) are not tracked as separate routes\; the OpenReview demo
-  and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Goo
- d track is discontinued. Research must substantively address the Web\, no
- t merely use a web dataset. Preserve WWW as the stable series alias. Size
-  is an editorial estimate.
+ -uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T115900Z
+DTEND:20261030T125900Z
+SUMMARY:CHIIR 2027 · Resource paper submission (datasets or software\; up 
+ to 4 pages)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/r
+ esource-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ chiir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/resource-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T115900Z
+DTEND:20261030T125900Z
+SUMMARY:CHIIR 2027 · Short paper submission (up to 4 pages\; presented as 
+ posters)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/s
+ hort-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chi
+ ir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/short-papers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-resource-paper@scientific-conference-calendar
@@ -579,14 +701,7 @@ DESCRIPTION:European Conference on Information Retrieval\nMeeting: 2027-03-
  30\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\nOfficial source: https://
  www.ecir2027.co.uk/call-for-resource-papers\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#ecir-2027\nNotes: Rechecked 2026-10-30. The full-
- paper call states 11:59pm AoE for its closed Sep 21 abstract gate and Oct
-  5 paper\; the short\, replicability and resource calls give days only. R
- esource papers (Nov 2\, no abstract step) report original research resour
- ces\; no extension was found. IR-for-Good papers (closed Oct 5)\, demos a
- nd Industry Day proposals (Nov 2) and Doctoral Consortium submissions (ex
- tended to a Nov 2 abstract and Nov 9 paper) are not tracked as separate r
- outes. Size is an editorial estimate.
+ .github.io/venue-radar/#ecir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.ecir2027.co.uk/call-for-resource-papers
@@ -638,19 +753,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#www-2027\nNotes: Full-paper abstract and paper dead
- lines (Oct 18/25 AoE) have passed with no extension. The short-paper Open
- Review portal was observed open on 2026-10-30\; separate mandatory abstra
- ct gates apply. Resource papers (four pages\, non-anonymous\, companion p
- roceedings) are due Dec 17 AoE\; their portal is not public yet. OpenRevi
- ew's short-paper forms close about an hour after the AoE cutoffs stored h
- ere. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 6 per 
- the website) and the general workshop-paper date (Jan 4\, workshops not y
- et listed) are not tracked as separate routes\; the OpenReview demo and P
- hD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Good trac
- k is discontinued. Research must substantively address the Web\, not mere
- ly use a web dataset. Preserve WWW as the stable series alias. Size is an
-  editorial estimate.
+ ithub.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/important-dates/
@@ -665,19 +768,27 @@ DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
  hecked 2026-10-30\nFormat: Paper-based\nOfficial source: https://www.wsdm
  -conference.org/2027/cfdc.html\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#wsdm-2027\nNotes: Official WSDM 2027 pages (rechecked 2026-10-
- 30) list Hong Kong (Cordis)\, Feb 15-19\, and AoE deadlines: full-paper a
- bstract Aug 17 and paper Aug 24\, 2026 (closed\; notification Nov 2)\, sh
- ort papers (up to 4 pages\, new work) Nov 17\, doctoral consortium (singl
- e-author student packet) Nov 12\, and WSDM Day presentations Nov 30\, 202
- 6 (2-page extended abstract on search\, data mining and agentic AI\; unpu
- blished or under-review work welcome\; oral or poster on Feb 19\, in the 
- proceedings). Demo papers closed Oct 15\, 2026. Industry Day talk proposa
- ls (2 pages with speaker bio\, due Oct 30) are not tracked as a paper rou
- te.
+ nue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
  le AI,Human-AI Interaction & Deployment
 URL:https://www.wsdm-conference.org/2027/cfdc.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-round-2-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ICWSM 2027 · Round 2 notification
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / AAAI ICWSM proceedings\; non-archival Social Science and Sociophysics t
+ rack (abstract only)\nOfficial source: https://www.icwsm.org/2027/submit/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-short-paper@scientific-conference-calendar
@@ -689,19 +800,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#www-2027\nNotes: Full-paper abstract and paper dead
- lines (Oct 18/25 AoE) have passed with no extension. The short-paper Open
- Review portal was observed open on 2026-10-30\; separate mandatory abstra
- ct gates apply. Resource papers (four pages\, non-anonymous\, companion p
- roceedings) are due Dec 17 AoE\; their portal is not public yet. OpenRevi
- ew's short-paper forms close about an hour after the AoE cutoffs stored h
- ere. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 6 per 
- the website) and the general workshop-paper date (Jan 4\, workshops not y
- et listed) are not tracked as separate routes\; the OpenReview demo and P
- hD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Good trac
- k is discontinued. Research must substantively address the Web\, not mere
- ly use a web dataset. Preserve WWW as the stable series alias. Size is an
-  editorial estimate.
+ ithub.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/important-dates/
@@ -716,16 +815,7 @@ DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
  hecked 2026-10-30\nFormat: Paper-based\nOfficial source: https://www.wsdm
  -conference.org/2027/cfsp.html\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#wsdm-2027\nNotes: Official WSDM 2027 pages (rechecked 2026-10-
- 30) list Hong Kong (Cordis)\, Feb 15-19\, and AoE deadlines: full-paper a
- bstract Aug 17 and paper Aug 24\, 2026 (closed\; notification Nov 2)\, sh
- ort papers (up to 4 pages\, new work) Nov 17\, doctoral consortium (singl
- e-author student packet) Nov 12\, and WSDM Day presentations Nov 30\, 202
- 6 (2-page extended abstract on search\, data mining and agentic AI\; unpu
- blished or under-review work welcome\; oral or poster on Feb 19\, in the 
- proceedings). Demo papers closed Oct 15\, 2026. Industry Day talk proposa
- ls (2 pages with speaker bio\, due Oct 30) are not tracked as a paper rou
- te.
+ nue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
  le AI,Human-AI Interaction & Deployment
 URL:https://www.wsdm-conference.org/2027/cfsp.html
@@ -740,19 +830,126 @@ DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
  hecked 2026-10-30\nFormat: Paper-based\nOfficial source: https://www.wsdm
  -conference.org/2027/cfp.html\nVenue Radar: https://gon-uri.github.io/ven
- ue-radar/#wsdm-2027\nNotes: Official WSDM 2027 pages (rechecked 2026-10-3
- 0) list Hong Kong (Cordis)\, Feb 15-19\, and AoE deadlines: full-paper ab
- stract Aug 17 and paper Aug 24\, 2026 (closed\; notification Nov 2)\, sho
- rt papers (up to 4 pages\, new work) Nov 17\, doctoral consortium (single
- -author student packet) Nov 12\, and WSDM Day presentations Nov 30\, 2026
-  (2-page extended abstract on search\, data mining and agentic AI\; unpub
- lished or under-review work welcome\; oral or poster on Feb 19\, in the p
- roceedings). Demo papers closed Oct 15\, 2026. Industry Day talk proposal
- s (2 pages with speaker bio\, due Oct 30) are not tracked as a paper rout
- e.
+ ue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
  le AI,Human-AI Interaction & Deployment
 URL:https://www.wsdm-conference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261202T115900Z
+DTEND:20261202T125900Z
+SUMMARY:CHIIR 2027 · Doctoral consortium paper (single-authored\, PhD stud
+ ents only)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff note: The DC call and Call for Contribu
+ tions give December 1\, 2026\; the homepage lists December 6. The earlies
+ t stated date is stored.\nFormat: Paper-based / ACM open-access proceedin
+ gs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/do
+ ctoral-consortium-papers.html\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#chiir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/doctoral-consortium-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261211T115900Z
+DTEND:20261211T125900Z
+SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: mandatory abst
+ ract submission
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261212T115900Z
+DTEND:20261212T125900Z
+SUMMARY:UMAP 2027 · Tutorial proposal submission
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-tutorial-proposals/\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-tutorial-proposals/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261212T115900Z
+DTEND:20261212T125900Z
+SUMMARY:UMAP 2027 · Workshop proposal submission
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-workshop-proposals/\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-workshop-proposals/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:CHIIR 2027 · Acceptance notification
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / A
+ CM open-access proceedings (ACM Digital Library)\nOfficial source: https:
+ //chiir2027.github.io/papers.html\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#chiir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261218T115900Z
+DTEND:20261218T125900Z
+SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: full paper sub
+ mission (15 pages\, LNCS)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261218T115900Z
+DTEND:20261218T125900Z
+SUMMARY:ESWC 2027 · Workshop proposals
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-resource-paper@scientific-conference-calendar
@@ -764,19 +961,7 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/resource-submissions/\nVenue Radar: https://gon-
- uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and paper
-  deadlines (Oct 18/25 AoE) have passed with no extension. The short-paper
-  OpenReview portal was observed open on 2026-10-30\; separate mandatory a
- bstract gates apply. Resource papers (four pages\, non-anonymous\, compan
- ion proceedings) are due Dec 17 AoE\; their portal is not public yet. Ope
- nReview's short-paper forms close about an hour after the AoE cutoffs sto
- red here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 6
-  per the website) and the general workshop-paper date (Jan 4\, workshops 
- not yet listed) are not tracked as separate routes\; the OpenReview demo 
- and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Good
-  track is discontinued. Research must substantively address the Web\, not
-  merely use a web dataset. Preserve WWW as the stable series alias. Size 
- is an editorial estimate.
+ uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/resource-submissions/
@@ -791,10 +976,7 @@ DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
  26-10-07\nFormat: Paper-based\nOfficial source: https://2027.coling-iccl.
  org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#coling-2027\nNotes: Main in-person window May 9-14\; separa
- te virtual sessions May 6-7. Shared ARR cycle with NAACL does not permit 
- dual commitment. Recent COLING cadence is irregular\; no automatic annual
-  forecast. Size is an editorial estimate.
+ /venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  Knowledge Representation & Reasoning,LLM Agents & Tool Use
 URL:https://2027.coling-iccl.org/calls/main_conference_papers/
@@ -810,10 +992,7 @@ DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based\nOfficial source: https://2027.naacl.org/calls/main_
  conference_papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#n
- aacl-2027\nNotes: Formerly North American Chapter\; retains NAACL acronym
- . Shares October ARR cycle with COLING\, but authors may commit to only o
- ne primary venue. Commitment is not a fresh-paper route. Size is an edito
- rial estimate.
+ aacl-2027
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/calls/main_conference_papers/
@@ -828,13 +1007,26 @@ DESCRIPTION:Annual Meeting of the Association for Computational Linguistics
  \nMeeting: 2027-08-17 to 2027-08-22\, Kyoto\, Japan\nStatus: confirmed\, 
  checked 2026-10-07\nFormat: Paper-based\nOfficial source: https://2027.ac
  lweb.org/calls/main/\nVenue Radar: https://gon-uri.github.io/venue-radar/
- #acl-2027\nNotes: Official site confirms Kyoto\, August 17-22 and January
-  4 ARR cutoff at 23:59 AoE. Main sessions August 20-22\; tutorials/worksh
- ops earlier. Commitment dates are unannounced. Size is an editorial estim
- ate.
+ #acl-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2027.aclweb.org/calls/main/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270115T115900Z
+DTEND:20270115T125900Z
+SUMMARY:ESWC 2027 · Tutorial proposals
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigir-2027-deadline-abstract@scientific-conference-calendar
@@ -848,16 +1040,92 @@ DESCRIPTION:ACM International Conference on Research and Development in Inf
   call before relying on it.\nEstimated day only\; no cutoff hour stored. 
  Check the organizer's call for the real date and time.\nFormat: Paper-bas
  ed\nOfficial source: https://sigir2027.org/pages/submit-full.html\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#sigir-2027\nNotes: Official
-  site now consistently gives July 19-24 (main conference Jul 20-22\, ICTI
- R Jul 24) at Signia by Hilton San Jose\; CFP says in-person. Full-paper A
- oE dates are labelled PROPOSED\; the abstract is mandatory. A Perspective
- s page lists Jan 28 abstract/Feb 4 paper but still cites SIGIR 2026 and t
- he homepage says TBA\, so that track is not yet tracked. Size is an edito
- rial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#sigir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Poster papers (January round only)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Round 3 (final for 2027): new full papers (also R&Rs 
+ from September 2026)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Dataset papers (January round only\; dataset DOI requ
+ ired)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Tutorial proposals (by email)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Workshop proposals (by email)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\nO
+ fficial source: https://www.icwsm.org/2027/submit/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigir-2027-deadline-full-paper@scientific-conference-calendar
@@ -871,16 +1139,60 @@ DESCRIPTION:ACM International Conference on Research and Development in Inf
   call before relying on it.\nEstimated day only\; no cutoff hour stored. 
  Check the organizer's call for the real date and time.\nFormat: Paper-bas
  ed\nOfficial source: https://sigir2027.org/pages/submit-full.html\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#sigir-2027\nNotes: Official
-  site now consistently gives July 19-24 (main conference Jul 20-22\, ICTI
- R Jul 24) at Signia by Hilton San Jose\; CFP says in-person. Full-paper A
- oE dates are labelled PROPOSED\; the abstract is mandatory. A Perspective
- s page lists Jan 28 abstract/Feb 4 paper but still cites SIGIR 2026 and t
- he homepage says TBA\, so that track is not yet tracked. Size is an edito
- rial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#sigir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270123T115900Z
+DTEND:20270123T125900Z
+SUMMARY:UMAP 2027 · Mandatory abstract registration for long and short pap
+ ers (title\, abstract\, final author list)
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-full-and-short-paper/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-rebuttal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270130T115900Z
+DTEND:20270130T125900Z
+SUMMARY:ESWC 2027 · Main-track rebuttal period closes (opens January 26)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270130T115900Z
+DTEND:20270130T125900Z
+SUMMARY:UMAP 2027 · Main-track long (8 pp) and short (4 pp) paper submissi
+ on
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-full-and-short-paper/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-camera-ready@scientific-conference-calendar
@@ -892,22 +1204,44 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
  rence)\nMeeting: 2027-05-10 to 2027-05-14\, Dublin\, Ireland\nStatus: con
  firmed\, checked 2026-10-30\nFormat: Paper-based\nOfficial source: https:
  //www2027.thewebconf.org/research-track-papers/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#www-2027\nNotes: Full-paper abstract and pape
- r deadlines (Oct 18/25 AoE) have passed with no extension. The short-pape
- r OpenReview portal was observed open on 2026-10-30\; separate mandatory 
- abstract gates apply. Resource papers (four pages\, non-anonymous\, compa
- nion proceedings) are due Dec 17 AoE\; their portal is not public yet. Op
- enReview's short-paper forms close about an hour after the AoE cutoffs st
- ored here. Demo papers (Nov 16 per the website)\, the PhD symposium (Jan 
- 6 per the website) and the general workshop-paper date (Jan 4\, workshops
-  not yet listed) are not tracked as separate routes\; the OpenReview demo
-  and PhD symposium forms are set to close Nov 15\, 21:00 UTC. The Web4Goo
- d track is discontinued. Research must substantively address the Web\, no
- t merely use a web dataset. Preserve WWW as the stable series alias. Size
-  is an editorial estimate.
+ -uri.github.io/venue-radar/#www-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270207T115900Z
+DTEND:20270207T125900Z
+SUMMARY:UMAP 2027 · Doctoral consortium submission (doctoral students only
+ )
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-doctoral-consortium-submissions/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-doctoral-consortium-submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-doctoral-symposium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270212T115900Z
+DTEND:20270212T125900Z
+SUMMARY:ESWC 2027 · Ph.D. Symposium paper (single-author PhD students only
+ )
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/calls/phd-symposium/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/calls/phd-symposium/
 END:VEVENT
 BEGIN:VEVENT
 UID:wsdm-2027-conference@scientific-conference-calendar
@@ -933,6 +1267,23 @@ URL:https://www.wsdm-conference.org/2027/
 LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
+UID:eswc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:ESWC 2027 · Main-track notification to authors
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nCutoff 
+ time unannounced: official deadline day only. Verify the organizer's subm
+ ission portal.\nFormat: Paper-based / Springer LNCS proceedings\; posters
+ \, demos\, industry and PhD papers in satellite proceedings\nOfficial sou
+ rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:naacl-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270304T115900Z
@@ -943,13 +1294,117 @@ DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based\nOfficial source: https://2027.naacl.org/calls/main_
  conference_papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#n
- aacl-2027\nNotes: Formerly North American Chapter\; retains NAACL acronym
- . Shares October ARR cycle with COLING\, but authors may commit to only o
- ne primary venue. Commitment is not a fresh-paper route. Size is an edito
- rial estimate.
+ aacl-2027
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270312
+SUMMARY:CHIIR 2027 · Conference
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://ch
+ iir2027.github.io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#c
+ hiir-2027\nNotes: Official CHIIR 2027 pages\, checked 2026-10-31\, confir
+ m an in-person meeting at Humboldt-Universität zu Berlin\, Mar 7-11\, 20
+ 27 (doctoral consortium Mar 7\; tutorials and workshops Mar 11)\; deadlin
+ es are 23:59 AoE. The abstract gates full and perspective papers. Short\,
+  resource\, demo/design and industry papers (4 pages\, all in the proceed
+ ings) closed Oct 29 with no extension shown\; the demo/design and industr
+ y tracks are not stored as events. The doctoral consortium takes single-a
+ uthored PhD student papers. ACM open-access proceedings (APCs outside ACM
+  Open). Size S reflects 116 registered participants and 63 accepted paper
+ s at CHIIR 2026 (SIGIR Forum report). Size is an editorial estimate.
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/
+LOCATION:Berlin\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:ICWSM 2027 · Round 3 notification (full\, poster\, demo and datase
+ t papers)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-10-31\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / AAAI ICWSM proceedings\; non-archival Social Science and Sociophysics t
+ rack (abstract only)\nOfficial source: https://www.icwsm.org/2027/submit/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270316T115900Z
+DTEND:20270316T125900Z
+SUMMARY:UMAP 2027 · Long and short paper notification
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-full-and-short-paper/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:ESWC 2027 · Main-track camera-ready papers due
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/important-dates/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:ESWC 2027 · Industry track extended abstracts (4 pages\; at least 
+ one non-academic author required)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/calls/industry-track/\nVenue Radar: https://gon-uri.githu
+ b.io/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/calls/industry-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:ESWC 2027 · Posters and demos submission (4 pages\, LNCS\; dates s
+ ubject to change)
+DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nFormat:
+  Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
+  PhD papers in satellite proceedings\nOfficial source: https://2027.eswc-
+ conferences.org/calls/poster-demo/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#eswc-2027
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/calls/poster-demo/
 END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-conference@scientific-conference-calendar
@@ -973,6 +1428,40 @@ URL:https://www.ecir2027.co.uk/
 LOCATION:Southampton\, UK
 END:VEVENT
 BEGIN:VEVENT
+UID:umap-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270323T115900Z
+DTEND:20270323T125900Z
+SUMMARY:UMAP 2027 · Late-breaking results (LBR) and demo submission (up to
+  4 pp including references)
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-late-breaking-results-lbr-demos/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-late-breaking-results-lbr-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270323T115900Z
+DTEND:20270323T125900Z
+SUMMARY:UMAP 2027 · Industry track paper submission (4 pp plus 1 p referen
+ ces\, single-blind)
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\nOfficial source: https://um.org
+ /umap2027/call-for-industry-papers/\nVenue Radar: https://gon-uri.github.
+ io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-industry-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:colm-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270327T115900Z
@@ -982,14 +1471,27 @@ DESCRIPTION:Conference on Language Modeling\nMeeting: 2027-10-06 to 2027-10
  -09 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-28. Che
  ck the organizer's call before relying on it.\nFormat: Paper-based\nPrevi
  ous edition's page: https://colm.cc/Conferences/2026/CallForPapers\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#colm-2027\nNotes: As of 20
- 26-10-28 colm.cc announces no 2027 dates\, host or call (no 2027 pages). 
- Annual 2024-2026 history supports a provisional row\; meeting dates and t
- he mandatory abstract/paper cutoffs (23:59 AoE in 2026) are one-year prox
- ies from 2026. Size is an editorial estimate.
+  Radar: https://gon-uri.github.io/venue-radar/#colm-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270331T115900Z
+DTEND:20270331T125900Z
+SUMMARY:UMAP 2027 · Long and short paper camera-ready
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nCutoff note: The paper call
+  gives March 30\, 2027\; the homepage important dates give April 2\, 2027
+ .\nFormat: Paper-based / ACM Digital Library proceedings (open access)\nO
+ fficial source: https://um.org/umap2027/call-for-full-and-short-paper/\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
 END:VEVENT
 BEGIN:VEVENT
 UID:colm-2027-deadline-full-paper@scientific-conference-calendar
@@ -1001,11 +1503,7 @@ DESCRIPTION:Conference on Language Modeling\nMeeting: 2027-10-06 to 2027-10
  -09 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-28. Che
  ck the organizer's call before relying on it.\nFormat: Paper-based\nPrevi
  ous edition's page: https://colm.cc/Conferences/2026/CallForPapers\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#colm-2027\nNotes: As of 20
- 26-10-28 colm.cc announces no 2027 dates\, host or call (no 2027 pages). 
- Annual 2024-2026 history supports a provisional row\; meeting dates and t
- he mandatory abstract/paper cutoffs (23:59 AoE in 2026) are one-year prox
- ies from 2026. Size is an editorial estimate.
+  Radar: https://gon-uri.github.io/venue-radar/#colm-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://colm.cc/Conferences/2026/CallForPapers
@@ -1020,12 +1518,7 @@ DESCRIPTION:ACM Conference on Recommender Systems\nMeeting: 2027-08-23 to 2
  027-08-27\, Honolulu\, Hawaii\, USA\nStatus: estimated\, checked 2026-10-
  28. Check the organizer's call before relying on it.\nFormat: Paper-based
  \nOfficial source: https://recsys.acm.org/recsys26/call/\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#recsys-2027\nNotes: Official site co
- nfirms Honolulu (Hilton Hawaiian Village)\, Aug 23-27. As of 2026-10-28 i
- t publishes no 2027 call\; deadlines are one-year proxies from the 2026 c
- all (Apr 14 abstract\, Apr 21 paper\, AoE)\, where long and short papers 
- shared the abstract gate. Do not infer a special anniversary track for 20
- 27. Size is an editorial estimate.
+ tps://gon-uri.github.io/venue-radar/#recsys-2027
 CATEGORIES:Recommender Systems,Machine Learning,Information Retrieval & Sea
  rch,Human-AI Interaction & Deployment
 URL:https://recsys.acm.org/recsys26/call/
@@ -1040,12 +1533,7 @@ DESCRIPTION:ACM Conference on Recommender Systems\nMeeting: 2027-08-23 to 2
  027-08-27\, Honolulu\, Hawaii\, USA\nStatus: estimated\, checked 2026-10-
  28. Check the organizer's call before relying on it.\nFormat: Paper-based
  \nOfficial source: https://recsys.acm.org/recsys26/call/\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#recsys-2027\nNotes: Official site co
- nfirms Honolulu (Hilton Hawaiian Village)\, Aug 23-27. As of 2026-10-28 i
- t publishes no 2027 call\; deadlines are one-year proxies from the 2026 c
- all (Apr 14 abstract\, Apr 21 paper\, AoE)\, where long and short papers 
- shared the abstract gate. Do not infer a special anniversary track for 20
- 27. Size is an editorial estimate.
+ tps://gon-uri.github.io/venue-radar/#recsys-2027
 CATEGORIES:Recommender Systems,Machine Learning,Information Retrieval & Sea
  rch,Human-AI Interaction & Deployment
 URL:https://recsys.acm.org/recsys26/call/
@@ -1062,13 +1550,7 @@ DESCRIPTION:ACM International Conference on Research and Development in Inf
   call before relying on it.\nEstimated day only\; no cutoff hour stored. 
  Check the organizer's call for the real date and time.\nFormat: Paper-bas
  ed\nOfficial source: https://sigir2027.org/pages/submit-full.html\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#sigir-2027\nNotes: Official
-  site now consistently gives July 19-24 (main conference Jul 20-22\, ICTI
- R Jul 24) at Signia by Hilton San Jose\; CFP says in-person. Full-paper A
- oE dates are labelled PROPOSED\; the abstract is mandatory. A Perspective
- s page lists Jan 28 abstract/Feb 4 paper but still cites SIGIR 2026 and t
- he homepage says TBA\, so that track is not yet tracked. Size is an edito
- rial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#sigir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/pages/submit-full.html
@@ -1083,11 +1565,7 @@ DESCRIPTION:International Semantic Web Conference\nMeeting: 2027-10-25 to 2
  027-10-29 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-2
  8. Check the organizer's call before relying on it.\nFormat: Paper-based\
  nPrevious edition's page: https://iswc2026.semanticweb.org/importantdates
- \nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2027\nNotes: A
- s of 2026-10-28 SWSA lists ISWC 2027 for October/November 2027 with locat
- ion to be announced\; iswc2027.semanticweb.org is only a placeholder page
- . October 25-29 and submission cutoffs are one-year proxies from ISWC 202
- 6. Size is an editorial estimate.
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2027
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -1102,11 +1580,7 @@ DESCRIPTION:International Semantic Web Conference\nMeeting: 2027-10-25 to 2
  027-10-29 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-2
  8. Check the organizer's call before relying on it.\nFormat: Paper-based\
  nPrevious edition's page: https://iswc2026.semanticweb.org/importantdates
- \nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2027\nNotes: A
- s of 2026-10-28 SWSA lists ISWC 2027 for October/November 2027 with locat
- ion to be announced\; iswc2027.semanticweb.org is only a placeholder page
- . October 25-29 and submission cutoffs are one-year proxies from ISWC 202
- 6. Size is an editorial estimate.
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#iswc-2027
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -1167,14 +1641,34 @@ DESCRIPTION:ACM International Conference on Information and Knowledge Manag
  tus: estimated\, checked 2026-10-29. Check the organizer's call before re
  lying on it.\nFormat: Paper-based\nPrevious edition's page: https://cikm2
  026.diag.uniroma1.it/full-research-papers/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#cikm-2027\nNotes: As of 2026-10-29 the CIKM series
-  page names Sydney\, Australia as the 2027 host\; no CIKM 2027 site or ca
- ll is published. Estimated meeting dates follow event manager ICMS Austra
- lasia's listing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dat
- es are one-year proxies from CIKM 2026.
+ github.io/venue-radar/#cikm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eswc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270528
+SUMMARY:ESWC 2027 · Conference
+DESCRIPTION:European Semantic Web Conference\nStatus: confirmed\, checked 2
+ 026-10-31\nOfficial source: https://2027.eswc-conferences.org/\nVenue Rad
+ ar: https://gon-uri.github.io/venue-radar/#eswc-2027\nNotes: Official sit
+ e: 24th ESWC\, May 23-27\, 2027\, St. Raphael Resort & Marina\, Limassol\
+ ; workshops/tutorials May 23-24. All deadlines 23:59 AoE. Research\, Reso
+ urces and In-Use tracks share a mandatory Dec 10 abstract and Dec 17 pape
+ r (15 pages\, Springer LNCS)\; rejected ISWC 2026 research papers may res
+ ubmit (commitment date TBA). Posters/demos (LNCS)\, industry abstracts (n
+ eeds a non-academic author) and single-author PhD papers go to satellite 
+ proceedings\; poster and PhD dates are marked subject to change. Named Eu
+ ropean again since 2026 (Extended 2010-2025)\; now overseen by SWSA. Annu
+ al since 2004. ESWC 2026 accepted 28 research\, 17 resource and 10 in-use
+  papers. Size is an editorial estimate.
+CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
+ a Mining & Data Science,Information Retrieval & Search
+URL:https://2027.eswc-conferences.org/
+LOCATION:Limassol\, Cyprus
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2027-deadline-full-paper@scientific-conference-calendar
@@ -1187,14 +1681,34 @@ DESCRIPTION:ACM International Conference on Information and Knowledge Manag
  tus: estimated\, checked 2026-10-29. Check the organizer's call before re
  lying on it.\nFormat: Paper-based\nPrevious edition's page: https://cikm2
  026.diag.uniroma1.it/full-research-papers/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#cikm-2027\nNotes: As of 2026-10-29 the CIKM series
-  page names Sydney\, Australia as the 2027 host\; no CIKM 2027 site or ca
- ll is published. Estimated meeting dates follow event manager ICMS Austra
- lasia's listing (1-5 Nov 2027\, ICC Sydney)\; abstract and full-paper dat
- es are one-year proxies from CIKM 2026.
+ github.io/venue-radar/#cikm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270530
+SUMMARY:ICWSM 2027 (est.) · Conference
+DESCRIPTION:International AAAI Conference on Web and Social Media\nStatus: 
+ estimated\, checked 2026-10-31. Check the organizer's call before relying
+  on it.\nOfficial source: https://www.icwsm.org/2027/\nVenue Radar: https
+ ://gon-uri.github.io/venue-radar/#icwsm-2027\nNotes: 21st ICWSM (AAAI). O
+ n 2026-10-31 the official site and AAAI page confirm Edinburgh but give n
+ o dates or format\; May 26-29\, 2027 and in-person are one-year proxies f
+ rom ICWSM 2026. Deadlines are official\, 23:59 AoE. Round 1 (May 15\, 202
+ 6) is not stored because only two paper-round types exist. January is the
+  last round for 2027 (a January R&R moves to 2028) and the only one for p
+ osters\, demos (not tracked) and dataset papers. Social Science and Socio
+ physics track papers share full-paper deadlines but publish abstracts onl
+ y. PCS portal not checked (login). Size M follows 186 papers in the 2026 
+ program. Size is an editorial estimate.
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/
+LOCATION:Edinburgh\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2027-deadline-full-paper@scientific-conference-calendar
@@ -1207,12 +1721,7 @@ DESCRIPTION:Conference on Empirical Methods in Natural Language Processing\
  ity to be announced\nStatus: estimated\, checked 2026-10-28. Check the or
  ganizer's call before relying on it.\nFormat: Paper-based\nPrevious editi
  on's page: https://2026.emnlp.org/calls/main_conference_papers/\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#emnlp-2027\nNotes: As of 2026
- -10-28\, ACL's official 2027 joint workshop call still describes EMNLP 20
- 27 as hybrid\, tentatively early November 2027\, in Mexico or Central Ame
- rica\, with dates TBA\; no EMNLP 2027 site or CFP was found. November 1-6
-  is a placeholder. Paper timing is a one-year proxy from 2026\; do not in
- fer commitment eligibility or portal opening.
+ dar: https://gon-uri.github.io/venue-radar/#emnlp-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2026.emnlp.org/calls/main_conference_papers/
@@ -1234,6 +1743,31 @@ CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/
 LOCATION:San Francisco\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270613
+SUMMARY:UMAP 2027 · Conference
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nStatus: confirmed\, checked 2026-10-31\nOfficial source:
+  https://um.org/umap2027/\nVenue Radar: https://gon-uri.github.io/venue-r
+ adar/#umap-2027\nNotes: Official UMAP 2027 pages confirm the 35th edition
+ \, fully in person at Conviser Law Center\, Chicago\, June 9-12\, 2027 (w
+ orkshops and tutorials June 9\; Doctoral Consortium for selected students
+  June 8). All dates are 11:59 pm AoE. The January 22 abstract with the fi
+ nal author list is mandatory for long and short papers. Long\, short\, in
+ dustry\, LBR and demo papers appear in the ACM DL (open access\; long and
+  short papers may owe an APC)\; workshop papers go to CEUR-WS via per-wor
+ kshop calls not yet published. On 2026-10-31 EasyChair said new submissio
+ ns were open\, but several tracks share it\, so no opening is recorded. U
+ MAP 2026 accepted 57 of 195 main-track papers. Size is an editorial estim
+ ate.
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/
+LOCATION:Chicago\, Illinois\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:sigir-2027-conference@scientific-conference-calendar
@@ -1310,6 +1844,37 @@ URL:https://colm.cc/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:chiir-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271009T115900Z
+DTEND:20271009T125900Z
+SUMMARY:CHIIR 2028 (est.) · Full and perspective paper abstract (mandatory
+ )
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/full-pa
+ pers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271016T115900Z
+DTEND:20271016T125900Z
+SUMMARY:CHIIR 2028 (est.) · Full and perspective paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/full-pa
+ pers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
 UID:iswc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271025
@@ -1327,6 +1892,38 @@ CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://swsa.semanticweb.org/conferences/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271030T115900Z
+DTEND:20271030T125900Z
+SUMMARY:CHIIR 2028 (est.) · Resource paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/resourc
+ e-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-
+ 2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/resource-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271030T115900Z
+DTEND:20271030T125900Z
+SUMMARY:CHIIR 2028 (est.) · Short paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/short-p
+ apers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-202
+ 8
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/short-papers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2027-conference@scientific-conference-calendar
@@ -1368,5 +1965,27 @@ CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
 URL:https://www.aclweb.org/portal/content/joint-call-workshops-proposals-20
  27
 LOCATION:Mexico or Central America\; city to be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280312
+SUMMARY:CHIIR 2028 (est.) · Conference
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nStatus: estimated\, checked 2026-10-31. Check the organizer's call 
+ before relying on it.\nPrevious edition's page: https://sigir.org/wp-cont
+ ent/uploads/2026/07/p04.pdf\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#chiir-2028\nNotes: The CHIIR 2026 general chairs' SIGIR Forum rep
+ ort (June 2026) names Helsinki as the CHIIR 2028 host\; as of 2026-10-31 
+ no 2028 website\, dates or call exist (chiir2028.github.io returns 404). 
+ chiir.org says CHIIR is annual in March. Meeting dates are a one-year pro
+ xy from CHIIR 2027 (Mar 7-11)\; CHIIR 2026 ran Mar 22-26. Deadlines repea
+ t the same 23:59 AoE days used by the 2026 and 2027 calls (abstract Oct 8
+ \, paper Oct 15\, short and resource papers Oct 29). Call links refer to 
+ CHIIR 2027. Size is an editorial estimate.
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://sigir.org/wp-content/uploads/2026/07/p04.pdf
+LOCATION:Helsinki\, Finland
 END:VEVENT
 END:VCALENDAR

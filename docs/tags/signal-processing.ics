@@ -10,6 +10,215 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:waspaa-2025-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20250501T115900Z
+DTEND:20250501T125900Z
+SUMMARY:WASPAA 2025 · Initial CMT submission with title and abstract (mand
+ atory\; extended from Apr 23)
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
+ age double-blind papers\, IEEE Xplore proceedings\nOfficial source: https
+ ://www.waspaa.com/waspaa25/important-dates/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#waspaa-2025
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://www.waspaa.com/waspaa25/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2025-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20250508T115900Z
+DTEND:20250508T125900Z
+SUMMARY:WASPAA 2025 · Full 4+1-page paper deadline (extended from Apr 30)
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
+ age double-blind papers\, IEEE Xplore proceedings\nOfficial source: https
+ ://www.waspaa.com/waspaa25/important-dates/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#waspaa-2025
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://www.waspaa.com/waspaa25/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250528
+DTEND;VALUE=DATE:20250529
+SUMMARY:ASRU 2025 · Regular and special-session paper submission deadline
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/author
+ s/important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ sru-2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/authors/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-deadline-paper-update@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250604
+DTEND;VALUE=DATE:20250605
+SUMMARY:ASRU 2025 · Revision deadline for already submitted regular and sp
+ ecial-session papers
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/author
+ s/important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ sru-2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/authors/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250625
+DTEND;VALUE=DATE:20250626
+SUMMARY:ASRU 2025 · Demo\, system\, data and challenge paper submission de
+ adline (3 + 1 pages\, single-blind)
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/calls/
+ call-for-demos/\nVenue Radar: https://gon-uri.github.io/venue-radar/#asru
+ -2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/calls/call-for-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2025-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250702
+DTEND;VALUE=DATE:20250703
+SUMMARY:WASPAA 2025 · Paper acceptance notification
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: of
+ ficial deadline day only. Verify the organizer's submission portal.\nForm
+ at: Paper-based / 4+1-page double-blind papers\, IEEE Xplore proceedings\
+ nOfficial source: https://www.waspaa.com/waspaa25/important-dates/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://www.waspaa.com/waspaa25/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2025-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20250717T115900Z
+DTEND:20250717T125900Z
+SUMMARY:WASPAA 2025 · Camera-ready upload
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
+ age double-blind papers\, IEEE Xplore proceedings\nOfficial source: https
+ ://www.waspaa.com/waspaa25/author-guidelines-and-paper-templates/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://www.waspaa.com/waspaa25/author-guidelines-and-paper-templates/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2025-deadline-demo@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20250717T115900Z
+DTEND:20250717T125900Z
+SUMMARY:WASPAA 2025 · Demonstration submissions (separate 2-page CMT track
+ )
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
+ age double-blind papers\, IEEE Xplore proceedings\nOfficial source: https
+ ://www.waspaa.com/waspaa25/call-for-demonstrations/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#waspaa-2025
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://www.waspaa.com/waspaa25/call-for-demonstrations/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250806
+DTEND;VALUE=DATE:20250807
+SUMMARY:ASRU 2025 · Paper acceptance notification
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/author
+ s/important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ sru-2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/authors/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2025-deadline-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20250820T115900Z
+DTEND:20250820T125900Z
+SUMMARY:WASPAA 2025 · Author registration deadline (extended from Aug 17)
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
+  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
+ age double-blind papers\, IEEE Xplore proceedings\nOfficial source: https
+ ://www.waspaa.com/waspaa25/important-dates/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#waspaa-2025
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://www.waspaa.com/waspaa25/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20250820
+DTEND;VALUE=DATE:20250821
+SUMMARY:ASRU 2025 · Camera-ready paper deadline
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
+ eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
+ EEE Xplore proceedings\nOfficial source: https://2025.ieeeasru.org/author
+ s/important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ sru-2025
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/authors/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2025-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20251012
+DTEND;VALUE=DATE:20251016
+SUMMARY:WASPAA 2025 · Conference
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nStatus: confirmed\, checked 2026-10-31\nOfficial source: http
+ s://www.waspaa.com/waspaa25/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#waspaa-2025\nNotes: Archived official pages confirm Granlibakken
+  Tahoe Resort\, Tahoe City\, Oct 12-15\, 2025\, fully in-person and the f
+ irst WASPAA away from Mohonk Mountain House. All deadlines were 23:59 AoE
+ \; the initial CMT entry (title and abstract) was mandatory\, and both pa
+ per deadlines moved a week later. Papers were 4 pages plus a references p
+ age\, double-blind with rebuttal. The general chairs' SPS report gives 95
+  of 211 reviewed papers accepted (45%\; 246 initial) and 169 attendees\; 
+ the proceedings are in IEEE Xplore. Demos were a separate 2-page track. S
+ ize is an editorial estimate.
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://www.waspaa.com/waspaa25/
+LOCATION:Tahoe City\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20251025T115900Z
@@ -19,12 +228,34 @@ DESCRIPTION:Language Resources and Evaluation Conference\nMeeting: 2026-05-
  11 to 2026-05-16\, Palma de Mallorca\, Spain\nStatus: confirmed\, checked
   2026-10-07\nFormat: Paper-based\nOfficial source: https://lrec2026.info/
  third-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-rada
- r/#lrec-2026\nNotes: Archived full conference window includes workshops\;
-  main sessions May 13-15. Resources\, datasets\, annotation and evaluatio
- n characterize the venue. Size is an editorial estimate.
+ r/#lrec-2026
 CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
  gnal Processing
 URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:asru-2025-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20251206
+DTEND;VALUE=DATE:20251211
+SUMMARY:ASRU 2025 · Conference
+DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nS
+ tatus: confirmed\, checked 2026-10-31\nOfficial source: https://2025.ieee
+ asru.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#asru-2025\
+ nNotes: Official site gives Honolulu (Hyatt Regency Waikiki)\, Dec 6-10\,
+  2025\; biennial flagship IEEE SPS SLTC workshop\, all papers as posters.
+  Regular and special-session papers (6 + 2 pages\, double-blind) were due
+  May 28\, with a June 4 revision for submitted papers\; demo/system/data 
+ and challenge papers (3 + 1 pages) were due June 25. Both tracks are in I
+ EEE Xplore. No cutoff hour was published\; AoE is provisional. Stale auth
+ or-instruction pages list an Aug 13 camera-ready\; the dates page and hom
+ e page say Aug 20. SPS reports 447 submissions\, 212 accepted and 385 reg
+ istrants. From 2027 IEEE ASLI builds on ASRU and SLT\, so no ASRU 2027 is
+  projected. Size is an editorial estimate.
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2025.ieeeasru.org/
+LOCATION:Honolulu\, Hawaii\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:ts4h-2025-conference@scientific-conference-calendar
@@ -57,10 +288,7 @@ DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
  ecked 2026-09-14. Check the organizer's call before relying on it.\nForma
  t: Paper-based / broad applied venue\nOfficial source: https://embc.embs.
  org/2026/key-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- ieee-embc-2026\nNotes: Official EMBC page confirms conference dates. Subm
- ission dates were already marked closed on the official key-dates page\, 
- so the deadline is a proxy and should be backfilled when archival CFP dat
- a is available.
+ ieee-embc-2026
 CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
  als,BCI & Neurotechnology
 URL:https://embc.embs.org/2026/key-dates/
@@ -74,12 +302,27 @@ SUMMARY:EUSIPCO 2026 · Conference paper submission deadline
 DESCRIPTION:European Signal Processing Conference\nMeeting: 2026-08-31 to 2
  026-09-04\, Bruges\, Belgium\nStatus: confirmed\, checked 2026-08-20\nFor
  mat: Paper-based\nOfficial source: https://eusipco2026.org/submissions/\n
- Venue Radar: https://gon-uri.github.io/venue-radar/#eusipco-2026\nNotes: 
- Official EUSIPCO 2026 pages list Bruges\, Aug 31-Sep 4\, and the extended
-  conference-paper deadline.
+ Venue Radar: https://gon-uri.github.io/venue-radar/#eusipco-2026
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Computer Vision & Pattern Recognition
 URL:https://eusipco2026.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-special-session-proposal@scientific-conference-calend
+ ar
+DTSTAMP:19700101T000000Z
+DTSTART:20260312T115900Z
+DTEND:20260312T125900Z
+SUMMARY:SLT 2026 · Challenge and special-session proposals (organizers\, b
+ y email)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/call-for-special-sessions/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-special-sessions/
 END:VEVENT
 BEGIN:VEVENT
 UID:lrec-2026-deadline-camera-ready@scientific-conference-calendar
@@ -91,9 +334,7 @@ DESCRIPTION:Language Resources and Evaluation Conference\nMeeting: 2026-05-
  11 to 2026-05-16\, Palma de Mallorca\, Spain\nStatus: confirmed\, checked
   2026-10-07\nFormat: Paper-based\nOfficial source: https://lrec2026.info/
  third-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-rada
- r/#lrec-2026\nNotes: Archived full conference window includes workshops\;
-  main sessions May 13-15. Resources\, datasets\, annotation and evaluatio
- n characterize the venue. Size is an editorial estimate.
+ r/#lrec-2026
 CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
  gnal Processing
 URL:https://lrec2026.info/third-call-for-papers/
@@ -107,9 +348,7 @@ SUMMARY:ICANN 2026 · Full paper and abstract submission deadline
 DESCRIPTION:International Conference on Artificial Neural Networks\nMeeting
  : 2026-09-14 to 2026-09-17\, Padua\, Italy\nStatus: confirmed\, checked 2
  026-08-20\nFormat: Paper-based\nOfficial source: https://e-nns.org/icann2
- 026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icann-2026\nNot
- es: Official ENNS ICANN 2026 page lists Padua\, Sep 14-17\, and the full-
- paper/abstract deadline.
+ 026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icann-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
  oscience,Signal Processing
 URL:https://e-nns.org/icann2026/
@@ -125,11 +364,7 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
  6-10-07\nCutoff time unannounced: official deadline day only. Verify the 
  organizer's submission portal.\nFormat: Paper-based / multimedia research
  \nOfficial source: https://2026.acmmm.org/site/important-dates.html\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2026\nNotes: Offic
- ial 2026 pages confirm Rio and deadline days. The retrieved important-dat
- es page has no cutoff hour or timezone\, so the stored AoE timestamps are
-  provisional. Main\, BNI\, and dataset tracks share March/April deadlines
- \; workshop papers have their own route. XL is an editorial estimate.
+ e Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2026
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
@@ -145,11 +380,7 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
  6-10-07\nCutoff time unannounced: official deadline day only. Verify the 
  organizer's submission portal.\nFormat: Paper-based / multimedia research
  \nOfficial source: https://2026.acmmm.org/site/important-dates.html\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2026\nNotes: Offic
- ial 2026 pages confirm Rio and deadline days. The retrieved important-dat
- es page has no cutoff hour or timezone\, so the stored AoE timestamps are
-  provisional. Main\, BNI\, and dataset tracks share March/April deadlines
- \; workshop papers have their own route. XL is an editorial estimate.
+ e Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2026
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
@@ -165,10 +396,7 @@ DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
  ecked 2026-09-14. Check the organizer's call before relying on it.\nForma
  t: Paper-based / broad applied venue\nOfficial source: https://embc.embs.
  org/2026/key-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- ieee-embc-2026\nNotes: Official EMBC page confirms conference dates. Subm
- ission dates were already marked closed on the official key-dates page\, 
- so the deadline is a proxy and should be backfilled when archival CFP dat
- a is available.
+ ieee-embc-2026
 CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
  als,BCI & Neurotechnology
 URL:https://embc.embs.org/2026/key-dates/
@@ -184,9 +412,7 @@ DESCRIPTION:International Conference on Biomagnetism\nMeeting: 2026-08-23 t
  9-14. Check the organizer's call before relying on it.\nFormat: Abstract-
  based / specialist venue\nOfficial source: https://mm.scimeeting.cn/en/we
  b/index/31426\nVenue Radar: https://gon-uri.github.io/venue-radar/#biomag
- -2026\nNotes: Official BIOMAG 2026 page confirms Beijing and Aug 23-25\, 
- 2026. Abstract deadline remains an estimate until the submission page is 
- rechecked.
+ -2026
 CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
  nal Neuroscience,Signal Processing
 URL:https://mm.scimeeting.cn/en/web/index/31426
@@ -202,16 +428,7 @@ DESCRIPTION:Structured Data for Health Workshop\nMeeting: 2026-07-11 to 202
  6-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-10-29\nFo
  rmat: Workshop / non-archival short paper\nOfficial source: https://struc
  tureddata4health.github.io/call_for_papers.html\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#sd4h-2026\nNotes: ICML's official workshop pa
- ge and the SD4H site confirm Sat Jul 11\, 2026 in Hall D2\, COEX\, Seoul 
- (ICML lists 8:00-17:00 KST)\; accepted papers had to be presented in pers
- on and the workshop is non-archival (no proceedings). The site's Prior Ye
- ars menu links TS4H's NeurIPS 2025\, ICLR 2024 and NeurIPS 2022 pages and
-  organizers overlap\, but no formal rename is stated\; it is tracked unde
- r the TS4H key by owner decision. 4-page papers were due May 2 AoE after 
- an extension (OpenReview's venue page and submission invitation instead r
- ecord May 1 12:00 UTC)\; camera-ready was Jun 26 AoE. As of 2026-10-29 no
-  later SD4H or TS4H edition is announced.
+ -uri.github.io/venue-radar/#sd4h-2026
 CATEGORIES:Healthcare & Clinical AI,Time Series & Sequential Data,Signal Pr
  ocessing,Deep Representation Learning
 URL:https://structureddata4health.github.io/call_for_papers.html
@@ -244,10 +461,7 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  ed\, checked 2026-10-06\nCutoff time unannounced: official deadline day o
  nly. Verify the organizer's submission portal.\nFormat: Paper-based\nOffi
  cial source: https://nolta2026.org/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#nolta-2026\nNotes: Annual IEICE NOLTA symposium\; officia
- l final extensions supersede older April/July dates. Proceedings papers\,
-  with neural networks and deep AI explicitly in scope. Deadline hours use
-  estimated end-of-day AoE. Size is an editorial category.
+ io/venue-radar/#nolta-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
@@ -262,9 +476,7 @@ DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
  11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-10-0
  7\nFormat: Paper-based / BMVA proceedings\nOfficial source: https://bmvc2
  026.bmva.org/dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- bmvc-2026\nNotes: Official BMVA pages confirm Lancaster and 23:59 AoE dea
- dlines. The October poster/video upload is for accepted papers\, not a fr
- esh poster submission. L is an editorial size estimate.
+ bmvc-2026
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://bmvc2026.bmva.org/dates/
@@ -279,9 +491,7 @@ DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
  11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-10-0
  7\nFormat: Paper-based / BMVA proceedings\nOfficial source: https://bmvc2
  026.bmva.org/dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- bmvc-2026\nNotes: Official BMVA pages confirm Lancaster and 23:59 AoE dea
- dlines. The October poster/video upload is for accepted papers\, not a fr
- esh poster submission. L is an editorial size estimate.
+ bmvc-2026
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://bmvc2026.bmva.org/dates/
@@ -297,12 +507,7 @@ DESCRIPTION:International Conference on Neural Information Processing\nMeet
  , checked 2026-10-28\nCutoff time unannounced: official deadline day only
  . Verify the organizer's submission portal.\nFormat: Paper-based\nOfficia
  l source: https://www.iconip2026.org/call-for-papers\nVenue Radar: https:
- //gon-uri.github.io/venue-radar/#iconip-2026\nNotes: Official ICONIP 2026
-  site (checked 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper d
- eadline was extended to May 31\, 2026 (no cutoff hour stated). An Oct 28\
- , 2026 notice extends 2-page extended-abstract submissions to Nov 10\, 20
- 26 (no hour)\; accepted abstracts must be registered and presented in per
- son as posters\, in a separate open-access abstract publication.
+ //gon-uri.github.io/venue-radar/#iconip-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
  oscience,Signal Processing
 URL:https://www.iconip2026.org/call-for-papers
@@ -318,8 +523,7 @@ DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
  us: confirmed\, checked 2026-08-20\nFormat: Paper-based / workshop-style 
  conference\nOfficial source: https://signalprocessingsociety.org/event-na
  mes/mlsp\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-mlsp-2
- 026\nNotes: IEEE Signal Processing Society MLSP page lists dates\, locati
- on\, website\, and paper submission deadline.
+ 026
 CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
 URL:https://signalprocessingsociety.org/event-names/mlsp
 END:VEVENT
@@ -333,12 +537,7 @@ DESCRIPTION:European Conference on Visual Information Processing\nMeeting:
  2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
  hecked 2026-10-07\nFormat: Regular and special-session papers\nOfficial s
  ource: https://euvip2026.github.io/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#euvip-2026\nNotes: Completed 2026 edition retained for th
- e archive. Latest organizer announcements supersede the original CFP dead
- lines\, confirming June 15 for regular papers and July 7 for special sess
- ions\, both 23:59 AoE. Recent 2024-2026 editions support an annual planni
- ng cadence. S is an editorial estimate\; no ICORE or CCF rank is borrowed
-  from related venues.
+ io/venue-radar/#euvip-2026
 CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
  Learning,Deep Representation Learning
 URL:https://euvip2026.github.io/
@@ -354,14 +553,26 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
  tus: confirmed\, checked 2026-10-07\nFormat: Paper-based / two independen
  t submission rounds\nOfficial source: https://wacv.thecvf.com/Conferences
  /2027/CallForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- wacv-2027\nNotes: Official CFP confirms separate enrollment gates for bot
- h new-paper rounds at 23:59 AoE. Both are already closed despite the futu
- re camera-ready deadline. Main conference is January 6-8 at Disney Spring
- s\; workshops run January 4-5. XL is an editorial estimate\, not an accep
- tance-rate proxy.
+ wacv-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260625T115900Z
+DTEND:20260625T125900Z
+SUMMARY:SLT 2026 · Regular and special-session paper submission (extended 
+ from June 17)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/call-for-papers/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-biocas-2026-deadline-full-paper@scientific-conference-calendar
@@ -374,10 +585,7 @@ DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2026-
  2026-10-08\nCutoff time unannounced: official deadline day only. Verify t
  he organizer's submission portal.\nFormat: Paper-based\nOfficial source: 
  https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-2026\nNotes
- : Main conference October 8-10\; adjacent workshops are October 7 and 11.
-  Reviewed accepted papers appear in IEEE proceedings. Exact submission cu
- toff hour is unannounced. Size is an editorial estimate.
+ nue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-2026
 CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
  ,Neuromorphic & Brain-inspired Computing
 URL:https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
@@ -392,16 +600,7 @@ DESCRIPTION:Structured Data for Health Workshop\nMeeting: 2026-07-11 to 202
  6-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-10-29\nFo
  rmat: Workshop / non-archival short paper\nOfficial source: https://struc
  tureddata4health.github.io/call_for_papers.html\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#sd4h-2026\nNotes: ICML's official workshop pa
- ge and the SD4H site confirm Sat Jul 11\, 2026 in Hall D2\, COEX\, Seoul 
- (ICML lists 8:00-17:00 KST)\; accepted papers had to be presented in pers
- on and the workshop is non-archival (no proceedings). The site's Prior Ye
- ars menu links TS4H's NeurIPS 2025\, ICLR 2024 and NeurIPS 2022 pages and
-  organizers overlap\, but no formal rename is stated\; it is tracked unde
- r the TS4H key by owner decision. 4-page papers were due May 2 AoE after 
- an extension (OpenReview's venue page and submission invitation instead r
- ecord May 1 12:00 UTC)\; camera-ready was Jun 26 AoE. As of 2026-10-29 no
-  later SD4H or TS4H edition is announced.
+ -uri.github.io/venue-radar/#sd4h-2026
 CATEGORIES:Healthcare & Clinical AI,Time Series & Sequential Data,Signal Pr
  ocessing,Deep Representation Learning
 URL:https://structureddata4health.github.io/call_for_papers.html
@@ -417,14 +616,74 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
  tus: confirmed\, checked 2026-10-07\nFormat: Paper-based / two independen
  t submission rounds\nOfficial source: https://wacv.thecvf.com/Conferences
  /2027/CallForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- wacv-2027\nNotes: Official CFP confirms separate enrollment gates for bot
- h new-paper rounds at 23:59 AoE. Both are already closed despite the futu
- re camera-ready deadline. Main conference is January 6-8 at Disney Spring
- s\; workshops run January 4-5. XL is an editorial estimate\, not an accep
- tance-rate proxy.
+ wacv-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260628T235900Z
+DTEND:20260629T005900Z
+SUMMARY:ACCV 2026 · Workshop and tutorial proposal deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nCutoff n
+ ote: The dates and tutorial pages give 23:59 GMT\; the workshop-proposal 
+ call says 23:59 AoE. The earlier GMT cutoff is stored.\nFormat: Paper-bas
+ ed / Springer LNCS proceedings\nOfficial source: https://accv2026.org/sub
+ missions/call-for-workshops/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/call-for-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-paper-update@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260702T115900Z
+DTEND:20260702T125900Z
+SUMMARY:SLT 2026 · Revision deadline for already-submitted regular and spe
+ cial-session papers
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/call-for-papers/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260703T235900Z
+DTEND:20260704T005900Z
+SUMMARY:ACCV 2026 · Mandatory OpenReview paper registration (title\, abstr
+ act\, authors)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/author-guidelines/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260705T235900Z
+DTEND:20260706T005900Z
+SUMMARY:ACCV 2026 · Main-conference paper submission deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#a
+ ccv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:euvip-2026-deadline-special-session-paper@scientific-conference-calenda
@@ -437,15 +696,43 @@ DESCRIPTION:European Conference on Visual Information Processing\nMeeting:
  2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
  hecked 2026-10-07\nFormat: Regular and special-session papers\nOfficial s
  ource: https://euvip2026.github.io/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#euvip-2026\nNotes: Completed 2026 edition retained for th
- e archive. Latest organizer announcements supersede the original CFP dead
- lines\, confirming June 15 for regular papers and July 7 for special sess
- ions\, both 23:59 AoE. Recent 2024-2026 editions support an annual planni
- ng cadence. S is an editorial estimate\; no ICORE or CCF rank is borrowed
-  from related venues.
+ io/venue-radar/#euvip-2026
 CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
  Learning,Deep Representation Learning
 URL:https://euvip2026.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260708T235900Z
+DTEND:20260709T005900Z
+SUMMARY:ACCV 2026 · Supplementary material deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/author-guidelines/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260709T115900Z
+DTEND:20260709T125900Z
+SUMMARY:SLT 2026 · Demo\, system\, data and challenge paper submission (3 
+ + 1 pages\, single-blind)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nC
+ utoff note: OpenReview demo and challenge portals list Jul 10 11:59 UTC (
+ Jul 9 AoE)\, as did a now-hidden homepage notice\; the CFP and demo call 
+ say Jul 8 AoE.\nFormat: Paper-based / IEEE Xplore proceedings\nOfficial s
+ ource: https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-pap
+ ers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:sd4h-2026-conference@scientific-conference-calendar
@@ -481,11 +768,7 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
  6-10-07\nCutoff time unannounced: official deadline day only. Verify the 
  organizer's submission portal.\nFormat: Paper-based / multimedia research
  \nOfficial source: https://2026.acmmm.org/site/important-dates.html\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2026\nNotes: Offic
- ial 2026 pages confirm Rio and deadline days. The retrieved important-dat
- es page has no cutoff hour or timezone\, so the stored AoE timestamps are
-  provisional. Main\, BNI\, and dataset tracks share March/April deadlines
- \; workshop papers have their own route. XL is an editorial estimate.
+ e Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2026
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
@@ -518,16 +801,26 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
  2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based / non-archival extended abstracts\nOfficial source: 
  https://logconference.org/cfp/\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#log-2026\nNotes: Fifth annual edition\, in person at Northeast
- ern University. Extended Aug 5/7 deadlines replace the struck-through Jul
- y 29/Aug 1 dates. Proceedings papers and non-archival extended abstracts 
- share the registration and final submission cutoffs\, represented as one 
- route. The TMLR presentation track requires an already published paper\, 
- so it is not a new-paper opportunity. LoG is distinct from LOD/AIS. Size 
- M is an editorial estimate.
+ nue-radar/#log-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-demo-application@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260806T235900Z
+DTEND:20260807T005900Z
+SUMMARY:ACCV 2026 · Demo abstract submission via application form (live de
+ mos\; previously published work allowed)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/call-for-demos/\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/call-for-demos/
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-mm-2026-deadline-camera-ready@scientific-conference-calendar
@@ -540,11 +833,7 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
  6-10-07\nCutoff time unannounced: official deadline day only. Verify the 
  organizer's submission portal.\nFormat: Paper-based / multimedia research
  \nOfficial source: https://2026.acmmm.org/site/important-dates.html\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2026\nNotes: Offic
- ial 2026 pages confirm Rio and deadline days. The retrieved important-dat
- es page has no cutoff hour or timezone\, so the stored AoE timestamps are
-  provisional. Main\, BNI\, and dataset tracks share March/April deadlines
- \; workshop papers have their own route. XL is an editorial estimate.
+ e Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2026
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
@@ -559,13 +848,7 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
  2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based / non-archival extended abstracts\nOfficial source: 
  https://logconference.org/cfp/\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#log-2026\nNotes: Fifth annual edition\, in person at Northeast
- ern University. Extended Aug 5/7 deadlines replace the struck-through Jul
- y 29/Aug 1 dates. Proceedings papers and non-archival extended abstracts 
- share the registration and final submission cutoffs\, represented as one 
- route. The TMLR presentation track requires an already published paper\, 
- so it is not a new-paper opportunity. LoG is distinct from LOD/AIS. Size 
- M is an editorial estimate.
+ nue-radar/#log-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
@@ -581,10 +864,7 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  ed\, checked 2026-10-06\nCutoff time unannounced: official deadline day o
  nly. Verify the organizer's submission portal.\nFormat: Paper-based\nOffi
  cial source: https://nolta2026.org/\nVenue Radar: https://gon-uri.github.
- io/venue-radar/#nolta-2026\nNotes: Annual IEICE NOLTA symposium\; officia
- l final extensions supersede older April/July dates. Proceedings papers\,
-  with neural networks and deep AI explicitly in scope. Deadline hours use
-  estimated end-of-day AoE. Size is an editorial category.
+ io/venue-radar/#nolta-2026
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
@@ -600,11 +880,7 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
  tus: confirmed\, checked 2026-10-07\nFormat: Paper-based / two independen
  t submission rounds\nOfficial source: https://wacv.thecvf.com/Conferences
  /2027/CallForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- wacv-2027\nNotes: Official CFP confirms separate enrollment gates for bot
- h new-paper rounds at 23:59 AoE. Both are already closed despite the futu
- re camera-ready deadline. Main conference is January 6-8 at Disney Spring
- s\; workshops run January 4-5. XL is an editorial estimate\, not an accep
- tance-rate proxy.
+ wacv-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
@@ -636,10 +912,6 @@ DESCRIPTION:International Conference on 3D Vision\nMeeting: 2027-04-06 to 2
  027-04-09\, Thessaloniki\, Greece\nStatus: confirmed\, checked 2026-10-07
  \nFormat: Paper-based / OpenReview\nOfficial source: https://3dvconf.gith
  ub.io/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2027
- \nNotes: The official site confirms Thessaloniki and identical abstract/p
- aper cutoffs at 23:59 AoE. Its archive documents recent annual editions. 
- CCF has a direct 3DV entry\, but no direct ICORE2026 rank was found. M is
-  an editorial size estimate\, not measured attendance.
 CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
  ization,Signal Processing
 URL:https://3dvconf.github.io/2027/
@@ -654,10 +926,6 @@ DESCRIPTION:International Conference on 3D Vision\nMeeting: 2027-04-06 to 2
  027-04-09\, Thessaloniki\, Greece\nStatus: confirmed\, checked 2026-10-07
  \nFormat: Paper-based / OpenReview\nOfficial source: https://3dvconf.gith
  ub.io/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2027
- \nNotes: The official site confirms Thessaloniki and identical abstract/p
- aper cutoffs at 23:59 AoE. Its archive documents recent annual editions. 
- CCF has a direct 3DV entry\, but no direct ICORE2026 rank was found. M is
-  an editorial size estimate\, not measured attendance.
 CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
  ization,Signal Processing
 URL:https://3dvconf.github.io/2027/
@@ -672,9 +940,7 @@ DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
  11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-10-0
  7\nFormat: Paper-based / BMVA proceedings\nOfficial source: https://bmvc2
  026.bmva.org/dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- bmvc-2026\nNotes: Official BMVA pages confirm Lancaster and 23:59 AoE dea
- dlines. The October poster/video upload is for accepted papers\, not a fr
- esh poster submission. L is an editorial size estimate.
+ bmvc-2026
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://bmvc2026.bmva.org/dates/
@@ -690,11 +956,7 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
  tus: confirmed\, checked 2026-10-07\nFormat: Paper-based / two independen
  t submission rounds\nOfficial source: https://wacv.thecvf.com/Conferences
  /2027/CallForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- wacv-2027\nNotes: Official CFP confirms separate enrollment gates for bot
- h new-paper rounds at 23:59 AoE. Both are already closed despite the futu
- re camera-ready deadline. Main conference is January 6-8 at Disney Spring
- s\; workshops run January 4-5. XL is an editorial estimate\, not an accep
- tance-rate proxy.
+ wacv-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
@@ -725,13 +987,42 @@ DESCRIPTION:International Conference on 3D Vision\nMeeting: 2027-04-06 to 2
  027-04-09\, Thessaloniki\, Greece\nStatus: confirmed\, checked 2026-10-07
  \nFormat: Paper-based / OpenReview\nOfficial source: https://3dvconf.gith
  ub.io/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2027
- \nNotes: The official site confirms Thessaloniki and identical abstract/p
- aper cutoffs at 23:59 AoE. Its archive documents recent annual editions. 
- CCF has a direct 3DV entry\, but no direct ICORE2026 rank was found. M is
-  an editorial size estimate\, not measured attendance.
 CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
  ization,Signal Processing
 URL:https://3dvconf.github.io/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:SLT 2026 · Acceptance notification for all paper tracks (moved fro
+ m September 1)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nC
+ utoff time unannounced: official deadline day only. Verify the organizer'
+ s submission portal.\nFormat: Paper-based / IEEE Xplore proceedings\nOffi
+ cial source: https://attend.ieee.org/slt-2026/call-for-papers/\nVenue Rad
+ ar: https://gon-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-sps-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260912T115900Z
+DTEND:20260912T125900Z
+SUMMARY:SLT 2026 · SPS journal paper submission (no call text on the site\
+ ; acceptance September 20)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/call-for-papers/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:icann-2026-conference@scientific-conference-calendar
@@ -750,6 +1041,37 @@ URL:https://e-nns.org/icann2026/
 LOCATION:Padua\, Italy
 END:VEVENT
 BEGIN:VEVENT
+UID:accv-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:ACCV 2026 · Paper decision notification
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nCutoff t
+ ime unannounced: official deadline day only. Verify the organizer's submi
+ ssion portal.\nFormat: Paper-based / Springer LNCS proceedings\nOfficial 
+ source: https://accv2026.org/submissions/author-guidelines/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260921T115900Z
+DTEND:20260921T125900Z
+SUMMARY:SLT 2026 · Camera-ready paper deadline
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/camera-ready-instructions/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/camera-ready-instructions/
+END:VEVENT
+BEGIN:VEVENT
 UID:icassp-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260924T115900Z
@@ -759,12 +1081,7 @@ DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
  l Processing\nMeeting: 2027-05-16 to 2027-05-21\, Toronto\, Canada\nStatu
  s: confirmed\, checked 2026-10-28\nFormat: Paper-based\nOfficial source: 
  https://cmsworkshops.com/ICASSP2027/papers.php\nVenue Radar: https://gon-
- uri.github.io/venue-radar/#icassp-2027\nNotes: Official ICASSP 2027 pages
-  list Toronto\, May 16-21\, 2027. The CFP/important-dates pages give the 
- paper deadline as Sep 23\, 2026 and the portal (updated Sep 21) as 24:00 
- International Date Line (AoE)\; the paper kit (updated Sep 7) and OJSP pa
- ge still cite Sep 16. Satellite-workshop (shared call) and production dat
- es are day-only\; cutoff hours unannounced.
+ uri.github.io/venue-radar/#icassp-2027
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Computer Vision & Pattern Recognition
 URL:https://cmsworkshops.com/ICASSP2027/papers.php
@@ -805,6 +1122,36 @@ URL:https://signalprocessingsociety.org/event-names/mlsp
 LOCATION:Atlanta\, Georgia\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:accv-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261004T235900Z
+DTEND:20261005T005900Z
+SUMMARY:ACCV 2026 · Camera-ready deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\nOfficial source: https://accv202
+ 6.org/submissions/author-guidelines/\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261005T115900Z
+DTEND:20261005T125900Z
+SUMMARY:SLT 2026 · Author and early registration deadline
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/camera-ready-instructions/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/camera-ready-instructions/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-biocas-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261008
@@ -822,6 +1169,23 @@ URL:https://2026.ieee-biocas.org/2026/
 LOCATION:Incheon\, South Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:neural-interfaces-2027-deadline-speaker-proposal@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261012T180000Z
+DTEND:20261012T190000Z
+SUMMARY:Neural Interfaces 2027 · Call for Proposals (speaker and session i
+ deas that build the agenda\; not a research-abstract route)
+DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
+ \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-10-31\nFo
+ rmat: Abstract-based / oral or poster presentations\; no proceedings anno
+ unced\nOfficial source: https://www.nans.org/neural-interfaces/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#neural-interfaces-2027
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
+END:VEVENT
+BEGIN:VEVENT
 UID:log-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261016T115900Z
@@ -831,13 +1195,7 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
  2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-10-07\
  nFormat: Paper-based / non-archival extended abstracts\nOfficial source: 
  https://logconference.org/cfp/\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#log-2026\nNotes: Fifth annual edition\, in person at Northeast
- ern University. Extended Aug 5/7 deadlines replace the struck-through Jul
- y 29/Aug 1 dates. Proceedings papers and non-archival extended abstracts 
- share the registration and final submission cutoffs\, represented as one 
- route. The TMLR presentation track requires an already published paper\, 
- so it is not a new-paper opportunity. LoG is distinct from LOD/AIS. Size 
- M is an editorial estimate.
+ nue-radar/#log-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
@@ -852,9 +1210,7 @@ DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
  11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-10-0
  7\nFormat: Paper-based / BMVA proceedings\nOfficial source: https://bmvc2
  026.bmva.org/dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- bmvc-2026\nNotes: Official BMVA pages confirm Lancaster and 23:59 AoE dea
- dlines. The October poster/video upload is for accepted papers\, not a fr
- esh poster submission. L is an editorial size estimate.
+ bmvc-2026
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://bmvc2026.bmva.org/dates/
@@ -869,11 +1225,7 @@ DESCRIPTION:IEEE International Symposium on Biomedical Imaging\nMeeting: 20
  27-05-25 to 2027-05-28\, Lausanne\, Switzerland\nStatus: confirmed\, chec
  ked 2026-10-29\nFormat: Paper-based\nOfficial source: https://biomedicali
  maging.org/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#isb
- i-2027\nNotes: Official ISBI 2027 page (rechecked 2026-10-29) lists Lausa
- nne (SwissTech Convention Center)\, May 25-28\, and 'All deadlines are 11
- :59pm USA (ET)'. Four-page papers moved from Oct 26 to Mon Nov 2\, 2026 (
- EST after the Nov 1 clock change)\; one-page abstracts Feb 1\, 2027. The 
- paper submission link was live on Oct 6.
+ i-2027
 CATEGORIES:Biomedical Imaging,Signal Processing,Healthcare & Clinical AI,Ma
  chine Learning
 URL:https://biomedicalimaging.org/2027/
@@ -889,11 +1241,7 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
  tus: confirmed\, checked 2026-10-07\nFormat: Paper-based / two independen
  t submission rounds\nOfficial source: https://wacv.thecvf.com/Conferences
  /2027/CallForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- wacv-2027\nNotes: Official CFP confirms separate enrollment gates for bot
- h new-paper rounds at 23:59 AoE. Both are already closed despite the futu
- re camera-ready deadline. Main conference is January 6-8 at Disney Spring
- s\; workshops run January 4-5. XL is an editorial estimate\, not an accep
- tance-rate proxy.
+ wacv-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
@@ -928,12 +1276,7 @@ DESCRIPTION:International Conference on Neural Information Processing\nMeet
  , checked 2026-10-28\nCutoff time unannounced: official deadline day only
  . Verify the organizer's submission portal.\nFormat: Paper-based\nOfficia
  l source: https://www.iconip2026.org/news\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#iconip-2026\nNotes: Official ICONIP 2026 site (chec
- ked 2026-10-28) lists MCEC Melbourne\, Nov 23-27\; the paper deadline was
-  extended to May 31\, 2026 (no cutoff hour stated). An Oct 28\, 2026 noti
- ce extends 2-page extended-abstract submissions to Nov 10\, 2026 (no hour
- )\; accepted abstracts must be registered and presented in person as post
- ers\, in a separate open-access abstract publication.
+ ithub.io/venue-radar/#iconip-2026
 CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
  oscience,Signal Processing
 URL:https://www.iconip2026.org/news
@@ -949,13 +1292,7 @@ DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
  s: confirmed\, checked 2026-10-28\nCutoff time unannounced: official dead
  line day only. Verify the organizer's submission portal.\nFormat: Paper-b
  ased\nOfficial source: https://2027.ieeeicassp.org/call-for-satellite-wor
- kshops/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icassp-2027\
- nNotes: Official ICASSP 2027 pages list Toronto\, May 16-21\, 2027. The C
- FP/important-dates pages give the paper deadline as Sep 23\, 2026 and the
-  portal (updated Sep 21) as 24:00 International Date Line (AoE)\; the pap
- er kit (updated Sep 7) and OJSP page still cite Sep 16. Satellite-worksho
- p (shared call) and production dates are day-only\; cutoff hours unannoun
- ced.
+ kshops/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icassp-2027
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Computer Vision & Pattern Recognition
 URL:https://2027.ieeeicassp.org/call-for-satellite-workshops/
@@ -971,12 +1308,7 @@ DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  med\, checked 2026-10-28\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\nOff
  icial source: https://brain.korea.ac.kr/bci2027/importantdate.php\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#bci-winter-2027\nNotes: Off
- icial 2027 site and CFP confirm February 22-24\, 2027 at High1 Resort\, J
- eongseon\, with papers due November 15\, 2026 (up to 6 pages\, double-bli
- nd\, IEEE Xplore subject to quality review). No cutoff hour or zone is st
- ated\; T23:59 AoE is provisional. The 2026 deadline moved from October to
-  December\, so check for extensions. Size is an editorial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#bci-winter-2027
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Machine Learning
 URL:https://brain.korea.ac.kr/bci2027/importantdate.php
@@ -992,11 +1324,7 @@ DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
  cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
  ify the organizer's submission portal.\nFormat: Paper-based\nOfficial sou
  rce: https://ijcnn.org/2027/authors/call-for-papers\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#ijcnn-2027\nNotes: Official IJCNN 2027 pa
- ges (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-18\, and the Jan
-  31\, 2027 regular-paper deadline with no cutoff hour (provisional AoE en
- d of day). CMT paper submissions are announced to open Dec 1\, 2026. Came
- ra-ready and registration payment are due Apr 12\, 2027\, 23:59 AoE.
+ /gon-uri.github.io/venue-radar/#ijcnn-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Signal Processing
 URL:https://ijcnn.org/2027/authors/call-for-papers
@@ -1030,12 +1358,7 @@ DESCRIPTION:European Symposium on Artificial Neural Networks\, Computationa
  Bruges\, Belgium\nStatus: confirmed\, checked 2026-10-28\nCutoff time una
  nnounced: official deadline day only. Verify the organizer's submission p
  ortal.\nFormat: Paper-based\nOfficial source: https://www.esann.org/node/
- 3\nVenue Radar: https://gon-uri.github.io/venue-radar/#esann-2027\nNotes:
-  Official ESANN 2027 pages (checked 2026-10-28) list Bruges and online (h
- ybrid mode)\, Apr 21-23\, 2027\, and decisions on Jan 22\, 2027. The call
-  asks for submissions 'before 18.11.2026' with no cutoff hour\, so the la
- st safe day\, Nov 17\, is stored with a provisional end of day in Bruges 
- time. Special-session papers follow the regular deadline and procedure.
+ 3\nVenue Radar: https://gon-uri.github.io/venue-radar/#esann-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Signal Processing
 URL:https://www.esann.org/node/3
@@ -1098,6 +1421,39 @@ URL:https://www.iconip2026.org/
 LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
+UID:icme-2027-deadline-special-session-proposal@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20261128T115900Z
+DTEND:20261128T125900Z
+SUMMARY:ICME 2027 · Special session proposal deadline (organizers\, by ema
+ il)
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\nOfficial sou
+ rce: https://2027.ieeeicme.org/authors/call-for-special-session-proposals
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/authors/call-for-special-session-proposals
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICME 2027 · Workshop proposal deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcnn-2027-deadline-tutorial-proposal@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261130
@@ -1108,14 +1464,25 @@ DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
  cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
  ify the organizer's submission portal.\nFormat: Paper-based\nOfficial sou
  rce: https://ijcnn.org/2027/authors/call-for-papers\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#ijcnn-2027\nNotes: Official IJCNN 2027 pa
- ges (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-18\, and the Jan
-  31\, 2027 regular-paper deadline with no cutoff hour (provisional AoE en
- d of day). CMT paper submissions are announced to open Dec 1\, 2026. Came
- ra-ready and registration payment are due Apr 12\, 2027\, 23:59 AoE.
+ /gon-uri.github.io/venue-radar/#ijcnn-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Signal Processing
 URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:ICME 2027 · Tutorial proposal deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\nOfficial sou
+ rce: https://2027.ieeeicme.org/about/important-dates\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ssp-2027-deadline-special-session-proposal@scientific-conference-c
@@ -1129,14 +1496,57 @@ DESCRIPTION:IEEE Statistical Signal Processing Workshop\nMeeting: 2027-06-2
  \nCutoff time unannounced: official deadline day only. Verify the organiz
  er's submission portal.\nFormat: Paper-based / specialist workshop\nOffic
  ial source: https://ssp27.ieeesps.org/call-for-papers/\nVenue Radar: http
- s://gon-uri.github.io/venue-radar/#ieee-ssp-2027\nNotes: Official SSP 202
- 7 pages confirm the 24th edition at Centre de Congres Imperial\, Annecy\,
-  Jun 28-Jul 1\, 2027. The author page states deadlines are 23:59 AoE (UTC
- -12)\; regular and special-session papers share the Feb 7 deadline and on
- e submission system. The Dec 7 proposal cutoff hour is unstated.
+ s://gon-uri.github.io/venue-radar/#ieee-ssp-2027
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Probabilistic\, Causal & Uncertainty ML
 URL:https://ssp27.ieeesps.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261217
+SUMMARY:SLT 2026 · Conference
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nStatus: confirmed\, c
+ hecked 2026-10-31\nOfficial source: https://attend.ieee.org/slt-2026/\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#slt-2026\nNotes: Organi
+ zer and SPS pages confirm Dec 13-16\, 2026 at Hotel Saracen Sands\, Isola
+  delle Femmine\, 15 km from Palermo\; accepted papers must be presented i
+ n person. Deadlines are 23:59 AoE. Regular and special-session papers (6 
+ + 2 pages\, double-blind) moved from Jun 17 to Jun 24\; OpenReview calls 
+ Jun 24 abstract registration and Jul 1 the full submission. Demo/system/d
+ ata and challenge papers (3 + 1 pages) are also in IEEE Xplore. The SPS j
+ ournal-paper date has no call text and is schedule-only. SPS reports abou
+ t 750 submissions\; the program lists 323 papers. SPS calls this the fina
+ l standalone SLT before its new ASLI conference (2027)\, so no SLT 2028 i
+ s projected. Size is an editorial estimate.
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/
+LOCATION:Palermo\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261219
+SUMMARY:ACCV 2026 · Conference
+DESCRIPTION:Asian Conference on Computer Vision\nStatus: confirmed\, checke
+ d 2026-10-31\nOfficial source: https://accv2026.org/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#accv-2026\nNotes: Official site of the 1
+ 8th ACCV\, sponsored by the Asian Federation of Computer Vision\, confirm
+ s Grand Cube Osaka\, Dec 14-18 (workshops/tutorials Dec 14-15\, main conf
+ erence Dec 16-18)\, with in-person presentation required. Deadlines are 2
+ 3:59 GMT\, matching the OpenReview venue configuration\; the July 3 regis
+ tration was mandatory\, so every main-paper route is closed. The demo for
+ m is schedule-only because demos may show published work. Co-located work
+ shops run their own calls\, which are not tracked. Papers are 14-page LNC
+ S\, double-blind\; award papers are invited to an IJCV special issue. L r
+ eflects 378 accepted papers. Size is an editorial estimate.
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/
+LOCATION:Osaka\, Japan
 END:VEVENT
 BEGIN:VEVENT
 UID:bci-winter-2027-deadline-notification@scientific-conference-calendar
@@ -1149,15 +1559,44 @@ DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  med\, checked 2026-10-28\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\nOff
  icial source: https://brain.korea.ac.kr/bci2027/importantdate.php\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#bci-winter-2027\nNotes: Off
- icial 2027 site and CFP confirm February 22-24\, 2027 at High1 Resort\, J
- eongseon\, with papers due November 15\, 2026 (up to 6 pages\, double-bli
- nd\, IEEE Xplore subject to quality review). No cutoff hour or zone is st
- ated\; T23:59 AoE is provisional. The 2026 deadline moved from October to
-  December\, so check for extensions. Size is an editorial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#bci-winter-2027
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Machine Learning
 URL:https://brain.korea.ac.kr/bci2027/importantdate.php
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-grand-challenge-proposal@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ICME 2027 · Grand challenge proposal deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261231T115900Z
+DTEND:20261231T125900Z
+SUMMARY:ICME 2027 · Regular paper submission deadline (including special-s
+ ession papers)
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\nOfficial sou
+ rce: https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web
+ -05.pdf\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web-05
+ .pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:bci-winter-2027-deadline-camera-ready@scientific-conference-calendar
@@ -1170,12 +1609,7 @@ DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  med\, checked 2026-10-28\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\nOff
  icial source: https://brain.korea.ac.kr/bci2027/importantdate.php\nVenue 
- Radar: https://gon-uri.github.io/venue-radar/#bci-winter-2027\nNotes: Off
- icial 2027 site and CFP confirm February 22-24\, 2027 at High1 Resort\, J
- eongseon\, with papers due November 15\, 2026 (up to 6 pages\, double-bli
- nd\, IEEE Xplore subject to quality review). No cutoff hour or zone is st
- ated\; T23:59 AoE is provisional. The 2026 deadline moved from October to
-  December\, so check for extensions. Size is an editorial estimate.
+ Radar: https://gon-uri.github.io/venue-radar/#bci-winter-2027
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Machine Learning
 URL:https://brain.korea.ac.kr/bci2027/importantdate.php
@@ -1210,12 +1644,7 @@ DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
  s: confirmed\, checked 2026-10-28\nCutoff time unannounced: official dead
  line day only. Verify the organizer's submission portal.\nFormat: Paper-b
  ased\nOfficial source: https://2027.ieeeicassp.org/important-dates/\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#icassp-2027\nNotes: Offic
- ial ICASSP 2027 pages list Toronto\, May 16-21\, 2027. The CFP/important-
- dates pages give the paper deadline as Sep 23\, 2026 and the portal (upda
- ted Sep 21) as 24:00 International Date Line (AoE)\; the paper kit (updat
- ed Sep 7) and OJSP page still cite Sep 16. Satellite-workshop (shared cal
- l) and production dates are day-only\; cutoff hours unannounced.
+ e Radar: https://gon-uri.github.io/venue-radar/#icassp-2027
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Computer Vision & Pattern Recognition
 URL:https://2027.ieeeicassp.org/important-dates/
@@ -1232,15 +1661,7 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  026-10-29\nFormat: Full papers (double-blind\, proceedings) or abstracts 
  (posters/spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys
  \nOfficial source: https://aiih.cc/important-dates/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (ch
- ecked 2026-10-29) list the fourth edition at the Mathematical Institute\,
-  University of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadli
- nes are published as 11.59PM Pacific Time (GMT-8)\; the January proposal 
- row keeps -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) sto
- re the earlier GMT-7 instant per their cutoff notes\, and the date-only n
- otification keeps -08:00. Full papers are double-blind via CMT (2026 pape
- rs appeared in Springer LNCS)\; abstracts and STARS surveys are archived 
- on Zenodo. Size is an editorial estimate.
+ /gon-uri.github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
@@ -1256,12 +1677,7 @@ DESCRIPTION:European Symposium on Artificial Neural Networks\, Computationa
  Bruges\, Belgium\nStatus: confirmed\, checked 2026-10-28\nCutoff time una
  nnounced: official deadline day only. Verify the organizer's submission p
  ortal.\nFormat: Paper-based\nOfficial source: https://www.esann.org/\nVen
- ue Radar: https://gon-uri.github.io/venue-radar/#esann-2027\nNotes: Offic
- ial ESANN 2027 pages (checked 2026-10-28) list Bruges and online (hybrid 
- mode)\, Apr 21-23\, 2027\, and decisions on Jan 22\, 2027. The call asks 
- for submissions 'before 18.11.2026' with no cutoff hour\, so the last saf
- e day\, Nov 17\, is stored with a provisional end of day in Bruges time. 
- Special-session papers follow the regular deadline and procedure.
+ ue Radar: https://gon-uri.github.io/venue-radar/#esann-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Signal Processing
 URL:https://www.esann.org/
@@ -1277,10 +1693,7 @@ DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
  06\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based / broad applied venue\nOff
  icial source: https://embc.embs.org/2027/important-dates/\nVenue Radar: h
- ttps://gon-uri.github.io/venue-radar/#ieee-embc-2027\nNotes: Organizer co
- nfirms Singapore\, Jul 11-15\, and Jan 24 full-paper/Apr 23 poster deadli
- nes. Cutoff hour/timezone is not specified\; 23:59 AoE is a provisional o
- rdering time\; the official deadline days are confirmed.
+ ttps://gon-uri.github.io/venue-radar/#ieee-embc-2027
 CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
  als,BCI & Neurotechnology
 URL:https://embc.embs.org/2027/important-dates/
@@ -1296,12 +1709,7 @@ DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
  s: confirmed\, checked 2026-10-28\nCutoff time unannounced: official dead
  line day only. Verify the organizer's submission portal.\nFormat: Paper-b
  ased\nOfficial source: https://2027.ieeeicassp.org/important-dates/\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#icassp-2027\nNotes: Offic
- ial ICASSP 2027 pages list Toronto\, May 16-21\, 2027. The CFP/important-
- dates pages give the paper deadline as Sep 23\, 2026 and the portal (upda
- ted Sep 21) as 24:00 International Date Line (AoE)\; the paper kit (updat
- ed Sep 7) and OJSP page still cite Sep 16. Satellite-workshop (shared cal
- l) and production dates are day-only\; cutoff hours unannounced.
+ e Radar: https://gon-uri.github.io/venue-radar/#icassp-2027
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Computer Vision & Pattern Recognition
 URL:https://2027.ieeeicassp.org/important-dates/
@@ -1317,11 +1725,7 @@ DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
  cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
  ify the organizer's submission portal.\nFormat: Paper-based\nOfficial sou
  rce: https://ijcnn.org/2027/authors/call-for-papers\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#ijcnn-2027\nNotes: Official IJCNN 2027 pa
- ges (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-18\, and the Jan
-  31\, 2027 regular-paper deadline with no cutoff hour (provisional AoE en
- d of day). CMT paper submissions are announced to open Dec 1\, 2026. Came
- ra-ready and registration payment are due Apr 12\, 2027\, 23:59 AoE.
+ /gon-uri.github.io/venue-radar/#ijcnn-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Signal Processing
 URL:https://ijcnn.org/2027/authors/call-for-papers
@@ -1336,11 +1740,7 @@ DESCRIPTION:IEEE International Symposium on Biomedical Imaging\nMeeting: 20
  27-05-25 to 2027-05-28\, Lausanne\, Switzerland\nStatus: confirmed\, chec
  ked 2026-10-29\nFormat: Paper-based\nOfficial source: https://biomedicali
  maging.org/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#isb
- i-2027\nNotes: Official ISBI 2027 page (rechecked 2026-10-29) lists Lausa
- nne (SwissTech Convention Center)\, May 25-28\, and 'All deadlines are 11
- :59pm USA (ET)'. Four-page papers moved from Oct 26 to Mon Nov 2\, 2026 (
- EST after the Nov 1 clock change)\; one-page abstracts Feb 1\, 2027. The 
- paper submission link was live on Oct 6.
+ i-2027
 CATEGORIES:Biomedical Imaging,Signal Processing,Healthcare & Clinical AI,Ma
  chine Learning
 URL:https://biomedicalimaging.org/2027/
@@ -1356,9 +1756,7 @@ DESCRIPTION:European Signal Processing Conference\nMeeting: 2027-08-30 to 2
  Cutoff time unannounced: official deadline day only. Verify the organizer
  's submission portal.\nFormat: Paper-based\nOfficial source: https://eusi
  pco2027.de/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eusipco-
- 2027\nNotes: EUSIPCO 2027 confirms Darmstadt\, Aug 30-Sep 3\, and Feb 6 p
- aper deadline. The cutoff hour/timezone is unspecified\; 23:59 local is o
- nly a calendar proxy.
+ 2027
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Computer Vision & Pattern Recognition
 URL:https://eusipco2027.de/
@@ -1373,11 +1771,7 @@ DESCRIPTION:IEEE Statistical Signal Processing Workshop\nMeeting: 2027-06-2
  8 to 2027-07-01\, Annecy\, France\nStatus: confirmed\, checked 2026-10-28
  \nFormat: Paper-based / specialist workshop\nOfficial source: https://ssp
  27.ieeesps.org/submit-paper/\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#ieee-ssp-2027\nNotes: Official SSP 2027 pages confirm the 24th e
- dition at Centre de Congres Imperial\, Annecy\, Jun 28-Jul 1\, 2027. The 
- author page states deadlines are 23:59 AoE (UTC-12)\; regular and special
- -session papers share the Feb 7 deadline and one submission system. The D
- ec 7 proposal cutoff hour is unstated.
+ e-radar/#ieee-ssp-2027
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Probabilistic\, Causal & Uncertainty ML
 URL:https://ssp27.ieeesps.org/submit-paper/
@@ -1394,14 +1788,7 @@ DESCRIPTION:Annual Conference of the International Speech Communication Ass
  ne day only. Verify the organizer's submission portal.\nFormat: Paper-bas
  ed / interactive demonstration papers\nOfficial source: https://interspee
  ch2027.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#interspe
- ech-2027\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep 2. Reg
- ular paper\, update\, and camera-ready days are announced without an exac
- t cutoff\; AoE is provisional for those date-only events. Show & Tell exp
- licitly uses 23:59 AoE and requires a two-page paper\, video\, and intera
- ctive demonstration. The Feb 16 update is not a fresh submission route. X
- L reflects the official description of more than 2\,000 annual attendees\
- ; the ICORE rank and historical acceptance fields describe the main confe
- rence\, not its demonstration track.
+ ech-2027
 CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
  Natural Language Processing & LLMs
 URL:https://interspeech2027.org/
@@ -1418,17 +1805,28 @@ DESCRIPTION:Annual Conference of the International Speech Communication Ass
  ne day only. Verify the organizer's submission portal.\nFormat: Paper-bas
  ed / interactive demonstration papers\nOfficial source: https://interspee
  ch2027.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#interspe
- ech-2027\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep 2. Reg
- ular paper\, update\, and camera-ready days are announced without an exac
- t cutoff\; AoE is provisional for those date-only events. Show & Tell exp
- licitly uses 23:59 AoE and requires a two-page paper\, video\, and intera
- ctive demonstration. The Feb 16 update is not a fresh submission route. X
- L reflects the official description of more than 2\,000 annual attendees\
- ; the ICORE rank and historical acceptance fields describe the main confe
- rence\, not its demonstration track.
+ ech-2027
 CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
  Natural Language Processing & LLMs
 URL:https://interspeech2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:neural-interfaces-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270217T180000Z
+DTEND:20270217T190000Z
+SUMMARY:Neural Interfaces 2027 · Original research abstract submission (ca
+ ll opens November 12\, 2026)
+DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
+ \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-10-31\nCu
+ toff note: Page says Feb 17\, 2027\, 1:00 PM CDT\, but Central clocks are
+  on CST (UTC-6) then. Earliest (CDT) instant stored.\nFormat: Abstract-ba
+ sed / oral or poster presentations\; no proceedings announced\nOfficial s
+ ource: https://www.nans.org/neural-interfaces/\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#neural-interfaces-2027
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
 END:VEVENT
 BEGIN:VEVENT
 UID:bci-winter-2027-conference@scientific-conference-calendar
@@ -1461,14 +1859,7 @@ DESCRIPTION:Annual Conference of the International Speech Communication Ass
   confirmed\, checked 2026-10-07\nFormat: Paper-based / interactive demons
  tration papers\nOfficial source: https://interspeech2027.org/calls/call_s
  how_and_tell/\nVenue Radar: https://gon-uri.github.io/venue-radar/#inters
- peech-2027\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep 2. R
- egular paper\, update\, and camera-ready days are announced without an ex
- act cutoff\; AoE is provisional for those date-only events. Show & Tell e
- xplicitly uses 23:59 AoE and requires a two-page paper\, video\, and inte
- ractive demonstration. The Feb 16 update is not a fresh submission route.
-  XL reflects the official description of more than 2\,000 annual attendee
- s\; the ICORE rank and historical acceptance fields describe the main con
- ference\, not its demonstration track.
+ peech-2027
 CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
  Natural Language Processing & LLMs
 URL:https://interspeech2027.org/calls/call_show_and_tell/
@@ -1484,14 +1875,27 @@ DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
  cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
  ify the organizer's submission portal.\nFormat: Paper-based\nOfficial sou
  rce: https://ijcnn.org/2027/authors/call-for-papers\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#ijcnn-2027\nNotes: Official IJCNN 2027 pa
- ges (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-18\, and the Jan
-  31\, 2027 regular-paper deadline with no cutoff hour (provisional AoE en
- d of day). CMT paper submissions are announced to open Dec 1\, 2026. Came
- ra-ready and registration payment are due Apr 12\, 2027\, 23:59 AoE.
+ /gon-uri.github.io/venue-radar/#ijcnn-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Signal Processing
 URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270317T000000Z
+DTEND:20270317T010000Z
+SUMMARY:ICCP 2027 · Paper submission on OpenReview (TPAMI special issue or
+  ICCP proceedings track)
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
 END:VEVENT
 BEGIN:VEVENT
 UID:icann-2027-deadline-full-paper@scientific-conference-calendar
@@ -1503,11 +1907,7 @@ DESCRIPTION:International Conference on Artificial Neural Networks\nMeeting
  : 2027-09-14 to 2027-09-17 (est.)\, To be announced\nStatus: estimated\, 
  checked 2026-10-06. Check the organizer's call before relying on it.\nFor
  mat: Paper-based\nPrevious edition's page: https://e-nns.org/icann2026/\n
- Venue Radar: https://gon-uri.github.io/venue-radar/#icann-2027\nNotes: Pr
- ovisional 1-year cadence projection from ICANN 2026. Meeting dates\, loca
- tion\, and deadlines require organizer confirmation\; website and source 
- links refer to the prior edition. 2026-10-28 review - ENNS home\, news an
- d ICANNs pages show no ICANN 2027 announcement yet\; dates unchanged.
+ Venue Radar: https://gon-uri.github.io/venue-radar/#icann-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
  oscience,Signal Processing
 URL:https://e-nns.org/icann2026/
@@ -1523,16 +1923,27 @@ DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
   2026-10-28. Check the organizer's call before relying on it.\nFormat: Pa
  per-based / engineering-focused\nPrevious edition's page: https://neuro.e
  mbs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-2027\nNotes: The
-  official NER 2027 site (13th edition) confirms Milan\, Sep 7-10\, 2027\;
-  as of 2026-10-28 its Call for Papers link is a placeholder and no deadli
- nes are posted. Both dates are proxies from the 2025 CFP lead times (6-pa
- ge paper 168 days\, 1-page abstract 106 days before the meeting)\; cutoff
-  hour and zone are unknown. ieee-ner.org still shows 2023 content.
+ e Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-2027
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Healthcare & Clinical AI
 URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
  -CFPv.6.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:ICME 2027 · Regular paper acceptance notification
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-mm-2027-deadline-abstract@scientific-conference-calendar
@@ -1546,12 +1957,7 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2027-11-10
   only\; no cutoff hour stored. Check the organizer's call for the real da
  te and time.\nFormat: Paper-based / multimedia research\nPrevious edition
  's page: https://2026.acmmm.org/site/important-dates.html\nVenue Radar: h
- ttps://gon-uri.github.io/venue-radar/#acm-mm-2027\nNotes: As of 2026-10-2
- 8 the steering-committee site still lists Hong Kong for 2027 with dates T
- BA\, and 2027.acmmm.org is only a placeholder. Meeting and main-paper tim
- ing are annual proxies from 2026's day-only important-dates page. The est
- imated meeting stays off the confirmed-conference map. XL is an editorial
-  size estimate.
+ ttps://gon-uri.github.io/venue-radar/#acm-mm-2027
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
@@ -1568,11 +1974,7 @@ DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
  er's submission portal.\nFormat: Paper-based\nOfficial source: https://si
  gnalprocessingsociety.org/events/2027-ieee-international-conference-image
  -processing-icip\nVenue Radar: https://gon-uri.github.io/venue-radar/#ici
- p-2027\nNotes: IEEE Signal Processing Society confirms Singapore\, Nov 29
- -Dec 3\, and Mar 31 paper deadline. Exact submission hour/timezone and op
- ening are not announced\; 23:59 AoE is only an ordering proxy and ICS use
- s an all-day event. Topics reflect the continuing image-processing/learni
- ng scope in the prior CFP. Size XL is an editorial estimate.
+ p-2027
 CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
  Learning,Deep Representation Learning
 URL:https://signalprocessingsociety.org/events/2027-ieee-international-conf
@@ -1590,12 +1992,7 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2027-11-10
   only\; no cutoff hour stored. Check the organizer's call for the real da
  te and time.\nFormat: Paper-based / multimedia research\nPrevious edition
  's page: https://2026.acmmm.org/site/important-dates.html\nVenue Radar: h
- ttps://gon-uri.github.io/venue-radar/#acm-mm-2027\nNotes: As of 2026-10-2
- 8 the steering-committee site still lists Hong Kong for 2027 with dates T
- BA\, and 2027.acmmm.org is only a placeholder. Meeting and main-paper tim
- ing are annual proxies from 2026's day-only important-dates page. The est
- imated meeting stays off the confirmed-conference map. XL is an editorial
-  size estimate.
+ ttps://gon-uri.github.io/venue-radar/#acm-mm-2027
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
@@ -1631,15 +2028,7 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  .\nFormat: Full papers (double-blind\, proceedings) or abstracts (posters
  /spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys\nOffici
  al source: https://aiih.cc/important-dates/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (checked 20
- 26-10-29) list the fourth edition at the Mathematical Institute\, Univers
- ity of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are 
- published as 11.59PM Pacific Time (GMT-8)\; the January proposal row keep
- s -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the e
- arlier GMT-7 instant per their cutoff notes\, and the date-only notificat
- ion keeps -08:00. Full papers are double-blind via CMT (2026 papers appea
- red in Springer LNCS)\; abstracts and STARS surveys are archived on Zenod
- o. Size is an editorial estimate.
+ .github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
@@ -1657,18 +2046,26 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  .\nFormat: Full papers (double-blind\, proceedings) or abstracts (posters
  /spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys\nOffici
  al source: https://aiih.cc/important-dates/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (checked 20
- 26-10-29) list the fourth edition at the Mathematical Institute\, Univers
- ity of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are 
- published as 11.59PM Pacific Time (GMT-8)\; the January proposal row keep
- s -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the e
- arlier GMT-7 instant per their cutoff notes\, and the date-only notificat
- ion keeps -08:00. Full papers are double-blind via CMT (2026 papers appea
- red in Springer LNCS)\; abstracts and STARS surveys are archived on Zenod
- o. Size is an editorial estimate.
+ .github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:ICME 2027 · Workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcb-2027-deadline-full-paper@scientific-conference-calendar
@@ -1680,12 +2077,7 @@ DESCRIPTION:IEEE/IAPR International Joint Conference on Biometrics\nMeeting
  : 2027-09-13 to 2027-09-17\, Foz do Iguacu\, Brazil\nStatus: confirmed\, 
  checked 2026-10-07\nFormat: Paper-based / biometrics and identity science
  \nOfficial source: https://ijcb2027.ieee-biometrics.org/call-for-papers/\
- nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcb-2027\nNotes: Of
- ficial 2027 CFP confirms Foz do Iguacu\, September 13-17\, March 15 submi
- ssion opening\, and April 9 paper cutoff\; its date table specifies 23:59
-  AoE for all dates. IJCB combines BTAS and ICB\; do not create duplicate 
- rows or inherit a distinct predecessor's rankings. M is an editorial esti
- mate.
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcb-2027
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Privacy-preserving ML
 URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
@@ -1701,11 +2093,7 @@ DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
  7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
  cked 2026-10-28\nFormat: Paper-based\nOfficial source: https://ijcnn.org/
  2027/authors/initial-author-instructions\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#ijcnn-2027\nNotes: Official IJCNN 2027 pages (checke
- d 2026-10-28) list Cape Town (CTICC)\, Jun 14-18\, and the Jan 31\, 2027 
- regular-paper deadline with no cutoff hour (provisional AoE end of day). 
- CMT paper submissions are announced to open Dec 1\, 2026. Camera-ready an
- d registration payment are due Apr 12\, 2027\, 23:59 AoE.
+ thub.io/venue-radar/#ijcnn-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Signal Processing
 URL:https://ijcnn.org/2027/authors/initial-author-instructions
@@ -1721,14 +2109,29 @@ DESCRIPTION:IEEE Statistical Signal Processing Workshop\nMeeting: 2027-06-2
  \nCutoff time unannounced: official deadline day only. Verify the organiz
  er's submission portal.\nFormat: Paper-based / specialist workshop\nOffic
  ial source: https://ssp27.ieeesps.org/submit-paper/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#ieee-ssp-2027\nNotes: Official SSP 2027 p
- ages confirm the 24th edition at Centre de Congres Imperial\, Annecy\, Ju
- n 28-Jul 1\, 2027. The author page states deadlines are 23:59 AoE (UTC-12
- )\; regular and special-session papers share the Feb 7 deadline and one s
- ubmission system. The Dec 7 proposal cutoff hour is unstated.
+ /gon-uri.github.io/venue-radar/#ieee-ssp-2027
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Probabilistic\, Causal & Uncertainty ML
 URL:https://ssp27.ieeesps.org/submit-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:WASPAA 2027 (est.) · Abstract submission\, required before the pap
+ er
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-10-31. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\nOfficial source: https://waspaa.com/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcb-2027-deadline-supplementary@scientific-conference-calendar
@@ -1740,12 +2143,7 @@ DESCRIPTION:IEEE/IAPR International Joint Conference on Biometrics\nMeeting
  : 2027-09-13 to 2027-09-17\, Foz do Iguacu\, Brazil\nStatus: confirmed\, 
  checked 2026-10-07\nFormat: Paper-based / biometrics and identity science
  \nOfficial source: https://ijcb2027.ieee-biometrics.org/call-for-papers/\
- nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcb-2027\nNotes: Of
- ficial 2027 CFP confirms Foz do Iguacu\, September 13-17\, March 15 submi
- ssion opening\, and April 9 paper cutoff\; its date table specifies 23:59
-  AoE for all dates. IJCB combines BTAS and ICB\; do not create duplicate 
- rows or inherit a distinct predecessor's rankings. M is an editorial esti
- mate.
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcb-2027
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Privacy-preserving ML
 URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
@@ -1771,6 +2169,24 @@ URL:https://www.esann.org/
 LOCATION:Bruges\, Belgium
 END:VEVENT
 BEGIN:VEVENT
+UID:waspaa-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:WASPAA 2027 (est.) · Final 4+1-page paper submission
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-10-31. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\nOfficial source: https://waspaa.com/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-embc-2027-deadline-poster@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270423
@@ -1781,10 +2197,7 @@ DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
  06\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based / broad applied venue\nOff
  icial source: https://embc.embs.org/2027/important-dates/\nVenue Radar: h
- ttps://gon-uri.github.io/venue-radar/#ieee-embc-2027\nNotes: Organizer co
- nfirms Singapore\, Jul 11-15\, and Jan 24 full-paper/Apr 23 poster deadli
- nes. Cutoff hour/timezone is not specified\; 23:59 AoE is a provisional o
- rdering time\; the official deadline days are confirmed.
+ ttps://gon-uri.github.io/venue-radar/#ieee-embc-2027
 CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
  als,BCI & Neurotechnology
 URL:https://embc.embs.org/2027/important-dates/
@@ -1801,11 +2214,7 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  n it.\nEstimated day only\; no cutoff hour stored. Check the organizer's 
  call for the real date and time.\nFormat: Paper-based\nPrevious edition's
   page: https://nolta2026.org/\nVenue Radar: https://gon-uri.github.io/ven
- ue-radar/#nolta-2027\nNotes: As of 2026-10-29 the official NOLTA 2026 sit
- e (Grenoble\, Nov 17-20\, 2026) announces no 2027 host or dates. Meeting 
- dates and the paper deadline are same-weekday one-year proxies from NOLTA
-  2026\; the deadline follows its original Apr 30 date\, not the May 20 fi
- nal extension.
+ ue-radar/#nolta-2027
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
@@ -1820,11 +2229,7 @@ DESCRIPTION:IEEE Statistical Signal Processing Workshop\nMeeting: 2027-06-2
  8 to 2027-07-01\, Annecy\, France\nStatus: confirmed\, checked 2026-10-28
  \nFormat: Paper-based / specialist workshop\nOfficial source: https://ssp
  27.ieeesps.org/submit-paper/\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#ieee-ssp-2027\nNotes: Official SSP 2027 pages confirm the 24th e
- dition at Centre de Congres Imperial\, Annecy\, Jun 28-Jul 1\, 2027. The 
- author page states deadlines are 23:59 AoE (UTC-12)\; regular and special
- -session papers share the Feb 7 deadline and one submission system. The D
- ec 7 proposal cutoff hour is unstated.
+ e-radar/#ieee-ssp-2027
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Probabilistic\, Causal & Uncertainty ML
 URL:https://ssp27.ieeesps.org/submit-paper/
@@ -1841,15 +2246,44 @@ DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2027-
  08\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\nOfficial source: https://
  sscs.ieee.org/conferences/upcoming-conferences/\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#ieee-biocas-2027\nNotes: Official 2027 host c
- onfirms Oslo and October 14-16. IEEE SSCS lists May 7 as Abstract Submiss
- ion Date\; it is retained with that exact action\, not relabeled as a pap
- er deadline or made a mandatory paper gate. The final 2027 CFP\, full-pap
- er deadline and cutoff hour still require review. Size is an editorial es
- timate.
+ -uri.github.io/venue-radar/#ieee-biocas-2027
 CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
  ,Neuromorphic & Brain-inspired Computing
 URL:https://sscs.ieee.org/conferences/upcoming-conferences/
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:ICME 2027 · Regular paper camera-ready and author registration dea
+ dline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\nOfficial source: https://2027.ieeeicme.org/about/important-dat
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-rebuttal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270512T000000Z
+DTEND:20270512T010000Z
+SUMMARY:ICCP 2027 · Optional one-page author rebuttal deadline (reviews re
+ leased May 4)
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
 END:VEVENT
 BEGIN:VEVENT
 UID:icassp-2027-conference@scientific-conference-calendar
@@ -1872,6 +2306,30 @@ URL:https://2027.ieeeicassp.org/
 LOCATION:Toronto\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:neural-interfaces-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270523
+SUMMARY:Neural Interfaces 2027 · Conference
+DESCRIPTION:Neural Interfaces Conference\nStatus: confirmed\, checked 2026-
+ 10-31\nOfficial source: https://www.nans.org/neural-interfaces/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#neural-interfaces-2027\nNotes
+ : NANS's official pages confirm Neural Interfaces 2027 on May 20-22\, 202
+ 7 in Arlington\, Virginia (venue not named). Original research abstracts 
+ are accepted from November 12\, 2026 (day only) to February 17\, 2027\, 1
+ :00 PM\; details are pending. The closed Call for Proposals gathered spea
+ ker and session ideas. In 2025 (June 12-14\, Arlington) abstracts were bl
+ ind-reviewed for oral or paper-poster slots and published in meeting mate
+ rials\; no proceedings are stated. Billed as biennial (2012\, 2014 and 20
+ 16 editions are documented)\, but NANS's recent editions were 2021 and 20
+ 25. Size M reflects a three-day hotel meeting with poster receptions\; no
+  attendance is published. Size is an editorial estimate.
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
+LOCATION:Arlington\, Virginia\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:bmvc-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270522T115900Z
@@ -1881,11 +2339,7 @@ DESCRIPTION:British Machine Vision Conference\nMeeting: 2027-11-22 to 2027-
  11-25 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-29. C
  heck the organizer's call before relying on it.\nFormat: Paper-based / BM
  VA proceedings\nPrevious edition's page: https://bmvc2026.bmva.org/dates/
- \nVenue Radar: https://gon-uri.github.io/venue-radar/#bmvc-2027\nNotes: A
- s of 2026-10-29 the BMVA site announces no BMVC 2027 host\, dates or call
- . Meeting dates (Mon-Thu\, Nov 22-25) and the Friday abstract (May 21)/pa
- per (May 28) AoE deadlines are one-year same-weekday proxies from BMVC 20
- 26 in Lancaster.
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#bmvc-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://bmvc2026.bmva.org/dates/
@@ -1920,12 +2374,7 @@ DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
   2026-10-28. Check the organizer's call before relying on it.\nFormat: Pa
  per-based / engineering-focused\nPrevious edition's page: https://neuro.e
  mbs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-2027\nNotes: The
-  official NER 2027 site (13th edition) confirms Milan\, Sep 7-10\, 2027\;
-  as of 2026-10-28 its Call for Papers link is a placeholder and no deadli
- nes are posted. Both dates are proxies from the 2025 CFP lead times (6-pa
- ge paper 168 days\, 1-page abstract 106 days before the meeting)\; cutoff
-  hour and zone are unknown. ieee-ner.org still shows 2023 content.
+ e Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-2027
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Healthcare & Clinical AI
 URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
@@ -1943,15 +2392,7 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  e organizer's submission portal.\nFormat: Full papers (double-blind\, pro
  ceedings) or abstracts (posters/spotlights\, Zenodo)\; late-breaking abst
  racts and STARS surveys\nOfficial source: https://aiih.cc/important-dates
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#aiih-2027\nNotes: 
- Official AIiH pages (checked 2026-10-29) list the fourth edition at the M
- athematical Institute\, University of Oxford\, Sep 1-3\, 2027\; the forma
- t is not stated. Deadlines are published as 11.59PM Pacific Time (GMT-8)\
- ; the January proposal row keeps -08:00\, while rows falling in PDT (Apr 
- 9\, Jun 11\, Jul 2) store the earlier GMT-7 instant per their cutoff note
- s\, and the date-only notification keeps -08:00. Full papers are double-b
- lind via CMT (2026 papers appeared in Springer LNCS)\; abstracts and STAR
- S surveys are archived on Zenodo. Size is an editorial estimate.
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
@@ -1966,14 +2407,26 @@ DESCRIPTION:British Machine Vision Conference\nMeeting: 2027-11-22 to 2027-
  11-25 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-29. C
  heck the organizer's call before relying on it.\nFormat: Paper-based / BM
  VA proceedings\nPrevious edition's page: https://bmvc2026.bmva.org/dates/
- \nVenue Radar: https://gon-uri.github.io/venue-radar/#bmvc-2027\nNotes: A
- s of 2026-10-29 the BMVA site announces no BMVC 2027 host\, dates or call
- . Meeting dates (Mon-Thu\, Nov 22-25) and the Friday abstract (May 21)/pa
- per (May 28) AoE deadlines are one-year same-weekday proxies from BMVC 20
- 26 in Lancaster.
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#bmvc-2027
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://bmvc2026.bmva.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270602T000000Z
+DTEND:20270602T010000Z
+SUMMARY:ICCP 2027 · Final notification
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
 END:VEVENT
 BEGIN:VEVENT
 UID:interspeech-2027-deadline-camera-ready@scientific-conference-calendar
@@ -1987,14 +2440,7 @@ DESCRIPTION:Annual Conference of the International Speech Communication Ass
  ne day only. Verify the organizer's submission portal.\nFormat: Paper-bas
  ed / interactive demonstration papers\nOfficial source: https://interspee
  ch2027.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#interspe
- ech-2027\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep 2. Reg
- ular paper\, update\, and camera-ready days are announced without an exac
- t cutoff\; AoE is provisional for those date-only events. Show & Tell exp
- licitly uses 23:59 AoE and requires a two-page paper\, video\, and intera
- ctive demonstration. The Feb 16 update is not a fresh submission route. X
- L reflects the official description of more than 2\,000 annual attendees\
- ; the ICORE rank and historical acceptance fields describe the main confe
- rence\, not its demonstration track.
+ ech-2027
 CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
  Natural Language Processing & LLMs
 URL:https://interspeech2027.org/
@@ -2012,14 +2458,7 @@ DESCRIPTION:Annual Conference of the International Speech Communication Ass
   confirmed\, checked 2026-10-07\nFormat: Paper-based / interactive demons
  tration papers\nOfficial source: https://interspeech2027.org/calls/call_s
  how_and_tell/\nVenue Radar: https://gon-uri.github.io/venue-radar/#inters
- peech-2027\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep 2. R
- egular paper\, update\, and camera-ready days are announced without an ex
- act cutoff\; AoE is provisional for those date-only events. Show & Tell e
- xplicitly uses 23:59 AoE and requires a two-page paper\, video\, and inte
- ractive demonstration. The Feb 16 update is not a fresh submission route.
-  XL reflects the official description of more than 2\,000 annual attendee
- s\; the ICORE rank and historical acceptance fields describe the main con
- ference\, not its demonstration track.
+ peech-2027
 CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
  Natural Language Processing & LLMs
 URL:https://interspeech2027.org/calls/call_show_and_tell/
@@ -2037,15 +2476,7 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  .\nFormat: Full papers (double-blind\, proceedings) or abstracts (posters
  /spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys\nOffici
  al source: https://aiih.cc/important-dates/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (checked 20
- 26-10-29) list the fourth edition at the Mathematical Institute\, Univers
- ity of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are 
- published as 11.59PM Pacific Time (GMT-8)\; the January proposal row keep
- s -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the e
- arlier GMT-7 instant per their cutoff notes\, and the date-only notificat
- ion keeps -08:00. Full papers are double-blind via CMT (2026 papers appea
- red in Springer LNCS)\; abstracts and STARS surveys are archived on Zenod
- o. Size is an editorial estimate.
+ .github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
@@ -2061,10 +2492,7 @@ DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
  imated\, checked 2026-10-28. Check the organizer's call before relying on
   it.\nFormat: Paper-based / workshop-style conference\nOfficial source: h
  ttps://signalprocessingsociety.org/event-names/mlsp\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#ieee-mlsp-2027\nNotes: IEEE SPS and the o
- fficial 2027.ieeemlsp.org placeholder confirm Uppsala\, Sep 13-16\, 2027.
-  As of 2026-10-28 no 2027 call or deadlines are published\; the June 12 p
- aper deadline is an estimated proxy from MLSP 2026's June 12 deadline.
+ /gon-uri.github.io/venue-radar/#ieee-mlsp-2027
 CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
 URL:https://signalprocessingsociety.org/event-names/mlsp
 END:VEVENT
@@ -2098,11 +2526,7 @@ DESCRIPTION:European Conference on Visual Information Processing\nMeeting:
  ecked 2026-10-07. Check the organizer's call before relying on it.\nForma
  t: Paper-based / visual information processing\nPrevious edition's page: 
  https://euvip2026.github.io/\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#euvip-2027\nNotes: No organizer-confirmed 2027 edition\; 2026-10
- -28 review found no successor on the EUVIP 2026 site or programme. Meetin
- g and paper timing are annual proxies from 2026's final extended deadline
- \; the first 2027 deadline may be earlier. Website and timezone belong to
-  the 2026 edition\; location is unannounced.
+ e-radar/#euvip-2027
 CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
  Learning,Deep Representation Learning
 URL:https://euvip2026.github.io/
@@ -2118,14 +2542,26 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
  s: estimated\, checked 2026-10-29. Check the organizer's call before rely
  ing on it.\nFormat: Paper-based / two independent submission rounds\nPrev
  ious edition's page: https://wacv.thecvf.com/Conferences/2027/CallForPape
- rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#wacv-2028\nNotes:
-  As of 2026-10-29 the CVF conference list names Waikoloa\, Hawaii as the 
- WACV 2028 host\; dates and calls are unannounced. Main-conference dates a
- nd both rounds' enrollment and paper deadlines (AoE) are one-year proxies
-  from WACV 2027.
+ rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#wacv-2028
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270623T000000Z
+DTEND:20270623T010000Z
+SUMMARY:ICCP 2027 · Camera-ready (shepherded revision) deadline
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-10-31\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\nOffic
+ ial source: https://iccp2027.iccp-conference.org/#callforpapers\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iccp-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-2028-deadline-full-paper@scientific-conference-calendar
@@ -2138,11 +2574,7 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
  s: estimated\, checked 2026-10-29. Check the organizer's call before rely
  ing on it.\nFormat: Paper-based / two independent submission rounds\nPrev
  ious edition's page: https://wacv.thecvf.com/Conferences/2027/CallForPape
- rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#wacv-2028\nNotes:
-  As of 2026-10-29 the CVF conference list names Waikoloa\, Hawaii as the 
- WACV 2028 host\; dates and calls are unannounced. Main-conference dates a
- nd both rounds' enrollment and paper deadlines (AoE) are one-year proxies
-  from WACV 2027.
+ rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#wacv-2028
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
@@ -2179,18 +2611,28 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
  .\nFormat: Full papers (double-blind\, proceedings) or abstracts (posters
  /spotlights\, Zenodo)\; late-breaking abstracts and STARS surveys\nOffici
  al source: https://aiih.cc/important-dates/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#aiih-2027\nNotes: Official AIiH pages (checked 20
- 26-10-29) list the fourth edition at the Mathematical Institute\, Univers
- ity of Oxford\, Sep 1-3\, 2027\; the format is not stated. Deadlines are 
- published as 11.59PM Pacific Time (GMT-8)\; the January proposal row keep
- s -08:00\, while rows falling in PDT (Apr 9\, Jun 11\, Jul 2) store the e
- arlier GMT-7 instant per their cutoff notes\, and the date-only notificat
- ion keeps -08:00. Full papers are double-blind via CMT (2026 papers appea
- red in Springer LNCS)\; abstracts and STARS surveys are archived on Zenod
- o. Size is an editorial estimate.
+ .github.io/venue-radar/#aiih-2027
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:WASPAA 2027 (est.) · Acceptance notification
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-10-31. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\nOfficial source: https://waspaa.com/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-embc-2027-conference@scientific-conference-calendar
@@ -2210,6 +2652,48 @@ URL:https://embc.embs.org/2027/
 LOCATION:Singapore
 END:VEVENT
 BEGIN:VEVENT
+UID:icme-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270718
+SUMMARY:ICME 2027 · Conference
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nStatus: c
+ onfirmed\, checked 2026-10-31\nOfficial source: https://2027.ieeeicme.org
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#icme-2027\nNotes: 
+ Official 2027 pages confirm Xiamen International Conference & Exhibition 
+ Center\, July 13-17\, 2027. Regular and special-session papers share one 
+ system\, review and Dec 30\, 2026 deadline\; the PDF says AOE without an 
+ hour\, so 23:59 AoE is stored. The FAQ says submission opens in early Nov
+ ember 2026 (portal not seen open). ICME 2026 moved its paper deadline fro
+ m Dec 12 to Dec 31\, 2025. Some 2026 workshops set their own paper dates.
+  Demo proposals (Apr 16\; 2-page proceedings papers in 2026) stay in note
+ s per ADR-043. Accepted regular\, workshop\, demo and grand-challenge pap
+ ers enter the IEEE proceedings. No official size figures found. Size is a
+ n editorial estimate.
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/
+LOCATION:Xiamen\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:WASPAA 2027 (est.) · Camera-ready deadline
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-10-31. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\nOfficial source: https://waspaa.com/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:log-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270729T115900Z
@@ -2219,11 +2703,7 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
  1 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-29. Check
   the organizer's call before relying on it.\nFormat: Paper-based / non-ar
  chival extended abstracts\nOfficial source: https://logconference.org/cfp
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#log-2027\nNotes: A
- s of 2026-10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-2
- 2) and announces no 2027 host or dates. Meeting and abstract/paper AoE da
- tes are one-year same-weekday proxies from LoG 2026\, based on its origin
- al Jul 29/Aug 1 deadlines rather than the later Aug 5/7 extension.
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#log-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
@@ -2238,14 +2718,34 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
  1 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-29. Check
   the organizer's call before relying on it.\nFormat: Paper-based / non-ar
  chival extended abstracts\nOfficial source: https://logconference.org/cfp
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#log-2027\nNotes: A
- s of 2026-10-29 logconference.org covers only LoG 2026 (Boston\, Nov 20-2
- 2) and announces no 2027 host or dates. Meeting and abstract/paper AoE da
- tes are one-year same-weekday proxies from LoG 2026\, based on its origin
- al Jul 29/Aug 1 deadlines rather than the later Aug 5/7 extension.
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#log-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270805
+SUMMARY:ICCP 2027 · Conference
+DESCRIPTION:IEEE International Conference on Computational Photography\nSta
+ tus: confirmed\, checked 2026-10-31\nOfficial source: https://iccp2027.ic
+ cp-conference.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#i
+ ccp-2027\nNotes: The official 2027 site says ICCP is held in person at th
+ e University of Maryland\, College Park\, Aug 2-4\, 2027 (summer school J
+ ul 31-Aug 1). Papers are due Mar 16\, 2027 at 5:00 PM Pacific (PDT) on Op
+ enReview\, which opens Mar 1 (day only). One double-blind review with an 
+ optional rebuttal places each paper in an IEEE TPAMI special issue or the
+  ICCP proceedings\, and every accepted paper is a talk. Pages beyond 12 c
+ ost $220 each\; papers over 18 pages can go only to the proceedings. ICCP
+  2026 extended its deadline by a week. Several subpages still show 2026 c
+ ontent\, and no 2027 poster/demo call is posted. Annual since 2009. Size 
+ S: 29 paper talks in 2026. Size is an editorial estimate.
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/
+LOCATION:College Park\, Maryland\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcb-2027-deadline-camera-ready@scientific-conference-calendar
@@ -2257,12 +2757,7 @@ DESCRIPTION:IEEE/IAPR International Joint Conference on Biometrics\nMeeting
  : 2027-09-13 to 2027-09-17\, Foz do Iguacu\, Brazil\nStatus: confirmed\, 
  checked 2026-10-07\nFormat: Paper-based / biometrics and identity science
  \nOfficial source: https://ijcb2027.ieee-biometrics.org/important-dates/\
- nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcb-2027\nNotes: Of
- ficial 2027 CFP confirms Foz do Iguacu\, September 13-17\, March 15 submi
- ssion opening\, and April 9 paper cutoff\; its date table specifies 23:59
-  AoE for all dates. IJCB combines BTAS and ICB\; do not create duplicate 
- rows or inherit a distinct predecessor's rankings. M is an editorial esti
- mate.
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcb-2027
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Privacy-preserving ML
 URL:https://ijcb2027.ieee-biometrics.org/important-dates/
@@ -2278,11 +2773,7 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
  s: estimated\, checked 2026-10-29. Check the organizer's call before rely
  ing on it.\nFormat: Paper-based / two independent submission rounds\nPrev
  ious edition's page: https://wacv.thecvf.com/Conferences/2027/CallForPape
- rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#wacv-2028\nNotes:
-  As of 2026-10-29 the CVF conference list names Waikoloa\, Hawaii as the 
- WACV 2028 host\; dates and calls are unannounced. Main-conference dates a
- nd both rounds' enrollment and paper deadlines (AoE) are one-year proxies
-  from WACV 2027.
+ rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#wacv-2028
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
@@ -2319,10 +2810,7 @@ DESCRIPTION:International Conference on 3D Vision\nMeeting: 2028-04-06 to 2
  028-04-09 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-2
  9. Check the organizer's call before relying on it.\nFormat: Paper-based 
  / OpenReview\nPrevious edition's page: https://3dvconf.github.io/2027/dat
- es\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2028\nNotes: 
- As of 2026-10-29 the official 3DV site announces no 2028 host\, dates or 
- call. Meeting dates and the AoE paper deadline are one-year proxies from 
- 3DV 2027\, whose abstract registration shared the paper cutoff.
+ es\nVenue Radar: https://gon-uri.github.io/venue-radar/#3dv-2028
 CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
  ization,Signal Processing
 URL:https://3dvconf.github.io/2027/dates
@@ -2338,11 +2826,7 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
  s: estimated\, checked 2026-10-29. Check the organizer's call before rely
  ing on it.\nFormat: Paper-based / two independent submission rounds\nPrev
  ious edition's page: https://wacv.thecvf.com/Conferences/2027/CallForPape
- rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#wacv-2028\nNotes:
-  As of 2026-10-29 the CVF conference list names Waikoloa\, Hawaii as the 
- WACV 2028 host\; dates and calls are unannounced. Main-conference dates a
- nd both rounds' enrollment and paper deadlines (AoE) are one-year proxies
-  from WACV 2027.
+ rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#wacv-2028
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
@@ -2461,6 +2945,30 @@ URL:https://e-nns.org/icann2026/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:waspaa-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270923
+SUMMARY:WASPAA 2027 (est.) · Conference
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nStatus: estimated\, checked 2026-10-31. Check the organizer's
+  call before relying on it.\nOfficial source: https://waspaa.com/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#waspaa-2027\nNotes: waspaa.
+ com gives Levi\, Finland (first WASPAA in Europe)\, Sep 19-22\, 2027\, in
+  a tentative schedule subject to small changes: abstract Apr 14\, final p
+ aper Apr 21\, notification Jul 2\, camera-ready Jul 16. The IEEE SPS list
+ ing gives the same place and dates\, paper deadline TBD. All stay estimat
+ ed until the call is posted (waspaa.com/call-for-papers/ returned 404 on 
+ 2026-10-31). No hour or zone is posted\; 23:59 AoE follows 2025. The abst
+ ract is treated as a mandatory gate\, as the 2025 initial CMT entry was. 
+ Held every odd year since 1995. Size is an editorial estimate (169 attend
+ ees\, 95 papers in 2025).
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+LOCATION:Levi\, Finland
+END:VEVENT
+BEGIN:VEVENT
 UID:euvip-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270928
@@ -2509,12 +3017,7 @@ DESCRIPTION:Language Resources and Evaluation Conference\nMeeting: 2028-05-
  11 to 2028-05-16 (est.)\, To be announced\nStatus: estimated\, checked 20
  26-10-28. Check the organizer's call before relying on it.\nFormat: Paper
  -based\nPrevious edition's page: https://lrec2026.info/third-call-for-pap
- ers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#lrec-2028\nNote
- s: ELRA organizes LREC biennially. As of 2026-10-28 its LREC page names n
- o 2028 host or dates\; its call for expressions of interest to host 2028/
- 2030 had a 22 June 2026 deadline. Meeting and submission dates are two-ye
- ar proxies from 2026\, not an invented annual 2027 edition. Size is an ed
- itorial estimate.
+ ers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#lrec-2028
 CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
  gnal Processing
 URL:https://lrec2026.info/third-call-for-papers/
@@ -2661,12 +3164,7 @@ DESCRIPTION:International Conference on Biomagnetism\nMeeting: 2028-08-23 t
  0-06. Check the organizer's call before relying on it.\nFormat: Abstract-
  based / specialist venue\nOfficial source: https://mm.scimeeting.cn/en/we
  b/index/31426\nVenue Radar: https://gon-uri.github.io/venue-radar/#biomag
- -2028\nNotes: Provisional 2-year cadence projection from BIOMAG 2026\; da
- tes\, venue and deadline await an official 2028 site\, and links refer to
-  the prior edition. An archived BIOMAG 2024 page names the winning 2028 b
- id (Univ. G. d'Annunzio Chieti-Pescara\, Montesilvano Marina\, Pescara\, 
- Italy). On 2026-10-28 no live 2028 page was found and biomag2024.org redi
- rected to an unrelated site\; dates unchanged.
+ -2028
 CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
  nal Neuroscience,Signal Processing
 URL:https://mm.scimeeting.cn/en/web/index/31426
@@ -2691,6 +3189,39 @@ URL:https://www.elra.info/elra-events/lrec/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:accv-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280703T235900Z
+DTEND:20280704T005900Z
+SUMMARY:ACCV 2028 (est.) · Mandatory paper registration (title\, abstract\
+ , authors)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2028-12-14 to 202
+ 8-12-18 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-31.
+  Check the organizer's call before relying on it.\nFormat: Paper-based / 
+ Springer LNCS proceedings\nPrevious edition's page: https://accv2026.org/
+ submissions/author-guidelines/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#accv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280705T235900Z
+DTEND:20280706T005900Z
+SUMMARY:ACCV 2028 (est.) · Main-conference paper submission deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2028-12-14 to 202
+ 8-12-18 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-31.
+  Check the organizer's call before relying on it.\nFormat: Paper-based / 
+ Springer LNCS proceedings\nPrevious edition's page: https://accv2026.org/
+ submissions/author-guidelines/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#accv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
 UID:biomag-2028-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20280823
@@ -2710,5 +3241,92 @@ CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
  nal Neuroscience,Signal Processing
 URL:https://mm.scimeeting.cn/en/web/index/31426
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281011
+DTEND;VALUE=DATE:20281012
+SUMMARY:IFAC WC 2029 (est.) · Regular/survey paper deadline (also invited-
+ session\, open-invited-track and demonstration papers)
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nMeeting: 2029-07-08 to 2029-07-13\, Amsterdam\, Netherlands\nStatus
+ : estimated\, checked 2026-10-31. Check the organizer's call before relyi
+ ng on it.\nEstimated day only\; no cutoff hour stored. Check the organize
+ r's call for the real date and time.\nFormat: Paper-based / IFAC-PapersOn
+ Line open-access proceedings\; late-breaking/discussion papers non-archiv
+ al (preprints only)\nPrevious edition's page: https://www.ifac2026.org/fa
+ irContents.do?FAIRMENU_IDX=21837&hl=ENG\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#ifac-wc-2029
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281214
+DTEND;VALUE=DATE:20281219
+SUMMARY:ACCV 2028 (est.) · Conference
+DESCRIPTION:Asian Conference on Computer Vision\nStatus: estimated\, checke
+ d 2026-10-31. Check the organizer's call before relying on it.\nPrevious 
+ edition's page: https://accv2026.org/\nVenue Radar: https://gon-uri.githu
+ b.io/venue-radar/#accv-2028\nNotes: As of 2026-10-31 no ACCV 2028 host\, 
+ dates or call is published\; the ACCV 2026 site names no successor\, Open
+ Review has no 2028 venue and afcv.org is a parked lander. The 2026 site c
+ alls ACCV biennial. Meeting dates (Dec 14-18\, workshops first) and the m
+ andatory registration (July 3) and paper (July 5) 23:59 GMT cutoffs are t
+ wo-year calendar-date proxies from ACCV 2026\; the website and CFP links 
+ belong to the 2026 edition. No timezone is set because the host is unknow
+ n. The estimated meeting stays off the map. Size is an editorial estimate
+ .
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-deadline-discussion-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20290113
+DTEND;VALUE=DATE:20290114
+SUMMARY:IFAC WC 2029 (est.) · Late-breaking/discussion paper deadline (1-4
+  pages\, preprints only\, non-archival)
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nMeeting: 2029-07-08 to 2029-07-13\, Amsterdam\, Netherlands\nStatus
+ : estimated\, checked 2026-10-31. Check the organizer's call before relyi
+ ng on it.\nEstimated day only\; no cutoff hour stored. Check the organize
+ r's call for the real date and time.\nFormat: Paper-based / IFAC-PapersOn
+ Line open-access proceedings\; late-breaking/discussion papers non-archiv
+ al (preprints only)\nPrevious edition's page: https://www.ifac2026.org/fa
+ irContents.do?FAIRMENU_IDX=21837&hl=ENG\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#ifac-wc-2029
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20290708
+DTEND;VALUE=DATE:20290714
+SUMMARY:IFAC WC 2029 · Conference
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://co
+ nferences.ifac-control.org/wc2029/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#ifac-wc-2029\nNotes: IFAC's triennial flagship since 1960.
+  The official site confirms the 24th congress at Amsterdam RAI\, July 8-1
+ 3\, 2029\; on 2026-10-31 it posts no call\, deadlines or submission site.
+  Both deadlines keep the original 2026 lead times (Busan\, Aug 23-28)\, i
+ .e. papers 270 and discussion papers 176 days before the meeting\; 2023\,
+  also in July\, used Oct 31 for papers. Cutoff hours are unknown. The 202
+ 6 IFAC-journal option is omitted (absent in 2023). Papers appear open acc
+ ess in IFAC-PapersOnLine\; discussion papers only in preprints. XL rests 
+ on IFAC's up to 4\,000 attendees and 3\,206 delegates in 2023. Size is an
+  editorial estimate.
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://conferences.ifac-control.org/wc2029/
+LOCATION:Amsterdam\, Netherlands
 END:VEVENT
 END:VCALENDAR

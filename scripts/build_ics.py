@@ -126,12 +126,13 @@ def _deadline_source_url(
 
 def _description(
     conference: dict[str, Any], source_url: str, estimated: bool,
-    *, meeting: bool = False, details: Iterable[str] = (),
+    *, meeting: bool = False, details: Iterable[str] = (), notes: bool = True,
 ) -> str:
-    """Event-specific facts first, then the submission format and the edition's
-    Notes, which carry publication and eligibility caveats (for example
-    non-archival routes). Topics travel in CATEGORIES; scope profiles stay in
-    YAML, where they drive search and topic matching (ADR-044)."""
+    """Event-specific facts first, then the submission format, the source and
+    a link to the edition row. The edition's Notes appear once, on its meeting
+    event (ADR-045): repeating them on every milestone pushed the aggregate
+    feed past the ~1 MB URL-feed limit. Topics travel in CATEGORIES; scope
+    profiles stay in YAML, where they drive search and topic matching."""
     lines = [conference["title"]]
     if meeting:
         marker = " (est.)" if conference["confidence"] in ESTIMATED_MEETING else ""
@@ -149,7 +150,7 @@ def _description(
     # Same rule as the site's "Previous call" links (ADR-040).
     source_label = "Previous edition's page" if _older_year_link(source_url, conference["year"]) else "Official source"
     lines.extend([f"{source_label}: {source_url}", f"Venue Radar: {SITE_URL}#{conference['id']}"])
-    if conference.get("notes"):
+    if notes and conference.get("notes"):
         lines.append(f"Notes: {conference['notes']}")
     return "\n".join(lines)
 
@@ -176,7 +177,7 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
         )
     if deadline.get("cutoff_note"):
         details.append(f"Cutoff note: {deadline['cutoff_note']}")
-    description = _description(conference, source_url, estimated, meeting=True, details=details)
+    description = _description(conference, source_url, estimated, meeting=True, details=details, notes=False)
 
     return [
         "BEGIN:VEVENT",

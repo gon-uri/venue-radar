@@ -12,12 +12,12 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Repository | `gon-uri/venue-radar`; GitHub Pages publishes `main/docs`. |
 | Website | https://gon-uri.github.io/venue-radar/ |
 | Architecture | Reviewed YAML + Python generators + standalone static HTML/ICS; no backend or SQL database. |
-| Catalog | 199 edition records across 131 distinct series, including 30 next editions added 2026-10-29 (28 estimated; ICDM 2027 and ACC 2028 confirmed), the user-requested AIiH 2027, SD4H 2026 as TS4H's successor and the owner-approved ECC 2027 (2026-10-30). Website row counts refer to editions, not unique series. |
+| Catalog | 259 edition records across 175 distinct series. The 2026-10-31 related-venue additions brought 44 owner-approved series (60 records: 45 confirmed meetings, 15 estimated); earlier batches include 30 next editions added 2026-10-29, AIiH 2027, SD4H 2026 as TS4H's successor and ECC 2027. Website row counts refer to editions, not unique series. |
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
-| Detailed scopes | 80 reviewed profiles; 51 series still lack a reviewed profile. |
-| Evidence maps | 66 direct ICORE 2026 ranks, 55 direct CCF 2026 ranks, 34 historical rate/qualitative-band entries. |
-| Public feeds | 377 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 199 edition and 131 series feeds. `calendar-all.ics` is 735 KB after ADR-044 (was 1.06 MB); a test keeps every feed below 1 MB. |
-| Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML through 2026-10-29. ECC (added 2026-10-30) has no row yet: the sync helper's optional `@oai/artifact-tool` cannot be installed from public npm. On 2026-10-31 the owner said they no longer use the workbook; retiring it is an open decision. |
+| Detailed scopes | 124 reviewed profiles; 51 series still lack a reviewed profile. |
+| Evidence maps | 83 direct ICORE 2026 ranks, 67 direct CCF 2026 ranks, 49 historical rate/qualitative-band entries. |
+| Public feeds | 481 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 259 edition and 175 series feeds. `calendar-all.ics` is 864 KB (ADR-045: Notes once per edition); a test keeps every feed below 1 MB. |
+| Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML through 2026-10-29; the owner said on 2026-10-31 that they no longer use the workbook. ECC and the 44 related-venue series have no rows (the sync helper's optional `@oai/artifact-tool` cannot be installed from public npm). Retiring the workbook is an open decision. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
 Counts are a dated catalog snapshot. Recompute them from canonical files after
@@ -117,7 +117,7 @@ adds ignore/tracking checks and keeps onboarding independent of private notes.
 
 - Review future estimates and stale checks against current official CFPs about
   monthly. Validation confirms structure/provenance presence, not factual accuracy.
-- Complete the 51 missing scope profiles gradually; curate characteristic
+- Complete the 51 missing scope profiles gradually (the 44 related-venue additions all have one); curate characteristic
   categories, never exhaustive CFP inventories or guessed specialist coverage.
 - Add rank/rate mappings only from direct supported evidence. Workshops, joint
   editions and similarly named conferences must not inherit a different venue's rank.
@@ -314,3 +314,36 @@ UIDs, 199 -> 199 edition IDs), the full browser suite at
 browser check of the new countdown states, the visibility refresh and
 countdown widths at 1440/390/320px. Published to `main` on 2026-10-31 in the
 commit that adds this note. Not yet checked in real calendar apps.
+
+On 2026-10-31 the owner asked for a comprehensive search for related,
+well-regarded, non-predatory conferences. Eight family searchers proposed 201
+venues; a skeptical reviewer vetted 198 (42 recommended, 16 strong, 65
+consider, 71 long shot, 4 rejected); the full data and an offline copy of the
+review page are in `project_docs/candidate_search/` (see the
+[candidate backlog](conference_candidates.md#related-venue-search-2026-10-3031)).
+The owner selected 44 series: ACCV, ALT, AMIA, ASRU, BIOSIG, CHIIR, CLeaR,
+CNS CogNeuro (the Cognitive Neuroscience Society, distinct from CNS*), COPA,
+EAAMO, ECAF, ENOC, ESWC, FENS Forum, FORC, ICCP, ICDL, ICME, ICMNS, ICONS,
+ICWSM, IEEE CEC, IFAC WC, INLG, IPCAI, IPMI, IROS, ISF, IUI, IVA, MTNS,
+NAISys, NCM, NetSci-X, Neural Interfaces, PPSN, RLC, RLDM, SIAM MDS, SIGDIAL,
+SLT, SNL, UMAP and WASPAA. For each, one agent drafted records from official
+pages and an independent agent re-fetched the sources and corrected them (32
+of 44 needed corrections). Integration added 60 records, families, 44 scope
+profiles, 26 cities, 17 ICORE ranks (matched against the official ICORE2026
+export; AMIA is only National: USA), 12 CCF ranks (from the CCF 2026 PDF), 15
+sourced acceptance rates and 39 cadences (NAISys, RLDM and Neural Interfaces
+are irregular; ASRU and SLT merge into IEEE ASLI from 2027, so no successor
+is projected). Editorial fixes during review: IPCAI's journal-presentation
+abstracts are schedule-only; a February "CDT" cutoff keeps the earliest
+instant with a note; the two-site RLC 2027 stays estimated and off the map;
+a date the organizer marks tentative is estimated. The larger catalog pushed
+`calendar-all.ics` to 1.21 MB, so ADR-045 puts Notes once per edition
+(864 KB). Checks: 259 records validated, 176 Python and 33 Node tests
+(including `tests/test_related_venue_additions.py`), the full browser suite at
+1440/1051/1050/768/390/320px (169 opportunities at its frozen date; 147
+confirmed editions in 113 cities on the map; every added row accounted for),
+and a row check of near-deadline additions at 2026-10-31. An independent final
+review re-checked the 12 nearest new deadlines on official pages (no
+discrepancy) and found 8 smaller issues, all fixed. Published to `main` on
+2026-10-31 in the commit that adds this note. Not done: the workbook rows, and
+real calendar-app checks of the new events.

@@ -1,0 +1,196 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:INLG (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:inlg-2026-deadline-demo-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260719T115959Z
+DTEND:20260719T125959Z
+SUMMARY:INLG 2026 · System demo paper submission (2 pages plus screencast\
+ ; in the proceedings)
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
+ te non-archival poster track\nOfficial source: https://2026.inlgmeeting.o
+ rg/calls.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#inlg-2
+ 026
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260719T115959Z
+DTEND:20260719T125959Z
+SUMMARY:INLG 2026 · Long and short paper direct submission (extended from 
+ July 15)
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
+ te non-archival poster track\nOfficial source: https://2026.inlgmeeting.o
+ rg/calls.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#inlg-2
+ 026
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2026-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260806T115959Z
+DTEND:20260806T125959Z
+SUMMARY:INLG 2026 · Commitment of ARR-reviewed papers
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
+ te non-archival poster track\nOfficial source: https://2026.inlgmeeting.o
+ rg/calls.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#inlg-2
+ 026
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:INLG 2026 · Acceptance notification
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
+ cked 2026-10-31\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based / ACL Antholo
+ gy proceedings\; separate non-archival poster track\nOfficial source: htt
+ ps://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#inlg-2026
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260823T115900Z
+DTEND:20260823T125900Z
+SUMMARY:INLG 2026 · Non-archival track (work-in-progress abstract of up to
+  300 words\, or a paper published elsewhere\; poster\, not in the proceed
+ ings)
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
+ te non-archival poster track\nOfficial source: https://2026.inlgmeeting.o
+ rg/calls.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#inlg-2
+ 026
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2026-deadline-shared-task-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260823T115900Z
+DTEND:20260823T125900Z
+SUMMARY:INLG 2026 · Generation Challenges shared-task proposals
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
+ te non-archival poster track\nOfficial source: https://2026.inlgmeeting.o
+ rg/calls.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#inlg-2
+ 026
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260908T115900Z
+DTEND:20260908T125900Z
+SUMMARY:INLG 2026 · Camera-ready deadline
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
+ cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
+ te non-archival poster track\nOfficial source: https://2026.inlgmeeting.o
+ rg/calls.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#inlg-2
+ 026
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261022
+SUMMARY:INLG 2026 · Conference
+DESCRIPTION:International Natural Language Generation Conference\nStatus: c
+ onfirmed\, checked 2026-10-31\nOfficial source: https://2026.inlgmeeting.
+ org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#inlg-2026\nNote
+ s: Official INLG 2026 pages (reviewed 2026-10-31) confirm Utrecht (Spoorw
+ egmuseum\; hosted by Utrecht University)\, Oct 17-21: workshops and tutor
+ ials Oct 17-18\, main conference Oct 19-21\, presentations in person only
+ . All deadlines are AoE. Direct long/short and demo submissions moved fro
+ m July 15 to July 18\; the last ARR submission deadline eligible for comm
+ itment was May 25. A new non-archival track took work-in-progress abstrac
+ ts (max 300 words) or papers published elsewhere\, with light review. Acc
+ epted: 82 long\, 13 short and 5 demo papers (ACL Anthology) plus 27 non-a
+ rchival posters. Size is an editorial estimate.
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/
+LOCATION:Utrecht\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270716T115959Z
+DTEND:20270716T125959Z
+SUMMARY:INLG 2027 (est.) · Long and short paper direct submission
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2027-10-17 to 2027-10-21 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACL Anthology proceedings\nPrevious edition's page: http
+ s://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github.
+ io/venue-radar/#inlg-2027
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2027-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270806T115959Z
+DTEND:20270806T125959Z
+SUMMARY:INLG 2027 (est.) · Commitment of ARR-reviewed papers
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2027-10-17 to 2027-10-21 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACL Anthology proceedings\nPrevious edition's page: http
+ s://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github.
+ io/venue-radar/#inlg-2027
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271022
+SUMMARY:INLG 2027 (est.) · Conference
+DESCRIPTION:International Natural Language Generation Conference\nStatus: e
+ stimated\, checked 2026-10-31. Check the organizer's call before relying 
+ on it.\nOfficial source: https://inlgmeeting.org/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#inlg-2027\nNotes: As of 2026-10-31 no INLG 
+ 2027 host\, dates or call is published (2027.inlgmeeting.org does not res
+ olve\; SIGGEN pages list no 2027 edition). INLG has met yearly since at l
+ east 2016\, but timing varies from July to December\; 2025-2026 met in la
+ te October before EMNLP. Meeting dates are a one-year proxy from INLG 202
+ 6 (Oct 17-21). The paper and ARR-commitment dates proxy 2026's original J
+ uly 15 and Aug 5 dates (2025 and 2026 both extended papers to July 18). T
+ he 2026 non-archival track is not projected. Size is an editorial estimat
+ e.
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://inlgmeeting.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

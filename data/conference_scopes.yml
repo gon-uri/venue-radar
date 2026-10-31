@@ -1251,3 +1251,934 @@ AIiH:
   - https://aiih.cc/call-for-stars/
   scope_last_checked: '2026-10-29'
   source_year: 2027
+
+ACCV:
+  additional_topics:
+    - Biometrics & Human Sensing
+    - Natural Language Processing & LLMs
+    - Computer Graphics & Visualization
+    - Signal Processing
+  scope_summary: >-
+    Broad computer vision: 3D vision and depth, recognition, matching and
+    shape representation, segmentation and scene understanding, motion,
+    tracking and video event analysis, low-level vision and image processing,
+    and computational photography, illumination and physics-based vision.
+    Deep and generative models, statistical learning and optimization are core
+    methods. Face, gesture, pose, action and biometrics, and vision and
+    language, are recurring areas. Biomedical image analysis, document images,
+    autonomous driving and robot vision are listed application areas, not
+    separate specialist identities. ACCV is the biennial conference sponsored
+    by the Asian Federation of Computer Vision, with Springer LNCS proceedings;
+    this profile uses the published 2026 call.
+  scope_source_urls:
+    - https://accv2026.org/submissions/
+    - https://accv2026.org/submissions/author-guidelines/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+ALT:
+  additional_topics:
+    - Reinforcement Learning
+    - Deep Representation Learning
+    - Probabilistic, Causal & Uncertainty ML
+    - Robustness & Safety
+    - Privacy-preserving ML
+  scope_summary: >-
+    All theoretical and algorithmic aspects of machine learning, at the annual
+    conference of the Association for Algorithmic Learning Theory, whose sister
+    association runs COLT. Characteristic work designs and analyses learning
+    algorithms and studies their statistical, computational and
+    information-theoretic foundations: online and multi-agent learning and game
+    theory, convex and nonconvex optimization, implicit bias, and supervised,
+    active and reinforcement learning. The 2027 call also highlights theory of
+    deep learning, transformers and large language models, sampling and diffusion
+    models, distribution shift, high-dimensional and nonparametric statistics,
+    causality, Bayesian and kernel methods, and trustworthy-AI theory covering
+    privacy, adaptive data analysis, fairness, alignment and robustness. Learning
+    under distributed, federated, memory or streaming constraints also appears.
+    Empirical results are welcome as support for the theoretical analysis.
+  scope_source_urls:
+    - https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+    - https://algorithmiclearningtheory.org/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+AMIA:
+  additional_topics:
+  - Natural Language Processing & LLMs
+  - Machine Learning
+  - Knowledge Representation & Reasoning
+  - Ethics & Governance
+  - Fairness & Responsible AI
+  scope_summary: Biomedical and health informatics across six programme areas, from molecules to populations - clinical informatics (EHRs, clinical decision support, standards and interoperability, safety and quality), clinical research informatics, translational bioinformatics, consumer health, public health informatics and informatics education. Submissions are classed as Foundations (methods for structuring, processing and analysing health information), Applications (design, implementation and evaluation of real-world systems) or Policy. Characteristic strands include AI and analytics on clinical data (machine learning, LLMs, NLP and information extraction, causal inference, real-world evidence), terminologies, ontologies and knowledge representation, usability and human-centred design, data governance and privacy, and health equity. The 2026 theme was informatics for learning health systems. Much of the programme is implementation, evaluation and policy rather than ML methods.
+  scope_source_urls:
+  - https://web.archive.org/web/20260506064156/https://amia.org/education-events/amia-2026-annual-symposium/call-participation
+  - https://web.archive.org/web/20261001143649/https://amia.org/education-events/amia-2026-annual-symposium
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+ASRU:
+  additional_topics:
+  - Biometrics & Human Sensing
+  scope_summary: >-
+    Biennial flagship workshop of the IEEE SPS Speech and Language Processing
+    Technical Committee on automatic speech recognition and understanding,
+    bringing academia and industry together in an intimate, poster-only
+    format. Characteristic 2025 areas are speech recognition systems, spoken
+    language processing and spoken dialog systems, speech enhancement and
+    separation, speech analysis, speaker and language recognition and
+    diarization, emotion recognition and paralinguistics, multilingual and
+    multimodal speech processing, speech synthesis and spoken-language
+    generation, resources such as corpora, toolkits and evaluation metrics,
+    and machine learning for speech. The 2025 edition emphasized large
+    language models for speech and speech foundation models, and made its
+    demo, system and data papers an archival track. Speaker recognition,
+    diarization and paralinguistics form a recurring human-sensing strand;
+    text-only language processing is listed, but the venue is speech-centred.
+    From 2027 the IEEE ASLI conference builds on ASRU and SLT and brings their
+    communities together.
+  scope_source_urls:
+  - https://2025.ieeeasru.org/calls/call-for-papers/
+  - https://2025.ieeeasru.org/
+  - https://2025.ieeeasru.org/calls/call-for-demos/
+  - https://2027.ieeeasli.org/call-for-papers/
+  scope_last_checked: '2026-10-31'
+  source_year: 2025
+
+BIOSIG:
+  additional_topics:
+    - Explainability & Interpretability
+    - Ethics & Governance
+    - Human-AI Interaction & Deployment
+  scope_summary: >-
+    European biometrics venue of the GI BIOSIG special interest group, linking
+    academic research with government, standards and industry practice. Core
+    themes are biometric recognition across modalities and multibiometric
+    fusion, presentation-attack (liveness), morphing and deepfake detection,
+    template protection and de-identification, sample quality, performance
+    measurement and standards/interoperability, ageing of reference data,
+    continuous authentication and forensics. Large-scale public deployments such
+    as border control and identity documents motivate the call, and usability,
+    user-interface design, trustworthiness, explainability and ethical, legal
+    and socio-technical aspects are explicit topics. Recent programmes centre on
+    face, fingerprint, iris and periocular analysis, with voice, gait, EEG and
+    handwriting contributions; reproducible research on public datasets and
+    ISO/IEC biometric vocabulary are encouraged.
+  scope_source_urls:
+    - https://biosig.de/
+    - https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
+    - https://biosig.de/paper-submission
+    - https://biosig.de/program
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+CHIIR:
+  additional_topics:
+  - Recommender Systems
+  - Natural Language Processing & LLMs
+  - Ethics & Governance
+  scope_summary: User-centred information access, seeking, retrieval and use. Characteristic work covers individual
+    and collaborative information-seeking behaviour and sensemaking, search and discovery interfaces, conversational
+    and multimodal interaction, context-aware and personalised search including interaction with recommendation
+    technologies, and user-centred evaluation through lab, field, log, eye-tracking, crowdsourcing, simulation and
+    qualitative studies. The 2027 call explicitly invites studies of generative AI for information access (retrieval-augmented
+    and non-retrieval interactions) and ethical and societal aspects of information access; language models enter
+    through human interaction studies rather than NLP methods. The meeting is multidisciplinary, drawing on HCI,
+    psychology, sociology, education and ethnography, and its new design-paper track welcomes design-led HCI work
+    without a running system.
+  scope_source_urls:
+  - https://chiir2027.github.io/papers.html
+  - https://chiir2027.github.io/full-papers.html
+  - https://chiir2027.github.io/demo-and-design-papers.html
+  - https://www.chiir.org/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+CLeaR:
+  additional_topics:
+  - Deep Representation Learning
+  - Reinforcement Learning
+  - Fairness & Responsible AI
+  - Explainability & Interpretability
+  scope_summary: >-
+    Specialist venue for causality across AI and statistics: theory, methodology
+    and applications of causal discovery (including large-scale and complex
+    environments), causal effect identification and estimation, intervention
+    models, and causal representation learning and abstraction. A characteristic
+    strand uses the causal view to tackle machine-learning problems such as
+    transfer across heterogeneous data sources, causal generative modelling,
+    deep learning and reinforcement learning, alongside causal approaches to
+    fairness, explainability and recourse. Application papers need not propose
+    new methods but must use causal methods soundly; benchmarks and benchmark
+    datasets are solicited, and the series runs a separate non-archival
+    causal-dataset track. Philosophical and psychological perspectives on causal
+    inference are also welcome.
+  scope_source_urls:
+  - https://www.cclear.cc/2027/CallforPapers
+  - https://www.cclear.cc/2027/CallforDatasets
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+CNS CogNeuro:
+  additional_topics:
+  - Computational Neuroscience
+  scope_summary: Annual spring meeting of the Cognitive Neuroscience Society, whose mission is mind and brain research
+    on the psychological, computational and neuroscientific bases of cognition. The four-day meeting brings researchers
+    together to share the latest work across all aspects of cognitive neuroscience, the interdisciplinary study of
+    how the brain enables thought. Contributed work is presented mainly as posters, including a Sketchpad Series
+    for work in progress, a late-breaking round for results obtained after the main deadline, and five-minute Data
+    Blitz talks for selected posters. Member-organised symposia focus on a special-interest topic, such as a methodological
+    issue, a disease or a focused problem within a domain like language, and complement invited symposia, a keynote
+    and award lectures. Submissions are 250-word abstracts published by default in the online meeting proceedings,
+    not full papers. It is a cognitive-neuroscience venue rather than a machine-learning one, and is distinct from
+    the OCNS CNS* computational neuroscience meeting.
+  scope_source_urls:
+  - https://www.cogneurosociety.org/background/
+  - https://www.cogneurosociety.org/annual-meeting/
+  - https://www.cogneurosociety.org/exhibit/
+  - https://www.cogneurosociety.org/submit-a-poster/
+  - https://www.cogneurosociety.org/submit-a-symposium/
+  - https://www.cogneurosociety.org/data-blitz/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+COPA:
+  additional_topics:
+  - Explainability & Interpretability
+  - Time Series & Sequential Data
+  scope_summary: >-
+    Conformal prediction and related distribution-free, probabilistic prediction:
+    set predictions and predictive distributions with user-controlled error
+    levels under weak (exchangeability-type) assumptions. Characteristic strands
+    are validity and optimality theory, novel conformity measures, Venn and
+    Venn-Abers multi-probability prediction, conformal predictive distributions,
+    algorithmic randomness and on-line compression modelling, conformal anomaly
+    detection, and conformal test martingales for change-point and shift
+    detection. A recurring strand uses conformal methods for explanation,
+    fairness and decision making. Applications across medicine, bioinformatics,
+    LLMs and security appear, but the community is defined by conformal
+    methodology rather than an application domain.
+  scope_source_urls:
+  - https://copa-conference.com/
+  - https://proceedings.mlr.press/v329/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+ENOC:
+  additional_topics: []
+  scope_summary: 'EUROMECH''s European Nonlinear Dynamics Conference keeps the historical ENOC acronym (European Nonlinear
+    Oscillations Conference) and spans nonlinear dynamics across theoretical and applied mechanics, applied mathematics
+    and physics: nonlinear oscillations and vibrations, bifurcations, slow-fast, non-smooth, time-delay, time-periodic and
+    random dynamical systems, asymptotic and computational methods, reduced-order modelling and system identification,
+    and control and synchronization of nonlinear systems. Applications are engineering-heavy (structures, MEMS/NEMS,
+    fluid-structure interaction, metamaterials and wave propagation, energy transfer and harvesting, robotics), with a
+    smaller biological-systems strand; the 2027 programme includes one data-driven dynamics and machine-learning
+    mini-symposium. Contributions are two-page abstracts grouped into mini-symposia, with no full-paper submission.'
+  scope_source_urls:
+  - https://enoc2027.com/
+  - https://enoc2027.com/Programme/mini-symposia
+  - https://enoc2027.com/author/submission-guidance
+  - https://enoc2020.sciencesconf.org/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+ESWC:
+  additional_topics:
+  - Natural Language Processing & LLMs
+  - Machine Learning
+  - Explainability & Interpretability
+  scope_summary: 'Semantic Web and knowledge-graph research: ontologies, rules, shapes and reasoning; knowledge-graph
+    construction, querying, matching and integration; linked and FAIR data, provenance and data quality; and
+    semantics-grounded AI such as language models with knowledge graphs, knowledge-graph retrieval-augmented generation,
+    graph embeddings and neuro-symbolic hybrids. Research, resources (datasets, ontologies, benchmarks) and in-use
+    application tracks share one LNCS proceedings. The call states that ML or NLP work with no direct impact on
+    semantic technologies is not relevant. Now overseen by SWSA, which also runs ISWC; rejected ISWC research papers
+    may be resubmitted.'
+  scope_source_urls:
+  - https://2027.eswc-conferences.org/calls/papers-research-track/
+  - https://2027.eswc-conferences.org/calls/papers-resource-track/
+  - https://2027.eswc-conferences.org/calls/papers-in-use-track/
+  - https://2027.eswc-conferences.org/calls/iswc/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+FENS Forum:
+  additional_topics:
+  - Neuroimaging & Brain Mapping
+  - EEG/MEG & Neural Signals
+  - BCI & Neurotechnology
+  scope_summary: Biennial flagship meeting of the Federation of European Neuroscience Societies, covering all fields
+    of neuroscience. Its abstract themes span development and stem cells, neurons and glia, synaptic communication
+    and plasticity, sensory and motor systems, cognition and behaviour, internal states and homeostasis, and nervous-system
+    disorders, so much of the programme is cellular, molecular and translational. Most relevant here are its circuit
+    dynamics and oscillations theme, a computational and theoretical neuroscience theme (data analysis, data-driven
+    modelling, pure theory) and a methods theme covering electrophysiology, imaging, intervention methods, neuromorphic
+    engineering, AI and large language models, plus brain-machine interfaces under motor systems. Fresh contributions
+    are short poster abstracts presented in person; symposia and technical workshops are organiser proposals. It is
+    a broad neuroscience meeting, not a computational or machine-learning venue.
+  scope_source_urls:
+  - https://fensforum.org/themes-and-topics/
+  - https://www.fens.org/meetings/fens-forum
+  - https://fensforum.org/abstract-submission/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+FORC:
+  additional_topics:
+  - Robustness & Safety
+  - Ethics & Governance
+  scope_summary: >-
+    Mathematically rigorous research on computation and society, held annually since 2020
+    with LIPIcs proceedings. The community brings theoretical computer science, statistics,
+    economics and related analytical fields to pressing societal problems. Characteristic
+    work covers theoretical fairness in machine learning (definitions, algorithms, lower
+    bounds and trade-offs), formal privacy and especially differential privacy, computational
+    social choice including apportionment and redistricting, fair allocation and division,
+    and incentives and mechanism design for social good. The call also lists robustness and
+    formal explainability, bias in the formation of and diffusion through social networks,
+    mathematical links between computer science, law and ethics, and AI safety and alignment,
+    and invites rigorous work on less-studied domains such as education, housing, climate and
+    labor markets. Submissions should explain their contribution to responsible computing and
+    include proofs of central claims.
+  scope_source_urls:
+  - https://responsiblecomputing.org/forc-2027-call-for-papers/
+  - https://responsiblecomputing.org/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+ICCP:
+  additional_topics:
+    - Deep Representation Learning
+  scope_summary: >-
+    Computational imaging and photography: joint design of optics, sensors,
+    illumination and displays with the algorithms that form images.
+    Characteristic work covers computational cameras and optics,
+    structured-light and time-of-flight imaging, capture of appearance, shape
+    and illumination, imaging models and their limits, advanced image and video
+    processing, sensing for robotics, and physics-based, neural and
+    differentiable rendering. Combining imaging physics with machine learning,
+    for example learned or generative priors for inverse imaging, is an
+    explicit research direction. Mobile, scientific, medical, biological and
+    AR/VR imaging appear as applications, not as separate scope tags.
+  scope_source_urls:
+    - https://iccp2027.iccp-conference.org/#callforpapers
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+ICDL:
+  additional_topics:
+  - Reinforcement Learning
+  - Computational Neuroscience
+  - Human-AI Interaction & Deployment
+  scope_summary: Interdisciplinary IEEE meeting on how humans, other animals and machines develop and learn, linking
+    developmental psychology, cognitive science and neuroscience with developmental robotics and machine learning.
+    Characteristic themes are embodied and sensorimotor learning in infants and robots, developmental stages and
+    sensitive periods, architectures for cognitive development and lifelong learning, curiosity, intrinsic motivation,
+    exploration and play, emergence of body knowledge, affordances and communication, and social interaction. Machine
+    learning is central when developmentally inspired or applied to developmental and behavioral science; it is not
+    a general ML or robotics venue. Full papers appear in IEEE Xplore; late-breaking results and presentations of
+    published journal articles are non-archival posters.
+  scope_source_urls:
+  - https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+  - https://attend.ieee.org/icdl-2026/
+  - https://attend.ieee.org/icdl-2026/program/detailed-program/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+ICME:
+  additional_topics:
+    - Machine Learning
+    - Computer Graphics & Visualization
+    - Data Mining & Data Science
+    - Human-AI Interaction & Deployment
+  scope_summary: >-
+    Flagship multimedia venue jointly sponsored by the IEEE Circuits and Systems,
+    Communications, Computer and Signal Processing societies, bridging multimedia
+    signal processing and multimedia computing. Characteristic work covers image,
+    video, speech and audio processing; multimedia analysis and generation;
+    AI/ML-based multimedia; multimodal media computing and human-machine
+    interaction; 3D, AR/VR and immersive media; quality assessment and metrics;
+    multimedia communications, networking and standards; security, privacy and
+    forensics; and social-media and multimedia-database analysis. Emerging
+    application domains are not converted into specialist tags.
+  scope_source_urls:
+    - https://2027.ieeeicme.org/
+    - https://2027.ieeeicme.org/authors/call-for-papers
+    - https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web-05.pdf
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+ICMNS:
+  additional_topics: []
+  scope_summary: 'Mathematical neuroscience: mathematicians, theoretical and computational neuroscientists and experimentalists
+    using mathematical concepts and methods to understand brain function and dysfunction across spatial and temporal
+    scales. Characteristic tools are dynamical systems and bifurcation theory, probability and stochastic processes,
+    statistics, PDEs, geometry and topology, information theory and numerical analysis, plus new mathematics motivated
+    by neuroscience; the 2027 announcement frames this broadly as theory, modelling, computation, data and links to
+    experiments. Editions typically combine keynote and invited lectures with contributed talks, minisymposia and poster
+    sessions, contributed work being selected from submitted abstracts. A mathematical theory meeting rather than a
+    machine-learning venue.'
+  scope_source_urls:
+  - https://icmns.org/about/
+  - https://listserver.vu.nl/pipermail/icmns-beta/2026-September/000076.html
+  - https://project.inria.fr/icmns2027/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+ICONS:
+  additional_topics: []
+  scope_summary: Neuromorphic computing systems with a strong hardware and systems emphasis. Characteristic work spans
+    neuromorphic circuits and sensors, emerging devices, in-memory and other non-von Neumann architectures; algorithms
+    for training, configuring and programming spiking and event-driven networks, including biologically inspired and
+    continual learning; software, compilers and efficient large-scale simulation for neuromorphic platforms; and
+    benchmarks, datasets and applications that show a neuromorphic advantage. The 2026 call foregrounds ultra-low-power,
+    spike-based machine learning and energy-efficient edge AI. Full and short papers enter the ACM proceedings; tutorial
+    and special-session proposals are not published, and a separate students-only poster competition runs alongside.
+  scope_source_urls:
+  - https://iconsneuromorphic.cc/calls-2026/
+  - https://iconsneuromorphic.cc/
+  - https://iconsneuromorphic.cc/Students-2026/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+ICWSM:
+  additional_topics:
+  - Graphs & Graph Learning
+  - Information Retrieval & Search
+  scope_summary: 'Computational social science and social computing on the web: interdisciplinary research that
+    combines computational and social-science methods to study human social behaviour through online and digital
+    traces, with research questions of societal relevance. Characteristic themes include social network analysis
+    and community detection, information diffusion, sentiment, stance and linguistic analysis, misinformation and
+    credibility, political communication and civic engagement, platform and media studies, web mining and retrieval
+    on platforms, privacy, health and well-being online, and human mobility. Data come from social networks, microblogs,
+    Wikipedia, news sites, forums, video and Q&A communities, reviews and newer traces such as mobility or satellite
+    data. Work that only advances algorithms, or uses web data merely for method evaluation, is out of scope; ICWSM
+    2027 also desk-rejects LLM papers that are not about, or evaluated on, web and social media. Contributions are
+    full papers in three rolling rounds, poster, demo and dataset papers, and a non-archival Social Science and
+    Sociophysics track.'
+  scope_source_urls:
+  - https://www.icwsm.org/2027/
+  - https://www.icwsm.org/2027/submit/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+IEEE CEC:
+  additional_topics:
+    - Deep Representation Learning
+    - Artificial Life & Adaptive Systems
+  scope_summary: >-
+    Flagship IEEE CIS congress spanning evolutionary computation from theory to
+    applications: genetic algorithms and programming, evolution strategies,
+    differential evolution, estimation-of-distribution and memetic algorithms,
+    and swarm intelligence; multi-objective, constrained, dynamic, large-scale
+    and uncertain optimization; and EC theory such as runtime and
+    fitness-landscape analysis. A machine-learning-for-optimization strand
+    covers surrogate-assisted search, hyper-heuristics, automated heuristic
+    design and algorithm portfolios, evolutionary neural architecture search
+    and reinforcement learning, and LLMs for optimization. Bio-inspired
+    adaptive systems (coevolution, artificial life, evolutionary robotics,
+    evolvable hardware) form a recurring strand; listed application domains do
+    not define its tags.
+  scope_source_urls:
+    - https://ieeecec.org/2027/authors/call-for-papers
+    - https://confcats-siteplex.s3.amazonaws.com/ieeecec/files/cec27-cfp_web-13.pdf
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+INLG:
+  additional_topics:
+  - Explainability & Interpretability
+  - Cognitive Science & Computational Cognition
+  - Multimedia Learning & Retrieval
+  scope_summary: Specialist ACL SIGGEN venue for natural language generation from data, concepts, text and
+    images, with LLM-based generation now prominent. Characteristic strands are evaluation and error analysis
+    of generated text (a dedicated Best Evaluation Award since 2024 rewards thorough evaluation), NLG
+    architectures and the classic generation pipeline, summarization, paraphrase and storytelling, explainability
+    and trustworthiness of NLG systems, cognitive modeling of language production, and multimodal grounding.
+    A Generation Challenges track hosts shared tasks. It is a focused generation venue rather than a general
+    NLP conference.
+  scope_source_urls:
+  - https://2026.inlgmeeting.org/calls.html
+  - https://inlgmeeting.org/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+IPCAI:
+  additional_topics:
+  - Machine Learning
+  - Computer Graphics & Visualization
+  - Human-AI Interaction & Deployment
+  scope_summary: Information processing for computer-assisted surgery and minimally invasive interventions, joining
+    clinicians, engineers and computer scientists. Core themes are surgical data science; surgical workflow, activity
+    and skill analysis; surgical and interventional robotics, including haptics, soft robotics and autonomous sensing;
+    interventional imaging and image fusion; tracking and navigation; and AR/VR/mixed-reality guidance with intraoperative
+    visualization and surgeon-facing interfaces. Machine learning is a major strand when applied to interventions.
+    Contributions range from new methods and computer-integrated interventional systems to intervention planning,
+    simulation, and clinical application, evaluation and validation. The interventional setting, rather than general
+    diagnostic image analysis, defines the venue.
+  scope_source_urls:
+  - https://sites.google.com/view/ipcai2027/call-for-papers-and-long-abstracts
+  - https://sites.google.com/view/ipcai2027
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+IPMI:
+  additional_topics:
+  - Probabilistic, Causal & Uncertainty ML
+  - Deep Representation Learning
+  - Neuroimaging & Brain Mapping
+  - Healthcare & Clinical AI
+  scope_summary: >-
+    Methodological foundations of medical image computing: mathematical,
+    statistical and computational methods for image acquisition and
+    reconstruction, inverse problems and optimization, registration,
+    segmentation and multimodal or multiscale fusion, together with
+    computational anatomy and physiology, geometric learning and statistical
+    modelling. Machine learning is central when methodologically new, including
+    architectures and theory, foundation and generative models, domain
+    adaptation, uncertainty quantification and interpretable or causal
+    learning. Functional, diffusion and molecular imaging and applied results in
+    neuroscience, cardiology and microscopy recur. Clinical translation such as
+    computer-aided diagnosis and image-guided intervention is in scope, but the
+    call emphasizes innovative algorithms and sound theory. A small biennial
+    single-track meeting with unlimited discussion of each paper.
+  scope_source_urls:
+  - https://2027.ipmi-conf.org/
+  - https://editions.ipmi-conf.org/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+IROS:
+  additional_topics:
+  - Human-AI Interaction & Deployment
+  - Deep Representation Learning
+  scope_summary: Broad flagship robotics conference on intelligent robots and smart machines, sponsored by IEEE
+    RAS, RSJ, SICE, IEEE IES and NTF. Core strands are robot design, kinematics, dynamics and control, robot perception
+    and vision, localization and mapping, manipulation and grasping, motion and path planning, and mobile, aerial,
+    marine, field, humanoid and legged robots, with multi-robot, micro/nano, bio-inspired and medical or rehabilitation
+    robotics as standing subject areas. AI in robotics is a large strand; the IROS 2025 chairs' recap names reinforcement
+    learning, deep learning methods, motion and path planning and visual perception among its core topics, but generic
+    ML without a robotic system is not the remit. Cognitive, social and physical human-robot interaction is a standing
+    subject area, and the 2027 Florence edition is themed Human-Centric Robots for Sustainable Life. Medical robotics
+    is covered as a robotics application, not as clinical AI.
+  scope_source_urls:
+  - https://2026.ieee-iros.org/contribute/call-for-papers/
+  - https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/keywords-4/
+  - https://2027.ieee-iros.org/
+  - https://ieeexplore.ieee.org/document/11563949
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+ISF:
+  additional_topics:
+  - Deep Representation Learning
+  - Data Mining & Data Science
+  scope_summary: Annual meeting of the International Institute of Forecasters on forecasting research and practice.
+    Characteristic methods are probabilistic forecasting and uncertainty quantification, Bayesian and causal or scenario
+    forecasting, hierarchical and temporal reconciliation, forecast combination and evaluation, exponential smoothing
+    and state-space models, multivariate and high-dimensional models, nowcasting with alternative data, and judgmental
+    forecasting, alongside a strong econometrics and financial-volatility strand. Machine learning, deep learning,
+    global and meta-learning models, and foundation models, LLMs and agents for forecasting form a substantial strand.
+    Energy, macroeconomics, supply chains, epidemiology and other application areas are examples of domains rather
+    than defining tags; attendees include researchers, practitioners and students from academia, industry and government.
+  scope_source_urls:
+  - https://isf.forecasters.org/abstracts/
+  - https://isf.forecasters.org/
+  - https://isf.forecasters.org/overview/about/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+IUI:
+  additional_topics:
+  - LLM Agents & Tool Use
+  - Fairness & Responsible AI
+  - Computer Graphics & Visualization
+  scope_summary: 'The intersection of AI and HCI: interfaces that tackle practical interaction problems with machine
+    intelligence and are judged on both computational and human-centred evidence (user studies, system evaluations,
+    mixed methods). Characteristic strands are end-user interaction with and steering of LLMs, agents and generative
+    models (a dedicated CFP section and a large share of recent papers), interactive and human-in-the-loop machine
+    learning, explainable AI, trust and reliance, and user modelling, adaptive personalization and human-centred
+    recommendation. Multimodal assistants, embodied agents, intelligent visualization and visual analytics also
+    recur. Education, health, assistive and automotive settings appear as applications rather than separate identities,
+    and authors are encouraged to reflect on societal impact and responsible AI.'
+  scope_source_urls:
+  - https://iui.acm.org/2027/call-for-papers/
+  - https://iui.acm.org/2026/accepted-papers/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+IVA:
+  additional_topics:
+  - Cognitive Science & Computational Cognition
+  scope_summary: 'Intelligent virtual agents: socially interactive characters such as virtual humans and embodied
+    conversational agents (and, in the 2026 definition, robotic agents) that communicate through speech, facial expression
+    and gesture. Characteristic work covers computational models of cognition, emotion, personality and social perception
+    for agents; verbal-nonverbal behavior coordination and multimodal, multi-party conversation, including data-driven,
+    generative and LLM-driven agent behavior; real-time social agent architectures and toolkits; and empirical evaluation
+    of human-agent interaction through user studies. Agents as instruments for psychological and behavioral research,
+    and applications in education, training, health, counseling, games and VR/AR, are also in scope. The 2026 theme
+    was social cognition for human-AI cooperation. Generic NLP or ML results without an interactive-agent contribution
+    are not the focus.'
+  scope_source_urls:
+  - https://iva.acm.org/2026/call-for-papers/
+  - https://iva.acm.org/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+MTNS:
+  additional_topics:
+  - Nonlinear Dynamics & Chaos
+  - Graphs & Graph Learning
+  scope_summary: Biennial interdisciplinary symposium on mathematical systems theory, networks and control that
+    brings mathematicians and engineers together. Characteristic strands are linear, nonlinear, algebraic, hybrid
+    and infinite-dimensional (distributed-parameter, port-Hamiltonian) systems, operator theory, optimal, robust and
+    stochastic control, estimation, optimization, and networked systems and systems on graphs. The 2026 program
+    placed particular emphasis on learning-based and data-driven control with formal guarantees, and keeps a
+    tradition of a plenary talk in mathematics. Applied machine learning without a systems-theoretic contribution
+    is not the defining focus.
+  scope_source_urls:
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/program/technical-program
+  - https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/sites/default/files/uploads/documents/mtns2026_program_booklet.pdf
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+NAISys:
+  additional_topics:
+  - Cognitive Science & Computational Cognition
+  - Explainability & Interpretability
+  - Control & Robotics
+  scope_summary: Cold Spring Harbor Laboratory's NeuroAI meeting on how principles and insights from neuroscience
+    can lead to better artificial intelligence, motivated by natural intelligence's real-time interaction with the
+    world, adaptation to change and operation under physical and energetic constraints. The 2027 call (unchanged
+    from 2024) highlights neurally inspired learning and meta-learning rules, neurally inspired circuits and network
+    architectures, computing with spiking networks, continual and online learning, inductive biases, active perception,
+    and unsupervised and self-supervised learning, with interpretable neural networks, cognitive models in AI and
+    bio-inspired robotics as named topics. Talks mix invited speakers from neuroscience and machine learning with
+    organizer-selected abstracts across eight oral and two poster sessions; contributions are new, unpublished one-page
+    abstracts rather than papers.
+  scope_source_urls:
+  - https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=27
+  - https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=24
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+NCM:
+  additional_topics:
+  - Control & Robotics
+  scope_summary: How the brain controls the eyes, head, trunk and limbs, studied from genetic expression and intracellular
+    function to whole-organism behavior, with a strong clinical-investigator community. Themes include eye and head
+    movement, posture and gait, reaching and grasping, sensorimotor integration, motor adaptation and plasticity, and
+    disorders of motor control. A characteristic theoretical and computational motor-control strand covers internal
+    models, prediction and motor learning; the 2027 satellite examines cerebellar computation. Control & Robotics
+    reflects this biological sensorimotor-control theory, not robotics engineering. Members submit team sessions (panels,
+    perspectives, tutorials), individual oral talks and posters as non-archival abstracts.
+  scope_source_urls:
+  - https://ncm-society.org/submission/
+  - https://ncm-society.org/about-the-society/
+  - https://ncm-society.org/satellite-meeting/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+NetSci-X:
+  additional_topics:
+  - Data Mining & Data Science
+  scope_summary: 'The Network Science Society''s winter school and conference, meant to broaden participation in
+    network science and grow its communities around the world. Its scope is network science across computer and
+    information sciences, physics, mathematics, statistics, life sciences, neuroscience, environmental and social
+    sciences, economics and finance. NetSciX 2026 illustrates the mix: a school on meso-scale structure and its
+    statistical inference, deep graph learning and ecological networks, and thematic sessions on biological networks,
+    human mobility, the science of science and algorithmic fairness in network science. NetSciX 2027 adds a special
+    focus, Network Science meets AI, covering network methods for AI problems and AI subjects such as graph neural
+    networks and LLMs. Contributions are short extended abstracts for talks or posters, without announced proceedings.
+    Network methods, not any single application domain, define the meeting; its application breadth is not a specialist
+    identity.'
+  scope_source_urls:
+  - https://netscix2027.github.io/
+  - https://netscix2027.github.io/submissions/
+  - https://netscisociety.net/call-for-netscix-2028/
+  - https://netscix2026.github.io/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+Neural Interfaces:
+  additional_topics:
+  - Systems & Experimental Neuroscience
+  - Signal Processing
+  - Machine Learning
+  - Ethics & Governance
+  scope_summary: Translational neurotechnology meeting run by the North American Neuromodulation Society and descended
+    from the 1970 NIH Neural Prosthesis Workshop. It centres on invasive and non-invasive neural interfaces, including
+    brain-computer interfaces, sensory and motor neuroprostheses (auditory and visual prostheses among them), deep-brain
+    and peripheral-nerve stimulation, bioelectronic medicine, electrodes, materials, wireless devices, and neural
+    recording and signal processing. Clinical applications in pain, movement disorders and rehabilitation sit beside
+    data and AI methods, regulatory and commercial translation, outcomes, ethics and policy. Clinicians, engineers,
+    scientists, industry and agencies such as NIH and FDA take part. Contributions are research abstracts and
+    community-proposed sessions rather than full papers; machine learning appears as a tool for neural interfaces,
+    not as a general ML venue.
+  scope_source_urls:
+  - https://www.nans.org/neural-interfaces/
+  - https://web.archive.org/web/20250408143058/https://www.neuromodulation.org/neuralinterfaces.html
+  - https://web.archive.org/web/20250326143538/https://www.neuromodulation.org/nic-abstracts.html
+  - https://web.archive.org/web/20250117010055/https://www.neuromodulation.org/uploads/1/4/5/5/145560650/neural_interfaces_2025_call_for_abstracts_guidelines.pdf
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+PPSN:
+  additional_topics:
+    - Learning Theory & Statistical Foundations
+  scope_summary: >-
+    Natural computing and iterative optimization heuristics: evolutionary
+    algorithms and evolution strategies, genetic programming, evolutionary
+    multi-objective and surrogate-assisted optimization, and other
+    nature-inspired or randomized search methods. Work ranges from rigorously
+    derived mathematical results on search heuristics (a distinct
+    runtime-analysis theory strand) to carefully designed empirical and
+    benchmarking studies, and the call explicitly welcomes connections between
+    search heuristics and machine learning or other AI approaches. Application
+    domains do not define its tags.
+  scope_source_urls:
+    - https://ppsn2026.disi.unitn.it/
+    - https://ppsn2026.disi.unitn.it/program.html
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+RLC:
+  additional_topics:
+  - Learning Theory & Statistical Foundations
+  - Deep Representation Learning
+  - Planning & Search
+  - Autonomous Agents & Multiagent Systems
+  scope_summary: Dedicated venue for reinforcement learning research, whose accepted papers appear in the Reinforcement
+    Learning Journal. Its core is RL algorithms and new problem settings, exploration, hierarchical RL and skill
+    discovery, bandits, RL theory and unifying foundations, model-based planning under uncertainty, deep RL, multi-agent
+    RL and self-play, imitation and inverse RL, and RL from human feedback or verified rewards. Evaluation methodology,
+    benchmarks and replicability are explicit categories alongside applied RL. Safety, fairness and interpretability
+    enter as social aspects of RL, and neuroscience or cognitive-science work is welcome when it targets a computational
+    RL audience. Review favours rigorous methods and clearly scoped contribution claims over perceived importance.
+  scope_source_urls:
+  - https://rl-conference.cc/2026/callforpapers.html
+  - https://rl-conference.cc/2026/index.html
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+RLDM:
+  additional_topics:
+  - Machine Learning
+  - Systems & Experimental Neuroscience
+  scope_summary: >-
+    Interdisciplinary, non-archival meeting on learning and decision making over
+    time to achieve a goal, in humans, animals and algorithms, with a particular
+    focus on reinforcement learning. It deliberately joins a "dry" community
+    (artificial intelligence, machine learning, autonomous systems, robotics) with
+    a "wet" one (cognitive science, neuroscience, psychology, behavioural
+    economics, ethology). Contributions may report empirical results from human,
+    animal or animat experiments, theory, simulations or modeling, and should
+    speak to an interdisciplinary audience without sacrificing technical depth.
+    The 2025 program spanned exploration, planning, habits and agency,
+    multi-agent interaction, world models, computational psychiatry and neural
+    learning signals such as dopamine. Because there are no proceedings, work
+    submitted elsewhere is welcome.
+  scope_source_urls:
+  - https://rldm.org/
+  - https://rldm.org/call-for-abstracts-2027/
+  - https://rldm.org/past-meetings/rldm2025/program-at-a-glance/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+SIGDIAL:
+  additional_topics:
+  - Human-AI Interaction & Deployment
+  - Autonomous Agents & Multiagent Systems
+  scope_summary: Discourse and dialogue research from the joint ACL/ISCA special interest group. Core areas are task-oriented
+    and open-domain dialogue systems (spoken, multimodal, situated or text-based), including state tracking, policy learning,
+    generation and evaluation; discourse processing such as coherence relations, discourse parsing, reference resolution
+    and argument mining; and pragmatics and semantics of conversation beyond the single sentence, supported by corpus, annotation
+    and evaluation methodology. The 2026 call adds dedicated areas on LLM-based dialogue technologies, agentic AI in which
+    dialogue drives reasoning, planning and tool use (with multi-agent coordination, negotiation and human-agent teaming),
+    and LLM-based user simulation and persona modeling. Spoken dialogue and human-robot interaction recur as settings, but
+    speech processing itself is not the defining focus.
+  scope_source_urls:
+  - https://2026.sigdial.org/calls/main_conference/
+  - https://www.sigdial.org/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+SLT:
+  additional_topics:
+  - Biometrics & Human Sensing
+  scope_summary: >-
+    Biennial IEEE Signal Processing Society workshop on spoken language
+    technology, organized by its Speech and Language Processing Technical
+    Committee. Characteristic areas are automatic speech recognition
+    (conversational, multi-speaker, far-field, low-resource and multilingual),
+    speech separation and enhancement, speaker and language recognition and
+    diarization, spoken language understanding and spoken dialogue systems,
+    speech-to-speech translation, speech summarization and spoken document
+    retrieval, text-to-speech, audio-visual speech, emotion recognition and
+    child speech. The 2026 call stresses speech foundation models,
+    self-supervised representation learning and large language models for
+    spoken language processing; demo, system, dataset and benchmark papers
+    became a peer-reviewed proceedings track. Its special theme on social
+    wellbeing and privacy (voice technology in healthcare, privacy and
+    anonymization, spoofing and deepfake detection, fairness, forensics) is
+    edition-specific and not tagged. Speaker recognition and emotion
+    recognition motivate the human-sensing tag. SPS describes SLT 2026 as the
+    last standalone SLT before its new ASLI conference starts in 2027.
+  scope_source_urls:
+  - https://attend.ieee.org/slt-2026/call-for-papers/
+  - https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-papers/
+  - https://signalprocessingsociety.org/events/2026-ieee-spoken-language-technology-workshop-slt
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+SNL:
+  additional_topics:
+  - Computational Neuroscience
+  - Natural Language Processing & LLMs
+  - Healthcare & Clinical AI
+  scope_summary: 'Neurobiological basis of language: how the brain perceives, comprehends, produces, acquires and
+    reads spoken, signed and written language in children and adults. The society''s meeting brings together behavioral,
+    neuroimaging (fMRI, structural/diffusion MRI), electrophysiological (EEG/MEG, intracranial recordings), neurostimulation
+    and neuropsychological approaches, plus animal and comparative models. Recurring submission areas include speech
+    perception and motor control, lexical and combinatorial semantics, syntax, discourse, multilingualism, reading
+    and writing, sign language and gesture, and executive control. Acquired and developmental language disorders
+    such as aphasia and speech-language treatment form a characteristic clinical strand. A smaller computational
+    strand covers encoding models and alignment of brain responses with large language models; NLP work belongs
+    here only through what it reveals about language in the brain. Contributions are peer-reviewed 500-word abstracts
+    for slide or poster presentations, plus organizer-proposed symposia.'
+  scope_source_urls:
+  - https://2026.neurolang.org/about/
+  - https://2026.neurolang.org/abstract-submissions/
+  - https://2026.neurolang.org/poster-sessions/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+UMAP:
+  additional_topics:
+  - Explainability & Interpretability
+  - Natural Language Processing & LLMs
+  - Information Retrieval & Search
+  - Data Mining & Data Science
+  scope_summary: 'User modeling, adaptation and personalization at the boundary of AI and HCI: building, evaluating and
+    using models of users'' preferences, knowledge, capabilities, context and cognitive or affective states so that interactive
+    systems can adapt to them. Characteristic strands are recommender systems and personalized information access
+    (including search and conversational recommendation), intelligent and adaptive user interfaces, adaptive e-learning
+    and educational systems, personalized behavior change and health or well-being applications, and group modeling.
+    The 2027 call stresses generative AI and LLMs for personalization, user modeling for conversational, embodied
+    and agentic systems, long-term user models with user-controlled memory, and user simulation. A strong human-centered
+    strand covers explainable, inspectable and editable user models, user agency and control, fairness, bias, privacy
+    and inclusivity, plus longitudinal and interactive evaluation of adaptive systems. Contributions range from algorithms
+    to theoretical and human-centered studies, but must make clear their contribution to user modeling, adaptation
+    or personalization.'
+  scope_source_urls:
+  - https://um.org/umap2027/call-for-full-and-short-paper/
+  - https://um.org/umap2027/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+WASPAA:
+  additional_topics:
+  - Deep Representation Learning
+  scope_summary: Biennial workshop of the IEEE SPS Audio and Acoustic Signal Processing Technical Committee on signal
+    processing applied to audio and acoustics, in a small residential format where all papers are posters and the
+    top-scored get spotlight talks. Characteristic strands are microphone- and loudspeaker-array processing, source
+    separation, dereverberation, noise and echo reduction, room acoustics and spatial audio; acoustic scene and
+    event analysis, localization and audio captioning; music signal analysis, transcription, separation and content-based
+    retrieval; generative audio and neural audio coding; hearing aids, auditory perception and quality or intelligibility
+    assessment; and audio security and privacy such as deepfake detection, watermarking and speaker de-identification.
+    Speech appears through enhancement, coding, generation and intelligibility rather than recognition or language
+    processing. The call names generative models and representation learning explicitly. Profile from the WASPAA
+    2025 call; the 2027 call was not yet posted on 2026-10-31.
+  scope_source_urls:
+  - https://www.waspaa.com/waspaa25/call-for-papers/
+  - https://waspaa.com/
+  - https://signalprocessingsociety.org/our-story/news-updates/2025/11/waspaa-2025-lake-tahoe-new-chapter-beloved-audio-and-acoustic-signal-processing-workshop
+  scope_last_checked: '2026-10-31'
+  source_year: 2025
+
+EAAMO:
+  additional_topics:
+    - Human-AI Interaction & Deployment
+    - Probabilistic, Causal & Uncertainty ML
+    - Autonomous Agents & Multiagent Systems
+  scope_summary: >-
+    Algorithms, mechanism design and optimization that advance equity and
+    access to opportunity for underserved communities, across the
+    research-to-practice pipeline. The venue joins AI/ML, operations research,
+    economics and market design with HCI and social-science perspectives.
+    Characteristic work includes fair division and resource allocation,
+    matching markets such as school choice, computational social choice and
+    game theory, causal evaluation of algorithmic interventions, empirical
+    studies of deployed systems and policies, datasets and benchmarks, and data
+    and AI governance and regulation, in domains such as education, housing,
+    labor, credit, healthcare and public services. Tracks also take position
+    papers and problem pitches, and papers are expected to engage with ethical
+    implications; an equity or access question should be central rather than
+    a passing motivation for generic ML or optimization.
+  scope_source_urls:
+    - https://conference2026.eaamo.org/cfp/
+    - https://conference2026.eaamo.org/program/paper_session/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+ECAF:
+  additional_topics:
+  - Explainability & Interpretability
+  - Human-AI Interaction & Deployment
+  scope_summary: Interdisciplinary algorithmic fairness research grounded in Europe's legal and societal framework, bringing together computer science, law, philosophy and social science. Characteristic themes include fairness concepts and metrics, bias mitigation and auditing of deployed decision systems, the implications of EU non-discrimination, data protection, platform and AI regulation, empirical studies of discrimination and intersectional inequality in European contexts, fairness-transparency trade-offs, and systemic risks of generative AI and large online platforms. Work without a European focus on other fairness themes is also welcome.
+  scope_source_urls:
+  - https://2027.ecafconference.org/callForPapers
+  - https://ecafconference.org/about/
+  scope_last_checked: '2026-10-31'
+  source_year: 2027
+
+IFAC WC:
+  additional_topics:
+  - Reinforcement Learning
+  - Machine Learning
+  - Complex Systems & Network Science
+  - Signal Processing
+  scope_summary: >-
+    IFAC's triennial flagship congress, aiming at the most complete view of control techniques with the
+    widest coverage of application fields. Contributions follow IFAC's nine coordinating committees:
+    systems and signals (identification, adaptive and learning, hybrid, stochastic and networked systems);
+    design methods (linear, nonlinear, optimal/predictive, robust and distributed-parameter control);
+    computers, cognition and communication; mechatronics, robotics and human-machine systems; manufacturing
+    and logistics; process and power systems; transportation and vehicles; bio- and ecological systems; and
+    social systems, plus new topics. Theory and application papers are roughly balanced. Learning-based
+    control (reinforcement and deep learning in control, ML for modelling and identification) and
+    multi-agent/networked systems are recurring strands; machine learning and multi-agent systems were the
+    two most used keywords among 2023 accepted papers. Energy, automotive, aerospace, biomedical and
+    agricultural tracks are control applications rather than separate domain-conference identities.
+  scope_source_urls:
+  - https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+  - https://www.ifac2023.org/submission/cfp.html
+  - https://www.ifac2023.org/archives/001/202404/IFAC2023_FinalReport.pdf
+  scope_last_checked: '2026-10-31'
+  source_year: 2026
+
+SIAM MDS:
+  additional_topics:
+  - Deep Representation Learning
+  - Probabilistic, Causal & Uncertainty ML
+  - System Identification & Data-driven Dynamics
+  scope_summary: >-
+    Mathematical, statistical and computational foundations of data science; the
+    meeting of the SIAM Activity Group on Data Science. Characteristic work covers
+    learning theory and generalization, the mathematics of deep and diffusion or
+    flow generative models, optimization and sampling algorithms, kernel and
+    Gaussian-process methods, optimal and measure transport, geometric and
+    topological data analysis, tensor methods and randomized numerical linear
+    algebra, and scientific machine learning such as operator learning,
+    data-driven model reduction, inverse problems and data assimilation. MDS26
+    emphasizes data science in high dimensions: dimensionality reduction and
+    embeddings, scalable and parallel algorithms, and algebraic and geometric data
+    analysis. Contributions are presentation abstracts, mostly in minisymposia,
+    not archival papers.
+  scope_source_urls:
+  - https://engage.siam.org/events/event-description?CalendarEventKey=1e208b3f-237c-4753-826e-019d075b34d7&Home=%2fevents%2fcalendar
+  - https://meetings.siam.org/program.cfm?CONFCODE=mds26
+  - https://web.archive.org/web/20250623175859/https://www.siam.org/get-involved/connect-with-a-community/activity-groups/data-science/
+  scope_last_checked: '2026-10-31'
+  source_year: 2026

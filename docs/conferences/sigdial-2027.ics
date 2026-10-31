@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SIGDIAL 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sigdial-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270414T115900Z
+DTEND:20270414T125900Z
+SUMMARY:SIGDIAL 2027 (est.) · Mandatory title and abstract registration
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACL Anthology proceedings (long\, shor
+ t and demo papers\; ARR commitment accepted)\nPrevious edition's page: ht
+ tps://2026.sigdial.org/calls/main_conference/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#sigdial-2027
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270421T115900Z
+DTEND:20270421T125900Z
+SUMMARY:SIGDIAL 2027 (est.) · Long\, short and demo paper PDF submission
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACL Anthology proceedings (long\, shor
+ t and demo papers\; ARR commitment accepted)\nPrevious edition's page: ht
+ tps://2026.sigdial.org/calls/main_conference/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#sigdial-2027
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2027-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270526T115900Z
+DTEND:20270526T125900Z
+SUMMARY:SIGDIAL 2027 (est.) · Commitment of ARR-reviewed papers
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACL Anthology proceedings (long\, shor
+ t and demo papers\; ARR commitment accepted)\nPrevious edition's page: ht
+ tps://2026.sigdial.org/calls/main_conference/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#sigdial-2027
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigdial-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270826
+SUMMARY:SIGDIAL 2027 (est.) · Conference
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nStatus: estimated\, checked 2026-10-31. Check the organizer's ca
+ ll before relying on it.\nOfficial source: https://www.sigdial.org/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#sigdial-2027\nNotes: No S
+ IGDIAL 2027 site or CFP on 2026-10-31\; 2027.sigdial.org redirects to sig
+ dial.org\, which still shows 2026. The SIGdial President's 2026Q3 ACL rep
+ ort (edited June 16\, 2026) says 2027 is planned in Japan\, tentatively A
+ ug 23-25\; those dates are used as an estimate and the city is unannounce
+ d. Deadlines are one-year proxies from 2026 (abstract Apr 13\, PDF Apr 20
+ \, ARR commitment May 25\, all AoE)\; 2025 used Apr 21\, Apr 28 and Jun 6
+  for an Aug 25-27 meeting. Size is an editorial estimate.
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://www.sigdial.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

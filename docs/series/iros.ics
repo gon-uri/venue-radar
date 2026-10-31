@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IROS (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:iros-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:IROS 2027 (est.) · Paper submission deadline
+DESCRIPTION:IEEE/RSJ International Conference on Intelligent Robots and Sys
+ tems\nMeeting: 2027-09-27 to 2027-10-01\, Florence\, Italy\nStatus: estim
+ ated\, checked 2026-10-31. Check the organizer's call before relying on i
+ t.\nEstimated day only\; no cutoff hour stored. Check the organizer's cal
+ l for the real date and time.\nFormat: Paper-based / IEEE Xplore proceedi
+ ngs\nPrevious edition's page: https://2026.ieee-iros.org/about/important-
+ dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#iros-2027
+CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
+ ern Recognition,Planning & Search
+URL:https://2026.ieee-iros.org/about/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:iros-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270927
+DTEND;VALUE=DATE:20271002
+SUMMARY:IROS 2027 · Conference
+DESCRIPTION:IEEE/RSJ International Conference on Intelligent Robots and Sys
+ tems\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://20
+ 27.ieee-iros.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ir
+ os-2027\nNotes: The official 2027 site and IEEE RAS venues page confirm F
+ ortezza da Basso\, Florence\, Sep 27-Oct 1\, 2027 (annual since 1988). As
+  of 2026-10-31 no 2027 call is published. The paper deadline is a one-yea
+ r proxy from IROS 2026 (Mar 2\, no hour\; papers could be edited but not 
+ started until Mar 5)\; IROS 2023 was Mar 1\, extended to Mar 2. 2026 pape
+ rs were up to 8 pages\, double-anonymous\, in IEEE Xplore\, with no RA-L+
+ IROS option. Non-archival late-breaking posters (2-page abstract\, full r
+ egistration) are not projected\; 2026 pages gave Jul 31 and Aug 10. Size 
+ XXL: IROS 2025 had 8\,004 registrants (IEEE RA Magazine). Size is an edit
+ orial estimate.
+CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
+ ern Recognition,Planning & Search
+URL:https://2027.ieee-iros.org/
+LOCATION:Florence\, Italy
+END:VEVENT
+END:VCALENDAR

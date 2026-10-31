@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MTNS 2026 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mtns-2026-deadline-mini-course-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+SUMMARY:MTNS 2026 · Mini-course proposals
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-special-session-proposal@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+SUMMARY:MTNS 2026 · Invited session proposals (session organizers)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-proposal-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:MTNS 2026 · Invited session and mini-course decisions
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260210
+SUMMARY:MTNS 2026 · Full papers\, contributed and invited sessions (4-8 pp
+ \, peer reviewed\, IFAC-PapersOnLine)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:MTNS 2026 · Extended abstracts\, contributed and invited sessions 
+ (2-4 pp\, simplified review\, not published)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:MTNS 2026 · Paper decision notification
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+SUMMARY:MTNS 2026 · Final paper upload
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
+ nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
+ l deadline day only. Verify the organizer's submission portal.\nFormat: P
+ aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
+ cts\nOfficial source: https://uwaterloo.ca/international-symposium-mathem
+ atical-theory-networks-systems/key-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#mtns-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260822
+SUMMARY:MTNS 2026 · Conference
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https:/
+ /uwaterloo.ca/international-symposium-mathematical-theory-networks-system
+ s/\nVenue Radar: https://gon-uri.github.io/venue-radar/#mtns-2026\nNotes:
+  Official pages confirm the 27th MTNS at the University of Waterloo campu
+ s\, Aug 17-21\, 2026\, co-sponsored by IFAC. Full papers (4-8 pp\, peer r
+ eviewed) go to IFAC-PapersOnLine\; extended abstracts (2-4 pp\, simplifie
+ d review) are posted on the site but not published. Invited-session paper
+ s needed an organizer's session code. A Feb 12 Wayback snapshot shows the
+  same Feb 9/16 dates. No cutoff hour or zone is published\, so cutoffs us
+ e provisional end-of-day AoE. Held every two years. ICORE2026 rank C. UW 
+ reported 170 attendees\; the program had 144 contributed talks and ten in
+ vited sessions. Size is an editorial estimate.
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/
+LOCATION:Waterloo\, Ontario\, Canada
+END:VEVENT
+END:VCALENDAR

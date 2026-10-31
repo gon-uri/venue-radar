@@ -1,0 +1,233 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CHIIR (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:chiir-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261009T115900Z
+DTEND:20261009T125900Z
+SUMMARY:CHIIR 2027 · Full and perspective paper abstract (mandatory\, max.
+  250 words)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/f
+ ull-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chii
+ r-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261016T115900Z
+DTEND:20261016T125900Z
+SUMMARY:CHIIR 2027 · Full and perspective paper submission (up to 10 pages
+ )
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/f
+ ull-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chii
+ r-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261023T115900Z
+DTEND:20261023T125900Z
+SUMMARY:CHIIR 2027 · Tutorial and workshop proposals
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/w
+ orkshops.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-
+ 2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/workshops.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T115900Z
+DTEND:20261030T125900Z
+SUMMARY:CHIIR 2027 · Resource paper submission (datasets or software\; up 
+ to 4 pages)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/r
+ esource-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ chiir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/resource-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T115900Z
+DTEND:20261030T125900Z
+SUMMARY:CHIIR 2027 · Short paper submission (up to 4 pages\; presented as 
+ posters)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nFormat: Paper-based / ACM open-access proceedi
+ ngs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/s
+ hort-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chi
+ ir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/short-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-doctoral-consortium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261202T115900Z
+DTEND:20261202T125900Z
+SUMMARY:CHIIR 2027 · Doctoral consortium paper (single-authored\, PhD stud
+ ents only)
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff note: The DC call and Call for Contribu
+ tions give December 1\, 2026\; the homepage lists December 6. The earlies
+ t stated date is stored.\nFormat: Paper-based / ACM open-access proceedin
+ gs (ACM Digital Library)\nOfficial source: https://chiir2027.github.io/do
+ ctoral-consortium-papers.html\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#chiir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/doctoral-consortium-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:CHIIR 2027 · Acceptance notification
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2027-03-07 to 2027-03-11\, Berlin\, Germany\nStatus: confi
+ rmed\, checked 2026-10-31\nCutoff time unannounced: official deadline day
+  only. Verify the organizer's submission portal.\nFormat: Paper-based / A
+ CM open-access proceedings (ACM Digital Library)\nOfficial source: https:
+ //chiir2027.github.io/papers.html\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#chiir-2027
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270312
+SUMMARY:CHIIR 2027 · Conference
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://ch
+ iir2027.github.io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#c
+ hiir-2027\nNotes: Official CHIIR 2027 pages\, checked 2026-10-31\, confir
+ m an in-person meeting at Humboldt-Universität zu Berlin\, Mar 7-11\, 20
+ 27 (doctoral consortium Mar 7\; tutorials and workshops Mar 11)\; deadlin
+ es are 23:59 AoE. The abstract gates full and perspective papers. Short\,
+  resource\, demo/design and industry papers (4 pages\, all in the proceed
+ ings) closed Oct 29 with no extension shown\; the demo/design and industr
+ y tracks are not stored as events. The doctoral consortium takes single-a
+ uthored PhD student papers. ACM open-access proceedings (APCs outside ACM
+  Open). Size S reflects 116 registered participants and 63 accepted paper
+ s at CHIIR 2026 (SIGIR Forum report). Size is an editorial estimate.
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/
+LOCATION:Berlin\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271009T115900Z
+DTEND:20271009T125900Z
+SUMMARY:CHIIR 2028 (est.) · Full and perspective paper abstract (mandatory
+ )
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/full-pa
+ pers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271016T115900Z
+DTEND:20271016T125900Z
+SUMMARY:CHIIR 2028 (est.) · Full and perspective paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/full-pa
+ pers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/full-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271030T115900Z
+DTEND:20271030T125900Z
+SUMMARY:CHIIR 2028 (est.) · Resource paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/resourc
+ e-papers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-
+ 2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/resource-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271030T115900Z
+DTEND:20271030T125900Z
+SUMMARY:CHIIR 2028 (est.) · Short paper submission
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ ying on it.\nFormat: Paper-based / ACM open-access proceedings (ACM Digit
+ al Library)\nPrevious edition's page: https://chiir2027.github.io/short-p
+ apers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#chiir-202
+ 8
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/short-papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280312
+SUMMARY:CHIIR 2028 (est.) · Conference
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nStatus: estimated\, checked 2026-10-31. Check the organizer's call 
+ before relying on it.\nPrevious edition's page: https://sigir.org/wp-cont
+ ent/uploads/2026/07/p04.pdf\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#chiir-2028\nNotes: The CHIIR 2026 general chairs' SIGIR Forum rep
+ ort (June 2026) names Helsinki as the CHIIR 2028 host\; as of 2026-10-31 
+ no 2028 website\, dates or call exist (chiir2028.github.io returns 404). 
+ chiir.org says CHIIR is annual in March. Meeting dates are a one-year pro
+ xy from CHIIR 2027 (Mar 7-11)\; CHIIR 2026 ran Mar 22-26. Deadlines repea
+ t the same 23:59 AoE days used by the 2026 and 2027 calls (abstract Oct 8
+ \, paper Oct 15\, short and resource papers Oct 29). Call links refer to 
+ CHIIR 2027. Size is an editorial estimate.
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://sigir.org/wp-content/uploads/2026/07/p04.pdf
+LOCATION:Helsinki\, Finland
+END:VEVENT
+END:VCALENDAR

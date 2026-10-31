@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SLT 2026 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:slt-2026-deadline-special-session-proposal@scientific-conference-calend
+ ar
+DTSTAMP:19700101T000000Z
+DTSTART:20260312T115900Z
+DTEND:20260312T125900Z
+SUMMARY:SLT 2026 · Challenge and special-session proposals (organizers\, b
+ y email)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/call-for-special-sessions/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-special-sessions/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260625T115900Z
+DTEND:20260625T125900Z
+SUMMARY:SLT 2026 · Regular and special-session paper submission (extended 
+ from June 17)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/call-for-papers/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-paper-update@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260702T115900Z
+DTEND:20260702T125900Z
+SUMMARY:SLT 2026 · Revision deadline for already-submitted regular and spe
+ cial-session papers
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/call-for-papers/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260709T115900Z
+DTEND:20260709T125900Z
+SUMMARY:SLT 2026 · Demo\, system\, data and challenge paper submission (3 
+ + 1 pages\, single-blind)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nC
+ utoff note: OpenReview demo and challenge portals list Jul 10 11:59 UTC (
+ Jul 9 AoE)\, as did a now-hidden homepage notice\; the CFP and demo call 
+ say Jul 8 AoE.\nFormat: Paper-based / IEEE Xplore proceedings\nOfficial s
+ ource: https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-pap
+ ers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:SLT 2026 · Acceptance notification for all paper tracks (moved fro
+ m September 1)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nC
+ utoff time unannounced: official deadline day only. Verify the organizer'
+ s submission portal.\nFormat: Paper-based / IEEE Xplore proceedings\nOffi
+ cial source: https://attend.ieee.org/slt-2026/call-for-papers/\nVenue Rad
+ ar: https://gon-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-sps-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260912T115900Z
+DTEND:20260912T125900Z
+SUMMARY:SLT 2026 · SPS journal paper submission (no call text on the site\
+ ; acceptance September 20)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/call-for-papers/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260921T115900Z
+DTEND:20260921T125900Z
+SUMMARY:SLT 2026 · Camera-ready paper deadline
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/camera-ready-instructions/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/camera-ready-instructions/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261005T115900Z
+DTEND:20261005T125900Z
+SUMMARY:SLT 2026 · Author and early registration deadline
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\nOfficial source: https://at
+ tend.ieee.org/slt-2026/camera-ready-instructions/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/camera-ready-instructions/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261217
+SUMMARY:SLT 2026 · Conference
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nStatus: confirmed\, c
+ hecked 2026-10-31\nOfficial source: https://attend.ieee.org/slt-2026/\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#slt-2026\nNotes: Organi
+ zer and SPS pages confirm Dec 13-16\, 2026 at Hotel Saracen Sands\, Isola
+  delle Femmine\, 15 km from Palermo\; accepted papers must be presented i
+ n person. Deadlines are 23:59 AoE. Regular and special-session papers (6 
+ + 2 pages\, double-blind) moved from Jun 17 to Jun 24\; OpenReview calls 
+ Jun 24 abstract registration and Jul 1 the full submission. Demo/system/d
+ ata and challenge papers (3 + 1 pages) are also in IEEE Xplore. The SPS j
+ ournal-paper date has no call text and is schedule-only. SPS reports abou
+ t 750 submissions\; the program lists 323 papers. SPS calls this the fina
+ l standalone SLT before its new ASLI conference (2027)\, so no SLT 2028 i
+ s projected. Size is an editorial estimate.
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/
+LOCATION:Palermo\, Italy
+END:VEVENT
+END:VCALENDAR

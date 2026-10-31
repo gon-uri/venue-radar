@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WASPAA 2027 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:waspaa-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:WASPAA 2027 (est.) · Abstract submission\, required before the pap
+ er
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-10-31. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\nOfficial source: https://waspaa.com/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:WASPAA 2027 (est.) · Final 4+1-page paper submission
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-10-31. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\nOfficial source: https://waspaa.com/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:WASPAA 2027 (est.) · Acceptance notification
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-10-31. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\nOfficial source: https://waspaa.com/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:WASPAA 2027 (est.) · Camera-ready deadline
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-10-31. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\nOfficial source: https://waspaa.com/\nVenue Radar: https://g
+ on-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270923
+SUMMARY:WASPAA 2027 (est.) · Conference
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nStatus: estimated\, checked 2026-10-31. Check the organizer's
+  call before relying on it.\nOfficial source: https://waspaa.com/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#waspaa-2027\nNotes: waspaa.
+ com gives Levi\, Finland (first WASPAA in Europe)\, Sep 19-22\, 2027\, in
+  a tentative schedule subject to small changes: abstract Apr 14\, final p
+ aper Apr 21\, notification Jul 2\, camera-ready Jul 16. The IEEE SPS list
+ ing gives the same place and dates\, paper deadline TBD. All stay estimat
+ ed until the call is posted (waspaa.com/call-for-papers/ returned 404 on 
+ 2026-10-31). No hour or zone is posted\; 23:59 AoE follows 2025. The abst
+ ract is treated as a mandatory gate\, as the 2025 initial CMT entry was. 
+ Held every odd year since 1995. Size is an editorial estimate (169 attend
+ ees\, 95 papers in 2025).
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+LOCATION:Levi\, Finland
+END:VEVENT
+END:VCALENDAR

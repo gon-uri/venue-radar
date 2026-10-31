@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ISF (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:isf-2027-deadline-special-session-proposal@scientific-conference-calend
+ ar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:ISF 2027 · Invited session proposals (3-4 committed talks\, emaile
+ d to the organizers)
+DESCRIPTION:International Symposium on Forecasting\nMeeting: 2027-06-20 to 
+ 2027-06-23\, Paphos\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nCut
+ off time unannounced: official deadline day only. Verify the organizer's 
+ submission portal.\nFormat: Abstract-based / non-archival (accepted 350-w
+ ord abstracts published as entered\; no full-paper proceedings)\nOfficial
+  source: https://isf.forecasters.org/abstracts/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#isf-2027
+CATEGORIES:Time Series & Sequential Data,Probabilistic\, Causal & Uncertain
+ ty ML,Machine Learning
+URL:https://isf.forecasters.org/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:isf-2027-deadline-travel-award@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:ISF 2027 · IIF travel award applications (funding\, mainly for stu
+ dents\; full paper plus separate abstract)
+DESCRIPTION:International Symposium on Forecasting\nMeeting: 2027-06-20 to 
+ 2027-06-23\, Paphos\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nCut
+ off time unannounced: official deadline day only. Verify the organizer's 
+ submission portal.\nFormat: Abstract-based / non-archival (accepted 350-w
+ ord abstracts published as entered\; no full-paper proceedings)\nOfficial
+  source: https://isf.forecasters.org/resources/travel-award/\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#isf-2027
+CATEGORIES:Time Series & Sequential Data,Probabilistic\, Causal & Uncertain
+ ty ML,Machine Learning
+URL:https://isf.forecasters.org/resources/travel-award/
+END:VEVENT
+BEGIN:VEVENT
+UID:isf-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:ISF 2027 · Abstract submission (350 words\; one talk per presenter
+ \; regular or invited-session track)
+DESCRIPTION:International Symposium on Forecasting\nMeeting: 2027-06-20 to 
+ 2027-06-23\, Paphos\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nCut
+ off time unannounced: official deadline day only. Verify the organizer's 
+ submission portal.\nFormat: Abstract-based / non-archival (accepted 350-w
+ ord abstracts published as entered\; no full-paper proceedings)\nOfficial
+  source: https://isf.forecasters.org/abstracts/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#isf-2027
+CATEGORIES:Time Series & Sequential Data,Probabilistic\, Causal & Uncertain
+ ty ML,Machine Learning
+URL:https://isf.forecasters.org/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:isf-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:ISF 2027 · Notification of abstract acceptance or rejection
+DESCRIPTION:International Symposium on Forecasting\nMeeting: 2027-06-20 to 
+ 2027-06-23\, Paphos\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nCut
+ off time unannounced: official deadline day only. Verify the organizer's 
+ submission portal.\nFormat: Abstract-based / non-archival (accepted 350-w
+ ord abstracts published as entered\; no full-paper proceedings)\nOfficial
+  source: https://isf.forecasters.org/abstracts/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#isf-2027
+CATEGORIES:Time Series & Sequential Data,Probabilistic\, Causal & Uncertain
+ ty ML,Machine Learning
+URL:https://isf.forecasters.org/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:isf-2027-deadline-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:ISF 2027 · Registration deadline for accepted abstracts
+DESCRIPTION:International Symposium on Forecasting\nMeeting: 2027-06-20 to 
+ 2027-06-23\, Paphos\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nCut
+ off time unannounced: official deadline day only. Verify the organizer's 
+ submission portal.\nFormat: Abstract-based / non-archival (accepted 350-w
+ ord abstracts published as entered\; no full-paper proceedings)\nOfficial
+  source: https://isf.forecasters.org/abstracts/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#isf-2027
+CATEGORIES:Time Series & Sequential Data,Probabilistic\, Causal & Uncertain
+ ty ML,Machine Learning
+URL:https://isf.forecasters.org/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:isf-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270624
+SUMMARY:ISF 2027 · Conference
+DESCRIPTION:International Symposium on Forecasting\nStatus: confirmed\, che
+ cked 2026-10-31\nOfficial source: https://isf.forecasters.org/\nVenue Rad
+ ar: https://gon-uri.github.io/venue-radar/#isf-2027\nNotes: Official IIF 
+ pages give the 47th ISF as Jun 20-23\, 2027 at Coral Beach Hotel near Pap
+ hos\, in person only (Jun 20 workshops\, Jun 21-23 sessions\; Women in Fo
+ recasting Jun 19). Deadlines print no year\; 2027 follows from the 47th-I
+ SF and ISF 2027 form pages. No cutoff hour or zone is given\, so end-of-d
+ ay AoE is provisional. On 2026-10-31 the linked ISF 2027 abstract form re
+ ndered with a Submit button and no closed notice. Invited-session talks u
+ se the same form with a chair's session code. Accepted abstracts are publ
+ ished as entered\; no full-paper proceedings. Projected attendance is 300
+ -450. Size is an editorial estimate.
+CATEGORIES:Time Series & Sequential Data,Probabilistic\, Causal & Uncertain
+ ty ML,Machine Learning
+URL:https://isf.forecasters.org/
+LOCATION:Paphos\, Cyprus
+END:VEVENT
+END:VCALENDAR

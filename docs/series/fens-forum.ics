@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FENS Forum (all editions)
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:fens-forum-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280205T225900Z
+DTEND:20280205T235900Z
+SUMMARY:FENS Forum 2028 (est.) · Regular poster-abstract submission deadli
+ ne (paid Forum registration required)
+DESCRIPTION:FENS Forum of Neuroscience\nMeeting: 2028-07-08 to 2028-07-12\,
+  Glasgow\, United Kingdom\nStatus: estimated\, checked 2026-10-31. Check 
+ the organizer's call before relying on it.\nFormat: Abstract-based / post
+ er abstracts\, no paper proceedings\nOfficial source: https://fensforum.o
+ rg/abstract-submission/\nVenue Radar: https://gon-uri.github.io/venue-rad
+ ar/#fens-forum-2028
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
+ ognitive Science & Computational Cognition
+URL:https://fensforum.org/abstract-submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:fens-forum-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280708
+DTEND;VALUE=DATE:20280713
+SUMMARY:FENS Forum 2028 · Conference
+DESCRIPTION:FENS Forum of Neuroscience\nStatus: confirmed\, checked 2026-10
+ -31\nOfficial source: https://www.fens.org/meetings/fens-forum\nVenue Rad
+ ar: https://gon-uri.github.io/venue-radar/#fens-forum-2028\nNotes: FENS c
+ onfirms Glasgow\, 8-12 July 2028\, hosted by the British Neuroscience Ass
+ ociation\; no venue or 2028 call is published as of 2026-10-31. The abstr
+ act date is a proxy from the 2026 final cutoff (5 Feb\, 23:59 CET\, exten
+ ded from 5 Jan)\; final cutoffs were 1 Mar 2022 (17:00 CEST) and 20 Feb 2
+ 024\, also after extensions. In 2026 abstracts were poster-only\, needed 
+ paid registration plus a fee\, one per in-person presenter. Late-breaking
+  poster calls (Apr-May) and symposium proposals are not projected. Abstra
+ cts are published as submitted in the programme\, not as paper proceeding
+ s. XXL reflects FENS's figure of over 8\,000 delegates. Size is an editor
+ ial estimate.
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
+ ognitive Science & Computational Cognition
+URL:https://www.fens.org/meetings/fens-forum
+LOCATION:Glasgow\, United Kingdom
+END:VEVENT
+END:VCALENDAR

@@ -24,6 +24,7 @@ explicit refinements take precedence. Current rules live in
 | Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line |
 | Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
 | Conflicting cutoffs, date-only countdowns, deep links, starring, compact cards, code layout | ADR-040 (refines ADR-024, ADR-027's MLSys choice, ADR-035 and ADR-039) |
+| Cross-series successors (merged or renamed venues with distinct ranks) | ADR-046 (`continues`; complements the same-key TS4H/SD4H and LOD/AIS precedents) |
 | Calendar event titles, descriptions and feed size; countdown precision | ADR-044 (refines ADR-028's ICS clause and ADR-032's countdown text); ADR-045 puts Notes once per edition |
 
 ## ADR-001: Keep the Project Static
@@ -929,3 +930,21 @@ explicit refinements take precedence. Current rules live in
   not display Notes either, so they are visible only on meeting events and in
   YAML; showing them on the site is an open idea. About 136 KB of headroom
   remains below the test's limit. UIDs, titles and dates are unchanged.
+
+## ADR-046: Cross-Series Successors
+
+- Date: 2026-10-31
+- Context: IEEE SPS replaced its ASRU and SLT workshops with one new
+  conference, ASLI (first edition Singapore, Nov 29-Dec 4, 2027). The owner
+  chose to track ASLI as their successor. Successor links followed only the
+  same series key, and reusing ASRU's or SLT's key would make ASLI inherit a
+  rank that belongs to a different venue (ASRU: ICORE C, CCF C; SLT: CCF C).
+- Decision: ASLI is its own series. An edition may declare
+  `continues: [<series>, ...]`; validation requires distinct, existing series
+  other than its own. The site links each named series' latest edition to that
+  edition when it has no later edition of its own and the successor starts
+  later (SLT 2026 and ASRU 2025 now show "Next: ASLI 2027"). Ranks, families,
+  scopes and series feeds stay per exact series; ASLI's scope text names ASRU
+  and SLT so search finds it.
+- Consequences: subscribers of the ASRU or SLT series feeds do not receive ASLI
+  events; they subscribe to ASLI's own feed. No UID or existing record changed.

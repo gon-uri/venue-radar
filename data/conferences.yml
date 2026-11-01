@@ -11204,3 +11204,75 @@
     pm ET) are same-weekday two-year proxies from MDS26 (Apr 20 and May 18, 2026); timing has drifted later each
     edition. MDS24 and MDS26 took contributed posters but no contributed lectures. Presentation abstracts only,
     non-archival. Size is an editorial estimate.
+- id: asli-2027
+  series: ASLI
+  year: 2027
+  title: IEEE International Conference on Audio, Speech, and Language Intelligence
+  short_title: ASLI 2027
+  website: https://2027.ieeeasli.org/
+  cfp_url: https://2027.ieeeasli.org/call-for-papers/
+  source_urls:
+  - https://2027.ieeeasli.org/
+  - https://2027.ieeeasli.org/call-for-papers/
+  - https://2027.ieeeasli.org/important-dates/
+  - https://2027.ieeeasli.org/about/
+  - https://signalprocessingsociety.org/events/asli-2028-ieee-international-conference-audio-speech-and-language-intelligence
+  location: Singapore
+  mode: in-person
+  conference_start: '2027-11-29'
+  conference_end: '2027-12-04'
+  timezone: Asia/Singapore
+  continues:
+  - ASRU
+  - SLT
+  topics:
+  - Signal Processing
+  - Natural Language Processing & LLMs
+  - Machine Learning
+  - Deep Representation Learning
+  size: L
+  submission_type: Paper-based / IEEE Xplore (Proceedings of ASLI or Findings of ASLI)
+  deadlines:
+  - type: challenge_proposal
+    label: Challenge proposals (organizers)
+    datetime: '2026-12-03T23:59:00-12:00'
+    source_url: https://2027.ieeeasli.org/important-dates/
+    time_precision: date
+  - type: full_paper
+    label: Regular paper submission deadline
+    datetime: '2027-04-21T23:59:00-12:00'
+    source_url: https://2027.ieeeasli.org/important-dates/
+  - type: paper_update
+    label: Revision deadline for already submitted regular papers
+    datetime: '2027-04-28T23:59:00-12:00'
+    source_url: https://2027.ieeeasli.org/important-dates/
+  - type: short_paper
+    label: Challenge paper submission deadline (challenge participants; format not yet published)
+    datetime: '2027-06-17T23:59:00-12:00'
+    source_url: https://2027.ieeeasli.org/important-dates/
+    time_precision: date
+  - type: notification
+    label: Paper notification (regular, challenge and demo)
+    datetime: '2027-07-28T23:59:00-12:00'
+    source_url: https://2027.ieeeasli.org/important-dates/
+  - type: sps_journal_paper
+    label: SPS journal paper presentation submission
+    datetime: '2027-07-30T23:59:00-12:00'
+    source_url: https://2027.ieeeasli.org/important-dates/
+  - type: camera_ready
+    label: Camera-ready paper deadline
+    datetime: '2027-08-11T23:59:00-12:00'
+    source_url: https://2027.ieeeasli.org/important-dates/
+  - type: registration
+    label: Author and early registration deadline
+    datetime: '2027-08-27T23:59:00-12:00'
+    source_url: https://2027.ieeeasli.org/important-dates/
+  last_checked: '2026-10-31'
+  confidence: confirmed
+  notes: 'First edition of the IEEE Signal Processing Society conference that continues the ASRU and SLT workshops
+    (SLTC) together with the audio and acoustic signal processing (AASP) community, co-located with ICIP 2027 at
+    the SP Summit. The official site gives Singapore, Nov 29-Dec 4, 2027; the SPS listing says Nov 30-Dec 4. Main
+    dates are 23:59 AoE; challenge dates have no hour (AoE provisional). Six-page papers with no limit on references
+    or appendices; top papers go to the Proceedings of ASLI, other accepted papers to the new Findings of ASLI,
+    both in IEEE Xplore. A demo track is mentioned but has no published deadline. Tracked as its own series: ASRU''s
+    and SLT''s ranks are not inherited. ASLI 2028 is listed for Singapore. Size is an editorial estimate.'

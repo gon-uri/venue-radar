@@ -369,6 +369,24 @@ def validate_conferences(
                     except (KeyError, TypeError, ValueError):
                         pass
 
+    # Optional cross-series succession (ADR-046), e.g. ASLI continues ASRU and SLT.
+    all_series = {c.get("series") for c in conferences if isinstance(c, dict)}
+    for conference in conferences:
+        if not isinstance(conference, dict) or "continues" not in conference:
+            continue
+        label = str(conference.get("id"))
+        predecessors = conference["continues"]
+        if (not isinstance(predecessors, list) or not predecessors
+                or not all(_non_empty_string(item) for item in predecessors)
+                or len(set(predecessors)) != len(predecessors)):
+            errors.append(f"{label}: continues must be a non-empty list of distinct series names")
+            continue
+        for name in predecessors:
+            if name == conference.get("series"):
+                errors.append(f"{label}: continues must name other series, not its own")
+            elif name not in all_series:
+                errors.append(f"{label}: continues names unknown series '{name}'")
+
     return errors
 
 

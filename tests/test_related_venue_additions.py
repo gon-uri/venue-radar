@@ -7,11 +7,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from build_ics import series_slug
+from build_site import _successors
 from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, load_mapping, map_events
 from conference_scopes import load_scopes
 from rollover_editions import CADENCE_YEARS
 from validate import (
-    SUBMISSION_TYPES, load_ccf_rankings, load_conferences, load_icore_rankings,
+    SUBMISSION_TYPES, load_ccf_rankings, load_conferences, load_controlled_topics,
+    load_icore_rankings, validate_conferences,
 )
 
 # Owner-approved on 2026-10-31 from the related-venue search
@@ -41,7 +43,7 @@ class RelatedVenueAdditionTests(unittest.TestCase):
             self.assertIn(name, series)
             self.assertIn(name, self.families, name)
             self.assertIn(name, self.scopes, name)
-        self.assertEqual(len(series), 175)
+        self.assertEqual(len(series), 176, "the 44 additions plus ASLI, their 2027 successor")
 
     def test_identity_collisions_are_avoided(self) -> None:
         # The Cognitive Neuroscience Society is not OCNS's CNS*.
@@ -52,13 +54,31 @@ class RelatedVenueAdditionTests(unittest.TestCase):
         # NetSci-X is the Network Science Society's winter meeting, not NetSci.
         self.assertNotEqual(series_slug("NetSci-X"), series_slug("NetSci"))
 
-    def test_asru_and_slt_have_no_projected_successor(self) -> None:
-        # From 2027 IEEE SPS merges ASRU and SLT into the new ASLI conference.
+    def test_asli_continues_asru_and_slt_without_inheriting_their_ranks(self) -> None:
+        # From 2027 IEEE SPS merges ASRU and SLT into the new ASLI conference
+        # (owner decision 2026-10-31; ADR-046).
         for name in ("ASRU", "SLT"):
             editions = [c for c in self.conferences if c["series"] == name]
             self.assertEqual(len(editions), 1, name)
             self.assertNotIn(name, CADENCE_YEARS)
             self.assertIn("ASLI", editions[0]["notes"])
+        asli = self.by_id["asli-2027"]
+        self.assertEqual((asli["series"], asli["continues"]), ("ASLI", ["ASRU", "SLT"]))
+        successors = _successors(self.conferences)
+        self.assertEqual(successors["asru-2025"]["id"], "asli-2027")
+        self.assertEqual(successors["slt-2026"]["id"], "asli-2027")
+        self.assertNotIn("ASLI", load_icore_rankings()["rankings"])
+        self.assertNotIn("ASLI", load_ccf_rankings()["rankings"])
+        self.assertIn("ASRU", self.scopes["ASLI"]["scope_summary"], "searching ASRU finds ASLI")
+
+    def test_continues_must_name_other_known_series(self) -> None:
+        topics = load_controlled_topics()
+        base = [c for c in self.conferences if c["id"] != "asli-2027"]
+        for value, message in ((["ASRU", "ASRU"], "distinct"), (["Unknown Workshop"], "unknown series"),
+                               (["ASLI"], "not its own"), ("ASRU", "non-empty list")):
+            record = {**self.by_id["asli-2027"], "continues": value}
+            errors = validate_conferences(base + [record], topics, review_limit=None)
+            self.assertTrue(any(message in error for error in errors), (value, errors))
 
     def test_irregular_series_stay_out_of_automatic_rollover(self) -> None:
         for name in ("NAISys", "RLDM", "Neural Interfaces"):

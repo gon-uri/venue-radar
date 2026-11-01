@@ -12,11 +12,11 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Repository | `gon-uri/venue-radar`; GitHub Pages publishes `main/docs`. |
 | Website | https://gon-uri.github.io/venue-radar/ |
 | Architecture | Reviewed YAML + Python generators + standalone static HTML/ICS; no backend or SQL database. |
-| Catalog | 259 edition records across 175 distinct series. The 2026-10-31 related-venue additions brought 44 owner-approved series (60 records: 45 confirmed meetings, 15 estimated); earlier batches include 30 next editions added 2026-10-29, AIiH 2027, SD4H 2026 as TS4H's successor and ECC 2027. Website row counts refer to editions, not unique series. |
+| Catalog | 260 edition records across 176 distinct series (including ASLI 2027, the ASRU/SLT successor). The 2026-10-31 related-venue additions brought 44 owner-approved series (60 records: 45 confirmed meetings, 15 estimated); earlier batches include 30 next editions added 2026-10-29, AIiH 2027, SD4H 2026 as TS4H's successor and ECC 2027. Website row counts refer to editions, not unique series. |
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
-| Detailed scopes | 124 reviewed profiles; 51 series still lack a reviewed profile. |
+| Detailed scopes | 125 reviewed profiles; 51 series still lack a reviewed profile. |
 | Evidence maps | 83 direct ICORE 2026 ranks, 67 direct CCF 2026 ranks, 49 historical rate/qualitative-band entries. |
-| Public feeds | 481 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 259 edition and 175 series feeds. `calendar-all.ics` is 864 KB (ADR-045: Notes once per edition); a test keeps every feed below 1 MB. |
+| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 864 KB (ADR-045: Notes once per edition); a test keeps every feed below 1 MB. |
 | Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML through 2026-10-29; the owner said on 2026-10-31 that they no longer use the workbook. ECC and the 44 related-venue series have no rows (the sync helper's optional `@oai/artifact-tool` cannot be installed from public npm). Retiring the workbook is an open decision. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
@@ -347,3 +347,13 @@ review re-checked the 12 nearest new deadlines on official pages (no
 discrepancy) and found 8 smaller issues, all fixed. Published to `main` on
 2026-10-31 in the commit that adds this note. Not done: the workbook rows, and
 real calendar-app checks of the new events.
+
+The owner then asked to track IEEE ASLI, which replaces ASRU and SLT from
+2027. ASLI 2027 (Singapore, Nov 29-Dec 4, 2027; regular papers Apr 21, 2027
+AoE; Proceedings and Findings of ASLI in IEEE Xplore) was re-checked on its
+official pages on 2026-10-31 and added as its own series with
+`continues: [ASRU, SLT]` (ADR-046), so ASRU 2025 and SLT 2026 link to it
+without ASLI inheriting their ranks. Checks: 260 records validated, 177 Python
+and 33 Node tests, the full browser suite (170 opportunities; 148 confirmed
+editions in 113 cities) and the SLT 2026 row's "Next: ASLI 2027" link.
+Published to `main` in the commit that adds this note.

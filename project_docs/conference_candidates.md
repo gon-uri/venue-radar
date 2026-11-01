@@ -276,8 +276,9 @@ IVA 2027 and CHIIR 2028); each record's notes give the basis.
 
 ASRU and SLT have no projected next edition: from 2027 IEEE SPS merges them
 into the new IEEE ASLI conference (Singapore, Nov 29-Dec 4, 2027; regular
-papers due Apr 21, 2027, per its official call). Whether to track ASLI as a new
-series or as their successor is an open owner decision.
+papers due Apr 21, 2027, per its official call). On 2026-10-31 the owner chose
+to track ASLI as their successor; it is its own series (no inherited rank) and
+declares `continues: [ASRU, SLT]` (ADR-046).
 
 ### Owner Maybe (2)
 

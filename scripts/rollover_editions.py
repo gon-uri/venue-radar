@@ -52,6 +52,7 @@ CADENCE_YEARS = {
     "SfN Neuroscience": 1, "Dynamics Days Europe": 1,
     "Dynamics Days US": 1, "Dynamics Days LAC": 2,
     # Owner-approved related venues added 2026-10-31 with documented cadence.
+    "ASLI": 1,
     "ACCV": 2, "ALT": 1, "AMIA": 1, "BIOSIG": 1, "CHIIR": 1, "CLeaR": 1,
     "CNS CogNeuro": 1, "COPA": 1, "ENOC": 3, "ESWC": 1, "FENS Forum": 2,
     "FORC": 1, "ICCP": 1, "ICDL": 1, "ICME": 1, "ICMNS": 1, "ICONS": 1,

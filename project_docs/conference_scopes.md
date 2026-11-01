@@ -8,9 +8,9 @@ fields, and [development](development.md#workbook-synchronization) for mirror ch
 
 The table's up-to-four main topics are a compact description, not an exhaustive
 list. `data/conference_scopes.yml` adds a more detailed, source-grounded profile
-by exact conference series. Current coverage is 124 of 175 series, including all
+by exact conference series. Current coverage is 125 of 176 series, including all
 42 AI Deadlines additions, CIKM/WSDM, the 16 complex-systems/neuroscience
-additions and the 44 related-venue additions of 2026-10-31. The other 51 are
+additions, the 44 related-venue additions of 2026-10-31 and ASLI. The other 51 are
 explicitly queued for review;
 an absent profile is not replaced by guessed information.
 

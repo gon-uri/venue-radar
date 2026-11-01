@@ -393,15 +393,23 @@ def _evidence_line(conference: dict[str, Any]) -> str:
 
 
 def _successors(conferences: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
-    """Map each edition ID to the next tracked edition of the same series."""
+    """Map each edition ID to the next tracked edition of the same series, or,
+    for a series' latest edition, to a later edition that declares
+    `continues: [<that series>]` (ADR-046)."""
     by_series: dict[str, list[dict[str, Any]]] = {}
     for conference in conferences:
         by_series.setdefault(conference["series"], []).append(conference)
+    order = lambda item: (item["year"], str(item["conference_start"]))
     result: dict[str, dict[str, Any]] = {}
     for editions in by_series.values():
-        ordered = sorted(editions, key=lambda item: (item["year"], str(item["conference_start"])))
+        ordered = sorted(editions, key=order)
         for current, following in zip(ordered, ordered[1:]):
             result[current["id"]] = following
+    for following in sorted(conferences, key=order):
+        for name in following.get("continues", []):
+            latest = max(by_series.get(name, []), key=order, default=None)
+            if latest and latest["id"] not in result and str(latest["conference_start"]) < str(following["conference_start"]):
+                result[latest["id"]] = following
     return result
 
 

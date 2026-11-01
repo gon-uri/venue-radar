@@ -105,9 +105,9 @@ below are history, not instructions to reimplement old designs.
   filters and topic feeds, scope evidence in calendar descriptions (removed
   from ICS by ADR-044; profiles are not displayed on the site), a separate
   workbook sheet, and a missing/stale/prior-edition review queue.
-- Current coverage: 124 of 175 series, including all 42 AI Deadlines additions,
+- Current coverage: 125 of 176 series, including all 42 AI Deadlines additions,
   all 16 complex-systems/neuroscience additions and all 44 related-venue
-  additions (2026-10-31).
+  additions (2026-10-31) and ASLI.
 - Remaining work: curate the 51 missing profiles from official sources and
   review existing profiles about monthly. Prior-edition evidence stays dated.
 - Guidance: [conference_scopes.md](conference_scopes.md).
@@ -132,8 +132,8 @@ below are history, not instructions to reimplement old designs.
   15 estimated), each drafted from official pages and re-checked by an
   independent verifier, with families, scope profiles, 26 host cities,
   17 ICORE and 12 CCF ranks, 15 sourced acceptance rates and cadences.
-- Open: whether to track IEEE ASLI, the 2027 successor of ASRU and SLT; the
-  owner's two "maybe" venues (SIGGRAPH Asia, VSS) and 148 further candidates,
+- Also added: IEEE ASLI 2027, the successor of ASRU and SLT (ADR-046).
+- Open: the owner's two "maybe" venues (SIGGRAPH Asia, VSS) and 148 further candidates,
   preserved for later rounds; showing edition Notes on the site (ADR-045).
 - Guidance: [candidate backlog](conference_candidates.md#related-venue-search-2026-10-3031).
 

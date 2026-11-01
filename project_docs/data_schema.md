@@ -43,6 +43,7 @@ editions; do not overwrite last year's record with next year's dates.
 | `timezone` | IANA meeting-location zone, not a replacement for each deadline's explicit UTC offset. |
 | `relevance` | Optional `high`, `medium`, `low` or `watch`; not an acceptance prediction. |
 | `notes` | Evidence conflicts, estimation basis, special eligibility, scope/publication caveats and size basis. |
+| `continues` | Optional list of other exact series this edition succeeds (e.g. ASLI 2027 continues ASRU and SLT). Links their latest editions to it; ranks and families are not inherited (ADR-046). |
 
 The schema also accepts legacy `announced_no_deadlines`, `not_yet_announced`
 and `stale` meeting states. Do not bulk-normalize existing records. Prefer a

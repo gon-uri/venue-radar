@@ -9,16 +9,16 @@ The current model below takes precedence over the explicitly historical audit.
 Reviewed: 2026-10-31, after adding 44 owner-approved related venues (see the
 [candidate backlog](conference_candidates.md#related-venue-search-2026-10-3031)).
 These counts use explicit central series identities, not the presence of any
-generic method tag. There are 175 series, 43 leaves and 124 reviewed
+generic method tag. There are 176 series (including ASLI, the ASRU/SLT successor), 43 leaves and 125 reviewed
 profiles; 51 profiles remain queued. No family or leaf was added or renamed.
 
 | Family | Central series | Subtopics |
 | --- | --- | --- |
 | ML & Data Science | 52 | Machine learning; deep learning; theory; probabilistic/causal ML; distributed/federated learning; evolutionary optimization; ML systems; reasoning; data mining |
-| NLP, Agents & Retrieval | 29 | NLP/LLMs; autonomous/multiagent systems; LLM agents/tool use; information retrieval/RAG; recommenders |
+| NLP, Agents & Retrieval | 30 | NLP/LLMs; autonomous/multiagent systems; LLM agents/tool use; information retrieval/RAG; recommenders |
 | Vision & Multimedia | 21 | Vision/pattern recognition; graphics/visualization; multimedia/retrieval |
 | RL, Robotics & Control | 19 | Reinforcement learning; control/robotics; planning/search |
-| Complex Systems, Time Series & Signals | 40 | Nonlinear dynamics; complex systems/networks; graphs/graph learning; system identification; time series; signals; artificial life/adaptive systems |
+| Complex Systems, Time Series & Signals | 41 | Nonlinear dynamics; complex systems/networks; graphs/graph learning; system identification; time series; signals; artificial life/adaptive systems |
 | Healthcare & Biometrics | 19 | Healthcare/clinical AI; biomedical imaging; biometrics/human sensing |
 | Neuroscience & Neurotechnology | 27 | Computational neuroscience; EEG/MEG; BCI; neuroimaging; computational cognition; neuromorphic/brain-inspired computing; systems/experimental neuroscience |
 | Responsible & Trustworthy AI | 9 | Fairness/accountability; explainability; ethics/governance; privacy; robustness/safety; human-AI interaction |

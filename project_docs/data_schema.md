@@ -157,8 +157,10 @@ ongoing/past conference section. The client re-evaluates these states each minut
 
 Abstract-only formats remain documented in `submission_type`, labels, notes
 and evidence documents. An abstract book is not a full-paper proceedings claim.
-Do not add a publication column, badge or change to status behavior without
-approval; current abstract labels/status already indicate the contribution.
+The archival option tag and filter (ADR-047) are the only approved publication
+UI: one sourced value per series in `data/archival_options.yml`, never inferred
+from `submission_type`. Do not add other publication columns, badges or status
+behavior without approval.
 
 ## Companion Files And Stable Identity
 
@@ -172,6 +174,15 @@ approval; current abstract labels/status already indicate the contribution.
   IANA `tz` per city (used for day-only cutoffs); distinguish different cities
   sharing a name. Confirmed/announced, mapped, non-online future
   meetings appear on the map; estimated dates do not.
+- `archival_options.yml` (ADR-047): under `options`, one entry per exact
+  series with `archival` (quoted `"yes"`/`"no"`; bare yes/no would load as
+  booleans), `estimated`, `track`, HTTPS `source_url`, `source_year` (edition
+  whose call was read, 2015 to the latest tracked edition) and `checked` (not
+  in the future), plus optional `venue` and `note`. A row shows "(est.)" when
+  `estimated` is true or `source_year` is earlier than its own edition year.
+  Yes requires a fresh-submission track published in the conference's own
+  proceedings or journal; citable abstract volumes do not count (owner,
+  2026-11-05). Absent means Not checked yet, never No.
 - `icore_rankings.yml`: release, review date, official source and exact-series
   `rank`/`portal_id` mapping. `ccf_rankings.yml` additionally separates catalog
   PDF/page evidence from its official navigation `page_url`.

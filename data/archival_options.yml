@@ -1,0 +1,1404 @@
+# Archival option per exact series (ADR-047). One value from the newest
+# published call; a value read from an earlier edition is shown as "(est.)"
+# on later rows. Absent series are "not checked yet", never "no".
+# Researched 2026-11-05 from official calls: one agent drafted each value and an
+# independent agent re-checked it. Evidence and caveats:
+# project_docs/archival_research/archival_options_2026-11-05.json
+options:
+  "3DV":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers"
+    venue: "Official 3DV conference proceedings (IEEE; 3DV 2026 published by IEEE with ISSN 2378-3826)"
+    source_url: "https://3dvconf.github.io/2027/author-guidelines/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "AAAI":
+    archival: "yes"
+    estimated: false
+    track: "Main technical track"
+    venue: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI Digital Library)"
+    source_url: "https://aaai.org/conference/aaai/aaai-27/paper-publication-and-conference-attendance/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "AALTD":
+    archival: "no"
+    estimated: false
+    track: "Workshop paper track (AALTD 2026)"
+    venue: "Accepted papers are posted online by the workshop; selected extended versions go to a Springer LNAI volume by invitation"
+    source_url: "https://ecml-aaltd.github.io/aaltd2026/submission.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "AAMAS":
+    archival: "yes"
+    estimated: false
+    track: "Main track"
+    venue: "Proceedings of AAMAS 2027 (plus Findings of AAMAS 2027)"
+    source_url: "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ACC":
+    archival: "yes"
+    estimated: false
+    track: "Contributed (regular) papers"
+    venue: "ACC conference proceedings (IEEE-co-sponsored)"
+    source_url: "https://acc2028.a2c2.org/author-information/"
+    source_year: 2028
+    checked: "2026-11-05"
+  "ACCV":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "Springer LNCS"
+    source_url: "https://accv2026.org/submissions/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ACL":
+    archival: "yes"
+    estimated: false
+    track: "Main conference long/short papers (via ARR)"
+    venue: "ACL proceedings (ACL Anthology); Findings of ACL"
+    source_url: "https://2027.aclweb.org/calls/main/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ACM FAccT":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers (archival or non-archival option)"
+    venue: "ACM Digital Library (conference proceedings)"
+    source_url: "https://facctconference.org/2027/cfp.html"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ACM MM":
+    archival: "yes"
+    estimated: false
+    track: "Regular technical papers"
+    venue: "ACM MM conference proceedings (ACM Digital Library)"
+    source_url: "https://2026.acmmm.org/site/cfp-guidelines.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ACM SIGGRAPH":
+    archival: "yes"
+    estimated: false
+    track: "Technical Papers (Conference and Journal tracks)"
+    venue: "SIGGRAPH Conference Proceedings (ACM Digital Library) and ACM TOG"
+    source_url: "https://s2026.siggraph.org/program/technical-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ACML":
+    archival: "yes"
+    estimated: false
+    track: "Conference track papers"
+    venue: "PMLR (conference track); Machine Learning journal (journal track)"
+    source_url: "https://www.acml-conf.org/2026/calls/papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ACPR":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "Springer LNCS"
+    source_url: "https://link.springer.com/978-981-95-4394-6"
+    source_year: 2025
+    checked: "2026-11-05"
+  "ADMA":
+    archival: "yes"
+    estimated: false
+    track: "Main research track papers"
+    venue: "Springer LNAI"
+    source_url: "https://adma2026.github.io/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "AIES":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers"
+    venue: "AAAI Digital Library (AIES proceedings)"
+    source_url: "https://www.aies-conference.com/2026/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "AIiH":
+    archival: "yes"
+    estimated: false
+    track: "Full papers (main and special sessions)"
+    venue: "Conference proceedings (Springer LNCS in past editions, e.g. AIiH 2024, LNCS 14976)"
+    source_url: "https://aiih.cc/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "AIME":
+    archival: "yes"
+    estimated: false
+    track: "Full, short and demo papers"
+    venue: "Springer LNAI"
+    source_url: "https://aime27.aimedicine.info/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "AISTATS":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers"
+    venue: "PMLR"
+    source_url: "https://virtual.aistats.org/Conferences/2027/CallForPapers"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ALIFE":
+    archival: "yes"
+    estimated: false
+    track: "Full papers"
+    venue: "MIT Press open-access proceedings"
+    source_url: "https://2026.alife.org/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ALT":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers"
+    venue: "PMLR"
+    source_url: "https://algorithmiclearningtheory.org/alt2027/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "AMIA":
+    archival: "yes"
+    estimated: false
+    track: "Papers and student papers (also podium abstracts/posters in proceedings)"
+    venue: "AMIA Annual Symposium Proceedings (archived in PubMed Central)"
+    source_url: "https://amia.org/education-events/amia-2026-annual-symposium/call-participation"
+    source_year: 2026
+    checked: "2026-11-05"
+  "AREADNE":
+    archival: "no"
+    estimated: false
+    track: "Contributed talk/poster abstracts"
+    venue: "none (abstracts in a self-published conference book/program PDF)"
+    source_url: "https://areadne.org/2026/home.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ASLI":
+    archival: "yes"
+    estimated: false
+    track: "Regular papers (Proceedings of ASLI or Findings of ASLI)"
+    venue: "IEEE Xplore (Proceedings of ASLI; Findings of ASLI)"
+    source_url: "https://2027.ieeeasli.org/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ASRU":
+    archival: "yes"
+    estimated: false
+    track: "Demo, system and data papers (also regular papers)"
+    venue: "IEEE Xplore (workshop proceedings)"
+    source_url: "https://2025.ieeeasru.org/calls/call-for-demos/"
+    source_year: 2025
+    checked: "2026-11-05"
+  "AutoML":
+    archival: "yes"
+    estimated: false
+    track: "Methods track and ABCD track papers"
+    venue: "PMLR"
+    source_url: "https://2026.automl.cc/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "BCI Winter":
+    archival: "yes"
+    estimated: false
+    track: "Regular papers"
+    venue: "IEEE Xplore (IEEE conference proceedings)"
+    source_url: "https://brain.korea.ac.kr/bci2027/papersubmission.php"
+    source_year: 2027
+    checked: "2026-11-05"
+  "Bernstein Conference":
+    archival: "no"
+    estimated: false
+    track: "Poster/contributed talk abstracts"
+    venue: "none (abstracts published online on the G-Node abstract server with DOIs; no proceedings or journal)"
+    source_url: "https://bernstein-network.de/bernstein-conference/abstract-submission/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "BIOMAG":
+    archival: "no"
+    estimated: true
+    track: "Abstract submissions (BIOMAG 2026)"
+    venue: "none stated (abstract-based meeting)"
+    source_url: "https://mm.scimeeting.cn/en/web/index/31426"
+    source_year: 2026
+    checked: "2026-11-05"
+    note: "Estimated: the official 2026 pages accept abstracts only and state no proceedings or journal for them; papers-only rule (owner decision 2026-11-05). Recheck when the 2028 call appears."
+  "BIOSIG":
+    archival: "yes"
+    estimated: false
+    track: "Main track full papers"
+    venue: "IEEE Xplore (accepted papers submitted for inclusion)"
+    source_url: "https://biosig.de/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "BMVC":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers"
+    venue: "BMVC proceedings published by BMVA"
+    source_url: "https://bmvc2026.bmva.org/calls/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "CCN":
+    archival: "yes"
+    estimated: false
+    track: "8-page proceedings full papers"
+    venue: "CCN Proceedings (CCN-P), with DOIs via OpenReview"
+    source_url: "https://2026.ccneuro.org/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "CCS":
+    archival: "no"
+    estimated: false
+    track: "Oral/poster abstract submissions"
+    venue: "none stated (1-page extended abstracts for presentation only)"
+    source_url: "https://ccs26.cssociety.org/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "CHI":
+    archival: "yes"
+    estimated: false
+    track: "Papers"
+    venue: "ACM Digital Library (Proceedings of CHI)"
+    source_url: "https://chi2027.acm.org/authors/papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "CHIIR":
+    archival: "yes"
+    estimated: false
+    track: "Full/perspective papers (also short and resource papers)"
+    venue: "ACM (ACM Digital Library, open access)"
+    source_url: "https://chiir2027.github.io/full-papers.html"
+    source_year: 2027
+    checked: "2026-11-05"
+  "CHIL":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "PMLR (Proceedings of the Conference on Health, Inference, and Learning)"
+    source_url: "https://chil.ahli.cc/submit/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "CIKM":
+    archival: "yes"
+    estimated: false
+    track: "Full research papers (also short and demo papers)"
+    venue: "ACM Digital Library (CIKM proceedings)"
+    source_url: "https://cikm2026.diag.uniroma1.it/?p=3812"
+    source_year: 2026
+    checked: "2026-11-05"
+  "CLeaR":
+    archival: "yes"
+    estimated: false
+    track: "Main paper track (proceedings track, OpenReview)"
+    venue: "PMLR"
+    source_url: "https://www.cclear.cc/2027/CallforPapers"
+    source_year: 2027
+    checked: "2026-11-05"
+  "CNS CogNeuro":
+    archival: "no"
+    estimated: false
+    track: "Poster abstracts (regular and late-breaking; Sketchpad excluded)"
+    venue: "Proceedings of the Annual Meeting of the Cognitive Neuroscience Society (PCNS), hosted on JoCNForum, with DOIs"
+    source_url: "https://www.cogneurosociety.org/submit-a-poster/"
+    source_year: 2027
+    checked: "2026-11-05"
+    note: "Abstract-only meeting; its citable abstract volume does not count as archival proceedings (papers-only rule, owner decision 2026-11-05)."
+  "CNS*":
+    archival: "no"
+    estimated: false
+    track: "Regular abstracts (main meeting)"
+    venue: "OCNS conference proceedings published on Zenodo (or similar open-access platform) with per-abstract DOIs"
+    source_url: "https://www.cnsorg.org/cns-2026-abstract-submission"
+    source_year: 2026
+    checked: "2026-11-05"
+    note: "Abstract-only meeting; its citable abstract volume does not count as archival proceedings (papers-only rule, owner decision 2026-11-05)."
+  "CogSci":
+    archival: "yes"
+    estimated: false
+    track: "Research papers (talks/posters)"
+    venue: "Proceedings of the Annual Meeting of the Cognitive Science Society (online proceedings published by the Society)"
+    source_url: "https://cognitivesciencesociety.org/?p=216392"
+    source_year: 2026
+    checked: "2026-11-05"
+  "COLING":
+    archival: "yes"
+    estimated: false
+    track: "System demonstrations (main papers via ARR)"
+    venue: "COLING 2027 proceedings (companion volume)"
+    source_url: "https://2027.coling-iccl.org/calls/system_demonstrations/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "COLM":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers"
+    venue: "COLM proceedings (proceedings.colm.cc)"
+    source_url: "https://proceedings.colm.cc"
+    source_year: 2026
+    checked: "2026-11-05"
+  "COLT":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers"
+    venue: "PMLR"
+    source_url: "https://learningtheory.org/colt2027/cfp.html"
+    source_year: 2027
+    checked: "2026-11-05"
+  "CompleNet":
+    archival: "yes"
+    estimated: false
+    track: "Long and short papers"
+    venue: "Springer Proceedings in Complexity"
+    source_url: "https://complenet.github.io/cfp.html"
+    source_year: 2027
+    checked: "2026-11-05"
+  "COMPLEX NETWORKS":
+    archival: "yes"
+    estimated: false
+    track: "Full papers"
+    venue: "Springer Studies in Computational Intelligence"
+    source_url: "https://complexnetworks.org/submission/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "CoNLL":
+    archival: "yes"
+    estimated: false
+    track: "Archival paper track"
+    venue: "ACL Anthology (Proceedings of the 30th Conference on Computational Natural Language Learning)"
+    source_url: "https://aclanthology.org/events/conll-2026/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "COPA":
+    archival: "yes"
+    estimated: false
+    track: "Full papers and poster extended abstracts"
+    venue: "PMLR"
+    source_url: "https://copa-conference.com/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "CoRL":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "PMLR"
+    source_url: "https://www.corl.org/contributions/instruction-for-authors"
+    source_year: 2026
+    checked: "2026-11-05"
+  "COSYNE":
+    archival: "no"
+    estimated: false
+    track: "Abstract submission (posters/talks)"
+    venue: "none (citable abstract summaries on the COSYNE website only)"
+    source_url: "https://www.cosyne.org/abstracts-submission"
+    source_year: 2027
+    checked: "2026-11-05"
+  "CVPR":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "CVF Open Access and IEEE Computer Society proceedings"
+    source_url: "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
+    source_year: 2027
+    checked: "2026-11-05"
+  "Discovery Science":
+    archival: "yes"
+    estimated: false
+    track: "Main research track full papers"
+    venue: "Springer LNCS"
+    source_url: "https://discovery-science.org/main-research-track/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "DSAA":
+    archival: "yes"
+    estimated: false
+    track: "Research track full papers"
+    venue: "IEEE Xplore"
+    source_url: "https://dsaa-2026.vercel.app/calls/research-track"
+    source_year: 2026
+    checked: "2026-11-05"
+  "Dynamics Days Asia-Pacific":
+    archival: "no"
+    estimated: false
+    track: "Contributed posters/talks (YKIS2024/DDAP13)"
+    venue: "none (program and poster sessions only)"
+    source_url: "https://www2.yukawa.kyoto-u.ac.jp/~frontier24/DDAP13/"
+    source_year: 2024
+    checked: "2026-11-05"
+  "Dynamics Days Europe":
+    archival: "no"
+    estimated: false
+    track: "Contributed talk/poster abstracts"
+    venue: "none (abstracts in conference Book of Abstracts PDF only)"
+    source_url: "https://dde-2026.sci-meet.net/book-of-abstracts"
+    source_year: 2026
+    checked: "2026-11-05"
+  "Dynamics Days LAC":
+    archival: "no"
+    estimated: false
+    track: "Contributed abstracts (talks/posters)"
+    venue: "none (abstract-only meeting; no publication mentioned)"
+    source_url: "https://fisica.ufpr.br/DDaysLAC2026/page5.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "Dynamics Days US":
+    archival: "no"
+    estimated: false
+    track: "Contributed talk/poster abstracts"
+    venue: "none (abstract-only meeting)"
+    source_url: "https://www.ddays.org/2027/abstract-submission/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "EAAMO":
+    archival: "yes"
+    estimated: false
+    track: "Main paper track (archival option)"
+    venue: "ACM Digital Library (conference proceedings)"
+    source_url: "https://conference2026.eaamo.org/cfp/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "EACL":
+    archival: "yes"
+    estimated: false
+    track: "Main conference long and short papers (via ARR)"
+    venue: "EACL 2027 proceedings (ACL Anthology)"
+    source_url: "https://2027.eacl.org/calls/papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ECAF":
+    archival: "yes"
+    estimated: false
+    track: "Full papers / extended abstracts (archival option)"
+    venue: "PMLR (Proceedings of Machine Learning Research)"
+    source_url: "https://2027.ecafconference.org/callForPapers"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ECAI":
+    archival: "yes"
+    estimated: false
+    track: "Main track full papers (IJCAI-ECAI 2026)"
+    venue: "IJCAI proceedings (open access, ijcai.org)"
+    source_url: "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ECC":
+    archival: "yes"
+    estimated: false
+    track: "Contributed/regular papers"
+    venue: "IEEE Xplore"
+    source_url: "https://ecc27.euca-ecc.org/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ECCV":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "Springer proceedings (LNCS) / ECVA"
+    source_url: "https://eccv.ecva.net/Conferences/2026/CallForPapers"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ECIR":
+    archival: "yes"
+    estimated: false
+    track: "Full papers (also short, reproducibility and resource papers)"
+    venue: "Springer LNCS"
+    source_url: "https://www.ecir2027.co.uk/call-for-full-papers"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ECML PKDD":
+    archival: "yes"
+    estimated: false
+    track: "Research track"
+    venue: "Springer LNCS"
+    source_url: "https://ecmlpkdd.org/2026/submissions-research-track/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "EMNLP":
+    archival: "yes"
+    estimated: false
+    track: "Main conference long/short papers (via ARR)"
+    venue: "EMNLP proceedings (ACL Anthology)"
+    source_url: "https://2026.emnlp.org/calls/main_conference_papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ENOC":
+    archival: "no"
+    estimated: false
+    track: "Two-page extended abstracts (only submission route)"
+    venue: "none (digital book of abstracts on the conference website)"
+    source_url: "https://enoc2027.com/author/submission-guidance"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ESANN":
+    archival: "yes"
+    estimated: false
+    track: "Regular papers"
+    venue: "ESANN proceedings (i6doc, ISBN, full text online)"
+    source_url: "https://www.esann.org/node/3"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ESWC":
+    archival: "yes"
+    estimated: false
+    track: "Research, Resources and In-Use tracks"
+    venue: "Springer LNCS"
+    source_url: "https://2027.eswc-conferences.org/calls/contributions-eswc/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "EuroGP":
+    archival: "yes"
+    estimated: false
+    track: "EuroGP full papers"
+    venue: "Springer LNCS"
+    source_url: "https://www.evostar.org/2027/eurogp/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "EUSIPCO":
+    archival: "yes"
+    estimated: false
+    track: "Conference papers"
+    venue: "IEEE Xplore (plus open-access EURASIP proceedings)"
+    source_url: "https://eusipco2027.de/calls/conference-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "EUVIP":
+    archival: "yes"
+    estimated: false
+    track: "Regular papers"
+    venue: "Official EUVIP 2026 conference proceedings"
+    source_url: "https://euvip2026.github.io/C4P.pdf"
+    source_year: 2026
+    checked: "2026-11-05"
+  "FENS Forum":
+    archival: "no"
+    estimated: false
+    track: "Poster abstract submission"
+    venue: "none (abstracts on Forum website/programme only)"
+    source_url: "https://fensforum.org/abstract-submission/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "FG":
+    archival: "yes"
+    estimated: false
+    track: "Main and special-session papers"
+    venue: "IEEE Xplore"
+    source_url: "https://fg2027.ieee-biometrics.org/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "FMTS @ NeurIPS":
+    archival: "no"
+    estimated: false
+    track: "Workshop papers"
+    venue: "none (OpenReview and workshop site only)"
+    source_url: "https://fmts-workshop.github.io/cfp.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "FORC":
+    archival: "yes"
+    estimated: false
+    track: "Main archival paper track (both submission cycles)"
+    venue: "LIPIcs"
+    source_url: "https://responsiblecomputing.org/forc-2027-call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "GECCO":
+    archival: "yes"
+    estimated: false
+    track: "Full papers; poster-only papers"
+    venue: "ACM Digital Library (Main and Companion Proceedings)"
+    source_url: "https://gecco-2027.sigevo.org/Call+for+Papers"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ICANN":
+    archival: "yes"
+    estimated: false
+    track: "Main track full papers"
+    venue: "Springer LNCS"
+    source_url: "https://e-nns.org/icann2026/call-for-papers-2/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICAPS":
+    archival: "yes"
+    estimated: false
+    track: "Main track long and short papers"
+    venue: "ICAPS proceedings (AAAI Press format)"
+    source_url: "https://icaps27.icaps-conference.org/calls/cfp/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ICASSP":
+    archival: "yes"
+    estimated: false
+    track: "Main track regular papers"
+    venue: "IEEE Xplore"
+    source_url: "https://2027.ieeeicassp.org/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ICCP":
+    archival: "yes"
+    estimated: false
+    track: "Main paper track (common review for a TPAMI special issue or the ICCP Proceedings)"
+    venue: "IEEE TPAMI special issue or ICCP Proceedings"
+    source_url: "https://iccp2027.iccp-conference.org/#callforpapers"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ICCV":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "ICCV Proceedings (CVF Open Access; also IEEE Xplore)"
+    source_url: "https://iccv.thecvf.com/Conferences/2025/CallForPapers"
+    source_year: 2025
+    checked: "2026-11-05"
+  "ICDL":
+    archival: "yes"
+    estimated: false
+    track: "Full papers (6 pages)"
+    venue: "IEEE Xplore (IEEE ICDL Proceedings)"
+    source_url: "https://attend.ieee.org/icdl-2026/contribute/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICDM":
+    archival: "yes"
+    estimated: false
+    track: "Research track full papers"
+    venue: "IEEE ICDM proceedings (IEEE Computer Society Press / IEEE Xplore)"
+    source_url: "https://icdm2026.neu.edu.cn/CallforResearchTrack/list.htm"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICIP":
+    archival: "yes"
+    estimated: false
+    track: "Main-track conference papers"
+    venue: "IEEE Xplore (ICIP Proceedings)"
+    source_url: "https://2026.ieeeicip.org/call-for-papers-and-abstracts/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICLR":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "ICLR Proceedings at OpenReview"
+    source_url: "https://www.iclr.cc/Conferences/2027/AuthorGuidelines"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ICME":
+    archival: "yes"
+    estimated: false
+    track: "Regular technical program papers (incl. special sessions)"
+    venue: "IEEE ICME conference proceedings (IEEE)"
+    source_url: "https://2027.ieeeicme.org/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ICML":
+    archival: "yes"
+    estimated: false
+    track: "Main track full papers"
+    venue: "PMLR (Proceedings of Machine Learning Research)"
+    source_url: "https://icml.cc/Conferences/2026/CallForPapers"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICMNS":
+    archival: "no"
+    estimated: false
+    track: "Contributed talks and posters (abstract submissions)"
+    venue: "none (abstracts shown only on the conference web programme)"
+    source_url: "https://icmns.org/2026/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICMR":
+    archival: "yes"
+    estimated: false
+    track: "Regular full and short papers"
+    venue: "ACM International Conference Proceedings Series (ACM Digital Library)"
+    source_url: "https://www.icmr2027.org/cfc"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ICONIP":
+    archival: "yes"
+    estimated: false
+    track: "Main track full papers (12-15 pages)"
+    venue: "Springer LNCS / CCIS"
+    source_url: "https://www.iconip2026.org/call-for-papers"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICONS":
+    archival: "yes"
+    estimated: false
+    track: "Full papers (8 pages) and short papers (4 pages)"
+    venue: "ICONS conference proceedings (ACM International Conference)"
+    source_url: "https://iconsneuromorphic.cc/calls-2026/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICPR":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "Springer LNCS (16-volume proceedings set)"
+    source_url: "https://icpr2026.org/proceedings.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICRA":
+    archival: "yes"
+    estimated: false
+    track: "Contributed (technical) papers"
+    venue: "IEEE Xplore (ICRA conference proceedings)"
+    source_url: "https://2026.ieee-icra.org/contribute/final-paper-submission-instructions/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ICWSM":
+    archival: "yes"
+    estimated: false
+    track: "Full papers (also dataset, poster and demo papers)"
+    venue: "AAAI ICWSM proceedings (ojs.aaai.org)"
+    source_url: "https://www.icwsm.org/2027/submit/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IDA":
+    archival: "yes"
+    estimated: false
+    track: "Regular paper track"
+    venue: "Springer LNCS"
+    source_url: "https://ida2027.eu/regular-paper-track/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IDEAL":
+    archival: "yes"
+    estimated: false
+    track: "Regular papers"
+    venue: "Springer LNCS"
+    source_url: "https://www.ideal2026.org/calls/special-issues"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IEEE BHI":
+    archival: "yes"
+    estimated: false
+    track: "Regular papers (also opt-in 1-page abstracts)"
+    venue: "IEEE Xplore"
+    source_url: "https://bhi.embs.org/2026/author-instructions/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IEEE BigData":
+    archival: "yes"
+    estimated: false
+    track: "Main research papers and special-session papers"
+    venue: "IEEE BigData 2026 conference proceedings (IEEE; IEEE Xplore)"
+    source_url: "https://bigdataieee.org/BigData2026/calls/special-machine-learning/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IEEE BioCAS":
+    archival: "yes"
+    estimated: false
+    track: "Regular papers"
+    venue: "IEEE Xplore (BioCAS conference proceedings)"
+    source_url: "https://2026.ieee-biocas.org/2026/pages_authors/instructions.vm"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IEEE CDC":
+    archival: "yes"
+    estimated: false
+    track: "Regular paper submission"
+    venue: "IEEE Xplore (Proceedings of the IEEE Conference on Decision and Control)"
+    source_url: "https://cdc2026.ieeecss.org/authors/author-information"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IEEE CEC":
+    archival: "yes"
+    estimated: false
+    track: "Full papers (8 pages) and short papers (4 pages)"
+    venue: "IEEE Xplore (main proceedings; short papers in Companion Proceedings)"
+    source_url: "https://ieeecec.org/2027/initial-paper-submission-instructions"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IEEE EMBC":
+    archival: "yes"
+    estimated: false
+    track: "Full Contributed Papers"
+    venue: "IEEE Xplore and PubMed/MEDLINE"
+    source_url: "https://embc.embs.org/2026/papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IEEE ICMLA":
+    archival: "yes"
+    estimated: false
+    track: "Main conference regular/short papers"
+    venue: "Conference proceedings (IEEE, submitted to IEEE Xplore)"
+    source_url: "https://www.icmla-conference.org/icmla26/callforpapers.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IEEE MLSP":
+    archival: "yes"
+    estimated: false
+    track: "Conference paper submission"
+    venue: "IEEE Xplore"
+    source_url: "https://signalprocessingsociety.org/newsletter/2026/05/2026-ieee-international-workshop-machine-learning-signal-processing-mlsp"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IEEE NER":
+    archival: "yes"
+    estimated: false
+    track: "Full contributed papers (6 pages)"
+    venue: "IEEE Xplore conference proceedings"
+    source_url: "https://neuro.embs.org/2025/call-for-papers/"
+    source_year: 2025
+    checked: "2026-11-05"
+  "IEEE SSCI":
+    archival: "yes"
+    estimated: false
+    track: "Full papers (main track and symposia)"
+    venue: "Symposium proceedings (IEEE)"
+    source_url: "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IEEE SSP":
+    archival: "yes"
+    estimated: false
+    track: "Regular paper submissions"
+    venue: "IEEE Xplore"
+    source_url: "https://ssp27.ieeesps.org/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IFAC SYSID":
+    archival: "yes"
+    estimated: false
+    track: "Regular conference papers"
+    venue: "IFAC-PapersOnLine"
+    source_url: "https://conferences.ifac-control.org/sysid2027/participate/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IFAC WC":
+    archival: "yes"
+    estimated: false
+    track: "Regular/survey papers"
+    venue: "IFAC-PapersOnLine"
+    source_url: "https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IJCAI":
+    archival: "yes"
+    estimated: false
+    track: "Main Track"
+    venue: "IJCAI Proceedings (ijcai.org/Proceedings)"
+    source_url: "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IJCAI-ECAI":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers"
+    venue: "IJCAI proceedings (open access, published by IJCAI)"
+    source_url: "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IJCB":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "IEEE Xplore"
+    source_url: "https://ijcb2027.ieee-biometrics.org/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IJCNLP":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers (ARR)"
+    venue: "AACL-IJCNLP 2026 proceedings (ACL Anthology)"
+    source_url: "https://2026.aaclnet.org/calls/main_conference_papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IJCNN":
+    archival: "yes"
+    estimated: false
+    track: "Regular papers"
+    venue: "IEEE Xplore"
+    source_url: "https://ijcnn.org/2027/authors/initial-author-instructions"
+    source_year: 2027
+    checked: "2026-11-05"
+  "INLG":
+    archival: "yes"
+    estimated: false
+    track: "Long and short papers (archival track)"
+    venue: "INLG 2026 proceedings in the ACL Anthology"
+    source_url: "https://2026.inlgmeeting.org/calls.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "International BCI Meeting":
+    archival: "no"
+    estimated: false
+    track: "Abstract submission (poster/oral, new work)"
+    venue: "Abstract book published by Verlag der TU Graz (ISBN, open access, per-abstract DOIs)"
+    source_url: "https://bcisociety.org/bci-meeting/abstract-submission/"
+    source_year: 2027
+    checked: "2026-11-05"
+    note: "Abstract-only meeting; its citable abstract volume does not count as archival proceedings (papers-only rule, owner decision 2026-11-05)."
+  "Interspeech":
+    archival: "yes"
+    estimated: false
+    track: "Main technical programme papers"
+    venue: "ISCA Archive (Interspeech proceedings, DOI 10.21437/Interspeech.YYYY)"
+    source_url: "https://www.isca-archive.org/interspeech_2026/index.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "IPCAI":
+    archival: "yes"
+    estimated: false
+    track: "Regular papers (and Track 1 late-breaking long abstracts)"
+    venue: "IPCAI 2027 special issue of IJCARS (Springer journal)"
+    source_url: "https://sites.google.com/view/ipcai2027/call-for-papers-and-long-abstracts"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IPMI":
+    archival: "yes"
+    estimated: false
+    track: "Full papers"
+    venue: "Springer LNCS"
+    source_url: "https://2027.ipmi-conf.org/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IROS":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "IEEE Xplore"
+    source_url: "https://2026.ieee-iros.org/contribute/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ISBI":
+    archival: "yes"
+    estimated: false
+    track: "Four-page full papers"
+    venue: "ISBI conference proceedings (historically IEEE Xplore)"
+    source_url: "https://biomedicalimaging.org/2027/papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ISF":
+    archival: "no"
+    estimated: false
+    track: "Abstract submissions (350-word talks)"
+    venue: "none (accepted abstracts published as entered in the online program)"
+    source_url: "https://isf.forecasters.org/abstracts/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ISWC":
+    archival: "yes"
+    estimated: false
+    track: "Research / Resource / In-Use tracks"
+    venue: "Springer LNCS"
+    source_url: "https://iswc2026.semanticweb.org/#/calls/research"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ITISE":
+    archival: "yes"
+    estimated: false
+    track: "Full paper submissions"
+    venue: "Springer Contributions to Statistics (selected full papers)"
+    source_url: "https://itise.ugr.es/index.html"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IUI":
+    archival: "yes"
+    estimated: false
+    track: "Main papers track"
+    venue: "ACM Digital Library"
+    source_url: "https://iui.acm.org/2027/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "IVA":
+    archival: "yes"
+    estimated: false
+    track: "Full papers track"
+    venue: "ACM Digital Library"
+    source_url: "https://iva.acm.org/2026/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "KDD":
+    archival: "yes"
+    estimated: false
+    track: "Research Track (2027 first cycle)"
+    venue: "ACM Digital Library (KDD proceedings)"
+    source_url: "https://kdd2027.kdd.org/research-track-call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "KR":
+    archival: "yes"
+    estimated: false
+    track: "Main track (regular and short papers)"
+    venue: "KR 2026 proceedings (official proceedings volume)"
+    source_url: "https://kr.org/KR2026/call_main_track.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "L4DC":
+    archival: "yes"
+    estimated: false
+    track: "Main paper track"
+    venue: "PMLR"
+    source_url: "https://proceedings.mlr.press/v331/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "LOD":
+    archival: "yes"
+    estimated: false
+    track: "Long, short and late-breaking papers (AIS 2027)"
+    venue: "Springer LNCS"
+    source_url: "https://ais2027.icas.events/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "LoG":
+    archival: "yes"
+    estimated: false
+    track: "Proceedings Track (full papers)"
+    venue: "PMLR"
+    source_url: "https://logconference.org/cfp/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "LREC":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers (oral and poster)"
+    venue: "LREC 2026 official proceedings (ELRA; online proceedings)"
+    source_url: "https://lrec2026.info/third-call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "MICCAI":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers"
+    venue: "Springer proceedings (LNCS), 19 volumes"
+    source_url: "https://conferences.miccai.org/2026/en/OPEN-ACCESS-AND-PROCEEDINGS.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "MIDL":
+    archival: "yes"
+    estimated: false
+    track: "Full papers"
+    venue: "PMLR"
+    source_url: "https://2027.midl.io/author-instructions"
+    source_year: 2027
+    checked: "2026-11-05"
+  "ML4H":
+    archival: "yes"
+    estimated: false
+    track: "Proceedings track"
+    venue: "PMLR"
+    source_url: "https://ml4h.ahli.cc/submit/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "MLHC":
+    archival: "yes"
+    estimated: false
+    track: "Research track"
+    venue: "PMLR"
+    source_url: "https://mlhc.org/faq"
+    source_year: 2026
+    checked: "2026-11-05"
+  "MLSys":
+    archival: "yes"
+    estimated: false
+    track: "Research and industrial papers"
+    venue: "Proceedings of Machine Learning and Systems (proceedings.mlsys.org)"
+    source_url: "https://mlsys.org/Conferences/2027/CallForResearchPapers"
+    source_year: 2027
+    checked: "2026-11-05"
+  "MTNS":
+    archival: "yes"
+    estimated: false
+    track: "Full papers (contributed and invited sessions)"
+    venue: "IFAC-PapersOnLine"
+    source_url: "https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/author-information"
+    source_year: 2026
+    checked: "2026-11-05"
+  "NAACL":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers (ARR, long and short)"
+    venue: "NAACL 2027 proceedings (ACL Anthology)"
+    source_url: "https://2027.naacl.org/calls/main_conference_papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "NAISys":
+    archival: "no"
+    estimated: false
+    track: "Abstract submission for talks/posters"
+    venue: "none (abstracts only in the CSHL program abstract book given to participants)"
+    source_url: "https://meetings.cshl.edu/abstracts.aspx?meet=NAISYS&year=27"
+    source_year: 2027
+    checked: "2026-11-05"
+  "NCM":
+    archival: "no"
+    estimated: false
+    track: "Individual oral and poster abstracts (members only)"
+    venue: "none (abstracts appear in the conference program only)"
+    source_url: "https://ncm-society.org/submission/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "NetSci":
+    archival: "no"
+    estimated: false
+    track: "One-page abstract submission (talk/poster)"
+    venue: "none (abstract-only; no proceedings or journal announced)"
+    source_url: "https://netsci2027.github.io/calls/abstracts/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "NetSci-X":
+    archival: "no"
+    estimated: false
+    track: "Two-page extended abstracts (talk or poster)"
+    venue: "none (no proceedings announced)"
+    source_url: "https://netscix2027.github.io/submissions/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "Neural Interfaces":
+    archival: "no"
+    estimated: false
+    track: "Original research abstract submission (oral/poster)"
+    venue: "none (abstracts posted on the meeting program website)"
+    source_url: "https://www.nans.org/neural-interfaces/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "NeurIPS":
+    archival: "yes"
+    estimated: false
+    track: "Main track full papers"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS Proceedings, proceedings.neurips.cc)"
+    source_url: "https://neurips.cc/Conferences/2026/MainTrackHandbook"
+    source_year: 2026
+    checked: "2026-11-05"
+  "NICE":
+    archival: "yes"
+    estimated: false
+    track: "Regular research papers (full/lightning talks)"
+    venue: "IEEE Conference Proceedings (IEEE Xplore); authors may opt out"
+    source_url: "https://niceworkshop.org/nice-2027/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "NODYCON":
+    archival: "yes"
+    estimated: false
+    track: "One-page abstracts with optional full-length Springer proceedings papers"
+    venue: "Springer book series Advances in Nonlinear Dynamics (NODYCON 2026 proceedings)"
+    source_url: "https://nodycon2026.app.earendelplatform.com/cs/publication-CQAEU1BI80000"
+    source_year: 2026
+    checked: "2026-11-05"
+  "NOLTA":
+    archival: "yes"
+    estimated: false
+    track: "Regular and special-session papers"
+    venue: "NOLTA2026 symposium proceedings (IEICE)"
+    source_url: "https://nolta2026.org/submission/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "OHBM":
+    archival: "no"
+    estimated: false
+    track: "Poster abstract submissions (Annual Meeting)"
+    venue: "OHBM abstract book published through Aperture Neuro, OHBM's own journal (2024: Aperture Neuro Vol 4 Suppl 1, DOI 10.52294/001c.120379; 2025: DOI'd Zenodo deposit credited to Aperture Neuro)"
+    source_url: "https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract_Submission_Guidelines_FINAL_docx_(1).pdf"
+    source_year: 2027
+    checked: "2026-11-05"
+    note: "Abstract-only meeting; its citable abstract volume does not count as archival proceedings (papers-only rule, owner decision 2026-11-05)."
+  "PAKDD":
+    archival: "yes"
+    estimated: false
+    track: "Research track papers"
+    venue: "Springer conference proceedings (LNCS/LNAI)"
+    source_url: "https://pakdd2027.org/pages/calls/research"
+    source_year: 2027
+    checked: "2026-11-05"
+  "PPSN":
+    archival: "yes"
+    estimated: false
+    track: "Full papers (all presented as posters)"
+    venue: "Springer LNCS (PPSN 2026: LNCS 16985-16989)"
+    source_url: "https://ppsn2026.disi.unitn.it/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "ProbML":
+    archival: "yes"
+    estimated: false
+    track: "Archival proceedings track (full papers)"
+    venue: "PMLR"
+    source_url: "https://probml.cc/call/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "RecSys":
+    archival: "yes"
+    estimated: false
+    track: "Main track long papers"
+    venue: "ACM Digital Library (RecSys proceedings)"
+    source_url: "https://recsys.acm.org/recsys26/call/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "RLC":
+    archival: "yes"
+    estimated: false
+    track: "Main paper track"
+    venue: "Reinforcement Learning Journal (RLJ), ISSN 2996-8577"
+    source_url: "https://rl-conference.cc/2026/callforpapers.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "RLDM":
+    archival: "no"
+    estimated: false
+    track: "Call for abstracts (extended abstracts)"
+    venue: "none (abstract-based meeting, no proceedings)"
+    source_url: "https://rldm.org/call-for-abstracts-2027/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "RSS":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers (two-stage submission)"
+    venue: "Robotics: Science and Systems online proceedings (roboticsproceedings.org, ISSN 2330-765X)"
+    source_url: "https://roboticsproceedings.org/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "S+SSPR":
+    archival: "yes"
+    estimated: false
+    track: "Paper submission (main track)"
+    venue: "Springer LNCS"
+    source_url: "https://ssspr2026.inf.unibe.ch/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "SAB":
+    archival: "yes"
+    estimated: false
+    track: "Track 1 conference papers"
+    venue: "Springer LNAI"
+    source_url: "https://sab-conference.org/call-for-contributions/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "SaTML":
+    archival: "yes"
+    estimated: false
+    track: "Research, SoK and position papers"
+    venue: "IEEE Computer Society Digital Library (IEEE SaTML proceedings)"
+    source_url: "https://satml.org/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "SDM":
+    archival: "yes"
+    estimated: false
+    track: "Research papers"
+    venue: "SIAM proceedings (Proceedings of the SIAM International Conference on Data Mining, epubs.siam.org)"
+    source_url: "https://www.siam.org/conferences-events/siam-conferences/sdm26/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "SfN Neuroscience":
+    archival: "no"
+    estimated: false
+    track: "Regular and late-breaking research abstracts"
+    venue: "none (abstracts only in online Neuroscience Meeting Planner / abstract archive)"
+    source_url: "https://www.sfn.org/meetings/past-and-future-annual-meetings/abstract-archive"
+    source_year: 2026
+    checked: "2026-11-05"
+  "SIAM DS":
+    archival: "no"
+    estimated: false
+    track: "Contributed lectures and posters"
+    venue: "none (abstracts in online program only)"
+    source_url: "https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "SIAM MDS":
+    archival: "no"
+    estimated: false
+    track: "Contributed poster abstracts (and minisymposia)"
+    venue: "none (searchable abstracts PDF in online program)"
+    source_url: "https://www.siam.org/conferences-events/siam-conferences/mds26/program/program-abstracts/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "SIGDIAL":
+    archival: "yes"
+    estimated: false
+    track: "Main conference long/short/demo papers"
+    venue: "ACL Anthology"
+    source_url: "https://aclanthology.org/2026.sigdial-1.0/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "SIGIR":
+    archival: "yes"
+    estimated: false
+    track: "Full papers"
+    venue: "ACM Digital Library (SIGIR proceedings)"
+    source_url: "https://sigir2027.org/pages/submit-full.html"
+    source_year: 2027
+    checked: "2026-11-05"
+  "SLT":
+    archival: "yes"
+    estimated: false
+    track: "Regular and special-session papers"
+    venue: "IEEE Xplore (SLT 2026 workshop proceedings)"
+    source_url: "https://attend.ieee.org/slt-2026/call-for-papers/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "SMC":
+    archival: "yes"
+    estimated: false
+    track: "Regular/special-session papers"
+    venue: "IEEE Xplore"
+    source_url: "https://www.ieeesmc2026.org/call-for-papers"
+    source_year: 2026
+    checked: "2026-11-05"
+  "SNL":
+    archival: "no"
+    estimated: false
+    track: "Slide/poster abstracts"
+    venue: "none (abstracts in meeting program PDF only)"
+    source_url: "https://2026.neurolang.org/past-meetings/"
+    source_year: 2026
+    checked: "2026-11-05"
+  "TS4H":
+    archival: "no"
+    estimated: false
+    track: "Workshop paper submissions (SD4H 2026, successor of TS4H)"
+    venue: "none (non-archival; no formal proceedings)"
+    source_url: "https://structureddata4health.github.io/call_for_papers.html"
+    source_year: 2026
+    checked: "2026-11-05"
+  "UAI":
+    archival: "yes"
+    estimated: false
+    track: "Main track papers"
+    venue: "PMLR"
+    source_url: "https://www.auai.org/uai2026/call_for_papers"
+    source_year: 2026
+    checked: "2026-11-05"
+  "UMAP":
+    archival: "yes"
+    estimated: false
+    track: "Main track long and short papers"
+    venue: "ACM Digital Library"
+    source_url: "https://um.org/umap2027/call-for-full-and-short-paper/"
+    source_year: 2027
+    checked: "2026-11-05"
+  "WACV":
+    archival: "yes"
+    estimated: false
+    track: "Main conference papers (Rounds 1 and 2)"
+    venue: "CVF Open Access / WACV proceedings (IEEE Computer Society)"
+    source_url: "https://wacv.thecvf.com/Conferences/2027/AuthorGuides"
+    source_year: 2027
+    checked: "2026-11-05"
+  "WASPAA":
+    archival: "yes"
+    estimated: false
+    track: "Main 4+1-page papers"
+    venue: "IEEE Xplore"
+    source_url: "https://signalprocessingsociety.org/newsletter/2025/11/waspaa-2025-lake-tahoe-new-chapter-beloved-audio-and-acoustic-signal-processing"
+    source_year: 2025
+    checked: "2026-11-05"
+  "WSDM":
+    archival: "yes"
+    estimated: false
+    track: "Main full and short papers"
+    venue: "ACM Digital Library"
+    source_url: "https://www.wsdm-conference.org/2027/cffp.html"
+    source_year: 2027
+    checked: "2026-11-05"
+  "WWW":
+    archival: "yes"
+    estimated: false
+    track: "Research track papers"
+    venue: "ACM Digital Library (conference proceedings)"
+    source_url: "https://www2027.thewebconf.org/research-track-papers/"
+    source_year: 2027
+    checked: "2026-11-05"

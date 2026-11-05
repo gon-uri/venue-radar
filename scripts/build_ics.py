@@ -4,6 +4,7 @@ import re
 from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
+from archival_options import ARCHIVAL_PATH, feed_label, load_archival_options, validate_archival_options, with_archival
 from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
 from validate import (
@@ -146,7 +147,9 @@ def _description(
     )
     lines.extend(details)
     if meeting and conference.get("submission_type"):
-        lines.append(f"Format: {conference['submission_type']}")
+        archival = feed_label(conference.get("_archival"))
+        suffix = f"; Archival option: {archival}" if archival else ""
+        lines.append(f"Format: {conference['submission_type']}{suffix}")
     # Same rule as the site's "Previous call" links (ADR-040).
     source_label = "Previous edition's page" if _older_year_link(source_url, conference["year"]) else "Official source"
     lines.extend([f"{source_label}: {source_url}", f"Venue Radar: {SITE_URL}#{conference['id']}"])
@@ -412,15 +415,17 @@ def _write_series_feeds(conferences: list[dict[str, Any]], series_dir: Path) -> 
 
 def build_calendars(
     data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR,
-    scopes_path: Path = SCOPES_PATH,
+    scopes_path: Path = SCOPES_PATH, archival_path: Path = ARCHIVAL_PATH,
 ) -> list[Path]:
     conferences = load_conferences(data_path)
     scopes = load_scopes(scopes_path)
+    archival = load_archival_options(archival_path)
     errors = validate_conferences(conferences, load_controlled_topics())
     errors.extend(validate_scopes(conferences, scopes, load_controlled_topics() or set()))
+    errors.extend(validate_archival_options(conferences, archival))
     if errors:
         raise ValueError("conference data is invalid; run scripts/validate.py")
-    conferences = with_scopes(conferences, scopes)
+    conferences = with_archival(with_scopes(conferences, scopes), archival)
 
     docs_dir.mkdir(parents=True, exist_ok=True)
 

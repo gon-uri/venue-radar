@@ -66,7 +66,8 @@ precedence over historical notes. Never force-add or publish this directory.
   Arbitrary custom types may validate but are schedule-only. Mandatory gates
   must use `gate_for`; organizer proposals and production steps are not submissions.
 - Preserve the eight agreed topic families and public submission semantics.
-  Abstract-only publication caveats belong in notes/docs, not a new UI feature.
+  Publication formats and abstract-only caveats stay in notes/docs; the only
+  publication UI is the archival option tag and filter defined by ADR-047.
 - Calendar event UIDs must be deterministic and stable. Never use random values
   for calendar UIDs. Preserve published edition IDs, deadline types, topic slugs,
   and the historical `scientific-conference-calendar` UID namespace.

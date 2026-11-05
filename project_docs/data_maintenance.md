@@ -252,6 +252,22 @@ A sourced qualitative-only entry needs `band` and `basis` and displays
 `(estimated)`. Otherwise leave the series absent/Unknown. Do not derive rates
 from rankings, the retired Difficulty field, reputation or accepted-only lists.
 
+### Archival Option Values (ADR-047)
+
+Work through the "Archival option" backlog in the weekly report. For each
+series, read the newest published call and update its entry in
+`data/archival_options.yml`. Set `source_year` to that call's edition and
+`checked` to the review day. Yes needs a track for new papers whose accepted
+papers appear in the conference's own archival proceedings or journal; opt-in
+or opt-out counts. Abstract volumes do not count, even with a DOI, ISBN or
+journal supplement ("papers only", owner decision 2026-11-05). Neither do
+doctoral consortia, talks on already published papers or satellite-workshop
+proceedings. Use `estimated: true` when the call is silent and the value rests
+on the meeting's format. Never infer a value from `submission_type`, ranks or
+OpenReview; leave a series absent when official sources do not settle it.
+Quote `"yes"`/`"no"` in YAML. Add new evidence to a dated JSON file under
+`project_docs/archival_research/`, or to the entry's `note`.
+
 ## Evidence Follow-Ups
 
 Consult the dated records rather than maintaining a second competing list:

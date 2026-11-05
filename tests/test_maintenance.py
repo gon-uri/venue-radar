@@ -290,7 +290,7 @@ class RenderTests(unittest.TestCase):
                            "https://old.example", "2026-06-01", "2026-06-03", None),
         ]
         backlog = [BacklogRow(f"S{index}", "no sourced rate", "") for index in range(7)]
-        return Report(AS_OF, 30, 3, rows, [], backlog, backlog[:2])
+        return Report(AS_OF, 30, 3, rows, [], backlog, backlog[:2], backlog[:1])
 
     def test_markdown_is_an_issue_body_with_headings_and_checkboxes(self) -> None:
         body = render_markdown(self.report(), 5)
@@ -302,8 +302,9 @@ class RenderTests(unittest.TestCase):
         self.assertIn("[source](<https://example.org/abstract>)", body)
         self.assertIn("meeting 2026-06-01 to 2026-06-03", body)
         self.assertIn("### Acceptance evidence backlog: 7 series", body)
-        self.assertEqual(body.count("- [ ] **S"), 5 + 2)
-        self.assertEqual(render_markdown(self.report(), None).count("- [ ] **S"), 7 + 2)
+        self.assertEqual(body.count("- [ ] **S"), 5 + 2 + 1)
+        self.assertIn("### Archival option backlog: 1 series", body)
+        self.assertEqual(render_markdown(self.report(), None).count("- [ ] **S"), 7 + 2 + 1)
 
     def test_text_keeps_summary_line_and_collapses_backlogs(self) -> None:
         text = render_text(self.report(), 5)

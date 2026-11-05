@@ -96,3 +96,19 @@ Approved with ADR-040:
   outdated info".
 - Starring: "Starred only (N)" filter; calendar menu row "Your starred series"
   ("Pick one to subscribe to all its editions").
+
+## Archival Option (ADR-047, approved and shipped 2026-11-05)
+
+- Filter checkbox: "Archival option". Description, always visible in the
+  filter panel: "Conferences where at least one track for new papers can be
+  published in archival proceedings or a journal (for example ACM DL, IEEE
+  Xplore, PMLR, LNCS). Not every track is archival: check that the deadline
+  shown belongs to an archival track. (est.) means it is based on the previous
+  edition; the new call is not out yet."
+- Row and card tags: "Archival option", "Archival option (est.)",
+  "Non-archival", "Non-archival (est.)"; no tag when not checked yet.
+- Tag tooltip: "At least one track for new papers offers archival
+  publication; you may need to choose it when submitting. Check which track
+  the deadline shown belongs to."
+- With the filter on, the result line adds "N conferences not checked yet are
+  hidden".

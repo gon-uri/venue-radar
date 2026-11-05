@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-10-30. This is the current-state summary, not a release
+Last synchronized: 2026-11-05. This is the current-state summary, not a release
 history. Start with [the documentation index](README.md); technical history
 remains in [decisions](decisions.md). Detailed local working notes follow the
 [documentation policy](documentation_policy.md) and are not required to onboard.
@@ -16,7 +16,8 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
 | Detailed scopes | 125 reviewed profiles; 51 series still lack a reviewed profile. |
 | Evidence maps | 83 direct ICORE 2026 ranks, 67 direct CCF 2026 ranks, 49 historical rate/qualitative-band entries. |
-| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 864 KB (ADR-045: Notes once per edition); a test keeps every feed below 1 MB. |
+| Archival option | ADR-047 shipped 2026-11-05: 174 of 176 series have a sourced value (144 Yes, 30 No; Dynamics Days CAC and ICCN not checked yet, neither with an open deadline). Row/card tag, one filter (`archival=1`) and a Format-line value in feeds. Evidence: `project_docs/archival_research/`. |
+| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 891 KB (ADR-045: Notes once per edition; ADR-047 added the archival value); a test keeps every feed below 1 MB. |
 | Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML through 2026-10-29; the owner said on 2026-10-31 that they no longer use the workbook. ECC and the 44 related-venue series have no rows (the sync helper's optional `@oai/artifact-tool` cannot be installed from public npm). Retiring the workbook is an open decision. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
@@ -134,7 +135,12 @@ adds ignore/tracking checks and keeps onboarding independent of private notes.
 - ACPR 2027's acpr2027.com is still a draft site that IAPR does not list, so its
   Suzhou dates stay estimated and off the map until the organizer confirms them.
 - Revisit unannounced ALIFE/BCI/SfN calls and BioCAS's exact paper route;
-  preserve abstract-only versus full-paper publication notes without changing UI.
+  preserve abstract-only versus full-paper publication notes; the only
+  publication UI is ADR-047's archival option tag and filter. Known
+  limitation, accepted in ADR-047: the tag describes the conference, so a row
+  tagged "Archival option" can count down to a non-archival track (for
+  example IUI workshop papers or ICASSP satellite workshops); the filter
+  description says to check the track.
 - Keep the original AI Deadlines backlog dated: 42 approved additions, 15 still
   deferred, and future-only ICWM separate. Candidates are not approved calendar data.
 - Refresh ranking release schemas and evidence together if publishers issue a

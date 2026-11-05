@@ -1,0 +1,1766 @@
+{
+ "checked": "2026-11-05",
+ "method": "ADR-047 rules; per batch of six series one agent drafted from official sources and an independent agent re-verified (3 source links corrected, no value changed). Unknown values are left out of data/archival_options.yml.",
+ "entries": [
+  {
+   "series": "3DV",
+   "archival": "yes",
+   "track": "Main track papers",
+   "venue": "Official 3DV conference proceedings (IEEE; 3DV 2026 published by IEEE with ISSN 2378-3826)",
+   "source_url": "https://3dvconf.github.io/2027/author-guidelines/",
+   "source_year": 2027,
+   "evidence": "2027 guidelines: violations \"may result in the paper being rejected or removed from the conference and proceedings\"; \"All accepted papers will be made publicly available.\"",
+   "caveat": "The 2027 pages refer to proceedings but do not name the publisher. IEEE as publisher comes from the 2026 camera-ready instructions (https://3dvconf.github.io/2026/camera-ready-instructions: papers are submitted to IEEE, technically co-sponsored by IEEE CS, and included in the proceedings)."
+  },
+  {
+   "series": "AAAI",
+   "archival": "yes",
+   "track": "Main technical track",
+   "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI Digital Library)",
+   "source_url": "https://aaai.org/conference/aaai/aaai-27/paper-publication-and-conference-attendance/",
+   "source_year": 2027,
+   "evidence": "\"These published, archival versions of the papers will be made available in the AAAI Digital Library.\"",
+   "caveat": "A paper is included only if an author registers and presents it."
+  },
+  {
+   "series": "AALTD",
+   "archival": "no",
+   "track": "Workshop paper track (AALTD 2026)",
+   "venue": "Accepted papers are posted online by the workshop; selected extended versions go to a Springer LNAI volume by invitation",
+   "source_url": "https://ecml-aaltd.github.io/aaltd2026/submission.html",
+   "source_year": 2026,
+   "evidence": "\"All the articles accepted for the workshop will be available online for at least 3 years\"; selected authors are invited to publish extended versions in a Springer LNAI volume.",
+   "caveat": "Borderline call. The official pages never say archival or non-archival. Accepted papers are only posted online, and the LNAI volume holds invitation-only extended versions, not an author choice. The owner may want to review this. The 2027 call is not out, so the 2026 call was used."
+  },
+  {
+   "series": "AAMAS",
+   "archival": "yes",
+   "track": "Main track",
+   "venue": "Proceedings of AAMAS 2027 (plus Findings of AAMAS 2027)",
+   "source_url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/",
+   "source_year": 2027,
+   "evidence": "Accepted papers \"could be selected for publication in the Proceedings of AAMAS 2027 under a CC-BY licence\"; others are considered for the Findings of AAMAS 2027.",
+   "caveat": "The page names no publisher (the IFAAMAS/ACM DL host is not stated). Where Blue Sky Ideas papers are published was not checked."
+  },
+  {
+   "series": "ACC",
+   "archival": "yes",
+   "track": "Contributed (regular) papers",
+   "venue": "ACC conference proceedings (IEEE-co-sponsored)",
+   "source_url": "https://acc2028.a2c2.org/author-information/",
+   "source_year": 2028,
+   "evidence": "Accepted contributed and invited papers are limited to six pages; an author must register at the full rate \"to upload the final manuscript\" for the conference proceedings.",
+   "caveat": "The pages checked do not name IEEE Xplore explicitly; they only link to IEEE Xplore-compatible PDF guidance. The ACC 2028 CFP PDF also lists final manuscripts due 10 March 2028."
+  },
+  {
+   "series": "ACCV",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "Springer LNCS",
+   "source_url": "https://accv2026.org/submissions/",
+   "source_year": 2026,
+   "evidence": "\"The proceedings will be published by Springer in the Lecture Notes in Computer Science (LNCS) series.\"",
+   "caveat": ""
+  },
+  {
+   "series": "ACL",
+   "archival": "yes",
+   "track": "Main conference long/short papers (via ARR)",
+   "venue": "ACL proceedings (ACL Anthology); Findings of ACL",
+   "source_url": "https://2027.aclweb.org/calls/main/",
+   "source_year": 2027,
+   "evidence": "\"All accepted papers must be presented at the conference to appear in the proceedings\"; papers not selected may be considered for Findings of ACL.",
+   "caveat": "CFP page does not name the ACL Anthology explicitly; ACL proceedings and Findings are hosted there."
+  },
+  {
+   "series": "ACM FAccT",
+   "archival": "yes",
+   "track": "Main track papers (archival or non-archival option)",
+   "venue": "ACM Digital Library (conference proceedings)",
+   "source_url": "https://facctconference.org/2027/cfp.html",
+   "source_year": 2027,
+   "evidence": "\"Archival papers will appear in the published conference proceedings in the ACM Digital Library\"; non-archival papers appear only as abstracts.",
+   "caveat": "Authors choose archival or non-archival at submission and cannot switch later."
+  },
+  {
+   "series": "ACM MM",
+   "archival": "yes",
+   "track": "Regular technical papers",
+   "venue": "ACM MM conference proceedings (ACM Digital Library)",
+   "source_url": "https://2026.acmmm.org/site/cfp-guidelines.html",
+   "source_year": 2026,
+   "evidence": "Regular papers: contributions \"will be preferred for publication in the conference proceedings\".",
+   "caveat": "The 2026 CFP and author instructions say 'conference proceedings' without naming the ACM DL; ACM MM proceedings are ACM-published. The 2027 call is not out, so this uses the 2026 call."
+  },
+  {
+   "series": "ACM SIGGRAPH",
+   "archival": "yes",
+   "track": "Technical Papers (Conference and Journal tracks)",
+   "venue": "SIGGRAPH Conference Proceedings (ACM Digital Library) and ACM TOG",
+   "source_url": "https://s2026.siggraph.org/program/technical-papers/",
+   "source_year": 2026,
+   "evidence": "\"Conference Papers will be published in the SIGGRAPH Conference Proceedings in the ACM Digital Library\"; Journal Papers appear in a special issue of ACM TOG.",
+   "caveat": "The 2027 technical-papers page says 'Submission details coming soon', so this uses the 2026 call."
+  },
+  {
+   "series": "ACML",
+   "archival": "yes",
+   "track": "Conference track papers",
+   "venue": "PMLR (conference track); Machine Learning journal (journal track)",
+   "source_url": "https://www.acml-conf.org/2026/calls/papers/",
+   "source_year": 2026,
+   "evidence": "\"the proceedings will be published as a volume of Proceedings of Machine Learning Research\"",
+   "caveat": "Papers are published only if presented at the conference. The 2027 call is not out yet."
+  },
+  {
+   "series": "ACPR",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "Springer LNCS",
+   "source_url": "https://link.springer.com/978-981-95-4394-6",
+   "source_year": 2025,
+   "evidence": "ACPR 2025 proceedings published by Springer LNCS. The ACPR 2027 submission page says \"All accepted papers will be published in Springer's Lecture Notes in Computer Science (LNCS)\".",
+   "caveat": "The ACPR 2027 call (http://acpr2027.com/?Submission/) confirms LNCS but is HTTP-only, so the https source is the Springer page for ACPR 2025. Springer blocked automated title verification (redirect to a book DOI, then a bot challenge). Tracked 2027 dates are estimated."
+  },
+  {
+   "series": "ADMA",
+   "archival": "yes",
+   "track": "Main research track papers",
+   "venue": "Springer LNAI",
+   "source_url": "https://adma2026.github.io/",
+   "source_year": 2026,
+   "evidence": "\"the accepted papers of the conference will be published by Springer in LNAI\"",
+   "caveat": "The 2027 call is not out yet, so this uses the 2026 call."
+  },
+  {
+   "series": "AIES",
+   "archival": "yes",
+   "track": "Main track papers",
+   "venue": "AAAI Digital Library (AIES proceedings)",
+   "source_url": "https://www.aies-conference.com/2026/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "\"The proceedings of the conference will be published in the AAAI Digital Library.\"",
+   "caveat": "Authors can opt out by publishing only a one-page abstract that links to the full paper, which leaves room for later journal publication. The AIES homepage still has no 2027 call, so this uses the 2026 call."
+  },
+  {
+   "series": "AIiH",
+   "archival": "yes",
+   "track": "Full papers (main and special sessions)",
+   "venue": "Conference proceedings (Springer LNCS in past editions, e.g. AIiH 2024, LNCS 14976)",
+   "source_url": "https://aiih.cc/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "\"Accepted full papers will be included the conference proceedings\"; special session full papers follow the same review and appear in the proceedings.",
+   "caveat": "The 2027 CFP doesn't name a publisher, and the homepage shows Springer only as the best-paper sponsor. Springer's site lists past AIiH proceedings as LNCS (2024: LNCS 14976). I couldn't verify the draft's '16875-16877' volume numbers. Abstracts are archived on Zenodo, which doesn't count."
+  },
+  {
+   "series": "AIME",
+   "archival": "yes",
+   "track": "Full, short and demo papers",
+   "venue": "Springer LNAI",
+   "source_url": "https://aime27.aimedicine.info/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "\"All accepted papers (full, short & demo) will be part of the conference proceedings\", published by Springer in LNAI.",
+   "caveat": ""
+  },
+  {
+   "series": "AISTATS",
+   "archival": "yes",
+   "track": "Main track papers",
+   "venue": "PMLR",
+   "source_url": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+   "source_year": 2027,
+   "evidence": "Accepted papers will be published in the AISTATS Conference Proceedings by Proceedings of Machine Learning Research (PMLR).",
+   "caveat": ""
+  },
+  {
+   "series": "ALIFE",
+   "archival": "yes",
+   "track": "Full papers",
+   "venue": "MIT Press open-access proceedings",
+   "source_url": "https://2026.alife.org/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will be published by MIT press as open access conference proceedings.\"",
+   "caveat": "The ALIFE 2027 call isn't published yet: alife.org/conference/alife-2027 and alife.vscht.cz have no CFP. This therefore uses 2026. Summaries and late-breaking abstracts are not in the proceedings."
+  },
+  {
+   "series": "ALT",
+   "archival": "yes",
+   "track": "Main track papers",
+   "venue": "PMLR",
+   "source_url": "https://algorithmiclearningtheory.org/alt2027/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "Accepted papers are \"published electronically in the Proceedings of Machine Learning Research (PMLR).\"",
+   "caveat": "Authors may opt out and publish a one-page extended abstract that links to an archival full version."
+  },
+  {
+   "series": "AMIA",
+   "archival": "yes",
+   "track": "Papers and student papers (also podium abstracts/posters in proceedings)",
+   "venue": "AMIA Annual Symposium Proceedings (archived in PubMed Central)",
+   "source_url": "https://amia.org/education-events/amia-2026-annual-symposium/call-participation",
+   "source_year": 2026,
+   "evidence": "Official 2026 call: \"Papers, podium abstracts, panels, posters, and systems demonstrations will appear in the AMIA 2026 Annual Symposium Proceedings.\"",
+   "caveat": "amia.org returns 403 to scripted fetches, so the page could not be opened directly. Search indexing confirms that the page is the closed 2026 call and that it covers the proceedings, including 400-word abstracts for Journal Eligible papers. The 2027 call is not out yet. PubMed Central indexing comes from AMIA Annu Symp Proc's known status, not from the call text."
+  },
+  {
+   "series": "AREADNE",
+   "archival": "no",
+   "track": "Contributed talk/poster abstracts",
+   "venue": "none (abstracts in a self-published conference book/program PDF)",
+   "source_url": "https://areadne.org/2026/home.html",
+   "source_year": 2026,
+   "evidence": "Abstracts of all presentations appear in the conference book given out at registration and as a downloadable PDF afterwards. The site asks for citation as 'Proceedings of AREADNE 2026, published by The AREADNE Foundation'.",
+   "caveat": "Borderline, for the owner to decide. The abstract book is self-published by the foundation and titled 'Proceedings', with editors, but it has no ISSN/ISBN and no journal supplement. Under rule 3 I treat it as a non-archival abstract book. The 2028 call is not out yet."
+  },
+  {
+   "series": "ASLI",
+   "archival": "yes",
+   "track": "Regular papers (Proceedings of ASLI or Findings of ASLI)",
+   "venue": "IEEE Xplore (Proceedings of ASLI; Findings of ASLI)",
+   "source_url": "https://2027.ieeeasli.org/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "Recorded from the official call on 2026-10-31: six-page papers; top papers go to the Proceedings of ASLI, and other accepted papers go to the new Findings of ASLI, both in IEEE Xplore.",
+   "caveat": "Not re-verifiable on 2026-11-05. 2027.ieeeasli.org still returns HTTP 500, and search turns up no other official text on Findings or Xplore. The SPS page only confirms that ASLI is an IEEE SPS flagship conference. The value relies on the project's official-source review of 2026-10-31. Re-check once the site is back up."
+  },
+  {
+   "series": "ASRU",
+   "archival": "yes",
+   "track": "Demo, system and data papers (also regular papers)",
+   "venue": "IEEE Xplore (workshop proceedings)",
+   "source_url": "https://2025.ieeeasru.org/calls/call-for-demos/",
+   "source_year": 2025,
+   "evidence": "\"Accepted papers will be included in the workshop proceedings and published in IEEE Xplore®, alongside regular papers.\"",
+   "caveat": "The 2025 main call page does not itself mention Xplore. The demo call confirms that regular papers go to Xplore. The series continues as IEEE ASLI 2027 (ADR-046)."
+  },
+  {
+   "series": "AutoML",
+   "archival": "yes",
+   "track": "Methods track and ABCD track papers",
+   "venue": "PMLR",
+   "source_url": "https://2026.automl.cc/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "\"Accepted submissions will be published via OpenReview and the proceedings will be compiled and appear as a volume of PMLR.\"",
+   "caveat": "The tracked 2027 edition is estimated and its call is not out, so the value comes from the 2026 call. The site also has a separate non-archival papers category, but the main tracks are published in PMLR."
+  },
+  {
+   "series": "BCI Winter",
+   "archival": "yes",
+   "track": "Regular papers",
+   "venue": "IEEE Xplore (IEEE conference proceedings)",
+   "source_url": "https://brain.korea.ac.kr/bci2027/papersubmission.php",
+   "source_year": 2027,
+   "evidence": "Papers without an electronic copyright submission will not be published in the proceedings or on IEEE Xplore. BCI2027 authors upload final Xplore-compatible PDFs with the IEEE copyright notice.",
+   "caveat": "The call-for-papers page itself mentions only the 'conference proceedings'; the Xplore details are on the paper-submission page."
+  },
+  {
+   "series": "Bernstein Conference",
+   "archival": "no",
+   "track": "Poster/contributed talk abstracts",
+   "venue": "none (abstracts published online on the G-Node abstract server with DOIs; no proceedings or journal)",
+   "source_url": "https://bernstein-network.de/bernstein-conference/abstract-submission/",
+   "source_year": 2026,
+   "evidence": "\"All abstracts of presented posters and talks will be published online and will be citable via Digital Object Identifiers (DOIs).\"",
+   "caveat": "Borderline, for the owner to decide. Abstracts get DOIs but appear in no proceedings or journal supplement. If DOI-citable abstracts should count as archival, change this to yes. The 2027 call is not out yet, so the value comes from 2026."
+  },
+  {
+   "series": "BIOMAG",
+   "archival": "unknown",
+   "track": "Abstract submission",
+   "venue": "unknown (not stated on official BIOMAG 2026 site)",
+   "source_url": "https://mm.scimeeting.cn/en/web/index/31426",
+   "source_year": 2026,
+   "evidence": "Official BIOMAG 2026 home, BIOMAG2026 info and Submission pages give abstract links but say nothing about proceedings, a journal supplement or an abstract book.",
+   "caveat": "The submission page is mostly images and the external abstract form returned no text. Biomag 2010 appeared in Springer IFMBE Proceedings vol. 28, but nothing official says so for 2026. Needs organizer confirmation."
+  },
+  {
+   "series": "BIOSIG",
+   "archival": "yes",
+   "track": "Main track full papers",
+   "venue": "IEEE Xplore (accepted papers submitted for inclusion)",
+   "source_url": "https://biosig.de/",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will be submitted for possible inclusion into IEEE Xplore\", subject to IEEE Xplore scope and quality requirements.",
+   "caveat": "IEEE Xplore inclusion is 'possible', subject to IEEE requirements. GI LNI publication (used up to 2022) is not stated on the 2026 site, so it is dropped from venue. The CfP PDF could not be text-extracted."
+  },
+  {
+   "series": "BMVC",
+   "archival": "yes",
+   "track": "Main track papers",
+   "venue": "BMVC proceedings published by BMVA",
+   "source_url": "https://bmvc2026.bmva.org/calls/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will be included in the conference proceedings published by BMVA.\"",
+   "caveat": ""
+  },
+  {
+   "series": "CCN",
+   "archival": "yes",
+   "track": "8-page proceedings full papers",
+   "venue": "CCN Proceedings (CCN-P), with DOIs via OpenReview",
+   "source_url": "https://2026.ccneuro.org/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will be published in the CCN Proceedings (CCN-P) with DOI assignment on OpenReview.\"",
+   "caveat": "The CCN 2027 site (now ccneuro.org) lists only deadlines and says details are coming soon, so the 2026 call was used. The 2-page extended abstracts get no DOIs and parallel submission is allowed."
+  },
+  {
+   "series": "CCS",
+   "archival": "no",
+   "track": "Oral/poster abstract submissions",
+   "venue": "none stated (1-page extended abstracts for presentation only)",
+   "source_url": "https://ccs26.cssociety.org/",
+   "source_year": 2026,
+   "evidence": "The CSS call seeks \"submissions of abstracts for oral and poster presentations\". Neither it nor the conference site mentions proceedings or publication.",
+   "caveat": "The decision rests on absence: no explicit 'non-archival' statement was found. The CCS 2027 site has no call yet."
+  },
+  {
+   "series": "CHI",
+   "archival": "yes",
+   "track": "Papers",
+   "venue": "ACM Digital Library (Proceedings of CHI)",
+   "source_url": "https://chi2027.acm.org/authors/papers/",
+   "source_year": 2027,
+   "evidence": "\"Accepted manuscripts appear in the Proceedings of the ACM Conference on Human Factors in Computing Systems, which appears in the ACM Digital Library.\"",
+   "caveat": ""
+  },
+  {
+   "series": "CHIIR",
+   "archival": "yes",
+   "track": "Full/perspective papers (also short and resource papers)",
+   "venue": "ACM (ACM Digital Library, open access)",
+   "source_url": "https://chiir2027.github.io/full-papers.html",
+   "source_year": 2027,
+   "evidence": "CHIIR 2027 full-paper call: \"Accepted full papers will be published in the proceedings and presented orally.\" It also says all ACM publications are 100% open access, with an APC.",
+   "caveat": "The 2027 calls say 'proceedings' and ACM open access/APC but don't name the ACM Digital Library. Earlier CHIIR proceedings are in the ACM DL. The short-paper call also says accepted papers are published in the proceedings."
+  },
+  {
+   "series": "CHIL",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "PMLR (Proceedings of the Conference on Health, Inference, and Learning)",
+   "source_url": "https://chil.ahli.cc/submit/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "CHIL 2027 CFP: \"Submissions to the main conference are considered archival\" and accepted papers \"will appear in the published proceedings of the conference\".",
+   "caveat": "The live CFP is for CHIL 2027 (deadline Feb 3, 2027), newer than the tracked chil-2026. The CFP names no publisher; PMLR is inferred from CHIL 2026 = PMLR vol. 333."
+  },
+  {
+   "series": "CIKM",
+   "archival": "yes",
+   "track": "Full research papers (also short and demo papers)",
+   "venue": "ACM Digital Library (CIKM proceedings)",
+   "source_url": "https://cikm2026.diag.uniroma1.it/?p=3812",
+   "source_year": 2026,
+   "evidence": "CIKM 2026 policies, which apply to all tracks: \"The official publication date is when the proceedings are made available in the ACM Digital Library.\"",
+   "caveat": ""
+  },
+  {
+   "series": "CLeaR",
+   "archival": "yes",
+   "track": "Main paper track (proceedings track, OpenReview)",
+   "venue": "PMLR",
+   "source_url": "https://www.cclear.cc/2027/CallforPapers",
+   "source_year": 2027,
+   "evidence": "CLeaR 2027 CFP (deadline Nov 16, 2026): \"Accepted papers will be published in the Proceedings of Machine Learning Research (PMLR).\" Authors may opt out for a 1-page extended abstract.",
+   "caveat": "The page is JavaScript-rendered, so the text was read from the site's official JS bundle. Publication is opt-out, which counts as yes."
+  },
+  {
+   "series": "CNS CogNeuro",
+   "archival": "yes",
+   "track": "Poster abstracts (regular and late-breaking; Sketchpad excluded)",
+   "venue": "Proceedings of the Annual Meeting of the Cognitive Neuroscience Society (PCNS), hosted on JoCNForum, with DOIs",
+   "source_url": "https://www.cogneurosociety.org/submit-a-poster/",
+   "source_year": 2027,
+   "evidence": "CNS 2027 poster page: abstracts are by default published in the \"Proceedings of the Annual Meeting of the Cognitive Neuroscience Society\". The CNS JoCN post says each gets a DOI, making it \"an archived and citeable document\".",
+   "caveat": "Abstract-only, but published as citable DOI'd proceedings on JoCNForum, which CNS compares to a preprint. Sketchpad abstracts are excluded. The DOI claim comes from the society's own post (https://www.cogneurosociety.org/new-initiatives-with-the-journal-of-cognitive-neuroscience/), which I fetched and confirmed; JoCNForum itself was not checked. A borderline case for owner review."
+  },
+  {
+   "series": "CNS*",
+   "archival": "yes",
+   "track": "Regular abstracts (main meeting)",
+   "venue": "OCNS conference proceedings published on Zenodo (or similar open-access platform) with per-abstract DOIs",
+   "source_url": "https://www.cnsorg.org/cns-2026-abstract-submission",
+   "source_year": 2026,
+   "evidence": "CNS*2026 abstract page: formatted abstracts \"will be published via Zenodo or a similar open-access platform\", each with an individual DOI, as part of the conference proceedings.",
+   "caveat": "The CNS*2027 call is not out yet (the homepage only announces Gran Canaria, July 10-14, 2027), so the 2026 call is used. 2026 moved from a journal supplement to Zenodo DOI proceedings, a borderline case for owner review."
+  },
+  {
+   "series": "CogSci",
+   "archival": "yes",
+   "track": "Research papers (talks/posters)",
+   "venue": "Proceedings of the Annual Meeting of the Cognitive Science Society (online proceedings published by the Society)",
+   "source_url": "https://cognitivesciencesociety.org/?p=216392",
+   "source_year": 2026,
+   "evidence": "CogSci 2026 submissions page: \"An online proceedings will be published by the Cognitive Science Society\"; accepted papers may instead publish just the abstract.",
+   "caveat": "No CogSci 2027 call is out yet; the 2027 page only links a Proceedings Publication FAQ, so the 2026 call was used. Counter-evidence: the same page says \"The proceedings volume is not considered archival\" for the purposes of later journal submission. That reads as a prior-publication policy, and full papers still appear in the official proceedings, but a reviewer could read it as 'no'. Authors choose full paper or abstract-only, and an author must register and attend."
+  },
+  {
+   "series": "COLING",
+   "archival": "yes",
+   "track": "System demonstrations (main papers via ARR)",
+   "venue": "COLING 2027 proceedings (companion volume)",
+   "source_url": "https://2027.coling-iccl.org/calls/system_demonstrations/",
+   "source_year": 2027,
+   "evidence": "\"All accepted demos are published in a companion volume of the conference proceedings.\"",
+   "caveat": "The main-paper call page (ARR commitment) has no publication wording. The ACL Anthology is not named explicitly on the 2027 pages checked."
+  },
+  {
+   "series": "COLM",
+   "archival": "yes",
+   "track": "Main track papers",
+   "venue": "COLM proceedings (proceedings.colm.cc)",
+   "source_url": "https://proceedings.colm.cc",
+   "source_year": 2026,
+   "evidence": "Proceedings index lists \"Conference On Language Models 3 pre-proceedings\" and states \"Volume 3 is the first, and as of Oct 2026, the only proceedings for COLM.\"",
+   "caveat": "The 2026 CFP never says 'archival'; the evidence comes from the official proceedings site. The volumes are labeled 'pre-proceedings'. The COLM 2027 call is not out, so the 2026 call was used."
+  },
+  {
+   "series": "COLT",
+   "archival": "yes",
+   "track": "Main track papers",
+   "venue": "PMLR",
+   "source_url": "https://learningtheory.org/colt2027/cfp.html",
+   "source_year": 2027,
+   "evidence": "\"Accepted papers will be published electronically in the Proceedings of Machine Learning Research (PMLR).\"",
+   "caveat": "Authors may opt out of the proceedings in favor of a 1-page extended abstract that links to an archival version of the full paper."
+  },
+  {
+   "series": "CompleNet",
+   "archival": "yes",
+   "track": "Long and short papers",
+   "venue": "Springer Proceedings in Complexity",
+   "source_url": "https://complenet.github.io/cfp.html",
+   "source_year": 2027,
+   "evidence": "\"Accepted papers are published in the conference proceedings in Springer's Complexity series.\"",
+   "caveat": "Extended abstracts are not included in the Springer proceedings."
+  },
+  {
+   "series": "COMPLEX NETWORKS",
+   "archival": "yes",
+   "track": "Full papers",
+   "venue": "Springer Studies in Computational Intelligence",
+   "source_url": "https://complexnetworks.org/submission/",
+   "source_year": 2026,
+   "evidence": "\"Full papers accepted for publication will be published by Springer-Verlag on the Studies in Computational Intelligence Series.\"",
+   "caveat": "The 2027 call is not out, so the 2026 call was used. Extended abstracts go only into the Book of Abstracts, not the proceedings."
+  },
+  {
+   "series": "CoNLL",
+   "archival": "yes",
+   "track": "Archival paper track",
+   "venue": "ACL Anthology (Proceedings of the 30th Conference on Computational Natural Language Learning)",
+   "source_url": "https://aclanthology.org/events/conll-2026/",
+   "source_year": 2026,
+   "evidence": "ACL Anthology event page lists one volume, \"Proceedings of the 30th Conference on Computational Natural Language Learning\", with 48 entries.",
+   "caveat": "conll.org does not host the 2026 call text. The archival/non-archival track split is known only from mailing-list copies of the call. The non-archival track is for already-published work. The CoNLL 2027 call is not out."
+  },
+  {
+   "series": "COPA",
+   "archival": "yes",
+   "track": "Full papers and poster extended abstracts",
+   "venue": "PMLR",
+   "source_url": "https://copa-conference.com/",
+   "source_year": 2027,
+   "evidence": "COPA 2027: accepted papers presented at the symposium and published in the Proceedings of Machine Learning Research (PMLR); accepted poster extended abstracts also published in PMLR.",
+   "caveat": ""
+  },
+  {
+   "series": "CoRL",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "PMLR",
+   "source_url": "https://www.corl.org/contributions/instruction-for-authors",
+   "source_year": 2026,
+   "evidence": "Accepted papers will appear in the Proceedings of Machine Learning Research (formerly JMLR Workshop and Conference Proceedings).",
+   "caveat": "Used the CoRL 2026 call; the 2027 call is not out yet."
+  },
+  {
+   "series": "COSYNE",
+   "archival": "no",
+   "track": "Abstract submission (posters/talks)",
+   "venue": "none (citable abstract summaries on the COSYNE website only)",
+   "source_url": "https://www.cosyne.org/abstracts-submission",
+   "source_year": 2027,
+   "evidence": "Summaries published online on the COSYNE website; 'citable, but they are not full-length proceedings and therefore do not preclude further publication.'",
+   "caveat": "Summaries can be cited as COSYNE Abstracts but are hosted only on the society website, not in a journal or proceedings."
+  },
+  {
+   "series": "CVPR",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "CVF Open Access and IEEE Computer Society proceedings",
+   "source_url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+   "source_year": 2027,
+   "evidence": "All accepted papers will be publicly released by the Computer Vision Foundation (CVF) two weeks before the conference; page links CVPR Proceedings (IEEE CS) and CVF Proceedings.",
+   "caveat": ""
+  },
+  {
+   "series": "Discovery Science",
+   "archival": "yes",
+   "track": "Main research track full papers",
+   "venue": "Springer LNCS",
+   "source_url": "https://discovery-science.org/main-research-track/",
+   "source_year": 2026,
+   "evidence": "Accepted papers will be published in the Discovery Science Springer LNCS series.",
+   "caveat": "Used the DS 2026 call; the 2027 call is not out yet. Late-breaking abstracts do not appear in the Springer proceedings."
+  },
+  {
+   "series": "DSAA",
+   "archival": "yes",
+   "track": "Research track full papers",
+   "venue": "IEEE Xplore",
+   "source_url": "https://dsaa-2026.vercel.app/calls/research-track",
+   "source_year": 2026,
+   "evidence": "All accepted full-length papers will be published by IEEE and will be submitted for inclusion in the IEEE Xplore Digital Library.",
+   "caveat": "Used the DSAA 2026 call (official 2026 site hosted on vercel.app); the 2027 call is not out yet."
+  },
+  {
+   "series": "Dynamics Days Asia-Pacific",
+   "archival": "no",
+   "track": "Contributed posters/talks (YKIS2024/DDAP13)",
+   "venue": "none (program and poster sessions only)",
+   "source_url": "https://www2.yukawa.kyoto-u.ac.jp/~frontier24/DDAP13/",
+   "source_year": 2024,
+   "evidence": "The official pages (home, registration, participants, poster sessions) mention no proceedings, journal or abstract publication. Contributions are posters and talks only.",
+   "caveat": "No explicit statement says the meeting is non-archival. This verdict rests on the absence of any publication on the official pages of an abstract and poster meeting. The next call has not been announced."
+  },
+  {
+   "series": "Dynamics Days CAC",
+   "archival": "unknown",
+   "track": "Contributed oral/poster abstracts (2026)",
+   "venue": "unknown",
+   "source_url": "https://physics-congress.kz/dynamics_days",
+   "source_year": 2026,
+   "evidence": "The page has a 'Paper Submission Form' with an attached paper and template, plus an abstract deadline of April 15, 2026. It says nothing about proceedings or journal publication.",
+   "caveat": "The congress homepage also says nothing about publication. Ask the organizers (pc2026@nu.edu.kz) whether submissions are published."
+  },
+  {
+   "series": "Dynamics Days Europe",
+   "archival": "no",
+   "track": "Contributed talk/poster abstracts",
+   "venue": "none (abstracts in conference Book of Abstracts PDF only)",
+   "source_url": "https://dde-2026.sci-meet.net/book-of-abstracts",
+   "source_year": 2026,
+   "evidence": "The page offers a downloadable conference Book of Abstracts and mentions no proceedings, journal or special issue.",
+   "caveat": "The PDF file name contains 'ISBN', but the page gives no ISBN, and under rule 3 an abstract book is non-archival. The 2027 call is not out, so the 2026 edition was used."
+  },
+  {
+   "series": "Dynamics Days LAC",
+   "archival": "no",
+   "track": "Contributed abstracts (talks/posters)",
+   "venue": "none (abstract-only meeting; no publication mentioned)",
+   "source_url": "https://fisica.ufpr.br/DDaysLAC2026/page5.html",
+   "source_year": 2026,
+   "evidence": "The page lists the abstract deadline (October 10, 2026), notifications and Even3 registration. It mentions no proceedings, journal or special issue.",
+   "caveat": "There is no explicit non-archival statement. The page has an ambiguous line saying mini-symposium results are 'expected to be published', which seems to mean announced, not printed. Recheck if a special issue is announced."
+  },
+  {
+   "series": "Dynamics Days US",
+   "archival": "no",
+   "track": "Contributed talk/poster abstracts",
+   "venue": "none (abstract-only meeting)",
+   "source_url": "https://www.ddays.org/2027/abstract-submission/",
+   "source_year": 2027,
+   "evidence": "\"A selection of submitted abstracts will be chosen to be presented as talks in the main session.\" The site mentions no proceedings or journal.",
+   "caveat": "There is no explicit non-archival statement. 'No' rests on it being an abstract-only meeting."
+  },
+  {
+   "series": "EAAMO",
+   "archival": "yes",
+   "track": "Main paper track (archival option)",
+   "venue": "ACM Digital Library (conference proceedings)",
+   "source_url": "https://conference2026.eaamo.org/cfp/",
+   "source_year": 2026,
+   "evidence": "Archival option: \"accepted papers in this option will be published in the conference proceedings in the ACM Digital Library.\"",
+   "caveat": "Archival publication is opt-in, and a non-archival option exists. Work-in-progress posters are non-archival. The 2027 call is not yet published."
+  },
+  {
+   "series": "EACL",
+   "archival": "yes",
+   "track": "Main conference long and short papers (via ARR)",
+   "venue": "EACL 2027 proceedings (ACL Anthology)",
+   "source_url": "https://2027.eacl.org/calls/papers/",
+   "source_year": 2027,
+   "evidence": "Official CFP: \"All accepted papers must be presented at the conference to appear in the proceedings\"; long and short papers are distinguished in the proceedings.",
+   "caveat": "The CFP page names the proceedings but not the ACL Anthology. EACL proceedings are published there by convention."
+  },
+  {
+   "series": "ECAF",
+   "archival": "yes",
+   "track": "Full papers / extended abstracts (archival option)",
+   "venue": "PMLR (Proceedings of Machine Learning Research)",
+   "source_url": "https://2027.ecafconference.org/callForPapers",
+   "source_year": 2027,
+   "evidence": "Authors \"can choose between archival and non-archival submissions\". The proceedings \"will be published online as a volume in ... Proceedings of Machine Learning Research (PMLR).\"",
+   "caveat": "Archival publication is the author's choice. The poster session is non-archival. The text was read from the single-page app's JavaScript bundle."
+  },
+  {
+   "series": "ECAI",
+   "archival": "yes",
+   "track": "Main track full papers (IJCAI-ECAI 2026)",
+   "venue": "IJCAI proceedings (open access, ijcai.org)",
+   "source_url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+   "source_year": 2026,
+   "evidence": "\"All accepted papers will be published exclusively by IJCAI (open access), with IJCAI retaining the copyright.\"",
+   "caveat": "The ECAI 2027 call is not published yet: ecai2027.org says 'Stay tuned for updates on calls for papers' and lists only dates. The previous edition was held jointly as IJCAI-ECAI 2026, so its proceedings were IJCAI's, not the usual IOS Press FAIA volume."
+  },
+  {
+   "series": "ECC",
+   "archival": "yes",
+   "track": "Contributed/regular papers",
+   "venue": "IEEE Xplore",
+   "source_url": "https://ecc27.euca-ecc.org/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "\"The accepted papers will be indexed and published on the IEEE Xplore digital library.\"",
+   "caveat": "Industry abstracts are not included in the proceedings; contributed and invited papers are."
+  },
+  {
+   "series": "ECCV",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "Springer proceedings (LNCS) / ECVA",
+   "source_url": "https://eccv.ecva.net/Conferences/2026/CallForPapers",
+   "source_year": 2026,
+   "evidence": "\"All accepted papers will be made publicly available by Springer and/or the European Computer Vision Association (ECVA)\"",
+   "caveat": "2028 call not yet out; based on the 2026 call. The CFP doesn't name LNCS explicitly."
+  },
+  {
+   "series": "ECIR",
+   "archival": "yes",
+   "track": "Full papers (also short, reproducibility and resource papers)",
+   "venue": "Springer LNCS",
+   "source_url": "https://www.ecir2027.co.uk/call-for-full-papers",
+   "source_year": 2027,
+   "evidence": "\"Accepted papers will be published in the conference proceedings in the Springer Lecture Notes in Computer Science series.\"",
+   "caveat": ""
+  },
+  {
+   "series": "ECML PKDD",
+   "archival": "yes",
+   "track": "Research track",
+   "venue": "Springer LNCS",
+   "source_url": "https://ecmlpkdd.org/2026/submissions-research-track/",
+   "source_year": 2026,
+   "evidence": "\"The conference proceedings will be published by Springer in the Lecture Notes in Computer Science Series (LNCS).\"",
+   "caveat": "Used the 2026 research-track call. The 2027 tracked edition's track call wasn't verified (its stored cfp_url is just the homepage)."
+  },
+  {
+   "series": "EMNLP",
+   "archival": "yes",
+   "track": "Main conference long/short papers (via ARR)",
+   "venue": "EMNLP proceedings (ACL Anthology)",
+   "source_url": "https://2026.emnlp.org/calls/main_conference_papers/",
+   "source_year": 2026,
+   "evidence": "\"All accepted papers must be presented at the conference to appear in the proceedings.\"",
+   "caveat": "The CFP names the proceedings but not the ACL Anthology explicitly; Anthology hosting is standard ACL practice. The 2027 edition is estimated, so the 2026 call is used."
+  },
+  {
+   "series": "ENOC",
+   "archival": "no",
+   "track": "Two-page extended abstracts (only submission route)",
+   "venue": "none (digital book of abstracts on the conference website)",
+   "source_url": "https://enoc2027.com/author/submission-guidance",
+   "source_year": 2027,
+   "evidence": "\"ENOC2027 does not have full paper submission\"; participants only submit a 2-page abstract. No proceedings, ISBN or journal is mentioned on the official site.",
+   "caveat": "Abstract-only meeting. The Overleaf template says accepted extended abstracts will be published in digital format, but no ISBN, DOI or journal special issue is announced. Recheck if the organisers announce a citable volume."
+  },
+  {
+   "series": "ESANN",
+   "archival": "yes",
+   "track": "Regular papers",
+   "venue": "ESANN proceedings (i6doc, ISBN, full text online)",
+   "source_url": "https://www.esann.org/node/3",
+   "source_year": 2027,
+   "evidence": "\"all full papers are published in the same way in the proceedings, regardless of the mode of presentation.\"",
+   "caveat": "The ISBN detail comes from https://www.esann.org/proceedings (2026: 9782875870957, published by i6doc, full text online)."
+  },
+  {
+   "series": "ESWC",
+   "archival": "yes",
+   "track": "Research, Resources and In-Use tracks",
+   "venue": "Springer LNCS",
+   "source_url": "https://2027.eswc-conferences.org/calls/contributions-eswc/",
+   "source_year": 2027,
+   "evidence": "Accepted papers will be published in Springer's Lecture Notes in Computer Science (LNCS) series.",
+   "caveat": ""
+  },
+  {
+   "series": "EuroGP",
+   "archival": "yes",
+   "track": "EuroGP full papers",
+   "venue": "Springer LNCS",
+   "source_url": "https://www.evostar.org/2027/eurogp/",
+   "source_year": 2027,
+   "evidence": "Accepted papers will be published by Springer Nature in the Lecture Notes in Computer Science series.",
+   "caveat": ""
+  },
+  {
+   "series": "EUSIPCO",
+   "archival": "yes",
+   "track": "Conference papers",
+   "venue": "IEEE Xplore (plus open-access EURASIP proceedings)",
+   "source_url": "https://eusipco2027.de/calls/conference-papers/",
+   "source_year": 2027,
+   "evidence": "Accepted papers will be published on IEEE Xplore© like past proceedings of EUSIPCO conferences.",
+   "caveat": "Separate journal-paper presentation track is non-archival and does not settle the tag."
+  },
+  {
+   "series": "EUVIP",
+   "archival": "yes",
+   "track": "Regular papers",
+   "venue": "Official EUVIP 2026 conference proceedings",
+   "source_url": "https://euvip2026.github.io/C4P.pdf",
+   "source_year": 2026,
+   "evidence": "Regular papers presented at the conference will be included in the conference proceedings.",
+   "caveat": "2027 call not published; used EUVIP 2026 CFP. The CFP does not name the publisher (IEEE Xplore not stated explicitly); past volumes carry IEEE catalog numbers (e.g. 2025 CFP2506K-POD)."
+  },
+  {
+   "series": "FENS Forum",
+   "archival": "no",
+   "track": "Poster abstract submission",
+   "venue": "none (abstracts on Forum website/programme only)",
+   "source_url": "https://fensforum.org/abstract-submission/",
+   "source_year": 2026,
+   "evidence": "Abstracts published exactly as submitted; consent for publication on the Forum 2026 website, programme and other promotions; no journal supplement or proceedings named.",
+   "caveat": "Abstract page still describes Forum 2026; the 2028 call is not yet out."
+  },
+  {
+   "series": "FG",
+   "archival": "yes",
+   "track": "Main and special-session papers",
+   "venue": "IEEE Xplore",
+   "source_url": "https://fg2027.ieee-biometrics.org/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "Accepted papers will be published and indexed in IEEEXplore.",
+   "caveat": "Papers not presented in person are excluded from IEEE Xplore."
+  },
+  {
+   "series": "FMTS @ NeurIPS",
+   "archival": "no",
+   "track": "Workshop papers",
+   "venue": "none (OpenReview and workshop site only)",
+   "source_url": "https://fmts-workshop.github.io/cfp.html",
+   "source_year": 2026,
+   "evidence": "\"all workshop papers are non-archival and do not appear in proceedings\"",
+   "caveat": ""
+  },
+  {
+   "series": "FORC",
+   "archival": "yes",
+   "track": "Main archival paper track (both submission cycles)",
+   "venue": "LIPIcs",
+   "source_url": "https://responsiblecomputing.org/forc-2027-call-for-papers/",
+   "source_year": 2027,
+   "evidence": "\"The proceedings of FORC 2027 will be published by LIPIcs.\" A 10-page version of each accepted paper appears in the proceedings.",
+   "caveat": "Authors may ask for only a one-page abstract with a link to the full paper in the proceedings. The separate Highlights track is not archival."
+  },
+  {
+   "series": "GECCO",
+   "archival": "yes",
+   "track": "Full papers; poster-only papers",
+   "venue": "ACM Digital Library (Main and Companion Proceedings)",
+   "source_url": "https://gecco-2027.sigevo.org/Call+for+Papers",
+   "source_year": 2027,
+   "evidence": "\"Accepted full papers appear in the ACM Digital Library as part of the Main Proceedings of GECCO\"; poster-only papers go in the Companion Proceedings.",
+   "caveat": ""
+  },
+  {
+   "series": "ICANN",
+   "archival": "yes",
+   "track": "Main track full papers",
+   "venue": "Springer LNCS",
+   "source_url": "https://e-nns.org/icann2026/call-for-papers-2/",
+   "source_year": 2026,
+   "evidence": "Submissions are \"to be published in Springer-Verlag Lecture Notes in Computer Science (LNCS) series with individual DOI.\"",
+   "caveat": "Based on the 2026 call. The 2027 edition is still estimated and its call is not published."
+  },
+  {
+   "series": "ICAPS",
+   "archival": "yes",
+   "track": "Main track long and short papers",
+   "venue": "ICAPS proceedings (AAAI Press format)",
+   "source_url": "https://icaps27.icaps-conference.org/calls/cfp/",
+   "source_year": 2027,
+   "evidence": "\"All accepted papers will be published in the proceedings and presented at the conference\"",
+   "caveat": "The CFP does not name the publisher. It only requires the AAAI-27 Author Kit. ICAPS proceedings are traditionally published by AAAI Press, but this CFP does not say so."
+  },
+  {
+   "series": "ICASSP",
+   "archival": "yes",
+   "track": "Main track regular papers",
+   "venue": "IEEE Xplore",
+   "source_url": "https://2027.ieeeicassp.org/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "\"Conference proceedings will be available in IEEEXplore\"",
+   "caveat": "OJSP-track papers go to the IEEE Open Journal of Signal Processing and are not in the proceedings. Presentations of already-published journal papers are not in the proceedings either."
+  },
+  {
+   "series": "ICCN",
+   "archival": "unknown",
+   "track": "Abstract submissions (ICCN 2024)",
+   "venue": "unknown",
+   "source_url": "https://iccnd.com/registration",
+   "source_year": 2024,
+   "evidence": "The official ICCN 2024 site lists only \"Registration and Abstract Submission\". It says nothing about proceedings or a journal. The ICCN 2026 site (iccn2026.jp) does not resolve.",
+   "caveat": "ICCN 2007–2017 produced the Springer volumes 'Advances in Cognitive Neurodynamics'. No official source confirms this for 2024 or 2026, and none says the meeting is non-archival, so the value stays unknown."
+  },
+  {
+   "series": "ICCP",
+   "archival": "yes",
+   "track": "Main paper track (common review for a TPAMI special issue or the ICCP Proceedings)",
+   "venue": "IEEE TPAMI special issue or ICCP Proceedings",
+   "source_url": "https://iccp2027.iccp-conference.org/#callforpapers",
+   "source_year": 2027,
+   "evidence": "Each submission is judged for either \"The PAMI Special Issue\" or \"The ICCP Proceedings: for papers that meet traditional conference criteria\"",
+   "caveat": "The CFP text is loaded by JavaScript from https://iccp2027.iccp-conference.org/pages/callforpapers.html. It does not say who publishes the proceedings, for example IEEE Xplore."
+  },
+  {
+   "series": "ICCV",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "ICCV Proceedings (CVF Open Access; also IEEE Xplore)",
+   "source_url": "https://iccv.thecvf.com/Conferences/2025/CallForPapers",
+   "source_year": 2025,
+   "evidence": "ICCV 2025 CFP: \"All accepted papers will be made publicly available by the Computer Vision Foundation (CVF)\"; page links ICCV Proceedings.",
+   "caveat": "ICCV 2027 CallForPapers page returns 404, so the 2025 call was used. The CFP names CVF publication only; IEEE Xplore inclusion is not stated on this page."
+  },
+  {
+   "series": "ICDL",
+   "archival": "yes",
+   "track": "Full papers (6 pages)",
+   "venue": "IEEE Xplore (IEEE ICDL Proceedings)",
+   "source_url": "https://attend.ieee.org/icdl-2026/contribute/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "Accepted full papers \"will be published in the IEEE ICDL 2026 Proceedings on IEEE Xplore\"; late-breaking results will NOT be included in Xplore.",
+   "caveat": "The 2027 call is not published, so the 2026 call was used. Late-breaking results are non-archival; papers must be presented to be included."
+  },
+  {
+   "series": "ICDM",
+   "archival": "yes",
+   "track": "Research track full papers",
+   "venue": "IEEE ICDM proceedings (IEEE Computer Society Press / IEEE Xplore)",
+   "source_url": "https://icdm2026.neu.edu.cn/CallforResearchTrack/list.htm",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will be published in the conference proceedings by the IEEE Computer Society Press.\"",
+   "caveat": "No ICDM 2027 call was found, so the 2026 research-track call was used. Papers must be presented to be included."
+  },
+  {
+   "series": "ICIP",
+   "archival": "yes",
+   "track": "Main-track conference papers",
+   "venue": "IEEE Xplore (ICIP Proceedings)",
+   "source_url": "https://2026.ieeeicip.org/call-for-papers-and-abstracts/",
+   "source_year": 2026,
+   "evidence": "Per the official ICIP 2026 call (search-indexed excerpt), regular papers are published in IEEE Xplore as part of the ICIP 2026 Proceedings; one-page abstracts are not on Xplore.",
+   "caveat": "The ICIP 2027 site (HTTP 500/403) and the SPS event page list only a 31 Mar 2027 deadline with no full call, so the 2026 call was used. The 2026 page could not be read directly. The ICIP 2025 call (https://2025.ieeeicip.org/call-for-papers/) directly confirms accepted papers are 'submitted for inclusion in the IEEE Xplore digital library'."
+  },
+  {
+   "series": "ICLR",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "ICLR Proceedings at OpenReview",
+   "source_url": "https://www.iclr.cc/Conferences/2027/AuthorGuidelines",
+   "source_year": 2027,
+   "evidence": "\"Papers submitted are considered archival for scientific purposes\"; \"Papers that are not accepted will be considered non-archival\"; site links Proceedings at OpenReview.",
+   "caveat": "The proceedings are hosted on OpenReview; there is no separate publisher volume."
+  },
+  {
+   "series": "ICME",
+   "archival": "yes",
+   "track": "Regular technical program papers (incl. special sessions)",
+   "venue": "IEEE ICME conference proceedings (IEEE)",
+   "source_url": "https://2027.ieeeicme.org/",
+   "source_year": 2027,
+   "evidence": "\"Accepted papers in the regular technical program, including Special Session papers ... will be included in the conference proceedings subject to IEEE publication requirements.\"",
+   "caveat": "The page does not name IEEE Xplore explicitly; the CFP subpage itself lacks the proceedings statement (it is on the homepage)."
+  },
+  {
+   "series": "ICML",
+   "archival": "yes",
+   "track": "Main track full papers",
+   "venue": "PMLR (Proceedings of Machine Learning Research)",
+   "source_url": "https://icml.cc/Conferences/2026/CallForPapers",
+   "source_year": 2026,
+   "evidence": "\"Papers published at ICML are indexed in the Proceedings of Machine Learning Research through the Journal of Machine Learning Research.\"",
+   "caveat": "ICML 2027 call not yet published; 2026 call used."
+  },
+  {
+   "series": "ICMNS",
+   "archival": "no",
+   "track": "Contributed talks and posters (abstract submissions)",
+   "venue": "none (abstracts shown only on the conference web programme)",
+   "source_url": "https://icmns.org/2026/",
+   "source_year": 2026,
+   "evidence": "2026 call opened only poster and minisymposium submissions; select posters invited for oral talks. No proceedings or journal publication mentioned; 2025 site lists abstracts only on web page.",
+   "caveat": "2027 abstract call is TBA, so 2026 used. No explicit 'non-archival' statement found; the 'no' rests on official pages describing abstract-only submissions with no publication venue. Some earlier editions (2015, 2017) led to invited post-conference special issues in the Journal of Mathematical Neuroscience; the 2026 pages announce no such issue."
+  },
+  {
+   "series": "ICMR",
+   "archival": "yes",
+   "track": "Regular full and short papers",
+   "venue": "ACM International Conference Proceedings Series (ACM Digital Library)",
+   "source_url": "https://www.icmr2027.org/cfc",
+   "source_year": 2027,
+   "evidence": "\"ACM ICMR 2027 proceedings will be published in the ACM International Conference Proceedings Series.\"",
+   "caveat": ""
+  },
+  {
+   "series": "ICONIP",
+   "archival": "yes",
+   "track": "Main track full papers (12-15 pages)",
+   "venue": "Springer LNCS / CCIS",
+   "source_url": "https://www.iconip2026.org/call-for-papers",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will be published in the Springer Lecture Notes in Computer Science (LNCS) and Communications in Computer and Information Science (CCIS) series.\"",
+   "caveat": "The site renders through JavaScript; the text was read from the site's own JS bundle. Papers go to LNCS or CCIS depending on review score. A separate 2-page extended-abstract poster track goes into an open-access extended-abstract publication, which was not needed to settle this."
+  },
+  {
+   "series": "ICONS",
+   "archival": "yes",
+   "track": "Full papers (8 pages) and short papers (4 pages)",
+   "venue": "ICONS conference proceedings (ACM International Conference)",
+   "source_url": "https://iconsneuromorphic.cc/calls-2026/",
+   "source_year": 2026,
+   "evidence": "\"If accepted, full papers will be included in the conference proceedings\"; short papers likewise; the call names it an ACM International Conference under ACM Publications Policies.",
+   "caveat": "The 2026 call page does not name the digital library explicitly; ACM is implied by the ACM policy wording. The 2027 call is not yet published. The students-only poster competition does not count."
+  },
+  {
+   "series": "ICPR",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "Springer LNCS (16-volume proceedings set)",
+   "source_url": "https://icpr2026.org/proceedings.html",
+   "source_year": 2026,
+   "evidence": "ICPR 2026 proceedings page links main conference papers in Parts I-XVI on link.springer.com (LNCS 16812-16827).",
+   "caveat": "The ICPR 2028 call (https://icpr2028.org/cfp/) is published but does not yet state where papers go; its proceedings page says 'Will be available soon'. So the 2026 publication evidence is used."
+  },
+  {
+   "series": "ICRA",
+   "archival": "yes",
+   "track": "Contributed (technical) papers",
+   "venue": "IEEE Xplore (ICRA conference proceedings)",
+   "source_url": "https://2026.ieee-icra.org/contribute/final-paper-submission-instructions/",
+   "source_year": 2026,
+   "evidence": "ICRA 2026 final-paper instructions: accepted papers are screened \"before official publication in the conference proceedings and on IEEE Xplore\".",
+   "caveat": "The ICRA 2027 call (https://2027.ieee-icra.org/announcements/call-for-technical-papers/) is out but does not name the publication venue, so the evidence comes from the official ICRA 2026 final-paper instructions. Papers transferred from journals (e.g. T-RO) are not sent to Xplore."
+  },
+  {
+   "series": "ICWSM",
+   "archival": "yes",
+   "track": "Full papers (also dataset, poster and demo papers)",
+   "venue": "AAAI ICWSM proceedings (ojs.aaai.org)",
+   "source_url": "https://www.icwsm.org/2027/submit/",
+   "source_year": 2027,
+   "evidence": "\"Accepted full papers are published in the official ICWSM proceedings.\" Authors must transfer copyright to AAAI.",
+   "caveat": "The Social Science and Sociophysics track is non-archival: only its abstracts appear in the proceedings."
+  },
+  {
+   "series": "IDA",
+   "archival": "yes",
+   "track": "Regular paper track",
+   "venue": "Springer LNCS",
+   "source_url": "https://ida2027.eu/regular-paper-track/",
+   "source_year": 2027,
+   "evidence": "\"Accepted papers will be published in the Lecture Notes in Computer Science (LNCS) by Springer-Verlag.\"",
+   "caveat": ""
+  },
+  {
+   "series": "IDEAL",
+   "archival": "yes",
+   "track": "Regular papers",
+   "venue": "Springer LNCS",
+   "source_url": "https://www.ideal2026.org/calls/special-issues",
+   "source_year": 2026,
+   "evidence": "IDEAL 2026 site: \"The proceedings of IDEAL Conferences are published by Springer in its Lecture Notes in Computer Science Series.\" Camera-ready versions follow Springer LNCS instructions.",
+   "caveat": "The IDEAL 2027 call is not out yet, so the IDEAL 2026 call is used."
+  },
+  {
+   "series": "IEEE BHI",
+   "archival": "yes",
+   "track": "Regular papers (also opt-in 1-page abstracts)",
+   "venue": "IEEE Xplore",
+   "source_url": "https://bhi.embs.org/2026/author-instructions/",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will be submitted to IEEE Xplore.\" The contributors/papers page adds that authors of 1-page abstracts may opt into the Book of Abstracts, \"set to be published on IEEE Xplore\".",
+   "caveat": "Xplore inclusion depends on IEEE's scope and quality checks. The abstract opt-in claim comes from https://bhi.embs.org/2026/contributors/papers/."
+  },
+  {
+   "series": "IEEE BigData",
+   "archival": "yes",
+   "track": "Main research papers and special-session papers",
+   "venue": "IEEE BigData 2026 conference proceedings (IEEE; IEEE Xplore)",
+   "source_url": "https://bigdataieee.org/BigData2026/calls/special-machine-learning/",
+   "source_year": 2026,
+   "evidence": "Special session call: \"Accepted papers will appear in the official IEEE Big Data 2026 main conference proceedings, published by IEEE.\"",
+   "caveat": "The main call (calls/papers) gives only the IEEE CS proceedings format. The explicit publication statement comes from the special-session calls for new papers (machine-learning and data-mining sessions). The 2027 call is not out yet."
+  },
+  {
+   "series": "IEEE BioCAS",
+   "archival": "yes",
+   "track": "Regular papers",
+   "venue": "IEEE Xplore (BioCAS conference proceedings)",
+   "source_url": "https://2026.ieee-biocas.org/2026/pages_authors/instructions.vm",
+   "source_year": 2026,
+   "evidence": "Author instructions: PDFs must be IEEE Xplore compliant; \"Papers that do not meet IEEE Xplore requirements cannot be included in the conference proceedings.\"",
+   "caveat": "The publication venue is implied by the Xplore-compliance rule in the official author instructions; the CFP page itself names no venue. The 2027 site lists important dates (regular papers due 11 June 2027) but has no published call or publication statement, so the 2026 call is used."
+  },
+  {
+   "series": "IEEE CDC",
+   "archival": "yes",
+   "track": "Regular paper submission",
+   "venue": "IEEE Xplore (Proceedings of the IEEE Conference on Decision and Control)",
+   "source_url": "https://cdc2026.ieeecss.org/authors/author-information",
+   "source_year": 2026,
+   "evidence": "CDC 2026 author information: \"All papers that are accepted will be published as submitted by the Author\"; signed IEEE copyright form required for each accepted contribution.",
+   "caveat": "The CDC 2027 call is published but says only 'presentation or publication' and does not name the proceedings, so the evidence comes from the CDC 2026 author page."
+  },
+  {
+   "series": "IEEE CEC",
+   "archival": "yes",
+   "track": "Full papers (8 pages) and short papers (4 pages)",
+   "venue": "IEEE Xplore (main proceedings; short papers in Companion Proceedings)",
+   "source_url": "https://ieeecec.org/2027/initial-paper-submission-instructions",
+   "source_year": 2027,
+   "evidence": "\"High-quality papers that are accepted and presented will be submitted for inclusion in the IEEE Xplore digital library\"",
+   "caveat": "Xplore inclusion is 'submitted for inclusion' and requires presentation. I did not re-verify the short-paper 'archival' wording on this page; the full-paper track settles yes."
+  },
+  {
+   "series": "IEEE EMBC",
+   "archival": "yes",
+   "track": "Full Contributed Papers",
+   "venue": "IEEE Xplore and PubMed/MEDLINE",
+   "source_url": "https://embc.embs.org/2026/papers/",
+   "source_year": 2026,
+   "evidence": "Accepted, presented full papers \"will be deemed eligible by EMBS for publication and indexing in IEEE Xplore and PubMed Medline\"; 1-page papers \"are not eligible\".",
+   "caveat": "The EMBC 2027 papers page (https://embc.embs.org/2027/papers/) sets a 5-page limit for full papers and excludes 1-page papers from Xplore/PubMed, but does not explicitly state full-paper eligibility, so the 2026 wording is used. 1-page poster papers are non-archival."
+  },
+  {
+   "series": "IEEE ICMLA",
+   "archival": "yes",
+   "track": "Main conference regular/short papers",
+   "venue": "Conference proceedings (IEEE, submitted to IEEE Xplore)",
+   "source_url": "https://www.icmla-conference.org/icmla26/callforpapers.html",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will be published in the conference proceedings.\" ICMLA'26 home page: \"Accepted papers will be submitted for inclusion into IEEE Xplore.\"",
+   "caveat": "The 2027 call is not published yet, so the 2026 call is used. Xplore inclusion is subject to IEEE scope and quality requirements."
+  },
+  {
+   "series": "IEEE MLSP",
+   "archival": "yes",
+   "track": "Conference paper submission",
+   "venue": "IEEE Xplore",
+   "source_url": "https://signalprocessingsociety.org/newsletter/2026/05/2026-ieee-international-workshop-machine-learning-signal-processing-mlsp",
+   "source_year": 2026,
+   "evidence": "IEEE SPS announcement of MLSP 2026: \"Accepted and presented papers will be published in IEEE Xplore.\"",
+   "caveat": "The MLSP 2027 site (2027.ieeemlsp.org) has no call text yet, so the 2026 call from the official IEEE Signal Processing Society site is used."
+  },
+  {
+   "series": "IEEE NER",
+   "archival": "yes",
+   "track": "Full contributed papers (6 pages)",
+   "venue": "IEEE Xplore conference proceedings",
+   "source_url": "https://neuro.embs.org/2025/call-for-papers/",
+   "source_year": 2025,
+   "evidence": "NER 2025 call: accepted papers \"will be published online in the IEEE XPlore® peer-reviewed conference proceedings.\"",
+   "caveat": "The NER 2027 call text is not available (the page has placeholder text and the call URL returns 404), so the 2025 call is used. The 2025 page contradicts itself on four- vs six-page length. The 1-page late-breaking abstracts are presumably non-archival."
+  },
+  {
+   "series": "IEEE SSCI",
+   "archival": "yes",
+   "track": "Full papers (main track and symposia)",
+   "venue": "Symposium proceedings (IEEE)",
+   "source_url": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "Full papers are \"To be submitted for publication in the respective symposium proceedings.\" Short, late-breaking, abstract and J2C submissions are \"not to be included in the proceedings.\"",
+   "caveat": "Only full papers are archival. The CFP does not name IEEE Xplore explicitly."
+  },
+  {
+   "series": "IEEE SSP",
+   "archival": "yes",
+   "track": "Regular paper submissions",
+   "venue": "IEEE Xplore",
+   "source_url": "https://ssp27.ieeesps.org/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "CFP: \"Accepted papers will be included in IEEE Xplore.\"",
+   "caveat": ""
+  },
+  {
+   "series": "IFAC SYSID",
+   "archival": "yes",
+   "track": "Regular conference papers",
+   "venue": "IFAC-PapersOnLine",
+   "source_url": "https://conferences.ifac-control.org/sysid2027/participate/",
+   "source_year": 2027,
+   "evidence": "Regular contributions are \"to be included in the IFAC-PapersOnLine proceedings\"; journal-option papers are excluded from the proceedings.",
+   "caveat": "Journal-option, discussion and dissemination papers are not in the proceedings. Regular papers are."
+  },
+  {
+   "series": "IFAC WC",
+   "archival": "yes",
+   "track": "Regular/survey papers",
+   "venue": "IFAC-PapersOnLine",
+   "source_url": "https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG",
+   "source_year": 2026,
+   "evidence": "2026 Guide to Authors: regular papers \"will be published in the Congress proceedings at IFAC-PapersOnLine (POL).\"",
+   "caveat": "The 2029 call is not out yet, so this uses the 2026 Busan edition. Late-breaking/discussion papers appear only in the preprints."
+  },
+  {
+   "series": "IJCAI",
+   "archival": "yes",
+   "track": "Main Track",
+   "venue": "IJCAI Proceedings (ijcai.org/Proceedings)",
+   "source_url": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/",
+   "source_year": 2027,
+   "evidence": "Main Track CFP: \"Papers not presented in person will be excluded from the proceedings\".",
+   "caveat": "The 2027 CFP confirms proceedings only through this no-show exclusion clause and does not name the venue. Past volumes are at https://www.ijcai.org/Proceedings."
+  },
+  {
+   "series": "IJCAI-ECAI",
+   "archival": "yes",
+   "track": "Main track papers",
+   "venue": "IJCAI proceedings (open access, published by IJCAI)",
+   "source_url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+   "source_year": 2026,
+   "evidence": "\"All accepted papers will be published exclusively by IJCAI (open access), with IJCAI retaining the copyright.\"",
+   "caveat": "Papers not presented in person are left out of the proceedings unless IJCAI approves an exception in advance."
+  },
+  {
+   "series": "IJCB",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "IEEE Xplore",
+   "source_url": "https://ijcb2027.ieee-biometrics.org/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "\"Accepted papers will be published in IEEE Xplore, provided they meet IEEE's publication and quality standards.\"",
+   "caveat": ""
+  },
+  {
+   "series": "IJCNLP",
+   "archival": "yes",
+   "track": "Main conference papers (ARR)",
+   "venue": "AACL-IJCNLP 2026 proceedings (ACL Anthology)",
+   "source_url": "https://2026.aaclnet.org/calls/main_conference_papers/",
+   "source_year": 2026,
+   "evidence": "AACL-IJCNLP 2026 main-paper call: \"All accepted papers must be presented at the conference to appear in the proceedings.\"",
+   "caveat": "The call names the proceedings but does not name the ACL Anthology, which is the standard host for ACL proceedings."
+  },
+  {
+   "series": "IJCNN",
+   "archival": "yes",
+   "track": "Regular papers",
+   "venue": "IEEE Xplore",
+   "source_url": "https://ijcnn.org/2027/authors/initial-author-instructions",
+   "source_year": 2027,
+   "evidence": "\"IMPORTANT NOTE: Accepted IJCNN 2027 papers will be published on IEEEXplore\"",
+   "caveat": "The CFP page itself does not state this; the evidence comes from the official initial author instructions page."
+  },
+  {
+   "series": "INLG",
+   "archival": "yes",
+   "track": "Long and short papers (archival track)",
+   "venue": "INLG 2026 proceedings in the ACL Anthology",
+   "source_url": "https://2026.inlgmeeting.org/calls.html",
+   "source_year": 2026,
+   "evidence": "\"All accepted papers will be published in the INLG 2026 proceedings and included in the ACL anthology.\"",
+   "caveat": "A separate non-archival work-in-progress poster track also exists; the 2027 call is not out, so the 2026 call is used."
+  },
+  {
+   "series": "International BCI Meeting",
+   "archival": "yes",
+   "track": "Abstract submission (poster/oral, new work)",
+   "venue": "Abstract book published by Verlag der TU Graz (ISBN, open access, per-abstract DOIs)",
+   "source_url": "https://bcisociety.org/bci-meeting/abstract-submission/",
+   "source_year": 2027,
+   "evidence": "2027 call: submitted PDF \"will be published as-is in the abstract book, which will be accessible to the public.\" The 2025 book has DOI 10.3217/978-3-99161-050-2.",
+   "caveat": "Borderline case: this is an abstract-only meeting, but its abstract book is a citable, DOI-indexed open-access publisher volume (2025: https://www.tugraz-verlag.at/en/gesamtverzeichnis/informatik-und-biomedizinische-technik/11th-international-bci-meeting-2025-abstract-book-ebook/). The 2027 page does not mention a DOI or publisher. The owner may want to review whether this counts as archival."
+  },
+  {
+   "series": "Interspeech",
+   "archival": "yes",
+   "track": "Main technical programme papers",
+   "venue": "ISCA Archive (Interspeech proceedings, DOI 10.21437/Interspeech.YYYY)",
+   "source_url": "https://www.isca-archive.org/interspeech_2026/index.html",
+   "source_year": 2026,
+   "evidence": "The ISCA Archive lists the Interspeech 2026 proceedings, \"doi: 10.21437/Interspeech.2026\", ISSN 2958-1796.",
+   "caveat": "The 2027 call (interspeech2027.org/calls/call_for_papers/) is out but does not yet name the publication venue. The evidence comes from the 2026 proceedings in the ISCA Archive."
+  },
+  {
+   "series": "IPCAI",
+   "archival": "yes",
+   "track": "Regular papers (and Track 1 late-breaking long abstracts)",
+   "venue": "IPCAI 2027 special issue of IJCARS (Springer journal)",
+   "source_url": "https://sites.google.com/view/ipcai2027/call-for-papers-and-long-abstracts",
+   "source_year": 2027,
+   "evidence": "Accepted submissions are transferred to IJCARS for a final review round, for publication as full journal papers in the IPCAI 2027 Special Issue of IJCARS.",
+   "caveat": "Track 2 long abstracts (presentations of already-published journal work) do not count toward this."
+  },
+  {
+   "series": "IPMI",
+   "archival": "yes",
+   "track": "Full papers",
+   "venue": "Springer LNCS",
+   "source_url": "https://2027.ipmi-conf.org/",
+   "source_year": 2027,
+   "evidence": "\"Proceedings will be published in the Springer Lecture Notes in Computer Science (LNCS) series.\"",
+   "caveat": "The call for papers section says \"traditionally\" LNCS, while the Submission Guidelines section states it outright."
+  },
+  {
+   "series": "IROS",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "IEEE Xplore",
+   "source_url": "https://2026.ieee-iros.org/contribute/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "\"As peer-reviewed archival publications, all accepted papers will be hosted on IEEE Xplore.\"",
+   "caveat": "The 2027 call is not published yet (the 2027 site has no CFP), so the 2026 call is used."
+  },
+  {
+   "series": "ISBI",
+   "archival": "yes",
+   "track": "Four-page full papers",
+   "venue": "ISBI conference proceedings (historically IEEE Xplore)",
+   "source_url": "https://biomedicalimaging.org/2027/papers/",
+   "source_year": 2027,
+   "evidence": "\"Only full-paper submissions will appear in the proceedings of the conference and will be considered for oral presentation.\"",
+   "caveat": "The 2027 author page doesn't name IEEE Xplore, but earlier ISBI calls did. One-page abstracts are poster-only and do not appear in the proceedings."
+  },
+  {
+   "series": "ISF",
+   "archival": "no",
+   "track": "Abstract submissions (350-word talks)",
+   "venue": "none (accepted abstracts published as entered in the online program)",
+   "source_url": "https://isf.forecasters.org/abstracts/",
+   "source_year": 2027,
+   "evidence": "The 47th ISF (Paphos) abstract page says \"Abstracts will be published exactly as entered if accepted\". It mentions no proceedings or journal publication.",
+   "caveat": "The page doesn't explicitly say \"non-archival\"; this is concluded because it mentions no proceedings or journal."
+  },
+  {
+   "series": "ISWC",
+   "archival": "yes",
+   "track": "Research / Resource / In-Use tracks",
+   "venue": "Springer LNCS",
+   "source_url": "https://iswc2026.semanticweb.org/#/calls/research",
+   "source_year": 2026,
+   "evidence": "\"Note that research, in-use and resource papers are published within the same proceedings by Springer's Lecture Notes in Computer Science series.\"",
+   "caveat": "The ISWC 2027 call is not out yet (the SWSA site lists the location as to be announced), so the 2026 call was used. The 2026 site is a JavaScript single-page app; the text was read from the bundle of its research-track call page."
+  },
+  {
+   "series": "ITISE",
+   "archival": "yes",
+   "track": "Full paper submissions",
+   "venue": "Springer Contributions to Statistics (selected full papers)",
+   "source_url": "https://itise.ugr.es/index.html",
+   "source_year": 2027,
+   "evidence": "\"A selection of accepted full papers will be published in Springer's Contribution to Statistics.\" ITISE 2026 was published in MDPI Engineering Proceedings vol. 155.",
+   "caveat": "For 2027, only a selection of accepted full papers goes to Springer. The page doesn't say how the remaining papers or abstracts are published."
+  },
+  {
+   "series": "IUI",
+   "archival": "yes",
+   "track": "Main papers track",
+   "venue": "ACM Digital Library",
+   "source_url": "https://iui.acm.org/2027/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "\"Accepted papers will appear in the ACM Digital Library and citation indices.\"",
+   "caveat": ""
+  },
+  {
+   "series": "IVA",
+   "archival": "yes",
+   "track": "Full papers track",
+   "venue": "ACM Digital Library",
+   "source_url": "https://iva.acm.org/2026/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "Accepted full papers are \"published in the conference proceedings in the ACM Digital Library.\"",
+   "caveat": "The IVA 2027 call is not published yet, so the 2026 call was used. The IVA site only announces Reykjavik, September 2027."
+  },
+  {
+   "series": "KDD",
+   "archival": "yes",
+   "track": "Research Track (2027 first cycle)",
+   "venue": "ACM Digital Library (KDD proceedings)",
+   "source_url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+   "source_year": 2027,
+   "evidence": "Accepted papers \"will be published by ACM and will be accessible via the ACM Digital Library.\"",
+   "caveat": ""
+  },
+  {
+   "series": "KR",
+   "archival": "yes",
+   "track": "Main track (regular and short papers)",
+   "venue": "KR 2026 proceedings (official proceedings volume)",
+   "source_url": "https://kr.org/KR2026/call_main_track.html",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will be published in the KR 2026 proceedings.\"",
+   "caveat": "KR 2027 site lists only dates/location, with no call yet, so the 2026 call was used. The call does not name the publisher (historically IJCAI Organization). The Recently Published Research track does not count toward this answer."
+  },
+  {
+   "series": "L4DC",
+   "archival": "yes",
+   "track": "Main paper track",
+   "venue": "PMLR",
+   "source_url": "https://proceedings.mlr.press/v331/",
+   "source_year": 2026,
+   "evidence": "PMLR Volume 331: Annual Learning for Dynamics and Control Conference, 17-19 June 2026 (accepted papers volume).",
+   "caveat": "The L4DC 2027 call (OpenReview, Jan 2027 decisions) is published but its pages don't name the publisher. Evidence comes from the 2026 PMLR volume; L4DC proceedings appear every year in PMLR (vols 120–331)."
+  },
+  {
+   "series": "LOD",
+   "archival": "yes",
+   "track": "Long, short and late-breaking papers (AIS 2027)",
+   "venue": "Springer LNCS",
+   "source_url": "https://ais2027.icas.events/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "Accepted papers \"will be published in the Springer-Nature LNCS conference proceedings\"; oral/poster-only presentations are not published.",
+   "caveat": "The series now runs as AIS (ACAIN/LOD successor, 2027). The oral/poster-only presentation option is non-archival."
+  },
+  {
+   "series": "LoG",
+   "archival": "yes",
+   "track": "Proceedings Track (full papers)",
+   "venue": "PMLR",
+   "source_url": "https://logconference.org/cfp/",
+   "source_year": 2026,
+   "evidence": "\"The LoG conference has a proceedings track with papers published in Proceedings for Machine Learning Research (PMLR)\"; extended abstracts are non-archival.",
+   "caveat": "The page currently shows the 2026 call; the 2027 edition is only estimated. Archival publication comes from the proceedings track only, since the extended abstract track is explicitly non-archival."
+  },
+  {
+   "series": "LREC",
+   "archival": "yes",
+   "track": "Main conference papers (oral and poster)",
+   "venue": "LREC 2026 official proceedings (ELRA; online proceedings)",
+   "source_url": "https://lrec2026.info/third-call-for-papers/",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers will appear in the conference proceedings, which include both oral and poster papers in the same format.\"",
+   "caveat": "LREC 2028 is estimated with no call out, so the 2026 call was used. The CFP doesn't mention the ACL Anthology, but the proceedings are official."
+  },
+  {
+   "series": "MICCAI",
+   "archival": "yes",
+   "track": "Main conference papers",
+   "venue": "Springer proceedings (LNCS), 19 volumes",
+   "source_url": "https://conferences.miccai.org/2026/en/OPEN-ACCESS-AND-PROCEEDINGS.html",
+   "source_year": 2026,
+   "evidence": "Proceedings page lists 'MICCAI 2026 Proceedings, Part 1' through 'Part 19' on Springer; open-access papers are provided by the MICCAI Society in agreement with Springer.",
+   "caveat": "The 2027 paper-submission page is still under construction, so the 2026 edition was used. The page does not name LNCS explicitly, only Springer volumes."
+  },
+  {
+   "series": "MIDL",
+   "archival": "yes",
+   "track": "Full papers",
+   "venue": "PMLR",
+   "source_url": "https://2027.midl.io/author-instructions",
+   "source_year": 2027,
+   "evidence": "\"Accepted full papers will be published in the Proceedings of Machine Learning Research (PMLR).\"",
+   "caveat": "Short papers 'will not be included in the PMLR proceedings'."
+  },
+  {
+   "series": "ML4H",
+   "archival": "yes",
+   "track": "Proceedings track",
+   "venue": "PMLR",
+   "source_url": "https://ml4h.ahli.cc/submit/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "\"Accepted proceedings papers will be published in the Proceedings for Machine Learning Research (PMLR).\"",
+   "caveat": "The Findings track is non-archival. The 2027 call is not out yet, so the 2026 call was used."
+  },
+  {
+   "series": "MLHC",
+   "archival": "yes",
+   "track": "Research track",
+   "venue": "PMLR",
+   "source_url": "https://mlhc.org/faq",
+   "source_year": 2026,
+   "evidence": "FAQ: Research Track is archival, with accepted papers published in Proceedings of Machine Learning Research (PMLR); the Clinical Abstracts Track is non-archival.",
+   "caveat": "The 2027 call is not out yet, so 2026 was used. The FAQ is undated."
+  },
+  {
+   "series": "MLSys",
+   "archival": "yes",
+   "track": "Research and industrial papers",
+   "venue": "Proceedings of Machine Learning and Systems (proceedings.mlsys.org)",
+   "source_url": "https://mlsys.org/Conferences/2027/CallForResearchPapers",
+   "source_year": 2027,
+   "evidence": "The 2027 call links to \"MLSys Proceedings\". proceedings.mlsys.org lists volumes 1–8 (2019–2026) of Proceedings of Machine Learning and Systems.",
+   "caveat": "The 2027 call text does not describe how papers are published; the yes rests on its proceedings link and the official proceedings archive. The call's dual-submission policy treats MLSys as archival: parallel submission is allowed only to non-archival venues."
+  },
+  {
+   "series": "MTNS",
+   "archival": "yes",
+   "track": "Full papers (contributed and invited sessions)",
+   "venue": "IFAC-PapersOnLine",
+   "source_url": "https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/author-information",
+   "source_year": 2026,
+   "evidence": "Full papers \"will be published in the proceedings of the event using the open-access IFAC-PapersOnLine series.\"",
+   "caveat": "Extended abstracts are not published. The 2028 call is not out yet, so the MTNS 2026 call was used."
+  },
+  {
+   "series": "NAACL",
+   "archival": "yes",
+   "track": "Main conference papers (ARR, long and short)",
+   "venue": "NAACL 2027 proceedings (ACL Anthology)",
+   "source_url": "https://2027.naacl.org/calls/main_conference_papers/",
+   "source_year": 2027,
+   "evidence": "\"All accepted papers must be presented at the conference to appear in the proceedings\"; short and long papers are distinguished in the proceedings.",
+   "caveat": "The call does not name the ACL Anthology explicitly."
+  },
+  {
+   "series": "NAISys",
+   "archival": "no",
+   "track": "Abstract submission for talks/posters",
+   "venue": "none (abstracts only in the CSHL program abstract book given to participants)",
+   "source_url": "https://meetings.cshl.edu/abstracts.aspx?meet=NAISYS&year=27",
+   "source_year": 2027,
+   "evidence": "Abstracts submitted after registration; \"An electronic version of the program abstract book will be sent three working days prior to the first day.\"",
+   "caveat": "The page does not explicitly say 'non-archival' and does not mention any publication of abstracts. The only outlet it describes is a participant abstract book, with no proceedings or journal supplement."
+  },
+  {
+   "series": "NCM",
+   "archival": "no",
+   "track": "Individual oral and poster abstracts (members only)",
+   "venue": "none (abstracts appear in the conference program only)",
+   "source_url": "https://ncm-society.org/submission/",
+   "source_year": 2027,
+   "evidence": "The 2027 submission page says the session abstract \"will be published in the conference program\". It names no journal or proceedings.",
+   "caveat": "The page does not say \"non-archival\" outright. Meeting summaries appear later as 'Highlights' articles in J Neurophysiol or EJN, but those are not proceedings of the submitted abstracts."
+  },
+  {
+   "series": "NetSci",
+   "archival": "no",
+   "track": "One-page abstract submission (talk/poster)",
+   "venue": "none (abstract-only; no proceedings or journal announced)",
+   "source_url": "https://netsci2027.github.io/calls/abstracts/",
+   "source_year": 2027,
+   "evidence": "The call says \"Abstracts are reviewed by the Program Committee and accepted as a contributed talk or a poster\". It mentions no proceedings or journal.",
+   "caveat": "The call does not say \"non-archival\" outright. The official abstract template mentions an abstract booklet, which is not an archival proceedings venue. NetSci-X, a separate series, has Springer proceedings."
+  },
+  {
+   "series": "NetSci-X",
+   "archival": "no",
+   "track": "Two-page extended abstracts (talk or poster)",
+   "venue": "none (no proceedings announced)",
+   "source_url": "https://netscix2027.github.io/submissions/",
+   "source_year": 2027,
+   "evidence": "The submissions page and the home page ask only for a two-page extended abstract for oral or poster presentation and mention no proceedings, publication or special issue.",
+   "caveat": "No explicit non-archival statement was found. The 'no' rests on the abstract-only format with no publication announced; recheck if proceedings are announced later."
+  },
+  {
+   "series": "Neural Interfaces",
+   "archival": "no",
+   "track": "Original research abstract submission (oral/poster)",
+   "venue": "none (abstracts posted on the meeting program website)",
+   "source_url": "https://www.nans.org/neural-interfaces/",
+   "source_year": 2027,
+   "evidence": "The official NANS page for Neural Interfaces 2027 says only that accepted abstracts \"will be considered for Oral Presentations or Paper Poster Presentations\". It names no journal or proceedings.",
+   "caveat": "Abstracts from the 2014 (41st) conference appeared in Neuromodulation. Elsevier's INS/chapter abstracts listing has no Neural Interfaces 2025 entry. A 2027 supplement could still be announced, so recheck."
+  },
+  {
+   "series": "NeurIPS",
+   "archival": "yes",
+   "track": "Main track full papers",
+   "venue": "Advances in Neural Information Processing Systems (NeurIPS Proceedings, proceedings.neurips.cc)",
+   "source_url": "https://neurips.cc/Conferences/2026/MainTrackHandbook",
+   "source_year": 2026,
+   "evidence": "The handbook treats accepted papers as NeurIPS publications: opted-in rejected papers \"are not counted as NeurIPS publications\". It also forbids submitting the work to \"another archival venue\". The CFP links to NeurIPS Proceedings.",
+   "caveat": "Neither the 2026 CFP nor the handbook states outright that accepted papers appear in the proceedings. Publication there is established practice. The 2027 call is not out yet."
+  },
+  {
+   "series": "NICE",
+   "archival": "yes",
+   "track": "Regular research papers (full/lightning talks)",
+   "venue": "IEEE Conference Proceedings (IEEE Xplore); authors may opt out",
+   "source_url": "https://niceworkshop.org/nice-2027/",
+   "source_year": 2027,
+   "evidence": "Accepted papers \"will be published and indexed through IEEE Conference Proceedings\". Authors \"can also opt out from having their paper included in the proceedings.\"",
+   "caveat": "Publication is opt-out. The page gives no publication information for late-breaking abstracts."
+  },
+  {
+   "series": "NODYCON",
+   "archival": "yes",
+   "track": "One-page abstracts with optional full-length Springer proceedings papers",
+   "venue": "Springer book series Advances in Nonlinear Dynamics (NODYCON 2026 proceedings)",
+   "source_url": "https://nodycon2026.app.earendelplatform.com/cs/publication-CQAEU1BI80000",
+   "source_year": 2026,
+   "evidence": "Authors may submit full-length papers (up to 10 pages) for peer review and publication as fully indexed Springer Proceedings papers in Advances in Nonlinear Dynamics.",
+   "caveat": "The page renders only with JavaScript (read in a browser). Publishing a full paper is optional (opt-in). A separate Nonlinear Dynamics special issue is invitation-only."
+  },
+  {
+   "series": "NOLTA",
+   "archival": "yes",
+   "track": "Regular and special-session papers",
+   "venue": "NOLTA2026 symposium proceedings (IEICE)",
+   "source_url": "https://nolta2026.org/submission/",
+   "source_year": 2026,
+   "evidence": "\"ORCID iDs for ALL the authors are required for publication of your manuscript in the NOLTA2026 symposium proceedings.\"",
+   "caveat": "The 2027 call is not out yet, so the 2026 call was used. The page does not name the hosting platform; IEICE Proceedings Series/J-STAGE is usual but was not confirmed."
+  },
+  {
+   "series": "OHBM",
+   "archival": "yes",
+   "track": "Poster abstract submissions (Annual Meeting)",
+   "venue": "OHBM abstract book published through Aperture Neuro, OHBM's own journal (2024: Aperture Neuro Vol 4 Suppl 1, DOI 10.52294/001c.120379; 2025: DOI'd Zenodo deposit credited to Aperture Neuro)",
+   "source_url": "https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract_Submission_Guidelines_FINAL_docx_(1).pdf",
+   "source_year": 2027,
+   "evidence": "OHBM 2027 Abstract Submission Guidelines: \"Accepted abstracts appear in the abstract book.\" The 2026 guidelines said the abstract book is published by Aperture Neuro.",
+   "caveat": "Borderline case; owner review suggested. The 2027 guidelines (submissions open Nov 2 to Dec 14, 2026) say only 'abstract book' and do not name Aperture Neuro. Aperture Neuro is mentioned only as an optional short-paper interest question. The 2024 book is a formal Aperture Neuro supplement. The 2025 book is a Zenodo DOI deposit rather than a numbered supplement, so whether it counts as a 'citable journal supplement' is a judgment call."
+  },
+  {
+   "series": "PAKDD",
+   "archival": "yes",
+   "track": "Research track papers",
+   "venue": "Springer conference proceedings (LNCS/LNAI)",
+   "source_url": "https://pakdd2027.org/pages/calls/research",
+   "source_year": 2027,
+   "evidence": "Call solicits papers for \"publication in the Conference Proceedings by Springer\"; Springer LNCS template required.",
+   "caveat": ""
+  },
+  {
+   "series": "PPSN",
+   "archival": "yes",
+   "track": "Full papers (all presented as posters)",
+   "venue": "Springer LNCS (PPSN 2026: LNCS 16985-16989)",
+   "source_url": "https://ppsn2026.disi.unitn.it/",
+   "source_year": 2026,
+   "evidence": "\"The proceedings have been published in the Lecture Notes in Computer Science (LNCS) series by Springer.\"",
+   "caveat": "The 2028 edition is only estimated and has no call, so this uses PPSN 2026."
+  },
+  {
+   "series": "ProbML",
+   "archival": "yes",
+   "track": "Archival proceedings track (full papers)",
+   "venue": "PMLR",
+   "source_url": "https://probml.cc/call/",
+   "source_year": 2026,
+   "evidence": "\"The proceedings track is ProbML's archival research paper track\", published in PMLR; \"the workshop track is non-archival.\"",
+   "caveat": "The 2027 call has not been published, so this uses the 2026 call. The extended-abstract workshop track is non-archival."
+  },
+  {
+   "series": "RecSys",
+   "archival": "yes",
+   "track": "Main track long papers",
+   "venue": "ACM Digital Library (RecSys proceedings)",
+   "source_url": "https://recsys.acm.org/recsys26/call/",
+   "source_year": 2026,
+   "evidence": "Accepted long papers \"will be included in the conference proceedings\"; official publication date is when proceedings are available in the ACM Digital Library.",
+   "caveat": "No RecSys 2027 call has been published yet (the recsys27 page has no call), so this uses the 2026 call."
+  },
+  {
+   "series": "RLC",
+   "archival": "yes",
+   "track": "Main paper track",
+   "venue": "Reinforcement Learning Journal (RLJ), ISSN 2996-8577",
+   "source_url": "https://rl-conference.cc/2026/callforpapers.html",
+   "source_year": 2026,
+   "evidence": "\"The accepted papers will be published in the Reinforcement Learning Journal (RLJ...) under ISSN 2996-8577 (online) and ISSN 2996-8569 (print).\"",
+   "caveat": "The 2027 call has not been published, so this uses the 2026 call."
+  },
+  {
+   "series": "RLDM",
+   "archival": "no",
+   "track": "Call for abstracts (extended abstracts)",
+   "venue": "none (abstract-based meeting, no proceedings)",
+   "source_url": "https://rldm.org/call-for-abstracts-2027/",
+   "source_year": 2027,
+   "evidence": "\"This is an abstract-based meeting, with no published conference proceedings.\"",
+   "caveat": "Abstracts appear only in electronic abstract booklets; work intended for other venues is explicitly allowed."
+  },
+  {
+   "series": "RSS",
+   "archival": "yes",
+   "track": "Main track papers (two-stage submission)",
+   "venue": "Robotics: Science and Systems online proceedings (roboticsproceedings.org, ISSN 2330-765X)",
+   "source_url": "https://roboticsproceedings.org/",
+   "source_year": 2027,
+   "evidence": "Official proceedings archive lists volumes I–XXII (2005–2026); \"ISSN of the Robotics: Science and Systems Proceedings is ISSN: 2330-765X.\"",
+   "caveat": "The RSS 2027 CFP (roboticsconference.org/information/cfp/) mentions proceedings only through a camera-ready note and a font note ('to prevent delays in proceedings production'). The venue is taken from the official archive of earlier editions."
+  },
+  {
+   "series": "S+SSPR",
+   "archival": "yes",
+   "track": "Paper submission (main track)",
+   "venue": "Springer LNCS",
+   "source_url": "https://ssspr2026.inf.unibe.ch/",
+   "source_year": 2026,
+   "evidence": "\"Accepted papers (not exceeding 10 pages) will be published in Springer's Lecture Notes in Computer Science\"",
+   "caveat": "Publication requires at least one registered author who presents the paper."
+  },
+  {
+   "series": "SAB",
+   "archival": "yes",
+   "track": "Track 1 conference papers",
+   "venue": "Springer LNAI",
+   "source_url": "https://sab-conference.org/call-for-contributions/",
+   "source_year": 2026,
+   "evidence": "\"All accepted papers in track 1 will be published by Springer Nature in the Lecture Notes in Artificial Intelligence series.\"",
+   "caveat": "Track 2 (papers without proceedings) is non-archival. The call does not state a publication venue for poster abstracts (Track 3) or position papers (Track 4). Only Track 1 is archival."
+  },
+  {
+   "series": "SaTML",
+   "archival": "yes",
+   "track": "Research, SoK and position papers",
+   "venue": "IEEE Computer Society Digital Library (IEEE SaTML proceedings)",
+   "source_url": "https://satml.org/call-for-papers/",
+   "source_year": 2027,
+   "evidence": "\"The papers will be published in the IEEE Computer Society Digital Library.\"",
+   "caveat": "Inclusion requires a registered author who presents the paper in person."
+  },
+  {
+   "series": "SDM",
+   "archival": "yes",
+   "track": "Research papers",
+   "venue": "SIAM proceedings (Proceedings of the SIAM International Conference on Data Mining, epubs.siam.org)",
+   "source_url": "https://www.siam.org/conferences-events/siam-conferences/sdm26/",
+   "source_year": 2026,
+   "evidence": "SDM26 CFP: \"The proceedings of the conference are published in archival form and are also made available on the SIAM Web site.\"",
+   "caveat": "siam.org returned 403 to automated fetch. The quoted text was verified through official CFP reposts on mailing lists (e.g. ML-news), and the same wording appears in earlier SDM calls. No SDM27 call was found as of Nov 2026. Recheck the siam.org page manually."
+  },
+  {
+   "series": "SfN Neuroscience",
+   "archival": "no",
+   "track": "Regular and late-breaking research abstracts",
+   "venue": "none (abstracts only in online Neuroscience Meeting Planner / abstract archive)",
+   "source_url": "https://www.sfn.org/meetings/past-and-future-annual-meetings/abstract-archive",
+   "source_year": 2026,
+   "evidence": "Abstract archive is online-only, browsable by year. Citation format: 'Neuroscience [Year] Abstracts. [City, ST]: Society for Neuroscience, [Year]. Online.' No journal supplement.",
+   "caveat": "The 2026 call-for-abstracts page (sfn.org/cfa) does not discuss publication. Classified as an abstract-only meeting with an online program under rule 3. The abstracts have a citable online format, but there is no journal supplement."
+  },
+  {
+   "series": "SIAM DS",
+   "archival": "no",
+   "track": "Contributed lectures and posters",
+   "venue": "none (abstracts in online program only)",
+   "source_url": "https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/",
+   "source_year": 2027,
+   "evidence": "Each contributor, whether giving a lecture or a poster, submits a title and a brief abstract of at most 1,500 characters. No proceedings are mentioned.",
+   "caveat": "The SIAM pages block automated fetching, so the content comes from search snippets of the official page. There is no explicit 'no proceedings' statement. This is an abstract-only SIAM meeting, unlike SDM, which states it publishes archival proceedings."
+  },
+  {
+   "series": "SIAM MDS",
+   "archival": "no",
+   "track": "Contributed poster abstracts (and minisymposia)",
+   "venue": "none (searchable abstracts PDF in online program)",
+   "source_url": "https://www.siam.org/conferences-events/siam-conferences/mds26/program/program-abstracts/",
+   "source_year": 2026,
+   "evidence": "The MDS26 program page says a searchable PDF of the abstracts will be posted before the conference. Proceedings are not mentioned, whereas the co-located SDM26 explicitly publishes archival proceedings.",
+   "caveat": "The SIAM pages block automated fetching, so this relies on official-page search snippets. The meeting is abstract-only, but there is no explicit 'non-archival' statement."
+  },
+  {
+   "series": "SIGDIAL",
+   "archival": "yes",
+   "track": "Main conference long/short/demo papers",
+   "venue": "ACL Anthology",
+   "source_url": "https://aclanthology.org/2026.sigdial-1.0/",
+   "source_year": 2026,
+   "evidence": "ACL Anthology volume 'Proceedings of the 27th Annual Meeting of the Special Interest Group on Discourse and Dialogue' (2026).",
+   "caveat": "The evidence is the publisher's proceedings page for the 2026 edition. The 2027 call is not out yet."
+  },
+  {
+   "series": "SIGIR",
+   "archival": "yes",
+   "track": "Full papers",
+   "venue": "ACM Digital Library (SIGIR proceedings)",
+   "source_url": "https://sigir2027.org/pages/submit-full.html",
+   "source_year": 2027,
+   "evidence": "Full papers must be original, use the ACM 'sigconf' proceedings template; 'By submitting your article to an ACM Publication, you are hereby acknowledging' ACM policies.",
+   "caveat": "The 2027 call names the paper an ACM Publication and requires the proceedings template, but it does not name the ACM Digital Library. Earlier calls (e.g., 2025) say publication is in the ACM DL proceedings."
+  },
+  {
+   "series": "SLT",
+   "archival": "yes",
+   "track": "Regular and special-session papers",
+   "venue": "IEEE Xplore (SLT 2026 workshop proceedings)",
+   "source_url": "https://attend.ieee.org/slt-2026/call-for-papers/",
+   "source_year": 2026,
+   "evidence": "Accepted papers will be published in the SLT 2026 workshop proceedings and included in IEEE Xplore.",
+   "caveat": ""
+  },
+  {
+   "series": "SMC",
+   "archival": "yes",
+   "track": "Regular/special-session papers",
+   "venue": "IEEE Xplore",
+   "source_url": "https://www.ieeesmc2026.org/call-for-papers",
+   "source_year": 2026,
+   "evidence": "Accepted and presented papers will be copyrighted to IEEE and published in the IEEE Xplore Digital Library.",
+   "caveat": "Papers must be presented at the conference to appear in the proceedings. The SMC 2027 call is not out yet."
+  },
+  {
+   "series": "SNL",
+   "archival": "no",
+   "track": "Slide/poster abstracts",
+   "venue": "none (abstracts in meeting program PDF only)",
+   "source_url": "https://2026.neurolang.org/past-meetings/",
+   "source_year": 2026,
+   "evidence": "Recent meetings (2022–2025) list only a meeting program PDF that 'includes full text of all abstracts'; no journal supplement or proceedings is mentioned.",
+   "caveat": "neurolang.org/abstract-submissions redirects to the 2026 site, where submissions are closed, so no 2027 call is out yet. Neither page explicitly says 'non-archival'. The 'no' rests on the abstracts appearing only in the program book. The society journal (Neurobiology of Language) is not linked to the meeting abstracts."
+  },
+  {
+   "series": "TS4H",
+   "archival": "no",
+   "track": "Workshop paper submissions (SD4H 2026, successor of TS4H)",
+   "venue": "none (non-archival; no formal proceedings)",
+   "source_url": "https://structureddata4health.github.io/call_for_papers.html",
+   "source_year": 2026,
+   "evidence": "This is a non-archival venue and there will be no formal proceedings.",
+   "caveat": "Latest tracked edition is the renamed Structured Data for Health (SD4H) workshop at ICML 2026."
+  },
+  {
+   "series": "UAI",
+   "archival": "yes",
+   "track": "Main track papers",
+   "venue": "PMLR",
+   "source_url": "https://www.auai.org/uai2026/call_for_papers",
+   "source_year": 2026,
+   "evidence": "\"All accepted papers will be published in a volume of Proceedings of Machine Learning Research (PMLR).\"",
+   "caveat": ""
+  },
+  {
+   "series": "UMAP",
+   "archival": "yes",
+   "track": "Main track long and short papers",
+   "venue": "ACM Digital Library",
+   "source_url": "https://um.org/umap2027/call-for-full-and-short-paper/",
+   "source_year": 2027,
+   "evidence": "\"Accepted papers are published by ACM and available via the ACM Digital Library.\"",
+   "caveat": ""
+  },
+  {
+   "series": "WACV",
+   "archival": "yes",
+   "track": "Main conference papers (Rounds 1 and 2)",
+   "venue": "CVF Open Access / WACV proceedings (IEEE Computer Society)",
+   "source_url": "https://wacv.thecvf.com/Conferences/2027/AuthorGuides",
+   "source_year": 2027,
+   "evidence": "\"All accepted papers will be made publicly available by the Computer Vision Foundation (CVF)\"; papers are omitted from proceedings without an author registration.",
+   "caveat": "The author guide does not name IEEE Xplore explicitly. It links to the WACV Proceedings on computer.org."
+  },
+  {
+   "series": "WASPAA",
+   "archival": "yes",
+   "track": "Main 4+1-page papers",
+   "venue": "IEEE Xplore",
+   "source_url": "https://signalprocessingsociety.org/newsletter/2025/11/waspaa-2025-lake-tahoe-new-chapter-beloved-audio-and-acoustic-signal-processing",
+   "source_year": 2025,
+   "evidence": "The IEEE SPS newsletter says \"past WASPAA proceedings can be found on IEEE Xplore\" and that the 2025 proceedings will be there soon.",
+   "caveat": "The 2027 site has a tentative schedule and author guidelines but no call or publication statement, so the 2025 edition is used. The evidence comes from an IEEE SPS (sponsoring society) newsletter, not from the CFP page."
+  },
+  {
+   "series": "WSDM",
+   "archival": "yes",
+   "track": "Main full and short papers",
+   "venue": "ACM Digital Library",
+   "source_url": "https://www.wsdm-conference.org/2027/cffp.html",
+   "source_year": 2027,
+   "evidence": "\"Papers accepted to WSDM will be published in the ACM Digital Library.\"",
+   "caveat": ""
+  },
+  {
+   "series": "WWW",
+   "archival": "yes",
+   "track": "Research track papers",
+   "venue": "ACM Digital Library (conference proceedings)",
+   "source_url": "https://www2027.thewebconf.org/research-track-papers/",
+   "source_year": 2027,
+   "evidence": "Accepted research papers \"will be published by ACM and will be accessible via the ACM Digital Library\"; inclusion requires a registration.",
+   "caveat": ""
+  }
+ ]
+}

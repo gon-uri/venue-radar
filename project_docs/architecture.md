@@ -41,6 +41,7 @@ backend. No calendar/ranking/filter feature depends on it.
 | `data/icore_rankings.yml` | Direct current-release series ranks and official portal IDs/evidence. |
 | `data/ccf_rankings.yml` | Direct series ranks, PDF/page evidence and separate navigation webpage. |
 | `data/acceptance_rates.yml` | Historical track/year/percentage or sourced qualitative-only bands. |
+| `data/archival_options.yml` | One sourced archival-option value per exact series (ADR-047). |
 | `data/metadata.yml` | Published dataset review date. |
 | `data/retired_identities.yml` | Reviewed list of intentionally retired edition IDs or event UIDs (normally empty). |
 | `data/core_conferences_normalized_tags.xlsx` | Latest-series catalog, vocabulary and scope review mirror; not canonical data. |
@@ -63,6 +64,7 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 | --- | --- |
 | `scripts/validate.py` | Edition/rank/rate validation, date parsing (review days such as `last_checked` may not be in the future), slugs, supported submission types and acceptance bands. Its CLI also validates families/cities/scopes. |
 | `scripts/catalog_metadata.py` | Family/city and complete series-family validation; confirmed-city event payload. |
+| `scripts/archival_options.py` | Archival-option loading, validation, per-row value and "(est.)" rule, tag and feed labels (ADR-047). |
 | `scripts/conference_scopes.py` | Profile validation, deduplicated topic union and missing/stale/prior-edition scope queue. |
 | `scripts/build_ics.py` | Escaped/folded VCALENDAR output, stable ordering/UIDs, exact and all-day deadline events. |
 | `scripts/build_site.py` | HTML/table/milestone generation, head metadata, icon sprite, evidence lines and host-zone cutoff instants. Embeds the assets below and a small JSON config. |
@@ -150,7 +152,10 @@ identities. Topic slugs and Giscus IDs/mapping are similarly durable.
   one wrapped line. Filters start collapsed only on mobile. Resizing
   preserves the user's disclosure choices; no-JS retains full metadata access.
 - Abstract-only publication formats use existing milestone/status wording and
-  documented notes, not a new column or filter (ADR-036).
+  documented notes (ADR-036). The archival option tag and filter (ADR-047)
+  are the one publication UI: a tag in the Conference cell, a full-width
+  filter row with visible description, `archival=1` in the link, and a
+  result-line count of conferences hidden as not checked yet.
 - Confirmed exact cutoffs show their stored clock ("23:59 AoE", "20:00 UTC")
   and the viewer's local time; estimated/date-only ones never show an hour.
   Mobile cards repeat the counted-down action under Time left (ADR-039).

@@ -22,7 +22,7 @@ const deadlinesEmpty = document.querySelector("#deadlines-empty");
 const conferencesEmpty = document.querySelector("#conferences-empty");
 const venueConfig = JSON.parse(document.querySelector("#venue-config").textContent);
 const submissionTypes = new Set(venueConfig.submissionTypes);
-const metadataGroups = ["size", "icore", "ccf", "acceptance"];
+const metadataGroups = ["size", "icore", "ccf", "acceptance", "archival"];
 const eligibleKinds = ["open", "scheduled", "opportunity", "estimated"];
 const deadlineData = new Map(rows.map((row) => [
   row,
@@ -317,6 +317,20 @@ function renderEmptyState(container, show, hiddenCount) {
   container.replaceChildren(message, actions);
 }
 
+// With the archival filter on (ADR-047), count rows it hides only because their
+// series has no researched value yet; those are "not checked", never "No".
+function uncheckedArchivalCount(onDeadlines) {
+  if (!selectedValues("archival").length) return 0;
+  const context = filterContext();
+  context.groups = context.groups.filter(([group]) => group !== "archival");
+  return (onDeadlines ? deadlineGroups : conferenceRows).filter((row) => {
+    if (row.dataset.archival || !rowMatchesFilters(row, context)) return false;
+    if (!onDeadlines) return true;
+    const state = stateByRow.get(row);
+    return state?.milestone && state.kind !== "past" && passesOpenOnly(row);
+  }).length;
+}
+
 function updateResultCount() {
   const active = document.querySelector('[role="tab"][aria-selected="true"]').dataset.tabTarget;
   const onDeadlines = active === "deadlines";
@@ -325,7 +339,9 @@ function updateResultCount() {
   const total = onDeadlines
     ? deadlineGroups.filter((row) => stateByRow.get(row)?.milestone).length
     : conferenceRows.length;
-  const text = `${visible} of ${total} conferences`;
+  const unchecked = uncheckedArchivalCount(onDeadlines);
+  const text = `${visible} of ${total} conferences`
+    + (unchecked ? ` · ${unchecked} conference${unchecked === 1 ? "" : "s"} not checked yet ${unchecked === 1 ? "is" : "are"} hidden` : "");
   if (resultCount.textContent !== text) resultCount.textContent = text;
   const hiddenByOpenOnly = onDeadlines && openOnly.checked ? deadlineGroups.filter((row) => {
     const state = stateByRow.get(row);
@@ -449,7 +465,7 @@ document.querySelectorAll("[data-successor-link]").forEach((link) => {
 });
 
 // ---- Shareable state (ADR-040): filters in the query string, rows in the hash.
-const urlGroups = { size: "size", icore: "icore", ccf: "ccf", acc: "acceptance" };
+const urlGroups = { size: "size", icore: "icore", ccf: "ccf", acc: "acceptance", archival: "archival" };
 const ownedParams = new Set(["q", "families", "topics", ...Object.keys(urlGroups), "match", "all", "starred", "tab"]);
 const siteUrl = document.querySelector("#calendar-menu")?.dataset.siteUrl || location.href.split(/[?#]/)[0];
 

@@ -13,6 +13,7 @@ from urllib.parse import urlencode
 import yaml
 from build_ics import SITE_URL, _older_year_link, series_display_name, series_groups, series_slug
 from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata, validate_conference_families
+from archival_options import ARCHIVAL_PATH, archival_label, load_archival_options, validate_archival_options, with_archival
 from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
 from validate import (
@@ -44,6 +45,18 @@ ASSETS_DIR = ROOT / "assets"
 TOPIC_CATALOG = load_mapping(FAMILIES_PATH)
 CITIES = load_mapping(CITIES_PATH)
 CONFERENCE_FAMILIES = load_mapping(CONFERENCE_FAMILIES_PATH)
+# Public wording approved with ADR-047 (project_docs/site_copy.md).
+ARCHIVAL_TOOLTIP = (
+    "At least one track for new papers offers archival publication; you may "
+    "need to choose it when submitting. Check which track the deadline shown belongs to."
+)
+ARCHIVAL_FILTER_NOTE = (
+    "Conferences where at least one track for new papers can be published in "
+    "archival proceedings or a journal (for example ACM DL, IEEE Xplore, PMLR, "
+    "LNCS). Not every track is archival: check that the deadline shown belongs "
+    "to an archival track. (est.) means it is based on the previous edition; "
+    "the new call is not out yet."
+)
 TIME_ESTIMATE_TOOLTIP = (
     "Official day; exact hour/timezone unannounced. "
     "Countdown uses a provisional calendar time."
@@ -365,6 +378,27 @@ def _star_button(conference: dict[str, Any]) -> str:
     )
 
 
+def _archival_tag(conference: dict[str, Any]) -> str:
+    """Series-level archival option (ADR-047); nothing when not checked yet."""
+    value = conference.get("_archival")
+    label = archival_label(value)
+    if not label:
+        return ""
+    if value["archival"]:
+        return f'<span class="archival-tag" title="{_attr(ARCHIVAL_TOOLTIP)}">{escape(label)}</span>'
+    return f'<span class="archival-tag archival-tag-no">{escape(label)}</span>'
+
+
+def _archival_filter() -> str:
+    return (
+        '<div class="archival-filter">'
+        '<label class="check-option"><input type="checkbox" data-filter-group="archival" value="1">'
+        '<span>Archival option</span></label>'
+        f'<p class="archival-note">{escape(ARCHIVAL_FILTER_NOTE)}</p>'
+        '</div>'
+    )
+
+
 def _evidence_line(conference: dict[str, Any]) -> str:
     """Sources, review date and actions for one edition (ADR-040)."""
     estimated = conference["confidence"] != "confirmed"
@@ -418,6 +452,12 @@ def _colgroup(widths: list[str]) -> str:
     return f"<colgroup>{columns}</colgroup>"
 
 
+def _archival_attr(conference: dict[str, Any]) -> str:
+    """"1" for Yes or Yes (est.), "0" for No, "" when not checked yet."""
+    value = conference.get("_archival")
+    return "" if value is None else "1" if value["archival"] else "0"
+
+
 def _filter_attributes(
     conference: dict[str, Any],
     search_text: str,
@@ -454,6 +494,7 @@ def _filter_attributes(
         f'data-icore="{_attr(icore.get(conference["series"], {}).get("rank", "Unranked"))}" '
         f'data-ccf="{_attr(ccf.get(conference["series"], {}).get("rank", "Unranked"))}" '
         f'data-acceptance="{_attr(_value_slug(band))}" '
+        f'data-archival="{_archival_attr(conference)}" '
         f'data-confidence="{_attr(conference["confidence"])}" '
         f'data-conference-start="{_attr(conference["conference_start"])}" '
         f'data-conference-end="{_attr(conference["conference_end"])}"'
@@ -603,7 +644,7 @@ def _deadline_group_rows(
             f'<tr class="deadline-group-row" id="deadline-{_attr(group_id)}" '
             f'{_filter_attributes(conference, search_text, icore, ccf, rates)} '
             f'data-deadline-group="{_attr(group_id)}" data-expanded="false">'
-            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}</td>"
+            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}{_archival_tag(conference)}</td>"
             '<td data-label="Submission status"><div class="status-cell">'
             '<span class="submission-status" data-submission-status>Checking...</span>'
             '<span class="next-step" data-next-step hidden></span>'
@@ -645,7 +686,7 @@ def _conference_rows(
         rows.append(
             f'<tr id="conference-{_attr(stable_slug(conference["id"]))}" '
             f'{_filter_attributes(conference, search_text, icore, ccf, rates, include_deadlines=False)} data-conference-row>'
-            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}</td>"
+            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}{_archival_tag(conference)}</td>"
             f"<td data-label=\"Dates\">{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}{date_estimate}</td>"
             f"<td data-label=\"Location\">{escape(conference.get('location', 'TBD'))}</td>"
             f"<td class=\"mobile-detail\" data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
@@ -832,6 +873,7 @@ def build_site(
     ccf_path: Path = CCF_PATH,
     acceptance_path: Path = ACCEPTANCE_PATH,
     scopes_path: Path = SCOPES_PATH,
+    archival_path: Path = ARCHIVAL_PATH,
 ) -> Path:
     conferences = load_conferences(data_path)
     icore_data = load_icore_rankings(rankings_path)
@@ -847,9 +889,11 @@ def build_site(
     errors.extend(validate_ccf_rankings(conferences, ccf_data))
     errors.extend(validate_acceptance_rates(conferences, acceptance_data))
     errors.extend(validate_scopes(conferences, scopes, load_controlled_topics() or set()))
+    archival = load_archival_options(archival_path)
+    errors.extend(validate_archival_options(conferences, archival))
     if errors:
         raise ValueError("conference data is invalid; run scripts/validate.py")
-    conferences = with_scopes(conferences, scopes)
+    conferences = with_archival(with_scopes(conferences, scopes), archival)
 
     docs_dir.mkdir(parents=True, exist_ok=True)
     output = docs_dir / "index.html"
@@ -973,6 +1017,7 @@ def build_site(
             <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
           </label>
         </div>
+        {_archival_filter()}
         <div class="filter-actions">
           <label class="topic-mode"><span>Match</span><select id="topic-match" aria-label="Topic family matching"><option value="any">Any selected family</option><option value="all">All selected families</option></select></label>
         </div>

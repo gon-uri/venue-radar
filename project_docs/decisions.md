@@ -24,6 +24,7 @@ explicit refinements take precedence. Current rules live in
 | Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line |
 | Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
 | Conflicting cutoffs, date-only countdowns, deep links, starring, compact cards, code layout | ADR-040 (refines ADR-024, ADR-027's MLSys choice, ADR-035 and ADR-039) |
+| Archival option tag and filter (publication UI) | ADR-047 (refines ADR-036's "Add no publication UI" for this tag and filter only) |
 | Cross-series successors (merged or renamed venues with distinct ranks) | ADR-046 (`continues`; complements the same-key TS4H/SD4H and LOD/AIS precedents) |
 | Calendar event titles, descriptions and feed size; countdown precision | ADR-044 (refines ADR-028's ICS clause and ADR-032's countdown text); ADR-045 puts Notes once per edition |
 
@@ -948,3 +949,106 @@ explicit refinements take precedence. Current rules live in
   and SLT so search finds it.
 - Consequences: subscribers of the ASRU or SLT series feeds do not receive ASLI
   events; they subscribe to ASLI's own feed. No UID or existing record changed.
+
+## ADR-047: Archival Option Tag And Filter
+
+- Status: Accepted by the owner on 2026-11-05, as drafted, including the
+  public wording. Implemented 2026-11-05 (see Implementation below).
+- Date: 2026-11-05
+- Context: The owner wants a researcher with a new paper to find conferences
+  whose proceedings can publish it archivally, by turning on one filter
+  (requested 2026-10-30; per-conference tag chosen over per-track marks for
+  simplicity). ADR-036 kept publication formats in notes only; ADR-044 and
+  ADR-045 show `submission_type` as a Format line in calendar events, but the
+  site shows no publication information and Notes are not displayed at all.
+- Decision, definition: a series "has an archival option" when, in its
+  latest edition with a published call, at least one track that accepts new
+  research papers (a supported fresh-submission type) publishes accepted
+  papers in archival proceedings or a journal of the conference itself (for
+  example ACM DL, IEEE Xplore, PMLR, Springer LNCS, LIPIcs, IFAC-PapersOnLine,
+  ACL Anthology, a journal special issue). Rules agreed with the owner
+  (2026-11-05):
+  1. Opt-in or opt-out archival publication counts (EAAMO, ECAF, WSDM and
+     ASLI "Findings"): the author can choose it.
+  2. Only fresh-submission tracks count. Doctoral consortia (PhD students
+     presenting thesis plans to mentors), organizer proposals, talks about
+     already published journal papers and student-only competitions cannot
+     settle Yes. Papers published only by a satellite workshop's own
+     proceedings (for example IUI workshops in CEUR) do not count; the
+     conference's own proceedings or journal must publish them.
+  3. A value from the latest published call is shown as confirmed. When the
+     next edition's call is not out yet, the value from the previous edition
+     is shown as estimated ("Yes (est.)", "No (est.)"), like other estimates
+     on the site, and the review queue re-flags it once the new call appears.
+- Values: `Yes`, `Yes (est.)`, `No`, `No (est.)`, and Not checked yet (no
+  entry: the default, never shown or filtered as No). Never inferred from the
+  free-text `submission_type`, ranks or OpenReview use.
+- Storage: a new `data/archival_options.yml`, one entry per exact series,
+  joined at build time like ranks and rates:
+  `archival: yes|no`, `estimated: true|false`, `track` (the qualifying or
+  checked track, short), `source_url` (official call), `source_year` (edition
+  whose call was read) and `checked` (review day). Validation: known series,
+  HTTPS source, `source_year` not after the latest tracked edition, `checked`
+  not in the future, and `estimated: true` whenever `source_year` is earlier
+  than the series' next upcoming edition.
+  Refinement (2026-11-05, implementation): to keep validation independent of
+  today's date, the "(est.)" label is derived per row: a value is shown as an
+  estimate when `estimated` is true or when `source_year` is earlier than that
+  row's edition year. The validator therefore checks only fixed facts (known
+  series, yes/no, boolean `estimated`, non-empty `track`, HTTPS source,
+  `source_year` from 2015 to the latest tracked edition, `checked` not in the
+  future, optional non-empty `note`). Logic lives in
+  `scripts/archival_options.py`.
+- Interface: a small tag on each row and mobile card ("Archival option",
+  "Archival option (est.)", "Non-archival", "Non-archival (est.)"; nothing
+  when not checked). One new filter checkbox, "Archival option", shows Yes and
+  Yes (est.) and combines with the other filters; it is kept in the page's
+  link (`archival=1`). With it on, the result line adds "N conferences not
+  checked yet are hidden". Status, countdown and ordering do not change.
+- Public wording (owner approval required; also recorded in site_copy.md):
+  - Filter description: "Conferences where at least one track for new
+    papers can be published in archival proceedings or a journal (for
+    example ACM DL, IEEE Xplore, PMLR, LNCS). Not every track is archival:
+    check that the deadline shown belongs to an archival track. (est.) means
+    it is based on the previous edition; the new call is not out yet."
+  - Tag tooltip: "At least one track for new papers offers archival
+    publication; you may need to choose it when submitting. Check which
+    track the deadline shown belongs to." Tooltips do not show on phones, so
+    the filter description carries the caution.
+- Calendar feeds: the Format line gains "Archival option: Yes (est.)" (or the
+  current value) when the series has one.
+- Maintenance: the weekly review queue gains an advisory for series with an
+  open deadline and no value, and for confirmed values whose `source_year` is
+  older than a newer edition with a published call.
+- Rollout: (1) owner approves this ADR and wording; (2) values are researched
+  from official calls, one agent drafting and an independent agent verifying,
+  series with open deadlines first; (3) tag, filter, feed line and tests.
+  The filter ships only once every series with an open deadline has a value.
+- Supersedes: ADR-036's "Add no publication UI" for this tag and filter only.
+  On approval, update AGENTS.md ("Abstract-only publication caveats belong in
+  notes/docs"), data_schema.md ("Do not add a publication column, badge ..."),
+  architecture.md, data_maintenance.md, conference_scopes.md,
+  implementation_status.md, dynamics_neuroscience_expansion.md and the
+  roadmap milestone.
+- Implementation (2026-11-05): research ran as planned (30 batches of six
+  series; one agent drafted from official calls, an independent agent
+  re-checked; 3 source links corrected, no value changed). Owner decision the
+  same day, "papers only": citable abstract volumes (DOIs, ISBNs, journal
+  supplements, Zenodo deposits) do not make an abstract-only meeting
+  archival, so CNS CogNeuro, OHBM, International BCI Meeting and CNS* are No
+  alongside Bernstein, COSYNE, AREADNE and SfN. BIOMAG, whose official pages
+  state no publication, is No (est.). Dynamics Days CAC and ICCN stay Not
+  checked yet; neither has an open deadline. Result: 174 of 176 series have a value in
+  `data/archival_options.yml` (144 yes, 30 no) and the evidence file
+  `project_docs/archival_research/archival_options_2026-11-05.json`. Entries
+  may also carry an optional `venue` (publisher or proceedings) and `note`.
+  The tag sits in the Conference cell after the star, so mobile cards show it
+  without a new column; the filter is a full-width row under the filter grid
+  with the approved description as visible text. Deadline events carry it on
+  their Format line: "Format: ...; Archival option: Yes (est.)". `maintenance_report.py` adds an "Archival option" backlog:
+  series with a new-paper route and no value, values read from an older call
+  while a newer edition has confirmed dates, and estimated values.
+- Alternatives considered: per-track archival marks (more precise, more
+  complex); inferring from `submission_type` (unreliable); counting satellite
+  workshop proceedings (does not match the use case); hiding estimates
+  (would leave most series unknown between calls).

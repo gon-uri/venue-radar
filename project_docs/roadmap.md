@@ -120,9 +120,8 @@ below are history, not instructions to reimplement old designs.
   status behavior and abstract submission indications.
 - Ongoing: compare estimated calls with official CFPs monthly; resolve ICCN's
   date conflict and the unannounced NODYCON/DDAP/DDCAC next editions. Preserve
-  publication/abstract-only distinctions in notes, without a public UI feature
-  until the Archival Option Tag And Filter milestone has an ADR the owner
-  has approved.
+  publication/abstract-only distinctions in notes; the only publication UI is
+  ADR-047's archival option tag and filter.
 - Guidance: [dynamics_neuroscience_expansion.md](dynamics_neuroscience_expansion.md).
 
 ### Related-Venue Expansion
@@ -192,15 +191,13 @@ below are history, not instructions to reimplement old designs.
   the 2026-10-30 review about 85 of 130 series had no usable evidence, but one
   confirmed archival track settles Yes, usually from one sentence of the main
   call for papers.
-- Completion status: Not started. The owner chose the direction (a
-  per-conference tag). First step: a new ADR with the details and the public
-  wording, approved by the owner; only then change data or code. Until then
-  these rules still apply: ADR-036's "Add no publication UI", the AGENTS.md
-  rule that abstract-only caveats stay in notes/docs, and the data schema's
-  "Do not add a publication column, badge or change to status behavior
-  without approval". That ADR must also update the matching no-UI statements
-  in architecture.md, data_maintenance.md, conference_scopes.md,
-  implementation_status.md and dynamics_neuroscience_expansion.md.
+- Completion status: Completed 2026-11-05. ADR-047 accepted; 174 of 176
+  series researched (draft plus independent verify) with the owner's
+  "papers only" rule for abstract volumes; tag, filter, `archival=1` link,
+  not-checked count, feed Format-line value, validation, review backlog and
+  tests shipped. Remaining: Dynamics Days CAC and ICCN values (no open
+  deadline), and the weekly backlog of values read from older calls. The
+  history below is kept for context.
 - Values: Yes (at least one track for new work is archival); No (only
   abstract-book, archived-abstract or non-archival tracks, such as
   abstract-only meetings and non-archival workshops); Not checked yet (the

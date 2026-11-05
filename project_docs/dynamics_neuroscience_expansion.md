@@ -38,7 +38,9 @@ also differ between tracks of the same conference.
 
 This distinction is documented here and in edition notes/submission metadata.
 It does not introduce a publication column, badge, filter, new status type or
-change to the website's layout, CSS or JavaScript. Existing abstract milestone
+change to the website's layout, CSS or JavaScript. (Later, ADR-047 approved one
+archival option tag and filter; abstract-only details still live here and in
+notes.) Existing abstract milestone
 labels and Open abstract submissions behavior remain the public indication.
 Future deadlines with unverified opening information retain the honest green
 Submission opportunity fallback, rather than an unsupported Open claim.

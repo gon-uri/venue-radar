@@ -15,6 +15,7 @@ from urllib.parse import urlsplit
 
 from catalog_metadata import CITIES_PATH, load_mapping
 from conference_scopes import load_scopes, scope_review_queue
+from archival_options import load_archival_options
 from validate import SUBMISSION_TYPES, load_acceptance_rates, load_conferences, parse_date, parse_datetime
 
 # Joint editions do not need a same-name successor.
@@ -103,6 +104,7 @@ class Report:
     advisories: list[Advisory]
     acceptance: list[BacklogRow]
     scope: list[BacklogRow]
+    archival: list[BacklogRow]
 
 
 def review_queue(
@@ -329,6 +331,30 @@ def acceptance_backlog(conferences: list[dict], rates: dict, as_of: date) -> lis
     return [BacklogRow(name, detail, str(rates.get(name, {}).get("source_url", ""))) for name, detail in gaps]
 
 
+def archival_backlog(conferences: list[dict], options: dict) -> list[BacklogRow]:
+    """ADR-047 queue: series with a new-paper route but no value first, then
+    values that are estimates or were read from an older call while a newer
+    edition is now confirmed (its call is probably out)."""
+    relevance = series_relevance(conferences)
+    routes = {item["series"] for item in conferences
+              for deadline in item.get("deadlines", []) if deadline["type"] in SUBMISSION_TYPES}
+    rows: list[tuple[int, int, str, str, str]] = []
+    for name in routes - set(options):
+        rows.append((0, relevance[name], name, "not checked yet; a new-paper route is tracked", ""))
+    for name, entry in options.items():
+        confirmed = [item for item in conferences if item["series"] == name
+                     and item["confidence"] == "confirmed" and item["year"] > entry["source_year"]]
+        if confirmed:
+            newest = max(confirmed, key=lambda item: item["year"])
+            detail = f"value read from {entry['source_year']}; {newest['id']} has confirmed dates; check whether its call is out"
+            rows.append((1, relevance[name], name, detail, str(newest.get("cfp_url") or newest["website"])))
+        elif entry["estimated"]:
+            rows.append((2, relevance[name], name, f"estimated value from {entry['source_year']}; recheck when the call appears",
+                         entry["source_url"]))
+    rows.sort(key=lambda row: (row[0], row[1], row[2].casefold()))
+    return [BacklogRow(name, detail, source) for _, _, name, detail, source in rows]
+
+
 def scope_backlog(conferences: list[dict], profiles: dict, as_of: date, max_age_days: int) -> list[BacklogRow]:
     """Scope gaps ordered missing/oldest profile first, then by relevance."""
     relevance = series_relevance(conferences)
@@ -352,6 +378,7 @@ def build_report(as_of: date, max_age_days: int) -> Report:
         advisories=advisories(conferences, load_mapping(CITIES_PATH), as_of),
         acceptance=acceptance_backlog(conferences, rates, as_of),
         scope=scope_backlog(conferences, load_scopes(), as_of, max_age_days),
+        archival=archival_backlog(conferences, load_archival_options()),
     )
 
 
@@ -389,7 +416,8 @@ def render_text(report: Report, sample: int | None) -> str:
         if rows:
             lines.append(f"{label} ({len(rows)})")
             lines += [f"- {row.title} ({row.id}): {row.detail}" + (f"\n  {row.url}" if row.url else "") for row in rows]
-    for heading, rows in [("Acceptance evidence review", report.acceptance), ("Scope review", report.scope)]:
+    for heading, rows in [("Acceptance evidence review", report.acceptance), ("Scope review", report.scope),
+                          ("Archival option review", report.archival)]:
         shown = _sample(rows, sample)
         suffix = f" (showing {len(shown)}; --full lists all)" if len(shown) < len(rows) else ""
         lines += ["", f"{heading}: {len(rows)} series{suffix}"]
@@ -445,7 +473,8 @@ def render_markdown(report: Report, sample: int | None) -> str:
                 + (f" · {_md_link(row.url)}" if row.url else "")
                 for row in rows
             ]
-    for heading, rows in [("Acceptance evidence", report.acceptance), ("Scope profiles", report.scope)]:
+    for heading, rows in [("Acceptance evidence", report.acceptance), ("Scope profiles", report.scope),
+                          ("Archival option", report.archival)]:
         shown = _sample(rows, sample)
         lines += ["", f"### {heading} backlog: {len(rows)} series", ""]
         if len(shown) < len(rows):
@@ -471,6 +500,7 @@ def render_json(report: Report, sample: int | None) -> str:
         "advisories": [asdict(row) for row in report.advisories],
         "acceptance": backlog(report.acceptance),
         "scope": backlog(report.scope),
+        "archival": backlog(report.archival),
     }
     return json.dumps(payload, indent=2, ensure_ascii=False)
 

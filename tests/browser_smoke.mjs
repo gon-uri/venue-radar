@@ -8,6 +8,7 @@ import {checkMobileCards} from './mobile_cards.mjs';
 import {checkDynamicsNeuroscience} from './dynamics_neuroscience.mjs';
 import {checkVenueFeatures} from './venue_features.mjs';
 import {checkMoreFeatures} from './venue_more.mjs';
+import {checkArchivalOption} from './archival_option.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -583,6 +584,7 @@ try {
   await checkDynamicsNeuroscience(page);
   await checkVenueFeatures(page, url);
   await checkMoreFeatures(page, url);
+  await checkArchivalOption(page, url);
   assert.deepEqual(fontRequests, [], 'The title font must not require a network request');
   assert.deepEqual(errors, []);
   console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);

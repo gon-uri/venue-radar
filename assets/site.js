@@ -294,3 +294,56 @@ function loadCommunityComments() {
   setTimeout(fallback, 10000);
   container.append(script);
 }
+
+// Instant tooltips for [data-tip] (ADR-047): native `title` tips wait about a
+// second, some embedded browsers never draw them, and phones have no hover.
+// One shared bubble opens on hover, keyboard focus or tap, follows its target
+// while the page scrolls, and closes on Escape, a tap elsewhere or leaving.
+function initializeTips() {
+  const bubble = document.createElement('div');
+  bubble.className = 'tip-bubble';
+  bubble.id = 'tip-bubble';
+  bubble.setAttribute('role', 'tooltip');
+  bubble.hidden = true;
+  document.body.append(bubble);
+  let owner = null;
+  const hide = () => {
+    if (!owner) return;
+    owner.removeAttribute('aria-describedby');
+    owner = null;
+    bubble.hidden = true;
+  };
+  const place = () => {
+    const margin = 8;
+    const box = owner.getBoundingClientRect();
+    if (box.bottom < 0 || box.top > window.innerHeight) { hide(); return; }
+    const width = bubble.offsetWidth;
+    const height = bubble.offsetHeight;
+    const left = Math.min(Math.max(margin, box.left + box.width / 2 - width / 2), window.innerWidth - width - margin);
+    const below = box.bottom + 6;
+    const top = below + height + margin > window.innerHeight && box.top - height - 6 > margin ? box.top - height - 6 : below;
+    bubble.style.left = `${left}px`;
+    bubble.style.top = `${top}px`;
+  };
+  const show = (target) => {
+    if (owner === target) return;
+    hide();
+    owner = target;
+    bubble.textContent = target.dataset.tip;
+    bubble.hidden = false;
+    target.setAttribute('aria-describedby', bubble.id);
+    place();
+  };
+  const tipFor = (event) => event.target.closest?.('[data-tip]');
+  document.addEventListener('mouseover', (event) => { const target = tipFor(event); if (target) show(target); });
+  document.addEventListener('mouseout', (event) => {
+    const target = tipFor(event);
+    if (target && target === owner && !target.contains(event.relatedTarget) && document.activeElement !== target) hide();
+  });
+  document.addEventListener('focusin', (event) => { const target = tipFor(event); if (target) show(target); });
+  document.addEventListener('focusout', (event) => { if (tipFor(event) === owner) hide(); });
+  document.addEventListener('click', (event) => { const target = tipFor(event); if (target) show(target); else hide(); });
+  document.addEventListener('keydown', (event) => { if (event.key === 'Escape') hide(); });
+  window.addEventListener('scroll', () => { if (owner) place(); }, {passive: true, capture: true});
+  window.addEventListener('resize', hide);
+}

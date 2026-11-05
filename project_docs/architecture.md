@@ -70,7 +70,7 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 | `scripts/build_site.py` | HTML/table/milestone generation, head metadata, icon sprite, evidence lines and host-zone cutoff instants. Embeds the assets below and a small JSON config. |
 | `assets/logic.js` | Pure client logic: search normalization, countdown text (exact units, minutes on the last day, coarse units for estimates; ADR-044), UTC/local clocks and submission-route state. Unit-tested in `tests/js/`. |
 | `assets/core.js` | Page wiring: filters, URL state and deep links, starring, row ordering, next-step/successor lines, empty states and the minute refresh. |
-| `assets/site.js` | Mobile cards, family/leaf matching, calendar menu, offline map and optional Giscus loading. |
+| `assets/site.js` | Mobile cards, family/leaf matching, calendar menu, instant `data-tip` tooltips, offline map and optional Giscus loading. |
 | `assets/base.css`, `assets/site.css` | Base tokens and layout, then brand/mobile/feature styling; embedded in that order. |
 | `scripts/build_all.py` | Validate source data, build ICS and standalone HTML. Run the standalone validator too; do not skip registry checks. |
 | `scripts/maintenance_report.py` | Read-only edition queue with urgency tiers (including a pre-deadline recheck), advisory checks, and acceptance/scope backlogs (text, markdown or JSON). |
@@ -153,7 +153,8 @@ identities. Topic slugs and Giscus IDs/mapping are similarly durable.
   preserves the user's disclosure choices; no-JS retains full metadata access.
 - Abstract-only publication formats use existing milestone/status wording and
   documented notes (ADR-036). The archival option tag and filter (ADR-047)
-  are the one publication UI: a tag in the Conference cell, a full-width
+  are the one publication UI: a tag under the status (Upcoming Deadlines) or
+  dates (Conferences & Map) with an instant `data-tip` bubble, a full-width
   filter row with visible description, `archival=1` in the link, and a
   result-line count of conferences hidden as not checked yet.
 - Confirmed exact cutoffs show their stored clock ("23:59 AoE", "20:00 UTC")

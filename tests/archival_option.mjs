@@ -11,12 +11,31 @@ export async function checkArchivalOption(page, url) {
   await page.goto(base);
   await freeze();
 
-  // Tags: confirmed, estimated from an earlier call, and non-archival.
-  assert.equal(await row('neurips-2027').locator('.archival-tag').textContent(), 'Archival option (est.)');
-  assert.equal(await row('aaai-2027').locator('.archival-tag').textContent(), 'Archival option');
-  assert.match(await row('aaai-2027').locator('.archival-tag').getAttribute('title'), /may need to choose it/);
-  assert.equal(await row('cosyne-2027').locator('.archival-tag').textContent(), 'Non-archival');
+  // The Conference cell holds only the name and star (owner, 2026-11-05); the
+  // tag sits under the submission status, or under the dates in Conferences.
+  const tag = id => row(id).locator('td[data-label="Submission status"] .archival-tag');
+  assert.equal(await page.locator('[data-filter-row] td[data-label="Conference"] .archival-tag').count(), 0);
+  assert.equal(await tag('neurips-2027').textContent(), 'Archival option (est.)');
+  assert.equal(await tag('aaai-2027').textContent(), 'Archival option');
+  assert.equal(await tag('cosyne-2027').textContent(), 'Non-archival');
+  assert.equal(await page.locator('#conference-aaai-2027 td[data-label="Dates"] .archival-tag').textContent(), 'Archival option');
   assert.equal(await page.locator('[data-filter-row][data-archival=""] .archival-tag').count(), 0, 'No tag when not checked yet');
+  assert.equal(await page.locator('#panel-deadlines th').count(), 8, 'No new column');
+
+  // Instant tooltip on hover and keyboard focus, never a native title.
+  assert.equal(await page.locator('.archival-tag[title]').count(), 0);
+  await tag('cvpr-2027').hover();
+  const bubble = page.locator('#tip-bubble');
+  assert(await bubble.isVisible(), 'Hover opens the tip at once');
+  assert.match(await bubble.textContent(), /may need to choose it/);
+  await tag('neurips-2027').hover();
+  assert.match(await bubble.textContent(), /\(est\.\) means it is based on the previous edition/);
+  await page.mouse.move(5, 5);
+  assert(!(await bubble.isVisible()), 'Leaving closes it');
+  await tag('cvpr-2027').focus();
+  assert.match(await bubble.textContent(), /Check which track/);
+  await page.keyboard.press('Escape');
+  assert(!(await bubble.isVisible()));
 
   // The filter keeps Yes and Yes (est.), hides No, and is shared in the link.
   await page.locator('[data-filter-group="archival"]').check();
@@ -39,5 +58,13 @@ export async function checkArchivalOption(page, url) {
   await page.evaluate(() => { document.querySelector('#filter-details').open = true; });
   const note = await page.locator('.archival-note').boundingBox();
   assert(note && note.width > 200 && note.x + note.width <= 390, 'The archival note fits a phone screen');
-  console.log('Archival option passed: tags, estimate labels, filter, archival=1 link, not-checked count, clear and phone layout.');
+  // On a phone the tag shows on the collapsed card, and a tap opens the tip on screen.
+  await freeze();
+  const value = tag('cvpr-2027');
+  await value.scrollIntoViewIfNeeded();
+  assert(await value.isVisible(), 'Visible without expanding the card');
+  await value.click();
+  const box = await page.locator('#tip-bubble').boundingBox();
+  assert(box && box.x >= 0 && box.x + box.width <= 390, 'The tapped tip fits a phone screen');
+  console.log('Archival option passed: tag under status or dates, instant tips (hover, focus, tap), filter, archival=1 link, not-checked count, clear and phone layout.');
 }

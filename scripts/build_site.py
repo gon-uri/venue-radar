@@ -57,6 +57,7 @@ ARCHIVAL_FILTER_NOTE = (
     "to an archival track. (est.) means it is based on the previous edition; "
     "the new call is not out yet."
 )
+ARCHIVAL_ESTIMATE_TIP = "(est.) means it is based on the previous edition; the new call is not out yet."
 TIME_ESTIMATE_TOOLTIP = (
     "Official day; exact hour/timezone unannounced. "
     "Countdown uses a provisional calendar time."
@@ -379,14 +380,19 @@ def _star_button(conference: dict[str, Any]) -> str:
 
 
 def _archival_tag(conference: dict[str, Any]) -> str:
-    """Series-level archival option (ADR-047); nothing when not checked yet."""
+    """Series-level archival option (ADR-047) as a small tag under the status
+    (Upcoming Deadlines) or the dates (Conferences); nothing when not checked
+    yet. The tip uses the instant data-tip bubble, not a native `title`."""
     value = conference.get("_archival")
     label = archival_label(value)
     if not label:
         return ""
-    if value["archival"]:
-        return f'<span class="archival-tag" title="{_attr(ARCHIVAL_TOOLTIP)}">{escape(label)}</span>'
-    return f'<span class="archival-tag archival-tag-no">{escape(label)}</span>'
+    tip = ARCHIVAL_TOOLTIP if value["archival"] else ""
+    if value["estimated"]:
+        tip = f"{tip} {ARCHIVAL_ESTIMATE_TIP}".strip()
+    classes = "archival-tag" + ("" if value["archival"] else " archival-tag-no")
+    tip_attrs = f' tabindex="0" data-tip="{_attr(tip)}"' if tip else ""
+    return f'<span class="{classes}"{tip_attrs}>{escape(label)}</span>'
 
 
 def _archival_filter() -> str:
@@ -644,11 +650,11 @@ def _deadline_group_rows(
             f'<tr class="deadline-group-row" id="deadline-{_attr(group_id)}" '
             f'{_filter_attributes(conference, search_text, icore, ccf, rates)} '
             f'data-deadline-group="{_attr(group_id)}" data-expanded="false">'
-            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}{_archival_tag(conference)}</td>"
+            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}</td>"
             '<td data-label="Submission status"><div class="status-cell">'
             '<span class="submission-status" data-submission-status>Checking...</span>'
             '<span class="next-step" data-next-step hidden></span>'
-            f'{successor_html}</div></td>'
+            f'{successor_html}{_archival_tag(conference)}</div></td>'
             '<td data-label="Time left"><div class="time-left-cell">'
             '<span class="time-left" data-time-left aria-hidden="true">&mdash;</span>'
             '<span class="visually-hidden" data-time-left-sr></span>'
@@ -686,8 +692,8 @@ def _conference_rows(
         rows.append(
             f'<tr id="conference-{_attr(stable_slug(conference["id"]))}" '
             f'{_filter_attributes(conference, search_text, icore, ccf, rates, include_deadlines=False)} data-conference-row>'
-            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}{_archival_tag(conference)}</td>"
-            f"<td data-label=\"Dates\">{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}{date_estimate}</td>"
+            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}</td>"
+            f"<td data-label=\"Dates\">{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}{date_estimate}{_archival_tag(conference)}</td>"
             f"<td data-label=\"Location\">{escape(conference.get('location', 'TBD'))}</td>"
             f"<td class=\"mobile-detail\" data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f'<td class="mobile-detail" data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'

@@ -1042,10 +1042,20 @@ explicit refinements take precedence. Current rules live in
   `data/archival_options.yml` (144 yes, 30 no) and the evidence file
   `project_docs/archival_research/archival_options_2026-11-05.json`. Entries
   may also carry an optional `venue` (publisher or proceedings) and `note`.
-  The tag sits in the Conference cell after the star, so mobile cards show it
-  without a new column; the filter is a full-width row under the filter grid
-  with the approved description as visible text. Deadline events carry it on
-  their Format line: "Format: ...; Archival option: Yes (est.)". `maintenance_report.py` adds an "Archival option" backlog:
+  Placement (owner, 2026-11-05, after first release): the Conference cell
+  holds only the name and star. The tag sits under the submission status in
+  Upcoming Deadlines (visible on collapsed phone cards) and under the dates
+  in Conferences & Map; no column was added (a separate column was
+  considered and dropped to save width). Tips use a shared instant bubble
+  (`data-tip`, `initializeTips` in site.js) that opens on hover, keyboard
+  focus or tap, because native `title` tips wait about a second, are missing
+  in some embedded browsers and never show on phones. A confirmed
+  "Non-archival" tag has no tip; estimates add "(est.) means it is based on
+  the previous edition; the new call is not out yet." from the approved
+  filter text. The filter is a full-width row under the filter grid with the
+  approved description as visible text. Deadline events carry the value on
+  their Format line: "Format: ...; Archival option: Yes (est.)".
+  `maintenance_report.py` adds an "Archival option" backlog:
   series with a new-paper route and no value, values read from an older call
   while a newer edition has confirmed dates, and estimated values.
 - Alternatives considered: per-track archival marks (more precise, more

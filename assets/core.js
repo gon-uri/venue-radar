@@ -658,6 +658,7 @@ clearFilters.addEventListener("click", () => {
 });
 initializeMobileCards();
 initializeCalendarMenu();
+initializeTips();
 renderLocalTimes();
 readUrlState();
 renderStars();

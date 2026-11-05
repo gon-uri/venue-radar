@@ -106,7 +106,11 @@ Approved with ADR-040:
   shown belongs to an archival track. (est.) means it is based on the previous
   edition; the new call is not out yet."
 - Row and card tags: "Archival option", "Archival option (est.)",
-  "Non-archival", "Non-archival (est.)"; no tag when not checked yet.
+  "Non-archival", "Non-archival (est.)"; no tag when not checked yet. Shown
+  under the submission status (Upcoming Deadlines) or the dates (Conferences
+  & Map); the Conference cell holds only the name and star (owner,
+  2026-11-05). Estimated tags append the filter text's "(est.) means it is
+  based on the previous edition; the new call is not out yet." to the tip.
 - Tag tooltip: "At least one track for new papers offers archival
   publication; you may need to choose it when submitting. Check which track
   the deadline shown belongs to."

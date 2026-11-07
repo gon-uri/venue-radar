@@ -172,6 +172,14 @@ events (996 total). Workbook re-import matches all 176/43/125 source rows,
 with three native tables, no formula errors and inspected previews. This
 validates the edited facts and outputs, not unreviewed organizer announcements.
 
+Published as `c6edd4a` on `main`; GitHub
+[Build 42390324881](https://github.com/gon-uri/venue-radar/actions/runs/42390324881)
+and [Pages 42390324198](https://github.com/gon-uri/venue-radar/actions/runs/42390324198)
+passed. Live HTML, four aggregate feeds, the five edited edition feeds and
+their five series feeds match local bytes. The full live browser suite passes
+at all six widths, including the November industry-route transitions. This
+publication note changes no data, workbook, site assets or generated output.
+
 Catalog release `8b351a3` passed 81 Python tests, the full browser suite at
 1440/1051/1050/768/390/320px, workbook re-import/render checks, deterministic
 builds and ICS CRLF/folding/UID checks. Every existing event in the prior 187

@@ -58,6 +58,24 @@ export async function checkSubmissionBehavior(page) {
   await page.locator('#open-only').check();
   assert(!(await aamas.isVisible()), 'A passed abstract gate must close the future paper route');
   await page.locator('#open-only').uncheck();
+  await setClock('2026-11-07T12:00:00Z');
+  for (const id of ['naacl-2027', 'coling-2027']) {
+    const row = page.locator(`[data-deadline-group][data-edition="${id}"]`);
+    assert.equal(await status(row).innerText(), 'Submission opportunity');
+    assert.equal(await summary(row).getAttribute('data-deadline-type'), 'regular_paper');
+    assert.match(await summary(row).innerText(), /Industry-track/);
+  }
+  for (const id of ['sigir-2027', 'ieee-ner-2027']) {
+    const row = page.locator(`[data-deadline-group][data-edition="${id}"]`);
+    assert.equal(await status(row).innerText(), 'Submission opportunity');
+  }
+  assert.equal(await status(estimated).innerText(), 'Submission opportunity (estimated)');
+  await setClock('2026-11-14T12:00:00Z');
+  const naacl = page.locator('[data-deadline-group][data-edition="naacl-2027"]');
+  const coling = page.locator('[data-deadline-group][data-edition="coling-2027"]');
+  assert.equal(await status(naacl).innerText(), 'Closed to new submissions');
+  assert.equal(await timeLeft(naacl).innerText(), 'Closed');
+  assert.equal(await status(coling).innerText(), 'Submission opportunity');
   await setClock('2026-10-07T12:00:00Z');
 
   const cases = await page.evaluate(() => {

@@ -12,38 +12,36 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270324T065900Z
-DTEND:20270324T075900Z
-SUMMARY:IEEE NER 2027 (est.) · 6-page paper submission deadline
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IEEE NER 2027 · 6-page paper submission deadline
 DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
- ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: estimated\, checked
-  2026-10-28. Check the organizer's call before relying on it.\nFormat: Pa
- per-based / engineering-focused\; Archival option: Yes (est.)\nPrevious e
- dition's page: https://neuro.embs.org/2025/wp-content/uploads/sites/113/2
- 025/04/NER-25-CFPv.6.pdf\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#ieee-ner-2027
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-07\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Healthcare & Clinical AI
-URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
- -CFPv.6.pdf
+URL:https://neuro.embs.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270525T065900Z
-DTEND:20270525T075900Z
-SUMMARY:IEEE NER 2027 (est.) · Late-breaking 1-page abstract deadline
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:IEEE NER 2027 · 1-page abstract submission deadline
 DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
- ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: estimated\, checked
-  2026-10-28. Check the organizer's call before relying on it.\nFormat: Pa
- per-based / engineering-focused\; Archival option: Yes (est.)\nPrevious e
- dition's page: https://neuro.embs.org/2025/wp-content/uploads/sites/113/2
- 025/04/NER-25-CFPv.6.pdf\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#ieee-ner-2027
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-07\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Healthcare & Clinical AI
-URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
- -CFPv.6.pdf
+URL:https://neuro.embs.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ner-2027-conference@scientific-conference-calendar
@@ -52,14 +50,16 @@ DTSTART;VALUE=DATE:20270907
 DTEND;VALUE=DATE:20270911
 SUMMARY:IEEE NER 2027 · Conference
 DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nStatu
- s: confirmed\, checked 2026-10-28\nOfficial source: https://neuro.embs.or
+ s: confirmed\, checked 2026-11-07\nOfficial source: https://neuro.embs.or
  g/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-202
- 7\nNotes: The official NER 2027 site (13th edition) confirms Milan\, Sep 
- 7-10\, 2027\; as of 2026-10-28 its Call for Papers link is a placeholder 
- and no deadlines are posted. Both dates are proxies from the 2025 CFP lea
- d times (6-page paper 168 days\, 1-page abstract 106 days before the meet
- ing)\; cutoff hour and zone are unknown. ieee-ner.org still shows 2023 co
- ntent.
+ 7\nNotes: The official NER 2027 schedule confirms Milan\, Sep 7-10\, 2027
+ \, with 6-page papers due Mar 15 and independent 1-page abstracts due Jun
+  2. The 2027 schedule also lists proposals Nov 30\, 2026\, paper decision
+ s May 15\, final papers Jun 2 and abstract decisions Jun 18. No cutoff ho
+ ur is attached to the 2027 block\; the page's repeated 2022 template date
+ s and PST statements are not evidence for a 2027 clock. Both tracked cuto
+ ffs are date-only\; no portal opening is inferred. The retained 2025 CFP 
+ documents the superseded proxy\, not the current deadlines.
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Healthcare & Clinical AI
 URL:https://neuro.embs.org/2027/

@@ -247,8 +247,11 @@ try {
   await page.locator('#open-only').check();
   for (const [date, id, expected] of [
     ['2026-10-07', 'www-2027', true],
-    ['2026-10-13', 'naacl-2027', false],
-    ['2026-10-13', 'coling-2027', false],
+    ['2026-10-13', 'naacl-2027', true],  // Independent industry routes do not use ARR.
+    ['2026-10-13', 'coling-2027', true],
+    ['2026-11-14', 'naacl-2027', false],
+    ['2026-11-30', 'coling-2027', true],
+    ['2026-12-01', 'coling-2027', false],
     ['2026-10-20', 'ecir-2027', true],
     ['2026-11-03', 'ecir-2027', false],
     ['2026-12-05', 'rss-2027', false],
@@ -312,7 +315,7 @@ try {
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '148 confirmed editions in 113 cities');  // +37 editions, +24 cities from the 2026-10-31 additions (ASLI: Singapore)
+  assert.equal(await page.locator('#map-count').innerText(), '149 confirmed editions in 113 cities');  // ICML 2027's confirmed Rio meeting joins the existing city marker.
   assert.equal(await page.locator('.city-marker').count(), 113);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();

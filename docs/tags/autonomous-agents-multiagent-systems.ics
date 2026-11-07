@@ -637,7 +637,7 @@ DTEND:20261013T125900Z
 SUMMARY:NAACL 2027 · ARR paper submission deadline
 DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  ation for Computational Linguistics\nMeeting: 2027-06-01 to 2027-06-05\, 
- San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
+ San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-07\
  nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://202
  7.naacl.org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.g
  ithub.io/venue-radar/#naacl-2027
@@ -720,6 +720,23 @@ URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
 BEGIN:VEVENT
+UID:naacl-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261114T115900Z
+DTEND:20261114T125900Z
+SUMMARY:NAACL 2027 · Industry-track paper submission (extended\; separate 
+ from ARR)
+DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
+ ation for Computational Linguistics\nMeeting: 2027-06-01 to 2027-06-05\, 
+ San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-07\
+ nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://202
+ 7.naacl.org/calls/industry_track/\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#naacl-2027
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
+ tion Retrieval & Search,Deep Representation Learning
+URL:https://2027.naacl.org/calls/industry_track/
+END:VEVENT
+BEGIN:VEVENT
 UID:naacl-2027-deadline-commitment@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261224T115900Z
@@ -727,7 +744,7 @@ DTEND:20261224T125900Z
 SUMMARY:NAACL 2027 · Commitment of ARR-reviewed papers
 DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  ation for Computational Linguistics\nMeeting: 2027-06-01 to 2027-06-05\, 
- San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
+ San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-07\
  nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://202
  7.naacl.org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.g
  ithub.io/venue-radar/#naacl-2027
@@ -793,7 +810,7 @@ DTEND:20270304T125900Z
 SUMMARY:NAACL 2027 · Camera-ready deadline
 DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  ation for Computational Linguistics\nMeeting: 2027-06-01 to 2027-06-05\, 
- San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
+ San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-07\
  nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://202
  7.naacl.org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.g
  ithub.io/venue-radar/#naacl-2027
@@ -997,12 +1014,16 @@ DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270606
 SUMMARY:NAACL 2027 · Conference
 DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
- ation for Computational Linguistics\nStatus: confirmed\, checked 2026-10-
+ ation for Computational Linguistics\nStatus: confirmed\, checked 2026-11-
  07\nOfficial source: https://2027.naacl.org/\nVenue Radar: https://gon-ur
  i.github.io/venue-radar/#naacl-2027\nNotes: Formerly North American Chapt
  er\; retains NAACL acronym. Shares October ARR cycle with COLING\, but au
  thors may commit to only one primary venue. Commitment is not a fresh-pap
- er route. Size is an editorial estimate.
+ er route. The independent 6-page Industry Track accepts original deployed
+ -system papers from academic and industry authors\, without ARR\; its exp
+ licit extension to Nov 13 supersedes the old Oct 31 table\, and the homep
+ age agrees. Both use 23:59 AoE. No portal opening has been verified. Size
+  is an editorial estimate.
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/

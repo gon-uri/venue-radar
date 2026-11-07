@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-11-05. This is the current-state summary, not a release
+Last synchronized: 2026-11-07. This is the current-state summary, not a release
 history. Start with [the documentation index](README.md); technical history
 remains in [decisions](decisions.md). Detailed local working notes follow the
 [documentation policy](documentation_policy.md) and are not required to onboard.
@@ -17,8 +17,8 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Detailed scopes | 125 reviewed profiles; 51 series still lack a reviewed profile. |
 | Evidence maps | 83 direct ICORE 2026 ranks, 67 direct CCF 2026 ranks, 49 historical rate/qualitative-band entries. |
 | Archival option | ADR-047 shipped 2026-11-05: 174 of 176 series have a sourced value (144 Yes, 30 No; Dynamics Days CAC and ICCN not checked yet, neither with an open deadline). Row/card tag, one filter (`archival=1`) and a Format-line value in feeds. Evidence: `project_docs/archival_research/`. |
-| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 891 KB (ADR-045: Notes once per edition; ADR-047 added the archival value); a test keeps every feed below 1 MB. |
-| Review mirror | XLSX catalog/vocabulary/scope tables synchronized from YAML through 2026-10-29; the owner said on 2026-10-31 that they no longer use the workbook. ECC and the 44 related-venue series have no rows (the sync helper's optional `@oai/artifact-tool` cannot be installed from public npm). Retiring the workbook is an open decision. |
+| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 892,875 bytes (ADR-045: Notes once per edition; ADR-047 added the archival value); a test keeps every feed below 1 MB. |
+| Review mirror | Restored from canonical YAML on 2026-11-07 using the now-available bundled artifact tool: 176 catalog rows, 43 vocabulary rows and 125 scope profiles, with three native tables and saved-file re-import checks. The owner said on 2026-10-31 that they no longer use it; retirement remains an open decision, not an authorization to delete it. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
 Counts are a dated catalog snapshot. Recompute them from canonical files after
@@ -116,6 +116,13 @@ adds ignore/tracking checks and keeps onboarding independent of private notes.
 
 ## Open Editorial Work
 
+The [November review](monthly_review_2026-11-07.md) corrects five editions:
+ICML's Rio meeting is confirmed but its call remains estimated; NER replaces
+two proxies with official date-only cutoffs; SIGIR finalizes its main-paper
+dates; NAACL and COLING gain independent industry-paper routes. The 30-day
+edition queue falls from 131 to 127. Unreadable and unannounced sources are
+not recertified; the acceptance, scope and archival backlogs remain separate.
+
 - Review future estimates and stale checks against current official CFPs about
   monthly. Validation confirms structure/provenance presence, not factual accuracy.
 - Complete the 51 missing scope profiles gradually (the 44 related-venue additions all have one); curate characteristic
@@ -151,6 +158,19 @@ and [roadmap](roadmap.md). Further venue additions and UI/taxonomy changes still
 follow the user's approved scope.
 
 ## Verification Baseline
+
+The 2026-11-07 [monthly review](monthly_review_2026-11-07.md) passes standalone
+validation (260 editions), all 189 Python and 33 Node tests, the combined
+release gate (two byte-identical builds, staged output, freshness, whitespace
+and private-note checks) and full browser smoke at all six maintained widths.
+The November industry-route closing transitions are explicitly tested; current
+and prior-call evidence fixtures remain distinct. The confirmed map gains ICML
+(149 editions in 113 cities on the frozen reference date). All 483 feeds pass
+UTF-8/CRLF/folding/UID/balance/size checks. Identity check against `c1a1c73`
+preserves all 260 editions and all 994 published UIDs, adding two industry-paper
+events (996 total). Workbook re-import matches all 176/43/125 source rows,
+with three native tables, no formula errors and inspected previews. This
+validates the edited facts and outputs, not unreviewed organizer announcements.
 
 Catalog release `8b351a3` passed 81 Python tests, the full browser suite at
 1440/1051/1050/768/390/320px, workbook re-import/render checks, deterministic

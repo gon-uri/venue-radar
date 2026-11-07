@@ -98,9 +98,10 @@ export async function checkMoreFeatures(page, url) {
   assert.equal(report.searchParams.get('template'), 'correction.yml');
   assert.equal(report.searchParams.get('edition'), 'aamas-2027');
   await row('aamas-2027').locator('.deadline-toggle').click();
-  await row('icml-2027').locator('.deadline-toggle').click();
-  assert.match(await row('icml-2027').locator('.evidence-line').innerText(), /Previous call.*Dates estimated/s);
-  await row('icml-2027').locator('.deadline-toggle').click();
+  // ICML's meeting is now confirmed; UAI remains a prior-call/meeting proxy.
+  await row('uai-2027').locator('.deadline-toggle').click();
+  assert.match(await row('uai-2027').locator('.evidence-line').innerText(), /Previous call.*Dates estimated/s);
+  await row('uai-2027').locator('.deadline-toggle').click();
   // A row without a schedule toggle shows its evidence line directly.
   await page.locator('#open-only').uncheck();
   assert.equal(await row('iccn-2026').locator('.deadline-toggle').count(), 0);

@@ -1138,18 +1138,18 @@
   relevance: "high"
   deadlines:
     - type: "full_paper"
-      label: "Estimated 6-page paper submission deadline"
-      datetime: "2027-03-23T23:59:00-07:00"
-      confidence: "estimated"
-      source_url: "https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf"
+      label: "6-page paper submission deadline"
+      datetime: "2027-03-15T23:59:00-12:00"
+      time_precision: "date"
+      source_url: "https://neuro.embs.org/2027/"
     - type: "abstract"
-      label: "Estimated late-breaking 1-page abstract deadline"
-      datetime: "2027-05-24T23:59:00-07:00"
-      confidence: "estimated"
-      source_url: "https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf"
-  last_checked: "2026-10-28"
+      label: "1-page abstract submission deadline"
+      datetime: "2027-06-02T23:59:00-12:00"
+      time_precision: "date"
+      source_url: "https://neuro.embs.org/2027/"
+  last_checked: "2026-11-07"
   confidence: "confirmed"
-  notes: "The official NER 2027 site (13th edition) confirms Milan, Sep 7-10, 2027; as of 2026-10-28 its Call for Papers link is a placeholder and no deadlines are posted. Both dates are proxies from the 2025 CFP lead times (6-page paper 168 days, 1-page abstract 106 days before the meeting); cutoff hour and zone are unknown. ieee-ner.org still shows 2023 content."
+  notes: "The official NER 2027 schedule confirms Milan, Sep 7-10, 2027, with 6-page papers due Mar 15 and independent 1-page abstracts due Jun 2. The 2027 schedule also lists proposals Nov 30, 2026, paper decisions May 15, final papers Jun 2 and abstract decisions Jun 18. No cutoff hour is attached to the 2027 block; the page's repeated 2022 template dates and PST statements are not evidence for a 2027 clock. Both tracked cutoffs are date-only; no portal opening is inferred. The retained 2025 CFP documents the superseded proxy, not the current deadlines."
 
 - id: "international-bci-meeting-2027"
   series: "International BCI Meeting"
@@ -2529,16 +2529,19 @@
   year: 2027
   title: International Conference on Machine Learning
   short_title: ICML 2027
-  website: https://icml.cc/Conferences/FutureMeetings
-  cfp_url: https://icml.cc/Conferences/2026/CallForPapers
+  website: https://icml.cc/Conferences/2027
+  cfp_url: https://icml.cc/Conferences/2027/CallForPapers
   source_urls:
+  - https://icml.cc/Conferences/2027
+  - https://icml.cc/Conferences/2027/Dates
+  - https://icml.cc/Conferences/2027/CallForPapers
   - https://icml.cc/Conferences/FutureMeetings
   - https://icml.cc/Conferences/2026/Dates
-  location: South America (city to be announced)
+  location: Rio de Janeiro, Brazil
   mode: in-person
-  conference_start: '2027-07-06'
-  conference_end: '2027-07-11'
-  timezone: Etc/GMT+12
+  conference_start: '2027-07-31'
+  conference_end: '2027-08-06'
+  timezone: America/Sao_Paulo
   topics:
   - Machine Learning
   - Learning Theory & Statistical Foundations
@@ -2564,11 +2567,13 @@
     datetime: '2027-02-13T23:59:00-12:00'
     source_url: https://icml.cc/Conferences/2026/Dates
     confidence: estimated
-  last_checked: '2026-10-28'
-  confidence: estimated
-  notes: As of 2026-10-28 ICML's Future Meetings page lists 2027 only as South America;
-    no 2027 site, host city, dates or call has been published (icml.cc/Conferences/2027
-    returns 404). Dates are annual-cadence proxies from the 2026 edition.
+  last_checked: '2026-11-07'
+  confidence: confirmed
+  notes: The new official ICML 2027 site and Dates page confirm Riocentro, Rio de
+    Janeiro, July 31-August 6 (Expo July 31, tutorials August 1, main conference
+    August 2-4, workshops August 5-6). The 2027 CFP is still marked coming soon;
+    the retained January submission and February workshop dates remain explicitly
+    estimated calendar proxies from ICML 2026, not confirmed 2027 cutoffs.
 - id: uai-2027
   series: UAI
   year: 2027
@@ -4905,6 +4910,7 @@
   source_urls:
   - https://2027.naacl.org/
   - https://2027.naacl.org/calls/main_conference_papers/
+  - https://2027.naacl.org/calls/industry_track/
   location: San Francisco, California, USA
   mode: hybrid
   conference_start: '2027-06-01'
@@ -4923,6 +4929,10 @@
     label: ARR paper submission deadline
     datetime: '2026-10-12T23:59:00-12:00'
     source_url: https://2027.naacl.org/calls/main_conference_papers/
+  - type: regular_paper
+    label: Industry-track paper submission (extended; separate from ARR)
+    datetime: '2026-11-13T23:59:00-12:00'
+    source_url: https://2027.naacl.org/calls/industry_track/
   - type: commitment
     label: Commitment of ARR-reviewed papers
     datetime: '2026-12-23T23:59:00-12:00'
@@ -4931,11 +4941,14 @@
     label: Camera-ready deadline
     datetime: '2027-03-03T23:59:00-12:00'
     source_url: https://2027.naacl.org/calls/main_conference_papers/
-  last_checked: '2026-10-07'
+  last_checked: '2026-11-07'
   confidence: confirmed
   notes: Formerly North American Chapter; retains NAACL acronym. Shares October ARR cycle with
     COLING, but authors may commit to only one primary venue. Commitment is not a fresh-paper
-    route. Size is an editorial estimate.
+    route. The independent 6-page Industry Track accepts original deployed-system papers
+    from academic and industry authors, without ARR; its explicit extension to Nov 13
+    supersedes the old Oct 31 table, and the homepage agrees. Both use 23:59 AoE.
+    No portal opening has been verified. Size is an editorial estimate.
 - id: coling-2027
   series: COLING
   year: 2027
@@ -4946,6 +4959,7 @@
   source_urls:
   - https://2027.coling-iccl.org/
   - https://2027.coling-iccl.org/calls/main_conference_papers/
+  - https://2027.coling-iccl.org/calls/industry_track/
   location: Macau, China
   mode: hybrid
   conference_start: '2027-05-09'
@@ -4964,15 +4978,22 @@
     label: ARR paper submission deadline
     datetime: '2026-10-12T23:59:00-12:00'
     source_url: https://2027.coling-iccl.org/calls/main_conference_papers/
+  - type: regular_paper
+    label: Industry-track paper submission (separate from ARR)
+    datetime: '2026-11-30T23:59:00-12:00'
+    source_url: https://2027.coling-iccl.org/calls/industry_track/
   - type: commitment
     label: Commitment of ARR-reviewed papers
     datetime: '2026-12-23T23:59:00-12:00'
     source_url: https://2027.coling-iccl.org/calls/main_conference_papers/
-  last_checked: '2026-10-07'
+  last_checked: '2026-11-07'
   confidence: confirmed
   notes: Main in-person window May 9-14; separate virtual sessions May 6-7. Shared ARR cycle
     with NAACL does not permit dual commitment. Recent COLING cadence is irregular; no automatic
-    annual forecast. Size is an editorial estimate.
+    annual forecast. The independent Industry Track accepts original 6-page deployed-system
+    papers from academic and industry authors until Nov 30 at 23:59 AoE; it does not
+    require the passed ARR submission. No portal opening has been verified. Size is an
+    editorial estimate.
 - id: conll-2026
   series: CoNLL
   year: 2026
@@ -5174,30 +5195,32 @@
   relevance: high
   deadlines:
   - type: abstract
-    label: Proposed full-paper abstract deadline
+    label: Full-paper abstract deadline
     datetime: '2027-01-14T23:59:00-12:00'
     source_url: https://sigir2027.org/pages/submit-full.html
     gate_for: full_paper
-    confidence: estimated
+    confidence: confirmed
     time_precision: date
   - type: full_paper
-    label: Proposed full paper submission deadline
+    label: Full paper submission deadline
     datetime: '2027-01-21T23:59:00-12:00'
     source_url: https://sigir2027.org/pages/submit-full.html
-    confidence: estimated
+    confidence: confirmed
     time_precision: date
   - type: camera_ready
-    label: Proposed camera-ready deadline
+    label: Camera-ready deadline
     datetime: '2027-04-30T23:59:00-12:00'
     source_url: https://sigir2027.org/pages/submit-full.html
-    confidence: estimated
+    confidence: confirmed
     time_precision: date
-  last_checked: '2026-10-28'
+  last_checked: '2026-11-07'
   confidence: confirmed
   notes: Official site now consistently gives July 19-24 (main conference Jul 20-22, ICTIR Jul 24)
-    at Signia by Hilton San Jose; CFP says in-person. Full-paper AoE dates are labelled PROPOSED;
-    the abstract is mandatory. A Perspectives page lists Jan 28 abstract/Feb 4 paper but still cites
-    SIGIR 2026 and the homepage says TBA, so that track is not yet tracked. Size is an editorial estimate.
+    at Signia by Hilton San Jose; CFP says in-person. The current full-paper call no longer
+    labels its dates PROPOSED (mandatory abstract Jan 14, paper Jan 21, camera-ready Apr 30).
+    The header specifies AoE but no clock, so date-only precision is retained. The
+    submission link is still to come; a finalized CFP is not proof of an open portal.
+    Other tracks need their own final calls. Size is an editorial estimate.
 - id: ecir-2027
   series: ECIR
   year: 2027

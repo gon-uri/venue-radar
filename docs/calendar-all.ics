@@ -5159,7 +5159,7 @@ DTEND:20261013T125900Z
 SUMMARY:COLING 2027 · ARR paper submission deadline
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -5221,7 +5221,7 @@ DTEND:20261013T125900Z
 SUMMARY:NAACL 2027 · ARR paper submission deadline
 DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  ation for Computational Linguistics\nMeeting: 2027-06-01 to 2027-06-05\, 
- San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
+ San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-07\
  nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://202
  7.naacl.org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.g
  ithub.io/venue-radar/#naacl-2027
@@ -6405,6 +6405,23 @@ CATEGORIES:Machine Learning,Control & Robotics,System Identification & Data
 URL:https://l4dc2027.control.ee.ethz.ch/author-information
 END:VEVENT
 BEGIN:VEVENT
+UID:naacl-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261114T115900Z
+DTEND:20261114T125900Z
+SUMMARY:NAACL 2027 · Industry-track paper submission (extended\; separate 
+ from ARR)
+DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
+ ation for Computational Linguistics\nMeeting: 2027-06-01 to 2027-06-05\, 
+ San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-07\
+ nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://202
+ 7.naacl.org/calls/industry_track/\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#naacl-2027
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
+ tion Retrieval & Search,Deep Representation Learning
+URL:https://2027.naacl.org/calls/industry_track/
+END:VEVENT
+BEGIN:VEVENT
 UID:fg-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261115T115900Z
@@ -7065,6 +7082,21 @@ DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
 CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
   Science,Fairness & Responsible AI
 URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261201T115900Z
+DTEND:20261201T125900Z
+SUMMARY:COLING 2027 · Industry-track paper submission (separate from ARR)
+DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
+  2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
+ 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ tps://2027.coling-iccl.org/calls/industry_track/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#coling-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ Knowledge Representation & Reasoning,LLM Agents & Tool Use
+URL:https://2027.coling-iccl.org/calls/industry_track/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcnn-2027-deadline-tutorial-proposal@scientific-conference-calendar
@@ -7904,7 +7936,7 @@ DTEND:20261224T125900Z
 SUMMARY:COLING 2027 · Commitment of ARR-reviewed papers
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -7937,7 +7969,7 @@ DTEND:20261224T125900Z
 SUMMARY:NAACL 2027 · Commitment of ARR-reviewed papers
 DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  ation for Computational Linguistics\nMeeting: 2027-06-01 to 2027-06-05\, 
- San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
+ San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-07\
  nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://202
  7.naacl.org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.g
  ithub.io/venue-radar/#naacl-2027
@@ -8169,15 +8201,14 @@ UID:sigir-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
-SUMMARY:SIGIR 2027 (est.) · Proposed full-paper abstract deadline
+SUMMARY:SIGIR 2027 · Full-paper abstract deadline
 DESCRIPTION:ACM International Conference on Research and Development in Inf
  ormation Retrieval\nMeeting: 2027-07-19 to 2027-07-24\, San Jose\, Califo
- rnia\, USA\nStatus: estimated\, checked 2026-10-28. Check the organizer's
-  call before relying on it.\nEstimated day only\; no cutoff hour stored. 
- Check the organizer's call for the real date and time.\nFormat: Paper-bas
- ed\; Archival option: Yes\nOfficial source: https://sigir2027.org/pages/s
- ubmit-full.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#sigi
- r-2027
+ rnia\, USA\nStatus: confirmed\, checked 2026-11-07\nCutoff time unannounc
+ ed: official deadline day only. Verify the organizer's submission portal.
+ \nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://si
+ gir2027.org/pages/submit-full.html\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#sigir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/pages/submit-full.html
@@ -8542,15 +8573,14 @@ UID:sigir-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
-SUMMARY:SIGIR 2027 (est.) · Proposed full paper submission deadline
+SUMMARY:SIGIR 2027 · Full paper submission deadline
 DESCRIPTION:ACM International Conference on Research and Development in Inf
  ormation Retrieval\nMeeting: 2027-07-19 to 2027-07-24\, San Jose\, Califo
- rnia\, USA\nStatus: estimated\, checked 2026-10-28. Check the organizer's
-  call before relying on it.\nEstimated day only\; no cutoff hour stored. 
- Check the organizer's call for the real date and time.\nFormat: Paper-bas
- ed\; Archival option: Yes\nOfficial source: https://sigir2027.org/pages/s
- ubmit-full.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#sigi
- r-2027
+ rnia\, USA\nStatus: confirmed\, checked 2026-11-07\nCutoff time unannounc
+ ed: official deadline day only. Verify the organizer's submission portal.
+ \nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://si
+ gir2027.org/pages/submit-full.html\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#sigir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/pages/submit-full.html
@@ -8653,11 +8683,11 @@ DTSTART:20270124T115900Z
 DTEND:20270124T125900Z
 SUMMARY:ICML 2027 (est.) · Abstract submission deadline
 DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
- 06 to 2027-07-11 (est.)\, South America (city to be announced)\nStatus: e
- stimated\, checked 2026-10-28. Check the organizer's call before relying 
- on it.\nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious editi
- on's page: https://icml.cc/Conferences/2026/Dates\nVenue Radar: https://g
- on-uri.github.io/venue-radar/#icml-2027
+ 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: estimated\, checked 2
+ 026-11-07. Check the organizer's call before relying on it.\nFormat: Pape
+ r-based\; Archival option: Yes (est.)\nPrevious edition's page: https://i
+ cml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#icml-2027
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
@@ -8832,11 +8862,11 @@ DTSTART:20270129T115900Z
 DTEND:20270129T125900Z
 SUMMARY:ICML 2027 (est.) · Full paper submission deadline
 DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
- 06 to 2027-07-11 (est.)\, South America (city to be announced)\nStatus: e
- stimated\, checked 2026-10-28. Check the organizer's call before relying 
- on it.\nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious editi
- on's page: https://icml.cc/Conferences/2026/Dates\nVenue Radar: https://g
- on-uri.github.io/venue-radar/#icml-2027
+ 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: estimated\, checked 2
+ 026-11-07. Check the organizer's call before relying on it.\nFormat: Pape
+ r-based\; Archival option: Yes (est.)\nPrevious edition's page: https://i
+ cml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#icml-2027
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
@@ -9386,11 +9416,11 @@ DTSTART:20270214T115900Z
 DTEND:20270214T125900Z
 SUMMARY:ICML 2027 (est.) · Workshop application deadline
 DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
- 06 to 2027-07-11 (est.)\, South America (city to be announced)\nStatus: e
- stimated\, checked 2026-10-28. Check the organizer's call before relying 
- on it.\nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious editi
- on's page: https://icml.cc/Conferences/2026/Dates\nVenue Radar: https://g
- on-uri.github.io/venue-radar/#icml-2027
+ 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: estimated\, checked 2
+ 026-11-07. Check the organizer's call before relying on it.\nFormat: Pape
+ r-based\; Archival option: Yes (est.)\nPrevious edition's page: https://i
+ cml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#icml-2027
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
@@ -9841,7 +9871,7 @@ DTEND:20270304T125900Z
 SUMMARY:NAACL 2027 · Camera-ready deadline
 DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
  ation for Computational Linguistics\nMeeting: 2027-06-01 to 2027-06-05\, 
- San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-10-07\
+ San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-07\
  nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://202
  7.naacl.org/calls/main_conference_papers/\nVenue Radar: https://gon-uri.g
  ithub.io/venue-radar/#naacl-2027
@@ -10275,6 +10305,23 @@ CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
 URL:https://ieeecec.org/2027/call-for-short-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IEEE NER 2027 · 6-page paper submission deadline
+DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-07\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Healthcare & Clinical AI
+URL:https://neuro.embs.org/2027/
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcnn-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270315
@@ -10599,24 +10646,6 @@ DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and
 CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
   Responsible AI
 URL:https://um.org/umap2027/call-for-industry-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270324T065900Z
-DTEND:20270324T075900Z
-SUMMARY:IEEE NER 2027 (est.) · 6-page paper submission deadline
-DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
- ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: estimated\, checked
-  2026-10-28. Check the organizer's call before relying on it.\nFormat: Pa
- per-based / engineering-focused\; Archival option: Yes (est.)\nPrevious e
- dition's page: https://neuro.embs.org/2025/wp-content/uploads/sites/113/2
- 025/04/NER-25-CFPv.6.pdf\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#ieee-ner-2027
-CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
- ,Healthcare & Clinical AI
-URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
- -CFPv.6.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-notification@scientific-conference-calendar
@@ -11772,15 +11801,14 @@ UID:sigir-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
-SUMMARY:SIGIR 2027 (est.) · Proposed camera-ready deadline
+SUMMARY:SIGIR 2027 · Camera-ready deadline
 DESCRIPTION:ACM International Conference on Research and Development in Inf
  ormation Retrieval\nMeeting: 2027-07-19 to 2027-07-24\, San Jose\, Califo
- rnia\, USA\nStatus: estimated\, checked 2026-10-28. Check the organizer's
-  call before relying on it.\nEstimated day only\; no cutoff hour stored. 
- Check the organizer's call for the real date and time.\nFormat: Paper-bas
- ed\; Archival option: Yes\nOfficial source: https://sigir2027.org/pages/s
- ubmit-full.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#sigi
- r-2027
+ rnia\, USA\nStatus: confirmed\, checked 2026-11-07\nCutoff time unannounc
+ ed: official deadline day only. Verify the organizer's submission portal.
+ \nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://si
+ gir2027.org/pages/submit-full.html\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#sigir-2027
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/pages/submit-full.html
@@ -12129,12 +12157,15 @@ DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270515
 SUMMARY:COLING 2027 · Conference
 DESCRIPTION:International Conference on Computational Linguistics\nStatus: 
- confirmed\, checked 2026-10-07\nOfficial source: https://2027.coling-iccl
+ confirmed\, checked 2026-11-07\nOfficial source: https://2027.coling-iccl
  .org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#coling-2027\nN
  otes: Main in-person window May 9-14\; separate virtual sessions May 6-7.
   Shared ARR cycle with NAACL does not permit dual commitment. Recent COLI
- NG cadence is irregular\; no automatic annual forecast. Size is an editor
- ial estimate.
+ NG cadence is irregular\; no automatic annual forecast. The independent I
+ ndustry Track accepts original 6-page deployed-system papers from academi
+ c and industry authors until Nov 30 at 23:59 AoE\; it does not require th
+ e passed ARR submission. No portal opening has been verified. Size is an 
+ editorial estimate.
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  Knowledge Representation & Reasoning,LLM Agents & Tool Use
 URL:https://2027.coling-iccl.org/
@@ -12549,24 +12580,6 @@ URL:https://biomedicalimaging.org/2027/
 LOCATION:Lausanne\, Switzerland
 END:VEVENT
 BEGIN:VEVENT
-UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270525T065900Z
-DTEND:20270525T075900Z
-SUMMARY:IEEE NER 2027 (est.) · Late-breaking 1-page abstract deadline
-DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
- ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: estimated\, checked
-  2026-10-28. Check the organizer's call before relying on it.\nFormat: Pa
- per-based / engineering-focused\; Archival option: Yes (est.)\nPrevious e
- dition's page: https://neuro.embs.org/2025/wp-content/uploads/sites/113/2
- 025/04/NER-25-CFPv.6.pdf\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#ieee-ner-2027
-CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
- ,Healthcare & Clinical AI
-URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
- -CFPv.6.pdf
-END:VEVENT
-BEGIN:VEVENT
 UID:icwsm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270526
@@ -12735,12 +12748,16 @@ DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270606
 SUMMARY:NAACL 2027 · Conference
 DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
- ation for Computational Linguistics\nStatus: confirmed\, checked 2026-10-
+ ation for Computational Linguistics\nStatus: confirmed\, checked 2026-11-
  07\nOfficial source: https://2027.naacl.org/\nVenue Radar: https://gon-ur
  i.github.io/venue-radar/#naacl-2027\nNotes: Formerly North American Chapt
  er\; retains NAACL acronym. Shares October ARR cycle with COLING\, but au
  thors may commit to only one primary venue. Commitment is not a fresh-pap
- er route. Size is an editorial estimate.
+ er route. The independent 6-page Industry Track accepts original deployed
+ -system papers from academic and industry authors\, without ARR\; its exp
+ licit extension to Nov 13 supersedes the old Oct 31 table\, and the homep
+ age agrees. Both use 23:59 AoE. No portal opening has been verified. Size
+  is an editorial estimate.
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/
@@ -12822,6 +12839,23 @@ CATEGORIES:Data Mining & Data Science,Machine Learning,Learning Theory & St
  atistical Foundations,Time Series & Sequential Data
 URL:https://web.archive.org/web/20260413203246/https://discovery-science.or
  g/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:IEEE NER 2027 · 1-page abstract submission deadline
+DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-07\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Healthcare & Clinical AI
+URL:https://neuro.embs.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:aaltd-2027-deadline-full-paper@scientific-conference-calendar
@@ -13740,25 +13774,6 @@ URL:https://probml.cc/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
-UID:icml-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270706
-DTEND;VALUE=DATE:20270712
-SUMMARY:ICML 2027 (est.) · Conference
-DESCRIPTION:International Conference on Machine Learning\nStatus: estimated
- \, checked 2026-10-28. Check the organizer's call before relying on it.\n
- Official source: https://icml.cc/Conferences/FutureMeetings\nVenue Radar:
-  https://gon-uri.github.io/venue-radar/#icml-2027\nNotes: As of 2026-10-2
- 8 ICML's Future Meetings page lists 2027 only as South America\; no 2027 
- site\, host city\, dates or call has been published (icml.cc/Conferences/
- 2027 returns 404). Dates are annual-cadence proxies from the 2026 edition
- .
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/FutureMeetings
-LOCATION:South America (city to be announced)
-END:VEVENT
-BEGIN:VEVENT
 UID:rldm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270706
@@ -14151,14 +14166,16 @@ DTSTART;VALUE=DATE:20270719
 DTEND;VALUE=DATE:20270725
 SUMMARY:SIGIR 2027 · Conference
 DESCRIPTION:ACM International Conference on Research and Development in Inf
- ormation Retrieval\nStatus: confirmed\, checked 2026-10-28\nOfficial sour
+ ormation Retrieval\nStatus: confirmed\, checked 2026-11-07\nOfficial sour
  ce: https://sigir2027.org/\nVenue Radar: https://gon-uri.github.io/venue-
  radar/#sigir-2027\nNotes: Official site now consistently gives July 19-24
   (main conference Jul 20-22\, ICTIR Jul 24) at Signia by Hilton San Jose\
- ; CFP says in-person. Full-paper AoE dates are labelled PROPOSED\; the ab
- stract is mandatory. A Perspectives page lists Jan 28 abstract/Feb 4 pape
- r but still cites SIGIR 2026 and the homepage says TBA\, so that track is
-  not yet tracked. Size is an editorial estimate.
+ ; CFP says in-person. The current full-paper call no longer labels its da
+ tes PROPOSED (mandatory abstract Jan 14\, paper Jan 21\, camera-ready Apr
+  30). The header specifies AoE but no clock\, so date-only precision is r
+ etained. The submission link is still to come\; a finalized CFP is not pr
+ oof of an open portal. Other tracks need their own final calls. Size is a
+ n editorial estimate.
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,Machine Learning
 URL:https://sigir2027.org/
@@ -14325,6 +14342,26 @@ DESCRIPTION:International Conference of the Biometrics Special Interest Gro
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Robustness & Safety,Privacy-preserving ML
 URL:https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270807
+SUMMARY:ICML 2027 · Conference
+DESCRIPTION:International Conference on Machine Learning\nStatus: confirmed
+ \, checked 2026-11-07\nOfficial source: https://icml.cc/Conferences/2027\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#icml-2027\nNotes: Th
+ e new official ICML 2027 site and Dates page confirm Riocentro\, Rio de J
+ aneiro\, July 31-August 6 (Expo July 31\, tutorials August 1\, main confe
+ rence August 2-4\, workshops August 5-6). The 2027 CFP is still marked co
+ ming soon\; the retained January submission and February workshop dates r
+ emain explicitly estimated calendar proxies from ICML 2026\, not confirme
+ d 2027 cutoffs.
+CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
+ Representation Learning,Time Series & Sequential Data
+URL:https://icml.cc/Conferences/2027
+LOCATION:Rio de Janeiro\, Brazil
 END:VEVENT
 BEGIN:VEVENT
 UID:asli-2027-deadline-sps-journal-paper@scientific-conference-calendar
@@ -14936,14 +14973,16 @@ DTSTART;VALUE=DATE:20270907
 DTEND;VALUE=DATE:20270911
 SUMMARY:IEEE NER 2027 · Conference
 DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nStatu
- s: confirmed\, checked 2026-10-28\nOfficial source: https://neuro.embs.or
+ s: confirmed\, checked 2026-11-07\nOfficial source: https://neuro.embs.or
  g/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-202
- 7\nNotes: The official NER 2027 site (13th edition) confirms Milan\, Sep 
- 7-10\, 2027\; as of 2026-10-28 its Call for Papers link is a placeholder 
- and no deadlines are posted. Both dates are proxies from the 2025 CFP lea
- d times (6-page paper 168 days\, 1-page abstract 106 days before the meet
- ing)\; cutoff hour and zone are unknown. ieee-ner.org still shows 2023 co
- ntent.
+ 7\nNotes: The official NER 2027 schedule confirms Milan\, Sep 7-10\, 2027
+ \, with 6-page papers due Mar 15 and independent 1-page abstracts due Jun
+  2. The 2027 schedule also lists proposals Nov 30\, 2026\, paper decision
+ s May 15\, final papers Jun 2 and abstract decisions Jun 18. No cutoff ho
+ ur is attached to the 2027 block\; the page's repeated 2022 template date
+ s and PST statements are not evidence for a 2027 clock. Both tracked cuto
+ ffs are date-only\; no portal opening is inferred. The retained 2025 CFP 
+ documents the superseded proxy\, not the current deadlines.
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Healthcare & Clinical AI
 URL:https://neuro.embs.org/2027/

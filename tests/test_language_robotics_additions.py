@@ -58,9 +58,7 @@ class LanguageRoboticsAdditionTests(unittest.TestCase):
             self.assertNotIn(series, CADENCE_YEARS)
 
     def test_proposed_and_proxy_dates_are_not_confirmed(self):
-        sigir = self.records['sigir-2027']
-        self.assertEqual(sigir['confidence'], 'confirmed')
-        self.assertTrue(all(d['confidence'] == 'estimated' for d in sigir['deadlines']))
+        # SIGIR finalized its call on the November review; unrelated proxies remain estimates.
         for key in ['colm-2027', 'conll-2027', 'iswc-2027', 'lrec-2028', 'smc-2027']:
             self.assertEqual(self.records[key]['confidence'], 'estimated')
         self.assertTrue(all(d['confidence'] == 'estimated' for d in self.records['recsys-2027']['deadlines']))

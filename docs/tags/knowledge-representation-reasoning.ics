@@ -147,7 +147,7 @@ DTEND:20261013T125900Z
 SUMMARY:COLING 2027 · ARR paper submission deadline
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -277,6 +277,21 @@ CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
 URL:https://www2027.thewebconf.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:coling-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261201T115900Z
+DTEND:20261201T125900Z
+SUMMARY:COLING 2027 · Industry-track paper submission (separate from ARR)
+DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
+  2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
+ 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ tps://2027.coling-iccl.org/calls/industry_track/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#coling-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ Knowledge Representation & Reasoning,LLM Agents & Tool Use
+URL:https://2027.coling-iccl.org/calls/industry_track/
+END:VEVENT
+BEGIN:VEVENT
 UID:icaps-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261208T115900Z
@@ -381,7 +396,7 @@ DTEND:20261224T125900Z
 SUMMARY:COLING 2027 · Commitment of ARR-reviewed papers
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -664,12 +679,15 @@ DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270515
 SUMMARY:COLING 2027 · Conference
 DESCRIPTION:International Conference on Computational Linguistics\nStatus: 
- confirmed\, checked 2026-10-07\nOfficial source: https://2027.coling-iccl
+ confirmed\, checked 2026-11-07\nOfficial source: https://2027.coling-iccl
  .org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#coling-2027\nN
  otes: Main in-person window May 9-14\; separate virtual sessions May 6-7.
   Shared ARR cycle with NAACL does not permit dual commitment. Recent COLI
- NG cadence is irregular\; no automatic annual forecast. Size is an editor
- ial estimate.
+ NG cadence is irregular\; no automatic annual forecast. The independent I
+ ndustry Track accepts original 6-page deployed-system papers from academi
+ c and industry authors until Nov 30 at 23:59 AoE\; it does not require th
+ e passed ARR submission. No portal opening has been verified. Size is an 
+ editorial estimate.
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  Knowledge Representation & Reasoning,LLM Agents & Tool Use
 URL:https://2027.coling-iccl.org/

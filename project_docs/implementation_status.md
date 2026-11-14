@@ -47,7 +47,9 @@ additions, not from an older session entry or a filtered website screenshot.
   The remaining filters sit in "More filters", collapsed at every width unless
   a link uses them (ADR-049). Compact mobile cards put the name and countdown
   on one row, with the status, archival tag and next step below, and a 44px
-  chevron that expands More info. Desktop tables stay complete
+  chevron that expands More info. Expanded rows show the archival track and a
+  closed "About this venue" toggle with the sourced scope summary (ADR-050).
+  Desktop tables stay complete
   under a sticky header. Disclosure state survives filters/tabs/resizing; no-JS keeps
   full metadata accessible. Mobile visual refinement is covered by ADR-035.
 - Venue Radar branding uses the selected Audiowide title, four-color calendar/

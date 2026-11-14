@@ -27,6 +27,7 @@ explicit refinements take precedence. Current rules live in
 | Archival option tag and filter (publication UI) | ADR-047 (refines ADR-036's "Add no publication UI" for this tag and filter only) |
 | Cross-series successors (merged or renamed venues with distinct ranks) | ADR-046 (`continues`; complements the same-key TS4H/SD4H and LOD/AIS precedents) |
 | Calendar event titles, descriptions and feed size; countdown precision | ADR-044 (refines ADR-028's ICS clause and ADR-032's countdown text); ADR-045 puts Notes once per edition |
+| Expanded-row venue facts (archival track line, "About this venue" toggle) | ADR-050 |
 | Review-queue truthfulness, size guardrails, search-text deduplication | ADR-048 (refines ADR-040/042's queue and ADR-047's archival queue rule) |
 
 ## ADR-001: Keep the Project Static
@@ -1162,3 +1163,31 @@ explicit refinements take precedence. Current rules live in
 - Alternatives considered: keeping the panel open with less vertical space
   (still no rows at 1280x720); hiding search on phones (the slowest route to a
   venue); a separate chip filter state (two sources of truth).
+
+## ADR-050: Venue Facts In The Expanded Row
+
+- Status: Accepted by the owner on 2026-11-14, after a rendered mockup. The
+  owner asked for the summary to need a click, and for a clear + indicator on
+  the right.
+- Date: 2026-11-14
+- Context: 125 sourced scope profiles were only searchable, never shown. The
+  archival tag (ADR-047) says whether a venue has an archival option, not
+  which track or where papers are published.
+- Decision: An expanded deadline row (on phones, under More info) shows,
+  below the milestones and above the evidence line:
+  1. A visible archival line: "Archival track: <track> · <venue>", or
+     "Non-archival: <track>". Estimates add "(est., from the <year> call)".
+     Non-archival rows show the track, not the stored venue text, which is
+     written in maintainer shorthand ("none stated ...").
+  2. A closed native disclosure, "About this venue", with a + on the right
+     (− when open, the same cue as the topic families). It shows the series'
+     sourced scope summary, plus "(from the <year> call)" when the profile
+     predates the edition.
+  Collapsed rows are unchanged, because every visible row has an expand
+  toggle. Without JavaScript the block is shown in full. Edition notes stay
+  off the site (maintainer voice).
+- Consequences: The page grows from about 390 KB to 402 KB gzipped, within
+  the 480 KB budget. No data, feed, URL or UID changes.
+- Alternatives considered: showing the summary open (long on phones);
+  putting the archival line behind the toggle too (it answers "will it count?"
+  and is short); a left arrow (the owner preferred a right-side indicator).

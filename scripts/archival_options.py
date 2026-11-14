@@ -107,8 +107,10 @@ def validate_archival_options(
 
 
 def with_archival(conferences: list[dict[str, Any]], options: dict[str, Any]) -> list[dict[str, Any]]:
-    """Attach each edition's shown value as `_archival` (None when not checked)."""
+    """Attach each edition's shown value as `_archival` (None when not checked)
+    and the series entry as `_archival_entry` (track and venue for the site)."""
     return [
-        {**conference, "_archival": archival_value(options.get(conference["series"]), conference["year"])}
+        {**conference, "_archival": archival_value(options.get(conference["series"]), conference["year"]),
+         "_archival_entry": options.get(conference["series"])}
         for conference in conferences
     ]

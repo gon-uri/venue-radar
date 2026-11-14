@@ -113,5 +113,35 @@ class ArchivalDataTests(unittest.TestCase):
         self.assertIn("; Archival option: Yes (est.)", text)
 
 
+class AboutVenueTests(unittest.TestCase):
+    """ADR-050: archival track visible in the expanded row, scope summary behind a toggle."""
+
+    def render(self, **conference):
+        from build_site import _about_venue
+        base = {"year": 2027, "series": "ALPHA"}
+        return _about_venue({**base, **conference})
+
+    def test_archival_line_and_closed_scope_disclosure(self) -> None:
+        entry = {**GOOD, "venue": "PMLR <Proceedings>", "source_year": 2027}
+        html = self.render(_archival={"archival": True, "estimated": False}, _archival_entry=entry,
+                           scope={"scope_summary": "Learning & theory", "source_year": 2026})
+        self.assertIn("<b>Archival track:</b> Main track · PMLR &lt;Proceedings&gt;", html)
+        self.assertIn('<details class="about-details"><summary>About this venue</summary>', html)
+        self.assertNotIn("<details class=\"about-details\" open", html, "closed by default")
+        self.assertIn("Learning &amp; theory", html)
+        self.assertIn("(from the 2026 call)", html, "an earlier edition's profile says so")
+
+    def test_non_archival_and_estimates_name_the_track_and_source_call(self) -> None:
+        entry = {**GOOD, "archival": "no", "track": "Poster abstracts", "venue": "none stated", "source_year": 2026}
+        html = self.render(_archival={"archival": False, "estimated": True}, _archival_entry=entry)
+        self.assertIn("<b>Non-archival:</b> Poster abstracts", html)
+        self.assertNotIn("none stated", html, "maintainer shorthand stays out of the page")
+        self.assertIn("(est., from the 2026 call)", html)
+        self.assertNotIn("<details", html, "no toggle without a scope profile")
+
+    def test_nothing_when_neither_value_nor_profile_exists(self) -> None:
+        self.assertEqual(self.render(_archival=None, _archival_entry=None, scope={}), "")
+
+
 if __name__ == "__main__":
     unittest.main()

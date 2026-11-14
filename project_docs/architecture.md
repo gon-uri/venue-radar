@@ -151,7 +151,8 @@ identities. Topic slugs and Giscus IDs/mapping are similarly durable.
   disclosures. Desktop keeps all columns under a sticky header, with topics on
   one wrapped line. Search and the family/archival chips stay visible; "More
   filters" starts collapsed at every width unless the link uses one of its
-  filters (ADR-049). Resizing
+  filters (ADR-049). Expanded rows add the archival track line and a closed
+  "About this venue" disclosure with the scope summary (ADR-050). Resizing
   preserves the user's disclosure choices; no-JS retains full metadata access.
 - Abstract-only publication formats use existing milestone/status wording and
   documented notes (ADR-036). The archival option tag and filter (ADR-047)

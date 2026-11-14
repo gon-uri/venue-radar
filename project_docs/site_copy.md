@@ -129,3 +129,11 @@ Approved with ADR-040:
   description.
 - Disclosure: "More filters", with the hint "Size · ICORE · CCF · acceptance
   rate · subtopics" (hidden on phones) and the "N active" badge.
+
+## About This Venue (ADR-050, approved 2026-11-14)
+
+- Archival line in expanded rows: "Archival track: <track> · <venue>" or
+  "Non-archival: <track>", plus "(est., from the <year> call)" for estimates.
+- Disclosure label: "About this venue" with a right-side + (− when open). It
+  holds the sourced scope summary, plus "(from the <year> call)" when the
+  profile comes from an earlier edition.

@@ -371,3 +371,23 @@ svg.lucide { fill: none; }
   /* The chip row scrolls sideways, which clips an outside focus ring. */
   .qb-chips .chip:focus-visible { outline-offset: -4px; }
 }
+
+/* ADR-050: venue facts in an expanded row. The archival track is always shown
+   there; the scope summary is a closed disclosure. Same visibility as the
+   evidence line (expanded rows, or rows with a single milestone). */
+.about-venue { display: none; margin: 6px 0 2px; font-size: .78rem; line-height: 1.45; }
+.deadline-group-row.is-expanded .about-venue, .deadline-group-row:not(:has(.deadline-toggle)) .about-venue { display: block; }
+.about-venue p { margin: 0; }
+.about-archival { color: #3f4f54; }
+.about-year { color: var(--muted); }
+.about-details { margin-top: 2px; }
+.about-details > summary { display: inline-flex; align-items: center; min-height: 28px; color: var(--accent-dark); font-weight: 650; cursor: pointer; }
+.about-details > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.about-details > p { max-width: 62ch; margin: 2px 0 4px; padding: 6px 10px; border-left: 3px solid #9cc3c4; border-radius: 0 6px 6px 0; background: #f5f9f9; color: var(--text); }
+@media (max-width: 760px) { .about-details > summary { min-height: 36px; } }
+/* A plus on the right (minus when open), like the topic families' toggles. */
+.about-details > summary { list-style: none; gap: 6px; }
+.about-details > summary::-webkit-details-marker { display: none; }
+.about-details > summary::after { content: "+"; display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border: 1px solid #9cc3c4; border-radius: 4px; color: var(--accent-dark); font-size: .8rem; font-weight: 700; line-height: 1; }
+.about-details[open] > summary::after { content: "\2212"; }
+.about-details > summary:hover::after { border-color: var(--accent); background: #e3f0f0; }

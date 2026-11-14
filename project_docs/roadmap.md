@@ -257,8 +257,9 @@ below are history, not instructions to reimplement old designs.
 - Goal: Make "where can I submit next" answerable in one screen. Each item
   comes from a measured audit at the six maintained widths, drafted by three
   planners and ranked by two judges.
-- Status: items 1 and 2 approved and built on 2026-11-14 as ADR-049; items 3
-  and 4 still await approval.
+- Status: items 1 and 2 approved and built on 2026-11-14 as ADR-049; item 4
+  approved and built the same day as ADR-050, with the summary behind a
+  click. Item 3 (time-range buttons) was mocked up and still awaits approval.
 - Proposed items, each needing owner approval of wording or layout:
   1. (Done, ADR-049) Content-first desktop layout: a compact always-visible bar with Search,
      family chips and the Archival toggle, plus a "More filters (n)" disclosure,
@@ -272,7 +273,7 @@ below are history, not instructions to reimplement old designs.
   3. Planning horizon chips beside "Show submission options only": 30 days,
      90 days, 6 months, Any (default Any; `within=` in the link). This moves
      the roadmap's deadline-window idea into scope.
-  4. "About this venue" in the expanded row: the sourced scope summary and the
+  4. (Done, ADR-050) "About this venue" in the expanded row: the sourced scope summary and the
      archival track and venue. Edition notes stay off the site.
 - Owner decisions to collect alongside: retire or freeze the XLSX mirror;
   README "130+" to "170+"; which `calendar-all.ics` size lever to use before

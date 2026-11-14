@@ -397,6 +397,29 @@ def _archival_tag(conference: dict[str, Any]) -> str:
     return f'<span class="{classes}"{tip_attrs}>{escape(label)}</span>'
 
 
+def _about_venue(conference: dict[str, Any]) -> str:
+    """Expanded-row venue facts (ADR-050): the archival track stays visible;
+    the sourced scope summary sits behind a closed "About this venue" toggle."""
+    parts = []
+    value, entry = conference.get("_archival"), conference.get("_archival_entry")
+    if value and entry:
+        source = f" (est., from the {entry['source_year']} call)" if value["estimated"] else ""
+        if value["archival"]:
+            venue = f" · {escape(entry['venue'])}" if entry.get("venue") else ""
+            parts.append(f'<p class="about-archival"><b>Archival track:</b> {escape(entry["track"])}{venue}'
+                         f'<span class="about-year">{escape(source)}</span></p>')
+        else:
+            parts.append(f'<p class="about-archival"><b>Non-archival:</b> {escape(entry["track"])}'
+                         f'<span class="about-year">{escape(source)}</span></p>')
+    scope = conference.get("scope") or {}
+    if scope.get("scope_summary"):
+        year = (f' <span class="about-year">(from the {scope["source_year"]} call)</span>'
+                if scope.get("source_year") and scope["source_year"] < conference["year"] else "")
+        parts.append('<details class="about-details"><summary>About this venue</summary>'
+                     f'<p>{escape(scope["scope_summary"])}{year}</p></details>')
+    return f'<div class="about-venue">{"".join(parts)}</div>' if parts else ""
+
+
 def _quick_bar() -> str:
     """Always-visible search and one-tap chips (ADR-049). Each chip mirrors an
     existing control in More filters (a family toggle or the archival box),
@@ -675,7 +698,7 @@ def _deadline_group_rows(
             '<span class="visually-hidden" data-time-left-sr></span>'
             f'<span class="time-estimate" data-time-estimate hidden title="{_attr(TIME_ESTIMATE_TOOLTIP)}">(time est.)</span>'
             '</div></td>'
-            f'<td class="deadline-combined-cell mobile-detail" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}<div class="milestone-stack">{_deadline_grid_rows(milestones, grid_id)}{_evidence_line(conference)}</div></div></td>'
+            f'<td class="deadline-combined-cell mobile-detail" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}<div class="milestone-stack">{_deadline_grid_rows(milestones, grid_id)}{_about_venue(conference)}{_evidence_line(conference)}</div></div></td>'
             f"<td class=\"mobile-detail\" data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f'<td class="mobile-detail" data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
             f'<td class="mobile-detail" data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
@@ -994,6 +1017,7 @@ def build_site(
     #panel-conferences[hidden] {{ display: block !important; }}
     .deadline-grid-row[hidden] {{ display: flex !important; }}
     .evidence-line {{ display: flex !important; }}
+    .about-venue {{ display: block !important; }}
     .status-guide-live {{ display: none !important; }}
     .table-tabs, .open-toggle, .toolbar-actions, .filter-section, .map-section,
     .deadline-toggle, .calendar-menu > .calendar-panel .feed-picker, [data-copy-feed] {{ display: none !important; }}

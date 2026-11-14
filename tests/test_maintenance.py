@@ -28,6 +28,8 @@ from maintenance_report import (  # noqa: E402
     render_markdown,
     render_text,
     review_queue,
+    rollover_backlog,
+    new_this_week,
     scope_backlog,
     triage,
 )
@@ -333,6 +335,70 @@ class RenderTests(unittest.TestCase):
         self.assertTrue(all(row["tier"] in TIERS for row in payload["editions"]))
         self.assertTrue(run("--format", "markdown").startswith("## Review queue as of 2026-10-29"))
         self.assertTrue(run().startswith("Edition review as of 2026-10-29:"))
+
+
+class QueueTruthTests(unittest.TestCase):
+    """ADR-048: the weekly queue lists only work that can be done now."""
+
+    CITIES = {"paris": {"locations": ["Paris, France"]}}
+
+    def test_old_year_url_ignores_cited_history_and_estimated_routes_and_groups_per_edition(self) -> None:
+        quiet = edition(
+            location="Paris, France", cfp_url="https://example.org/2027/cfp",
+            source_urls=["https://example.org/2027/", "https://example.org/2025/history"],
+            deadlines=[deadline("full_paper", "2027-01-10", confidence="estimated",
+                                source_url="https://example.org/2026/dates")],
+        )
+        self.assertEqual(advisories([quiet], self.CITIES, AS_OF), [])
+        loud = edition(
+            location="Paris, France", cfp_url="https://example.org/2026/cfp",
+            deadlines=[deadline("full_paper", "2027-01-10", source_url="https://example.org/2025/dates")],
+        )
+        rows = [row for row in advisories([loud], self.CITIES, AS_OF) if row.check == "old-year-url"]
+        self.assertEqual(len(rows), 1, "one line per edition")
+        self.assertIn("2 URLs from 2026 or earlier", rows[0].detail)
+
+    def test_a_continuing_series_is_not_a_missing_successor(self) -> None:
+        # ADR-046: ASLI continues ASRU, so the closed ASRU edition is not queued as orphaned.
+        old = edition(id="asru-2025", short_title="ASRU 2025", series="ASRU", year=2025,
+                      conference_start="2025-12-06", conference_end="2025-12-10")
+        new = edition(id="asli-2027", short_title="ASLI 2027", series="ASLI", year=2027, continues=["ASRU"],
+                      conference_start="2027-12-01", conference_end="2027-12-04",
+                      deadlines=[deadline("full_paper", "2027-06-01")])
+        ids = {row[1] for row in review_queue([old, new], AS_OF, 30)}
+        self.assertNotIn("asru-2025", ids)
+        ids = {row[1] for row in review_queue([old], AS_OF, 30)}
+        self.assertIn("asru-2025", ids)
+
+    def test_rollover_and_new_this_week_are_read_only_previews(self) -> None:
+        past = edition(id="icml-2026", short_title="ICML 2026", series="ICML", year=2026,
+                       conference_start="2026-07-01", conference_end="2026-07-05",
+                       deadlines=[deadline("full_paper", "2026-01-28")])
+        later = edition(id="iclr-2026", short_title="ICLR 2026", series="ICLR", year=2026,
+                        conference_start="2026-04-01", conference_end="2026-04-05",
+                        deadlines=[deadline("full_paper", "2025-10-01")])
+        rows = rollover_backlog([past, later], AS_OF)
+        self.assertEqual([row.name for row in rows], ["ICLR 2027", "ICML 2027"], "soonest projected meeting first")
+        self.assertIn("add it only from an official announcement", rows[0].detail)
+        self.assertNotIn("`", rows[0].detail, "md() would escape backticks into literal characters")
+        # A stale record whose route is due in 25 days moves from Soon (32 days a week ago) to Act now.
+        soon = edition(last_checked=STALE, deadlines=[deadline("full_paper", "2026-11-23")])
+        self.assertEqual(new_this_week([soon], AS_OF, 30), ["sample-2027"])
+        self.assertEqual(new_this_week([soon], date(2026, 11, 6), 30), [], "already listed last week")
+
+    def test_markdown_collapses_later_and_schedule_tiers_and_lists_new_items(self) -> None:
+        later = TriagedEdition("later", "Far 2028", "far-2028", "estimated", "https://far.example",
+                               "2028-06-01", "2028-06-03", None)
+        urgent = TriagedEdition("act-now", "Near 2027", "near-2027", "estimated", "https://near.example",
+                                "2027-01-01", "2027-01-03", None)
+        report = Report(AS_OF, 30, 2, [urgent, later], [], [], [], [], [], ["near-2027"])
+        body = render_markdown(report, 5)
+        self.assertIn("### New this week (1)", body)
+        self.assertIn("- **Near 2027** (`near-2027`)", body)
+        self.assertIn("#### Act now (1)", body)
+        self.assertIn("<details><summary><b>Later (1)</b>", body)
+        self.assertNotIn("#### Later", body)
+        self.assertLess(body.index("<details>"), body.index("Far 2028"), "collapsed rows sit inside details")
 
 
 class WorkflowTests(unittest.TestCase):

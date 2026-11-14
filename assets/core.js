@@ -80,8 +80,16 @@ function renderStars() {
 const baseMatchByRow = new Map();
 
 const splitSet = (value) => new Set((value || "").split(" ").filter(Boolean));
+// Conferences-tab rows carry no search text of their own: it is the leading
+// data-search-base characters of the same edition's Upcoming Deadlines row.
+const deadlineRowByEdition = new Map(deadlineGroups.map((row) => [row.dataset.edition, row]));
+function searchTextOf(row) {
+  if (row.dataset.search !== undefined) return row.dataset.search;
+  const twin = deadlineRowByEdition.get(row.dataset.edition);
+  return twin ? twin.dataset.search.slice(0, Number(twin.dataset.searchBase)) : "";
+}
 const rowCache = new Map(rows.map((row) => [row, {
-  haystack: ` ${normalizeSearch(row.dataset.search || "")} `,
+  haystack: ` ${normalizeSearch(searchTextOf(row))} `,
   topics: splitSet(row.dataset.topics),
   families: splitSet(row.dataset.families),
   groups: Object.fromEntries(metadataGroups.map((group) => [group, splitSet(row.dataset[group])])),

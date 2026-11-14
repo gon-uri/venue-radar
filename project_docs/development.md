@@ -55,8 +55,9 @@ python3 scripts/check_identity.py --base origin/main
 ```
 
 `release_check.py` runs validation, the Python tests, the build, a second build
-compared byte for byte, a check that `docs/` matches the git index, the
-whitespace check below, an empty `git ls-files private_notes/`, and
+compared byte for byte, a check that `docs/` matches the git index, size
+budgets (a non-blocking WARN near the 1 MB feed limit or above 480 KB gzipped
+page), the whitespace check below, an empty `git ls-files private_notes/`, and
 `metadata.yml` `last_updated` not older than the newest `last_checked`. Run it
 after staging the intended change; it regenerates `docs/` but never stages,
 commits or pushes. It does not run the Node tests, browser smoke, workbook sync

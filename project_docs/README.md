@@ -44,8 +44,11 @@ before new implementation work. Do not silently change code to match old prose.
 
 ## Evidence And Design Records
 
-- [November 2026 review](monthly_review_2026-11-07.md): current corrections,
-  source caveats and the limits of the monthly pass.
+- [Mid-November 2026 review](monthly_review_2026-11-14.md): latest
+  corrections (153 queued editions, each change independently verified),
+  owner decisions held and remaining uncertainty.
+- [November 2026 review](monthly_review_2026-11-07.md): the earlier monthly
+  pass and its source caveats.
 
 These are useful supporting references, not alternative catalogs or automatic
 approval to add venues:

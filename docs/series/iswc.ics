@@ -77,12 +77,12 @@ DTSTAMP:19700101T000000Z
 DTSTART:20270503T115900Z
 DTEND:20270503T125900Z
 SUMMARY:ISWC 2027 (est.) · Mandatory abstract deadline
-DESCRIPTION:International Semantic Web Conference\nMeeting: 2027-10-25 to 2
- 027-10-29 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-2
- 8. Check the organizer's call before relying on it.\nFormat: Paper-based\
- ; Archival option: Yes (est.)\nPrevious edition's page: https://iswc2026.
- semanticweb.org/importantdates\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#iswc-2027
+DESCRIPTION:International Semantic Web Conference\nMeeting: 2027-10-24 to 2
+ 027-10-28\, Montevideo\, Uruguay\nStatus: estimated\, checked 2026-11-14.
+  Check the organizer's call before relying on it.\nFormat: Paper-based\; 
+ Archival option: Yes (est.)\nPrevious edition's page: https://iswc2026.se
+ manticweb.org/importantdates\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#iswc-2027
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -93,12 +93,12 @@ DTSTAMP:19700101T000000Z
 DTSTART:20270508T115900Z
 DTEND:20270508T125900Z
 SUMMARY:ISWC 2027 (est.) · Paper submission deadline
-DESCRIPTION:International Semantic Web Conference\nMeeting: 2027-10-25 to 2
- 027-10-29 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-2
- 8. Check the organizer's call before relying on it.\nFormat: Paper-based\
- ; Archival option: Yes (est.)\nPrevious edition's page: https://iswc2026.
- semanticweb.org/importantdates\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#iswc-2027
+DESCRIPTION:International Semantic Web Conference\nMeeting: 2027-10-24 to 2
+ 027-10-28\, Montevideo\, Uruguay\nStatus: estimated\, checked 2026-11-14.
+  Check the organizer's call before relying on it.\nFormat: Paper-based\; 
+ Archival option: Yes (est.)\nPrevious edition's page: https://iswc2026.se
+ manticweb.org/importantdates\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#iswc-2027
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://iswc2026.semanticweb.org/importantdates
@@ -106,20 +106,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:iswc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20271025
-DTEND;VALUE=DATE:20271030
-SUMMARY:ISWC 2027 (est.) · Conference
-DESCRIPTION:International Semantic Web Conference\nStatus: estimated\, chec
- ked 2026-10-28. Check the organizer's call before relying on it.\nOfficia
- l source: https://swsa.semanticweb.org/conferences/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#iswc-2027\nNotes: As of 2026-10-28 SWSA l
- ists ISWC 2027 for October/November 2027 with location to be announced\; 
- iswc2027.semanticweb.org is only a placeholder page. October 25-29 and su
- bmission cutoffs are one-year proxies from ISWC 2026. Size is an editoria
- l estimate.
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271029
+SUMMARY:ISWC 2027 · Conference
+DESCRIPTION:International Semantic Web Conference\nStatus: confirmed\, chec
+ ked 2026-11-14\nOfficial source: https://iswc2027.semanticweb.org/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#iswc-2027\nNotes: As of 20
+ 26-11-14 the official ISWC 2027 site (save-the-date) confirms Montevideo\
+ , Uruguay\, October 24-28\, 2027\; the SWSA list still shows location to 
+ be announced. No 2027 call or important dates are published ('More inform
+ ation coming soon')\, so the abstract gate and paper cutoffs remain one-y
+ ear proxies from ISWC 2026. Size is an editorial estimate.
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
-URL:https://swsa.semanticweb.org/conferences/
-LOCATION:To be announced
+URL:https://iswc2027.semanticweb.org/
+LOCATION:Montevideo\, Uruguay
 END:VEVENT
 END:VCALENDAR

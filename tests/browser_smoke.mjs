@@ -226,8 +226,8 @@ try {
   assert(await timeEstimate.isVisible());
   await sysid.locator('.deadline-toggle').click();
   assert(!(await page.locator('[data-deadline-group][data-edition="aistats-2027"] [data-time-estimate]').isVisible()));
-  assert(!(await page.locator('[data-deadline-group][data-edition="icml-2027"] [data-time-estimate]').isVisible()));
-  assert((await page.locator('[data-deadline-group][data-edition="icml-2027"] [data-label="Next milestone"]').innerText()).includes('(est.)'));
+  assert(!(await page.locator('[data-deadline-group][data-edition="uai-2027"] [data-time-estimate]').isVisible()));
+  assert((await page.locator('[data-deadline-group][data-edition="uai-2027"] [data-label="Next milestone"]').innerText()).includes('(est.)'));
   await page.evaluate(() => {
     Date.now = () => Date.parse('2027-06-01T12:00:00Z');
     applyFilters();
@@ -315,8 +315,8 @@ try {
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '149 confirmed editions in 113 cities');  // ICML 2027's confirmed Rio meeting joins the existing city marker.
-  assert.equal(await page.locator('.city-marker').count(), 113);
+  assert.equal(await page.locator('#map-count').innerText(), '152 confirmed editions in 115 cities');  // 2026-11-14: ACM MM 2027 (Hong Kong), ISWC 2027 (new Montevideo marker) and ICMLA 2027 (new Miami marker) are confirmed.
+  assert.equal(await page.locator('.city-marker').count(), 115);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();
   const montreal = page.locator('.city-marker[title^="Montreal"]');
@@ -338,6 +338,16 @@ try {
   assert.equal(await page.locator('.city-marker').count(), 1, 'Scope search must also filter the map');
   await page.locator('#tab-deadlines').click();
   assert(await page.locator('[data-deadline-group][data-edition="log-2026"]').isVisible());
+  await page.locator('#clear-filters').click();
+  // Conferences rows reuse the deadline row's text prefix, so milestone labels
+  // stay searchable on Upcoming Deadlines only, as before the deduplication.
+  await page.locator('#search').fill('registered abstracts only');
+  assert(await page.locator('[data-deadline-group][data-edition="aamas-2027"]').isVisible());
+  await page.locator('#tab-conferences').click();
+  assert(!(await page.locator('#upcoming-conferences-body [data-edition="aamas-2027"]').isVisible()));
+  await page.locator('#search').fill('autonomous agents');
+  assert(await page.locator('#upcoming-conferences-body [data-edition="aamas-2027"]').isVisible());
+  await page.locator('#tab-deadlines').click();
   await page.locator('#clear-filters').click();
   const probabilityInput = page.locator('[data-topic-family][value="probabilistic-causal-uncertainty-ml"]');
   await probabilityInput.evaluate(input => input.closest('details').open = true);

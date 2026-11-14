@@ -8,15 +8,16 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from dataclasses import asdict, dataclass
-from datetime import date
+from dataclasses import asdict, dataclass, field
+from datetime import date, timedelta
 from typing import Any, Callable
 from urllib.parse import urlsplit
 
-from catalog_metadata import CITIES_PATH, load_mapping
+from catalog_metadata import CITIES_PATH, load_mapping, successor_map
 from conference_scopes import load_scopes, scope_review_queue
 from archival_options import load_archival_options
-from validate import SUBMISSION_TYPES, load_acceptance_rates, load_conferences, parse_date, parse_datetime
+from rollover_editions import rollover_candidates
+from validate import SUBMISSION_TYPES, call_is_out, load_acceptance_rates, load_conferences, parse_date, parse_datetime
 
 # Joint editions do not need a same-name successor.
 JOINT_SERIES = frozenset({"IJCAI-ECAI"})
@@ -26,6 +27,11 @@ SOON_DAYS = 90
 # a confirmed record that is otherwise fresh is rechecked shortly before it.
 RECHECK_DAYS = 21
 RECHECK_AGE_DAYS = 10
+# Scope profiles describe a series and change slowly; the edition freshness
+# limit (30 days) would requeue every profile each month.
+SCOPE_MAX_AGE_DAYS = 365
+# Tiers collapsed in the weekly issue so the urgent ones stay visible.
+COLLAPSED_TIERS = ("later", "schedule-only")
 TIERS = {
     "act-now": ("Act now", f"fresh-submission action due within {ACT_NOW_DAYS} days ({SOON_DAYS} if estimated)"),
     "recheck": ("Recheck before deadline",
@@ -41,7 +47,7 @@ ADVISORY_CHECKS = {
     "estimated-deadline-passed": "Estimated deadline already passed (meeting still upcoming)",
     "midnight-opening": "Opening stored at exactly midnight on a route that is still open",
     "missing-city-alias": "Confirmed future location without a data/cities.yml alias",
-    "old-year-url": "Confirmed record cites a URL from an earlier year",
+    "old-year-url": "Confirmed record's call or confirmed deadline cites an earlier year's page",
     "aggregator-source": "Aggregator or social-media source",
 }
 # Mirrors catalog_metadata.map_events: which records the offline map can place.
@@ -105,6 +111,8 @@ class Report:
     acceptance: list[BacklogRow]
     scope: list[BacklogRow]
     archival: list[BacklogRow]
+    rollover: list[BacklogRow] = field(default_factory=list)
+    new_this_week: list[str] = field(default_factory=list)
 
 
 def review_queue(
@@ -118,6 +126,7 @@ def review_queue(
         )
         for series in {item["series"] for item in conferences}
     }
+    succeeded = successor_map(conferences)
     for item in conferences:
         reasons = []
         checked = parse_date(item["last_checked"])
@@ -137,7 +146,8 @@ def review_queue(
                 reasons.append(recheck)
             if not item.get("deadlines"):
                 reasons.append("no submission deadline recorded")
-        elif latest_by_series[item["series"]] is item and item["series"] not in JOINT_SERIES:
+        elif (latest_by_series[item["series"]] is item and item["series"] not in JOINT_SERIES
+              and item["id"] not in succeeded):  # ADR-046 `continues` successors count
             reasons.append("next edition not tracked")
         if reasons:
             source = (item.get("source_urls") or [item.get("cfp_url") or item["website"]])[0]
@@ -211,6 +221,7 @@ def triage_tier(edition: dict, action: Milestone | None, is_latest: bool, as_of:
 def triage(conferences: list[dict], as_of: date, max_age_days: int) -> list[TriagedEdition]:
     """Assign an urgency tier to every queued edition, most urgent first."""
     by_id = {item["id"]: item for item in conferences}
+    succeeded = successor_map(conferences)
     latest_year: dict[str, int] = {}
     for item in conferences:
         latest_year[item["series"]] = max(item["year"], latest_year.get(item["series"], item["year"]))
@@ -218,7 +229,8 @@ def triage(conferences: list[dict], as_of: date, max_age_days: int) -> list[Tria
     for title, identifier, reasons, source in review_queue(conferences, as_of, max_age_days):
         edition = by_id[identifier]
         action = next_route_action(edition, as_of)
-        tier = triage_tier(edition, action, edition["year"] >= latest_year[edition["series"]], as_of)
+        is_latest = edition["year"] >= latest_year[edition["series"]] and identifier not in succeeded
+        tier = triage_tier(edition, action, is_latest, as_of)
         if reasons == recheck_reason(edition, as_of):  # queued only for the pre-deadline recheck
             tier = "recheck"
         start, end = (parse_date(edition[field]).isoformat() for field in ("conference_start", "conference_end"))
@@ -278,10 +290,16 @@ def edition_advisories(item: dict, aliases: set[str], as_of: date) -> list[Advis
             and location.casefold() not in PLACEHOLDER_LOCATIONS and location not in aliases):
         found.append(("missing-city-alias", f"location '{location}' has no exact alias, so the map omits it", ""))
     if item["confidence"] == "confirmed":
-        for url in _cited_urls(item, include_website=False, confirmed_only=True):
-            years = url_years(url)
-            if years and max(years) < item["year"]:
-                found.append(("old-year-url", f"URL year {max(years)} is earlier than edition year {item['year']}", url))
+        # Only the call and confirmed deadline sources must be this year's pages;
+        # source_urls may keep earlier editions as cited history.
+        cited = [item.get("cfp_url"), *(deadline.get("source_url") for deadline in item.get("deadlines") or []
+                                        if _confidence(item, deadline) == "confirmed")]
+        old = [url for url in dict.fromkeys(cited) if isinstance(url, str)
+               and url_years(url) and max(url_years(url)) < item["year"]]
+        if old:
+            newest = max(max(url_years(url)) for url in old)
+            count = f"{len(old)} URLs" if len(old) > 1 else "1 URL"
+            found.append(("old-year-url", f"{count} from {newest} or earlier cited for the {item['year']} edition", old[0]))
     for url in _cited_urls(item):
         if is_aggregator(url):
             found.append(("aggregator-source", "discovery evidence only; cite the official page", url))
@@ -333,8 +351,8 @@ def acceptance_backlog(conferences: list[dict], rates: dict, as_of: date) -> lis
 
 def archival_backlog(conferences: list[dict], options: dict) -> list[BacklogRow]:
     """ADR-047 queue: series with a new-paper route but no value first, then
-    values that are estimates or were read from an older call while a newer
-    edition is now confirmed (its call is probably out)."""
+    values read from an older call while a newer edition's call is out (it has
+    a confirmed new-paper route), then estimated values."""
     relevance = series_relevance(conferences)
     routes = {item["series"] for item in conferences
               for deadline in item.get("deadlines", []) if deadline["type"] in SUBMISSION_TYPES}
@@ -342,11 +360,11 @@ def archival_backlog(conferences: list[dict], options: dict) -> list[BacklogRow]
     for name in routes - set(options):
         rows.append((0, relevance[name], name, "not checked yet; a new-paper route is tracked", ""))
     for name, entry in options.items():
-        confirmed = [item for item in conferences if item["series"] == name
-                     and item["confidence"] == "confirmed" and item["year"] > entry["source_year"]]
-        if confirmed:
-            newest = max(confirmed, key=lambda item: item["year"])
-            detail = f"value read from {entry['source_year']}; {newest['id']} has confirmed dates; check whether its call is out"
+        published = [item for item in conferences if item["series"] == name
+                     and item["year"] > entry["source_year"] and call_is_out(item)]
+        if published:
+            newest = max(published, key=lambda item: item["year"])
+            detail = f"value read from {entry['source_year']}; {newest['id']}'s call is out, re-read it"
             rows.append((1, relevance[name], name, detail, str(newest.get("cfp_url") or newest["website"])))
         elif entry["estimated"]:
             rows.append((2, relevance[name], name, f"estimated value from {entry['source_year']}; recheck when the call appears",
@@ -367,7 +385,25 @@ def scope_backlog(conferences: list[dict], profiles: dict, as_of: date, max_age_
     return [BacklogRow(*row) for row in rows]
 
 
-def build_report(as_of: date, max_age_days: int) -> Report:
+def rollover_backlog(conferences: list[dict], as_of: date) -> list[BacklogRow]:
+    """Read-only preview of cadence drafts scripts/rollover_editions.py would write."""
+    rows = []
+    # Soonest projected meeting first, so a sampled issue shows the most urgent drafts.
+    for draft in sorted(rollover_candidates(conferences, as_of), key=lambda item: (item["conference_start"], item["id"])):
+        detail = (f"{draft['id']} would be drafted as an estimate for "
+                  f"{draft['conference_start']} to {draft['conference_end']}; add it only from an official announcement")
+        rows.append(BacklogRow(draft["short_title"], detail, str(draft.get("website") or "")))
+    return rows
+
+
+def new_this_week(conferences: list[dict], as_of: date, max_age_days: int) -> list[str]:
+    """Edition IDs that entered Act now or Recheck since the same data a week earlier."""
+    urgent = ("act-now", "recheck")
+    before = {row.id for row in triage(conferences, as_of - timedelta(days=7), max_age_days) if row.tier in urgent}
+    return [row.id for row in triage(conferences, as_of, max_age_days) if row.tier in urgent and row.id not in before]
+
+
+def build_report(as_of: date, max_age_days: int, scope_max_age_days: int = SCOPE_MAX_AGE_DAYS) -> Report:
     conferences = load_conferences()
     rates = load_acceptance_rates()["rates"]
     return Report(
@@ -377,8 +413,10 @@ def build_report(as_of: date, max_age_days: int) -> Report:
         editions=triage(conferences, as_of, max_age_days),
         advisories=advisories(conferences, load_mapping(CITIES_PATH), as_of),
         acceptance=acceptance_backlog(conferences, rates, as_of),
-        scope=scope_backlog(conferences, load_scopes(), as_of, max_age_days),
+        scope=scope_backlog(conferences, load_scopes(), as_of, scope_max_age_days),
         archival=archival_backlog(conferences, load_archival_options()),
+        rollover=rollover_backlog(conferences, as_of),
+        new_this_week=new_this_week(conferences, as_of, max_age_days),
     )
 
 
@@ -416,8 +454,10 @@ def render_text(report: Report, sample: int | None) -> str:
         if rows:
             lines.append(f"{label} ({len(rows)})")
             lines += [f"- {row.title} ({row.id}): {row.detail}" + (f"\n  {row.url}" if row.url else "") for row in rows]
+    if report.new_this_week:
+        lines += ["", f"New this week in Act now or Recheck: {', '.join(report.new_this_week)}"]
     for heading, rows in [("Acceptance evidence review", report.acceptance), ("Scope review", report.scope),
-                          ("Archival option review", report.archival)]:
+                          ("Archival option review", report.archival), ("Rollover ready", report.rollover)]:
         shown = _sample(rows, sample)
         suffix = f" (showing {len(shown)}; --full lists all)" if len(shown) < len(rows) else ""
         lines += ["", f"{heading}: {len(rows)} series{suffix}"]
@@ -451,11 +491,20 @@ def render_markdown(report: Report, sample: int | None) -> str:
         "",
         counts,
     ]
+    titles = {row.id: row.title for row in report.editions}
+    if report.new_this_week:
+        lines += ["", f"### New this week ({len(report.new_this_week)})", "",
+                  "_Entered Act now or Recheck since the same data a week ago._", ""]
+        lines += [f"- **{md(titles.get(identifier, identifier))}** (`{identifier}`)" for identifier in report.new_this_week]
     for tier, (label, meaning) in TIERS.items():
         rows = [row for row in report.editions if row.tier == tier]
         if not rows:
             continue
-        lines += ["", f"#### {label} ({len(rows)})", "", f"_{meaning}_", ""]
+        collapsed = tier in COLLAPSED_TIERS
+        if collapsed:
+            lines += ["", f"<details><summary><b>{label} ({len(rows)})</b>: {meaning}</summary>", ""]
+        else:
+            lines += ["", f"#### {label} ({len(rows)})", "", f"_{meaning}_", ""]
         for row in rows:
             if row.milestone:
                 due = _due_text(row.milestone, code=lambda value: f"`{value}`")
@@ -463,6 +512,8 @@ def render_markdown(report: Report, sample: int | None) -> str:
             else:
                 detail = f"meeting {row.meeting_start} to {row.meeting_end} · {_md_link(row.source)}"
             lines.append(f"- [ ] **{md(row.title)}** (`{row.id}`): {md(row.reasons)} — {detail}")
+        if collapsed:
+            lines += ["", "</details>"]
     lines += ["", f"### Advisory checks ({len(report.advisories)})"]
     for check, label in ADVISORY_CHECKS.items():
         rows = [row for row in report.advisories if row.check == check]
@@ -474,11 +525,12 @@ def render_markdown(report: Report, sample: int | None) -> str:
                 for row in rows
             ]
     for heading, rows in [("Acceptance evidence", report.acceptance), ("Scope profiles", report.scope),
-                          ("Archival option", report.archival)]:
+                          ("Archival option", report.archival), ("Rollover ready", report.rollover)]:
         shown = _sample(rows, sample)
         lines += ["", f"### {heading} backlog: {len(rows)} series", ""]
         if len(shown) < len(rows):
-            lines += [f"Oldest or most relevant {len(shown)} shown; run with `--full` for all.", ""]
+            order = "Soonest" if heading == "Rollover ready" else "Oldest or most relevant"
+            lines += [f"{order} {len(shown)} shown; run with `--full` for all.", ""]
         lines += [
             f"- [ ] **{md(row.name)}**: {md(row.detail)}" + (f" · {_md_link(row.source)}" if row.source else "")
             for row in shown
@@ -501,6 +553,8 @@ def render_json(report: Report, sample: int | None) -> str:
         "acceptance": backlog(report.acceptance),
         "scope": backlog(report.scope),
         "archival": backlog(report.archival),
+        "rollover": backlog(report.rollover),
+        "new_this_week": report.new_this_week,
     }
     return json.dumps(payload, indent=2, ensure_ascii=False)
 
@@ -514,6 +568,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--as-of", type=date.fromisoformat, default=date.today())
     parser.add_argument("--max-age-days", type=int, default=30)
+    parser.add_argument("--scope-max-age-days", type=int, default=SCOPE_MAX_AGE_DAYS,
+                        help=f"re-review scope profiles older than this (default {SCOPE_MAX_AGE_DAYS})")
     parser.add_argument("--format", choices=sorted(RENDERERS), default="text")
     parser.add_argument("--backlog-sample", type=int, default=5, metavar="N",
                         help="acceptance/scope backlog rows to list (default 5)")
@@ -523,7 +579,9 @@ def main() -> int:
         parser.error("--max-age-days must be non-negative")
     if args.backlog_sample < 0:
         parser.error("--backlog-sample must be non-negative")
-    report = build_report(args.as_of, args.max_age_days)
+    if args.scope_max_age_days < 0:
+        parser.error("--scope-max-age-days must be non-negative")
+    report = build_report(args.as_of, args.max_age_days, args.scope_max_age_days)
     print(RENDERERS[args.format](report, None if args.full else args.backlog_sample))
     return 0
 

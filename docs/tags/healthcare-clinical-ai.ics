@@ -243,7 +243,7 @@ DTEND:20260503T125900Z
 SUMMARY:SD4H 2026 (formerly TS4H) · Workshop paper submission deadline (4 
  pages\, non-archival)
 DESCRIPTION:Structured Data for Health Workshop\nMeeting: 2026-07-11 to 202
- 6-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-10-29\nFo
+ 6-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-11-14\nFo
  rmat: Workshop / non-archival short paper\; Archival option: No\nOfficial
   source: https://structureddata4health.github.io/call_for_papers.html\nVe
  nue Radar: https://gon-uri.github.io/venue-radar/#sd4h-2026
@@ -275,7 +275,7 @@ DTSTART:20260627T115900Z
 DTEND:20260627T125900Z
 SUMMARY:SD4H 2026 (formerly TS4H) · Camera-ready deadline
 DESCRIPTION:Structured Data for Health Workshop\nMeeting: 2026-07-11 to 202
- 6-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-10-29\nFo
+ 6-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-11-14\nFo
  rmat: Workshop / non-archival short paper\; Archival option: No\nOfficial
   source: https://structureddata4health.github.io/call_for_papers.html\nVe
  nue Radar: https://gon-uri.github.io/venue-radar/#sd4h-2026
@@ -335,7 +335,7 @@ DTSTART;VALUE=DATE:20260711
 DTEND;VALUE=DATE:20260712
 SUMMARY:SD4H 2026 (formerly TS4H) · Conference
 DESCRIPTION:Structured Data for Health Workshop\nStatus: confirmed\, checke
- d 2026-10-29\nOfficial source: https://icml.cc/virtual/2026/workshop/5409
+ d 2026-11-14\nOfficial source: https://icml.cc/virtual/2026/workshop/5409
  0\nVenue Radar: https://gon-uri.github.io/venue-radar/#sd4h-2026\nNotes: 
  ICML's official workshop page and the SD4H site confirm Sat Jul 11\, 2026
   in Hall D2\, COEX\, Seoul (ICML lists 8:00-17:00 KST)\; accepted papers 
@@ -406,7 +406,7 @@ DTSTART:20260911T115900Z
 DTEND:20260911T125900Z
 SUMMARY:ML4H 2026 · Paper submission deadline
 DESCRIPTION:Machine Learning for Health Symposium\nMeeting: 2026-12-06 to 2
- 026-12-07\, Sydney\, Australia\nStatus: confirmed\, checked 2026-10-28\nF
+ 026-12-07\, Sydney\, Australia\nStatus: confirmed\, checked 2026-11-14\nF
  ormat: Proceedings + findings tracks\; Archival option: Yes\nOfficial sou
  rce: https://ml4h.ahli.cc/submit/call-for-papers/\nVenue Radar: https://g
  on-uri.github.io/venue-radar/#ml4h-2026
@@ -421,7 +421,7 @@ DTSTART:20260915T115900Z
 DTEND:20260915T125900Z
 SUMMARY:ML4H 2026 · Demo track submission (non-archival)
 DESCRIPTION:Machine Learning for Health Symposium\nMeeting: 2026-12-06 to 2
- 026-12-07\, Sydney\, Australia\nStatus: confirmed\, checked 2026-10-28\nF
+ 026-12-07\, Sydney\, Australia\nStatus: confirmed\, checked 2026-11-14\nF
  ormat: Proceedings + findings tracks\; Archival option: Yes\nOfficial sou
  rce: https://ml4h.ahli.cc/submit/call-for-demonstrations/\nVenue Radar: h
  ttps://gon-uri.github.io/venue-radar/#ml4h-2026
@@ -472,7 +472,7 @@ DTEND:20261012T190000Z
 SUMMARY:Neural Interfaces 2027 · Call for Proposals (speaker and session i
  deas that build the agenda\; not a research-abstract route)
 DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
- \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-10-31\nFo
+ \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-11-14\nFo
  rmat: Abstract-based / oral or poster presentations\; no proceedings anno
  unced\; Archival option: No\nOfficial source: https://www.nans.org/neural
  -interfaces/\nVenue Radar: https://gon-uri.github.io/venue-radar/#neural-
@@ -490,7 +490,7 @@ SUMMARY:IPCAI 2027 · Regular-paper intention to submit (mandatory CMT regi
  stration of title\, structured abstract and authors\; no extension)
 DESCRIPTION:International Conference on Information Processing in Computer-
  Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
- any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
   special-issue journal papers (Springer)\; 4-page long abstracts listed i
  n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
  ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
@@ -508,7 +508,7 @@ SUMMARY:IPCAI 2027 · Regular paper submission (up to 12 pages\, single-bli
  nd\; no extension)
 DESCRIPTION:International Conference on Information Processing in Computer-
  Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
- any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
   special-issue journal papers (Springer)\; 4-page long abstracts listed i
  n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
  ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
@@ -578,16 +578,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ml4h-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:ML4H 2026 (est.) · Camera-ready deadline (tentative)
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ML4H 2026 · Camera-ready deadline
 DESCRIPTION:Machine Learning for Health Symposium\nMeeting: 2026-12-06 to 2
- 026-12-07\, Sydney\, Australia\nStatus: estimated\, checked 2026-10-28. C
- heck the organizer's call before relying on it.\nEstimated day only\; no 
- cutoff hour stored. Check the organizer's call for the real date and time
- .\nFormat: Proceedings + findings tracks\; Archival option: Yes\nOfficial
-  source: https://ml4h.ahli.cc/submit/call-for-papers/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#ml4h-2026
+ 026-12-07\, Sydney\, Australia\nStatus: confirmed\, checked 2026-11-14\nC
+ utoff time unannounced: official deadline day only. Verify the organizer'
+ s submission portal.\nFormat: Proceedings + findings tracks\; Archival op
+ tion: Yes\nOfficial source: https://ml4h.ahli.cc/submit/call-for-papers/\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#ml4h-2026
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Time Series & Sequenti
  al Data,Deep Representation Learning
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
@@ -600,7 +599,7 @@ DTEND;VALUE=DATE:20261116
 SUMMARY:BCI Winter 2027 · Paper submission deadline
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
- med\, checked 2026-10-28\nCutoff time unannounced: official deadline day 
+ med\, checked 2026-11-14\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
  chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
  portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
@@ -616,7 +615,7 @@ DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:MIDL 2027 · Full-paper abstract registration deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-10-30\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -631,7 +630,7 @@ DTSTART:20261205T115900Z
 DTEND:20261205T125900Z
 SUMMARY:MIDL 2027 · Full paper submission deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-10-30\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -646,12 +645,12 @@ DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261208
 SUMMARY:ML4H 2026 · Conference
 DESCRIPTION:Machine Learning for Health Symposium\nStatus: confirmed\, chec
- ked 2026-10-28\nOfficial source: https://ml4h.ahli.cc/\nVenue Radar: http
+ ked 2026-11-14\nOfficial source: https://ml4h.ahli.cc/\nVenue Radar: http
  s://gon-uri.github.io/venue-radar/#ml4h-2026\nNotes: Official ML4H 2026 p
  ages (all times AoE) confirm Dec 6-7 at the SMC Conference & Function Cen
  tre\, Sydney\, the Sep 10 paper and Sep 14 demo deadlines\, and decisions
-  released Oct 26. The Nov 7 camera-ready date is marked tentative with no
-  hour\; 23:59 AoE is a placeholder.
+  released Oct 26. The CFP later moved the camera-ready deadline to Nov 13
+  (no longer tentative) with no hour\; 23:59 AoE is a placeholder.
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Time Series & Sequenti
  al Data,Deep Representation Learning
 URL:https://ml4h.ahli.cc/
@@ -736,7 +735,7 @@ DTEND;VALUE=DATE:20261216
 SUMMARY:BCI Winter 2027 · Acceptance notification
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
- med\, checked 2026-10-28\nCutoff time unannounced: official deadline day 
+ med\, checked 2026-11-14\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
  chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
  portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
@@ -754,7 +753,7 @@ SUMMARY:IPCAI 2027 · Initial regular-paper decisions (accept\, reject or r
  evise)
 DESCRIPTION:International Conference on Information Processing in Computer-
  Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
- any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
   special-issue journal papers (Springer)\; 4-page long abstracts listed i
  n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
  ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
@@ -771,7 +770,7 @@ DTEND;VALUE=DATE:20270102
 SUMMARY:BCI Winter 2027 · Camera-ready manuscript deadline
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
- med\, checked 2026-10-28\nCutoff time unannounced: official deadline day 
+ med\, checked 2026-11-14\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
  chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
  portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
@@ -790,7 +789,7 @@ SUMMARY:IPCAI 2027 · Long abstract Track 2: presentation of a journal arti
  on)
 DESCRIPTION:International Conference on Information Processing in Computer-
  Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
- any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
   special-issue journal papers (Springer)\; 4-page long abstracts listed i
  n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
  ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
@@ -808,7 +807,7 @@ SUMMARY:IPCAI 2027 · Long abstract Track 1: late-breaking research (up to
  4 pages\, unpublished work\; no extension)
 DESCRIPTION:International Conference on Information Processing in Computer-
  Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
- any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
   special-issue journal papers (Springer)\; 4-page long abstracts listed i
  n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
  ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
@@ -826,7 +825,7 @@ SUMMARY:IPCAI 2027 · Regular-paper revisions due (invited revise decisions
   only)
 DESCRIPTION:International Conference on Information Processing in Computer-
  Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
- any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
   special-issue journal papers (Springer)\; 4-page long abstracts listed i
  n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
  ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
@@ -855,19 +854,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ieee-embc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270124
-DTEND;VALUE=DATE:20270125
+DTSTART:20270125T115900Z
+DTEND:20270125T125900Z
 SUMMARY:IEEE EMBC 2027 · Full paper submission deadline
 DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
- 027-07-11 to 2027-07-15\, Singapore\nStatus: confirmed\, checked 2026-10-
- 06\nCutoff time unannounced: official deadline day only. Verify the organ
- izer's submission portal.\nFormat: Paper-based / broad applied venue\; Ar
- chival option: Yes (est.)\nOfficial source: https://embc.embs.org/2027/im
- portant-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-
- embc-2027
+ 027-07-11 to 2027-07-15\, Singapore\nStatus: confirmed\, checked 2026-11-
+ 14\nFormat: Paper-based / broad applied venue\; Archival option: Yes\nOff
+ icial source: https://embc.embs.org/2027/papers/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#ieee-embc-2027
 CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
  als,BCI & Neurotechnology
-URL:https://embc.embs.org/2027/important-dates/
+URL:https://embc.embs.org/2027/papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:aime-2027-deadline-abstract@scientific-conference-calendar
@@ -877,7 +874,7 @@ DTEND:20270201T125900Z
 SUMMARY:AIME 2027 · Abstract submission deadline
 DESCRIPTION:International Conference on Artificial Intelligence in Medicine
  \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
- nfirmed\, checked 2026-10-05\nFormat: Paper-based / clinical AI\; Archiva
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / clinical AI\; Archiva
  l option: Yes\nOfficial source: https://aime27.aimedicine.info/call-for-p
  apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aime-2027
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
@@ -907,7 +904,7 @@ DTEND;VALUE=DATE:20270204
 SUMMARY:CHIL 2027 · Submissions due
 DESCRIPTION:Conference on Health\, Inference\, and Learning\nMeeting: 2027-
  06-28 to 2027-06-30 (est.)\, Chicago\, Illinois\, USA\nStatus: confirmed\
- , checked 2026-10-28\nCutoff time unannounced: official deadline day only
+ , checked 2026-11-14\nCutoff time unannounced: official deadline day only
  . Verify the organizer's submission portal.\nFormat: Paper-based\; Archiv
  al option: Yes\nOfficial source: https://chil.ahli.cc/submit/call-for-pap
  ers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#chil-2027
@@ -923,7 +920,7 @@ DTEND:20270208T125900Z
 SUMMARY:AIME 2027 · Full paper submission deadline
 DESCRIPTION:International Conference on Artificial Intelligence in Medicine
  \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
- nfirmed\, checked 2026-10-05\nFormat: Paper-based / clinical AI\; Archiva
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / clinical AI\; Archiva
  l option: Yes\nOfficial source: https://aime27.aimedicine.info/call-for-p
  apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aime-2027
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
@@ -938,7 +935,7 @@ DTEND:20270213T125900Z
 SUMMARY:MICCAI 2027 (est.) · Paper registration deadline
 DESCRIPTION:International Conference on Medical Image Computing and Compute
  r Assisted Intervention\nMeeting: 2027-09-27 to 2027-10-01\, Auckland\, N
- ew Zealand\nStatus: estimated\, checked 2026-10-28. Check the organizer's
+ ew Zealand\nStatus: estimated\, checked 2026-11-14. Check the organizer's
   call before relying on it.\nFormat: Paper-based\; Archival option: Yes (
  est.)\nPrevious edition's page: https://conferences.miccai.org/2026/en/de
  fault.asp\nVenue Radar: https://gon-uri.github.io/venue-radar/#miccai-202
@@ -972,7 +969,7 @@ DTEND:20270217T085900Z
 SUMMARY:IPCAI 2027 · Final decisions released (all papers)
 DESCRIPTION:International Conference on Information Processing in Computer-
  Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
- any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
   special-issue journal papers (Springer)\; 4-page long abstracts listed i
  n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
  ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
@@ -987,14 +984,15 @@ DTSTAMP:19700101T000000Z
 DTSTART:20270217T180000Z
 DTEND:20270217T190000Z
 SUMMARY:Neural Interfaces 2027 · Original research abstract submission (ca
- ll opens November 12\, 2026)
+ ll opens November 16\, 2026)
 DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
- \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-10-31\nCu
- toff note: Page says Feb 17\, 2027\, 1:00 PM CDT\, but Central clocks are
-  on CST (UTC-6) then. Earliest (CDT) instant stored.\nFormat: Abstract-ba
- sed / oral or poster presentations\; no proceedings announced\; Archival 
- option: No\nOfficial source: https://www.nans.org/neural-interfaces/\nVen
- ue Radar: https://gon-uri.github.io/venue-radar/#neural-interfaces-2027
+ \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-11-14\nCu
+ toff note: The event page says Feb 17\, 2027\, 1:00 PM CDT\; the 2027 gui
+ delines PDF says 1:00 PM Central Time\, which is CST (UTC-6) on that date
+ . Earliest (CDT) instant stored.\nFormat: Abstract-based / oral or poster
+  presentations\; no proceedings announced\; Archival option: No\nOfficial
+  source: https://www.nans.org/neural-interfaces/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#neural-interfaces-2027
 CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
  Signals
 URL:https://www.nans.org/neural-interfaces/
@@ -1006,7 +1004,7 @@ DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270225
 SUMMARY:BCI Winter 2027 · Conference
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nSt
- atus: confirmed\, checked 2026-10-28\nOfficial source: https://brain.kore
+ atus: confirmed\, checked 2026-11-14\nOfficial source: https://brain.kore
  a.ac.kr/bci2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci
  -winter-2027\nNotes: Official 2027 site and CFP confirm February 22-24\, 
  2027 at High1 Resort\, Jeongseon\, with papers due November 15\, 2026 (up
@@ -1027,7 +1025,7 @@ DTEND:20270227T125900Z
 SUMMARY:MICCAI 2027 (est.) · Full paper submission deadline
 DESCRIPTION:International Conference on Medical Image Computing and Compute
  r Assisted Intervention\nMeeting: 2027-09-27 to 2027-10-01\, Auckland\, N
- ew Zealand\nStatus: estimated\, checked 2026-10-28. Check the organizer's
+ ew Zealand\nStatus: estimated\, checked 2026-11-14. Check the organizer's
   call before relying on it.\nFormat: Paper-based\; Archival option: Yes (
  est.)\nPrevious edition's page: https://conferences.miccai.org/2026/en/de
  fault.asp\nVenue Radar: https://gon-uri.github.io/venue-radar/#miccai-202
@@ -1035,6 +1033,23 @@ DESCRIPTION:International Conference on Medical Image Computing and Compute
 CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
  Learning,Neuroimaging & Brain Mapping
 URL:https://conferences.miccai.org/2026/en/default.asp
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:AIME 2027 · Workshop proposal deadline
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / clinical AI\; Archival option: Yes\nOfficial source: https://aime27.aim
+ edicine.info/call-for-workshops-tutorials/\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-workshops-tutorials/
 END:VEVENT
 BEGIN:VEVENT
 UID:ipcai-2027-deadline-registration@scientific-conference-calendar
@@ -1045,7 +1060,7 @@ SUMMARY:IPCAI 2027 · Presenting-author registration deadline (registration
   via the CARS website)
 DESCRIPTION:International Conference on Information Processing in Computer-
  Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
- any\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / IJCARS
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
   special-issue journal papers (Springer)\; 4-page long abstracts listed i
  n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
  ps://sites.google.com/view/ipcai2027\nVenue Radar: https://gon-uri.github
@@ -1063,7 +1078,7 @@ SUMMARY:AMIA 2027 (est.) · Podium abstracts (2 pages\, not MEDLINE-indexed
  )
 DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
  ing: 2027-11-06 to 2027-11-10\, San Diego\, California\, USA\nStatus: est
- imated\, checked 2026-10-31. Check the organizer's call before relying on
+ imated\, checked 2026-11-14. Check the organizer's call before relying on
   it.\nFormat: Paper-based / proceedings archived in PubMed Central\; podi
  um abstracts and posters not MEDLINE-indexed\; Archival option: Yes (est.
  )\nOfficial source: https://web.archive.org/web/20260307122538/https://am
@@ -1083,7 +1098,7 @@ SUMMARY:AMIA 2027 (est.) · Papers and student papers (5-10 pages\, proceed
  ings archived in PMC)
 DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
  ing: 2027-11-06 to 2027-11-10\, San Diego\, California\, USA\nStatus: est
- imated\, checked 2026-10-31. Check the organizer's call before relying on
+ imated\, checked 2026-11-14. Check the organizer's call before relying on
   it.\nFormat: Paper-based / proceedings archived in PubMed Central\; podi
  um abstracts and posters not MEDLINE-indexed\; Archival option: Yes (est.
  )\nOfficial source: https://web.archive.org/web/20260307122538/https://am
@@ -1102,7 +1117,7 @@ DTEND:20270311T055900Z
 SUMMARY:AMIA 2027 (est.) · Posters (1 page\, not MEDLINE-indexed)
 DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
  ing: 2027-11-06 to 2027-11-10\, San Diego\, California\, USA\nStatus: est
- imated\, checked 2026-10-31. Check the organizer's call before relying on
+ imated\, checked 2026-11-14. Check the organizer's call before relying on
   it.\nFormat: Paper-based / proceedings archived in PubMed Central\; podi
  um abstracts and posters not MEDLINE-indexed\; Archival option: Yes (est.
  )\nOfficial source: https://web.archive.org/web/20260307122538/https://am
@@ -1120,7 +1135,7 @@ DTSTART:20270313T115900Z
 DTEND:20270313T125900Z
 SUMMARY:MIDL 2027 · Camera-ready deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-10-30\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -1136,13 +1151,30 @@ DTEND:20270314T125900Z
 SUMMARY:CHIL 2027 (est.) · Doctoral symposium application
 DESCRIPTION:Conference on Health\, Inference\, and Learning\nMeeting: 2027-
  06-28 to 2027-06-30 (est.)\, Chicago\, Illinois\, USA\nStatus: estimated\
- , checked 2026-10-28. Check the organizer's call before relying on it.\nF
+ , checked 2026-11-14. Check the organizer's call before relying on it.\nF
  ormat: Paper-based\; Archival option: Yes\nOfficial source: https://chil.
  ahli.cc/submit/doctoral-symposium/\nVenue Radar: https://gon-uri.github.i
  o/venue-radar/#chil-2027
 CATEGORIES:Healthcare & Clinical AI,Probabilistic\, Causal & Uncertainty ML
  ,Fairness & Responsible AI,Machine Learning
 URL:https://chil.ahli.cc/submit/doctoral-symposium/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:AIME 2027 · Tutorial proposal deadline
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / clinical AI\; Archival option: Yes\nOfficial source: https://aime27.aim
+ edicine.info/call-for-workshops-tutorials/\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-workshops-tutorials/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
@@ -1152,7 +1184,7 @@ DTEND;VALUE=DATE:20270316
 SUMMARY:IEEE NER 2027 · 6-page paper submission deadline
 DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
  ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
-  2026-11-07\nCutoff time unannounced: official deadline day only. Verify 
+  2026-11-14\nCutoff time unannounced: official deadline day only. Verify 
  the organizer's submission portal.\nFormat: Paper-based / engineering-foc
  used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
  rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
@@ -1255,13 +1287,28 @@ DTEND;VALUE=DATE:20270413
 SUMMARY:CHIL 2027 · Author notification
 DESCRIPTION:Conference on Health\, Inference\, and Learning\nMeeting: 2027-
  06-28 to 2027-06-30 (est.)\, Chicago\, Illinois\, USA\nStatus: confirmed\
- , checked 2026-10-28\nCutoff time unannounced: official deadline day only
+ , checked 2026-11-14\nCutoff time unannounced: official deadline day only
  . Verify the organizer's submission portal.\nFormat: Paper-based\; Archiv
  al option: Yes\nOfficial source: https://chil.ahli.cc/submit/call-for-pap
  ers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#chil-2027
 CATEGORIES:Healthcare & Clinical AI,Probabilistic\, Causal & Uncertainty ML
  ,Fairness & Responsible AI,Machine Learning
 URL:https://chil.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270417T115900Z
+DTEND:20270417T125900Z
+SUMMARY:IEEE EMBC 2027 · Full paper accept/reject notification
+DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
+ 027-07-11 to 2027-07-15\, Singapore\nStatus: confirmed\, checked 2026-11-
+ 14\nFormat: Paper-based / broad applied venue\; Archival option: Yes\nOff
+ icial source: https://embc.embs.org/2027/important-dates/\nVenue Radar: h
+ ttps://gon-uri.github.io/venue-radar/#ieee-embc-2027
+CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
+ als,BCI & Neurotechnology
+URL:https://embc.embs.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:mlhc-2027-deadline-full-paper@scientific-conference-calendar
@@ -1271,7 +1318,7 @@ DTEND:20270418T125900Z
 SUMMARY:MLHC 2027 (est.) · Full submission deadline
 DESCRIPTION:Machine Learning for Healthcare Conference\nMeeting: 2027-08-11
   to 2027-08-13\, Zurich\, Switzerland\nStatus: estimated\, checked 2026-1
- 0-28. Check the organizer's call before relying on it.\nFormat: Paper-bas
+ 1-14. Check the organizer's call before relying on it.\nFormat: Paper-bas
  ed\; Archival option: Yes (est.)\nOfficial source: https://mlhc.org/\nVen
  ue Radar: https://gon-uri.github.io/venue-radar/#mlhc-2027
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Time Series & Sequenti
@@ -1281,19 +1328,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ieee-embc-2027-deadline-poster@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270423
-DTEND;VALUE=DATE:20270424
+DTSTART:20270424T115900Z
+DTEND:20270424T125900Z
 SUMMARY:IEEE EMBC 2027 · 1-page poster submission deadline
 DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
- 027-07-11 to 2027-07-15\, Singapore\nStatus: confirmed\, checked 2026-10-
- 06\nCutoff time unannounced: official deadline day only. Verify the organ
- izer's submission portal.\nFormat: Paper-based / broad applied venue\; Ar
- chival option: Yes (est.)\nOfficial source: https://embc.embs.org/2027/im
- portant-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-
- embc-2027
+ 027-07-11 to 2027-07-15\, Singapore\nStatus: confirmed\, checked 2026-11-
+ 14\nFormat: Paper-based / broad applied venue\; Archival option: Yes\nOff
+ icial source: https://embc.embs.org/2027/papers/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#ieee-embc-2027
 CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
  als,BCI & Neurotechnology
-URL:https://embc.embs.org/2027/important-dates/
+URL:https://embc.embs.org/2027/papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:aime-2027-deadline-camera-ready@scientific-conference-calendar
@@ -1303,7 +1348,7 @@ DTEND:20270503T125900Z
 SUMMARY:AIME 2027 · Camera-ready submission deadline
 DESCRIPTION:International Conference on Artificial Intelligence in Medicine
  \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
- nfirmed\, checked 2026-10-05\nFormat: Paper-based / clinical AI\; Archiva
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / clinical AI\; Archiva
  l option: Yes\nOfficial source: https://aime27.aimedicine.info/call-for-p
  apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aime-2027
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
@@ -1315,15 +1360,15 @@ UID:ieee-biocas-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270508
-SUMMARY:IEEE BioCAS 2027 · Abstract submission deadline (IEEE society cale
- ndar)
+SUMMARY:IEEE BioCAS 2027 (est.) · Abstract submission date (IEEE SSCS cale
+ ndar\; not in host timeline)
 DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2027-
- 10-14 to 2027-10-16\, Oslo\, Norway\nStatus: confirmed\, checked 2026-10-
- 08\nCutoff time unannounced: official deadline day only. Verify the organ
- izer's submission portal.\nFormat: Paper-based\; Archival option: Yes (es
- t.)\nOfficial source: https://sscs.ieee.org/conferences/upcoming-conferen
- ces/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-202
- 7
+ 10-14 to 2027-10-16\, Oslo\, Norway\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nEstimated day only\
+ ; no cutoff hour stored. Check the organizer's call for the real date and
+  time.\nFormat: Paper-based\; Archival option: Yes (est.)\nOfficial sourc
+ e: https://sscs.ieee.org/conferences/upcoming-conferences/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#ieee-biocas-2027
 CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
  ,Neuromorphic & Brain-inspired Computing
 URL:https://sscs.ieee.org/conferences/upcoming-conferences/
@@ -1353,18 +1398,22 @@ DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270523
 SUMMARY:Neural Interfaces 2027 · Conference
 DESCRIPTION:Neural Interfaces Conference\nStatus: confirmed\, checked 2026-
- 10-31\nOfficial source: https://www.nans.org/neural-interfaces/\nVenue Ra
+ 11-14\nOfficial source: https://www.nans.org/neural-interfaces/\nVenue Ra
  dar: https://gon-uri.github.io/venue-radar/#neural-interfaces-2027\nNotes
  : NANS's official pages confirm Neural Interfaces 2027 on May 20-22\, 202
  7 in Arlington\, Virginia (venue not named). Original research abstracts 
- are accepted from November 12\, 2026 (day only) to February 17\, 2027\, 1
- :00 PM\; details are pending. The closed Call for Proposals gathered spea
- ker and session ideas. In 2025 (June 12-14\, Arlington) abstracts were bl
- ind-reviewed for oral or paper-poster slots and published in meeting mate
- rials\; no proceedings are stated. Billed as biennial (2012\, 2014 and 20
- 16 editions are documented)\, but NANS's recent editions were 2021 and 20
- 25. Size M reflects a three-day hotel meeting with poster receptions\; no
-  attendance is published. Size is an editorial estimate.
+ (max 400 words\, Introduction/Methods/Results/Conclusion) are accepted fr
+ om November 16\, 2026 (day only) to February 17\, 2027\, 1:00 PM Central\
+ ; notifications are expected mid-March 2027. The closed Call for Proposal
+ s gathered speaker and session ideas. The 2027 call says abstracts are bl
+ ind-reviewed by the Steering Committee for 7-10 minute oral talks or pape
+ r posters. Titles and author details are published in meeting materials\;
+  no proceedings are stated. Previously published abstracts or articles ar
+ e not eligible\, but preprints are. 2025 was June 12-14 in Arlington. Bil
+ led as biennial (2012\, 2014 and 2016 editions are documented)\, but NANS
+ 's recent editions were 2021 and 2025. Size M reflects a three-day hotel 
+ meeting with poster receptions\; no attendance is published. Size is an e
+ ditorial estimate.
 CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
  Signals
 URL:https://www.nans.org/neural-interfaces/
@@ -1415,7 +1464,7 @@ DTEND;VALUE=DATE:20270603
 SUMMARY:IEEE NER 2027 · 1-page abstract submission deadline
 DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
  ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
-  2026-11-07\nCutoff time unannounced: official deadline day only. Verify 
+  2026-11-14\nCutoff time unannounced: official deadline day only. Verify 
  the organizer's submission portal.\nFormat: Paper-based / engineering-foc
  used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
  rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
@@ -1423,6 +1472,22 @@ DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Healthcare & Clinical AI
 URL:https://neuro.embs.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-biocas-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:IEEE BioCAS 2027 · Regular paper submission deadline
+DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2027-
+ 10-14 to 2027-10-16\, Oslo\, Norway\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
+ izer's submission portal.\nFormat: Paper-based\; Archival option: Yes (es
+ t.)\nOfficial source: https://2027.ieee-biocas.org/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#ieee-biocas-2027
+CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
+ ,Neuromorphic & Brain-inspired Computing
+URL:https://2027.ieee-biocas.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-camera-ready@scientific-conference-calendar
@@ -1492,7 +1557,7 @@ DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270701
 SUMMARY:CHIL 2027 (est.) · Conference
 DESCRIPTION:Conference on Health\, Inference\, and Learning\nStatus: estima
- ted\, checked 2026-10-28. Check the organizer's call before relying on it
+ ted\, checked 2026-11-14. Check the organizer's call before relying on it
  .\nOfficial source: https://chil.ahli.cc/\nVenue Radar: https://gon-uri.g
  ithub.io/venue-radar/#chil-2027\nNotes: The official CHIL 2027 call lists
   Chicago\, IL (venue TBA)\, conference Jun 28-30\, 2027 marked tentative\
@@ -1511,7 +1576,7 @@ DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270701
 SUMMARY:IPCAI 2027 · Conference
 DESCRIPTION:International Conference on Information Processing in Computer-
- Assisted Interventions\nStatus: confirmed\, checked 2026-10-31\nOfficial 
+ Assisted Interventions\nStatus: confirmed\, checked 2026-11-14\nOfficial 
  source: https://sites.google.com/view/ipcai2027\nVenue Radar: https://gon
  -uri.github.io/venue-radar/#ipcai-2027\nNotes: 18th annual IPCAI (since 2
  010)\, held with CARS 2027 (Jun 28-Jul 1) at Langenbeck-Virchow-Haus\, Be
@@ -1553,11 +1618,14 @@ DTSTART;VALUE=DATE:20270705
 DTEND;VALUE=DATE:20270709
 SUMMARY:AIME 2027 · Conference
 DESCRIPTION:International Conference on Artificial Intelligence in Medicine
- \nStatus: confirmed\, checked 2026-10-05\nOfficial source: https://aime27
+ \nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://aime27
  .aimedicine.info/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ai
- me-2027\nNotes: Official AIME 2027 pages confirm Amsterdam\, Jul 5-8 (mai
- n conference Jul 6-7)\, and the abstract\, paper\, and camera-ready dates
- \, all AoE.
+ me-2027\nNotes: Official AIME 2027 pages (checked 2026-11-14) confirm Ams
+ terdam (KIT Royal Tropical Institute)\, Jul 5-8 (main conference Jul 6-7\
+ , workshops Jul 8)\, and the abstract\, paper and camera-ready dates\, al
+ l AoE. The CFP says the submission system opened Nov 2\, 2026 (day only\,
+  portal not verified)\, and notification is Apr 19. The workshop proposal
+  deadline is Feb 28 AoE (tutorials Mar 15).
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
  babilistic\, Causal & Uncertainty ML
 URL:https://aime27.aimedicine.info/
@@ -1590,11 +1658,13 @@ DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270716
 SUMMARY:IEEE EMBC 2027 · Conference
 DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nStatus: co
- nfirmed\, checked 2026-10-06\nOfficial source: https://embc.embs.org/2027
+ nfirmed\, checked 2026-11-14\nOfficial source: https://embc.embs.org/2027
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-embc-2027\nNo
- tes: Organizer confirms Singapore\, Jul 11-15\, and Jan 24 full-paper/Apr
-  23 poster deadlines. Cutoff hour/timezone is not specified\; 23:59 AoE i
- s a provisional ordering time\; the official deadline days are confirmed.
+ tes: Organizer confirms Singapore (ICC\, Suntec Singapore)\, Jul 11-15\, 
+ and Jan 24 full-paper/Apr 23 poster deadlines\; the papers page states al
+ l deadlines are 11:59 PM AoE and will be strictly observed. Portal announ
+ ced to open December 2026 (no exact day). 1-page posters are not eligible
+  for IEEE Xplore/PubMed indexing.
 CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
  als,BCI & Neurotechnology
 URL:https://embc.embs.org/2027/
@@ -1607,7 +1677,7 @@ DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:MIDL 2027 · Conference
 DESCRIPTION:Medical Imaging with Deep Learning\nStatus: confirmed\, checked
-  2026-10-30\nOfficial source: https://2027.midl.io/important-dates\nVenue
+  2026-11-14\nOfficial source: https://2027.midl.io/important-dates\nVenue
   Radar: https://gon-uri.github.io/venue-radar/#midl-2027\nNotes: Official
   2027 dates page confirms the July meeting and 23:59 AoE full-paper abstr
  act registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 12) 
@@ -1627,7 +1697,7 @@ DTSTART;VALUE=DATE:20270811
 DTEND;VALUE=DATE:20270814
 SUMMARY:MLHC 2027 · Conference
 DESCRIPTION:Machine Learning for Healthcare Conference\nStatus: confirmed\,
-  checked 2026-10-28\nOfficial source: https://mlhc.org/\nVenue Radar: htt
+  checked 2026-11-14\nOfficial source: https://mlhc.org/\nVenue Radar: htt
  ps://gon-uri.github.io/venue-radar/#mlhc-2027\nNotes: As of 2026-10-28 ml
  hc.org confirms Aug 11-13\, 2027 at ETH Zurich ("Details coming soon") bu
  t has not published a 2027 call. The April 17 submission date is a proxy 
@@ -1666,16 +1736,19 @@ DTSTART;VALUE=DATE:20270907
 DTEND;VALUE=DATE:20270911
 SUMMARY:IEEE NER 2027 · Conference
 DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nStatu
- s: confirmed\, checked 2026-11-07\nOfficial source: https://neuro.embs.or
+ s: confirmed\, checked 2026-11-14\nOfficial source: https://neuro.embs.or
  g/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-202
  7\nNotes: The official NER 2027 schedule confirms Milan\, Sep 7-10\, 2027
  \, with 6-page papers due Mar 15 and independent 1-page abstracts due Jun
-  2. The 2027 schedule also lists proposals Nov 30\, 2026\, paper decision
- s May 15\, final papers Jun 2 and abstract decisions Jun 18. No cutoff ho
- ur is attached to the 2027 block\; the page's repeated 2022 template date
- s and PST statements are not evidence for a 2027 clock. Both tracked cuto
- ffs are date-only\; no portal opening is inferred. The retained 2025 CFP 
- documents the superseded proxy\, not the current deadlines.
+  2. The 2027 schedule also lists submission-system and online-registratio
+ n opening Nov 30\, 2026 (day only\; no opens_at recorded)\, paper decisio
+ ns May 15\, final papers Jun 2 and abstract decisions Jun 18. No cutoff h
+ our is attached to the 2027 block\; the page's repeated 2022 template dat
+ es and PST statements are not evidence for a 2027 clock. Both tracked cut
+ offs are date-only\; no portal opening is inferred. The 2027 call page sa
+ ys full papers (4-7 pages incl. references\, fees above 4 pages) are elig
+ ible for IEEE Xplore and that one-page poster abstracts are not\; its own
+  deadline list is still 'Coming soon'.
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Healthcare & Clinical AI
 URL:https://neuro.embs.org/2027/
@@ -1688,8 +1761,8 @@ DTSTART:20270911T115900Z
 DTEND:20270911T125900Z
 SUMMARY:ML4H 2027 (est.) · Paper submission deadline
 DESCRIPTION:Machine Learning for Health Symposium\nMeeting: 2027-12-06 to 2
- 027-12-07 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-2
- 9. Check the organizer's call before relying on it.\nFormat: Proceedings 
+ 027-12-07 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-1
+ 4. Check the organizer's call before relying on it.\nFormat: Proceedings 
  + findings tracks\; Archival option: Yes (est.)\nOfficial source: https:/
  /ml4h.ahli.cc/submit/call-for-papers/\nVenue Radar: https://gon-uri.githu
  b.io/venue-radar/#ml4h-2027
@@ -1728,7 +1801,7 @@ DTSTART;VALUE=DATE:20270927
 DTEND;VALUE=DATE:20271002
 SUMMARY:MICCAI 2027 · Conference
 DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nStatus: confirmed\, checked 2026-10-28\nOfficial
+ r Assisted Intervention\nStatus: confirmed\, checked 2026-11-14\nOfficial
   source: https://conferences.miccai.org/2027/en/default.asp\nVenue Radar:
   https://gon-uri.github.io/venue-radar/#miccai-2027\nNotes: The MICCAI 20
  27 site gives Sep 27-Oct 1 at the NZ International Convention Centre\, Au
@@ -1748,13 +1821,16 @@ DTSTART;VALUE=DATE:20271014
 DTEND;VALUE=DATE:20271017
 SUMMARY:IEEE BioCAS 2027 · Conference
 DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nStatus: confir
- med\, checked 2026-10-08\nOfficial source: https://2027.ieee-biocas.org/\
+ med\, checked 2026-11-14\nOfficial source: https://2027.ieee-biocas.org/\
  nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-2027\nNo
- tes: Official 2027 host confirms Oslo and October 14-16. IEEE SSCS lists 
- May 7 as Abstract Submission Date\; it is retained with that exact action
- \, not relabeled as a paper deadline or made a mandatory paper gate. The 
- final 2027 CFP\, full-paper deadline and cutoff hour still require review
- . Size is an editorial estimate.
+ tes: Official 2027 host confirms Oslo (Thon Hotell Storo) and October 14-
+ 16\, with timeline: special session proposals May 21\, regular papers Jun
+ e 11\, live demos and tutorial proposals June 25\, notification August 11
+ \, final papers and author registration August 27\, 2027. Cutoff hour unp
+ ublished. IEEE SSCS still lists a May 7 Abstract Submission Date that the
+  host timeline does not include\; it is kept as an estimated\, conflict-l
+ abeled entry pending the full CFP. No full 2027 CFP page yet. Size is an 
+ editorial estimate.
 CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
  ,Neuromorphic & Brain-inspired Computing
 URL:https://2027.ieee-biocas.org/
@@ -1767,7 +1843,7 @@ DTSTART;VALUE=DATE:20271106
 DTEND;VALUE=DATE:20271111
 SUMMARY:AMIA 2027 · Conference
 DESCRIPTION:American Medical Informatics Association Annual Symposium\nStat
- us: confirmed\, checked 2026-10-31\nOfficial source: https://web.archive.
+ us: confirmed\, checked 2026-11-14\nOfficial source: https://web.archive.
  org/web/20260708112717/https://amia.org/education-events/annual-symposium
  \nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2027\nNotes: A
  MIA's Annual Symposium page (Internet Archive capture of 2026-07-08\; ami
@@ -1793,13 +1869,13 @@ DTSTART;VALUE=DATE:20271206
 DTEND;VALUE=DATE:20271208
 SUMMARY:ML4H 2027 (est.) · Conference
 DESCRIPTION:Machine Learning for Health Symposium\nStatus: estimated\, chec
- ked 2026-10-29. Check the organizer's call before relying on it.\nOfficia
+ ked 2026-11-14. Check the organizer's call before relying on it.\nOfficia
  l source: https://ml4h.ahli.cc/\nVenue Radar: https://gon-uri.github.io/v
- enue-radar/#ml4h-2027\nNotes: As of 2026-10-29 the official ML4H and AHLI
-  sites cover only ML4H 2026 (Sydney\, Dec 6-7) and announce no 2027 host 
- or dates. Meeting dates and the Sep 10 paper deadline (23:59 AoE) are one
- -year proxies from ML4H 2026\; its non-archival demo track and production
-  dates are not projected.
+ enue-radar/#ml4h-2027\nNotes: As of 2026-11-14 the official ML4H site cov
+ ers only ML4H 2026 (Sydney\, Dec 6-7) and announces no 2027 host or dates
+ . Meeting dates and the Sep 10 paper deadline (23:59 AoE) are one-year pr
+ oxies from ML4H 2026\; its non-archival demo track and production dates a
+ re not projected.
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Time Series & Sequenti
  al Data,Deep Representation Learning
 URL:https://ml4h.ahli.cc/

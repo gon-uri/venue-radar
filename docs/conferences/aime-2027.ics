@@ -17,7 +17,7 @@ DTEND:20270201T125900Z
 SUMMARY:AIME 2027 · Abstract submission deadline
 DESCRIPTION:International Conference on Artificial Intelligence in Medicine
  \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
- nfirmed\, checked 2026-10-05\nFormat: Paper-based / clinical AI\; Archiva
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / clinical AI\; Archiva
  l option: Yes\nOfficial source: https://aime27.aimedicine.info/call-for-p
  apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aime-2027
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
@@ -32,12 +32,46 @@ DTEND:20270208T125900Z
 SUMMARY:AIME 2027 · Full paper submission deadline
 DESCRIPTION:International Conference on Artificial Intelligence in Medicine
  \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
- nfirmed\, checked 2026-10-05\nFormat: Paper-based / clinical AI\; Archiva
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / clinical AI\; Archiva
  l option: Yes\nOfficial source: https://aime27.aimedicine.info/call-for-p
  apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aime-2027
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
  babilistic\, Causal & Uncertainty ML
 URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:AIME 2027 · Workshop proposal deadline
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / clinical AI\; Archival option: Yes\nOfficial source: https://aime27.aim
+ edicine.info/call-for-workshops-tutorials/\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-workshops-tutorials/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:AIME 2027 · Tutorial proposal deadline
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / clinical AI\; Archival option: Yes\nOfficial source: https://aime27.aim
+ edicine.info/call-for-workshops-tutorials/\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-workshops-tutorials/
 END:VEVENT
 BEGIN:VEVENT
 UID:aime-2027-deadline-camera-ready@scientific-conference-calendar
@@ -47,7 +81,7 @@ DTEND:20270503T125900Z
 SUMMARY:AIME 2027 · Camera-ready submission deadline
 DESCRIPTION:International Conference on Artificial Intelligence in Medicine
  \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
- nfirmed\, checked 2026-10-05\nFormat: Paper-based / clinical AI\; Archiva
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / clinical AI\; Archiva
  l option: Yes\nOfficial source: https://aime27.aimedicine.info/call-for-p
  apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aime-2027
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
@@ -61,11 +95,14 @@ DTSTART;VALUE=DATE:20270705
 DTEND;VALUE=DATE:20270709
 SUMMARY:AIME 2027 · Conference
 DESCRIPTION:International Conference on Artificial Intelligence in Medicine
- \nStatus: confirmed\, checked 2026-10-05\nOfficial source: https://aime27
+ \nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://aime27
  .aimedicine.info/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ai
- me-2027\nNotes: Official AIME 2027 pages confirm Amsterdam\, Jul 5-8 (mai
- n conference Jul 6-7)\, and the abstract\, paper\, and camera-ready dates
- \, all AoE.
+ me-2027\nNotes: Official AIME 2027 pages (checked 2026-11-14) confirm Ams
+ terdam (KIT Royal Tropical Institute)\, Jul 5-8 (main conference Jul 6-7\
+ , workshops Jul 8)\, and the abstract\, paper and camera-ready dates\, al
+ l AoE. The CFP says the submission system opened Nov 2\, 2026 (day only\,
+  portal not verified)\, and notification is Apr 19. The workshop proposal
+  deadline is Feb 28 AoE (tutorials Mar 15).
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
  babilistic\, Causal & Uncertainty ML
 URL:https://aime27.aimedicine.info/

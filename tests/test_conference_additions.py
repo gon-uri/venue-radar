@@ -37,10 +37,14 @@ class ConferenceAdditionTests(unittest.TestCase):
             self.assertEqual(item['confidence'], 'estimated')
             self.assertEqual(item['location'], 'To be announced')
             self.assertTrue(all(d['confidence'] == 'estimated' for d in item['deadlines']))
-        for series in ['CogSci']:
-            item = self.additions[series]
-            self.assertEqual(item['confidence'], 'confirmed')
-            self.assertTrue(all(d['confidence'] == 'estimated' for d in item['deadlines']))
+        # CogSci's 2027 call (read 2026-11-14) confirms the paper cutoff per fact,
+        # with its UTC-11 versus AoE ambiguity recorded on the deadline.
+        item = self.additions['CogSci']
+        self.assertEqual(item['confidence'], 'confirmed')
+        paper = next(d for d in item['deadlines'] if d['type'] == 'full_paper')
+        self.assertEqual(paper.get('confidence', item['confidence']), 'confirmed')
+        self.assertEqual(paper['datetime'], '2027-02-01T23:59:00-11:00')
+        self.assertIn('UTC-11', paper['cutoff_note'])
 
     def test_new_topics_are_central_leaves_in_existing_families(self):
         families = load_mapping(FAMILIES_PATH)['families']

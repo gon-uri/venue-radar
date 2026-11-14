@@ -1,6 +1,6 @@
 # Data Maintenance
 
-Last synchronized: 2026-10-30.
+Last synchronized: 2026-11-14.
 
 Use this guide to refresh tracked information. For a new series/edition use
 [adding conferences](adding_conferences.md); for fields and submission semantics
@@ -54,8 +54,14 @@ the website never refreshes organizer information automatically.
   special joint IJCAI-ECAI series does not demand a same-name successor.
 - Acceptance queue: missing sourced evidence or evidence more than two years
   old. It does not infer a rate or selectivity band.
-- Scope queue: missing/stale profiles and profiles based on an earlier edition;
-  an edition review does not silently refresh scope evidence.
+- Scope queue: missing profiles, profiles older than `--scope-max-age-days`
+  (default 365), and profiles based on an earlier edition once a newer call is
+  out (a confirmed fresh-submission route). An edition review does not silently
+  refresh scope evidence.
+- Archival queue: series with a new-paper route and no value, values read
+  from an older call once a newer call is out, and estimated values (ADR-048).
+- Rollover ready: a read-only preview of the cadence drafts
+  `rollover_editions.py` would write. Add one only from an official announcement.
 - These are advisory checks, not scrapers. They do not validate URL reachability,
   resolve conflicting official pages, detect every missing submission in a
   nonempty schedule-only list, or verify historical statistics. Review those
@@ -84,12 +90,17 @@ route on its own. Advisory checks, listed apart from the queue, flag passed
 estimated deadlines of upcoming meetings, an `opens_at` stored at exactly
 midnight on a route that is still open (confirm the source publishes that time;
 a day-only opening belongs in notes), confirmed future locations without a
-city alias, confirmed records citing an older year's URL, and aggregator or
-social-media sources. The acceptance and scope backlogs print a count plus a
+city alias, a confirmed record whose call or confirmed deadline cites an
+older year's page (one line per edition; `source_urls` may keep prior editions
+as cited history), and aggregator or social-media sources. The acceptance and scope backlogs print a count plus a
 sample (`--backlog-sample N`); `--full` lists every row. `--format markdown`
 writes a GitHub issue body and `--format json` a machine-readable report.
 
 ### Weekly Review Issue
+
+A weekly pass of about 20 minutes over the issue's "New this week", Act now
+and Recheck sections catches extensions before deadlines close; the monthly
+review covers the rest. Later and Schedule only are collapsed in the issue.
 
 `.github/workflows/maintenance-report.yml` runs every Monday at 06:00 UTC (or by
 hand) and rewrites the body of the single issue titled "Review queue" that the
@@ -260,7 +271,8 @@ series, read the newest published call and update its entry in
 `checked` to the review day. Yes needs a track for new papers whose accepted
 papers appear in the conference's own archival proceedings or journal; opt-in
 or opt-out counts. Abstract volumes do not count, even with a DOI, ISBN or
-journal supplement ("papers only", owner decision 2026-11-05). Neither do
+journal supplement ("papers only", owner decision 2026-11-05). A call that
+calls its own proceedings non-archival settles No (CogSci, 2026-11-14). Neither do
 doctoral consortia, talks on already published papers or satellite-workshop
 proceedings. Use `estimated: true` when the call is silent and the value rests
 on the meeting's format. Never infer a value from `submission_type`, ranks or

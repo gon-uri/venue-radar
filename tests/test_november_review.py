@@ -19,7 +19,15 @@ class NovemberReviewTests(unittest.TestCase):
         self.assertEqual((item['conference_start'], item['conference_end']),
                          ('2027-07-31', '2027-08-06'))
         self.assertEqual(item['confidence'], 'confirmed')
-        self.assertTrue(all(d['confidence'] == 'estimated' for d in item['deadlines']))
+        # The 2027 call (read 2026-11-14) confirms the paper routes; the workshop
+        # call is still pending, so its proxy stays estimated.
+        deadlines = {d['type']: d for d in item['deadlines']}
+        self.assertEqual(deadlines['abstract']['datetime'], '2027-01-14T23:59:00-12:00')
+        self.assertEqual(deadlines['full_paper']['datetime'], '2027-01-22T23:59:00-12:00')
+        for kind in ('abstract', 'full_paper'):
+            self.assertEqual(deadlines[kind].get('confidence', item['confidence']), 'confirmed')
+        others = [d for d in item['deadlines'] if d['type'] not in ('abstract', 'full_paper')]
+        self.assertTrue(others and all(d['confidence'] == 'estimated' for d in others))
 
     def test_ner_uses_current_days_without_the_stale_template_clock(self):
         deadlines = {d['type']: d for d in self.records['ieee-ner-2027']['deadlines']}

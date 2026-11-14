@@ -20,7 +20,7 @@ export async function checkVenueFeatures(page, url) {
     .map(locator => locator.boundingBox()));
   assert(Math.abs(markBox.y - clockBox.y) < 4 && markBox.x > clockBox.x, 'The asterisk stays on the clock line');
   assert.match(await mlsysSummary.locator('.deadline-note').innerText(), /^(Note:\s*)?\* .*Earliest instant stored\.$/);
-  assert.equal(await row('icml-2027').locator('.deadline-clock').count(), 0, 'Estimated rows have no clock');
+  assert.equal(await row('uai-2027').locator('.deadline-clock').count(), 0, 'Estimated rows have no clock');
   assert.equal(await row('ifac-sysid-2027').locator('[data-deadline-row]:visible .deadline-clock').count(), 0,
     'Date-only cutoffs have no clock');
   assert.match(await row('aamas-2027').locator('[data-deadline-row]:visible .deadline-clock').innerText(), /^23:59 AoE$/);

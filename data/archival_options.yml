@@ -313,13 +313,14 @@ options:
     checked: "2026-11-05"
     note: "Abstract-only meeting; its citable abstract volume does not count as archival proceedings (papers-only rule, owner decision 2026-11-05)."
   "CogSci":
-    archival: "yes"
+    archival: "no"
     estimated: false
     track: "Research papers (talks/posters)"
-    venue: "Proceedings of the Annual Meeting of the Cognitive Science Society (online proceedings published by the Society)"
-    source_url: "https://cognitivesciencesociety.org/?p=216392"
-    source_year: 2026
-    checked: "2026-11-05"
+    venue: "Proceedings of the Annual Meeting of the Cognitive Science Society (online, CC-BY; declared non-archival by the call)"
+    source_url: "https://cognitivesciencesociety.org/submissions/"
+    source_year: 2027
+    checked: "2026-11-14"
+    note: "The 2027 call publishes 6-page papers in the Society's online proceedings but states the volume 'is not considered archival' for later journal submission; the owner ruled it non-archival (2026-11-14)."
   "COLING":
     archival: "yes"
     estimated: false
@@ -669,9 +670,9 @@ options:
     estimated: false
     track: "Main-track conference papers"
     venue: "IEEE Xplore (ICIP Proceedings)"
-    source_url: "https://2026.ieeeicip.org/call-for-papers-and-abstracts/"
-    source_year: 2026
-    checked: "2026-11-05"
+    source_url: "https://2027.ieeeicip.org/call-for-papers/"
+    source_year: 2027
+    checked: "2026-11-14"
   "ICLR":
     archival: "yes"
     estimated: false
@@ -693,9 +694,9 @@ options:
     estimated: false
     track: "Main track full papers"
     venue: "PMLR (Proceedings of Machine Learning Research)"
-    source_url: "https://icml.cc/Conferences/2026/CallForPapers"
-    source_year: 2026
-    checked: "2026-11-05"
+    source_url: "https://icml.cc/Conferences/2027/CallForPapers"
+    source_year: 2027
+    checked: "2026-11-14"
   "ICMNS":
     archival: "no"
     estimated: false
@@ -813,17 +814,18 @@ options:
     estimated: false
     track: "Full Contributed Papers"
     venue: "IEEE Xplore and PubMed/MEDLINE"
-    source_url: "https://embc.embs.org/2026/papers/"
-    source_year: 2026
-    checked: "2026-11-05"
+    source_url: "https://embc.embs.org/2027/papers/"
+    source_year: 2027
+    checked: "2026-11-14"
+    note: "The 2027 call excludes only 1-page papers from IEEE Xplore and PubMed; full papers go into the proceedings."
   "IEEE ICMLA":
     archival: "yes"
     estimated: false
     track: "Main conference regular/short papers"
     venue: "Conference proceedings (IEEE, submitted to IEEE Xplore)"
-    source_url: "https://www.icmla-conference.org/icmla26/callforpapers.html"
-    source_year: 2026
-    checked: "2026-11-05"
+    source_url: "https://www.icmla-conference.org/icmla27/callforpapers.html"
+    source_year: 2027
+    checked: "2026-11-14"
   "IEEE MLSP":
     archival: "yes"
     estimated: false
@@ -1229,11 +1231,11 @@ options:
   "RLC":
     archival: "yes"
     estimated: false
-    track: "Main paper track"
+    track: "Papers accepted to RLJ and presented at RLC"
     venue: "Reinforcement Learning Journal (RLJ), ISSN 2996-8577"
-    source_url: "https://rl-conference.cc/2026/callforpapers.html"
-    source_year: 2026
-    checked: "2026-11-05"
+    source_url: "https://rl-conference.cc/2027/index.html"
+    source_year: 2027
+    checked: "2026-11-14"
   "RLDM":
     archival: "no"
     estimated: false

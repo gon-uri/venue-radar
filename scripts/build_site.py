@@ -12,7 +12,7 @@ from urllib.parse import urlencode
 
 import yaml
 from build_ics import SITE_URL, _older_year_link, series_display_name, series_groups, series_slug
-from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata, validate_conference_families
+from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping, map_events, successor_map, validate_catalog_metadata, validate_conference_families
 from archival_options import ARCHIVAL_PATH, archival_label, load_archival_options, validate_archival_options, with_archival
 from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
@@ -229,7 +229,9 @@ def _search_text(conference: dict[str, Any], extra: list[str] | None = None) -> 
     ]
     if extra:
         parts.extend(extra)
-    return " ".join(str(part) for part in parts if part)
+    # HTML parsing turns CRLF and lone CR into LF; do the same here so the
+    # data-search-base length matches the attribute value the browser reads.
+    return " ".join(str(part) for part in parts if part).replace("\r\n", "\n").replace("\r", "\n")
 
 
 def _topic_slugs(topics: list[str]) -> str:
@@ -432,25 +434,8 @@ def _evidence_line(conference: dict[str, Any]) -> str:
     return f'<div class="evidence-line">{"".join(items)}</div>'
 
 
-def _successors(conferences: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
-    """Map each edition ID to the next tracked edition of the same series, or,
-    for a series' latest edition, to a later edition that declares
-    `continues: [<that series>]` (ADR-046)."""
-    by_series: dict[str, list[dict[str, Any]]] = {}
-    for conference in conferences:
-        by_series.setdefault(conference["series"], []).append(conference)
-    order = lambda item: (item["year"], str(item["conference_start"]))
-    result: dict[str, dict[str, Any]] = {}
-    for editions in by_series.values():
-        ordered = sorted(editions, key=order)
-        for current, following in zip(ordered, ordered[1:]):
-            result[current["id"]] = following
-    for following in sorted(conferences, key=order):
-        for name in following.get("continues", []):
-            latest = max(by_series.get(name, []), key=order, default=None)
-            if latest and latest["id"] not in result and str(latest["conference_start"]) < str(following["conference_start"]):
-                result[latest["id"]] = following
-    return result
+# Kept under its old name for callers and tests.
+_successors = successor_map
 
 
 def _colgroup(widths: list[str]) -> str:
@@ -464,9 +449,14 @@ def _archival_attr(conference: dict[str, Any]) -> str:
     return "" if value is None else "1" if value["archival"] else "0"
 
 
+def _utf16_length(text: str) -> int:
+    """String length as JavaScript counts it (UTF-16 code units)."""
+    return len(text.encode("utf-16-le")) // 2
+
+
 def _filter_attributes(
     conference: dict[str, Any],
-    search_text: str,
+    search_text: str | None,
     icore: dict[str, Any],
     ccf: dict[str, Any],
     rates: dict[str, Any],
@@ -493,8 +483,9 @@ def _filter_attributes(
     ]
     return (
         f'data-filter-row data-edition="{_attr(conference["id"])}" '
-        f'data-series-slug="{_attr(series_slug(conference["series"]))}" data-search="{_attr(search_text)}" '
-        f'data-topics="{_attr(_topic_slugs(all_topics(conference)))}" '
+        f'data-series-slug="{_attr(series_slug(conference["series"]))}" '
+        + (f'data-search="{_attr(search_text)}" ' if search_text is not None else "")
+        + f'data-topics="{_attr(_topic_slugs(all_topics(conference)))}" '
         f'data-families="{_attr(" ".join(CONFERENCE_FAMILIES.get(conference["series"], [])))}" '
         f'data-size="{_attr(_value_slug(conference.get("size", "")))}" '
         f'data-icore="{_attr(icore.get(conference["series"], {}).get("rank", "Unranked"))}" '
@@ -627,6 +618,9 @@ def _deadline_group_rows(
             # queries such as "2026" match later editions via old links).
             search_extras.extend([_display_deadline_label(deadline["label"]), deadline["type"]])
         search_text = _search_text(conference, search_extras)
+        # The Conferences tab reads its search text as this prefix (no duplicate attribute).
+        base_text = _search_text(conference)
+        assert search_text.startswith(base_text), conference["id"]
         group_id = stable_slug(conference["id"])
         grid_id = f"milestones-{group_id}"
         toggle_html = ""
@@ -649,6 +643,7 @@ def _deadline_group_rows(
         rows.append(
             f'<tr class="deadline-group-row" id="deadline-{_attr(group_id)}" '
             f'{_filter_attributes(conference, search_text, icore, ccf, rates)} '
+            f'data-search-base="{_utf16_length(base_text)}" '
             f'data-deadline-group="{_attr(group_id)}" data-expanded="false">'
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}</td>"
             '<td data-label="Submission status"><div class="status-cell">'
@@ -683,7 +678,6 @@ def _conference_rows(
         conferences,
         key=lambda item: (parse_date(item["conference_start"]), item["id"]),
     ):
-        search_text = _search_text(conference)
         date_estimate = (
             ' <span class="milestone-estimate" title="Conference dates estimated">(est.)</span>'
             if conference["confidence"] in {"estimated", "not_yet_announced", "stale"}
@@ -691,7 +685,7 @@ def _conference_rows(
         )
         rows.append(
             f'<tr id="conference-{_attr(stable_slug(conference["id"]))}" '
-            f'{_filter_attributes(conference, search_text, icore, ccf, rates, include_deadlines=False)} data-conference-row>'
+            f'{_filter_attributes(conference, None, icore, ccf, rates, include_deadlines=False)} data-conference-row>'
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a>{_star_button(conference)}</td>"
             f"<td data-label=\"Dates\">{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}{date_estimate}{_archival_tag(conference)}</td>"
             f"<td data-label=\"Location\">{escape(conference.get('location', 'TBD'))}</td>"

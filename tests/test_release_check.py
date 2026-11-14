@@ -92,6 +92,7 @@ class OrderingTests(unittest.TestCase):
             "check_build": fake("build", build_status),
             "check_determinism": fake("deterministic build"),
             "check_drift": fake("docs/ vs git index"),
+            "check_sizes": fake("size budgets"),
             "check_whitespace": fake("git diff --check"),
             "check_private_notes": fake("private notes"),
             "check_freshness": fake("last_updated"),
@@ -103,7 +104,7 @@ class OrderingTests(unittest.TestCase):
         with patcher:
             results = release_check.run_checks()
         expected = ["validate", "unit tests", "build", "deterministic build",
-                    "docs/ vs git index", "git diff --check", "private notes", "last_updated"]
+                    "docs/ vs git index", "size budgets", "git diff --check", "private notes", "last_updated"]
         self.assertEqual(calls, expected)
         self.assertEqual([result.name for result in results], expected)
 
@@ -117,7 +118,18 @@ class OrderingTests(unittest.TestCase):
         self.assertEqual(statuses["unit tests"], SKIP)
         self.assertEqual(statuses["deterministic build"], SKIP)
         self.assertEqual(statuses["docs/ vs git index"], SKIP)
+        self.assertEqual(statuses["size budgets"], SKIP)
         self.assertEqual(statuses["last_updated"], PASS)
+
+    def test_size_warnings_fire_before_the_hard_feed_limit_and_page_budget(self) -> None:
+        from release_check import FEED_SIZE_LIMIT, PAGE_GZIP_BUDGET, size_warnings
+        self.assertEqual(size_warnings({"calendar-all.ics": 800_000}, PAGE_GZIP_BUDGET, 260), [])
+        warnings = size_warnings({"calendar-all.ics": int(FEED_SIZE_LIMIT * 0.95)}, PAGE_GZIP_BUDGET + 1, 260)
+        self.assertEqual(len(warnings), 2)
+        self.assertIn("95% of the 1 MB limit; about 13 more editions fit", warnings[0])
+        self.assertIn("gzipped", warnings[1])
+        over = size_warnings({"calendar-all.ics": FEED_SIZE_LIMIT + 100_000}, 0, 260)
+        self.assertIn("over the limit", over[0])
 
 
 if __name__ == "__main__":

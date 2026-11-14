@@ -10,6 +10,22 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:rldm-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270108T235900Z
+DTEND:20270109T005900Z
+SUMMARY:RLDM 2027 · Half-day workshop proposal submission (Google Form)
+DESCRIPTION:Multi-disciplinary Conference on Reinforcement Learning and Dec
+ ision Making\nMeeting: 2027-07-06 to 2027-07-09\, Paris\, France\nStatus:
+  confirmed\, checked 2026-11-14\nFormat: Extended-abstract-based / non-ar
+ chival (no proceedings)\; Archival option: No\nOfficial source: https://r
+ ldm.org/call-for-tutorials-2027/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#rldm-2027
+CATEGORIES:Reinforcement Learning,Computational Neuroscience,Cognitive Scie
+ nce & Computational Cognition
+URL:https://rldm.org/call-for-tutorials-2027/
+END:VEVENT
+BEGIN:VEVENT
 UID:rldm-2027-deadline-extended-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270121T115900Z
@@ -18,7 +34,7 @@ SUMMARY:RLDM 2027 · Extended abstract submission (summary plus 1-4 page ex
  tended abstract\; posters and oral talks)
 DESCRIPTION:Multi-disciplinary Conference on Reinforcement Learning and Dec
  ision Making\nMeeting: 2027-07-06 to 2027-07-09\, Paris\, France\nStatus:
-  confirmed\, checked 2026-10-31\nFormat: Extended-abstract-based / non-ar
+  confirmed\, checked 2026-11-14\nFormat: Extended-abstract-based / non-ar
  chival (no proceedings)\; Archival option: No\nOfficial source: https://r
  ldm.org/call-for-abstracts-2027/\nVenue Radar: https://gon-uri.github.io/
  venue-radar/#rldm-2027
@@ -34,7 +50,7 @@ DTEND:20270227T125900Z
 SUMMARY:RLDM 2027 · Decisions announced
 DESCRIPTION:Multi-disciplinary Conference on Reinforcement Learning and Dec
  ision Making\nMeeting: 2027-07-06 to 2027-07-09\, Paris\, France\nStatus:
-  confirmed\, checked 2026-10-31\nFormat: Extended-abstract-based / non-ar
+  confirmed\, checked 2026-11-14\nFormat: Extended-abstract-based / non-ar
  chival (no proceedings)\; Archival option: No\nOfficial source: https://r
  ldm.org/call-for-abstracts-2027/\nVenue Radar: https://gon-uri.github.io/
  venue-radar/#rldm-2027
@@ -49,7 +65,7 @@ DTSTART;VALUE=DATE:20270706
 DTEND;VALUE=DATE:20270710
 SUMMARY:RLDM 2027 · Conference
 DESCRIPTION:Multi-disciplinary Conference on Reinforcement Learning and Dec
- ision Making\nStatus: confirmed\, checked 2026-10-31\nOfficial source: ht
+ ision Making\nStatus: confirmed\, checked 2026-11-14\nOfficial source: ht
  tps://rldm.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#rldm
  -2027\nNotes: Official rldm.org pages give July 6-9\, 2027 at Maison de l
  a Chimie\, Paris (seventh meeting after 2013-2025)\, with submissions due
@@ -57,11 +73,12 @@ DESCRIPTION:Multi-disciplinary Conference on Reinforcement Learning and Dec
  ummary (max 2\,000 characters) plus a 1-4 page extended abstract\, single
  -blind\, for posters or oral talks. Non-archival\, no proceedings\; autho
  rs choose whether the extended abstract enters the electronic booklet\, a
- nd work submitted elsewhere is welcome. On 2026-10-31 the portal link rea
- d 'coming soon'\; tutorial and workshop calls are not out. Irregular cade
- nce (2013-2019 biennial\, then 2022\, 2025). No attendance counts\; 2025 
- was single-track with three poster sessions. Size is an editorial estimat
- e.
+ nd work submitted elsewhere is welcome. On 2026-11-14 the abstract portal
+  link still read 'coming soon'. A half-day workshop call (about five work
+ shops) is due January 8\, 2027\, 23:59 UTC\, with decisions by February 1
+ 4\; no tutorial call is published. Irregular cadence (2013-2019 biennial\
+ , then 2022\, 2025). No attendance counts\; 2025 was single-track with th
+ ree poster sessions. Size is an editorial estimate.
 CATEGORIES:Reinforcement Learning,Computational Neuroscience,Cognitive Scie
  nce & Computational Cognition
 URL:https://rldm.org/

@@ -1,9 +1,10 @@
 """Run the pre-publication checks in one command and print a pass/fail table.
 
 Order: standalone validation, unit tests, full build, a second build to prove
-deterministic output, docs/ drift against the git index, whitespace check
-(excluding CRLF-folded ICS), no tracked private notes, and dataset
-last_updated freshness. The builds regenerate docs/ exactly like
+deterministic output, docs/ drift against the git index, size budgets (a
+non-blocking WARN before a feed reaches the hard 1 MB limit or the page grows
+past its gzip budget), whitespace check (excluding CRLF-folded ICS), no
+tracked private notes, and dataset last_updated freshness. The builds regenerate docs/ exactly like
 scripts/build_all.py; nothing else is modified and nothing is committed.
 
 Usage: python3 scripts/release_check.py [--skip-tests]
@@ -12,6 +13,7 @@ Usage: python3 scripts/release_check.py [--skip-tests]
 from __future__ import annotations
 
 import argparse
+import gzip
 import hashlib
 import subprocess
 import sys
@@ -22,11 +24,16 @@ from typing import Any, Iterable
 
 import yaml
 
+from build_ics import FEED_SIZE_LIMIT
 from validate import latest_review_day
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
-PASS, FAIL, SKIP = "PASS", "FAIL", "SKIP"
+PASS, FAIL, SKIP, WARN = "PASS", "FAIL", "SKIP", "WARN"
+# Warn early: the 1 MB feed limit is a hard test failure, and community
+# reports say Google Calendar rejects URL feeds above about 1 MB.
+FEED_WARN_RATIO = 0.9
+PAGE_GZIP_BUDGET = 480_000
 
 
 @dataclass
@@ -133,6 +140,32 @@ def check_drift() -> Result:
     return Result("docs/ vs git index", PASS, "generated output staged/committed")
 
 
+def size_warnings(feed_sizes: dict[str, int], page_gzip: int, editions: int) -> list[str]:
+    """Human-readable budget warnings; empty when every output is comfortably small."""
+    warnings = []
+    for name, size in sorted(feed_sizes.items()):
+        if size >= FEED_WARN_RATIO * FEED_SIZE_LIMIT:
+            per_edition = size / max(editions, 1)
+            if size >= FEED_SIZE_LIMIT:
+                room = "over the limit; the feed tests will fail"
+            else:
+                room = f"about {int((FEED_SIZE_LIMIT - size) / per_edition) if per_edition else 0} more editions fit"
+            warnings.append(f"{name} is {size:,} bytes ({size / FEED_SIZE_LIMIT:.0%} of the 1 MB limit; {room})")
+    if page_gzip > PAGE_GZIP_BUDGET:
+        warnings.append(f"index.html is {page_gzip:,} bytes gzipped (budget {PAGE_GZIP_BUDGET:,})")
+    return warnings
+
+
+def check_sizes() -> Result:
+    feeds = {path.relative_to(DOCS_DIR).as_posix(): path.stat().st_size for path in DOCS_DIR.rglob("*.ics")}
+    page = gzip.compress((DOCS_DIR / "index.html").read_bytes(), compresslevel=9, mtime=0)
+    editions = len(yaml.safe_load((ROOT / "data" / "conferences.yml").read_text(encoding="utf-8")) or [])
+    warnings = size_warnings(feeds, len(page), editions)
+    largest = max(feeds.values(), default=0)
+    summary = f"largest feed {largest:,} B ({largest / FEED_SIZE_LIMIT:.0%}); page {len(page):,} B gzipped"
+    return Result("size budgets", WARN, "; ".join(warnings)) if warnings else Result("size budgets", PASS, summary)
+
+
 def check_whitespace() -> Result:
     pathspec = ["--", ".", ":(exclude)*.ics"]
     outputs = [_run(["git", "diff", "--check", *pathspec]),
@@ -169,10 +202,10 @@ def run_checks(skip_tests: bool = False) -> list[Result]:
     build = check_build()
     results.append(build)
     if build.status == PASS:
-        results.extend([check_determinism(), check_drift()])
+        results.extend([check_determinism(), check_drift(), check_sizes()])
     else:
         results.extend(Result(name, SKIP, "build failed")
-                       for name in ("deterministic build", "docs/ vs git index"))
+                       for name in ("deterministic build", "docs/ vs git index", "size budgets"))
     results.extend([check_whitespace(), check_private_notes(), check_freshness()])
     return results
 
@@ -188,6 +221,9 @@ def main(argv: Iterable[str] | None = None) -> int:
     for result in failures:
         if result.output:
             print(f"\n--- {result.name} ---\n{result.output}")
+    for result in results:
+        if result.status == WARN:
+            print(f"\nWARNING ({result.name}): {result.detail}")
     print(f"\n{'FAILED' if failures else 'OK'}: {len(failures)} failing check(s).")
     return 1 if failures else 0
 

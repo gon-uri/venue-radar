@@ -51,6 +51,17 @@ SUBMISSION_TYPES = {
     "extended_abstract", "poster",
     "journal_paper", "discussion_paper", "resource_paper",
 }
+
+
+def call_is_out(edition: dict[str, Any]) -> bool:
+    """True when the edition records a confirmed fresh-submission route, i.e. its
+    call is published. Review backlogs use it to ask for a re-read only when a
+    newer call actually exists, not merely when meeting dates are confirmed."""
+    return any(
+        deadline.get("type") in SUBMISSION_TYPES
+        and deadline.get("confidence", edition.get("confidence")) == "confirmed"
+        for deadline in edition.get("deadlines") or []
+    )
 ACCEPTANCE_BANDS = (
     (20, "Very low"),
     (30, "Low"),

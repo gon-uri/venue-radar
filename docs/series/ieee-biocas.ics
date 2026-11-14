@@ -48,18 +48,34 @@ UID:ieee-biocas-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270508
-SUMMARY:IEEE BioCAS 2027 · Abstract submission deadline (IEEE society cale
- ndar)
+SUMMARY:IEEE BioCAS 2027 (est.) · Abstract submission date (IEEE SSCS cale
+ ndar\; not in host timeline)
 DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2027-
- 10-14 to 2027-10-16\, Oslo\, Norway\nStatus: confirmed\, checked 2026-10-
- 08\nCutoff time unannounced: official deadline day only. Verify the organ
- izer's submission portal.\nFormat: Paper-based\; Archival option: Yes (es
- t.)\nOfficial source: https://sscs.ieee.org/conferences/upcoming-conferen
- ces/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-202
- 7
+ 10-14 to 2027-10-16\, Oslo\, Norway\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nEstimated day only\
+ ; no cutoff hour stored. Check the organizer's call for the real date and
+  time.\nFormat: Paper-based\; Archival option: Yes (est.)\nOfficial sourc
+ e: https://sscs.ieee.org/conferences/upcoming-conferences/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#ieee-biocas-2027
 CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
  ,Neuromorphic & Brain-inspired Computing
 URL:https://sscs.ieee.org/conferences/upcoming-conferences/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-biocas-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:IEEE BioCAS 2027 · Regular paper submission deadline
+DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2027-
+ 10-14 to 2027-10-16\, Oslo\, Norway\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
+ izer's submission portal.\nFormat: Paper-based\; Archival option: Yes (es
+ t.)\nOfficial source: https://2027.ieee-biocas.org/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#ieee-biocas-2027
+CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
+ ,Neuromorphic & Brain-inspired Computing
+URL:https://2027.ieee-biocas.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-biocas-2027-conference@scientific-conference-calendar
@@ -68,13 +84,16 @@ DTSTART;VALUE=DATE:20271014
 DTEND;VALUE=DATE:20271017
 SUMMARY:IEEE BioCAS 2027 · Conference
 DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nStatus: confir
- med\, checked 2026-10-08\nOfficial source: https://2027.ieee-biocas.org/\
+ med\, checked 2026-11-14\nOfficial source: https://2027.ieee-biocas.org/\
  nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-2027\nNo
- tes: Official 2027 host confirms Oslo and October 14-16. IEEE SSCS lists 
- May 7 as Abstract Submission Date\; it is retained with that exact action
- \, not relabeled as a paper deadline or made a mandatory paper gate. The 
- final 2027 CFP\, full-paper deadline and cutoff hour still require review
- . Size is an editorial estimate.
+ tes: Official 2027 host confirms Oslo (Thon Hotell Storo) and October 14-
+ 16\, with timeline: special session proposals May 21\, regular papers Jun
+ e 11\, live demos and tutorial proposals June 25\, notification August 11
+ \, final papers and author registration August 27\, 2027. Cutoff hour unp
+ ublished. IEEE SSCS still lists a May 7 Abstract Submission Date that the
+  host timeline does not include\; it is kept as an estimated\, conflict-l
+ abeled entry pending the full CFP. No full 2027 CFP page yet. Size is an 
+ editorial estimate.
 CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
  ,Neuromorphic & Brain-inspired Computing
 URL:https://2027.ieee-biocas.org/

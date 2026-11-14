@@ -12,19 +12,19 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:esann-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:ESANN 2027 · Paper submission deadline
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:ESANN 2027 · Paper submission deadline (extended)
 DESCRIPTION:European Symposium on Artificial Neural Networks\, Computationa
  l Intelligence and Machine Learning\nMeeting: 2027-04-21 to 2027-04-23\, 
- Bruges\, Belgium\nStatus: confirmed\, checked 2026-10-28\nCutoff time una
+ Bruges\, Belgium\nStatus: confirmed\, checked 2026-11-14\nCutoff time una
  nnounced: official deadline day only. Verify the organizer's submission p
  ortal.\nFormat: Paper-based\; Archival option: Yes\nOfficial source: http
- s://www.esann.org/node/3\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#esann-2027
+ s://www.esann.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#e
+ sann-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Signal Processing
-URL:https://www.esann.org/node/3
+URL:https://www.esann.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:esann-2027-deadline-notification@scientific-conference-calendar
@@ -34,7 +34,7 @@ DTEND;VALUE=DATE:20270123
 SUMMARY:ESANN 2027 · Acceptance decisions
 DESCRIPTION:European Symposium on Artificial Neural Networks\, Computationa
  l Intelligence and Machine Learning\nMeeting: 2027-04-21 to 2027-04-23\, 
- Bruges\, Belgium\nStatus: confirmed\, checked 2026-10-28\nCutoff time una
+ Bruges\, Belgium\nStatus: confirmed\, checked 2026-11-14\nCutoff time una
  nnounced: official deadline day only. Verify the organizer's submission p
  ortal.\nFormat: Paper-based\; Archival option: Yes\nOfficial source: http
  s://www.esann.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#e
@@ -50,14 +50,16 @@ DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270424
 SUMMARY:ESANN 2027 · Conference
 DESCRIPTION:European Symposium on Artificial Neural Networks\, Computationa
- l Intelligence and Machine Learning\nStatus: confirmed\, checked 2026-10-
- 28\nOfficial source: https://www.esann.org/\nVenue Radar: https://gon-uri
+ l Intelligence and Machine Learning\nStatus: confirmed\, checked 2026-11-
+ 14\nOfficial source: https://www.esann.org/\nVenue Radar: https://gon-uri
  .github.io/venue-radar/#esann-2027\nNotes: Official ESANN 2027 pages (che
- cked 2026-10-28) list Bruges and online (hybrid mode)\, Apr 21-23\, 2027\
- , and decisions on Jan 22\, 2027. The call asks for submissions 'before 1
- 8.11.2026' with no cutoff hour\, so the last safe day\, Nov 17\, is store
- d with a provisional end of day in Bruges time. Special-session papers fo
- llow the regular deadline and procedure.
+ cked 2026-11-14) list Bruges and online (hybrid mode)\, Apr 21-23\, 2027\
+ , and decisions on Jan 22\, 2027. The call page still asks for submission
+ s 'before 18.11.2026'\, but a homepage news item of 12.11.2026 extends th
+ e paper deadline to 25 November 2026 ('Extended submission deadline 25.11
+ .2026'). No cutoff hour is given\, so Nov 25 is stored with a provisional
+  end of day in Bruges time. Special-session papers follow the regular dea
+ dline and procedure.
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Signal Processing
 URL:https://www.esann.org/

@@ -59,8 +59,12 @@ class LanguageRoboticsAdditionTests(unittest.TestCase):
 
     def test_proposed_and_proxy_dates_are_not_confirmed(self):
         # SIGIR finalized its call on the November review; unrelated proxies remain estimates.
-        for key in ['colm-2027', 'conll-2027', 'iswc-2027', 'lrec-2028', 'smc-2027']:
+        for key in ['colm-2027', 'conll-2027', 'lrec-2028', 'smc-2027']:
             self.assertEqual(self.records[key]['confidence'], 'estimated')
+        # ISWC 2027's save-the-date confirms the meeting, not its submission proxies.
+        iswc = self.records['iswc-2027']
+        self.assertEqual((iswc['confidence'], iswc['location']), ('confirmed', 'Montevideo, Uruguay'))
+        self.assertTrue(all(d['confidence'] == 'estimated' for d in iswc['deadlines']))
         self.assertTrue(all(d['confidence'] == 'estimated' for d in self.records['recsys-2027']['deadlines']))
 
     def test_arr_and_rss_routes_preserve_eligibility_gates(self):

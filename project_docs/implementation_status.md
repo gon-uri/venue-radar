@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-11-07. This is the current-state summary, not a release
+Last synchronized: 2026-11-14. This is the current-state summary, not a release
 history. Start with [the documentation index](README.md); technical history
 remains in [decisions](decisions.md). Detailed local working notes follow the
 [documentation policy](documentation_policy.md) and are not required to onboard.
@@ -16,9 +16,9 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
 | Detailed scopes | 125 reviewed profiles; 51 series still lack a reviewed profile. |
 | Evidence maps | 83 direct ICORE 2026 ranks, 67 direct CCF 2026 ranks, 49 historical rate/qualitative-band entries. |
-| Archival option | ADR-047 shipped 2026-11-05: 174 of 176 series have a sourced value (144 Yes, 30 No; Dynamics Days CAC and ICCN not checked yet, neither with an open deadline). Row/card tag, one filter (`archival=1`) and a Format-line value in feeds. Evidence: `project_docs/archival_research/`. |
-| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 892,875 bytes (ADR-045: Notes once per edition; ADR-047 added the archival value); a test keeps every feed below 1 MB. |
-| Review mirror | Restored from canonical YAML on 2026-11-07 using the now-available bundled artifact tool: 176 catalog rows, 43 vocabulary rows and 125 scope profiles, with three native tables and saved-file re-import checks. The owner said on 2026-10-31 that they no longer use it; retirement remains an open decision, not an authorization to delete it. |
+| Archival option | ADR-047 shipped 2026-11-05: 174 of 176 series have a sourced value (143 Yes, 31 No after CogSci became No on 2026-11-14; Dynamics Days CAC and ICCN not checked yet, neither with an open deadline). Row/card tag, one filter (`archival=1`) and a Format-line value in feeds. Evidence: `project_docs/archival_research/`. |
+| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 914,436 bytes (ADR-045: Notes once per edition; ADR-047 added the archival value); a test keeps every feed below 1 MB. |
+| Review mirror | Synchronized again on 2026-11-14 (five catalog rows changed). Restored from canonical YAML on 2026-11-07 using the now-available bundled artifact tool: 176 catalog rows, 43 vocabulary rows and 125 scope profiles, with three native tables and saved-file re-import checks. The owner said on 2026-10-31 that they no longer use it; retirement remains an open decision, not an authorization to delete it. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
 Counts are a dated catalog snapshot. Recompute them from canonical files after
@@ -104,6 +104,12 @@ review days. `.python-version` pins Python 3.12 for CI and the local `.venv`.
 CI fails on docs drift, inline-script syntax errors and removed published
 identities, and runs Node unit tests for the client logic.
 
+ADR-048 (2026-11-14) keeps the weekly issue to doable work: on that date it
+shows 8 advisories instead of 65, 62 scope items instead of 150 and 13
+archival items instead of 36, plus Rollover ready (10) and New this week.
+`release_check.py` warns at 90% of the 1 MB feed limit and above a 480 KB
+gzipped page (390 KB after deduplicating Conferences-tab search text).
+
 [Adding conferences](adding_conferences.md) covers identity/approval, all owning
 files, taxonomy, dates, publication caveats and verification. [Development](development.md)
 covers Python setup, standalone validation, tests, builds, XLSX synchronization,
@@ -116,7 +122,19 @@ adds ignore/tracking checks and keeps onboarding independent of private notes.
 
 ## Open Editorial Work
 
-The [November review](monthly_review_2026-11-07.md) corrects five editions:
+The [mid-November review](monthly_review_2026-11-14.md) checked all 153
+queued or flagged editions against official pages, with a second agent
+re-checking every proposed change. It corrects 39 records. The changes
+include ESANN's extension to Nov 25, ICML's published Jan 14/22 call, CogSci's
+UTC-11 cutoff, and ECAF's and ICIP's 2027 calls (ICIP adds an OJ-SP journal
+route). It also confirms meetings for ACM MM, ISWC (Montevideo), ICMLA (Miami)
+and RLC (Providence and Nyborg), and refreshes `last_checked` on the 133
+editions actually read. The edition queue falls from 141 to 97. Owner
+decisions the same day: RLC 2027's unsupported abstract event is removed and
+its UID retired, and CogSci is non-archival because its call says its
+proceedings are "not considered archival".
+
+The [November review](monthly_review_2026-11-07.md) corrected five editions:
 ICML's Rio meeting is confirmed but its call remains estimated; NER replaces
 two proxies with official date-only cutoffs; SIGIR finalizes its main-paper
 dates; NAACL and COLING gain independent industry-paper routes. The 30-day
@@ -158,6 +176,19 @@ and [roadmap](roadmap.md). Further venue additions and UI/taxonomy changes still
 follow the user's approved scope.
 
 ## Verification Baseline
+
+The 2026-11-14 [mid-month review](monthly_review_2026-11-14.md) passes
+standalone validation (260 editions), all 198 Python and 33 Node tests (after
+ADR-048 and the owner decisions), and
+the full browser suite at all six widths. The map shows 152 confirmed editions
+in 115 cities, with new Montevideo and Miami markers. A field-level comparison
+against the pre-review YAML shows only intended fields changed in 39 records,
+plus `last_checked` on 94 more, with key order preserved. Identity check
+against `origin/main`: all 260 editions preserved; 19 events added and one
+retired with an entry in `retired_identities.yml` (RLC 2027's abstract, owner
+decision), 1,014 total. `calendar-all.ics` is 914,436 bytes. Workbook
+re-import shows only the five expected catalog-row changes. Uncommitted at
+the time of writing.
 
 The 2026-11-07 [monthly review](monthly_review_2026-11-07.md) passes standalone
 validation (260 editions), all 189 Python and 33 Node tests, the combined
@@ -283,8 +314,8 @@ The social card and dark README banner load from `main`, a live
 `#mlsys-2027` link opens and focuses its row, and README was checked on
 github.com in light and dark themes. Still unverified: link previews on real
 platforms (they cache), Giscus sign-in with the new URL handling,
-calendar-app subscription behavior, and the weekly review-queue workflow,
-which has not had its first scheduled run.
+and calendar-app subscription behavior. The weekly review-queue workflow
+has since run successfully on schedule (2026-11-02 and 2026-11-09).
 
 On 2026-10-30 the owner asked for WSDM 2027, which was already tracked, so it
 was rechecked against its official pages instead of added. The meeting and

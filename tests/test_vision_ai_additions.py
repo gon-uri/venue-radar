@@ -68,10 +68,15 @@ class VisionAIAdditionTests(unittest.TestCase):
             self.assertEqual(CADENCE_YEARS[series], 2 if series in {'ECCV', 'ICCV'} else 1)
         future = rollover_candidates([self.records['eccv-2026']], date(2026, 10, 7))
         self.assertEqual(future[0]['year'], 2028)
-        for key in ['acm-mm-2027', 'eccv-2028', 'euvip-2027']:
+        for key in ['eccv-2028', 'euvip-2027']:
             item = self.records[key]
             self.assertEqual(item['confidence'], 'estimated')
             self.assertTrue(all(d['confidence'] == 'estimated' for d in item['deadlines']))
+        # ACM MM 2027's dates are confirmed (2026-11-14); its call is not, so the
+        # paper proxies stay explicitly estimated.
+        mm = self.records['acm-mm-2027']
+        self.assertEqual((mm['confidence'], mm['conference_start']), ('confirmed', '2027-11-08'))
+        self.assertTrue(all(d['confidence'] == 'estimated' for d in mm['deadlines']))
 
     def test_confirmed_meetings_do_not_confirm_proxy_paper_deadlines(self):
         for key in ['iccv-2027']:
@@ -99,7 +104,6 @@ class VisionAIAdditionTests(unittest.TestCase):
         events = map_events(list(self.records.values()), load_mapping(CITIES_PATH))
         expected = {key for key, item in self.records.items() if item['confidence'] == 'confirmed'}
         self.assertEqual({event['id'] for event in events}, expected)
-        self.assertNotIn('acm-mm-2027', {event['id'] for event in events})
 
     def test_ranks_have_direct_coverage_and_unknowns_are_preserved(self):
         icore = load_icore_rankings()['rankings']

@@ -78,12 +78,24 @@ class ConferenceScopeTests(unittest.TestCase):
         self.assertIn('bayesian optimization', _search_text(self.automl).lower())
         topic = 'Probabilistic, Causal & Uncertainty ML'
         self.assertNotIn(topic, self.automl['topics'])
+        rendered = {}
         for render in [_conference_rows, _deadline_group_rows]:
             html = render([self.automl], {}, {}, 'https://example.org', {})
-            row = RowParser(html).rows[0]
+            row = rendered[render.__name__] = RowParser(html).rows[0]
             self.assertIn(stable_slug(topic), row['data-topics'].split())
-            self.assertIn('bayesian optimization', row['data-search'].lower())
             self.assertNotIn('>Probabilistic, Causal &amp; Uncertainty ML</span>', html)
+        # The Conferences row reads the leading data-search-base characters of
+        # the same edition's deadline row instead of repeating the text.
+        deadline_row, conference_row = rendered['_deadline_group_rows'], rendered['_conference_rows']
+        self.assertNotIn('data-search', conference_row)
+        base = deadline_row['data-search'][:int(deadline_row['data-search-base'])]
+        self.assertEqual(base, _search_text(self.automl))
+        self.assertIn('bayesian optimization', base.lower())
+        # Browsers turn CR/CRLF into LF before reading attributes, so the stored
+        # prefix length must be counted on already-normalized text.
+        crlf = deepcopy(self.automl)
+        crlf['scope']['scope_summary'] = 'Learning on graphs\r\nand networks\rtoday'
+        self.assertNotIn('\r', _search_text(crlf))
         duplicate = deepcopy(self.automl)
         duplicate['scope']['additional_topics'].append(duplicate['topics'][0])
         self.assertEqual(len(all_topics(duplicate)), len(set(all_topics(duplicate))))
@@ -109,6 +121,11 @@ class ConferenceScopeTests(unittest.TestCase):
         profile['scope_last_checked'] = '2026-08-01'
         rows = scope_review_queue([self.automl], {'AutoML': profile}, date(2026, 10, 7), 30)
         self.assertIn('67 days ago', rows[0][1])
+        # The 2027 edition is only a projection, so there is no newer call to read.
+        self.assertNotIn('check 2027 CFP', rows[0][1])
+        published = deepcopy(self.automl)
+        published['deadlines'] = [{**published['deadlines'][0], 'confidence': 'confirmed'}]
+        rows = scope_review_queue([published], {'AutoML': profile}, date(2026, 10, 7), 30)
         self.assertIn('based on 2026; check 2027 CFP', rows[0][1])
         missing = scope_review_queue([self.automl], {}, date(2026, 10, 7), 30)
         self.assertEqual(missing[0][1], 'no reviewed scope profile')

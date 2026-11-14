@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-Last synchronized: 2026-10-29
+Last synchronized: 2026-11-14
 
 This is a dated decision history, not the current operating manual. Later
 explicit refinements take precedence. Current rules live in
@@ -27,6 +27,7 @@ explicit refinements take precedence. Current rules live in
 | Archival option tag and filter (publication UI) | ADR-047 (refines ADR-036's "Add no publication UI" for this tag and filter only) |
 | Cross-series successors (merged or renamed venues with distinct ranks) | ADR-046 (`continues`; complements the same-key TS4H/SD4H and LOD/AIS precedents) |
 | Calendar event titles, descriptions and feed size; countdown precision | ADR-044 (refines ADR-028's ICS clause and ADR-032's countdown text); ADR-045 puts Notes once per edition |
+| Review-queue truthfulness, size guardrails, search-text deduplication | ADR-048 (refines ADR-040/042's queue and ADR-047's archival queue rule) |
 
 ## ADR-001: Keep the Project Static
 
@@ -980,6 +981,10 @@ explicit refinements take precedence. Current rules live in
      next edition's call is not out yet, the value from the previous edition
      is shown as estimated ("Yes (est.)", "No (est.)"), like other estimates
      on the site, and the review queue re-flags it once the new call appears.
+  4. (Owner, 2026-11-14) A call that declares its own proceedings
+     non-archival settles No even though it publishes them. CogSci 2027
+     says its online proceedings are "not considered archival" for later
+     journal submission.
 - Values: `Yes`, `Yes (est.)`, `No`, `No (est.)`, and Not checked yet (no
   entry: the default, never shown or filtered as No). Never inferred from the
   free-text `submission_type`, ranks or OpenReview use.
@@ -1062,3 +1067,45 @@ explicit refinements take precedence. Current rules live in
   complex); inferring from `submission_type` (unreliable); counting satellite
   workshop proceedings (does not match the use case); hiding estimates
   (would leave most series unknown between calls).
+
+## ADR-048: A Review Queue That Lists Only Doable Work, And Size Guardrails
+
+- Status: Accepted 2026-11-14 (internal tooling; no public behavior or data
+  change, so no owner approval was needed under AGENTS.md).
+- Date: 2026-11-14
+- Context: The 2026-11-14 improvement audit found that the weekly "Review
+  queue" issue was mostly noise. Of 65 advisories, 64 were `old-year-url`
+  hits on prior-edition evidence that `source_urls` deliberately keeps. The
+  scope backlog requeued every profile older than 30 days (150 of 176 series).
+  The archival backlog flagged values whenever a newer meeting had confirmed
+  dates, even though its call was not out. ASRU appeared as "successor missing"
+  although ASLI `continues` it (ADR-046). Meanwhile `calendar-all.ics` is at
+  91% of the 1 MB feed limit, and the page is about 450 KB gzipped.
+- Decision:
+  1. `old-year-url` checks only a confirmed record's `cfp_url` and the
+     sources of its confirmed deadlines, one line per edition.
+  2. One successor rule, `catalog_metadata.successor_map`, serves the site's
+     "Next:" links and the queue, so `continues` successors count.
+  3. `validate.call_is_out(edition)` (a confirmed fresh-submission route)
+     gates re-reads: archival values (refines ADR-047's queue rule) and scope
+     profiles are requeued for an earlier source year only when a newer call
+     is out. Scope age has its own limit, `--scope-max-age-days` (default 365).
+  4. The report adds a read-only "Rollover ready" preview and a stateless "New
+     this week" list (tiers entered since the same data a week earlier). The
+     weekly issue collapses Later and Schedule only into `<details>`. The
+     issue title stays "Review queue", because the workflow finds it by title.
+  5. `release_check.py` adds a non-blocking `size budgets` check: WARN when
+     any feed reaches 90% of `FEED_SIZE_LIMIT` (with an estimate of how many
+     editions still fit), or the page exceeds 480 KB gzipped.
+  6. Conferences-tab rows no longer repeat `data-search`. They read the
+     leading `data-search-base` characters (UTF-16 length) of the same
+     edition's deadline row, which always starts with the same text. Search
+     results are unchanged. The page shrinks by about 219 KB raw, or 62 KB
+     gzipped (to about 390 KB).
+- Consequences: The 2026-11-14 queue shows 8 advisories instead of 65, 62
+  scope items instead of 150, 12 archival items instead of 36, and ASRU is no
+  longer orphaned. Tests cover each rule.
+- Alternatives considered: deleting prior-edition URLs from `source_urls`
+  (loses cited history); a blocking size check (the hard limit already fails
+  the tests); putting counts in the issue title (would break the workflow's
+  lookup by title).

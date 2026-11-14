@@ -231,7 +231,7 @@ DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:MIDL 2027 · Full-paper abstract registration deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-10-30\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -246,7 +246,7 @@ DTSTART:20261205T115900Z
 DTEND:20261205T125900Z
 SUMMARY:MIDL 2027 · Full paper submission deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-10-30\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -276,34 +276,32 @@ END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270124T115900Z
-DTEND:20270124T125900Z
-SUMMARY:ICML 2027 (est.) · Abstract submission deadline
+DTSTART:20270115T115900Z
+DTEND:20270115T125900Z
+SUMMARY:ICML 2027 · Abstract submission deadline
 DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
- 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: estimated\, checked 2
- 026-11-07. Check the organizer's call before relying on it.\nFormat: Pape
- r-based\; Archival option: Yes (est.)\nPrevious edition's page: https://i
- cml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/ven
- ue-radar/#icml-2027
+ 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: confirmed\, checked 2
+ 026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial source: h
+ ttps://icml.cc/Conferences/2027/CallForPapers\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#icml-2027
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
+URL:https://icml.cc/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270129T115900Z
-DTEND:20270129T125900Z
-SUMMARY:ICML 2027 (est.) · Full paper submission deadline
+DTSTART:20270123T115900Z
+DTEND:20270123T125900Z
+SUMMARY:ICML 2027 · Full paper submission deadline
 DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
- 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: estimated\, checked 2
- 026-11-07. Check the organizer's call before relying on it.\nFormat: Pape
- r-based\; Archival option: Yes (est.)\nPrevious edition's page: https://i
- cml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/ven
- ue-radar/#icml-2027
+ 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: confirmed\, checked 2
+ 026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial source: h
+ ttps://icml.cc/Conferences/2027/CallForPapers\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#icml-2027
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
+URL:https://icml.cc/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
 UID:kdd-2027-deadline-abstract@scientific-conference-calendar
@@ -313,7 +311,7 @@ DTEND:20270202T125900Z
 SUMMARY:KDD 2027 (est.) · Abstract submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-10-28. Check the organizer's call before relying 
+ stimated\, checked 2026-11-14. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -329,7 +327,7 @@ DTEND:20270209T125900Z
 SUMMARY:KDD 2027 (est.) · Paper submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-10-28. Check the organizer's call before relying 
+ stimated\, checked 2026-11-14. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -345,10 +343,10 @@ DTEND:20270214T125900Z
 SUMMARY:ICML 2027 (est.) · Workshop application deadline
 DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
  31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: estimated\, checked 2
- 026-11-07. Check the organizer's call before relying on it.\nFormat: Pape
- r-based\; Archival option: Yes (est.)\nPrevious edition's page: https://i
- cml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/ven
- ue-radar/#icml-2027
+ 026-11-14. Check the organizer's call before relying on it.\nFormat: Pape
+ r-based\; Archival option: Yes\nPrevious edition's page: https://icml.cc/
+ Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io/venue-rada
+ r/#icml-2027
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2026/Dates
@@ -360,7 +358,7 @@ DTSTART:20270313T115900Z
 DTEND:20270313T125900Z
 SUMMARY:MIDL 2027 · Camera-ready deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-10-30\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -426,7 +424,7 @@ DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:MIDL 2027 · Conference
 DESCRIPTION:Medical Imaging with Deep Learning\nStatus: confirmed\, checked
-  2026-10-30\nOfficial source: https://2027.midl.io/important-dates\nVenue
+  2026-11-14\nOfficial source: https://2027.midl.io/important-dates\nVenue
   Radar: https://gon-uri.github.io/venue-radar/#midl-2027\nNotes: Official
   2027 dates page confirms the July meeting and 23:59 AoE full-paper abstr
  act registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 12) 
@@ -446,14 +444,19 @@ DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270807
 SUMMARY:ICML 2027 · Conference
 DESCRIPTION:International Conference on Machine Learning\nStatus: confirmed
- \, checked 2026-11-07\nOfficial source: https://icml.cc/Conferences/2027\
+ \, checked 2026-11-14\nOfficial source: https://icml.cc/Conferences/2027\
  nVenue Radar: https://gon-uri.github.io/venue-radar/#icml-2027\nNotes: Th
  e new official ICML 2027 site and Dates page confirm Riocentro\, Rio de J
  aneiro\, July 31-August 6 (Expo July 31\, tutorials August 1\, main confe
- rence August 2-4\, workshops August 5-6). The 2027 CFP is still marked co
- ming soon\; the retained January submission and February workshop dates r
- emain explicitly estimated calendar proxies from ICML 2026\, not confirme
- d 2027 cutoffs.
+ rence August 2-4\, workshops August 5-6). The 2027 CFP and Dates page (re
+ ad 2026-11-14) confirm the abstract deadline (Jan 14\, 2027\, 11:59 PM Ao
+ E\; a mandatory gate\, since the author list freezes then) and the full-p
+ aper deadline (Jan 22\, 2027\, AoE)\, with no extensions. OpenReview subm
+ ission opens Jan 8\, 2027 (day only). First-stage rejections come Feb 23 
+ and final decisions May 3. Position papers have a separate call (coming s
+ oon)\, and submission-process updates are promised by late November. The 
+ Call for Workshops still says it will be posted soon\, so the Feb 13 work
+ shop date remains an estimated ICML 2026 proxy.
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
  Representation Learning,Time Series & Sequential Data
 URL:https://icml.cc/Conferences/2027
@@ -466,7 +469,7 @@ DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270806
 SUMMARY:KDD 2027 · Conference
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-10-28\nOfficial source: https://kdd2027.k
+ tatus: confirmed\, checked 2026-11-14\nOfficial source: https://kdd2027.k
  dd.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027\nNo
  tes: Official site confirms San Jose McEnery Convention Center\, Aug 1-5.
   Cycle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 
@@ -502,7 +505,7 @@ DTEND;VALUE=DATE:20270822
 SUMMARY:IEEE BigData 2027 (est.) · Full paper submission deadline
 DESCRIPTION:IEEE International Conference on Big Data\nMeeting: 2027-12-14 
  to 2027-12-17 (est.)\, To be announced\nStatus: estimated\, checked 2026-
- 10-29. Check the organizer's call before relying on it.\nEstimated day on
+ 11-14. Check the organizer's call before relying on it.\nEstimated day on
  ly\; no cutoff hour stored. Check the organizer's call for the real date 
  and time.\nFormat: Paper-based / mixed tracks\; Archival option: Yes (est
  .)\nPrevious edition's page: https://bigdataieee.org/BigData2026/importan
@@ -538,7 +541,7 @@ DTSTART;VALUE=DATE:20271214
 DTEND;VALUE=DATE:20271218
 SUMMARY:IEEE BigData 2027 (est.) · Conference
 DESCRIPTION:IEEE International Conference on Big Data\nStatus: estimated\, 
- checked 2026-10-29. Check the organizer's call before relying on it.\nOff
+ checked 2026-11-14. Check the organizer's call before relying on it.\nOff
  icial source: https://bigdataieee.org/\nVenue Radar: https://gon-uri.gith
  ub.io/venue-radar/#ieee-bigdata-2027\nNotes: As of 2026-10-29 bigdataieee
  .org announces no IEEE BigData 2027 host\, dates or call. Meeting and ful

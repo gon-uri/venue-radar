@@ -787,22 +787,6 @@ URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
 BEGIN:VEVENT
-UID:rlc-2027-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270302T115900Z
-DTEND:20270302T125900Z
-SUMMARY:RLC 2027 (est.) · Abstract submission deadline (assumed mandatory)
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
- 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
- Status: estimated\, checked 2026-10-31. Check the organizer's call before
-  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
-  call not yet published)\; Archival option: Yes (est.)\nPrevious edition'
- s page: https://rl-conference.cc/2026/callforpapers.html\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#rlc-2027
-CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
-END:VEVENT
-BEGIN:VEVENT
 UID:naacl-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270304T115900Z
@@ -823,16 +807,17 @@ UID:rlc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270306T115900Z
 DTEND:20270306T125900Z
-SUMMARY:RLC 2027 (est.) · Paper submission deadline
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
- 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
- Status: estimated\, checked 2026-10-31. Check the organizer's call before
-  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
-  call not yet published)\; Archival option: Yes (est.)\nPrevious edition'
- s page: https://rl-conference.cc/2026/callforpapers.html\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#rlc-2027
+SUMMARY:RLC 2027 (est.) · RLJ submission cutoff for RLC 2027 (rolling subm
+ issions\; must be accepted by May 1)
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-02 to 2027-
+ 08-25\, Providence\, USA (Brown University) and Nyborg\, Denmark\nStatus:
+  estimated\, checked 2026-11-14. Check the organizer's call before relyin
+ g on it.\nFormat: Paper-based / rolling RLJ submissions\; papers accepted
+  by RLJ by May 1 are presented at RLC 2027\; Archival option: Yes\nOffici
+ al source: https://rl-conference.cc/2027/index.html\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#rlc-2027
 CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
+URL:https://rl-conference.cc/2027/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:iva-2027-deadline-abstract@scientific-conference-calendar
@@ -843,7 +828,7 @@ SUMMARY:IVA 2027 (est.) · Full-paper abstract submission (required first s
  tep)
 DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
  ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
- mated\, checked 2026-10-31. Check the organizer's call before relying on 
+ mated\, checked 2026-11-14. Check the organizer's call before relying on 
  it.\nFormat: Paper-based / ACM Digital Library proceedings (2026 format)\
  ; poster extended abstracts\; Archival option: Yes (est.)\nPrevious editi
  on's page: https://web.archive.org/web/20260203041035/https://iva.acm.org
@@ -860,7 +845,7 @@ DTEND:20270331T125900Z
 SUMMARY:ALIFE 2027 (est.) · Full-paper submission deadline
 DESCRIPTION:International Conference on Artificial Life\nMeeting: 2027-07-1
  9 to 2027-07-23\, Prague\, Czech Republic\nStatus: estimated\, checked 20
- 26-10-28. Check the organizer's call before relying on it.\nFormat: Full 
+ 26-11-14. Check the organizer's call before relying on it.\nFormat: Full 
  papers + non-archival abstracts\; Archival option: Yes (est.)\nPrevious e
  dition's page: https://2026.alife.org/call-for-papers/\nVenue Radar: http
  s://gon-uri.github.io/venue-radar/#alife-2027
@@ -877,7 +862,7 @@ DTEND:20270405T125900Z
 SUMMARY:IVA 2027 (est.) · Full paper submission
 DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
  ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
- mated\, checked 2026-10-31. Check the organizer's call before relying on 
+ mated\, checked 2026-11-14. Check the organizer's call before relying on 
  it.\nFormat: Paper-based / ACM Digital Library proceedings (2026 format)\
  ; poster extended abstracts\; Archival option: Yes (est.)\nPrevious editi
  on's page: https://web.archive.org/web/20260203041035/https://iva.acm.org
@@ -894,7 +879,7 @@ DTEND:20270414T125900Z
 SUMMARY:SIGDIAL 2027 (est.) · Mandatory title and abstract registration
 DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
  ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
- us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
  ying on it.\nFormat: Paper-based / ACL Anthology proceedings (long\, shor
  t and demo papers\; ARR commitment accepted)\; Archival option: Yes (est.
  )\nPrevious edition's page: https://2026.sigdial.org/calls/main_conferenc
@@ -910,7 +895,7 @@ DTEND:20270421T125900Z
 SUMMARY:SIGDIAL 2027 (est.) · Long\, short and demo paper PDF submission
 DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
  ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
- us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
  ying on it.\nFormat: Paper-based / ACL Anthology proceedings (long\, shor
  t and demo papers\; ARR commitment accepted)\; Archival option: Yes (est.
  )\nPrevious edition's page: https://2026.sigdial.org/calls/main_conferenc
@@ -926,13 +911,30 @@ DTEND:20270501T125900Z
 SUMMARY:EAAMO 2027 (est.) · Mandatory abstract registration
 DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
  , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
- unced\nStatus: estimated\, checked 2026-10-31. Check the organizer's call
+ unced\nStatus: estimated\, checked 2026-11-14. Check the organizer's call
   before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
  l option) or non-archival\; WiP posters non-archival\; Archival option: Y
  es (est.)\nPrevious edition's page: https://conference2026.eaamo.org/cfp/
  \nVenue Radar: https://gon-uri.github.io/venue-radar/#eaamo-2027
 CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
 URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:RLC 2027 · RLJ acceptance deadline for presenting at RLC 2027
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-02 to 2027-
+ 08-25\, Providence\, USA (Brown University) and Nyborg\, Denmark\nStatus:
+  confirmed\, checked 2026-11-14\nCutoff time unannounced: official deadli
+ ne day only. Verify the organizer's submission portal.\nFormat: Paper-bas
+ ed / rolling RLJ submissions\; papers accepted by RLJ by May 1 are presen
+ ted at RLC 2027\; Archival option: Yes\nOfficial source: https://rl-confe
+ rence.cc/2027/index.html\nVenue Radar: https://gon-uri.github.io/venue-ra
+ dar/#rlc-2027
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2027/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-conference@scientific-conference-calendar
@@ -959,22 +961,6 @@ URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
 LOCATION:Hanoi\, Vietnam
 END:VEVENT
 BEGIN:VEVENT
-UID:rlc-2027-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270506T115900Z
-DTEND:20270506T125900Z
-SUMMARY:RLC 2027 (est.) · Decision notification
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
- 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
- Status: estimated\, checked 2026-10-31. Check the organizer's call before
-  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
-  call not yet published)\; Archival option: Yes (est.)\nPrevious edition'
- s page: https://rl-conference.cc/2026/callforpapers.html\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#rlc-2027
-CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
-END:VEVENT
-BEGIN:VEVENT
 UID:eaamo-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270508T115900Z
@@ -983,7 +969,7 @@ SUMMARY:EAAMO 2027 (est.) · Paper submission (archival or non-archival opt
  ion)
 DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
  , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
- unced\nStatus: estimated\, checked 2026-10-31. Check the organizer's call
+ unced\nStatus: estimated\, checked 2026-11-14. Check the organizer's call
   before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
  l option) or non-archival\; WiP posters non-archival\; Archival option: Y
  es (est.)\nPrevious edition's page: https://conference2026.eaamo.org/cfp/
@@ -999,7 +985,7 @@ DTEND:20270526T125900Z
 SUMMARY:SIGDIAL 2027 (est.) · Commitment of ARR-reviewed papers
 DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
  ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
- us: estimated\, checked 2026-10-31. Check the organizer's call before rel
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
  ying on it.\nFormat: Paper-based / ACL Anthology proceedings (long\, shor
  t and demo papers\; ARR commitment accepted)\; Archival option: Yes (est.
  )\nPrevious edition's page: https://2026.sigdial.org/calls/main_conferenc
@@ -1038,7 +1024,7 @@ SUMMARY:IVA 2027 (est.) · Poster track extended abstract (independent of t
  he paper track)
 DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
  ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
- mated\, checked 2026-10-31. Check the organizer's call before relying on 
+ mated\, checked 2026-11-14. Check the organizer's call before relying on 
  it.\nFormat: Paper-based / ACM Digital Library proceedings (2026 format)\
  ; poster extended abstracts\; Archival option: Yes (est.)\nPrevious editi
  on's page: https://iva.acm.org/2026/call-for-poster/\nVenue Radar: https:
@@ -1054,7 +1040,7 @@ DTSTART;VALUE=DATE:20270719
 DTEND;VALUE=DATE:20270724
 SUMMARY:ALIFE 2027 · Conference
 DESCRIPTION:International Conference on Artificial Life\nStatus: confirmed\
- , checked 2026-10-28\nOfficial source: https://alife.vscht.cz/\nVenue Rad
+ , checked 2026-11-14\nOfficial source: https://alife.vscht.cz/\nVenue Rad
  ar: https://gon-uri.github.io/venue-radar/#alife-2027\nNotes: Organizer s
  ite (2027.alife.org redirects there) confirms July 19-23 at the Dejvice C
  ampus\, Prague\; as of 2026-10-28 no 2027 call or deadlines are published
@@ -1070,25 +1056,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rlc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270801
-DTEND;VALUE=DATE:20270901
-SUMMARY:RLC 2027 (est.) · Conference
-DESCRIPTION:Reinforcement Learning Conference\nStatus: estimated\, checked 
- 2026-10-31. Check the organizer's call before relying on it.\nPrevious ed
- ition's page: https://rl-conference.cc/2026/index.html\nVenue Radar: http
- s://gon-uri.github.io/venue-radar/#rlc-2027\nNotes: The RLC 2026 site ann
- ounces RLC 2027 at two in-person sites: Brown University\, USA (early Aug
- ust) and Odense\, Denmark (late August\, one joint event with EWRL)\; exa
- ct dates are TBA and authors of accepted papers choose where to present. 
- Aug 1-31 bounds both sites\; it is not a shift of Aug 15-18\, 2026. No 20
- 27 call is published\; abstract Mar 1 and paper Mar 5 AoE are one-year pr
- oxies from the original 2026 call (2024: Mar 1/8\; 2025: Feb 21/28)\, wit
- h the abstract assumed mandatory. The RLJ home page now describes quarter
- ly volumes with rolling submissions\, so the 2027 route may change. Size 
- is an editorial estimate.
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270826
+SUMMARY:RLC 2027 · Conference
+DESCRIPTION:Reinforcement Learning Conference\nStatus: confirmed\, checked 
+ 2026-11-14\nOfficial source: https://rl-conference.cc/2027/index.html\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#rlc-2027\nNotes: The of
+ ficial RLC 2027 page (fourth RLC) confirms two sites: Brown University\, 
+ Providence\, RI\, Aug 2-6\, and Nyborg\, Denmark (joint with EWRL)\, Aug 
+ 22-25\, 2027\; Aug 2-25 spans both. All presented work is published in RL
+ J (rlj.org)\, which takes rolling submissions with quarterly volumes. The
+  2027 page gives an RLJ acceptance deadline of May 1 (no hour or time zon
+ e) and no conference call\, abstract gate or submission deadline (as of 2
+ 026-11-14 the 2027 callforpapers.html returns 404). The paper date is an 
+ estimate from the 2026 Mar 5 AoE cutoff. Size is an editorial estimate. T
+ he 2024-2026 abstract step was removed on the owner's decision (2026-11-1
+ 4): the 2027 page publishes none\, and RLJ takes rolling submissions.
 CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/index.html
-LOCATION:Providence\, USA (Brown University) and Odense\, Denmark
+URL:https://rl-conference.cc/2027/index.html
+LOCATION:Providence\, USA (Brown University) and Nyborg\, Denmark
 END:VEVENT
 BEGIN:VEVENT
 UID:sigdial-2027-conference@scientific-conference-calendar
@@ -1097,7 +1083,7 @@ DTSTART;VALUE=DATE:20270823
 DTEND;VALUE=DATE:20270826
 SUMMARY:SIGDIAL 2027 (est.) · Conference
 DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
- ialogue\nStatus: estimated\, checked 2026-10-31. Check the organizer's ca
+ ialogue\nStatus: estimated\, checked 2026-11-14. Check the organizer's ca
  ll before relying on it.\nOfficial source: https://www.sigdial.org/\nVenu
  e Radar: https://gon-uri.github.io/venue-radar/#sigdial-2027\nNotes: No S
  IGDIAL 2027 site or CFP on 2026-10-31\; 2027.sigdial.org redirects to sig
@@ -1118,7 +1104,7 @@ DTSTART;VALUE=DATE:20270907
 DTEND;VALUE=DATE:20270912
 SUMMARY:IVA 2027 (est.) · Conference
 DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nSta
- tus: estimated\, checked 2026-10-31. Check the organizer's call before re
+ tus: estimated\, checked 2026-11-14. Check the organizer's call before re
  lying on it.\nOfficial source: https://iva.acm.org/\nVenue Radar: https:/
  /gon-uri.github.io/venue-radar/#iva-2027\nNotes: As of 2026-10-31 iva.acm
  .org announces IVA 2027 in Reykjavik\, Iceland\, in September 2027\, with
@@ -1143,7 +1129,7 @@ SUMMARY:EAAMO 2027 (est.) · Work-in-progress poster (title and abstract\;
  non-archival)
 DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
  , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
- unced\nStatus: estimated\, checked 2026-10-31. Check the organizer's call
+ unced\nStatus: estimated\, checked 2026-11-14. Check the organizer's call
   before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
  l option) or non-archival\; WiP posters non-archival\; Archival option: Y
  es (est.)\nPrevious edition's page: https://conference2026.eaamo.org/call
@@ -1159,7 +1145,7 @@ DTSTART;VALUE=DATE:20271104
 DTEND;VALUE=DATE:20271107
 SUMMARY:EAAMO 2027 (est.) · Conference
 DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nStatus: estimated\, checked 2026-10-31. Check the org
+ , and Optimization\nStatus: estimated\, checked 2026-11-14. Check the org
  anizer's call before relying on it.\nOfficial source: https://conference.
  eaamo.org/call_for_location/\nVenue Radar: https://gon-uri.github.io/venu
  e-radar/#eaamo-2027\nNotes: As of 2026-10-31 conference.eaamo.org covers 
@@ -1182,7 +1168,7 @@ DTEND:20280516T075900Z
 SUMMARY:SAB 2028 (est.) · Poster abstract submission deadline
 DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
- ed\, checked 2026-10-28. Check the organizer's call before relying on it.
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
  \nFormat: Reviewed papers + non-archival contributions\; Archival option:
   Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
  utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
@@ -1198,7 +1184,7 @@ DTEND:20280516T075900Z
 SUMMARY:SAB 2028 (est.) · Proceedings paper submission deadline
 DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
- ed\, checked 2026-10-28. Check the organizer's call before relying on it.
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
  \nFormat: Reviewed papers + non-archival contributions\; Archival option:
   Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
  utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
@@ -1213,7 +1199,7 @@ DTSTART;VALUE=DATE:20281019
 DTEND;VALUE=DATE:20281023
 SUMMARY:SAB 2028 (est.) · Conference
 DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nSt
- atus: estimated\, checked 2026-10-28. Check the organizer's call before r
+ atus: estimated\, checked 2026-11-14. Check the organizer's call before r
  elying on it.\nOfficial source: https://sab-conference.org/\nVenue Radar:
   https://gon-uri.github.io/venue-radar/#sab-2028\nNotes: As of 2026-10-28
   sab-conference.org still shows SAB 2026 (Berlin\, Oct 19-22) and ISAB ha

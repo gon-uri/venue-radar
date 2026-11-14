@@ -10,14 +10,30 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:acc-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:ACC 2027 · Joint ACC and L-CSS submission
+DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
+ , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
+ izer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOf
+ ficial source: https://acc2027.a2c2.org/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#acc-2027
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Reinforcement Learning
+URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:acc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:ACC 2027 · Regular paper submission
 DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
- , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-10-
- 06\nCutoff time unannounced: official deadline day only. Verify the organ
+ , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOf
  ficial source: https://acc2027.a2c2.org/\nVenue Radar: https://gon-uri.gi
  thub.io/venue-radar/#acc-2027
@@ -32,8 +48,8 @@ DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:ACC 2027 · Workshop proposals
 DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
- , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-10-
- 06\nCutoff time unannounced: official deadline day only. Verify the organ
+ , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOf
  ficial source: https://acc2027.a2c2.org/\nVenue Radar: https://gon-uri.gi
  thub.io/venue-radar/#acc-2027
@@ -48,8 +64,8 @@ DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:ACC 2027 · Tutorial session proposals
 DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
- , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-10-
- 06\nCutoff time unannounced: official deadline day only. Verify the organ
+ , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOf
  ficial source: https://acc2027.a2c2.org/\nVenue Radar: https://gon-uri.gi
  thub.io/venue-radar/#acc-2027
@@ -64,8 +80,8 @@ DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:ACC 2027 · Acceptance notification
 DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
- , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-10-
- 06\nCutoff time unannounced: official deadline day only. Verify the organ
+ , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOf
  ficial source: https://acc2027.a2c2.org/\nVenue Radar: https://gon-uri.gi
  thub.io/venue-radar/#acc-2027
@@ -80,8 +96,8 @@ DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:ACC 2027 · Invited tutorial papers
 DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
- , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-10-
- 06\nCutoff time unannounced: official deadline day only. Verify the organ
+ , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOf
  ficial source: https://acc2027.a2c2.org/\nVenue Radar: https://gon-uri.gi
  thub.io/venue-radar/#acc-2027
@@ -96,8 +112,8 @@ DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:ACC 2027 · Final manuscript submission
 DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
- , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-10-
- 06\nCutoff time unannounced: official deadline day only. Verify the organ
+ , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
  izer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOf
  ficial source: https://acc2027.a2c2.org/\nVenue Radar: https://gon-uri.gi
  thub.io/venue-radar/#acc-2027
@@ -112,12 +128,16 @@ DTSTART;VALUE=DATE:20270707
 DTEND;VALUE=DATE:20270710
 SUMMARY:ACC 2027 · Conference
 DESCRIPTION:American Control Conference\nStatus: confirmed\, checked 2026-1
- 0-06\nOfficial source: https://acc2027.a2c2.org/\nVenue Radar: https://go
- n-uri.github.io/venue-radar/#acc-2027\nNotes: Annual AACC meeting. The fi
- rm regular-paper extension is October 2\, not the older September 25 CFP 
- date. Later tutorial papers depend on an accepted tutorial session and ar
- e not an unrestricted new-paper route. Cutoff hours use estimated end-of-
- day AoE. Size is an editorial category.
+ 1-14\nOfficial source: https://acc2027.a2c2.org/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#acc-2027\nNotes: Annual AACC meeting at the 
+ Philadelphia Marriott Downtown\, with pre-conference workshops on July 6.
+  Joint ACC+L-CSS manuscripts were due Sep 11\, 2026. The firm regular-pap
+ er extension is October 2\, not the older September 25 CFP date. Invited 
+ session proposals (firm Sep 30\, extended from Sep 23) and special sessio
+ n proposals (Oct 16) are organizer proposals\, not new-paper routes. Late
+ r tutorial papers depend on an accepted tutorial session and are not an u
+ nrestricted new-paper route. Cutoff hours use estimated end-of-day AoE. S
+ ize is an editorial category.
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Reinforcement Learning
 URL:https://acc2027.a2c2.org/

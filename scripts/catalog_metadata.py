@@ -108,3 +108,25 @@ def validate_conference_families(conferences: list[dict], assignments: dict,
                 or len(set(values)) != len(values) or set(values) - valid_ids):
             errors.append(f'{name}: assign one to three distinct valid central families')
     return errors
+
+
+def successor_map(conferences: list[dict]) -> dict[str, dict]:
+    """Map each edition ID to the next tracked edition of the same series, or,
+    for a series' latest edition, to a later edition that declares
+    `continues: [<that series>]` (ADR-046). Shared by the site's "Next:"
+    links and the review queue's successor check."""
+    by_series: dict[str, list[dict]] = {}
+    for conference in conferences:
+        by_series.setdefault(conference["series"], []).append(conference)
+    order = lambda item: (item["year"], str(item.get("conference_start", "")))
+    result: dict[str, dict] = {}
+    for editions in by_series.values():
+        ordered = sorted(editions, key=order)
+        for current, following in zip(ordered, ordered[1:]):
+            result[current["id"]] = following
+    for following in sorted(conferences, key=order):
+        for name in following.get("continues", []):
+            latest = max(by_series.get(name, []), key=order, default=None)
+            if latest and latest["id"] not in result and str(latest.get("conference_start", "")) < str(following.get("conference_start", "")):
+                result[latest["id"]] = following
+    return result

@@ -75,7 +75,11 @@ class ArchivalOptionTests(unittest.TestCase):
         options = {"OLD": GOOD, "EST": {**GOOD, "estimated": True}, "FINE": {**GOOD, "source_year": 2027}}
         rows = archival_backlog(conferences, options)
         self.assertEqual([row.name for row in rows], ["NEW", "OLD", "EST"])
-        self.assertIn("old-2027 has confirmed dates", rows[1].detail)
+        # Confirmed meeting dates alone are not a new call: an estimated route stays quiet.
+        projected = [edition("OLD", 2026, "confirmed"), {**edition("OLD", 2027, "confirmed"),
+                     "deadlines": [{"type": "full_paper", "confidence": "estimated"}]}]
+        self.assertEqual(archival_backlog(projected, {"OLD": GOOD}), [])
+        self.assertIn("old-2027's call is out", rows[1].detail)
 
 
 class ArchivalDataTests(unittest.TestCase):

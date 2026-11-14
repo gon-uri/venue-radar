@@ -8,7 +8,7 @@ from urllib.parse import urlsplit
 
 import yaml
 
-from validate import ROOT, parse_date
+from validate import ROOT, call_is_out, parse_date
 
 SCOPES_PATH = ROOT / "data" / "conference_scopes.yml"
 MAX_ADDITIONAL_TOPICS = 6
@@ -99,8 +99,12 @@ def scope_review_queue(conferences: list[dict], profiles: dict, as_of: date,
         age = (as_of - parse_date(profile["scope_last_checked"])).days
         if age > max_age_days:
             reasons.append(f"scope last checked {age} days ago")
-        if profile["source_year"] < item["year"]:
-            reasons.append(f"scope based on {profile['source_year']}; check {item['year']} CFP")
+        # A profile from an earlier edition is only re-read once a newer call is
+        # out; an estimated projection has nothing new to read yet.
+        newer = [edition["year"] for edition in conferences if edition["series"] == name
+                 and edition["year"] > profile["source_year"] and call_is_out(edition)]
+        if newer:
+            reasons.append(f"scope based on {profile['source_year']}; check {max(newer)} CFP")
         if reasons:
             rows.append((name, "; ".join(reasons), profile["scope_source_urls"][0]))
     return rows

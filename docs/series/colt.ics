@@ -16,12 +16,27 @@ DTSTART:20270130T115900Z
 DTEND:20270130T125900Z
 SUMMARY:COLT 2027 · Submission deadline
 DESCRIPTION:Conference on Learning Theory\nMeeting: 2027-06-28 to 2027-07-0
- 2\, Tokyo\, Japan\nStatus: confirmed\, checked 2026-10-28\nFormat: Paper-
+ 2\, Tokyo\, Japan\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-
  based / theory-focused\; Archival option: Yes\nOfficial source: https://l
  earningtheory.org/colt2027/cfp.html\nVenue Radar: https://gon-uri.github.
  io/venue-radar/#colt-2027
 CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
 URL:https://learningtheory.org/colt2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:COLT 2027 · Author notification
+DESCRIPTION:Conference on Learning Theory\nMeeting: 2027-06-28 to 2027-07-0
+ 2\, Tokyo\, Japan\nStatus: confirmed\, checked 2026-11-14\nCutoff time un
+ announced: official deadline day only. Verify the organizer's submission 
+ portal.\nFormat: Paper-based / theory-focused\; Archival option: Yes\nOff
+ icial source: https://learningtheory.org/colt2027/\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#colt-2027
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://learningtheory.org/colt2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:colt-2027-deadline-workshop@scientific-conference-calendar
@@ -30,7 +45,7 @@ DTSTART:20270507T115900Z
 DTEND:20270507T125900Z
 SUMMARY:COLT 2027 (est.) · Workshop/tutorial/community proposal deadline
 DESCRIPTION:Conference on Learning Theory\nMeeting: 2027-06-28 to 2027-07-0
- 2\, Tokyo\, Japan\nStatus: estimated\, checked 2026-10-28. Check the orga
+ 2\, Tokyo\, Japan\nStatus: estimated\, checked 2026-11-14. Check the orga
  nizer's call before relying on it.\nFormat: Paper-based / theory-focused\
  ; Archival option: Yes\nPrevious edition's page: https://learningtheory.o
  rg/colt2026/workshops.html\nVenue Radar: https://gon-uri.github.io/venue-
@@ -45,12 +60,14 @@ DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270703
 SUMMARY:COLT 2027 · Conference
 DESCRIPTION:Conference on Learning Theory\nStatus: confirmed\, checked 2026
- -10-28\nOfficial source: https://learningtheory.org/colt2027/\nVenue Rada
+ -11-14\nOfficial source: https://learningtheory.org/colt2027/\nVenue Rada
  r: https://gon-uri.github.io/venue-radar/#colt-2027\nNotes: Official COLT
-  2027 pages (checked 2026-10-28) confirm Tokyo\, Jun 28-Jul 2\, 2027\, an
- d a Jan 29\, 2027 AoE submission deadline\; submission instructions/porta
- l are not yet posted. The proposal deadline is a proxy from COLT 2026's M
- ay 7 AoE call\; no 2027 call is published yet.
+  2027 pages (checked 2026-11-14) confirm Tokyo\, Jun 28-Jul 2\, 2027\, a 
+ Jan 29\, 2027 AoE submission deadline (no abstract registration step)\, r
+ ebuttal Mar 29-Apr 2 and notification by May 3. Submission instructions a
+ re still marked coming soon. The proposal deadline is a proxy from COLT 2
+ 026's May 7 AoE call\; colt2027/workshops.html returns 404\, so no 2027 c
+ all is published yet.
 CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
 URL:https://learningtheory.org/colt2027/
 LOCATION:Tokyo\, Japan

@@ -83,7 +83,7 @@ DTEND;VALUE=DATE:20260521
 SUMMARY:NOLTA 2026 · Regular and special-session papers
 DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  s\nMeeting: 2026-11-17 to 2026-11-20\, Grenoble\, France\nStatus: confirm
- ed\, checked 2026-10-06\nCutoff time unannounced: official deadline day o
+ ed\, checked 2026-11-14\nCutoff time unannounced: official deadline day o
  nly. Verify the organizer's submission portal.\nFormat: Paper-based\; Arc
  hival option: Yes\nOfficial source: https://nolta2026.org/\nVenue Radar: 
  https://gon-uri.github.io/venue-radar/#nolta-2026
@@ -147,7 +147,7 @@ DTEND;VALUE=DATE:20260816
 SUMMARY:NOLTA 2026 · Camera-ready deadline
 DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
  s\nMeeting: 2026-11-17 to 2026-11-20\, Grenoble\, France\nStatus: confirm
- ed\, checked 2026-10-06\nCutoff time unannounced: official deadline day o
+ ed\, checked 2026-11-14\nCutoff time unannounced: official deadline day o
  nly. Verify the organizer's submission portal.\nFormat: Paper-based\; Arc
  hival option: Yes\nOfficial source: https://nolta2026.org/\nVenue Radar: 
  https://gon-uri.github.io/venue-radar/#nolta-2026
@@ -198,34 +198,13 @@ URL:https://ppsn2026.disi.unitn.it/
 LOCATION:Trento\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:ieee-cec-2027-deadline-special-session-proposal@scientific-conference-c
- alendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:IEEE CEC 2027 · Special session and workshop proposal deadline
-DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
- to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
- 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
- e organizer's submission portal.\nCutoff note: The CFP PDF gives November
-  15\, 2026\; the website's dates\, special-session and workshop pages giv
- e November 29\, 2026.\nFormat: Paper-based / IEEE Xplore proceedings (8-p
- age full papers)\; 4-page short papers in a separate Companion Proceeding
- s\; Archival option: Yes\nOfficial source: https://confcats-siteplex.s3.a
- mazonaws.com/ieeecec/files/cec27-cfp_web-13.pdf\nVenue Radar: https://gon
- -uri.github.io/venue-radar/#ieee-cec-2027
-CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
-URL:https://confcats-siteplex.s3.amazonaws.com/ieeecec/files/cec27-cfp_web-
- 13.pdf
-END:VEVENT
-BEGIN:VEVENT
 UID:nolta-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261121
 SUMMARY:NOLTA 2026 · Conference
 DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
- s\nStatus: confirmed\, checked 2026-10-06\nOfficial source: https://nolta
+ s\nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://nolta
  2026.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#nolta-2026
  \nNotes: Annual IEICE NOLTA symposium\; official final extensions superse
  de older April/July dates. Proceedings papers\, with neural networks and 
@@ -244,7 +223,7 @@ DTEND;VALUE=DATE:20261117
 SUMMARY:EuroGP 2027 · Extended genetic programming paper submission deadli
  ne
 DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
-  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-10-30\
+  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-14\
  nCutoff time unannounced: official deadline day only. Verify the organize
  r's submission portal.\nFormat: Paper-based / Springer LNCS\; Archival op
  tion: Yes\nOfficial source: https://www.evostar.org/2027/important-dates/
@@ -269,6 +248,26 @@ CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Complex
 URL:https://gecco-2027.sigevo.org/Tutorial+Proposals
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-cec-2027-deadline-special-session-proposal@scientific-conference-c
+ alendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:IEEE CEC 2027 · Special session and workshop proposal deadline (ex
+ tended)
+DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
+ to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
+ edings (8-page full papers)\; 4-page short papers in a separate Companion
+  Proceedings\; Archival option: Yes\nOfficial source: https://confcats-si
+ teplex.s3.amazonaws.com/ieeecec/files/cec27-cfp_web-16-(1).pdf\nVenue Rad
+ ar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://confcats-siteplex.s3.amazonaws.com/ieeecec/files/cec27-cfp_web-
+ 16-(1).pdf
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-cec-2027-deadline-tutorial-proposal@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261215
@@ -276,7 +275,7 @@ DTEND;VALUE=DATE:20261216
 SUMMARY:IEEE CEC 2027 · Competition and tutorial proposal deadline
 DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
  to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
- 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
  e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
  edings (8-page full papers)\; 4-page short papers in a separate Companion
   Proceedings\; Archival option: Yes\nOfficial source: https://ieeecec.org
@@ -308,7 +307,7 @@ DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:EuroGP 2027 · Camera-ready deadline
 DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
-  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-10-30\
+  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-14\
  nCutoff time unannounced: official deadline day only. Verify the organize
  r's submission portal.\nFormat: Paper-based / Springer LNCS\; Archival op
  tion: Yes\nOfficial source: https://www.evostar.org/2027/important-dates/
@@ -359,7 +358,7 @@ SUMMARY:IEEE CEC 2027 · Full paper submission\, 8 pages incl. special-sess
  ion papers (no extension)
 DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
  to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
- 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
  e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
  edings (8-page full papers)\; 4-page short papers in a separate Companion
   Proceedings\; Archival option: Yes\nOfficial source: https://ieeecec.org
@@ -378,7 +377,7 @@ SUMMARY:IEEE CEC 2027 · Graduate Student Symposium research proposal (enro
  lled Master's/doctoral students\; proposal not published)
 DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
  to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
- 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
  e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
  edings (8-page full papers)\; 4-page short papers in a separate Companion
   Proceedings\; Archival option: Yes\nOfficial source: https://ieeecec.org
@@ -396,7 +395,7 @@ SUMMARY:IEEE CEC 2027 · Journal-to-Conference presentation application (pu
  blished IEEE CIS journal papers only)
 DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
  to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
- 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
  e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
  edings (8-page full papers)\; 4-page short papers in a separate Companion
   Proceedings\; Archival option: Yes\nOfficial source: https://ieeecec.org
@@ -414,7 +413,7 @@ SUMMARY:IEEE CEC 2027 · Short paper submission\, 4 pages\, Companion Proce
  edings (no extension)
 DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
  to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
- 026-10-31\nFormat: Paper-based / IEEE Xplore proceedings (8-page full pap
+ 026-11-14\nFormat: Paper-based / IEEE Xplore proceedings (8-page full pap
  ers)\; 4-page short papers in a separate Companion Proceedings\; Archival
   option: Yes\nOfficial source: https://ieeecec.org/2027/call-for-short-pa
  pers\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-cec-2027
@@ -444,7 +443,7 @@ DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270403
 SUMMARY:EuroGP 2027 · Conference
 DESCRIPTION:European Conference on Genetic Programming\nStatus: confirmed\,
-  checked 2026-10-30\nOfficial source: https://www.evostar.org/2027/\nVenu
+  checked 2026-11-14\nOfficial source: https://www.evostar.org/2027/\nVenu
  e Radar: https://gon-uri.github.io/venue-radar/#eurogp-2027\nNotes: Offic
  ial EvoStar pages confirm Mainz\, March 31-April 2\, in hybrid mode. On 2
  026-10-30 the Important Dates page strikes November 1 and gives November 
@@ -468,7 +467,7 @@ DTEND:20270331T125900Z
 SUMMARY:ALIFE 2027 (est.) · Full-paper submission deadline
 DESCRIPTION:International Conference on Artificial Life\nMeeting: 2027-07-1
  9 to 2027-07-23\, Prague\, Czech Republic\nStatus: estimated\, checked 20
- 26-10-28. Check the organizer's call before relying on it.\nFormat: Full 
+ 26-11-14. Check the organizer's call before relying on it.\nFormat: Full 
  papers + non-archival abstracts\; Archival option: Yes (est.)\nPrevious e
  dition's page: https://2026.alife.org/call-for-papers/\nVenue Radar: http
  s://gon-uri.github.io/venue-radar/#alife-2027
@@ -485,7 +484,7 @@ DTEND;VALUE=DATE:20270408
 SUMMARY:IEEE CEC 2027 · Full paper acceptance notification
 DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
  to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
- 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
  e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
  edings (8-page full papers)\; 4-page short papers in a separate Companion
   Proceedings\; Archival option: Yes\nOfficial source: https://ieeecec.org
@@ -519,7 +518,7 @@ DTEND;VALUE=DATE:20270415
 SUMMARY:IEEE CEC 2027 · Short paper acceptance notification
 DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
  to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
- 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
  e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
  edings (8-page full papers)\; 4-page short papers in a separate Companion
   Proceedings\; Archival option: Yes\nOfficial source: https://ieeecec.org
@@ -554,7 +553,7 @@ SUMMARY:IEEE CEC 2027 · Final paper submission and early/author registrati
  on deadline
 DESCRIPTION:IEEE Congress on Evolutionary Computation\nMeeting: 2027-07-25 
  to 2027-07-28\, Edinburgh\, United Kingdom\nStatus: confirmed\, checked 2
- 026-10-31\nCutoff time unannounced: official deadline day only. Verify th
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
  e organizer's submission portal.\nFormat: Paper-based / IEEE Xplore proce
  edings (8-page full papers)\; 4-page short papers in a separate Companion
   Proceedings\; Archival option: Yes\nOfficial source: https://ieeecec.org
@@ -605,7 +604,7 @@ DTSTART;VALUE=DATE:20270719
 DTEND;VALUE=DATE:20270724
 SUMMARY:ALIFE 2027 · Conference
 DESCRIPTION:International Conference on Artificial Life\nStatus: confirmed\
- , checked 2026-10-28\nOfficial source: https://alife.vscht.cz/\nVenue Rad
+ , checked 2026-11-14\nOfficial source: https://alife.vscht.cz/\nVenue Rad
  ar: https://gon-uri.github.io/venue-radar/#alife-2027\nNotes: Organizer s
  ite (2027.alife.org redirects there) confirms July 19-23 at the Dejvice C
  ampus\, Prague\; as of 2026-10-28 no 2027 call or deadlines are published
@@ -625,7 +624,7 @@ DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270729
 SUMMARY:IEEE CEC 2027 · Conference
 DESCRIPTION:IEEE Congress on Evolutionary Computation\nStatus: confirmed\, 
- checked 2026-10-31\nOfficial source: https://ieeecec.org/2027\nVenue Rada
+ checked 2026-11-14\nOfficial source: https://ieeecec.org/2027\nVenue Rada
  r: https://gon-uri.github.io/venue-radar/#ieee-cec-2027\nNotes: Official 
  CEC 2027 pages (checked 2026-10-31) confirm the EICC\, Edinburgh\, Jul 25
  -28. Full papers (8 pages\, double-anonymous\, incl. special-session pape
@@ -633,10 +632,10 @@ DESCRIPTION:IEEE Congress on Evolutionary Computation\nStatus: confirmed\,
  o to IEEE Xplore\; 4-page short papers are due Mar 15\, 23:59 AoE\, prese
  nted as posters in a separate Companion Proceedings. Both say no extensio
  n. The FAQ gives a Sep 1\, 2026 submission opening\; EDAS needs login\, s
- o not verified. The CFP PDF gives Nov 15 for session/workshop proposals\,
-  web pages Nov 29. The student-only GSS and journal-only J2C calls are sc
- hedule-only. Size L basis: 443 of 751 papers accepted in 2013\; no recent
-  counts. Size is an editorial estimate.
+ o not verified. The revised CFP PDF and web pages give Nov 29\, 2026 (ext
+ ended from Nov 15) for session/workshop proposals. The student-only GSS a
+ nd journal-only J2C calls are schedule-only. Size L basis: 443 of 751 pap
+ ers accepted in 2013\; no recent counts. Size is an editorial estimate.
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
 URL:https://ieeecec.org/2027
 LOCATION:Edinburgh\, United Kingdom

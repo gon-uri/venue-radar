@@ -100,7 +100,7 @@ DTEND:20260917T085900Z
 SUMMARY:ICRA 2027 · Extended paper submission deadline
 DESCRIPTION:IEEE International Conference on Robotics and Automation\nMeeti
  ng: 2027-05-24 to 2027-05-28\, Seoul\, South Korea\nStatus: confirmed\, c
- hecked 2026-10-07\nFormat: Paper-based\; Archival option: Yes (est.)\nOff
+ hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes (est.)\nOff
  icial source: https://2027.ieee-icra.org/announcements/call-for-papers-su
  bmission-deadline-extended/\nVenue Radar: https://gon-uri.github.io/venue
  -radar/#icra-2027
@@ -116,7 +116,7 @@ DTSTART:20261205T115900Z
 DTEND:20261205T125900Z
 SUMMARY:RSS 2027 · Stage 1 extended abstract submission deadline
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-10-30\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -132,7 +132,7 @@ DTEND:20261208T125900Z
 SUMMARY:ICAPS 2027 · Paper abstract registration deadline
 DESCRIPTION:International Conference on Automated Planning and Scheduling\n
  Meeting: 2027-06-27 to 2027-07-02\, Columbia\, South Carolina\, USA\nStat
- us: confirmed\, checked 2026-10-07\nFormat: Long and short papers / autom
+ us: confirmed\, checked 2026-11-14\nFormat: Long and short papers / autom
  ated planning\; Archival option: Yes\nOfficial source: https://icaps27.ic
  aps-conference.org/calls/cfp/\nVenue Radar: https://gon-uri.github.io/ven
  ue-radar/#icaps-2027
@@ -148,7 +148,7 @@ DTEND:20261215T125900Z
 SUMMARY:ICAPS 2027 · Long and short paper submission deadline
 DESCRIPTION:International Conference on Automated Planning and Scheduling\n
  Meeting: 2027-06-27 to 2027-07-02\, Columbia\, South Carolina\, USA\nStat
- us: confirmed\, checked 2026-10-07\nFormat: Long and short papers / autom
+ us: confirmed\, checked 2026-11-14\nFormat: Long and short papers / autom
  ated planning\; Archival option: Yes\nOfficial source: https://icaps27.ic
  aps-conference.org/calls/cfp/\nVenue Radar: https://gon-uri.github.io/ven
  ue-radar/#icaps-2027
@@ -157,54 +157,61 @@ CATEGORIES:Planning & Search,Knowledge Representation & Reasoning,Machine L
 URL:https://icaps27.icaps-conference.org/calls/cfp/
 END:VEVENT
 BEGIN:VEVENT
-UID:rlc-2027-deadline-abstract@scientific-conference-calendar
+UID:icra-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270302T115900Z
-DTEND:20270302T125900Z
-SUMMARY:RLC 2027 (est.) · Abstract submission deadline (assumed mandatory)
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
- 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
- Status: estimated\, checked 2026-10-31. Check the organizer's call before
-  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
-  call not yet published)\; Archival option: Yes (est.)\nPrevious edition'
- s page: https://rl-conference.cc/2026/callforpapers.html\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#rlc-2027
-CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:ICRA 2027 · Acceptance/rejection notification
+DESCRIPTION:IEEE International Conference on Robotics and Automation\nMeeti
+ ng: 2027-05-24 to 2027-05-28\, Seoul\, South Korea\nStatus: confirmed\, c
+ hecked 2026-11-14\nCutoff time unannounced: official deadline day only. V
+ erify the organizer's submission portal.\nFormat: Paper-based\; Archival 
+ option: Yes (est.)\nOfficial source: https://2027.ieee-icra.org/contribut
+ e/call-for-icra-2027-papers-now-accepting-submissions/\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#icra-2027
+CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
+ ern Recognition,System Identification & Data-driven Dynamics
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-acc
+ epting-submissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:iros-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270302
-DTEND;VALUE=DATE:20270303
-SUMMARY:IROS 2027 (est.) · Paper submission deadline
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:IROS 2027 (est.) · Paper submission deadline (IEEE RAS calendar\; 
+ call not yet published)
 DESCRIPTION:IEEE/RSJ International Conference on Intelligent Robots and Sys
  tems\nMeeting: 2027-09-27 to 2027-10-01\, Florence\, Italy\nStatus: estim
- ated\, checked 2026-10-31. Check the organizer's call before relying on i
+ ated\, checked 2026-11-14. Check the organizer's call before relying on i
  t.\nEstimated day only\; no cutoff hour stored. Check the organizer's cal
  l for the real date and time.\nFormat: Paper-based / IEEE Xplore proceedi
- ngs\; Archival option: Yes (est.)\nPrevious edition's page: https://2026.
- ieee-iros.org/about/important-dates/\nVenue Radar: https://gon-uri.github
- .io/venue-radar/#iros-2027
+ ngs\; Archival option: Yes (est.)\nOfficial source: https://www.ieee-ras.
+ org/event/call-for-papers-paper-submission-deadline-iros-2027-ieee-rsj-in
+ ternational-conference-on-intelligent-robots-and-systems-iros-27403-0/\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#iros-2027
 CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
  ern Recognition,Planning & Search
-URL:https://2026.ieee-iros.org/about/important-dates/
+URL:https://www.ieee-ras.org/event/call-for-papers-paper-submission-deadlin
+ e-iros-2027-ieee-rsj-international-conference-on-intelligent-robots-and-s
+ ystems-iros-27403-0/
 END:VEVENT
 BEGIN:VEVENT
 UID:rlc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270306T115900Z
 DTEND:20270306T125900Z
-SUMMARY:RLC 2027 (est.) · Paper submission deadline
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
- 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
- Status: estimated\, checked 2026-10-31. Check the organizer's call before
-  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
-  call not yet published)\; Archival option: Yes (est.)\nPrevious edition'
- s page: https://rl-conference.cc/2026/callforpapers.html\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#rlc-2027
+SUMMARY:RLC 2027 (est.) · RLJ submission cutoff for RLC 2027 (rolling subm
+ issions\; must be accepted by May 1)
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-02 to 2027-
+ 08-25\, Providence\, USA (Brown University) and Nyborg\, Denmark\nStatus:
+  estimated\, checked 2026-11-14. Check the organizer's call before relyin
+ g on it.\nFormat: Paper-based / rolling RLJ submissions\; papers accepted
+  by RLJ by May 1 are presented at RLC 2027\; Archival option: Yes\nOffici
+ al source: https://rl-conference.cc/2027/index.html\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#rlc-2027
 CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
+URL:https://rl-conference.cc/2027/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:rss-2027-deadline-full-paper@scientific-conference-calendar
@@ -213,7 +220,7 @@ DTSTART:20270417T115900Z
 DTEND:20270417T125900Z
 SUMMARY:RSS 2027 · Stage 2 final paper deadline (invited authors only)
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-10-30\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -256,18 +263,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rlc-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270506T115900Z
-DTEND:20270506T125900Z
-SUMMARY:RLC 2027 (est.) · Decision notification
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-01 to 2027-
- 08-31 (est.)\, Providence\, USA (Brown University) and Odense\, Denmark\n
- Status: estimated\, checked 2026-10-31. Check the organizer's call before
-  relying on it.\nFormat: Paper-based / RLJ publication in 2024-2026 (2027
-  call not yet published)\; Archival option: Yes (est.)\nPrevious edition'
- s page: https://rl-conference.cc/2026/callforpapers.html\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#rlc-2027
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:RLC 2027 · RLJ acceptance deadline for presenting at RLC 2027
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-02 to 2027-
+ 08-25\, Providence\, USA (Brown University) and Nyborg\, Denmark\nStatus:
+  confirmed\, checked 2026-11-14\nCutoff time unannounced: official deadli
+ ne day only. Verify the organizer's submission portal.\nFormat: Paper-bas
+ ed / rolling RLJ submissions\; papers accepted by RLJ by May 1 are presen
+ ted at RLC 2027\; Archival option: Yes\nOfficial source: https://rl-confe
+ rence.cc/2027/index.html\nVenue Radar: https://gon-uri.github.io/venue-ra
+ dar/#rlc-2027
 CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
+URL:https://rl-conference.cc/2027/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:rss-2027-deadline-camera-ready@scientific-conference-calendar
@@ -276,7 +284,7 @@ DTSTART:20270515T115900Z
 DTEND:20270515T125900Z
 SUMMARY:RSS 2027 · Camera-ready deadline
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-10-30\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -291,7 +299,7 @@ DTSTART;VALUE=DATE:20270524
 DTEND;VALUE=DATE:20270529
 SUMMARY:ICRA 2027 · Conference
 DESCRIPTION:IEEE International Conference on Robotics and Automation\nStatu
- s: confirmed\, checked 2026-10-07\nOfficial source: https://2027.ieee-icr
+ s: confirmed\, checked 2026-11-14\nOfficial source: https://2027.ieee-icr
  a.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icra-2027\nNo
  tes: Official September 16 extension notice states new deadline September
   16 at 23:59 PST\; preserve its literal UTC-8 even though local September
@@ -309,7 +317,7 @@ DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270703
 SUMMARY:ICAPS 2027 · Conference
 DESCRIPTION:International Conference on Automated Planning and Scheduling\n
- Status: confirmed\, checked 2026-10-07\nOfficial source: https://icaps27.
+ Status: confirmed\, checked 2026-11-14\nOfficial source: https://icaps27.
  icaps-conference.org/calls/cfp/\nVenue Radar: https://gon-uri.github.io/v
  enue-radar/#icaps-2027\nNotes: Official CFP confirms the meeting and 23:5
  9 UTC-12 abstract/paper deadlines. Learning and foundation-model papers r
@@ -345,7 +353,7 @@ DTSTART;VALUE=DATE:20270706
 DTEND;VALUE=DATE:20270712
 SUMMARY:RSS 2027 · Conference
 DESCRIPTION:Robotics: Science and Systems\nStatus: confirmed\, checked 2026
- -10-30\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
+ -11-14\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#rss-2027\nNotes: New two-stage 2027 
  process requires a six-page initial submission by December 4\, 2026. Only
   authors invited after review may submit the April final paper\; it is no
@@ -376,25 +384,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rlc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270801
-DTEND;VALUE=DATE:20270901
-SUMMARY:RLC 2027 (est.) · Conference
-DESCRIPTION:Reinforcement Learning Conference\nStatus: estimated\, checked 
- 2026-10-31. Check the organizer's call before relying on it.\nPrevious ed
- ition's page: https://rl-conference.cc/2026/index.html\nVenue Radar: http
- s://gon-uri.github.io/venue-radar/#rlc-2027\nNotes: The RLC 2026 site ann
- ounces RLC 2027 at two in-person sites: Brown University\, USA (early Aug
- ust) and Odense\, Denmark (late August\, one joint event with EWRL)\; exa
- ct dates are TBA and authors of accepted papers choose where to present. 
- Aug 1-31 bounds both sites\; it is not a shift of Aug 15-18\, 2026. No 20
- 27 call is published\; abstract Mar 1 and paper Mar 5 AoE are one-year pr
- oxies from the original 2026 call (2024: Mar 1/8\; 2025: Feb 21/28)\, wit
- h the abstract assumed mandatory. The RLJ home page now describes quarter
- ly volumes with rolling submissions\, so the 2027 route may change. Size 
- is an editorial estimate.
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270826
+SUMMARY:RLC 2027 · Conference
+DESCRIPTION:Reinforcement Learning Conference\nStatus: confirmed\, checked 
+ 2026-11-14\nOfficial source: https://rl-conference.cc/2027/index.html\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#rlc-2027\nNotes: The of
+ ficial RLC 2027 page (fourth RLC) confirms two sites: Brown University\, 
+ Providence\, RI\, Aug 2-6\, and Nyborg\, Denmark (joint with EWRL)\, Aug 
+ 22-25\, 2027\; Aug 2-25 spans both. All presented work is published in RL
+ J (rlj.org)\, which takes rolling submissions with quarterly volumes. The
+  2027 page gives an RLJ acceptance deadline of May 1 (no hour or time zon
+ e) and no conference call\, abstract gate or submission deadline (as of 2
+ 026-11-14 the 2027 callforpapers.html returns 404). The paper date is an 
+ estimate from the 2026 Mar 5 AoE cutoff. Size is an editorial estimate. T
+ he 2024-2026 abstract step was removed on the owner's decision (2026-11-1
+ 4): the 2027 page publishes none\, and RLJ takes rolling submissions.
 CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/index.html
-LOCATION:Providence\, USA (Brown University) and Odense\, Denmark
+URL:https://rl-conference.cc/2027/index.html
+LOCATION:Providence\, USA (Brown University) and Nyborg\, Denmark
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2028-deadline-full-paper@scientific-conference-calendar
@@ -404,7 +412,7 @@ DTEND:20270916T075900Z
 SUMMARY:ICRA 2028 (est.) · Paper submission deadline
 DESCRIPTION:IEEE International Conference on Robotics and Automation\nMeeti
  ng: 2028-05-24 to 2028-05-28 (est.)\, Guadalajara\, Mexico\nStatus: estim
- ated\, checked 2026-10-29. Check the organizer's call before relying on i
+ ated\, checked 2026-11-14. Check the organizer's call before relying on i
  t.\nFormat: Paper-based\; Archival option: Yes (est.)\nOfficial source: h
  ttps://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra\nVenue
   Radar: https://gon-uri.github.io/venue-radar/#icra-2028
@@ -439,18 +447,23 @@ DTSTART;VALUE=DATE:20270927
 DTEND;VALUE=DATE:20271002
 SUMMARY:IROS 2027 · Conference
 DESCRIPTION:IEEE/RSJ International Conference on Intelligent Robots and Sys
- tems\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://20
+ tems\nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://20
  27.ieee-iros.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ir
  os-2027\nNotes: The official 2027 site and IEEE RAS venues page confirm F
  ortezza da Basso\, Florence\, Sep 27-Oct 1\, 2027 (annual since 1988). As
-  of 2026-10-31 no 2027 call is published. The paper deadline is a one-yea
- r proxy from IROS 2026 (Mar 2\, no hour\; papers could be edited but not 
- started until Mar 5)\; IROS 2023 was Mar 1\, extended to Mar 2. 2026 pape
- rs were up to 8 pages\, double-anonymous\, in IEEE Xplore\, with no RA-L+
- IROS option. Non-archival late-breaking posters (2-page abstract\, full r
- egistration) are not projected\; 2026 pages gave Jul 31 and Aug 10. Size 
- XXL: IROS 2025 had 8\,004 registrants (IEEE RA Magazine). Size is an edit
- orial estimate.
+  of 2026-11-14 no 2027 call is published on 2027.ieee-iros.org (PaperPlaz
+ a: 'Submission links will be available soon'). The IEEE RAS events calend
+ ar lists the IROS 2027 paper submission deadline as Mar 1\, 2027 (no stat
+ ed cutoff hour\; kept estimated until the conference call confirms it). P
+ aperPlaza's listing gives Sep 25-30\, 2027\, which conflicts with the off
+ icial site and RAS event page (Sep 27-Oct 1)\; the official dates are kep
+ t. IROS 2026 was Mar 2 (no hour\; papers could be edited but not started 
+ until Mar 5)\; IROS 2023 was Mar 1\, extended to Mar 2. 2026 papers were 
+ up to 8 pages\, double-anonymous\, in IEEE Xplore\, with no RA-L+IROS opt
+ ion. Non-archival late-breaking posters (2-page abstract\, full registrat
+ ion) are not projected\; 2026 pages gave Jul 31 and Aug 10. Size XXL: IRO
+ S 2025 had 8\,004 registrants (IEEE RA Magazine). Size is an editorial es
+ timate.
 CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
  ern Recognition,Planning & Search
 URL:https://2027.ieee-iros.org/
@@ -463,14 +476,14 @@ DTSTART;VALUE=DATE:20280524
 DTEND;VALUE=DATE:20280529
 SUMMARY:ICRA 2028 (est.) · Conference
 DESCRIPTION:IEEE International Conference on Robotics and Automation\nStatu
- s: estimated\, checked 2026-10-29. Check the organizer's call before rely
+ s: estimated\, checked 2026-11-14. Check the organizer's call before rely
  ing on it.\nOfficial source: https://www.ieee-ras.org/conferences-worksho
  ps/fully-sponsored/icra\nVenue Radar: https://gon-uri.github.io/venue-rad
- ar/#icra-2028\nNotes: As of 2026-10-29 IEEE RAS names Guadalajara\, Mexic
- o as the ICRA 2028 host but publishes no dates or call. Meeting dates are
-  a one-year proxy from ICRA 2027\; the paper deadline proxy uses ICRA 202
- 7's original September 15\, 23:59 Pacific cutoff\, not its one-day extens
- ion.
+ ar/#icra-2028\nNotes: As of 2026-11-14 IEEE RAS names Guadalajara\, Mexic
+ o as the ICRA 2028 host (general chair profile) but publishes no dates or
+  call. Meeting dates are a one-year proxy from ICRA 2027\; the paper dead
+ line proxy uses ICRA 2027's original September 15\, 23:59 Pacific cutoff\
+ , not its one-day extension.
 CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
  ern Recognition,System Identification & Data-driven Dynamics
 URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra

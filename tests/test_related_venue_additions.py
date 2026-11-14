@@ -97,14 +97,21 @@ class RelatedVenueAdditionTests(unittest.TestCase):
         abstract = next(d for d in self.by_id["neural-interfaces-2027"]["deadlines"] if d["type"] == "abstract")
         self.assertEqual(abstract["datetime"], "2027-02-17T13:00:00-05:00")
         self.assertIn("CST", abstract["cutoff_note"])
-        # A date the organizer marks tentative stays estimated (ITISE precedent).
-        late = next(d for d in self.by_id["cns-cogneuro-2027"]["deadlines"] if d["type"] == "late_abstract")
-        self.assertEqual(late["confidence"], "estimated")
+        # A date the organizer marks tentative stays estimated (ITISE precedent)
+        # until a firm page confirms it: CNS's poster page did on 2026-11-14.
+        cogneuro = self.by_id["cns-cogneuro-2027"]
+        late = next(d for d in cogneuro["deadlines"] if d["type"] == "late_abstract")
+        self.assertEqual(late.get("confidence", cogneuro["confidence"]), "confirmed")
+        self.assertEqual(late["source_url"], "https://www.cogneurosociety.org/submit-a-poster/")
 
-    def test_two_site_rlc_2027_is_estimated_and_off_the_map(self) -> None:
+    def test_two_site_rlc_2027_stays_off_the_map(self) -> None:
+        # Both sites are confirmed (2026-11-14), but one city pin cannot show them,
+        # and the RLJ paper route stays an estimate.
         rlc = self.by_id["rlc-2027"]
-        self.assertEqual(rlc["confidence"], "estimated")
+        self.assertEqual(rlc["confidence"], "confirmed")
         self.assertNotIn("timezone", rlc)
+        paper = next(d for d in rlc["deadlines"] if d["type"] == "full_paper")
+        self.assertEqual(paper["confidence"], "estimated")
         mapped = {e["id"] for e in map_events(self.conferences, load_mapping(CITIES_PATH))}
         self.assertNotIn("rlc-2027", mapped)
         self.assertIn("rldm-2027", mapped)

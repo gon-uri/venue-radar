@@ -14,4 +14,6 @@
 #
 # A retired edition ID also covers its generated event UIDs
 # (<id>-conference@... and <id>-deadline-<type>@...). Never reuse a retired ID.
-[]
+- id: "rlc-2027-deadline-abstract@scientific-conference-calendar"
+  reason: "RLC 2027 publishes no abstract step; presented work comes from rolling RLJ submissions accepted by May 1. The assumed mandatory abstract event from the 2024-2026 calls was unsupported (owner decision, 2026-11-14 review)."
+  date: "2026-11-14"

@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-10-30
+Last synchronized: 2026-11-14
 
 Current implementation is summarized in [implementation status](implementation_status.md).
 Use [the documentation index](README.md) for procedures; the completed milestones
@@ -252,13 +252,42 @@ below are history, not instructions to reimplement old designs.
   Proposed, not decided: put the tag in an existing cell rather than a new
   column, which would change ADR-035's mobile cards.
 
+### Next Interface Batch (Proposed 2026-11-14, Not Approved)
+
+- Goal: Make "where can I submit next" answerable in one screen. Each item
+  comes from a measured audit at the six maintained widths, drafted by three
+  planners and ranked by two judges.
+- Proposed items, each needing owner approval of wording or layout:
+  1. Content-first desktop layout: a compact always-visible bar with Search,
+     family chips and the Archival toggle, plus a "More filters (n)" disclosure,
+     collapsed by default and opened when the link carries those filters.
+     Today 0 deadline rows are visible at 1280x720 and 1440x900 with filters
+     open. This reverses the 2026-10-07 filters-open default (needs an ADR).
+  2. Compact phone cards: the archival tag inline after the status, and a
+     chevron in the title row instead of the full-width More info bar. Search
+     sits above the tabs on phones. Median card is 193 px today (1 per
+     screen), target about 130 px.
+  3. Planning horizon chips beside "Show submission options only": 30 days,
+     90 days, 6 months, Any (default Any; `within=` in the link). This moves
+     the roadmap's deadline-window idea into scope.
+  4. "About this venue" in the expanded row: the sourced scope summary and the
+     archival track and venue. Edition notes stay off the site.
+- Owner decisions to collect alongside: retire or freeze the XLSX mirror;
+  README "130+" to "170+"; which `calendar-all.ics` size lever to use before
+  the next venue round (91% of 1 MB). (RLC 2027's abstract event and
+  CogSci's archival value were settled on 2026-11-14.)
+- Deferred by the judges: decision dates and an "after a rejection" link
+  (only 23 of 115 open full-paper editions store a notification), a shareable
+  shortlist URL, a merged rank-and-rate column, family submission feeds,
+  browser smoke in CI.
+
 ### Repeatable Data Refresh
 
 - Goal: Keep actionable monthly source-linked queues for edition reviews, historical acceptance evidence, and curated conference scopes, plus cadence-aware next-edition projections that never imply official confirmation.
 - Priority: High
 - Dependencies: `scripts/maintenance_report.py`, `scripts/rollover_editions.py`, official organizer pages, documented review procedure.
 - Estimated complexity: Ongoing
-- Completion status: Completed tooling and procedure; reviews remain recurring work. ADR-040 added urgency tiers, advisory checks, a weekly Review queue issue and a manual source checker. ADR-042 added the pre-deadline recheck tier, the midnight-opening advisory, future review-day checks, `tls-error` reporting and a pinned Python 3.12.
+- Completion status: Completed tooling and procedure; reviews remain recurring work. ADR-040 added urgency tiers, advisory checks, a weekly Review queue issue and a manual source checker. ADR-042 added the pre-deadline recheck tier, the midnight-opening advisory, future review-day checks, `tls-error` reporting and a pinned Python 3.12. ADR-048 (2026-11-14) makes the weekly queue list only doable work (old-year URLs limited to calls and confirmed sources, `continues` successors, "call is out" gates, a 365-day scope interval, Rollover ready and New this week) and adds non-blocking size budgets.
 
 ### Calendar Feed Reliability
 

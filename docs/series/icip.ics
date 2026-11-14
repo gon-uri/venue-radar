@@ -14,18 +14,82 @@ UID:icip-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
-SUMMARY:ICIP 2027 · Conference paper submission deadline
+SUMMARY:ICIP 2027 · Regular and special session paper submission deadline 
+ (5 pages + 1 reference page)
 DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
- 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-10-07
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
  \nCutoff time unannounced: official deadline day only. Verify the organiz
- er's submission portal.\nFormat: Paper-based\; Archival option: Yes (est.
- )\nOfficial source: https://signalprocessingsociety.org/events/2027-ieee-
- international-conference-image-processing-icip\nVenue Radar: https://gon-
- uri.github.io/venue-radar/#icip-2027
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
 CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
  Learning,Deep Representation Learning
-URL:https://signalprocessingsociety.org/events/2027-ieee-international-conf
- erence-image-processing-icip
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:ICIP 2027 · OJ-SP paper submission (8 pages + 1 reference page\; p
+ ublished in IEEE Open Journal of Signal Processing)
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270807
+SUMMARY:ICIP 2027 · Regular paper decisions
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:ICIP 2027 · Final regular paper submissions due
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:ICIP 2027 · Satellite workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:icip-2027-conference@scientific-conference-calendar
@@ -34,13 +98,19 @@ DTSTART;VALUE=DATE:20271129
 DTEND;VALUE=DATE:20271204
 SUMMARY:ICIP 2027 · Conference
 DESCRIPTION:IEEE International Conference on Image Processing\nStatus: conf
- irmed\, checked 2026-10-07\nOfficial source: https://2027.ieeeicip.org/\n
- Venue Radar: https://gon-uri.github.io/venue-radar/#icip-2027\nNotes: IEE
- E Signal Processing Society confirms Singapore\, Nov 29-Dec 3\, and Mar 3
- 1 paper deadline. Exact submission hour/timezone and opening are not anno
- unced\; 23:59 AoE is only an ordering proxy and ICS uses an all-day event
- . Topics reflect the continuing image-processing/learning scope in the pr
- ior CFP. Size XL is an editorial estimate.
+ irmed\, checked 2026-11-14\nOfficial source: https://2027.ieeeicip.org/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#icip-2027\nNotes: The
+  official ICIP 2027 site (checked 2026-11-14) confirms Singapore\, Nov 29
+ -Dec 3\, 2027. Its CFP gives Mar 31 for regular/special-session papers (5
+  pages + 1 reference page\, IEEE Xplore) and for OJ-SP papers (8 pages + 
+ 1 reference page\; the date table says 9 pages\; published in the journal
+  instead of the proceedings). Decisions follow on Aug 6\, final papers on
+  Aug 11 and satellite-workshop papers on Aug 11. The CFP gives days only\
+ , with no hour\, timezone or portal opening\; 23:59 AoE is an ordering pr
+ oxy and ICS uses all-day events. One-page Work-in-Progress abstracts\, jo
+ urnal-presentation requests (Aug 11) and Grand Challenge papers (Aug 11) 
+ are not modelled as new-paper routes\; the WIP abstract deadline is not l
+ isted in the date table. Size XL is an editorial estimate.
 CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
  Learning,Deep Representation Learning
 URL:https://2027.ieeeicip.org/

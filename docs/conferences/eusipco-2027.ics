@@ -10,13 +10,47 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:eusipco-2027-deadline-special-session-proposal@scientific-conference-ca
+ lendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:EUSIPCO 2027 · Special session proposal deadline (organizers\, by 
+ email)
+DESCRIPTION:European Signal Processing Conference\nMeeting: 2027-08-30 to 2
+ 027-09-03\, Darmstadt\, Germany\nStatus: confirmed\, checked 2026-11-14\n
+ Cutoff time unannounced: official deadline day only. Verify the organizer
+ 's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffici
+ al source: https://eusipco2027.de/special-sessions/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#eusipco-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://eusipco2027.de/special-sessions/
+END:VEVENT
+BEGIN:VEVENT
 UID:eusipco-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:EUSIPCO 2027 · Conference paper submission deadline
 DESCRIPTION:European Signal Processing Conference\nMeeting: 2027-08-30 to 2
- 027-09-03\, Darmstadt\, Germany\nStatus: confirmed\, checked 2026-10-06\n
+ 027-09-03\, Darmstadt\, Germany\nStatus: confirmed\, checked 2026-11-14\n
+ Cutoff time unannounced: official deadline day only. Verify the organizer
+ 's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffici
+ al source: https://eusipco2027.de/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#eusipco-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://eusipco2027.de/
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EUSIPCO 2027 · Tutorial proposal deadline
+DESCRIPTION:European Signal Processing Conference\nMeeting: 2027-08-30 to 2
+ 027-09-03\, Darmstadt\, Germany\nStatus: confirmed\, checked 2026-11-14\n
  Cutoff time unannounced: official deadline day only. Verify the organizer
  's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffici
  al source: https://eusipco2027.de/\nVenue Radar: https://gon-uri.github.i
@@ -32,10 +66,14 @@ DTSTART;VALUE=DATE:20270830
 DTEND;VALUE=DATE:20270904
 SUMMARY:EUSIPCO 2027 · Conference
 DESCRIPTION:European Signal Processing Conference\nStatus: confirmed\, chec
- ked 2026-10-06\nOfficial source: https://eusipco2027.de/\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#eusipco-2027\nNotes: EUSIPCO 2027 co
- nfirms Darmstadt\, Aug 30-Sep 3\, and Feb 6 paper deadline. The cutoff ho
- ur/timezone is unspecified\; 23:59 local is only a calendar proxy.
+ ked 2026-11-14\nOfficial source: https://eusipco2027.de/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#eusipco-2027\nNotes: EUSIPCO 2027 (c
+ hecked 2026-11-14) confirms the darmstadtium conference center\, Darmstad
+ t\, Aug 30-Sep 3\, and a Feb 6 paper deadline. The cutoff hour and time z
+ one are unspecified\, so 23:59 local is only a calendar proxy. The CMS su
+ bmission link is not yet posted. The Apr 30 journal-paper deadline is onl
+ y for already accepted or published journal papers\, which are not in the
+  proceedings\, so it is not tracked as a new-contribution route.
 CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
  ,Computer Vision & Pattern Recognition
 URL:https://eusipco2027.de/

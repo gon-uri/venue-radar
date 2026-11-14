@@ -9,6 +9,7 @@ import {checkDynamicsNeuroscience} from './dynamics_neuroscience.mjs';
 import {checkVenueFeatures} from './venue_features.mjs';
 import {checkMoreFeatures} from './venue_more.mjs';
 import {checkArchivalOption} from './archival_option.mjs';
+import {checkFilterBar} from './filter_bar.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -79,14 +80,13 @@ try {
     await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
     await page.goto(url);
     await page.evaluate(() => document.fonts.ready);
-    assert.equal(await page.locator('#filter-details').evaluate(details => details.open), width > 760, `Filter default at ${width}px`);
-    assert.equal(await page.locator('#search').isVisible(), width > 760);
+    assert.equal(await page.locator('#filter-details').evaluate(details => details.open), false, `More filters collapsed at ${width}px`);
+    assert(await page.locator('#search').isVisible(), `Search always visible at ${width}px (ADR-049)`);
     assert(await page.locator('#clear-filters').isVisible());
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Default layout must fit at ${width}px`);
     if (output) await page.screenshot({path: path.join(output, `default-filters-${width}.png`)});
   }
   await checkMobileCards(page, url, output);
-  await page.locator('#filter-details > summary').click();
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
   assert.equal(await page.locator('[data-deadline-group]:visible').count(), 170);  // +44 related venues and ASLI (2026-10-31)
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>
@@ -154,13 +154,10 @@ try {
   const filterSummary = page.locator('#filter-details > summary');
   assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
   assert(await page.locator('#clear-filters').isVisible());
-  assert.equal(await filterSummary.locator('span:nth-child(2)').innerText(), 'Filters & search');
+  assert.equal(await filterSummary.locator('span:nth-child(2)').innerText(), 'More filters');
   assert(await filterSummary.locator('#filter-count').isHidden(), 'No active-filter badge by default');
-  assert.equal(await filterSummary.evaluate(summary => getComputedStyle(summary).fontSize), '20px');
-  assert.equal(await filterSummary.evaluate(summary => getComputedStyle(summary).columnGap), '14px');
-  assert.equal(await page.locator('.filter-disclosure-icon').evaluate(icon => getComputedStyle(icon).fontSize), '20px');
   assert.equal(await page.locator('.filter-disclosure-icon').getAttribute('aria-hidden'), 'true');
-  assert.equal(await page.locator('input:not(#open-only):not(#starred-only), select').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details') && !control.closest('#calendar-menu')).length), 0);
+  assert.equal(await page.locator('input:not(#open-only):not(#starred-only):not(#search), select').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details') && !control.closest('#calendar-menu')).length), 0);
   assert(await page.locator('#clear-filters').evaluate(button => !button.closest('#filter-details') && !!button.closest('.filter-section')));
   assert(await page.getByLabel('Show submission options only', {exact: true}).isVisible());
   assert(await page.locator('#open-only').evaluate(input => !input.closest('#filter-details') && !!input.closest('.tab-toolbar')));
@@ -199,10 +196,11 @@ try {
   await page.locator('.topic-family summary').first().click({position: {x: 8, y: 10}});
   assert(await page.locator('.topic-tree').evaluate(tree => tree.scrollHeight > tree.clientHeight), 'Expanded subtopics must scroll within the box');
   await page.locator('.topic-family summary').first().click({position: {x: 8, y: 10}});
-  const searchLabel = await page.locator('.search-control .control-label').boundingBox();
-  const acceptanceLabel = await page.locator('.filter-group').filter({has: page.locator('[data-filter-group="acceptance"]')}).locator('legend').boundingBox();
-  assert(searchLabel.x > acceptanceLabel.x + acceptanceLabel.width);
-  assert(Math.abs(searchLabel.y - acceptanceLabel.y) < 1, 'Search and filter headings must align vertically');
+  // ADR-049: search sits in the always-visible bar above More filters.
+  const searchBox = await page.locator('#search').boundingBox();
+  const panelTop = (await filterSummary.boundingBox()).y;
+  assert(searchBox.y + searchBox.height <= panelTop, 'Search sits above the More filters panel');
+  assert(await page.locator('#search').evaluate(input => !input.closest('#filter-details') && !!input.closest('.quick-bar')));
   assert.deepEqual(await page.locator('[data-filter-group="size"]').evaluateAll(inputs => inputs.map(i => i.value)), ['s', 'm', 'l', 'xl', 'xxl']);
   assert.equal(await page.locator('#panel-deadlines .row-calendar-button').count(), 0);
   await page.locator('#search').fill('mlsys');
@@ -213,7 +211,7 @@ try {
   assert.equal(await page.locator('#search').inputValue(), '');
   assert.equal(await page.locator('[data-filter-group]:checked, [data-family-toggle]:checked').count(), 0);
   assert(!(await page.locator('#open-only').isChecked()), 'Clear filters removes the optional submission restriction too');
-  assert(await page.locator('#clear-filters').evaluate(button => document.activeElement === button));
+  assert(await page.locator('#search').evaluate(input => document.activeElement === input), 'Clear filters returns focus to the always-visible search');
   await filterSummary.click();
   const sysid = page.locator('[data-deadline-group][data-edition="ifac-sysid-2027"]');
   const timeEstimate = sysid.locator('[data-label="Time left"] [data-time-estimate]');
@@ -585,11 +583,10 @@ try {
     })), `Tab labels must fit at ${width}px`);
     if (output) await page.locator('header').screenshot({path: path.join(output, `header-${width}.png`)});
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Expanded filter overflow at ${width}px`);
-    if (width > 760) {
-      const searchBox = await page.locator('.search-control .control-label').boundingBox();
-      const rateBox = await page.locator('.filter-group').filter({has: page.locator('[data-filter-group="acceptance"]')}).locator('legend').boundingBox();
-      assert(searchBox.x > rateBox.x + rateBox.width && Math.abs(searchBox.y - rateBox.y) < 1, `Search alignment at ${width}px`);
-    }
+    assert(await page.locator('.quick-bar #search, .quick-bar .chip').evaluateAll(items => items.every(item => {
+      const box = item.getBoundingClientRect();
+      return box.left >= 0 && (box.right <= innerWidth || item.closest('.qb-chips').scrollWidth > item.closest('.qb-chips').clientWidth);
+    })), `Filter bar fits (phones scroll the chip row) at ${width}px`);
     if (output) await page.screenshot({path: path.join(output, `filters-${width}.png`)});
     await filterSummary.click();
     await page.locator('#tab-conferences').click();
@@ -598,6 +595,7 @@ try {
   await checkVenueFeatures(page, url);
   await checkMoreFeatures(page, url);
   await checkArchivalOption(page, url);
+  await checkFilterBar(page, url);
   assert.deepEqual(fontRequests, [], 'The title font must not require a network request');
   assert.deepEqual(errors, []);
   console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);

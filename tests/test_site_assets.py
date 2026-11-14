@@ -146,8 +146,15 @@ class SiteAssetTests(unittest.TestCase):
         self.assertIn("checked", inputs["open-only"])
         details = next(attrs for tag, attrs in page.elements
                        if tag == "details" and attrs.get("id") == "filter-details")
-        self.assertIn("open", details)
-        self.assertIn("document.querySelector('#filter-details').open = !matchMedia('(max-width: 760px)').matches;", html)
+        # ADR-049: More filters starts collapsed at every width; search and the
+        # family/archival chips stay visible in the bar above it.
+        self.assertNotIn("open", details)
+        self.assertNotIn("matchMedia('(max-width: 760px)')", html)
+        chips = [attrs for tag, attrs in page.elements if tag == "button" and "chip" in (attrs.get("class") or "").split()]
+        self.assertEqual(len(chips), 9)
+        self.assertEqual(sum("data-chip-family" in attrs for attrs in chips), 8)
+        self.assertTrue(all(attrs.get("aria-pressed") == "false" for attrs in chips))
+        self.assertLess(html.index('id="search"'), html.index('id="filter-details"'))
         self.assertNotIn("time-series-shortcut", inputs)
         self.assertIn('value="time-series-sequential-data"', html)
 

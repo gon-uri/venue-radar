@@ -397,6 +397,26 @@ def _archival_tag(conference: dict[str, Any]) -> str:
     return f'<span class="{classes}"{tip_attrs}>{escape(label)}</span>'
 
 
+def _quick_bar() -> str:
+    """Always-visible search and one-tap chips (ADR-049). Each chip mirrors an
+    existing control in More filters (a family toggle or the archival box),
+    so filtering, links and Clear filters keep a single source of truth."""
+    chips = "".join(
+        f'<button type="button" class="chip" data-chip-family="{_attr(family["id"])}" aria-pressed="false" '
+        f'title="{_attr("Central conference focus: " + family["label"])}">{escape(family["chip"])}</button>'
+        for family in TOPIC_CATALOG["families"]
+    )
+    chips += (f'<button type="button" class="chip chip-archival" data-chip-archival aria-pressed="false" '
+              f'title="{_attr(ARCHIVAL_FILTER_NOTE)}">Archival option</button>')
+    return (
+        '<div class="quick-bar">'
+        '<label class="qb-search"><span class="visually-hidden">Search</span>'
+        '<input id="search" type="search" autocomplete="off" placeholder="Search conferences, topics, cities"></label>'
+        f'<div class="qb-chips" role="group" aria-label="Topic families and archival option">{chips}</div>'
+        '</div>'
+    )
+
+
 def _archival_filter() -> str:
     return (
         '<div class="archival-filter">'
@@ -993,8 +1013,8 @@ def build_site(
         <p class="subhead">Find where to submit next: conference deadlines for machine learning and AI, neuroscience, healthcare, complex systems, and control.</p>
       </div>
       <div class="header-actions">
-        <a class="header-button share-button" href="{_attr(share_url)}" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X">{share_icon}Share on X</a>
-        <a class="header-button star-button" href="https://github.com/gon-uri/venue-radar" target="_blank" rel="noopener noreferrer" title="Open Venue Radar on GitHub to star the repository">{star_icon}Star the repo</a>
+        <a class="header-button share-button" href="{_attr(share_url)}" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X">{share_icon}<span class="header-label">Share on X</span></a>
+        <a class="header-button star-button" href="https://github.com/gon-uri/venue-radar" target="_blank" rel="noopener noreferrer" title="Open Venue Radar on GitHub to star the repository">{star_icon}<span class="header-label">Star the repo</span></a>
         <div class="calendar-action">
           {calendar_menu}
           <span class="calendar-caption">Auto-updating .ics feeds</span>
@@ -1003,8 +1023,10 @@ def build_site(
     </header>
 
     <section class="controls filter-section" aria-label="Filters and search">
-    <details class="filter-details" id="filter-details" open>
-      <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>Filters &amp; search</span><span class="filter-count" id="filter-count" hidden></span></summary>
+    <h2 class="visually-hidden">Filters and search</h2>
+    {_quick_bar()}
+    <details class="filter-details" id="filter-details">
+      <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>More filters</span><span class="filter-count" id="filter-count" hidden></span><span class="more-hint">Size · ICORE · CCF · acceptance rate · subtopics</span></summary>
       <div class="filter-content">
         <div class="filter-grid">
           {_topic_filter()}
@@ -1012,10 +1034,6 @@ def build_site(
           {_checkbox_group("ICORE Rank", "icore", ["A*", "A", "B", "C", "Unranked"], slug_values=False, link_href="https://portal.core.edu.au/conf-ranks/")}
           {_checkbox_group("CCF Rank", "ccf", ["A", "B", "C", "Unranked"], slug_values=False, link_href=ccf_page)}
           {_checkbox_group("Acceptance rate", "acceptance", ["Very low", "Low", "Moderate", "High", "Very high", "Unknown"])}
-          <label class="search-control">
-            <span class="control-label">Search</span>
-            <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
-          </label>
         </div>
         {_archival_filter()}
         <div class="filter-actions">
@@ -1023,7 +1041,6 @@ def build_site(
         </div>
       </div>
     </details>
-    <script>document.querySelector('#filter-details').open = !matchMedia('(max-width: 760px)').matches;</script>
     <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
     </section>
 

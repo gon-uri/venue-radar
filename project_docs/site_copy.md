@@ -116,3 +116,16 @@ Approved with ADR-040:
   the deadline shown belongs to."
 - With the filter on, the result line adds "N conferences not checked yet are
   hidden".
+
+## Filter Bar (ADR-049, approved 2026-11-14)
+
+- Search placeholder: "Search conferences, topics, cities" (visually hidden
+  label "Search").
+- Family chips (from `chip` in `data/topic_families.yml`): "ML & Data",
+  "NLP & Agents", "Vision", "RL & Control", "Complex Systems", "Healthcare",
+  "Neuroscience", "Responsible AI". Each chip's tooltip keeps the full family
+  name ("Central conference focus: ...").
+- Archival chip: "Archival option"; its tooltip is the approved ADR-047 filter
+  description.
+- Disclosure: "More filters", with the hint "Size · ICORE · CCF · acceptance
+  rate · subtopics" (hidden on phones) and the "N active" badge.

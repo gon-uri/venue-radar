@@ -33,6 +33,10 @@ def validate_catalog_metadata(topics: set[str], families: dict, cities: dict) ->
             seen_ids.add(family_id)
         if not isinstance(family.get('label'), str) or not family['label'].strip() or not family.get('topics'):
             errors.append('Each topic family needs a label and subtopics')
+        # Short name for the always-visible family chip (ADR-049).
+        chip = family.get('chip')
+        if not isinstance(chip, str) or not chip.strip() or len(chip) > 18:
+            errors.append(f'Topic family {family_id}: chip must be a short non-empty label (at most 18 characters)')
         children = family.get('topics', [])
         if not isinstance(children, list) or not all(isinstance(topic, str) for topic in children):
             errors.append('Family subtopics must be a list of strings')

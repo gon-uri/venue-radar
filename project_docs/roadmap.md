@@ -257,13 +257,15 @@ below are history, not instructions to reimplement old designs.
 - Goal: Make "where can I submit next" answerable in one screen. Each item
   comes from a measured audit at the six maintained widths, drafted by three
   planners and ranked by two judges.
+- Status: items 1 and 2 approved and built on 2026-11-14 as ADR-049; items 3
+  and 4 still await approval.
 - Proposed items, each needing owner approval of wording or layout:
-  1. Content-first desktop layout: a compact always-visible bar with Search,
+  1. (Done, ADR-049) Content-first desktop layout: a compact always-visible bar with Search,
      family chips and the Archival toggle, plus a "More filters (n)" disclosure,
      collapsed by default and opened when the link carries those filters.
      Today 0 deadline rows are visible at 1280x720 and 1440x900 with filters
      open. This reverses the 2026-10-07 filters-open default (needs an ADR).
-  2. Compact phone cards: the archival tag inline after the status, and a
+  2. (Done, ADR-049) Compact phone cards: the archival tag inline after the status, and a
      chevron in the title row instead of the full-width More info bar. Search
      sits above the tabs on phones. Median card is 193 px today (1 per
      screen), target about 130 px.

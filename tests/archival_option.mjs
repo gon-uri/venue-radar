@@ -38,11 +38,11 @@ export async function checkArchivalOption(page, url) {
   assert(!(await bubble.isVisible()));
 
   // The filter keeps Yes and Yes (est.), hides No, and is shared in the link.
-  await page.locator('[data-filter-group="archival"]').check();
+  await page.locator('[data-chip-archival]').click();  // ADR-049: the chip is the visible control
   await page.waitForFunction(() => location.search.includes('archival=1'));
   assert(await row('neurips-2027').isVisible());
   assert(!(await row('cosyne-2027').isVisible()), 'Non-archival series are hidden');
-  assert.equal(await page.locator('#filter-count').textContent(), '1 active');
+  assert(await page.locator('#filter-count').isHidden(), 'The visible archival chip is not counted in the More filters badge');
   await page.goto(`${base}?archival=1&tab=conferences`);
   await freeze();
   assert(await page.locator('[data-filter-group="archival"]').isChecked(), 'archival=1 restores the filter');

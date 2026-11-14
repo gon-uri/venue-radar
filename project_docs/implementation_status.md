@@ -43,9 +43,11 @@ additions, not from an older session entry or a filtered website screenshot.
   evidence remains Unknown; ranks are independent, not predicted acceptance.
 - Confirmed/announced future, non-online meetings in known cities appear on an
   offline Leaflet/Natural Earth map. Estimates remain in tables, not the map.
-- Filters open by default above 760px and close initially on mobile. Compact
-  mobile cards put the name and countdown on one row with status and next step
-  below, and independently expand More info; desktop tables stay complete
+- An always-visible bar holds search, eight family chips and the archival chip.
+  The remaining filters sit in "More filters", collapsed at every width unless
+  a link uses them (ADR-049). Compact mobile cards put the name and countdown
+  on one row, with the status, archival tag and next step below, and a 44px
+  chevron that expands More info. Desktop tables stay complete
   under a sticky header. Disclosure state survives filters/tabs/resizing; no-JS keeps
   full metadata accessible. Mobile visual refinement is covered by ADR-035.
 - Venue Radar branding uses the selected Audiowide title, four-color calendar/

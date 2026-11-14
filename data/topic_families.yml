@@ -1,6 +1,7 @@
 families:
   - id: ml-ai
     label: ML & Data Science
+    chip: ML & Data
     topics:
       - Machine Learning
       - Deep Representation Learning
@@ -13,6 +14,7 @@ families:
       - Data Mining & Data Science
   - id: language-agents-retrieval
     label: NLP, Agents & Retrieval
+    chip: NLP & Agents
     topics:
       - Natural Language Processing & LLMs
       - Autonomous Agents & Multiagent Systems
@@ -21,18 +23,21 @@ families:
       - Recommender Systems
   - id: signals-vision
     label: Vision & Multimedia
+    chip: Vision
     topics:
       - Computer Vision & Pattern Recognition
       - Computer Graphics & Visualization
       - Multimedia Learning & Retrieval
   - id: rl-control
     label: RL, Robotics & Control
+    chip: RL & Control
     topics:
       - Reinforcement Learning
       - Control & Robotics
       - Planning & Search
   - id: dynamics-control
     label: Complex Systems, Time Series & Signals
+    chip: Complex Systems
     topics:
       - Nonlinear Dynamics & Chaos
       - Complex Systems & Network Science
@@ -43,12 +48,14 @@ families:
       - Artificial Life & Adaptive Systems
   - id: healthcare
     label: Healthcare & Biometrics
+    chip: Healthcare
     topics:
       - Healthcare & Clinical AI
       - Biomedical Imaging
       - Biometrics & Human Sensing
   - id: neuroscience
     label: Neuroscience & Neurotechnology
+    chip: Neuroscience
     topics:
       - Computational Neuroscience
       - EEG/MEG & Neural Signals
@@ -59,6 +66,7 @@ families:
       - Systems & Experimental Neuroscience
   - id: responsible-ai
     label: Responsible & Trustworthy AI
+    chip: Responsible AI
     topics:
       - Fairness & Responsible AI
       - Explainability & Interpretability

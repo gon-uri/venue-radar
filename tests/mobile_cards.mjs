@@ -30,10 +30,11 @@ async function checkDisclosure(row, collapsedLabels) {
   assert(await button.evaluate(button => {
     const cells = button.getAttribute('aria-controls').split(' ').map(id => document.getElementById(id));
     const box = button.getBoundingClientRect();
+    const card = button.closest('tr').getBoundingClientRect();
     return cells.length === 5 && cells.every(cell => cell?.closest('tr') === button.closest('tr')) &&
-      box.height >= 36 && box.height <= 37 && box.left >= 0 && box.right <= innerWidth &&
-      getComputedStyle(button).backgroundColor === 'rgb(255, 255, 255)';
-  }), 'Every card needs its own controlled details and a compact full-width 36px control');
+      box.height >= 44 && box.width >= 44 && box.width < 60 && box.right <= card.right && box.bottom <= card.bottom + 1 &&
+      box.left >= 0 && box.right <= innerWidth;
+  }), 'Every card needs its own controlled details and a 44px chevron in its corner (ADR-049)');
 }
 
 export async function checkMobileCards(page, url, output) {
@@ -44,7 +45,7 @@ export async function checkMobileCards(page, url, output) {
     const filters = page.locator('#filter-details');
     const summary = filters.locator(':scope > summary');
     assert(!(await filters.evaluate(details => details.open)), `Mobile filters start closed at ${width}px`);
-    assert(!(await page.locator('#search').isVisible()));
+    assert(await page.locator('#search').isVisible(), 'Search stays visible on phones (ADR-049)');
     assert(await page.locator('#clear-filters').isVisible());
     assert(await page.locator('#open-only').isChecked());
     await summary.focus();
@@ -138,7 +139,7 @@ export async function checkMobileCards(page, url, output) {
   }
   await page.setViewportSize({width: 761, height: 1000});
   await page.goto(url);
-  assert(await page.locator('#filter-details').evaluate(details => details.open), 'Desktop default starts at 761px');
+  assert(!(await page.locator('#filter-details').evaluate(details => details.open)), 'More filters starts collapsed on desktop too (ADR-049)');
   assert.equal(await page.locator('.mobile-row-disclosure:visible').count(), 0);
   assert(await page.locator('[data-filter-row]').evaluateAll(rows => rows.every(row =>
     getComputedStyle(row).marginBottom === '0px' &&

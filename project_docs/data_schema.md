@@ -164,6 +164,8 @@ behavior without approval.
 
 ## Companion Files And Stable Identity
 
+- `topic_families.yml`: each family also needs a short `chip` name (at most 18
+  characters) shown in the always-visible filter bar (ADR-049).
 - `conference_families.yml`: mandatory one-to-three central family IDs per exact
   series, not inferred from the presence of a generic ML leaf.
 - `conference_scopes.yml`: optional sourced profile, zero-to-six additional

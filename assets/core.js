@@ -362,18 +362,44 @@ function updateResultCount() {
   renderEmptyState(conferencesEmpty, !onDeadlines && visible === 0, 0);
 }
 
-// Badge on the (often collapsed) filter panel: how many restrictions apply.
-function updateFilterCount(context) {
-  let count = context.tokens.length ? 1 : 0;
-  count += filters.filter((input) => input.checked && input.dataset.filterGroup !== "topics").length;
+// Badge on the collapsed "More filters" panel: restrictions hidden inside it.
+// Search, whole families and the archival option are visible in the bar (ADR-049).
+function updateFilterCount() {
+  let count = filters.filter((input) => input.checked && !["topics", "archival"].includes(input.dataset.filterGroup)).length;
   document.querySelectorAll("[data-family-toggle]").forEach((parent) => {
-    count += parent.checked ? 1
-      : document.querySelectorAll(`[data-topic-family="${parent.dataset.familyToggle}"]:checked`).length;
+    if (!parent.checked) count += document.querySelectorAll(`[data-topic-family="${parent.dataset.familyToggle}"]:checked`).length;
   });
+  // "All selected families" only restricts anything once two or more are chosen.
+  const selectedFamilies = [...document.querySelectorAll("[data-family-toggle]")].filter((parent) =>
+    parent.checked || parent.indeterminate).length;
+  if (document.querySelector("#topic-match").value === "all" && selectedFamilies >= 2) count += 1;
   filterCount.hidden = count === 0;
   const text = `${count} active`;
   if (filterCount.textContent !== text) filterCount.textContent = text;
 }
+
+// Chips mirror the family toggles and the archival box; a family with only
+// some subtopics selected shows as partly pressed.
+const familyChips = [...document.querySelectorAll("[data-chip-family]")];
+const archivalChip = document.querySelector("[data-chip-archival]");
+const archivalInput = document.querySelector('[data-filter-group="archival"]');
+function syncChips() {
+  familyChips.forEach((chip) => {
+    const toggle = document.querySelector(`[data-family-toggle="${chip.dataset.chipFamily}"]`);
+    const state = toggle.checked ? "true" : toggle.indeterminate ? "mixed" : "false";
+    if (chip.getAttribute("aria-pressed") !== state) chip.setAttribute("aria-pressed", state);
+  });
+  const archival = String(archivalInput.checked);
+  if (archivalChip.getAttribute("aria-pressed") !== archival) archivalChip.setAttribute("aria-pressed", archival);
+}
+function pressChip(input) {
+  input.checked = !input.checked;
+  input.indeterminate = false;
+  input.dispatchEvent(new Event("change", {bubbles: true}));
+}
+familyChips.forEach((chip) => chip.addEventListener("click", () =>
+  pressChip(document.querySelector(`[data-family-toggle="${chip.dataset.chipFamily}"]`))));
+archivalChip.addEventListener("click", () => pressChip(archivalInput));
 
 function applyFilters() {
   syncTopicParents();
@@ -398,7 +424,8 @@ function applyFilters() {
     .sort((a, b) => b.dataset.conferenceStart.localeCompare(a.dataset.conferenceStart)));
   pastSection.hidden = ![...pastConferenceBody.children].some((row) => !row.hidden);
   updateResultCount();
-  updateFilterCount(context);
+  updateFilterCount();
+  syncChips();
   updateConferenceMap();
   writeUrlState();
 }
@@ -499,6 +526,10 @@ function readUrlState(force = false) {
   starredOnly.checked = params.get("starred") === "1" && starred.size > 0;
   if (params.get("tab") === "conferences") activateTab("conferences");
   else if (force) activateTab("deadlines");
+  // A shared link that uses a filter hidden in More filters opens the panel.
+  if (["size", "icore", "ccf", "acc", "topics", "match"].some((key) => params.has(key))) {
+    document.querySelector("#filter-details").open = true;
+  }
 }
 
 function writeUrlState() {
@@ -661,8 +692,7 @@ clearFilters.addEventListener("click", () => {
     try { history.replaceState(history.state, "", location.pathname + location.search); } catch (error) { /* ignore */ }
   }
   applyFilters();
-  if (document.querySelector("#filter-details").open) search.focus();
-  else clearFilters.focus();
+  search.focus();
 });
 initializeMobileCards();
 initializeCalendarMenu();

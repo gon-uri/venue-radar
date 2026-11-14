@@ -316,3 +316,58 @@ svg.lucide { fill: none; }
 @media (max-width: 760px) {
   .archival-filter { flex-direction: column; gap: 4px; }
 }
+
+/* ADR-049: content-first filters. An always-visible bar (search, family chips,
+   archival option) and a collapsed "More filters" panel for the rest. */
+.controls { grid-template-columns: minmax(0, 1fr) auto; column-gap: 16px; padding-top: 4px; }
+.quick-bar { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
+.qb-search { flex: 0 1 300px; min-width: 200px; margin: 0; }
+.qb-search input { width: 100%; min-height: 38px; }
+.qb-chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1 1 520px; min-width: 0; }
+.chip { min-height: 32px; padding: 4px 11px; border: 1px solid var(--line-strong); border-radius: 999px; background: #fff; color: var(--text); font: inherit; font-size: .8rem; font-weight: 600; white-space: nowrap; cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: #fff; }
+.chip[aria-pressed="mixed"] { border-color: var(--accent); background: #e3f0f0; color: var(--accent-dark); }
+.chip-archival { border-style: dashed; }
+.chip-archival[aria-pressed="true"] { border-style: solid; }
+.filter-details { grid-area: 2 / 1 / 3 / -1; }
+.filter-details > summary { gap: 8px; min-height: 36px; padding: 4px 2px; font-size: .9rem; max-width: none; }
+.filter-disclosure-icon { width: 12px; flex-basis: 12px; font-size: .8rem; }
+.more-hint { color: var(--muted); font-size: .82rem; font-weight: 400; }
+.clear-filters { grid-area: 2 / 2; z-index: 1; min-height: 36px; }
+@media (max-width: 760px) {
+  .qb-search { flex: 1 1 100%; }
+  .qb-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+  .qb-chips::-webkit-scrollbar { display: none; }
+  .chip { min-height: 36px; }
+  .more-hint { display: none; }
+  /* Icon-only Share and Star keep their accessible names via aria-label. */
+  .header-actions .share-button, .header-actions .star-button { min-width: 44px; min-height: 44px; padding: 0 10px; }
+  .header-actions .header-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  /* Compact cards: the archival tag sits beside the status, and More info is a
+     44px chevron in the card corner instead of a full-width bar. */
+  .status-cell { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
+  .status-cell .submission-status { order: 0; }
+  .status-cell .archival-tag { order: 1; margin-top: 0; }
+  .status-cell .next-step { order: 2; flex-basis: 100%; }
+  .status-cell .successor-link { order: 3; flex-basis: 100%; }
+  tr[data-filter-row] { position: relative; }
+  .mobile-cards-ready .mobile-row-disclosure { position: absolute; right: 2px; bottom: 2px; width: 44px; height: 44px; background: transparent; }
+  .mobile-info-toggle { width: 44px; height: 44px; min-height: 44px; padding: 0; border-radius: 8px; background: transparent; }
+  .mobile-info-toggle [data-mobile-info-label] { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+@media (min-width: 761px) and (max-width: 1320px) {
+  .qb-search { flex-basis: 220px; min-width: 180px; }
+  .chip { padding: 4px 9px; }
+}
+/* ADR-049 chevron clearance. These selectors match the ADR-040 compact-card
+   rules' specificity so they win by source order. The second row reserves
+   the chevron's width and height, so it never reaches the name/dates row. */
+@media (max-width: 760px) {
+  .mobile-cards-ready tr[data-filter-row] > td:is([data-label="Submission status"], [data-label="Location"]) { min-height: 48px; padding-right: 50px; }
+  .mobile-cards-ready tr[data-filter-row][data-mobile-expanded="true"] > td.mobile-detail:nth-last-child(2) { min-height: 48px; padding-right: 50px; }
+  .mobile-cards-ready tr[data-filter-row] > .mobile-row-disclosure { border-top: 0; }
+  /* The chip row scrolls sideways, which clips an outside focus ring. */
+  .qb-chips .chip:focus-visible { outline-offset: -4px; }
+}

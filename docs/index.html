@@ -1751,6 +1751,61 @@ svg.lucide { fill: none; }
   .archival-filter { flex-direction: column; gap: 4px; }
 }
 
+/* ADR-049: content-first filters. An always-visible bar (search, family chips,
+   archival option) and a collapsed "More filters" panel for the rest. */
+.controls { grid-template-columns: minmax(0, 1fr) auto; column-gap: 16px; padding-top: 4px; }
+.quick-bar { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
+.qb-search { flex: 0 1 300px; min-width: 200px; margin: 0; }
+.qb-search input { width: 100%; min-height: 38px; }
+.qb-chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1 1 520px; min-width: 0; }
+.chip { min-height: 32px; padding: 4px 11px; border: 1px solid var(--line-strong); border-radius: 999px; background: #fff; color: var(--text); font: inherit; font-size: .8rem; font-weight: 600; white-space: nowrap; cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: #fff; }
+.chip[aria-pressed="mixed"] { border-color: var(--accent); background: #e3f0f0; color: var(--accent-dark); }
+.chip-archival { border-style: dashed; }
+.chip-archival[aria-pressed="true"] { border-style: solid; }
+.filter-details { grid-area: 2 / 1 / 3 / -1; }
+.filter-details > summary { gap: 8px; min-height: 36px; padding: 4px 2px; font-size: .9rem; max-width: none; }
+.filter-disclosure-icon { width: 12px; flex-basis: 12px; font-size: .8rem; }
+.more-hint { color: var(--muted); font-size: .82rem; font-weight: 400; }
+.clear-filters { grid-area: 2 / 2; z-index: 1; min-height: 36px; }
+@media (max-width: 760px) {
+  .qb-search { flex: 1 1 100%; }
+  .qb-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+  .qb-chips::-webkit-scrollbar { display: none; }
+  .chip { min-height: 36px; }
+  .more-hint { display: none; }
+  /* Icon-only Share and Star keep their accessible names via aria-label. */
+  .header-actions .share-button, .header-actions .star-button { min-width: 44px; min-height: 44px; padding: 0 10px; }
+  .header-actions .header-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  /* Compact cards: the archival tag sits beside the status, and More info is a
+     44px chevron in the card corner instead of a full-width bar. */
+  .status-cell { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
+  .status-cell .submission-status { order: 0; }
+  .status-cell .archival-tag { order: 1; margin-top: 0; }
+  .status-cell .next-step { order: 2; flex-basis: 100%; }
+  .status-cell .successor-link { order: 3; flex-basis: 100%; }
+  tr[data-filter-row] { position: relative; }
+  .mobile-cards-ready .mobile-row-disclosure { position: absolute; right: 2px; bottom: 2px; width: 44px; height: 44px; background: transparent; }
+  .mobile-info-toggle { width: 44px; height: 44px; min-height: 44px; padding: 0; border-radius: 8px; background: transparent; }
+  .mobile-info-toggle [data-mobile-info-label] { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+@media (min-width: 761px) and (max-width: 1320px) {
+  .qb-search { flex-basis: 220px; min-width: 180px; }
+  .chip { padding: 4px 9px; }
+}
+/* ADR-049 chevron clearance. These selectors match the ADR-040 compact-card
+   rules' specificity so they win by source order. The second row reserves
+   the chevron's width and height, so it never reaches the name/dates row. */
+@media (max-width: 760px) {
+  .mobile-cards-ready tr[data-filter-row] > td:is([data-label="Submission status"], [data-label="Location"]) { min-height: 48px; padding-right: 50px; }
+  .mobile-cards-ready tr[data-filter-row][data-mobile-expanded="true"] > td.mobile-detail:nth-last-child(2) { min-height: 48px; padding-right: 50px; }
+  .mobile-cards-ready tr[data-filter-row] > .mobile-row-disclosure { border-top: 0; }
+  /* The chip row scrolls sideways, which clips an outside focus ring. */
+  .qb-chips .chip:focus-visible { outline-offset: -4px; }
+}
+
   </style>
   <noscript><style>
     /* Without JavaScript, show every table, date and milestone (no live status). */
@@ -1795,7 +1850,7 @@ svg.lucide { fill: none; }
   <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
   <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
 </svg>
-Share on X</a>
+<span class="header-label">Share on X</span></a>
         <a class="header-button star-button" href="https://github.com/gon-uri/venue-radar" target="_blank" rel="noopener noreferrer" title="Open Venue Radar on GitHub to star the repository"><!-- @license lucide-static v0.468.0 - ISC -->
 <svg
   class="lucide lucide-star"
@@ -1811,7 +1866,7 @@ Share on X</a>
 >
   <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
 </svg>
-Star the repo</a>
+<span class="header-label">Star the repo</span></a>
         <div class="calendar-action">
           <details class="calendar-menu" id="calendar-menu" data-site-url="https://gon-uri.github.io/venue-radar/"><summary class="calendar-button"><!-- @license lucide-static v0.468.0 - ISC -->
 <svg
@@ -1840,8 +1895,10 @@ Subscribe to calendar</summary><div class="calendar-panel"><p class="calendar-pa
     </header>
 
     <section class="controls filter-section" aria-label="Filters and search">
-    <details class="filter-details" id="filter-details" open>
-      <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>Filters &amp; search</span><span class="filter-count" id="filter-count" hidden></span></summary>
+    <h2 class="visually-hidden">Filters and search</h2>
+    <div class="quick-bar"><label class="qb-search"><span class="visually-hidden">Search</span><input id="search" type="search" autocomplete="off" placeholder="Search conferences, topics, cities"></label><div class="qb-chips" role="group" aria-label="Topic families and archival option"><button type="button" class="chip" data-chip-family="ml-ai" aria-pressed="false" title="Central conference focus: ML &amp; Data Science">ML &amp; Data</button><button type="button" class="chip" data-chip-family="language-agents-retrieval" aria-pressed="false" title="Central conference focus: NLP, Agents &amp; Retrieval">NLP &amp; Agents</button><button type="button" class="chip" data-chip-family="signals-vision" aria-pressed="false" title="Central conference focus: Vision &amp; Multimedia">Vision</button><button type="button" class="chip" data-chip-family="rl-control" aria-pressed="false" title="Central conference focus: RL, Robotics &amp; Control">RL &amp; Control</button><button type="button" class="chip" data-chip-family="dynamics-control" aria-pressed="false" title="Central conference focus: Complex Systems, Time Series &amp; Signals">Complex Systems</button><button type="button" class="chip" data-chip-family="healthcare" aria-pressed="false" title="Central conference focus: Healthcare &amp; Biometrics">Healthcare</button><button type="button" class="chip" data-chip-family="neuroscience" aria-pressed="false" title="Central conference focus: Neuroscience &amp; Neurotechnology">Neuroscience</button><button type="button" class="chip" data-chip-family="responsible-ai" aria-pressed="false" title="Central conference focus: Responsible &amp; Trustworthy AI">Responsible AI</button><button type="button" class="chip chip-archival" data-chip-archival aria-pressed="false" title="Conferences where at least one track for new papers can be published in archival proceedings or a journal (for example ACM DL, IEEE Xplore, PMLR, LNCS). Not every track is archival: check that the deadline shown belongs to an archival track. (est.) means it is based on the previous edition; the new call is not out yet.">Archival option</button></div></div>
+    <details class="filter-details" id="filter-details">
+      <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>More filters</span><span class="filter-count" id="filter-count" hidden></span><span class="more-hint">Size · ICORE · CCF · acceptance rate · subtopics</span></summary>
       <div class="filter-content">
         <div class="filter-grid">
           <fieldset class="topic-filter"><legend>Topics &amp; Subtopics</legend><div class="topic-tree"><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="ml-ai" title="Central conference focus: ML &amp; Data Science"><span>ML &amp; Data Science</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="machine-learning"><span>Machine learning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="deep-representation-learning"><span>Deep learning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="learning-theory-statistical-foundations"><span>Learning theory</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="probabilistic-causal-uncertainty-ml"><span>Probabilistic &amp; causal ML</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="federated-distributed-learning"><span>Federated &amp; distributed ML</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="evolutionary-computation-optimization"><span>Evolutionary computation</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="ml-systems-infrastructure"><span>ML systems &amp; infrastructure</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="knowledge-representation-reasoning"><span>Knowledge &amp; reasoning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="data-mining-data-science"><span>Data mining</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="language-agents-retrieval" title="Central conference focus: NLP, Agents &amp; Retrieval"><span>NLP, Agents &amp; Retrieval</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="natural-language-processing-llms"><span>NLP &amp; LLMs</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="autonomous-agents-multiagent-systems"><span>Autonomous &amp; multiagent systems</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="llm-agents-tool-use"><span>LLM agents &amp; tool use</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="information-retrieval-search"><span>Information retrieval &amp; RAG</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="recommender-systems"><span>Recommender systems</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="signals-vision" title="Central conference focus: Vision &amp; Multimedia"><span>Vision &amp; Multimedia</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="signals-vision" value="computer-vision-pattern-recognition"><span>Vision &amp; pattern recognition</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="signals-vision" value="computer-graphics-visualization"><span>Graphics &amp; visualization</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="signals-vision" value="multimedia-learning-retrieval"><span>Multimedia &amp; retrieval</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="rl-control" title="Central conference focus: RL, Robotics &amp; Control"><span>RL, Robotics &amp; Control</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="rl-control" value="reinforcement-learning"><span>Reinforcement learning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="rl-control" value="control-robotics"><span>Control &amp; robotics</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="rl-control" value="planning-search"><span>Planning &amp; search</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="dynamics-control" title="Central conference focus: Complex Systems, Time Series &amp; Signals"><span>Complex Systems, Time Series &amp; Signals</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="nonlinear-dynamics-chaos"><span>Nonlinear dynamics</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="complex-systems-network-science"><span>Complex systems &amp; networks</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="graphs-graph-learning"><span>Graphs &amp; graph learning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="system-identification-data-driven-dynamics"><span>System identification</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="time-series-sequential-data"><span>Time series</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="signal-processing"><span>Signal processing</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="artificial-life-adaptive-systems"><span>Artificial life &amp; adaptive systems</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="healthcare" title="Central conference focus: Healthcare &amp; Biometrics"><span>Healthcare &amp; Biometrics</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="healthcare" value="healthcare-clinical-ai"><span>Healthcare AI</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="healthcare" value="biomedical-imaging"><span>Biomedical imaging</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="healthcare" value="biometrics-human-sensing"><span>Biometrics &amp; human sensing</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="neuroscience" title="Central conference focus: Neuroscience &amp; Neurotechnology"><span>Neuroscience &amp; Neurotechnology</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="computational-neuroscience"><span>Computational neuroscience</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="eeg-meg-neural-signals"><span>EEG/MEG &amp; neural signals</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="bci-neurotechnology"><span>BCI &amp; neurotechnology</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="neuroimaging-brain-mapping"><span>Neuroimaging</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="cognitive-science-computational-cognition"><span>Cognitive science</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="neuromorphic-brain-inspired-computing"><span>Neuromorphic &amp; brain-inspired computing</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="systems-experimental-neuroscience"><span>Systems &amp; experimental neuroscience</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="responsible-ai" title="Central conference focus: Responsible &amp; Trustworthy AI"><span>Responsible &amp; Trustworthy AI</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="fairness-responsible-ai"><span>Fairness &amp; accountability</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="explainability-interpretability"><span>Explainability</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="ethics-governance"><span>Ethics &amp; governance</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="privacy-preserving-ml"><span>Privacy-preserving ML</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="robustness-safety"><span>Robustness &amp; safety</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="human-ai-interaction-deployment"><span>Human-AI interaction</span></label></div></details></div></fieldset>
@@ -1849,10 +1906,6 @@ Subscribe to calendar</summary><div class="calendar-panel"><p class="calendar-pa
           <fieldset class="filter-group"><legend><a href="https://portal.core.edu.au/conf-ranks/">ICORE Rank</a></legend><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="icore" value="A*"><span>A*</span></label><label class="check-option"><input type="checkbox" data-filter-group="icore" value="A"><span>A</span></label><label class="check-option"><input type="checkbox" data-filter-group="icore" value="B"><span>B</span></label><label class="check-option"><input type="checkbox" data-filter-group="icore" value="C"><span>C</span></label><label class="check-option"><input type="checkbox" data-filter-group="icore" value="Unranked"><span>Unranked</span></label></div></fieldset>
           <fieldset class="filter-group"><legend><a href="https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml">CCF Rank</a></legend><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="ccf" value="A"><span>A</span></label><label class="check-option"><input type="checkbox" data-filter-group="ccf" value="B"><span>B</span></label><label class="check-option"><input type="checkbox" data-filter-group="ccf" value="C"><span>C</span></label><label class="check-option"><input type="checkbox" data-filter-group="ccf" value="Unranked"><span>Unranked</span></label></div></fieldset>
           <fieldset class="filter-group"><legend>Acceptance rate</legend><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="acceptance" value="very-low"><span>Very low</span></label><label class="check-option"><input type="checkbox" data-filter-group="acceptance" value="low"><span>Low</span></label><label class="check-option"><input type="checkbox" data-filter-group="acceptance" value="moderate"><span>Moderate</span></label><label class="check-option"><input type="checkbox" data-filter-group="acceptance" value="high"><span>High</span></label><label class="check-option"><input type="checkbox" data-filter-group="acceptance" value="very-high"><span>Very high</span></label><label class="check-option"><input type="checkbox" data-filter-group="acceptance" value="unknown"><span>Unknown</span></label></div></fieldset>
-          <label class="search-control">
-            <span class="control-label">Search</span>
-            <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
-          </label>
         </div>
         <div class="archival-filter"><label class="check-option"><input type="checkbox" data-filter-group="archival" value="1"><span>Archival option</span></label><p class="archival-note">Conferences where at least one track for new papers can be published in archival proceedings or a journal (for example ACM DL, IEEE Xplore, PMLR, LNCS). Not every track is archival: check that the deadline shown belongs to an archival track. (est.) means it is based on the previous edition; the new call is not out yet.</p></div>
         <div class="filter-actions">
@@ -1860,7 +1913,6 @@ Subscribe to calendar</summary><div class="calendar-panel"><p class="calendar-pa
         </div>
       </div>
     </details>
-    <script>document.querySelector('#filter-details').open = !matchMedia('(max-width: 760px)').matches;</script>
     <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
     </section>
 
@@ -3364,18 +3416,44 @@ function updateResultCount() {
   renderEmptyState(conferencesEmpty, !onDeadlines && visible === 0, 0);
 }
 
-// Badge on the (often collapsed) filter panel: how many restrictions apply.
-function updateFilterCount(context) {
-  let count = context.tokens.length ? 1 : 0;
-  count += filters.filter((input) => input.checked && input.dataset.filterGroup !== "topics").length;
+// Badge on the collapsed "More filters" panel: restrictions hidden inside it.
+// Search, whole families and the archival option are visible in the bar (ADR-049).
+function updateFilterCount() {
+  let count = filters.filter((input) => input.checked && !["topics", "archival"].includes(input.dataset.filterGroup)).length;
   document.querySelectorAll("[data-family-toggle]").forEach((parent) => {
-    count += parent.checked ? 1
-      : document.querySelectorAll(`[data-topic-family="${parent.dataset.familyToggle}"]:checked`).length;
+    if (!parent.checked) count += document.querySelectorAll(`[data-topic-family="${parent.dataset.familyToggle}"]:checked`).length;
   });
+  // "All selected families" only restricts anything once two or more are chosen.
+  const selectedFamilies = [...document.querySelectorAll("[data-family-toggle]")].filter((parent) =>
+    parent.checked || parent.indeterminate).length;
+  if (document.querySelector("#topic-match").value === "all" && selectedFamilies >= 2) count += 1;
   filterCount.hidden = count === 0;
   const text = `${count} active`;
   if (filterCount.textContent !== text) filterCount.textContent = text;
 }
+
+// Chips mirror the family toggles and the archival box; a family with only
+// some subtopics selected shows as partly pressed.
+const familyChips = [...document.querySelectorAll("[data-chip-family]")];
+const archivalChip = document.querySelector("[data-chip-archival]");
+const archivalInput = document.querySelector('[data-filter-group="archival"]');
+function syncChips() {
+  familyChips.forEach((chip) => {
+    const toggle = document.querySelector(`[data-family-toggle="${chip.dataset.chipFamily}"]`);
+    const state = toggle.checked ? "true" : toggle.indeterminate ? "mixed" : "false";
+    if (chip.getAttribute("aria-pressed") !== state) chip.setAttribute("aria-pressed", state);
+  });
+  const archival = String(archivalInput.checked);
+  if (archivalChip.getAttribute("aria-pressed") !== archival) archivalChip.setAttribute("aria-pressed", archival);
+}
+function pressChip(input) {
+  input.checked = !input.checked;
+  input.indeterminate = false;
+  input.dispatchEvent(new Event("change", {bubbles: true}));
+}
+familyChips.forEach((chip) => chip.addEventListener("click", () =>
+  pressChip(document.querySelector(`[data-family-toggle="${chip.dataset.chipFamily}"]`))));
+archivalChip.addEventListener("click", () => pressChip(archivalInput));
 
 function applyFilters() {
   syncTopicParents();
@@ -3400,7 +3478,8 @@ function applyFilters() {
     .sort((a, b) => b.dataset.conferenceStart.localeCompare(a.dataset.conferenceStart)));
   pastSection.hidden = ![...pastConferenceBody.children].some((row) => !row.hidden);
   updateResultCount();
-  updateFilterCount(context);
+  updateFilterCount();
+  syncChips();
   updateConferenceMap();
   writeUrlState();
 }
@@ -3501,6 +3580,10 @@ function readUrlState(force = false) {
   starredOnly.checked = params.get("starred") === "1" && starred.size > 0;
   if (params.get("tab") === "conferences") activateTab("conferences");
   else if (force) activateTab("deadlines");
+  // A shared link that uses a filter hidden in More filters opens the panel.
+  if (["size", "icore", "ccf", "acc", "topics", "match"].some((key) => params.has(key))) {
+    document.querySelector("#filter-details").open = true;
+  }
 }
 
 function writeUrlState() {
@@ -3663,8 +3746,7 @@ clearFilters.addEventListener("click", () => {
     try { history.replaceState(history.state, "", location.pathname + location.search); } catch (error) { /* ignore */ }
   }
   applyFilters();
-  if (document.querySelector("#filter-details").open) search.focus();
-  else clearFilters.focus();
+  search.focus();
 });
 initializeMobileCards();
 initializeCalendarMenu();

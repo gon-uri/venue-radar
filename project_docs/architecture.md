@@ -34,7 +34,7 @@ backend. No calendar/ranking/filter feature depends on it.
 | --- | --- |
 | `data/conferences.yml` | Edition identities, meeting dates, milestones, evidence, confidence, main display topics. |
 | `data/topics.yml` | Stable controlled leaf vocabulary. |
-| `data/topic_families.yml` | Eight-family IDs/names/order, leaf ownership and compact display labels. |
+| `data/topic_families.yml` | Eight-family IDs/names/order, short `chip` names for the filter bar (ADR-049), leaf ownership and compact display labels. |
 | `data/conference_families.yml` | One-to-three central family identities per exact series. |
 | `data/conference_scopes.yml` | Sourced series prose, curated extra leaves and independent review date/year. |
 | `data/cities.yml` | Exact location aliases, approximate city centers and each city's IANA time zone (`tz`). |
@@ -149,7 +149,9 @@ identities. Topic slugs and Giscus IDs/mapping are similarly durable.
 - Mobile is up to 760px: compact cards put the name and countdown (or dates)
   on the first row with status and next step below, plus independent More info
   disclosures. Desktop keeps all columns under a sticky header, with topics on
-  one wrapped line. Filters start collapsed only on mobile. Resizing
+  one wrapped line. Search and the family/archival chips stay visible; "More
+  filters" starts collapsed at every width unless the link uses one of its
+  filters (ADR-049). Resizing
   preserves the user's disclosure choices; no-JS retains full metadata access.
 - Abstract-only publication formats use existing milestone/status wording and
   documented notes (ADR-036). The archival option tag and filter (ADR-047)

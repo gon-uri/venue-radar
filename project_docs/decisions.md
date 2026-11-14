@@ -20,8 +20,8 @@ explicit refinements take precedence. Current rules live in
 | Submission action/status/countdown/ordering | ADR-032 refines ADR-013 and supersedes the relevant parts of ADR-016 |
 | Offline confirmed-city map | ADR-021; tab naming refined by ADR-034 |
 | Brand, licensing, copy and community | ADR-022/023/026/034; ADR-041 (README showcase, dark banner and the current subtitle; refines ADR-034) |
-| Filters and default opportunities | ADR-025/033; responsive defaults refined by ADR-035 |
-| Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line |
+| Filters and default opportunities | ADR-025/033; responsive defaults refined by ADR-035; ADR-049 adds the always-visible bar (search, family and archival chips) and a collapsed More filters panel at all widths |
+| Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line; ADR-049 replaces the full-width More info bar with a 44px corner chevron and puts the archival tag beside the status |
 | Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
 | Conflicting cutoffs, date-only countdowns, deep links, starring, compact cards, code layout | ADR-040 (refines ADR-024, ADR-027's MLSys choice, ADR-035 and ADR-039) |
 | Archival option tag and filter (publication UI) | ADR-047 (refines ADR-036's "Add no publication UI" for this tag and filter only) |
@@ -1109,3 +1109,56 @@ explicit refinements take precedence. Current rules live in
   (loses cited history); a blocking size check (the hard limit already fails
   the tests); putting counts in the issue title (would break the workflow's
   lookup by title).
+
+## ADR-049: Content-First Filters And Compact Phone Cards
+
+- Status: Accepted by the owner on 2026-11-14 ("Build it as shown", from
+  rendered before/after mockups at 1440x900, 1280x720 and 390x844).
+- Date: 2026-11-14
+- Context: With Filters & search open by default above 760px (the 2026-10-07
+  refinement of ADR-033/035), no deadline row was visible at 1440x900 or
+  1280x720; the first row started at 836px. Phone cards had a median height
+  of about 202px, so one card fit per screen. Search was hidden inside the
+  collapsed panel on phones.
+- Decision:
+  1. An always-visible bar holds Search (placeholder "Search conferences,
+     topics, cities"), eight family chips and an "Archival option" chip.
+     Chip names come from a new required `chip` field in
+     `data/topic_families.yml` (validated, at most 18 characters). Each chip
+     mirrors an existing control (the family toggle or the archival box) and
+     shows `aria-pressed` true, false or mixed (some subtopics selected). The
+     URL keys, filter logic and Clear filters are unchanged.
+  2. The former panel becomes "More filters" (hint: "Size · ICORE · CCF ·
+     acceptance rate · subtopics"). It starts collapsed at every width and
+     opens automatically when the link carries `size`, `icore`, `ccf`, `acc`,
+     `topics` or `match`. Its badge counts only restrictions hidden inside
+     it. The archival description stays visible inside it, and it is the
+     archival chip's tooltip. Clear filters returns focus to search.
+  3. Phones (760px and below): Share and Star become icon-only buttons with
+     44px targets, keeping their accessible names. The archival tag sits
+     beside the status. The full-width More info bar becomes a 44px chevron
+     in the card corner, with the same aria-expanded/aria-controls behavior.
+- Consequences: Measured with the clock frozen at 2026-11-14:
+  - 1440x900: from 0 to 5 full deadline rows visible.
+  - 1280x720: from 0 to 3.
+  - Phone cards: median height from 202px to 144px.
+  - Phones: search is always visible. The first card starts about 40px lower
+    than before, because the search box is now shown.
+  - The chips fit on one line from 1280px; they wrap on tablets and scroll
+    sideways on phones.
+  - No data, feed, URL key or UID changes. This supersedes the 2026-10-07
+    "filters open by default above 760px" refinement and refines ADR-034's
+    mobile header and ADR-035's mobile disclosure control.
+- Review fixes (2026-11-14, independent accessibility and behavior review):
+  - The second card row now reserves the chevron's width and height. A less
+    specific rule had lost to ADR-040's compact-card padding, which let status
+    text and the Dates-cell archival tag run under the chevron.
+  - Phone chips draw their focus ring inside, because the sideways-scrolling
+    chip row clipped the outer ring.
+  - "All selected families" counts in the badge only when two or more
+    families are chosen.
+  - `tests/filter_bar.mjs` checks for chevron overlap on both tabs at 320,
+    390 and 760px.
+- Alternatives considered: keeping the panel open with less vertical space
+  (still no rows at 1280x720); hiding search on phones (the slowest route to a
+  venue); a separate chip filter state (two sources of truth).

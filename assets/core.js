@@ -102,8 +102,18 @@ function selectedValues(group) {
 }
 
 // Computed once per pass instead of once per row.
+// Time-range buttons (ADR-051). 0 means Any; only deadline rows are limited.
+const withinButtons = [...document.querySelectorAll("[data-within]")];
+let withinDays = 0;
+function setWithin(days) {
+  withinDays = WITHIN_DAYS.includes(days) ? days : 0;
+  withinButtons.forEach((button) => button.setAttribute("aria-pressed", String(Number(button.dataset.within) === withinDays)));
+}
+
 function filterContext() {
   return {
+    within: withinDays,
+    now: Date.now(),
     tokens: normalizeSearch(search.value).split(" ").filter(Boolean),
     groups: metadataGroups.map((group) => [group, new Set(selectedValues(group))])
       .filter(([, values]) => values.size),
@@ -117,7 +127,16 @@ function rowMatchesFilters(row, context = filterContext()) {
   return matchesSearch(cache.haystack, context.tokens)
     && context.groups.every(([group, values]) => [...cache.groups[group]].some((value) => values.has(value)))
     && venueTopicMatch(row, context.topics, cache)
-    && (!context.starredOnly || starred.has(row.dataset.seriesSlug));
+    && (!context.starredOnly || starred.has(row.dataset.seriesSlug))
+    && passesWithin(row, context);
+}
+
+// A range keeps deadline rows whose next submission action falls inside it;
+// closed or unannounced rows have none, so a range hides them too.
+function passesWithin(row, context) {
+  if (!context.within || !row.hasAttribute("data-deadline-group")) return true;
+  const state = stateByRow.get(row);
+  return eligibleKinds.includes(state?.kind) && withinWindow(state.milestone?.time, context.now, context.within);
 }
 
 function passesOpenOnly(row) {
@@ -441,6 +460,7 @@ function activateTab(tabId) {
   });
   updateResultCount();
   openOnly.closest("label").hidden = tabId !== "deadlines";
+  document.querySelector(".horizon").hidden = tabId !== "deadlines";
   updateConferenceMap();
   if (typeof writeUrlState === "function") writeUrlState();
 }
@@ -501,7 +521,7 @@ document.querySelectorAll("[data-successor-link]").forEach((link) => {
 
 // ---- Shareable state (ADR-040): filters in the query string, rows in the hash.
 const urlGroups = { size: "size", icore: "icore", ccf: "ccf", acc: "acceptance", archival: "archival" };
-const ownedParams = new Set(["q", "families", "topics", ...Object.keys(urlGroups), "match", "all", "starred", "tab"]);
+const ownedParams = new Set(["q", "families", "topics", ...Object.keys(urlGroups), "match", "all", "starred", "tab", "within"]);
 const siteUrl = document.querySelector("#calendar-menu")?.dataset.siteUrl || location.href.split(/[?#]/)[0];
 
 function readUrlState(force = false) {
@@ -524,6 +544,9 @@ function readUrlState(force = false) {
   openOnly.checked = params.get("all") !== "1";
   // Stars live in this browser; a shared ?starred=1 would otherwise show nothing.
   starredOnly.checked = params.get("starred") === "1" && starred.size > 0;
+  // Only the exact link values count; anything else (090, +90, 0x1e) means Any.
+  const within = params.get("within");
+  setWithin(WITHIN_DAYS.map(String).includes(within) ? Number(within) : 0);
   if (params.get("tab") === "conferences") activateTab("conferences");
   else if (force) activateTab("deadlines");
   // A shared link that uses a filter hidden in More filters opens the panel.
@@ -550,6 +573,7 @@ function writeUrlState() {
   if (document.querySelector("#topic-match").value === "all") params.set("match", "all");
   if (!openOnly.checked) params.set("all", "1");
   if (document.querySelector("#starred-only")?.checked) params.set("starred", "1");
+  if (withinDays) params.set("within", String(withinDays));
   const activeTab = document.querySelector('[role="tab"][aria-selected="true"]')?.dataset.tabTarget;
   if (activeTab === "conferences") params.set("tab", "conferences");
   const text = params.toString().replace(/%2C/g, ",");
@@ -621,6 +645,7 @@ function followHash() {
     search.value = "";
     filters.forEach((input) => { input.checked = false; });
     starredOnly.checked = false;
+    setWithin(0);
     if (onDeadlines && !eligibleKinds.includes(stateByRow.get(target)?.kind)) openOnly.checked = false;
     renderStars();
     applyFilters();
@@ -682,7 +707,12 @@ document.querySelectorAll("[data-family-toggle]").forEach((input) => input.addEv
 document.querySelector("#topic-match").addEventListener("change", applyFilters);
 openOnly.addEventListener("change", applyFilters);
 showHidden.addEventListener("click", showClosedAndUnannounced);
+withinButtons.forEach((button) => button.addEventListener("click", () => {
+  setWithin(Number(button.dataset.within));
+  applyFilters();
+}));
 clearFilters.addEventListener("click", () => {
+  setWithin(0);
   search.value = "";
   filters.forEach((input) => { input.checked = false; });
   openOnly.checked = false;

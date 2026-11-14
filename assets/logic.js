@@ -20,6 +20,14 @@ const plural = (count, unit) => `${count} ${unit}${count === 1 ? "" : "s"}`;
 
 // Estimated dates are proxies, so they get one coarse unit instead of a
 // spuriously exact "616d 14h" (ADR-044).
+// Time-range buttons (ADR-051): the allowed "within" values in days, and
+// whether a next-action instant falls inside the chosen window. 0 means Any.
+const WITHIN_DAYS = [30, 90, 180];
+function withinWindow(time, now, days) {
+  if (!days) return true;
+  return Number.isFinite(time) && time <= now + days * DAY_MS;
+}
+
 function coarseRemaining(diff) {
   const days = Math.floor(diff / DAY_MS);
   if (days < 1) return plural(Math.max(1, Math.round(diff / HOUR_MS)), "hour");

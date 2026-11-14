@@ -1019,7 +1019,7 @@ def build_site(
     .evidence-line {{ display: flex !important; }}
     .about-venue {{ display: block !important; }}
     .status-guide-live {{ display: none !important; }}
-    .table-tabs, .open-toggle, .toolbar-actions, .filter-section, .map-section,
+    .table-tabs, .open-toggle, .horizon, .toolbar-actions, .filter-section, .map-section,
     .deadline-toggle, .calendar-menu > .calendar-panel .feed-picker, [data-copy-feed] {{ display: none !important; }}
     #panel-deadlines col:nth-child(2), #panel-deadlines col:nth-child(3),
     #panel-deadlines th:nth-child(2), #panel-deadlines th:nth-child(3),
@@ -1076,6 +1076,13 @@ def build_site(
           <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Conferences &amp; Map</button>
         </div>
         <label class="open-toggle"><input id="open-only" type="checkbox" checked>Show submission options only</label>
+        <div class="horizon" role="group" aria-label="Next submission step due within">
+          <span class="horizon-label" aria-hidden="true">Due within</span>
+          <button type="button" data-within="30" aria-pressed="false">30 days</button>
+          <button type="button" data-within="90" aria-pressed="false">90 days</button>
+          <button type="button" data-within="180" aria-pressed="false">6 months</button>
+          <button type="button" data-within="0" aria-pressed="true">Any</button>
+        </div>
         <label class="starred-toggle" hidden><input id="starred-only" type="checkbox">Starred only <span data-starred-count></span></label>
         <div class="toolbar-actions">
           <span id="result-count" aria-live="polite"></span>

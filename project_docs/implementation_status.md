@@ -49,6 +49,9 @@ additions, not from an older session entry or a filtered website screenshot.
   on one row, with the status, archival tag and next step below, and a 44px
   chevron that expands More info. Expanded rows show the archival track and a
   closed "About this venue" toggle with the sourced scope summary (ADR-050).
+  "Due within" buttons (30 days, 90 days, 6 months, Any) limit Upcoming
+  Deadlines to submission steps due in that window, kept as `within=` in the
+  link (ADR-051).
   Desktop tables stay complete
   under a sticky header. Disclosure state survives filters/tabs/resizing; no-JS keeps
   full metadata accessible. Mobile visual refinement is covered by ADR-035.

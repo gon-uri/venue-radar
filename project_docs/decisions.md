@@ -20,7 +20,7 @@ explicit refinements take precedence. Current rules live in
 | Submission action/status/countdown/ordering | ADR-032 refines ADR-013 and supersedes the relevant parts of ADR-016 |
 | Offline confirmed-city map | ADR-021; tab naming refined by ADR-034 |
 | Brand, licensing, copy and community | ADR-022/023/026/034; ADR-041 (README showcase, dark banner and the current subtitle; refines ADR-034) |
-| Filters and default opportunities | ADR-025/033; responsive defaults refined by ADR-035; ADR-049 adds the always-visible bar (search, family and archival chips) and a collapsed More filters panel at all widths |
+| Filters and default opportunities | ADR-025/033; responsive defaults refined by ADR-035; ADR-049 adds the always-visible bar (search, family and archival chips) and a collapsed More filters panel at all widths; ADR-051 adds "Due within" time-range buttons |
 | Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement; ADR-039 adds the mobile next-step line; ADR-049 replaces the full-width More info bar with a 44px corner chevron and puts the archival tag beside the status |
 | Cutoff clocks, subscriptions, successors, search and empty states | ADR-039 (refines ADR-017, ADR-024 display and ADR-034's header action) |
 | Conflicting cutoffs, date-only countdowns, deep links, starring, compact cards, code layout | ADR-040 (refines ADR-024, ADR-027's MLSys choice, ADR-035 and ADR-039) |
@@ -1191,3 +1191,42 @@ explicit refinements take precedence. Current rules live in
 - Alternatives considered: showing the summary open (long on phones);
   putting the archival line behind the toggle too (it answers "will it count?"
   and is short); a left arrow (the owner preferred a right-side indicator).
+
+## ADR-051: "Due Within" Time-Range Buttons
+
+- Status: Accepted by the owner on 2026-11-14 ("Build them", from rendered
+  mockups).
+- Date: 2026-11-14
+- Context: The default Upcoming Deadlines view lists about 150 editions. Most
+  are estimates a year or more away, so "where can I submit in the next few
+  months?" meant scrolling past them. The roadmap listed deadline-window
+  planning filters as a later idea.
+- Decision:
+  1. Beside "Show submission options only", a labelled group "Due within"
+     offers 30 days, 90 days, 6 months (180 days) and Any (the default). It is
+     shown on Upcoming Deadlines only.
+  2. A range keeps a deadline row only when its next eligible submission
+     action (the same one the status and countdown use, including mandatory
+     gates and estimates) is due within the window, ending at the instant
+     exactly N days from now. Rows with no upcoming submission action are
+     hidden while a range is active, so "Show N closed or unannounced" is not
+     offered then.
+  3. The link keeps `within=30|90|180`; any other value means Any. Clear
+     filters and a deep link to a hidden row reset it to Any. It is a visible
+     control, so the More filters badge does not count it.
+  4. Layout: one toolbar line at 1280px and wider. From 761 to 1439px the
+     result count stacks above its link. The hidden "Show N closed" link keeps
+     its space (invisible and not focusable), so choosing a range never moves
+     the table. On phones the label sits above the
+     four buttons, which share one row of targets at least 36px tall.
+- Consequences: On 2026-11-14 the ranges show 18 (30 days), 51 (90 days) and
+  99 (6 months) of the 151 open options. No data, feed or UID changes. Pure
+  helper `withinWindow`, with unit tests and `tests/horizon.mjs`.
+- Review fixes (2026-11-14, independent review): only the exact link values
+  count (`090`, `+90` and `0x1e` mean Any); the buttons are hidden without
+  JavaScript like the other script-only controls; the table jump at
+  1321-1439px and on tablets is removed. `tests/horizon.mjs` covers each.
+- Alternatives considered: an "after date" bound for rejection planning
+  (deferred until more notification dates are stored); month dividers in the
+  list; applying ranges to the Conferences tab (it is ordered by meeting
+  date, not by deadline).

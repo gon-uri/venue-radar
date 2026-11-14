@@ -11,6 +11,7 @@ import {checkMoreFeatures} from './venue_more.mjs';
 import {checkArchivalOption} from './archival_option.mjs';
 import {checkFilterBar} from './filter_bar.mjs';
 import {checkAboutVenue} from './about_venue.mjs';
+import {checkHorizon} from './horizon.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -598,6 +599,7 @@ try {
   await checkArchivalOption(page, url);
   await checkFilterBar(page, url);
   await checkAboutVenue(page, url);
+  await checkHorizon(page, url);
   assert.deepEqual(fontRequests, [], 'The title font must not require a network request');
   assert.deepEqual(errors, []);
   console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);

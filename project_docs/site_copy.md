@@ -137,3 +137,8 @@ Approved with ADR-040:
 - Disclosure label: "About this venue" with a right-side + (− when open). It
   holds the sourced scope summary, plus "(from the <year> call)" when the
   profile comes from an earlier edition.
+
+## Time-Range Buttons (ADR-051, approved 2026-11-14)
+
+- Group label: "Due within" (accessible name "Next submission step due within").
+- Buttons: "30 days", "90 days", "6 months", "Any" (default).

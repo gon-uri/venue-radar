@@ -391,3 +391,27 @@ svg.lucide { fill: none; }
 .about-details > summary::after { content: "+"; display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border: 1px solid #9cc3c4; border-radius: 4px; color: var(--accent-dark); font-size: .8rem; font-weight: 700; line-height: 1; }
 .about-details[open] > summary::after { content: "\2212"; }
 .about-details > summary:hover::after { border-color: var(--accent); background: #e3f0f0; }
+
+/* ADR-051: time-range buttons beside "Show submission options only". */
+.horizon { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 5px; font-size: .82rem; }
+.horizon[hidden] { display: none; }
+.horizon-label { margin-right: 2px; color: var(--muted); }
+.horizon button { min-height: 30px; padding: 3px 10px; border: 1px solid var(--line-strong); border-radius: 999px; background: #fff; color: var(--text); font: inherit; font-weight: 600; white-space: nowrap; cursor: pointer; }
+.horizon button:hover { border-color: var(--accent); }
+.horizon button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.horizon button[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: #fff; }
+@media (max-width: 760px) {
+  .horizon { flex: 1 1 100%; }
+  .horizon-label { flex-basis: 100%; }
+  .horizon button { min-height: 36px; padding: 4px 10px; }
+}
+/* Keep the link's space while it is hidden, so choosing a range never moves
+   the table under the pointer; a hidden link is still not focusable. */
+#show-hidden[hidden] { display: inline-block !important; visibility: hidden; }  /* beats the global [hidden] rule by specificity */
+@media (min-width: 761px) and (max-width: 1439px) {
+  .tab-toolbar { gap: 12px; }
+  .horizon { gap: 4px; }
+  .horizon button { padding: 3px 8px; }
+  /* Stack the count above "Show N closed..." so one toolbar line still fits. */
+  .toolbar-actions { flex-direction: column; align-items: flex-end; gap: 0; }
+}

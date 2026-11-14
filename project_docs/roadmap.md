@@ -148,8 +148,8 @@ below are history, not instructions to reimplement old designs.
   and URL state, evidence lines with a correction form, starred series, a
   status guide, link previews, host-zone day-only cutoffs, conflicting-cutoff
   notes and the client-code split.
-- Later ideas, not approved: dark mode, deadline-window planning filters, an
-  extensions field, CITATION.cff and month dividers in long tables.
+- Later ideas, not approved: dark mode, an extensions field, CITATION.cff and
+  month dividers in long tables. (Deadline-window filters shipped as ADR-051.)
 
 ### Conference Ranking Column
 
@@ -259,7 +259,8 @@ below are history, not instructions to reimplement old designs.
   planners and ranked by two judges.
 - Status: items 1 and 2 approved and built on 2026-11-14 as ADR-049; item 4
   approved and built the same day as ADR-050, with the summary behind a
-  click. Item 3 (time-range buttons) was mocked up and still awaits approval.
+  click. Item 3 approved and built the same day as ADR-051. The batch is
+  complete.
 - Proposed items, each needing owner approval of wording or layout:
   1. (Done, ADR-049) Content-first desktop layout: a compact always-visible bar with Search,
      family chips and the Archival toggle, plus a "More filters (n)" disclosure,
@@ -270,7 +271,7 @@ below are history, not instructions to reimplement old designs.
      chevron in the title row instead of the full-width More info bar. Search
      sits above the tabs on phones. Median card is 193 px today (1 per
      screen), target about 130 px.
-  3. Planning horizon chips beside "Show submission options only": 30 days,
+  3. (Done, ADR-051) Planning horizon chips beside "Show submission options only": 30 days,
      90 days, 6 months, Any (default Any; `within=` in the link). This moves
      the roadmap's deadline-window idea into scope.
   4. (Done, ADR-050) "About this venue" in the expanded row: the sourced scope summary and the

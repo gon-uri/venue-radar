@@ -8,8 +8,8 @@ import vm from 'node:vm';
 
 const source = readFileSync(new URL('../../assets/logic.js', import.meta.url), 'utf8');
 const context = vm.createContext({Intl, Date});
-vm.runInContext(`${source}\nthis.api = {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState};`, context);
-const {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState} = context.api;
+vm.runInContext(`${source}\nthis.api = {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState, withinWindow, WITHIN_DAYS};`, context);
+const {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState, withinWindow, WITHIN_DAYS} = context.api;
 const TYPES = new Set(['abstract', 'discussion_paper', 'extended_abstract', 'full_paper', 'journal_paper',
   'late_abstract', 'poster', 'regular_paper', 'resource_paper', 'short_paper', 'special_session_paper', 'workshop_paper']);
 
@@ -113,4 +113,15 @@ test('meeting start and end close every route', () => {
   const details = [paper()];
   assert.equal(computeSubmissionState(details, '2026-10-01', '2026-10-09', 'confirmed', now, TYPES).kind, 'ongoing');
   assert.equal(computeSubmissionState(details, '2026-09-01', '2026-09-03', 'confirmed', now, TYPES).kind, 'past');
+});
+
+test('time-range window includes its last instant and nothing without a time (ADR-051)', () => {
+  const now = Date.parse('2026-11-14T12:00:00Z');
+  const day = 24 * 60 * 60 * 1000;
+  assert.deepEqual([...WITHIN_DAYS], [30, 90, 180]);
+  assert.equal(withinWindow(now + 30 * day, now, 30), true, 'exactly at the horizon is inside');
+  assert.equal(withinWindow(now + 30 * day + 1, now, 30), false);
+  assert.equal(withinWindow(now + 400 * day, now, 0), true, '0 means Any');
+  assert.equal(withinWindow(undefined, now, 90), false, 'no next action, no match');
+  assert.equal(withinWindow(NaN, now, 0), true);
 });

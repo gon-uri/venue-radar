@@ -1826,6 +1826,30 @@ svg.lucide { fill: none; }
 .about-details[open] > summary::after { content: "\2212"; }
 .about-details > summary:hover::after { border-color: var(--accent); background: #e3f0f0; }
 
+/* ADR-051: time-range buttons beside "Show submission options only". */
+.horizon { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 5px; font-size: .82rem; }
+.horizon[hidden] { display: none; }
+.horizon-label { margin-right: 2px; color: var(--muted); }
+.horizon button { min-height: 30px; padding: 3px 10px; border: 1px solid var(--line-strong); border-radius: 999px; background: #fff; color: var(--text); font: inherit; font-weight: 600; white-space: nowrap; cursor: pointer; }
+.horizon button:hover { border-color: var(--accent); }
+.horizon button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.horizon button[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: #fff; }
+@media (max-width: 760px) {
+  .horizon { flex: 1 1 100%; }
+  .horizon-label { flex-basis: 100%; }
+  .horizon button { min-height: 36px; padding: 4px 10px; }
+}
+/* Keep the link's space while it is hidden, so choosing a range never moves
+   the table under the pointer; a hidden link is still not focusable. */
+#show-hidden[hidden] { display: inline-block !important; visibility: hidden; }  /* beats the global [hidden] rule by specificity */
+@media (min-width: 761px) and (max-width: 1439px) {
+  .tab-toolbar { gap: 12px; }
+  .horizon { gap: 4px; }
+  .horizon button { padding: 3px 8px; }
+  /* Stack the count above "Show N closed..." so one toolbar line still fits. */
+  .toolbar-actions { flex-direction: column; align-items: flex-end; gap: 0; }
+}
+
   </style>
   <noscript><style>
     /* Without JavaScript, show every table, date and milestone (no live status). */
@@ -1834,7 +1858,7 @@ svg.lucide { fill: none; }
     .evidence-line { display: flex !important; }
     .about-venue { display: block !important; }
     .status-guide-live { display: none !important; }
-    .table-tabs, .open-toggle, .toolbar-actions, .filter-section, .map-section,
+    .table-tabs, .open-toggle, .horizon, .toolbar-actions, .filter-section, .map-section,
     .deadline-toggle, .calendar-menu > .calendar-panel .feed-picker, [data-copy-feed] { display: none !important; }
     #panel-deadlines col:nth-child(2), #panel-deadlines col:nth-child(3),
     #panel-deadlines th:nth-child(2), #panel-deadlines th:nth-child(3),
@@ -1945,6 +1969,13 @@ Subscribe to calendar</summary><div class="calendar-panel"><p class="calendar-pa
           <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Conferences &amp; Map</button>
         </div>
         <label class="open-toggle"><input id="open-only" type="checkbox" checked>Show submission options only</label>
+        <div class="horizon" role="group" aria-label="Next submission step due within">
+          <span class="horizon-label" aria-hidden="true">Due within</span>
+          <button type="button" data-within="30" aria-pressed="false">30 days</button>
+          <button type="button" data-within="90" aria-pressed="false">90 days</button>
+          <button type="button" data-within="180" aria-pressed="false">6 months</button>
+          <button type="button" data-within="0" aria-pressed="true">Any</button>
+        </div>
         <label class="starred-toggle" hidden><input id="starred-only" type="checkbox">Starred only <span data-starred-count></span></label>
         <div class="toolbar-actions">
           <span id="result-count" aria-live="polite"></span>
@@ -2947,6 +2978,14 @@ const plural = (count, unit) => `${count} ${unit}${count === 1 ? "" : "s"}`;
 
 // Estimated dates are proxies, so they get one coarse unit instead of a
 // spuriously exact "616d 14h" (ADR-044).
+// Time-range buttons (ADR-051): the allowed "within" values in days, and
+// whether a next-action instant falls inside the chosen window. 0 means Any.
+const WITHIN_DAYS = [30, 90, 180];
+function withinWindow(time, now, days) {
+  if (!days) return true;
+  return Number.isFinite(time) && time <= now + days * DAY_MS;
+}
+
 function coarseRemaining(diff) {
   const days = Math.floor(diff / DAY_MS);
   if (days < 1) return plural(Math.max(1, Math.round(diff / HOUR_MS)), "hour");
@@ -3177,8 +3216,18 @@ function selectedValues(group) {
 }
 
 // Computed once per pass instead of once per row.
+// Time-range buttons (ADR-051). 0 means Any; only deadline rows are limited.
+const withinButtons = [...document.querySelectorAll("[data-within]")];
+let withinDays = 0;
+function setWithin(days) {
+  withinDays = WITHIN_DAYS.includes(days) ? days : 0;
+  withinButtons.forEach((button) => button.setAttribute("aria-pressed", String(Number(button.dataset.within) === withinDays)));
+}
+
 function filterContext() {
   return {
+    within: withinDays,
+    now: Date.now(),
     tokens: normalizeSearch(search.value).split(" ").filter(Boolean),
     groups: metadataGroups.map((group) => [group, new Set(selectedValues(group))])
       .filter(([, values]) => values.size),
@@ -3192,7 +3241,16 @@ function rowMatchesFilters(row, context = filterContext()) {
   return matchesSearch(cache.haystack, context.tokens)
     && context.groups.every(([group, values]) => [...cache.groups[group]].some((value) => values.has(value)))
     && venueTopicMatch(row, context.topics, cache)
-    && (!context.starredOnly || starred.has(row.dataset.seriesSlug));
+    && (!context.starredOnly || starred.has(row.dataset.seriesSlug))
+    && passesWithin(row, context);
+}
+
+// A range keeps deadline rows whose next submission action falls inside it;
+// closed or unannounced rows have none, so a range hides them too.
+function passesWithin(row, context) {
+  if (!context.within || !row.hasAttribute("data-deadline-group")) return true;
+  const state = stateByRow.get(row);
+  return eligibleKinds.includes(state?.kind) && withinWindow(state.milestone?.time, context.now, context.within);
 }
 
 function passesOpenOnly(row) {
@@ -3516,6 +3574,7 @@ function activateTab(tabId) {
   });
   updateResultCount();
   openOnly.closest("label").hidden = tabId !== "deadlines";
+  document.querySelector(".horizon").hidden = tabId !== "deadlines";
   updateConferenceMap();
   if (typeof writeUrlState === "function") writeUrlState();
 }
@@ -3576,7 +3635,7 @@ document.querySelectorAll("[data-successor-link]").forEach((link) => {
 
 // ---- Shareable state (ADR-040): filters in the query string, rows in the hash.
 const urlGroups = { size: "size", icore: "icore", ccf: "ccf", acc: "acceptance", archival: "archival" };
-const ownedParams = new Set(["q", "families", "topics", ...Object.keys(urlGroups), "match", "all", "starred", "tab"]);
+const ownedParams = new Set(["q", "families", "topics", ...Object.keys(urlGroups), "match", "all", "starred", "tab", "within"]);
 const siteUrl = document.querySelector("#calendar-menu")?.dataset.siteUrl || location.href.split(/[?#]/)[0];
 
 function readUrlState(force = false) {
@@ -3599,6 +3658,9 @@ function readUrlState(force = false) {
   openOnly.checked = params.get("all") !== "1";
   // Stars live in this browser; a shared ?starred=1 would otherwise show nothing.
   starredOnly.checked = params.get("starred") === "1" && starred.size > 0;
+  // Only the exact link values count; anything else (090, +90, 0x1e) means Any.
+  const within = params.get("within");
+  setWithin(WITHIN_DAYS.map(String).includes(within) ? Number(within) : 0);
   if (params.get("tab") === "conferences") activateTab("conferences");
   else if (force) activateTab("deadlines");
   // A shared link that uses a filter hidden in More filters opens the panel.
@@ -3625,6 +3687,7 @@ function writeUrlState() {
   if (document.querySelector("#topic-match").value === "all") params.set("match", "all");
   if (!openOnly.checked) params.set("all", "1");
   if (document.querySelector("#starred-only")?.checked) params.set("starred", "1");
+  if (withinDays) params.set("within", String(withinDays));
   const activeTab = document.querySelector('[role="tab"][aria-selected="true"]')?.dataset.tabTarget;
   if (activeTab === "conferences") params.set("tab", "conferences");
   const text = params.toString().replace(/%2C/g, ",");
@@ -3696,6 +3759,7 @@ function followHash() {
     search.value = "";
     filters.forEach((input) => { input.checked = false; });
     starredOnly.checked = false;
+    setWithin(0);
     if (onDeadlines && !eligibleKinds.includes(stateByRow.get(target)?.kind)) openOnly.checked = false;
     renderStars();
     applyFilters();
@@ -3757,7 +3821,12 @@ document.querySelectorAll("[data-family-toggle]").forEach((input) => input.addEv
 document.querySelector("#topic-match").addEventListener("change", applyFilters);
 openOnly.addEventListener("change", applyFilters);
 showHidden.addEventListener("click", showClosedAndUnannounced);
+withinButtons.forEach((button) => button.addEventListener("click", () => {
+  setWithin(Number(button.dataset.within));
+  applyFilters();
+}));
 clearFilters.addEventListener("click", () => {
+  setWithin(0);
   search.value = "";
   filters.forEach((input) => { input.checked = false; });
   openOnly.checked = false;

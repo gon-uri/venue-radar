@@ -83,7 +83,7 @@ additions, not from an older session entry or a filtered website screenshot.
   It now presents the site with two generated screenshots (desktop/phone hero
   and host-city map, `assets/readme/`), the eight families, feed links, a trust
   section and help links (ADR-041). The README test checks local links/images
-  and keeps "130+ conference series" within the catalog. Verified with
+  and keeps "170+ conference series" (130+ until 2026-11-17) within the catalog. Verified with
   GitHub's markdown renderer and github-markdown-css at desktop and 390px in
   light and dark themes; GitHub's dark themes show a transparent dark banner.
   The site subtitle (also README's) is now "Find where to submit next:

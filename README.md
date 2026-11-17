@@ -14,7 +14,7 @@ neuroscience, healthcare, complex systems, and control.
 <a href="https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml"><img src="https://img.shields.io/badge/Request_a_conference-137c82" alt="Request a conference" height="20"></a>
 <a href="https://github.com/gon-uri/venue-radar/actions/workflows/build.yml"><img src="https://github.com/gon-uri/venue-radar/actions/workflows/build.yml/badge.svg" alt="Build status" height="20"></a>
 <br>
-<sub>130+&nbsp;conference&nbsp;series&nbsp;· Free&nbsp;· No&nbsp;account&nbsp;· Works&nbsp;on&nbsp;your&nbsp;phone</sub>
+<sub>170+&nbsp;conference&nbsp;series&nbsp;· Free&nbsp;· No&nbsp;account&nbsp;· Works&nbsp;on&nbsp;your&nbsp;phone</sub>
 
 <br>
 

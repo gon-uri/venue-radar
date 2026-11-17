@@ -42,7 +42,7 @@ Approved with ADR-041. README opens with the banner (its transparent dark
 variant in GitHub's dark themes; not itself a link) and the "Open Venue Radar"
 heading, which links to the site, then, centred: the subtitle above; Calendar feeds (linking to
 the Subscribe once section), Request a conference and Build status badges; the
-line "130+ conference series · Free · No account · Works on your phone"; and
+line "170+ conference series · Free · No account · Works on your phone"; and
 the linked hero screenshot. Sections follow in this order: Deadlines at a
 glance, Coverage (the eight family labels and the map), Subscribe once (the
 three aggregate feed URLs), Checked by hand (with three collapsed answers on

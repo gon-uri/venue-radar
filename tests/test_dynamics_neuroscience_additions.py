@@ -8,7 +8,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from build_ics import _deadline_event
 from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping, map_events
 from conference_scopes import load_scopes
-from export_catalog import catalog_payload
 from maintenance_report import review_queue
 from rollover_editions import CADENCE_YEARS, rollover_candidates
 from validate import SUBMISSION_TYPES, load_conferences, load_icore_rankings
@@ -116,10 +115,9 @@ class DynamicsNeuroscienceAdditionTests(unittest.TestCase):
         self.assertEqual(us['conference_start'], '2027-01-04')
         self.assertEqual(us['deadlines'][0]['datetime'][:10], '2026-11-22')
 
-    def test_workbook_coverage_and_no_other_series_rank_inheritance(self):
-        payload = catalog_payload()
-        self.assertTrue(ADDED <= {r[0] for r in payload['rows']})
-        self.assertTrue(ADDED <= {r[0] for r in payload['scopes']})
+    def test_profile_coverage_and_no_other_series_rank_inheritance(self):
+        self.assertTrue(ADDED <= {c['series'] for c in load_conferences()})
+        self.assertTrue(ADDED <= set(load_scopes()))
         self.assertFalse(ADDED & set(load_icore_rankings()['rankings']))
         self.assertIn('International Conference on Artificial Life', self.records['alife-2027']['title'])
         self.assertNotIn('IEEE International Symposium', self.records['alife-2027']['title'])

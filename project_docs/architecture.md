@@ -8,7 +8,7 @@ Venue Radar is versioned YAML plus Python generators and a self-contained static
 HTML page. GitHub Pages publishes committed `docs/` from `main`. There is no
 SQL database, backend, paid hosting or OpenAI API dependency. Python/PyYAML are
 the required build tools. CI also runs Node's built-in test runner on the client
-logic; optional Node tools support workbook/branding/browser QA.
+logic; optional Node tools support branding and browser QA.
 
 Repository: https://github.com/gon-uri/venue-radar
 Website: https://gon-uri.github.io/venue-radar/
@@ -20,7 +20,6 @@ reviewed YAML + local assets
         -> committed docs/index.html + ICS feeds
         -> GitHub Pages (main/docs)
 
-YAML -> export_catalog.py -> sync_workbook.mjs -> review-only XLSX mirror
 ```
 
 Organizer pages are reviewed by maintainers, not fetched by the website.
@@ -44,7 +43,6 @@ backend. No calendar/ranking/filter feature depends on it.
 | `data/archival_options.yml` | One sourced archival-option value per exact series (ADR-047). |
 | `data/metadata.yml` | Published dataset review date. |
 | `data/retired_identities.yml` | Reviewed list of intentionally retired edition IDs or event UIDs (normally empty). |
-| `data/core_conferences_normalized_tags.xlsx` | Latest-series catalog, vocabulary and scope review mirror; not canonical data. |
 | `assets/` | Embedded site CSS/JS, logos, favicon, font, map geometry, link-preview card and vendor notices. |
 | `docs/` | Generated public HTML and ICS only; never edit by hand. |
 | `project_docs/` | Public handbook, source evidence and technical decisions. |
@@ -78,8 +76,6 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 | `scripts/check_identity.py` | Fails when a published UID or edition ID disappears without a retirement entry. |
 | `scripts/release_check.py` | Local release gate: validation, tests, build, determinism, docs drift, non-blocking size budgets (WARN at 90% of the 1 MB feed limit or above 480 KB gzipped page; ADR-048), whitespace, private notes and dataset freshness (`last_updated` not before the newest review and not in the future). |
 | `scripts/rollover_editions.py` | Preview or explicitly append cadence-based estimates; never overwrites existing edition IDs. |
-| `scripts/export_catalog.py` | JSON export of each series' latest edition, ranks/rates, vocabulary and profiles. |
-| `scripts/sync_workbook.mjs` | Optional artifact-tool workbook synchronization, table/style preservation, checks and previews. |
 | `scripts/recolor_logo.mjs`, `scripts/build_readme_banner.mjs`, `scripts/build_social_card.mjs` | Optional tools deriving brand outputs from immutable sources and the real title font. |
 | `scripts/build_readme_images.mjs` | Optional tool rendering the README screenshots (`assets/readme/`) from the committed page, offline and with a pinned clock. |
 | `tests/test_*.py` | Unit/data/rendering/workflow/documentation regressions. |
@@ -191,7 +187,7 @@ Both licenses permit commercial reuse with their respective notices/attribution.
 ## Change And Publication Boundaries
 
 Maintainers review official sources, edit owning YAML, update actual review
-dates, synchronize mirrored fields, validate/test/build, inspect results and
+dates, validate/test/build, inspect results and
 commit source/output together when publishing. CI validates, runs the Python
 and Node unit tests and rebuilds. It fails when committed `docs/` differ from
 the fresh build, when an inline script has a syntax error, or when a published

@@ -60,8 +60,8 @@ budgets (a non-blocking WARN near the 1 MB feed limit or above 480 KB gzipped
 page), the whitespace check below, an empty `git ls-files private_notes/`, and
 `metadata.yml` `last_updated` not older than the newest `last_checked`. Run it
 after staging the intended change; it regenerates `docs/` but never stages,
-commits or pushes. It does not run the Node tests, browser smoke, workbook sync
-or the identity check. `check_identity.py` compares `docs/calendar-all.ics` UIDs
+commits or pushes. It does not run the Node tests, browser smoke or the
+identity check. `check_identity.py` compares `docs/calendar-all.ics` UIDs
 and edition IDs with a base ref; run it after `build_all.py`. A removal needs a
 reviewed entry in `data/retired_identities.yml` (see the
 [data schema](data_schema.md#companion-files-and-stable-identity)).
@@ -112,39 +112,6 @@ checkout, including paths with spaces. To verify a published site, supply
 `https://gon-uri.github.io/venue-radar/` as its final argument. Report unavailable
 browser tooling rather than claiming checks ran. Keep helper imports together.
 
-## Workbook Synchronization
-
-The workbook is a review mirror, not a second database. Synchronize when
-exported latest-edition fields, ranks/rates, topics or scope profiles change.
-A correction to dates alone may not alter its mirrored columns. No workbook
-rewrite is needed for documentation-only work.
-
-The maintained helper uses optional `@oai/artifact-tool`, not a required Python
-or browser dependency. It must be available in `NODE_DEPENDENCIES`. Reuse the
-isolated `TOOLS_DIR` above, or prepare a fresh one with that module symlink.
-In Codex, follow the spreadsheet skill's import/render/inspect workflow.
-
-```sh
-python3 scripts/export_catalog.py --output "$TOOLS_DIR/catalog.json"
-cp scripts/sync_workbook.mjs "$TOOLS_DIR/"
-"$NODE_BIN" "$TOOLS_DIR/sync_workbook.mjs" "$PWD/data/core_conferences_normalized_tags.xlsx" "$TOOLS_DIR/catalog.json" "$TOOLS_DIR/workbook-previews"
-```
-
-The exporter chooses the maximum edition year per exact series. The helper
-preserves existing series order/native table formatting and definitions,
-appends new series, synchronizes Catalog/Tag Vocabulary/Conference Scope,
-refuses unexplained removals, checks values/formula errors and renders previews.
-Add definitions for approved new leaves to its definition map as needed.
-CCF's workbook source column retains PDF/page evidence; public rank links use
-the separate webpage. This difference is intentional.
-
-Inspect all three sheets for wrapping/clipping, numeric percentage/date formats
-and preserved tables. Re-import the exported XLSX and compare catalog,
-vocabulary and scope values/counts with the JSON/YAML, including new rows.
-A successful export alone is not enough. If optional tooling is unavailable,
-keep YAML authoritative and report the unsynchronized mirror; do not silently
-replace the workbook or import old spreadsheet values into YAML.
-
 ## Branding Tools
 
 Brand changes require their own approved scope. The logo and README banner are
@@ -194,7 +161,7 @@ regenerate artwork during a conference-data or documentation-only update.
    metadata review dates and companion-file completeness. Update dataset
    `last_updated` **before** generation for reviewed data changes; do not change
    it merely because a build or documentation edit happened.
-2. Synchronize mirrored fields as applicable. Run `scripts/release_check.py`
+2. Run `scripts/release_check.py`
    (or standalone validation, all Python tests and the full build) plus the
    Node tests, and perform affected browser/visual checks. Run
    `scripts/check_identity.py --base origin/main` before pushing.

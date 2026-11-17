@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-11-14
+Last synchronized: 2026-11-17
 
 Current implementation is summarized in [implementation status](implementation_status.md).
 Use [the documentation index](README.md) for procedures; the completed milestones
@@ -11,7 +11,7 @@ below are history, not instructions to reimplement old designs.
 - Completed: refined calendar/radar identity, simple README, MIT/CC BY licensing,
   author/social links, five normalized sizes, eight hierarchical topic families,
   offline city map plus conference tables, the initial eight dynamics/control series, and
-  synchronized catalog workbook with repeatable maintenance tooling.
+  repeatable maintenance tooling (the catalog workbook was retired by ADR-052).
 - Completed community setup: Giscus prerequisites verified through its official
   checker; the live comments widget, Discussions, and request form are ready.
 - Completed usability polish: single collapsible filter panel expanded by default
@@ -103,8 +103,7 @@ below are history, not instructions to reimplement old designs.
   topics, avoiding indiscriminate import of expansive CFP inventories.
 - Completed: sourced profile schema, primary/additional matching in search,
   filters and topic feeds, scope evidence in calendar descriptions (removed
-  from ICS by ADR-044; profiles are not displayed on the site), a separate
-  workbook sheet, and a missing/stale/prior-edition review queue.
+  from ICS by ADR-044; profiles are not displayed on the site), and a missing/stale/prior-edition review queue.
 - Current coverage: 125 of 176 series, including all 42 AI Deadlines additions,
   all 16 complex-systems/neuroscience additions and all 44 related-venue
   additions (2026-10-31) and ASLI.
@@ -183,7 +182,7 @@ below are history, not instructions to reimplement old designs.
 - Priority: Medium (proposed; the owner has not set a priority)
 - Dependencies: a sourced value per series, validation, the filter panel and
   URL state, owner-approved public copy recorded in site_copy.md, the
-  maintenance report and the workbook mirror. If calendar event descriptions
+  maintenance report. If calendar event descriptions
   carry the tag, they need the same definition and caution, because each
   event is one track's deadline.
 - Estimated complexity: Low to medium for code: one filter group and a small
@@ -276,10 +275,10 @@ below are history, not instructions to reimplement old designs.
      the roadmap's deadline-window idea into scope.
   4. (Done, ADR-050) "About this venue" in the expanded row: the sourced scope summary and the
      archival track and venue. Edition notes stay off the site.
-- Owner decisions to collect alongside: retire or freeze the XLSX mirror;
-  README "130+" to "170+"; which `calendar-all.ics` size lever to use before
+- Owner decisions to collect alongside: README "130+" to "170+"; which `calendar-all.ics` size lever to use before
   the next venue round (91% of 1 MB). (RLC 2027's abstract event and
-  CogSci's archival value were settled on 2026-11-14.)
+  CogSci's archival value were settled on 2026-11-14; the XLSX mirror was
+  retired on 2026-11-17, ADR-052.)
 - Deferred by the judges: decision dates and an "after a rejection" link
   (only 23 of 115 open full-paper editions store a notification), a shareable
   shortlist URL, a merged rank-and-rate column, family submission feeds,

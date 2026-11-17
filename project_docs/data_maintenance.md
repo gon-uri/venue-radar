@@ -5,7 +5,7 @@ Last synchronized: 2026-11-14.
 Use this guide to refresh tracked information. For a new series/edition use
 [adding conferences](adding_conferences.md); for fields and submission semantics
 use [data schema](data_schema.md). [Development](development.md) owns build,
-workbook, browser and publication commands. The database is canonical YAML;
+browser and publication commands. The database is canonical YAML;
 the website never refreshes organizer information automatically.
 
 ## Monthly Refresh Checklist
@@ -40,8 +40,7 @@ the website never refreshes organizer information automatically.
    rebuilding. This describes the published dataset review, not a claim that
    every tracked source was checked that day. Documentation-only changes do
    not advance it.
-6. Synchronize the XLSX mirror if exported latest-series fields, vocabulary,
-   profiles, ranks or rates changed. Validate/test/build, inspect the affected
+6. Validate/test/build, inspect the affected
    public behavior/feeds and update project documentation. Follow
    [development's release checklist](development.md#publication-checklist)
    when publishing is requested.
@@ -230,12 +229,6 @@ commented region-level alias may use its geographic centre. Future confirmed/
 announced non-online meetings appear on the map; estimates and ongoing/past
 meetings do not. The submission-options filter is deadlines-only.
 
-The workbook is a review mirror of each series' latest edition, not a second
-source to import silently. Its three tables are catalog, vocabulary and scopes.
-Date-only/meeting dates are not separate workbook columns; a date-only correction
-may leave mirrored values unchanged. Follow [workbook synchronization](development.md#workbook-synchronization)
-for export, native-table preservation, visual/error checks and re-import.
-
 ## Ranking And Acceptance Evidence
 
 Match exact main-track series to the configured official releases. Never
@@ -244,7 +237,7 @@ or old ranking list. Missing mappings show a dash/Unranked filter state, not C.
 Keep CCF PDF/page provenance separate from the public navigation webpage.
 
 Re-audit ranks when the publisher changes its list; a new release also requires
-updating the validator's release rules, metadata, links, tests and mirror.
+updating the validator's release rules, metadata, links and tests.
 A review-date edit alone does not migrate a ranking release.
 
 Historical acceptance evidence must retain year, actual track/population,

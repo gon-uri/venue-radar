@@ -10,7 +10,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from build_ics import _conference_event, _description, _escape_text, _topic_groups
 from build_site import _conference_rows, _deadline_group_rows, _search_text, _topic_labels
 from conference_scopes import all_topics, load_scopes, scope_review_queue, validate_scopes, with_scopes
-from export_catalog import catalog_payload
 from validate import load_conferences, load_controlled_topics, stable_slug
 
 
@@ -132,15 +131,6 @@ class ConferenceScopeTests(unittest.TestCase):
         profile['source_year'] = 2027
         profile['scope_last_checked'] = '2026-10-07'
         self.assertEqual(scope_review_queue([self.automl], {'AutoML': profile}, date(2026, 10, 7), 30), [])
-
-    def test_workbook_export_keeps_primary_topics_and_separate_scope_rows(self):
-        payload = catalog_payload()
-        self.assertEqual(len(payload['scopes']), len(self.profiles))
-        row = next(row for row in payload['rows'] if row[0] == 'AutoML')
-        self.assertEqual(row[1], '; '.join(self.automl['topics']))
-        scope = next(row for row in payload['scopes'] if row[0] == 'AutoML')
-        self.assertEqual(scope[1], '; '.join(self.profiles['AutoML']['additional_topics']))
-        self.assertEqual(scope[-1], '2026-10-07')
 
 
 if __name__ == '__main__':

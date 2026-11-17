@@ -33,7 +33,7 @@ before new implementation work. Do not silently change code to match old prose.
 | Required fields, confidence, time precision, opening evidence, deadline types, gates, stable IDs | [Data schema](data_schema.md) |
 | Assign central families or consider a new subtopic | [Topic audit](topic_audit.md) |
 | Write characteristic scope prose and extra topics | [Conference scopes](conference_scopes.md) |
-| Set up Python, build/test, preview, synchronize XLSX, publish | [Development and publication](development.md) |
+| Set up Python, build/test, preview, publish | [Development and publication](development.md) |
 | Triage the weekly Review queue, check sources, handle correction reports | [Data maintenance](data_maintenance.md) |
 | Configure Giscus or migrate repository URLs | [Data maintenance: project services](data_maintenance.md#project-services) |
 | Find deferred conference candidates | [Candidate backlog](conference_candidates.md) |
@@ -78,5 +78,5 @@ retains everything needed to understand and maintain the project.
   snapshots are historical; current catalog counts belong in status/topic audit.
 - Record what was actually verified. Structural validation does not prove an
   organizer date is correct, a portal is open, or a deployment succeeded.
-- Technical-only documentation changes must not modify conference YAML, XLSX,
+- Technical-only documentation changes must not modify conference YAML,
   brand assets or generated `docs/` output. Rebuilds can verify this invariance.

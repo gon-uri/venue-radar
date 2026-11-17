@@ -4,7 +4,7 @@ Reviewed: 2026-10-08
 
 This guide owns profile curation. See [adding conferences](adding_conferences.md)
 for the multi-file checklist, [data schema](data_schema.md) for edition/deadline
-fields, and [development](development.md#workbook-synchronization) for mirror checks.
+fields, and [development](development.md) for build and browser checks.
 
 The table's up-to-four main topics are a compact description, not an exhaustive
 list. `data/conference_scopes.yml` adds a more detailed, source-grounded profile
@@ -107,8 +107,8 @@ coverage without blanket application-domain labels.
   Existing feed names, event UIDs, dates, and deadline gates remain unchanged.
 - Without a reviewed profile, a conference falls back to its main topics and
   existing search data. Missing profiles are legal but visible in maintenance.
-- The workbook has a separate **Conference Scope** sheet; the main catalog
-  keeps the four display topics. YAML, not the workbook, is authoritative.
+- The table keeps the four display topics; profiles add search and filter
+  matches only.
 
 ## Regular Review
 
@@ -119,8 +119,7 @@ scope profile after actual review; do not refresh its date just because calendar
 dates were checked. Add new profiles gradually, starting with missing profiles
 and venues with changing scope. Never bulk-import an uncurated CFP inventory.
 
-After edits, run validation, Python tests, and the full build. Synchronize the
-workbook when profiles change, then inspect/re-import it. Check representative
+After edits, run validation, Python tests, and the full build. Check representative
 summary search, additional-topic filtering, both tabs, map matching, and topic
 feed membership. Preserve conference IDs and calendar UIDs. See
 [data_maintenance.md](data_maintenance.md) and [development.md](development.md)

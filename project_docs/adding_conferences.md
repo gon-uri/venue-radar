@@ -60,7 +60,6 @@ conflicting cutoffs store the earliest stated instant with a `cutoff_note`
 | `data/topics.yml`, `data/topic_families.yml` | Usually unchanged; add a justified reusable leaf only if approved/needed. | Normally unchanged. Preserve eight family IDs/names/order and leaf slugs. |
 | `scripts/rollover_editions.py` | Add to `CADENCE_YEARS` only for verified recurrence. | Recheck cadence; irregular/joint series stay outside automatic projection. |
 | `data/metadata.yml` | Update actual dataset-review date before rebuilding. | Same rule. |
-| `data/core_conferences_normalized_tags.xlsx` | Synchronize from YAML; verify the appended series. | Synchronize if its latest-edition mirrored fields change. |
 | `project_docs/` | Update current status/topic counts, sources/caveats and material verification; resolve any candidate-backlog change. | Record verified changes and outstanding review items. |
 | `tests/` and generated `docs/` | Cover changed behavior/identity risks; update catalog-specific browser expectations and rebuild. | Same verification rule; existing event IDs must stay stable. |
 
@@ -68,7 +67,7 @@ Read [topic audit](topic_audit.md) and [scope curation](conference_scopes.md)
 before tagging. A conference using ML is not automatically centrally ML.
 Keep characteristic scope rather than importing the complete CFP topic list.
 When adding a leaf, supply its exact vocabulary entry, one family and compact
-label; also add its definition to the workbook helper's definition map if needed.
+label.
 
 ## 4. Use A Valid Record Shape
 
@@ -129,7 +128,7 @@ set `confidence: estimated` on that milestone even if the meeting is confirmed.
 
 ## 5. Verify And Publish
 
-Follow [development](development.md) for workbook synchronization and the exact
+Follow [development](development.md) for the exact
 validation/test/build/publication commands. Verify at least:
 
 - Correct status, countdown and collapsed track/action before/after gates;
@@ -139,7 +138,6 @@ validation/test/build/publication commands. Verify at least:
 - Whole-family and individual-subtopic filters, characteristic scope search,
   rankings/rates, map inclusion/exclusion and mobile card details.
 - Recurrence, archive placement, new feed links and unchanged published UIDs.
-- Latest-series workbook fields, all native tables and re-imported values.
 
 Tests should scale with the change. Existing browser fixtures use a frozen date
 and catalog-specific expected counts; update those from the built data, never

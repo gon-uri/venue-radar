@@ -32,7 +32,7 @@ precedence over historical notes. Never force-add or publish this directory.
   [data schema](project_docs/data_schema.md).
 - Change topics/profiles: [topic audit](project_docs/topic_audit.md) and
   [scope curation](project_docs/conference_scopes.md).
-- Build, inspect, synchronize the workbook or publish:
+- Build, inspect or publish:
   [development](project_docs/development.md).
 
 ## Project Constraints
@@ -40,8 +40,8 @@ precedence over historical notes. Never force-add or publish this directory.
 - The calendar is intentionally static: no backend server, database, paid
   hosting, or OpenAI API dependency.
 - `data/conferences.yml` is the canonical conference data source.
-- The XLSX workbook is a review mirror, never an independent source of truth.
-  Series-keyed ranks, rates, families and scopes must use exact `series` names.
+- Series-keyed ranks, rates, families and scopes must use exact `series` names.
+  The XLSX review mirror was retired on 2026-11-17 (ADR-052); do not recreate it.
 - `data/conference_scopes.yml` holds complementary, sourced series profiles.
   Read `project_docs/conference_scopes.md` before editing them. Keep extra topics
   characteristic and curated; never import an exhaustive CFP topics list.
@@ -111,7 +111,7 @@ python3 scripts/check_identity.py --base origin/main
   create the ignored directory/log locally if needed. Public status/guides must
   still contain material outcomes, evidence gaps and verification limitations.
 - Verify source changes and generated outputs together; include browser checks
-  for affected data/UI behavior and workbook checks when the mirror changes.
+  for affected data/UI behavior.
 - Follow the development guide's publication checklist when publishing is
   requested; record checks actually performed and any remaining limitations.
 - Check that no private notes are staged; Git does not back them up or erase

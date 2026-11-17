@@ -12,7 +12,6 @@ write "n/a" with a reason otherwise.
 - [ ] `python3 scripts/validate.py`, `python3 -m unittest discover -s tests -v` and `python3 scripts/build_all.py` run (or `python3 scripts/release_check.py`)
 - [ ] Regenerated `docs/` committed together with the source change; never hand-edited
 - [ ] Browser checks run for UI changes or data changes affecting routes, filters or maps
-- [ ] Workbook mirror synchronized, or not affected
 - [ ] `project_docs/` updated (status/guides; ADR for a meaningful new decision)
 - [ ] No `private_notes/` files staged
 - [ ] Event UIDs and edition IDs stable; intentional removals listed in `data/retired_identities.yml`

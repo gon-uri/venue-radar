@@ -29,6 +29,7 @@ explicit refinements take precedence. Current rules live in
 | Calendar event titles, descriptions and feed size; countdown precision | ADR-044 (refines ADR-028's ICS clause and ADR-032's countdown text); ADR-045 puts Notes once per edition |
 | Expanded-row venue facts (archival track line, "About this venue" toggle) | ADR-050 |
 | Review-queue truthfulness, size guardrails, search-text deduplication | ADR-048 (refines ADR-040/042's queue and ADR-047's archival queue rule) |
+| XLSX review mirror retired | ADR-052 (earlier ADRs' workbook clauses are historical) |
 
 ## ADR-001: Keep the Project Static
 
@@ -1230,3 +1231,26 @@ explicit refinements take precedence. Current rules live in
   (deferred until more notification dates are stored); month dividers in the
   list; applying ranges to the Conferences tab (it is ordered by meeting
   date, not by deadline).
+
+## ADR-052: Retire The XLSX Review Mirror
+
+- Status: Accepted by the owner on 2026-11-17 ("remove it, I dont use it").
+- Date: 2026-11-17
+- Context: `data/core_conferences_normalized_tags.xlsx` mirrored each series'
+  latest edition, the topic vocabulary and the scope profiles for review in a
+  spreadsheet. It was never canonical and nothing built from it, but every
+  data change carried a manual export, sync and re-import step that needed an
+  optional Node artifact tool outside the release check. The owner said on
+  2026-10-31 that they no longer used it.
+- Decision: Delete the workbook, `scripts/export_catalog.py` and
+  `scripts/sync_workbook.mjs`, and the workbook steps from the maintenance,
+  addition, development and scope guides, AGENTS.md and the pull-request
+  template. Workbook clauses in earlier ADRs and dated reviews stay as
+  history and no longer apply. Do not recreate a mirror; YAML is the only
+  data store.
+- Consequences: No data, site, feed or UID changes. Three tests that checked
+  the export payload now check the same coverage (tracked series, scope
+  profiles, no rank inheritance) against the YAML directly. The file remains
+  in git history if it is ever needed.
+- Alternatives considered: freezing it as a dated snapshot (still invites
+  stale reads and keeps the tooling); keeping it synchronized.

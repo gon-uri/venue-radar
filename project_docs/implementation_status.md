@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-11-14. This is the current-state summary, not a release
+Last synchronized: 2026-11-17. This is the current-state summary, not a release
 history. Start with [the documentation index](README.md); technical history
 remains in [decisions](decisions.md). Detailed local working notes follow the
 [documentation policy](documentation_policy.md) and are not required to onboard.
@@ -18,7 +18,7 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Evidence maps | 83 direct ICORE 2026 ranks, 67 direct CCF 2026 ranks, 49 historical rate/qualitative-band entries. |
 | Archival option | ADR-047 shipped 2026-11-05: 174 of 176 series have a sourced value (143 Yes, 31 No after CogSci became No on 2026-11-14; Dynamics Days CAC and ICCN not checked yet, neither with an open deadline). Row/card tag, one filter (`archival=1`) and a Format-line value in feeds. Evidence: `project_docs/archival_research/`. |
 | Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 914,436 bytes (ADR-045: Notes once per edition; ADR-047 added the archival value); a test keeps every feed below 1 MB. |
-| Review mirror | Synchronized again on 2026-11-14 (five catalog rows changed). Restored from canonical YAML on 2026-11-07 using the now-available bundled artifact tool: 176 catalog rows, 43 vocabulary rows and 125 scope profiles, with three native tables and saved-file re-import checks. The owner said on 2026-10-31 that they no longer use it; retirement remains an open decision, not an authorization to delete it. |
+| Review mirror | Retired on 2026-11-17 by the owner (ADR-052): the XLSX workbook and its export/sync scripts are deleted. YAML is the only data store; older entries below that mention the workbook are history. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
 Counts are a dated catalog snapshot. Recompute them from canonical files after

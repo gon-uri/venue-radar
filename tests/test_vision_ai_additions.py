@@ -10,9 +10,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from build_ics import _deadline_event
 from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, map_events
 from conference_scopes import load_scopes
-from export_catalog import catalog_payload
 from rollover_editions import CADENCE_YEARS, rollover_candidates
-from validate import load_acceptance_rates, load_ccf_rankings, load_conferences, load_controlled_topics, load_icore_rankings
+from validate import load_acceptance_rates, load_ccf_rankings, load_conferences, load_icore_rankings
 
 
 ADDED = {'EuroGP', 'KR', 'ICAPS', '3DV', 'ACM MM', 'ACM SIGGRAPH', 'BMVC',
@@ -121,14 +120,9 @@ class VisionAIAdditionTests(unittest.TestCase):
         self.assertIn('both rounds', rates['WACV']['track'])
         self.assertNotIn('FG', rates)
 
-    def test_workbook_payload_contains_all_additions_and_curated_profiles(self):
-        payload = catalog_payload()
-        self.assertTrue(ADDED <= {row[0] for row in payload['rows']})
-        self.assertTrue(ADDED <= {row[0] for row in payload['scopes']})
-        # One row per tracked series, controlled leaf and reviewed profile.
-        self.assertEqual(len(payload['rows']), len({c['series'] for c in load_conferences()}))
-        self.assertEqual(len(payload['topics']), len(load_controlled_topics()))
-        self.assertEqual(len(payload['scopes']), len(load_scopes()))
+    def test_catalog_contains_all_additions_and_curated_profiles(self):
+        self.assertTrue(ADDED <= {c['series'] for c in load_conferences()})
+        self.assertTrue(ADDED <= set(load_scopes()))
 
 
 if __name__ == '__main__':

@@ -61,8 +61,9 @@ page), the whitespace check below, an empty `git ls-files private_notes/`, and
 `metadata.yml` `last_updated` not older than the newest `last_checked`. Run it
 after staging the intended change; it regenerates `docs/` but never stages,
 commits or pushes. It does not run the Node tests, browser smoke or the
-identity check. `check_identity.py` compares `docs/calendar-all.ics` UIDs
-and edition IDs with a base ref; run it after `build_all.py`. A removal needs a
+identity check. `check_identity.py` compares the UIDs in `docs/calendar-all.ics`
+plus every per-edition feed (combined feeds leave out past editions, ADR-053)
+and the edition IDs with a base ref; run it after `build_all.py`. A removal needs a
 reviewed entry in `data/retired_identities.yml` (see the
 [data schema](data_schema.md#companion-files-and-stable-identity)).
 `requirements.txt` pins PyYAML; bump it in its own commit.

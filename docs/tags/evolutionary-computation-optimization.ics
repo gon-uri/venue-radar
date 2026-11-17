@@ -11,71 +11,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:ppsn-2026-deadline-tutorial-proposal@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260223T115900Z
-DTEND:20260223T125900Z
-SUMMARY:PPSN 2026 · Extended tutorial proposal deadline
-DESCRIPTION:International Conference on Parallel Problem Solving from Natur
- e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
- , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
- ll accepted papers presented as posters\; Archival option: Yes\nOfficial 
- source: https://web.archive.org/web/20260313015745/https://ppsn2026.disi.
- unitn.it/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ppsn-2026
-CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
-URL:https://web.archive.org/web/20260313015745/https://ppsn2026.disi.unitn.
- it/
-END:VEVENT
-BEGIN:VEVENT
-UID:ppsn-2026-deadline-workshop-proposal@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260223T115900Z
-DTEND:20260223T125900Z
-SUMMARY:PPSN 2026 · Extended workshop proposal deadline
-DESCRIPTION:International Conference on Parallel Problem Solving from Natur
- e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
- , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
- ll accepted papers presented as posters\; Archival option: Yes\nOfficial 
- source: https://web.archive.org/web/20260313015745/https://ppsn2026.disi.
- unitn.it/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ppsn-2026
-CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
-URL:https://web.archive.org/web/20260313015745/https://ppsn2026.disi.unitn.
- it/
-END:VEVENT
-BEGIN:VEVENT
-UID:alife-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260413T115900Z
-DTEND:20260413T125900Z
-SUMMARY:ALIFE 2026 · Extended full-paper submission deadline
-DESCRIPTION:International Conference on Artificial Life\nMeeting: 2026-08-1
- 7 to 2026-08-21\, Waterloo\, Ontario\, Canada\nStatus: confirmed\, checke
- d 2026-10-08\nFormat: Full papers + non-archival abstracts\; Archival opt
- ion: Yes\nOfficial source: https://2026.alife.org/call-for-papers/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#alife-2026
-CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
- ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
- ional Cognition
-URL:https://2026.alife.org/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:ppsn-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260419T115900Z
-DTEND:20260419T125900Z
-SUMMARY:PPSN 2026 · Extended full-paper submission deadline (LNCS\, up to 
- 14 pages)
-DESCRIPTION:International Conference on Parallel Problem Solving from Natur
- e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
- , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
- ll accepted papers presented as posters\; Archival option: Yes\nOfficial 
- source: https://web.archive.org/web/20260617225021/https://ppsn2026.disi.
- unitn.it/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ppsn-2026
-CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
-URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
- it/
-END:VEVENT
-BEGIN:VEVENT
 UID:nolta-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260520
@@ -92,54 +27,6 @@ CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
 URL:https://nolta2026.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:ppsn-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260528T115900Z
-DTEND:20260528T125900Z
-SUMMARY:PPSN 2026 · Extended acceptance notification
-DESCRIPTION:International Conference on Parallel Problem Solving from Natur
- e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
- , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
- ll accepted papers presented as posters\; Archival option: Yes\nOfficial 
- source: https://web.archive.org/web/20260617225021/https://ppsn2026.disi.
- unitn.it/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ppsn-2026
-CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
-URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
- it/
-END:VEVENT
-BEGIN:VEVENT
-UID:ppsn-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260613T115900Z
-DTEND:20260613T125900Z
-SUMMARY:PPSN 2026 · Camera-ready papers and author registration due
-DESCRIPTION:International Conference on Parallel Problem Solving from Natur
- e\nMeeting: 2026-08-29 to 2026-09-02\, Trento\, Italy\nStatus: confirmed\
- , checked 2026-10-31\nFormat: Paper-based / Springer LNCS proceedings\; a
- ll accepted papers presented as posters\; Archival option: Yes\nOfficial 
- source: https://web.archive.org/web/20260617225021/https://ppsn2026.disi.
- unitn.it/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ppsn-2026
-CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
-URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
- it/
-END:VEVENT
-BEGIN:VEVENT
-UID:alife-2026-deadline-late-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260721T115900Z
-DTEND:20260721T125900Z
-SUMMARY:ALIFE 2026 · Late-breaking abstract submission deadline
-DESCRIPTION:International Conference on Artificial Life\nMeeting: 2026-08-1
- 7 to 2026-08-21\, Waterloo\, Ontario\, Canada\nStatus: confirmed\, checke
- d 2026-10-08\nFormat: Full papers + non-archival abstracts\; Archival opt
- ion: Yes\nOfficial source: https://2026.alife.org/call-for-papers/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#alife-2026
-CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
- ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
- ional Cognition
-URL:https://2026.alife.org/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
 UID:nolta-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -154,48 +41,6 @@ DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:alife-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260822
-SUMMARY:ALIFE 2026 · Conference
-DESCRIPTION:International Conference on Artificial Life\nStatus: confirmed\
- , checked 2026-10-08\nOfficial source: https://2026.alife.org/\nVenue Rad
- ar: https://gon-uri.github.io/venue-radar/#alife-2026\nNotes: Historical 
- baseline. Reviewed full papers appear in MIT Press open-access proceeding
- s\; presentation summaries and late-breaking abstracts are non-archival. 
- The April date was an extension of the original March 30 cutoff. Size is 
- an editorial estimate.
-CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
- ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
- ional Cognition
-URL:https://2026.alife.org/
-LOCATION:Waterloo\, Ontario\, Canada
-END:VEVENT
-BEGIN:VEVENT
-UID:ppsn-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260829
-DTEND;VALUE=DATE:20260903
-SUMMARY:PPSN 2026 · Conference
-DESCRIPTION:International Conference on Parallel Problem Solving from Natur
- e\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://ppsn2
- 026.disi.unitn.it/\nVenue Radar: https://gon-uri.github.io/venue-radar/#p
- psn-2026\nNotes: 19th PPSN\, hosted by the University of Trento at Trento
-  Expo\; workshops and tutorials Aug 29-30\, main program Aug 31-Sep 2. In
-  person only (virtual participation not possible). Single-blind LNCS pape
- rs of up to 14 pages plus references\; all accepted papers are posters an
- d appear in Springer LNCS 16985-16989. The Mar 28 paper deadline was exte
- nded to Apr 18 and notification from May 22 to May 27\; workshop/tutorial
-  proposals moved from Feb 8 to Feb 22. All cutoffs are end of day AoE. Th
- e live site hides its dates\; archived snapshots are cited. Workshop pape
- rs are not in the proceedings. Size M from 165 papers in 8 poster session
- s\; no official acceptance rate found. Size is an editorial estimate.
-CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
-URL:https://ppsn2026.disi.unitn.it/
-LOCATION:Trento\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:nolta-2026-conference@scientific-conference-calendar

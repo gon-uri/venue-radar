@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import re
-from datetime import datetime, time, timedelta, timezone
+from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
+
+import yaml
 from archival_options import ARCHIVAL_PATH, feed_label, load_archival_options, validate_archival_options, with_archival
 from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
@@ -27,6 +29,29 @@ UID_DOMAIN = "scientific-conference-calendar"
 # Public site address used in subscribe links and feed descriptions.
 SITE_URL = "https://gon-uri.github.io/venue-radar/"
 DTSTAMP = "19700101T000000Z"
+METADATA_PATH = ROOT / "data" / "metadata.yml"
+
+
+def feed_reference_date(path: Path = METADATA_PATH) -> date:
+    """The dataset-review date that decides which editions are past (ADR-053).
+
+    Using the reviewed `last_updated` date, not the build day, keeps builds
+    deterministic: the combined feeds change only when the data is reviewed.
+    """
+    metadata = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return parse_date(metadata["last_updated"])
+
+
+def edition_last_day(conference: dict[str, Any]) -> date:
+    """The later of the meeting's last day and every recorded milestone's day."""
+    days = [parse_date(conference.get("conference_end") or conference["conference_start"])]
+    days.extend(parse_date(str(deadline["datetime"])[:10]) for deadline in conference.get("deadlines", []))
+    return max(days)
+
+
+def is_past_edition(conference: dict[str, Any], reference: date) -> bool:
+    """True once the meeting and every milestone ended before the reference date."""
+    return edition_last_day(conference) < reference
 
 
 def _escape_text(value: Any) -> str:
@@ -355,7 +380,11 @@ def _topic_groups(conferences: list[dict[str, Any]]) -> dict[str, dict[str, Any]
     return groups
 
 
-def _write_topic_feeds(conferences: list[dict[str, Any]], tags_dir: Path) -> list[Path]:
+def _write_topic_feeds(
+    conferences: list[dict[str, Any]], tags_dir: Path, keep: set[str] | None = None
+) -> list[Path]:
+    """One feed per topic. The file set follows every edition, so a topic whose
+    editions are all past keeps its (empty) feed URL; events follow `keep`."""
     tags_dir.mkdir(parents=True, exist_ok=True)
     for old_feed in sorted(tags_dir.glob("*.ics")):
         old_feed.unlink()
@@ -363,7 +392,7 @@ def _write_topic_feeds(conferences: list[dict[str, Any]], tags_dir: Path) -> lis
     outputs: list[Path] = []
     for slug, group in sorted(_topic_groups(conferences).items()):
         topic_conferences = sorted(
-            group["conferences"],
+            (c for c in group["conferences"] if keep is None or c["id"] in keep),
             key=lambda conference: (_conference_sort_datetime(conference), conference["id"]),
         )
         path = tags_dir / f"{slug}.ics"
@@ -416,7 +445,11 @@ def _write_series_feeds(conferences: list[dict[str, Any]], series_dir: Path) -> 
 def build_calendars(
     data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR,
     scopes_path: Path = SCOPES_PATH, archival_path: Path = ARCHIVAL_PATH,
+    reference: date | None = None,
 ) -> list[Path]:
+    """Write every feed. The combined feeds (all events, deadlines, meeting
+    dates, submissions and topics) leave out past editions to stay below the
+    URL-feed size limit (ADR-053); per-edition and series feeds keep them."""
     conferences = load_conferences(data_path)
     scopes = load_scopes(scopes_path)
     archival = load_archival_options(archival_path)
@@ -426,25 +459,27 @@ def build_calendars(
     if errors:
         raise ValueError("conference data is invalid; run scripts/validate.py")
     conferences = with_archival(with_scopes(conferences, scopes), archival)
+    reference = reference or feed_reference_date()
+    current = [conference for conference in conferences if not is_past_edition(conference, reference)]
 
     docs_dir.mkdir(parents=True, exist_ok=True)
 
     outputs = [
         (
             docs_dir / "calendar-all.ics",
-            _calendar("Scientific Conferences", _all_events(conferences)),
+            _calendar("Scientific Conferences", _all_events(current)),
         ),
         (
             docs_dir / "deadlines.ics",
-            _calendar("Scientific Conference Deadlines", _deadline_events(conferences)),
+            _calendar("Scientific Conference Deadlines", _deadline_events(current)),
         ),
         (
             docs_dir / "conferences.ics",
-            _calendar("Scientific Conference Dates", _conference_events(conferences)),
+            _calendar("Scientific Conference Dates", _conference_events(current)),
         ),
         (
             docs_dir / "submissions.ics",
-            _calendar("Venue Radar: Submission Deadlines", _submission_events(conferences)),
+            _calendar("Venue Radar: Submission Deadlines", _submission_events(current)),
         ),
     ]
 
@@ -453,7 +488,7 @@ def build_calendars(
         path.write_text(content, encoding="utf-8")
         paths.append(path)
 
-    paths.extend(_write_topic_feeds(conferences, docs_dir / "tags"))
+    paths.extend(_write_topic_feeds(conferences, docs_dir / "tags", {c["id"] for c in current}))
     paths.extend(_write_conference_feeds(conferences, docs_dir / "conferences"))
     paths.extend(_write_series_feeds(conferences, docs_dir / "series"))
     return paths

@@ -10,66 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:eccv-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260226T220000Z
-DTEND:20260226T230000Z
-SUMMARY:ECCV 2026 · Paper registration deadline
-DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to 
- 2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
- at: Paper-based / Springer proceedings\; Archival option: Yes\nOfficial s
- ource: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#eccv-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:eccv-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260305T220000Z
-DTEND:20260305T230000Z
-SUMMARY:ECCV 2026 · Paper submission deadline
-DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to 
- 2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
- at: Paper-based / Springer proceedings\; Archival option: Yes\nOfficial s
- ource: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#eccv-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:eccv-2026-deadline-supplementary@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260312T220000Z
-DTEND:20260312T230000Z
-SUMMARY:ECCV 2026 · Supplementary material deadline
-DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to 
- 2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
- at: Paper-based / Springer proceedings\; Archival option: Yes\nOfficial s
- ource: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#eccv-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:euvip-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260616T115900Z
-DTEND:20260616T125900Z
-SUMMARY:EUVIP 2026 · Extended regular paper submission deadline
-DESCRIPTION:European Conference on Visual Information Processing\nMeeting: 
- 2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
- hecked 2026-10-07\nFormat: Regular and special-session papers\; Archival 
- option: Yes\nOfficial source: https://euvip2026.github.io/\nVenue Radar: 
- https://gon-uri.github.io/venue-radar/#euvip-2026
-CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
- Learning,Deep Representation Learning
-URL:https://euvip2026.github.io/
-END:VEVENT
-BEGIN:VEVENT
 UID:accv-2026-deadline-workshop-proposal@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260628T235900Z
@@ -85,21 +25,6 @@ DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://accv2026.org/submissions/call-for-workshops/
-END:VEVENT
-BEGIN:VEVENT
-UID:eccv-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260701T115900Z
-DTEND:20260701T125900Z
-SUMMARY:ECCV 2026 · Camera-ready deadline
-DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to 
- 2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
- at: Paper-based / Springer proceedings\; Archival option: Yes\nOfficial s
- ource: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#eccv-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:accv-2026-deadline-abstract@scientific-conference-calendar
@@ -147,22 +72,6 @@ DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
 CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
  ity,Natural Language Processing & LLMs,Recommender Systems
 URL:https://iui.acm.org/2027/call-for-workshops/
-END:VEVENT
-BEGIN:VEVENT
-UID:euvip-2026-deadline-special-session-paper@scientific-conference-calenda
- r
-DTSTAMP:19700101T000000Z
-DTSTART:20260708T115900Z
-DTEND:20260708T125900Z
-SUMMARY:EUVIP 2026 · Extended special-session paper submission deadline
-DESCRIPTION:European Conference on Visual Information Processing\nMeeting: 
- 2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
- hecked 2026-10-07\nFormat: Regular and special-session papers\; Archival 
- option: Yes\nOfficial source: https://euvip2026.github.io/\nVenue Radar: 
- https://gon-uri.github.io/venue-radar/#euvip-2026
-CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
- Learning,Deep Representation Learning
-URL:https://euvip2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:accv-2026-deadline-supplementary@scientific-conference-calendar
@@ -290,24 +199,6 @@ CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
 URL:https://3dvconf.github.io/2027/
 END:VEVENT
 BEGIN:VEVENT
-UID:eccv-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260913
-SUMMARY:ECCV 2026 · Conference
-DESCRIPTION:European Conference on Computer Vision\nStatus: confirmed\, che
- cked 2026-10-07\nOfficial source: https://eccv.ecva.net/Conferences/2026/
- Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#eccv-2026\nNot
- es: Completed 2026 edition retained for the archive. Official dates use 2
- 3:00 CET for registration/papers (22:00 UTC)\, but camera-ready is AoE. E
- CCV is biennial in even years. XXL is supported by the 2024 organizers' r
- eport of 6\,705 participants.
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
-LOCATION:Malmo\, Sweden
-END:VEVENT
-BEGIN:VEVENT
 UID:accv-2026-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260920
@@ -322,25 +213,6 @@ DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://accv2026.org/submissions/author-guidelines/
-END:VEVENT
-BEGIN:VEVENT
-UID:euvip-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20261002
-SUMMARY:EUVIP 2026 · Conference
-DESCRIPTION:European Conference on Visual Information Processing\nStatus: c
- onfirmed\, checked 2026-10-07\nOfficial source: https://euvip2026.github.
- io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#euvip-2026\nNote
- s: Completed 2026 edition retained for the archive. Latest organizer anno
- uncements supersede the original CFP deadlines\, confirming June 15 for r
- egular papers and July 7 for special sessions\, both 23:59 AoE. Recent 20
- 24-2026 editions support an annual planning cadence. S is an editorial es
- timate\; no ICORE or CCF rank is borrowed from related venues.
-CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
- Learning,Deep Representation Learning
-URL:https://euvip2026.github.io/
-LOCATION:Luxembourg\, Luxembourg
 END:VEVENT
 BEGIN:VEVENT
 UID:accv-2026-deadline-camera-ready@scientific-conference-calendar

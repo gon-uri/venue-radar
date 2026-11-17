@@ -10,205 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:waspaa-2025-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250501T115900Z
-DTEND:20250501T125900Z
-SUMMARY:WASPAA 2025 · Initial CMT submission with title and abstract (mand
- atory\; extended from Apr 23)
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/important-dates/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250508T115900Z
-DTEND:20250508T125900Z
-SUMMARY:WASPAA 2025 · Full 4+1-page paper deadline (extended from Apr 30)
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/important-dates/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20250702
-DTEND;VALUE=DATE:20250703
-SUMMARY:WASPAA 2025 · Paper acceptance notification
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: of
- ficial deadline day only. Verify the organizer's submission portal.\nForm
- at: Paper-based / 4+1-page double-blind papers\, IEEE Xplore proceedings\
- ; Archival option: Yes\nOfficial source: https://www.waspaa.com/waspaa25/
- important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#was
- paa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250717T115900Z
-DTEND:20250717T125900Z
-SUMMARY:WASPAA 2025 · Camera-ready upload
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/author-guidelines-and-p
- aper-templates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#wasp
- aa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/author-guidelines-and-paper-templates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-demo@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250717T115900Z
-DTEND:20250717T125900Z
-SUMMARY:WASPAA 2025 · Demonstration submissions (separate 2-page CMT track
- )
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/call-for-demonstrations
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/call-for-demonstrations/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-registration@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250820T115900Z
-DTEND:20250820T125900Z
-SUMMARY:WASPAA 2025 · Author registration deadline (extended from Aug 17)
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/important-dates/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20251012
-DTEND;VALUE=DATE:20251016
-SUMMARY:WASPAA 2025 · Conference
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nStatus: confirmed\, checked 2026-10-31\nOfficial source: http
- s://www.waspaa.com/waspaa25/\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#waspaa-2025\nNotes: Archived official pages confirm Granlibakken
-  Tahoe Resort\, Tahoe City\, Oct 12-15\, 2025\, fully in-person and the f
- irst WASPAA away from Mohonk Mountain House. All deadlines were 23:59 AoE
- \; the initial CMT entry (title and abstract) was mandatory\, and both pa
- per deadlines moved a week later. Papers were 4 pages plus a references p
- age\, double-blind with rebuttal. The general chairs' SPS report gives 95
-  of 211 reviewed papers accepted (45%\; 246 initial) and 169 attendees\; 
- the proceedings are in IEEE Xplore. Demos were a separate 2-page track. S
- ize is an editorial estimate.
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/
-LOCATION:Tahoe City\, California\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20251025T115900Z
-DTEND:20251025T125900Z
-SUMMARY:LREC 2026 · Paper submission deadline
-DESCRIPTION:Language Resources and Evaluation Conference\nMeeting: 2026-05-
- 11 to 2026-05-16\, Palma de Mallorca\, Spain\nStatus: confirmed\, checked
-  2026-10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source:
-  https://lrec2026.info/third-call-for-papers/\nVenue Radar: https://gon-u
- ri.github.io/venue-radar/#lrec-2026
-CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
- gnal Processing
-URL:https://lrec2026.info/third-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:eccv-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260226T220000Z
-DTEND:20260226T230000Z
-SUMMARY:ECCV 2026 · Paper registration deadline
-DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to 
- 2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
- at: Paper-based / Springer proceedings\; Archival option: Yes\nOfficial s
- ource: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#eccv-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:eccv-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260305T220000Z
-DTEND:20260305T230000Z
-SUMMARY:ECCV 2026 · Paper submission deadline
-DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to 
- 2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
- at: Paper-based / Springer proceedings\; Archival option: Yes\nOfficial s
- ource: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#eccv-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:eccv-2026-deadline-supplementary@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260312T220000Z
-DTEND:20260312T230000Z
-SUMMARY:ECCV 2026 · Supplementary material deadline
-DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to 
- 2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
- at: Paper-based / Springer proceedings\; Archival option: Yes\nOfficial s
- ource: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#eccv-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:lrec-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260316T115900Z
-DTEND:20260316T125900Z
-SUMMARY:LREC 2026 · Camera-ready deadline
-DESCRIPTION:Language Resources and Evaluation Conference\nMeeting: 2026-05-
- 11 to 2026-05-16\, Palma de Mallorca\, Spain\nStatus: confirmed\, checked
-  2026-10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source:
-  https://lrec2026.info/third-call-for-papers/\nVenue Radar: https://gon-u
- ri.github.io/venue-radar/#lrec-2026
-CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
- gnal Processing
-URL:https://lrec2026.info/third-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
 UID:acm-mm-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260325
@@ -226,36 +27,6 @@ CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
 URL:https://2026.acmmm.org/site/important-dates.html
 END:VEVENT
 BEGIN:VEVENT
-UID:colm-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260327T115900Z
-DTEND:20260327T125900Z
-SUMMARY:COLM 2026 · Mandatory abstract deadline
-DESCRIPTION:Conference on Language Modeling\nMeeting: 2026-10-06 to 2026-10
- -09\, San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-
- 10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://colm.cc/Conferences/2026/CallForPapers\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#colm-2026
-CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
- LLM Agents & Tool Use,Information Retrieval & Search
-URL:https://colm.cc/Conferences/2026/CallForPapers
-END:VEVENT
-BEGIN:VEVENT
-UID:colm-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260401T115900Z
-DTEND:20260401T125900Z
-SUMMARY:COLM 2026 · Paper submission deadline
-DESCRIPTION:Conference on Language Modeling\nMeeting: 2026-10-06 to 2026-10
- -09\, San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-
- 10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://colm.cc/Conferences/2026/CallForPapers\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#colm-2026
-CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
- LLM Agents & Tool Use,Information Retrieval & Search
-URL:https://colm.cc/Conferences/2026/CallForPapers
-END:VEVENT
-BEGIN:VEVENT
 UID:acm-mm-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260401
@@ -271,38 +42,6 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
-END:VEVENT
-BEGIN:VEVENT
-UID:lrec-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260511
-DTEND;VALUE=DATE:20260517
-SUMMARY:LREC 2026 · Conference
-DESCRIPTION:Language Resources and Evaluation Conference\nStatus: confirmed
- \, checked 2026-10-07\nOfficial source: https://lrec2026.info/\nVenue Rad
- ar: https://gon-uri.github.io/venue-radar/#lrec-2026\nNotes: Archived ful
- l conference window includes workshops\; main sessions May 13-15. Resourc
- es\, datasets\, annotation and evaluation characterize the venue. Size is
-  an editorial estimate.
-CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
- gnal Processing
-URL:https://lrec2026.info/
-LOCATION:Palma de Mallorca\, Spain
-END:VEVENT
-BEGIN:VEVENT
-UID:euvip-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260616T115900Z
-DTEND:20260616T125900Z
-SUMMARY:EUVIP 2026 · Extended regular paper submission deadline
-DESCRIPTION:European Conference on Visual Information Processing\nMeeting: 
- 2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
- hecked 2026-10-07\nFormat: Regular and special-session papers\; Archival 
- option: Yes\nOfficial source: https://euvip2026.github.io/\nVenue Radar: 
- https://gon-uri.github.io/venue-radar/#euvip-2026
-CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
- Learning,Deep Representation Learning
-URL:https://euvip2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-2027-deadline-abstract@scientific-conference-calendar
@@ -337,55 +76,6 @@ CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
-UID:eccv-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260701T115900Z
-DTEND:20260701T125900Z
-SUMMARY:ECCV 2026 · Camera-ready deadline
-DESCRIPTION:European Conference on Computer Vision\nMeeting: 2026-09-08 to 
- 2026-09-12\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-10-07\nForm
- at: Paper-based / Springer proceedings\; Archival option: Yes\nOfficial s
- ource: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#eccv-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:conll-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260705
-SUMMARY:CoNLL 2026 · Conference
-DESCRIPTION:Conference on Computational Natural Language Learning\nStatus: 
- confirmed\, checked 2026-10-07\nOfficial source: https://www.conll.org/20
- 26\nVenue Radar: https://gon-uri.github.io/venue-radar/#conll-2026\nNotes
- : Archived meeting dates and focused scientific/cognitive NLP scope are c
- onfirmed. The current 2026 program no longer exposes the submission sched
- ule\; no past deadline has been invented. Size is an editorial estimate.
-CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
- onal Cognition,Computational Neuroscience,Explainability & Interpretabili
- ty
-URL:https://www.conll.org/2026
-LOCATION:San Diego\, California\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:euvip-2026-deadline-special-session-paper@scientific-conference-calenda
- r
-DTSTAMP:19700101T000000Z
-DTSTART:20260708T115900Z
-DTEND:20260708T125900Z
-SUMMARY:EUVIP 2026 · Extended special-session paper submission deadline
-DESCRIPTION:European Conference on Visual Information Processing\nMeeting: 
- 2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
- hecked 2026-10-07\nFormat: Regular and special-session papers\; Archival 
- option: Yes\nOfficial source: https://euvip2026.github.io/\nVenue Radar: 
- https://gon-uri.github.io/venue-radar/#euvip-2026
-CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
- Learning,Deep Representation Learning
-URL:https://euvip2026.github.io/
-END:VEVENT
-BEGIN:VEVENT
 UID:acm-mm-2026-deadline-workshop-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260716
@@ -401,53 +91,6 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
-END:VEVENT
-BEGIN:VEVENT
-UID:inlg-2026-deadline-demo-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260719T115959Z
-DTEND:20260719T125959Z
-SUMMARY:INLG 2026 · System demo paper submission (2 pages plus screencast\
- ; in the proceedings)
-DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
- 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
- cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
- te non-archival poster track\; Archival option: Yes\nOfficial source: htt
- ps://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github
- .io/venue-radar/#inlg-2026
-CATEGORIES:Natural Language Processing & LLMs
-URL:https://2026.inlgmeeting.org/calls.html
-END:VEVENT
-BEGIN:VEVENT
-UID:inlg-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260719T115959Z
-DTEND:20260719T125959Z
-SUMMARY:INLG 2026 · Long and short paper direct submission (extended from 
- July 15)
-DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
- 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
- cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
- te non-archival poster track\; Archival option: Yes\nOfficial source: htt
- ps://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github
- .io/venue-radar/#inlg-2026
-CATEGORIES:Natural Language Processing & LLMs
-URL:https://2026.inlgmeeting.org/calls.html
-END:VEVENT
-BEGIN:VEVENT
-UID:inlg-2026-deadline-commitment@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260806T115959Z
-DTEND:20260806T125959Z
-SUMMARY:INLG 2026 · Commitment of ARR-reviewed papers
-DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
- 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
- cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
- te non-archival poster track\; Archival option: Yes\nOfficial source: htt
- ps://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github
- .io/venue-radar/#inlg-2026
-CATEGORIES:Natural Language Processing & LLMs
-URL:https://2026.inlgmeeting.org/calls.html
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-mm-2026-deadline-camera-ready@scientific-conference-calendar
@@ -467,22 +110,6 @@ CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
 URL:https://2026.acmmm.org/site/important-dates.html
 END:VEVENT
 BEGIN:VEVENT
-UID:inlg-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260816
-SUMMARY:INLG 2026 · Acceptance notification
-DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
- 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
- cked 2026-10-31\nCutoff time unannounced: official deadline day only. Ver
- ify the organizer's submission portal.\nFormat: Paper-based / ACL Antholo
- gy proceedings\; separate non-archival poster track\; Archival option: Ye
- s\nOfficial source: https://2026.inlgmeeting.org/calls.html\nVenue Radar:
-  https://gon-uri.github.io/venue-radar/#inlg-2026
-CATEGORIES:Natural Language Processing & LLMs
-URL:https://2026.inlgmeeting.org/calls.html
-END:VEVENT
-BEGIN:VEVENT
 UID:wacv-2027-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260822T115900Z
@@ -497,38 +124,6 @@ DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
  esentation Learning
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
-END:VEVENT
-BEGIN:VEVENT
-UID:inlg-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260823T115900Z
-DTEND:20260823T125900Z
-SUMMARY:INLG 2026 · Non-archival track (work-in-progress abstract of up to
-  300 words\, or a paper published elsewhere\; poster\, not in the proceed
- ings)
-DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
- 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
- cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
- te non-archival poster track\; Archival option: Yes\nOfficial source: htt
- ps://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github
- .io/venue-radar/#inlg-2026
-CATEGORIES:Natural Language Processing & LLMs
-URL:https://2026.inlgmeeting.org/calls.html
-END:VEVENT
-BEGIN:VEVENT
-UID:inlg-2026-deadline-shared-task-proposal@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260823T115900Z
-DTEND:20260823T125900Z
-SUMMARY:INLG 2026 · Generation Challenges shared-task proposals
-DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
- 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
- cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
- te non-archival poster track\; Archival option: Yes\nOfficial source: htt
- ps://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github
- .io/venue-radar/#inlg-2026
-CATEGORIES:Natural Language Processing & LLMs
-URL:https://2026.inlgmeeting.org/calls.html
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-2027-deadline-regular-paper@scientific-conference-calendar
@@ -547,39 +142,6 @@ CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
-UID:eccv-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260913
-SUMMARY:ECCV 2026 · Conference
-DESCRIPTION:European Conference on Computer Vision\nStatus: confirmed\, che
- cked 2026-10-07\nOfficial source: https://eccv.ecva.net/Conferences/2026/
- Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#eccv-2026\nNot
- es: Completed 2026 edition retained for the archive. Official dates use 2
- 3:00 CET for registration/papers (22:00 UTC)\, but camera-ready is AoE. E
- CCV is biennial in even years. XXL is supported by the 2024 organizers' r
- eport of 6\,705 participants.
-CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
- ng,Machine Learning
-URL:https://eccv.ecva.net/Conferences/2026/Dates
-LOCATION:Malmo\, Sweden
-END:VEVENT
-BEGIN:VEVENT
-UID:inlg-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260908T115900Z
-DTEND:20260908T125900Z
-SUMMARY:INLG 2026 · Camera-ready deadline
-DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
- 2026-10-17 to 2026-10-21\, Utrecht\, Netherlands\nStatus: confirmed\, che
- cked 2026-10-31\nFormat: Paper-based / ACL Anthology proceedings\; separa
- te non-archival poster track\; Archival option: Yes\nOfficial source: htt
- ps://2026.inlgmeeting.org/calls.html\nVenue Radar: https://gon-uri.github
- .io/venue-radar/#inlg-2026
-CATEGORIES:Natural Language Processing & LLMs
-URL:https://2026.inlgmeeting.org/calls.html
-END:VEVENT
-BEGIN:VEVENT
 UID:ecir-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260922T115900Z
@@ -593,41 +155,6 @@ DESCRIPTION:European Conference on Information Retrieval\nMeeting: 2027-03-
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.ecir2027.co.uk/call-for-full-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:euvip-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20261002
-SUMMARY:EUVIP 2026 · Conference
-DESCRIPTION:European Conference on Visual Information Processing\nStatus: c
- onfirmed\, checked 2026-10-07\nOfficial source: https://euvip2026.github.
- io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#euvip-2026\nNote
- s: Completed 2026 edition retained for the archive. Latest organizer anno
- uncements supersede the original CFP deadlines\, confirming June 15 for r
- egular papers and July 7 for special sessions\, both 23:59 AoE. Recent 20
- 24-2026 editions support an annual planning cadence. S is an editorial es
- timate\; no ICORE or CCF rank is borrowed from related venues.
-CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
- Learning,Deep Representation Learning
-URL:https://euvip2026.github.io/
-LOCATION:Luxembourg\, Luxembourg
-END:VEVENT
-BEGIN:VEVENT
-UID:colm-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261010
-SUMMARY:COLM 2026 · Conference
-DESCRIPTION:Conference on Language Modeling\nStatus: confirmed\, checked 20
- 26-10-07\nOfficial source: https://colm.cc/\nVenue Radar: https://gon-uri
- .github.io/venue-radar/#colm-2026\nNotes: Third annual edition\, Hilton U
- nion Square. Ongoing conference with new-paper submissions closed\; Octob
- er 9 workshops included. Size is an editorial estimate.
-CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
- LLM Agents & Tool Use,Information Retrieval & Search
-URL:https://colm.cc/
-LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-full-paper@scientific-conference-calendar
@@ -691,28 +218,6 @@ DESCRIPTION:European Conference on Information Retrieval\nMeeting: 2027-03-
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
  age Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.ecir2027.co.uk/call-for-short-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:inlg-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261022
-SUMMARY:INLG 2026 · Conference
-DESCRIPTION:International Natural Language Generation Conference\nStatus: c
- onfirmed\, checked 2026-10-31\nOfficial source: https://2026.inlgmeeting.
- org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#inlg-2026\nNote
- s: Official INLG 2026 pages (reviewed 2026-10-31) confirm Utrecht (Spoorw
- egmuseum\; hosted by Utrecht University)\, Oct 17-21: workshops and tutor
- ials Oct 17-18\, main conference Oct 19-21\, presentations in person only
- . All deadlines are AoE. Direct long/short and demo submissions moved fro
- m July 15 to July 18\; the last ARR submission deadline eligible for comm
- itment was May 25. A new non-archival track took work-in-progress abstrac
- ts (max 300 words) or papers published elsewhere\, with light review. Acc
- epted: 82 long\, 13 short and 5 demo papers (ACL Anthology) plus 27 non-a
- rchival posters. Size is an editorial estimate.
-CATEGORIES:Natural Language Processing & LLMs
-URL:https://2026.inlgmeeting.org/
-LOCATION:Utrecht\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:ecir-2027-deadline-regular-paper@scientific-conference-calendar

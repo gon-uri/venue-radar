@@ -10,39 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:areadne-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260130
-DTEND;VALUE=DATE:20260131
-SUMMARY:AREADNE 2026 · Contributed talk/poster abstract submission deadlin
- e
-DESCRIPTION:AREADNE: Research in Encoding and Decoding of Neural Ensembles\
- nMeeting: 2026-06-23 to 2026-06-27\, Milos\, Greece\nStatus: confirmed\, 
- checked 2026-10-08\nCutoff time unannounced: official deadline day only. 
- Verify the organizer's submission portal.\nFormat: Abstract-based\; Archi
- val option: No\nOfficial source: https://areadne.org/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#areadne-2026
-CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,B
- CI & Neurotechnology
-URL:https://areadne.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:areadne-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260306
-DTEND;VALUE=DATE:20260307
-SUMMARY:AREADNE 2026 · Abstract acceptance notification
-DESCRIPTION:AREADNE: Research in Encoding and Decoding of Neural Ensembles\
- nMeeting: 2026-06-23 to 2026-06-27\, Milos\, Greece\nStatus: confirmed\, 
- checked 2026-10-08\nCutoff time unannounced: official deadline day only. 
- Verify the organizer's submission portal.\nFormat: Abstract-based\; Archi
- val option: No\nOfficial source: https://areadne.org/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#areadne-2026
-CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,B
- CI & Neurotechnology
-URL:https://areadne.org/
-END:VEVENT
-BEGIN:VEVENT
 UID:sfn-neuroscience-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260610T210000Z
@@ -57,24 +24,6 @@ DESCRIPTION:Society for Neuroscience Annual Meeting\nMeeting: 2026-11-14 to
 CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
  ognitive Science & Computational Cognition,Neuroimaging & Brain Mapping
 URL:https://www.sfn.org/cfa
-END:VEVENT
-BEGIN:VEVENT
-UID:areadne-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260623
-DTEND;VALUE=DATE:20260628
-SUMMARY:AREADNE 2026 · Conference
-DESCRIPTION:AREADNE: Research in Encoding and Decoding of Neural Ensembles\
- nStatus: confirmed\, checked 2026-10-08\nOfficial source: https://areadne
- .org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#areadne-2026\n
- Notes: Historical biennial meeting. June 23 is the welcome reception\; sc
- ientific sessions follow. Proceedings are an abstract book\, not archival
-  full papers. Abstracts opened January 12\, 2026\; exact opening and cuto
- ff hours were not announced. Size is an editorial estimate.
-CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,B
- CI & Neurotechnology
-URL:https://areadne.org/
-LOCATION:Milos\, Greece
 END:VEVENT
 BEGIN:VEVENT
 UID:sfn-neuroscience-2026-deadline-late-abstract@scientific-conference-cale
@@ -111,26 +60,6 @@ DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
 CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
  Signals
 URL:https://www.nans.org/neural-interfaces/
-END:VEVENT
-BEGIN:VEVENT
-UID:iccn-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261026
-SUMMARY:ICCN 2026 (est.) · Conference
-DESCRIPTION:International Conference on Cognitive Neurodynamics\nStatus: es
- timated\, checked 2026-10-08. Check the organizer's call before relying o
- n it.\nOfficial source: https://iccn2026.jp/\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#iccn-2026\nNotes: Organizer page body listed Oct
- ober 22-25 but its metadata said October 27-30\; dates stay provisional. 
- In the 2026-10-28 review iccn2026.jp did not resolve (JPRS whois status S
- uspended\, updated 2026-10-01)\; dates unchanged and unverified\, and no 
- successor edition was found. No deadline or proceedings promise verified.
-  Not the clinical ICCN congresses. Size is an editorial estimate.
-CATEGORIES:Computational Neuroscience,Cognitive Science & Computational Cog
- nition,Nonlinear Dynamics & Chaos,Complex Systems & Network Science
-URL:https://iccn2026.jp/
-LOCATION:Osaka\, Japan
 END:VEVENT
 BEGIN:VEVENT
 UID:sfn-neuroscience-2026-conference@scientific-conference-calendar

@@ -10,99 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:ccn-2026-deadline-full-paper-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260210T115900Z
-DTEND:20260210T125900Z
-SUMMARY:CCN 2026 · 8-page paper abstract deadline
-DESCRIPTION:Conference on Cognitive Computational Neuroscience\nMeeting: 20
- 26-08-03 to 2026-08-06\, New York\, New York\, USA\nStatus: confirmed\, c
- hecked 2026-08-31\nFormat: Mixed: proceedings + extended abstracts\; Arch
- ival option: Yes\nOfficial source: https://2026.ccneuro.org/dates-and-dea
- dlines/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ccn-2026
-CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
- ging & Brain Mapping,Machine Learning
-URL:https://2026.ccneuro.org/dates-and-deadlines/
-END:VEVENT
-BEGIN:VEVENT
-UID:ccn-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260213T115900Z
-DTEND:20260213T125900Z
-SUMMARY:CCN 2026 · 8-page full paper submission deadline
-DESCRIPTION:Conference on Cognitive Computational Neuroscience\nMeeting: 20
- 26-08-03 to 2026-08-06\, New York\, New York\, USA\nStatus: confirmed\, c
- hecked 2026-08-31\nFormat: Mixed: proceedings + extended abstracts\; Arch
- ival option: Yes\nOfficial source: https://2026.ccneuro.org/dates-and-dea
- dlines/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ccn-2026
-CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
- ging & Brain Mapping,Machine Learning
-URL:https://2026.ccneuro.org/dates-and-deadlines/
-END:VEVENT
-BEGIN:VEVENT
-UID:miccai-2026-deadline-registration@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260213T115900Z
-DTEND:20260213T125900Z
-SUMMARY:MICCAI 2026 · Paper registration deadline
-DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nMeeting: 2026-09-27 to 2026-10-01\, Strasbourg\,
-  France\nStatus: confirmed\, checked 2026-08-20\nFormat: Paper-based\; Ar
- chival option: Yes\nOfficial source: https://conferences.miccai.org/2026/
- en/default.asp\nVenue Radar: https://gon-uri.github.io/venue-radar/#micca
- i-2026
-CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
- Learning,Neuroimaging & Brain Mapping
-URL:https://conferences.miccai.org/2026/en/default.asp
-END:VEVENT
-BEGIN:VEVENT
-UID:miccai-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260227T115900Z
-DTEND:20260227T125900Z
-SUMMARY:MICCAI 2026 · Full paper submission deadline
-DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nMeeting: 2026-09-27 to 2026-10-01\, Strasbourg\,
-  France\nStatus: confirmed\, checked 2026-08-20\nFormat: Paper-based\; Ar
- chival option: Yes\nOfficial source: https://conferences.miccai.org/2026/
- en/default.asp\nVenue Radar: https://gon-uri.github.io/venue-radar/#micca
- i-2026
-CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
- Learning,Neuroimaging & Brain Mapping
-URL:https://conferences.miccai.org/2026/en/default.asp
-END:VEVENT
-BEGIN:VEVENT
-UID:ccn-2026-deadline-extended-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260403T115900Z
-DTEND:20260403T125900Z
-SUMMARY:CCN 2026 · 2-page extended abstract submission deadline
-DESCRIPTION:Conference on Cognitive Computational Neuroscience\nMeeting: 20
- 26-08-03 to 2026-08-06\, New York\, New York\, USA\nStatus: confirmed\, c
- hecked 2026-08-31\nFormat: Mixed: proceedings + extended abstracts\; Arch
- ival option: Yes\nOfficial source: https://2026.ccneuro.org/dates-and-dea
- dlines/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ccn-2026
-CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
- ging & Brain Mapping,Machine Learning
-URL:https://2026.ccneuro.org/dates-and-deadlines/
-END:VEVENT
-BEGIN:VEVENT
-UID:biomag-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260501T115900Z
-DTEND:20260501T125900Z
-SUMMARY:BIOMAG 2026 (est.) · Abstract submission deadline
-DESCRIPTION:International Conference on Biomagnetism\nMeeting: 2026-08-23 t
- o 2026-08-25 (est.)\, Beijing\, China\nStatus: estimated\, checked 2026-0
- 9-14. Check the organizer's call before relying on it.\nFormat: Abstract-
- based / specialist venue\; Archival option: No (est.)\nOfficial source: h
- ttps://mm.scimeeting.cn/en/web/index/31426\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#biomag-2026
-CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
- nal Neuroscience,Signal Processing
-URL:https://mm.scimeeting.cn/en/web/index/31426
-END:VEVENT
-BEGIN:VEVENT
 UID:sfn-neuroscience-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260610T210000Z
@@ -117,39 +24,6 @@ DESCRIPTION:Society for Neuroscience Annual Meeting\nMeeting: 2026-11-14 to
 CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
  ognitive Science & Computational Cognition,Neuroimaging & Brain Mapping
 URL:https://www.sfn.org/cfa
-END:VEVENT
-BEGIN:VEVENT
-UID:ccn-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260807
-SUMMARY:CCN 2026 · Conference
-DESCRIPTION:Conference on Cognitive Computational Neuroscience\nStatus: con
- firmed\, checked 2026-08-31\nOfficial source: https://2026.ccneuro.org/\n
- Venue Radar: https://gon-uri.github.io/venue-radar/#ccn-2026\nNotes: Offi
- cial CCN 2026 pages confirm New York University\, Aug 3-6\, and the two s
- ubmission-track deadlines.
-CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
- ging & Brain Mapping,Machine Learning
-URL:https://2026.ccneuro.org/
-LOCATION:New York\, New York\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:biomag-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260823
-DTEND;VALUE=DATE:20260826
-SUMMARY:BIOMAG 2026 (est.) · Conference
-DESCRIPTION:International Conference on Biomagnetism\nStatus: estimated\, c
- hecked 2026-09-14. Check the organizer's call before relying on it.\nOffi
- cial source: https://mm.scimeeting.cn/en/web/index/31426\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#biomag-2026\nNotes: Official BIOMAG 
- 2026 page confirms Beijing and Aug 23-25\, 2026. Abstract deadline remain
- s an estimate until the submission page is rechecked.
-CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
- nal Neuroscience,Signal Processing
-URL:https://mm.scimeeting.cn/en/web/index/31426
-LOCATION:Beijing\, China
 END:VEVENT
 BEGIN:VEVENT
 UID:sfn-neuroscience-2026-deadline-late-abstract@scientific-conference-cale
@@ -186,23 +60,6 @@ DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nMeeting: 2027-03
 CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
   Mapping,EEG/MEG & Neural Signals
 URL:https://www.cogneurosociety.org/submit-a-symposium/
-END:VEVENT
-BEGIN:VEVENT
-UID:miccai-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20261002
-SUMMARY:MICCAI 2026 · Conference
-DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nStatus: confirmed\, checked 2026-08-20\nOfficial
-  source: https://conferences.miccai.org/2026/en/default.asp\nVenue Radar:
-  https://gon-uri.github.io/venue-radar/#miccai-2026\nNotes: Official MICC
- AI Society pages list the relocated Strasbourg venue\, Sep 27-Oct 1 dates
- \, and paper registration/submission deadlines.
-CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
- Learning,Neuroimaging & Brain Mapping
-URL:https://conferences.miccai.org/2026/en/default.asp
-LOCATION:Strasbourg\, France
 END:VEVENT
 BEGIN:VEVENT
 UID:cns-cogneuro-2027-deadline-abstract@scientific-conference-calendar

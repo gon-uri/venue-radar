@@ -10,97 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:icml-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260124T115900Z
-DTEND:20260124T125900Z
-SUMMARY:ICML 2026 · Abstract submission deadline
-DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
- 06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
- 08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://icml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#icml-2026
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:icml-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260129T115900Z
-DTEND:20260129T125900Z
-SUMMARY:ICML 2026 · Full paper submission deadline
-DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
- 06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
- 08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://icml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#icml-2026
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:icml-2026-deadline-workshop@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260214T115900Z
-DTEND:20260214T125900Z
-SUMMARY:ICML 2026 · Workshop application deadline
-DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
- 06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
- 08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://icml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#icml-2026
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260226T115900Z
-DTEND:20260226T125900Z
-SUMMARY:UAI 2026 · Paper submission deadline
-DESCRIPTION:Conference on Uncertainty in Artificial Intelligence\nMeeting: 
- 2026-08-17 to 2026-08-21\, Amsterdam\, Netherlands\nStatus: confirmed\, c
- hecked 2026-08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial s
- ource: https://www.auai.org/uai2026/important_dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#uai-2026
-CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
- g Theory & Statistical Foundations
-URL:https://www.auai.org/uai2026/important_dates
-END:VEVENT
-BEGIN:VEVENT
-UID:rlc-2026-deadline-abstract-registration@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260306T115900Z
-DTEND:20260306T125900Z
-SUMMARY:RLC 2026 · Abstract submission (extended from March 1 to the paper
-  cutoff)
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
- 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
- : Paper-based / published in the Reinforcement Learning Journal (RLJ)\; A
- rchival option: Yes\nOfficial source: https://rl-conference.cc/2026/callf
- orpapers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#rlc-20
- 26
-CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
-END:VEVENT
-BEGIN:VEVENT
-UID:rlc-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260306T115900Z
-DTEND:20260306T125900Z
-SUMMARY:RLC 2026 · Paper submission deadline
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
- 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
- : Paper-based / published in the Reinforcement Learning Journal (RLJ)\; A
- rchival option: Yes\nOfficial source: https://rl-conference.cc/2026/callf
- orpapers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#rlc-20
- 26
-CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
-END:VEVENT
-BEGIN:VEVENT
 UID:ieee-cdc-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260331
@@ -115,23 +24,6 @@ DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2026-12-15 to
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos,Reinforcement Learning
 URL:https://cdc2026.ieeecss.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:smc-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260503
-DTEND;VALUE=DATE:20260504
-SUMMARY:SMC 2026 · Extended regular/special-session paper deadline
-DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
- s\nMeeting: 2026-10-04 to 2026-10-07\, Bellevue\, Washington\, USA\nStatu
- s: confirmed\, checked 2026-10-07\nCutoff time unannounced: official dead
- line day only. Verify the organizer's submission portal.\nFormat: Paper-b
- ased\; Archival option: Yes\nOfficial source: https://www.ieeesmc2026.org
- /Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#smc
- -2026
-CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
- rning,Human-AI Interaction & Deployment
-URL:https://www.ieeesmc2026.org/Important-Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
@@ -149,21 +41,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
-UID:rlc-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260506T115900Z
-DTEND:20260506T125900Z
-SUMMARY:RLC 2026 · Decision notification (moved from May 8)
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
- 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
- : Paper-based / published in the Reinforcement Learning Journal (RLJ)\; A
- rchival option: Yes\nOfficial source: https://rl-conference.cc/2026/callf
- orpapers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#rlc-20
- 26
-CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
-END:VEVENT
-BEGIN:VEVENT
 UID:neurips-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260507T115900Z
@@ -179,85 +56,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
-UID:sab-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260516T065900Z
-DTEND:20260516T075900Z
-SUMMARY:SAB 2026 · Poster abstract submission deadline (independent route)
-DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
- eting: 2026-10-19 to 2026-10-22\, Berlin\, Germany\nStatus: confirmed\, c
- hecked 2026-10-08\nFormat: Reviewed papers + non-archival contributions\;
-  Archival option: Yes\nOfficial source: https://sab-conference.org/call-f
- or-contributions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sa
- b-2026
-CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
- gnitive Science & Computational Cognition,Control & Robotics
-URL:https://sab-conference.org/call-for-contributions/
-END:VEVENT
-BEGIN:VEVENT
-UID:sab-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260516T065900Z
-DTEND:20260516T075900Z
-SUMMARY:SAB 2026 · Peer-reviewed proceedings paper submission deadline
-DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
- eting: 2026-10-19 to 2026-10-22\, Berlin\, Germany\nStatus: confirmed\, c
- hecked 2026-10-08\nFormat: Reviewed papers + non-archival contributions\;
-  Archival option: Yes\nOfficial source: https://sab-conference.org/call-f
- or-contributions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sa
- b-2026
-CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
- gnitive Science & Computational Cognition,Control & Robotics
-URL:https://sab-conference.org/call-for-contributions/
-END:VEVENT
-BEGIN:VEVENT
-UID:smc-2026-deadline-short-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260517
-DTEND;VALUE=DATE:20260518
-SUMMARY:SMC 2026 · Extended work-in-progress/industry paper deadline
-DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
- s\nMeeting: 2026-10-04 to 2026-10-07\, Bellevue\, Washington\, USA\nStatu
- s: confirmed\, checked 2026-10-07\nCutoff time unannounced: official dead
- line day only. Verify the organizer's submission portal.\nFormat: Paper-b
- ased\; Archival option: Yes\nOfficial source: https://www.ieeesmc2026.org
- /Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#smc
- -2026
-CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
- rning,Human-AI Interaction & Deployment
-URL:https://www.ieeesmc2026.org/Important-Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:corl-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260526T115900Z
-DTEND:20260526T125900Z
-SUMMARY:CoRL 2026 · Mandatory abstract registration deadline
-DESCRIPTION:Conference on Robot Learning\nMeeting: 2026-11-09 to 2026-11-12
- \, Austin\, Texas\, USA\nStatus: confirmed\, checked 2026-10-07\nFormat: 
- Paper-based\; Archival option: Yes\nOfficial source: https://openreview.n
- et/group?id=robot-learning.org/CoRL/2026/Conference\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#corl-2026
-CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
- Representation Learning
-URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
-END:VEVENT
-BEGIN:VEVENT
-UID:corl-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260529T115900Z
-DTEND:20260529T125900Z
-SUMMARY:CoRL 2026 · Main conference paper submission deadline
-DESCRIPTION:Conference on Robot Learning\nMeeting: 2026-11-09 to 2026-11-12
- \, Austin\, Texas\, USA\nStatus: confirmed\, checked 2026-10-07\nFormat: 
- Paper-based\; Archival option: Yes\nOfficial source: https://openreview.n
- et/group?id=robot-learning.org/CoRL/2026/Conference\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#corl-2026
-CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
- Representation Learning
-URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
-END:VEVENT
-BEGIN:VEVENT
 UID:neurips-2026-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260607T115900Z
@@ -271,23 +69,6 @@ DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
 CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:sab-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260619
-DTEND;VALUE=DATE:20260620
-SUMMARY:SAB 2026 · Acceptance notification
-DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
- eting: 2026-10-19 to 2026-10-22\, Berlin\, Germany\nStatus: confirmed\, c
- hecked 2026-10-08\nCutoff time unannounced: official deadline day only. V
- erify the organizer's submission portal.\nFormat: Reviewed papers + non-a
- rchival contributions\; Archival option: Yes\nOfficial source: https://sa
- b-conference.org/call-for-contributions/\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#sab-2026
-CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
- gnitive Science & Computational Cognition,Control & Robotics
-URL:https://sab-conference.org/call-for-contributions/
 END:VEVENT
 BEGIN:VEVENT
 UID:acml-2026-deadline-journal-paper@scientific-conference-calendar
@@ -306,22 +87,6 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:icml-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260712
-SUMMARY:ICML 2026 · Conference
-DESCRIPTION:International Conference on Machine Learning\nStatus: confirmed
- \, checked 2026-08-20\nOfficial source: https://icml.cc/Conferences/2026/
- Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#icml-2026\nNot
- es: Official ICML 2026 dates page lists tutorials\, main conference\, wor
- kshops\, and paper deadlines.
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-LOCATION:Seoul\, South Korea
-END:VEVENT
-BEGIN:VEVENT
 UID:acml-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260706T115900Z
@@ -335,108 +100,6 @@ DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2026-12-01 to 20
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
  inability & Interpretability,Robustness & Safety
 URL:https://www.acml-conf.org/2026/calls/papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260709T115900Z
-DTEND:20260709T125900Z
-SUMMARY:UAI 2026 · Camera-ready deadline
-DESCRIPTION:Conference on Uncertainty in Artificial Intelligence\nMeeting: 
- 2026-08-17 to 2026-08-21\, Amsterdam\, Netherlands\nStatus: confirmed\, c
- hecked 2026-08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial s
- ource: https://www.auai.org/uai2026/important_dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#uai-2026
-CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
- g Theory & Statistical Foundations
-URL:https://www.auai.org/uai2026/important_dates
-END:VEVENT
-BEGIN:VEVENT
-UID:smc-2026-deadline-extended-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260712
-DTEND;VALUE=DATE:20260713
-SUMMARY:SMC 2026 · Two-page abstract submission deadline
-DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
- s\nMeeting: 2026-10-04 to 2026-10-07\, Bellevue\, Washington\, USA\nStatu
- s: confirmed\, checked 2026-10-07\nCutoff time unannounced: official dead
- line day only. Verify the organizer's submission portal.\nFormat: Paper-b
- ased\; Archival option: Yes\nOfficial source: https://www.ieeesmc2026.org
- /Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#smc
- -2026
-CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
- rning,Human-AI Interaction & Deployment
-URL:https://www.ieeesmc2026.org/Important-Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:sab-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260717
-DTEND;VALUE=DATE:20260718
-SUMMARY:SAB 2026 · Camera-ready proceedings paper deadline
-DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
- eting: 2026-10-19 to 2026-10-22\, Berlin\, Germany\nStatus: confirmed\, c
- hecked 2026-10-08\nCutoff time unannounced: official deadline day only. V
- erify the organizer's submission portal.\nFormat: Reviewed papers + non-a
- rchival contributions\; Archival option: Yes\nOfficial source: https://sa
- b-conference.org/call-for-contributions/\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#sab-2026
-CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
- gnitive Science & Computational Cognition,Control & Robotics
-URL:https://sab-conference.org/call-for-contributions/
-END:VEVENT
-BEGIN:VEVENT
-UID:rlc-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260719T115900Z
-DTEND:20260719T125900Z
-SUMMARY:RLC 2026 · Camera-ready paper due
-DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2026-08-15 to 2026-
- 08-18\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-31\nFormat
- : Paper-based / published in the Reinforcement Learning Journal (RLJ)\; A
- rchival option: Yes\nOfficial source: https://rl-conference.cc/2026/callf
- orpapers.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#rlc-20
- 26
-CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/callforpapers.html
-END:VEVENT
-BEGIN:VEVENT
-UID:rlc-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260819
-SUMMARY:RLC 2026 · Conference
-DESCRIPTION:Reinforcement Learning Conference\nStatus: confirmed\, checked 
- 2026-10-31\nOfficial source: https://rl-conference.cc/2026/index.html\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#rlc-2026\nNotes: Third 
- RLC (annual since 2024). Official pages confirm Aug 15-18\, 2026 at Unive
- rsité de Montréal (Aug 15 workshops\, Aug 16-18 main program). Accepted
-  papers appear in the Reinforcement Learning Journal (RLJ\, ISSN 2996-857
- 7) after double-blind OpenReview review\; one author must attend in perso
- n. The abstract deadline was extended from March 1 to March 5 AoE\, the p
- aper cutoff\, so it is kept as a schedule-only step. The submission site 
- was to open by February 17 (no time given). No official acceptance rate w
- as found. Size M rests on 148 RLJ 2026 papers in the official paper sched
- ule\; attendance is unpublished. Size is an editorial estimate.
-CATEGORIES:Reinforcement Learning,Machine Learning
-URL:https://rl-conference.cc/2026/index.html
-LOCATION:Montreal\, Canada
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260822
-SUMMARY:UAI 2026 · Conference
-DESCRIPTION:Conference on Uncertainty in Artificial Intelligence\nStatus: c
- onfirmed\, checked 2026-08-20\nOfficial source: https://www.auai.org/uai2
- 026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#uai-2026\nNotes
- : Official UAI 2026 pages list tutorials\, main conference\, workshops\, 
- and paper submission deadline.
-CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
- g Theory & Statistical Foundations
-URL:https://www.auai.org/uai2026/
-LOCATION:Amsterdam\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:acc-2027-deadline-journal-paper@scientific-conference-calendar
@@ -569,24 +232,6 @@ CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
 URL:https://acc2027.a2c2.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:smc-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261004
-DTEND;VALUE=DATE:20261008
-SUMMARY:SMC 2026 · Conference
-DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
- s\nStatus: confirmed\, checked 2026-10-07\nOfficial source: https://www.i
- eeesmc2026.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#smc-
- 2026\nNotes: Organizer date table confirms October 4-7 (society calendar 
- has older October 4-6). Duplicate camera-ready blocks disagree August 2/9
- \, so neither is asserted. Exact paper cutoff hours unannounced. Size is 
- an editorial estimate.
-CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
- rning,Human-AI Interaction & Deployment
-URL:https://www.ieeesmc2026.org/
-LOCATION:Bellevue\, Washington\, USA
-END:VEVENT
-BEGIN:VEVENT
 UID:aamas-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261009T115900Z
@@ -618,21 +263,6 @@ CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
 URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:corl-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261013T115900Z
-DTEND:20261013T125900Z
-SUMMARY:CoRL 2026 · Camera-ready deadline
-DESCRIPTION:Conference on Robot Learning\nMeeting: 2026-11-09 to 2026-11-12
- \, Austin\, Texas\, USA\nStatus: confirmed\, checked 2026-10-07\nFormat: 
- Paper-based\; Archival option: Yes\nOfficial source: https://www.corl.org
- /contributions/instruction-for-authors\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#corl-2026
-CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
- Representation Learning
-URL:https://www.corl.org/contributions/instruction-for-authors
-END:VEVENT
-BEGIN:VEVENT
 UID:acc-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261016
@@ -647,24 +277,6 @@ DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Reinforcement Learning
 URL:https://acc2027.a2c2.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:sab-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261023
-SUMMARY:SAB 2026 · Conference
-DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nSt
- atus: confirmed\, checked 2026-10-08\nOfficial source: https://sab-confer
- ence.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2026\n
- Notes: Biennial ISAB conference. Reviewed track-1 papers appear in Spring
- er LNAI\; the other tracks include non-archival papers\, poster abstracts
-  and position papers. The stated submission cutoff is Pacific Time\, not 
- AoE\; May 15 uses daylight time. Size is an editorial estimate.
-CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
- gnitive Science & Computational Cognition,Control & Robotics
-URL:https://sab-conference.org/
-LOCATION:Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
 UID:acc-2027-deadline-tutorial-proposal@scientific-conference-calendar
@@ -749,25 +361,6 @@ CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
-END:VEVENT
-BEGIN:VEVENT
-UID:corl-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261113
-SUMMARY:CoRL 2026 · Conference
-DESCRIPTION:Conference on Robot Learning\nStatus: confirmed\, checked 2026-
- 10-07\nOfficial source: https://www.corl.org/\nVenue Radar: https://gon-u
- ri.github.io/venue-radar/#corl-2026\nNotes: Tenth annual edition\; main c
- onference Nov 9-11 and workshops Nov 12. OpenReview's May 26/29 at 11:59 
- UTC correspond to May 25/28 at 23:59 AoE\, consistent with the author ins
- tructions' Thursday May 28 cutoff. Abstract registration is mandatory. Sa
- tellite workshop papers are not main-track opportunities. ICORE 2026 list
- s CoRL as Unranked\, not A/A*/B/C. Size L is an editorial estimate.
-CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
- Representation Learning
-URL:https://www.corl.org/
-LOCATION:Austin\, Texas\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ssci-2027-deadline-notification@scientific-conference-calendar

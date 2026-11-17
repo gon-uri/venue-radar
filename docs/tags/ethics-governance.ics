@@ -10,142 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:amia-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260311T035900Z
-DTEND:20260311T045900Z
-SUMMARY:AMIA 2026 · Podium abstracts (2 pages\, not MEDLINE-indexed)
-DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
- ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
-  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
-  Central\; podium abstracts and posters not MEDLINE-indexed\; Archival op
- tion: Yes\nOfficial source: https://web.archive.org/web/20260307122538/ht
- tps://amia.secure-platform.com/symposium\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#amia-2026
-CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
- eraction & Deployment
-URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
- .com/symposium
-END:VEVENT
-BEGIN:VEVENT
-UID:amia-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260311T035900Z
-DTEND:20260311T045900Z
-SUMMARY:AMIA 2026 · Papers and student papers (5-10 pages\, proceedings ar
- chived in PMC)
-DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
- ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
-  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
-  Central\; podium abstracts and posters not MEDLINE-indexed\; Archival op
- tion: Yes\nOfficial source: https://web.archive.org/web/20260307122538/ht
- tps://amia.secure-platform.com/symposium\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#amia-2026
-CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
- eraction & Deployment
-URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
- .com/symposium
-END:VEVENT
-BEGIN:VEVENT
-UID:amia-2026-deadline-poster@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260311T035900Z
-DTEND:20260311T045900Z
-SUMMARY:AMIA 2026 · Posters (1 page\, not MEDLINE-indexed)
-DESCRIPTION:American Medical Informatics Association Annual Symposium\nMeet
- ing: 2026-11-07 to 2026-11-11\, Dallas\, Texas\, USA\nStatus: confirmed\,
-  checked 2026-10-31\nFormat: Paper-based / proceedings archived in PubMed
-  Central\; podium abstracts and posters not MEDLINE-indexed\; Archival op
- tion: Yes\nOfficial source: https://web.archive.org/web/20260307122538/ht
- tps://amia.secure-platform.com/symposium\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#amia-2026
-CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
- eraction & Deployment
-URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
- .com/symposium
-END:VEVENT
-BEGIN:VEVENT
-UID:eaamo-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260509T115900Z
-DTEND:20260509T125900Z
-SUMMARY:EAAMO 2026 · Mandatory abstract registration on OpenReview
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 8 AoE
- \; the OpenReview venue page lists abstract registration until May 9\, 13
- :00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or n
- on-archival\; WiP posters non-archival\; Archival option: Yes\nOfficial s
- ource: https://conference2026.eaamo.org/cfp/\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#eaamo-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:aies-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260515T115900Z
-DTEND:20260515T125900Z
-SUMMARY:AIES 2026 · Abstract registration deadline
-DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2026
- -10-12 to 2026-10-14\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-1
- 0-28\nFormat: Paper-based / interdisciplinary\; Archival option: Yes\nOff
- icial source: https://www.aies-conference.com/2026/call-for-papers/\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#aies-2026
-CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
- nterpretability,Robustness & Safety
-URL:https://www.aies-conference.com/2026/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:eaamo-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260516T115900Z
-DTEND:20260516T125900Z
-SUMMARY:EAAMO 2026 · Paper submission (archival or non-archival option)
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 15 Ao
- E\; the OpenReview venue page lists the submission deadline as May 16\, 1
- 3:00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or 
- non-archival\; WiP posters non-archival\; Archival option: Yes\nOfficial 
- source: https://conference2026.eaamo.org/cfp/\nVenue Radar: https://gon-u
- ri.github.io/venue-radar/#eaamo-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:aies-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260522T115900Z
-DTEND:20260522T125900Z
-SUMMARY:AIES 2026 · Paper submission deadline
-DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2026
- -10-12 to 2026-10-14\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-1
- 0-28\nFormat: Paper-based / interdisciplinary\; Archival option: Yes\nOff
- icial source: https://www.aies-conference.com/2026/call-for-papers/\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#aies-2026
-CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
- nterpretability,Robustness & Safety
-URL:https://www.aies-conference.com/2026/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:eaamo-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260802
-SUMMARY:EAAMO 2026 · Paper notification
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
- osters non-archival\; Archival option: Yes\nOfficial source: https://conf
- erence2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri.github.io/venue-r
- adar/#eaamo-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
 UID:biosig-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260816
@@ -161,23 +25,6 @@ DESCRIPTION:International Conference of the Biometrics Special Interest Gro
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Robustness & Safety,Privacy-preserving ML
 URL:https://biosig.de/
-END:VEVENT
-BEGIN:VEVENT
-UID:eaamo-2026-deadline-poster@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260908T115900Z
-DTEND:20260908T125900Z
-SUMMARY:EAAMO 2026 · Work-in-progress poster (title and abstract\; non-arc
- hival)
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM DL pro
- ceedings (archival option) or non-archival\; WiP posters non-archival\; A
- rchival option: Yes\nOfficial source: https://conference2026.eaamo.org/ca
- ll_for_posters/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eaam
- o-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/call_for_posters/
 END:VEVENT
 BEGIN:VEVENT
 UID:biosig-2026-deadline-notification@scientific-conference-calendar
@@ -213,23 +60,6 @@ CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
-UID:eaamo-2026-deadline-poster-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:EAAMO 2026 · Work-in-progress poster notification
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
- osters non-archival\; Archival option: Yes\nOfficial source: https://conf
- erence2026.eaamo.org/call_for_posters/\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#eaamo-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/call_for_posters/
-END:VEVENT
-BEGIN:VEVENT
 UID:aamas-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261009T115900Z
@@ -260,24 +90,6 @@ DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
  ub.io/venue-radar/#chiir-2027
 CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
 URL:https://chiir2027.github.io/full-papers.html
-END:VEVENT
-BEGIN:VEVENT
-UID:aies-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261015
-SUMMARY:AIES 2026 · Conference
-DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nStatus: confi
- rmed\, checked 2026-10-28\nOfficial source: https://www.aies-conference.c
- om/2026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aies-2026\n
- Notes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026\, mandatory
-  abstract pre-registration by May 14 and papers by May 21 (AoE). As of 20
- 26-10-28 no 2027 edition is announced\; AAAI's AIES page lists the tenth 
- AIES with 'additional information to come'.
-CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
- nterpretability,Robustness & Safety
-URL:https://www.aies-conference.com/2026/
-LOCATION:Malmo\, Sweden
 END:VEVENT
 BEGIN:VEVENT
 UID:neural-interfaces-2027-deadline-speaker-proposal@scientific-conference-
@@ -439,28 +251,6 @@ CATEGORIES:Fairness & Responsible AI,Explainability & Interpretability,Ethi
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
-UID:eaamo-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261108
-SUMMARY:EAAMO 2026 · Conference
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nStatus: confirmed\, checked 2026-10-31\nOfficial sour
- ce: https://conference2026.eaamo.org/\nVenue Radar: https://gon-uri.githu
- b.io/venue-radar/#eaamo-2026\nNotes: Sixth ACM EAAMO\, Nov 5-7\, 2026 at 
- LMU Munich\; virtual-only Zoom registration covers keynotes and paper tal
- ks. Abstract/paper deadlines were postponed one week from May 1/8 (AoE). 
- OpenReview's abstract registration stage gates papers\, which choose an a
- rchival (ACM DL\, up to 14 pages camera-ready) or non-archival option\; d
- ouble-blind\, six tracks. WiP posters need only a title and abstract and 
- are not in the proceedings. Size basis is 70 accepted papers (34 orals\, 
- 36 posters) and a 150+ seat main hall in the host call. Size is an editor
- ial estimate.
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/
-LOCATION:Munich\, Germany
-END:VEVENT
-BEGIN:VEVENT
 UID:aamas-2027-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261106T115900Z
@@ -476,32 +266,6 @@ CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
-END:VEVENT
-BEGIN:VEVENT
-UID:amia-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261112
-SUMMARY:AMIA 2026 · Conference
-DESCRIPTION:American Medical Informatics Association Annual Symposium\nStat
- us: confirmed\, checked 2026-10-31\nOfficial source: https://web.archive.
- org/web/20261001143649/https://amia.org/education-events/amia-2026-annual
- -symposium\nVenue Radar: https://gon-uri.github.io/venue-radar/#amia-2026
- \nNotes: amia.org blocks automated access\, so its pages were read via In
- ternet Archive captures (May-Oct 2026). They confirm Nov 7-11\, 2026 at t
- he Hilton Anatole\, Dallas. The single submission portal gave one deadlin
- e for all nine types\, Tuesday March 10\, 2026 at 11:59 p.m. EDT (capture
- s Jan 20-Mar 7\, 2026)\, and now says closed. No capture from Mar 10 to A
- pr 16 shows whether it was extended (2025 moved from Mar 19 to Mar 25). P
- apers appear in the proceedings archived in PMC\; podium abstracts and po
- sters are not MEDLINE-indexed. Panels\, debates\, demos\, tutorials and w
- orkshops are not tracked as routes. AMIA cites 2\,300+ attendees for Dall
- as. Size is an editorial estimate.
-CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Human-AI Int
- eraction & Deployment
-URL:https://web.archive.org/web/20261001143649/https://amia.org/education-e
- vents/amia-2026-annual-symposium
-LOCATION:Dallas\, Texas\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-late-abstract@scientific-conference-calendar

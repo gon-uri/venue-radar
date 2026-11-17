@@ -10,66 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:kdd-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260202T115900Z
-DTEND:20260202T125900Z
-SUMMARY:KDD 2026 · Abstract submission deadline
-DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
- eeting: 2026-08-09 to 2026-08-13\, Jeju\, Korea\nStatus: confirmed\, chec
- ked 2026-08-20\nFormat: Paper-based / mixed tracks\; Archival option: Yes
- \nOfficial source: https://kdd2026.kdd.org/research-track-call-for-papers
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2026
-CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
- tial Data,Federated & Distributed Learning
-URL:https://kdd2026.kdd.org/research-track-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:kdd-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260209T115900Z
-DTEND:20260209T125900Z
-SUMMARY:KDD 2026 · Paper submission deadline
-DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
- eeting: 2026-08-09 to 2026-08-13\, Jeju\, Korea\nStatus: confirmed\, chec
- ked 2026-08-20\nFormat: Paper-based / mixed tracks\; Archival option: Yes
- \nOfficial source: https://kdd2026.kdd.org/research-track-call-for-papers
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2026
-CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
- tial Data,Federated & Distributed Learning
-URL:https://kdd2026.kdd.org/research-track-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:aies-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260515T115900Z
-DTEND:20260515T125900Z
-SUMMARY:AIES 2026 · Abstract registration deadline
-DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2026
- -10-12 to 2026-10-14\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-1
- 0-28\nFormat: Paper-based / interdisciplinary\; Archival option: Yes\nOff
- icial source: https://www.aies-conference.com/2026/call-for-papers/\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#aies-2026
-CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
- nterpretability,Robustness & Safety
-URL:https://www.aies-conference.com/2026/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:aies-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260522T115900Z
-DTEND:20260522T125900Z
-SUMMARY:AIES 2026 · Paper submission deadline
-DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2026
- -10-12 to 2026-10-14\, Malmo\, Sweden\nStatus: confirmed\, checked 2026-1
- 0-28\nFormat: Paper-based / interdisciplinary\; Archival option: Yes\nOff
- icial source: https://www.aies-conference.com/2026/call-for-papers/\nVenu
- e Radar: https://gon-uri.github.io/venue-radar/#aies-2026
-CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
- nterpretability,Robustness & Safety
-URL:https://www.aies-conference.com/2026/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
 UID:acml-2026-deadline-journal-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260621T115900Z
@@ -99,22 +39,6 @@ DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2026-12-01 to 20
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
  inability & Interpretability,Robustness & Safety
 URL:https://www.acml-conf.org/2026/calls/papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:kdd-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260809
-DTEND;VALUE=DATE:20260814
-SUMMARY:KDD 2026 · Conference
-DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-08-20\nOfficial source: https://www.kdd.o
- rg/conferences\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2
- 026\nNotes: Official SIGKDD and KDD 2026 pages list conference dates and 
- research-track Cycle 2 deadlines.
-CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
- tial Data,Federated & Distributed Learning
-URL:https://www.kdd.org/conferences
-LOCATION:Jeju\, Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:biosig-2026-deadline-full-paper@scientific-conference-calendar
@@ -181,24 +105,6 @@ DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
 CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
   AI,Explainability & Interpretability
 URL:https://satml.org/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:aies-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261015
-SUMMARY:AIES 2026 · Conference
-DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nStatus: confi
- rmed\, checked 2026-10-28\nOfficial source: https://www.aies-conference.c
- om/2026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aies-2026\n
- Notes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026\, mandatory
-  abstract pre-registration by May 14 and papers by May 21 (AoE). As of 20
- 26-10-28 no 2027 edition is announced\; AAAI's AIES page lists the tenth 
- AIES with 'additional information to come'.
-CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
- nterpretability,Robustness & Safety
-URL:https://www.aies-conference.com/2026/
-LOCATION:Malmo\, Sweden
 END:VEVENT
 BEGIN:VEVENT
 UID:alt-2027-deadline-full-paper@scientific-conference-calendar

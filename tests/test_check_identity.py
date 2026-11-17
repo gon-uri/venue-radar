@@ -13,7 +13,9 @@ from check_identity import (
     compare,
     edition_ids,
     ics_uids,
+    git_feed_texts,
     is_retired,
+    local_feed_texts,
     parse_retired,
     unexplained_removals,
     unfold_ics,
@@ -48,6 +50,15 @@ class UnfoldingTests(unittest.TestCase):
     def test_only_uid_properties_are_collected(self) -> None:
         text = "DESCRIPTION:UID:not-an-id\r\nUID:real\r\nX-UID:other\r\n"
         self.assertEqual(ics_uids(text), {"real"})
+
+    def test_identities_are_read_from_every_edition_feed(self) -> None:
+        # ADR-053: the combined feed leaves out past editions, but each edition's
+        # own feed keeps all its events, so the check reads both.
+        combined = ics_uids((ROOT / "docs" / "calendar-all.ics").read_text(encoding="utf-8"))
+        everything = ics_uids(local_feed_texts())
+        self.assertTrue(combined < everything)
+        self.assertIn(uid("ts4h-2025-conference"), everything - combined)
+        self.assertEqual(ics_uids(git_feed_texts("HEAD") or "") >= combined, True)
 
     def test_published_feed_uids_parse_completely(self) -> None:
         text = (ROOT / "docs" / "calendar-all.ics").read_text(encoding="utf-8")

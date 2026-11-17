@@ -10,115 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:icml-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260124T115900Z
-DTEND:20260124T125900Z
-SUMMARY:ICML 2026 · Abstract submission deadline
-DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
- 06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
- 08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://icml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#icml-2026
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:icml-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260129T115900Z
-DTEND:20260129T125900Z
-SUMMARY:ICML 2026 · Full paper submission deadline
-DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
- 06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
- 08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://icml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#icml-2026
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:kdd-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260202T115900Z
-DTEND:20260202T125900Z
-SUMMARY:KDD 2026 · Abstract submission deadline
-DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
- eeting: 2026-08-09 to 2026-08-13\, Jeju\, Korea\nStatus: confirmed\, chec
- ked 2026-08-20\nFormat: Paper-based / mixed tracks\; Archival option: Yes
- \nOfficial source: https://kdd2026.kdd.org/research-track-call-for-papers
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2026
-CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
- tial Data,Federated & Distributed Learning
-URL:https://kdd2026.kdd.org/research-track-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:kdd-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260209T115900Z
-DTEND:20260209T125900Z
-SUMMARY:KDD 2026 · Paper submission deadline
-DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
- eeting: 2026-08-09 to 2026-08-13\, Jeju\, Korea\nStatus: confirmed\, chec
- ked 2026-08-20\nFormat: Paper-based / mixed tracks\; Archival option: Yes
- \nOfficial source: https://kdd2026.kdd.org/research-track-call-for-papers
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2026
-CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
- tial Data,Federated & Distributed Learning
-URL:https://kdd2026.kdd.org/research-track-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:icml-2026-deadline-workshop@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260214T115900Z
-DTEND:20260214T125900Z
-SUMMARY:ICML 2026 · Workshop application deadline
-DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
- 06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
- 08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://icml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#icml-2026
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:icons-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260409T115900Z
-DTEND:20260409T125900Z
-SUMMARY:ICONS 2026 · Full paper submission (up to 8 pages\; extended from 
- April 1\, no further extension)
-DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
- 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
- checked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings
-  (full and short papers)\; students-only poster competition\; Archival op
- tion: Yes\nOfficial source: https://iconsneuromorphic.cc/calls-2026/\nVen
- ue Radar: https://gon-uri.github.io/venue-radar/#icons-2026
-CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
- ure,Machine Learning
-URL:https://iconsneuromorphic.cc/calls-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:icons-2026-deadline-short-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260409T115900Z
-DTEND:20260409T125900Z
-SUMMARY:ICONS 2026 · Short paper submission (up to 4 pages\; position or p
- reliminary results)
-DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
- 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
- checked 2026-10-31\nFormat: Paper-based / ACM Digital Library proceedings
-  (full and short papers)\; students-only poster competition\; Archival op
- tion: Yes\nOfficial source: https://iconsneuromorphic.cc/calls-2026/\nVen
- ue Radar: https://gon-uri.github.io/venue-radar/#icons-2026
-CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
- ure,Machine Learning
-URL:https://iconsneuromorphic.cc/calls-2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260505T115900Z
@@ -149,24 +40,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
-UID:icons-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260605
-DTEND;VALUE=DATE:20260606
-SUMMARY:ICONS 2026 · Final notification of acceptance
-DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
- 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
- checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
- Verify the organizer's submission portal.\nFormat: Paper-based / ACM Digi
- tal Library proceedings (full and short papers)\; students-only poster co
- mpetition\; Archival option: Yes\nOfficial source: https://iconsneuromorp
- hic.cc/calls-2026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#i
- cons-2026
-CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
- ure,Machine Learning
-URL:https://iconsneuromorphic.cc/calls-2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:neurips-2026-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260607T115900Z
@@ -180,101 +53,6 @@ DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
 CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:icons-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260624
-DTEND;VALUE=DATE:20260625
-SUMMARY:ICONS 2026 · Camera-ready papers due
-DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
- 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
- checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
- Verify the organizer's submission portal.\nFormat: Paper-based / ACM Digi
- tal Library proceedings (full and short papers)\; students-only poster co
- mpetition\; Archival option: Yes\nOfficial source: https://iconsneuromorp
- hic.cc/calls-2026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#i
- cons-2026
-CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
- ure,Machine Learning
-URL:https://iconsneuromorphic.cc/calls-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-biocas-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-SUMMARY:IEEE BioCAS 2026 · Research paper submission deadline
-DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2026-
- 10-08 to 2026-10-10\, Incheon\, South Korea\nStatus: confirmed\, checked 
- 2026-10-08\nCutoff time unannounced: official deadline day only. Verify t
- he organizer's submission portal.\nFormat: Paper-based\; Archival option:
-  Yes\nOfficial source: https://2026.ieee-biocas.org/2026/pages_submission
- /call_for_papers.vm\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- ieee-biocas-2026
-CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
- ,Neuromorphic & Brain-inspired Computing
-URL:https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
-END:VEVENT
-BEGIN:VEVENT
-UID:icons-2026-deadline-student-poster-competition@scientific-conference-ca
- lendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260704
-SUMMARY:ICONS 2026 · Student poster competition submission (students only)
-DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
- 2026-08-04 to 2026-08-06\, Chicago\, Illinois\, USA\nStatus: confirmed\, 
- checked 2026-10-31\nCutoff time unannounced: official deadline day only. 
- Verify the organizer's submission portal.\nFormat: Paper-based / ACM Digi
- tal Library proceedings (full and short papers)\; students-only poster co
- mpetition\; Archival option: Yes\nOfficial source: https://iconsneuromorp
- hic.cc/Students-2026/\nVenue Radar: https://gon-uri.github.io/venue-radar
- /#icons-2026
-CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
- ure,Machine Learning
-URL:https://iconsneuromorphic.cc/Students-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:icml-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260712
-SUMMARY:ICML 2026 · Conference
-DESCRIPTION:International Conference on Machine Learning\nStatus: confirmed
- \, checked 2026-08-20\nOfficial source: https://icml.cc/Conferences/2026/
- Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#icml-2026\nNot
- es: Official ICML 2026 dates page lists tutorials\, main conference\, wor
- kshops\, and paper deadlines.
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-LOCATION:Seoul\, South Korea
-END:VEVENT
-BEGIN:VEVENT
-UID:icons-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260807
-SUMMARY:ICONS 2026 · Conference
-DESCRIPTION:ACM International Conference on Neuromorphic Systems\nStatus: c
- onfirmed\, checked 2026-10-31\nOfficial source: https://iconsneuromorphic
- .cc/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icons-2026\nNot
- es: Official pages confirm ICONS 2026 on Aug 4-6\, 2026 at the Chicago Ma
- rriott Naperville (Chicago area)\, with virtual registration\; each proce
- edings paper needs an in-person registration. Papers were due Apr 8 AoE (
- the site strikes Apr 1\; EasyChair still lists Apr 1)\; rejected papers m
- ay become posters. Proceedings are ACM DL open access (ACM Open or APC). 
- Tutorial and special-session proposals were organiser routes outside the 
- proceedings. The students-only poster form gave no hour or publication. S
- ize basis is about 40 single-track paper talks and 9 accepted posters in 
- 2026\, and 175 participants with 29 papers at the virtual 2021 edition (O
- RNL). The students-only poster competition is schedule-only\, like other 
- student-only routes. Size is an editorial estimate.
-CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
- ure,Machine Learning
-URL:https://iconsneuromorphic.cc/
-LOCATION:Chicago\, Illinois\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:log-2026-deadline-abstract@scientific-conference-calendar
@@ -305,22 +83,6 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:kdd-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260809
-DTEND;VALUE=DATE:20260814
-SUMMARY:KDD 2026 · Conference
-DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-08-20\nOfficial source: https://www.kdd.o
- rg/conferences\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2
- 026\nNotes: Official SIGKDD and KDD 2026 pages list conference dates and 
- research-track Cycle 2 deadlines.
-CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
- tial Data,Federated & Distributed Learning
-URL:https://www.kdd.org/conferences
-LOCATION:Jeju\, Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-deadline-abstract@scientific-conference-calendar
@@ -383,23 +145,6 @@ DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
 CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
   AI,Explainability & Interpretability
 URL:https://satml.org/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-biocas-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261011
-SUMMARY:IEEE BioCAS 2026 · Conference
-DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nStatus: confir
- med\, checked 2026-10-08\nOfficial source: https://2026.ieee-biocas.org/2
- 026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-202
- 6\nNotes: Main conference October 8-10\; adjacent workshops are October 7
-  and 11. Reviewed accepted papers appear in IEEE proceedings. Exact submi
- ssion cutoff hour is unannounced. Size is an editorial estimate.
-CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
- ,Neuromorphic & Brain-inspired Computing
-URL:https://2026.ieee-biocas.org/2026/
-LOCATION:Incheon\, South Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:log-2026-deadline-camera-ready@scientific-conference-calendar

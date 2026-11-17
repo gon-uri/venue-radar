@@ -30,6 +30,7 @@ explicit refinements take precedence. Current rules live in
 | Expanded-row venue facts (archival track line, "About this venue" toggle) | ADR-050 |
 | Review-queue truthfulness, size guardrails, search-text deduplication | ADR-048 (refines ADR-040/042's queue and ADR-047's archival queue rule) |
 | XLSX review mirror retired | ADR-052 (earlier ADRs' workbook clauses are historical) |
+| Past editions leave the combined feeds | ADR-053 (refines ADR-044/045's feed-size levers; identity check reads per-edition feeds) |
 
 ## ADR-001: Keep the Project Static
 
@@ -1254,3 +1255,36 @@ explicit refinements take precedence. Current rules live in
   in git history if it is ever needed.
 - Alternatives considered: freezing it as a dated snapshot (still invites
   stale reads and keeps the tooling); keeping it synchronized.
+
+## ADR-053: Leave Past Editions Out Of The Combined Feeds
+
+- Status: Accepted by the owner on 2026-11-17 ("leave past editions out of
+  the combined feeds").
+- Date: 2026-11-17
+- Context: `calendar-all.ics` reached 913,523 bytes (91% of the roughly 1 MB
+  Google Calendar URL-feed limit; ADR-044), leaving room for about 24 more
+  editions. ADR-044/045 named two levers: drop CATEGORIES or prune past
+  editions. The owner chose pruning.
+- Decision:
+  1. An edition is past when its meeting's last day and every recorded
+     milestone's day are before `data/metadata.yml`'s `last_updated`. The
+     reviewed date, not the build day, keeps builds deterministic; the combined
+     feeds change only when the dataset is reviewed.
+  2. `calendar-all.ics`, `deadlines.ics`, `conferences.ics`,
+     `submissions.ics` and every `tags/` topic feed leave out past editions.
+     Topic feed files follow every edition, so no topic URL disappears.
+  3. Per-edition feeds (`conferences/<id>.ics`) and series feeds
+     (`series/<slug>.ics`, "all editions") keep every edition unchanged.
+  4. `check_identity.py` reads `calendar-all.ics` plus every per-edition
+     feed. A UID still counts as published while any feed carries it, so a
+     past edition leaving the combined feeds needs no retirement entry.
+- Consequences: On the 2026-11-14 data, 61 of 260 editions are past;
+  `calendar-all.ics` is 722,109 bytes (72%). Subscribers to the combined or
+  topic feeds see those past events removed from their calendars at the next
+  refresh; series and edition subscribers keep them. UIDs, edition IDs and
+  the site are unchanged. Tests cover the cutoff rule, the pruned feeds, the
+  stable topic feed set and the identity check.
+- Alternatives considered: dropping CATEGORIES (smaller gain, loses topic
+  metadata; still available); pruning by build day (non-deterministic, would
+  break CI's drift check); pruning series feeds too (they promise every
+  edition).

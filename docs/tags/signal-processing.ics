@@ -10,307 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:waspaa-2025-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250501T115900Z
-DTEND:20250501T125900Z
-SUMMARY:WASPAA 2025 · Initial CMT submission with title and abstract (mand
- atory\; extended from Apr 23)
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/important-dates/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250508T115900Z
-DTEND:20250508T125900Z
-SUMMARY:WASPAA 2025 · Full 4+1-page paper deadline (extended from Apr 30)
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/important-dates/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:asru-2025-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20250528
-DTEND;VALUE=DATE:20250529
-SUMMARY:ASRU 2025 · Regular and special-session paper submission deadline
-DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
- eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
- rmed\, checked 2026-11-14\nCutoff time unannounced: official deadline day
-  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
- EEE Xplore proceedings\; Archival option: Yes\nOfficial source: https://2
- 025.ieeeasru.org/authors/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#asru-2025
-CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
- rning,Deep Representation Learning
-URL:https://2025.ieeeasru.org/authors/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:asru-2025-deadline-paper-update@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20250604
-DTEND;VALUE=DATE:20250605
-SUMMARY:ASRU 2025 · Revision deadline for already submitted regular and sp
- ecial-session papers
-DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
- eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
- rmed\, checked 2026-11-14\nCutoff time unannounced: official deadline day
-  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
- EEE Xplore proceedings\; Archival option: Yes\nOfficial source: https://2
- 025.ieeeasru.org/authors/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#asru-2025
-CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
- rning,Deep Representation Learning
-URL:https://2025.ieeeasru.org/authors/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:asru-2025-deadline-short-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20250625
-DTEND;VALUE=DATE:20250626
-SUMMARY:ASRU 2025 · Demo\, system\, data and challenge paper submission de
- adline (3 + 1 pages\, single-blind)
-DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
- eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
- rmed\, checked 2026-11-14\nCutoff time unannounced: official deadline day
-  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
- EEE Xplore proceedings\; Archival option: Yes\nOfficial source: https://2
- 025.ieeeasru.org/calls/call-for-demos/\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#asru-2025
-CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
- rning,Deep Representation Learning
-URL:https://2025.ieeeasru.org/calls/call-for-demos/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20250702
-DTEND;VALUE=DATE:20250703
-SUMMARY:WASPAA 2025 · Paper acceptance notification
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: of
- ficial deadline day only. Verify the organizer's submission portal.\nForm
- at: Paper-based / 4+1-page double-blind papers\, IEEE Xplore proceedings\
- ; Archival option: Yes\nOfficial source: https://www.waspaa.com/waspaa25/
- important-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#was
- paa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250717T115900Z
-DTEND:20250717T125900Z
-SUMMARY:WASPAA 2025 · Camera-ready upload
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/author-guidelines-and-p
- aper-templates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#wasp
- aa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/author-guidelines-and-paper-templates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-demo@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250717T115900Z
-DTEND:20250717T125900Z
-SUMMARY:WASPAA 2025 · Demonstration submissions (separate 2-page CMT track
- )
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/call-for-demonstrations
- /\nVenue Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/call-for-demonstrations/
-END:VEVENT
-BEGIN:VEVENT
-UID:asru-2025-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20250806
-DTEND;VALUE=DATE:20250807
-SUMMARY:ASRU 2025 · Paper acceptance notification
-DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
- eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
- rmed\, checked 2026-11-14\nCutoff time unannounced: official deadline day
-  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
- EEE Xplore proceedings\; Archival option: Yes\nOfficial source: https://2
- 025.ieeeasru.org/authors/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#asru-2025
-CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
- rning,Deep Representation Learning
-URL:https://2025.ieeeasru.org/authors/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-deadline-registration@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20250820T115900Z
-DTEND:20250820T125900Z
-SUMMARY:WASPAA 2025 · Author registration deadline (extended from Aug 17)
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nMeeting: 2025-10-12 to 2025-10-15\, Tahoe City\, California\,
-  USA\nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / 4+1-p
- age double-blind papers\, IEEE Xplore proceedings\; Archival option: Yes\
- nOfficial source: https://www.waspaa.com/waspaa25/important-dates/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#waspaa-2025
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:asru-2025-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20250820
-DTEND;VALUE=DATE:20250821
-SUMMARY:ASRU 2025 · Camera-ready paper deadline
-DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nM
- eeting: 2025-12-06 to 2025-12-10\, Honolulu\, Hawaii\, USA\nStatus: confi
- rmed\, checked 2026-11-14\nCutoff time unannounced: official deadline day
-  only. Verify the organizer's submission portal.\nFormat: Paper-based / I
- EEE Xplore proceedings\; Archival option: Yes\nOfficial source: https://2
- 025.ieeeasru.org/authors/important-dates/\nVenue Radar: https://gon-uri.g
- ithub.io/venue-radar/#asru-2025
-CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
- rning,Deep Representation Learning
-URL:https://2025.ieeeasru.org/authors/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:waspaa-2025-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20251012
-DTEND;VALUE=DATE:20251016
-SUMMARY:WASPAA 2025 · Conference
-DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
-  Acoustics\nStatus: confirmed\, checked 2026-10-31\nOfficial source: http
- s://www.waspaa.com/waspaa25/\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#waspaa-2025\nNotes: Archived official pages confirm Granlibakken
-  Tahoe Resort\, Tahoe City\, Oct 12-15\, 2025\, fully in-person and the f
- irst WASPAA away from Mohonk Mountain House. All deadlines were 23:59 AoE
- \; the initial CMT entry (title and abstract) was mandatory\, and both pa
- per deadlines moved a week later. Papers were 4 pages plus a references p
- age\, double-blind with rebuttal. The general chairs' SPS report gives 95
-  of 211 reviewed papers accepted (45%\; 246 initial) and 169 attendees\; 
- the proceedings are in IEEE Xplore. Demos were a separate 2-page track. S
- ize is an editorial estimate.
-CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
- al
-URL:https://www.waspaa.com/waspaa25/
-LOCATION:Tahoe City\, California\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20251025T115900Z
-DTEND:20251025T125900Z
-SUMMARY:LREC 2026 · Paper submission deadline
-DESCRIPTION:Language Resources and Evaluation Conference\nMeeting: 2026-05-
- 11 to 2026-05-16\, Palma de Mallorca\, Spain\nStatus: confirmed\, checked
-  2026-10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source:
-  https://lrec2026.info/third-call-for-papers/\nVenue Radar: https://gon-u
- ri.github.io/venue-radar/#lrec-2026
-CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
- gnal Processing
-URL:https://lrec2026.info/third-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:asru-2025-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20251206
-DTEND;VALUE=DATE:20251211
-SUMMARY:ASRU 2025 · Conference
-DESCRIPTION:IEEE Automatic Speech Recognition and Understanding Workshop\nS
- tatus: confirmed\, checked 2026-11-14\nOfficial source: https://2025.ieee
- asru.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#asru-2025\
- nNotes: Official site gives Honolulu (Hyatt Regency Waikiki)\, Dec 6-10\,
-  2025\; biennial flagship IEEE SPS SLTC workshop\, all papers as posters.
-  Regular and special-session papers (6 + 2 pages\, double-blind) were due
-  May 28\, with a June 4 revision for submitted papers\; demo/system/data 
- and challenge papers (3 + 1 pages) were due June 25. Both tracks are in I
- EEE Xplore. No cutoff hour was published\; AoE is provisional. Stale auth
- or-instruction pages list an Aug 13 camera-ready\; the dates page and hom
- e page say Aug 20. SPS reports 447 submissions\, 212 accepted and 385 reg
- istrants. From 2027 IEEE ASLI builds on ASRU and SLT\, so no ASRU 2027 is
-  projected. Size is an editorial estimate.
-CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
- rning,Deep Representation Learning
-URL:https://2025.ieeeasru.org/
-LOCATION:Honolulu\, Hawaii\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:ts4h-2025-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20251207
-DTEND;VALUE=DATE:20251208
-SUMMARY:TS4H 2025 · Conference
-DESCRIPTION:Learning from Time Series for Health Workshop\nStatus: confirme
- d\, checked 2026-10-29\nOfficial source: https://timeseries4health.github
- .io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ts4h-2025\nNote
- s: Official TS4H page still describes the completed NeurIPS 2025 workshop
-  and does not link a successor. Successor: Structured Data for Health (sd
- 4h-2026\, ICML 2026\, Jul 11\, Seoul)\, whose site lists TS4H's NeurIPS 2
- 022\, ICLR 2024 and NeurIPS 2025 workshops as prior years and shares orga
- nizers\; tracked under the TS4H key by owner decision. As of 2026-10-29 n
- o TS4H-named workshop is on the ICLR\, ICML or NeurIPS 2026 lists.
-CATEGORIES:Time Series & Sequential Data,Healthcare & Clinical AI,Signal Pr
- ocessing,Explainability & Interpretability
-URL:https://timeseries4health.github.io/
-LOCATION:San Diego\, California\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-embc-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260204T045900Z
-DTEND:20260204T055900Z
-SUMMARY:IEEE EMBC 2026 (est.) · Full paper submission deadline
-DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
- 026-07-26 to 2026-07-30 (est.)\, Toronto\, Canada\nStatus: estimated\, ch
- ecked 2026-09-14. Check the organizer's call before relying on it.\nForma
- t: Paper-based / broad applied venue\; Archival option: Yes\nOfficial sou
- rce: https://embc.embs.org/2026/key-dates/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#ieee-embc-2026
-CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
- als,BCI & Neurotechnology
-URL:https://embc.embs.org/2026/key-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:eusipco-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260213T225900Z
-DTEND:20260213T235900Z
-SUMMARY:EUSIPCO 2026 · Conference paper submission deadline
-DESCRIPTION:European Signal Processing Conference\nMeeting: 2026-08-31 to 2
- 026-09-04\, Bruges\, Belgium\nStatus: confirmed\, checked 2026-08-20\nFor
- mat: Paper-based\; Archival option: Yes\nOfficial source: https://eusipco
- 2026.org/submissions/\nVenue Radar: https://gon-uri.github.io/venue-radar
- /#eusipco-2026
-CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
- ,Computer Vision & Pattern Recognition
-URL:https://eusipco2026.org/submissions/
-END:VEVENT
-BEGIN:VEVENT
 UID:slt-2026-deadline-special-session-proposal@scientific-conference-calend
  ar
 DTSTAMP:19700101T000000Z
@@ -326,36 +25,6 @@ DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
 CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
  entation Learning
 URL:https://attend.ieee.org/slt-2026/call-for-special-sessions/
-END:VEVENT
-BEGIN:VEVENT
-UID:lrec-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260316T115900Z
-DTEND:20260316T125900Z
-SUMMARY:LREC 2026 · Camera-ready deadline
-DESCRIPTION:Language Resources and Evaluation Conference\nMeeting: 2026-05-
- 11 to 2026-05-16\, Palma de Mallorca\, Spain\nStatus: confirmed\, checked
-  2026-10-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source:
-  https://lrec2026.info/third-call-for-papers/\nVenue Radar: https://gon-u
- ri.github.io/venue-radar/#lrec-2026
-CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
- gnal Processing
-URL:https://lrec2026.info/third-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:icann-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260317T115900Z
-DTEND:20260317T125900Z
-SUMMARY:ICANN 2026 · Full paper and abstract submission deadline
-DESCRIPTION:International Conference on Artificial Neural Networks\nMeeting
- : 2026-09-14 to 2026-09-17\, Padua\, Italy\nStatus: confirmed\, checked 2
- 026-08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: h
- ttps://e-nns.org/icann2026/\nVenue Radar: https://gon-uri.github.io/venue
- -radar/#icann-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://e-nns.org/icann2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-mm-2026-deadline-abstract@scientific-conference-calendar
@@ -390,71 +59,6 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-embc-2026-deadline-poster@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260416T035900Z
-DTEND:20260416T045900Z
-SUMMARY:IEEE EMBC 2026 (est.) · 1-page poster submission deadline
-DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
- 026-07-26 to 2026-07-30 (est.)\, Toronto\, Canada\nStatus: estimated\, ch
- ecked 2026-09-14. Check the organizer's call before relying on it.\nForma
- t: Paper-based / broad applied venue\; Archival option: Yes\nOfficial sou
- rce: https://embc.embs.org/2026/key-dates/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#ieee-embc-2026
-CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
- als,BCI & Neurotechnology
-URL:https://embc.embs.org/2026/key-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:biomag-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260501T115900Z
-DTEND:20260501T125900Z
-SUMMARY:BIOMAG 2026 (est.) · Abstract submission deadline
-DESCRIPTION:International Conference on Biomagnetism\nMeeting: 2026-08-23 t
- o 2026-08-25 (est.)\, Beijing\, China\nStatus: estimated\, checked 2026-0
- 9-14. Check the organizer's call before relying on it.\nFormat: Abstract-
- based / specialist venue\; Archival option: No (est.)\nOfficial source: h
- ttps://mm.scimeeting.cn/en/web/index/31426\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#biomag-2026
-CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
- nal Neuroscience,Signal Processing
-URL:https://mm.scimeeting.cn/en/web/index/31426
-END:VEVENT
-BEGIN:VEVENT
-UID:sd4h-2026-deadline-short-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260503T115900Z
-DTEND:20260503T125900Z
-SUMMARY:SD4H 2026 (formerly TS4H) · Workshop paper submission deadline (4 
- pages\, non-archival)
-DESCRIPTION:Structured Data for Health Workshop\nMeeting: 2026-07-11 to 202
- 6-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-11-14\nFo
- rmat: Workshop / non-archival short paper\; Archival option: No\nOfficial
-  source: https://structureddata4health.github.io/call_for_papers.html\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#sd4h-2026
-CATEGORIES:Healthcare & Clinical AI,Time Series & Sequential Data,Signal Pr
- ocessing,Deep Representation Learning
-URL:https://structureddata4health.github.io/call_for_papers.html
-END:VEVENT
-BEGIN:VEVENT
-UID:lrec-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260511
-DTEND;VALUE=DATE:20260517
-SUMMARY:LREC 2026 · Conference
-DESCRIPTION:Language Resources and Evaluation Conference\nStatus: confirmed
- \, checked 2026-10-07\nOfficial source: https://lrec2026.info/\nVenue Rad
- ar: https://gon-uri.github.io/venue-radar/#lrec-2026\nNotes: Archived ful
- l conference window includes workshops\; main sessions May 13-15. Resourc
- es\, datasets\, annotation and evaluation characterize the venue. Size is
-  an editorial estimate.
-CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
- gnal Processing
-URL:https://lrec2026.info/
-LOCATION:Palma de Mallorca\, Spain
 END:VEVENT
 BEGIN:VEVENT
 UID:nolta-2026-deadline-full-paper@scientific-conference-calendar
@@ -519,36 +123,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
 URL:https://www.iconip2026.org/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
-UID:ieee-mlsp-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260613T115900Z
-DTEND:20260613T125900Z
-SUMMARY:IEEE MLSP 2026 · Conference paper submission deadline
-DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
- essing\nMeeting: 2026-09-28 to 2026-10-01\, Atlanta\, Georgia\, USA\nStat
- us: confirmed\, checked 2026-08-20\nFormat: Paper-based / workshop-style 
- conference\; Archival option: Yes\nOfficial source: https://signalprocess
- ingsociety.org/event-names/mlsp\nVenue Radar: https://gon-uri.github.io/v
- enue-radar/#ieee-mlsp-2026
-CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
-URL:https://signalprocessingsociety.org/event-names/mlsp
-END:VEVENT
-BEGIN:VEVENT
-UID:euvip-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260616T115900Z
-DTEND:20260616T125900Z
-SUMMARY:EUVIP 2026 · Extended regular paper submission deadline
-DESCRIPTION:European Conference on Visual Information Processing\nMeeting: 
- 2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
- hecked 2026-10-07\nFormat: Regular and special-session papers\; Archival 
- option: Yes\nOfficial source: https://euvip2026.github.io/\nVenue Radar: 
- https://gon-uri.github.io/venue-radar/#euvip-2026
-CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
- Learning,Deep Representation Learning
-URL:https://euvip2026.github.io/
-END:VEVENT
-BEGIN:VEVENT
 UID:wacv-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260620T115900Z
@@ -579,38 +153,6 @@ DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
 CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
  entation Learning
 URL:https://attend.ieee.org/slt-2026/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-biocas-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-SUMMARY:IEEE BioCAS 2026 · Research paper submission deadline
-DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2026-
- 10-08 to 2026-10-10\, Incheon\, South Korea\nStatus: confirmed\, checked 
- 2026-10-08\nCutoff time unannounced: official deadline day only. Verify t
- he organizer's submission portal.\nFormat: Paper-based\; Archival option:
-  Yes\nOfficial source: https://2026.ieee-biocas.org/2026/pages_submission
- /call_for_papers.vm\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- ieee-biocas-2026
-CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
- ,Neuromorphic & Brain-inspired Computing
-URL:https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
-END:VEVENT
-BEGIN:VEVENT
-UID:sd4h-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260627T115900Z
-DTEND:20260627T125900Z
-SUMMARY:SD4H 2026 (formerly TS4H) · Camera-ready deadline
-DESCRIPTION:Structured Data for Health Workshop\nMeeting: 2026-07-11 to 202
- 6-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-11-14\nFo
- rmat: Workshop / non-archival short paper\; Archival option: No\nOfficial
-  source: https://structureddata4health.github.io/call_for_papers.html\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#sd4h-2026
-CATEGORIES:Healthcare & Clinical AI,Time Series & Sequential Data,Signal Pr
- ocessing,Deep Representation Learning
-URL:https://structureddata4health.github.io/call_for_papers.html
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-2027-deadline-full-paper@scientific-conference-calendar
@@ -693,22 +235,6 @@ CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
 URL:https://accv2026.org/submissions/
 END:VEVENT
 BEGIN:VEVENT
-UID:euvip-2026-deadline-special-session-paper@scientific-conference-calenda
- r
-DTSTAMP:19700101T000000Z
-DTSTART:20260708T115900Z
-DTEND:20260708T125900Z
-SUMMARY:EUVIP 2026 · Extended special-session paper submission deadline
-DESCRIPTION:European Conference on Visual Information Processing\nMeeting: 
- 2026-09-28 to 2026-10-01\, Luxembourg\, Luxembourg\nStatus: confirmed\, c
- hecked 2026-10-07\nFormat: Regular and special-session papers\; Archival 
- option: Yes\nOfficial source: https://euvip2026.github.io/\nVenue Radar: 
- https://gon-uri.github.io/venue-radar/#euvip-2026
-CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
- Learning,Deep Representation Learning
-URL:https://euvip2026.github.io/
-END:VEVENT
-BEGIN:VEVENT
 UID:accv-2026-deadline-supplementary@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260708T235900Z
@@ -743,29 +269,6 @@ CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
 URL:https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:sd4h-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260711
-DTEND;VALUE=DATE:20260712
-SUMMARY:SD4H 2026 (formerly TS4H) · Conference
-DESCRIPTION:Structured Data for Health Workshop\nStatus: confirmed\, checke
- d 2026-11-14\nOfficial source: https://icml.cc/virtual/2026/workshop/5409
- 0\nVenue Radar: https://gon-uri.github.io/venue-radar/#sd4h-2026\nNotes: 
- ICML's official workshop page and the SD4H site confirm Sat Jul 11\, 2026
-  in Hall D2\, COEX\, Seoul (ICML lists 8:00-17:00 KST)\; accepted papers 
- had to be presented in person and the workshop is non-archival (no procee
- dings). The site's Prior Years menu links TS4H's NeurIPS 2025\, ICLR 2024
-  and NeurIPS 2022 pages and organizers overlap\, but no formal rename is 
- stated\; it is tracked under the TS4H key by owner decision. 4-page paper
- s were due May 2 AoE after an extension (OpenReview's venue page and subm
- ission invitation instead record May 1 12:00 UTC)\; camera-ready was Jun 
- 26 AoE. As of 2026-10-29 no later SD4H or TS4H edition is announced.
-CATEGORIES:Healthcare & Clinical AI,Time Series & Sequential Data,Signal Pr
- ocessing,Deep Representation Learning
-URL:https://icml.cc/virtual/2026/workshop/54090
-LOCATION:Seoul\, South Korea
-END:VEVENT
-BEGIN:VEVENT
 UID:acm-mm-2026-deadline-workshop-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260716
@@ -781,24 +284,6 @@ DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
 CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
  ition,Deep Representation Learning,Signal Processing
 URL:https://2026.acmmm.org/site/important-dates.html
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-embc-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260726
-DTEND;VALUE=DATE:20260731
-SUMMARY:IEEE EMBC 2026 (est.) · Conference
-DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nStatus: es
- timated\, checked 2026-09-14. Check the organizer's call before relying o
- n it.\nOfficial source: https://embc.embs.org/2026/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#ieee-embc-2026\nNotes: Official EMBC page
-  confirms conference dates. Submission dates were already marked closed o
- n the official key-dates page\, so the deadline is a proxy and should be 
- backfilled when archival CFP data is available.
-CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
- als,BCI & Neurotechnology
-URL:https://embc.embs.org/2026/
-LOCATION:Toronto\, Canada
 END:VEVENT
 BEGIN:VEVENT
 UID:log-2026-deadline-abstract@scientific-conference-calendar
@@ -896,23 +381,6 @@ CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
-UID:biomag-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260823
-DTEND;VALUE=DATE:20260826
-SUMMARY:BIOMAG 2026 (est.) · Conference
-DESCRIPTION:International Conference on Biomagnetism\nStatus: estimated\, c
- hecked 2026-09-14. Check the organizer's call before relying on it.\nOffi
- cial source: https://mm.scimeeting.cn/en/web/index/31426\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#biomag-2026\nNotes: Official BIOMAG 
- 2026 page confirms Beijing and Aug 23-25\, 2026. Abstract deadline remain
- s an estimate until the submission page is rechecked.
-CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
- nal Neuroscience,Signal Processing
-URL:https://mm.scimeeting.cn/en/web/index/31426
-LOCATION:Beijing\, China
-END:VEVENT
-BEGIN:VEVENT
 UID:3dv-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260829T115900Z
@@ -974,22 +442,6 @@ CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
 URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
-UID:eusipco-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260905
-SUMMARY:EUSIPCO 2026 · Conference
-DESCRIPTION:European Signal Processing Conference\nStatus: confirmed\, chec
- ked 2026-08-20\nOfficial source: https://eusipco2026.org/\nVenue Radar: h
- ttps://gon-uri.github.io/venue-radar/#eusipco-2026\nNotes: Official EUSIP
- CO 2026 pages list Bruges\, Aug 31-Sep 4\, and the extended conference-pa
- per deadline.
-CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
- ,Computer Vision & Pattern Recognition
-URL:https://eusipco2026.org/
-LOCATION:Bruges\, Belgium
-END:VEVENT
-BEGIN:VEVENT
 UID:3dv-2027-deadline-supplementary@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260903T115900Z
@@ -1039,22 +491,6 @@ CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
 URL:https://attend.ieee.org/slt-2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:icann-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260918
-SUMMARY:ICANN 2026 · Conference
-DESCRIPTION:International Conference on Artificial Neural Networks\nStatus:
-  confirmed\, checked 2026-08-20\nOfficial source: https://e-nns.org/icann
- 2026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icann-2026\nNo
- tes: Official ENNS ICANN 2026 page lists Padua\, Sep 14-17\, and the full
- -paper/abstract deadline.
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://e-nns.org/icann2026/
-LOCATION:Padua\, Italy
-END:VEVENT
-BEGIN:VEVENT
 UID:accv-2026-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260920
@@ -1101,41 +537,6 @@ CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
 URL:https://cmsworkshops.com/ICASSP2027/papers.php
 END:VEVENT
 BEGIN:VEVENT
-UID:euvip-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20261002
-SUMMARY:EUVIP 2026 · Conference
-DESCRIPTION:European Conference on Visual Information Processing\nStatus: c
- onfirmed\, checked 2026-10-07\nOfficial source: https://euvip2026.github.
- io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#euvip-2026\nNote
- s: Completed 2026 edition retained for the archive. Latest organizer anno
- uncements supersede the original CFP deadlines\, confirming June 15 for r
- egular papers and July 7 for special sessions\, both 23:59 AoE. Recent 20
- 24-2026 editions support an annual planning cadence. S is an editorial es
- timate\; no ICORE or CCF rank is borrowed from related venues.
-CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
- Learning,Deep Representation Learning
-URL:https://euvip2026.github.io/
-LOCATION:Luxembourg\, Luxembourg
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-mlsp-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20261002
-SUMMARY:IEEE MLSP 2026 · Conference
-DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
- essing\nStatus: confirmed\, checked 2026-08-20\nOfficial source: https://
- signalprocessingsociety.org/event-names/mlsp\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#ieee-mlsp-2026\nNotes: IEEE Signal Processing So
- ciety MLSP page lists dates\, location\, website\, and paper submission d
- eadline.
-CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
-URL:https://signalprocessingsociety.org/event-names/mlsp
-LOCATION:Atlanta\, Georgia\, USA
-END:VEVENT
-BEGIN:VEVENT
 UID:accv-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261004T235900Z
@@ -1164,23 +565,6 @@ DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
 CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
  entation Learning
 URL:https://attend.ieee.org/slt-2026/camera-ready-instructions/
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-biocas-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261011
-SUMMARY:IEEE BioCAS 2026 · Conference
-DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nStatus: confir
- med\, checked 2026-10-08\nOfficial source: https://2026.ieee-biocas.org/2
- 026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-202
- 6\nNotes: Main conference October 8-10\; adjacent workshops are October 7
-  and 11. Reviewed accepted papers appear in IEEE proceedings. Exact submi
- ssion cutoff hour is unannounced. Size is an editorial estimate.
-CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
- ,Neuromorphic & Brain-inspired Computing
-URL:https://2026.ieee-biocas.org/2026/
-LOCATION:Incheon\, South Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:neural-interfaces-2027-deadline-speaker-proposal@scientific-conference-

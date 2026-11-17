@@ -10,54 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:ieee-embc-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260204T045900Z
-DTEND:20260204T055900Z
-SUMMARY:IEEE EMBC 2026 (est.) · Full paper submission deadline
-DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
- 026-07-26 to 2026-07-30 (est.)\, Toronto\, Canada\nStatus: estimated\, ch
- ecked 2026-09-14. Check the organizer's call before relying on it.\nForma
- t: Paper-based / broad applied venue\; Archival option: Yes\nOfficial sou
- rce: https://embc.embs.org/2026/key-dates/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#ieee-embc-2026
-CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
- als,BCI & Neurotechnology
-URL:https://embc.embs.org/2026/key-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-embc-2026-deadline-poster@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260416T035900Z
-DTEND:20260416T045900Z
-SUMMARY:IEEE EMBC 2026 (est.) · 1-page poster submission deadline
-DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nMeeting: 2
- 026-07-26 to 2026-07-30 (est.)\, Toronto\, Canada\nStatus: estimated\, ch
- ecked 2026-09-14. Check the organizer's call before relying on it.\nForma
- t: Paper-based / broad applied venue\; Archival option: Yes\nOfficial sou
- rce: https://embc.embs.org/2026/key-dates/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#ieee-embc-2026
-CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
- als,BCI & Neurotechnology
-URL:https://embc.embs.org/2026/key-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:biomag-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260501T115900Z
-DTEND:20260501T125900Z
-SUMMARY:BIOMAG 2026 (est.) · Abstract submission deadline
-DESCRIPTION:International Conference on Biomagnetism\nMeeting: 2026-08-23 t
- o 2026-08-25 (est.)\, Beijing\, China\nStatus: estimated\, checked 2026-0
- 9-14. Check the organizer's call before relying on it.\nFormat: Abstract-
- based / specialist venue\; Archival option: No (est.)\nOfficial source: h
- ttps://mm.scimeeting.cn/en/web/index/31426\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#biomag-2026
-CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
- nal Neuroscience,Signal Processing
-URL:https://mm.scimeeting.cn/en/web/index/31426
-END:VEVENT
-BEGIN:VEVENT
 UID:sfn-neuroscience-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260610T210000Z
@@ -72,76 +24,6 @@ DESCRIPTION:Society for Neuroscience Annual Meeting\nMeeting: 2026-11-14 to
 CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
  ognitive Science & Computational Cognition,Neuroimaging & Brain Mapping
 URL:https://www.sfn.org/cfa
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-biocas-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-SUMMARY:IEEE BioCAS 2026 · Research paper submission deadline
-DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2026-
- 10-08 to 2026-10-10\, Incheon\, South Korea\nStatus: confirmed\, checked 
- 2026-10-08\nCutoff time unannounced: official deadline day only. Verify t
- he organizer's submission portal.\nFormat: Paper-based\; Archival option:
-  Yes\nOfficial source: https://2026.ieee-biocas.org/2026/pages_submission
- /call_for_papers.vm\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- ieee-biocas-2026
-CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
- ,Neuromorphic & Brain-inspired Computing
-URL:https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
-END:VEVENT
-BEGIN:VEVENT
-UID:bernstein-conference-2026-deadline-abstract@scientific-conference-calen
- dar
-DTSTAMP:19700101T000000Z
-DTSTART:20260701T130000Z
-DTEND:20260701T140000Z
-SUMMARY:Bernstein Conference 2026 · Abstract submission deadline
-DESCRIPTION:Bernstein Conference\nMeeting: 2026-09-28 to 2026-10-01\, Frank
- furt am Main\, Germany\nStatus: confirmed\, checked 2026-08-31\nFormat: A
- bstract-based / talks selective\; Archival option: No\nOfficial source: h
- ttps://bernstein-network.de/en/bernstein-conference/general-information/i
- mportant-dates-faq/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
- bernstein-conference-2026
-CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
- ning,Time Series & Sequential Data
-URL:https://bernstein-network.de/en/bernstein-conference/general-informatio
- n/important-dates-faq/
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-embc-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260726
-DTEND;VALUE=DATE:20260731
-SUMMARY:IEEE EMBC 2026 (est.) · Conference
-DESCRIPTION:IEEE Engineering in Medicine and Biology Conference\nStatus: es
- timated\, checked 2026-09-14. Check the organizer's call before relying o
- n it.\nOfficial source: https://embc.embs.org/2026/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#ieee-embc-2026\nNotes: Official EMBC page
-  confirms conference dates. Submission dates were already marked closed o
- n the official key-dates page\, so the deadline is a proxy and should be 
- backfilled when archival CFP data is available.
-CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
- als,BCI & Neurotechnology
-URL:https://embc.embs.org/2026/
-LOCATION:Toronto\, Canada
-END:VEVENT
-BEGIN:VEVENT
-UID:biomag-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260823
-DTEND;VALUE=DATE:20260826
-SUMMARY:BIOMAG 2026 (est.) · Conference
-DESCRIPTION:International Conference on Biomagnetism\nStatus: estimated\, c
- hecked 2026-09-14. Check the organizer's call before relying on it.\nOffi
- cial source: https://mm.scimeeting.cn/en/web/index/31426\nVenue Radar: ht
- tps://gon-uri.github.io/venue-radar/#biomag-2026\nNotes: Official BIOMAG 
- 2026 page confirms Beijing and Aug 23-25\, 2026. Abstract deadline remain
- s an estimate until the submission page is rechecked.
-CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
- nal Neuroscience,Signal Processing
-URL:https://mm.scimeeting.cn/en/web/index/31426
-LOCATION:Beijing\, China
 END:VEVENT
 BEGIN:VEVENT
 UID:sfn-neuroscience-2026-deadline-late-abstract@scientific-conference-cale
@@ -178,39 +60,6 @@ DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nMeeting: 2027-03
 CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
   Mapping,EEG/MEG & Neural Signals
 URL:https://www.cogneurosociety.org/submit-a-symposium/
-END:VEVENT
-BEGIN:VEVENT
-UID:bernstein-conference-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20261002
-SUMMARY:Bernstein Conference 2026 · Conference
-DESCRIPTION:Bernstein Conference\nStatus: confirmed\, checked 2026-08-31\nO
- fficial source: https://bernstein-network.de/en/bernstein-conference/\nVe
- nue Radar: https://gon-uri.github.io/venue-radar/#bernstein-conference-20
- 26\nNotes: Official Bernstein Conference information confirms Frankfurt a
- m Main\, Sep 28-Oct 1\, and the Jul 1 contributed-abstract deadline.
-CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
- ning,Time Series & Sequential Data
-URL:https://bernstein-network.de/en/bernstein-conference/
-LOCATION:Frankfurt am Main\, Germany
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-biocas-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261011
-SUMMARY:IEEE BioCAS 2026 · Conference
-DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nStatus: confir
- med\, checked 2026-10-08\nOfficial source: https://2026.ieee-biocas.org/2
- 026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-biocas-202
- 6\nNotes: Main conference October 8-10\; adjacent workshops are October 7
-  and 11. Reviewed accepted papers appear in IEEE proceedings. Exact submi
- ssion cutoff hour is unannounced. Size is an editorial estimate.
-CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
- ,Neuromorphic & Brain-inspired Computing
-URL:https://2026.ieee-biocas.org/2026/
-LOCATION:Incheon\, South Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:neural-interfaces-2027-deadline-speaker-proposal@scientific-conference-

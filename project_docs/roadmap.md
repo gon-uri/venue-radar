@@ -277,9 +277,8 @@ below are history, not instructions to reimplement old designs.
      archival track and venue. Edition notes stay off the site.
 - Owner decisions collected: RLC 2027's abstract event and CogSci's archival
   value (2026-11-14); on 2026-11-17 the XLSX mirror was retired (ADR-052),
-  README now says "170+" series, and past editions stay in the aggregate
-  feeds (`calendar-all.ics` is at 91% of 1 MB; dropping CATEGORIES is the
-  remaining lever, not yet approved).
+  README now says "170+" series, and past editions leave the combined feeds
+  (ADR-053; `calendar-all.ics` fell from 91% to 72% of 1 MB).
 - Deferred by the judges: decision dates and an "after a rejection" link
   (only 23 of 115 open full-paper editions store a notification), a shareable
   shortlist URL, a merged rank-and-rate column, family submission feeds,
@@ -307,9 +306,10 @@ below are history, not instructions to reimplement old designs.
   1 MB community reports give for Google Calendar URL feeds; not an official
   figure) to 735 KB, with UIDs unchanged. ADR-045 (2026-10-31) keeps it under
   the limit after the 44-venue addition by putting each edition's Notes only
-  on its meeting event (864 KB). Next lever, if the catalog keeps growing:
-  drop CATEGORIES (not yet approved). The owner decided on 2026-11-17 to
-  keep past editions in the aggregate feeds. The owner's Google subscription to the 1.06 MB
+  on its meeting event (864 KB). ADR-053 (2026-11-17, owner's choice) leaves
+  past editions out of the combined feeds (913 KB to 722 KB); per-edition
+  and series feeds keep them. Next lever, if the catalog keeps growing: drop
+  CATEGORIES (not approved). The owner's Google subscription to the 1.06 MB
   feed still worked on 2026-10-31. Real-app checks of the new titles are
   pending.
 

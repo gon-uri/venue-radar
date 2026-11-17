@@ -11,183 +11,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:ida-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20251122T115959Z
-DTEND:20251122T125959Z
-SUMMARY:IDA 2026 · Abstract submission deadline
-DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
- 2026-04-22 to 2026-04-24\, Leiden\, Netherlands\nStatus: confirmed\, chec
- ked 2026-10-05\nFormat: Paper-based / interdisciplinary\; Archival option
- : Yes\nOfficial source: https://ida2026.org/regular-paper-track/\nVenue R
- adar: https://gon-uri.github.io/venue-radar/#ida-2026
-CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
- al & Uncertainty ML,Time Series & Sequential Data
-URL:https://ida2026.org/regular-paper-track/
-END:VEVENT
-BEGIN:VEVENT
-UID:ida-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20251129T115959Z
-DTEND:20251129T125959Z
-SUMMARY:IDA 2026 · Regular paper submission deadline
-DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
- 2026-04-22 to 2026-04-24\, Leiden\, Netherlands\nStatus: confirmed\, chec
- ked 2026-10-05\nFormat: Paper-based / interdisciplinary\; Archival option
- : Yes\nOfficial source: https://ida2026.org/regular-paper-track/\nVenue R
- adar: https://gon-uri.github.io/venue-radar/#ida-2026
-CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
- al & Uncertainty ML,Time Series & Sequential Data
-URL:https://ida2026.org/regular-paper-track/
-END:VEVENT
-BEGIN:VEVENT
-UID:midl-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20251204T115900Z
-DTEND:20251204T125900Z
-SUMMARY:MIDL 2026 · Full paper registration deadline
-DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2026-07-08 to 2026
- -07-10\, Taipei\, Taiwan\nStatus: confirmed\, checked 2026-08-20\nFormat:
-  Paper-based\; Archival option: Yes\nOfficial source: https://2026.midl.i
- o/dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#midl-2026
-CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
- nical AI
-URL:https://2026.midl.io/dates
-END:VEVENT
-BEGIN:VEVENT
-UID:midl-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20251211T115900Z
-DTEND:20251211T125900Z
-SUMMARY:MIDL 2026 · Full paper submission deadline
-DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2026-07-08 to 2026
- -07-10\, Taipei\, Taiwan\nStatus: confirmed\, checked 2026-08-20\nFormat:
-  Paper-based\; Archival option: Yes\nOfficial source: https://2026.midl.i
- o/dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#midl-2026
-CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
- nical AI
-URL:https://2026.midl.io/dates
-END:VEVENT
-BEGIN:VEVENT
-UID:icml-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260124T115900Z
-DTEND:20260124T125900Z
-SUMMARY:ICML 2026 · Abstract submission deadline
-DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
- 06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
- 08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://icml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#icml-2026
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:icml-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260129T115900Z
-DTEND:20260129T125900Z
-SUMMARY:ICML 2026 · Full paper submission deadline
-DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
- 06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
- 08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://icml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#icml-2026
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:chil-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260205T115900Z
-DTEND:20260205T125900Z
-SUMMARY:CHIL 2026 · Submissions due
-DESCRIPTION:Conference on Health\, Inference\, and Learning\nMeeting: 2026-
- 06-28 to 2026-06-30\, Seattle\, Washington\, USA\nStatus: confirmed\, che
- cked 2026-08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial sou
- rce: https://chil.ahli.cc/submit/call-for-papers/\nVenue Radar: https://g
- on-uri.github.io/venue-radar/#chil-2026
-CATEGORIES:Healthcare & Clinical AI,Probabilistic\, Causal & Uncertainty ML
- ,Fairness & Responsible AI,Machine Learning
-URL:https://chil.ahli.cc/submit/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:ida-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260207T115959Z
-DTEND:20260207T125959Z
-SUMMARY:IDA 2026 · Camera-ready deadline
-DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
- 2026-04-22 to 2026-04-24\, Leiden\, Netherlands\nStatus: confirmed\, chec
- ked 2026-10-05\nFormat: Paper-based / interdisciplinary\; Archival option
- : Yes\nOfficial source: https://ida2026.org/regular-paper-track/\nVenue R
- adar: https://gon-uri.github.io/venue-radar/#ida-2026
-CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
- al & Uncertainty ML,Time Series & Sequential Data
-URL:https://ida2026.org/regular-paper-track/
-END:VEVENT
-BEGIN:VEVENT
-UID:icml-2026-deadline-workshop@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260214T115900Z
-DTEND:20260214T125900Z
-SUMMARY:ICML 2026 · Workshop application deadline
-DESCRIPTION:International Conference on Machine Learning\nMeeting: 2026-07-
- 06 to 2026-07-11\, Seoul\, South Korea\nStatus: confirmed\, checked 2026-
- 08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
- ://icml.cc/Conferences/2026/Dates\nVenue Radar: https://gon-uri.github.io
- /venue-radar/#icml-2026
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260226T115900Z
-DTEND:20260226T125900Z
-SUMMARY:UAI 2026 · Paper submission deadline
-DESCRIPTION:Conference on Uncertainty in Artificial Intelligence\nMeeting: 
- 2026-08-17 to 2026-08-21\, Amsterdam\, Netherlands\nStatus: confirmed\, c
- hecked 2026-08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial s
- ource: https://www.auai.org/uai2026/important_dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#uai-2026
-CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
- g Theory & Statistical Foundations
-URL:https://www.auai.org/uai2026/important_dates
-END:VEVENT
-BEGIN:VEVENT
-UID:chil-2026-deadline-doctoral-symposium@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260314T115900Z
-DTEND:20260314T125900Z
-SUMMARY:CHIL 2026 · Doctoral symposium application
-DESCRIPTION:Conference on Health\, Inference\, and Learning\nMeeting: 2026-
- 06-28 to 2026-06-30\, Seattle\, Washington\, USA\nStatus: confirmed\, che
- cked 2026-08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial sou
- rce: https://chil.ahli.cc/\nVenue Radar: https://gon-uri.github.io/venue-
- radar/#chil-2026
-CATEGORIES:Healthcare & Clinical AI,Probabilistic\, Causal & Uncertainty ML
- ,Fairness & Responsible AI,Machine Learning
-URL:https://chil.ahli.cc/
-END:VEVENT
-BEGIN:VEVENT
-UID:midl-2026-deadline-short-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260416T115900Z
-DTEND:20260416T125900Z
-SUMMARY:MIDL 2026 · Short paper submission deadline
-DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2026-07-08 to 2026
- -07-10\, Taipei\, Taiwan\nStatus: confirmed\, checked 2026-08-20\nFormat:
-  Paper-based\; Archival option: Yes\nOfficial source: https://2026.midl.i
- o/dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#midl-2026
-CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
- nical AI
-URL:https://2026.midl.io/dates
-END:VEVENT
-BEGIN:VEVENT
 UID:siam-mds-2026-deadline-minisymposium-proposal@scientific-conference-cal
  endar
 DTSTAMP:19700101T000000Z
@@ -207,22 +30,6 @@ CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data
  Mining & Data Science
 URL:https://web.archive.org/web/20260419233120/https://www.siam.org/confere
  nces-events/siam-conferences/mds26/submissions/
-END:VEVENT
-BEGIN:VEVENT
-UID:ida-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260422
-DTEND;VALUE=DATE:20260425
-SUMMARY:IDA 2026 · Conference
-DESCRIPTION:International Symposium on Intelligent Data Analysis\nStatus: c
- onfirmed\, checked 2026-10-05\nOfficial source: https://ida2026.org/\nVen
- ue Radar: https://gon-uri.github.io/venue-radar/#ida-2026\nNotes: Officia
- l IDA 2026 regular track confirms Leiden\, Apr 22-24\, 2026\, and AoE sub
- mission deadlines.
-CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
- al & Uncertainty ML,Time Series & Sequential Data
-URL:https://ida2026.org/
-LOCATION:Leiden\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
@@ -255,40 +62,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
-UID:eaamo-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260509T115900Z
-DTEND:20260509T125900Z
-SUMMARY:EAAMO 2026 · Mandatory abstract registration on OpenReview
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 8 AoE
- \; the OpenReview venue page lists abstract registration until May 9\, 13
- :00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or n
- on-archival\; WiP posters non-archival\; Archival option: Yes\nOfficial s
- ource: https://conference2026.eaamo.org/cfp/\nVenue Radar: https://gon-ur
- i.github.io/venue-radar/#eaamo-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:eaamo-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260516T115900Z
-DTEND:20260516T125900Z
-SUMMARY:EAAMO 2026 · Paper submission (archival or non-archival option)
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nCutoff note: CFP gives May 15 Ao
- E\; the OpenReview venue page lists the submission deadline as May 16\, 1
- 3:00 UTC.\nFormat: Paper-based / ACM DL proceedings (archival option) or 
- non-archival\; WiP posters non-archival\; Archival option: Yes\nOfficial 
- source: https://conference2026.eaamo.org/cfp/\nVenue Radar: https://gon-u
- ri.github.io/venue-radar/#eaamo-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
 UID:siam-mds-2026-deadline-poster@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260519T035900Z
@@ -304,36 +77,6 @@ DESCRIPTION:SIAM Conference on Mathematics of Data Science\nMeeting: 2026-1
 CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data 
  Mining & Data Science
 URL:https://meetings.siam.org/start.cfm?CONFCODE=mds26
-END:VEVENT
-BEGIN:VEVENT
-UID:corl-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260526T115900Z
-DTEND:20260526T125900Z
-SUMMARY:CoRL 2026 · Mandatory abstract registration deadline
-DESCRIPTION:Conference on Robot Learning\nMeeting: 2026-11-09 to 2026-11-12
- \, Austin\, Texas\, USA\nStatus: confirmed\, checked 2026-10-07\nFormat: 
- Paper-based\; Archival option: Yes\nOfficial source: https://openreview.n
- et/group?id=robot-learning.org/CoRL/2026/Conference\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#corl-2026
-CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
- Representation Learning
-URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
-END:VEVENT
-BEGIN:VEVENT
-UID:corl-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260529T115900Z
-DTEND:20260529T125900Z
-SUMMARY:CoRL 2026 · Main conference paper submission deadline
-DESCRIPTION:Conference on Robot Learning\nMeeting: 2026-11-09 to 2026-11-12
- \, Austin\, Texas\, USA\nStatus: confirmed\, checked 2026-10-07\nFormat: 
- Paper-based\; Archival option: Yes\nOfficial source: https://openreview.n
- et/group?id=robot-learning.org/CoRL/2026/Conference\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#corl-2026
-CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
- Representation Learning
-URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-deadline-workshop@scientific-conference-calendar
@@ -367,37 +110,6 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:chil-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260628
-DTEND;VALUE=DATE:20260701
-SUMMARY:CHIL 2026 · Conference
-DESCRIPTION:Conference on Health\, Inference\, and Learning\nStatus: confir
- med\, checked 2026-08-20\nOfficial source: https://chil.ahli.cc/\nVenue R
- adar: https://gon-uri.github.io/venue-radar/#chil-2026\nNotes: Official C
- HIL pages list conference dates\, location\, and submission timeline.
-CATEGORIES:Healthcare & Clinical AI,Probabilistic\, Causal & Uncertainty ML
- ,Fairness & Responsible AI,Machine Learning
-URL:https://chil.ahli.cc/
-LOCATION:Seattle\, Washington\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:icml-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260712
-SUMMARY:ICML 2026 · Conference
-DESCRIPTION:International Conference on Machine Learning\nStatus: confirmed
- \, checked 2026-08-20\nOfficial source: https://icml.cc/Conferences/2026/
- Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#icml-2026\nNot
- es: Official ICML 2026 dates page lists tutorials\, main conference\, wor
- kshops\, and paper deadlines.
-CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
- Representation Learning,Time Series & Sequential Data
-URL:https://icml.cc/Conferences/2026/Dates
-LOCATION:Seoul\, South Korea
-END:VEVENT
-BEGIN:VEVENT
 UID:acml-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260706T115900Z
@@ -411,53 +123,6 @@ DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2026-12-01 to 20
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
  inability & Interpretability,Robustness & Safety
 URL:https://www.acml-conf.org/2026/calls/papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:midl-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260708
-DTEND;VALUE=DATE:20260711
-SUMMARY:MIDL 2026 · Conference
-DESCRIPTION:Medical Imaging with Deep Learning\nStatus: confirmed\, checked
-  2026-08-20\nOfficial source: https://2026.midl.io/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#midl-2026\nNotes: Official MIDL 2026 page
- s list conference dates\, location\, and paper deadlines.
-CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
- nical AI
-URL:https://2026.midl.io/
-LOCATION:Taipei\, Taiwan
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260709T115900Z
-DTEND:20260709T125900Z
-SUMMARY:UAI 2026 · Camera-ready deadline
-DESCRIPTION:Conference on Uncertainty in Artificial Intelligence\nMeeting: 
- 2026-08-17 to 2026-08-21\, Amsterdam\, Netherlands\nStatus: confirmed\, c
- hecked 2026-08-20\nFormat: Paper-based\; Archival option: Yes\nOfficial s
- ource: https://www.auai.org/uai2026/important_dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#uai-2026
-CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
- g Theory & Statistical Foundations
-URL:https://www.auai.org/uai2026/important_dates
-END:VEVENT
-BEGIN:VEVENT
-UID:eaamo-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260802
-SUMMARY:EAAMO 2026 · Paper notification
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
- osters non-archival\; Archival option: Yes\nOfficial source: https://conf
- erence2026.eaamo.org/cfp/\nVenue Radar: https://gon-uri.github.io/venue-r
- adar/#eaamo-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:log-2026-deadline-abstract@scientific-conference-calendar
@@ -488,39 +153,6 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260822
-SUMMARY:UAI 2026 · Conference
-DESCRIPTION:Conference on Uncertainty in Artificial Intelligence\nStatus: c
- onfirmed\, checked 2026-08-20\nOfficial source: https://www.auai.org/uai2
- 026/\nVenue Radar: https://gon-uri.github.io/venue-radar/#uai-2026\nNotes
- : Official UAI 2026 pages list tutorials\, main conference\, workshops\, 
- and paper submission deadline.
-CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
- g Theory & Statistical Foundations
-URL:https://www.auai.org/uai2026/
-LOCATION:Amsterdam\, Netherlands
-END:VEVENT
-BEGIN:VEVENT
-UID:eaamo-2026-deadline-poster@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260908T115900Z
-DTEND:20260908T125900Z
-SUMMARY:EAAMO 2026 · Work-in-progress poster (title and abstract\; non-arc
- hival)
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nFormat: Paper-based / ACM DL pro
- ceedings (archival option) or non-archival\; WiP posters non-archival\; A
- rchival option: Yes\nOfficial source: https://conference2026.eaamo.org/ca
- ll_for_posters/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eaam
- o-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/call_for_posters/
 END:VEVENT
 BEGIN:VEVENT
 UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
@@ -600,23 +232,6 @@ CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
-UID:eaamo-2026-deadline-poster-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:EAAMO 2026 · Work-in-progress poster notification
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nMeeting: 2026-11-05 to 2026-11-07\, Munich\, Germany\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / ACM DL proceedings (archival option) or non-archival\; WiP p
- osters non-archival\; Archival option: Yes\nOfficial source: https://conf
- erence2026.eaamo.org/call_for_posters/\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#eaamo-2026
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/call_for_posters/
-END:VEVENT
-BEGIN:VEVENT
 UID:aistats-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261007T115900Z
@@ -663,21 +278,6 @@ CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
 URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:corl-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261013T115900Z
-DTEND:20261013T125900Z
-SUMMARY:CoRL 2026 · Camera-ready deadline
-DESCRIPTION:Conference on Robot Learning\nMeeting: 2026-11-09 to 2026-11-12
- \, Austin\, Texas\, USA\nStatus: confirmed\, checked 2026-10-07\nFormat: 
- Paper-based\; Archival option: Yes\nOfficial source: https://www.corl.org
- /contributions/instruction-for-authors\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#corl-2026
-CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
- Representation Learning
-URL:https://www.corl.org/contributions/instruction-for-authors
-END:VEVENT
-BEGIN:VEVENT
 UID:log-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261016T115900Z
@@ -708,28 +308,6 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:eaamo-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261108
-SUMMARY:EAAMO 2026 · Conference
-DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
- , and Optimization\nStatus: confirmed\, checked 2026-10-31\nOfficial sour
- ce: https://conference2026.eaamo.org/\nVenue Radar: https://gon-uri.githu
- b.io/venue-radar/#eaamo-2026\nNotes: Sixth ACM EAAMO\, Nov 5-7\, 2026 at 
- LMU Munich\; virtual-only Zoom registration covers keynotes and paper tal
- ks. Abstract/paper deadlines were postponed one week from May 1/8 (AoE). 
- OpenReview's abstract registration stage gates papers\, which choose an a
- rchival (ACM DL\, up to 14 pages camera-ready) or non-archival option\; d
- ouble-blind\, six tracks. WiP posters need only a title and abstract and 
- are not in the proceedings. Size basis is 70 accepted papers (34 orals\, 
- 36 posters) and a 150+ seat main hall in the host call. Size is an editor
- ial estimate.
-CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
-URL:https://conference2026.eaamo.org/
-LOCATION:Munich\, Germany
-END:VEVENT
-BEGIN:VEVENT
 UID:aamas-2027-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261106T115900Z
@@ -745,25 +323,6 @@ CATEGORIES:Machine Learning,Reinforcement Learning,Autonomous Agents & Mult
  iagent Systems,Human-AI Interaction & Deployment
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
-END:VEVENT
-BEGIN:VEVENT
-UID:corl-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261113
-SUMMARY:CoRL 2026 · Conference
-DESCRIPTION:Conference on Robot Learning\nStatus: confirmed\, checked 2026-
- 10-07\nOfficial source: https://www.corl.org/\nVenue Radar: https://gon-u
- ri.github.io/venue-radar/#corl-2026\nNotes: Tenth annual edition\; main c
- onference Nov 9-11 and workshops Nov 12. OpenReview's May 26/29 at 11:59 
- UTC correspond to May 25/28 at 23:59 AoE\, consistent with the author ins
- tructions' Thursday May 28 cutoff. Abstract registration is mandatory. Sa
- tellite workshop papers are not main-track opportunities. ICORE 2026 list
- s CoRL as Unranked\, not A/A*/B/C. Size L is an editorial estimate.
-CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
- Representation Learning
-URL:https://www.corl.org/
-LOCATION:Austin\, Texas\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-deadline-short-paper@scientific-conference-calendar

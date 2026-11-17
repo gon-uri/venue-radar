@@ -6,6 +6,10 @@ ID also removes its per-edition feed. This report-only check compares a base git
 ref with the working tree and exits 1 when an identity disappears without an
 entry in data/retired_identities.yml. It never modifies any file.
 
+A UID counts as published while any feed carries it. The combined feeds leave
+out past editions (ADR-053), but each edition's own feed keeps all its events,
+so the check reads calendar-all.ics together with docs/conferences/*.ics.
+
 Usage: python3 scripts/check_identity.py --base REF
 """
 
@@ -22,6 +26,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 ICS_PATH = "docs/calendar-all.ics"
+EDITION_FEEDS_DIR = "docs/conferences"
 CONFERENCES_PATH = "data/conferences.yml"
 RETIRED_PATH = "data/retired_identities.yml"
 UID_DOMAIN = "scientific-conference-calendar"
@@ -101,6 +106,31 @@ def git_show(ref: str, path: str, cwd: Path = ROOT) -> str | None:
     return result.stdout if result.returncode == 0 else None
 
 
+def git_feed_texts(ref: str, cwd: Path = ROOT) -> str | None:
+    """Concatenate calendar-all.ics and every per-edition feed at ref (None if neither exists)."""
+    listing = subprocess.run(["git", "ls-tree", "-r", "--name-only", ref, "--", f"{EDITION_FEEDS_DIR}/"],
+                             cwd=cwd, capture_output=True, text=True, encoding="utf-8")
+    paths = [ICS_PATH] + [p for p in listing.stdout.splitlines() if p.endswith(".ics")]
+    batch = subprocess.run(["git", "cat-file", "--batch"], cwd=cwd, capture_output=True,
+                           input="".join(f"{ref}:{path}\n" for path in paths).encode("utf-8"))
+    texts: list[str] = []
+    data = batch.stdout
+    while data:
+        header, _, data = data.partition(b"\n")
+        parts = header.split()
+        if len(parts) == 3 and parts[1] == b"blob":
+            size = int(parts[2])
+            texts.append(data[:size].decode("utf-8"))
+            data = data[size + 1:]
+    return "\n".join(texts) if texts else None
+
+
+def local_feed_texts(root: Path = ROOT) -> str:
+    """Concatenate the working tree's calendar-all.ics and every per-edition feed."""
+    paths = [root / ICS_PATH, *sorted((root / EDITION_FEEDS_DIR).glob("*.ics"))]
+    return "\n".join(path.read_text(encoding="utf-8") for path in paths if path.exists())
+
+
 def resolve_commit(ref: str, cwd: Path = ROOT) -> str | None:
     """Return the full commit SHA for ref, or None when it is not a known commit."""
     result = subprocess.run(["git", "rev-parse", "--verify", "--quiet", f"{ref}^{{commit}}"],
@@ -148,8 +178,8 @@ def main(argv: Iterable[str] | None = None) -> int:
         return 2
     try:
         retired = parse_retired(_read(ROOT / RETIRED_PATH))
-        lines, missing = compare(git_show(commit, ICS_PATH), git_show(commit, CONFERENCES_PATH),
-                                 _read(ROOT / ICS_PATH), _read(ROOT / CONFERENCES_PATH), retired)
+        lines, missing = compare(git_feed_texts(commit), git_show(commit, CONFERENCES_PATH),
+                                 local_feed_texts(), _read(ROOT / CONFERENCES_PATH), retired)
     except (ValueError, yaml.YAMLError) as exc:
         print(f"Identity check error: {exc}", file=sys.stderr)
         return 2

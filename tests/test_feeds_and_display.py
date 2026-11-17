@@ -8,7 +8,10 @@ from tempfile import TemporaryDirectory
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from build_ics import FEED_SIZE_LIMIT, SITE_URL, _escape_text, build_calendars, series_groups, series_slug
+from datetime import date
+
+from build_ics import (FEED_SIZE_LIMIT, SITE_URL, _escape_text, _topic_groups, build_calendars, edition_last_day,
+                       feed_reference_date, is_past_edition, series_groups, series_slug)
 from build_site import _clock_label, _deadline_grid_rows, _milestones, _successors
 from validate import SUBMISSION_TYPES, load_conferences, stable_slug
 
@@ -85,6 +88,10 @@ class FeedTests(unittest.TestCase):
         cls.docs = Path(cls.directory.name)
         build_calendars(docs_dir=cls.docs)
         cls.conferences = load_conferences()
+        cls.reference = feed_reference_date()
+        cls.current = [c for c in cls.conferences if not is_past_edition(c, cls.reference)]
+        # Every event, past editions included, read from the per-edition feeds.
+        cls.edition_text = "".join(_read(path) for path in sorted((cls.docs / "conferences").glob("*.ics")))
 
     @classmethod
     def tearDownClass(cls) -> None:
@@ -95,7 +102,7 @@ class FeedTests(unittest.TestCase):
         everything = _uids(_read(self.docs / "calendar-all.ics"))
         expected = {
             f"{conference['id']}-deadline-{stable_slug(deadline['type'])}@scientific-conference-calendar"
-            for conference in self.conferences for deadline in conference["deadlines"]
+            for conference in self.current for deadline in conference["deadlines"]
             if deadline["type"] in SUBMISSION_TYPES or deadline.get("gate_for")
         }
         self.assertEqual(submissions, expected)
@@ -110,8 +117,42 @@ class FeedTests(unittest.TestCase):
         neurips = _uids(_read(self.docs / "series" / f"{series_slug('NeurIPS')}.ics"))
         self.assertIn("neurips-2026-conference@scientific-conference-calendar", neurips)
         self.assertIn("neurips-2027-conference@scientific-conference-calendar", neurips)
-        everything = _uids(_read(self.docs / "calendar-all.ics"))
-        self.assertTrue(neurips <= everything)
+        self.assertTrue(neurips <= _uids(self.edition_text))
+        # Series feeds keep past editions; the combined feeds do not (ADR-053).
+        ts4h = _uids(_read(self.docs / "series" / f"{series_slug('TS4H')}.ics"))
+        self.assertIn("ts4h-2025-conference@scientific-conference-calendar", ts4h)
+
+    def test_combined_feeds_leave_out_past_editions_but_keep_their_identities(self) -> None:
+        past = {c["id"] for c in self.conferences} - {c["id"] for c in self.current}
+        self.assertIn("ts4h-2025", past)
+        self.assertNotIn("neurips-2026", past, "a December 2026 meeting is not past on the review date")
+        edition_uids = _uids(self.edition_text)
+        for name in ("calendar-all.ics", "deadlines.ics", "conferences.ics", "submissions.ics"):
+            uids = _uids(_read(self.docs / name))
+            self.assertFalse({u for u in uids if u.split("@")[0].rsplit("-conference", 1)[0] in past
+                              or any(u.startswith(f"{p}-deadline-") for p in past)}, name)
+            self.assertTrue(uids <= edition_uids, name)
+        for path in (self.docs / "tags").glob("*.ics"):
+            self.assertFalse(any(u.startswith(f"{p}-") for u in _uids(_read(path)) for p in past), path.name)
+        # Every published identity still lives in its edition's own feed.
+        expected = {f"{c['id']}-conference@scientific-conference-calendar" for c in self.conferences}
+        self.assertTrue(expected <= edition_uids)
+        self.assertEqual(sorted(p.stem for p in (self.docs / "conferences").glob("*.ics")),
+                         sorted(c["id"] for c in self.conferences))
+        # Topic feed URLs never disappear, even when every edition of a topic is past.
+        self.assertEqual(sorted(p.stem for p in (self.docs / "tags").glob("*.ics")),
+                         sorted(_topic_groups(self.conferences)))
+
+    def test_past_means_every_day_of_the_edition_is_before_the_review_date(self) -> None:
+        edition = {"conference_start": "2026-11-10", "conference_end": "2026-11-13",
+                   "deadlines": [{"datetime": "2026-11-20T23:59:00-12:00"}]}
+        self.assertEqual(edition_last_day(edition), date(2026, 11, 20))
+        self.assertFalse(is_past_edition(edition, date(2026, 11, 20)))
+        self.assertTrue(is_past_edition(edition, date(2026, 11, 21)))
+        self.assertTrue(is_past_edition({"conference_start": "2026-11-01", "deadlines": []}, date(2026, 11, 2)))
+        # The cutoff is the reviewed dataset date, so a build never depends on the build day.
+        self.assertEqual(self.reference, date.fromisoformat(
+            re.search(r'last_updated:\s*"?([0-9-]+)', (Path(__file__).resolve().parents[1] / "data" / "metadata.yml").read_text()).group(1)))
 
     def test_every_feed_asks_clients_to_refresh_daily(self) -> None:
         for path in self.docs.rglob("*.ics"):
@@ -125,7 +166,7 @@ class FeedTests(unittest.TestCase):
             self.assertLess(path.stat().st_size, FEED_SIZE_LIMIT, path.name)
 
     def test_titles_lead_with_the_edition_and_a_single_estimate_marker(self) -> None:
-        events = _events(_read(self.docs / "calendar-all.ics"))
+        events = _events(self.edition_text)
         self.assertEqual(events["ecc-2027-deadline-full-paper"]["SUMMARY"],
                          "ECC 2027 · Extended contributed paper submission deadline")
         self.assertEqual(events["conll-2027-deadline-full-paper"]["SUMMARY"],

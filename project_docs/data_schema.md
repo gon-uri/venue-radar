@@ -203,6 +203,7 @@ the slug of the exact `series` key, so changing a series key moves its feed. A g
 unique type; changing a type is an identity migration, not cosmetic cleanup.
 
 CI's identity check (`scripts/check_identity.py`) fails when a published event
-UID or edition ID disappears. An intentional, reviewed removal needs an entry
+UID or edition ID disappears from every feed. A past edition leaving the
+combined feeds is not a removal: its own feed keeps its events (ADR-053). An intentional, reviewed removal needs an entry
 (`id`, `reason`, ISO `date`) in `data/retired_identities.yml`; a retired edition
 ID also covers its generated UIDs. Never reuse a retired ID.

@@ -17,7 +17,7 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Detailed scopes | 125 reviewed profiles; 51 series still lack a reviewed profile. |
 | Evidence maps | 83 direct ICORE 2026 ranks, 67 direct CCF 2026 ranks, 49 historical rate/qualitative-band entries. |
 | Archival option | ADR-047 shipped 2026-11-05: 174 of 176 series have a sourced value (143 Yes, 31 No after CogSci became No on 2026-11-14; Dynamics Days CAC and ICCN not checked yet, neither with an open deadline). Row/card tag, one filter (`archival=1`) and a Format-line value in feeds. Evidence: `project_docs/archival_research/`. |
-| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 914,436 bytes (ADR-045: Notes once per edition; ADR-047 added the archival value); a test keeps every feed below 1 MB. |
+| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 722,109 bytes: since ADR-053 (2026-11-17) the combined and topic feeds leave out editions that ended before the dataset review date (61 of 260 on 2026-11-14), while edition and series feeds keep them. A test keeps every feed below 1 MB. |
 | Review mirror | Retired on 2026-11-17 by the owner (ADR-052): the XLSX workbook and its export/sync scripts are deleted. YAML is the only data store; older entries below that mention the workbook are history. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 

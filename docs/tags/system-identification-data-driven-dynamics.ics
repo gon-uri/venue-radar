@@ -11,104 +11,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:mtns-2026-deadline-mini-course-proposal@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260202
-DTEND;VALUE=DATE:20260203
-SUMMARY:MTNS 2026 · Mini-course proposals
-DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
- Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
- cts\; Archival option: Yes\nOfficial source: https://uwaterloo.ca/interna
- tional-symposium-mathematical-theory-networks-systems/key-dates\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#mtns-2026
-CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
- Complex Systems & Network Science
-URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
- ks-systems/key-dates
-END:VEVENT
-BEGIN:VEVENT
-UID:mtns-2026-deadline-special-session-proposal@scientific-conference-calen
- dar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260202
-DTEND;VALUE=DATE:20260203
-SUMMARY:MTNS 2026 · Invited session proposals (session organizers)
-DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
- Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
- cts\; Archival option: Yes\nOfficial source: https://uwaterloo.ca/interna
- tional-symposium-mathematical-theory-networks-systems/key-dates\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#mtns-2026
-CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
- Complex Systems & Network Science
-URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
- ks-systems/key-dates
-END:VEVENT
-BEGIN:VEVENT
-UID:mtns-2026-deadline-proposal-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260205
-DTEND;VALUE=DATE:20260206
-SUMMARY:MTNS 2026 · Invited session and mini-course decisions
-DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
- Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
- cts\; Archival option: Yes\nOfficial source: https://uwaterloo.ca/interna
- tional-symposium-mathematical-theory-networks-systems/key-dates\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#mtns-2026
-CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
- Complex Systems & Network Science
-URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
- ks-systems/key-dates
-END:VEVENT
-BEGIN:VEVENT
-UID:mtns-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260209
-DTEND;VALUE=DATE:20260210
-SUMMARY:MTNS 2026 · Full papers\, contributed and invited sessions (4-8 pp
- \, peer reviewed\, IFAC-PapersOnLine)
-DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
- Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
- cts\; Archival option: Yes\nOfficial source: https://uwaterloo.ca/interna
- tional-symposium-mathematical-theory-networks-systems/key-dates\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#mtns-2026
-CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
- Complex Systems & Network Science
-URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
- ks-systems/key-dates
-END:VEVENT
-BEGIN:VEVENT
-UID:mtns-2026-deadline-extended-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260216
-DTEND;VALUE=DATE:20260217
-SUMMARY:MTNS 2026 · Extended abstracts\, contributed and invited sessions 
- (2-4 pp\, simplified review\, not published)
-DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
- Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
- cts\; Archival option: Yes\nOfficial source: https://uwaterloo.ca/interna
- tional-symposium-mathematical-theory-networks-systems/key-dates\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#mtns-2026
-CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
- Complex Systems & Network Science
-URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
- ks-systems/key-dates
-END:VEVENT
-BEGIN:VEVENT
 UID:ieee-cdc-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260331
@@ -123,24 +25,6 @@ DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2026-12-15 to
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos,Reinforcement Learning
 URL:https://cdc2026.ieeecss.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:dynamics-days-europe-2026-deadline-minisymposium-proposal@scientific-co
- nference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260405
-DTEND;VALUE=DATE:20260406
-SUMMARY:Dynamics Days Europe 2026 · Extended minisymposium proposal deadli
- ne
-DESCRIPTION:Dynamics Days Europe\nMeeting: 2026-07-19 to 2026-07-24\, Lisbo
- n\, Portugal\nStatus: confirmed\, checked 2026-10-08\nCutoff time unannou
- nced: official deadline day only. Verify the organizer's submission porta
- l.\nFormat: Abstract-based\; Archival option: No\nOfficial source: https:
- //dde-2026.sci-meet.net/important-dates\nVenue Radar: https://gon-uri.git
- hub.io/venue-radar/#dynamics-days-europe-2026
-CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
- e Series & Sequential Data,System Identification & Data-driven Dynamics
-URL:https://dde-2026.sci-meet.net/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:siam-mds-2026-deadline-minisymposium-proposal@scientific-conference-cal
@@ -164,94 +48,6 @@ URL:https://web.archive.org/web/20260419233120/https://www.siam.org/confere
  nces-events/siam-conferences/mds26/submissions/
 END:VEVENT
 BEGIN:VEVENT
-UID:mtns-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260420
-DTEND;VALUE=DATE:20260421
-SUMMARY:MTNS 2026 · Paper decision notification
-DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
- Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
- cts\; Archival option: Yes\nOfficial source: https://uwaterloo.ca/interna
- tional-symposium-mathematical-theory-networks-systems/key-dates\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#mtns-2026
-CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
- Complex Systems & Network Science
-URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
- ks-systems/key-dates
-END:VEVENT
-BEGIN:VEVENT
-UID:dynamics-days-europe-2026-deadline-abstract@scientific-conference-calen
- dar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260427
-DTEND;VALUE=DATE:20260428
-SUMMARY:Dynamics Days Europe 2026 · Contributed talk/poster abstract submi
- ssion deadline
-DESCRIPTION:Dynamics Days Europe\nMeeting: 2026-07-19 to 2026-07-24\, Lisbo
- n\, Portugal\nStatus: confirmed\, checked 2026-10-08\nCutoff time unannou
- nced: official deadline day only. Verify the organizer's submission porta
- l.\nFormat: Abstract-based\; Archival option: No\nOfficial source: https:
- //dde-2026.sci-meet.net/important-dates\nVenue Radar: https://gon-uri.git
- hub.io/venue-radar/#dynamics-days-europe-2026
-CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
- e Series & Sequential Data,System Identification & Data-driven Dynamics
-URL:https://dde-2026.sci-meet.net/important-dates
-END:VEVENT
-BEGIN:VEVENT
-UID:smc-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260503
-DTEND;VALUE=DATE:20260504
-SUMMARY:SMC 2026 · Extended regular/special-session paper deadline
-DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
- s\nMeeting: 2026-10-04 to 2026-10-07\, Bellevue\, Washington\, USA\nStatu
- s: confirmed\, checked 2026-10-07\nCutoff time unannounced: official dead
- line day only. Verify the organizer's submission portal.\nFormat: Paper-b
- ased\; Archival option: Yes\nOfficial source: https://www.ieeesmc2026.org
- /Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#smc
- -2026
-CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
- rning,Human-AI Interaction & Deployment
-URL:https://www.ieeesmc2026.org/Important-Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:nodycon-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260515
-DTEND;VALUE=DATE:20260516
-SUMMARY:NODYCON 2026 · Presentation abstract submission deadline
-DESCRIPTION:International Nonlinear Dynamics Conference\nMeeting: 2026-09-2
- 0 to 2026-09-23\, Rome\, Italy\nStatus: confirmed\, checked 2026-10-28\nC
- utoff time unannounced: official deadline day only. Verify the organizer'
- s submission portal.\nFormat: Abstract-based + optional full-length paper
- s\; Archival option: Yes\nOfficial source: https://nodycon2026.app.earend
- elplatform.com/\nVenue Radar: https://gon-uri.github.io/venue-radar/#nody
- con-2026
-CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
- ynamics,Control & Robotics,Complex Systems & Network Science
-URL:https://nodycon2026.app.earendelplatform.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:smc-2026-deadline-short-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260517
-DTEND;VALUE=DATE:20260518
-SUMMARY:SMC 2026 · Extended work-in-progress/industry paper deadline
-DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
- s\nMeeting: 2026-10-04 to 2026-10-07\, Bellevue\, Washington\, USA\nStatu
- s: confirmed\, checked 2026-10-07\nCutoff time unannounced: official dead
- line day only. Verify the organizer's submission portal.\nFormat: Paper-b
- ased\; Archival option: Yes\nOfficial source: https://www.ieeesmc2026.org
- /Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#smc
- -2026
-CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
- rning,Human-AI Interaction & Deployment
-URL:https://www.ieeesmc2026.org/Important-Dates
-END:VEVENT
-BEGIN:VEVENT
 UID:siam-mds-2026-deadline-poster@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260519T035900Z
@@ -267,103 +63,6 @@ DESCRIPTION:SIAM Conference on Mathematics of Data Science\nMeeting: 2026-1
 CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data 
  Mining & Data Science
 URL:https://meetings.siam.org/start.cfm?CONFCODE=mds26
-END:VEVENT
-BEGIN:VEVENT
-UID:mtns-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260615
-DTEND;VALUE=DATE:20260616
-SUMMARY:MTNS 2026 · Final paper upload
-DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
- Systems\nMeeting: 2026-08-17 to 2026-08-21\, Waterloo\, Ontario\, Canada\
- nStatus: confirmed\, checked 2026-10-31\nCutoff time unannounced: officia
- l deadline day only. Verify the organizer's submission portal.\nFormat: P
- aper-based / IFAC-PapersOnLine full papers\; non-archival extended abstra
- cts\; Archival option: Yes\nOfficial source: https://uwaterloo.ca/interna
- tional-symposium-mathematical-theory-networks-systems/key-dates\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#mtns-2026
-CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
- Complex Systems & Network Science
-URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
- ks-systems/key-dates
-END:VEVENT
-BEGIN:VEVENT
-UID:smc-2026-deadline-extended-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260712
-DTEND;VALUE=DATE:20260713
-SUMMARY:SMC 2026 · Two-page abstract submission deadline
-DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
- s\nMeeting: 2026-10-04 to 2026-10-07\, Bellevue\, Washington\, USA\nStatu
- s: confirmed\, checked 2026-10-07\nCutoff time unannounced: official dead
- line day only. Verify the organizer's submission portal.\nFormat: Paper-b
- ased\; Archival option: Yes\nOfficial source: https://www.ieeesmc2026.org
- /Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#smc
- -2026
-CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
- rning,Human-AI Interaction & Deployment
-URL:https://www.ieeesmc2026.org/Important-Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:dynamics-days-europe-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260719
-DTEND;VALUE=DATE:20260725
-SUMMARY:Dynamics Days Europe 2026 · Conference
-DESCRIPTION:Dynamics Days Europe\nStatus: confirmed\, checked 2026-10-08\nO
- fficial source: https://dde-2026.sci-meet.net/\nVenue Radar: https://gon-
- uri.github.io/venue-radar/#dynamics-days-europe-2026\nNotes: Historical a
- nnual meeting. Contributions are talk/poster abstracts collected in a boo
- k of abstracts\, not standard full-paper proceedings. Minisymposium organ
- ization is a separate non-contribution milestone. Abstract submitters had
-  to complete fee payment by May 29. Exact cutoff hours were unannounced. 
- Size is an editorial estimate.
-CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
- e Series & Sequential Data,System Identification & Data-driven Dynamics
-URL:https://dde-2026.sci-meet.net/
-LOCATION:Lisbon\, Portugal
-END:VEVENT
-BEGIN:VEVENT
-UID:mtns-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260822
-SUMMARY:MTNS 2026 · Conference
-DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
- Systems\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https:/
- /uwaterloo.ca/international-symposium-mathematical-theory-networks-system
- s/\nVenue Radar: https://gon-uri.github.io/venue-radar/#mtns-2026\nNotes:
-  Official pages confirm the 27th MTNS at the University of Waterloo campu
- s\, Aug 17-21\, 2026\, co-sponsored by IFAC. Full papers (4-8 pp\, peer r
- eviewed) go to IFAC-PapersOnLine\; extended abstracts (2-4 pp\, simplifie
- d review) are posted on the site but not published. Invited-session paper
- s needed an organizer's session code. A Feb 12 Wayback snapshot shows the
-  same Feb 9/16 dates. No cutoff hour or zone is published\, so cutoffs us
- e provisional end-of-day AoE. Held every two years. ICORE2026 rank C. UW 
- reported 170 attendees\; the program had 144 contributed talks and ten in
- vited sessions. Size is an editorial estimate.
-CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
- Complex Systems & Network Science
-URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
- ks-systems/
-LOCATION:Waterloo\, Ontario\, Canada
-END:VEVENT
-BEGIN:VEVENT
-UID:nodycon-2026-deadline-journal-manuscript@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260901
-SUMMARY:NODYCON 2026 · Full-length manuscript deadline for presented work
-DESCRIPTION:International Nonlinear Dynamics Conference\nMeeting: 2026-09-2
- 0 to 2026-09-23\, Rome\, Italy\nStatus: confirmed\, checked 2026-10-28\nC
- utoff time unannounced: official deadline day only. Verify the organizer'
- s submission portal.\nFormat: Abstract-based + optional full-length paper
- s\; Archival option: Yes\nOfficial source: https://nodycon2026.app.earend
- elplatform.com/\nVenue Radar: https://gon-uri.github.io/venue-radar/#nody
- con-2026
-CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
- ynamics,Control & Robotics,Complex Systems & Network Science
-URL:https://nodycon2026.app.earendelplatform.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:acc-2027-deadline-journal-paper@scientific-conference-calendar
@@ -431,26 +130,6 @@ CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
 URL:https://cdc2026.ieeecss.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:nodycon-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260924
-SUMMARY:NODYCON 2026 · Conference
-DESCRIPTION:International Nonlinear Dynamics Conference\nStatus: confirmed\
- , checked 2026-10-28\nOfficial source: https://nodycon2026.app.earendelpl
- atform.com/\nVenue Radar: https://gon-uri.github.io/venue-radar/#nodycon-
- 2026\nNotes: Historical 2026 meeting. Edition-site key dates (read 2026-1
- 0-28) give abstracts May 15 and full-length papers Aug 31 (extended from 
- Jul 1)\, kept over the conflicting SISCO page (May 1/Jul 3)\; cutoff hour
- s unannounced. The optional paper step (Springer Advances in Nonlinear Dy
- namics\; invited Nonlinear Dynamics issue) is not a fresh route. No next 
- edition announced. Size is an editorial estimate.
-CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
- ynamics,Control & Robotics,Complex Systems & Network Science
-URL:https://nodycon2026.app.earendelplatform.com/
-LOCATION:Rome\, Italy
-END:VEVENT
-BEGIN:VEVENT
 UID:acc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261002
@@ -465,24 +144,6 @@ DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Reinforcement Learning
 URL:https://acc2027.a2c2.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:smc-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261004
-DTEND;VALUE=DATE:20261008
-SUMMARY:SMC 2026 · Conference
-DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
- s\nStatus: confirmed\, checked 2026-10-07\nOfficial source: https://www.i
- eeesmc2026.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#smc-
- 2026\nNotes: Organizer date table confirms October 4-7 (society calendar 
- has older October 4-6). Duplicate camera-ready blocks disagree August 2/9
- \, so neither is asserted. Exact paper cutoff hours unannounced. Size is 
- an editorial estimate.
-CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
- rning,Human-AI Interaction & Deployment
-URL:https://www.ieeesmc2026.org/
-LOCATION:Bellevue\, Washington\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:ifac-sysid-2027-deadline-journal-paper@scientific-conference-calendar

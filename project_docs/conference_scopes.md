@@ -1,6 +1,6 @@
 # Curated Conference Scopes
 
-Reviewed: 2026-10-08
+Reviewed: 2026-11-18
 
 This guide owns profile curation. See [adding conferences](adding_conferences.md)
 for the multi-file checklist, [data schema](data_schema.md) for edition/deadline
@@ -8,11 +8,12 @@ fields, and [development](development.md) for build and browser checks.
 
 The table's up-to-four main topics are a compact description, not an exhaustive
 list. `data/conference_scopes.yml` adds a more detailed, source-grounded profile
-by exact conference series. Current coverage is 125 of 176 series, including all
-42 AI Deadlines additions, CIKM/WSDM, the 16 complex-systems/neuroscience
-additions, the 44 related-venue additions of 2026-10-31 and ASLI. The other 51 are
-explicitly queued for review;
-an absent profile is not replaced by guessed information.
+by exact conference series. Every one of the 176 series has a profile since
+2026-11-18, when the last 51 (AAAI, IJCAI, CHI, MICCAI, ICASSP and others) were
+drafted from official pages and independently verified (13 accepted as drafted,
+38 corrected; see review_2026-11-18.md). A future series without a profile is
+queued for review; an absent profile is not replaced by guessed information.
+Profiles are shown under "About this venue" in expanded rows (ADR-050).
 
 The 16 complex-systems/neuroscience series' publication formats and abstract-only
 caveats are documented in `dynamics_neuroscience_expansion.md`. For the 44

@@ -1,6 +1,6 @@
 # Data Maintenance
 
-Last synchronized: 2026-11-14.
+Last synchronized: 2026-11-18.
 
 Use this guide to refresh tracked information. For a new series/edition use
 [adding conferences](adding_conferences.md); for fields and submission semantics
@@ -60,7 +60,11 @@ the website never refreshes organizer information automatically.
 - Archival queue: series with a new-paper route and no value, values read
   from an older call once a newer call is out, and estimated values (ADR-048).
 - Rollover ready: a read-only preview of the cadence drafts
-  `rollover_editions.py` would write. Add one only from an official announcement.
+  `rollover_editions.py` would write. Add one only from an official announcement
+  of the next edition (site, host city, dates or a society listing; a call for
+  hosting bids is not one), ADR-054.
+- Decision dates: editions with an upcoming main-paper deadline and no
+  `notification` milestone, soonest first (ADR-054).
 - These are advisory checks, not scrapers. They do not validate URL reachability,
   resolve conflicting official pages, detect every missing submission in a
   nonempty schedule-only list, or verify historical statistics. Review those
@@ -210,6 +214,12 @@ opening evidence are independent. In particular:
   opening is the honest Submission opportunity fallback, not an Open claim.
 - Workshop proposals, commitments, revisions and camera-ready dates remain
   schedule details, not fresh research-contribution countdowns.
+- Record the main track's decision date as a `notification` milestone
+  (ADR-054). Use the edition's own call when it states one; otherwise project
+  it, `estimated`, from the previous edition's official decision date, shifted
+  by the same days as the stored paper deadline (from the original pair when
+  that deadline was extended), sourced to the previous edition's page. It must
+  follow the first submission deadline and not be after the meeting starts.
 - Abstract books/archives are not full-paper proceedings. Keep format caveats
   in labels, descriptive metadata and project notes; current UI stays intact.
 

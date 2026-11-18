@@ -58,7 +58,8 @@ class UnfoldingTests(unittest.TestCase):
         everything = ics_uids(local_feed_texts())
         self.assertTrue(combined < everything)
         self.assertIn(uid("ts4h-2025-conference"), everything - combined)
-        self.assertEqual(ics_uids(git_feed_texts("HEAD") or "") >= combined, True)
+        # The committed tree is read the same way (calendar-all plus edition feeds).
+        self.assertIn(uid("ts4h-2025-conference"), ics_uids(git_feed_texts("HEAD") or ""))
 
     def test_published_feed_uids_parse_completely(self) -> None:
         text = (ROOT / "docs" / "calendar-all.ics").read_text(encoding="utf-8")

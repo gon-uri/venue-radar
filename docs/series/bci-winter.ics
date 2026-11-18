@@ -12,12 +12,12 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:bci-winter-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:BCI Winter 2027 · Paper submission deadline
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:BCI Winter 2027 · Paper submission deadline (extended)
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
- med\, checked 2026-11-14\nCutoff time unannounced: official deadline day 
+ med\, checked 2026-11-18\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
  chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
  portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
@@ -29,12 +29,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bci-winter-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261215
-DTEND;VALUE=DATE:20261216
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
 SUMMARY:BCI Winter 2027 · Acceptance notification
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
- med\, checked 2026-11-14\nCutoff time unannounced: official deadline day 
+ med\, checked 2026-11-18\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
  chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
  portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
@@ -51,7 +51,7 @@ DTEND;VALUE=DATE:20270102
 SUMMARY:BCI Winter 2027 · Camera-ready manuscript deadline
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
- med\, checked 2026-11-14\nCutoff time unannounced: official deadline day 
+ med\, checked 2026-11-18\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
  chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
  portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
@@ -67,14 +67,16 @@ DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270225
 SUMMARY:BCI Winter 2027 · Conference
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nSt
- atus: confirmed\, checked 2026-11-14\nOfficial source: https://brain.kore
+ atus: confirmed\, checked 2026-11-18\nOfficial source: https://brain.kore
  a.ac.kr/bci2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci
  -winter-2027\nNotes: Official 2027 site and CFP confirm February 22-24\, 
- 2027 at High1 Resort\, Jeongseon\, with papers due November 15\, 2026 (up
-  to 6 pages\, double-blind\, IEEE Xplore subject to quality review). No c
- utoff hour or zone is stated\; T23:59 AoE is provisional. The 2026 deadli
- ne moved from October to December\, so check for extensions. Size is an e
- ditorial estimate.
+ 2027 at High1 Resort\, Jeongseon. On 2026-11-18 the Important Dates page 
+ and CFP give papers due November 25\, 2026 (extended from November 15) an
+ d notification December 20 (extended from December 15)\; camera-ready sta
+ ys January 1\, 2027. Papers up to 6 pages\, double-blind\, IEEE Xplore su
+ bject to quality review. No cutoff hour or zone is stated\; T23:59 AoE is
+  provisional. The 2026 deadline moved from October to December\, so check
+  for further extensions. Size is an editorial estimate.
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Machine Learning
 URL:https://brain.korea.ac.kr/bci2027/

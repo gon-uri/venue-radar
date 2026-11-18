@@ -10,6 +10,51 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:aaai-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260722T115900Z
+DTEND:20260722T125900Z
+SUMMARY:AAAI 2027 · Abstract submission deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sour
+ ce: https://aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260729T115900Z
+DTEND:20260729T125900Z
+SUMMARY:AAAI 2027 · Full paper submission deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sour
+ ce: https://aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260801T115900Z
+DTEND:20260801T125900Z
+SUMMARY:AAAI 2027 · Supplementary material and code deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sour
+ ce: https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+END:VEVENT
+BEGIN:VEVENT
 UID:icra-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260917T075900Z
@@ -25,6 +70,23 @@ CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
  ern Recognition,System Identification & Data-driven Dynamics
 URL:https://2027.ieee-icra.org/announcements/call-for-papers-submission-dea
  dline-extended/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:AAAI 2027 · Main-track final acceptance notification
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nCutoff time unannounced: official deadline day only. Verify the organi
+ zer's submission portal.\nFormat: Paper-based / OpenReview\; Archival opt
+ ion: Yes\nOfficial source: https://aaai.org/conference/aaai/aaai-27/main-
+ technical-track-call/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
 END:VEVENT
 BEGIN:VEVENT
 UID:rss-2027-deadline-extended-abstract@scientific-conference-calendar
@@ -49,13 +111,28 @@ DTEND:20261208T125900Z
 SUMMARY:ICAPS 2027 · Paper abstract registration deadline
 DESCRIPTION:International Conference on Automated Planning and Scheduling\n
  Meeting: 2027-06-27 to 2027-07-02\, Columbia\, South Carolina\, USA\nStat
- us: confirmed\, checked 2026-11-14\nFormat: Long and short papers / autom
+ us: confirmed\, checked 2026-11-18\nFormat: Long and short papers / autom
  ated planning\; Archival option: Yes\nOfficial source: https://icaps27.ic
  aps-conference.org/calls/cfp/\nVenue Radar: https://gon-uri.github.io/ven
  ue-radar/#icaps-2027
 CATEGORIES:Planning & Search,Knowledge Representation & Reasoning,Machine L
  earning,Control & Robotics
 URL:https://icaps27.icaps-conference.org/calls/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261215T115900Z
+DTEND:20261215T125900Z
+SUMMARY:AAAI 2027 · Camera-ready deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sour
+ ce: https://aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
 END:VEVENT
 BEGIN:VEVENT
 UID:icaps-2027-deadline-full-paper@scientific-conference-calendar
@@ -65,7 +142,7 @@ DTEND:20261215T125900Z
 SUMMARY:ICAPS 2027 · Long and short paper submission deadline
 DESCRIPTION:International Conference on Automated Planning and Scheduling\n
  Meeting: 2027-06-27 to 2027-07-02\, Columbia\, South Carolina\, USA\nStat
- us: confirmed\, checked 2026-11-14\nFormat: Long and short papers / autom
+ us: confirmed\, checked 2026-11-18\nFormat: Long and short papers / autom
  ated planning\; Archival option: Yes\nOfficial source: https://icaps27.ic
  aps-conference.org/calls/cfp/\nVenue Radar: https://gon-uri.github.io/ven
  ue-radar/#icaps-2027
@@ -90,6 +167,42 @@ CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
  ern Recognition,System Identification & Data-driven Dynamics
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-acc
  epting-submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270224
+SUMMARY:AAAI 2027 · Conference
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nStatus: confirmed\,
+  checked 2026-10-28\nOfficial source: https://aaai.org/conference/aaai/aa
+ ai-27/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aaai-2027\nNo
+ tes: Rechecked 2026-10-28: official AAAI-27 pages still list Feb 16-23\, 
+ 2027 in Montreal and the AoE (UTC-12) main-track timetable\, with no exte
+ nsions. The Nov 30 notification has no stated hour\, so its time is provi
+ sional. The page shows two overlapping author-feedback ranges (Oct 19-25 
+ and Oct 24-31)\, so that window is not listed.
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
+LOCATION:Montreal\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:icaps-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:ICAPS 2027 · Paper acceptance notification
+DESCRIPTION:International Conference on Automated Planning and Scheduling\n
+ Meeting: 2027-06-27 to 2027-07-02\, Columbia\, South Carolina\, USA\nStat
+ us: confirmed\, checked 2026-11-18\nCutoff time unannounced: official dea
+ dline day only. Verify the organizer's submission portal.\nFormat: Long a
+ nd short papers / automated planning\; Archival option: Yes\nOfficial sou
+ rce: https://icaps27.icaps-conference.org/calls/cfp/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#icaps-2027
+CATEGORIES:Planning & Search,Knowledge Representation & Reasoning,Machine L
+ earning,Control & Robotics
+URL:https://icaps27.icaps-conference.org/calls/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:iros-2027-deadline-full-paper@scientific-conference-calendar
@@ -129,6 +242,22 @@ DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-02 to 2027-
  /gon-uri.github.io/venue-radar/#rlc-2027
 CATEGORIES:Reinforcement Learning,Machine Learning
 URL:https://rl-conference.cc/2027/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:ECAI 2027 · Full paper submission deadline
+DESCRIPTION:European Conference on Artificial Intelligence\nMeeting: 2027-1
+ 0-02 to 2027-10-07\, Athens\, Greece\nStatus: confirmed\, checked 2026-11
+ -14\nCutoff time unannounced: official deadline day only. Verify the orga
+ nizer's submission portal.\nFormat: Paper-based\; Archival option: Yes (e
+ st.)\nOfficial source: https://ecai2027.org/\nVenue Radar: https://gon-ur
+ i.github.io/venue-radar/#ecai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Fairness & Responsible AI
+URL:https://ecai2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:rss-2027-deadline-full-paper@scientific-conference-calendar
@@ -176,6 +305,21 @@ DESCRIPTION:International Conference on Principles of Knowledge Representat
 CATEGORIES:Knowledge Representation & Reasoning,Explainability & Interpreta
  bility
 URL:https://kr.org/KR2027/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:rss-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270501T115900Z
+DTEND:20270501T125900Z
+SUMMARY:RSS 2027 · Final paper acceptance notification
+DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
+ ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
+ ar/#rss-2027
+CATEGORIES:Control & Robotics,Reinforcement Learning,System Identification 
+ & Data-driven Dynamics,Computer Vision & Pattern Recognition
+URL:https://roboticsconference.org/information/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:rlc-2027-deadline-notification@scientific-conference-calendar
@@ -228,13 +372,31 @@ URL:https://2027.ieee-icra.org/
 LOCATION:Seoul\, South Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:iros-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:IROS 2027 (est.) · Notification of paper acceptance
+DESCRIPTION:IEEE/RSJ International Conference on Intelligent Robots and Sys
+ tems\nMeeting: 2027-09-27 to 2027-10-01\, Florence\, Italy\nStatus: estim
+ ated\, checked 2026-11-14. Check the organizer's call before relying on i
+ t.\nEstimated day only\; no cutoff hour stored. Check the organizer's cal
+ l for the real date and time.\nFormat: Paper-based / IEEE Xplore proceedi
+ ngs\; Archival option: Yes (est.)\nPrevious edition's page: https://2026.
+ ieee-iros.org/contribute/call-for-papers/\nVenue Radar: https://gon-uri.g
+ ithub.io/venue-radar/#iros-2027
+CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
+ ern Recognition,Planning & Search
+URL:https://2026.ieee-iros.org/contribute/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:icaps-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270703
 SUMMARY:ICAPS 2027 · Conference
 DESCRIPTION:International Conference on Automated Planning and Scheduling\n
- Status: confirmed\, checked 2026-11-14\nOfficial source: https://icaps27.
+ Status: confirmed\, checked 2026-11-18\nOfficial source: https://icaps27.
  icaps-conference.org/calls/cfp/\nVenue Radar: https://gon-uri.github.io/v
  enue-radar/#icaps-2027\nNotes: Official CFP confirms the meeting and 23:5
  9 UTC-12 abstract/paper deadlines. Learning and foundation-model papers r
@@ -297,6 +459,54 @@ DESCRIPTION:International Conference on Principles of Knowledge Representat
 CATEGORIES:Knowledge Representation & Reasoning,Explainability & Interpreta
  bility
 URL:https://kr.org/KR2027/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:ECAI 2027 · Author notification
+DESCRIPTION:European Conference on Artificial Intelligence\nMeeting: 2027-1
+ 0-02 to 2027-10-07\, Athens\, Greece\nStatus: confirmed\, checked 2026-11
+ -14\nCutoff time unannounced: official deadline day only. Verify the orga
+ nizer's submission portal.\nFormat: Paper-based\; Archival option: Yes (e
+ st.)\nOfficial source: https://ecai2027.org/\nVenue Radar: https://gon-ur
+ i.github.io/venue-radar/#ecai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Fairness & Responsible AI
+URL:https://ecai2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270722T115900Z
+DTEND:20270722T125900Z
+SUMMARY:AAAI 2028 (est.) · Abstract submission deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2028-02-16
+  to 2028-02-23 (est.)\, To be announced\nStatus: estimated\, checked 2026
+ -11-14. Check the organizer's call before relying on it.\nFormat: Paper-b
+ ased / OpenReview\; Archival option: Yes (est.)\nOfficial source: https:/
+ /aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#aaai-2028
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270729T115900Z
+DTEND:20270729T125900Z
+SUMMARY:AAAI 2028 (est.) · Full paper submission deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2028-02-16
+  to 2028-02-23 (est.)\, To be announced\nStatus: estimated\, checked 2026
+ -11-14. Check the organizer's call before relying on it.\nFormat: Paper-b
+ ased / OpenReview\; Archival option: Yes (est.)\nOfficial source: https:/
+ /aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#aaai-2028
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
 END:VEVENT
 BEGIN:VEVENT
 UID:rlc-2027-conference@scientific-conference-calendar
@@ -385,6 +595,83 @@ CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
  ern Recognition,Planning & Search
 URL:https://2027.ieee-iros.org/
 LOCATION:Florence\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271008
+SUMMARY:ECAI 2027 · Conference
+DESCRIPTION:European Conference on Artificial Intelligence\nStatus: confirm
+ ed\, checked 2026-11-14\nOfficial source: https://ecai2027.org/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ecai-2027\nNotes: Official EC
+ AI 2027 site confirms Athens\, Oct 2-7 (Oct 2-3 workshops\, tutorials and
+  Doctoral Consortium at NKUA\; main conference and PAIS Oct 4-7 at Megaro
+ n Athens)\, an Apr 14 full-paper submission date\, Phase 1 notification M
+ ay 15\, rebuttal Jun 15-18 and notification Jul 15. No call\, abstract de
+ adline or cutoff hour/time zone is published yet (2026-11-14)\, so 23:59 
+ AoE is an explicitly estimated placeholder.
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Fairness & Responsible AI
+URL:https://ecai2027.org/
+LOCATION:Athens\, Greece
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271130
+DTEND;VALUE=DATE:20271201
+SUMMARY:AAAI 2028 (est.) · Main technical track final acceptance notificat
+ ion
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2028-02-16
+  to 2028-02-23 (est.)\, To be announced\nStatus: estimated\, checked 2026
+ -11-14. Check the organizer's call before relying on it.\nEstimated day o
+ nly\; no cutoff hour stored. Check the organizer's call for the real date
+  and time.\nFormat: Paper-based / OpenReview\; Archival option: Yes (est.
+ )\nOfficial source: https://aaai.org/conference/aaai/aaai-27/main-technic
+ al-track-call/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aaai-
+ 2028
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280130
+DTEND;VALUE=DATE:20280131
+SUMMARY:ICRA 2028 (est.) · Notification of acceptance/rejection
+DESCRIPTION:IEEE International Conference on Robotics and Automation\nMeeti
+ ng: 2028-05-24 to 2028-05-28 (est.)\, Guadalajara\, Mexico\nStatus: estim
+ ated\, checked 2026-11-14. Check the organizer's call before relying on i
+ t.\nEstimated day only\; no cutoff hour stored. Check the organizer's cal
+ l for the real date and time.\nFormat: Paper-based\; Archival option: Yes
+  (est.)\nPrevious edition's page: https://2027.ieee-icra.org/contribute/c
+ all-for-icra-2027-papers-now-accepting-submissions/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#icra-2028
+CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
+ ern Recognition,System Identification & Data-driven Dynamics
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-acc
+ epting-submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280216
+DTEND;VALUE=DATE:20280224
+SUMMARY:AAAI 2028 (est.) · Conference
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nStatus: estimated\,
+  checked 2026-11-14. Check the organizer's call before relying on it.\nOf
+ ficial source: https://aaai.org/conference/aaai/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#aaai-2028\nNotes: As of 2026-10-29 the offic
+ ial AAAI conference page lists nothing after AAAI-27 (Montreal\, Feb 16-2
+ 3\, 2027)\; no AAAI-28 dates or host are announced. Meeting dates (Feb 16
+ -23) and the Jul 21 abstract/Jul 28 full-paper deadlines (AoE) are one-ye
+ ar proxies from AAAI-27.
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2028-conference@scientific-conference-calendar

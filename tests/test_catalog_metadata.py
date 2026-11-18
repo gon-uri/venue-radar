@@ -67,6 +67,17 @@ class CatalogMetadataTests(unittest.TestCase):
         item['topics'] = list(self.topics)[:5]
         self.assertTrue(validate_conferences([item], self.topics))
 
+    def test_decision_dates_follow_the_first_route_and_precede_the_meeting(self):
+        item = deepcopy(next(item for item in self.conferences if item['id'] == 'colt-2027'))
+        self.assertEqual(validate_conferences([item], self.topics), [])
+        decision = next(d for d in item['deadlines'] if d['type'] == 'notification')
+        decision['datetime'] = '2027-01-01T23:59:00-12:00'  # before the Jan 29 paper deadline
+        self.assertIn('colt-2027: notification must follow the first submission deadline',
+                      validate_conferences([item], self.topics))
+        decision['datetime'] = f"{item['conference_end']}T23:59:00-12:00"
+        self.assertIn('colt-2027: notification must not be after conference_start',
+                      validate_conferences([item], self.topics))
+
     def test_review_days_cannot_be_in_the_future(self):
         item = deepcopy(next(item for item in self.conferences if item['id'] == 'l4dc-2027'))
         limit = date(2026, 10, 31)

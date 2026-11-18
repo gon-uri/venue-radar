@@ -47,7 +47,7 @@ DTEND:20260818T125900Z
 SUMMARY:WSDM 2027 · Abstract submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cffp.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -62,7 +62,7 @@ DTEND:20260825T125900Z
 SUMMARY:WSDM 2027 · Paper submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cffp.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -342,7 +342,7 @@ DTEND:20261113T125900Z
 SUMMARY:WSDM 2027 · Doctoral consortium application deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cfdc.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -366,6 +366,38 @@ DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
 CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
  LLMs,Data Mining & Data Science
 URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:IJCNN 2027 · Special session and workshop proposal deadline
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based\; Archival op
+ tion: Yes\nOfficial source: https://ijcnn.org/2027/authors/call-for-paper
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-2027-deadline-satellite-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:NetSci 2027 · Satellite symposium proposal deadline
+DESCRIPTION:International School and Conference on Network Science\nMeeting
+ : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
+ ed 2026-11-14\nCutoff time unannounced: official deadline day only. Verif
+ y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
+ ption: No\nOfficial source: https://netsci2027.github.io/calls/satellites
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
+CATEGORIES:Complex Systems & Network Science,Data Mining & Data Science,Non
+ linear Dynamics & Chaos
+URL:https://netsci2027.github.io/calls/satellites/
 END:VEVENT
 BEGIN:VEVENT
 UID:netsci-x-2027-deadline-notification@scientific-conference-calendar
@@ -408,7 +440,7 @@ DTEND:20261118T125900Z
 SUMMARY:WSDM 2027 · Short paper submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cfsp.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -453,6 +485,39 @@ CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
 URL:https://complenet.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
+UID:ida-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261129T105959Z
+DTEND:20261129T115959Z
+SUMMARY:IDA 2027 · Abstract submission deadline
+DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
+ 2027-04-21 to 2027-04-23\, Pisa\, Italy\nStatus: confirmed\, checked 2026
+ -11-18\nCutoff note: CFP lists dates as AOE but says 'All deadlines are 2
+ 3:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11) is 1 h before AoE
+ . Earliest instant stored.\nFormat: Paper-based / interdisciplinary\; Arc
+ hival option: Yes\nOfficial source: https://ida2027.eu/regular-paper-trac
+ k/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ida-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
+ al & Uncertainty ML,Time Series & Sequential Data
+URL:https://ida2027.eu/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:IJCNN 2027 · Competition and tutorial proposal deadline
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based\; Archival op
+ tion: Yes\nOfficial source: https://ijcnn.org/2027/authors/call-for-paper
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:netsci-x-2027-deadline-registration@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261201T115900Z
@@ -476,7 +541,7 @@ DTEND:20261201T125900Z
 SUMMARY:WSDM 2027 · WSDM Day 2-page extended abstract submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cfp.html\nVenue Radar: https:
  //gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -503,6 +568,22 @@ URL:https://complexnetworks.org/
 LOCATION:Granada\, Spain
 END:VEVENT
 BEGIN:VEVENT
+UID:netsci-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:NetSci 2027 · One-page abstract submission (talk/poster)
+DESCRIPTION:International School and Conference on Network Science\nMeeting
+ : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
+ ed 2026-11-14\nCutoff time unannounced: official deadline day only. Verif
+ y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
+ ption: No\nOfficial source: https://netsci2027.github.io/calls/abstracts/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
+CATEGORIES:Complex Systems & Network Science,Data Mining & Data Science,Non
+ linear Dynamics & Chaos
+URL:https://netsci2027.github.io/calls/abstracts/
+END:VEVENT
+BEGIN:VEVENT
 UID:dynamics-days-lac-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261206
@@ -519,6 +600,23 @@ CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
  e Series & Sequential Data,Computational Neuroscience
 URL:https://fisica.ufpr.br/DDaysLAC2026/index.html
 LOCATION:Curitiba\, Brazil
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261206T105959Z
+DTEND:20261206T115959Z
+SUMMARY:IDA 2027 · Regular paper submission deadline
+DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
+ 2027-04-21 to 2027-04-23\, Pisa\, Italy\nStatus: confirmed\, checked 2026
+ -11-18\nCutoff note: CFP lists dates as AOE but says 'All deadlines are 2
+ 3:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11) is 1 h before AoE
+ . Earliest instant stored.\nFormat: Paper-based / interdisciplinary\; Arc
+ hival option: Yes\nOfficial source: https://ida2027.eu/regular-paper-trac
+ k/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ida-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
+ al & Uncertainty ML,Time Series & Sequential Data
+URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:eswc-2027-deadline-abstract@scientific-conference-calendar
@@ -684,6 +782,38 @@ CATEGORIES:Complex Systems & Network Science,Natural Language Processing &
 URL:https://www.icwsm.org/2027/submit/
 END:VEVENT
 BEGIN:VEVENT
+UID:netsci-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:NetSci 2027 · Abstract acceptance notification
+DESCRIPTION:International School and Conference on Network Science\nMeeting
+ : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
+ ed 2026-11-14\nCutoff time unannounced: official deadline day only. Verif
+ y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
+ ption: No\nOfficial source: https://netsci2027.github.io/calls/abstracts/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
+CATEGORIES:Complex Systems & Network Science,Data Mining & Data Science,Non
+ linear Dynamics & Chaos
+URL:https://netsci2027.github.io/calls/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:IDA 2027 · Paper acceptance notification
+DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
+ 2027-04-21 to 2027-04-23\, Pisa\, Italy\nStatus: confirmed\, checked 2026
+ -11-18\nCutoff time unannounced: official deadline day only. Verify the o
+ rganizer's submission portal.\nFormat: Paper-based / interdisciplinary\; 
+ Archival option: Yes\nOfficial source: https://ida2027.eu/regular-paper-t
+ rack/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ida-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
+ al & Uncertainty ML,Time Series & Sequential Data
+URL:https://ida2027.eu/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
 UID:netsci-x-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270124
@@ -724,6 +854,22 @@ CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
 URL:https://2027.eswc-conferences.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcnn-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:IJCNN 2027 · Regular paper submission deadline
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based\; Archival op
+ tion: Yes\nOfficial source: https://ijcnn.org/2027/authors/call-for-paper
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:www-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270201T115900Z
@@ -737,6 +883,23 @@ DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
 CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T105959Z
+DTEND:20270202T115959Z
+SUMMARY:IDA 2027 · Camera-ready deadline
+DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
+ 2027-04-21 to 2027-04-23\, Pisa\, Italy\nStatus: confirmed\, checked 2026
+ -11-18\nCutoff note: CFP lists dates as AOE but says 'All deadlines are 2
+ 3:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11) is 1 h before AoE
+ . Earliest instant stored.\nFormat: Paper-based / interdisciplinary\; Arc
+ hival option: Yes\nOfficial source: https://ida2027.eu/regular-paper-trac
+ k/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ida-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
+ al & Uncertainty ML,Time Series & Sequential Data
+URL:https://ida2027.eu/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:eswc-2027-deadline-doctoral-symposium@scientific-conference-calendar
@@ -756,13 +919,28 @@ CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
 URL:https://2027.eswc-conferences.org/calls/phd-symposium/
 END:VEVENT
 BEGIN:VEVENT
+UID:ida-2027-deadline-phd-forum@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270213T115959Z
+DTEND:20270213T125959Z
+SUMMARY:IDA 2027 · PhD Forum 2-page paper submission (graduate students)
+DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
+ 2027-04-21 to 2027-04-23\, Pisa\, Italy\nStatus: confirmed\, checked 2026
+ -11-18\nFormat: Paper-based / interdisciplinary\; Archival option: Yes\nO
+ fficial source: https://ida2027.eu/phd-forum/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#ida-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
+ al & Uncertainty ML,Time Series & Sequential Data
+URL:https://ida2027.eu/phd-forum/
+END:VEVENT
+BEGIN:VEVENT
 UID:wsdm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270220
 SUMMARY:WSDM 2027 · Conference
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nSta
- tus: confirmed\, checked 2026-11-14\nOfficial source: https://www.wsdm-co
+ tus: confirmed\, checked 2026-11-18\nOfficial source: https://www.wsdm-co
  nference.org/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#w
  sdm-2027\nNotes: Official WSDM 2027 pages (rechecked 2026-10-30) list Hon
  g Kong (Cordis)\, Feb 15-19\, and AoE deadlines: full-paper abstract Aug 
@@ -833,6 +1011,38 @@ CATEGORIES:Complex Systems & Network Science,Natural Language Processing &
 URL:https://www.icwsm.org/2027/submit/
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcnn-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IJCNN 2027 · Regular paper acceptance notification
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based\; Archival op
+ tion: Yes\nOfficial source: https://ijcnn.org/2027/authors/call-for-paper
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:icann-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270317T115900Z
+DTEND:20270317T125900Z
+SUMMARY:ICANN 2027 (est.) · Full paper and abstract submission deadline
+DESCRIPTION:International Conference on Artificial Neural Networks\nMeeting
+ : 2027-08-24 to 2027-08-27\, Linköping\, Sweden\nStatus: estimated\, che
+ cked 2026-11-18. Check the organizer's call before relying on it.\nFormat
+ : Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: htt
+ ps://e-nns.org/icann2026/\nVenue Radar: https://gon-uri.github.io/venue-r
+ adar/#icann-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://e-nns.org/icann2026/
+END:VEVENT
+BEGIN:VEVENT
 UID:eswc-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270319T115900Z
@@ -881,6 +1091,43 @@ DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://2027.eswc-conferences.org/calls/poster-demo/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270413T115900Z
+DTEND:20270413T125900Z
+SUMMARY:IJCNN 2027 · Camera-ready submission and registration fee payment 
+ (all tracks)
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nFormat: Paper-based\; Archival option: Yes\nOfficial sou
+ rce: https://ijcnn.org/2027/authors/initial-author-instructions\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/initial-author-instructions
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270424
+SUMMARY:IDA 2027 · Conference
+DESCRIPTION:International Symposium on Intelligent Data Analysis\nStatus: c
+ onfirmed\, checked 2026-11-18\nOfficial source: https://ida2027.eu/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#ida-2027\nNotes: Official
+  IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 2027 (ve
+ nue TBA). Deadlines are labelled AoE\, but the regular-track CFP also say
+ s 'All deadlines are 23:59:59 SST'\, read as Samoa time (UTC-11)\, so its
+  rows store that earlier -11:00 instant per their cutoff notes\; the PhD 
+ Forum page states only AOE (-12:00). The abstract gate follows the abstra
+ ct-then-paper CMT schedule\, as in 2026\; the page does not explicitly ca
+ ll it mandatory.
+CATEGORIES:Data Mining & Data Science,Machine Learning,Probabilistic\, Caus
+ al & Uncertainty ML,Time Series & Sequential Data
+URL:https://ida2027.eu/
+LOCATION:Pisa\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamics-days-europe-2027-deadline-abstract@scientific-conference-calen
@@ -959,6 +1206,26 @@ CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
  h Learning,LLM Agents & Tool Use
 URL:https://www2027.thewebconf.org/
 LOCATION:Dublin\, Ireland
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270522
+SUMMARY:NetSci 2027 · Conference
+DESCRIPTION:International School and Conference on Network Science\nStatus:
+  confirmed\, checked 2026-11-14\nOfficial source: https://netsci2027.gith
+ ub.io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027\n
+ Notes: Official NetSci 2027 site (TU Dresden) confirms May 17-21\, 2027 (
+ satellites/school May 17-18\, main conference May 18-21). One-page abstra
+ cts with a mandatory figure are due December 1\, 2026\; the call opened O
+ ctober 9. No cutoff hour/zone is stated\, so T23:59 AoE is provisional. P
+ resentation route\, not archival proceedings. Distinct from NetSciX. Size
+  is editorial.
+CATEGORIES:Complex Systems & Network Science,Data Mining & Data Science,Non
+ linear Dynamics & Chaos
+URL:https://netsci2027.github.io/
+LOCATION:Dresden\, Germany
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2027-deadline-abstract@scientific-conference-calendar
@@ -1041,6 +1308,73 @@ URL:https://www.icwsm.org/2027/
 LOCATION:Edinburgh\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
+UID:icann-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:ICANN 2027 (est.) · Notification of acceptance or rejection
+DESCRIPTION:International Conference on Artificial Neural Networks\nMeeting
+ : 2027-08-24 to 2027-08-27\, Linköping\, Sweden\nStatus: estimated\, che
+ cked 2026-11-18. Check the organizer's call before relying on it.\nEstima
+ ted day only\; no cutoff hour stored. Check the organizer's call for the 
+ real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\nP
+ revious edition's page: https://e-nns.org/icann2026/important-dates/\nVen
+ ue Radar: https://gon-uri.github.io/venue-radar/#icann-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://e-nns.org/icann2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270607T115900Z
+DTEND:20270607T125900Z
+SUMMARY:ICDM 2027 (est.) · Research or applied track full paper submission
+DESCRIPTION:IEEE International Conference on Data Mining\nMeeting: 2027-11-
+ 15 to 2027-11-18\, Brisbane\, Australia\nStatus: estimated\, checked 2026
+ -11-14. Check the organizer's call before relying on it.\nFormat: Paper-b
+ ased\; Archival option: Yes (est.)\nOfficial source: https://icdm2027.org
+ /dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icdm-2027
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Machine
+  Learning
+URL:https://icdm2027.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-mlsp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270613T115900Z
+DTEND:20270613T125900Z
+SUMMARY:IEEE MLSP 2027 (est.) · Conference paper submission deadline
+DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
+ essing\nMeeting: 2027-09-13 to 2027-09-16\, Uppsala\, Sweden\nStatus: est
+ imated\, checked 2026-11-14. Check the organizer's call before relying on
+  it.\nFormat: Paper-based / workshop-style conference\; Archival option: 
+ Yes (est.)\nOfficial source: https://signalprocessingsociety.org/event-na
+ mes/mlsp\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-mlsp-2
+ 027
+CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
+URL:https://signalprocessingsociety.org/event-names/mlsp
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270619
+SUMMARY:IJCNN 2027 · Conference
+DESCRIPTION:International Joint Conference on Neural Networks\nStatus: conf
+ irmed\, checked 2026-10-28\nOfficial source: https://ijcnn.org/2027\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027\nNotes: Offici
+ al IJCNN 2027 pages (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-
+ 18\, and the Jan 31\, 2027 regular-paper deadline with no cutoff hour (pr
+ ovisional AoE end of day). CMT paper submissions are announced to open De
+ c 1\, 2026. Camera-ready and registration payment are due Apr 12\, 2027\,
+  23:59 AoE.
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027
+LOCATION:Cape Town\, South Africa
+END:VEVENT
+BEGIN:VEVENT
 UID:dynamics-days-europe-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270719
@@ -1076,6 +1410,24 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-mlsp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:IEEE MLSP 2027 (est.) · Notification of acceptance
+DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
+ essing\nMeeting: 2027-09-13 to 2027-09-16\, Uppsala\, Sweden\nStatus: est
+ imated\, checked 2026-11-14. Check the organizer's call before relying on
+  it.\nEstimated day only\; no cutoff hour stored. Check the organizer's c
+ all for the real date and time.\nFormat: Paper-based / workshop-style con
+ ference\; Archival option: Yes (est.)\nOfficial source: https://web.archi
+ ve.org/web/20260610214250/https://mlsp26.ieeesps.org/call-for-papers/\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#ieee-mlsp-2027
+CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
+URL:https://web.archive.org/web/20260610214250/https://mlsp26.ieeesps.org/c
+ all-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:log-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270801T115900Z
@@ -1090,6 +1442,76 @@ DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
 CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:CIKM 2027 (est.) · Full paper acceptance notification
+DESCRIPTION:ACM International Conference on Information and Knowledge Manag
+ ement\nMeeting: 2027-11-01 to 2027-11-05 (est.)\, Sydney\, Australia\nSta
+ tus: estimated\, checked 2026-10-29. Check the organizer's call before re
+ lying on it.\nEstimated day only\; no cutoff hour stored. Check the organ
+ izer's call for the real date and time.\nFormat: Paper-based\; Archival o
+ ption: Yes (est.)\nPrevious edition's page: https://cikm2026.diag.uniroma
+ 1.it/full-research-papers/\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#cikm-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
+ cessing & LLMs,Human-AI Interaction & Deployment
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:ICDM 2027 (est.) · Research and applied track author notification
+DESCRIPTION:IEEE International Conference on Data Mining\nMeeting: 2027-11-
+ 15 to 2027-11-18\, Brisbane\, Australia\nStatus: estimated\, checked 2026
+ -11-14. Check the organizer's call before relying on it.\nEstimated day o
+ nly\; no cutoff hour stored. Check the organizer's call for the real date
+  and time.\nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious e
+ dition's page: https://icdm2026.neu.edu.cn/ImportantDates/list.htm\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#icdm-2027
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Machine
+  Learning
+URL:https://icdm2026.neu.edu.cn/ImportantDates/list.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:icdm-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270821T115900Z
+DTEND:20270821T125900Z
+SUMMARY:ICDM 2027 (est.) · Workshop paper submission
+DESCRIPTION:IEEE International Conference on Data Mining\nMeeting: 2027-11-
+ 15 to 2027-11-18\, Brisbane\, Australia\nStatus: estimated\, checked 2026
+ -11-14. Check the organizer's call before relying on it.\nFormat: Paper-b
+ ased\; Archival option: Yes (est.)\nOfficial source: https://icdm2027.org
+ /dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icdm-2027
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Machine
+  Learning
+URL:https://icdm2027.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:icann-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270828
+SUMMARY:ICANN 2027 · Conference
+DESCRIPTION:International Conference on Artificial Neural Networks\nStatus:
+  confirmed\, checked 2026-11-18\nOfficial source: https://e-nns.org/icann
+ 2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icann-2027\nNo
+ tes: The official ICANN 2027 page (2026-11-18) announces August 24-27\, 2
+ 027\, at Collegium\, Linköping Science Park\, Sweden\; it publishes no c
+ all or dates yet. Deadlines remain projections from ICANN 2026 (paper dea
+ dline first announced as March 16\, 2026\, later shown as March 9 and ext
+ ended to March 30\; notification May 29)\, so the call page and source li
+ nks still refer to the 2026 edition.
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://e-nns.org/icann2027/
+LOCATION:Linköping\, Sweden
 END:VEVENT
 BEGIN:VEVENT
 UID:complex-networks-2027-deadline-extended-abstract@scientific-conference-
@@ -1122,6 +1544,59 @@ DESCRIPTION:International Conference on Complex Networks and Their Applicat
  g on it.\nFormat: Paper-based + extended abstracts\; Archival option: Yes
   (est.)\nOfficial source: https://complexnetworks.org/\nVenue Radar: http
  s://gon-uri.github.io/venue-radar/#complex-networks-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Data Mining & Data Science
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-mlsp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270917
+SUMMARY:IEEE MLSP 2027 · Conference
+DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
+ essing\nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://
+ 2027.ieeemlsp.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#i
+ eee-mlsp-2027\nNotes: IEEE SPS and the official 2027.ieeemlsp.org placeho
+ lder confirm Uppsala\, Sep 13-16\, 2027. As of 2026-10-28 no 2027 call or
+  deadlines are published\; the June 12 paper deadline is an estimated pro
+ xy from MLSP 2026's June 12 deadline.
+CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
+URL:https://2027.ieeemlsp.org/
+LOCATION:Uppsala\, Sweden
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:LoG 2027 (est.) · Final decisions released
+DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
+ 1 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check
+  the organizer's call before relying on it.\nEstimated day only\; no cuto
+ ff hour stored. Check the organizer's call for the real date and time.\nF
+ ormat: Paper-based / non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://logconference.org/cfp/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#log-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
+ rning,Learning Theory & Statistical Foundations
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-notification@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:COMPLEX NETWORKS 2027 (est.) · Acceptance notification
+DESCRIPTION:International Conference on Complex Networks and Their Applicat
+ ions\nMeeting: 2027-12-01 to 2027-12-03 (est.)\, To be announced\nStatus:
+  estimated\, checked 2026-11-14. Check the organizer's call before relyin
+ g on it.\nEstimated day only\; no cutoff hour stored. Check the organizer
+ 's call for the real date and time.\nFormat: Paper-based + extended abstr
+ acts\; Archival option: Yes (est.)\nOfficial source: https://complexnetwo
+ rks.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#complex-net
+ works-2027
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Data Mining & Data Science
 URL:https://complexnetworks.org/
@@ -1216,6 +1691,26 @@ URL:http://www.cikmconference.org/
 LOCATION:Sydney\, Australia
 END:VEVENT
 BEGIN:VEVENT
+UID:icdm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271119
+SUMMARY:ICDM 2027 · Conference
+DESCRIPTION:IEEE International Conference on Data Mining\nStatus: confirmed
+ \, checked 2026-11-14\nOfficial source: https://icdm.zhonghuapu.com/main.
+ shtml\nVenue Radar: https://gon-uri.github.io/venue-radar/#icdm-2027\nNot
+ es: The ICDM steering committee's series page and icdm2027.org (checked 2
+ 026-11-14) list ICDM 2027 in Brisbane\, Australia\, Nov 15-18\; event man
+ ager ICMS Australasia lists Nov 15-17 at the Brisbane Convention and Exhi
+ bition Centre. icdm2027.org gives tentative 11:59 PM AoE dates (full pape
+ r Jun 6\, workshop papers Aug 20\, 2027) and says the full CFP is coming 
+ soon\, so the deadlines stay estimated.
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Machine
+  Learning
+URL:https://icdm.zhonghuapu.com/main.shtml
+LOCATION:Brisbane\, Australia
+END:VEVENT
+BEGIN:VEVENT
 UID:log-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271119
@@ -1233,6 +1728,23 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
  rning,Learning Theory & Statistical Foundations
 URL:https://logconference.org/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:CompleNet 2028 (est.) · Notification of acceptance
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
+ 07 to 2028-03-10 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-10-29. Check the organizer's call before relying on it.\nEstimated day
+  only\; no cutoff hour stored. Check the organizer's call for the real da
+ te and time.\nFormat: Full/short papers + extended abstracts\; Archival o
+ ption: Yes (est.)\nOfficial source: https://complenet.github.io/cfp.html\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#complenet-2028
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:complex-networks-2027-conference@scientific-conference-calendar
@@ -1314,6 +1826,62 @@ URL:https://complenet.github.io/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:mtns-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:MTNS 2028 (est.) · Paper decision notification
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://uwaterloo.ca/international-symposium-
+ mathematical-theory-networks-systems/key-dates\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#mtns-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280525T215900Z
+DTEND:20280525T225900Z
+SUMMARY:S+SSPR 2028 (est.) · Paper submission deadline
+DESCRIPTION:Joint IAPR International Workshops on Statistical Techniques in
+  Pattern Recognition and Structural and Syntactic Pattern Recognition\nMe
+ eting: 2028-08-24 to 2028-08-26 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Paper-based / workshop-style conference\; Archival option: Yes 
+ (est.)\nPrevious edition's page: https://ssspr2026.inf.unibe.ch/\nVenue R
+ adar: https://gon-uri.github.io/venue-radar/#s-sspr-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Learning 
+ Theory & Statistical Foundations
+URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280630
+DTEND;VALUE=DATE:20280701
+SUMMARY:S+SSPR 2028 (est.) · Notification of acceptance
+DESCRIPTION:Joint IAPR International Workshops on Statistical Techniques in
+  Pattern Recognition and Structural and Syntactic Pattern Recognition\nMe
+ eting: 2028-08-24 to 2028-08-26 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nEstimated day only\; no cutoff hour stored. Check the organizer's call 
+ for the real date and time.\nFormat: Paper-based / workshop-style confere
+ nce\; Archival option: Yes (est.)\nPrevious edition's page: https://ssspr
+ 2026.inf.unibe.ch/\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ -sspr-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Learning 
+ Theory & Statistical Foundations
+URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
 UID:dynamics-days-lac-2028-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20280707
@@ -1332,6 +1900,23 @@ CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
  e Series & Sequential Data,Computational Neuroscience
 URL:https://web.archive.org/web/20260521082858/https://fisica.ufpr.br/DDays
  LAC2026/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280715T215900Z
+DTEND:20280715T225900Z
+SUMMARY:S+SSPR 2028 (est.) · Camera-ready deadline
+DESCRIPTION:Joint IAPR International Workshops on Statistical Techniques in
+  Pattern Recognition and Structural and Syntactic Pattern Recognition\nMe
+ eting: 2028-08-24 to 2028-08-26 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Paper-based / workshop-style conference\; Archival option: Yes 
+ (est.)\nPrevious edition's page: https://ssspr2026.inf.unibe.ch/\nVenue R
+ adar: https://gon-uri.github.io/venue-radar/#s-sspr-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Learning 
+ Theory & Statistical Foundations
+URL:https://ssspr2026.inf.unibe.ch/
 END:VEVENT
 BEGIN:VEVENT
 UID:mtns-2028-conference@scientific-conference-calendar
@@ -1356,6 +1941,27 @@ CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Complex Systems & Network Science
 URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
  ks-systems/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280824
+DTEND;VALUE=DATE:20280827
+SUMMARY:S+SSPR 2028 (est.) · Conference
+DESCRIPTION:Joint IAPR International Workshops on Statistical Techniques in
+  Pattern Recognition and Structural and Syntactic Pattern Recognition\nSt
+ atus: estimated\, checked 2026-11-14. Check the organizer's call before r
+ elying on it.\nPrevious edition's page: https://ssspr2026.inf.unibe.ch/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#s-sspr-2028\nNotes: P
+ rovisional 2-year cadence projection from S+SSPR 2026\; dates\, location 
+ and deadlines need organizer confirmation\, and links refer to the 2026 e
+ dition. 2026-10-28 review found no 2028 announcement. ICPR 2028 is Aug 20
+ -24\, 2028 in Sydney\, but co-location is not guaranteed\, so the proxy i
+ s unchanged.
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Learning 
+ Theory & Statistical Foundations
+URL:https://ssspr2026.inf.unibe.ch/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT

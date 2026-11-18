@@ -66,7 +66,7 @@ DTEND:20270213T125900Z
 SUMMARY:MICCAI 2027 (est.) · Paper registration deadline
 DESCRIPTION:International Conference on Medical Image Computing and Compute
  r Assisted Intervention\nMeeting: 2027-09-27 to 2027-10-01\, Auckland\, N
- ew Zealand\nStatus: estimated\, checked 2026-11-14. Check the organizer's
+ ew Zealand\nStatus: estimated\, checked 2026-11-18. Check the organizer's
   call before relying on it.\nFormat: Paper-based\; Archival option: Yes (
  est.)\nPrevious edition's page: https://conferences.miccai.org/2026/en/de
  fault.asp\nVenue Radar: https://gon-uri.github.io/venue-radar/#miccai-202
@@ -83,7 +83,7 @@ DTEND:20270227T125900Z
 SUMMARY:MICCAI 2027 (est.) · Full paper submission deadline
 DESCRIPTION:International Conference on Medical Image Computing and Compute
  r Assisted Intervention\nMeeting: 2027-09-27 to 2027-10-01\, Auckland\, N
- ew Zealand\nStatus: estimated\, checked 2026-11-14. Check the organizer's
+ ew Zealand\nStatus: estimated\, checked 2026-11-18. Check the organizer's
   call before relying on it.\nFormat: Paper-based\; Archival option: Yes (
  est.)\nPrevious edition's page: https://conferences.miccai.org/2026/en/de
  fault.asp\nVenue Radar: https://gon-uri.github.io/venue-radar/#miccai-202
@@ -93,13 +93,31 @@ CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation
 URL:https://conferences.miccai.org/2026/en/default.asp
 END:VEVENT
 BEGIN:VEVENT
+UID:miccai-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:MICCAI 2027 (est.) · Notification of paper decisions
+DESCRIPTION:International Conference on Medical Image Computing and Compute
+ r Assisted Intervention\nMeeting: 2027-09-27 to 2027-10-01\, Auckland\, N
+ ew Zealand\nStatus: estimated\, checked 2026-11-18. Check the organizer's
+  call before relying on it.\nEstimated day only\; no cutoff hour stored. 
+ Check the organizer's call for the real date and time.\nFormat: Paper-bas
+ ed\; Archival option: Yes (est.)\nPrevious edition's page: https://confer
+ ences.miccai.org/2026/en/IMPORTANT-DATES.html\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#miccai-2027
+CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
+ Learning,Neuroimaging & Brain Mapping
+URL:https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html
+END:VEVENT
+BEGIN:VEVENT
 UID:miccai-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270927
 DTEND;VALUE=DATE:20271002
 SUMMARY:MICCAI 2027 · Conference
 DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nStatus: confirmed\, checked 2026-11-14\nOfficial
+ r Assisted Intervention\nStatus: confirmed\, checked 2026-11-18\nOfficial
   source: https://conferences.miccai.org/2027/en/default.asp\nVenue Radar:
   https://gon-uri.github.io/venue-radar/#miccai-2027\nNotes: The MICCAI 20
  27 site gives Sep 27-Oct 1 at the NZ International Convention Centre\, Au

@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICASSP 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icassp-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270924T115900Z
+DTEND:20270924T125900Z
+SUMMARY:ICASSP 2028 (est.) · Paper submission deadline
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nMeeting: 2028-05-28 to 2028-06-02\, Tokyo\, Japan\nStatus: 
+ estimated\, checked 2026-11-18. Check the organizer's call before relying
+  on it.\nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious edit
+ ion's page: https://cmsworkshops.com/ICASSP2027/papers.php\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#icassp-2028
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://cmsworkshops.com/ICASSP2027/papers.php
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2028-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:ICASSP 2028 (est.) · Satellite workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nMeeting: 2028-05-28 to 2028-06-02\, Tokyo\, Japan\nStatus: 
+ estimated\, checked 2026-11-18. Check the organizer's call before relying
+  on it.\nEstimated day only\; no cutoff hour stored. Check the organizer'
+ s call for the real date and time.\nFormat: Paper-based\; Archival option
+ : Yes (est.)\nPrevious edition's page: https://2027.ieeeicassp.org/call-f
+ or-satellite-workshops/\nVenue Radar: https://gon-uri.github.io/venue-rad
+ ar/#icassp-2028
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://2027.ieeeicassp.org/call-for-satellite-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280113
+DTEND;VALUE=DATE:20280114
+SUMMARY:ICASSP 2028 (est.) · Paper acceptance notification
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nMeeting: 2028-05-28 to 2028-06-02\, Tokyo\, Japan\nStatus: 
+ estimated\, checked 2026-11-18. Check the organizer's call before relying
+  on it.\nEstimated day only\; no cutoff hour stored. Check the organizer'
+ s call for the real date and time.\nFormat: Paper-based\; Archival option
+ : Yes (est.)\nPrevious edition's page: https://2027.ieeeicassp.org/import
+ ant-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icassp-20
+ 28
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://2027.ieeeicassp.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2028-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280127
+DTEND;VALUE=DATE:20280128
+SUMMARY:ICASSP 2028 (est.) · Final paper deadline
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nMeeting: 2028-05-28 to 2028-06-02\, Tokyo\, Japan\nStatus: 
+ estimated\, checked 2026-11-18. Check the organizer's call before relying
+  on it.\nEstimated day only\; no cutoff hour stored. Check the organizer'
+ s call for the real date and time.\nFormat: Paper-based\; Archival option
+ : Yes (est.)\nPrevious edition's page: https://2027.ieeeicassp.org/import
+ ant-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icassp-20
+ 28
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://2027.ieeeicassp.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280528
+DTEND;VALUE=DATE:20280603
+SUMMARY:ICASSP 2028 · Conference
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nStatus: confirmed\, checked 2026-11-18\nOfficial source: ht
+ tps://2028.ieeeicassp.org/\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#icassp-2028\nNotes: ICASSP 2028 dates (28 May - 2 June 2028) and c
+ ity (Tokyo\, Japan) are published on the official 2028.ieeeicassp.org sit
+ e\; no venue\, call for papers or important dates were posted as of 2026-
+ 11-18. All deadlines are 1-year cadence projections from ICASSP 2027 and 
+ the cfp_url and deadline sources still refer to the 2027 edition. Mode as
+ sumed in-person as in prior editions.
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://2028.ieeeicassp.org/
+LOCATION:Tokyo\, Japan
+END:VEVENT
+END:VCALENDAR

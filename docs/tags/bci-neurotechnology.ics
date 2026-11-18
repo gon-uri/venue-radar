@@ -117,12 +117,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bci-winter-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:BCI Winter 2027 · Paper submission deadline
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:BCI Winter 2027 · Paper submission deadline (extended)
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
- med\, checked 2026-11-14\nCutoff time unannounced: official deadline day 
+ med\, checked 2026-11-18\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
  chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
  portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
@@ -134,12 +134,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bci-winter-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261215
-DTEND;VALUE=DATE:20261216
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
 SUMMARY:BCI Winter 2027 · Acceptance notification
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
- med\, checked 2026-11-14\nCutoff time unannounced: official deadline day 
+ med\, checked 2026-11-18\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
  chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
  portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
@@ -173,7 +173,7 @@ DTEND;VALUE=DATE:20270102
 SUMMARY:BCI Winter 2027 · Camera-ready manuscript deadline
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
  eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
- med\, checked 2026-11-14\nCutoff time unannounced: official deadline day 
+ med\, checked 2026-11-18\nCutoff time unannounced: official deadline day 
  only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
  chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
  portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
@@ -257,14 +257,16 @@ DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270225
 SUMMARY:BCI Winter 2027 · Conference
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nSt
- atus: confirmed\, checked 2026-11-14\nOfficial source: https://brain.kore
+ atus: confirmed\, checked 2026-11-18\nOfficial source: https://brain.kore
  a.ac.kr/bci2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci
  -winter-2027\nNotes: Official 2027 site and CFP confirm February 22-24\, 
- 2027 at High1 Resort\, Jeongseon\, with papers due November 15\, 2026 (up
-  to 6 pages\, double-blind\, IEEE Xplore subject to quality review). No c
- utoff hour or zone is stated\; T23:59 AoE is provisional. The 2026 deadli
- ne moved from October to December\, so check for extensions. Size is an e
- ditorial estimate.
+ 2027 at High1 Resort\, Jeongseon. On 2026-11-18 the Important Dates page 
+ and CFP give papers due November 25\, 2026 (extended from November 15) an
+ d notification December 20 (extended from December 15)\; camera-ready sta
+ ys January 1\, 2027. Papers up to 6 pages\, double-blind\, IEEE Xplore su
+ bject to quality review. No cutoff hour or zone is stated\; T23:59 AoE is
+  provisional. The 2026 deadline moved from October to December\, so check
+  for further extensions. Size is an editorial estimate.
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Machine Learning
 URL:https://brain.korea.ac.kr/bci2027/
@@ -407,6 +409,23 @@ CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
 URL:https://sscs.ieee.org/conferences/upcoming-conferences/
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:IEEE NER 2027 · 6-page paper acceptance/rejection notification
+DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-14\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Healthcare & Clinical AI
+URL:https://neuro.embs.org/2027/
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2027-deadline-short-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270517
@@ -523,6 +542,43 @@ CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
 URL:https://2027.ieee-biocas.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:smc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:SMC 2027 (est.) · Regular paper acceptance notification
+DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
+ s\nMeeting: 2027-10-07 to 2027-10-10 (est.)\, Ho Chi Minh City\, Vietnam\
+ nStatus: estimated\, checked 2026-11-14. Check the organizer's call befor
+ e relying on it.\nEstimated day only\; no cutoff hour stored. Check the o
+ rganizer's call for the real date and time.\nFormat: Paper-based\; Archiv
+ al option: Yes (est.)\nPrevious edition's page: https://www.ieeesmc2026.o
+ rg/Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ mc-2027
+CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
+ rning,Human-AI Interaction & Deployment
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:bernstein-conference-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20270701T130000Z
+DTEND:20270701T140000Z
+SUMMARY:Bernstein Conference 2027 (est.) · Abstract submission deadline
+DESCRIPTION:Bernstein Conference\nMeeting: 2027-09-15 to 2027-09-18\, Lausa
+ nne\, Switzerland\nStatus: estimated\, checked 2026-11-14. Check the orga
+ nizer's call before relying on it.\nFormat: Abstract-based / talks select
+ ive\; Archival option: No (est.)\nOfficial source: https://bernstein-netw
+ ork.de/en/bernstein-conference/general-information/important-dates-faq/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#bernstein-conference-
+ 2027
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Time Series & Sequential Data
+URL:https://bernstein-network.de/en/bernstein-conference/general-informatio
+ n/important-dates-faq/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-embc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270711
@@ -540,6 +596,22 @@ CATEGORIES:Healthcare & Clinical AI,Signal Processing,EEG/MEG & Neural Sign
  als,BCI & Neurotechnology
 URL:https://embc.embs.org/2027/
 LOCATION:Singapore
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-biocas-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:IEEE BioCAS 2027 · Author notification
+DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2027-
+ 10-14 to 2027-10-16\, Oslo\, Norway\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
+ izer's submission portal.\nFormat: Paper-based\; Archival option: Yes (es
+ t.)\nOfficial source: https://2027.ieee-biocas.org/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#ieee-biocas-2027
+CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
+ ,Neuromorphic & Brain-inspired Computing
+URL:https://2027.ieee-biocas.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ner-2027-conference@scientific-conference-calendar
@@ -565,6 +637,26 @@ CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Healthcare & Clinical AI
 URL:https://neuro.embs.org/2027/
 LOCATION:Milan\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:bernstein-conference-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270919
+SUMMARY:Bernstein Conference 2027 · Conference
+DESCRIPTION:Bernstein Conference\nStatus: confirmed\, checked 2026-11-14\nO
+ fficial source: https://bernstein-network.de/bernstein-conference/bernste
+ in-conference-2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ bernstein-conference-2027\nNotes: Bernstein Network confirms Lausanne (Sw
+ issTech Convention Center\, EPFL)\, Sep 15-18\, 2027. As of 2026-10-28 no
+  2027 call is published\; the abstract date is a one-year proxy from 2026
+ . In 2026 contributed talks were notified (early July) before posters (la
+ te July)\, so 2027 talk abstracts may close earlier than this proxy.
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Time Series & Sequential Data
+URL:https://bernstein-network.de/bernstein-conference/bernstein-conference-
+ 2027/
+LOCATION:Lausanne\, Switzerland
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-2027-conference@scientific-conference-calendar

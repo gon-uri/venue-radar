@@ -27,6 +27,23 @@ CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
 URL:https://nolta2026.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:ideal-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:IDEAL 2026 · Paper submission deadline (extended)
+DESCRIPTION:International Conference on Intelligent Data Engineering and Au
+ tomated Learning\nMeeting: 2026-11-19 to 2026-11-21\, Manchester\, United
+  Kingdom\nStatus: confirmed\, checked 2026-10-28\nCutoff time unannounced
+ : official deadline day only. Verify the organizer's submission portal.\n
+ Format: Paper-based\; Archival option: Yes\nOfficial source: https://www.
+ ideal2026.org/calls/key-dates\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#ideal-2026
+CATEGORIES:Machine Learning,Data Mining & Data Science,Deep Representation 
+ Learning,Learning Theory & Statistical Foundations
+URL:https://www.ideal2026.org/calls/key-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:nolta-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -68,7 +85,7 @@ DTEND;VALUE=DATE:20261117
 SUMMARY:EuroGP 2027 · Extended genetic programming paper submission deadli
  ne
 DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
-  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-14\
+  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-18\
  nCutoff time unannounced: official deadline day only. Verify the organize
  r's submission portal.\nFormat: Paper-based / Springer LNCS\; Archival op
  tion: Yes\nOfficial source: https://www.evostar.org/2027/important-dates/
@@ -76,6 +93,24 @@ DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Explain
  ability & Interpretability
 URL:https://www.evostar.org/2027/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261122
+SUMMARY:IDEAL 2026 · Conference
+DESCRIPTION:International Conference on Intelligent Data Engineering and Au
+ tomated Learning\nStatus: confirmed\, checked 2026-10-28\nOfficial source
+ : https://www.ideal2026.org/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#ideal-2026\nNotes: Official IDEAL 2026 pages confirm the Univers
+ ity of Manchester\, Nov 19-21\, 2026\, joint with WSOM+ 2026. The paper d
+ eadline was extended from Jul 1 to Jul 24\, 2026\; no cutoff hour or time
+ zone is published\, so the time is a provisional end-of-day AoE.
+CATEGORIES:Machine Learning,Data Mining & Data Science,Deep Representation 
+ Learning,Learning Theory & Statistical Foundations
+URL:https://www.ideal2026.org/
+LOCATION:Manchester\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
 UID:gecco-2027-deadline-tutorial-proposal@scientific-conference-calendar
@@ -130,6 +165,22 @@ CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
 URL:https://ieeecec.org/2027/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:eurogp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:EuroGP 2027 · Author notification
+DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
+  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-18\
+ nCutoff time unannounced: official deadline day only. Verify the organize
+ r's submission portal.\nFormat: Paper-based / Springer LNCS\; Archival op
+ tion: Yes\nOfficial source: https://www.evostar.org/2027/important-dates/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#eurogp-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Explain
+ ability & Interpretability
+URL:https://www.evostar.org/2027/important-dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:gecco-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270118
@@ -152,7 +203,7 @@ DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:EuroGP 2027 · Camera-ready deadline
 DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
-  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-14\
+  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-18\
  nCutoff time unannounced: official deadline day only. Verify the organize
  r's submission portal.\nFormat: Paper-based / Springer LNCS\; Archival op
  tion: Yes\nOfficial source: https://www.evostar.org/2027/important-dates/
@@ -288,7 +339,7 @@ DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270403
 SUMMARY:EuroGP 2027 · Conference
 DESCRIPTION:European Conference on Genetic Programming\nStatus: confirmed\,
-  checked 2026-11-14\nOfficial source: https://www.evostar.org/2027/\nVenu
+  checked 2026-11-18\nOfficial source: https://www.evostar.org/2027/\nVenu
  e Radar: https://gon-uri.github.io/venue-radar/#eurogp-2027\nNotes: Offic
  ial EvoStar pages confirm Mainz\, March 31-April 2\, in hybrid mode. On 2
  026-10-30 the Important Dates page strikes November 1 and gives November 
@@ -373,6 +424,40 @@ CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
 URL:https://ieeecec.org/2027/call-for-short-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:ais-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270415T225900Z
+DTEND:20270415T235900Z
+SUMMARY:AIS 2027 (formerly LOD) · Paper submission deadline
+DESCRIPTION:Artificial Intelligence Symposium (formerly LOD)\nMeeting: 2027
+ -09-19 to 2027-09-23\, Castiglione della Pescaia\, Italy\nStatus: confirm
+ ed\, checked 2026-11-14\nCutoff note: CFP pages say Apr 15 AoE\; homepage
+  submission countdown ends 2027-04-15 23:59 UTC+01:00. Earliest instant s
+ tored.\nFormat: Paper-based / Springer proceedings\; Archival option: Yes
+ \nOfficial source: https://ais2027.icas.events/call-for-papers/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ais-2027
+CATEGORIES:Machine Learning,Data Mining & Data Science,Learning Theory & St
+ atistical Foundations,Time Series & Sequential Data
+URL:https://ais2027.icas.events/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270416T115900Z
+DTEND:20270416T125900Z
+SUMMARY:AIS 2027 (formerly LOD) · Late-breaking abstract submission deadli
+ ne
+DESCRIPTION:Artificial Intelligence Symposium (formerly LOD)\nMeeting: 2027
+ -09-19 to 2027-09-23\, Castiglione della Pescaia\, Italy\nStatus: confirm
+ ed\, checked 2026-11-14\nFormat: Paper-based / Springer proceedings\; Arc
+ hival option: Yes\nOfficial source: https://ais2027.icas.events/call-for-
+ late-breaking-abstracts/\nVenue Radar: https://gon-uri.github.io/venue-ra
+ dar/#ais-2027
+CATEGORIES:Machine Learning,Data Mining & Data Science,Learning Theory & St
+ atistical Foundations,Time Series & Sequential Data
+URL:https://ais2027.icas.events/call-for-late-breaking-abstracts/
+END:VEVENT
+BEGIN:VEVENT
 UID:nolta-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270429
@@ -424,6 +509,93 @@ CATEGORIES:Machine Learning,Evolutionary Computation & Optimization,Deep Re
 URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:ais-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:AIS 2027 (formerly LOD) · Paper decision notification
+DESCRIPTION:Artificial Intelligence Symposium (formerly LOD)\nMeeting: 2027
+ -09-19 to 2027-09-23\, Castiglione della Pescaia\, Italy\nStatus: confirm
+ ed\, checked 2026-11-14\nCutoff time unannounced: official deadline day o
+ nly. Verify the organizer's submission portal.\nFormat: Paper-based / Spr
+ inger proceedings\; Archival option: Yes\nOfficial source: https://ais202
+ 7.icas.events/deadlines/\nVenue Radar: https://gon-uri.github.io/venue-ra
+ dar/#ais-2027
+CATEGORIES:Machine Learning,Data Mining & Data Science,Learning Theory & St
+ atistical Foundations,Time Series & Sequential Data
+URL:https://ais2027.icas.events/deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:alife-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+SUMMARY:ALIFE 2027 (est.) · Full paper notification
+DESCRIPTION:International Conference on Artificial Life\nMeeting: 2027-07-1
+ 9 to 2027-07-23\, Prague\, Czech Republic\nStatus: estimated\, checked 20
+ 26-11-14. Check the organizer's call before relying on it.\nEstimated day
+  only\; no cutoff hour stored. Check the organizer's call for the real da
+ te and time.\nFormat: Full papers + non-archival abstracts\; Archival opt
+ ion: Yes (est.)\nPrevious edition's page: https://2026.alife.org/call-for
+ -papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#alife-2027
+CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
+ ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
+ ional Cognition
+URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:automl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:AutoML 2027 (est.) · Methods/ABCD track author notification
+DESCRIPTION:International Conference on Automated Machine Learning\nMeeting
+ : 2027-09-28 to 2027-10-01 (est.)\, To be announced\nStatus: estimated\, 
+ checked 2026-10-28. Check the organizer's call before relying on it.\nEst
+ imated day only\; no cutoff hour stored. Check the organizer's call for t
+ he real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)
+ \nPrevious edition's page: https://2026.automl.cc/dates/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#automl-2027
+CATEGORIES:Machine Learning,Evolutionary Computation & Optimization,Deep Re
+ presentation Learning,Learning Theory & Statistical Foundations
+URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:nolta-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:NOLTA 2027 (est.) · Notification of paper acceptance
+DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
+ s\nMeeting: 2027-11-16 to 2027-11-19 (est.)\, To be announced\nStatus: es
+ timated\, checked 2026-10-29. Check the organizer's call before relying o
+ n it.\nEstimated day only\; no cutoff hour stored. Check the organizer's 
+ call for the real date and time.\nFormat: Paper-based\; Archival option: 
+ Yes (est.)\nPrevious edition's page: https://nolta2026.org/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#nolta-2027
+CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
+ p Representation Learning,Control & Robotics
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:IDEAL 2027 (est.) · Paper submission
+DESCRIPTION:International Conference on Intelligent Data Engineering and Au
+ tomated Learning\nMeeting: 2027-11-19 to 2027-11-21 (est.)\, To be announ
+ ced\nStatus: estimated\, checked 2026-11-14. Check the organizer's call b
+ efore relying on it.\nEstimated day only\; no cutoff hour stored. Check t
+ he organizer's call for the real date and time.\nFormat: Paper-based\; Ar
+ chival option: Yes (est.)\nPrevious edition's page: https://www.ideal2026
+ .org/calls/key-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/
+ #ideal-2027
+CATEGORIES:Machine Learning,Data Mining & Data Science,Deep Representation 
+ Learning,Learning Theory & Statistical Foundations
+URL:https://www.ideal2026.org/calls/key-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:gecco-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270712
@@ -461,6 +633,23 @@ CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
  ional Cognition
 URL:https://alife.vscht.cz/
 LOCATION:Prague\, Czech Republic
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270723T115900Z
+DTEND:20270723T125900Z
+SUMMARY:AIS 2027 (formerly LOD) (est.) · Second-batch paper submission dea
+ dline
+DESCRIPTION:Artificial Intelligence Symposium (formerly LOD)\nMeeting: 2027
+ -09-19 to 2027-09-23\, Castiglione della Pescaia\, Italy\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Paper-based / Springer proceedings\; Archival option: Yes\nPrev
+ ious edition's page: https://ais2026.icas.events/deadlines/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#ais-2027
+CATEGORIES:Machine Learning,Data Mining & Data Science,Learning Theory & St
+ atistical Foundations,Time Series & Sequential Data
+URL:https://ais2026.icas.events/deadlines/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-cec-2027-conference@scientific-conference-calendar
@@ -502,6 +691,46 @@ CATEGORIES:Machine Learning,Evolutionary Computation & Optimization,Deep Re
 URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:ideal-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:IDEAL 2027 (est.) · Paper acceptance notification
+DESCRIPTION:International Conference on Intelligent Data Engineering and Au
+ tomated Learning\nMeeting: 2027-11-19 to 2027-11-21 (est.)\, To be announ
+ ced\nStatus: estimated\, checked 2026-11-14. Check the organizer's call b
+ efore relying on it.\nEstimated day only\; no cutoff hour stored. Check t
+ he organizer's call for the real date and time.\nFormat: Paper-based\; Ar
+ chival option: Yes (est.)\nPrevious edition's page: https://web.archive.o
+ rg/web/20260611094448/https://www.ideal2026.org/calls/key-dates\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ideal-2027
+CATEGORIES:Machine Learning,Data Mining & Data Science,Deep Representation 
+ Learning,Learning Theory & Statistical Foundations
+URL:https://web.archive.org/web/20260611094448/https://www.ideal2026.org/ca
+ lls/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270924
+SUMMARY:AIS 2027 (formerly LOD) · Conference
+DESCRIPTION:Artificial Intelligence Symposium (formerly LOD)\nStatus: confi
+ rmed\, checked 2026-11-14\nOfficial source: https://ais2027.icas.events/\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#ais-2027\nNotes: The
+  official AIS 2027 site lists Sep 19-23\, 2027 at Riva del Sole\, Castigl
+ ione della Pescaia\, and Apr 15\, 2027 (AoE) paper and late-breaking abst
+ ract deadlines\; its homepage 'Submission' countdown instead targets 23:5
+ 9 UTC+01:00\, so the paper row stores that earlier instant per its cutoff
+  note\; the late-breaking abstract call states only AoE. Only one paper b
+ atch is listed so far\; the July second batch is a proxy from 2026. Remot
+ e presentation is offered.
+CATEGORIES:Machine Learning,Data Mining & Data Science,Learning Theory & St
+ atistical Foundations,Time Series & Sequential Data
+URL:https://ais2027.icas.events/
+LOCATION:Castiglione della Pescaia\, Italy
+END:VEVENT
+BEGIN:VEVENT
 UID:automl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270928
@@ -541,6 +770,26 @@ URL:https://nolta2026.org/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:ideal-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271122
+SUMMARY:IDEAL 2027 (est.) · Conference
+DESCRIPTION:International Conference on Intelligent Data Engineering and Au
+ tomated Learning\nStatus: estimated\, checked 2026-11-14. Check the organ
+ izer's call before relying on it.\nPrevious edition's page: https://www.i
+ deal2026.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ideal-
+ 2027\nNotes: As of 2026-10-29 official IDEAL pages announce no 2027 host\
+ , dates or call. Meeting dates and the paper deadline are one-year proxie
+ s from IDEAL 2026 (Manchester\, Nov 19-21)\, using its original Jul 1 dea
+ dline rather than the Jul 24 extension\; no cutoff hour was published\, s
+ o end-of-day AoE is provisional.
+CATEGORIES:Machine Learning,Data Mining & Data Science,Deep Representation 
+ Learning,Learning Theory & Statistical Foundations
+URL:https://www.ideal2026.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:ppsn-2028-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20280329T115900Z
@@ -556,6 +805,23 @@ DESCRIPTION:International Conference on Parallel Problem Solving from Natur
 CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
 URL:https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.
  it/
+END:VEVENT
+BEGIN:VEVENT
+UID:ppsn-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280522
+DTEND;VALUE=DATE:20280523
+SUMMARY:PPSN 2028 (est.) · Notification of acceptance
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2028-08-29 to 2028-09-02 (est.)\, To be announced\nStatus: es
+ timated\, checked 2026-10-31. Check the organizer's call before relying o
+ n it.\nEstimated day only\; no cutoff hour stored. Check the organizer's 
+ call for the real date and time.\nFormat: Paper-based / Springer LNCS pro
+ ceedings\; all accepted papers presented as posters\; Archival option: Ye
+ s (est.)\nPrevious edition's page: https://ppsn2026.disi.unitn.it/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#ppsn-2028
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ppsn2026.disi.unitn.it/
 END:VEVENT
 BEGIN:VEVENT
 UID:ppsn-2028-conference@scientific-conference-calendar

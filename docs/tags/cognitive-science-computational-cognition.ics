@@ -11,6 +11,22 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:ICONIP 2026 · Paper submission deadline
+DESCRIPTION:International Conference on Neural Information Processing\nMeet
+ ing: 2026-11-23 to 2026-11-27\, Melbourne\, Australia\nStatus: confirmed\
+ , checked 2026-10-28\nCutoff time unannounced: official deadline day only
+ . Verify the organizer's submission portal.\nFormat: Paper-based\; Archiv
+ al option: Yes\nOfficial source: https://www.iconip2026.org/call-for-pape
+ rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#iconip-2026
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://www.iconip2026.org/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:sfn-neuroscience-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260610T210000Z
@@ -102,7 +118,7 @@ DTEND:20261013T125900Z
 SUMMARY:COLING 2027 · ARR paper submission deadline
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -141,6 +157,23 @@ DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nMeeting: 2027-03
 CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
   Mapping,EEG/MEG & Neural Signals
 URL:https://www.cogneurosociety.org/submit-a-poster/
+END:VEVENT
+BEGIN:VEVENT
+UID:iconip-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:ICONIP 2026 · Extended abstract (2-page\, in-person poster) submis
+ sion deadline (extended)
+DESCRIPTION:International Conference on Neural Information Processing\nMeet
+ ing: 2026-11-23 to 2026-11-27\, Melbourne\, Australia\nStatus: confirmed\
+ , checked 2026-10-28\nCutoff time unannounced: official deadline day only
+ . Verify the organizer's submission portal.\nFormat: Paper-based\; Archiv
+ al option: Yes\nOfficial source: https://www.iconip2026.org/news\nVenue R
+ adar: https://gon-uri.github.io/venue-radar/#iconip-2026
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://www.iconip2026.org/news
 END:VEVENT
 BEGIN:VEVENT
 UID:eacl-2027-deadline-notification@scientific-conference-calendar
@@ -196,6 +229,26 @@ CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
 URL:https://2027.naacl.org/calls/industry_track/
 END:VEVENT
 BEGIN:VEVENT
+UID:iconip-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICONIP 2026 · Conference
+DESCRIPTION:International Conference on Neural Information Processing\nStat
+ us: confirmed\, checked 2026-10-28\nOfficial source: https://www.iconip20
+ 26.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#iconip-2026\
+ nNotes: Official ICONIP 2026 site (checked 2026-10-28) lists MCEC Melbour
+ ne\, Nov 23-27\; the paper deadline was extended to May 31\, 2026 (no cut
+ off hour stated). An Oct 28\, 2026 notice extends 2-page extended-abstrac
+ t submissions to Nov 10\, 2026 (no hour)\; accepted abstracts must be reg
+ istered and presented in person as posters\, in a separate open-access ab
+ stract publication.
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://www.iconip2026.org/
+LOCATION:Melbourne\, Australia
+END:VEVENT
+BEGIN:VEVENT
 UID:eacl-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261127T115900Z
@@ -219,7 +272,7 @@ DTEND:20261201T125900Z
 SUMMARY:COLING 2027 · Industry-track paper submission (separate from ARR)
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/industry_track/\nVenue Radar: https://go
  n-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -245,6 +298,23 @@ CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
 URL:https://www.cogneurosociety.org/dates-and-deadlines/
 END:VEVENT
 BEGIN:VEVENT
+UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261215T045900Z
+DTEND:20261215T055900Z
+SUMMARY:OHBM 2027 · Poster abstract submission deadline
+DESCRIPTION:Organization for Human Brain Mapping Annual Meeting\nMeeting: 2
+ 027-06-26 to 2027-06-30\, Toronto\, Canada\nStatus: confirmed\, checked 2
+ 026-10-28\nFormat: Abstract-based / talks selective\; Archival option: No
+ \nOfficial source: https://www.humanbrainmapping.org/files/2027-Toronto/O
+ HBM_2027_Abstract_Submission_Guidelines_FINAL.docx.pdf\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#ohbm-2027
+CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Healthcare
+  & Clinical AI,Computational Neuroscience
+URL:https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract
+ _Submission_Guidelines_FINAL.docx.pdf
+END:VEVENT
+BEGIN:VEVENT
 UID:coling-2027-deadline-commitment@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261224T115900Z
@@ -252,7 +322,7 @@ DTEND:20261224T125900Z
 SUMMARY:COLING 2027 · Commitment of ARR-reviewed papers
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -389,6 +459,39 @@ CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
 URL:https://2027.ccneuro.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:coling-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:COLING 2027 · Paper acceptance notification
+DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
+  2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
+ 26-11-18\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based\; Archival option: Y
+ es\nOfficial source: https://2027.coling-iccl.org/calls/main_conference_p
+ apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#coling-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ Knowledge Representation & Reasoning,LLM Agents & Tool Use
+URL:https://2027.coling-iccl.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:conll-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270220T115900Z
+DTEND:20270220T125900Z
+SUMMARY:CoNLL 2027 (est.) · Direct paper submission deadline
+DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
+  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
+ hecked 2026-11-14. Check the organizer's call before relying on it.\nForm
+ at: Paper-based\; Archival option: Yes (est.)\nOfficial source: https://w
+ eb.archive.org/web/20260201152714/https://conll.org/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#conll-2027
+CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
+ onal Cognition,Computational Neuroscience,Explainability & Interpretabili
+ ty
+URL:https://web.archive.org/web/20260201152714/https://conll.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:rldm-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270227T115900Z
@@ -439,23 +542,6 @@ CATEGORIES:Natural Language Processing & LLMs,Machine Learning,Deep Represe
  ntation Learning,Human-AI Interaction & Deployment
 URL:https://2027.eacl.org/
 LOCATION:Athens\, Greece
-END:VEVENT
-BEGIN:VEVENT
-UID:conll-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270315T115900Z
-DTEND:20270315T125900Z
-SUMMARY:CoNLL 2027 (est.) · Direct paper submission deadline
-DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
-  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
- hecked 2026-11-14. Check the organizer's call before relying on it.\nForm
- at: Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: h
- ttps://www.aclweb.org/portal/content/conll-2025-2nd-call-papers\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#conll-2027
-CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
- onal Cognition,Computational Neuroscience,Explainability & Interpretabili
- ty
-URL:https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:cns-cogneuro-2027-conference@scientific-conference-calendar
@@ -571,6 +657,43 @@ CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
 URL:https://2027.ccneuro.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:cogsci-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:CogSci 2027 (est.) · Decision notifications (early April\; day not
+  published)
+DESCRIPTION:Annual Meeting of the Cognitive Science Society\nMeeting: 2027-
+ 07-28 to 2027-07-31\, Bilbao\, Spain\nStatus: estimated\, checked 2026-11
+ -14. Check the organizer's call before relying on it.\nEstimated day only
+ \; no cutoff hour stored. Check the organizer's call for the real date an
+ d time.\nFormat: Paper-based / abstract presentations\; Archival option: 
+ No\nOfficial source: https://web.archive.org/web/20250125185155/https://c
+ ognitivesciencesociety.org/submissions/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#cogsci-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Computational Neuros
+ cience,Machine Learning,Natural Language Processing & LLMs
+URL:https://web.archive.org/web/20250125185155/https://cognitivesciencesoci
+ ety.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:acl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:ACL 2027 (est.) · Paper acceptance notification
+DESCRIPTION:Annual Meeting of the Association for Computational Linguistics
+ \nMeeting: 2027-08-17 to 2027-08-22\, Kyoto\, Japan\nStatus: estimated\, 
+ checked 2026-11-14. Check the organizer's call before relying on it.\nEst
+ imated day only\; no cutoff hour stored. Check the organizer's call for t
+ he real date and time.\nFormat: Paper-based\; Archival option: Yes\nPrevi
+ ous edition's page: https://2026.aclweb.org/calls/main_conference_papers/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#acl-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ LLM Agents & Tool Use,Information Retrieval & Search
+URL:https://2026.aclweb.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:iva-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270405T115900Z
@@ -586,6 +709,24 @@ DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
 CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
  ployment,Natural Language Processing & LLMs
 URL:https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:conll-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:CoNLL 2027 (est.) · Notification of acceptance
+DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
+  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
+ hecked 2026-11-14. Check the organizer's call before relying on it.\nEsti
+ mated day only\; no cutoff hour stored. Check the organizer's call for th
+ e real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\
+ nOfficial source: https://web.archive.org/web/20260201152714/https://conl
+ l.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#conll-2027
+CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
+ onal Cognition,Computational Neuroscience,Explainability & Interpretabili
+ ty
+URL:https://web.archive.org/web/20260201152714/https://conll.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-2027-deadline-full-paper@scientific-conference-calendar
@@ -612,7 +753,7 @@ DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270515
 SUMMARY:COLING 2027 · Conference
 DESCRIPTION:International Conference on Computational Linguistics\nStatus: 
- confirmed\, checked 2026-11-07\nOfficial source: https://2027.coling-iccl
+ confirmed\, checked 2026-11-18\nOfficial source: https://2027.coling-iccl
  .org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#coling-2027\nN
  otes: Main in-person window May 9-14\; separate virtual sessions May 6-7.
   Shared ARR cycle with NAACL does not permit dual commitment. Recent COLI
@@ -680,6 +821,24 @@ CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
 URL:https://www.sfn.org/cfa
 END:VEVENT
 BEGIN:VEVENT
+UID:icdl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:ICDL 2027 (est.) · Full-paper acceptance notification
+DESCRIPTION:IEEE International Conference on Development and Learning\nMeet
+ ing: 2027-09-21 to 2027-09-24\, Campinas\, Brazil\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Full papers in IEEE Xplore + non-archival l
+ ate-breaking results\; Archival option: Yes (est.)\nPrevious edition's pa
+ ge: https://attend.ieee.org/icdl-2026/contribute/call-for-papers/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#icdl-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Control & Robotics,M
+ achine Learning
+URL:https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:naacl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270601
@@ -700,6 +859,42 @@ CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/
 LOCATION:San Francisco\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:alife-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+SUMMARY:ALIFE 2027 (est.) · Full paper notification
+DESCRIPTION:International Conference on Artificial Life\nMeeting: 2027-07-1
+ 9 to 2027-07-23\, Prague\, Czech Republic\nStatus: estimated\, checked 20
+ 26-11-14. Check the organizer's call before relying on it.\nEstimated day
+  only\; no cutoff hour stored. Check the organizer's call for the real da
+ te and time.\nFormat: Full papers + non-archival abstracts\; Archival opt
+ ion: Yes (est.)\nPrevious edition's page: https://2026.alife.org/call-for
+ -papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#alife-2027
+CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
+ ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
+ ional Cognition
+URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:IVA 2027 (est.) · Final full-paper acceptance notification
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
+ mated\, checked 2026-11-14. Check the organizer's call before relying on 
+ it.\nEstimated day only\; no cutoff hour stored. Check the organizer's ca
+ ll for the real date and time.\nFormat: Paper-based / ACM Digital Library
+  proceedings (2026 format)\; poster extended abstracts\; Archival option:
+  Yes (est.)\nPrevious edition's page: https://iva.acm.org/2026/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iva-2027
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:icdl-2027-deadline-late-abstract@scientific-conference-calendar
@@ -736,6 +931,62 @@ DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
 CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
  ployment,Natural Language Processing & LLMs
 URL:https://iva.acm.org/2026/call-for-poster/
+END:VEVENT
+BEGIN:VEVENT
+UID:ohbm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270701
+SUMMARY:OHBM 2027 · Conference
+DESCRIPTION:Organization for Human Brain Mapping Annual Meeting\nStatus: co
+ nfirmed\, checked 2026-10-28\nOfficial source: https://humanbrainmapping.
+ org/ohbm-2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ohbm-
+ 2027\nNotes: Official OHBM 2027 pages confirm Toronto (Metro Toronto Conv
+ ention Centre)\, Jun 26-30\, 2027. The submission site opens Mon Nov 2\, 
+ 2026 (day only)\; abstracts are due Mon Dec 14\, 2026 at 11:59 p.m. EST\,
+  the same close as symposium\, course and roundtable proposals. At least 
+ one author must present in person\; decisions by Feb 2027.
+CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Healthcare
+  & Clinical AI,Computational Neuroscience
+URL:https://humanbrainmapping.org/ohbm-2027/
+LOCATION:Toronto\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:SMC 2027 (est.) · Regular paper acceptance notification
+DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
+ s\nMeeting: 2027-10-07 to 2027-10-10 (est.)\, Ho Chi Minh City\, Vietnam\
+ nStatus: estimated\, checked 2026-11-14. Check the organizer's call befor
+ e relying on it.\nEstimated day only\; no cutoff hour stored. Check the o
+ rganizer's call for the real date and time.\nFormat: Paper-based\; Archiv
+ al option: Yes (est.)\nPrevious edition's page: https://www.ieeesmc2026.o
+ rg/Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ mc-2027
+CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
+ rning,Human-AI Interaction & Deployment
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:bernstein-conference-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20270701T130000Z
+DTEND:20270701T140000Z
+SUMMARY:Bernstein Conference 2027 (est.) · Abstract submission deadline
+DESCRIPTION:Bernstein Conference\nMeeting: 2027-09-15 to 2027-09-18\, Lausa
+ nne\, Switzerland\nStatus: estimated\, checked 2026-11-14. Check the orga
+ nizer's call before relying on it.\nFormat: Abstract-based / talks select
+ ive\; Archival option: No (est.)\nOfficial source: https://bernstein-netw
+ ork.de/en/bernstein-conference/general-information/important-dates-faq/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#bernstein-conference-
+ 2027
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Time Series & Sequential Data
+URL:https://bernstein-network.de/en/bernstein-conference/general-informatio
+ n/important-dates-faq/
 END:VEVENT
 BEGIN:VEVENT
 UID:conll-2027-conference@scientific-conference-calendar
@@ -897,6 +1148,23 @@ CATEGORIES:Natural Language Processing & LLMs
 URL:https://2026.inlgmeeting.org/calls.html
 END:VEVENT
 BEGIN:VEVENT
+UID:inlg-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:INLG 2027 (est.) · Paper acceptance notification
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2027-10-17 to 2027-10-21 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-11-14. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / ACL Anthology proceedings\; A
+ rchival option: Yes (est.)\nPrevious edition's page: https://2026.inlgmee
+ ting.org/calls.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ inlg-2027
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
+END:VEVENT
+BEGIN:VEVENT
 UID:acl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270817
@@ -935,6 +1203,26 @@ CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
  ployment,Natural Language Processing & LLMs
 URL:https://iva.acm.org/
 LOCATION:Reykjavik\, Iceland
+END:VEVENT
+BEGIN:VEVENT
+UID:bernstein-conference-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270919
+SUMMARY:Bernstein Conference 2027 · Conference
+DESCRIPTION:Bernstein Conference\nStatus: confirmed\, checked 2026-11-14\nO
+ fficial source: https://bernstein-network.de/bernstein-conference/bernste
+ in-conference-2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ bernstein-conference-2027\nNotes: Bernstein Network confirms Lausanne (Sw
+ issTech Convention Center\, EPFL)\, Sep 15-18\, 2027. As of 2026-10-28 no
+  2027 call is published\; the abstract date is a one-year proxy from 2026
+ . In 2026 contributed talks were notified (early July) before posters (la
+ te July)\, so 2027 talk abstracts may close earlier than this proxy.
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Time Series & Sequential Data
+URL:https://bernstein-network.de/bernstein-conference/bernstein-conference-
+ 2027/
+LOCATION:Lausanne\, Switzerland
 END:VEVENT
 BEGIN:VEVENT
 UID:icdl-2027-conference@scientific-conference-calendar
@@ -1150,6 +1438,24 @@ DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  \nFormat: Reviewed papers + non-archival contributions\; Archival option:
   Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
  utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
+CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
+ gnitive Science & Computational Cognition,Control & Robotics
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280619
+DTEND;VALUE=DATE:20280620
+SUMMARY:SAB 2028 (est.) · Notification of acceptance
+DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
+ eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nEstimated day only\; no cutoff hour stored. Check the organizer's call 
+ for the real date and time.\nFormat: Reviewed papers + non-archival contr
+ ibutions\; Archival option: Yes (est.)\nOfficial source: https://sab-conf
+ erence.org/call-for-contributions/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#sab-2028
 CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
  gnitive Science & Computational Cognition,Control & Robotics
 URL:https://sab-conference.org/call-for-contributions/

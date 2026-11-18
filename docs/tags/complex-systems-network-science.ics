@@ -196,7 +196,7 @@ DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:IFAC SYSID 2027 · Joint journal/conference submission
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -416,7 +416,7 @@ DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:IFAC SYSID 2027 · Conference paper submission (extended)
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -760,7 +760,7 @@ DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:IFAC SYSID 2027 · Discussion papers (non-archival)
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -776,7 +776,7 @@ DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:IFAC SYSID 2027 · Published IFAC journal presentations
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -915,7 +915,7 @@ DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 SUMMARY:IFAC SYSID 2027 · Acceptance notification
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -1188,13 +1188,66 @@ URL:https://www.icwsm.org/2027/
 LOCATION:Edinburgh\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
+UID:alife-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+SUMMARY:ALIFE 2027 (est.) · Full paper notification
+DESCRIPTION:International Conference on Artificial Life\nMeeting: 2027-07-1
+ 9 to 2027-07-23\, Prague\, Czech Republic\nStatus: estimated\, checked 20
+ 26-11-14. Check the organizer's call before relying on it.\nEstimated day
+  only\; no cutoff hour stored. Check the organizer's call for the real da
+ te and time.\nFormat: Full papers + non-archival abstracts\; Archival opt
+ ion: Yes (est.)\nPrevious edition's page: https://2026.alife.org/call-for
+ -papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#alife-2027
+CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
+ ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
+ ional Cognition
+URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:SMC 2027 (est.) · Regular paper acceptance notification
+DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
+ s\nMeeting: 2027-10-07 to 2027-10-10 (est.)\, Ho Chi Minh City\, Vietnam\
+ nStatus: estimated\, checked 2026-11-14. Check the organizer's call befor
+ e relying on it.\nEstimated day only\; no cutoff hour stored. Check the o
+ rganizer's call for the real date and time.\nFormat: Paper-based\; Archiv
+ al option: Yes (est.)\nPrevious edition's page: https://www.ieeesmc2026.o
+ rg/Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ mc-2027
+CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
+ rning,Human-AI Interaction & Deployment
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:nolta-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:NOLTA 2027 (est.) · Notification of paper acceptance
+DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
+ s\nMeeting: 2027-11-16 to 2027-11-19 (est.)\, To be announced\nStatus: es
+ timated\, checked 2026-10-29. Check the organizer's call before relying o
+ n it.\nEstimated day only\; no cutoff hour stored. Check the organizer's 
+ call for the real date and time.\nFormat: Paper-based\; Archival option: 
+ Yes (est.)\nPrevious edition's page: https://nolta2026.org/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#nolta-2027
+CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
+ p Representation Learning,Control & Robotics
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:ifac-sysid-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270707
 DTEND;VALUE=DATE:20270710
 SUMMARY:IFAC SYSID 2027 · Conference
 DESCRIPTION:IFAC Symposium on System Identification\nStatus: confirmed\, ch
- ecked 2026-11-14\nOfficial source: https://conferences.ifac-control.org/s
+ ecked 2026-11-18\nOfficial source: https://conferences.ifac-control.org/s
  ysid2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid
  -2027\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate p
  age strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 
@@ -1332,6 +1385,23 @@ CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
 URL:https://complexnetworks.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:log-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:LoG 2027 (est.) · Final decisions released
+DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
+ 1 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check
+  the organizer's call before relying on it.\nEstimated day only\; no cuto
+ ff hour stored. Check the organizer's call for the real date and time.\nF
+ ormat: Paper-based / non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://logconference.org/cfp/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#log-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
+ rning,Learning Theory & Statistical Foundations
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:ccs-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270917
@@ -1349,6 +1419,25 @@ CATEGORIES:Complex Systems & Network Science,Nonlinear Dynamics & Chaos,Dat
  a Mining & Data Science
 URL:https://ccs27.pwr.edu.pl/
 LOCATION:Wroclaw\, Poland
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-notification@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:COMPLEX NETWORKS 2027 (est.) · Acceptance notification
+DESCRIPTION:International Conference on Complex Networks and Their Applicat
+ ions\nMeeting: 2027-12-01 to 2027-12-03 (est.)\, To be announced\nStatus:
+  estimated\, checked 2026-11-14. Check the organizer's call before relyin
+ g on it.\nEstimated day only\; no cutoff hour stored. Check the organizer
+ 's call for the real date and time.\nFormat: Paper-based + extended abstr
+ acts\; Archival option: Yes (est.)\nOfficial source: https://complexnetwo
+ rks.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#complex-net
+ works-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Data Mining & Data Science
+URL:https://complexnetworks.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-2027-conference@scientific-conference-calendar
@@ -1460,6 +1549,23 @@ URL:https://logconference.org/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:complenet-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:CompleNet 2028 (est.) · Notification of acceptance
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
+ 07 to 2028-03-10 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-10-29. Check the organizer's call before relying on it.\nEstimated day
+  only\; no cutoff hour stored. Check the organizer's call for the real da
+ te and time.\nFormat: Full/short papers + extended abstracts\; Archival o
+ ption: Yes (est.)\nOfficial source: https://complenet.github.io/cfp.html\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#complenet-2028
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
 UID:complex-networks-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271201
@@ -1537,6 +1643,26 @@ CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:MTNS 2028 (est.) · Paper decision notification
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://uwaterloo.ca/international-symposium-
+ mathematical-theory-networks-systems/key-dates\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#mtns-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamics-days-lac-2028-deadline-abstract@scientific-conference-calendar
@@ -1642,6 +1768,25 @@ DESCRIPTION:World Congress of the International Federation of Automatic Con
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos
 URL:https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20290228
+DTEND;VALUE=DATE:20290301
+SUMMARY:IFAC WC 2029 (est.) · Notification of acceptance
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nMeeting: 2029-07-08 to 2029-07-13\, Amsterdam\, Netherlands\nStatus
+ : estimated\, checked 2026-11-14. Check the organizer's call before relyi
+ ng on it.\nEstimated day only\; no cutoff hour stored. Check the organize
+ r's call for the real date and time.\nFormat: Paper-based / IFAC-PapersOn
+ Line open-access proceedings\; late-breaking/discussion papers non-archiv
+ al (preprints only)\; Archival option: Yes (est.)\nPrevious edition's pag
+ e: https://www.ifac2026.org/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#ifac-wc-2029
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://www.ifac2026.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ifac-wc-2029-conference@scientific-conference-calendar

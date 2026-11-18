@@ -358,7 +358,7 @@ DTEND:20261117T125900Z
 SUMMARY:CLeaR 2027 · Paper submission deadline (proceedings track\, OpenRe
  view)
 DESCRIPTION:Conference on Causal Learning and Reasoning\nMeeting: 2027-05-0
- 3 to 2027-05-05\, Paris\, France\nStatus: confirmed\, checked 2026-11-14\
+ 3 to 2027-05-05\, Paris\, France\nStatus: confirmed\, checked 2026-11-18\
  nFormat: Paper-based / PMLR proceedings (optional 1-page extended-abstrac
  t opt-out)\; Archival option: Yes\nOfficial source: https://www.cclear.cc
  /2027/CallforPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#
@@ -375,7 +375,7 @@ DTEND;VALUE=DATE:20261117
 SUMMARY:EuroGP 2027 · Extended genetic programming paper submission deadli
  ne
 DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
-  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-14\
+  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-18\
  nCutoff time unannounced: official deadline day only. Verify the organize
  r's submission portal.\nFormat: Paper-based / Springer LNCS\; Archival op
  tion: Yes\nOfficial source: https://www.evostar.org/2027/important-dates/
@@ -423,19 +423,20 @@ URL:https://logconference.org/
 LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
+UID:pakdd-2027-deadline-regular-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261121T115900Z
 DTEND:20261121T125900Z
-SUMMARY:PAKDD 2027 · Paper submission deadline
+SUMMARY:PAKDD 2027 · Applied Data Science\, Survey and LLM/Agentic AI trac
+ k paper submission deadline
 DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
  nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
- nfirmed\, checked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\
- nOfficial source: https://pakdd2027.org/pages/calls/research\nVenue Radar
- : https://gon-uri.github.io/venue-radar/#pakdd-2027
+ nfirmed\, checked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\
+ nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#pakdd-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Learning Theory & Statistical Foundations
-URL:https://pakdd2027.org/pages/calls/research
+URL:https://pakdd2027.org/pages/dates
 END:VEVENT
 BEGIN:VEVENT
 UID:gecco-2027-deadline-tutorial-proposal@scientific-conference-calendar
@@ -505,6 +506,21 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory &
 URL:https://ijcnn.org/2027/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:PAKDD 2027 · Research Track paper submission deadline (extended)
+DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
+ nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
+ nfirmed\, checked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\
+ nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#pakdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Learning Theory & Statistical Foundations
+URL:https://pakdd2027.org/pages/dates
+END:VEVENT
+BEGIN:VEVENT
 UID:neurips-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261206
@@ -538,6 +554,23 @@ DESCRIPTION:International Conference on Algorithmic Learning Theory\nMeetin
  for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#alt-2027
 CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
 URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-special-session-proposal@scientific-conference-c
+ alendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:IEEE SSP 2027 · Special session and tutorial proposals due
+DESCRIPTION:IEEE Statistical Signal Processing Workshop\nMeeting: 2027-06-2
+ 8 to 2027-07-01\, Annecy\, France\nStatus: confirmed\, checked 2026-10-28
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based / specialist workshop\; Arch
+ ival option: Yes\nOfficial source: https://ssp27.ieeesps.org/call-for-pap
+ ers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ssp-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Probabilistic\, Causal & Uncertainty ML
+URL:https://ssp27.ieeesps.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:forc-2027-deadline-notification@scientific-conference-calendar
@@ -605,6 +638,22 @@ DESCRIPTION:International Conference on Time Series and Forecasting\nMeetin
 CATEGORIES:Time Series & Sequential Data,Machine Learning,Data Mining & Dat
  a Science,Learning Theory & Statistical Foundations
 URL:https://itise.ugr.es/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:eurogp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:EuroGP 2027 · Author notification
+DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
+  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-18\
+ nCutoff time unannounced: official deadline day only. Verify the organize
+ r's submission portal.\nFormat: Paper-based / Springer LNCS\; Archival op
+ tion: Yes\nOfficial source: https://www.evostar.org/2027/important-dates/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#eurogp-2027
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Explain
+ ability & Interpretability
+URL:https://www.evostar.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-deadline-full-paper@scientific-conference-calendar
@@ -708,7 +757,7 @@ DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:EuroGP 2027 · Camera-ready deadline
 DESCRIPTION:European Conference on Genetic Programming\nMeeting: 2027-03-31
-  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-14\
+  to 2027-04-02\, Mainz\, Germany\nStatus: confirmed\, checked 2026-11-18\
  nCutoff time unannounced: official deadline day only. Verify the organize
  r's submission portal.\nFormat: Paper-based / Springer LNCS\; Archival op
  tion: Yes\nOfficial source: https://www.evostar.org/2027/important-dates/
@@ -797,6 +846,21 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory &
 URL:https://ijcnn.org/2027/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270208T115900Z
+DTEND:20270208T125900Z
+SUMMARY:IEEE SSP 2027 · Paper submission deadline
+DESCRIPTION:IEEE Statistical Signal Processing Workshop\nMeeting: 2027-06-2
+ 8 to 2027-07-01\, Annecy\, France\nStatus: confirmed\, checked 2026-10-28
+ \nFormat: Paper-based / specialist workshop\; Archival option: Yes\nOffic
+ ial source: https://ssp27.ieeesps.org/submit-paper/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#ieee-ssp-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Probabilistic\, Causal & Uncertainty ML
+URL:https://ssp27.ieeesps.org/submit-paper/
+END:VEVENT
+BEGIN:VEVENT
 UID:itise-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270209
@@ -871,7 +935,7 @@ DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270223
 SUMMARY:CLeaR 2027 · Final decisions
 DESCRIPTION:Conference on Causal Learning and Reasoning\nMeeting: 2027-05-0
- 3 to 2027-05-05\, Paris\, France\nStatus: confirmed\, checked 2026-11-14\
+ 3 to 2027-05-05\, Paris\, France\nStatus: confirmed\, checked 2026-11-18\
  nCutoff time unannounced: official deadline day only. Verify the organize
  r's submission portal.\nFormat: Paper-based / PMLR proceedings (optional 
  1-page extended-abstract opt-out)\; Archival option: Yes\nOfficial source
@@ -896,6 +960,22 @@ DESCRIPTION:Conference on Uncertainty in Artificial Intelligence\nMeeting:
 CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
  g Theory & Statistical Foundations
 URL:https://www.auai.org/uai2026/important_dates
+END:VEVENT
+BEGIN:VEVENT
+UID:pakdd-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:PAKDD 2027 · Paper acceptance notification
+DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
+ nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
+ nfirmed\, checked 2026-11-18\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based\
+ ; Archival option: Yes\nOfficial source: https://pakdd2027.org/pages/date
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#pakdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Learning Theory & Statistical Foundations
+URL:https://pakdd2027.org/pages/dates
 END:VEVENT
 BEGIN:VEVENT
 UID:rlc-2027-deadline-full-paper@scientific-conference-calendar
@@ -976,7 +1056,7 @@ DTEND:20270320T125900Z
 SUMMARY:PAKDD 2027 · Camera-ready deadline
 DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
  nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
- nfirmed\, checked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\
+ nfirmed\, checked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\
  nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
  /gon-uri.github.io/venue-radar/#pakdd-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
@@ -1038,7 +1118,7 @@ DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270403
 SUMMARY:EuroGP 2027 · Conference
 DESCRIPTION:European Conference on Genetic Programming\nStatus: confirmed\,
-  checked 2026-11-14\nOfficial source: https://www.evostar.org/2027/\nVenu
+  checked 2026-11-18\nOfficial source: https://www.evostar.org/2027/\nVenu
  e Radar: https://gon-uri.github.io/venue-radar/#eurogp-2027\nNotes: Offic
  ial EvoStar pages confirm Mainz\, March 31-April 2\, in hybrid mode. On 2
  026-10-30 the Important Dates page strikes November 1 and gives November 
@@ -1096,7 +1176,7 @@ DTSTART:20270406T115900Z
 DTEND:20270406T125900Z
 SUMMARY:CLeaR 2027 · Camera-ready deadline
 DESCRIPTION:Conference on Causal Learning and Reasoning\nMeeting: 2027-05-0
- 3 to 2027-05-05\, Paris\, France\nStatus: confirmed\, checked 2026-11-14\
+ 3 to 2027-05-05\, Paris\, France\nStatus: confirmed\, checked 2026-11-18\
  nFormat: Paper-based / PMLR proceedings (optional 1-page extended-abstrac
  t opt-out)\; Archival option: Yes\nOfficial source: https://www.cclear.cc
  /2027/ImportantDates\nVenue Radar: https://gon-uri.github.io/venue-radar/
@@ -1168,6 +1248,22 @@ DESCRIPTION:European Conference on Artificial Intelligence\nMeeting: 2027-1
 CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
  Statistical Foundations,Fairness & Responsible AI
 URL:https://ecai2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:IEEE SSP 2027 · Notification of acceptance
+DESCRIPTION:IEEE Statistical Signal Processing Workshop\nMeeting: 2027-06-2
+ 8 to 2027-07-01\, Annecy\, France\nStatus: confirmed\, checked 2026-10-28
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based / specialist workshop\; Arch
+ ival option: Yes\nOfficial source: https://ssp27.ieeesps.org/submit-paper
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ssp-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Probabilistic\, Causal & Uncertainty ML
+URL:https://ssp27.ieeesps.org/submit-paper/
 END:VEVENT
 BEGIN:VEVENT
 UID:ais-2027-deadline-regular-paper@scientific-conference-calendar
@@ -1277,6 +1373,21 @@ URL:https://iclr.cc/Conferences/2027
 LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270501T115900Z
+DTEND:20270501T125900Z
+SUMMARY:IEEE SSP 2027 · Camera-ready and author registration deadline
+DESCRIPTION:IEEE Statistical Signal Processing Workshop\nMeeting: 2027-06-2
+ 8 to 2027-07-01\, Annecy\, France\nStatus: confirmed\, checked 2026-10-28
+ \nFormat: Paper-based / specialist workshop\; Archival option: Yes\nOffic
+ ial source: https://ssp27.ieeesps.org/submit-paper/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#ieee-ssp-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Probabilistic\, Causal & Uncertainty ML
+URL:https://ssp27.ieeesps.org/submit-paper/
+END:VEVENT
+BEGIN:VEVENT
 UID:copa-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270501
@@ -1292,6 +1403,38 @@ DESCRIPTION:Symposium on Conformal and Probabilistic Prediction with Applic
 CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Learning Theory & Statis
  tical Foundations,Machine Learning
 URL:https://copa-conference.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270502T115900Z
+DTEND:20270502T125900Z
+SUMMARY:DSAA 2027 (est.) · Paper submission deadline
+DESCRIPTION:IEEE International Conference on Data Science and Advanced Anal
+ ytics\nMeeting: 2027-10-06 to 2027-10-09 (est.)\, To be announced\nStatus
+ : estimated\, checked 2026-11-14. Check the organizer's call before relyi
+ ng on it.\nFormat: Paper-based / applied tracks\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://dsaa-2026.vercel.app/key-dates\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#dsaa-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Human-AI Interaction & Deployment
+URL:https://dsaa-2026.vercel.app/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2027-deadline-special-session-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270502T115900Z
+DTEND:20270502T125900Z
+SUMMARY:DSAA 2027 (est.) · Special session paper submission
+DESCRIPTION:IEEE International Conference on Data Science and Advanced Anal
+ ytics\nMeeting: 2027-10-06 to 2027-10-09 (est.)\, To be announced\nStatus
+ : estimated\, checked 2026-11-14. Check the organizer's call before relyi
+ ng on it.\nFormat: Paper-based / applied tracks\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://dsaa-2026.vercel.app/key-dates\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#dsaa-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Human-AI Interaction & Deployment
+URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:rlc-2027-deadline-notification@scientific-conference-calendar
@@ -1337,7 +1480,7 @@ DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270506
 SUMMARY:CLeaR 2027 · Conference
 DESCRIPTION:Conference on Causal Learning and Reasoning\nStatus: confirmed\
- , checked 2026-11-14\nOfficial source: https://www.cclear.cc/2027\nVenue 
+ , checked 2026-11-18\nOfficial source: https://www.cclear.cc/2027\nVenue 
  Radar: https://gon-uri.github.io/venue-radar/#clear-2027\nNotes: 6th CLea
  R (annual since 2022). Official pages give May 3-5\, 2027 at Sorbonne Uni
  versity's International Conference Center\, Paris\, planned in person wit
@@ -1368,6 +1511,22 @@ DESCRIPTION:Conference on Learning Theory\nMeeting: 2027-06-28 to 2027-07-0
  gon-uri.github.io/venue-radar/#colt-2027
 CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
 URL:https://learningtheory.org/colt2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:ICML 2027 · Author notification (final decisions)
+DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
+ 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: confirmed\, checked 2
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based\; Archival option: 
+ Yes\nOfficial source: https://icml.cc/Conferences/2027/Dates\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#icml-2027
+CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
+ Representation Learning,Time Series & Sequential Data
+URL:https://icml.cc/Conferences/2027/Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2027-deadline-abstract@scientific-conference-calendar
@@ -1415,6 +1574,23 @@ DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
 CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:probml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:ProbML 2027 (est.) · Proceedings acceptance notification
+DESCRIPTION:Symposium on Probabilistic Machine Learning\nMeeting: 2027-07-0
+ 5 to 2027-07-05 (est.)\, To be announced\nStatus: estimated\, checked 202
+ 6-10-28. Check the organizer's call before relying on it.\nEstimated day 
+ only\; no cutoff hour stored. Check the organizer's call for the real dat
+ e and time.\nFormat: Paper-based / non-archival extended abstracts\; Arch
+ ival option: Yes (est.)\nOfficial source: https://probml.cc/call/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#probml-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Learning Theory & Statis
+ tical Foundations,Machine Learning,Healthcare & Clinical AI
+URL:https://probml.cc/call/
 END:VEVENT
 BEGIN:VEVENT
 UID:automl-2027-deadline-full-paper@scientific-conference-calendar
@@ -1489,6 +1665,23 @@ URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
 LOCATION:Stanford\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:ais-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:AIS 2027 (formerly LOD) · Paper decision notification
+DESCRIPTION:Artificial Intelligence Symposium (formerly LOD)\nMeeting: 2027
+ -09-19 to 2027-09-23\, Castiglione della Pescaia\, Italy\nStatus: confirm
+ ed\, checked 2026-11-14\nCutoff time unannounced: official deadline day o
+ nly. Verify the organizer's submission portal.\nFormat: Paper-based / Spr
+ inger proceedings\; Archival option: Yes\nOfficial source: https://ais202
+ 7.icas.events/deadlines/\nVenue Radar: https://gon-uri.github.io/venue-ra
+ dar/#ais-2027
+CATEGORIES:Machine Learning,Data Mining & Data Science,Learning Theory & St
+ atistical Foundations,Time Series & Sequential Data
+URL:https://ais2027.icas.events/deadlines/
+END:VEVENT
+BEGIN:VEVENT
 UID:discovery-science-2027-deadline-full-paper-abstract@scientific-conferen
  ce-calendar
 DTSTAMP:19700101T000000Z
@@ -1507,6 +1700,23 @@ CATEGORIES:Data Mining & Data Science,Machine Learning,Learning Theory & St
  atistical Foundations,Time Series & Sequential Data
 URL:https://web.archive.org/web/20260413203246/https://discovery-science.or
  g/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:uai-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:UAI 2027 (est.) · Author notification
+DESCRIPTION:Conference on Uncertainty in Artificial Intelligence\nMeeting: 
+ 2027-08-17 to 2027-08-21 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-11-14. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\n
+ Previous edition's page: https://www.auai.org/uai2026/important_dates\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#uai-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
+ g Theory & Statistical Foundations
+URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
 BEGIN:VEVENT
 UID:discovery-science-2027-deadline-full-paper@scientific-conference-calend
@@ -1619,6 +1829,23 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:automl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:AutoML 2027 (est.) · Methods/ABCD track author notification
+DESCRIPTION:International Conference on Automated Machine Learning\nMeeting
+ : 2027-09-28 to 2027-10-01 (est.)\, To be announced\nStatus: estimated\, 
+ checked 2026-10-28. Check the organizer's call before relying on it.\nEst
+ imated day only\; no cutoff hour stored. Check the organizer's call for t
+ he real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)
+ \nPrevious edition's page: https://2026.automl.cc/dates/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#automl-2027
+CATEGORIES:Machine Learning,Evolutionary Computation & Optimization,Deep Re
+ presentation Learning,Learning Theory & Statistical Foundations
+URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:colt-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270628
@@ -1638,19 +1865,40 @@ URL:https://learningtheory.org/colt2027/
 LOCATION:Tokyo\, Japan
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-ssp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270702
+SUMMARY:IEEE SSP 2027 · Conference
+DESCRIPTION:IEEE Statistical Signal Processing Workshop\nStatus: confirmed\
+ , checked 2026-10-28\nOfficial source: https://ssp27.ieeesps.org/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#ieee-ssp-2027\nNotes: Offic
+ ial SSP 2027 pages confirm the 24th edition at Centre de Congres Imperial
+ \, Annecy\, Jun 28-Jul 1\, 2027. The author page states deadlines are 23:
+ 59 AoE (UTC-12)\; regular and special-session papers share the Feb 7 dead
+ line and one submission system. The Dec 7 proposal cutoff hour is unstate
+ d.
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Probabilistic\, Causal & Uncertainty ML
+URL:https://ssp27.ieeesps.org/
+LOCATION:Annecy\, France
+END:VEVENT
+BEGIN:VEVENT
 UID:pakdd-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270629
 DTEND;VALUE=DATE:20270703
 SUMMARY:PAKDD 2027 · Conference
 DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
- nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://pakdd20
+ nStatus: confirmed\, checked 2026-11-18\nOfficial source: https://pakdd20
  27.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#pakdd-2027\n
- Notes: Official PAKDD 2027 site\, rechecked 2026-10-30\, confirms an in-p
- erson meeting in Wellington\, Jun 29-Jul 2. The Nov 20 AoE paper deadline
-  is shared by the Research\, new Applied Data Science\, Survey and LLM/Ag
- entic AI tracks\, with no extension\; camera-ready is Mar 19 AoE. Worksho
- p\, tutorial and doctoral consortium dates are still to be announced.
+ Notes: Official PAKDD 2027 site\, rechecked 2026-11-18\, confirms an in-p
+ erson meeting in Wellington\, Jun 29-Jul 2. The Research Track paper dead
+ line was extended from Nov 20 to Dec 4\, 2026 (AoE)\; the Applied Data Sc
+ ience\, Survey and LLM/Agentic AI tracks keep Nov 20 AoE. All four tracks
+  share the Feb 26\, 2027 notification and Mar 19 AoE camera-ready. Doctor
+ al consortium (Feb 12\, 2027) is not tracked as a paper route. Workshop a
+ nd tutorial dates are still to be announced.
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Learning Theory & Statistical Foundations
 URL:https://pakdd2027.org/
@@ -1711,6 +1959,23 @@ CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Learning Theory & Statis
  tical Foundations,Machine Learning,Healthcare & Clinical AI
 URL:https://probml.cc/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:COLM 2027 (est.) · Decision notification
+DESCRIPTION:Conference on Language Modeling\nMeeting: 2027-10-06 to 2027-10
+ -09 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-28. Che
+ ck the organizer's call before relying on it.\nEstimated day only\; no cu
+ toff hour stored. Check the organizer's call for the real date and time.\
+ nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious edition's pa
+ ge: https://colm.cc/Conferences/2026/CallForPapers\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#colm-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ LLM Agents & Tool Use,Information Retrieval & Search
+URL:https://colm.cc/Conferences/2026/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
 UID:uai-2027-deadline-camera-ready@scientific-conference-calendar
@@ -1783,6 +2048,27 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory &
 URL:https://ecai2027.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:discovery-science-2027-deadline-notification@scientific-conference-cale
+ ndar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:Discovery Science 2027 (est.) · Main track notification of accepta
+ nce
+DESCRIPTION:International Conference on Discovery Science\nMeeting: 2027-10
+ -05 to 2027-10-09 (est.)\, To be announced\nStatus: estimated\, checked 2
+ 026-11-14. Check the organizer's call before relying on it.\nEstimated da
+ y only\; no cutoff hour stored. Check the organizer's call for the real d
+ ate and time.\nFormat: Paper-based / research forum\; Archival option: Ye
+ s (est.)\nOfficial source: https://web.archive.org/web/20260413203246/htt
+ ps://discovery-science.org/important-dates/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#discovery-science-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Learning Theory & St
+ atistical Foundations,Time Series & Sequential Data
+URL:https://web.archive.org/web/20260413203246/https://discovery-science.or
+ g/important-dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:ais-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270723T115900Z
@@ -1798,6 +2084,24 @@ DESCRIPTION:Artificial Intelligence Symposium (formerly LOD)\nMeeting: 2027
 CATEGORIES:Machine Learning,Data Mining & Data Science,Learning Theory & St
  atistical Foundations,Time Series & Sequential Data
 URL:https://ais2026.icas.events/deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:DSAA 2027 (est.) · Paper notification
+DESCRIPTION:IEEE International Conference on Data Science and Advanced Anal
+ ytics\nMeeting: 2027-10-06 to 2027-10-09 (est.)\, To be announced\nStatus
+ : estimated\, checked 2026-11-14. Check the organizer's call before relyi
+ ng on it.\nEstimated day only\; no cutoff hour stored. Check the organize
+ r's call for the real date and time.\nFormat: Paper-based / applied track
+ s\; Archival option: Yes (est.)\nPrevious edition's page: https://dsaa-20
+ 26.vercel.app/key-dates\nVenue Radar: https://gon-uri.github.io/venue-rad
+ ar/#dsaa-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Human-AI Interaction & Deployment
+URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:log-2027-deadline-abstract@scientific-conference-calendar
@@ -1932,6 +2236,59 @@ URL:https://www.auai.org/uai2026/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:ideal-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:IDEAL 2027 (est.) · Paper acceptance notification
+DESCRIPTION:International Conference on Intelligent Data Engineering and Au
+ tomated Learning\nMeeting: 2027-11-19 to 2027-11-21 (est.)\, To be announ
+ ced\nStatus: estimated\, checked 2026-11-14. Check the organizer's call b
+ efore relying on it.\nEstimated day only\; no cutoff hour stored. Check t
+ he organizer's call for the real date and time.\nFormat: Paper-based\; Ar
+ chival option: Yes (est.)\nPrevious edition's page: https://web.archive.o
+ rg/web/20260611094448/https://www.ideal2026.org/calls/key-dates\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ideal-2027
+CATEGORIES:Machine Learning,Data Mining & Data Science,Deep Representation 
+ Learning,Learning Theory & Statistical Foundations
+URL:https://web.archive.org/web/20260611094448/https://www.ideal2026.org/ca
+ lls/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:CoRL 2027 (est.) · Paper acceptance notification
+DESCRIPTION:Conference on Robot Learning\nMeeting: 2027-11-09 to 2027-11-12
+  (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check 
+ the organizer's call before relying on it.\nEstimated day only\; no cutof
+ f hour stored. Check the organizer's call for the real date and time.\nFo
+ rmat: Paper-based\; Archival option: Yes (est.)\nPrevious edition's page:
+  https://2026.corl.org/contributions/call-for-demos\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#corl-2027
+CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
+ Representation Learning
+URL:https://2026.corl.org/contributions/call-for-demos
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:LoG 2027 (est.) · Final decisions released
+DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
+ 1 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check
+  the organizer's call before relying on it.\nEstimated day only\; no cuto
+ ff hour stored. Check the organizer's call for the real date and time.\nF
+ ormat: Paper-based / non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://logconference.org/cfp/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#log-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
+ rning,Learning Theory & Statistical Foundations
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:copa-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270914
@@ -1954,6 +2311,23 @@ CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Learning Theory & Statis
  tical Foundations,Machine Learning
 URL:https://copa-conference.com/
 LOCATION:Genoa\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:ACML 2027 (est.) · Conference-track acceptance notification
+DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2027-12-01 to 20
+ 27-12-04 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14
+ . Check the organizer's call before relying on it.\nEstimated day only\; 
+ no cutoff hour stored. Check the organizer's call for the real date and t
+ ime.\nFormat: Paper-based / OpenReview\; Archival option: Yes (est.)\nPre
+ vious edition's page: https://www.acml-conf.org/2026/\nVenue Radar: https
+ ://gon-uri.github.io/venue-radar/#acml-2027
+CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
+ inability & Interpretability,Robustness & Safety
+URL:https://www.acml-conf.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:ais-2027-conference@scientific-conference-calendar
@@ -1991,6 +2365,23 @@ DESCRIPTION:International Conference on Learning Representations\nMeeting:
 CATEGORIES:Deep Representation Learning,Machine Learning,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:NeurIPS 2027 (est.) · Paper author notification
+DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
+ 027-12-06 to 2027-12-12 (est.)\, Europe (city to be announced)\nStatus: e
+ stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based\; Archival option:
+  Yes (est.)\nPrevious edition's page: https://neurips.cc/Conferences/2026
+ /Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#neurips-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
+ ential Data,Explainability & Interpretability
+URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2028-deadline-full-paper@scientific-conference-calendar
@@ -2122,6 +2513,25 @@ URL:https://colm.cc/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:dsaa-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271010
+SUMMARY:DSAA 2027 (est.) · Conference
+DESCRIPTION:IEEE International Conference on Data Science and Advanced Anal
+ ytics\nStatus: estimated\, checked 2026-11-14. Check the organizer's call
+  before relying on it.\nOfficial source: https://dsaa.co/\nVenue Radar: h
+ ttps://gon-uri.github.io/venue-radar/#dsaa-2027\nNotes: As of 2026-10-29 
+ dsaa.co announces no DSAA 2027 host or dates (it solicits bids for 2028-2
+ 030). Meeting dates are one-year proxies from DSAA 2026 (New Delhi\, Oct 
+ 6-9)\; paper proxies use DSAA 2026's original May 1 AoE deadline\, later 
+ extended to Jun 7.
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Human-AI Interaction & Deployment
+URL:https://dsaa.co/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:aistats-2028-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20271007T115900Z
@@ -2249,6 +2659,58 @@ URL:https://neurips.cc/Conferences/FutureMeetings
 LOCATION:Europe (city to be announced)
 END:VEVENT
 BEGIN:VEVENT
+UID:iclr-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271216
+DTEND;VALUE=DATE:20271217
+SUMMARY:ICLR 2028 (est.) · Final decisions
+DESCRIPTION:International Conference on Learning Representations\nMeeting: 
+ 2028-04-26 to 2028-04-30 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-11-14. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / OpenReview\; Archival option:
+  Yes (est.)\nPrevious edition's page: https://iclr.cc/Conferences/2027/Da
+ tes\nVenue Radar: https://gon-uri.github.io/venue-radar/#iclr-2028
+CATEGORIES:Deep Representation Learning,Machine Learning,Explainability & I
+ nterpretability,Robustness & Safety
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:alt-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280105
+DTEND;VALUE=DATE:20280106
+SUMMARY:ALT 2028 (est.) · Author notification
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nMeetin
+ g: 2028-03-09 to 2028-03-12 (est.)\, To be announced\nStatus: estimated\,
+  checked 2026-11-14. Check the organizer's call before relying on it.\nEs
+ timated day only\; no cutoff hour stored. Check the organizer's call for 
+ the real date and time.\nFormat: Paper-based / PMLR proceedings (optional
+  one-page extended abstract instead)\; Archival option: Yes (est.)\nPrevi
+ ous edition's page: https://algorithmiclearningtheory.org/alt2027/call-fo
+ r-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#alt-2028
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280120
+DTEND;VALUE=DATE:20280121
+SUMMARY:AISTATS 2028 (est.) · Paper decision notification
+DESCRIPTION:International Conference on Artificial Intelligence and Statist
+ ics\nMeeting: 2028-05-03 to 2028-05-06 (est.)\, To be announced\nStatus: 
+ estimated\, checked 2026-11-14. Check the organizer's call before relying
+  on it.\nEstimated day only\; no cutoff hour stored. Check the organizer'
+ s call for the real date and time.\nFormat: Paper-based\; Archival option
+ : Yes (est.)\nPrevious edition's page: https://aistats.org/aistats2027/da
+ tes.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#aistats-202
+ 8
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Proba
+ bilistic\, Causal & Uncertainty ML,Time Series & Sequential Data
+URL:https://aistats.org/aistats2027/dates.html
+END:VEVENT
+BEGIN:VEVENT
 UID:alt-2028-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20280309
@@ -2360,6 +2822,23 @@ CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data
 URL:https://meetings.siam.org/start.cfm?CONFCODE=mds26
 END:VEVENT
 BEGIN:VEVENT
+UID:ppsn-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280522
+DTEND;VALUE=DATE:20280523
+SUMMARY:PPSN 2028 (est.) · Notification of acceptance
+DESCRIPTION:International Conference on Parallel Problem Solving from Natur
+ e\nMeeting: 2028-08-29 to 2028-09-02 (est.)\, To be announced\nStatus: es
+ timated\, checked 2026-10-31. Check the organizer's call before relying o
+ n it.\nEstimated day only\; no cutoff hour stored. Check the organizer's 
+ call for the real date and time.\nFormat: Paper-based / Springer LNCS pro
+ ceedings\; all accepted papers presented as posters\; Archival option: Ye
+ s (est.)\nPrevious edition's page: https://ppsn2026.disi.unitn.it/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#ppsn-2028
+CATEGORIES:Evolutionary Computation & Optimization,Machine Learning
+URL:https://ppsn2026.disi.unitn.it/
+END:VEVENT
+BEGIN:VEVENT
 UID:s-sspr-2028-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20280525T215900Z
@@ -2372,6 +2851,25 @@ DESCRIPTION:Joint IAPR International Workshops on Statistical Techniques in
  \nFormat: Paper-based / workshop-style conference\; Archival option: Yes 
  (est.)\nPrevious edition's page: https://ssspr2026.inf.unibe.ch/\nVenue R
  adar: https://gon-uri.github.io/venue-radar/#s-sspr-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Learning 
+ Theory & Statistical Foundations
+URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280630
+DTEND;VALUE=DATE:20280701
+SUMMARY:S+SSPR 2028 (est.) · Notification of acceptance
+DESCRIPTION:Joint IAPR International Workshops on Statistical Techniques in
+  Pattern Recognition and Structural and Syntactic Pattern Recognition\nMe
+ eting: 2028-08-24 to 2028-08-26 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nEstimated day only\; no cutoff hour stored. Check the organizer's call 
+ for the real date and time.\nFormat: Paper-based / workshop-style confere
+ nce\; Archival option: Yes (est.)\nPrevious edition's page: https://ssspr
+ 2026.inf.unibe.ch/\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ -sspr-2028
 CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Learning 
  Theory & Statistical Foundations
 URL:https://ssspr2026.inf.unibe.ch/

@@ -165,6 +165,28 @@ def latest_review_day() -> date:
     return datetime.now(timezone.utc).date() + timedelta(days=1)
 
 
+def _notification_errors(label: str, conference: dict[str, Any], deadlines: list[Any]) -> list[str]:
+    """A decision date must follow the first fresh-submission deadline and fall
+    no later than the meeting's first day (FORC's first-round decision precedes
+    its second round, so the bound is the first route, not the last)."""
+    try:
+        start = parse_date(conference["conference_start"])
+        routes = [parse_datetime(item["datetime"]) for item in deadlines
+                  if isinstance(item, dict) and item.get("type") in SUBMISSION_TYPES]
+        errors = []
+        for item in deadlines:
+            if not isinstance(item, dict) or item.get("type") != "notification":
+                continue
+            when = parse_datetime(item["datetime"])
+            if routes and when <= min(routes):
+                errors.append(f"{label}: notification must follow the first submission deadline")
+            if when.date() > start:
+                errors.append(f"{label}: notification must not be after conference_start")
+        return errors
+    except (KeyError, TypeError, ValueError):
+        return []
+
+
 def validate_conferences(
     conferences: list[dict[str, Any]], controlled_topics: set[str] | None = None,
     review_limit: date | None = None,
@@ -379,6 +401,7 @@ def validate_conferences(
                             errors.append(f"{label}: gate_for deadline must precede its target")
                     except (KeyError, TypeError, ValueError):
                         pass
+                errors.extend(_notification_errors(label, conference, deadlines))
 
     # Optional cross-series succession (ADR-046), e.g. ASLI continues ASRU and SLT.
     all_series = {c.get("series") for c in conferences if isinstance(c, dict)}

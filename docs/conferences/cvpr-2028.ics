@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CVPR 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cvpr-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271111T115900Z
+DTEND:20271111T125900Z
+SUMMARY:CVPR 2028 (est.) · Abstract and paper registration deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271117T115900Z
+DTEND:20271117T125900Z
+SUMMARY:CVPR 2028 (est.) · Paper submission deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271124T115900Z
+DTEND:20271124T125900Z
+SUMMARY:CVPR 2028 (est.) · Supplementary material deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280620
+DTEND;VALUE=DATE:20280626
+SUMMARY:CVPR 2028 (est.) · Conference
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nStatus: estimated\, checked 2026-10-30. Check the organizer's call befor
+ e relying on it.\nOfficial source: https://www.thecvf.com/?page_id=100\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#cvpr-2028\nNotes: Host
+  city San Antonio confirmed by the CVF conference list (with general and 
+ program chairs named). No official CVPR 2028 dates or site yet (cvpr.thec
+ vf.com/Conferences/2028 returns 404)\; meeting dates and all deadlines ar
+ e estimated 1-year projections from CVPR 2027. Third-party listings give 
+ 11-15 June 2028\, not official.
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://www.thecvf.com/?page_id=100
+LOCATION:San Antonio\, Texas\, USA
+END:VEVENT
+END:VCALENDAR

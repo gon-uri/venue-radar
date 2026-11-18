@@ -507,7 +507,7 @@ DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:MIDL 2027 · Full-paper abstract registration deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -522,7 +522,7 @@ DTSTART:20261205T115900Z
 DTEND:20261205T125900Z
 SUMMARY:MIDL 2027 · Full paper submission deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -776,6 +776,22 @@ CATEGORIES:Healthcare & Clinical AI,Probabilistic\, Causal & Uncertainty ML
 URL:https://chil.ahli.cc/submit/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:midl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:MIDL 2027 · Full-paper authors notification
+DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nCutoff
+  time unannounced: official deadline day only. Verify the organizer's sub
+ mission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial sou
+ rce: https://2027.midl.io/important-dates\nVenue Radar: https://gon-uri.g
+ ithub.io/venue-radar/#midl-2027
+CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
+ nical AI
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:icml-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270214T115900Z
@@ -919,7 +935,7 @@ DTSTART:20270313T115900Z
 DTEND:20270313T125900Z
 SUMMARY:MIDL 2027 · Camera-ready deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -1149,6 +1165,21 @@ URL:https://iclr.cc/Conferences/2027
 LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:rss-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270501T115900Z
+DTEND:20270501T125900Z
+SUMMARY:RSS 2027 · Final paper acceptance notification
+DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
+ ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
+ ar/#rss-2027
+CATEGORIES:Control & Robotics,Reinforcement Learning,System Identification 
+ & Data-driven Dynamics,Computer Vision & Pattern Recognition
+URL:https://roboticsconference.org/information/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:satml-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270504
@@ -1166,6 +1197,39 @@ CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
   AI,Explainability & Interpretability
 URL:https://satml.org/
 LOCATION:Reykjavik\, Iceland
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:ICML 2027 · Author notification (final decisions)
+DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
+ 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: confirmed\, checked 2
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based\; Archival option: 
+ Yes\nOfficial source: https://icml.cc/Conferences/2027/Dates\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#icml-2027
+CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
+ Representation Learning,Time Series & Sequential Data
+URL:https://icml.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:probml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:ProbML 2027 (est.) · Proceedings acceptance notification
+DESCRIPTION:Symposium on Probabilistic Machine Learning\nMeeting: 2027-07-0
+ 5 to 2027-07-05 (est.)\, To be announced\nStatus: estimated\, checked 202
+ 6-10-28. Check the organizer's call before relying on it.\nEstimated day 
+ only\; no cutoff hour stored. Check the organizer's call for the real dat
+ e and time.\nFormat: Paper-based / non-archival extended abstracts\; Arch
+ ival option: Yes (est.)\nOfficial source: https://probml.cc/call/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#probml-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Learning Theory & Statis
+ tical Foundations,Machine Learning,Healthcare & Clinical AI
+URL:https://probml.cc/call/
 END:VEVENT
 BEGIN:VEVENT
 UID:aies-2027-deadline-abstract@scientific-conference-calendar
@@ -1344,6 +1408,23 @@ URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
 LOCATION:Stanford\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:uai-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:UAI 2027 (est.) · Author notification
+DESCRIPTION:Conference on Uncertainty in Artificial Intelligence\nMeeting: 
+ 2027-08-17 to 2027-08-21 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-11-14. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\n
+ Previous edition's page: https://www.auai.org/uai2026/important_dates\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#uai-2027
+CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
+ g Theory & Statistical Foundations
+URL:https://www.auai.org/uai2026/important_dates
+END:VEVENT
+BEGIN:VEVENT
 UID:euvip-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270616T115900Z
@@ -1418,6 +1499,22 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:iccv-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270626T095900Z
+DTEND:20270626T105900Z
+SUMMARY:ICCV 2027 (est.) · Main conference paper decisions
+DESCRIPTION:IEEE/CVF International Conference on Computer Vision\nMeeting: 
+ 2027-10-03 to 2027-10-07\, Hong Kong\, China\nStatus: estimated\, checked
+  2026-11-14. Check the organizer's call before relying on it.\nFormat: Pa
+ per-based / OpenReview\; Archival option: Yes (est.)\nPrevious edition's 
+ page: https://iccv.thecvf.com/Conferences/2025/Dates\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#iccv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://iccv.thecvf.com/Conferences/2025/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:acml-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270627T115900Z
@@ -1432,6 +1529,23 @@ DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2027-12-01 to 20
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
  inability & Interpretability,Robustness & Safety
 URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:automl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:AutoML 2027 (est.) · Methods/ABCD track author notification
+DESCRIPTION:International Conference on Automated Machine Learning\nMeeting
+ : 2027-09-28 to 2027-10-01 (est.)\, To be announced\nStatus: estimated\, 
+ checked 2026-10-28. Check the organizer's call before relying on it.\nEst
+ imated day only\; no cutoff hour stored. Check the organizer's call for t
+ he real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)
+ \nPrevious edition's page: https://2026.automl.cc/dates/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#automl-2027
+CATEGORIES:Machine Learning,Evolutionary Computation & Optimization,Deep Re
+ presentation Learning,Learning Theory & Statistical Foundations
+URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:chil-2027-conference@scientific-conference-calendar
@@ -1492,6 +1606,23 @@ URL:https://roboticsconference.org/
 LOCATION:Athens\, Greece
 END:VEVENT
 BEGIN:VEVENT
+UID:colm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:COLM 2027 (est.) · Decision notification
+DESCRIPTION:Conference on Language Modeling\nMeeting: 2027-10-06 to 2027-10
+ -09 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-28. Che
+ ck the organizer's call before relying on it.\nEstimated day only\; no cu
+ toff hour stored. Check the organizer's call for the real date and time.\
+ nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious edition's pa
+ ge: https://colm.cc/Conferences/2026/CallForPapers\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#colm-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ LLM Agents & Tool Use,Information Retrieval & Search
+URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:uai-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270709T115900Z
@@ -1508,13 +1639,30 @@ CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
 URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcb-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:IJCB 2027 · Main-conference paper final decisions
+DESCRIPTION:IEEE/IAPR International Joint Conference on Biometrics\nMeeting
+ : 2027-09-13 to 2027-09-17\, Foz do Iguacu\, Brazil\nStatus: confirmed\, 
+ checked 2026-10-07\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / biometri
+ cs and identity science\; Archival option: Yes\nOfficial source: https://
+ ijcb2027.ieee-biometrics.org/important-dates/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#ijcb-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Deep Representation Learning,Privacy-preserving ML
+URL:https://ijcb2027.ieee-biometrics.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:midl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:MIDL 2027 · Conference
 DESCRIPTION:Medical Imaging with Deep Learning\nStatus: confirmed\, checked
-  2026-11-14\nOfficial source: https://2027.midl.io/important-dates\nVenue
+  2026-11-18\nOfficial source: https://2027.midl.io/important-dates\nVenue
   Radar: https://gon-uri.github.io/venue-radar/#midl-2027\nNotes: Official
   2027 dates page confirms the July meeting and 23:59 AoE full-paper abstr
  act registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 12) 
@@ -1526,6 +1674,42 @@ CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
  nical AI
 URL:https://2027.midl.io/important-dates
 LOCATION:Porto\, Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:AIES 2027 (est.) · Paper acceptance notification
+DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2027
+ -10-11 to 2027-10-13 (est.)\, To be announced\nStatus: estimated\, checke
+ d 2026-10-29. Check the organizer's call before relying on it.\nEstimated
+  day only\; no cutoff hour stored. Check the organizer's call for the rea
+ l date and time.\nFormat: Paper-based / interdisciplinary\; Archival opti
+ on: Yes (est.)\nPrevious edition's page: https://www.aies-conference.com/
+ 2026/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#aies-2027
+CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
+ nterpretability,Robustness & Safety
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:euvip-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+SUMMARY:EUVIP 2027 (est.) · Regular paper notification
+DESCRIPTION:European Conference on Visual Information Processing\nMeeting: 
+ 2027-09-28 to 2027-10-01 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-07. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / visual information processing
+ \; Archival option: Yes (est.)\nPrevious edition's page: https://euvip202
+ 6.github.io/C4P.pdf\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ euvip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://euvip2026.github.io/C4P.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:log-2027-deadline-abstract@scientific-conference-calendar
@@ -1655,6 +1839,41 @@ URL:https://www.auai.org/uai2026/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:emnlp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:EMNLP 2027 (est.) · Notification of acceptance (main conference)
+DESCRIPTION:Conference on Empirical Methods in Natural Language Processing\
+ nMeeting: 2027-11-01 to 2027-11-06 (est.)\, Mexico or Central America\; c
+ ity to be announced\nStatus: estimated\, checked 2026-11-14. Check the or
+ ganizer's call before relying on it.\nEstimated day only\; no cutoff hour
+  stored. Check the organizer's call for the real date and time.\nFormat: 
+ Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: https
+ ://2026.emnlp.org/calls/main_conference_papers/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#emnlp-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ LLM Agents & Tool Use,Information Retrieval & Search
+URL:https://2026.emnlp.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:CoRL 2027 (est.) · Paper acceptance notification
+DESCRIPTION:Conference on Robot Learning\nMeeting: 2027-11-09 to 2027-11-12
+  (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check 
+ the organizer's call before relying on it.\nEstimated day only\; no cutof
+ f hour stored. Check the organizer's call for the real date and time.\nFo
+ rmat: Paper-based\; Archival option: Yes (est.)\nPrevious edition's page:
+  https://2026.corl.org/contributions/call-for-demos\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#corl-2027
+CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
+ Representation Learning
+URL:https://2026.corl.org/contributions/call-for-demos
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcb-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270913
@@ -1674,6 +1893,41 @@ URL:https://ijcb2027.ieee-biometrics.org/important-dates/
 LOCATION:Foz do Iguacu\, Brazil
 END:VEVENT
 BEGIN:VEVENT
+UID:log-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:LoG 2027 (est.) · Final decisions released
+DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
+ 1 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check
+  the organizer's call before relying on it.\nEstimated day only\; no cuto
+ ff hour stored. Check the organizer's call for the real date and time.\nF
+ ormat: Paper-based / non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://logconference.org/cfp/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#log-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
+ rning,Learning Theory & Statistical Foundations
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:BIOSIG 2027 (est.) · Notification of authors
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nMeeting: 2027-11-24 to 2027-11-25 (est.)\, To be announced\nStatus: e
+ stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based / GI LNI proceedin
+ gs\, submitted to IEEE Xplore (2026 format)\; Archival option: Yes (est.)
+ \nOfficial source: https://web.archive.org/web/20260411180047/https://bio
+ sig.de/\nVenue Radar: https://gon-uri.github.io/venue-radar/#biosig-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://web.archive.org/web/20260411180047/https://biosig.de/
+END:VEVENT
+BEGIN:VEVENT
 UID:icra-2028-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270916T065900Z
@@ -1688,6 +1942,23 @@ DESCRIPTION:IEEE International Conference on Robotics and Automation\nMeeti
 CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
  ern Recognition,System Identification & Data-driven Dynamics
 URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:ACML 2027 (est.) · Conference-track acceptance notification
+DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2027-12-01 to 20
+ 27-12-04 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14
+ . Check the organizer's call before relying on it.\nEstimated day only\; 
+ no cutoff hour stored. Check the organizer's call for the real date and t
+ ime.\nFormat: Paper-based / OpenReview\; Archival option: Yes (est.)\nPre
+ vious edition's page: https://www.acml-conf.org/2026/\nVenue Radar: https
+ ://gon-uri.github.io/venue-radar/#acml-2027
+CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
+ inability & Interpretability,Robustness & Safety
+URL:https://www.acml-conf.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2028-deadline-abstract@scientific-conference-calendar
@@ -1908,6 +2179,40 @@ URL:https://www.corl.org/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271111T115900Z
+DTEND:20271111T125900Z
+SUMMARY:CVPR 2028 (est.) · Abstract and paper registration deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271117T115900Z
+DTEND:20271117T125900Z
+SUMMARY:CVPR 2028 (est.) · Paper submission deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:log-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271119
@@ -1950,6 +2255,23 @@ URL:https://biosig.de/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2028-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271124T115900Z
+DTEND:20271124T125900Z
+SUMMARY:CVPR 2028 (est.) · Supplementary material deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:acml-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271201
@@ -1966,6 +2288,77 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
  inability & Interpretability,Robustness & Safety
 URL:https://www.acml-conf.org/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271215
+DTEND;VALUE=DATE:20271216
+SUMMARY:SaTML 2028 (est.) · Decision notification
+DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
+ ting: 2028-05-02 to 2028-05-04 (est.)\, To be announced\nStatus: estimate
+ d\, checked 2026-11-14. Check the organizer's call before relying on it.\
+ nEstimated day only\; no cutoff hour stored. Check the organizer's call f
+ or the real date and time.\nFormat: Paper-based / systematization of know
+ ledge / position papers\; Archival option: Yes (est.)\nOfficial source: h
+ ttps://satml.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#satml-2028
+CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
+  AI,Explainability & Interpretability
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271216
+DTEND;VALUE=DATE:20271217
+SUMMARY:ICLR 2028 (est.) · Final decisions
+DESCRIPTION:International Conference on Learning Representations\nMeeting: 
+ 2028-04-26 to 2028-04-30 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-11-14. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / OpenReview\; Archival option:
+  Yes (est.)\nPrevious edition's page: https://iclr.cc/Conferences/2027/Da
+ tes\nVenue Radar: https://gon-uri.github.io/venue-radar/#iclr-2028
+CATEGORIES:Deep Representation Learning,Machine Learning,Explainability & I
+ nterpretability,Robustness & Safety
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:alt-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280105
+DTEND;VALUE=DATE:20280106
+SUMMARY:ALT 2028 (est.) · Author notification
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nMeetin
+ g: 2028-03-09 to 2028-03-12 (est.)\, To be announced\nStatus: estimated\,
+  checked 2026-11-14. Check the organizer's call before relying on it.\nEs
+ timated day only\; no cutoff hour stored. Check the organizer's call for 
+ the real date and time.\nFormat: Paper-based / PMLR proceedings (optional
+  one-page extended abstract instead)\; Archival option: Yes (est.)\nPrevi
+ ous edition's page: https://algorithmiclearningtheory.org/alt2027/call-fo
+ r-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#alt-2028
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280130
+DTEND;VALUE=DATE:20280131
+SUMMARY:ICRA 2028 (est.) · Notification of acceptance/rejection
+DESCRIPTION:IEEE International Conference on Robotics and Automation\nMeeti
+ ng: 2028-05-24 to 2028-05-28 (est.)\, Guadalajara\, Mexico\nStatus: estim
+ ated\, checked 2026-11-14. Check the organizer's call before relying on i
+ t.\nEstimated day only\; no cutoff hour stored. Check the organizer's cal
+ l for the real date and time.\nFormat: Paper-based\; Archival option: Yes
+  (est.)\nPrevious edition's page: https://2027.ieee-icra.org/contribute/c
+ all-for-icra-2027-papers-now-accepting-submissions/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#icra-2028
+CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
+ ern Recognition,System Identification & Data-driven Dynamics
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-acc
+ epting-submissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:eccv-2028-deadline-abstract@scientific-conference-calendar
@@ -2076,6 +2469,43 @@ CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
  ern Recognition,System Identification & Data-driven Dynamics
 URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
 LOCATION:Guadalajara\, Mexico
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280617
+DTEND;VALUE=DATE:20280618
+SUMMARY:ECCV 2028 (est.) · Final paper decisions
+DESCRIPTION:European Conference on Computer Vision\nMeeting: 2028-09-08 to 
+ 2028-09-12 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nEstimated day only\
+ ; no cutoff hour stored. Check the organizer's call for the real date and
+  time.\nFormat: Paper-based / Springer proceedings\; Archival option: Yes
+  (est.)\nPrevious edition's page: https://eccv.ecva.net/Conferences/2026/
+ Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#eccv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280620
+DTEND;VALUE=DATE:20280626
+SUMMARY:CVPR 2028 (est.) · Conference
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nStatus: estimated\, checked 2026-10-30. Check the organizer's call befor
+ e relying on it.\nOfficial source: https://www.thecvf.com/?page_id=100\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#cvpr-2028\nNotes: Host
+  city San Antonio confirmed by the CVF conference list (with general and 
+ program chairs named). No official CVPR 2028 dates or site yet (cvpr.thec
+ vf.com/Conferences/2028 returns 404)\; meeting dates and all deadlines ar
+ e estimated 1-year projections from CVPR 2027. Third-party listings give 
+ 11-15 June 2028\, not official.
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://www.thecvf.com/?page_id=100
+LOCATION:San Antonio\, Texas\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:eccv-2028-conference@scientific-conference-calendar

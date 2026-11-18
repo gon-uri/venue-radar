@@ -1,0 +1,156 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ECC 2028 Calendar
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ecc-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
+SUMMARY:ECC 2028 (est.) · Contributed paper submission deadline
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-special-session-proposal@scientific-conference-calend
+ ar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
+SUMMARY:ECC 2028 (est.) · Invited session proposal deadline
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-industry-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:ECC 2028 (est.) · Industry abstracts (an industry-affiliated autho
+ r\; not in the proceedings)
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:ECC 2028 (est.) · Tutorial session proposals
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:ECC 2028 (est.) · Pre-conference workshop proposals
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280305
+DTEND;VALUE=DATE:20280306
+SUMMARY:ECC 2028 (est.) · Acceptance notification
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280405
+DTEND;VALUE=DATE:20280406
+SUMMARY:ECC 2028 (est.) · Final manuscript submission
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280620
+DTEND;VALUE=DATE:20280624
+SUMMARY:ECC 2028 · Conference
+DESCRIPTION:European Control Conference\nStatus: confirmed\, checked 2026-1
+ 0-30\nOfficial source: https://euca-ecc.org/ecc/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#ecc-2028\nNotes: Meeting dates and host city
+  confirmed by the EUCA ECC page (Rimini\, Italy\, 20-23 June 2028). No EC
+ C 2028 edition website or call yet\; cfp_url and all deadlines are estima
+ ted 1-year projections from the ECC 2027 call\, whose paper deadline was 
+ extended from October 31 to November 9\, 2026 (the projection uses the ex
+ tended date). ECC 2028 meets about three weeks earlier in the year than E
+ CC 2027 (13-16 July)\, so the real deadlines may fall earlier. ECC is the
+  annual flagship of the European Control Association\, technically co-spo
+ nsored by IFAC and IEEE CSS\, with papers in IEEE Xplore (as for ECC 2027
+ ). Not listed in ICORE2026 or CCF. Size L is an editorial category.
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://euca-ecc.org/ecc/
+LOCATION:Rimini\, Italy
+END:VEVENT
+END:VCALENDAR

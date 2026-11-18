@@ -67,7 +67,7 @@ DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:MIDL 2027 · Full-paper abstract registration deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -82,7 +82,7 @@ DTSTART:20261205T115900Z
 DTEND:20261205T125900Z
 SUMMARY:MIDL 2027 · Full paper submission deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -147,7 +147,7 @@ DTEND:20270202T125900Z
 SUMMARY:KDD 2027 (est.) · Abstract submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ stimated\, checked 2026-11-18. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -163,13 +163,29 @@ DTEND:20270209T125900Z
 SUMMARY:KDD 2027 (est.) · Paper submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ stimated\, checked 2026-11-18. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Federated & Distributed Learning
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:MIDL 2027 · Full-paper authors notification
+DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nCutoff
+  time unannounced: official deadline day only. Verify the organizer's sub
+ mission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial sou
+ rce: https://2027.midl.io/important-dates\nVenue Radar: https://gon-uri.g
+ ithub.io/venue-radar/#midl-2027
+CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
+ nical AI
+URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-deadline-workshop@scientific-conference-calendar
@@ -194,7 +210,7 @@ DTSTART:20270313T115900Z
 DTEND:20270313T125900Z
 SUMMARY:MIDL 2027 · Camera-ready deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-14\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -235,6 +251,56 @@ CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
 URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:icml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:ICML 2027 · Author notification (final decisions)
+DESCRIPTION:International Conference on Machine Learning\nMeeting: 2027-07-
+ 31 to 2027-08-06\, Rio de Janeiro\, Brazil\nStatus: confirmed\, checked 2
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Paper-based\; Archival option: 
+ Yes\nOfficial source: https://icml.cc/Conferences/2027/Dates\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#icml-2027
+CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Deep 
+ Representation Learning,Time Series & Sequential Data
+URL:https://icml.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:KDD 2027 (est.) · Cycle 2 paper notification
+DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
+ eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
+ stimated\, checked 2026-11-18. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based / mixed tracks\; A
+ rchival option: Yes\nPrevious edition's page: https://kdd2026.kdd.org/res
+ earch-track-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#kdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Federated & Distributed Learning
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-mlsp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270613T115900Z
+DTEND:20270613T125900Z
+SUMMARY:IEEE MLSP 2027 (est.) · Conference paper submission deadline
+DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
+ essing\nMeeting: 2027-09-13 to 2027-09-16\, Uppsala\, Sweden\nStatus: est
+ imated\, checked 2026-11-14. Check the organizer's call before relying on
+  it.\nFormat: Paper-based / workshop-style conference\; Archival option: 
+ Yes (est.)\nOfficial source: https://signalprocessingsociety.org/event-na
+ mes/mlsp\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-mlsp-2
+ 027
+CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
+URL:https://signalprocessingsociety.org/event-names/mlsp
+END:VEVENT
+BEGIN:VEVENT
 UID:mlsys-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270621
@@ -254,13 +320,30 @@ URL:https://mlsys.org/Conferences/2027
 LOCATION:Bellevue\, Washington\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcb-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:IJCB 2027 · Main-conference paper final decisions
+DESCRIPTION:IEEE/IAPR International Joint Conference on Biometrics\nMeeting
+ : 2027-09-13 to 2027-09-17\, Foz do Iguacu\, Brazil\nStatus: confirmed\, 
+ checked 2026-10-07\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / biometri
+ cs and identity science\; Archival option: Yes\nOfficial source: https://
+ ijcb2027.ieee-biometrics.org/important-dates/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#ijcb-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Deep Representation Learning,Privacy-preserving ML
+URL:https://ijcb2027.ieee-biometrics.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:midl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:MIDL 2027 · Conference
 DESCRIPTION:Medical Imaging with Deep Learning\nStatus: confirmed\, checked
-  2026-11-14\nOfficial source: https://2027.midl.io/important-dates\nVenue
+  2026-11-18\nOfficial source: https://2027.midl.io/important-dates\nVenue
   Radar: https://gon-uri.github.io/venue-radar/#midl-2027\nNotes: Official
   2027 dates page confirms the July meeting and 23:59 AoE full-paper abstr
  act registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 12) 
@@ -305,7 +388,7 @@ DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270806
 SUMMARY:KDD 2027 · Conference
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-11-14\nOfficial source: https://kdd2027.k
+ tatus: confirmed\, checked 2026-11-18\nOfficial source: https://kdd2027.k
  dd.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027\nNo
  tes: Official site confirms San Jose McEnery Convention Center\, Aug 1-5.
   Cycle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 
@@ -316,6 +399,24 @@ CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Federated & Distributed Learning
 URL:https://kdd2027.kdd.org/
 LOCATION:San Jose\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-mlsp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:IEEE MLSP 2027 (est.) · Notification of acceptance
+DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
+ essing\nMeeting: 2027-09-13 to 2027-09-16\, Uppsala\, Sweden\nStatus: est
+ imated\, checked 2026-11-14. Check the organizer's call before relying on
+  it.\nEstimated day only\; no cutoff hour stored. Check the organizer's c
+ all for the real date and time.\nFormat: Paper-based / workshop-style con
+ ference\; Archival option: Yes (est.)\nOfficial source: https://web.archi
+ ve.org/web/20260610214250/https://mlsp26.ieeesps.org/call-for-papers/\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#ieee-mlsp-2027
+CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
+URL:https://web.archive.org/web/20260610214250/https://mlsp26.ieeesps.org/c
+ all-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcb-2027-deadline-camera-ready@scientific-conference-calendar
@@ -352,6 +453,23 @@ CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
 URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-mlsp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270917
+SUMMARY:IEEE MLSP 2027 · Conference
+DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
+ essing\nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://
+ 2027.ieeemlsp.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#i
+ eee-mlsp-2027\nNotes: IEEE SPS and the official 2027.ieeemlsp.org placeho
+ lder confirm Uppsala\, Sep 13-16\, 2027. As of 2026-10-28 no 2027 call or
+  deadlines are published\; the June 12 paper deadline is an estimated pro
+ xy from MLSP 2026's June 12 deadline.
+CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
+URL:https://2027.ieeemlsp.org/
+LOCATION:Uppsala\, Sweden
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcb-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270913
@@ -369,6 +487,24 @@ CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Privacy-preserving ML
 URL:https://ijcb2027.ieee-biometrics.org/important-dates/
 LOCATION:Foz do Iguacu\, Brazil
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+SUMMARY:IEEE BigData 2027 (est.) · Notification of paper acceptance
+DESCRIPTION:IEEE International Conference on Big Data\nMeeting: 2027-12-14 
+ to 2027-12-17 (est.)\, To be announced\nStatus: estimated\, checked 2026-
+ 11-14. Check the organizer's call before relying on it.\nEstimated day on
+ ly\; no cutoff hour stored. Check the organizer's call for the real date 
+ and time.\nFormat: Paper-based / mixed tracks\; Archival option: Yes (est
+ .)\nPrevious edition's page: https://bigdataieee.org/BigData2026/importan
+ t-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-bigdat
+ a-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Federated & Distributed Learning
+URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bigdata-2027-conference@scientific-conference-calendar

@@ -69,7 +69,7 @@ these links (opening one downloads a one-time file):
 - [Submission deadlines](https://gon-uri.github.io/venue-radar/submissions.ics):
   new-paper and abstract deadlines, including required registration steps
 - [All events](https://gon-uri.github.io/venue-radar/calendar-all.ics): meeting
-  dates plus every recorded deadline
+  dates and deadlines of current and upcoming editions
 - [Conference dates](https://gon-uri.github.io/venue-radar/conferences.ics):
   meeting dates only
 - **One topic**, or **one conference series** including future editions: pick

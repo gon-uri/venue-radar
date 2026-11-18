@@ -27,40 +27,6 @@ CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
 URL:https://attend.ieee.org/slt-2026/call-for-special-sessions/
 END:VEVENT
 BEGIN:VEVENT
-UID:acm-mm-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260325
-DTEND;VALUE=DATE:20260326
-SUMMARY:ACM MM 2026 · Main-track contribution registration deadline
-DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
-  to 2026-11-14\, Rio de Janeiro\, Brazil\nStatus: confirmed\, checked 202
- 6-11-14\nCutoff time unannounced: official deadline day only. Verify the 
- organizer's submission portal.\nFormat: Paper-based / multimedia research
- \; Archival option: Yes\nOfficial source: https://2026.acmmm.org/site/imp
- ortant-dates.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#ac
- m-mm-2026
-CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
- ition,Deep Representation Learning,Signal Processing
-URL:https://2026.acmmm.org/site/important-dates.html
-END:VEVENT
-BEGIN:VEVENT
-UID:acm-mm-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260401
-DTEND;VALUE=DATE:20260402
-SUMMARY:ACM MM 2026 · Main-track paper submission deadline
-DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
-  to 2026-11-14\, Rio de Janeiro\, Brazil\nStatus: confirmed\, checked 202
- 6-11-14\nCutoff time unannounced: official deadline day only. Verify the 
- organizer's submission portal.\nFormat: Paper-based / multimedia research
- \; Archival option: Yes\nOfficial source: https://2026.acmmm.org/site/imp
- ortant-dates.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#ac
- m-mm-2026
-CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
- ition,Deep Representation Learning,Signal Processing
-URL:https://2026.acmmm.org/site/important-dates.html
-END:VEVENT
-BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260505T115900Z
@@ -267,21 +233,49 @@ CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
 URL:https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:acm-mm-2026-deadline-workshop-paper@scientific-conference-calendar
+UID:aaai-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260716
-DTEND;VALUE=DATE:20260717
-SUMMARY:ACM MM 2026 · Workshop paper submission deadline
-DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
-  to 2026-11-14\, Rio de Janeiro\, Brazil\nStatus: confirmed\, checked 202
- 6-11-14\nCutoff time unannounced: official deadline day only. Verify the 
- organizer's submission portal.\nFormat: Paper-based / multimedia research
- \; Archival option: Yes\nOfficial source: https://2026.acmmm.org/site/imp
- ortant-dates.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#ac
- m-mm-2026
-CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
- ition,Deep Representation Learning,Signal Processing
-URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART:20260722T115900Z
+DTEND:20260722T125900Z
+SUMMARY:AAAI 2027 · Abstract submission deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sour
+ ce: https://aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260729T115900Z
+DTEND:20260729T125900Z
+SUMMARY:AAAI 2027 · Full paper submission deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sour
+ ce: https://aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260801T115900Z
+DTEND:20260801T125900Z
+SUMMARY:AAAI 2027 · Supplementary material and code deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sour
+ ce: https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
 END:VEVENT
 BEGIN:VEVENT
 UID:eacl-2027-deadline-full-paper@scientific-conference-calendar
@@ -316,23 +310,6 @@ CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
 URL:https://accv2026.org/submissions/call-for-demos/
 END:VEVENT
 BEGIN:VEVENT
-UID:acm-mm-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260806
-DTEND;VALUE=DATE:20260807
-SUMMARY:ACM MM 2026 · Main-track camera-ready deadline
-DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2026-11-10
-  to 2026-11-14\, Rio de Janeiro\, Brazil\nStatus: confirmed\, checked 202
- 6-11-14\nCutoff time unannounced: official deadline day only. Verify the 
- organizer's submission portal.\nFormat: Paper-based / multimedia research
- \; Archival option: Yes\nOfficial source: https://2026.acmmm.org/site/imp
- ortant-dates.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#ac
- m-mm-2026
-CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
- ition,Deep Representation Learning,Signal Processing
-URL:https://2026.acmmm.org/site/important-dates.html
-END:VEVENT
-BEGIN:VEVENT
 UID:iui-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260814T115900Z
@@ -356,7 +333,7 @@ DTEND:20260818T125900Z
 SUMMARY:WSDM 2027 · Abstract submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cffp.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -404,7 +381,7 @@ DTEND:20260825T125900Z
 SUMMARY:WSDM 2027 · Paper submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cffp.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -638,7 +615,7 @@ DTEND:20261013T125900Z
 SUMMARY:COLING 2027 · ARR paper submission deadline
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -855,24 +832,6 @@ CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
 URL:https://iui.acm.org/2027/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:acm-mm-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261115
-SUMMARY:ACM MM 2026 · Conference
-DESCRIPTION:ACM International Conference on Multimedia\nStatus: confirmed\,
-  checked 2026-11-14\nOfficial source: https://2026.acmmm.org/\nVenue Rada
- r: https://gon-uri.github.io/venue-radar/#acm-mm-2026\nNotes: Official 20
- 26 pages confirm Rio and deadline days. The retrieved important-dates pag
- e has no cutoff hour or timezone\, so the stored AoE timestamps are provi
- sional. Main\, BNI\, and dataset tracks share March/April deadlines\; wor
- kshop papers have their own route. XL is an editorial estimate.
-CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
- ition,Deep Representation Learning,Signal Processing
-URL:https://2026.acmmm.org/
-LOCATION:Rio de Janeiro\, Brazil
-END:VEVENT
-BEGIN:VEVENT
 UID:iui-2027-deadline-workshop-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261110T115900Z
@@ -947,7 +906,7 @@ DTEND:20261113T125900Z
 SUMMARY:WSDM 2027 · Doctoral consortium application deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cfdc.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -1013,7 +972,7 @@ DTEND:20261118T125900Z
 SUMMARY:WSDM 2027 · Short paper submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cfsp.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -1088,6 +1047,23 @@ URL:https://www.acml-conf.org/2026/
 LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:AAAI 2027 · Main-track final acceptance notification
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nCutoff time unannounced: official deadline day only. Verify the organi
+ zer's submission portal.\nFormat: Paper-based / OpenReview\; Archival opt
+ ion: Yes\nOfficial source: https://aaai.org/conference/aaai/aaai-27/main-
+ technical-track-call/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+END:VEVENT
+BEGIN:VEVENT
 UID:coling-2027-deadline-regular-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261201T115900Z
@@ -1095,7 +1071,7 @@ DTEND:20261201T125900Z
 SUMMARY:COLING 2027 · Industry-track paper submission (separate from ARR)
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/industry_track/\nVenue Radar: https://go
  n-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -1110,7 +1086,7 @@ DTEND:20261201T125900Z
 SUMMARY:WSDM 2027 · WSDM Day 2-page extended abstract submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cfp.html\nVenue Radar: https:
  //gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -1283,6 +1259,21 @@ URL:https://accv2026.org/
 LOCATION:Osaka\, Japan
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261215T115900Z
+DTEND:20261215T125900Z
+SUMMARY:AAAI 2027 · Camera-ready deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2027-02-16
+  to 2027-02-23\, Montreal\, Canada\nStatus: confirmed\, checked 2026-10-2
+ 8\nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sour
+ ce: https://aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#aaai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
 UID:chiir-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261215
@@ -1354,7 +1345,7 @@ DTEND:20261224T125900Z
 SUMMARY:COLING 2027 · Commitment of ARR-reviewed papers
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-07\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -1575,6 +1566,21 @@ CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
 URL:https://um.org/umap2027/call-for-full-and-short-paper/
 END:VEVENT
 BEGIN:VEVENT
+UID:aime-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115900Z
+DTEND:20270201T125900Z
+SUMMARY:AIME 2027 · Abstract submission deadline
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / clinical AI\; Archiva
+ l option: Yes\nOfficial source: https://aime27.aimedicine.info/call-for-p
+ apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:icmr-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270201T115959Z
@@ -1615,7 +1621,7 @@ DTEND:20270202T125900Z
 SUMMARY:KDD 2027 (est.) · Abstract submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ stimated\, checked 2026-11-18. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -1665,6 +1671,21 @@ URL:https://iui.acm.org/2027/
 LOCATION:Helsinki\, Finland
 END:VEVENT
 BEGIN:VEVENT
+UID:aime-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270208T115900Z
+DTEND:20270208T125900Z
+SUMMARY:AIME 2027 · Full paper submission deadline
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / clinical AI\; Archiva
+ l option: Yes\nOfficial source: https://aime27.aimedicine.info/call-for-p
+ apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:kdd-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270209T115900Z
@@ -1672,7 +1693,7 @@ DTEND:20270209T125900Z
 SUMMARY:KDD 2027 (est.) · Paper submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ stimated\, checked 2026-11-18. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -1698,6 +1719,22 @@ CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
 URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:coling-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:COLING 2027 · Paper acceptance notification
+DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
+  2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
+ 26-11-18\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based\; Archival option: Y
+ es\nOfficial source: https://2027.coling-iccl.org/calls/main_conference_p
+ apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#coling-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ Knowledge Representation & Reasoning,LLM Agents & Tool Use
+URL:https://2027.coling-iccl.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:eswc-2027-deadline-doctoral-symposium@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270212T115900Z
@@ -1721,7 +1758,7 @@ DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270220
 SUMMARY:WSDM 2027 · Conference
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nSta
- tus: confirmed\, checked 2026-11-14\nOfficial source: https://www.wsdm-co
+ tus: confirmed\, checked 2026-11-18\nOfficial source: https://www.wsdm-co
  nference.org/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#w
  sdm-2027\nNotes: Official WSDM 2027 pages (rechecked 2026-10-30) list Hon
  g Kong (Cordis)\, Feb 15-19\, and AoE deadlines: full-paper abstract Aug 
@@ -1736,6 +1773,25 @@ CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
  le AI,Human-AI Interaction & Deployment
 URL:https://www.wsdm-conference.org/2027/
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270224
+SUMMARY:AAAI 2027 · Conference
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nStatus: confirmed\,
+  checked 2026-10-28\nOfficial source: https://aaai.org/conference/aaai/aa
+ ai-27/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aaai-2027\nNo
+ tes: Rechecked 2026-10-28: official AAAI-27 pages still list Feb 16-23\, 
+ 2027 in Montreal and the AoE (UTC-12) main-track timetable\, with no exte
+ nsions. The Nov 30 notification has no stated hour\, so its time is provi
+ sional. The page shows two overlapping author-feedback ranges (Oct 19-25 
+ and Oct 24-31)\, so that window is not listed.
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
+LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
 UID:interspeech-2027-deadline-paper-update@scientific-conference-calendar
@@ -1755,6 +1811,23 @@ CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
 URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:conll-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270220T115900Z
+DTEND:20270220T125900Z
+SUMMARY:CoNLL 2027 (est.) · Direct paper submission deadline
+DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
+  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
+ hecked 2026-11-14. Check the organizer's call before relying on it.\nForm
+ at: Paper-based\; Archival option: Yes (est.)\nOfficial source: https://w
+ eb.archive.org/web/20260201152714/https://conll.org/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#conll-2027
+CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
+ onal Cognition,Computational Neuroscience,Explainability & Interpretabili
+ ty
+URL:https://web.archive.org/web/20260201152714/https://conll.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:eswc-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270219
@@ -1770,6 +1843,23 @@ DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:AIME 2027 · Workshop proposal deadline
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / clinical AI\; Archival option: Yes\nOfficial source: https://aime27.aim
+ edicine.info/call-for-workshops-tutorials/\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-workshops-tutorials/
 END:VEVENT
 BEGIN:VEVENT
 UID:iccv-2027-deadline-abstract@scientific-conference-calendar
@@ -1938,21 +2028,21 @@ URL:https://web.archive.org/web/20260307122538/https://amia.secure-platform
  .com/symposium
 END:VEVENT
 BEGIN:VEVENT
-UID:conll-2027-deadline-full-paper@scientific-conference-calendar
+UID:aime-2027-deadline-tutorial-proposal@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270315T115900Z
-DTEND:20270315T125900Z
-SUMMARY:CoNLL 2027 (est.) · Direct paper submission deadline
-DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
-  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
- hecked 2026-11-14. Check the organizer's call before relying on it.\nForm
- at: Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: h
- ttps://www.aclweb.org/portal/content/conll-2025-2nd-call-papers\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#conll-2027
-CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
- onal Cognition,Computational Neuroscience,Explainability & Interpretabili
- ty
-URL:https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:AIME 2027 · Tutorial proposal deadline
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / clinical AI\; Archival option: Yes\nOfficial source: https://aime27.aim
+ edicine.info/call-for-workshops-tutorials/\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-workshops-tutorials/
 END:VEVENT
 BEGIN:VEVENT
 UID:icwsm-2027-deadline-notification@scientific-conference-calendar
@@ -2215,6 +2305,60 @@ CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
 URL:https://2026.acmmm.org/site/important-dates.html
 END:VEVENT
 BEGIN:VEVENT
+UID:icmr-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:ICMR 2027 · Paper acceptance notification
+DESCRIPTION:ACM SIGMM International Conference on Multimedia Retrieval\nMee
+ ting: 2027-06-07 to 2027-06-10\, Singapore\nStatus: confirmed\, checked 2
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Full and short papers / multime
+ dia retrieval\; Archival option: Yes\nOfficial source: https://www.icmr20
+ 27.org/date\nVenue Radar: https://gon-uri.github.io/venue-radar/#icmr-202
+ 7
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Machine Learning,Deep Representation Learning
+URL:https://www.icmr2027.org/date
+END:VEVENT
+BEGIN:VEVENT
+UID:cogsci-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:CogSci 2027 (est.) · Decision notifications (early April\; day not
+  published)
+DESCRIPTION:Annual Meeting of the Cognitive Science Society\nMeeting: 2027-
+ 07-28 to 2027-07-31\, Bilbao\, Spain\nStatus: estimated\, checked 2026-11
+ -14. Check the organizer's call before relying on it.\nEstimated day only
+ \; no cutoff hour stored. Check the organizer's call for the real date an
+ d time.\nFormat: Paper-based / abstract presentations\; Archival option: 
+ No\nOfficial source: https://web.archive.org/web/20250125185155/https://c
+ ognitivesciencesociety.org/submissions/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#cogsci-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Computational Neuros
+ cience,Machine Learning,Natural Language Processing & LLMs
+URL:https://web.archive.org/web/20250125185155/https://cognitivesciencesoci
+ ety.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:acl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:ACL 2027 (est.) · Paper acceptance notification
+DESCRIPTION:Annual Meeting of the Association for Computational Linguistics
+ \nMeeting: 2027-08-17 to 2027-08-22\, Kyoto\, Japan\nStatus: estimated\, 
+ checked 2026-11-14. Check the organizer's call before relying on it.\nEst
+ imated day only\; no cutoff hour stored. Check the organizer's call for t
+ he real date and time.\nFormat: Paper-based\; Archival option: Yes\nPrevi
+ ous edition's page: https://2026.aclweb.org/calls/main_conference_papers/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#acl-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ LLM Agents & Tool Use,Information Retrieval & Search
+URL:https://2026.aclweb.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:iva-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270405T115900Z
@@ -2230,6 +2374,23 @@ DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
 CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
  ployment,Natural Language Processing & LLMs
 URL:https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:sigir-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:SIGIR 2027 · Full paper notification
+DESCRIPTION:ACM International Conference on Research and Development in Inf
+ ormation Retrieval\nMeeting: 2027-07-19 to 2027-07-24\, San Jose\, Califo
+ rnia\, USA\nStatus: confirmed\, checked 2026-11-07\nCutoff time unannounc
+ ed: official deadline day only. Verify the organizer's submission portal.
+ \nFormat: Paper-based\; Archival option: Yes\nOfficial source: https://si
+ gir2027.org/pages/submit-full.html\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#sigir-2027
+CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
+ age Processing & LLMs,Machine Learning
+URL:https://sigir2027.org/pages/submit-full.html
 END:VEVENT
 BEGIN:VEVENT
 UID:icmr-2027-deadline-camera-ready@scientific-conference-calendar
@@ -2263,6 +2424,22 @@ CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
 URL:https://2026.sigdial.org/calls/main_conference/
 END:VEVENT
 BEGIN:VEVENT
+UID:ecai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:ECAI 2027 · Full paper submission deadline
+DESCRIPTION:European Conference on Artificial Intelligence\nMeeting: 2027-1
+ 0-02 to 2027-10-07\, Athens\, Greece\nStatus: confirmed\, checked 2026-11
+ -14\nCutoff time unannounced: official deadline day only. Verify the orga
+ nizer's submission portal.\nFormat: Paper-based\; Archival option: Yes (e
+ st.)\nOfficial source: https://ecai2027.org/\nVenue Radar: https://gon-ur
+ i.github.io/venue-radar/#ecai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Fairness & Responsible AI
+URL:https://ecai2027.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:recsys-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270415T115900Z
@@ -2277,6 +2454,23 @@ DESCRIPTION:ACM Conference on Recommender Systems\nMeeting: 2027-08-23 to 2
 CATEGORIES:Recommender Systems,Machine Learning,Information Retrieval & Sea
  rch,Human-AI Interaction & Deployment
 URL:https://recsys.acm.org/recsys26/call/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:AIME 2027 · Paper acceptance notification
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based 
+ / clinical AI\; Archival option: Yes\nOfficial source: https://aime27.aim
+ edicine.info/call-for-papers/\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigdial-2027-deadline-full-paper@scientific-conference-calendar
@@ -2309,6 +2503,24 @@ DESCRIPTION:IEEE International Conference on Audio\, Speech\, and Language
 CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
  rning,Deep Representation Learning
 URL:https://2027.ieeeasli.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:conll-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:CoNLL 2027 (est.) · Notification of acceptance
+DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
+  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
+ hecked 2026-11-14. Check the organizer's call before relying on it.\nEsti
+ mated day only\; no cutoff hour stored. Check the organizer's call for th
+ e real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\
+ nOfficial source: https://web.archive.org/web/20260201152714/https://conl
+ l.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#conll-2027
+CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
+ onal Cognition,Computational Neuroscience,Explainability & Interpretabili
+ ty
+URL:https://web.archive.org/web/20260201152714/https://conll.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:recsys-2027-deadline-full-paper@scientific-conference-calendar
@@ -2379,6 +2591,21 @@ CATEGORIES:Information Retrieval & Search,Recommender Systems,Natural Langu
 URL:https://sigir2027.org/pages/submit-full.html
 END:VEVENT
 BEGIN:VEVENT
+UID:aime-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270503T115900Z
+DTEND:20270503T125900Z
+SUMMARY:AIME 2027 · Camera-ready submission deadline
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nMeeting: 2027-07-05 to 2027-07-08\, Amsterdam\, Netherlands\nStatus: co
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / clinical AI\; Archiva
+ l option: Yes\nOfficial source: https://aime27.aimedicine.info/call-for-p
+ apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aime-2027
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:neurips-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270505T115900Z
@@ -2417,7 +2644,7 @@ DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270515
 SUMMARY:COLING 2027 · Conference
 DESCRIPTION:International Conference on Computational Linguistics\nStatus: 
- confirmed\, checked 2026-11-07\nOfficial source: https://2027.coling-iccl
+ confirmed\, checked 2026-11-18\nOfficial source: https://2027.coling-iccl
  .org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#coling-2027\nN
  otes: Main in-person window May 9-14\; separate virtual sessions May 6-7.
   Shared ARR cycle with NAACL does not permit dual commitment. Recent COLI
@@ -2462,6 +2689,24 @@ DESCRIPTION:ACM International Conference on Information and Knowledge Manag
 CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
  cessing & LLMs,Human-AI Interaction & Deployment
 URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:KDD 2027 (est.) · Cycle 2 paper notification
+DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
+ eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
+ stimated\, checked 2026-11-18. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based / mixed tracks\; A
+ rchival option: Yes\nPrevious edition's page: https://kdd2026.kdd.org/res
+ earch-track-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#kdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Federated & Distributed Learning
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:snl-2027-deadline-abstract@scientific-conference-calendar
@@ -2601,6 +2846,41 @@ URL:https://2027.naacl.org/
 LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:sigdial-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:SIGDIAL 2027 (est.) · Paper notification
+DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
+ ialogue\nMeeting: 2027-08-23 to 2027-08-25 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / ACL Antholo
+ gy proceedings (long\, short and demo papers\; ARR commitment accepted)\;
+  Archival option: Yes (est.)\nPrevious edition's page: https://2026.sigdi
+ al.org/calls/main_conference/\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#sigdial-2027
+CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
+URL:https://2026.sigdial.org/calls/main_conference/
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:Interspeech 2027 · Conference paper acceptance notification
+DESCRIPTION:Annual Conference of the International Speech Communication Ass
+ ociation\nMeeting: 2027-08-29 to 2027-09-02\, Sao Paulo\, Brazil\nStatus:
+  confirmed\, checked 2026-11-14\nCutoff time unannounced: official deadli
+ ne day only. Verify the organizer's submission portal.\nFormat: Paper-bas
+ ed / interactive demonstration papers\; Archival option: Yes (est.)\nOffi
+ cial source: https://interspeech2027.org/\nVenue Radar: https://gon-uri.g
+ ithub.io/venue-radar/#interspeech-2027
+CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
+ Natural Language Processing & LLMs
+URL:https://interspeech2027.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:icmr-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270607
@@ -2678,6 +2958,24 @@ DESCRIPTION:Annual Conference of the International Speech Communication Ass
 CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
  Natural Language Processing & LLMs
 URL:https://interspeech2027.org/calls/call_show_and_tell/
+END:VEVENT
+BEGIN:VEVENT
+UID:iva-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:IVA 2027 (est.) · Final full-paper acceptance notification
+DESCRIPTION:ACM International Conference on Intelligent Virtual Agents\nMee
+ ting: 2027-09-07 to 2027-09-11 (est.)\, Reykjavik\, Iceland\nStatus: esti
+ mated\, checked 2026-11-14. Check the organizer's call before relying on 
+ it.\nEstimated day only\; no cutoff hour stored. Check the organizer's ca
+ ll for the real date and time.\nFormat: Paper-based / ACM Digital Library
+  proceedings (2026 format)\; poster extended abstracts\; Archival option:
+  Yes (est.)\nPrevious edition's page: https://iva.acm.org/2026/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iva-2027
+CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
+ ployment,Natural Language Processing & LLMs
+URL:https://iva.acm.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:asli-2027-deadline-short-paper@scientific-conference-calendar
@@ -2774,6 +3072,22 @@ CATEGORIES:Autonomous Agents & Multiagent Systems,Human-AI Interaction & De
 URL:https://iva.acm.org/2026/call-for-poster/
 END:VEVENT
 BEGIN:VEVENT
+UID:iccv-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270626T095900Z
+DTEND:20270626T105900Z
+SUMMARY:ICCV 2027 (est.) · Main conference paper decisions
+DESCRIPTION:IEEE/CVF International Conference on Computer Vision\nMeeting: 
+ 2027-10-03 to 2027-10-07\, Hong Kong\, China\nStatus: estimated\, checked
+  2026-11-14. Check the organizer's call before relying on it.\nFormat: Pa
+ per-based / OpenReview\; Archival option: Yes (est.)\nPrevious edition's 
+ page: https://iccv.thecvf.com/Conferences/2025/Dates\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#iccv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://iccv.thecvf.com/Conferences/2025/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:acml-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270627T115900Z
@@ -2788,6 +3102,23 @@ DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2027-12-01 to 20
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
  inability & Interpretability,Robustness & Safety
 URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:automl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:AutoML 2027 (est.) · Methods/ABCD track author notification
+DESCRIPTION:International Conference on Automated Machine Learning\nMeeting
+ : 2027-09-28 to 2027-10-01 (est.)\, To be announced\nStatus: estimated\, 
+ checked 2026-10-28. Check the organizer's call before relying on it.\nEst
+ imated day only\; no cutoff hour stored. Check the organizer's call for t
+ he real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)
+ \nPrevious edition's page: https://2026.automl.cc/dates/\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#automl-2027
+CATEGORIES:Machine Learning,Evolutionary Computation & Optimization,Deep Re
+ presentation Learning,Learning Theory & Statistical Foundations
+URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:conll-2027-conference@scientific-conference-calendar
@@ -2809,6 +3140,93 @@ CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
  ty
 URL:https://www.conll.org/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270709
+SUMMARY:AIME 2027 · Conference
+DESCRIPTION:International Conference on Artificial Intelligence in Medicine
+ \nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://aime27
+ .aimedicine.info/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ai
+ me-2027\nNotes: Official AIME 2027 pages (checked 2026-11-14) confirm Ams
+ terdam (KIT Royal Tropical Institute)\, Jul 5-8 (main conference Jul 6-7\
+ , workshops Jul 8)\, and the abstract\, paper and camera-ready dates\, al
+ l AoE. The CFP says the submission system opened Nov 2\, 2026 (day only\,
+  portal not verified)\, and notification is Apr 19. The workshop proposal
+  deadline is Feb 28 AoE (tutorials Mar 15).
+CATEGORIES:Healthcare & Clinical AI,Machine Learning,Biomedical Imaging,Pro
+ babilistic\, Causal & Uncertainty ML
+URL:https://aime27.aimedicine.info/
+LOCATION:Amsterdam\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:COLM 2027 (est.) · Decision notification
+DESCRIPTION:Conference on Language Modeling\nMeeting: 2027-10-06 to 2027-10
+ -09 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-28. Che
+ ck the organizer's call before relying on it.\nEstimated day only\; no cu
+ toff hour stored. Check the organizer's call for the real date and time.\
+ nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious edition's pa
+ ge: https://colm.cc/Conferences/2026/CallForPapers\nVenue Radar: https://
+ gon-uri.github.io/venue-radar/#colm-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ LLM Agents & Tool Use,Information Retrieval & Search
+URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-mm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:ACM MM 2027 (est.) · Main-track author notification
+DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2027-11-08
+  to 2027-11-12\, Hong Kong\, China\nStatus: estimated\, checked 2026-11-1
+ 4. Check the organizer's call before relying on it.\nEstimated day only\;
+  no cutoff hour stored. Check the organizer's call for the real date and 
+ time.\nFormat: Paper-based / multimedia research\; Archival option: Yes (
+ est.)\nPrevious edition's page: https://2026.acmmm.org/site/important-dat
+ es.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Deep Representation Learning,Signal Processing
+URL:https://2026.acmmm.org/site/important-dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:recsys-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:RecSys 2027 (est.) · Main-track paper notification
+DESCRIPTION:ACM Conference on Recommender Systems\nMeeting: 2027-08-23 to 2
+ 027-08-27\, Honolulu\, Hawaii\, USA\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nEstimated day only\
+ ; no cutoff hour stored. Check the organizer's call for the real date and
+  time.\nFormat: Paper-based\; Archival option: Yes (est.)\nOfficial sourc
+ e: https://recsys.acm.org/recsys26/call/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#recsys-2027
+CATEGORIES:Recommender Systems,Machine Learning,Information Retrieval & Sea
+ rch,Human-AI Interaction & Deployment
+URL:https://recsys.acm.org/recsys26/call/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:ECAI 2027 · Author notification
+DESCRIPTION:European Conference on Artificial Intelligence\nMeeting: 2027-1
+ 0-02 to 2027-10-07\, Athens\, Greece\nStatus: confirmed\, checked 2026-11
+ -14\nCutoff time unannounced: official deadline day only. Verify the orga
+ nizer's submission portal.\nFormat: Paper-based\; Archival option: Yes (e
+ st.)\nOfficial source: https://ecai2027.org/\nVenue Radar: https://gon-ur
+ i.github.io/venue-radar/#ecai-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Fairness & Responsible AI
+URL:https://ecai2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:inlg-2027-deadline-full-paper@scientific-conference-calendar
@@ -2848,6 +3266,22 @@ URL:https://sigir2027.org/
 LOCATION:San Jose\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270722T115900Z
+DTEND:20270722T125900Z
+SUMMARY:AAAI 2028 (est.) · Abstract submission deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2028-02-16
+  to 2028-02-23 (est.)\, To be announced\nStatus: estimated\, checked 2026
+ -11-14. Check the organizer's call before relying on it.\nFormat: Paper-b
+ ased / OpenReview\; Archival option: Yes (est.)\nOfficial source: https:/
+ /aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#aaai-2028
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
 UID:cogsci-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270728
@@ -2870,6 +3304,22 @@ CATEGORIES:Cognitive Science & Computational Cognition,Computational Neuros
  cience,Machine Learning,Natural Language Processing & LLMs
 URL:https://cognitivesciencesociety.org/cogsci-2027/
 LOCATION:Bilbao\, Spain
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270729T115900Z
+DTEND:20270729T125900Z
+SUMMARY:AAAI 2028 (est.) · Full paper submission deadline
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2028-02-16
+  to 2028-02-23 (est.)\, To be announced\nStatus: estimated\, checked 2026
+ -11-14. Check the organizer's call before relying on it.\nFormat: Paper-b
+ ased / OpenReview\; Archival option: Yes (est.)\nOfficial source: https:/
+ /aaai.org/conference/aaai/aaai-27/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#aaai-2028
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/
 END:VEVENT
 BEGIN:VEVENT
 UID:asli-2027-deadline-notification@scientific-conference-calendar
@@ -2926,7 +3376,7 @@ DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270806
 SUMMARY:KDD 2027 · Conference
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-11-14\nOfficial source: https://kdd2027.k
+ tatus: confirmed\, checked 2026-11-18\nOfficial source: https://kdd2027.k
  dd.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027\nNo
  tes: Official site confirms San Jose McEnery Convention Center\, Aug 1-5.
   Cycle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 
@@ -2954,6 +3404,24 @@ CATEGORIES:Natural Language Processing & LLMs
 URL:https://2026.inlgmeeting.org/calls.html
 END:VEVENT
 BEGIN:VEVENT
+UID:cikm-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:CIKM 2027 (est.) · Full paper acceptance notification
+DESCRIPTION:ACM International Conference on Information and Knowledge Manag
+ ement\nMeeting: 2027-11-01 to 2027-11-05 (est.)\, Sydney\, Australia\nSta
+ tus: estimated\, checked 2026-10-29. Check the organizer's call before re
+ lying on it.\nEstimated day only\; no cutoff hour stored. Check the organ
+ izer's call for the real date and time.\nFormat: Paper-based\; Archival o
+ ption: Yes (est.)\nPrevious edition's page: https://cikm2026.diag.uniroma
+ 1.it/full-research-papers/\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#cikm-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Natural Language Pro
+ cessing & LLMs,Human-AI Interaction & Deployment
+URL:https://cikm2026.diag.uniroma1.it/full-research-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:asli-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270812T115900Z
@@ -2968,6 +3436,23 @@ DESCRIPTION:IEEE International Conference on Audio\, Speech\, and Language
 CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
  rning,Deep Representation Learning
 URL:https://2027.ieeeasli.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:inlg-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:INLG 2027 (est.) · Paper acceptance notification
+DESCRIPTION:International Natural Language Generation Conference\nMeeting: 
+ 2027-10-17 to 2027-10-21 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-11-14. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / ACL Anthology proceedings\; A
+ rchival option: Yes (est.)\nPrevious edition's page: https://2026.inlgmee
+ ting.org/calls.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ inlg-2027
+CATEGORIES:Natural Language Processing & LLMs
+URL:https://2026.inlgmeeting.org/calls.html
 END:VEVENT
 BEGIN:VEVENT
 UID:acl-2027-conference@scientific-conference-calendar
@@ -2985,6 +3470,24 @@ CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
  LLM Agents & Tool Use,Information Retrieval & Search
 URL:https://2027.aclweb.org/
 LOCATION:Kyoto\, Japan
+END:VEVENT
+BEGIN:VEVENT
+UID:emnlp-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:EMNLP 2027 (est.) · Notification of acceptance (main conference)
+DESCRIPTION:Conference on Empirical Methods in Natural Language Processing\
+ nMeeting: 2027-11-01 to 2027-11-06 (est.)\, Mexico or Central America\; c
+ ity to be announced\nStatus: estimated\, checked 2026-11-14. Check the or
+ ganizer's call before relying on it.\nEstimated day only\; no cutoff hour
+  stored. Check the organizer's call for the real date and time.\nFormat: 
+ Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: https
+ ://2026.emnlp.org/calls/main_conference_papers/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#emnlp-2027
+CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
+ LLM Agents & Tool Use,Information Retrieval & Search
+URL:https://2026.emnlp.org/calls/main_conference_papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:recsys-2027-conference@scientific-conference-calendar
@@ -3088,6 +3591,23 @@ URL:https://iva.acm.org/
 LOCATION:Reykjavik\, Iceland
 END:VEVENT
 BEGIN:VEVENT
+UID:acml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:ACML 2027 (est.) · Conference-track acceptance notification
+DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2027-12-01 to 20
+ 27-12-04 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14
+ . Check the organizer's call before relying on it.\nEstimated day only\; 
+ no cutoff hour stored. Check the organizer's call for the real date and t
+ ime.\nFormat: Paper-based / OpenReview\; Archival option: Yes (est.)\nPre
+ vious edition's page: https://www.acml-conf.org/2026/\nVenue Radar: https
+ ://gon-uri.github.io/venue-radar/#acml-2027
+CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
+ inability & Interpretability,Robustness & Safety
+URL:https://www.acml-conf.org/2026/
+END:VEVENT
+BEGIN:VEVENT
 UID:iclr-2028-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270919T115900Z
@@ -3128,6 +3648,23 @@ URL:https://2026.neurolang.org/future-meetings/
 LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
+UID:neurips-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:NeurIPS 2027 (est.) · Paper author notification
+DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
+ 027-12-06 to 2027-12-12 (est.)\, Europe (city to be announced)\nStatus: e
+ stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based\; Archival option:
+  Yes (est.)\nPrevious edition's page: https://neurips.cc/Conferences/2026
+ /Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#neurips-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
+ ential Data,Explainability & Interpretability
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:iclr-2028-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270926T115900Z
@@ -3162,6 +3699,26 @@ CATEGORIES:Machine Learning,Evolutionary Computation & Optimization,Deep Re
  presentation Learning,Learning Theory & Statistical Foundations
 URL:https://2026.automl.cc/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271008
+SUMMARY:ECAI 2027 · Conference
+DESCRIPTION:European Conference on Artificial Intelligence\nStatus: confirm
+ ed\, checked 2026-11-14\nOfficial source: https://ecai2027.org/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ecai-2027\nNotes: Official EC
+ AI 2027 site confirms Athens\, Oct 2-7 (Oct 2-3 workshops\, tutorials and
+  Doctoral Consortium at NKUA\; main conference and PAIS Oct 4-7 at Megaro
+ n Athens)\, an Apr 14 full-paper submission date\, Phase 1 notification M
+ ay 15\, rebuttal Jun 15-18 and notification Jul 15. No call\, abstract de
+ adline or cutoff hour/time zone is published yet (2026-11-14)\, so 23:59 
+ AoE is an explicitly estimated placeholder.
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Fairness & Responsible AI
+URL:https://ecai2027.org/
+LOCATION:Athens\, Greece
 END:VEVENT
 BEGIN:VEVENT
 UID:iccv-2027-conference@scientific-conference-calendar
@@ -3391,6 +3948,57 @@ URL:https://2027.acmmm.org/
 LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271111T115900Z
+DTEND:20271111T125900Z
+SUMMARY:CVPR 2028 (est.) · Abstract and paper registration deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271117T115900Z
+DTEND:20271117T125900Z
+SUMMARY:CVPR 2028 (est.) · Paper submission deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271124T115900Z
+DTEND:20271124T125900Z
+SUMMARY:CVPR 2028 (est.) · Supplementary material deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:asli-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271129
@@ -3434,6 +4042,25 @@ URL:https://www.acml-conf.org/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271130
+DTEND;VALUE=DATE:20271201
+SUMMARY:AAAI 2028 (est.) · Main technical track final acceptance notificat
+ ion
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nMeeting: 2028-02-16
+  to 2028-02-23 (est.)\, To be announced\nStatus: estimated\, checked 2026
+ -11-14. Check the organizer's call before relying on it.\nEstimated day o
+ nly\; no cutoff hour stored. Check the organizer's call for the real date
+  and time.\nFormat: Paper-based / OpenReview\; Archival option: Yes (est.
+ )\nOfficial source: https://aaai.org/conference/aaai/aaai-27/main-technic
+ al-track-call/\nVenue Radar: https://gon-uri.github.io/venue-radar/#aaai-
+ 2028
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+END:VEVENT
+BEGIN:VEVENT
 UID:neurips-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271206
@@ -3451,6 +4078,76 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/FutureMeetings
 LOCATION:Europe (city to be announced)
+END:VEVENT
+BEGIN:VEVENT
+UID:chiir-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271215
+DTEND;VALUE=DATE:20271216
+SUMMARY:CHIIR 2028 (est.) · Full/perspective paper notification
+DESCRIPTION:ACM SIGIR Conference on Human Information Interaction and Retri
+ eval\nMeeting: 2028-03-07 to 2028-03-11 (est.)\, Helsinki\, Finland\nStat
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / ACM open-ac
+ cess proceedings (ACM Digital Library)\; Archival option: Yes (est.)\nPre
+ vious edition's page: https://chiir2027.github.io/papers.html\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#chiir-2028
+CATEGORIES:Information Retrieval & Search,Human-AI Interaction & Deployment
+URL:https://chiir2027.github.io/papers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271216
+DTEND;VALUE=DATE:20271217
+SUMMARY:ICLR 2028 (est.) · Final decisions
+DESCRIPTION:International Conference on Learning Representations\nMeeting: 
+ 2028-04-26 to 2028-04-30 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-11-14. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Paper-based / OpenReview\; Archival option:
+  Yes (est.)\nPrevious edition's page: https://iclr.cc/Conferences/2027/Da
+ tes\nVenue Radar: https://gon-uri.github.io/venue-radar/#iclr-2028
+CATEGORIES:Deep Representation Learning,Machine Learning,Explainability & I
+ nterpretability,Robustness & Safety
+URL:https://iclr.cc/Conferences/2027/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280213
+DTEND;VALUE=DATE:20280214
+SUMMARY:LREC 2028 (est.) · Notification of acceptance
+DESCRIPTION:Language Resources and Evaluation Conference\nMeeting: 2028-05-
+ 11 to 2028-05-16 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-10-28. Check the organizer's call before relying on it.\nEstimated day
+  only\; no cutoff hour stored. Check the organizer's call for the real da
+ te and time.\nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious
+  edition's page: https://lrec2026.info/third-call-for-papers/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#lrec-2028
+CATEGORIES:Natural Language Processing & LLMs,Data Mining & Data Science,Si
+ gnal Processing
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280216
+DTEND;VALUE=DATE:20280224
+SUMMARY:AAAI 2028 (est.) · Conference
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nStatus: estimated\,
+  checked 2026-11-14. Check the organizer's call before relying on it.\nOf
+ ficial source: https://aaai.org/conference/aaai/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#aaai-2028\nNotes: As of 2026-10-29 the offic
+ ial AAAI conference page lists nothing after AAAI-27 (Montreal\, Feb 16-2
+ 3\, 2027)\; no AAAI-28 dates or host are announced. Meeting dates (Feb 16
+ -23) and the Jul 21 abstract/Jul 28 full-paper deadlines (AoE) are one-ye
+ ar proxies from AAAI-27.
+CATEGORIES:Machine Learning,Deep Representation Learning,Data Mining & Data
+  Science,Fairness & Responsible AI
+URL:https://aaai.org/conference/aaai/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:eccv-2028-deadline-abstract@scientific-conference-calendar
@@ -3544,6 +4241,43 @@ URL:https://www.elra.info/elra-events/lrec/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:eccv-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280617
+DTEND;VALUE=DATE:20280618
+SUMMARY:ECCV 2028 (est.) · Final paper decisions
+DESCRIPTION:European Conference on Computer Vision\nMeeting: 2028-09-08 to 
+ 2028-09-12 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nEstimated day only\
+ ; no cutoff hour stored. Check the organizer's call for the real date and
+  time.\nFormat: Paper-based / Springer proceedings\; Archival option: Yes
+  (est.)\nPrevious edition's page: https://eccv.ecva.net/Conferences/2026/
+ Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#eccv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280620
+DTEND;VALUE=DATE:20280626
+SUMMARY:CVPR 2028 (est.) · Conference
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nStatus: estimated\, checked 2026-10-30. Check the organizer's call befor
+ e relying on it.\nOfficial source: https://www.thecvf.com/?page_id=100\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#cvpr-2028\nNotes: Host
+  city San Antonio confirmed by the CVF conference list (with general and 
+ program chairs named). No official CVPR 2028 dates or site yet (cvpr.thec
+ vf.com/Conferences/2028 returns 404)\; meeting dates and all deadlines ar
+ e estimated 1-year projections from CVPR 2027. Third-party listings give 
+ 11-15 June 2028\, not official.
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://www.thecvf.com/?page_id=100
+LOCATION:San Antonio\, Texas\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:accv-2028-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20280703T235900Z
@@ -3595,6 +4329,24 @@ CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://eccv.ecva.net/Conferences/2026/Dates
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280920
+DTEND;VALUE=DATE:20280921
+SUMMARY:ACCV 2028 (est.) · Paper decision notification
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2028-12-14 to 202
+ 8-12-18 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14.
+  Check the organizer's call before relying on it.\nEstimated day only\; n
+ o cutoff hour stored. Check the organizer's call for the real date and ti
+ me.\nFormat: Paper-based / Springer LNCS proceedings\; Archival option: Y
+ es (est.)\nPrevious edition's page: https://accv2026.org/submissions/auth
+ or-guidelines/\nVenue Radar: https://gon-uri.github.io/venue-radar/#accv-
+ 2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
 END:VEVENT
 BEGIN:VEVENT
 UID:accv-2028-conference@scientific-conference-calendar

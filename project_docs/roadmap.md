@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-11-17
+Last synchronized: 2026-11-18
 
 Current implementation is summarized in [implementation status](implementation_status.md).
 Use [the documentation index](README.md) for procedures; the completed milestones
@@ -104,11 +104,10 @@ below are history, not instructions to reimplement old designs.
 - Completed: sourced profile schema, primary/additional matching in search,
   filters and topic feeds, scope evidence in calendar descriptions (removed
   from ICS by ADR-044; profiles are not displayed on the site), and a missing/stale/prior-edition review queue.
-- Current coverage: 125 of 176 series, including all 42 AI Deadlines additions,
-  all 16 complex-systems/neuroscience additions and all 44 related-venue
-  additions (2026-10-31) and ASLI.
-- Remaining work: curate the 51 missing profiles from official sources and
-  review existing profiles about monthly. Prior-edition evidence stays dated.
+- Current coverage: all 176 series (the last 51 added 2026-11-18, each
+  drafted from official pages and independently verified).
+- Remaining work: review profiles about monthly; 12 rest on an earlier
+  edition's call and are queued until the newer call appears.
 - Guidance: [conference_scopes.md](conference_scopes.md).
 
 ### Complex Systems And Neuroscience Expansion
@@ -279,10 +278,34 @@ below are history, not instructions to reimplement old designs.
   value (2026-11-14); on 2026-11-17 the XLSX mirror was retired (ADR-052),
   README now says "170+" series, and past editions leave the combined feeds
   (ADR-053; `calendar-all.ics` fell from 91% to 72% of 1 MB).
-- Deferred by the judges: decision dates and an "after a rejection" link
-  (only 23 of 115 open full-paper editions store a notification), a shareable
+- Deferred by the judges: an "after a rejection" link (decision dates were
+  filled for 81 of 86 open main-paper editions on 2026-11-18, ADR-054), a shareable
   shortlist URL, a merged rank-and-rate column, family submission feeds,
   browser smoke in CI.
+
+### Ranked Improvements (Proposed 2026-11-17)
+
+Five planners (researcher, data trust, reach, engineering, existing roadmap)
+proposed 28 items; two judges re-verified the evidence and ranked them.
+Owner approved items 1-4 on 2026-11-18.
+
+1. (Done, review_2026-11-18.md) Roll over announced next editions and clear
+   the urgent queue: ECC, ICASSP and CVPR 2028 added; PAKDD and BCI Winter
+   extensions; 12 other series await an official announcement.
+2. (Done, ADR-054) Decision dates: 81 added, a "Decision dates" queue section
+   and a validation rule; 6 open editions still lack one.
+3. (Done, ADR-055) "Last edition: <date>" provenance under estimated
+   milestones.
+4. (Done) Scope profiles for all 176 series.
+5. Browser smoke suite in CI (advisory job first). Not started.
+6. One release command matching CI (node tests, inline-script and identity
+   checks inside `release_check.py`). Not started.
+7. Deterministic `SEQUENCE`/`LAST-MODIFIED` in ICS events so re-imported
+   corrections replace stale dates (unverified in real clients). Not started.
+8. Judges split: a shareable shortlist link, or a faster Python suite.
+- Rejected for now: the "after a rejection" planner (revisit with item 2's
+  data), networked source watching from CI, per-series landing pages and a
+  sitemap, splitting the build script before item 5 lands.
 
 ### Repeatable Data Refresh
 

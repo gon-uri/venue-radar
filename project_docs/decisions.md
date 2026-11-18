@@ -27,9 +27,10 @@ explicit refinements take precedence. Current rules live in
 | Archival option tag and filter (publication UI) | ADR-047 (refines ADR-036's "Add no publication UI" for this tag and filter only) |
 | Cross-series successors (merged or renamed venues with distinct ranks) | ADR-046 (`continues`; complements the same-key TS4H/SD4H and LOD/AIS precedents) |
 | Calendar event titles, descriptions and feed size; countdown precision | ADR-044 (refines ADR-028's ICS clause and ADR-032's countdown text); ADR-045 puts Notes once per edition |
-| Expanded-row venue facts (archival track line, "About this venue" toggle) | ADR-050 |
+| Expanded-row venue facts (archival track line, "About this venue" toggle) | ADR-050; ADR-055 adds "Last edition" provenance under estimated milestones |
 | Review-queue truthfulness, size guardrails, search-text deduplication | ADR-048 (refines ADR-040/042's queue and ADR-047's archival queue rule) |
 | XLSX review mirror retired | ADR-052 (earlier ADRs' workbook clauses are historical) |
+| Decision dates and next-edition announcements | ADR-054 (refines ADR-039's rollover and ADR-048's queue) |
 | Past editions leave the combined feeds | ADR-053 (refines ADR-044/045's feed-size levers; identity check reads per-edition feeds) |
 
 ## ADR-001: Keep the Project Static
@@ -1288,3 +1289,66 @@ explicit refinements take precedence. Current rules live in
   metadata; still available); pruning by build day (non-deterministic, would
   break CI's drift check); pruning series feeds too (they promise every
   edition).
+
+## ADR-054: Maintained Decision Dates And Announced Next Editions
+
+- Status: Accepted by the owner on 2026-11-18 ("Start with 1 and 2", from the
+  ranked improvement list).
+- Date: 2026-11-18
+- Context: Only 28 of 114 open main-paper editions stored when authors hear
+  back, so no fallback plan could rest on the data. Twelve to fifteen series
+  had no future edition, and the maintenance guide said to add a next edition
+  "only from an official announcement" while the roadmap allowed cadence
+  projections.
+- Decision:
+  1. Every edition with an upcoming `full_paper` or `regular_paper` deadline
+     should store a `notification` (schedule-only) milestone for its main
+     track. Take it from the edition's own call when published. Otherwise
+     project it, `estimated`, from the previous edition's official decision
+     date, shifted by the same number of days as the stored paper deadline;
+     when that previous deadline was extended, use the original
+     (pre-extension) deadline and decision pair. The source is the previous
+     edition's page.
+  2. The maintenance report lists editions still missing one ("Decision
+     dates", soonest paper deadline first).
+  3. Validation rejects a `notification` before the edition's first
+     fresh-submission deadline or after `conference_start`.
+  4. A next edition is added only when an official source announces it (a
+     next-edition site, host city, dates or a society listing). Its meeting is
+     `confirmed` only when official dates and place exist; deadlines stay
+     projections until its call is out. Hosting calls (bids) are not
+     announcements.
+  5. Adding a decision date does not advance `last_checked`.
+- Consequences: The 2026-11-18 review added 81 decision dates (16 confirmed,
+  65 estimated) and ECC, ICASSP and CVPR 2028; 6 editions remain in the
+  queue. New UIDs only; none removed. See review_2026-11-18.md.
+- Alternatives considered: shifting by the meeting-date gap (insensitive to
+  extensions but further from the deadline-driven schedules organizers use);
+  leaving decision dates best-effort; projecting next editions for every
+  cadenced series without an announcement.
+
+## ADR-055: Show What An Estimate Rests On
+
+- Status: Accepted by the owner on 2026-11-18 ("continue with 3 and 4", item 3
+  of the ranked list: "Last edition: Jan 28, 2026" under estimated rows).
+- Date: 2026-11-18
+- Context: About half of open main-paper editions are estimated (NeurIPS,
+  ICLR, UAI among them), and the site said only "(est.)". The data already
+  holds the confirmed dates the projections come from.
+- Decision:
+  1. Under each estimated milestone in the expanded schedule, show "Last
+     edition: <date>": the same milestone type in the nearest earlier edition
+     of the series where it was confirmed, linked to that milestone's source.
+     An estimated meeting start cites the last confirmed meeting and its
+     website. Confirmed rows, and rows with no confirmed precedent, show
+     nothing.
+  2. The line appears only in expanded rows (and always without JavaScript),
+     so collapsed rows and phone cards keep their ADR-049 height.
+  3. Estimated rows drop a stored label's leading "Estimated", as calendar
+     titles already do (ADR-044).
+- Consequences: 213 lines on 2026-11-18, about 2.5 KB gzipped. Built at
+  generation time from existing data (`_previous_dates`); no data or feed
+  change. Tests: `ProvenanceTests` and `tests/provenance.mjs`.
+- Alternatives considered: per-milestone source links on every row (adds
+  about 1,100 links for little gain over the evidence line); showing the line
+  in collapsed rows (taller cards).

@@ -44,7 +44,9 @@ before new implementation work. Do not silently change code to match old prose.
 
 ## Evidence And Design Records
 
-- [Mid-November 2026 review](monthly_review_2026-11-14.md): latest
+- [2026-11-18 review](review_2026-11-18.md): urgent rechecks, three new
+  2028 editions and 81 decision dates (ADR-054), each independently verified.
+- [Mid-November 2026 review](monthly_review_2026-11-14.md): the previous
   corrections (153 queued editions, each change independently verified),
   owner decisions held and remaining uncertainty.
 - [November 2026 review](monthly_review_2026-11-07.md): the earlier monthly

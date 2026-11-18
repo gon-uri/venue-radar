@@ -12,19 +12,37 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:conll-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270315T115900Z
-DTEND:20270315T125900Z
+DTSTART:20270220T115900Z
+DTEND:20270220T125900Z
 SUMMARY:CoNLL 2027 (est.) · Direct paper submission deadline
 DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
   2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
  hecked 2026-11-14. Check the organizer's call before relying on it.\nForm
- at: Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: h
- ttps://www.aclweb.org/portal/content/conll-2025-2nd-call-papers\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#conll-2027
+ at: Paper-based\; Archival option: Yes (est.)\nOfficial source: https://w
+ eb.archive.org/web/20260201152714/https://conll.org/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#conll-2027
 CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
  onal Cognition,Computational Neuroscience,Explainability & Interpretabili
  ty
-URL:https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
+URL:https://web.archive.org/web/20260201152714/https://conll.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:conll-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:CoNLL 2027 (est.) · Notification of acceptance
+DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
+  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
+ hecked 2026-11-14. Check the organizer's call before relying on it.\nEsti
+ mated day only\; no cutoff hour stored. Check the organizer's call for th
+ e real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\
+ nOfficial source: https://web.archive.org/web/20260201152714/https://conl
+ l.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#conll-2027
+CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
+ onal Cognition,Computational Neuroscience,Explainability & Interpretabili
+ ty
+URL:https://web.archive.org/web/20260201152714/https://conll.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:conll-2027-conference@scientific-conference-calendar

@@ -316,6 +316,22 @@ URL:https://www.sfn.org/meetings/neuroscience-2026
 LOCATION:Washington\, DC\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcnn-2027-deadline-workshop-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:IJCNN 2027 · Special session and workshop proposal deadline
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based\; Archival op
+ tion: Yes\nOfficial source: https://ijcnn.org/2027/authors/call-for-paper
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:complenet-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261120
@@ -368,6 +384,22 @@ DESCRIPTION:Dynamics Days US\nMeeting: 2027-01-04 to 2027-01-06\, La Jolla\
 CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Sys
  tem Identification & Data-driven Dynamics
 URL:https://www.ddays.org/2027/abstract-submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:IJCNN 2027 · Competition and tutorial proposal deadline
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based\; Archival op
+ tion: Yes\nOfficial source: https://ijcnn.org/2027/authors/call-for-paper
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:complex-networks-2026-conference@scientific-conference-calendar
@@ -597,6 +629,22 @@ CATEGORIES:Reinforcement Learning,Computational Neuroscience,Cognitive Scie
 URL:https://rldm.org/call-for-abstracts-2027/
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcnn-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:IJCNN 2027 · Regular paper submission deadline
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based\; Archival op
+ tion: Yes\nOfficial source: https://ijcnn.org/2027/authors/call-for-paper
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:cogsci-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270202T105900Z
@@ -658,6 +706,23 @@ DESCRIPTION:Conference on Cognitive Computational Neuroscience\nMeeting: 20
 CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
  ging & Brain Mapping,Machine Learning
 URL:https://2027.ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:conll-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270220T115900Z
+DTEND:20270220T125900Z
+SUMMARY:CoNLL 2027 (est.) · Direct paper submission deadline
+DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
+  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
+ hecked 2026-11-14. Check the organizer's call before relying on it.\nForm
+ at: Paper-based\; Archival option: Yes (est.)\nOfficial source: https://w
+ eb.archive.org/web/20260201152714/https://conll.org/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#conll-2027
+CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
+ onal Cognition,Computational Neuroscience,Explainability & Interpretabili
+ ty
+URL:https://web.archive.org/web/20260201152714/https://conll.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ncm-2027-deadline-poster@scientific-conference-calendar
@@ -775,21 +840,37 @@ URL:https://www.cosyne.org/
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:conll-2027-deadline-full-paper@scientific-conference-calendar
+UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270315T115900Z
-DTEND:20270315T125900Z
-SUMMARY:CoNLL 2027 (est.) · Direct paper submission deadline
-DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
-  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
- hecked 2026-11-14. Check the organizer's call before relying on it.\nForm
- at: Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: h
- ttps://www.aclweb.org/portal/content/conll-2025-2nd-call-papers\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#conll-2027
-CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
- onal Cognition,Computational Neuroscience,Explainability & Interpretabili
- ty
-URL:https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IEEE NER 2027 · 6-page paper submission deadline
+DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-14\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Healthcare & Clinical AI
+URL:https://neuro.embs.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IJCNN 2027 · Regular paper acceptance notification
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nCutoff time unannounced: official deadline day only. Ver
+ ify the organizer's submission portal.\nFormat: Paper-based\; Archival op
+ tion: Yes\nOfficial source: https://ijcnn.org/2027/authors/call-for-paper
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:icann-2027-deadline-full-paper@scientific-conference-calendar
@@ -798,11 +879,11 @@ DTSTART:20270317T115900Z
 DTEND:20270317T125900Z
 SUMMARY:ICANN 2027 (est.) · Full paper and abstract submission deadline
 DESCRIPTION:International Conference on Artificial Neural Networks\nMeeting
- : 2027-09-14 to 2027-09-17 (est.)\, To be announced\nStatus: estimated\, 
- checked 2026-11-14. Check the organizer's call before relying on it.\nFor
- mat: Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: 
- https://e-nns.org/icann2026/\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#icann-2027
+ : 2027-08-24 to 2027-08-27\, Linköping\, Sweden\nStatus: estimated\, che
+ cked 2026-11-18. Check the organizer's call before relying on it.\nFormat
+ : Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: htt
+ ps://e-nns.org/icann2026/\nVenue Radar: https://gon-uri.github.io/venue-r
+ adar/#icann-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
  oscience,Signal Processing
 URL:https://e-nns.org/icann2026/
@@ -902,6 +983,26 @@ CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
 URL:https://2027.ccneuro.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:cogsci-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:CogSci 2027 (est.) · Decision notifications (early April\; day not
+  published)
+DESCRIPTION:Annual Meeting of the Cognitive Science Society\nMeeting: 2027-
+ 07-28 to 2027-07-31\, Bilbao\, Spain\nStatus: estimated\, checked 2026-11
+ -14. Check the organizer's call before relying on it.\nEstimated day only
+ \; no cutoff hour stored. Check the organizer's call for the real date an
+ d time.\nFormat: Paper-based / abstract presentations\; Archival option: 
+ No\nOfficial source: https://web.archive.org/web/20250125185155/https://c
+ ognitivesciencesociety.org/submissions/\nVenue Radar: https://gon-uri.git
+ hub.io/venue-radar/#cogsci-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Computational Neuros
+ cience,Machine Learning,Natural Language Processing & LLMs
+URL:https://web.archive.org/web/20250125185155/https://cognitivesciencesoci
+ ety.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
 UID:nice-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270406
@@ -920,6 +1021,40 @@ CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
  ce,Machine Learning,BCI & Neurotechnology
 URL:https://niceworkshop.org/nice-2027/
 LOCATION:Brighton\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270413T115900Z
+DTEND:20270413T125900Z
+SUMMARY:IJCNN 2027 · Camera-ready submission and registration fee payment 
+ (all tracks)
+DESCRIPTION:International Joint Conference on Neural Networks\nMeeting: 202
+ 7-06-14 to 2027-06-18\, Cape Town\, South Africa\nStatus: confirmed\, che
+ cked 2026-10-28\nFormat: Paper-based\; Archival option: Yes\nOfficial sou
+ rce: https://ijcnn.org/2027/authors/initial-author-instructions\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ijcnn-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027/authors/initial-author-instructions
+END:VEVENT
+BEGIN:VEVENT
+UID:conll-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:CoNLL 2027 (est.) · Notification of acceptance
+DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
+  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
+ hecked 2026-11-14. Check the organizer's call before relying on it.\nEsti
+ mated day only\; no cutoff hour stored. Check the organizer's call for th
+ e real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\
+ nOfficial source: https://web.archive.org/web/20260201152714/https://conl
+ l.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#conll-2027
+CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
+ onal Cognition,Computational Neuroscience,Explainability & Interpretabili
+ ty
+URL:https://web.archive.org/web/20260201152714/https://conll.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ncm-2027-conference@scientific-conference-calendar
@@ -964,6 +1099,23 @@ CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
 URL:https://dde-2026.sci-meet.net/important-dates
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:IEEE NER 2027 · 6-page paper acceptance/rejection notification
+DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-14\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Healthcare & Clinical AI
+URL:https://neuro.embs.org/2027/
+END:VEVENT
+BEGIN:VEVENT
 UID:snl-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270518T115900Z
@@ -999,6 +1151,41 @@ CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
 URL:https://www.sfn.org/cfa
 END:VEVENT
 BEGIN:VEVENT
+UID:icdl-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:ICDL 2027 (est.) · Full-paper acceptance notification
+DESCRIPTION:IEEE International Conference on Development and Learning\nMeet
+ ing: 2027-09-21 to 2027-09-24\, Campinas\, Brazil\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nEstim
+ ated day only\; no cutoff hour stored. Check the organizer's call for the
+  real date and time.\nFormat: Full papers in IEEE Xplore + non-archival l
+ ate-breaking results\; Archival option: Yes (est.)\nPrevious edition's pa
+ ge: https://attend.ieee.org/icdl-2026/contribute/call-for-papers/\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#icdl-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Control & Robotics,M
+ achine Learning
+URL:https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icann-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:ICANN 2027 (est.) · Notification of acceptance or rejection
+DESCRIPTION:International Conference on Artificial Neural Networks\nMeeting
+ : 2027-08-24 to 2027-08-27\, Linköping\, Sweden\nStatus: estimated\, che
+ cked 2026-11-18. Check the organizer's call before relying on it.\nEstima
+ ted day only\; no cutoff hour stored. Check the organizer's call for the 
+ real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\nP
+ revious edition's page: https://e-nns.org/icann2026/important-dates/\nVen
+ ue Radar: https://gon-uri.github.io/venue-radar/#icann-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://e-nns.org/icann2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:icmns-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270601
@@ -1024,6 +1211,23 @@ URL:https://icmns.org/2027/
 LOCATION:Montpellier\, France
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:IEEE NER 2027 · 1-page abstract submission deadline
+DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-14\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Healthcare & Clinical AI
+URL:https://neuro.embs.org/2027/
+END:VEVENT
+BEGIN:VEVENT
 UID:international-bci-meeting-2027-conference@scientific-conference-calenda
  r
 DTSTAMP:19700101T000000Z
@@ -1042,6 +1246,25 @@ CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Computational Neu
  roscience,Human-AI Interaction & Deployment
 URL:https://bcisociety.org/bci-meeting/
 LOCATION:Sibenik\, Croatia
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270619
+SUMMARY:IJCNN 2027 · Conference
+DESCRIPTION:International Joint Conference on Neural Networks\nStatus: conf
+ irmed\, checked 2026-10-28\nOfficial source: https://ijcnn.org/2027\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#ijcnn-2027\nNotes: Offici
+ al IJCNN 2027 pages (checked 2026-10-28) list Cape Town (CTICC)\, Jun 14-
+ 18\, and the Jan 31\, 2027 regular-paper deadline with no cutoff hour (pr
+ ovisional AoE end of day). CMT paper submissions are announced to open De
+ c 1\, 2026. Camera-ready and registration payment are due Apr 12\, 2027\,
+  23:59 AoE.
+CATEGORIES:Machine Learning,Deep Representation Learning,Learning Theory & 
+ Statistical Foundations,Signal Processing
+URL:https://ijcnn.org/2027
+LOCATION:Cape Town\, South Africa
 END:VEVENT
 BEGIN:VEVENT
 UID:icdl-2027-deadline-late-abstract@scientific-conference-calendar
@@ -1246,6 +1469,26 @@ URL:https://cognitivesciencesociety.org/cogsci-2027/
 LOCATION:Bilbao\, Spain
 END:VEVENT
 BEGIN:VEVENT
+UID:icann-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270828
+SUMMARY:ICANN 2027 · Conference
+DESCRIPTION:International Conference on Artificial Neural Networks\nStatus:
+  confirmed\, checked 2026-11-18\nOfficial source: https://e-nns.org/icann
+ 2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icann-2027\nNo
+ tes: The official ICANN 2027 page (2026-11-18) announces August 24-27\, 2
+ 027\, at Collegium\, Linköping Science Park\, Sweden\; it publishes no c
+ all or dates yet. Deadlines remain projections from ICANN 2026 (paper dea
+ dline first announced as March 16\, 2026\, later shown as March 9 and ext
+ ended to March 30\; notification May 29)\, so the call page and source li
+ nks still refer to the 2026 edition.
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://e-nns.org/icann2027/
+LOCATION:Linköping\, Sweden
+END:VEVENT
+BEGIN:VEVENT
 UID:complex-networks-2027-deadline-extended-abstract@scientific-conference-
  calendar
 DTSTAMP:19700101T000000Z
@@ -1281,23 +1524,29 @@ CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
 URL:https://complexnetworks.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:icann-2027-conference@scientific-conference-calendar
+UID:ieee-ner-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270914
-DTEND;VALUE=DATE:20270918
-SUMMARY:ICANN 2027 (est.) · Conference
-DESCRIPTION:International Conference on Artificial Neural Networks\nStatus:
-  estimated\, checked 2026-11-14. Check the organizer's call before relyin
- g on it.\nPrevious edition's page: https://e-nns.org/icann2026/\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#icann-2027\nNotes: Provisiona
- l 1-year cadence projection from ICANN 2026. Meeting dates\, location\, a
- nd deadlines require organizer confirmation\; website and source links re
- fer to the prior edition. 2026-10-28 review - ENNS home\, news and ICANNs
-  pages show no ICANN 2027 announcement yet\; dates unchanged.
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://e-nns.org/icann2026/
-LOCATION:To be announced
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270911
+SUMMARY:IEEE NER 2027 · Conference
+DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nStatu
+ s: confirmed\, checked 2026-11-14\nOfficial source: https://neuro.embs.or
+ g/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-202
+ 7\nNotes: The official NER 2027 schedule confirms Milan\, Sep 7-10\, 2027
+ \, with 6-page papers due Mar 15 and independent 1-page abstracts due Jun
+  2. The 2027 schedule also lists submission-system and online-registratio
+ n opening Nov 30\, 2026 (day only\; no opens_at recorded)\, paper decisio
+ ns May 15\, final papers Jun 2 and abstract decisions Jun 18. No cutoff h
+ our is attached to the 2027 block\; the page's repeated 2022 template dat
+ es and PST statements are not evidence for a 2027 clock. Both tracked cut
+ offs are date-only\; no portal opening is inferred. The 2027 call page sa
+ ys full papers (4-7 pages incl. references\, fees above 4 pages) are elig
+ ible for IEEE Xplore and that one-page poster abstracts are not\; its own
+  deadline list is still 'Coming soon'.
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Healthcare & Clinical AI
+URL:https://neuro.embs.org/2027/
+LOCATION:Milan\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:bernstein-conference-2027-conference@scientific-conference-calendar
@@ -1392,6 +1641,25 @@ URL:https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=27
 LOCATION:Cold Spring Harbor\, New York\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:complex-networks-2027-deadline-notification@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:COMPLEX NETWORKS 2027 (est.) · Acceptance notification
+DESCRIPTION:International Conference on Complex Networks and Their Applicat
+ ions\nMeeting: 2027-12-01 to 2027-12-03 (est.)\, To be announced\nStatus:
+  estimated\, checked 2026-11-14. Check the organizer's call before relyin
+ g on it.\nEstimated day only\; no cutoff hour stored. Check the organizer
+ 's call for the real date and time.\nFormat: Paper-based + extended abstr
+ acts\; Archival option: Yes (est.)\nOfficial source: https://complexnetwo
+ rks.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#complex-net
+ works-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Data Mining & Data Science
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:complenet-2028-deadline-extended-abstract@scientific-conference-calenda
  r
 DTSTAMP:19700101T000000Z
@@ -1478,6 +1746,23 @@ CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
  ognitive Science & Computational Cognition,Neuroimaging & Brain Mapping
 URL:https://www.sfn.org/meetings/neuroscience-2027
 LOCATION:Chicago\, Illinois\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:CompleNet 2028 (est.) · Notification of acceptance
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
+ 07 to 2028-03-10 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-10-29. Check the organizer's call before relying on it.\nEstimated day
+  only\; no cutoff hour stored. Check the organizer's call for the real da
+ te and time.\nFormat: Full/short papers + extended abstracts\; Archival o
+ ption: Yes (est.)\nOfficial source: https://complenet.github.io/cfp.html\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#complenet-2028
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:complex-networks-2027-conference@scientific-conference-calendar
@@ -1631,6 +1916,24 @@ DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
  \nFormat: Reviewed papers + non-archival contributions\; Archival option:
   Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
  utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
+CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
+ gnitive Science & Computational Cognition,Control & Robotics
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280619
+DTEND;VALUE=DATE:20280620
+SUMMARY:SAB 2028 (est.) · Notification of acceptance
+DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
+ eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nEstimated day only\; no cutoff hour stored. Check the organizer's call 
+ for the real date and time.\nFormat: Reviewed papers + non-archival contr
+ ibutions\; Archival option: Yes (est.)\nOfficial source: https://sab-conf
+ erence.org/call-for-contributions/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#sab-2028
 CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
  gnitive Science & Computational Cognition,Control & Robotics
 URL:https://sab-conference.org/call-for-contributions/

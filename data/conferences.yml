@@ -540,6 +540,11 @@
       datetime: "2027-03-15T23:59:00-12:00"
       time_precision: "date"
       source_url: "https://aime27.aimedicine.info/call-for-workshops-tutorials/"
+    - type: "notification"
+      label: "Paper acceptance notification"
+      datetime: "2027-04-19T23:59:00-12:00"
+      time_precision: "date"
+      source_url: "https://aime27.aimedicine.info/call-for-papers/"
     - type: "camera_ready"
       label: "Camera-ready submission deadline"
       datetime: "2027-05-02T23:59:00-12:00"
@@ -1157,6 +1162,11 @@
       datetime: "2027-03-15T23:59:00-12:00"
       time_precision: "date"
       source_url: "https://neuro.embs.org/2027/"
+    - type: "notification"
+      label: "6-page paper acceptance/rejection notification"
+      datetime: "2027-05-15T23:59:00-12:00"
+      time_precision: "date"
+      source_url: "https://neuro.embs.org/2027/"
     - type: "abstract"
       label: "1-page abstract submission deadline"
       datetime: "2027-06-02T23:59:00-12:00"
@@ -1565,17 +1575,26 @@
   submission_type: "Paper-based"
   relevance: "high"
   deadlines:
-    - type: "full_paper"
-      label: "Paper submission deadline"
+    - type: "regular_paper"
+      label: "Applied Data Science, Survey and LLM/Agentic AI track paper submission deadline"
       datetime: "2026-11-20T23:59:00-12:00"
-      source_url: "https://pakdd2027.org/pages/calls/research"
+      source_url: "https://pakdd2027.org/pages/dates"
+    - type: "full_paper"
+      label: "Research Track paper submission deadline (extended)"
+      datetime: "2026-12-04T23:59:00-12:00"
+      source_url: "https://pakdd2027.org/pages/dates"
+    - type: "notification"
+      label: "Paper acceptance notification"
+      datetime: "2027-02-26T23:59:00-12:00"
+      time_precision: "date"
+      source_url: "https://pakdd2027.org/pages/dates"
     - type: "camera_ready"
       label: "Camera-ready deadline"
       datetime: "2027-03-19T23:59:00-12:00"
       source_url: "https://pakdd2027.org/pages/dates"
-  last_checked: "2026-11-14"
+  last_checked: "2026-11-18"
   confidence: "confirmed"
-  notes: "Official PAKDD 2027 site, rechecked 2026-10-30, confirms an in-person meeting in Wellington, Jun 29-Jul 2. The Nov 20 AoE paper deadline is shared by the Research, new Applied Data Science, Survey and LLM/Agentic AI tracks, with no extension; camera-ready is Mar 19 AoE. Workshop, tutorial and doctoral consortium dates are still to be announced."
+  notes: "Official PAKDD 2027 site, rechecked 2026-11-18, confirms an in-person meeting in Wellington, Jun 29-Jul 2. The Research Track paper deadline was extended from Nov 20 to Dec 4, 2026 (AoE); the Applied Data Science, Survey and LLM/Agentic AI tracks keep Nov 20 AoE. All four tracks share the Feb 26, 2027 notification and Mar 19 AoE camera-ready. Doctoral consortium (Feb 12, 2027) is not tracked as a paper route. Workshop and tutorial dates are still to be announced."
 
 - id: "cikm-2026"
   series: "CIKM"
@@ -1663,7 +1682,7 @@
       label: "WSDM Day 2-page extended abstract submission deadline"
       datetime: "2026-11-30T23:59:00-12:00"
       source_url: "https://www.wsdm-conference.org/2027/cfp.html"
-  last_checked: "2026-11-14"
+  last_checked: "2026-11-18"
   confidence: "confirmed"
   notes: "Official WSDM 2027 pages (rechecked 2026-10-30) list Hong Kong (Cordis), Feb 15-19, and AoE deadlines: full-paper abstract Aug 17 and paper Aug 24, 2026 (closed; notification Nov 2), short papers (up to 4 pages, new work) Nov 17, doctoral consortium (single-author student packet) Nov 12, and WSDM Day presentations Nov 30, 2026 (2-page extended abstract on search, data mining and agentic AI; unpublished or under-review work welcome; oral or poster on Feb 19, in the proceedings). Demo papers closed Oct 15, 2026. Industry Day talk proposals (2 pages with speaker bio, due Oct 30) are not tracked as a paper route."
 
@@ -1817,6 +1836,11 @@
       datetime: "2026-12-05T23:59:59-11:00"
       cutoff_note: "CFP lists dates as AOE but says 'All deadlines are 23:59:59 SST (Anywhere on Earth)'; SST (Samoa, UTC-11) is 1 h before AoE. Earliest instant stored."
       source_url: "https://ida2027.eu/regular-paper-track/"
+    - type: "notification"
+      label: "Paper acceptance notification"
+      datetime: "2027-01-22T23:59:59-11:00"
+      time_precision: "date"
+      source_url: "https://ida2027.eu/regular-paper-track/"
     - type: "camera_ready"
       label: "Camera-ready deadline"
       datetime: "2027-02-01T23:59:59-11:00"
@@ -1826,7 +1850,7 @@
       label: "PhD Forum 2-page paper submission (graduate students)"
       datetime: "2027-02-12T23:59:59-12:00"
       source_url: "https://ida2027.eu/phd-forum/"
-  last_checked: "2026-11-14"
+  last_checked: "2026-11-18"
   confidence: "confirmed"
   notes: "Official IDA 2027 site confirms the 25th symposium in Pisa, Apr 21-23, 2027 (venue TBA). Deadlines are labelled AoE, but the regular-track CFP also says 'All deadlines are 23:59:59 SST', read as Samoa time (UTC-11), so its rows store that earlier -11:00 instant per their cutoff notes; the PhD Forum page states only AOE (-12:00). The abstract gate follows the abstract-then-paper CMT schedule, as in 2026; the page does not explicitly call it mandatory."
 
@@ -2105,6 +2129,12 @@
       datetime: "2027-06-08T23:59:00-07:00"
       confidence: "estimated"
       source_url: "http://acpr2027.com/"
+    - type: "notification"
+      label: "Estimated author notification"
+      datetime: "2027-08-08T23:59:00-07:00"
+      time_precision: "date"
+      source_url: "https://www.acpr2025.com/date"
+      confidence: "estimated"
   last_checked: "2026-11-14"
   confidence: "estimated"
   notes: "acpr2027.com announces the 9th ACPR at Nanjing University's Suzhou campus, Nov 7-10, 2027, with paper submission in June 2027 (no day). Its pages conflict on the call: the home page lists 'Aug. 2026 Call for Papers', while Announcements says the first call goes out in March 2027. As of 2026-11-14 the site names steering, general and program chairs, but its footer phone is still a placeholder (+86 133 3333 3333) and no IAPR listing was verified, so meeting dates stay estimated. The 2027 call states that all accepted papers appear in Springer LNCS (at most 15 pages, single-blind, CMT). The archival entry keeps its HTTPS Springer 2025 source because the site is HTTP-only. Paper dates are proxies from 2025's original PT lead times; the 2025 mandatory abstract step is assumed."
@@ -2327,6 +2357,11 @@
       label: "Late-breaking abstract submission deadline"
       datetime: "2027-04-15T23:59:00-12:00"
       source_url: "https://ais2027.icas.events/call-for-late-breaking-abstracts/"
+    - type: "notification"
+      label: "Paper decision notification"
+      datetime: "2027-06-01T23:59:00-12:00"
+      time_precision: "date"
+      source_url: "https://ais2027.icas.events/deadlines/"
     - type: "full_paper"
       label: "Second-batch paper submission deadline"
       datetime: "2027-07-22T23:59:00-12:00"
@@ -2590,6 +2625,11 @@
     datetime: '2027-02-13T23:59:00-12:00'
     source_url: https://icml.cc/Conferences/2026/Dates
     confidence: estimated
+  - type: notification
+    label: Author notification (final decisions)
+    datetime: '2027-05-03T23:59:00-12:00'
+    time_precision: date
+    source_url: https://icml.cc/Conferences/2027/Dates
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: The new official ICML 2027 site and Dates page confirm Riocentro, Rio de
@@ -2628,6 +2668,12 @@
   - type: full_paper
     label: Paper submission deadline
     datetime: '2027-02-25T23:59:00-12:00'
+    source_url: https://www.auai.org/uai2026/important_dates
+    confidence: estimated
+  - type: notification
+    label: Estimated author notification
+    datetime: '2027-06-01T23:59:00-12:00'
+    time_precision: date
     source_url: https://www.auai.org/uai2026/important_dates
     confidence: estimated
   - type: camera_ready
@@ -2693,7 +2739,7 @@
     - {type: discussion_paper, label: Discussion papers (non-archival), datetime: '2027-01-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
     - {type: dissemination, label: Published IFAC journal presentations, datetime: '2027-01-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
     - {type: notification, label: Acceptance notification, datetime: '2027-02-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-18'
   confidence: confirmed
   notes: Triennial TC 1.1 symposium. On 2026-10-29 the participate page strikes out Nov 2 and gives Nov 15, 2026 for conference papers (Oct 1 to Oct 11 for joint journal papers). The submission system opened 1 June 2026 (day only, no time). Deadline days are official; cutoff hours use provisional end-of-day AoE. Size is an editorial category.
 
@@ -2997,6 +3043,12 @@
     datetime: '2027-03-12T23:59:00-12:00'
     source_url: https://ecmlpkdd.org/2026/submissions-research-track/
     confidence: estimated
+  - type: notification
+    label: Estimated author notification
+    datetime: '2027-05-27T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ecmlpkdd.org/2026/submissions-research-track/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: Official 2027 page confirms Eindhoven and Aug 30-Sep 3. As of 2026-10-28 it
@@ -3039,7 +3091,13 @@
     datetime: '2027-02-08T23:59:00-12:00'
     source_url: https://kdd2026.kdd.org/research-track-call-for-papers/
     confidence: estimated
-  last_checked: '2026-11-14'
+  - type: notification
+    label: Cycle 2 paper notification
+    datetime: '2027-05-16T23:59:00-12:00'
+    time_precision: date
+    source_url: https://kdd2026.kdd.org/research-track-call-for-papers/
+    confidence: estimated
+  last_checked: '2026-11-18'
   confidence: confirmed
   notes: Official site confirms San Jose McEnery Convention Center, Aug 1-5. Cycle 1
     closed July 2026 (notification Nov 14, 2026). As of 2026-10-28 the CFP/FAQ still
@@ -3162,7 +3220,13 @@
     datetime: '2027-02-26T23:59:00-12:00'
     source_url: https://conferences.miccai.org/2026/en/default.asp
     confidence: estimated
-  last_checked: '2026-11-14'
+  - type: notification
+    label: Estimated notification of paper decisions
+    datetime: '2027-06-12T23:59:00-12:00'
+    time_precision: date
+    source_url: https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html
+    confidence: estimated
+  last_checked: '2026-11-18'
   confidence: confirmed
   notes: The MICCAI 2027 site gives Sep 27-Oct 1 at the NZ International Convention
     Centre, Auckland (also the Society's Feb 18, 2026 announcement); the Society
@@ -3206,12 +3270,17 @@
     datetime: '2026-12-04T23:59:00-12:00'
     source_url: https://2027.midl.io/important-dates
     confidence: confirmed
+  - type: notification
+    label: Full-paper authors notification
+    datetime: '2027-02-12T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.midl.io/important-dates
   - type: camera_ready
     label: Camera-ready deadline
     datetime: '2027-03-12T23:59:00-12:00'
     source_url: https://2027.midl.io/important-dates
     confidence: confirmed
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-18'
   confidence: confirmed
   notes: 'Official 2027 dates page confirms the July meeting and 23:59 AoE full-paper abstract registration (Nov 30), submission (Dec 4) and camera-ready (Mar 12) dates, with no extension as of 2026-10-30. No new submissions are accepted after abstract registration; its OpenReview form was observed open on 2026-10-30. Short-paper submission is still TBD; an April date briefly posted on the site was withdrawn.'
 - id: ieee-embc-2027
@@ -3287,6 +3356,12 @@
     label: Conference paper submission deadline
     datetime: '2027-06-12T23:59:00-12:00'
     source_url: https://signalprocessingsociety.org/event-names/mlsp
+    confidence: estimated
+  - type: notification
+    label: Notification of acceptance
+    datetime: '2027-07-31T23:59:00-12:00'
+    time_precision: date
+    source_url: https://web.archive.org/web/20260610214250/https://mlsp26.ieeesps.org/call-for-papers/
     confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
@@ -3412,15 +3487,14 @@
   year: 2027
   title: International Conference on Artificial Neural Networks
   short_title: ICANN 2027
-  website: https://e-nns.org/icann2026/
-  cfp_url: https://e-nns.org/icann2026/
-  source_urls:
-  - https://e-nns.org/icann2026/
-  location: To be announced
+  website: https://e-nns.org/icann2027/
+  cfp_url: https://e-nns.org/icann2027/
+  source_urls: ['https://e-nns.org/icann2027/', 'https://e-nns.org/icann2026/']
+  location: Linköping, Sweden
   mode: in-person
-  conference_start: '2027-09-14'
-  conference_end: '2027-09-17'
-  timezone: Europe/Rome
+  conference_start: '2027-08-24'
+  conference_end: '2027-08-27'
+  timezone: Europe/Stockholm
   topics:
   - Machine Learning
   - Deep Representation Learning
@@ -3435,12 +3509,15 @@
     datetime: '2027-03-16T23:59:00-12:00'
     source_url: https://e-nns.org/icann2026/
     confidence: estimated
-  last_checked: '2026-11-14'
-  confidence: estimated
-  notes: Provisional 1-year cadence projection from ICANN 2026. Meeting dates, location,
-    and deadlines require organizer confirmation; website and source links refer to
-    the prior edition. 2026-10-28 review - ENNS home, news and ICANNs pages show no
-    ICANN 2027 announcement yet; dates unchanged.
+  - type: notification
+    label: Estimated notification of acceptance or rejection
+    datetime: '2027-05-29T23:59:00-12:00'
+    time_precision: date
+    source_url: https://e-nns.org/icann2026/important-dates/
+    confidence: estimated
+  last_checked: '2026-11-18'
+  confidence: confirmed
+  notes: The official ICANN 2027 page (2026-11-18) announces August 24-27, 2027, at Collegium, Linköping Science Park, Sweden; it publishes no call or dates yet. Deadlines remain projections from ICANN 2026 (paper deadline first announced as March 16, 2026, later shown as March 9 and extended to March 30; notification May 29), so the call page and source links still refer to the 2026 edition.
 - id: eusipco-2027
   series: EUSIPCO
   year: 2027
@@ -3482,6 +3559,12 @@
     datetime: '2027-03-01T23:59:00+01:00'
     time_precision: date
     source_url: https://eusipco2027.de/
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2027-05-12T23:59:00+02:00'
+    time_precision: date
+    source_url: https://eusipco2026.org/submissions/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: EUSIPCO 2027 (checked 2026-11-14) confirms the darmstadtium conference center,
@@ -3555,6 +3638,12 @@
     datetime: '2028-01-03T23:59:00-12:00'
     source_url: https://icpr2028.org/wp-content/uploads/2026/08/ICPR-2028-CALL-FOR-PAPERS.pdf
     confidence: estimated
+  - type: notification
+    label: Estimated paper acceptance notification
+    datetime: '2028-04-13T23:59:00-12:00'
+    time_precision: date
+    source_url: https://icpr2026.org/files/flyerCallFP.pdf
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: The official 30th ICPR preliminary CFP confirms the International Convention
@@ -3588,6 +3677,12 @@
   - type: full_paper
     label: Paper submission deadline
     datetime: '2028-05-25T23:59:00+02:00'
+    source_url: https://ssspr2026.inf.unibe.ch/
+    confidence: estimated
+  - type: notification
+    label: Estimated notification of acceptance
+    datetime: '2028-06-30T23:59:00+02:00'
+    time_precision: date
     source_url: https://ssspr2026.inf.unibe.ch/
     confidence: estimated
   - type: camera_ready
@@ -3633,6 +3728,12 @@
     - type: full_paper
       label: Methods and ABCD paper submission deadline
       datetime: '2027-05-14T23:59:00-12:00'
+      source_url: https://2026.automl.cc/dates/
+      confidence: estimated
+    - type: notification
+      label: Estimated methods/ABCD track author notification
+      datetime: '2027-06-26T23:59:00-12:00'
+      time_precision: date
       source_url: https://2026.automl.cc/dates/
       confidence: estimated
     - type: camera_ready
@@ -3891,6 +3992,12 @@
       datetime: '2027-03-20T23:59:00-12:00'
       source_url: https://probml.cc/call/
       confidence: estimated
+    - type: notification
+      label: Estimated proceedings acceptance notification
+      datetime: '2027-05-08T23:59:00-12:00'
+      time_precision: date
+      source_url: https://probml.cc/call/
+      confidence: estimated
   last_checked: '2026-10-28'
   confidence: estimated
   notes: Formerly AABI. As of 2026-10-28 probml.cc still shows ProbML 2026 and no
@@ -4026,6 +4133,12 @@
     cutoff_note: Call says deadlines are midnight UTC-11 but also accepts submissions
       while it is still the deadline date anywhere (AoE, 1 h later). Earliest instant
       stored.
+  - type: notification
+    label: Decision notifications (early April; day not published)
+    datetime: '2027-04-03T23:59:00-11:00'
+    time_precision: date
+    source_url: https://web.archive.org/web/20250125185155/https://cognitivesciencesociety.org/submissions/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: Society confirms Bilbao, Euskalduna Convention Centre, Jul 28-31. The 2027
@@ -4141,6 +4254,11 @@
       label: Show & Tell paper and video submission deadline
       datetime: '2027-03-09T23:59:00-12:00'
       source_url: https://interspeech2027.org/calls/call_show_and_tell/
+    - type: notification
+      label: Conference paper acceptance notification
+      datetime: '2027-06-02T23:59:00-12:00'
+      time_precision: date
+      source_url: https://interspeech2027.org/
     - type: camera_ready
       label: Conference paper camera-ready deadline
       datetime: '2027-06-09T23:59:00-12:00'
@@ -4186,12 +4304,17 @@
       datetime: '2026-11-16T23:59:00-12:00'
       time_precision: date
       source_url: https://www.evostar.org/2027/important-dates/
+    - type: notification
+      label: Author notification
+      datetime: '2027-01-10T23:59:00-12:00'
+      time_precision: date
+      source_url: https://www.evostar.org/2027/important-dates/
     - type: camera_ready
       label: Camera-ready deadline
       datetime: '2027-01-24T23:59:00-12:00'
       time_precision: date
       source_url: https://www.evostar.org/2027/important-dates/
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-18'
   confidence: confirmed
   notes: 'Official EvoStar pages confirm Mainz, March 31-April 2, in hybrid mode. On 2026-10-30 the Important Dates page strikes November 1 and gives November 16, 2026 (extended) for EvoStar paper submissions, including EuroGP; an older post embedded on the EuroGP page still shows November 1. Published deadline days have no exact cutoff hour or timezone; AoE timestamps are provisional and calendars use all-day events. A shared EvoStar late-breaking-abstract date (March 21, 2027) has no 2027 call page yet and is not tracked. S is an editorial size estimate for EuroGP, not the whole EvoStar event.'
 
@@ -4274,7 +4397,12 @@
     label: Long and short paper submission deadline
     datetime: '2026-12-14T23:59:00-12:00'
     source_url: https://icaps27.icaps-conference.org/calls/cfp/
-  last_checked: '2026-11-14'
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2027-02-26T23:59:00-12:00'
+    time_precision: date
+    source_url: https://icaps27.icaps-conference.org/calls/cfp/
+  last_checked: '2026-11-18'
   confidence: confirmed
   notes: Official CFP confirms the meeting and 23:59 UTC-12 abstract/paper deadlines.
     Learning and foundation-model papers require a substantive planning or scheduling
@@ -4407,6 +4535,12 @@
     time_precision: date
     confidence: estimated
     source_url: https://2026.acmmm.org/site/important-dates.html
+  - type: notification
+    label: Estimated main-track author notification
+    datetime: '2027-07-09T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2026.acmmm.org/site/important-dates.html
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: 35th edition. As of 2026-11-14 2027.acmmm.org confirms 8-12 November 2027
@@ -4451,6 +4585,12 @@
       label: Technical-paper upload deadline
       datetime: '2027-01-29T22:00:00+00:00'
       source_url: https://s2027.siggraph.org/program/technical-papers/
+    - type: notification
+      label: Technical-paper decisions announced
+      datetime: '2027-04-05T23:59:00+00:00'
+      time_precision: date
+      source_url: https://s2026.siggraph.org/program/technical-papers/
+      confidence: estimated
   last_checked: '2026-10-28'
   confidence: confirmed
   notes: The 2027 site confirms the Anaheim Convention Center, Aug 8-12, 2027. Its
@@ -4621,6 +4761,12 @@
       datetime: '2028-03-05T22:00:00+00:00'
       confidence: estimated
       source_url: https://eccv.ecva.net/Conferences/2026/Dates
+    - type: notification
+      label: Estimated final paper decisions
+      datetime: '2028-06-17T23:59:00+00:00'
+      time_precision: date
+      source_url: https://eccv.ecva.net/Conferences/2026/Dates
+      confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-28 the ECCV site still shows only 2026 (no 2028 page) and
@@ -4690,6 +4836,12 @@
       datetime: '2027-06-15T23:59:00-12:00'
       confidence: estimated
       source_url: https://euvip2026.github.io/
+    - type: notification
+      label: Regular paper notification
+      datetime: '2027-07-18T23:59:00-12:00'
+      time_precision: date
+      source_url: https://euvip2026.github.io/C4P.pdf
+      confidence: estimated
   last_checked: '2026-10-07'
   confidence: estimated
   notes: No organizer-confirmed 2027 edition; 2026-10-28 review found no
@@ -4779,6 +4931,11 @@
       datetime: '2027-03-07T23:59:00-10:00'
       confidence: estimated
       source_url: https://iccv.thecvf.com/Conferences/2025/CallForPapers
+    - type: notification
+      label: Estimated main conference paper decisions
+      datetime: '2027-06-25T23:59:00-10:00'
+      source_url: https://iccv.thecvf.com/Conferences/2025/Dates
+      confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: As of 2026-10-28 the 2027 homepage header and Dates page give Sun Oct 3 to
@@ -4814,6 +4971,11 @@
     - type: full_paper
       label: Regular full and short paper submission deadline
       datetime: '2027-01-31T23:59:59-12:00'
+      source_url: https://www.icmr2027.org/date
+    - type: notification
+      label: Paper acceptance notification
+      datetime: '2027-04-01T23:59:59-12:00'
+      time_precision: date
       source_url: https://www.icmr2027.org/date
     - type: camera_ready
       label: Camera-ready and author registration deadline
@@ -4857,6 +5019,11 @@
       label: Supplementary material deadline
       datetime: '2027-04-16T23:59:00-12:00'
       source_url: https://ijcb2027.ieee-biometrics.org/call-for-papers/
+    - type: notification
+      label: Main-conference paper final decisions
+      datetime: '2027-07-12T23:59:00-12:00'
+      time_precision: date
+      source_url: https://ijcb2027.ieee-biometrics.org/important-dates/
     - type: camera_ready
       label: Camera-ready and author registration deadline
       datetime: '2027-08-02T23:59:00-12:00'
@@ -4946,6 +5113,12 @@
     label: ARR paper submission deadline
     datetime: '2027-01-04T23:59:00-12:00'
     source_url: https://2027.aclweb.org/calls/main/
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2027-04-03T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2026.aclweb.org/calls/main_conference_papers/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: Official site confirms Kyoto, August 17-22 and January 4 ARR cutoff at 23:59 AoE. Main
@@ -5019,6 +5192,12 @@
   - type: full_paper
     label: Estimated ARR paper submission deadline
     datetime: '2027-05-25T23:59:00-12:00'
+    source_url: https://2026.emnlp.org/calls/main_conference_papers/
+    confidence: estimated
+  - type: notification
+    label: Estimated notification of acceptance (main conference)
+    datetime: '2027-08-20T23:59:00-12:00'
+    time_precision: date
     source_url: https://2026.emnlp.org/calls/main_conference_papers/
     confidence: estimated
   last_checked: '2026-11-14'
@@ -5114,7 +5293,12 @@
     label: Commitment of ARR-reviewed papers
     datetime: '2026-12-23T23:59:00-12:00'
     source_url: https://2027.coling-iccl.org/calls/main_conference_papers/
-  last_checked: '2026-11-07'
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2027-02-10T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.coling-iccl.org/calls/main_conference_papers/
+  last_checked: '2026-11-18'
   confidence: confirmed
   notes: Main in-person window May 9-14; separate virtual sessions May 6-7. Shared ARR cycle
     with NAACL does not permit dual commitment. Recent COLING cadence is irregular; no automatic
@@ -5156,7 +5340,7 @@
   title: Conference on Computational Natural Language Learning
   short_title: CoNLL 2027
   website: https://www.conll.org/
-  cfp_url: https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
+  cfp_url: https://www.conll.org/
   source_urls:
   - https://www.conll.org/
   - https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
@@ -5178,8 +5362,14 @@
   deadlines:
   - type: full_paper
     label: Estimated direct paper submission deadline
-    datetime: '2027-03-14T23:59:00-12:00'
-    source_url: https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
+    datetime: '2027-02-19T23:59:00-12:00'
+    source_url: https://web.archive.org/web/20260201152714/https://conll.org/
+    confidence: estimated
+  - type: notification
+    label: Estimated notification of acceptance
+    datetime: '2027-04-21T23:59:00-12:00'
+    time_precision: date
+    source_url: https://web.archive.org/web/20260201152714/https://conll.org/
     confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
@@ -5248,6 +5438,12 @@
   - type: full_paper
     label: Estimated paper submission deadline
     datetime: '2027-10-24T23:59:00-12:00'
+    source_url: https://lrec2026.info/third-call-for-papers/
+    confidence: estimated
+  - type: notification
+    label: Estimated notification of acceptance
+    datetime: '2028-02-13T23:59:00-12:00'
+    time_precision: date
     source_url: https://lrec2026.info/third-call-for-papers/
     confidence: estimated
   last_checked: '2026-10-28'
@@ -5335,6 +5531,11 @@
     source_url: https://sigir2027.org/pages/submit-full.html
     confidence: confirmed
     time_precision: date
+  - type: notification
+    label: Full paper notification
+    datetime: '2027-04-05T23:59:00-12:00'
+    time_precision: date
+    source_url: https://sigir2027.org/pages/submit-full.html
   - type: camera_ready
     label: Camera-ready deadline
     datetime: '2027-04-30T23:59:00-12:00'
@@ -5446,6 +5647,12 @@
   - type: full_paper
     label: Estimated main-track paper deadline
     datetime: '2027-04-21T23:59:00-12:00'
+    source_url: https://recsys.acm.org/recsys26/call/
+    confidence: estimated
+  - type: notification
+    label: Estimated main-track paper notification
+    datetime: '2027-07-09T23:59:00-12:00'
+    time_precision: date
     source_url: https://recsys.acm.org/recsys26/call/
     confidence: estimated
   last_checked: '2026-11-14'
@@ -5583,6 +5790,12 @@
   - type: full_paper
     label: Estimated paper submission deadline
     datetime: '2027-03-31T23:59:00-12:00'
+    source_url: https://colm.cc/Conferences/2026/CallForPapers
+    confidence: estimated
+  - type: notification
+    label: Estimated decision notification
+    datetime: '2027-07-08T23:59:00-12:00'
+    time_precision: date
     source_url: https://colm.cc/Conferences/2026/CallForPapers
     confidence: estimated
   last_checked: '2026-10-28'
@@ -5748,6 +5961,10 @@
     label: Stage 2 final paper deadline (invited authors only)
     datetime: '2027-04-16T23:59:00-12:00'
     source_url: https://roboticsconference.org/information/cfp/
+  - type: notification
+    label: Final paper acceptance notification
+    datetime: '2027-04-30T23:59:00-12:00'
+    source_url: https://roboticsconference.org/information/cfp/
   - type: camera_ready
     label: Camera-ready deadline
     datetime: '2027-05-14T23:59:00-12:00'
@@ -5841,6 +6058,12 @@
     source_url: https://www.ieeesmc2026.org/Important-Dates
     confidence: estimated
     time_precision: date
+  - type: notification
+    label: Estimated regular paper acceptance notification
+    datetime: '2027-06-28T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.ieeesmc2026.org/Important-Dates
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-28 the society calendar lists SMC 2027 in Ho Chi Minh City without dates or a
@@ -6010,6 +6233,12 @@
   - type: full_paper
     label: Estimated full-paper submission deadline
     datetime: '2027-03-30T23:59:00-12:00'
+    source_url: https://2026.alife.org/call-for-papers/
+    confidence: estimated
+  - type: notification
+    label: Estimated full paper notification
+    datetime: '2027-06-07T23:59:00-12:00'
+    time_precision: date
     source_url: https://2026.alife.org/call-for-papers/
     confidence: estimated
   last_checked: '2026-11-14'
@@ -6189,6 +6418,12 @@
     datetime: '2028-05-15T23:59:00-07:00'
     source_url: https://sab-conference.org/call-for-contributions/
     confidence: estimated
+  - type: notification
+    label: Estimated notification of acceptance
+    datetime: '2028-06-19T23:59:00-07:00'
+    time_precision: date
+    source_url: https://sab-conference.org/call-for-contributions/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-28 sab-conference.org still shows SAB 2026 (Berlin, Oct 19-22) and ISAB has not
@@ -6223,13 +6458,13 @@
   relevance: high
   deadlines:
   - type: full_paper
-    label: Paper submission deadline
-    datetime: '2026-11-15T23:59:00-12:00'
+    label: Paper submission deadline (extended)
+    datetime: '2026-11-25T23:59:00-12:00'
     source_url: https://brain.korea.ac.kr/bci2027/importantdate.php
     time_precision: date
   - type: notification
     label: Acceptance notification
-    datetime: '2026-12-15T23:59:00-12:00'
+    datetime: '2026-12-20T23:59:00-12:00'
     source_url: https://brain.korea.ac.kr/bci2027/importantdate.php
     time_precision: date
   - type: camera_ready
@@ -6237,12 +6472,9 @@
     datetime: '2027-01-01T23:59:00-12:00'
     source_url: https://brain.korea.ac.kr/bci2027/importantdate.php
     time_precision: date
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-18'
   confidence: confirmed
-  notes: Official 2027 site and CFP confirm February 22-24, 2027 at High1 Resort, Jeongseon, with papers
-    due November 15, 2026 (up to 6 pages, double-blind, IEEE Xplore subject to quality review). No cutoff
-    hour or zone is stated; T23:59 AoE is provisional. The 2026 deadline moved from October to December,
-    so check for extensions. Size is an editorial estimate.
+  notes: Official 2027 site and CFP confirm February 22-24, 2027 at High1 Resort, Jeongseon. On 2026-11-18 the Important Dates page and CFP give papers due November 25, 2026 (extended from November 15) and notification December 20 (extended from December 15); camera-ready stays January 1, 2027. Papers up to 6 pages, double-blind, IEEE Xplore subject to quality review. No cutoff hour or zone is stated; T23:59 AoE is provisional. The 2026 deadline moved from October to December, so check for further extensions. Size is an editorial estimate.
 - id: ieee-biocas-2026
   series: IEEE BioCAS
   year: 2026
@@ -6310,6 +6542,11 @@
   - type: full_paper
     label: Regular paper submission deadline
     datetime: '2027-06-11T23:59:00+02:00'
+    time_precision: date
+    source_url: https://2027.ieee-biocas.org/
+  - type: notification
+    label: Author notification
+    datetime: '2027-08-11T23:59:00+02:00'
     time_precision: date
     source_url: https://2027.ieee-biocas.org/
   last_checked: '2026-11-14'
@@ -6830,6 +7067,12 @@
     time_precision: date
     source_url: https://nolta2026.org/
     confidence: estimated
+  - type: notification
+    label: Estimated notification of paper acceptance
+    datetime: '2027-06-29T23:59:00-12:00'
+    time_precision: date
+    source_url: https://nolta2026.org/
+    confidence: estimated
   last_checked: '2026-10-29'
   confidence: estimated
   notes: As of 2026-10-29 the official NOLTA 2026 site (Grenoble, Nov 17-20, 2026) announces no 2027 host
@@ -6869,6 +7112,12 @@
   - type: full_paper
     label: Paper / extended abstract submission deadline
     datetime: '2027-07-31T23:59:00-12:00'
+    source_url: https://logconference.org/cfp/
+    confidence: estimated
+  - type: notification
+    label: Final decisions released
+    datetime: '2027-09-12T23:59:00-12:00'
+    time_precision: date
     source_url: https://logconference.org/cfp/
     confidence: estimated
   last_checked: '2026-11-14'
@@ -6914,6 +7163,12 @@
     datetime: '2027-05-28T23:59:00-12:00'
     source_url: https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
     confidence: estimated
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2027-09-04T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2026.corl.org/contributions/call-for-demos
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-29 the official CoRL site covers only CoRL 2026 (Austin, Nov 9-12, 2026) and
@@ -6956,6 +7211,12 @@
     datetime: '2027-09-28T23:59:00-12:00'
     source_url: https://satml.org/call-for-papers/
     confidence: estimated
+  - type: notification
+    label: Decision notification
+    datetime: '2027-12-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://satml.org/call-for-papers/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-29 satml.org covers only SaTML 2027 (Reykjavik, May 3-6, 2027) and announces no
@@ -6989,6 +7250,12 @@
   - type: full_paper
     label: Paper submission deadline
     datetime: '2027-08-28T23:59:00-12:00'
+    source_url: https://3dvconf.github.io/2027/dates
+    confidence: estimated
+  - type: notification
+    label: Final paper decision notification
+    datetime: '2027-12-02T23:59:00-12:00'
+    time_precision: date
     source_url: https://3dvconf.github.io/2027/dates
     confidence: estimated
   last_checked: '2026-11-14'
@@ -7030,6 +7297,12 @@
   - type: full_paper
     label: Paper submission deadline
     datetime: '2027-05-28T23:59:00-12:00'
+    source_url: https://bmvc2026.bmva.org/dates/
+    confidence: estimated
+  - type: notification
+    label: Author notification
+    datetime: '2027-08-06T23:59:00-12:00'
+    time_precision: date
     source_url: https://bmvc2026.bmva.org/dates/
     confidence: estimated
   last_checked: '2026-11-14'
@@ -7084,6 +7357,12 @@
     datetime: '2027-08-28T23:59:00-12:00'
     source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
     confidence: estimated
+  - type: notification
+    label: Final paper decisions (Rounds 1 and 2)
+    datetime: '2027-10-09T23:59:00-12:00'
+    time_precision: date
+    source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-29 the CVF conference list names Waikoloa, Hawaii as the WACV 2028 host; dates
@@ -7119,6 +7398,12 @@
     label: Paper submission deadline
     datetime: '2027-09-15T23:59:00-07:00'
     source_url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+    confidence: estimated
+  - type: notification
+    label: Notification of acceptance/rejection
+    datetime: '2028-01-30T23:59:00-08:00'
+    time_precision: date
+    source_url: https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
     confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
@@ -7160,6 +7445,12 @@
   - type: extended_abstract
     label: Extended abstract submission deadline (independent route)
     datetime: '2027-09-01T23:59:00-12:00'
+    source_url: https://complexnetworks.org/
+    confidence: estimated
+  - type: notification
+    label: Acceptance notification
+    datetime: '2027-09-30T23:59:00-12:00'
+    time_precision: date
     source_url: https://complexnetworks.org/
     confidence: estimated
   last_checked: '2026-11-14'
@@ -7207,6 +7498,12 @@
   - type: extended_abstract
     label: Extended abstract submission deadline (independent route)
     datetime: '2027-10-16T23:59:00-12:00'
+    source_url: https://complenet.github.io/cfp.html
+    confidence: estimated
+  - type: notification
+    label: Estimated notification of acceptance
+    datetime: '2027-11-19T23:59:00-12:00'
+    time_precision: date
     source_url: https://complenet.github.io/cfp.html
     confidence: estimated
   last_checked: '2026-10-29'
@@ -7289,6 +7586,12 @@
     datetime: '2027-05-06T23:59:00-12:00'
     source_url: https://neurips.cc/Conferences/2026/Dates
     confidence: estimated
+  - type: notification
+    label: Estimated paper author notification
+    datetime: '2027-09-24T23:59:00-12:00'
+    time_precision: date
+    source_url: https://neurips.cc/Conferences/2026/Dates
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-29 the official NeurIPS future-meetings page lists 2027 only as Europe; no
@@ -7328,6 +7631,12 @@
   - type: full_paper
     label: Paper submission deadline
     datetime: '2027-09-25T23:59:00-12:00'
+    source_url: https://iclr.cc/Conferences/2027/Dates
+    confidence: estimated
+  - type: notification
+    label: Final decisions
+    datetime: '2027-12-16T23:59:00-12:00'
+    time_precision: date
     source_url: https://iclr.cc/Conferences/2027/Dates
     confidence: estimated
   last_checked: '2026-11-14'
@@ -7372,6 +7681,12 @@
     datetime: '2027-10-06T23:59:00-12:00'
     source_url: https://aistats.org/aistats2027/dates.html
     confidence: estimated
+  - type: notification
+    label: Paper decision notification
+    datetime: '2028-01-20T23:59:00-12:00'
+    time_precision: date
+    source_url: https://aistats.org/aistats2027/dates.html
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-29 aistats.org announces only the 2027 meeting (Montreal); no 2028 host or dates
@@ -7412,6 +7727,12 @@
     label: Full paper submission deadline
     datetime: '2027-07-28T23:59:00-12:00'
     source_url: https://aaai.org/conference/aaai/aaai-27/
+    confidence: estimated
+  - type: notification
+    label: Main technical track final acceptance notification
+    datetime: '2027-11-30T23:59:00-12:00'
+    time_precision: date
+    source_url: https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
     confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
@@ -7455,6 +7776,12 @@
     datetime: '2027-05-23T23:59:00-12:00'
     source_url: https://cikm2026.diag.uniroma1.it/full-research-papers/
     confidence: estimated
+  - type: notification
+    label: Full paper acceptance notification
+    datetime: '2027-08-07T23:59:00-12:00'
+    time_precision: date
+    source_url: https://cikm2026.diag.uniroma1.it/full-research-papers/
+    confidence: estimated
   last_checked: '2026-10-29'
   confidence: estimated
   notes: As of 2026-10-29 the CIKM series page names Sydney, Australia as the 2027 host; no CIKM 2027
@@ -7491,6 +7818,12 @@
     label: Research or applied track full paper submission
     datetime: '2027-06-06T23:59:00-12:00'
     source_url: https://icdm2027.org/dates/
+    confidence: estimated
+  - type: notification
+    label: Research and applied track author notification
+    datetime: '2027-08-16T23:59:00-12:00'
+    time_precision: date
+    source_url: https://icdm2026.neu.edu.cn/ImportantDates/list.htm
     confidence: estimated
   - type: workshop_paper
     label: Workshop paper submission
@@ -7586,6 +7919,12 @@
     time_precision: date
     source_url: https://web.archive.org/web/20260413203246/https://discovery-science.org/important-dates/
     confidence: estimated
+  - type: notification
+    label: Main track notification of acceptance
+    datetime: '2027-07-21T23:59:00-12:00'
+    time_precision: date
+    source_url: https://web.archive.org/web/20260413203246/https://discovery-science.org/important-dates/
+    confidence: estimated
   - type: abstract
     label: Late-breaking abstract submission
     datetime: '2027-09-30T23:59:00-12:00'
@@ -7633,6 +7972,12 @@
   - type: special_session_paper
     label: Special session paper submission
     datetime: '2027-05-01T23:59:00-12:00'
+    source_url: https://dsaa-2026.vercel.app/key-dates
+    confidence: estimated
+  - type: notification
+    label: Estimated paper notification
+    datetime: '2027-07-24T23:59:00-12:00'
+    time_precision: date
     source_url: https://dsaa-2026.vercel.app/key-dates
     confidence: estimated
   last_checked: '2026-11-14'
@@ -7683,6 +8028,12 @@
     datetime: '2027-08-07T23:59:00-12:00'
     source_url: https://adma2026.github.io/important_date.html
     confidence: estimated
+  - type: notification
+    label: Main track notification
+    datetime: '2027-08-21T23:59:00-12:00'
+    time_precision: date
+    source_url: https://github.com/adma2026/adma2026.github.io/blob/b73213b095fa6d726281723e406f35210cbc0ca7/important_date.html
+    confidence: estimated
   - type: poster
     label: Poster paper submission
     datetime: '2027-09-11T23:59:00-12:00'
@@ -7730,6 +8081,12 @@
     time_precision: date
     source_url: https://www.ideal2026.org/calls/key-dates
     confidence: estimated
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2027-09-01T23:59:00-12:00'
+    time_precision: date
+    source_url: https://web.archive.org/web/20260611094448/https://www.ideal2026.org/calls/key-dates
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-29 official IDEAL pages announce no 2027 host, dates or call. Meeting dates and the
@@ -7764,6 +8121,12 @@
   - type: full_paper
     label: Full paper submission deadline
     datetime: '2027-08-21T23:59:00-12:00'
+    time_precision: date
+    source_url: https://bigdataieee.org/BigData2026/important-dates/
+    confidence: estimated
+  - type: notification
+    label: Notification of paper acceptance
+    datetime: '2027-10-24T23:59:00-12:00'
     time_precision: date
     source_url: https://bigdataieee.org/BigData2026/important-dates/
     confidence: estimated
@@ -7802,6 +8165,11 @@
   - type: full_paper
     label: Main conference paper submission deadline
     datetime: '2027-05-15T23:59:00-07:00'
+    source_url: https://www.icmla-conference.org/icmla27/keydates.html
+  - type: notification
+    label: Main conference paper acceptance notification
+    datetime: '2027-06-15T23:59:00-07:00'
+    time_precision: date
     source_url: https://www.icmla-conference.org/icmla27/keydates.html
   last_checked: '2026-11-14'
   confidence: confirmed
@@ -7848,6 +8216,12 @@
     datetime: '2027-06-26T23:59:00-12:00'
     source_url: https://www.acml-conf.org/2026/calls/papers/
     confidence: estimated
+  - type: notification
+    label: Conference-track acceptance notification
+    datetime: '2027-09-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.acml-conf.org/2026/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-29 the ACML site lists no 2027 edition, host or dates. Meeting dates and both deadlines are one-year proxies from ACML 2026 (Dec 1-4; journal track Jun 20, conference track Jun 26 AoE, the original date before its extension to Jul 5).
@@ -7888,6 +8262,12 @@
     label: Paper submission deadline
     datetime: '2027-06-04T23:59:00-07:00'
     source_url: https://ecml-aaltd.github.io/aaltd2026/dates.html
+    confidence: estimated
+  - type: notification
+    label: Acceptance notification
+    datetime: '2027-07-05T23:59:00-07:00'
+    time_precision: date
+    source_url: https://github.com/ecml-aaltd/aaltd2026/blob/613230594828d57741c10f6d4a86d8f9c3315533/dates.md
     confidence: estimated
   last_checked: '2026-10-29'
   confidence: estimated
@@ -7930,6 +8310,12 @@
     datetime: '2027-05-20T23:59:00-12:00'
     source_url: https://www.aies-conference.com/2026/call-for-papers/
     confidence: estimated
+  - type: notification
+    label: Estimated paper acceptance notification
+    datetime: '2027-07-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.aies-conference.com/2026/call-for-papers/
+    confidence: estimated
   last_checked: '2026-10-29'
   confidence: estimated
   notes: As of 2026-10-29 AAAI lists the tenth AIES with "additional information to come"; no 2027 dates or host are announced. Meeting (Mon-Wed) and the mandatory abstract pre-registration and paper deadlines (Thursdays, AoE) are one-year proxies from AIES 2026 (Oct 12-14; May 14 and May 21).
@@ -7962,6 +8348,12 @@
   - type: full_paper
     label: Paper submission deadline
     datetime: '2027-09-10T23:59:00-12:00'
+    source_url: https://ml4h.ahli.cc/submit/call-for-papers/
+    confidence: estimated
+  - type: notification
+    label: Decisions released
+    datetime: '2027-10-26T23:59:00-12:00'
+    time_precision: date
     source_url: https://ml4h.ahli.cc/submit/call-for-papers/
     confidence: estimated
   last_checked: '2026-11-14'
@@ -8214,6 +8606,12 @@
     datetime: '2028-07-05T23:59:00+00:00'
     confidence: estimated
     source_url: https://accv2026.org/submissions/author-guidelines/
+  - type: notification
+    label: Estimated paper decision notification
+    datetime: '2028-09-20T23:59:00+00:00'
+    time_precision: date
+    source_url: https://accv2026.org/submissions/author-guidelines/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-31 no ACCV 2028 host, dates or call is published; the ACCV 2026 site names no successor,
@@ -8297,6 +8695,12 @@
     datetime: '2027-10-12T23:59:00-12:00'
     confidence: estimated
     source_url: https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+  - type: notification
+    label: Author notification
+    datetime: '2028-01-05T23:59:00-12:00'
+    time_precision: date
+    source_url: https://algorithmiclearningtheory.org/alt2027/call-for-papers/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-31 the AALT site lists only ALT 2027 (its /alt2028/ page returns 404); no 2028 host, dates
@@ -8545,6 +8949,12 @@
     time_precision: date
     source_url: https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
     confidence: estimated
+  - type: notification
+    label: Notification of authors
+    datetime: '2027-09-14T23:59:00-12:00'
+    time_precision: date
+    source_url: https://web.archive.org/web/20260411180047/https://biosig.de/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: 'Not announced on biosig.de or the GI BIOSIG pages as of 2026-10-31. BIOSIG is annual (CfP: ''its annual
@@ -8669,6 +9079,12 @@
     datetime: '2027-10-29T23:59:00-12:00'
     source_url: https://chiir2027.github.io/resource-papers.html
     confidence: estimated
+  - type: notification
+    label: Estimated full/perspective paper notification
+    datetime: '2027-12-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://chiir2027.github.io/papers.html
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: The CHIIR 2026 general chairs' SIGIR Forum report (June 2026) names Helsinki as the CHIIR 2028 host; as
@@ -8717,7 +9133,7 @@
     label: Camera-ready deadline
     datetime: '2027-04-05T23:59:00-12:00'
     source_url: https://www.cclear.cc/2027/ImportantDates
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-18'
   confidence: confirmed
   notes: 6th CLeaR (annual since 2022). Official pages give May 3-5, 2027 at Sorbonne University's International
     Conference Center, Paris, planned in person with hybrid elements for online presentations; the OpenReview venue
@@ -8866,7 +9282,7 @@
     source_url: https://enoc2027.com/author/submission-guidance
     confidence: estimated
     time_precision: date
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-18'
   confidence: confirmed
   notes: 12th ENOC (EUROMECH ENOCC series, triennial per ENOC 2024), July 19-23, 2027, P&J Live, Aberdeen, per enoc2027.com
     and EUROMECH. Only 2-page extended abstracts in 21 mini-symposia; no full papers; at most two presentations
@@ -9142,6 +9558,12 @@
     datetime: '2027-03-19T23:59:00-12:00'
     confidence: estimated
     source_url: https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+  - type: notification
+    label: Estimated full-paper acceptance notification
+    datetime: '2027-05-21T23:59:00-12:00'
+    time_precision: date
+    source_url: https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+    confidence: estimated
   - type: late_abstract
     label: Estimated late-breaking result submission (1-2 pages, poster; not in IEEE Xplore)
     datetime: '2027-06-18T23:59:00-12:00'
@@ -9732,6 +10154,12 @@
     datetime: '2027-08-05T23:59:59-12:00'
     source_url: https://2026.inlgmeeting.org/calls.html
     confidence: estimated
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2027-08-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2026.inlgmeeting.org/calls.html
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-31 no INLG 2027 host, dates or call is published (2027.inlgmeeting.org does not resolve;
@@ -9838,6 +10266,7 @@
     datetime: '2026-12-07T23:59:00-12:00'
     gate_for: full_paper
     source_url: https://2027.ipmi-conf.org/
+    open_observed_on: '2026-11-18'
   - type: full_paper
     label: Full paper submission (no extensions)
     datetime: '2026-12-14T23:59:00-12:00'
@@ -9848,14 +10277,9 @@
     datetime: '2027-02-15T23:59:00-12:00'
     time_precision: date
     source_url: https://2027.ipmi-conf.org/
-  last_checked: '2026-10-31'
+  last_checked: '2026-11-18'
   confidence: confirmed
-  notes: The 2027 site and the IPMI editions page confirm the 30th biennial IPMI, June 27-July 2, 2027, at the Jouvence
-    Center, Lake Stukely (Orford), Quebec. Paper abstracts are due December 7, end of day AoE. The site gives this
-    as the submission deadline, so it gates full papers (December 14, no extensions, no hour; provisional AoE).
-    12-page double-blind LNCS-format papers; proceedings are traditionally LNCS. In-person attendance and one registration
-    per paper are required. OpenReview opens in early November and had no IPMI group on 2026-10-31. Discussion period
-    January 18-29. Attendance is capped at 120; 51 papers in 2025. Size is an editorial estimate.
+  notes: The 2027 site and the IPMI editions page confirm the 30th biennial IPMI, June 27-July 2, 2027, at the Jouvence Center, Lake Stukely (Orford), Quebec. Paper abstracts are due December 7, end of day AoE. The site gives this as the submission deadline, so it gates full papers (December 14, no extensions, no hour; provisional AoE). 12-page double-blind LNCS-format papers; proceedings are traditionally LNCS. In-person attendance and one registration per paper are required. The OpenReview Submission invitation opened Nov 7, 2026 and is due Dec 7 AoE (checked 2026-11-18). Discussion period January 18-29. Attendance is capped at 120; 51 papers in 2025. Size is an editorial estimate.
 - id: iros-2027
   series: IROS
   year: 2027
@@ -9892,6 +10316,12 @@
     source_url: https://www.ieee-ras.org/event/call-for-papers-paper-submission-deadline-iros-2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-27403-0/
     confidence: estimated
     time_precision: date
+  - type: notification
+    label: Estimated notification of paper acceptance
+    datetime: '2027-06-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2026.ieee-iros.org/contribute/call-for-papers/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: 'The official 2027 site and IEEE RAS venues page confirm Fortezza da Basso,
@@ -10168,6 +10598,12 @@
     datetime: '2027-04-04T23:59:00-12:00'
     source_url: https://web.archive.org/web/20260203041035/https://iva.acm.org/2026/
     confidence: estimated
+  - type: notification
+    label: Estimated final full-paper acceptance notification
+    datetime: '2027-06-15T23:59:00-12:00'
+    time_precision: date
+    source_url: https://iva.acm.org/2026/
+    confidence: estimated
   - type: poster
     label: Poster track extended abstract (independent of the paper track)
     datetime: '2027-06-22T23:59:59-12:00'
@@ -10291,6 +10727,12 @@
     time_precision: date
     confidence: estimated
     source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+  - type: notification
+    label: Estimated paper decision notification
+    datetime: '2028-04-17T23:59:00-12:00'
+    time_precision: date
+    source_url: https://uwaterloo.ca/international-symposium-mathematical-theory-networks-systems/key-dates
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: estimated
   notes: As of 2026-10-31 the MTNS 2026 site and IFAC listing announce no MTNS 2028 host, dates or call; hosts rotate.
@@ -10577,6 +11019,12 @@
     datetime: '2028-03-28T23:59:00-12:00'
     confidence: estimated
     source_url: https://web.archive.org/web/20260617225021/https://ppsn2026.disi.unitn.it/
+  - type: notification
+    label: Estimated notification of acceptance
+    datetime: '2028-05-22T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ppsn2026.disi.unitn.it/
+    confidence: estimated
   last_checked: '2026-10-31'
   confidence: estimated
   notes: The 20th PPSN is due in 2028, but no host or dates exist. On 2026-09-16 the Steering Committee chair called
@@ -10637,7 +11085,7 @@
   title: Reinforcement Learning Conference
   short_title: RLC 2027
   website: https://rl-conference.cc/2027/index.html
-  cfp_url: https://rl-conference.cc/2026/callforpapers.html
+  cfp_url: https://rl-conference.cc/2027/index.html
   source_urls:
   - https://rl-conference.cc/2027/index.html
   - https://rlj.org/
@@ -10823,6 +11271,12 @@
   - type: commitment
     label: Commitment of ARR-reviewed papers
     datetime: '2027-05-25T23:59:00-12:00'
+    source_url: https://2026.sigdial.org/calls/main_conference/
+    confidence: estimated
+  - type: notification
+    label: Estimated paper notification
+    datetime: '2027-06-01T23:59:00-12:00'
+    time_precision: date
     source_url: https://2026.sigdial.org/calls/main_conference/
     confidence: estimated
   last_checked: '2026-11-14'
@@ -11248,6 +11702,12 @@
     datetime: '2027-05-07T23:59:00-12:00'
     confidence: estimated
     source_url: https://conference2026.eaamo.org/cfp/
+  - type: notification
+    label: Estimated paper notification
+    datetime: '2027-07-31T23:59:00-12:00'
+    time_precision: date
+    source_url: https://conference2026.eaamo.org/cfp/
+    confidence: estimated
   - type: poster
     label: Work-in-progress poster (title and abstract; non-archival)
     datetime: '2027-09-06T23:59:00-12:00'
@@ -11359,6 +11819,12 @@
     time_precision: date
     confidence: estimated
     source_url: https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+  - type: notification
+    label: Estimated notification of acceptance
+    datetime: '2029-02-28T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www.ifac2026.org/
+    confidence: estimated
   last_checked: '2026-11-14'
   confidence: confirmed
   notes: IFAC's triennial flagship since 1960. The official site confirms the 24th congress at Amsterdam RAI, July
@@ -11523,3 +11989,171 @@
     or appendices; top papers go to the Proceedings of ASLI, other accepted papers to the new Findings of ASLI,
     both in IEEE Xplore. A demo track is mentioned but has no published deadline. Tracked as its own series: ASRU''s
     and SLT''s ranks are not inherited. ASLI 2028 is listed for Singapore. Size is an editorial estimate.'
+
+- id: ecc-2028
+  series: ECC
+  year: 2028
+  title: European Control Conference
+  short_title: ECC 2028
+  website: https://euca-ecc.org/ecc/
+  cfp_url: https://ecc27.euca-ecc.org/call-for-papers/
+  source_urls:
+  - https://euca-ecc.org/ecc/
+  - https://ecc27.euca-ecc.org/call-for-papers/
+  location: Rimini, Italy
+  mode: in-person
+  conference_start: '2028-06-20'
+  conference_end: '2028-06-23'
+  timezone: Europe/Rome
+  topics:
+  - Control & Robotics
+  - System Identification & Data-driven Dynamics
+  - Nonlinear Dynamics & Chaos
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Contributed paper submission deadline
+    datetime: '2027-11-09T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ecc27.euca-ecc.org/call-for-papers/
+    confidence: estimated
+  - type: special_session_proposal
+    label: Invited session proposal deadline
+    datetime: '2027-11-09T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ecc27.euca-ecc.org/call-for-papers/
+    confidence: estimated
+  - type: workshop
+    label: Pre-conference workshop proposals
+    datetime: '2028-01-31T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ecc27.euca-ecc.org/call-for-papers/
+    confidence: estimated
+  - type: tutorial_proposal
+    label: Tutorial session proposals
+    datetime: '2028-01-31T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ecc27.euca-ecc.org/call-for-papers/
+    confidence: estimated
+  - type: industry_abstract
+    label: Industry abstracts (an industry-affiliated author; not in the proceedings)
+    datetime: '2028-01-31T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ecc27.euca-ecc.org/call-for-papers/
+    confidence: estimated
+  - type: notification
+    label: Acceptance notification
+    datetime: '2028-03-05T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ecc27.euca-ecc.org/call-for-papers/
+    confidence: estimated
+  - type: camera_ready
+    label: Final manuscript submission
+    datetime: '2028-04-05T23:59:00-12:00'
+    time_precision: date
+    source_url: https://ecc27.euca-ecc.org/call-for-papers/
+    confidence: estimated
+  last_checked: '2026-10-30'
+  confidence: confirmed
+  notes: Meeting dates and host city confirmed by the EUCA ECC page (Rimini, Italy, 20-23 June 2028). No ECC 2028 edition website or call yet; cfp_url and all deadlines are estimated 1-year projections from the ECC 2027 call, whose paper deadline was extended from October 31 to November 9, 2026 (the projection uses the extended date). ECC 2028 meets about three weeks earlier in the year than ECC 2027 (13-16 July), so the real deadlines may fall earlier. ECC is the annual flagship of the European Control Association, technically co-sponsored by IFAC and IEEE CSS, with papers in IEEE Xplore (as for ECC 2027). Not listed in ICORE2026 or CCF. Size L is an editorial category.
+
+- id: cvpr-2028
+  series: CVPR
+  year: 2028
+  title: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  short_title: CVPR 2028
+  website: https://www.thecvf.com/?page_id=100
+  cfp_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+  source_urls:
+  - https://www.thecvf.com/?page_id=100
+  - https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+  - https://cvpr.thecvf.com/Conferences/2027/Dates
+  location: San Antonio, Texas, USA
+  mode: in-person
+  conference_start: '2028-06-20'
+  conference_end: '2028-06-25'
+  timezone: America/Chicago
+  topics:
+  - Computer Vision & Pattern Recognition
+  - Deep Representation Learning
+  - Machine Learning
+  size: XXL
+  submission_type: Paper-based / OpenReview
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract and paper registration deadline
+    datetime: '2027-11-10T23:59:00-12:00'
+    gate_for: full_paper
+    source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+    confidence: estimated
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-11-16T23:59:00-12:00'
+    source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+    confidence: estimated
+  - type: supplementary
+    label: Supplementary material deadline
+    datetime: '2027-11-23T23:59:00-12:00'
+    source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+    confidence: estimated
+  last_checked: '2026-10-30'
+  confidence: estimated
+  notes: Host city San Antonio confirmed by the CVF conference list (with general and program chairs named). No official CVPR 2028 dates or site yet (cvpr.thecvf.com/Conferences/2028 returns 404); meeting dates and all deadlines are estimated 1-year projections from CVPR 2027. Third-party listings give 11-15 June 2028, not official.
+
+- id: icassp-2028
+  series: ICASSP
+  year: 2028
+  title: IEEE International Conference on Acoustics, Speech, and Signal Processing
+  short_title: ICASSP 2028
+  website: https://2028.ieeeicassp.org/
+  cfp_url: https://2027.ieeeicassp.org/call-for-papers/
+  source_urls:
+  - https://2028.ieeeicassp.org/
+  - https://2027.ieeeicassp.org/
+  - https://2027.ieeeicassp.org/call-for-papers/
+  - https://2027.ieeeicassp.org/important-dates/
+  - https://cmsworkshops.com/ICASSP2027/papers.php
+  - https://2027.ieeeicassp.org/call-for-satellite-workshops/
+  location: Tokyo, Japan
+  mode: in-person
+  conference_start: '2028-05-28'
+  conference_end: '2028-06-02'
+  timezone: Asia/Tokyo
+  topics:
+  - Signal Processing
+  - Machine Learning
+  - Time Series & Sequential Data
+  - Computer Vision & Pattern Recognition
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2027-09-23T23:59:00-12:00'
+    source_url: https://cmsworkshops.com/ICASSP2027/papers.php
+    confidence: estimated
+  - type: workshop_paper
+    label: Satellite workshop paper submission deadline
+    datetime: '2027-11-11T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ieeeicassp.org/call-for-satellite-workshops/
+    confidence: estimated
+  - type: notification
+    label: Paper acceptance notification
+    datetime: '2028-01-13T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ieeeicassp.org/important-dates/
+    confidence: estimated
+  - type: camera_ready
+    label: Final paper deadline
+    datetime: '2028-01-27T23:59:00-12:00'
+    time_precision: date
+    source_url: https://2027.ieeeicassp.org/important-dates/
+    confidence: estimated
+  last_checked: '2026-11-18'
+  confidence: confirmed
+  notes: ICASSP 2028 dates (28 May - 2 June 2028) and city (Tokyo, Japan) are published on the official 2028.ieeeicassp.org site; no venue, call for papers or important dates were posted as of 2026-11-18. All deadlines are 1-year cadence projections from ICASSP 2027 and the cfp_url and deadline sources still refer to the 2027 edition. Mode assumed in-person as in prior editions.

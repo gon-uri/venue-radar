@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-11-17. This is the current-state summary, not a release
+Last synchronized: 2026-11-18. This is the current-state summary, not a release
 history. Start with [the documentation index](README.md); technical history
 remains in [decisions](decisions.md). Detailed local working notes follow the
 [documentation policy](documentation_policy.md) and are not required to onboard.
@@ -12,12 +12,12 @@ remains in [decisions](decisions.md). Detailed local working notes follow the
 | Repository | `gon-uri/venue-radar`; GitHub Pages publishes `main/docs`. |
 | Website | https://gon-uri.github.io/venue-radar/ |
 | Architecture | Reviewed YAML + Python generators + standalone static HTML/ICS; no backend or SQL database. |
-| Catalog | 260 edition records across 176 distinct series (including ASLI 2027, the ASRU/SLT successor). The 2026-10-31 related-venue additions brought 44 owner-approved series (60 records: 45 confirmed meetings, 15 estimated); earlier batches include 30 next editions added 2026-10-29, AIiH 2027, SD4H 2026 as TS4H's successor and ECC 2027. Website row counts refer to editions, not unique series. |
+| Catalog | 263 edition records across 176 distinct series (including ASLI 2027, the ASRU/SLT successor; ECC, ICASSP and CVPR 2028 added 2026-11-18). The 2026-10-31 related-venue additions brought 44 owner-approved series (60 records: 45 confirmed meetings, 15 estimated); earlier batches include 30 next editions added 2026-10-29, AIiH 2027, SD4H 2026 as TS4H's successor and ECC 2027. Website row counts refer to editions, not unique series. |
 | Topics | Eight unchanged families; 43 controlled leaves; one-to-three central identities per series. |
-| Detailed scopes | 125 reviewed profiles; 51 series still lack a reviewed profile. |
+| Detailed scopes | All 176 series have a reviewed profile (the last 51 added 2026-11-18); 12 rest on an earlier edition's call and stay queued. |
 | Evidence maps | 83 direct ICORE 2026 ranks, 67 direct CCF 2026 ranks, 49 historical rate/qualitative-band entries. |
 | Archival option | ADR-047 shipped 2026-11-05: 174 of 176 series have a sourced value (143 Yes, 31 No after CogSci became No on 2026-11-14; Dynamics Days CAC and ICCN not checked yet, neither with an open deadline). Row/card tag, one filter (`archival=1`) and a Format-line value in feeds. Evidence: `project_docs/archival_research/`. |
-| Public feeds | 483 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 260 edition and 176 series feeds. `calendar-all.ics` is 722,109 bytes: since ADR-053 (2026-11-17) the combined and topic feeds leave out editions that ended before the dataset review date (61 of 260 on 2026-11-14), while edition and series feeds keep them. A test keeps every feed below 1 MB. |
+| Public feeds | 486 ICS files: four aggregates (including submissions-only), 43 leaf-topic, 263 edition and 176 series feeds. `calendar-all.ics` is 805,010 bytes (81 decision dates added 2026-11-18): since ADR-053 (2026-11-17) the combined and topic feeds leave out editions that ended before the dataset review date (64 of 263 on 2026-11-18), while edition and series feeds keep them. A test keeps every feed below 1 MB. |
 | Review mirror | Retired on 2026-11-17 by the owner (ADR-052): the XLSX workbook and its export/sync scripts are deleted. YAML is the only data store; older entries below that mention the workbook are history. |
 | Licensing | MIT code, CC BY 4.0 original content/artwork, preserved third-party notices. |
 
@@ -129,6 +129,16 @@ adds ignore/tracking checks and keeps onboarding independent of private notes.
 
 ## Open Editorial Work
 
+The [2026-11-18 review](review_2026-11-18.md) rechecked the urgent queue
+(PAKDD's Research Track extended to Dec 4; BCI Winter to Nov 25), added ECC
+2028 (Rimini), ICASSP 2028 (Tokyo) and CVPR 2028 (San Antonio) from official
+announcements, confirmed ICANN 2027 in Linköping, re-based CoNLL 2027 and
+added 81 decision dates (16 confirmed, 65 projected; ADR-054). Six open
+main-paper editions still lack one, listed by the new "Decision dates" queue
+section. The same day it completed scope profiles for all 176 series and added
+"Last edition" provenance under estimated milestones (ADR-055). Every change
+was verified by a second agent.
+
 The [mid-November review](monthly_review_2026-11-14.md) checked all 153
 queued or flagged editions against official pages, with a second agent
 re-checking every proposed change. It corrects 39 records. The changes
@@ -150,7 +160,7 @@ not recertified; the acceptance, scope and archival backlogs remain separate.
 
 - Review future estimates and stale checks against current official CFPs about
   monthly. Validation confirms structure/provenance presence, not factual accuracy.
-- Complete the 51 missing scope profiles gradually (the 44 related-venue additions all have one); curate characteristic
+- Keep scope profiles current as new calls appear; curate characteristic
   categories, never exhaustive CFP inventories or guessed specialist coverage.
 - Add rank/rate mappings only from direct supported evidence. Workshops, joint
   editions and similarly named conferences must not inherit a different venue's rank.

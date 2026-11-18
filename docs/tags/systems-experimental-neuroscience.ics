@@ -62,6 +62,21 @@ CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural
 URL:https://www.nans.org/neural-interfaces/
 END:VEVENT
 BEGIN:VEVENT
+UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261019T115900Z
+DTEND:20261019T125900Z
+SUMMARY:COSYNE 2027 · Abstract submission deadline
+DESCRIPTION:Computational and Systems Neuroscience\nMeeting: 2027-03-11 to 
+ 2027-03-16\, Montreal\, Canada\nStatus: confirmed\, checked 2026-11-14\nF
+ ormat: Abstract-based / talks highly selective\; Archival option: No\nOff
+ icial source: https://www.cosyne.org/abstracts-submission\nVenue Radar: h
+ ttps://gon-uri.github.io/venue-radar/#cosyne-2027
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Deep Representation Learning
+URL:https://www.cosyne.org/abstracts-submission
+END:VEVENT
+BEGIN:VEVENT
 UID:sfn-neuroscience-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -94,6 +109,23 @@ DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
  dar: https://gon-uri.github.io/venue-radar/#ncm-2027
 CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
 URL:https://ncm-society.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261215T045900Z
+DTEND:20261215T055900Z
+SUMMARY:OHBM 2027 · Poster abstract submission deadline
+DESCRIPTION:Organization for Human Brain Mapping Annual Meeting\nMeeting: 2
+ 027-06-26 to 2027-06-30\, Toronto\, Canada\nStatus: confirmed\, checked 2
+ 026-10-28\nFormat: Abstract-based / talks selective\; Archival option: No
+ \nOfficial source: https://www.humanbrainmapping.org/files/2027-Toronto/O
+ HBM_2027_Abstract_Submission_Guidelines_FINAL.docx.pdf\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#ohbm-2027
+CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Healthcare
+  & Clinical AI,Computational Neuroscience
+URL:https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract
+ _Submission_Guidelines_FINAL.docx.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:rldm-2027-deadline-workshop-proposal@scientific-conference-calendar
@@ -192,6 +224,38 @@ DESCRIPTION:Multi-disciplinary Conference on Reinforcement Learning and Dec
 CATEGORIES:Reinforcement Learning,Computational Neuroscience,Cognitive Scie
  nce & Computational Cognition
 URL:https://rldm.org/call-for-abstracts-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270317
+SUMMARY:COSYNE 2027 · Conference
+DESCRIPTION:Computational and Systems Neuroscience\nStatus: confirmed\, che
+ cked 2026-11-14\nOfficial source: https://www.cosyne.org/\nVenue Radar: h
+ ttps://gon-uri.github.io/venue-radar/#cosyne-2027\nNotes: Official COSYNE
+  2027 pages confirm Montreal\, Mar 11-16\, and the Oct 18 abstract submis
+ sion deadline. The abstract submission link was live on Oct 6.
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Deep Representation Learning
+URL:https://www.cosyne.org/
+LOCATION:Montreal\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T060000Z
+DTEND:20270319T070000Z
+SUMMARY:CNS* 2027 (est.) · Abstract submission deadline
+DESCRIPTION:Computational Neuroscience Annual Meeting\nMeeting: 2027-07-10 
+ to 2027-07-14\, Gran Canaria\, Spain\nStatus: estimated\, checked 2026-11
+ -14. Check the organizer's call before relying on it.\nFormat: Abstract-b
+ ased\; Archival option: No (est.)\nPrevious edition's page: https://www.c
+ nsorg.org/cns-2026-abstract-submission\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#cns-2027
+CATEGORIES:Computational Neuroscience,Time Series & Sequential Data,Machine
+  Learning
+URL:https://www.cnsorg.org/cns-2026-abstract-submission
 END:VEVENT
 BEGIN:VEVENT
 UID:snl-2027-deadline-symposium-proposal@scientific-conference-calendar
@@ -298,6 +362,25 @@ URL:https://www.nans.org/neural-interfaces/
 LOCATION:Arlington\, Virginia\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:ohbm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270701
+SUMMARY:OHBM 2027 · Conference
+DESCRIPTION:Organization for Human Brain Mapping Annual Meeting\nStatus: co
+ nfirmed\, checked 2026-10-28\nOfficial source: https://humanbrainmapping.
+ org/ohbm-2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ohbm-
+ 2027\nNotes: Official OHBM 2027 pages confirm Toronto (Metro Toronto Conv
+ ention Centre)\, Jun 26-30\, 2027. The submission site opens Mon Nov 2\, 
+ 2026 (day only)\; abstracts are due Mon Dec 14\, 2026 at 11:59 p.m. EST\,
+  the same close as symposium\, course and roundtable proposals. At least 
+ one author must present in person\; decisions by Feb 2027.
+CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Healthcare
+  & Clinical AI,Computational Neuroscience
+URL:https://humanbrainmapping.org/ohbm-2027/
+LOCATION:Toronto\, Canada
+END:VEVENT
+BEGIN:VEVENT
 UID:rldm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270706
@@ -324,6 +407,24 @@ URL:https://rldm.org/
 LOCATION:Paris\, France
 END:VEVENT
 BEGIN:VEVENT
+UID:cns-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270715
+SUMMARY:CNS* 2027 · Conference
+DESCRIPTION:Computational Neuroscience Annual Meeting\nStatus: confirmed\, 
+ checked 2026-11-14\nOfficial source: https://www.cnsorg.org/\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#cns-2027\nNotes: OCNS confirms C
+ NS*2027 in Gran Canaria\, Jul 10-14 (no venue or city named). As of 2026-
+ 10-28 no 2027 call is published\; the abstract proxy repeats the 2026 ext
+ ended deadline (Mar 18\, 11 PM Pacific). In 2026 the corresponding author
+  had to register before submitting an abstract.
+CATEGORIES:Computational Neuroscience,Time Series & Sequential Data,Machine
+  Learning
+URL:https://www.cnsorg.org/
+LOCATION:Gran Canaria\, Spain
+END:VEVENT
+BEGIN:VEVENT
 UID:snl-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270924
@@ -346,6 +447,22 @@ CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Cognitive
  Science & Computational Cognition,Systems & Experimental Neuroscience
 URL:https://2026.neurolang.org/future-meetings/
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271019T115900Z
+DTEND:20271019T125900Z
+SUMMARY:COSYNE 2028 (est.) · Abstract submission deadline
+DESCRIPTION:Computational and Systems Neuroscience\nMeeting: 2028-03-11 to 
+ 2028-03-16 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-
+ 29. Check the organizer's call before relying on it.\nFormat: Abstract-ba
+ sed / talks highly selective\; Archival option: No (est.)\nOfficial sourc
+ e: https://www.cosyne.org/abstracts-submission\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#cosyne-2028
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Deep Representation Learning
+URL:https://www.cosyne.org/abstracts-submission
 END:VEVENT
 BEGIN:VEVENT
 UID:sfn-neuroscience-2027-conference@scientific-conference-calendar
@@ -418,6 +535,24 @@ DESCRIPTION:AREADNE: Research in Encoding and Decoding of Neural Ensembles\
 CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,B
  CI & Neurotechnology
 URL:https://areadne.org/2028/important-dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280311
+DTEND;VALUE=DATE:20280317
+SUMMARY:COSYNE 2028 (est.) · Conference
+DESCRIPTION:Computational and Systems Neuroscience\nStatus: estimated\, che
+ cked 2026-10-29. Check the organizer's call before relying on it.\nOffici
+ al source: https://www.cosyne.org/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#cosyne-2028\nNotes: As of 2026-10-29 cosyne.org announces 
+ only COSYNE 2027 (Montreal\, Mar 11-16\, 2027)\; no 2028 dates or host ar
+ e published. Meeting dates (Mar 11-16) and the Oct 18 abstract deadline a
+ re one-year proxies from COSYNE 2027.
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Deep Representation Learning
+URL:https://www.cosyne.org/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:areadne-2028-conference@scientific-conference-calendar

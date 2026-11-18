@@ -36,6 +36,8 @@ class ConferenceScopeTests(unittest.TestCase):
 
     def test_curated_catalog_profiles_are_valid(self):
         self.assertEqual(validate_scopes(self.raw, self.profiles, self.topics), [])
+        # Every tracked series has a reviewed profile since 2026-11-18.
+        self.assertEqual({item['series'] for item in self.raw} - set(self.profiles), set())
         self.assertTrue(all(len(profile['additional_topics']) <= 6 for profile in self.profiles.values()))
         self.assertEqual(self.profiles['ICIP']['additional_topics'], [])
         # Broad CFP applications do not automatically become specialist tags.

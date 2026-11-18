@@ -26,7 +26,10 @@ class NovemberReviewTests(unittest.TestCase):
         self.assertEqual(deadlines['full_paper']['datetime'], '2027-01-22T23:59:00-12:00')
         for kind in ('abstract', 'full_paper'):
             self.assertEqual(deadlines[kind].get('confidence', item['confidence']), 'confirmed')
-        others = [d for d in item['deadlines'] if d['type'] not in ('abstract', 'full_paper')]
+        # The decision date is on the 2027 Dates page (read 2026-11-18); other proxies stay estimated.
+        self.assertEqual(deadlines['notification']['datetime'][:10], '2027-05-03')
+        self.assertNotIn('confidence', deadlines['notification'])
+        others = [d for d in item['deadlines'] if d['type'] not in ('abstract', 'full_paper', 'notification')]
         self.assertTrue(others and all(d['confidence'] == 'estimated' for d in others))
 
     def test_ner_uses_current_days_without_the_stale_template_clock(self):

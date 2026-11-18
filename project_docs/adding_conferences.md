@@ -51,7 +51,7 @@ conflicting cutoffs store the earliest stated instant with a `cutoff_note`
 
 | File | New series | Next edition of an existing series |
 | --- | --- | --- |
-| `data/conferences.yml` | Add at least one sourced edition record with up to four central leaves. | Add a new stable ID/year; preserve prior editions. |
+| `data/conferences.yml` | Add at least one sourced edition record with up to four central leaves, including the main track's decision date as a `notification` milestone (ADR-054). | Add a new stable ID/year only from an official next-edition announcement; preserve prior editions and project the decision date. |
 | `data/conference_families.yml` | Add one-to-three central IDs from the agreed eight families. | Reuse the exact series key; change identity only with scope evidence. |
 | `data/conference_scopes.yml` | Add a curated sourced profile if evidence supports it. | Review the existing profile; keep its actual evidence year until a new CFP is reviewed. |
 | `data/cities.yml` | Add a confirmed city or exact alias if missing. | Add the newly confirmed location; do not guess an unannounced host. |

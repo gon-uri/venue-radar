@@ -10,6 +10,36 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:sdm-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260411T115900Z
+DTEND:20260411T125900Z
+SUMMARY:SDM 2026 · Abstract submission deadline
+DESCRIPTION:SIAM International Conference on Data Mining\nMeeting: 2026-11-
+ 19 to 2026-11-20\, Salt Lake City\, Utah\, USA\nStatus: confirmed\, check
+ ed 2026-10-28\nFormat: Paper-based\; Archival option: Yes\nOfficial sourc
+ e: https://www.siam.org/conferences-events/siam-conferences/sdm26/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#sdm-2026
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
+ ability & Interpretability,Machine Learning
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260418T115900Z
+DTEND:20260418T125900Z
+SUMMARY:SDM 2026 · Full paper submission deadline
+DESCRIPTION:SIAM International Conference on Data Mining\nMeeting: 2026-11-
+ 19 to 2026-11-20\, Salt Lake City\, Utah\, USA\nStatus: confirmed\, check
+ ed 2026-10-28\nFormat: Paper-based\; Archival option: Yes\nOfficial sourc
+ e: https://www.siam.org/conferences-events/siam-conferences/sdm26/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#sdm-2026
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
+ ability & Interpretability,Machine Learning
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
 UID:acml-2026-deadline-journal-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260621T115900Z
@@ -279,6 +309,41 @@ CATEGORIES:Information Retrieval & Search,Recommender Systems,Graphs & Grap
 URL:https://www2027.thewebconf.org/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:sdm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:SDM 2026 · Conference
+DESCRIPTION:SIAM International Conference on Data Mining\nStatus: confirmed
+ \, checked 2026-10-28\nOfficial source: https://www.siam.org/conferences-
+ events/siam-conferences/sdm26/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#sdm-2026\nNotes: SIAM's official event listing (checked 2026-1
+ 0-28) confirms Nov 19-20 at the Salt Palace Convention Center\, held join
+ tly with IS26 and MDS26. The SDM26 page returned HTTP 403 that day\, so t
+ he April abstract/paper deadlines were not re-read and remain as last ver
+ ified on 2026-08-20.
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
+ ability & Interpretability,Machine Learning
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+LOCATION:Salt Lake City\, Utah\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:pakdd-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261121T115900Z
+DTEND:20261121T125900Z
+SUMMARY:PAKDD 2027 · Applied Data Science\, Survey and LLM/Agentic AI trac
+ k paper submission deadline
+DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
+ nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
+ nfirmed\, checked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\
+ nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#pakdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Learning Theory & Statistical Foundations
+URL:https://pakdd2027.org/pages/dates
+END:VEVENT
+BEGIN:VEVENT
 UID:biosig-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261125
@@ -319,6 +384,21 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
  inability & Interpretability,Robustness & Safety
 URL:https://www.acml-conf.org/2026/
 LOCATION:Melbourne\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:PAKDD 2027 · Research Track paper submission deadline (extended)
+DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
+ nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
+ nfirmed\, checked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\
+ nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#pakdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Learning Theory & Statistical Foundations
+URL:https://pakdd2027.org/pages/dates
 END:VEVENT
 BEGIN:VEVENT
 UID:alt-2027-deadline-author-feedback@scientific-conference-calendar
@@ -518,7 +598,7 @@ DTEND:20270202T125900Z
 SUMMARY:KDD 2027 (est.) · Abstract submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ stimated\, checked 2026-11-18. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -534,7 +614,7 @@ DTEND:20270209T125900Z
 SUMMARY:KDD 2027 (est.) · Paper submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ stimated\, checked 2026-11-18. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -578,6 +658,22 @@ CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory
 URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:pakdd-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:PAKDD 2027 · Paper acceptance notification
+DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
+ nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
+ nfirmed\, checked 2026-11-18\nCutoff time unannounced: official deadline 
+ day only. Verify the organizer's submission portal.\nFormat: Paper-based\
+ ; Archival option: Yes\nOfficial source: https://pakdd2027.org/pages/date
+ s\nVenue Radar: https://gon-uri.github.io/venue-radar/#pakdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Learning Theory & Statistical Foundations
+URL:https://pakdd2027.org/pages/dates
+END:VEVENT
+BEGIN:VEVENT
 UID:alt-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270309
@@ -598,6 +694,21 @@ DESCRIPTION:International Conference on Algorithmic Learning Theory\nStatus
 CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
 URL:https://algorithmiclearningtheory.org/alt2027/
 LOCATION:Leiden\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
+UID:pakdd-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270320T115900Z
+DTEND:20270320T125900Z
+SUMMARY:PAKDD 2027 · Camera-ready deadline
+DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
+ nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
+ nfirmed\, checked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\
+ nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#pakdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Learning Theory & Statistical Foundations
+URL:https://pakdd2027.org/pages/dates
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-notification@scientific-conference-calendar
@@ -634,6 +745,23 @@ DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
 CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
  & Statistical Foundations
 URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icmr-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:ICMR 2027 · Paper acceptance notification
+DESCRIPTION:ACM SIGMM International Conference on Multimedia Retrieval\nMee
+ ting: 2027-06-07 to 2027-06-10\, Singapore\nStatus: confirmed\, checked 2
+ 026-11-14\nCutoff time unannounced: official deadline day only. Verify th
+ e organizer's submission portal.\nFormat: Full and short papers / multime
+ dia retrieval\; Archival option: Yes\nOfficial source: https://www.icmr20
+ 27.org/date\nVenue Radar: https://gon-uri.github.io/venue-radar/#icmr-202
+ 7
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Machine Learning,Deep Representation Learning
+URL:https://www.icmr2027.org/date
 END:VEVENT
 BEGIN:VEVENT
 UID:aiih-2027-deadline-abstract@scientific-conference-calendar
@@ -688,6 +816,22 @@ CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
 URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:sdm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270411T115900Z
+DTEND:20270411T125900Z
+SUMMARY:SDM 2027 (est.) · Abstract submission deadline
+DESCRIPTION:SIAM International Conference on Data Mining\nMeeting: 2027-11-
+ 19 to 2027-11-20 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-11-14. Check the organizer's call before relying on it.\nFormat: Paper
+ -based\; Archival option: Yes (est.)\nOfficial source: https://www.siam.o
+ rg/conferences-events/siam-conferences/sdm26/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#sdm-2027
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
+ ability & Interpretability,Machine Learning
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
 UID:icmr-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270411T115959Z
@@ -717,6 +861,22 @@ DESCRIPTION:IEEE/IAPR International Joint Conference on Biometrics\nMeeting
 CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
  ,Deep Representation Learning,Privacy-preserving ML
 URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270418T115900Z
+DTEND:20270418T125900Z
+SUMMARY:SDM 2027 (est.) · Full paper submission deadline
+DESCRIPTION:SIAM International Conference on Data Mining\nMeeting: 2027-11-
+ 19 to 2027-11-20 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-11-14. Check the organizer's call before relying on it.\nFormat: Paper
+ -based\; Archival option: Yes (est.)\nOfficial source: https://www.siam.o
+ rg/conferences-events/siam-conferences/sdm26/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#sdm-2027
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
+ ability & Interpretability,Machine Learning
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
 BEGIN:VEVENT
 UID:satml-2027-conference@scientific-conference-calendar
@@ -809,6 +969,24 @@ DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2027
 CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
  nterpretability,Robustness & Safety
 URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:KDD 2027 (est.) · Cycle 2 paper notification
+DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
+ eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
+ stimated\, checked 2026-11-18. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based / mixed tracks\; A
+ rchival option: Yes\nPrevious edition's page: https://kdd2026.kdd.org/res
+ earch-track-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#kdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Federated & Distributed Learning
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:aies-2027-deadline-full-paper@scientific-conference-calendar
@@ -995,6 +1173,27 @@ URL:https://learningtheory.org/colt2027/
 LOCATION:Tokyo\, Japan
 END:VEVENT
 BEGIN:VEVENT
+UID:pakdd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270703
+SUMMARY:PAKDD 2027 · Conference
+DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
+ nStatus: confirmed\, checked 2026-11-18\nOfficial source: https://pakdd20
+ 27.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#pakdd-2027\n
+ Notes: Official PAKDD 2027 site\, rechecked 2026-11-18\, confirms an in-p
+ erson meeting in Wellington\, Jun 29-Jul 2. The Research Track paper dead
+ line was extended from Nov 20 to Dec 4\, 2026 (AoE)\; the Applied Data Sc
+ ience\, Survey and LLM/Agentic AI tracks keep Nov 20 AoE. All four tracks
+  share the Feb 26\, 2027 notification and Mar 19 AoE camera-ready. Doctor
+ al consortium (Feb 12\, 2027) is not tracked as a paper route. Workshop a
+ nd tutorial dates are still to be announced.
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Learning Theory & Statistical Foundations
+URL:https://pakdd2027.org/
+LOCATION:Wellington\, New Zealand
+END:VEVENT
+BEGIN:VEVENT
 UID:aiih-2027-deadline-late-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270703T065900Z
@@ -1011,6 +1210,41 @@ DESCRIPTION:International Conference on AI in Healthcare\nMeeting: 2027-09-
 CATEGORIES:Healthcare & Clinical AI,Biomedical Imaging,Machine Learning,Sig
  nal Processing
 URL:https://aiih.cc/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcb-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:IJCB 2027 · Main-conference paper final decisions
+DESCRIPTION:IEEE/IAPR International Joint Conference on Biometrics\nMeeting
+ : 2027-09-13 to 2027-09-17\, Foz do Iguacu\, Brazil\nStatus: confirmed\, 
+ checked 2026-10-07\nCutoff time unannounced: official deadline day only. 
+ Verify the organizer's submission portal.\nFormat: Paper-based / biometri
+ cs and identity science\; Archival option: Yes\nOfficial source: https://
+ ijcb2027.ieee-biometrics.org/important-dates/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#ijcb-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Deep Representation Learning,Privacy-preserving ML
+URL:https://ijcb2027.ieee-biometrics.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:AIES 2027 (est.) · Paper acceptance notification
+DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2027
+ -10-11 to 2027-10-13 (est.)\, To be announced\nStatus: estimated\, checke
+ d 2026-10-29. Check the organizer's call before relying on it.\nEstimated
+  day only\; no cutoff hour stored. Check the organizer's call for the rea
+ l date and time.\nFormat: Paper-based / interdisciplinary\; Archival opti
+ on: Yes (est.)\nPrevious edition's page: https://www.aies-conference.com/
+ 2026/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#aies-2027
+CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
+ nterpretability,Robustness & Safety
+URL:https://www.aies-conference.com/2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:biosig-2027-deadline-full-paper@scientific-conference-calendar
@@ -1038,7 +1272,7 @@ DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270806
 SUMMARY:KDD 2027 · Conference
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-11-14\nOfficial source: https://kdd2027.k
+ tatus: confirmed\, checked 2026-11-18\nOfficial source: https://kdd2027.k
  dd.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027\nNo
  tes: Official site confirms San Jose McEnery Convention Center\, Aug 1-5.
   Cycle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 
@@ -1108,6 +1342,41 @@ URL:https://ijcb2027.ieee-biometrics.org/important-dates/
 LOCATION:Foz do Iguacu\, Brazil
 END:VEVENT
 BEGIN:VEVENT
+UID:biosig-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:BIOSIG 2027 (est.) · Notification of authors
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nMeeting: 2027-11-24 to 2027-11-25 (est.)\, To be announced\nStatus: e
+ stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based / GI LNI proceedin
+ gs\, submitted to IEEE Xplore (2026 format)\; Archival option: Yes (est.)
+ \nOfficial source: https://web.archive.org/web/20260411180047/https://bio
+ sig.de/\nVenue Radar: https://gon-uri.github.io/venue-radar/#biosig-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://web.archive.org/web/20260411180047/https://biosig.de/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:ACML 2027 (est.) · Conference-track acceptance notification
+DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2027-12-01 to 20
+ 27-12-04 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14
+ . Check the organizer's call before relying on it.\nEstimated day only\; 
+ no cutoff hour stored. Check the organizer's call for the real date and t
+ ime.\nFormat: Paper-based / OpenReview\; Archival option: Yes (est.)\nPre
+ vious edition's page: https://www.acml-conf.org/2026/\nVenue Radar: https
+ ://gon-uri.github.io/venue-radar/#acml-2027
+CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
+ inability & Interpretability,Robustness & Safety
+URL:https://www.acml-conf.org/2026/
+END:VEVENT
+BEGIN:VEVENT
 UID:satml-2028-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270922T115900Z
@@ -1175,6 +1444,27 @@ CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
 URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:sdm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271121
+SUMMARY:SDM 2027 (est.) · Conference
+DESCRIPTION:SIAM International Conference on Data Mining\nStatus: estimated
+ \, checked 2026-11-14. Check the organizer's call before relying on it.\n
+ Official source: https://www.siam.org/get-involved/connect-with-a-communi
+ ty/activity-groups/data-science/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#sdm-2027\nNotes: As of 2026-10-29 SIAM describes SDM as year
+ ly but lists no SDM27 among its upcoming conferences. Meeting and paper d
+ ates are one-year proxies from SDM26 (Nov 19-20\, 2026\, held jointly wit
+ h IS26 and MDS26 after earlier spring editions)\, so 2027 timing is uncer
+ tain.
+CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
+ ability & Interpretability,Machine Learning
+URL:https://www.siam.org/get-involved/connect-with-a-community/activity-gro
+ ups/data-science/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:biosig-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271124
@@ -1214,6 +1504,41 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
  inability & Interpretability,Robustness & Safety
 URL:https://www.acml-conf.org/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271215
+DTEND;VALUE=DATE:20271216
+SUMMARY:SaTML 2028 (est.) · Decision notification
+DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
+ ting: 2028-05-02 to 2028-05-04 (est.)\, To be announced\nStatus: estimate
+ d\, checked 2026-11-14. Check the organizer's call before relying on it.\
+ nEstimated day only\; no cutoff hour stored. Check the organizer's call f
+ or the real date and time.\nFormat: Paper-based / systematization of know
+ ledge / position papers\; Archival option: Yes (est.)\nOfficial source: h
+ ttps://satml.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#satml-2028
+CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
+  AI,Explainability & Interpretability
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:alt-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280105
+DTEND;VALUE=DATE:20280106
+SUMMARY:ALT 2028 (est.) · Author notification
+DESCRIPTION:International Conference on Algorithmic Learning Theory\nMeetin
+ g: 2028-03-09 to 2028-03-12 (est.)\, To be announced\nStatus: estimated\,
+  checked 2026-11-14. Check the organizer's call before relying on it.\nEs
+ timated day only\; no cutoff hour stored. Check the organizer's call for 
+ the real date and time.\nFormat: Paper-based / PMLR proceedings (optional
+  one-page extended abstract instead)\; Archival option: Yes (est.)\nPrevi
+ ous edition's page: https://algorithmiclearningtheory.org/alt2027/call-fo
+ r-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#alt-2028
+CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
+URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:alt-2028-conference@scientific-conference-calendar

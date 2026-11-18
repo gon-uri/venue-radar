@@ -12,6 +12,7 @@ import {checkArchivalOption} from './archival_option.mjs';
 import {checkFilterBar} from './filter_bar.mjs';
 import {checkAboutVenue} from './about_venue.mjs';
 import {checkHorizon} from './horizon.mjs';
+import {checkProvenance} from './provenance.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -90,7 +91,7 @@ try {
   }
   await checkMobileCards(page, url, output);
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
-  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 170);  // +44 related venues and ASLI (2026-10-31)
+  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 173);  // +44 related venues and ASLI (2026-10-31); +ECC/CVPR/ICASSP 2028 (2026-11-18)
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>
     rows.every(row => ['open', 'scheduled', 'opportunity', 'estimated'].includes(stateByRow.get(row).kind))));
   const repository = 'https://github.com/gon-uri/venue-radar';
@@ -315,8 +316,8 @@ try {
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '152 confirmed editions in 115 cities');  // 2026-11-14: ACM MM 2027 (Hong Kong), ISWC 2027 (new Montevideo marker) and ICMLA 2027 (new Miami marker) are confirmed.
-  assert.equal(await page.locator('.city-marker').count(), 115);
+  assert.equal(await page.locator('#map-count').innerText(), '155 confirmed editions in 117 cities');  // 2026-11-14: ACM MM 2027 (Hong Kong), ISWC 2027 (new Montevideo marker) and ICMLA 2027 (new Miami marker) are confirmed.
+  assert.equal(await page.locator('.city-marker').count(), 117);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();
   const montreal = page.locator('.city-marker[title^="Montreal"]');
@@ -600,6 +601,7 @@ try {
   await checkFilterBar(page, url);
   await checkAboutVenue(page, url);
   await checkHorizon(page, url);
+  await checkProvenance(page, url);
   assert.deepEqual(fontRequests, [], 'The title font must not require a network request');
   assert.deepEqual(errors, []);
   console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);

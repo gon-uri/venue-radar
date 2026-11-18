@@ -139,7 +139,7 @@ export async function checkMoreFeatures(page, url) {
 
   // A published day without an hour ends at 23:59 in the host city (Jeongseon).
   const bciTime = row('bci-winter-2027').locator('[data-deadline-row][data-deadline-type="full_paper"] time');
-  assert.equal(await bciTime.getAttribute('datetime'), '2026-11-15T14:59:00Z');
+  assert.equal(await bciTime.getAttribute('datetime'), '2026-11-25T14:59:00Z');  // extended from Nov 15 (2026-11-18 review)
   assert.match(await bciTime.getAttribute('title'), /exact hour\/timezone unannounced.*23:59 Asia\/Seoul time/);
 
   // Desktop column labels stay visible while scrolling, without covering keyboard focus.

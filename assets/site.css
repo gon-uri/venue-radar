@@ -154,6 +154,10 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
 .deadline-passed { order: 1; }
 .deadline-milestone { order: 2; flex: 1 1 100%; }
 .deadline-local { order: 3; flex: 1 1 100%; color: var(--muted); font-size: .72rem; line-height: 1.3; }
+.deadline-basis { display: none; order: 3; flex: 1 1 100%; color: var(--muted); font-size: .72rem; line-height: 1.3; }
+/* Estimate provenance shows in the expanded schedule only, so collapsed rows and cards keep their height (ADR-055). */
+.deadline-group-row.is-expanded .deadline-basis, .deadline-group-row:not(:has(.deadline-toggle)) .deadline-basis { display: block; }
+.deadline-basis a { color: inherit; text-underline-offset: 2px; }
 .deadline-clock { flex: 0 0 auto; color: #3f4f54; font-size: .74rem; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .deadline-clock::before { content: "\00b7"; margin-right: 5px; color: var(--muted); font-weight: 400; }
 .next-step { display: none; }

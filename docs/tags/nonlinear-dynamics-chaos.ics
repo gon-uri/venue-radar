@@ -150,7 +150,7 @@ DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:IFAC SYSID 2027 · Joint journal/conference submission
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -336,7 +336,7 @@ DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:IFAC SYSID 2027 · Conference paper submission (extended)
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -580,7 +580,7 @@ DTEND;VALUE=DATE:20270116
 SUMMARY:ENOC 2027 (est.) · Two-page extended abstract submission deadline
 DESCRIPTION:European Nonlinear Dynamics Conference\nMeeting: 2027-07-19 to 
  2027-07-23\, Aberdeen\, United Kingdom\nStatus: estimated\, checked 2026-
- 11-14. Check the organizer's call before relying on it.\nEstimated day on
+ 11-18. Check the organizer's call before relying on it.\nEstimated day on
  ly\; no cutoff hour stored. Check the organizer's call for the real date 
  and time.\nFormat: Abstract-based / 2-page extended abstracts in a digita
  l book of abstracts\; no full-paper submission\; Archival option: No\nOff
@@ -598,7 +598,7 @@ DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:IFAC SYSID 2027 · Discussion papers (non-archival)
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -614,7 +614,7 @@ DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:IFAC SYSID 2027 · Published IFAC journal presentations
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -719,7 +719,7 @@ DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 SUMMARY:IFAC SYSID 2027 · Acceptance notification
 DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
-  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-14\nCuto
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-18\nCuto
  ff time unannounced: official deadline day only. Verify the organizer's s
  ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
@@ -963,13 +963,49 @@ URL:https://icmns.org/2027/
 LOCATION:Montpellier\, France
 END:VEVENT
 BEGIN:VEVENT
+UID:nolta-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:NOLTA 2027 (est.) · Notification of paper acceptance
+DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
+ s\nMeeting: 2027-11-16 to 2027-11-19 (est.)\, To be announced\nStatus: es
+ timated\, checked 2026-10-29. Check the organizer's call before relying o
+ n it.\nEstimated day only\; no cutoff hour stored. Check the organizer's 
+ call for the real date and time.\nFormat: Paper-based\; Archival option: 
+ Yes (est.)\nPrevious edition's page: https://nolta2026.org/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#nolta-2027
+CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
+ p Representation Learning,Control & Robotics
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:bernstein-conference-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20270701T130000Z
+DTEND:20270701T140000Z
+SUMMARY:Bernstein Conference 2027 (est.) · Abstract submission deadline
+DESCRIPTION:Bernstein Conference\nMeeting: 2027-09-15 to 2027-09-18\, Lausa
+ nne\, Switzerland\nStatus: estimated\, checked 2026-11-14. Check the orga
+ nizer's call before relying on it.\nFormat: Abstract-based / talks select
+ ive\; Archival option: No (est.)\nOfficial source: https://bernstein-netw
+ ork.de/en/bernstein-conference/general-information/important-dates-faq/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#bernstein-conference-
+ 2027
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Time Series & Sequential Data
+URL:https://bernstein-network.de/en/bernstein-conference/general-informatio
+ n/important-dates-faq/
+END:VEVENT
+BEGIN:VEVENT
 UID:ifac-sysid-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270707
 DTEND;VALUE=DATE:20270710
 SUMMARY:IFAC SYSID 2027 · Conference
 DESCRIPTION:IFAC Symposium on System Identification\nStatus: confirmed\, ch
- ecked 2026-11-14\nOfficial source: https://conferences.ifac-control.org/s
+ ecked 2026-11-18\nOfficial source: https://conferences.ifac-control.org/s
  ysid2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid
  -2027\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate p
  age strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 
@@ -1048,7 +1084,7 @@ DTSTART;VALUE=DATE:20270719
 DTEND;VALUE=DATE:20270724
 SUMMARY:ENOC 2027 · Conference
 DESCRIPTION:European Nonlinear Dynamics Conference\nStatus: confirmed\, che
- cked 2026-11-14\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
+ cked 2026-11-18\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
  ps://gon-uri.github.io/venue-radar/#enoc-2027\nNotes: 12th ENOC (EUROMECH
   ENOCC series\, triennial per ENOC 2024)\, July 19-23\, 2027\, P&J Live\,
   Aberdeen\, per enoc2027.com and EUROMECH. Only 2-page extended abstracts
@@ -1101,6 +1137,26 @@ CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
 URL:https://complexnetworks.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:bernstein-conference-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270919
+SUMMARY:Bernstein Conference 2027 · Conference
+DESCRIPTION:Bernstein Conference\nStatus: confirmed\, checked 2026-11-14\nO
+ fficial source: https://bernstein-network.de/bernstein-conference/bernste
+ in-conference-2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ bernstein-conference-2027\nNotes: Bernstein Network confirms Lausanne (Sw
+ issTech Convention Center\, EPFL)\, Sep 15-18\, 2027. As of 2026-10-28 no
+  2027 call is published\; the abstract date is a one-year proxy from 2026
+ . In 2026 contributed talks were notified (early July) before posters (la
+ te July)\, so 2027 talk abstracts may close earlier than this proxy.
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Time Series & Sequential Data
+URL:https://bernstein-network.de/bernstein-conference/bernstein-conference-
+ 2027/
+LOCATION:Lausanne\, Switzerland
+END:VEVENT
+BEGIN:VEVENT
 UID:ccs-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270917
@@ -1118,6 +1174,25 @@ CATEGORIES:Complex Systems & Network Science,Nonlinear Dynamics & Chaos,Dat
  a Mining & Data Science
 URL:https://ccs27.pwr.edu.pl/
 LOCATION:Wroclaw\, Poland
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-notification@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:COMPLEX NETWORKS 2027 (est.) · Acceptance notification
+DESCRIPTION:International Conference on Complex Networks and Their Applicat
+ ions\nMeeting: 2027-12-01 to 2027-12-03 (est.)\, To be announced\nStatus:
+  estimated\, checked 2026-11-14. Check the organizer's call before relyin
+ g on it.\nEstimated day only\; no cutoff hour stored. Check the organizer
+ 's call for the real date and time.\nFormat: Paper-based + extended abstr
+ acts\; Archival option: Yes (est.)\nOfficial source: https://complexnetwo
+ rks.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#complex-net
+ works-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Data Mining & Data Science
+URL:https://complexnetworks.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:complenet-2028-deadline-extended-abstract@scientific-conference-calenda
@@ -1171,6 +1246,41 @@ CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
 URL:https://complenet.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
+UID:ecc-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
+SUMMARY:ECC 2028 (est.) · Contributed paper submission deadline
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-special-session-proposal@scientific-conference-calend
+ ar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
+SUMMARY:ECC 2028 (est.) · Invited session proposal deadline
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:nolta-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271116
@@ -1188,6 +1298,23 @@ CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
  p Representation Learning,Control & Robotics
 URL:https://nolta2026.org/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:CompleNet 2028 (est.) · Notification of acceptance
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
+ 07 to 2028-03-10 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-10-29. Check the organizer's call before relying on it.\nEstimated day
+  only\; no cutoff hour stored. Check the organizer's call for the real da
+ te and time.\nFormat: Full/short papers + extended abstracts\; Archival o
+ ption: Yes (est.)\nOfficial source: https://complenet.github.io/cfp.html\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#complenet-2028
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:complex-networks-2027-conference@scientific-conference-calendar
@@ -1227,6 +1354,58 @@ CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos,Reinforcement Learning
 URL:https://cdc2027.ieeecss.org/
 LOCATION:Lisbon\, Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-industry-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:ECC 2028 (est.) · Industry abstracts (an industry-affiliated autho
+ r\; not in the proceedings)
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:ECC 2028 (est.) · Tutorial session proposals
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:ECC 2028 (est.) · Pre-conference workshop proposals
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:mtns-2028-deadline-full-paper@scientific-conference-calendar
@@ -1269,6 +1448,23 @@ URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
  ks-systems/key-dates
 END:VEVENT
 BEGIN:VEVENT
+UID:ecc-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280305
+DTEND;VALUE=DATE:20280306
+SUMMARY:ECC 2028 (est.) · Acceptance notification
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:complenet-2028-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20280307
@@ -1286,6 +1482,66 @@ CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280405
+DTEND;VALUE=DATE:20280406
+SUMMARY:ECC 2028 (est.) · Final manuscript submission
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:MTNS 2028 (est.) · Paper decision notification
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://uwaterloo.ca/international-symposium-
+ mathematical-theory-networks-systems/key-dates\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#mtns-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280620
+DTEND;VALUE=DATE:20280624
+SUMMARY:ECC 2028 · Conference
+DESCRIPTION:European Control Conference\nStatus: confirmed\, checked 2026-1
+ 0-30\nOfficial source: https://euca-ecc.org/ecc/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#ecc-2028\nNotes: Meeting dates and host city
+  confirmed by the EUCA ECC page (Rimini\, Italy\, 20-23 June 2028). No EC
+ C 2028 edition website or call yet\; cfp_url and all deadlines are estima
+ ted 1-year projections from the ECC 2027 call\, whose paper deadline was 
+ extended from October 31 to November 9\, 2026 (the projection uses the ex
+ tended date). ECC 2028 meets about three weeks earlier in the year than E
+ CC 2027 (13-16 July)\, so the real deadlines may fall earlier. ECC is the
+  annual flagship of the European Control Association\, technically co-spo
+ nsored by IFAC and IEEE CSS\, with papers in IEEE Xplore (as for ECC 2027
+ ). Not listed in ICORE2026 or CCF. Size L is an editorial category.
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://euca-ecc.org/ecc/
+LOCATION:Rimini\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamics-days-lac-2028-deadline-abstract@scientific-conference-calendar
@@ -1391,6 +1647,25 @@ DESCRIPTION:World Congress of the International Federation of Automatic Con
 CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Nonlinear Dynamics & Chaos
 URL:https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20290228
+DTEND;VALUE=DATE:20290301
+SUMMARY:IFAC WC 2029 (est.) · Notification of acceptance
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nMeeting: 2029-07-08 to 2029-07-13\, Amsterdam\, Netherlands\nStatus
+ : estimated\, checked 2026-11-14. Check the organizer's call before relyi
+ ng on it.\nEstimated day only\; no cutoff hour stored. Check the organize
+ r's call for the real date and time.\nFormat: Paper-based / IFAC-PapersOn
+ Line open-access proceedings\; late-breaking/discussion papers non-archiv
+ al (preprints only)\; Archival option: Yes (est.)\nPrevious edition's pag
+ e: https://www.ifac2026.org/\nVenue Radar: https://gon-uri.github.io/venu
+ e-radar/#ifac-wc-2029
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://www.ifac2026.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ifac-wc-2029-conference@scientific-conference-calendar

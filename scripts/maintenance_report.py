@@ -113,6 +113,7 @@ class Report:
     archival: list[BacklogRow]
     rollover: list[BacklogRow] = field(default_factory=list)
     new_this_week: list[str] = field(default_factory=list)
+    decisions: list[BacklogRow] = field(default_factory=list)
 
 
 def review_queue(
@@ -396,6 +397,30 @@ def rollover_backlog(conferences: list[dict], as_of: date) -> list[BacklogRow]:
     return rows
 
 
+MAIN_PAPER_TYPES = ("full_paper", "regular_paper")
+
+
+def decision_backlog(conferences: list[dict], as_of: date) -> list[BacklogRow]:
+    """Editions with an upcoming main-paper deadline but no decision date.
+
+    Authors plan a fallback venue around the decision, so each open main-paper
+    edition should store a `notification` milestone: from its own call, or
+    projected (estimated) from the previous edition's official date. Soonest
+    paper deadline first.
+    """
+    rows: list[tuple[str, str, BacklogRow]] = []
+    for item in conferences:
+        papers = [deadline for deadline in item.get("deadlines", []) if deadline["type"] in MAIN_PAPER_TYPES
+                  and (_due_date(deadline) or date.min) >= as_of]
+        if not papers or any(deadline["type"] == "notification" for deadline in item.get("deadlines", [])):
+            continue
+        due = min(str(_due_date(deadline)) for deadline in papers)
+        detail = f"no decision date; main paper due {due}"
+        rows.append((due, item["id"], BacklogRow(item["short_title"], detail,
+                                                 str(item.get("cfp_url") or item.get("website") or ""))))
+    return [row for _, _, row in sorted(rows)]
+
+
 def new_this_week(conferences: list[dict], as_of: date, max_age_days: int) -> list[str]:
     """Edition IDs that entered Act now or Recheck since the same data a week earlier."""
     urgent = ("act-now", "recheck")
@@ -416,6 +441,7 @@ def build_report(as_of: date, max_age_days: int, scope_max_age_days: int = SCOPE
         scope=scope_backlog(conferences, load_scopes(), as_of, scope_max_age_days),
         archival=archival_backlog(conferences, load_archival_options()),
         rollover=rollover_backlog(conferences, as_of),
+        decisions=decision_backlog(conferences, as_of),
         new_this_week=new_this_week(conferences, as_of, max_age_days),
     )
 
@@ -456,11 +482,14 @@ def render_text(report: Report, sample: int | None) -> str:
             lines += [f"- {row.title} ({row.id}): {row.detail}" + (f"\n  {row.url}" if row.url else "") for row in rows]
     if report.new_this_week:
         lines += ["", f"New this week in Act now or Recheck: {', '.join(report.new_this_week)}"]
-    for heading, rows in [("Acceptance evidence review", report.acceptance), ("Scope review", report.scope),
-                          ("Archival option review", report.archival), ("Rollover ready", report.rollover)]:
+    for heading, rows, unit in [("Acceptance evidence review", report.acceptance, "series"),
+                                ("Scope review", report.scope, "series"),
+                                ("Archival option review", report.archival, "series"),
+                                ("Rollover ready", report.rollover, "series"),
+                                ("Decision dates", report.decisions, "editions")]:
         shown = _sample(rows, sample)
         suffix = f" (showing {len(shown)}; --full lists all)" if len(shown) < len(rows) else ""
-        lines += ["", f"{heading}: {len(rows)} series{suffix}"]
+        lines += ["", f"{heading}: {len(rows)} {unit}{suffix}"]
         lines += [f"- {row.name}: {row.detail}" + (f"\n  {row.source}" if row.source else "") for row in shown]
     return "\n".join(lines)
 
@@ -524,12 +553,15 @@ def render_markdown(report: Report, sample: int | None) -> str:
                 + (f" · {_md_link(row.url)}" if row.url else "")
                 for row in rows
             ]
-    for heading, rows in [("Acceptance evidence", report.acceptance), ("Scope profiles", report.scope),
-                          ("Archival option", report.archival), ("Rollover ready", report.rollover)]:
+    for heading, rows, unit in [("Acceptance evidence", report.acceptance, "series"),
+                                ("Scope profiles", report.scope, "series"),
+                                ("Archival option", report.archival, "series"),
+                                ("Rollover ready", report.rollover, "series"),
+                                ("Decision date", report.decisions, "editions")]:
         shown = _sample(rows, sample)
-        lines += ["", f"### {heading} backlog: {len(rows)} series", ""]
+        lines += ["", f"### {heading} backlog: {len(rows)} {unit}", ""]
         if len(shown) < len(rows):
-            order = "Soonest" if heading == "Rollover ready" else "Oldest or most relevant"
+            order = "Soonest" if heading in ("Rollover ready", "Decision date") else "Oldest or most relevant"
             lines += [f"{order} {len(shown)} shown; run with `--full` for all.", ""]
         lines += [
             f"- [ ] **{md(row.name)}**: {md(row.detail)}" + (f" · {_md_link(row.source)}" if row.source else "")
@@ -554,6 +586,7 @@ def render_json(report: Report, sample: int | None) -> str:
         "scope": backlog(report.scope),
         "archival": backlog(report.archival),
         "rollover": backlog(report.rollover),
+        "decisions": backlog(report.decisions),
         "new_this_week": report.new_this_week,
     }
     return json.dumps(payload, indent=2, ensure_ascii=False)

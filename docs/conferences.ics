@@ -10,61 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:acm-mm-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261115
-SUMMARY:ACM MM 2026 · Conference
-DESCRIPTION:ACM International Conference on Multimedia\nStatus: confirmed\,
-  checked 2026-11-14\nOfficial source: https://2026.acmmm.org/\nVenue Rada
- r: https://gon-uri.github.io/venue-radar/#acm-mm-2026\nNotes: Official 20
- 26 pages confirm Rio and deadline days. The retrieved important-dates pag
- e has no cutoff hour or timezone\, so the stored AoE timestamps are provi
- sional. Main\, BNI\, and dataset tracks share March/April deadlines\; wor
- kshop papers have their own route. XL is an editorial estimate.
-CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
- ition,Deep Representation Learning,Signal Processing
-URL:https://2026.acmmm.org/
-LOCATION:Rio de Janeiro\, Brazil
-END:VEVENT
-BEGIN:VEVENT
-UID:icdm-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261116
-SUMMARY:ICDM 2026 · Conference
-DESCRIPTION:IEEE International Conference on Data Mining\nStatus: confirmed
- \, checked 2026-10-28\nOfficial source: https://icdm2026.neu.edu.cn/\nVen
- ue Radar: https://gon-uri.github.io/venue-radar/#icdm-2026\nNotes: Offici
- al ICDM 2026 site confirms Shenyang\, Nov 12-15\, 2026\, held in person. 
- Its dates page states 11:59 PM AoE: research and applied tracks (alternat
- ive routes\, no separate abstract deadline) closed Jun 6\; general worksh
- op papers closed Aug 20. Individual workshops may set their own dates.
-CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Machine
-  Learning
-URL:https://icdm2026.neu.edu.cn/
-LOCATION:Shenyang\, China
-END:VEVENT
-BEGIN:VEVENT
-UID:adma-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261116
-SUMMARY:ADMA 2026 · Conference
-DESCRIPTION:International Conference on Advanced Data Mining and Applicatio
- ns\nStatus: confirmed\, checked 2026-10-28\nOfficial source: https://adma
- 2026.github.io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#adma
- -2026\nNotes: Official ADMA 2026 site confirms Hong Kong (Regal Riverside
-  Hotel\, Sha Tin)\, Nov 13-15\, 2026. Its dates page gives all deadlines 
- in AoE: main track Jul 17\, industry/special-session papers Jul 31 (both 
- extended)\, short papers Aug 7\, posters Sep 11. The earlier +08:00 cutof
- f was corrected to AoE.
-CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
- tial Data,Explainability & Interpretability
-URL:https://adma2026.github.io/
-LOCATION:Hong Kong\, China
-END:VEVENT
-BEGIN:VEVENT
 UID:sfn-neuroscience-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -573,7 +518,7 @@ DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270220
 SUMMARY:WSDM 2027 · Conference
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nSta
- tus: confirmed\, checked 2026-11-14\nOfficial source: https://www.wsdm-co
+ tus: confirmed\, checked 2026-11-18\nOfficial source: https://www.wsdm-co
  nference.org/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#w
  sdm-2027\nNotes: Official WSDM 2027 pages (rechecked 2026-10-30) list Hon
  g Kong (Cordis)\, Feb 15-19\, and AoE deadlines: full-paper abstract Aug 
@@ -615,14 +560,16 @@ DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270225
 SUMMARY:BCI Winter 2027 · Conference
 DESCRIPTION:International Winter Conference on Brain-Computer Interface\nSt
- atus: confirmed\, checked 2026-11-14\nOfficial source: https://brain.kore
+ atus: confirmed\, checked 2026-11-18\nOfficial source: https://brain.kore
  a.ac.kr/bci2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci
  -winter-2027\nNotes: Official 2027 site and CFP confirm February 22-24\, 
- 2027 at High1 Resort\, Jeongseon\, with papers due November 15\, 2026 (up
-  to 6 pages\, double-blind\, IEEE Xplore subject to quality review). No c
- utoff hour or zone is stated\; T23:59 AoE is provisional. The 2026 deadli
- ne moved from October to December\, so check for extensions. Size is an e
- ditorial estimate.
+ 2027 at High1 Resort\, Jeongseon. On 2026-11-18 the Important Dates page 
+ and CFP give papers due November 25\, 2026 (extended from November 15) an
+ d notification December 20 (extended from December 15)\; camera-ready sta
+ ys January 1\, 2027. Papers up to 6 pages\, double-blind\, IEEE Xplore su
+ bject to quality review. No cutoff hour or zone is stated\; T23:59 AoE is
+  provisional. The 2026 deadline moved from October to December\, so check
+  for further extensions. Size is an editorial estimate.
 CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
  ,Machine Learning
 URL:https://brain.korea.ac.kr/bci2027/
@@ -782,7 +729,7 @@ DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270403
 SUMMARY:EuroGP 2027 · Conference
 DESCRIPTION:European Conference on Genetic Programming\nStatus: confirmed\,
-  checked 2026-11-14\nOfficial source: https://www.evostar.org/2027/\nVenu
+  checked 2026-11-18\nOfficial source: https://www.evostar.org/2027/\nVenu
  e Radar: https://gon-uri.github.io/venue-radar/#eurogp-2027\nNotes: Offic
  ial EvoStar pages confirm Mainz\, March 31-April 2\, in hybrid mode. On 2
  026-10-30 the Important Dates page strikes November 1 and gives November 
@@ -865,7 +812,7 @@ DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270424
 SUMMARY:IDA 2027 · Conference
 DESCRIPTION:International Symposium on Intelligent Data Analysis\nStatus: c
- onfirmed\, checked 2026-11-14\nOfficial source: https://ida2027.eu/\nVenu
+ onfirmed\, checked 2026-11-18\nOfficial source: https://ida2027.eu/\nVenu
  e Radar: https://gon-uri.github.io/venue-radar/#ida-2027\nNotes: Official
   IDA 2027 site confirms the 25th symposium in Pisa\, Apr 21-23\, 2027 (ve
  nue TBA). Deadlines are labelled AoE\, but the regular-track CFP also say
@@ -995,7 +942,7 @@ DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270506
 SUMMARY:CLeaR 2027 · Conference
 DESCRIPTION:Conference on Causal Learning and Reasoning\nStatus: confirmed\
- , checked 2026-11-14\nOfficial source: https://www.cclear.cc/2027\nVenue 
+ , checked 2026-11-18\nOfficial source: https://www.cclear.cc/2027\nVenue 
  Radar: https://gon-uri.github.io/venue-radar/#clear-2027\nNotes: 6th CLea
  R (annual since 2022). Official pages give May 3-5\, 2027 at Sorbonne Uni
  versity's International Conference Center\, Paris\, planned in person wit
@@ -1038,7 +985,7 @@ DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270515
 SUMMARY:COLING 2027 · Conference
 DESCRIPTION:International Conference on Computational Linguistics\nStatus: 
- confirmed\, checked 2026-11-07\nOfficial source: https://2027.coling-iccl
+ confirmed\, checked 2026-11-18\nOfficial source: https://2027.coling-iccl
  .org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#coling-2027\nN
  otes: Main in-person window May 9-14\; separate virtual sessions May 6-7.
   Shared ARR cycle with NAACL does not permit dual commitment. Recent COLI
@@ -1557,7 +1504,7 @@ DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270703
 SUMMARY:ICAPS 2027 · Conference
 DESCRIPTION:International Conference on Automated Planning and Scheduling\n
- Status: confirmed\, checked 2026-11-14\nOfficial source: https://icaps27.
+ Status: confirmed\, checked 2026-11-18\nOfficial source: https://icaps27.
  icaps-conference.org/calls/cfp/\nVenue Radar: https://gon-uri.github.io/v
  enue-radar/#icaps-2027\nNotes: Official CFP confirms the meeting and 23:5
  9 UTC-12 abstract/paper deadlines. Learning and foundation-model papers r
@@ -1576,7 +1523,7 @@ DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270703
 SUMMARY:IPMI 2027 · Conference
 DESCRIPTION:International Conference on Information Processing in Medical I
- maging\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://
+ maging\nStatus: confirmed\, checked 2026-11-18\nOfficial source: https://
  2027.ipmi-conf.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
  ipmi-2027\nNotes: The 2027 site and the IPMI editions page confirm the 30
  th biennial IPMI\, June 27-July 2\, 2027\, at the Jouvence Center\, Lake 
@@ -1584,10 +1531,10 @@ DESCRIPTION:International Conference on Information Processing in Medical I
  y AoE. The site gives this as the submission deadline\, so it gates full 
  papers (December 14\, no extensions\, no hour\; provisional AoE). 12-page
   double-blind LNCS-format papers\; proceedings are traditionally LNCS. In
- -person attendance and one registration per paper are required. OpenRevie
- w opens in early November and had no IPMI group on 2026-10-31. Discussion
-  period January 18-29. Attendance is capped at 120\; 51 papers in 2025. S
- ize is an editorial estimate.
+ -person attendance and one registration per paper are required. The OpenR
+ eview Submission invitation opened Nov 7\, 2026 and is due Dec 7 AoE (che
+ cked 2026-11-18). Discussion period January 18-29. Attendance is capped a
+ t 120\; 51 papers in 2025. Size is an editorial estimate.
 CATEGORIES:Biomedical Imaging,Computer Vision & Pattern Recognition,Machine
   Learning
 URL:https://2027.ipmi-conf.org/
@@ -1681,13 +1628,15 @@ DTSTART;VALUE=DATE:20270629
 DTEND;VALUE=DATE:20270703
 SUMMARY:PAKDD 2027 · Conference
 DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
- nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://pakdd20
+ nStatus: confirmed\, checked 2026-11-18\nOfficial source: https://pakdd20
  27.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#pakdd-2027\n
- Notes: Official PAKDD 2027 site\, rechecked 2026-10-30\, confirms an in-p
- erson meeting in Wellington\, Jun 29-Jul 2. The Nov 20 AoE paper deadline
-  is shared by the Research\, new Applied Data Science\, Survey and LLM/Ag
- entic AI tracks\, with no extension\; camera-ready is Mar 19 AoE. Worksho
- p\, tutorial and doctoral consortium dates are still to be announced.
+ Notes: Official PAKDD 2027 site\, rechecked 2026-11-18\, confirms an in-p
+ erson meeting in Wellington\, Jun 29-Jul 2. The Research Track paper dead
+ line was extended from Nov 20 to Dec 4\, 2026 (AoE)\; the Applied Data Sc
+ ience\, Survey and LLM/Agentic AI tracks keep Nov 20 AoE. All four tracks
+  share the Feb 26\, 2027 notification and Mar 19 AoE camera-ready. Doctor
+ al consortium (Feb 12\, 2027) is not tracked as a paper route. Workshop a
+ nd tutorial dates are still to be announced.
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Learning Theory & Statistical Foundations
 URL:https://pakdd2027.org/
@@ -1828,7 +1777,7 @@ DTSTART;VALUE=DATE:20270707
 DTEND;VALUE=DATE:20270710
 SUMMARY:IFAC SYSID 2027 · Conference
 DESCRIPTION:IFAC Symposium on System Identification\nStatus: confirmed\, ch
- ecked 2026-11-14\nOfficial source: https://conferences.ifac-control.org/s
+ ecked 2026-11-18\nOfficial source: https://conferences.ifac-control.org/s
  ysid2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid
  -2027\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate p
  age strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 
@@ -1971,7 +1920,7 @@ DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:MIDL 2027 · Conference
 DESCRIPTION:Medical Imaging with Deep Learning\nStatus: confirmed\, checked
-  2026-11-14\nOfficial source: https://2027.midl.io/important-dates\nVenue
+  2026-11-18\nOfficial source: https://2027.midl.io/important-dates\nVenue
   Radar: https://gon-uri.github.io/venue-radar/#midl-2027\nNotes: Official
   2027 dates page confirms the July meeting and 23:59 AoE full-paper abstr
  act registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 12) 
@@ -2030,7 +1979,7 @@ DTSTART;VALUE=DATE:20270719
 DTEND;VALUE=DATE:20270724
 SUMMARY:ENOC 2027 · Conference
 DESCRIPTION:European Nonlinear Dynamics Conference\nStatus: confirmed\, che
- cked 2026-11-14\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
+ cked 2026-11-18\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
  ps://gon-uri.github.io/venue-radar/#enoc-2027\nNotes: 12th ENOC (EUROMECH
   ENOCC series\, triennial per ENOC 2024)\, July 19-23\, 2027\, P&J Live\,
   Aberdeen\, per enoc2027.com and EUROMECH. Only 2-page extended abstracts
@@ -2167,7 +2116,7 @@ DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270806
 SUMMARY:KDD 2027 · Conference
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-11-14\nOfficial source: https://kdd2027.k
+ tatus: confirmed\, checked 2026-11-18\nOfficial source: https://kdd2027.k
  dd.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027\nNo
  tes: Official site confirms San Jose McEnery Convention Center\, Aug 1-5.
   Cycle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 
@@ -2378,6 +2327,26 @@ DESCRIPTION:Annual Meeting of the Special Interest Group on Discourse and D
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use
 URL:https://www.sigdial.org/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:icann-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270828
+SUMMARY:ICANN 2027 · Conference
+DESCRIPTION:International Conference on Artificial Neural Networks\nStatus:
+  confirmed\, checked 2026-11-18\nOfficial source: https://e-nns.org/icann
+ 2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icann-2027\nNo
+ tes: The official ICANN 2027 page (2026-11-18) announces August 24-27\, 2
+ 027\, at Collegium\, Linköping Science Park\, Sweden\; it publishes no c
+ all or dates yet. Deadlines remain projections from ICANN 2026 (paper dea
+ dline first announced as March 16\, 2026\, later shown as March 9 and ext
+ ended to March 30\; notification May 29)\, so the call page and source li
+ nks still refer to the 2026 edition.
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://e-nns.org/icann2027/
+LOCATION:Linköping\, Sweden
 END:VEVENT
 BEGIN:VEVENT
 UID:ecaf-2027-conference@scientific-conference-calendar
@@ -2617,25 +2586,6 @@ URL:https://copa-conference.com/
 LOCATION:Genoa\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:icann-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270914
-DTEND;VALUE=DATE:20270918
-SUMMARY:ICANN 2027 (est.) · Conference
-DESCRIPTION:International Conference on Artificial Neural Networks\nStatus:
-  estimated\, checked 2026-11-14. Check the organizer's call before relyin
- g on it.\nPrevious edition's page: https://e-nns.org/icann2026/\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#icann-2027\nNotes: Provisiona
- l 1-year cadence projection from ICANN 2026. Meeting dates\, location\, a
- nd deadlines require organizer confirmation\; website and source links re
- fer to the prior edition. 2026-10-28 review - ENNS home\, news and ICANNs
-  pages show no ICANN 2027 announcement yet\; dates unchanged.
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://e-nns.org/icann2026/
-LOCATION:To be announced
-END:VEVENT
-BEGIN:VEVENT
 UID:bernstein-conference-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270915
@@ -2823,7 +2773,7 @@ DTSTART;VALUE=DATE:20270927
 DTEND;VALUE=DATE:20271002
 SUMMARY:MICCAI 2027 · Conference
 DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nStatus: confirmed\, checked 2026-11-14\nOfficial
+ r Assisted Intervention\nStatus: confirmed\, checked 2026-11-18\nOfficial
   source: https://conferences.miccai.org/2027/en/default.asp\nVenue Radar:
   https://gon-uri.github.io/venue-radar/#miccai-2027\nNotes: The MICCAI 20
  27 site gives Sep 27-Oct 1 at the NZ International Convention Centre\, Au
@@ -3855,6 +3805,26 @@ URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
 LOCATION:Guadalajara\, Mexico
 END:VEVENT
 BEGIN:VEVENT
+UID:icassp-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280528
+DTEND;VALUE=DATE:20280603
+SUMMARY:ICASSP 2028 · Conference
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nStatus: confirmed\, checked 2026-11-18\nOfficial source: ht
+ tps://2028.ieeeicassp.org/\nVenue Radar: https://gon-uri.github.io/venue-
+ radar/#icassp-2028\nNotes: ICASSP 2028 dates (28 May - 2 June 2028) and c
+ ity (Tokyo\, Japan) are published on the official 2028.ieeeicassp.org sit
+ e\; no venue\, call for papers or important dates were posted as of 2026-
+ 11-18. All deadlines are 1-year cadence projections from ICASSP 2027 and 
+ the cfp_url and deadline sources still refer to the 2027 edition. Mode as
+ sumed in-person as in prior editions.
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://2028.ieeeicassp.org/
+LOCATION:Tokyo\, Japan
+END:VEVENT
+BEGIN:VEVENT
 UID:acc-2028-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20280531
@@ -3877,6 +3847,49 @@ CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
  Reinforcement Learning
 URL:https://acc2028.a2c2.org/
 LOCATION:San Francisco\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280620
+DTEND;VALUE=DATE:20280626
+SUMMARY:CVPR 2028 (est.) · Conference
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nStatus: estimated\, checked 2026-10-30. Check the organizer's call befor
+ e relying on it.\nOfficial source: https://www.thecvf.com/?page_id=100\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#cvpr-2028\nNotes: Host
+  city San Antonio confirmed by the CVF conference list (with general and 
+ program chairs named). No official CVPR 2028 dates or site yet (cvpr.thec
+ vf.com/Conferences/2028 returns 404)\; meeting dates and all deadlines ar
+ e estimated 1-year projections from CVPR 2027. Third-party listings give 
+ 11-15 June 2028\, not official.
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://www.thecvf.com/?page_id=100
+LOCATION:San Antonio\, Texas\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280620
+DTEND;VALUE=DATE:20280624
+SUMMARY:ECC 2028 · Conference
+DESCRIPTION:European Control Conference\nStatus: confirmed\, checked 2026-1
+ 0-30\nOfficial source: https://euca-ecc.org/ecc/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#ecc-2028\nNotes: Meeting dates and host city
+  confirmed by the EUCA ECC page (Rimini\, Italy\, 20-23 June 2028). No EC
+ C 2028 edition website or call yet\; cfp_url and all deadlines are estima
+ ted 1-year projections from the ECC 2027 call\, whose paper deadline was 
+ extended from October 31 to November 9\, 2026 (the projection uses the ex
+ tended date). ECC 2028 meets about three weeks earlier in the year than E
+ CC 2027 (13-16 July)\, so the real deadlines may fall earlier. ECC is the
+  annual flagship of the European Control Association\, technically co-spo
+ nsored by IFAC and IEEE CSS\, with papers in IEEE Xplore (as for ECC 2027
+ ). Not listed in ICORE2026 or CCF. Size L is an editorial category.
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://euca-ecc.org/ecc/
+LOCATION:Rimini\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:areadne-2028-conference@scientific-conference-calendar

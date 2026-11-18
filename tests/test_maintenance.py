@@ -22,6 +22,7 @@ from maintenance_report import (  # noqa: E402
     acceptance_backlog,
     acceptance_queue,
     advisories,
+    decision_backlog,
     is_aggregator,
     next_route_action,
     render_json,
@@ -52,6 +53,29 @@ def edition(**overrides: Any) -> dict[str, Any]:
 def deadline(kind: str, day: str, **extra: Any) -> dict[str, Any]:
     return {"type": kind, "label": kind, "datetime": f"{day}T23:59:00-12:00",
             "source_url": f"https://example.org/{kind}", **extra}
+
+
+class DecisionBacklogTests(unittest.TestCase):
+    def test_lists_open_main_paper_editions_without_a_decision_date_soonest_first(self) -> None:
+        later = edition(id="later-2027", short_title="Later 2027",
+                        deadlines=[deadline("full_paper", "2027-02-01")])
+        sooner = edition(id="sooner-2027", short_title="Sooner 2027", cfp_url="https://example.org/cfp",
+                         deadlines=[deadline("regular_paper", "2026-11-20")])
+        decided = edition(id="decided-2027", deadlines=[deadline("full_paper", "2027-01-01"),
+                                                        deadline("notification", "2027-03-01")])
+        closed = edition(id="closed-2027", deadlines=[deadline("full_paper", "2026-10-01")])
+        abstract_only = edition(id="abstract-2027", deadlines=[deadline("abstract", "2027-01-01")])
+        rows = decision_backlog([later, sooner, decided, closed, abstract_only], AS_OF)
+        self.assertEqual([row.name for row in rows], ["Sooner 2027", "Later 2027"])
+        self.assertEqual(rows[0], BacklogRow("Sooner 2027", "no decision date; main paper due 2026-11-20",
+                                             "https://example.org/cfp"))
+
+    def test_report_renders_the_decision_backlog_in_editions(self) -> None:
+        rows = [BacklogRow("Sample 2027", "no decision date; main paper due 2027-01-01", "https://example.org")]
+        report = Report(AS_OF, 30, 1, [], [], [], [], [], [], [], decisions=rows)
+        self.assertIn("Decision dates: 1 editions", render_text(report, 5))
+        self.assertIn("### Decision date backlog: 1 editions", render_markdown(report, 5))
+        self.assertEqual(json.loads(render_json(report, 5))["decisions"]["count"], 1)
 
 
 class MaintenanceTests(unittest.TestCase):

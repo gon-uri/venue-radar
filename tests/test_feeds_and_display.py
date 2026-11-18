@@ -12,7 +12,7 @@ from datetime import date
 
 from build_ics import (FEED_SIZE_LIMIT, SITE_URL, _escape_text, _topic_groups, build_calendars, edition_last_day,
                        feed_reference_date, is_past_edition, series_groups, series_slug)
-from build_site import _clock_label, _deadline_grid_rows, _milestones, _successors
+from build_site import _clock_label, _deadline_grid_rows, _milestone_label, _milestones, _previous_dates, _successors
 from validate import SUBMISSION_TYPES, load_conferences, stable_slug
 
 
@@ -79,6 +79,35 @@ class ClockDisplayTests(unittest.TestCase):
         self.assertEqual(successors["neurips-2026"]["id"], "neurips-2027")
         self.assertEqual(successors["lod-2026"]["id"], "ais-2027")
         self.assertEqual(successors["ts4h-2025"]["id"], "sd4h-2026", "SD4H continues TS4H (owner decision)")
+
+
+class ProvenanceTests(unittest.TestCase):
+    """ADR-055: an estimated milestone names the last confirmed date it rests on."""
+
+    def edition(self, year, confidence, deadlines, **extra):
+        return {"id": f"s-{year}", "series": "S", "year": year, "confidence": confidence,
+                "conference_start": f"{year}-06-01", "conference_end": f"{year}-06-03", "timezone": "UTC", "website": f"https://s{year}.org",
+                "deadlines": deadlines, **extra}
+
+    def test_nearest_confirmed_same_type_milestone_with_its_source(self):
+        older = self.edition(2025, "confirmed", [{"type": "full_paper", "label": "Paper", "datetime": "2025-01-28T23:59:00-12:00",
+                                                  "source_url": "https://s2025.org/dates"}])
+        gap = self.edition(2026, "confirmed", [{"type": "abstract", "label": "Abstract", "datetime": "2026-01-20T23:59:00-12:00"}])
+        target = self.edition(2027, "estimated", [{"type": "full_paper", "label": "Paper", "datetime": "2027-01-28T23:59:00-12:00"},
+                                                  {"type": "notification", "label": "Decision", "datetime": "2027-04-01T23:59:00-12:00"}])
+        previous = _previous_dates([older, gap, target])
+        self.assertEqual(previous[("s-2027", "full_paper")], {"date": "January 28, 2025", "url": "https://s2025.org/dates"})
+        self.assertNotIn(("s-2027", "notification"), previous, "no earlier edition stored one")
+        self.assertEqual(previous[("s-2027", "conference_start")]["url"], "https://s2026.org")
+        self.assertFalse([key for key in previous if key[0] != "s-2027"], "confirmed milestones carry no provenance")
+        milestone = next(m for m in _milestones(target, previous) if m["type"] == "full_paper")
+        html = _deadline_grid_rows([milestone])
+        self.assertIn('<span class="deadline-basis">Last edition: <a href="https://s2025.org/dates">January 28, 2025</a></span>', html)
+
+    def test_estimated_rows_drop_a_leading_estimated_word(self):
+        self.assertEqual(_milestone_label("Estimated paper author notification", True), "Paper author notification")
+        self.assertEqual(_milestone_label("Estimated paper author notification", False), "Estimated paper author notification")
+        self.assertEqual(_milestone_label("Paper submission deadline", True), "Paper submission")
 
 
 class FeedTests(unittest.TestCase):

@@ -542,12 +542,61 @@ def _filter_attributes(
     )
 
 
-def _milestones(conference: dict[str, Any]) -> list[dict[str, Any]]:
+def _previous_dates(conferences: list[dict[str, Any]]) -> dict[tuple[str, str], dict[str, str]]:
+    """Estimate provenance (ADR-055): for each estimated milestone, the same
+    milestone type in the nearest earlier edition of the series where it was
+    confirmed, with that milestone's source. Maps (edition id, type) to
+    {"date", "url"}."""
+    by_series: dict[str, list[dict[str, Any]]] = {}
+    for item in conferences:
+        by_series.setdefault(item["series"], []).append(item)
+    previous: dict[tuple[str, str], dict[str, str]] = {}
+    for item in conferences:
+        earlier = sorted((other for other in by_series[item["series"]] if other["year"] < item["year"]),
+                         key=lambda other: other["year"], reverse=True)
+        for deadline in item.get("deadlines", []):
+            if deadline.get("confidence", item["confidence"]) == "confirmed":
+                continue
+            for other in earlier:
+                match = next((d for d in other.get("deadlines", []) if d["type"] == deadline["type"]
+                              and d.get("confidence", other["confidence"]) == "confirmed"), None)
+                if match:
+                    previous[(item["id"], deadline["type"])] = {
+                        "date": _display_deadline_datetime(match["datetime"]),
+                        "url": _deadline_source_url(other, match),
+                    }
+                    break
+        if item["confidence"] in {"estimated", "not_yet_announced", "stale"}:
+            # An estimated meeting rests on the last confirmed meeting's dates.
+            meeting = next((other for other in earlier if other["confidence"] == "confirmed"), None)
+            if meeting:
+                previous[(item["id"], "conference_start")] = {
+                    "date": _display_deadline_datetime(f'{meeting["conference_start"]}T00:00:00Z'),
+                    "url": meeting["website"],
+                }
+    return previous
+
+
+def _milestone_label(label: str, estimated: bool) -> str:
+    """Display label; an estimated row already shows "(est.)", so a leading
+    "Estimated" in the stored label is dropped (as in calendar titles, ADR-044)."""
+    shown = _display_deadline_label(label)
+    if estimated:
+        shown = re.sub(r"^Estimated\s+", "", shown)
+        shown = shown[:1].upper() + shown[1:]
+    return shown
+
+
+def _milestones(conference: dict[str, Any],
+                previous: dict[tuple[str, str], dict[str, str]] | None = None) -> list[dict[str, Any]]:
     milestones = []
+    previous = previous or {}
     for deadline in conference.get("deadlines", []):
+        estimated = deadline.get("confidence", conference["confidence"]) != "confirmed"
         milestones.append({
+            "previous": previous.get((conference.get("id"), deadline["type"])),
             "type": deadline["type"],
-            "label": _display_deadline_label(deadline["label"]),
+            "label": _milestone_label(deadline["label"], estimated),
             "datetime": deadline["datetime"],
             "estimated": deadline.get("confidence", conference["confidence"]) != "confirmed",
             "approximate_time": deadline.get("time_precision") == "date",
@@ -568,6 +617,7 @@ def _milestones(conference: dict[str, Any]) -> list[dict[str, Any]]:
                 "show_time": True,
             })
     milestones.append({
+        "previous": previous.get((conference.get("id"), "conference_start")),
         "type": "conference_start",
         "label": "Conference starts",
         "datetime": f'{conference["conference_start"]}T00:00:00Z',
@@ -619,12 +669,17 @@ def _deadline_grid_rows(milestones: list[dict[str, Any]], grid_id: str = "") -> 
                 clock = f'<span class="deadline-clock-wrap">{clock}{mark}</span>'
             else:
                 when = f'<span class="deadline-clock-wrap is-date">{when}{mark}</span>'
+        basis = ""
+        if milestone.get("previous"):
+            # What an estimate rests on: the confirmed date in the last edition that had it.
+            basis = (f'<span class="deadline-basis">Last edition: '
+                     f'<a href="{_attr(milestone["previous"]["url"])}">{escape(milestone["previous"]["date"])}</a></span>')
         rows.append(
             f'<div class="deadline-grid-row" data-deadline-row data-entry-index="{index}" '
             f'data-deadline-type="{_attr(milestone["type"])}"{row_hidden}>'
             f"{when}{clock}{estimate}"
             f'<span class="deadline-milestone">'
-            f"{escape(milestone['label'])}</span>{local}{note}"
+            f"{escape(milestone['label'])}</span>{basis}{local}{note}"
             f'<span class="deadline-passed" data-deadline-passed="{_attr(deadline_utc)}"></span>'
             "</div>"
         )
@@ -652,9 +707,10 @@ def _deadline_group_rows(
     successors: dict[str, dict[str, Any]] | None = None,
 ) -> str:
     successors = successors or {}
+    previous = _previous_dates(conferences)
     rows = []
     for conference in conferences:
-        milestones = _milestones(conference)
+        milestones = _milestones(conference, previous)
         search_extras = []
         for deadline in conference.get("deadlines", []):
             # Labels and types are searchable; source URLs are not (they made
@@ -818,7 +874,7 @@ def _checkbox_group(
 FEED_ROWS = [
     ("submissions.ics", "Submission deadlines",
      "New-paper and abstract deadlines, including required registration steps"),
-    ("calendar-all.ics", "All events", "Meeting dates plus every recorded milestone"),
+    ("calendar-all.ics", "All events", "Meeting dates and milestones of current and upcoming editions"),
     ("conferences.ics", "Conference dates", "Meeting dates only"),
 ]
 
@@ -1017,7 +1073,7 @@ def build_site(
     #panel-conferences[hidden] {{ display: block !important; }}
     .deadline-grid-row[hidden] {{ display: flex !important; }}
     .evidence-line {{ display: flex !important; }}
-    .about-venue {{ display: block !important; }}
+    .about-venue, .deadline-basis {{ display: block !important; }}
     .status-guide-live {{ display: none !important; }}
     .table-tabs, .open-toggle, .horizon, .toolbar-actions, .filter-section, .map-section,
     .deadline-toggle, .calendar-menu > .calendar-panel .feed-picker, [data-copy-feed] {{ display: none !important; }}

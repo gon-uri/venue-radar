@@ -47,32 +47,50 @@ DTSTART:20270317T115900Z
 DTEND:20270317T125900Z
 SUMMARY:ICANN 2027 (est.) · Full paper and abstract submission deadline
 DESCRIPTION:International Conference on Artificial Neural Networks\nMeeting
- : 2027-09-14 to 2027-09-17 (est.)\, To be announced\nStatus: estimated\, 
- checked 2026-11-14. Check the organizer's call before relying on it.\nFor
- mat: Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: 
- https://e-nns.org/icann2026/\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#icann-2027
+ : 2027-08-24 to 2027-08-27\, Linköping\, Sweden\nStatus: estimated\, che
+ cked 2026-11-18. Check the organizer's call before relying on it.\nFormat
+ : Paper-based\; Archival option: Yes (est.)\nPrevious edition's page: htt
+ ps://e-nns.org/icann2026/\nVenue Radar: https://gon-uri.github.io/venue-r
+ adar/#icann-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
  oscience,Signal Processing
 URL:https://e-nns.org/icann2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:icann-2027-conference@scientific-conference-calendar
+UID:icann-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270914
-DTEND;VALUE=DATE:20270918
-SUMMARY:ICANN 2027 (est.) · Conference
-DESCRIPTION:International Conference on Artificial Neural Networks\nStatus:
-  estimated\, checked 2026-11-14. Check the organizer's call before relyin
- g on it.\nPrevious edition's page: https://e-nns.org/icann2026/\nVenue Ra
- dar: https://gon-uri.github.io/venue-radar/#icann-2027\nNotes: Provisiona
- l 1-year cadence projection from ICANN 2026. Meeting dates\, location\, a
- nd deadlines require organizer confirmation\; website and source links re
- fer to the prior edition. 2026-10-28 review - ENNS home\, news and ICANNs
-  pages show no ICANN 2027 announcement yet\; dates unchanged.
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:ICANN 2027 (est.) · Notification of acceptance or rejection
+DESCRIPTION:International Conference on Artificial Neural Networks\nMeeting
+ : 2027-08-24 to 2027-08-27\, Linköping\, Sweden\nStatus: estimated\, che
+ cked 2026-11-18. Check the organizer's call before relying on it.\nEstima
+ ted day only\; no cutoff hour stored. Check the organizer's call for the 
+ real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\nP
+ revious edition's page: https://e-nns.org/icann2026/important-dates/\nVen
+ ue Radar: https://gon-uri.github.io/venue-radar/#icann-2027
 CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
  oscience,Signal Processing
-URL:https://e-nns.org/icann2026/
-LOCATION:To be announced
+URL:https://e-nns.org/icann2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:icann-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270828
+SUMMARY:ICANN 2027 · Conference
+DESCRIPTION:International Conference on Artificial Neural Networks\nStatus:
+  confirmed\, checked 2026-11-18\nOfficial source: https://e-nns.org/icann
+ 2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#icann-2027\nNo
+ tes: The official ICANN 2027 page (2026-11-18) announces August 24-27\, 2
+ 027\, at Collegium\, Linköping Science Park\, Sweden\; it publishes no c
+ all or dates yet. Deadlines remain projections from ICANN 2026 (paper dea
+ dline first announced as March 16\, 2026\, later shown as March 9 and ext
+ ended to March 30\; notification May 29)\, so the call page and source li
+ nks still refer to the 2026 edition.
+CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
+ oscience,Signal Processing
+URL:https://e-nns.org/icann2027/
+LOCATION:Linköping\, Sweden
 END:VEVENT
 END:VCALENDAR

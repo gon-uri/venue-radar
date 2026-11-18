@@ -62,8 +62,8 @@ Approved with ADR-039 (implementation proposal; adjust wording here first):
 - Button: Subscribe to calendar. Caption: Auto-updating .ics feeds.
 - Intro: Subscribed feeds update automatically when Venue Radar changes.
 - Rows: Submission deadlines (New-paper and abstract deadlines, including
-  required registration steps); All events (Meeting dates plus every recorded
-  milestone); Conference dates (Meeting dates only); One topic (All events for
+  required registration steps); All events (Meeting dates and milestones of
+  current and upcoming editions; reworded 2026-11-17 for ADR-053); Conference dates (Meeting dates only); One topic (All events for
   a subtopic); One conference series (Every edition, including future ones).
 - Actions: Google, Apple, Copy link, Download. Note: Outlook: Add calendar ->
   Subscribe from web, then paste a copied link. Google can take up to a day to
@@ -137,6 +137,14 @@ Approved with ADR-040:
 - Disclosure label: "About this venue" with a right-side + (− when open). It
   holds the sourced scope summary, plus "(from the <year> call)" when the
   profile comes from an earlier edition.
+
+## Estimate Provenance (ADR-055, approved 2026-11-18)
+
+- Under an estimated milestone in the expanded schedule: "Last edition:
+  <Month D, YYYY>", the date linked to that edition's source page. Estimated
+  meeting starts cite the last confirmed meeting. Never on confirmed rows.
+- Estimated rows drop a stored label's leading "Estimated" (the row already
+  shows "(est.)"), as calendar titles do since ADR-044.
 
 ## Time-Range Buttons (ADR-051, approved 2026-11-14)
 

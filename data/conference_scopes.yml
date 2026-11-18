@@ -2202,3 +2202,976 @@ ASLI:
     - https://2027.ieeeasli.org/call-for-papers/
   scope_last_checked: '2026-10-31'
   source_year: 2027
+
+# Profiles added 2026-11-18 (ADR-054 review round): drafted from official pages
+# and independently verified; see review_2026-11-18.md.
+
+AAAI:
+  additional_topics:
+    - Natural Language Processing & LLMs
+    - Computer Vision & Pattern Recognition
+    - Knowledge Representation & Reasoning
+    - Planning & Search
+    - Autonomous Agents & Multiagent Systems
+    - Human-AI Interaction & Deployment
+  scope_summary: >-
+    General artificial-intelligence conference covering AI broadly conceived.
+    Submission areas include machine learning, natural language processing,
+    computer vision, data mining and knowledge management, multiagent systems,
+    game theory, knowledge representation and reasoning, constraint
+    satisfaction, search, planning and scheduling, reasoning under uncertainty,
+    intelligent robotics, humans and AI, cognitive modeling, and the philosophy
+    and ethics of AI. Work that cuts across technical areas of AI, or bridges AI
+    with fields such as neuroscience and cognitive science, is explicitly
+    encouraged. Main-track papers share one review process; separate special
+    tracks on AI alignment and AI for social impact use their own review
+    rubrics.
+  scope_source_urls:
+    - https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+    - https://aaai.org/conference/aaai/aaai-27/areas-and-topics/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+ACC:
+  additional_topics: []
+  scope_summary: >-
+    Annual conference of the American Automatic Control Council, the U.S.
+    national member organization of IFAC, co-sponsored by IEEE-CSS, ASME, AIAA,
+    AIChE, SIAM, INFORMS and other societies. Submissions are encouraged in all
+    areas of the theory and practice of automatic control, presented as
+    contributed regular papers, invited and tutorial sessions, and special
+    sessions. Papers submitted to IEEE Control Systems Letters may also be
+    presented at ACC.
+  scope_source_urls:
+    - https://acc2028.a2c2.org/call-for-papers/
+    - https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.pdf
+  scope_last_checked: '2026-11-18'
+  source_year: 2028
+
+ACPR:
+  additional_topics:
+    - Signal Processing
+    - Biomedical Imaging
+  scope_summary: >-
+    IAPR-supported Asian conference on pattern recognition covering computer
+    vision, image, speech and sensor pattern processing, and machine
+    intelligence. Topics span pattern recognition and machine learning (neural
+    networks, classification and clustering, structural pattern recognition,
+    deep and transfer learning), computer and robot vision (detection, tracking,
+    scene understanding, 3D vision, computational photography), signal, speech
+    and video processing, document analysis and handwriting recognition,
+    biometrics, multimedia analysis and retrieval, and biomedical imaging and
+    bioinformatics. It is a four-day single-track event with main conference,
+    tutorials and workshops.
+  scope_source_urls:
+    - http://acpr2027.com/?CFP/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+ADMA:
+  additional_topics: []
+  scope_summary: >-
+    International forum for original research in data mining, spanning
+    algorithms, software, systems and applications. Its topics cover data-mining
+    foundations and algorithms, stream, graph, spatial-temporal, text,
+    multimedia and web mining, social networks, correlation and causality
+    analysis, recommender systems, deep and generative models for data mining,
+    trustworthy, private and federated data mining, and parallel and distributed
+    mining. A broad applications list covers healthcare, finance, e-commerce,
+    IoT, education, smart cities, cybersecurity and the sciences. Papers go to a
+    research track, an industry track for deployed solutions, or special
+    sessions, and appear in Springer LNAI.
+  scope_source_urls:
+    - https://adma2027.github.io/call_for_papers.html
+    - https://adma2026.github.io/call_for_papers.html
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+AIME:
+  additional_topics:
+    - Natural Language Processing & LLMs
+    - Knowledge Representation & Reasoning
+    - Explainability & Interpretability
+    - Human-AI Interaction & Deployment
+  scope_summary: >-
+    Artificial intelligence in medicine and healthcare: original AI methods,
+    systems and applications for medical problems. Methodological areas include
+    multimodal, generative and foundation models, causal inference,
+    reinforcement and transfer learning, federated and privacy-preserving
+    methods, knowledge graphs, ontologies and symbolic reasoning, Bayesian
+    networks, clinical NLP, and biomedical imaging and signal processing.
+    Application areas cover clinical decision support, deployment and human-AI
+    collaboration in care workflows, mHealth and remote monitoring, public
+    health, omics and precision medicine, and AI-driven drug discovery.
+    Explainability, fairness, regulation and safe evaluation are cross-cutting
+    themes.
+  scope_source_urls:
+    - https://aime27.aimedicine.info/call-for-papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+Bernstein Conference:
+  additional_topics:
+    - Cognitive Science & Computational Cognition
+    - Nonlinear Dynamics & Chaos
+    - BCI & Neurotechnology
+  scope_summary: >-
+    Annual meeting of the Bernstein Network for the international computational
+    neuroscience community. Abstract categories cover data analysis, machine
+    learning and neuroinformatics; learning, plasticity and memory; motor
+    control and navigation; attention, reward and decision making; behavior and
+    cognition; brain disease and intervention; single neurons and biophysics;
+    networks and dynamical systems; sensory processing and perception; and
+    neurotechnology. Contributions are short abstracts (up to 2,500 characters)
+    for posters or contributed talks, with contributed talks chosen by
+    double-blind review; there are no full proceedings papers.
+  scope_source_urls:
+    - https://bernstein-network.de/en/bernstein-conference/general-information/important-dates-faq/
+    - https://bernstein-network.de/en/bernstein-conference/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+BIOMAG:
+  additional_topics: []
+  scope_summary: >-
+    Biennial international conference of the biomagnetism community, centered on
+    the precise measurement of magnetic fields generated by the human body, with
+    particular attention to brain function and to continuing innovation in
+    magnetic sensor technologies, including optically pumped magnetometers
+    (OPMs). Work spans cognitive and clinical neuroscience, cardiology and
+    analysis software. Contributions are submitted as abstracts and presented in
+    symposia, oral and poster sessions rather than as full papers.
+  scope_source_urls:
+    - https://mm.scimeeting.cn/en/web/index/31426
+    - https://mm.scimeeting.cn/en/web/index/31426_3480231
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+CCS:
+  additional_topics:
+    - Artificial Life & Adaptive Systems
+  scope_summary: >-
+    Flagship conference of the Complex Systems Society, covering complex-systems
+    research across disciplines. Topics include theoretical foundations,
+    nonlinear dynamics and chaos, systems and information theory, game and
+    decision theory with socio-economic applications, self-organization, pattern
+    formation and collective behavior, structure and dynamics of complex
+    networks, sustainability and adaptability, bio-inspired systems, machine
+    learning and evolutionary computation, and data-driven approaches to complex
+    systems. Contributions are abstracts for oral and poster presentations.
+  scope_source_urls:
+    - https://comdig.cssociety.org/2026/04/06/call-for-abstracts-ccs-2026-the-2026-conference-on-complex-systems-binghamton-ny-usa/
+    - https://ccs27.pwr.edu.pl/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+CHI:
+  additional_topics:
+    - Computer Graphics & Visualization
+  scope_summary: >-
+    Flagship venue for original research from all areas of human-computer
+    interaction, from academia or industry and spanning science, engineering,
+    craft, analysis and design. In 2026 papers were reviewed by subcommittees
+    covering accessibility and aging, interactive systems and tools, novel
+    devices and fabrication, computational interaction, critical computing and
+    sustainability, design, games, health, interaction techniques, collaboration
+    and group interaction, learning and families, privacy and security, specific
+    application areas, empirical understanding of people, user experience, and
+    visualization.
+  scope_source_urls:
+    - https://chi2027.acm.org/authors/papers/
+    - https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+CNS*:
+  additional_topics:
+    - Systems & Experimental Neuroscience
+  scope_summary: >-
+    Annual meeting of the Organization for Computational Neurosciences on the
+    development, simulation and analysis of multi-scale models and theories of
+    neural function, from molecules and cells through networks to cognition and
+    behavior. It welcomes experimental, model-based and theoretical approaches
+    to neurobiological computation, particularly work that integrates experiment
+    and theory, as well as new technical solutions, methods and software for
+    computational neuroscience. Contributions are structured short abstracts for
+    posters and talks; accepted abstracts are published with individual DOIs.
+  scope_source_urls:
+    - https://ocns.memberclicks.net/cns-2026-abstract-submission
+    - https://www.cnsorg.org/computational-neuroscience
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+COSYNE:
+  additional_topics:
+    - Systems & Experimental Neuroscience
+  scope_summary: >-
+    Meeting for experimental and theoretical approaches to problems in systems
+    neuroscience, bringing together experimentalists and theoreticians
+    interested in the functional properties of neural systems, with
+    computational biology and related fields. Pure machine-learning studies
+    without ties to the brain, and single-neuron studies without clear
+    implications for neural systems, are typically not accepted. Contributions
+    are two-page abstracts for posters and talks; the published summaries are
+    citable but are not full proceedings and do not preclude later publication.
+  scope_source_urls:
+    - https://www.cosyne.org/abstracts-submission
+    - https://www.cosyne.org/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+Discovery Science:
+  additional_topics:
+    - Probabilistic, Causal & Uncertainty ML
+  scope_summary: >-
+    Forum for AI and data-science methods for discovering and advancing
+    scientific knowledge, drawing on machine learning, data mining, intelligent
+    data analysis and big-data analytics, and their application in the physical,
+    life, environmental and social sciences. Methods that automate all or part
+    of the discovery process, such as hypothesis generation, causal discovery
+    and equation discovery, are central. General ML and data-mining topics are
+    also welcome, including causal modeling, physics-informed and neuro-symbolic
+    learning, data streams and concept drift, time series, graphs and complex
+    networks, process discovery and explainable AI. Accepted main-track papers
+    appear in Springer LNCS.
+  scope_source_urls:
+    - https://discovery-science.org/main-research-track/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+DSAA:
+  additional_topics:
+    - Learning Theory & Statistical Foundations
+  scope_summary: >-
+    Interdisciplinary data-science and analytics conference joining statistics
+    (via ASA) with computing and information sciences (via IEEE and ACM). The
+    research track covers data-science foundations and theory, mathematics and
+    statistics for analytics, data characteristics and quality, machine, deep
+    and statistical learning, generative AI and LLMs, knowledge discovery,
+    optimization and inference, and evaluation, explanation and visualization.
+    An application, data and benchmark track requires real problems and problem
+    owners across business, government, health, science and engineering,
+    including deployment, infrastructure, ethics, privacy and fairness. The call
+    also plans journal tracks with Machine Learning and JDSA.
+  scope_source_urls:
+    - https://dsaa.co/dsaa2026-calls-for-papers/
+    - https://dsaa.co/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+ECAI:
+  additional_topics:
+    - Knowledge Representation & Reasoning
+    - Planning & Search
+    - Autonomous Agents & Multiagent Systems
+    - Natural Language Processing & LLMs
+    - Probabilistic, Causal & Uncertainty ML
+    - Human-AI Interaction & Deployment
+  scope_summary: >-
+    The European general artificial-intelligence conference, organized by EurAI,
+    welcoming contributions on all aspects of AI. Its last standalone call
+    (2025) listed machine learning and data mining alongside symbolic and
+    agent-based AI: knowledge representation and reasoning, constraints and
+    satisfiability, planning and search, uncertainty in AI, multiagent systems,
+    and game theory and economic paradigms. Natural language processing,
+    computer vision, intelligent robotics, humans and AI, and fairness, ethics
+    and trust were also named areas, as were multidisciplinary topics. It is a
+    broad AI venue rather than a machine-learning-only conference.
+  scope_source_urls:
+    - https://ecai2025.org/call-for-papers/
+    - https://ecai2027.org/
+  scope_last_checked: '2026-11-18'
+  source_year: 2025
+
+ECC:
+  additional_topics: []
+  scope_summary: >-
+    The annual European Control Conference of the European Control Association
+    (EUCA), on control theory and its applications. Its topic list spans linear,
+    nonlinear, hybrid, stochastic, uncertain, robust, multivariable and
+    decentralized control, estimation, modeling, optimization, fault detection
+    and management, networked control systems and learning systems. Application
+    areas include automotive, aerospace, process, manufacturing, transportation,
+    mechatronics, robotics and biological and medical systems. The call
+    explicitly encourages papers on recent advances in applied control research
+    for industry.
+  scope_source_urls:
+    - https://ecc27.euca-ecc.org/call-for-papers/
+    - https://ecc27.euca-ecc.org/topics/
+    - https://ecc27.euca-ecc.org/about-the-ecc/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+ECML PKDD:
+  additional_topics: []
+  scope_summary: >-
+    European conference on machine learning and knowledge discovery in
+    databases. Its research track solicits papers in all fields of machine
+    learning, knowledge discovery and data mining that improve the state of the
+    art or provide new theoretical insights. The program also includes an
+    applied data science track, a demo track, an industry track, a PhD forum,
+    workshops, tutorials and a discovery challenge. The research call gives no
+    detailed topic list, so both methodological and applied work across machine
+    learning and data mining is in scope.
+  scope_source_urls:
+    - https://ecmlpkdd.org/2026/submissions-research-track/
+    - https://ecmlpkdd.org/2026/
+    - https://ecmlpkdd.org/2027/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+ESANN:
+  additional_topics: []
+  scope_summary: >-
+    A single-track European symposium on artificial neural networks, machine
+    learning, statistical information processing and computational intelligence.
+    Its central topics are mathematical foundations, algorithms, and ML tools
+    and methods for generic use: neural networks and deep learning, kernel
+    machines, graphical models and Bayesian learning, clustering and
+    self-organizing maps, recurrent networks and dynamical systems, time-series
+    forecasting, dimensionality reduction and statistical aspects of learning.
+    Applications are not a central focus. Application papers are considered only
+    if their scope is of generic interest to most participants.
+  scope_source_urls:
+    - https://www.esann.org/node/3
+    - https://www.esann.org/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+EUSIPCO:
+  additional_topics:
+    - Biomedical Imaging
+  scope_summary: >-
+    The European Signal Processing Conference of EURASIP (European Association
+    for Signal Processing), on signal processing theory, methods and
+    applications. Technical sessions follow EURASIP's technical area committees:
+    acoustic, speech and music signal processing; information forensics and
+    security; biomedical image and signal analytics; signal and data analytics
+    for machine learning; signal processing for communications and networking;
+    sensor array and multichannel processing; theoretical and methodological
+    trends; and visual information processing. Original research appears as
+    five-page papers.
+  scope_source_urls:
+    - https://eusipco2027.de/conference-papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+ICANN:
+  additional_topics:
+    - Neuromorphic & Brain-inspired Computing
+    - Graphs & Graph Learning
+  scope_summary: >-
+    Annual conference, organized with the European Neural Network Society, on
+    artificial intelligence, neural networks, neuroscience and brain-inspired
+    computing. The AI/ML strand covers neural network theory and new
+    architectures, graph neural networks and learning on graphs, explainable AI,
+    large language models, clustering and reinforcement learning. The
+    neuroscience strand covers theoretical and cognitive neuroscience,
+    spike-train decoding, functional neuroimaging, neuromorphic systems and
+    virtual brain models. Application topics include biosignal processing,
+    medicine, speech and language, vision, robotics and drug discovery.
+  scope_source_urls:
+    - https://e-nns.org/icann2026/conference-topics/
+    - https://e-nns.org/icann2026/call-for-papers/
+    - https://e-nns.org/icann2027/about/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+ICASSP:
+  additional_topics: []
+  scope_summary: >-
+    The IEEE Signal Processing Society's annual conference on acoustics, speech
+    and signal processing. The call spans signal processing theory and methods,
+    audio and acoustics, speech and language processing, image, video and
+    multidimensional processing, computational imaging and computer vision,
+    biomedical imaging and signal processing, and sensor-array and multichannel
+    processing. It also covers communications, information forensics and
+    security, sparse modeling, signal processing over graphs, machine learning
+    and generative AI, and emerging areas such as quantum and green signal
+    processing.
+  scope_source_urls:
+    - https://2027.ieeeicassp.org/call-for-papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+ICDM:
+  additional_topics:
+    - Graphs & Graph Learning
+  scope_summary: >-
+    The IEEE international research conference on data mining, covering
+    algorithms, software, systems and applications. Topics include foundations,
+    models and theory of data mining including big data, deep learning and
+    statistical methods, and mining of heterogeneous data such as text, graphs,
+    streams, web and multimedia. Also listed are scalable, secure and
+    privacy-aware systems, modeling, visualization, personalization and
+    recommendation, cyber-physical systems and time-evolving networks, and data
+    mining with large models. The call encourages emerging topics such as
+    interpretable and ethical analytics, evolving environments and multi-modal
+    mining. A separate applied track takes deployed systems, interdisciplinary
+    applications, datasets and benchmarks.
+  scope_source_urls:
+    - https://www3.cs.stonybrook.edu/~icdm2026/calls/list.htm
+    - https://www3.cs.stonybrook.edu/~icdm2026/CallforAppliedTrack/list.htm
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+ICONIP:
+  additional_topics:
+    - Cognitive Science & Computational Cognition
+  scope_summary: >-
+    Annual conference of the Asia Pacific Neural Network Society on neural
+    information processing theory and applications. Its call has four strands.
+    Theory and algorithms covers machine learning, neural network models,
+    neurodynamics, optimization, pattern recognition, causality and explainable
+    AI, generative and responsible AI, and time-series analysis. Cognitive
+    neurosciences covers affective and cognitive learning, brain-machine
+    interfaces, computational psychiatry, neuroeconomics, neural data analysis,
+    reasoning, sensory perception and social cognition. Human-centred computing
+    and applications span healthcare and bioinformatics, human-computer
+    interaction, neuromorphic hardware, recommender systems, vision, language
+    processing, robotics and control, and information retrieval.
+  scope_source_urls:
+    - https://iconip2026.org/call-for-papers
+    - https://iconip2025.apnns.org/call-for-papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+ICPR:
+  additional_topics:
+    - Biometrics & Human Sensing
+    - Signal Processing
+  scope_summary: >-
+    The leading conference of the International Association for Pattern
+    Recognition, on pattern-recognition methods and their application. The main
+    topic areas are machine learning and AI in pattern recognition, computer and
+    robot vision, image, speech, signal and video processing, biometrics and
+    human-computer interaction, document analysis and recognition, and
+    biomedical image analysis and bioinformatics. It is a broad
+    pattern-recognition venue spanning vision, signals and documents, not only
+    computer vision.
+  scope_source_urls:
+    - https://icpr2028.org/cfp/
+    - https://icpr2028.org/wp-content/uploads/2026/08/ICPR-2028-CALL-FOR-PAPERS.pdf
+  scope_last_checked: '2026-11-18'
+  source_year: 2028
+
+IDA:
+  additional_topics:
+    - Explainability & Interpretability
+    - Computer Graphics & Visualization
+    - Graphs & Graph Learning
+  scope_summary: >-
+    A symposium on all areas of intelligent data analysis, whose stated mission
+    is to promote ideas over performance: a well-motivated novel idea can count
+    as much as exhaustive empirical evaluation. Topics include foundations and
+    new paradigms of data analysis, machine learning, data mining and pattern
+    recognition, statistical methods, representation learning, and causal
+    discovery and inference. Also listed are explainable and trustworthy AI,
+    generative models for data analysis, information visualization and visual
+    analytics, graph and relational data, and temporal, spatial and multimodal
+    data. Distributed and privacy-preserving analysis, human-centric data
+    analysis and AI for scientific discovery complete the list.
+  scope_source_urls:
+    - https://ida2027.eu/regular-paper-track/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+IDEAL:
+  additional_topics:
+    - Evolutionary Computation & Optimization
+    - Information Retrieval & Search
+    - Autonomous Agents & Multiagent Systems
+  scope_summary: >-
+    Annual conference on emerging and challenging topics in intelligent data
+    science and data mining and their associated learning systems and paradigms.
+    Its core themes are big data analytics, machine learning and deep learning,
+    data mining, information retrieval and management, and bio- and
+    neuro-informatics. Bio-inspired models (neural networks, evolutionary
+    computation and swarm intelligence), agents and hybrid intelligent systems,
+    and real-world applications of intelligent techniques are also core themes.
+    Workshops and special sessions add focused topics.
+  scope_source_urls:
+    - https://www.ideal2026.org/calls/themes
+    - https://www.ideal2026.org/calls/call-for-papers
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+IEEE BHI:
+  additional_topics:
+    - Biometrics & Human Sensing
+    - Explainability & Interpretability
+  scope_summary: >-
+    The IEEE Engineering in Medicine and Biology Society's conference on
+    biomedical and health informatics. Its themes are AI implementation and
+    clinical translation; computational and preventive health modeling; wearable
+    and pervasive health monitoring; and human-computer interaction in
+    healthcare. They also include robotic and intelligent interventions,
+    precision and predictive healthcare, multimodal biomedical data fusion,
+    generative, cognitive, explainable and causal AI for health informatics, and
+    digital twins and personalized AI models.
+  scope_source_urls:
+    - https://bhi.embs.org/2026/contributors/papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+IEEE BigData:
+  additional_topics:
+    - ML Systems & Infrastructure
+  scope_summary: >-
+    Big data research, development and applications with emphasis on the 5Vs
+    (volume, velocity, variety, value, veracity). Core areas are big data
+    foundations and data quality, computing infrastructure (cloud, stream, HPC
+    and energy-efficient platforms), data management and integration, search and
+    mining of scientific, social, sensor/IoT and multimedia data, and the data
+    ecosystem, including trust, privacy, governance and fairness studies. The
+    call also covers data management for foundation models, big data for
+    science, benchmarks and datasets, and a wide range of industry application
+    domains.
+  scope_source_urls:
+    - https://bigdataieee.org/BigData2026/calls/papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+IEEE CDC:
+  additional_topics: []
+  scope_summary: >-
+    IEEE Control Systems Society conference on the theory and practice of
+    systems and control, bringing together researchers and practitioners in
+    automatic control around new results and applications in decision-making,
+    systems and control, and related areas. The program combines contributed and
+    invited papers with tutorial sessions and pre-conference workshops. Initial
+    submissions can be made jointly with IEEE Control Systems Letters (L-CSS) or
+    to the CDC alone. The call gives no detailed topic list.
+  scope_source_urls:
+    - https://cdc2027.ieeecss.org/authors/call-for-papers
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+IEEE EMBC:
+  additional_topics:
+    - Biomedical Imaging
+    - Biometrics & Human Sensing
+  scope_summary: >-
+    Annual flagship conference of the IEEE Engineering in Medicine and Biology
+    Society, covering biomedical engineering broadly: biomedical signal
+    processing, imaging and image processing, bionanotechnology and BioMEMS,
+    cardiopulmonary and physiology-based engineering, neural and rehabilitation
+    engineering, wearable sensors and systems, biorobotics and biomechanics,
+    therapeutic and diagnostic technologies, health informatics, and biomedical
+    engineering education and translation. Full papers have four pages of
+    technical content plus a references page, with a separate one-page poster
+    route that is not indexed in IEEE Xplore.
+  scope_source_urls:
+    - https://embc.embs.org/2027/
+    - https://embc.embs.org/2027/papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+IEEE ICMLA:
+  additional_topics: []
+  scope_summary: >-
+    General machine-learning conference spanning theory and applications, with
+    particular encouragement for interdisciplinary work and papers on real-world
+    problems. The topic list covers statistical, neural, fuzzy, evolutionary,
+    reinforcement, multi-agent, online and federated learning, knowledge
+    discovery and representation, computational learning theory, and deep and
+    transfer learning, alongside applications in medicine and bioinformatics,
+    industry, security, smart cities, business and forecasting.
+  scope_source_urls:
+    - https://www.icmla-conference.org/icmla27/callforpapers.html
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+IEEE MLSP:
+  additional_topics:
+    - Graphs & Graph Learning
+    - Probabilistic, Causal & Uncertainty ML
+    - Federated & Distributed Learning
+  scope_summary: >-
+    IEEE Signal Processing Society workshop on machine learning for signal
+    processing. The last published call covers optimization, Bayesian and
+    probabilistic inference, information-theoretic learning, kernel, dictionary,
+    subspace, manifold, matrix and tensor methods, deep learning, learning on
+    graphs and graph representation learning, distributed, federated and edge
+    processing, multimodal learning, and learning theory. Application strands
+    include biosignals, healthcare, neuroscience, wireless communications,
+    finance and education. Papers are six pages including references and appear
+    in IEEE Xplore.
+  scope_source_urls:
+    - https://mlsp26.ieeesps.org/call-for-papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+IEEE NER:
+  additional_topics:
+    - Computational Neuroscience
+  scope_summary: >-
+    IEEE EMBS conference on neural engineering, spanning neural interfaces,
+    sensors, probes and biomaterials; in vitro and in vivo preclinical models;
+    neural signal and image analysis, computational modelling and machine
+    learning for understanding the nervous system and diagnosing neurological
+    disease; closed-loop and personalized neuromodulation; and
+    neurorehabilitation through brain-computer interfaces, neuroprostheses,
+    rehabilitation robotics and wearables. Clinical translation, including
+    validation, safety, ethics and regulation of neural technologies, is a main
+    theme.
+  scope_source_urls:
+    - https://neuro.embs.org/2027/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+IEEE SSCI:
+  additional_topics: []
+  scope_summary: >-
+    IEEE Computational Intelligence Society symposium series: a set of themed
+    applied computational-intelligence symposia intended to cross-pollinate
+    theories and algorithms across disciplines. The 2027 call lists symposia on
+    energy, transport and sustainability; engineering and cyber-physical
+    systems; image, signal processing and synthetic media; artificial life and
+    cooperative intelligent systems; security, defence and biometrics; health
+    and medicine; finance and economics; NLP and social media; trustworthy,
+    explainable and responsible CI; and multidisciplinary incubators. Fit is
+    judged per symposium.
+  scope_source_urls:
+    - https://attend.ieee.org/ssci-2027/submissions/call-for-papers/
+    - https://attend.ieee.org/ssci-2027/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+IEEE SSP:
+  additional_topics:
+    - Learning Theory & Statistical Foundations
+  scope_summary: >-
+    IEEE workshop on statistical signal processing: detection and estimation
+    theory, Bayesian techniques, high-dimensional inference, sparsity and
+    compressive sensing, sampling and reconstruction, matrix and tensor methods,
+    adaptive and distributed processing, multi-target tracking, array, radar and
+    sonar processing, and graph signal processing, together with data-driven and
+    machine-learning methods. Applications include communications, biomedical
+    signals and images, audio and speech, finance, geoscience and astrophysics.
+    Papers are four pages plus references.
+  scope_source_urls:
+    - https://ssp27.ieeesps.org/call-for-papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+IJCAI:
+  additional_topics: []
+  scope_summary: >-
+    General artificial-intelligence conference whose main track accepts
+    significant, original results on any aspect of AI, especially encouraging
+    novel AI research problems, AI techniques for new application domains, and
+    work crossing discipline boundaries within AI. Special tracks cover AI for
+    science, AI and health, AI, the arts and creativity, and AI for social good,
+    alongside journal and sister-conference tracks. The call publishes no topic
+    list.
+  scope_source_urls:
+    - https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
+    - https://2027.ijcai.org/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+IJCAI-ECAI:
+  additional_topics: []
+  scope_summary: >-
+    Joint 2026 edition of IJCAI and the European Conference on Artificial
+    Intelligence, organized with the European Artificial Intelligence
+    Association. Its main track invited significant, original results on any
+    aspect of AI, especially novel AI research problems, AI techniques for new
+    application domains, and work crossing discipline boundaries within AI.
+    Special tracks covered human-centred AI, AI for social good, AI enabling
+    critical technologies, AI and health, and AI and robotics, alongside survey,
+    journal and sister-conference tracks.
+  scope_source_urls:
+    - https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+IJCNN:
+  additional_topics:
+    - Neuromorphic & Brain-inspired Computing
+    - Computational Neuroscience
+    - Reinforcement Learning
+    - Graphs & Graph Learning
+    - Explainability & Interpretability
+    - Probabilistic, Causal & Uncertainty ML
+  scope_summary: >-
+    Neural-network conference covering the foundations of neural networks and AI
+    and their applications. Topic areas include neural-network fundamentals,
+    representation learning and generative AI, foundation models, graph and
+    relational networks, reinforcement learning and decision making, continual
+    learning, efficient and distributed learning, trustworthy and explainable
+    AI, multimodal and neuro-symbolic learning, probabilistic, causal and
+    uncertainty-aware learning, physics-informed and scientific ML, and agentic
+    and quantum AI. A distinctive strand connects neural networks to brain
+    science: neuromorphic and spiking systems, computational neuroscience,
+    neural engineering and brain-machine interfaces.
+  scope_source_urls:
+    - https://ijcnn.org/2027/authors/call-for-papers
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+International BCI Meeting:
+  additional_topics:
+    - Signal Processing
+    - Ethics & Governance
+  scope_summary: >-
+    The BCI Society's meeting covers brain-computer interfaces from basic
+    science to clinical translation, bringing together scientists, engineers,
+    clinicians, users and industry. Abstract themes cover non-implanted and
+    implantable BCIs (basic science, methods and technology, control and other
+    applications), signal analysis, simulation, machine learning and AI for
+    decoding, and user factors, user experience and ethics. Contributions are
+    one-page abstracts for oral or poster presentation rather than full papers.
+  scope_source_urls:
+    - https://bcisociety.org/bci-meeting/abstract-submission/
+    - https://bcisociety.org/bci-meeting/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+ISBI:
+  additional_topics:
+    - Computer Vision & Pattern Recognition
+    - Deep Representation Learning
+  scope_summary: >-
+    Joint IEEE SPS and EMBS symposium on the mathematical, algorithmic and
+    computational aspects of biological and medical imaging across all scales.
+    Topics span image formation, acquisition and reconstruction; physical,
+    biological and statistical modelling; image processing, segmentation and
+    registration; quality assessment and harmonization; foundation,
+    self-supervised and generative models; multimodal and multiscale imaging;
+    computer-aided diagnosis; uncertainty and trustworthy AI; radiomics and
+    imaging genomics; and bioimage informatics, visualization and spatial
+    biology. Regular papers are four pages; one-page abstracts form a
+    non-archival poster track.
+  scope_source_urls:
+    - https://biomedicalimaging.org/2027/
+    - https://confcats-event-sessions.s3.us-east-1.amazonaws.com/isbi27/isbi27-cfp_web-05.pdf
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+ITISE:
+  additional_topics: []
+  scope_summary: >-
+    Interdisciplinary conference on time series analysis and forecasting,
+    bringing together computer science, mathematics, statistics, forecasting and
+    econometrics, with an emphasis on new computational techniques and methods.
+    Topics include nonparametric and functional methods, forecasting
+    uncertainty, nonstationarity, ensemble, hierarchical and interval
+    forecasting and performance evaluation, econometric and macroeconomic
+    forecasting, online machine learning and computational intelligence for time
+    series, and high-dimensional or big-data forecasting. Applications span
+    energy and electricity markets, finance, climate and hydrology, health,
+    traffic, tourism and telecommunications. Full papers, abstracts and
+    significant work in progress are accepted.
+  scope_source_urls:
+    - https://itise.ugr.es/index.html
+    - https://itise.ugr.es/topics.html
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+LOD:
+  additional_topics:
+    - Evolutionary Computation & Optimization
+    - Deep Representation Learning
+  scope_summary: >-
+    Now held as the Artificial Intelligence Symposium (AIS), this series began
+    as the International Conference on Machine Learning, Optimization and Big
+    Data (LOD). It is a broad multidisciplinary forum for artificial
+    intelligence, deep and machine learning, generative AI and foundation
+    models, knowledge discovery and data science, including real-world
+    applications. Optimization was a core strand of the LOD calls, covering
+    continuous, discrete, multi-objective and metaheuristic methods, and
+    continues in multi-objective optimization and deep-neuroevolution tracks.
+    Special tracks cover foundation models and topics such as AI for
+    sustainability, biomedical engineering, genomics and finance.
+  scope_source_urls:
+    - https://ais2027.icas.events/call-for-papers/
+    - https://ais2027.icas.events/tracks/
+    - https://lod2025.icas.events/call-for-papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+MICCAI:
+  additional_topics:
+    - Computer Vision & Pattern Recognition
+    - Control & Robotics
+  scope_summary: >-
+    Medical image computing and computer-assisted intervention. Core areas
+    include image formation and reconstruction, segmentation and anomaly
+    detection, image synthesis, computer-aided diagnosis, and the integration of
+    imaging with non-imaging and multimodal data. The intervention side covers
+    surgical data science, image-guided and robotic surgery, and point-of-care
+    imaging. The 2026 call also lists clinical implementation, trustworthy and
+    generalizable AI, and fairness and equity in medical imaging. The scope
+    centers on medical imaging and image-guided intervention rather than general
+    clinical ML.
+  scope_source_urls:
+    - https://conferences.miccai.org/2026/en/CALL-FOR-PAPERS.html
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+ML4H:
+  additional_topics:
+    - Fairness & Responsible AI
+    - Human-AI Interaction & Deployment
+    - Probabilistic, Causal & Uncertainty ML
+  scope_summary: >-
+    Machine learning for health across healthcare, biomedicine and public
+    health. Submissions fall into three areas: models and methods for
+    health-focused inference and estimation; applications and practice,
+    including datasets, simulation frameworks, benchmarks, auditing and
+    deployment tools; and impact and society, covering responsible AI design,
+    equity and bias, public health, policy and barriers to adoption. Recurring
+    themes include data integration, temporal models, causality and
+    interpretability. An archival proceedings track sits alongside a
+    non-archival findings track.
+  scope_source_urls:
+    - https://ml4h.ahli.cc/submit/call-for-papers/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+MLHC:
+  additional_topics: []
+  scope_summary: >-
+    Machine learning for healthcare, bringing clinicians and AI researchers
+    together to turn complex medical data into actionable insight. The archival
+    research track seeks methodologically rigorous work grounded in real
+    clinical problems, judged on generalizable insights and the clarity of its
+    ML contribution. A non-archival clinical abstracts track covers clinical
+    applications, implementation experiences and real-world impact.
+  scope_source_urls:
+    - https://mlhc.org/faq
+    - https://mlhc.org/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+NetSci:
+  additional_topics:
+    - Graphs & Graph Learning
+  scope_summary: >-
+    The NetSci conference covers all areas of network science and welcomes work
+    that pushes the field's boundaries. Topics include network models, measures
+    and statistical inference, community detection, dynamics on and of networks
+    (synchronization, control, critical phenomena, resilience), and
+    higher-order, multilayer, temporal, spatial and signed networks.
+    Applications range across biological, brain, ecological, social, mobility,
+    financial and technological networks, plus network epidemiology and graph
+    machine learning. Contributions are one-page abstracts for talks or posters.
+  scope_source_urls:
+    - https://netsci2027.github.io/calls/abstracts/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+OHBM:
+  additional_topics:
+    - Cognitive Science & Computational Cognition
+    - Systems & Experimental Neuroscience
+  scope_summary: >-
+    Human brain mapping: studying the brain's anatomical and functional
+    organization with neuroimaging. Abstract categories span imaging acquisition
+    (MRI, diffusion, fMRI, EEG, MEG, PET), modeling and analysis methods
+    including connectivity and AI methods, neuroanatomy, physiology and
+    neurotransmission, brain stimulation, genetics, and neuroinformatics and
+    data sharing. Cognitive and affective neuroscience is a large component
+    (perception, attention, memory, language, decision making, social
+    neuroscience), alongside lifespan development and clinical conditions.
+    Contributions are short abstracts of completed work; planned studies go
+    through a separate registered-reports track.
+  scope_source_urls:
+    - https://humanbrainmapping.org/2027CallforContent/
+    - https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract_Submission_Guidelines_FINAL_docx_(2).pdf
+    - https://humanbrainmapping.org/ohbm-2027/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+PAKDD:
+  additional_topics:
+    - Privacy-preserving ML
+    - Fairness & Responsible AI
+  scope_summary: >-
+    Knowledge discovery and data science across theoretical foundations,
+    learning methods and data processing. Characteristic areas include
+    clustering and pattern mining, anomaly detection, stream and time-series
+    learning, graph mining and graph neural networks, representation and causal
+    learning, and distribution shift. Security, privacy and information
+    integrity form a named part of the scope, as do trustworthy, fair and
+    interpretable models and misinformation detection. Application papers that
+    offer technical advances in domains such as social media, health, finance
+    and urban computing are also invited.
+  scope_source_urls:
+    - https://pakdd2027.org/pages/calls/research
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+S+SSPR:
+  additional_topics:
+    - Graphs & Graph Learning
+  scope_summary: >-
+    Joint IAPR workshops on statistical (SPR) and structural and syntactic
+    (SSPR) pattern recognition. The statistical side covers classification,
+    ensembles, feature and model selection, dimensionality reduction,
+    dissimilarity and metric representations, clustering, semi- and weakly
+    supervised, active and deep learning. The structural side covers structural
+    matching, graph-theoretic methods and graph neural networks, graphical
+    models, structural kernels, spectral methods and syntactic pattern
+    recognition, with applications in shape, document and multimedia analysis.
+  scope_source_urls:
+    - https://ssspr2026.inf.unibe.ch/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+SDM:
+  additional_topics:
+    - Probabilistic, Causal & Uncertainty ML
+    - Privacy-preserving ML
+    - Fairness & Responsible AI
+  scope_summary: >-
+    SIAM's data-mining conference, for original data mining algorithms and their
+    applications on large, complex and noisy data, with an emphasis on sound
+    theoretical and statistical principles. Topics span anomaly detection,
+    clustering and classification, causal inference, probabilistic and
+    statistical methods, representation and deep learning, knowledge-guided and
+    physics-informed ML, and mining streams, graphs, spatio-temporal, text and
+    web data. A human-factors strand covers interpretability, privacy-preserving
+    mining, privacy and fairness models, and algorithmic bias. AI-for-science
+    and healthcare are named application areas.
+  scope_source_urls:
+    - https://www.siam.org/conferences-events/siam-conferences/sdm26/
+  scope_last_checked: '2026-11-18'
+  source_year: 2026
+
+SIAM DS:
+  additional_topics: []
+  scope_summary: >-
+    The SIAM Activity Group on Dynamical Systems conference on applying
+    dynamical-systems theory outside mathematics. It covers theory, computation,
+    experiments, real-world data and data-driven methods, applied to biological,
+    chemical, physical and social systems. Highlighted applications include ML-
+    and AI-informed dynamical systems, fluid and geophysical/climate dynamics,
+    networks and complex systems, pattern formation, population dynamics,
+    non-smooth and hybrid dynamics, and stochastic, non-autonomous and
+    tipping-point behavior. Contributions are abstracts for lectures, posters
+    and minisymposia.
+  scope_source_urls:
+    - https://www.siam.org/conferences-events/siam-conferences/ds27/
+  scope_last_checked: '2026-11-18'
+  source_year: 2027
+
+TS4H:
+  additional_topics:
+    - Probabilistic, Causal & Uncertainty ML
+  scope_summary: >-
+    Formerly Time Series for Health, now Structured Data for Health (SD4H), an
+    ICML workshop on modeling structured health data: tabular electronic health
+    records and high-frequency physiological time series. Topics include
+    foundation models and new architectures, self-supervised and probabilistic
+    modeling with uncertainty, irregular and missing data, multimodal fusion
+    with images or text, causal inference from observational data, and transfer
+    across patients and devices. Clinical applications include forecasting, risk
+    stratification and digital biomarkers, with attention to interpretability,
+    reliability and deployment. It is a non-archival workshop.
+  scope_source_urls:
+    - https://structureddata4health.github.io/call_for_papers.html
+  scope_last_checked: '2026-11-18'
+  source_year: 2026

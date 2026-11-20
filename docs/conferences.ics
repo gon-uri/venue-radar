@@ -390,7 +390,7 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270107
 SUMMARY:Dynamics Days US 2027 · Conference
-DESCRIPTION:Dynamics Days US\nStatus: confirmed\, checked 2026-11-14\nOffic
+DESCRIPTION:Dynamics Days US\nStatus: confirmed\, checked 2026-11-20\nOffic
  ial source: https://www.ddays.org/2027/\nVenue Radar: https://gon-uri.git
  hub.io/venue-radar/#dynamics-days-us-2027\nNotes: Official banner confirm
  s January 4-6 at Scripps Seaside Forum. A selection of abstracts becomes 
@@ -499,7 +499,7 @@ DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270220
 SUMMARY:WSDM 2027 · Conference
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nSta
- tus: confirmed\, checked 2026-11-18\nOfficial source: https://www.wsdm-co
+ tus: confirmed\, checked 2026-11-20\nOfficial source: https://www.wsdm-co
  nference.org/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#w
  sdm-2027\nNotes: Official WSDM 2027 pages (rechecked 2026-10-30) list Hon
  g Kong (Cordis)\, Feb 15-19\, and AoE deadlines: full-paper abstract Aug 
@@ -710,7 +710,7 @@ DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270403
 SUMMARY:EuroGP 2027 · Conference
 DESCRIPTION:European Conference on Genetic Programming\nStatus: confirmed\,
-  checked 2026-11-18\nOfficial source: https://www.evostar.org/2027/\nVenu
+  checked 2026-11-20\nOfficial source: https://www.evostar.org/2027/\nVenu
  e Radar: https://gon-uri.github.io/venue-radar/#eurogp-2027\nNotes: Offic
  ial EvoStar pages confirm Mainz\, March 31-April 2\, in hybrid mode. On 2
  026-10-30 the Important Dates page strikes November 1 and gives November 
@@ -1006,7 +1006,7 @@ DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270515
 SUMMARY:WWW 2027 · Conference
 DESCRIPTION:ACM Web Conference (formerly International World Wide Web Confe
- rence)\nStatus: confirmed\, checked 2026-10-30\nOfficial source: https://
+ rence)\nStatus: confirmed\, checked 2026-11-20\nOfficial source: https://
  www2027.thewebconf.org/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#www-2027\nNotes: Full-paper abstract and paper deadlines (Oct 18/25 A
  oE) have passed with no extension. The short-paper OpenReview portal was 
@@ -1125,7 +1125,7 @@ DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270528
 SUMMARY:SIAM DS 2027 · Conference
 DESCRIPTION:SIAM Conference on Applications of Dynamical Systems\nStatus: c
- onfirmed\, checked 2026-11-14\nOfficial source: https://www.siam.org/conf
+ onfirmed\, checked 2026-11-20\nOfficial source: https://www.siam.org/conf
  erences-events/siam-conferences/ds27/\nVenue Radar: https://gon-uri.githu
  b.io/venue-radar/#siam-ds-2027\nNotes: Biennial SIAM dynamical-systems me
  eting. Submissions are presentation abstracts\, not archival full papers.
@@ -1382,7 +1382,7 @@ DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270626
 SUMMARY:CVPR 2027 · Conference
 DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
- nStatus: confirmed\, checked 2026-10-30\nOfficial source: https://cvpr.th
+ nStatus: confirmed\, checked 2026-11-20\nOfficial source: https://cvpr.th
  ecvf.com/Conferences/2027\nVenue Radar: https://gon-uri.github.io/venue-r
  adar/#cvpr-2027\nNotes: Official 2027 homepage\, CFP and Dates page\, rec
  hecked 2026-10-30\, confirm Seattle and fixed AoE dates with no extension
@@ -1759,7 +1759,7 @@ DTSTART;VALUE=DATE:20270707
 DTEND;VALUE=DATE:20270710
 SUMMARY:IFAC SYSID 2027 · Conference
 DESCRIPTION:IFAC Symposium on System Identification\nStatus: confirmed\, ch
- ecked 2026-11-18\nOfficial source: https://conferences.ifac-control.org/s
+ ecked 2026-11-20\nOfficial source: https://conferences.ifac-control.org/s
  ysid2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid
  -2027\nNotes: Triennial TC 1.1 symposium. On 2026-10-29 the participate p
  age strikes out Nov 2 and gives Nov 15\, 2026 for conference papers (Oct 
@@ -1961,7 +1961,7 @@ DTSTART;VALUE=DATE:20270719
 DTEND;VALUE=DATE:20270724
 SUMMARY:ENOC 2027 · Conference
 DESCRIPTION:European Nonlinear Dynamics Conference\nStatus: confirmed\, che
- cked 2026-11-18\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
+ cked 2026-11-20\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
  ps://gon-uri.github.io/venue-radar/#enoc-2027\nNotes: 12th ENOC (EUROMECH
   ENOCC series\, triennial per ENOC 2024)\, July 19-23\, 2027\, P&J Live\,
   Aberdeen\, per enoc2027.com and EUROMECH. Only 2-page extended abstracts
@@ -1969,10 +1969,11 @@ DESCRIPTION:European Nonlinear Dynamics Conference\nStatus: confirmed\, che
  hor. The official templates say accepted abstracts appear in a digital bo
  ok of abstracts. The site gives only "January 2027"\; Jan 15 is a proxy f
  rom ENOC 2024's original Jan 15 deadline (extended to Feb 12) and ENOC 20
- 22's Jan 15 extended deadline. No hour is published. Submission opened Ju
- ly 2026 per key dates (templates say June)\; the portal shows only a sign
- -in page. Size basis - ENOC 2024 had over 350 talks. Size is an editorial
-  estimate.
+ 22's Jan 15 extended deadline. No hour is published. Key dates give abstr
+ act acceptance only as March 2027 (month only\, not stored). Submission o
+ pened July 2026 per key dates (templates say June)\; the portal shows onl
+ y a sign-in page. Size basis - ENOC 2024 had over 350 talks. Size is an e
+ ditorial estimate.
 CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
  ynamics,Control & Robotics
 URL:https://enoc2027.com/
@@ -2098,7 +2099,7 @@ DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270806
 SUMMARY:KDD 2027 · Conference
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-11-18\nOfficial source: https://kdd2027.k
+ tatus: confirmed\, checked 2026-11-20\nOfficial source: https://kdd2027.k
  dd.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027\nNo
  tes: Official site confirms San Jose McEnery Convention Center\, Aug 1-5.
   Cycle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 
@@ -2755,7 +2756,7 @@ DTSTART;VALUE=DATE:20270927
 DTEND;VALUE=DATE:20271002
 SUMMARY:MICCAI 2027 · Conference
 DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nStatus: confirmed\, checked 2026-11-18\nOfficial
+ r Assisted Intervention\nStatus: confirmed\, checked 2026-11-20\nOfficial
   source: https://conferences.miccai.org/2027/en/default.asp\nVenue Radar:
   https://gon-uri.github.io/venue-radar/#miccai-2027\nNotes: The MICCAI 20
  27 site gives Sep 27-Oct 1 at the NZ International Convention Centre\, Au

@@ -1670,6 +1670,11 @@
       label: "Paper submission deadline"
       datetime: "2026-08-24T23:59:00-12:00"
       source_url: "https://www.wsdm-conference.org/2027/cffp.html"
+    - type: "notification"
+      label: "Full-paper notification"
+      datetime: "2026-11-02T23:59:00-12:00"
+      time_precision: "date"
+      source_url: "https://www.wsdm-conference.org/2027/cffp.html"
     - type: "doctoral_consortium"
       label: "Doctoral consortium application deadline"
       datetime: "2026-11-12T23:59:00-12:00"
@@ -1682,7 +1687,7 @@
       label: "WSDM Day 2-page extended abstract submission deadline"
       datetime: "2026-11-30T23:59:00-12:00"
       source_url: "https://www.wsdm-conference.org/2027/cfp.html"
-  last_checked: "2026-11-18"
+  last_checked: "2026-11-20"
   confidence: "confirmed"
   notes: "Official WSDM 2027 pages (rechecked 2026-10-30) list Hong Kong (Cordis), Feb 15-19, and AoE deadlines: full-paper abstract Aug 17 and paper Aug 24, 2026 (closed; notification Nov 2), short papers (up to 4 pages, new work) Nov 17, doctoral consortium (single-author student packet) Nov 12, and WSDM Day presentations Nov 30, 2026 (2-page extended abstract on search, data mining and agentic AI; unpublished or under-review work welcome; oral or poster on Feb 19, in the proceedings). Demo papers closed Oct 15, 2026. Industry Day talk proposals (2 pages with speaker bio, due Oct 30) are not tracked as a paper route."
 
@@ -2739,7 +2744,7 @@
     - {type: discussion_paper, label: Discussion papers (non-archival), datetime: '2027-01-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
     - {type: dissemination, label: Published IFAC journal presentations, datetime: '2027-01-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
     - {type: notification, label: Acceptance notification, datetime: '2027-02-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
-  last_checked: '2026-11-18'
+  last_checked: '2026-11-20'
   confidence: confirmed
   notes: Triennial TC 1.1 symposium. On 2026-10-29 the participate page strikes out Nov 2 and gives Nov 15, 2026 for conference papers (Oct 1 to Oct 11 for joint journal papers). The submission system opened 1 June 2026 (day only, no time). Deadline days are official; cutoff hours use provisional end-of-day AoE. Size is an editorial category.
 
@@ -2933,7 +2938,7 @@
   deadlines:
     - {type: minisymposium, label: Minisymposium proposals, datetime: '2026-10-26T23:59:00-04:00', cutoff_note: 'siam.org pages state Oct 26, 2026, 11:59 pm ET; the SIAM submission system listed Oct 28. Earliest stated cutoff stored.', source_url: 'https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/'}
     - {type: abstract, label: Contributed lecture and poster abstracts, datetime: '2026-11-23T23:59:00-05:00', open_observed_on: '2026-10-30', source_url: 'https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/'}
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-20'
   confidence: confirmed
   notes: 'Biennial SIAM dynamical-systems meeting. Submissions are presentation abstracts, not archival full papers. Official deadlines specify 11:59 pm Eastern Time, accounting for daylight saving. Rechecked 2026-10-30: contributed lecture and poster abstracts (Nov 23) are open in the SIAM submission system with no extension. Size is an editorial category.'
 
@@ -3097,7 +3102,7 @@
     time_precision: date
     source_url: https://kdd2026.kdd.org/research-track-call-for-papers/
     confidence: estimated
-  last_checked: '2026-11-18'
+  last_checked: '2026-11-20'
   confidence: confirmed
   notes: Official site confirms San Jose McEnery Convention Center, Aug 1-5. Cycle 1
     closed July 2026 (notification Nov 14, 2026). As of 2026-10-28 the CFP/FAQ still
@@ -3226,7 +3231,7 @@
     time_precision: date
     source_url: https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html
     confidence: estimated
-  last_checked: '2026-11-18'
+  last_checked: '2026-11-20'
   confidence: confirmed
   notes: The MICCAI 2027 site gives Sep 27-Oct 1 at the NZ International Convention
     Centre, Auckland (also the Society's Feb 18, 2026 announcement); the Society
@@ -4314,7 +4319,7 @@
       datetime: '2027-01-24T23:59:00-12:00'
       time_precision: date
       source_url: https://www.evostar.org/2027/important-dates/
-  last_checked: '2026-11-18'
+  last_checked: '2026-11-20'
   confidence: confirmed
   notes: 'Official EvoStar pages confirm Mainz, March 31-April 2, in hybrid mode. On 2026-10-30 the Important Dates page strikes November 1 and gives November 16, 2026 (extended) for EvoStar paper submissions, including EuroGP; an older post embedded on the EuroGP page still shows November 1. Published deadline days have no exact cutoff hour or timezone; AoE timestamps are provisional and calendars use all-day events. A shared EvoStar late-breaking-abstract date (March 21, 2027) has no 2027 call page yet and is not tracked. S is an editorial size estimate for EuroGP, not the whole EvoStar event.'
 
@@ -4681,7 +4686,12 @@
       label: Supplementary material deadline
       datetime: '2026-11-23T23:59:00-12:00'
       source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
-  last_checked: '2026-10-30'
+    - type: notification
+      label: Final decisions
+      datetime: '2027-02-25T23:59:00-12:00'
+      time_precision: date
+      source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+  last_checked: '2026-11-20'
   confidence: confirmed
   notes: 'Official 2027 homepage, CFP and Dates page, rechecked 2026-10-30, confirm Seattle and fixed AoE dates with no extension; the Call for Workshops states that CVPR 2027 is in person. The mandatory Nov 10 paper registration gates paper submission: no new submissions and no author additions or removals after it. OpenReview''s public submission invitation, open to all users since Oct 27 and due Nov 10 AoE, was live on 2026-10-30. XXL is supported by the organizer''s description of more than 10,000 annual attendees. Historical acceptance statistics refer to the main technical program, not workshops.'
 
@@ -5713,11 +5723,16 @@
     label: Resource paper submission deadline
     datetime: '2026-12-17T23:59:00-12:00'
     source_url: https://www2027.thewebconf.org/resource-submissions/
+  - type: notification
+    label: Research-track and short-paper notification
+    datetime: '2027-01-04T23:59:00-12:00'
+    time_precision: date
+    source_url: https://www2027.thewebconf.org/important-dates/
   - type: camera_ready
     label: Research-track final version deadline
     datetime: '2027-01-31T23:59:00-12:00'
     source_url: https://www2027.thewebconf.org/research-track-papers/
-  last_checked: '2026-10-30'
+  last_checked: '2026-11-20'
   confidence: confirmed
   notes: 'Full-paper abstract and paper deadlines (Oct 18/25 AoE) have passed with no extension. The short-paper OpenReview portal was observed open on 2026-10-30; separate mandatory abstract gates apply. Resource papers (four pages, non-anonymous, companion proceedings) are due Dec 17 AoE; their portal is not public yet. OpenReview''s short-paper forms close about an hour after the AoE cutoffs stored here. Demo papers (Nov 16 per the website), the PhD symposium (Jan 6 per the website) and the general workshop-paper date (Jan 4, workshops not yet listed) are not tracked as separate routes; the OpenReview demo and PhD symposium forms are set to close Nov 15, 21:00 UTC. The Web4Good track is discontinued. Research must substantively address the Web, not merely use a web dataset. Preserve WWW as the stable series alias. Size is an editorial estimate.'
 - id: colm-2026
@@ -6863,7 +6878,7 @@
     datetime: '2026-12-07T23:59:00-12:00'
     source_url: https://www.ddays.org/2027/registration/
     time_precision: date
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-20'
   confidence: confirmed
   notes: 'Official banner confirms January 4-6 at Scripps Seaside Forum. A selection of abstracts becomes single-track talks; poster contributions are also expected. No archival full-paper proceedings verified. The November 22 deadline falls in 2026, before the January 2027 meeting; exact cutoff hours are unannounced. Rechecked 2026-10-30: the abstract form is live and early registration moved from December 1 to December 7. Travel award applications (November 22, funding permitting) are not tracked. Size is an editorial estimate.'
 - id: dynamics-days-lac-2026
@@ -9282,13 +9297,13 @@
     source_url: https://enoc2027.com/author/submission-guidance
     confidence: estimated
     time_precision: date
-  last_checked: '2026-11-18'
+  last_checked: '2026-11-20'
   confidence: confirmed
   notes: 12th ENOC (EUROMECH ENOCC series, triennial per ENOC 2024), July 19-23, 2027, P&J Live, Aberdeen, per enoc2027.com
     and EUROMECH. Only 2-page extended abstracts in 21 mini-symposia; no full papers; at most two presentations
     per author. The official templates say accepted abstracts appear in a digital book of abstracts. The site gives
     only "January 2027"; Jan 15 is a proxy from ENOC 2024's original Jan 15 deadline (extended to Feb 12) and ENOC
-    2022's Jan 15 extended deadline. No hour is published. Submission opened July 2026 per key dates (templates
+    2022's Jan 15 extended deadline. No hour is published. Key dates give abstract acceptance only as March 2027 (month only, not stored). Submission opened July 2026 per key dates (templates
     say June); the portal shows only a sign-in page. Size basis - ENOC 2024 had over 350 talks. Size is an editorial
     estimate.
 - id: eswc-2027

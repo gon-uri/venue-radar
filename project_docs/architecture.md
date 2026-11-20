@@ -25,7 +25,9 @@ reviewed YAML + local assets
 Organizer pages are reviewed by maintainers, not fetched by the website.
 No map tiles, geocoder or organizer API is called at runtime. The optional,
 lazily loaded Giscus client uses public GitHub Discussions; it is not a project
-backend. No calendar/ranking/filter feature depends on it.
+backend. No calendar/ranking/filter feature depends on it. The owner's Google
+Tag Manager container (ADR-056) loads first in `<head>` to count visits; it is
+not a dependency either, and blocking it changes nothing on the page.
 
 ## Source Ownership
 

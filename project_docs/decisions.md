@@ -30,6 +30,7 @@ explicit refinements take precedence. Current rules live in
 | Expanded-row venue facts (archival track line, "About this venue" toggle) | ADR-050; ADR-055 adds "Last edition" provenance under estimated milestones |
 | Review-queue truthfulness, size guardrails, search-text deduplication | ADR-048 (refines ADR-040/042's queue and ADR-047's archival queue rule) |
 | XLSX review mirror retired | ADR-052 (earlier ADRs' workbook clauses are historical) |
+| Traffic statistics (Google Tag Manager / GA4) | ADR-056 |
 | Decision dates and next-edition announcements | ADR-054 (refines ADR-039's rollover and ADR-048's queue) |
 | Past editions leave the combined feeds | ADR-053 (refines ADR-044/045's feed-size levers; identity check reads per-edition feeds) |
 
@@ -1352,3 +1353,31 @@ explicit refinements take precedence. Current rules live in
 - Alternatives considered: per-milestone source links on every row (adds
   about 1,100 links for little gain over the evidence line); showing the line
   in collapsed rows (taller cards).
+
+## ADR-056: Count Visits With The Owner's Google Tag Manager Container
+
+- Status: Accepted by the owner on 2026-11-20 ("add the following snippet on
+  venue radar, so I can track the traffic using google analytics").
+- Date: 2026-11-20
+- Context: The owner wants traffic statistics. The page is static and had no
+  third-party script besides the optional, lazily loaded Giscus client.
+- Decision:
+  1. `docs/index.html` loads the owner-supplied snippet first in `<head>`:
+     `gtm.js?id=GTM-MKS3WJCL` (constant `GTM_CONTAINER_ID` in
+     `scripts/build_site.py`) plus the `dataLayer`/`gtag('js', ...)` stub.
+     The container, not the page, decides what is measured; on 2026-11-20 it
+     held a GA4 Google tag (`G-QRXSH04HL6`) with enhanced measurement.
+  2. No calendar, filter, map or feed feature depends on it; blocking it
+     (ad blockers, tests) changes nothing on the page. ICS feeds carry no
+     tracking.
+  3. Browser checks abort `www.googletagmanager.com` requests, as they do
+     Giscus, so local runs never send statistics.
+- Consequences: The first runtime request to a Google host. There is no
+  consent banner: tags, cookies and consent settings are managed in the GTM/GA
+  consoles by the owner, outside this repository. Verified 2026-11-20: over
+  http the page loads the container (200) and sends a GA4 `page_view` to
+  `region1.google-analytics.com`, with no page errors. Test:
+  `tests/test_analytics_tag.py`.
+- Alternatives considered: the classic GTM snippet with a `gtm.start` push
+  (not needed; the supplied snippet fires the GA4 page view); a cookieless
+  counter (not what the owner asked for).

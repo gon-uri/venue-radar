@@ -77,6 +77,9 @@ additions, not from an older session entry or a filtered website screenshot.
 - Search is accent-insensitive and matches every word. Re-renders keep keyboard
   focus. Tablet tables wrap between words; focus outlines, captions, a skip
   link and reduced motion are in place; no-JS shows every table and milestone.
+- Traffic statistics: the owner's Google Tag Manager container `GTM-MKS3WJCL`
+  loads first in `<head>` and sends GA4 page views (`G-QRXSH04HL6`); browser
+  checks block it (ADR-056). Consent settings live in the GTM/GA consoles.
 - Giscus uses verified repository/category IDs and the stable discussion term;
   GitHub issue links work independently. Public README stays nontechnical,
   credits Gonzalo Uribarri and includes the personal-project clarification.

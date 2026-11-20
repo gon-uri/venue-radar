@@ -59,6 +59,8 @@ page.on('request', request => {
 await page.addInitScript(() => { Date.now = () => Date.parse('2026-10-06T12:00:00Z'); });
 // Local checks do not authenticate, create Discussions, or exercise Giscus.
 await page.route('https://giscus.app/**', route => route.abort());
+// Nor do they send traffic statistics to Google Tag Manager.
+await page.route('https://www.googletagmanager.com/**', route => route.abort());
 
 try {
   const output = process.env.SCREENSHOT_DIR;

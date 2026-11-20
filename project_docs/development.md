@@ -89,7 +89,8 @@ not-checked count, phone layout) suites. It freezes a reference date and checks 
 expansion, filters/scope matching, maps, branding, accessibility and overflow.
 Catalog-specific expected counts/IDs need review after additions; derive them
 from built data at the frozen date. Do not weaken semantics to satisfy old counts.
-It blocks Giscus requests and never signs in, comments, posts on X or stars.
+It blocks Giscus and Google Tag Manager requests (no statistics are sent) and
+never signs in, comments, posts on X or stars.
 
 Browser checks need optional Playwright and an existing compatible browser.
 In Codex, discover the configured Node/dependency paths through the workspace-

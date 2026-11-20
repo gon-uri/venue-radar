@@ -70,6 +70,8 @@ PAGE_DESCRIPTION = (
 )
 # Pages serves only docs/ (generated output), so the card is served from the repository.
 SOCIAL_CARD_URL = "https://raw.githubusercontent.com/gon-uri/venue-radar/main/assets/branding/social-card.png"
+# Owner-supplied Google Tag Manager container for traffic statistics (ADR-056).
+GTM_CONTAINER_ID = "GTM-MKS3WJCL"
 SHARE_TEXT = (
     "Check out Venue Radar, a new conference calendar for ML, AI, neuroscience, and related fields. "
     "Search and filter submission deadlines, compare ICORE/CCF rankings, "
@@ -1038,6 +1040,12 @@ def build_site(
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <script async src="https://www.googletagmanager.com/gtm.js?id={GTM_CONTAINER_ID}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{escape(PAGE_TITLE)}</title>
   <meta name="description" content="{_attr(PAGE_DESCRIPTION)}">

@@ -218,22 +218,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
-UID:sfn-neuroscience-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260610T210000Z
-DTEND:20260610T220000Z
-SUMMARY:SfN Neuroscience 2026 · Regular research abstract submission deadl
- ine
-DESCRIPTION:Society for Neuroscience Annual Meeting\nMeeting: 2026-11-14 to
-  2026-11-18\, Washington\, DC\, USA\nStatus: confirmed\, checked 2026-11-
- 14\nFormat: Abstract-based\; Archival option: No\nOfficial source: https:
- //www.sfn.org/cfa\nVenue Radar: https://gon-uri.github.io/venue-radar/#sf
- n-neuroscience-2026
-CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
- ognitive Science & Computational Cognition,Neuroimaging & Brain Mapping
-URL:https://www.sfn.org/cfa
-END:VEVENT
-BEGIN:VEVENT
 UID:wacv-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260620T115900Z
@@ -949,24 +933,6 @@ DESCRIPTION:Machine Learning for Health Symposium\nMeeting: 2026-12-06 to 2
 CATEGORIES:Healthcare & Clinical AI,Machine Learning,Time Series & Sequenti
  al Data,Deep Representation Learning
 URL:https://ml4h.ahli.cc/submit/call-for-demonstrations/
-END:VEVENT
-BEGIN:VEVENT
-UID:sfn-neuroscience-2026-deadline-late-abstract@scientific-conference-cale
- ndar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:SfN Neuroscience 2026 · Late-breaking research abstract submission
-  deadline
-DESCRIPTION:Society for Neuroscience Annual Meeting\nMeeting: 2026-11-14 to
-  2026-11-18\, Washington\, DC\, USA\nStatus: confirmed\, checked 2026-11-
- 14\nCutoff time unannounced: official deadline day only. Verify the organ
- izer's submission portal.\nFormat: Abstract-based\; Archival option: No\n
- Official source: https://www.sfn.org/cfa\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#sfn-neuroscience-2026
-CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
- ognitive Science & Computational Cognition,Neuroimaging & Brain Mapping
-URL:https://www.sfn.org/cfa
 END:VEVENT
 BEGIN:VEVENT
 UID:biosig-2026-deadline-notification@scientific-conference-calendar
@@ -2381,25 +2347,6 @@ CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
 URL:https://www.wsdm-conference.org/2027/cfdc.html
 END:VEVENT
 BEGIN:VEVENT
-UID:sfn-neuroscience-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261119
-SUMMARY:SfN Neuroscience 2026 · Conference
-DESCRIPTION:Society for Neuroscience Annual Meeting\nStatus: confirmed\, ch
- ecked 2026-11-14\nOfficial source: https://www.sfn.org/meetings/neuroscie
- nce-2026\nVenue Radar: https://gon-uri.github.io/venue-radar/#sfn-neurosc
- ience-2026\nNotes: Annual broad neuroscience meeting. Research abstracts 
- are archived\, not peer-reviewed full-paper proceedings. Late-breaking su
- bmissions opened September 8 and were capped at 2\,500\, so could close e
- arly. Membership and presenter requirements apply. The late-breaking cuto
- ff hour was not verified. Size is an editorial estimate.
-CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
- ognitive Science & Computational Cognition,Neuroimaging & Brain Mapping
-URL:https://www.sfn.org/meetings/neuroscience-2026
-LOCATION:Washington\, DC\, USA
-END:VEVENT
-BEGIN:VEVENT
 UID:l4dc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261114T115900Z
@@ -2793,22 +2740,6 @@ DESCRIPTION:International Conference on Complex Networks\nMeeting: 2027-03-
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/cfp.html
-END:VEVENT
-BEGIN:VEVENT
-UID:pakdd-2027-deadline-regular-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261121T115900Z
-DTEND:20261121T125900Z
-SUMMARY:PAKDD 2027 · Applied Data Science\, Survey and LLM/Agentic AI trac
- k paper submission deadline
-DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
- nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
- nfirmed\, checked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\
- nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#pakdd-2027
-CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
- tial Data,Learning Theory & Statistical Foundations
-URL:https://pakdd2027.org/pages/dates
 END:VEVENT
 BEGIN:VEVENT
 UID:bmvc-2026-conference@scientific-conference-calendar
@@ -3377,7 +3308,23 @@ DTEND:20261205T125900Z
 SUMMARY:PAKDD 2027 · Research Track paper submission deadline (extended)
 DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
  nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
- nfirmed\, checked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\
+ nfirmed\, checked 2026-11-20\nFormat: Paper-based\; Archival option: Yes\
+ nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#pakdd-2027
+CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
+ tial Data,Learning Theory & Statistical Foundations
+URL:https://pakdd2027.org/pages/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:pakdd-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:PAKDD 2027 · Applied Data Science\, Survey and LLM/Agentic AI trac
+ k paper submission deadline (extended)
+DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
+ nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
+ nfirmed\, checked 2026-11-20\nFormat: Paper-based\; Archival option: Yes\
  nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
  /gon-uri.github.io/venue-radar/#pakdd-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
@@ -5923,7 +5870,7 @@ DTEND;VALUE=DATE:20270227
 SUMMARY:PAKDD 2027 · Paper acceptance notification
 DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
  nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
- nfirmed\, checked 2026-11-18\nCutoff time unannounced: official deadline 
+ nfirmed\, checked 2026-11-20\nCutoff time unannounced: official deadline 
  day only. Verify the organizer's submission portal.\nFormat: Paper-based\
  ; Archival option: Yes\nOfficial source: https://pakdd2027.org/pages/date
  s\nVenue Radar: https://gon-uri.github.io/venue-radar/#pakdd-2027
@@ -6766,7 +6713,7 @@ DTEND:20270320T125900Z
 SUMMARY:PAKDD 2027 · Camera-ready deadline
 DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
  nMeeting: 2027-06-29 to 2027-07-02\, Wellington\, New Zealand\nStatus: co
- nfirmed\, checked 2026-11-18\nFormat: Paper-based\; Archival option: Yes\
+ nfirmed\, checked 2026-11-20\nFormat: Paper-based\; Archival option: Yes\
  nOfficial source: https://pakdd2027.org/pages/dates\nVenue Radar: https:/
  /gon-uri.github.io/venue-radar/#pakdd-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
@@ -10384,15 +10331,16 @@ DTSTART;VALUE=DATE:20270629
 DTEND;VALUE=DATE:20270703
 SUMMARY:PAKDD 2027 · Conference
 DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
- nStatus: confirmed\, checked 2026-11-18\nOfficial source: https://pakdd20
+ nStatus: confirmed\, checked 2026-11-20\nOfficial source: https://pakdd20
  27.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#pakdd-2027\n
- Notes: Official PAKDD 2027 site\, rechecked 2026-11-18\, confirms an in-p
- erson meeting in Wellington\, Jun 29-Jul 2. The Research Track paper dead
- line was extended from Nov 20 to Dec 4\, 2026 (AoE)\; the Applied Data Sc
- ience\, Survey and LLM/Agentic AI tracks keep Nov 20 AoE. All four tracks
-  share the Feb 26\, 2027 notification and Mar 19 AoE camera-ready. Doctor
- al consortium (Feb 12\, 2027) is not tracked as a paper route. Workshop a
- nd tutorial dates are still to be announced.
+ Notes: Official PAKDD 2027 site\, rechecked 2026-11-20\, confirms an in-p
+ erson meeting in Wellington\, Jun 29-Jul 2. All four tracks (Research\, A
+ pplied Data Science\, Survey\, LLM/Agentic AI) share one paper deadline\,
+  extended from Nov 20 to Dec 4\, 2026 (AoE): the Research Track by Nov 18
+ \, the other three by Nov 20. All share the Feb 26\, 2027 notification an
+ d Mar 19 AoE camera-ready. Doctoral consortium (Feb 12\, 2027) is not tra
+ cked as a paper route. Workshop proposals are due Dec 11\, 2026 and tutor
+ ial proposals Feb 19\, 2027 (dates page).
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Learning Theory & Statistical Foundations
 URL:https://pakdd2027.org/

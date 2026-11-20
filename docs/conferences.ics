@@ -10,25 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:sfn-neuroscience-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261119
-SUMMARY:SfN Neuroscience 2026 · Conference
-DESCRIPTION:Society for Neuroscience Annual Meeting\nStatus: confirmed\, ch
- ecked 2026-11-14\nOfficial source: https://www.sfn.org/meetings/neuroscie
- nce-2026\nVenue Radar: https://gon-uri.github.io/venue-radar/#sfn-neurosc
- ience-2026\nNotes: Annual broad neuroscience meeting. Research abstracts 
- are archived\, not peer-reviewed full-paper proceedings. Late-breaking su
- bmissions opened September 8 and were capped at 2\,500\, so could close e
- arly. Membership and presenter requirements apply. The late-breaking cuto
- ff hour was not verified. Size is an editorial estimate.
-CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
- ognitive Science & Computational Cognition,Neuroimaging & Brain Mapping
-URL:https://www.sfn.org/meetings/neuroscience-2026
-LOCATION:Washington\, DC\, USA
-END:VEVENT
-BEGIN:VEVENT
 UID:siam-mds-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261116
@@ -1628,15 +1609,16 @@ DTSTART;VALUE=DATE:20270629
 DTEND;VALUE=DATE:20270703
 SUMMARY:PAKDD 2027 · Conference
 DESCRIPTION:Pacific-Asia Conference on Knowledge Discovery and Data Mining\
- nStatus: confirmed\, checked 2026-11-18\nOfficial source: https://pakdd20
+ nStatus: confirmed\, checked 2026-11-20\nOfficial source: https://pakdd20
  27.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#pakdd-2027\n
- Notes: Official PAKDD 2027 site\, rechecked 2026-11-18\, confirms an in-p
- erson meeting in Wellington\, Jun 29-Jul 2. The Research Track paper dead
- line was extended from Nov 20 to Dec 4\, 2026 (AoE)\; the Applied Data Sc
- ience\, Survey and LLM/Agentic AI tracks keep Nov 20 AoE. All four tracks
-  share the Feb 26\, 2027 notification and Mar 19 AoE camera-ready. Doctor
- al consortium (Feb 12\, 2027) is not tracked as a paper route. Workshop a
- nd tutorial dates are still to be announced.
+ Notes: Official PAKDD 2027 site\, rechecked 2026-11-20\, confirms an in-p
+ erson meeting in Wellington\, Jun 29-Jul 2. All four tracks (Research\, A
+ pplied Data Science\, Survey\, LLM/Agentic AI) share one paper deadline\,
+  extended from Nov 20 to Dec 4\, 2026 (AoE): the Research Track by Nov 18
+ \, the other three by Nov 20. All share the Feb 26\, 2027 notification an
+ d Mar 19 AoE camera-ready. Doctoral consortium (Feb 12\, 2027) is not tra
+ cked as a paper route. Workshop proposals are due Dec 11\, 2026 and tutor
+ ial proposals Feb 19\, 2027 (dates page).
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Learning Theory & Statistical Foundations
 URL:https://pakdd2027.org/

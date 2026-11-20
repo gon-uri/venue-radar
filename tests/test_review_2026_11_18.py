@@ -24,9 +24,11 @@ class NovemberEighteenReviewTests(unittest.TestCase):
 
     def test_extensions_found_in_the_urgent_recheck(self):
         pakdd = self.kinds('pakdd-2027')
-        # Only the Research Track moved; the other three tracks keep Nov 20.
+        # The Research Track moved first (seen 2026-11-18); the other three
+        # tracks followed by their Nov 20 deadline (seen 2026-11-20).
         self.assertEqual(pakdd['full_paper']['datetime'], '2026-12-04T23:59:00-12:00')
-        self.assertEqual(pakdd['regular_paper']['datetime'][:10], '2026-11-20')
+        self.assertEqual(pakdd['regular_paper']['datetime'], '2026-12-04T23:59:00-12:00')
+        self.assertIn('(extended)', pakdd['regular_paper']['label'])
         bci = self.kinds('bci-winter-2027')
         self.assertEqual((bci['full_paper']['datetime'][:10], bci['notification']['datetime'][:10]),
                          ('2026-11-25', '2026-12-20'))

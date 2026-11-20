@@ -1576,8 +1576,8 @@
   relevance: "high"
   deadlines:
     - type: "regular_paper"
-      label: "Applied Data Science, Survey and LLM/Agentic AI track paper submission deadline"
-      datetime: "2026-11-20T23:59:00-12:00"
+      label: "Applied Data Science, Survey and LLM/Agentic AI track paper submission deadline (extended)"
+      datetime: "2026-12-04T23:59:00-12:00"
       source_url: "https://pakdd2027.org/pages/dates"
     - type: "full_paper"
       label: "Research Track paper submission deadline (extended)"
@@ -1592,9 +1592,9 @@
       label: "Camera-ready deadline"
       datetime: "2027-03-19T23:59:00-12:00"
       source_url: "https://pakdd2027.org/pages/dates"
-  last_checked: "2026-11-18"
+  last_checked: "2026-11-20"
   confidence: "confirmed"
-  notes: "Official PAKDD 2027 site, rechecked 2026-11-18, confirms an in-person meeting in Wellington, Jun 29-Jul 2. The Research Track paper deadline was extended from Nov 20 to Dec 4, 2026 (AoE); the Applied Data Science, Survey and LLM/Agentic AI tracks keep Nov 20 AoE. All four tracks share the Feb 26, 2027 notification and Mar 19 AoE camera-ready. Doctoral consortium (Feb 12, 2027) is not tracked as a paper route. Workshop and tutorial dates are still to be announced."
+  notes: "Official PAKDD 2027 site, rechecked 2026-11-20, confirms an in-person meeting in Wellington, Jun 29-Jul 2. All four tracks (Research, Applied Data Science, Survey, LLM/Agentic AI) share one paper deadline, extended from Nov 20 to Dec 4, 2026 (AoE): the Research Track by Nov 18, the other three by Nov 20. All share the Feb 26, 2027 notification and Mar 19 AoE camera-ready. Doctoral consortium (Feb 12, 2027) is not tracked as a paper route. Workshop proposals are due Dec 11, 2026 and tutorial proposals Feb 19, 2027 (dates page)."
 
 - id: "cikm-2026"
   series: "CIKM"

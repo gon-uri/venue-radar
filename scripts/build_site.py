@@ -248,6 +248,11 @@ def _metadata_label(value: Any) -> str:
     return f'<span class="meta-pill">{escape(str(value))}</span>'
 
 
+def _rank_slug(rank: str) -> str:
+    """CSS hook for the rank colour scale (ADR-060): A* -> a-star, A -> a."""
+    return rank.lower().replace("*", "-star")
+
+
 def _icore_cell(conference: dict[str, Any], rankings: dict[str, Any]) -> str:
     entry = rankings.get(conference["series"])
     if entry is None:
@@ -258,7 +263,7 @@ def _icore_cell(conference: dict[str, Any], rankings: dict[str, Any]) -> str:
     rank = entry["rank"]
     url = f'https://portal.core.edu.au/conf-ranks/{entry["portal_id"]}/'
     return (
-        f'<a class="rank-link{" rank-top" if rank == "A*" else ""}" href="{_attr(url)}" '
+        f'<a class="rank-link{" rank-top" if rank == "A*" else ""}" data-rank="{_attr(_rank_slug(rank))}" href="{_attr(url)}" '
         f'aria-label="ICORE 2026 rank {_attr(rank)}" '
         f'title="ICORE 2026: {_attr(rank)}. Applies to main-track full papers.">'
         f"{escape(rank)}</a>"
@@ -275,7 +280,7 @@ def _ranking_cell(
     if ccf_entry:
         rank = ccf_entry["rank"]
         ccf_html = (
-            f'<a class="rank-link rank-link-ccf" href="{_attr(ccf_page)}" '
+            f'<a class="rank-link rank-link-ccf" data-rank="{_attr(_rank_slug(rank))}" href="{_attr(ccf_page)}" '
             f'aria-label="CCF 2026 rank {_attr(rank)}" '
             f'title="CCF 2026: {_attr(rank)}. Main-track full papers only.">'
             f"{escape(rank)}</a>"
@@ -660,13 +665,10 @@ def _deadline_grid_rows(milestones: list[dict[str, Any]], grid_id: str = "") -> 
             local = '<span class="deadline-local" data-local-time hidden></span>'
         when = (f'<time datetime="{_attr(deadline_utc)}"{time_title}>'
                 f"{escape(_display_deadline_datetime(milestone['datetime']))}</time>")
-        note = ""
         if milestone.get("cutoff_note"):
             # Official sources disagree; the stored instant is the earliest one.
             mark = (f'<span class="cutoff-note-mark" title="{_attr(milestone["cutoff_note"])}" '
                     f'aria-hidden="true">*</span>')
-            note = (f'<span class="deadline-note"><span class="visually-hidden">Note: </span>'
-                    f'* {escape(milestone["cutoff_note"])}</span>')
             if clock:
                 clock = f'<span class="deadline-clock-wrap">{clock}{mark}</span>'
             else:
@@ -681,12 +683,23 @@ def _deadline_grid_rows(milestones: list[dict[str, Any]], grid_id: str = "") -> 
             f'data-deadline-type="{_attr(milestone["type"])}"{row_hidden}>'
             f"{when}{clock}{estimate}"
             f'<span class="deadline-milestone">'
-            f"{escape(milestone['label'])}</span>{basis}{local}{note}"
+            f"{escape(milestone['label'])}</span>{basis}{local}"
             f'<span class="deadline-passed" data-deadline-passed="{_attr(deadline_utc)}"></span>'
             "</div>"
         )
     grid_attr = f' id="{_attr(grid_id)}"' if grid_id else ""
     return f'<div class="deadline-grid" data-deadline-grid{grid_attr}>{"".join(rows)}</div>'
+
+
+def _cutoff_notes(milestones: list[dict[str, Any]]) -> str:
+    """Each distinct cutoff note once, below all milestones (shown when the row
+    is opened; the asterisk stays beside the date). Official sources disagree;
+    the stored instant is the earliest one."""
+    notes = list(dict.fromkeys(m["cutoff_note"] for m in milestones if m.get("cutoff_note")))
+    if not notes:
+        return ""
+    items = "".join(f'<p><span class="visually-hidden">Note: </span>* {escape(note)}</p>' for note in notes)
+    return f'<div class="cutoff-notes">{items}</div>'
 
 
 def _mobile_row_disclosure(title: str) -> str:
@@ -756,7 +769,7 @@ def _deadline_group_rows(
             '<span class="visually-hidden" data-time-left-sr></span>'
             f'<span class="time-estimate" data-time-estimate hidden title="{_attr(TIME_ESTIMATE_TOOLTIP)}">(time est.)</span>'
             '</div></td>'
-            f'<td class="deadline-combined-cell mobile-detail" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}<div class="milestone-stack">{_deadline_grid_rows(milestones, grid_id)}{_about_venue(conference)}{_evidence_line(conference)}</div></div></td>'
+            f'<td class="deadline-combined-cell mobile-detail" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}<div class="milestone-stack">{_deadline_grid_rows(milestones, grid_id)}{_cutoff_notes(milestones)}{_about_venue(conference)}{_evidence_line(conference)}</div></div></td>'
             f"<td class=\"mobile-detail\" data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f'<td class="mobile-detail" data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
             f'<td class="mobile-detail" data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
@@ -1088,7 +1101,7 @@ def build_site(
     #panel-conferences[hidden] {{ display: block !important; }}
     .deadline-grid-row[hidden] {{ display: flex !important; }}
     .evidence-line {{ display: flex !important; }}
-    .about-venue, .deadline-basis {{ display: block !important; }}
+    .about-venue, .deadline-basis, .cutoff-notes {{ display: block !important; }}
     .status-guide-live {{ display: none !important; }}
     .table-tabs, .open-toggle, .horizon, .toolbar-actions, .filter-section, .map-section,
     .deadline-toggle, .calendar-menu > .calendar-panel .feed-picker, [data-copy-feed] {{ display: none !important; }}

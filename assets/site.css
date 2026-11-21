@@ -214,8 +214,8 @@ input[type="search"], select { border-color: var(--control-border); }
   .rank-pair { flex-wrap: wrap; gap: 0 2px; }
   #panel-deadlines col:nth-child(1) { width: 13% !important; }
   #panel-deadlines col:nth-child(2) { width: 14% !important; }
-  #panel-deadlines col:nth-child(3) { width: 10% !important; }
-  #panel-deadlines col:nth-child(4) { width: 23% !important; }
+  #panel-deadlines col:nth-child(3) { width: 11% !important; }
+  #panel-deadlines col:nth-child(4) { width: 22% !important; }
   #panel-deadlines col:nth-child(5) { width: 15% !important; }
   #panel-deadlines col:nth-child(6) { width: 9% !important; }
   #panel-deadlines col:nth-child(7) { width: 10% !important; }
@@ -307,7 +307,12 @@ svg.lucide { fill: none; }
 .deadline-clock-wrap { flex: 0 0 auto; white-space: nowrap; }
 .deadline-clock-wrap.is-date { flex: 0 1 auto; min-width: 0; white-space: normal; }
 .cutoff-note-mark { margin-left: 1px; color: var(--warn); font-weight: 700; cursor: help; }
-.deadline-note { order: 4; flex: 1 1 100%; color: var(--warn); font-size: .75rem; line-height: 1.3; }
+.cutoff-notes { display: none; margin: 4px 0 2px; color: var(--warn); font-size: .75rem; line-height: 1.35; }
+.cutoff-notes p { margin: 0; max-width: 62ch; color: inherit; }
+.cutoff-notes p + p { margin-top: 3px; }
+/* Shown when the conference is opened, like About this venue (ADR-060). */
+.deadline-group-row.is-expanded .cutoff-notes, .deadline-group-row:not(:has(.deadline-toggle)) .cutoff-notes { display: block; }
+@media (max-width: 760px) { .mobile-cards-ready tr[data-filter-row][data-mobile-expanded="true"] .cutoff-notes { display: block; } }
 /* Archival option (ADR-047): a tag under the status or dates, one filter row. */
 .archival-tag { display: block; width: fit-content; max-width: 100%; margin-top: 5px; padding: 1px 6px; border: 1px solid var(--accent-border); border-radius: 4px; background: var(--accent-tint); color: var(--accent-dark); font-size: .6875rem; font-weight: 600; line-height: 1.4; text-decoration: underline dotted; text-decoration-thickness: 1px; text-underline-offset: 2px; }
 .archival-tag-no { border-color: var(--line); background: transparent; color: var(--muted); text-decoration: none; }
@@ -540,7 +545,11 @@ td[data-label="Conference"] > a:hover, td[data-label="Conference"] > a:focus-vis
 }
 /* Desktop and tablet tables: 13px mono countdowns keep "~4d 15h" plus its
    urgency icon inside the Time left column at every width (phones keep 16px). */
-@media (min-width: 761px) { td[data-label="Time left"] .time-left { font-size: .8125rem; } }
+/* ADR-060: larger countdowns on one line: 16px where the Time left column
+   allows it, 14px on small tablets and the narrowest rail layout (was 13px). */
+@media (min-width: 761px) { td[data-label="Time left"] .time-left { font-size: 1rem; letter-spacing: -.02em; } }
+@media (min-width: 800px) { td[data-label="Time left"] .time-left { white-space: nowrap; } }
+@media (min-width: 761px) and (max-width: 1049px), (min-width: 1200px) and (max-width: 1279px) { td[data-label="Time left"] .time-left { font-size: .875rem; } }
 /* Small tablets (761-899px): tighter status pills so the shape icon and the
    longest word ("Submission") fit the narrow status column. */
 @media (min-width: 761px) and (max-width: 899px) { .submission-status { gap: 4px; padding: 2px 5px; font-size: .6875rem; } }
@@ -651,3 +660,12 @@ td[data-label="Conference"] > a:hover, td[data-label="Conference"] > a:focus-vis
   .agenda-view .agenda-group { display: block; border: 0; margin: 0; background: transparent; }
   .agenda-view .agenda-group th { display: block; width: auto; padding: 14px 2px 6px; }
 }
+
+/* ADR-060: rank colour scale, same for ICORE and CCF: A* dark green (solid),
+   A green, B yellow, C orange. The letter always carries the meaning. */
+.rank-link[data-rank] { border-color: transparent; }
+.rank-link[data-rank="a-star"] { background: var(--rank-astar-bg); color: var(--rank-astar-fg); }
+.rank-link[data-rank="a"] { background: var(--rank-a-bg); color: var(--rank-a-fg); }
+.rank-link[data-rank="b"] { background: var(--rank-b-bg); color: var(--rank-b-fg); }
+.rank-link[data-rank="c"] { background: var(--rank-c-bg); color: var(--rank-c-fg); }
+@media (min-width: 761px) and (max-width: 899px) { td[data-label="Time left"] .time-left { font-size: .8125rem; } }  /* small tablets keep 13px */

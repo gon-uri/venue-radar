@@ -1519,3 +1519,29 @@ explicit refinements take precedence. Current rules live in
 - Alternatives considered: showing "About this venue" on collapsed phone cards
   (taller cards than ADR-049 aimed for); a separate agenda renderer (two
   sources of truth for rows).
+
+## ADR-060: Cutoff Notes When Opened, Rank Colours, Larger Countdowns
+
+- Status: Accepted by the owner on 2026-11-21 (requested fixes: show the
+  conflicting-cutoff note only once a conference is opened, once and below
+  all milestones; colour the ranks on an intuitive scale; make the time left
+  a little larger; "commit and merge directly").
+- Date: 2026-11-21
+- Decision:
+  1. Cutoff notes (ADR-040): the yellow asterisk stays beside every affected
+     date, with the note as its tooltip. The note text shows once per
+     conference, deduplicated, in one block below all milestones, and only
+     when the row is opened (desktop expand, phone More info), like About
+     this venue. Rows with a single milestone and the no-JS view show it
+     always. The collapsed phone card keeps only the asterisk.
+  2. ICORE and CCF badges use one colour scale from the design palette:
+     A* solid dark green, A green, B yellow, C orange (light and dark tokens,
+     AA-checked). The letter carries the meaning; colour supports it. This
+     replaces ADR-057's neutral rank badges.
+  3. Table countdowns are 16 px Geist Mono on one line (was 13 px), 14 px at
+     900-1049 px and on the narrowest rail layout (1200-1279 px), and 13 px on
+     small tablets (761-899 px), where they may wrap below 800 px. The Time
+     left column takes 1% more width from Next milestone. Phones keep 16 px.
+- Not changed: data, notes' wording, rank data, filters, URLs, UIDs.
+- Consequences: Measured 0 overflowing table cells from 800 to 1920 px; the
+  five long topic words at 761-780 px predate v2.

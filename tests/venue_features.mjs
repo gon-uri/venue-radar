@@ -19,7 +19,21 @@ export async function checkVenueFeatures(page, url) {
   const [markBox, clockBox] = await Promise.all([mlsysSummary.locator('.cutoff-note-mark'), mlsysSummary.locator('.deadline-clock')]
     .map(locator => locator.boundingBox()));
   assert(Math.abs(markBox.y - clockBox.y) < 4 && markBox.x > clockBox.x, 'The asterisk stays on the clock line');
-  assert.match(await mlsysSummary.locator('.deadline-note').innerText(), /^(Note:\s*)?\* .*Earliest instant stored\.$/);
+  // ADR-060: collapsed rows keep only the asterisk; the note shows once, below
+  // all milestones, when the conference is opened.
+  const notes = row('mlsys-2027').locator('.cutoff-notes');
+  assert(!(await notes.isVisible()), 'The cutoff note waits until the row is opened');
+  await row('mlsys-2027').locator('.deadline-toggle').click();
+  assert.equal(await notes.locator('p').count(), 1);
+  assert.match(await notes.innerText(), /^(Note:\s*)?\* .*Earliest instant stored\.$/);
+  const lastMilestone = await row('mlsys-2027').locator('[data-deadline-row]:visible').last().boundingBox();
+  assert((await notes.boundingBox()).y >= lastMilestone.y + lastMilestone.height - 1, 'The note sits below every milestone');
+  await row('mlsys-2027').locator('.deadline-toggle').click();
+  const ida = row('ida-2027');
+  await ida.locator('.deadline-toggle').click();
+  assert.equal(await ida.locator('.cutoff-notes p').count(), 1, 'A note shared by several milestones appears once');
+  assert(await ida.locator('.cutoff-note-mark').count() > 1, 'Each affected date keeps its asterisk');
+  await ida.locator('.deadline-toggle').click();
   assert.equal(await row('uai-2027').locator('.deadline-clock').count(), 0, 'Estimated rows have no clock');
   assert.equal(await row('ifac-sysid-2027').locator('[data-deadline-row]:visible .deadline-clock').count(), 0,
     'Date-only cutoffs have no clock');

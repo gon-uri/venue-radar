@@ -43,6 +43,10 @@
       --shadow: rgba(24, 37, 42, .14);
       --star: #a87400;
       --map-water: #ffffff;
+      --track: #dfe6e7;
+      --calm-bar: #8aa4aa;
+      --soon-bar: #b76b27;
+      --final-bar: #c85c62;
       --map-land: #dce5e6;
       --map-coast: #bbc7ca;
       --mark-tile: #0d6064;
@@ -51,8 +55,10 @@
       --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
       --font-brand: Sora, Inter, system-ui, sans-serif;
     }
+    /* Dark tokens: the system setting, unless the reader chose light; or the
+       reader's explicit dark choice (theme toggle, ADR-059). */
     @media (prefers-color-scheme: dark) {
-      :root {
+      :root:not([data-theme="light"]) {
         color-scheme: dark;
         --bg: #101c1f;
         --raised: #1b2b2e;
@@ -99,8 +105,65 @@
         --map-coast: #415457;
         --mark-tile: #22989d;
         --mark-blip: #e8787d;
+        --track: #2f3d41;
+        --calm-bar: #61797f;
+        --soon-bar: #eba941;
+        --final-bar: #e47b7c;
       }
     }
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #101c1f;
+      --raised: #1b2b2e;
+      --surface: #152326;
+      --surface-strong: #0c1719;
+      --line: #2b3b3f;
+      --line-strong: #415457;
+      --control-border: #6b7e83;
+      --text: #e7eeef;
+      --muted: #a6b4b7;
+      --faint: #869598;
+      --accent: #86d2d6;
+      --accent-dark: #86d2d6;
+      --accent-hover: #b8e7e9;
+      --accent-tint: #0a3537;
+      --accent-tint-2: #064043;
+      --accent-border: #2e6366;
+      --on-accent: #001e20;
+      --focus-ring: rgba(134, 210, 214, .3);
+      --tag: #1b2b2e;
+      --tag-text: #bcc6c8;
+      --warn: #f7c56d;
+      --warn-bg: #443116;
+      --open: #7edbae;
+      --open-bg: #163b2c;
+      --open-dot: #56cb98;
+      --soon: #f7c56d;
+      --final: #f99e9b;
+      --final-dot: #e47b7c;
+      --closed: #a6b4b7;
+      --closed-bg: #283538;
+      --rank-bg: #1b2b2e;
+      --rank-fg: #bcc6c8;
+      --rank-top-bg: #2f4144;
+      --rank-top-fg: #f2f8f8;
+      --linked-bg: #3a3218;
+      --hover: #213134;
+      --tip-bg: #e7eeef;
+      --tip-text: #101c1f;
+      --shadow: rgba(0, 0, 0, .5);
+      --star: #f2c14e;
+      --map-water: #152326;
+      --map-land: #2a383b;
+      --map-coast: #415457;
+      --mark-tile: #22989d;
+      --mark-blip: #e8787d;
+      --track: #2f3d41;
+      --calm-bar: #61797f;
+      --soon-bar: #eba941;
+      --final-bar: #e47b7c;
+    }
+    :root[data-theme="light"] { color-scheme: light; }
     body {
       margin: 0;
       color: var(--text);

@@ -1475,3 +1475,47 @@ explicit refinements take precedence. Current rules live in
   markup and tab order); a collapse button remembered per browser and a phone
   filter sheet (new behaviour; deferred to phase 3); series counts per family
   (static counts could be misread as filtered counts).
+
+## ADR-059: Phase 3 Reading Aids, And "About This Venue" On Phones
+
+- Status: Accepted by the owner on 2026-11-21 ("Continue with phase 3, but
+  push the horizontal 90 days runway line for a phase 4"; "make sure to make
+  it visible", about "About this venue" on phones). Phase 3 of the identity
+  v2 plan (ADR-057, ADR-058).
+- Date: 2026-11-21
+- Context: Book 4 proposed reading aids beyond the restyle. Separately, on
+  phones "About this venue" needed two taps (More info, then the inner
+  schedule toggle) because its reveal rule only matched desktop's expanded
+  rows; ADR-050 intended it under More info.
+- Decision:
+  1. "About this venue" (and the archival track line) show as soon as a phone
+     card's More info is open. Desktop is unchanged.
+  2. Horizon bar: a 64 px bar under each countdown shows the share of a
+     90-day window still left (longer = more time), in the urgency colour;
+     estimated deadlines are hatched. `horizonFraction()` in `logic.js`.
+  3. "/" focuses search unless the reader is typing; pointer devices from
+     761 px show a quiet "/" hint in the empty search box.
+  4. Theme toggle in the header: follows the system, light, or dark; the
+     choice is kept in `localStorage` (`venue-radar:theme`) and applied by a
+     head script before the first paint. The map follows it.
+  5. Rail collapse (1200 px and up): "Hide filters" shrinks the rail to a
+     strip with a count of active filters; kept in `venue-radar:rail`.
+  6. Phone filter sheet (760 px and below): an open More filters panel is a
+     full-screen dialog with Close, Escape, a focus trap and "Show N
+     conferences". Filters still apply at once; the button only closes it.
+     A link that opens More filters opens the sheet on phones.
+  7. Agenda layout: a "View: Table | Agenda" switch above the deadlines. The
+     agenda reuses the same filtered, sorted rows with a date margin and
+     "This week" (under 7 days), "Next 30 days" and "Later" headings. Table
+     is the default and the no-JS view; `view=agenda` in the link, and the
+     choice is kept in `venue-radar:view`.
+  8. Script-only controls (theme, view switch, rail toggle) are hidden
+     without JavaScript.
+- Not changed: data, feeds, filters, URL keys (one new optional key, `view`),
+  labels of existing controls, calendar UIDs.
+- Deferred to phase 4: the 90-day runway strip above the table.
+- Consequences: About 6 KB more script and CSS. Browser checks:
+  `tests/phase3.mjs`; unit test for `horizonFraction()`.
+- Alternatives considered: showing "About this venue" on collapsed phone cards
+  (taller cards than ADR-049 aimed for); a separate agenda renderer (two
+  sources of truth for rows).

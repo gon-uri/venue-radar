@@ -190,6 +190,7 @@ function drawConferenceMap() {
     };
     const land = L.geoJSON(venueMapData.land, {interactive: false, style: landStyle}).addTo(conferenceMap);
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => land.setStyle(landStyle()));
+    document.addEventListener('venue-radar:themechange', () => land.setStyle(landStyle()));
     conferenceMap.attributionControl.addAttribution('Land: <a href="https://www.naturalearthdata.com/">Natural Earth</a>');
     cityMarkers = L.layerGroup().addTo(conferenceMap);
     conferenceMap.on('resize', resetConferenceMap);
@@ -367,4 +368,178 @@ function initializeTips() {
   };
   sync();
   rail.addEventListener('change', sync);
+})();
+
+// ADR-059: a three-way colour theme (system, light, dark), remembered per
+// browser. The head script applies a saved choice before the first paint.
+(() => {
+  const button = document.querySelector('#theme-toggle');
+  if (!button) return;
+  const order = ['system', 'light', 'dark'];
+  const describe = {system: 'follows your system', light: 'light', dark: 'dark'};
+  const current = () => document.documentElement.dataset.theme || 'system';
+  const show = (choice) => {
+    const next = order[(order.indexOf(choice) + 1) % order.length];
+    button.dataset.themeChoice = choice;
+    button.title = `Colour theme: ${describe[choice]}`;
+    button.setAttribute('aria-label', `Colour theme: ${describe[choice]}. Switch to ${describe[next]}`);
+  };
+  show(current());
+  button.addEventListener('click', () => {
+    const choice = order[(order.indexOf(current()) + 1) % order.length];
+    if (choice === 'system') delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = choice;
+    try {
+      if (choice === 'system') localStorage.removeItem('venue-radar:theme');
+      else localStorage.setItem('venue-radar:theme', choice);
+    } catch (error) { /* private mode: the choice lasts for this page only */ }
+    show(choice);
+    document.dispatchEvent(new Event('venue-radar:themechange'));
+  });
+})();
+
+// ADR-059: "/" jumps to search unless the reader is typing somewhere.
+document.addEventListener('keydown', (event) => {
+  if (event.key !== '/' || event.ctrlKey || event.metaKey || event.altKey || event.defaultPrevented) return;
+  const target = event.target;
+  if (target.closest?.('input, textarea, select, [contenteditable=""], [contenteditable="true"]')) return;
+  const search = document.querySelector('#search');
+  if (!search || !search.offsetParent) return;
+  event.preventDefault();
+  search.focus();
+  search.select();
+});
+
+// ADR-059: the 1200px+ rail can collapse to a strip, remembered per browser.
+// The strip shows how many filters are active.
+(() => {
+  const button = document.querySelector('#rail-toggle');
+  const count = document.querySelector('#rail-count');
+  if (!button) return;
+  const setCollapsed = (collapsed, remember) => {
+    document.body.classList.toggle('rail-collapsed', collapsed);
+    button.setAttribute('aria-expanded', String(!collapsed));
+    button.title = collapsed ? 'Show filters' : 'Hide filters';
+    button.querySelector('.rail-toggle-label').textContent = collapsed ? 'Show filters' : 'Hide filters';
+    if (remember) try { localStorage.setItem('venue-radar:rail', collapsed ? 'collapsed' : 'open'); } catch (error) { /* not remembered */ }
+  };
+  let saved = null;
+  try { saved = localStorage.getItem('venue-radar:rail'); } catch (error) { /* default: open */ }
+  setCollapsed(saved === 'collapsed', false);
+  button.addEventListener('click', () => setCollapsed(!document.body.classList.contains('rail-collapsed'), true));
+  const active = () => {
+    const families = [...document.querySelectorAll('[data-family-toggle]:checked')].map((input) => input.dataset.familyToggle);
+    const topics = [...document.querySelectorAll('[data-topic-family]:checked')].filter((input) => !families.includes(input.dataset.topicFamily));
+    const others = document.querySelectorAll('[data-filter-group]:not([data-filter-group="topics"]):checked').length;
+    return (document.querySelector('#search').value.trim() ? 1 : 0) + families.length + topics.length + others;
+  };
+  const update = () => {
+    const n = active();
+    count.hidden = n === 0;
+    count.textContent = String(n);
+    button.setAttribute('aria-label', `${button.title}${n ? ` (${n} active)` : ''}`);
+  };
+  const controls = document.querySelector('.controls');
+  ['input', 'change', 'click'].forEach((type) => controls.addEventListener(type, () => setTimeout(update, 0)));
+  addEventListener('popstate', update);
+  update();
+})();
+
+// ADR-059: on phones, More filters opens as a full-screen sheet. Filters still
+// apply at once; Close and "Show N conferences" just close the sheet.
+(() => {
+  const details = document.querySelector('#filter-details');
+  const summary = details?.querySelector(':scope > summary');
+  const sheet = details?.querySelector('.filter-content');
+  const apply = details?.querySelector('.sheet-apply');
+  const resultCount = document.querySelector('#result-count');
+  if (!details || !sheet) return;
+  const phone = matchMedia('(max-width: 760px)');
+  const isSheet = () => phone.matches && details.open;
+  const label = () => {
+    const shown = (resultCount?.textContent || '').match(/^(\d+)/);
+    apply.textContent = shown ? `Show ${shown[1]} conference${shown[1] === '1' ? '' : 's'}` : 'Show results';
+  };
+  const sync = (focusInside) => {
+    const open = isSheet();
+    document.body.classList.toggle('sheet-open', open);
+    if (open) {
+      sheet.setAttribute('role', 'dialog');
+      sheet.setAttribute('aria-modal', 'true');
+      sheet.setAttribute('aria-label', 'More filters');
+      label();
+      if (focusInside) sheet.querySelector('.sheet-close').focus();
+    } else {
+      ['role', 'aria-modal', 'aria-label'].forEach((name) => sheet.removeAttribute(name));
+    }
+  };
+  details.addEventListener('toggle', () => sync(document.activeElement === summary));
+  phone.addEventListener('change', () => sync(false));
+  sheet.querySelectorAll('[data-sheet-close]').forEach((button) => button.addEventListener('click', () => {
+    details.open = false;
+    summary.focus();
+  }));
+  document.addEventListener('keydown', (event) => {
+    if (!isSheet()) return;
+    if (event.key === 'Escape') { details.open = false; summary.focus(); return; }
+    if (event.key !== 'Tab') return;
+    const items = [...sheet.querySelectorAll('button, input, select, a[href], summary')].filter((item) => item.offsetParent !== null);
+    if (!items.length) return;
+    const first = items[0], last = items[items.length - 1];
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  });
+  if (resultCount) new MutationObserver(() => { if (isSheet()) label(); }).observe(resultCount, {childList: true, characterData: true, subtree: true});
+  sync(false);
+})();
+
+// ADR-059: an optional Agenda layout for Upcoming Deadlines. It reuses the
+// same filtered, sorted rows; this only adds a date margin and "This week /
+// Next 30 days / Later" headings. Table stays the default and the no-JS view.
+(() => {
+  const panel = document.querySelector('#panel-deadlines');
+  const buttons = [...document.querySelectorAll('.view-switch [data-view]')];
+  if (!panel || !buttons.length) return;
+  const DAY = 24 * 60 * 60 * 1000;
+  const groups = [['week', 'This week', 7 * DAY], ['month', 'Next 30 days', 30 * DAY], ['later', 'Later', Infinity]];
+  const isAgenda = () => panel.classList.contains('agenda-view');
+  window.renderAgenda = (now = Date.now()) => {
+    const body = panel.querySelector('tbody');
+    body.querySelectorAll('.agenda-group').forEach((row) => row.remove());
+    // core.js runs after this script; until its first render there are no states.
+    if (!isAgenda() || typeof stateByRow === 'undefined') return;
+    const rows = [...body.querySelectorAll('[data-deadline-group]')];
+    const seen = new Set();
+    rows.forEach((row) => {
+      const time = row.querySelector('[data-deadline-row]:not([hidden]) time');
+      const [month = '', day = ''] = (time?.textContent || '').replace(',', '').split(' ');
+      row.dataset.agendaDay = day;
+      row.dataset.agendaMonth = month.slice(0, 3);
+      if (row.hidden) return;
+      const action = stateByRow.get(row)?.action;
+      const left = action ? action.time - now : Infinity;
+      const [key, label] = groups.find(([, , limit]) => left < limit);
+      if (seen.has(key)) return;
+      seen.add(key);
+      const heading = document.createElement('tr');
+      heading.className = 'agenda-group';
+      heading.innerHTML = '<th colspan="9" scope="colgroup"></th>';
+      heading.firstChild.textContent = label;
+      body.insertBefore(heading, row);
+    });
+  };
+  const setView = (view, remember) => {
+    panel.classList.toggle('agenda-view', view === 'agenda');
+    buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.view === view)));
+    const params = new URLSearchParams(location.search);
+    if (view === 'agenda') params.set('view', 'agenda'); else params.delete('view');
+    const text = params.toString().replace(/%2C/g, ',');
+    try { history.replaceState(history.state, '', `${location.pathname}${text ? `?${text}` : ''}${location.hash}`); } catch (error) { /* file:// */ }
+    if (remember) try { localStorage.setItem('venue-radar:view', view); } catch (error) { /* not remembered */ }
+    window.renderAgenda();
+  };
+  let start = new URLSearchParams(location.search).get('view');
+  if (!start) try { start = localStorage.getItem('venue-radar:view'); } catch (error) { /* table */ }
+  setView(start === 'agenda' ? 'agenda' : 'table', false);
+  buttons.forEach((button) => button.addEventListener('click', () => setView(button.dataset.view, true)));
 })();

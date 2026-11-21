@@ -339,6 +339,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     gtag('js', new Date());
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>try { const theme = localStorage.getItem('venue-radar:theme'); if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme; } catch (error) {}</script>
   <title>Venue Radar: ML, AI &amp; Neuroscience Conference Deadlines</title>
   <meta name="description" content="Conference deadlines for machine learning, AI, neuroscience, healthcare, complex systems and control, with live countdowns, rankings, acceptance rates and auto-updating calendars.">
   <link rel="canonical" href="https://gon-uri.github.io/venue-radar/">
@@ -404,6 +405,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       --shadow: rgba(24, 37, 42, .14);
       --star: #a87400;
       --map-water: #ffffff;
+      --track: #dfe6e7;
+      --calm-bar: #8aa4aa;
+      --soon-bar: #b76b27;
+      --final-bar: #c85c62;
       --map-land: #dce5e6;
       --map-coast: #bbc7ca;
       --mark-tile: #0d6064;
@@ -412,8 +417,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
       --font-brand: Sora, Inter, system-ui, sans-serif;
     }
+    /* Dark tokens: the system setting, unless the reader chose light; or the
+       reader's explicit dark choice (theme toggle, ADR-059). */
     @media (prefers-color-scheme: dark) {
-      :root {
+      :root:not([data-theme="light"]) {
         color-scheme: dark;
         --bg: #101c1f;
         --raised: #1b2b2e;
@@ -460,8 +467,65 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         --map-coast: #415457;
         --mark-tile: #22989d;
         --mark-blip: #e8787d;
+        --track: #2f3d41;
+        --calm-bar: #61797f;
+        --soon-bar: #eba941;
+        --final-bar: #e47b7c;
       }
     }
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #101c1f;
+      --raised: #1b2b2e;
+      --surface: #152326;
+      --surface-strong: #0c1719;
+      --line: #2b3b3f;
+      --line-strong: #415457;
+      --control-border: #6b7e83;
+      --text: #e7eeef;
+      --muted: #a6b4b7;
+      --faint: #869598;
+      --accent: #86d2d6;
+      --accent-dark: #86d2d6;
+      --accent-hover: #b8e7e9;
+      --accent-tint: #0a3537;
+      --accent-tint-2: #064043;
+      --accent-border: #2e6366;
+      --on-accent: #001e20;
+      --focus-ring: rgba(134, 210, 214, .3);
+      --tag: #1b2b2e;
+      --tag-text: #bcc6c8;
+      --warn: #f7c56d;
+      --warn-bg: #443116;
+      --open: #7edbae;
+      --open-bg: #163b2c;
+      --open-dot: #56cb98;
+      --soon: #f7c56d;
+      --final: #f99e9b;
+      --final-dot: #e47b7c;
+      --closed: #a6b4b7;
+      --closed-bg: #283538;
+      --rank-bg: #1b2b2e;
+      --rank-fg: #bcc6c8;
+      --rank-top-bg: #2f4144;
+      --rank-top-fg: #f2f8f8;
+      --linked-bg: #3a3218;
+      --hover: #213134;
+      --tip-bg: #e7eeef;
+      --tip-text: #101c1f;
+      --shadow: rgba(0, 0, 0, .5);
+      --star: #f2c14e;
+      --map-water: #152326;
+      --map-land: #2a383b;
+      --map-coast: #415457;
+      --mark-tile: #22989d;
+      --mark-blip: #e8787d;
+      --track: #2f3d41;
+      --calm-bar: #61797f;
+      --soon-bar: #eba941;
+      --final-bar: #e47b7c;
+    }
+    :root[data-theme="light"] { color-scheme: light; }
     body {
       margin: 0;
       color: var(--text);
@@ -2262,6 +2326,113 @@ td[data-label="Conference"] > a:hover, td[data-label="Conference"] > a:focus-vis
 /* Small tablets (761-899px): tighter status pills so the shape icon and the
    longest word ("Submission") fit the narrow status column. */
 @media (min-width: 761px) and (max-width: 899px) { .submission-status { gap: 4px; padding: 2px 5px; font-size: .6875rem; } }
+/* Phones: "About this venue" and the archival line show as soon as the card's
+   More info is open, as ADR-050 specifies; they no longer also need the inner
+   schedule toggle (ADR-059). */
+@media (max-width: 760px) {
+  .mobile-cards-ready tr[data-filter-row][data-mobile-expanded="true"] .about-venue { display: block; }
+}
+
+/* ADR-059: horizon bar under each countdown: the share of a 90-day window
+   still left (longer = more time), coloured by urgency; estimates hatched. */
+.time-left-cell[data-horizon]:not([data-horizon=""])::after { content: ""; display: block; width: 64px; height: 3px; margin-top: 5px; border-radius: 2px;
+  background: linear-gradient(90deg, var(--bar, var(--calm-bar)) calc(var(--horizon, 0) * 100%), var(--track) 0); }
+.time-left-cell:has(.time-left[data-urgency="soon"]) { --bar: var(--soon-bar); }
+.time-left-cell:has(.time-left[data-urgency="final"]) { --bar: var(--final-bar); }
+.time-left-cell[data-horizon-estimated="true"]::after { background: repeating-linear-gradient(135deg, var(--calm-bar) 0 3px, var(--track) 3px 6px); }
+@media (max-width: 760px) { .time-left-cell[data-horizon]::after { margin-left: auto; } }
+
+/* ADR-059: "/" focuses search; a quiet key hint on pointer devices. */
+.qb-search { position: relative; }
+@media (hover: hover) and (min-width: 761px) {
+  .qb-search::after { content: "/"; position: absolute; right: 9px; top: 50%; transform: translateY(-50%); min-width: 18px; padding: 0 4px; box-sizing: border-box;
+    border: 1px solid var(--line-strong); border-radius: 4px; color: var(--muted); font: 600 .6875rem/1.5 var(--font-mono); text-align: center; pointer-events: none; }
+  .qb-search:focus-within::after, .qb-search:has(input:not(:placeholder-shown))::after { display: none; }
+}
+
+/* ADR-059: theme toggle (system, light, dark); icon shows the current choice. */
+.theme-button svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.theme-button .theme-icon { display: none; }
+.theme-button[data-theme-choice="system"] .theme-icon-system, .theme-button[data-theme-choice="light"] .theme-icon-light,
+.theme-button[data-theme-choice="dark"] .theme-icon-dark { display: block; }
+.header-actions .theme-button .header-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 760px) { .header-actions .theme-button { min-width: 44px; min-height: 44px; padding: 0 10px; } }
+
+/* ADR-059: rail collapse button (1200px+ only) and the collapsed strip. */
+.rail-toggle { display: none; }
+@media (min-width: 1200px) {
+  .rail-toggle { position: absolute; top: 8px; right: 8px; display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 4px 8px;
+    border: 1px solid transparent; border-radius: 6px; background: transparent; color: var(--muted); font: inherit; font-size: .75rem; font-weight: 600; cursor: pointer; }
+  .rail-toggle:hover { border-color: var(--line-strong); background: var(--surface); color: var(--text); }
+  .rail-toggle svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+  .rail-count { min-width: 18px; padding: 0 5px; box-sizing: border-box; border-radius: 999px; background: var(--accent-dark); color: var(--on-accent); font-size: .6875rem; line-height: 18px; text-align: center; }
+  body.rail-collapsed main { grid-template-columns: 52px minmax(0, 1fr); }
+  body.rail-collapsed main > .controls { padding: 8px 6px; align-items: center; overflow: visible; }
+  body.rail-collapsed .controls > :not(.rail-toggle) { display: none; }
+  body.rail-collapsed .rail-toggle { position: static; flex-direction: column; align-self: center; margin: 0; padding: 8px 4px; }
+  body.rail-collapsed .rail-toggle-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+
+/* ADR-059: phone filter sheet. Below 761px an open More filters panel is a
+   full-screen dialog; the head and foot only exist inside the sheet. */
+.sheet-head, .sheet-foot { display: none; }
+@media (max-width: 760px) {
+  body.sheet-open { overflow: hidden; }
+  .filter-details[open] > .filter-content { position: fixed; inset: 0; z-index: 1000; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); background: var(--bg); }
+  .filter-details[open] .sheet-head { display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 2;
+    margin: 0 -16px 12px; padding: max(10px, env(safe-area-inset-top, 0px)) 16px 10px; border-bottom: 1px solid var(--line); background: var(--bg); }
+  .sheet-title { font-weight: 600; font-size: 1rem; }
+  .sheet-close { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; margin-right: -10px; border: 0; background: transparent; color: var(--text); cursor: pointer; }
+  .sheet-close svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+  .filter-details[open] .sheet-foot { display: block; position: sticky; bottom: 0; z-index: 2; margin: 16px -16px 0;
+    padding: 10px 16px max(12px, env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); background: var(--bg); }
+  .sheet-apply { width: 100%; min-height: 48px; border: 1px solid var(--accent-dark); border-radius: 8px; background: var(--accent-dark); color: var(--on-accent); font: inherit; font-weight: 600; cursor: pointer; }
+}
+
+/* ADR-059: Table | Agenda switch and the agenda layout. The agenda keeps the
+   same rows and cells: a date margin, then name, status and next milestone,
+   facts (ranks, rate, size) and the countdown on the right. */
+.view-switch { display: inline-flex; align-items: center; gap: 4px; margin: 0 0 10px; padding: 3px; border-radius: 8px; background: var(--surface-strong); font-size: .8125rem; }
+.view-switch .view-label { padding: 0 6px 0 4px; color: var(--muted); }
+.view-switch button { min-height: 28px; padding: 3px 12px; border: 1px solid transparent; border-radius: 6px; background: transparent; color: var(--muted); font: inherit; font-weight: 600; cursor: pointer; }
+.view-switch button[aria-pressed="true"] { border-color: var(--line-strong); background: var(--raised); color: var(--text); }
+.view-switch button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.agenda-group th { padding: 18px 2px 6px; border-bottom: 1px solid var(--text); background: transparent; color: var(--text); font-size: .6875rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; text-align: left; position: static; box-shadow: none; }
+@media (min-width: 761px) {
+  .agenda-view .table-wrap { border: 0; }
+  .agenda-view thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .agenda-view table, .agenda-view tbody { display: block; }
+  .agenda-view colgroup { display: none; }
+  .agenda-view tr.agenda-group { display: block; }
+  .agenda-view tr.agenda-group th { display: block; }
+  .agenda-view tr[data-deadline-group]:not([hidden]) { display: grid; grid-template-columns: 64px minmax(0, 1fr) 150px 128px; column-gap: 16px;
+    padding: 12px 4px; border-bottom: 1px solid var(--line); background: var(--raised); }
+  .agenda-view tr[data-deadline-group] > td { display: block; padding: 0; border: 0; }
+  .agenda-view tr[data-deadline-group] > td.mobile-row-disclosure { display: none; }
+  .agenda-view tr[data-deadline-group]::before { content: attr(data-agenda-day) "\A" attr(data-agenda-month); white-space: pre; grid-column: 1; grid-row: 1 / span 4;
+    color: var(--text); font: 600 1.25rem/1.1 var(--font-mono); text-transform: uppercase; }
+  .agenda-view td[data-label="Conference"] { grid-column: 2; grid-row: 1; font-size: .875rem; }
+  .agenda-view td[data-label="Submission status"] { grid-column: 2; grid-row: 2; padding-top: 4px; }
+  .agenda-view td[data-label="Submission status"] .status-cell { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+  .agenda-view td[data-label="Submission status"] .archival-tag { margin-top: 0; }
+  .agenda-view td[data-label="Next milestone"] { grid-column: 2; grid-row: 3; padding-top: 6px; }
+  .agenda-view td[data-label="Topics"] { grid-column: 2; grid-row: 4; padding-top: 4px; color: var(--muted); }
+  .agenda-view td[data-label="ICORE / CCF"] { grid-column: 3; grid-row: 1; }
+  .agenda-view td[data-label="Accept. rate"] { grid-column: 3; grid-row: 2; padding-top: 4px; }
+  .agenda-view td[data-label="Size"] { grid-column: 3; grid-row: 3; padding-top: 4px; }
+  .agenda-view td[data-label="Accept. rate"]::before, .agenda-view td[data-label="Size"]::before, .agenda-view td[data-label="ICORE / CCF"]::before {
+    content: attr(data-label) " "; color: var(--muted); font-size: .6875rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .agenda-view td[data-label="Time left"] { grid-column: 4; grid-row: 1 / span 2; text-align: right; }
+  .agenda-view td[data-label="Time left"] .time-left { font-size: 1rem; }
+  .agenda-view .time-left-cell[data-horizon]::after { margin-left: auto; }
+  .agenda-view .deadline-group-row.is-linked { background: var(--linked-bg); }
+  .agenda-view .deadline-group-row.is-linked > td { background: transparent; }
+}
+@media (max-width: 760px) {
+  .agenda-view .agenda-group { display: block; border: 0; margin: 0; background: transparent; }
+  .agenda-view .agenda-group th { display: block; width: auto; padding: 14px 2px 6px; }
+}
 
   </style>
   <noscript><style>
@@ -2279,6 +2450,8 @@ td[data-label="Conference"] > a:hover, td[data-label="Conference"] > a:focus-vis
     .noscript-note { display: block !important; }
     /* ADR-058: no rail without scripts, so the tables use the full width. */
     main > .tab-shell { grid-column: 1 / -1 !important; }
+    /* ADR-059: controls that need scripts are hidden. */
+    .view-switch, .theme-button, .rail-toggle { display: none !important; }
   </style></noscript>
 </head>
 <body>
@@ -2300,6 +2473,7 @@ td[data-label="Conference"] > a:hover, td[data-label="Conference"] > a:focus-vis
         <p class="subhead">Find where to submit next: conference deadlines for machine learning and AI, neuroscience, healthcare, complex systems, and control.</p>
       </div>
       <div class="header-actions">
+        <button class="header-button theme-button" id="theme-toggle" type="button" data-theme-choice="system" aria-label="Colour theme: follows your system. Switch to light" title="Colour theme: follows your system"><svg class="theme-icon theme-icon-system" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><svg class="theme-icon theme-icon-light" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="theme-icon theme-icon-dark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><span class="header-label">Theme</span></button>
         <a class="header-button share-button" href="https://x.com/intent/tweet?text=Check+out+Venue+Radar%2C+a+new+conference+calendar+for+ML%2C+AI%2C+neuroscience%2C+and+related+fields.+Search+and+filter+submission+deadlines%2C+compare+ICORE%2FCCF+rankings%2C+and+check+historical+acceptance+rates.&amp;url=https%3A%2F%2Fgon-uri.github.io%2Fvenue-radar%2F" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X"><!-- @license lucide-static v0.468.0 - ISC -->
 <svg
   class="lucide lucide-share-2"
@@ -2364,11 +2538,13 @@ Subscribe to calendar</summary><div class="calendar-panel"><p class="calendar-pa
     </header>
 
     <section class="controls filter-section" aria-label="Filters and search">
+    <button class="rail-toggle" id="rail-toggle" type="button" aria-expanded="true" title="Hide filters"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18M6 12h12M10 19h4"/></svg><span class="rail-toggle-label">Hide filters</span><span class="rail-count" id="rail-count" hidden></span></button>
     <h2 class="visually-hidden">Filters and search</h2>
-    <div class="quick-bar"><label class="qb-search"><span class="visually-hidden">Search</span><input id="search" type="search" autocomplete="off" placeholder="Search conferences, topics, cities"></label><div class="qb-chips" role="group" aria-label="Topic families and archival option"><button type="button" class="chip" data-chip-family="ml-ai" aria-pressed="false" title="Central conference focus: ML &amp; Data Science">ML &amp; Data</button><button type="button" class="chip" data-chip-family="language-agents-retrieval" aria-pressed="false" title="Central conference focus: NLP, Agents &amp; Retrieval">NLP &amp; Agents</button><button type="button" class="chip" data-chip-family="signals-vision" aria-pressed="false" title="Central conference focus: Vision &amp; Multimedia">Vision</button><button type="button" class="chip" data-chip-family="rl-control" aria-pressed="false" title="Central conference focus: RL, Robotics &amp; Control">RL &amp; Control</button><button type="button" class="chip" data-chip-family="dynamics-control" aria-pressed="false" title="Central conference focus: Complex Systems, Time Series &amp; Signals">Complex Systems</button><button type="button" class="chip" data-chip-family="healthcare" aria-pressed="false" title="Central conference focus: Healthcare &amp; Biometrics">Healthcare</button><button type="button" class="chip" data-chip-family="neuroscience" aria-pressed="false" title="Central conference focus: Neuroscience &amp; Neurotechnology">Neuroscience</button><button type="button" class="chip" data-chip-family="responsible-ai" aria-pressed="false" title="Central conference focus: Responsible &amp; Trustworthy AI">Responsible AI</button><button type="button" class="chip chip-archival" data-chip-archival aria-pressed="false" title="Conferences where at least one track for new papers can be published in archival proceedings or a journal (for example ACM DL, IEEE Xplore, PMLR, LNCS). Not every track is archival: check that the deadline shown belongs to an archival track. (est.) means it is based on the previous edition; the new call is not out yet.">Archival option</button></div></div>
+    <div class="quick-bar"><label class="qb-search"><span class="visually-hidden">Search</span><input id="search" type="search" autocomplete="off" aria-keyshortcuts="/" placeholder="Search conferences, topics, cities"></label><div class="qb-chips" role="group" aria-label="Topic families and archival option"><button type="button" class="chip" data-chip-family="ml-ai" aria-pressed="false" title="Central conference focus: ML &amp; Data Science">ML &amp; Data</button><button type="button" class="chip" data-chip-family="language-agents-retrieval" aria-pressed="false" title="Central conference focus: NLP, Agents &amp; Retrieval">NLP &amp; Agents</button><button type="button" class="chip" data-chip-family="signals-vision" aria-pressed="false" title="Central conference focus: Vision &amp; Multimedia">Vision</button><button type="button" class="chip" data-chip-family="rl-control" aria-pressed="false" title="Central conference focus: RL, Robotics &amp; Control">RL &amp; Control</button><button type="button" class="chip" data-chip-family="dynamics-control" aria-pressed="false" title="Central conference focus: Complex Systems, Time Series &amp; Signals">Complex Systems</button><button type="button" class="chip" data-chip-family="healthcare" aria-pressed="false" title="Central conference focus: Healthcare &amp; Biometrics">Healthcare</button><button type="button" class="chip" data-chip-family="neuroscience" aria-pressed="false" title="Central conference focus: Neuroscience &amp; Neurotechnology">Neuroscience</button><button type="button" class="chip" data-chip-family="responsible-ai" aria-pressed="false" title="Central conference focus: Responsible &amp; Trustworthy AI">Responsible AI</button><button type="button" class="chip chip-archival" data-chip-archival aria-pressed="false" title="Conferences where at least one track for new papers can be published in archival proceedings or a journal (for example ACM DL, IEEE Xplore, PMLR, LNCS). Not every track is archival: check that the deadline shown belongs to an archival track. (est.) means it is based on the previous edition; the new call is not out yet.">Archival option</button></div></div>
     <details class="filter-details" id="filter-details">
       <summary><span class="filter-disclosure-icon" aria-hidden="true"></span><span>More filters</span><span class="filter-count" id="filter-count" hidden></span><span class="more-hint">Size · ICORE · CCF · acceptance rate · subtopics</span></summary>
       <div class="filter-content">
+        <div class="sheet-head"><span class="sheet-title">More filters</span><button class="sheet-close" type="button" data-sheet-close aria-label="Close filters"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
         <div class="filter-grid">
           <fieldset class="topic-filter"><legend>Topics &amp; Subtopics</legend><div class="topic-tree"><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="ml-ai" title="Central conference focus: ML &amp; Data Science"><span>ML &amp; Data Science</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="machine-learning"><span>Machine learning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="deep-representation-learning"><span>Deep learning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="learning-theory-statistical-foundations"><span>Learning theory</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="probabilistic-causal-uncertainty-ml"><span>Probabilistic &amp; causal ML</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="federated-distributed-learning"><span>Federated &amp; distributed ML</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="evolutionary-computation-optimization"><span>Evolutionary computation</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="ml-systems-infrastructure"><span>ML systems &amp; infrastructure</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="knowledge-representation-reasoning"><span>Knowledge &amp; reasoning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="ml-ai" value="data-mining-data-science"><span>Data mining</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="language-agents-retrieval" title="Central conference focus: NLP, Agents &amp; Retrieval"><span>NLP, Agents &amp; Retrieval</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="natural-language-processing-llms"><span>NLP &amp; LLMs</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="autonomous-agents-multiagent-systems"><span>Autonomous &amp; multiagent systems</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="llm-agents-tool-use"><span>LLM agents &amp; tool use</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="information-retrieval-search"><span>Information retrieval &amp; RAG</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="language-agents-retrieval" value="recommender-systems"><span>Recommender systems</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="signals-vision" title="Central conference focus: Vision &amp; Multimedia"><span>Vision &amp; Multimedia</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="signals-vision" value="computer-vision-pattern-recognition"><span>Vision &amp; pattern recognition</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="signals-vision" value="computer-graphics-visualization"><span>Graphics &amp; visualization</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="signals-vision" value="multimedia-learning-retrieval"><span>Multimedia &amp; retrieval</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="rl-control" title="Central conference focus: RL, Robotics &amp; Control"><span>RL, Robotics &amp; Control</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="rl-control" value="reinforcement-learning"><span>Reinforcement learning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="rl-control" value="control-robotics"><span>Control &amp; robotics</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="rl-control" value="planning-search"><span>Planning &amp; search</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="dynamics-control" title="Central conference focus: Complex Systems, Time Series &amp; Signals"><span>Complex Systems, Time Series &amp; Signals</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="nonlinear-dynamics-chaos"><span>Nonlinear dynamics</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="complex-systems-network-science"><span>Complex systems &amp; networks</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="graphs-graph-learning"><span>Graphs &amp; graph learning</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="system-identification-data-driven-dynamics"><span>System identification</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="time-series-sequential-data"><span>Time series</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="signal-processing"><span>Signal processing</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="dynamics-control" value="artificial-life-adaptive-systems"><span>Artificial life &amp; adaptive systems</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="healthcare" title="Central conference focus: Healthcare &amp; Biometrics"><span>Healthcare &amp; Biometrics</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="healthcare" value="healthcare-clinical-ai"><span>Healthcare AI</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="healthcare" value="biomedical-imaging"><span>Biomedical imaging</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="healthcare" value="biometrics-human-sensing"><span>Biometrics &amp; human sensing</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="neuroscience" title="Central conference focus: Neuroscience &amp; Neurotechnology"><span>Neuroscience &amp; Neurotechnology</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="computational-neuroscience"><span>Computational neuroscience</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="eeg-meg-neural-signals"><span>EEG/MEG &amp; neural signals</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="bci-neurotechnology"><span>BCI &amp; neurotechnology</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="neuroimaging-brain-mapping"><span>Neuroimaging</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="cognitive-science-computational-cognition"><span>Cognitive science</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="neuromorphic-brain-inspired-computing"><span>Neuromorphic &amp; brain-inspired computing</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="neuroscience" value="systems-experimental-neuroscience"><span>Systems &amp; experimental neuroscience</span></label></div></details><details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option"><input type="checkbox" data-family-toggle="responsible-ai" title="Central conference focus: Responsible &amp; Trustworthy AI"><span>Responsible &amp; Trustworthy AI</span></label></summary><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="fairness-responsible-ai"><span>Fairness &amp; accountability</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="explainability-interpretability"><span>Explainability</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="ethics-governance"><span>Ethics &amp; governance</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="privacy-preserving-ml"><span>Privacy-preserving ML</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="robustness-safety"><span>Robustness &amp; safety</span></label><label class="check-option"><input type="checkbox" data-filter-group="topics" data-topic-family="responsible-ai" value="human-ai-interaction-deployment"><span>Human-AI interaction</span></label></div></details></div></fieldset>
           <fieldset class="filter-group"><legend>Size</legend><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="size" value="s"><span>S</span></label><label class="check-option"><input type="checkbox" data-filter-group="size" value="m"><span>M</span></label><label class="check-option"><input type="checkbox" data-filter-group="size" value="l"><span>L</span></label><label class="check-option"><input type="checkbox" data-filter-group="size" value="xl"><span>XL</span></label><label class="check-option"><input type="checkbox" data-filter-group="size" value="xxl"><span>XXL</span></label></div></fieldset>
@@ -2380,6 +2556,7 @@ Subscribe to calendar</summary><div class="calendar-panel"><p class="calendar-pa
         <div class="filter-actions">
           <label class="topic-mode"><span>Match</span><select id="topic-match" aria-label="Topic family matching"><option value="any">Any selected family</option><option value="all">All selected families</option></select></label>
         </div>
+        <div class="sheet-foot"><button class="sheet-apply" type="button" data-sheet-close>Show results</button></div>
       </div>
     </details>
     <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
@@ -2408,6 +2585,7 @@ Subscribe to calendar</summary><div class="calendar-panel"><p class="calendar-pa
       </div>
 
       <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
+        <div class="view-switch" role="group" aria-label="Deadline layout"><span class="view-label" aria-hidden="true">View</span><button type="button" data-view="table" aria-pressed="true">Table</button><button type="button" data-view="agenda" aria-pressed="false">Agenda</button></div>
         <details class="status-guide">
           <summary>What do the statuses mean?</summary>
           <dl>
@@ -3227,6 +3405,7 @@ function drawConferenceMap() {
     };
     const land = L.geoJSON(venueMapData.land, {interactive: false, style: landStyle}).addTo(conferenceMap);
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => land.setStyle(landStyle()));
+    document.addEventListener('venue-radar:themechange', () => land.setStyle(landStyle()));
     conferenceMap.attributionControl.addAttribution('Land: <a href="https://www.naturalearthdata.com/">Natural Earth</a>');
     cityMarkers = L.layerGroup().addTo(conferenceMap);
     conferenceMap.on('resize', resetConferenceMap);
@@ -3405,6 +3584,180 @@ function initializeTips() {
   sync();
   rail.addEventListener('change', sync);
 })();
+
+// ADR-059: a three-way colour theme (system, light, dark), remembered per
+// browser. The head script applies a saved choice before the first paint.
+(() => {
+  const button = document.querySelector('#theme-toggle');
+  if (!button) return;
+  const order = ['system', 'light', 'dark'];
+  const describe = {system: 'follows your system', light: 'light', dark: 'dark'};
+  const current = () => document.documentElement.dataset.theme || 'system';
+  const show = (choice) => {
+    const next = order[(order.indexOf(choice) + 1) % order.length];
+    button.dataset.themeChoice = choice;
+    button.title = `Colour theme: ${describe[choice]}`;
+    button.setAttribute('aria-label', `Colour theme: ${describe[choice]}. Switch to ${describe[next]}`);
+  };
+  show(current());
+  button.addEventListener('click', () => {
+    const choice = order[(order.indexOf(current()) + 1) % order.length];
+    if (choice === 'system') delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = choice;
+    try {
+      if (choice === 'system') localStorage.removeItem('venue-radar:theme');
+      else localStorage.setItem('venue-radar:theme', choice);
+    } catch (error) { /* private mode: the choice lasts for this page only */ }
+    show(choice);
+    document.dispatchEvent(new Event('venue-radar:themechange'));
+  });
+})();
+
+// ADR-059: "/" jumps to search unless the reader is typing somewhere.
+document.addEventListener('keydown', (event) => {
+  if (event.key !== '/' || event.ctrlKey || event.metaKey || event.altKey || event.defaultPrevented) return;
+  const target = event.target;
+  if (target.closest?.('input, textarea, select, [contenteditable=""], [contenteditable="true"]')) return;
+  const search = document.querySelector('#search');
+  if (!search || !search.offsetParent) return;
+  event.preventDefault();
+  search.focus();
+  search.select();
+});
+
+// ADR-059: the 1200px+ rail can collapse to a strip, remembered per browser.
+// The strip shows how many filters are active.
+(() => {
+  const button = document.querySelector('#rail-toggle');
+  const count = document.querySelector('#rail-count');
+  if (!button) return;
+  const setCollapsed = (collapsed, remember) => {
+    document.body.classList.toggle('rail-collapsed', collapsed);
+    button.setAttribute('aria-expanded', String(!collapsed));
+    button.title = collapsed ? 'Show filters' : 'Hide filters';
+    button.querySelector('.rail-toggle-label').textContent = collapsed ? 'Show filters' : 'Hide filters';
+    if (remember) try { localStorage.setItem('venue-radar:rail', collapsed ? 'collapsed' : 'open'); } catch (error) { /* not remembered */ }
+  };
+  let saved = null;
+  try { saved = localStorage.getItem('venue-radar:rail'); } catch (error) { /* default: open */ }
+  setCollapsed(saved === 'collapsed', false);
+  button.addEventListener('click', () => setCollapsed(!document.body.classList.contains('rail-collapsed'), true));
+  const active = () => {
+    const families = [...document.querySelectorAll('[data-family-toggle]:checked')].map((input) => input.dataset.familyToggle);
+    const topics = [...document.querySelectorAll('[data-topic-family]:checked')].filter((input) => !families.includes(input.dataset.topicFamily));
+    const others = document.querySelectorAll('[data-filter-group]:not([data-filter-group="topics"]):checked').length;
+    return (document.querySelector('#search').value.trim() ? 1 : 0) + families.length + topics.length + others;
+  };
+  const update = () => {
+    const n = active();
+    count.hidden = n === 0;
+    count.textContent = String(n);
+    button.setAttribute('aria-label', `${button.title}${n ? ` (${n} active)` : ''}`);
+  };
+  const controls = document.querySelector('.controls');
+  ['input', 'change', 'click'].forEach((type) => controls.addEventListener(type, () => setTimeout(update, 0)));
+  addEventListener('popstate', update);
+  update();
+})();
+
+// ADR-059: on phones, More filters opens as a full-screen sheet. Filters still
+// apply at once; Close and "Show N conferences" just close the sheet.
+(() => {
+  const details = document.querySelector('#filter-details');
+  const summary = details?.querySelector(':scope > summary');
+  const sheet = details?.querySelector('.filter-content');
+  const apply = details?.querySelector('.sheet-apply');
+  const resultCount = document.querySelector('#result-count');
+  if (!details || !sheet) return;
+  const phone = matchMedia('(max-width: 760px)');
+  const isSheet = () => phone.matches && details.open;
+  const label = () => {
+    const shown = (resultCount?.textContent || '').match(/^(\d+)/);
+    apply.textContent = shown ? `Show ${shown[1]} conference${shown[1] === '1' ? '' : 's'}` : 'Show results';
+  };
+  const sync = (focusInside) => {
+    const open = isSheet();
+    document.body.classList.toggle('sheet-open', open);
+    if (open) {
+      sheet.setAttribute('role', 'dialog');
+      sheet.setAttribute('aria-modal', 'true');
+      sheet.setAttribute('aria-label', 'More filters');
+      label();
+      if (focusInside) sheet.querySelector('.sheet-close').focus();
+    } else {
+      ['role', 'aria-modal', 'aria-label'].forEach((name) => sheet.removeAttribute(name));
+    }
+  };
+  details.addEventListener('toggle', () => sync(document.activeElement === summary));
+  phone.addEventListener('change', () => sync(false));
+  sheet.querySelectorAll('[data-sheet-close]').forEach((button) => button.addEventListener('click', () => {
+    details.open = false;
+    summary.focus();
+  }));
+  document.addEventListener('keydown', (event) => {
+    if (!isSheet()) return;
+    if (event.key === 'Escape') { details.open = false; summary.focus(); return; }
+    if (event.key !== 'Tab') return;
+    const items = [...sheet.querySelectorAll('button, input, select, a[href], summary')].filter((item) => item.offsetParent !== null);
+    if (!items.length) return;
+    const first = items[0], last = items[items.length - 1];
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  });
+  if (resultCount) new MutationObserver(() => { if (isSheet()) label(); }).observe(resultCount, {childList: true, characterData: true, subtree: true});
+  sync(false);
+})();
+
+// ADR-059: an optional Agenda layout for Upcoming Deadlines. It reuses the
+// same filtered, sorted rows; this only adds a date margin and "This week /
+// Next 30 days / Later" headings. Table stays the default and the no-JS view.
+(() => {
+  const panel = document.querySelector('#panel-deadlines');
+  const buttons = [...document.querySelectorAll('.view-switch [data-view]')];
+  if (!panel || !buttons.length) return;
+  const DAY = 24 * 60 * 60 * 1000;
+  const groups = [['week', 'This week', 7 * DAY], ['month', 'Next 30 days', 30 * DAY], ['later', 'Later', Infinity]];
+  const isAgenda = () => panel.classList.contains('agenda-view');
+  window.renderAgenda = (now = Date.now()) => {
+    const body = panel.querySelector('tbody');
+    body.querySelectorAll('.agenda-group').forEach((row) => row.remove());
+    // core.js runs after this script; until its first render there are no states.
+    if (!isAgenda() || typeof stateByRow === 'undefined') return;
+    const rows = [...body.querySelectorAll('[data-deadline-group]')];
+    const seen = new Set();
+    rows.forEach((row) => {
+      const time = row.querySelector('[data-deadline-row]:not([hidden]) time');
+      const [month = '', day = ''] = (time?.textContent || '').replace(',', '').split(' ');
+      row.dataset.agendaDay = day;
+      row.dataset.agendaMonth = month.slice(0, 3);
+      if (row.hidden) return;
+      const action = stateByRow.get(row)?.action;
+      const left = action ? action.time - now : Infinity;
+      const [key, label] = groups.find(([, , limit]) => left < limit);
+      if (seen.has(key)) return;
+      seen.add(key);
+      const heading = document.createElement('tr');
+      heading.className = 'agenda-group';
+      heading.innerHTML = '<th colspan="9" scope="colgroup"></th>';
+      heading.firstChild.textContent = label;
+      body.insertBefore(heading, row);
+    });
+  };
+  const setView = (view, remember) => {
+    panel.classList.toggle('agenda-view', view === 'agenda');
+    buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.view === view)));
+    const params = new URLSearchParams(location.search);
+    if (view === 'agenda') params.set('view', 'agenda'); else params.delete('view');
+    const text = params.toString().replace(/%2C/g, ',');
+    try { history.replaceState(history.state, '', `${location.pathname}${text ? `?${text}` : ''}${location.hash}`); } catch (error) { /* file:// */ }
+    if (remember) try { localStorage.setItem('venue-radar:view', view); } catch (error) { /* not remembered */ }
+    window.renderAgenda();
+  };
+  let start = new URLSearchParams(location.search).get('view');
+  if (!start) try { start = localStorage.getItem('venue-radar:view'); } catch (error) { /* table */ }
+  setView(start === 'agenda' ? 'agenda' : 'table', false);
+  buttons.forEach((button) => button.addEventListener('click', () => setView(button.dataset.view, true)));
+})();
 </script>
   <script type="application/json" id="venue-config">{"submissionTypes": ["abstract", "discussion_paper", "extended_abstract", "full_paper", "journal_paper", "late_abstract", "poster", "regular_paper", "resource_paper", "short_paper", "special_session_paper", "workshop_paper"]}</script>
   <script>// Pure Venue Radar logic: no DOM access, so it can be unit-tested in Node
@@ -3471,6 +3824,15 @@ function urgencyLevel(deadline, now, estimated = false) {
   if (estimated || !Number.isFinite(diff) || diff <= 0) return "calm";
   if (diff < 2 * DAY_MS) return "final";
   return diff < 7 * DAY_MS ? "soon" : "calm";
+}
+
+// Presentation-only horizon bar (ADR-059): the share of a 90-day window that
+// is still left before the deadline, clamped to 0..1.
+const HORIZON_DAYS = 90;
+function horizonFraction(deadline, now) {
+  const diff = deadline - now;
+  if (!Number.isFinite(diff) || diff <= 0) return 0;
+  return Math.min(1, diff / (HORIZON_DAYS * DAY_MS));
 }
 
 // Screen-reader text for a countdown, e.g. "4 days 14 hours left" or
@@ -3846,6 +4208,14 @@ function renderDeadlineGroups(now) {
     const urgency = state.kind === "closed" || !state.action ? "calm"
       : urgencyLevel(state.action.time, now, state.action.estimated);
     if (timeLeft.dataset.urgency !== urgency) timeLeft.dataset.urgency = urgency;
+    const horizonCell = timeLeft.parentElement;
+    const horizon = state.kind === "closed" || !state.action ? "" : horizonFraction(state.action.time, now).toFixed(3);
+    if (horizonCell.dataset.horizon !== horizon) {
+      horizonCell.dataset.horizon = horizon;
+      horizonCell.style.setProperty("--horizon", horizon || "0");
+    }
+    const estimatedBar = String(Boolean(state.action?.estimated));
+    if (horizonCell.dataset.horizonEstimated !== estimatedBar) horizonCell.dataset.horizonEstimated = estimatedBar;
     const spoken = state.kind === "closed" ? "Closed to new submissions" : state.action
       ? describeRemaining(state.action.time, now, state.action.estimated, state.action.approximate_time)
       : "No submission deadline announced";
@@ -3877,6 +4247,7 @@ function renderDeadlineGroups(now) {
       return timeSort || left.id.localeCompare(right.id);
     })
     .map((block) => block.row));
+  window.renderAgenda?.(now);  // ADR-059: agenda headings follow the sorted rows
 }
 
 function actionButton(text, handler) {

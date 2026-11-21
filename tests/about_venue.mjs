@@ -12,10 +12,15 @@ export async function checkAboutVenue(page, url) {
     await page.setViewportSize({width, height});
     await page.goto(base);
     await freeze();
-    if (width <= 760) await row.locator('.mobile-info-toggle').click();
-    assert(!(await about.isVisible()), `Hidden until the row is expanded at ${width}px`);
-    await row.locator('.deadline-toggle').click();
-    assert(await about.isVisible());
+    if (width <= 760) {
+      assert(!(await about.isVisible()), `Hidden on the collapsed card at ${width}px`);
+      // ADR-059: on phones More info alone reveals it (no second, inner toggle).
+      await row.locator('.mobile-info-toggle').click();
+    } else {
+      assert(!(await about.isVisible()), `Hidden until the row is expanded at ${width}px`);
+      await row.locator('.deadline-toggle').click();
+    }
+    assert(await about.isVisible(), `Visible once expanded at ${width}px`);
     assert.match(await about.locator('.about-archival').innerText(), /^Archival track: Main track full papers · PMLR/);
     assert(!(await details.evaluate(element => element.open)), 'The scope summary starts closed');
     assert(!(await details.locator('p').isVisible()));

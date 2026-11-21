@@ -436,7 +436,7 @@ def _quick_bar() -> str:
     return (
         '<div class="quick-bar">'
         '<label class="qb-search"><span class="visually-hidden">Search</span>'
-        '<input id="search" type="search" autocomplete="off" placeholder="Search conferences, topics, cities"></label>'
+        '<input id="search" type="search" autocomplete="off" aria-keyshortcuts="/" placeholder="Search conferences, topics, cities"></label>'
         f'<div class="qb-chips" role="group" aria-label="Topic families and archival option">{chips}</div>'
         '</div>'
     )
@@ -1051,6 +1051,7 @@ def build_site(
     gtag('js', new Date());
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>try {{ const theme = localStorage.getItem('venue-radar:theme'); if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme; }} catch (error) {{}}</script>
   <title>{escape(PAGE_TITLE)}</title>
   <meta name="description" content="{_attr(PAGE_DESCRIPTION)}">
   <link rel="canonical" href="{_attr(SITE_URL)}">
@@ -1097,6 +1098,8 @@ def build_site(
     .noscript-note {{ display: block !important; }}
     /* ADR-058: no rail without scripts, so the tables use the full width. */
     main > .tab-shell {{ grid-column: 1 / -1 !important; }}
+    /* ADR-059: controls that need scripts are hidden. */
+    .view-switch, .theme-button, .rail-toggle {{ display: none !important; }}
   </style></noscript>
 </head>
 <body>
@@ -1109,6 +1112,7 @@ def build_site(
         <p class="subhead">Find where to submit next: conference deadlines for machine learning and AI, neuroscience, healthcare, complex systems, and control.</p>
       </div>
       <div class="header-actions">
+        <button class="header-button theme-button" id="theme-toggle" type="button" data-theme-choice="system" aria-label="Colour theme: follows your system. Switch to light" title="Colour theme: follows your system"><svg class="theme-icon theme-icon-system" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><svg class="theme-icon theme-icon-light" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="theme-icon theme-icon-dark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><span class="header-label">Theme</span></button>
         <a class="header-button share-button" href="{_attr(share_url)}" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X">{share_icon}<span class="header-label">Share on X</span></a>
         <a class="header-button star-button" href="https://github.com/gon-uri/venue-radar" target="_blank" rel="noopener noreferrer" title="Open Venue Radar on GitHub to star the repository">{star_icon}<span class="header-label">Star the repo</span></a>
         <div class="calendar-action">
@@ -1119,11 +1123,13 @@ def build_site(
     </header>
 
     <section class="controls filter-section" aria-label="Filters and search">
+    <button class="rail-toggle" id="rail-toggle" type="button" aria-expanded="true" title="Hide filters"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18M6 12h12M10 19h4"/></svg><span class="rail-toggle-label">Hide filters</span><span class="rail-count" id="rail-count" hidden></span></button>
     <h2 class="visually-hidden">Filters and search</h2>
     {_quick_bar()}
     <details class="filter-details" id="filter-details">
       <summary><span class="filter-disclosure-icon" aria-hidden="true"></span><span>More filters</span><span class="filter-count" id="filter-count" hidden></span><span class="more-hint">Size · ICORE · CCF · acceptance rate · subtopics</span></summary>
       <div class="filter-content">
+        <div class="sheet-head"><span class="sheet-title">More filters</span><button class="sheet-close" type="button" data-sheet-close aria-label="Close filters"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
         <div class="filter-grid">
           {_topic_filter()}
           {_checkbox_group("Size", "size", ["S", "M", "L", "XL", "XXL"])}
@@ -1135,6 +1141,7 @@ def build_site(
         <div class="filter-actions">
           <label class="topic-mode"><span>Match</span><select id="topic-match" aria-label="Topic family matching"><option value="any">Any selected family</option><option value="all">All selected families</option></select></label>
         </div>
+        <div class="sheet-foot"><button class="sheet-apply" type="button" data-sheet-close>Show results</button></div>
       </div>
     </details>
     <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
@@ -1163,6 +1170,7 @@ def build_site(
       </div>
 
       <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
+        <div class="view-switch" role="group" aria-label="Deadline layout"><span class="view-label" aria-hidden="true">View</span><button type="button" data-view="table" aria-pressed="true">Table</button><button type="button" data-view="agenda" aria-pressed="false">Agenda</button></div>
         <details class="status-guide">
           <summary>What do the statuses mean?</summary>
           <dl>

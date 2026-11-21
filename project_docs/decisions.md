@@ -1399,7 +1399,9 @@ explicit refinements take precedence. Current rules live in
      background-coloured ripples and a coral blip, as SVG
      (`assets/venue-radar.svg`). `assets/favicon.svg` is its 16 px variant
      (outer ring dropped) with a dark-scheme media query. Social card and
-     README banners are re-rendered from it.
+     README banners are re-rendered from it. In dark mode the tile is
+     #22989D and the blip #E8787D, the light coral's hue (owner's choice,
+     2026-11-21, over a lighter #F0A3A0).
   2. Type: Sora 600 for the wordmark only, Inter (variable) for the interface,
      Geist Mono for countdowns, cutoff times and rank codes. All SIL OFL 1.1,
      Latin subsets from the Fontsource 5.3.0 packages, embedded in the page

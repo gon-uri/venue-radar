@@ -294,7 +294,9 @@ class SiteAssetTests(unittest.TestCase):
                       ("accent-dark", "bg"), ("accent-dark", "raised"), ("on-accent", "accent-dark"),
                       ("open", "open-bg"), ("open", "raised"), ("closed", "closed-bg"), ("warn", "warn-bg"),
                       ("soon", "raised"), ("final", "raised"), ("rank-fg", "rank-bg"), ("rank-top-fg", "rank-top-bg"),
-                      ("tip-text", "tip-bg"), ("tag-text", "tag")]
+                      ("tip-text", "tip-bg"), ("tag-text", "tag"),
+                      ("rank-astar-fg", "rank-astar-bg"), ("rank-a-fg", "rank-a-bg"),
+                      ("rank-b-fg", "rank-b-bg"), ("rank-c-fg", "rank-c-bg")]
         for name, tokens in (("light", light), ("dark", dark)):
             for fg, bg in text_pairs:
                 self.assertGreaterEqual(ratio(tokens[fg], tokens[bg]), 4.5, f"{name}: --{fg} on --{bg}")

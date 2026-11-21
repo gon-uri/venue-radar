@@ -53,8 +53,8 @@ block); components use tokens only. Teal marks interaction; status has its own
 palette and every status pill carries a shape: filled dot (open), ring
 (scheduled), half dot (opportunity), dashed ring and outline (estimated), bar
 (closed), dotted ring (unannounced). Countdowns turn amber with a clock under
-7 days and coral with a dot under 48 hours (`data-urgency`). Ranks are neutral
-badges; ICORE A* is emphasised. `tests/test_site_assets.py` checks WCAG AA for
+7 days and coral with a dot under 48 hours (`data-urgency`). Ranks use a colour
+scale (ADR-060): A* solid dark green, A green, B yellow, C orange. `tests/test_site_assets.py` checks WCAG AA for
 the documented text pairs in both themes.
 
 ## Banners, Social Card And Screenshots

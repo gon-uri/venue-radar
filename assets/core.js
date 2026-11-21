@@ -201,9 +201,10 @@ function renderNextStep(group, state, summaryDetail) {
   const clock = summaryDetail.querySelector(".deadline-clock")?.textContent;
   const local = summaryDetail.querySelector("[data-local-time]");
   const label = summaryDetail.querySelector(".deadline-milestone").textContent;
-  const conflict = summaryDetail.querySelector(".deadline-note")?.textContent.replace(/^Note: /, "") || "";
+  // The collapsed card keeps only the asterisk; the note shows when opened.
+  const conflict = Boolean(summaryDetail.querySelector(".cutoff-note-mark"));
   const parts = [`${clock ? `${when}, ${clock}` : when}${conflict ? "*" : ""}`, state.action.estimated ? "(est.)" : "", label,
-    local && !local.hidden ? local.textContent : "", conflict];
+    local && !local.hidden ? local.textContent : ""];
   const key = parts.join("|");
   if (nextStep.dataset.key !== key) {
     nextStep.dataset.key = key;
@@ -217,12 +218,6 @@ function renderNextStep(group, state, summaryDetail) {
       yours.className = "next-step-local";
       yours.textContent = parts[3];
       nextStep.append(yours);
-    }
-    if (parts[4]) {
-      const note = document.createElement("span");
-      note.className = "next-step-local";
-      note.textContent = parts[4];
-      nextStep.append(note);
     }
   }
   nextStep.hidden = false;

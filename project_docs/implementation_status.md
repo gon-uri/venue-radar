@@ -66,7 +66,9 @@ additions, not from an older session entry or a filtered website screenshot.
   bars under countdowns, a "/" search shortcut, a system/light/dark theme
   toggle, a rail collapse button, a full-screen phone filter sheet and an
   optional Agenda layout; "About this venue" now shows under a phone card's
-  More info. Phase 4 (pending approval): a quiet 90-day runway strip.
+  More info. Fixes (ADR-060): cutoff notes show once below the schedule when a
+  row is opened, ICORE/CCF badges use a green-to-orange scale, and table
+  countdowns are larger. Phase 4 (pending approval): a quiet 90-day runway strip.
 - Header actions are Share on X, Star the repo and a Subscribe to calendar menu
   (Google/Apple/copy-link/download for submissions, all events, conference
   dates, any topic or series), with its caption below. Neither social action

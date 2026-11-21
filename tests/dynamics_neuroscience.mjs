@@ -1,5 +1,18 @@
 import assert from 'node:assert/strict';
 
+// Resolve a theme token to the computed colour, so checks follow the tokens (ADR-057).
+async function tokenColor(page, name) {
+  return page.evaluate(token => {
+    const probe = document.createElement('i');
+    probe.style.color = `var(${token})`;
+    document.body.append(probe);
+    const value = getComputedStyle(probe).color;
+    probe.remove();
+    return value;
+  }, name);
+}
+
+
 export async function checkDynamicsNeuroscience(page) {
   await page.setViewportSize({width:1440,height:1000});
   await page.evaluate(() => { Date.now = () => Date.parse('2026-10-08T12:00:00Z'); applyFilters(); });
@@ -11,7 +24,7 @@ export async function checkDynamicsNeuroscience(page) {
   assert(await lac.isVisible());
   assert.equal(await lac.locator('[data-submission-status]').innerText(),'Submission opportunity');
   assert.equal(await lac.locator('[data-deadline-row]:visible').getAttribute('data-deadline-type'),'abstract');
-  assert.equal(await lac.locator('[data-submission-status]').evaluate(s=>getComputedStyle(s).color),'rgb(61, 112, 68)');
+  assert.equal(await lac.locator('[data-submission-status]').evaluate(s=>getComputedStyle(s).color),await tokenColor(page, '--open'));
   assert.equal(await row('areadne-2028').locator('[data-submission-status]').innerText(),'Submission opportunity (estimated)');
   assert(!(await row('iccn-2026').isVisible()),'No invented ICCN submission opportunity');
   assert(!(await row('nodycon-2026').isVisible()),'Past meetings stay out of deadlines');

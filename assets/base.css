@@ -1,26 +1,112 @@
     /* Single design-token set (merged from the generator and site.css). */
     :root {
       color-scheme: light;
-      --text: #263238;
-      --muted: #647074;
-      --line: #dce2e3;
-      --line-strong: #bdc9cc;
-      --surface: #f7f9f9;
-      --surface-strong: #edf2f2;
-      --accent: #137c82;
-      --accent-dark: #0e5d62;
-      --tag: #f1f4f4;
-      --tag-text: #46565b;
-      --warn: #7a4f00;
-      --warn-bg: #fff5d6;
-      --control-border: #7f8e92;
+      /* Identity v2 (ADR-057): role tokens; dark values below. */
+      --bg: #f7fbfb;
+      --raised: #ffffff;
+      --surface: #eff5f6;
+      --surface-strong: #e7eef0;
+      --line: #d9e2e3;
+      --line-strong: #bbc7ca;
+      --control-border: #758387;
+      --text: #18252a;
+      --muted: #546369;
+      --faint: #69757a;
+      --accent: #0b7b80;
+      --accent-dark: #0d6064;
+      --accent-hover: #00484b;
+      --accent-tint: #eef9fa;
+      --accent-tint-2: #daf3f4;
+      --accent-border: #9ccfd2;
+      --on-accent: #ffffff;
+      --focus-ring: rgba(11, 123, 128, .22);
+      --tag: #eff5f6;
+      --tag-text: #37454a;
+      --warn: #90540f;
+      --warn-bg: #fef3d7;
+      --open: #106f4c;
+      --open-bg: #dff7eb;
+      --open-dot: #1a9064;
+      --soon: #90540f;
+      --final: #aa373c;
+      --final-dot: #c85c62;
+      --closed: #546369;
+      --closed-bg: #e7eced;
+      --rank-bg: #eff5f6;
+      --rank-fg: #37454a;
+      --rank-top-bg: #d7e2e4;
+      --rank-top-fg: #0c181d;
+      --linked-bg: #fff7df;
+      --hover: #f1f8f9;
+      --tip-bg: #18252a;
+      --tip-text: #ffffff;
+      --shadow: rgba(24, 37, 42, .14);
+      --star: #a87400;
+      --map-water: #ffffff;
+      --map-land: #dce5e6;
+      --map-coast: #bbc7ca;
+      --mark-tile: #0d6064;
+      --mark-blip: #c85c62;
+      --font-ui: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+      --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+      --font-brand: Sora, Inter, system-ui, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --bg: #101c1f;
+        --raised: #1b2b2e;
+        --surface: #152326;
+        --surface-strong: #0c1719;
+        --line: #2b3b3f;
+        --line-strong: #415457;
+        --control-border: #6b7e83;
+        --text: #e7eeef;
+        --muted: #a6b4b7;
+        --faint: #869598;
+        --accent: #86d2d6;
+        --accent-dark: #86d2d6;
+        --accent-hover: #b8e7e9;
+        --accent-tint: #0a3537;
+        --accent-tint-2: #064043;
+        --accent-border: #2e6366;
+        --on-accent: #001e20;
+        --focus-ring: rgba(134, 210, 214, .3);
+        --tag: #1b2b2e;
+        --tag-text: #bcc6c8;
+        --warn: #f7c56d;
+        --warn-bg: #443116;
+        --open: #7edbae;
+        --open-bg: #163b2c;
+        --open-dot: #56cb98;
+        --soon: #f7c56d;
+        --final: #f99e9b;
+        --final-dot: #e47b7c;
+        --closed: #a6b4b7;
+        --closed-bg: #283538;
+        --rank-bg: #1b2b2e;
+        --rank-fg: #bcc6c8;
+        --rank-top-bg: #2f4144;
+        --rank-top-fg: #f2f8f8;
+        --linked-bg: #3a3218;
+        --hover: #213134;
+        --tip-bg: #e7eeef;
+        --tip-text: #101c1f;
+        --shadow: rgba(0, 0, 0, .5);
+        --star: #f2c14e;
+        --map-water: #152326;
+        --map-land: #2a383b;
+        --map-coast: #415457;
+        --mark-tile: #22989d;
+        --mark-blip: #e8787d;
+      }
     }
     body {
       margin: 0;
       color: var(--text);
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.5;
-      background: #ffffff;
+      background: var(--bg);
     }
     main {
       width: min(1320px, calc(100% - 28px));
@@ -53,13 +139,13 @@
     .eyebrow {
       margin: 0 0 8px;
       color: var(--accent-dark);
-      font-size: 0.78rem;
+      font-size: .75rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0;
     }
     .subhead {
-      font-size: 1.02rem;
+      font-size: 1rem;
     }
     .calendar-action {
       display: flex;
@@ -73,16 +159,16 @@
       border: 1px solid var(--accent);
       border-radius: 6px;
       background: var(--accent);
-      color: #ffffff;
+      color: var(--on-accent);
       padding: 6px 10px;
       text-decoration: none;
-      font-size: 0.88rem;
+      font-size: .875rem;
       font-weight: 650;
       line-height: 1.2;
     }
     .calendar-note {
       color: var(--muted);
-      font-size: 0.9rem;
+      font-size: .875rem;
     }
     .controls {
       display: grid;
@@ -105,7 +191,7 @@
       display: grid;
       gap: 5px;
       color: var(--muted);
-      font-size: 0.9rem;
+      font-size: .875rem;
       line-height: 1.25;
     }
     .search-control {
@@ -115,7 +201,7 @@
       display: block;
       margin: 0 0 5px;
       color: var(--muted);
-      font-size: 0.9rem;
+      font-size: .875rem;
       line-height: 1.25;
     }
     input,
@@ -125,13 +211,13 @@
       border: 1px solid var(--line-strong);
       border-radius: 6px;
       color: var(--text);
-      background: #ffffff;
+      background: var(--raised);
       padding: 9px 10px;
       font: inherit;
     }
     input:focus,
     select:focus {
-      outline: 2px solid rgba(11, 107, 120, 0.18);
+      outline: 2px solid var(--focus-ring);
       border-color: var(--accent);
     }
     fieldset {
@@ -143,7 +229,7 @@
     legend {
       margin: 0 0 5px;
       color: var(--muted);
-      font-size: 0.9rem;
+      font-size: .875rem;
       line-height: 1.25;
     }
     .check-list {
@@ -154,7 +240,7 @@
       padding: 8px;
       border: 1px solid var(--line-strong);
       border-radius: 6px;
-      background: #ffffff;
+      background: var(--raised);
     }
     .check-option {
       display: flex;
@@ -162,7 +248,7 @@
       align-items: flex-start;
       gap: 7px;
       color: var(--text);
-      font-size: 0.86rem;
+      font-size: .875rem;
       line-height: 1.25;
     }
     .check-option input {
@@ -201,18 +287,18 @@
       color: var(--muted);
       cursor: pointer;
       font: inherit;
-      font-size: 0.94rem;
+      font-size: 1rem;
       font-weight: 650;
       line-height: 1.2;
       padding: 8px 12px;
     }
     .tab-button[aria-selected="true"] {
-      background: #ffffff;
+      background: var(--raised);
       color: var(--accent-dark);
       box-shadow: 0 0 0 1px var(--line);
     }
     .tab-button:focus {
-      outline: 2px solid rgba(11, 107, 120, 0.22);
+      outline: 2px solid var(--focus-ring);
       outline-offset: 2px;
     }
     .tab-panel[hidden] {
@@ -234,7 +320,7 @@
     }
     #result-count {
       color: var(--muted);
-      font-size: 0.85rem;
+      font-size: .875rem;
       white-space: nowrap;
     }
     .open-toggle input, .starred-toggle input {
@@ -249,7 +335,7 @@
       gap: 12px;
       margin: 3px 0 10px;
       color: var(--muted);
-      font-size: 0.85rem;
+      font-size: .875rem;
     }
     .clear-filters {
       border: 0;
@@ -277,14 +363,14 @@
       padding: 8px 9px;
       text-align: left;
       vertical-align: middle;
-      font-size: 0.9rem;
+      font-size: .875rem;
       line-height: 1.35;
       overflow-wrap: anywhere;
     }
     th {
       background: var(--surface-strong);
-      color: #394657;
-      font-size: 0.72rem;
+      color: var(--muted);
+      font-size: .75rem;
       text-transform: uppercase;
       letter-spacing: 0;
       white-space: nowrap;
@@ -296,7 +382,7 @@
       display: none;
     }
     .deadline-group-row {
-      background: #ffffff;
+      background: var(--raised);
     }
     .deadline-group-row.is-expanded td {
       border-bottom-color: var(--line-strong);
@@ -307,7 +393,7 @@
       margin: 0;
       border: 1px solid var(--line-strong);
       border-radius: 4px;
-      background: #ffffff;
+      background: var(--raised);
       color: var(--accent-dark);
       cursor: pointer;
       line-height: 1;
@@ -318,7 +404,7 @@
       display: none;
     }
     .deadline-toggle:focus {
-      outline: 2px solid rgba(11, 107, 120, 0.22);
+      outline: 2px solid var(--focus-ring);
       outline-offset: 2px;
     }
     .expand-icon {
@@ -331,7 +417,7 @@
     }
     time {
       font-weight: 650;
-      color: #1e2a38;
+      color: var(--text);
       white-space: nowrap;
     }
     .deadline-combined-cell {
@@ -360,7 +446,7 @@
       display: none;
     }
     .deadline-grid-row time {
-      font-size: 0.78rem;
+      font-size: .75rem;
       flex: 0 0 auto;
     }
     .deadline-milestone {
@@ -370,18 +456,18 @@
       text-overflow: ellipsis;
     }
     .deadline-passed {
-      color: #9c5d60;
-      font-size: 0.76rem;
+      color: var(--faint);
+      font-size: .75rem;
       font-weight: 700;
       flex: 0 0 auto;
     }
     .deadline-grid-row.is-past time,
     .deadline-grid-row.is-past .deadline-milestone {
-      color: #8e6668;
+      color: var(--faint);
     }
     .milestone-estimate {
       color: var(--warn);
-      font-size: 0.72rem;
+      font-size: .75rem;
       flex: 0 0 auto;
     }
     .deadline-unknown {
@@ -395,23 +481,23 @@
       display: inline-block;
       border-radius: 4px;
       padding: 3px 5px;
-      font-size: 0.79rem;
+      font-size: .8125rem;
       font-weight: 700;
       line-height: 1.3;
     }
-    .status-open { background: #d8efdd; color: #155b2d; }
-    .status-scheduled, .status-opportunity { background: #eaf5e8; color: #3d7044; }
-    .status-estimated { background: #fff3d7; color: #765321; }
-    .status-closed, .status-ongoing { background: #f4e9e9; color: #8a3e42; }
-    .status-past { background: #eef1f4; color: #52606f; }
-    .status-unknown { background: #eef1f4; color: #52606f; }
+    .status-open { background: var(--open-bg); color: var(--open); }
+    .status-scheduled, .status-opportunity { background: var(--open-bg); color: var(--open); }
+    .status-estimated { background: var(--warn-bg); color: var(--warn); }
+    .status-closed, .status-ongoing { background: var(--closed-bg); color: var(--closed); }
+    .status-past { background: var(--closed-bg); color: var(--closed); }
+    .status-unknown { background: var(--closed-bg); color: var(--closed); }
     .acceptance-cell strong {
       display: block;
-      font-size: 0.82rem;
+      font-size: .8125rem;
     }
     .acceptance-cell a,
     .rate-unknown {
-      font-size: 0.77rem;
+      font-size: .75rem;
       white-space: nowrap;
     }
     .rate-unknown {
@@ -423,7 +509,7 @@
       margin: 0 3px 4px 0;
       padding: 2px 6px;
       border-radius: 999px;
-      font-size: 0.75rem;
+      font-size: .75rem;
       line-height: 1.25;
       overflow-wrap: normal;
     }
@@ -432,8 +518,8 @@
       color: var(--tag-text);
     }
     .meta-pill {
-      background: #eef2f6;
-      color: #344255;
+      background: var(--surface);
+      color: var(--text);
     }
     .rank-link,
     .rank-empty {
@@ -441,14 +527,14 @@
       min-width: 1.5rem;
       padding: 2px 4px;
       text-align: center;
-      font-size: 0.82rem;
+      font-size: .8125rem;
       font-weight: 700;
       white-space: nowrap;
     }
     .rank-link {
       border-radius: 4px;
-      background: #e8f3ec;
-      color: #1c5d3a;
+      background: var(--rank-bg);
+      color: var(--rank-fg);
       text-decoration: none;
     }
     .rank-link:hover,
@@ -467,18 +553,18 @@
     }
     .rank-separator { color: var(--muted); }
     .rank-link-ccf {
-      background: #e8eef4;
-      color: #284d6d;
+      background: var(--rank-bg);
+      color: var(--rank-fg);
     }
     .row-calendar-button {
       display: inline-block;
       border: 1px solid var(--line-strong);
       border-radius: 6px;
-      background: #ffffff;
+      background: var(--raised);
       color: var(--accent-dark);
       padding: 4px 7px;
       text-decoration: none;
-      font-size: 0.76rem;
+      font-size: .75rem;
       font-weight: 700;
       line-height: 1.2;
     }
@@ -490,7 +576,7 @@
     footer {
       margin-top: 34px;
       color: var(--muted);
-      font-size: 0.92rem;
+      font-size: .875rem;
     }
     @media (max-width: 1100px) and (min-width: 761px) {
       .controls {
@@ -571,7 +657,7 @@
         margin-bottom: 10px;
         border: 1px solid var(--line);
         border-radius: 8px;
-        background: #ffffff;
+        background: var(--raised);
       }
       td {
         box-sizing: border-box;
@@ -584,7 +670,7 @@
       td::before {
         content: attr(data-label);
         color: var(--muted);
-        font-size: 0.74rem;
+        font-size: .75rem;
         font-weight: 700;
         text-transform: uppercase;
       }

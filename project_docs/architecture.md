@@ -45,7 +45,7 @@ not a dependency either, and blocking it changes nothing on the page.
 | `data/archival_options.yml` | One sourced archival-option value per exact series (ADR-047). |
 | `data/metadata.yml` | Published dataset review date. |
 | `data/retired_identities.yml` | Reviewed list of intentionally retired edition IDs or event UIDs (normally empty). |
-| `assets/` | Embedded site CSS/JS, logos, favicon, font, map geometry, link-preview card and vendor notices. |
+| `assets/` | Embedded site CSS/JS, the SVG mark and favicon, fonts, map geometry, link-preview card and vendor notices. |
 | `docs/` | Generated public HTML and ICS only; never edit by hand. |
 | `project_docs/` | Public handbook, source evidence and technical decisions. |
 | `private_notes/` | Optional gitignored working logs, brainstorming and design/copy history; not a build input. |
@@ -76,9 +76,9 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 | `scripts/maintenance_report.py` | Read-only edition queue with urgency tiers (including a pre-deadline recheck), advisory checks, and acceptance/scope backlogs (text, markdown or JSON). |
 | `scripts/source_check.py` | Manual, networked check of cited URLs and successor pages. Report-only; never run in CI. |
 | `scripts/check_identity.py` | Fails when a published UID or edition ID disappears without a retirement entry. |
-| `scripts/release_check.py` | Local release gate: validation, tests, build, determinism, docs drift, non-blocking size budgets (WARN at 90% of the 1 MB feed limit or above 480 KB gzipped page; ADR-048), whitespace, private notes and dataset freshness (`last_updated` not before the newest review and not in the future). |
+| `scripts/release_check.py` | Local release gate: validation, tests, build, determinism, docs drift, non-blocking size budgets (WARN at 90% of the 1 MB feed limit or above 540 KB gzipped page; ADR-048, ADR-057), whitespace, private notes and dataset freshness (`last_updated` not before the newest review and not in the future). |
 | `scripts/rollover_editions.py` | Preview or explicitly append cadence-based estimates; never overwrites existing edition IDs. |
-| `scripts/recolor_logo.mjs`, `scripts/build_readme_banner.mjs`, `scripts/build_social_card.mjs` | Optional tools deriving brand outputs from immutable sources and the real title font. |
+| `scripts/build_readme_banner.mjs`, `scripts/build_social_card.mjs` | Optional tools rendering the README banners and link-preview card from `assets/venue-radar.svg` and the embedded fonts (ADR-057). |
 | `scripts/build_readme_images.mjs` | Optional tool rendering the README screenshots (`assets/readme/`) from the committed page, offline and with a pinned clock. |
 | `tests/test_*.py` | Unit/data/rendering/workflow/documentation regressions. |
 | `tests/js/*.test.mjs` | Node built-in-runner tests for `assets/logic.js`. |
@@ -93,8 +93,8 @@ reason to move behavior.
 
 ## Generated Outputs And Identity
 
-- `docs/index.html`: standalone HTML with embedded local logo, radar favicon,
-  Audiowide font, CSS/JS, pinned Leaflet and Natural Earth land geometry. Its
+- `docs/index.html`: standalone HTML with the inlined SVG mark, SVG favicon,
+  embedded Sora/Inter/Geist Mono fonts, light and dark tokens, CSS/JS, pinned Leaflet and Natural Earth land geometry. Its
   link-preview image is `assets/branding/social-card.png`, served from the
   repository's `main` branch because `docs/` holds only generated output.
 - `docs/calendar-all.ics`: meeting dates plus recorded deadlines.

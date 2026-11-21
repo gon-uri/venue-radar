@@ -1,5 +1,18 @@
 import assert from 'node:assert/strict';
 
+// Resolve a theme token to the computed colour, so checks follow the tokens (ADR-057).
+async function tokenColor(page, name) {
+  return page.evaluate(token => {
+    const probe = document.createElement('i');
+    probe.style.color = `var(${token})`;
+    document.body.append(probe);
+    const value = getComputedStyle(probe).color;
+    probe.remove();
+    return value;
+  }, name);
+}
+
+
 export async function checkSubmissionBehavior(page) {
   const opportunitiesOnly = await page.locator('#open-only').isChecked();
   await page.locator('#open-only').uncheck();
@@ -37,11 +50,11 @@ export async function checkSubmissionBehavior(page) {
   assert(await mlsys.locator('[data-deadline-type="full_paper_opens"]').isVisible());
   await mlsys.locator('.deadline-toggle').click();
   for (const row of [aamas, mlsys]) {
-    assert.equal(await status(row).evaluate(label => getComputedStyle(label).color), 'rgb(61, 112, 68)');
+    assert.equal(await status(row).evaluate(label => getComputedStyle(label).color), await tokenColor(page, '--open'));
   }
   const estimated = page.locator('[data-deadline-group][data-edition="uai-2027"]');
   assert.equal(await status(estimated).innerText(), 'Submission opportunity (estimated)');
-  assert.equal(await status(estimated).evaluate(label => getComputedStyle(label).color), 'rgb(118, 83, 33)');
+  assert.equal(await status(estimated).evaluate(label => getComputedStyle(label).color), await tokenColor(page, '--open'));
   assert.match(await timeLeft(estimated).innerText(), /^~/);
 
   await setClock('2026-10-19T19:59:59Z');
@@ -53,7 +66,7 @@ export async function checkSubmissionBehavior(page) {
   await setClock('2026-11-06T12:00:00Z');
   assert.equal(await status(aamas).innerText(), 'Closed to new submissions');
   assert.equal(await timeLeft(aamas).innerText(), 'Closed');
-  assert.equal(await status(aamas).evaluate(label => getComputedStyle(label).color), 'rgb(138, 62, 66)');
+  assert.equal(await status(aamas).evaluate(label => getComputedStyle(label).color), await tokenColor(page, '--closed'));
   assert.equal(await summary(aamas).getAttribute('data-deadline-type'), 'short_paper');
   await page.locator('#open-only').check();
   assert(!(await aamas.isVisible()), 'A passed abstract gate must close the future paper route');

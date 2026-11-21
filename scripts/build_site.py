@@ -258,7 +258,7 @@ def _icore_cell(conference: dict[str, Any], rankings: dict[str, Any]) -> str:
     rank = entry["rank"]
     url = f'https://portal.core.edu.au/conf-ranks/{entry["portal_id"]}/'
     return (
-        f'<a class="rank-link" href="{_attr(url)}" '
+        f'<a class="rank-link{" rank-top" if rank == "A*" else ""}" href="{_attr(url)}" '
         f'aria-label="ICORE 2026 rank {_attr(rank)}" '
         f'title="ICORE 2026: {_attr(rank)}. Applies to main-track full papers.">'
         f"{escape(rank)}</a>"
@@ -730,7 +730,7 @@ def _deadline_group_rows(
                 f"<button class=\"deadline-toggle\" type=\"button\" aria-expanded=\"false\" "
                 f"aria-controls=\"{_attr(grid_id)}\" "
                 f"aria-label=\"Show milestones for {_attr(conference['short_title'])}\">"
-                "<span class=\"expand-icon\" aria-hidden=\"true\">&#9656;</span>"
+                "<span class=\"expand-icon\" aria-hidden=\"true\"></span>"
                 "</button>"
             )
         successor_html = ""
@@ -1003,10 +1003,14 @@ def build_site(
     ccf = ccf_data["rankings"]
     ccf_page = ccf_data["page_url"]
     rates = acceptance_data["rates"]
-    logo = 'data:image/png;base64,' + base64.b64encode((ASSETS_DIR / 'venue-radar.png').read_bytes()).decode('ascii')
+    # The Ping tile is inlined so its colours follow the page tokens (ADR-057).
+    logo = (ASSETS_DIR / 'venue-radar.svg').read_text(encoding='utf-8')
+    logo = logo[logo.index('<svg'):].replace('<svg ', '<svg class="brand-mark" aria-hidden="true" focusable="false" ', 1).replace(' role="img" aria-label="Venue Radar"', '', 1)
+    logo = re.sub(r'\s*<!--.*?-->', '', logo, flags=re.S).strip()
     favicon = 'data:image/svg+xml;base64,' + base64.b64encode((ASSETS_DIR / 'favicon.svg').read_bytes()).decode('ascii')
     share_url = "https://x.com/intent/tweet?" + urlencode({"text": SHARE_TEXT, "url": SITE_URL})
-    title_font = base64.b64encode((ASSETS_DIR / 'vendor' / 'audiowide-latin.woff2').read_bytes()).decode('ascii')
+    fonts = {name: base64.b64encode((ASSETS_DIR / 'vendor' / f'{name}.woff2').read_bytes()).decode('ascii')
+             for name in ('sora-latin-600', 'inter-latin-wght', 'geist-mono-latin-400', 'geist-mono-latin-600')}
     # Base layout/component styles, then site.css brand and responsive overrides.
     base_css = (ASSETS_DIR / 'base.css').read_text(encoding='utf-8')
     custom_css = (ASSETS_DIR / 'site.css').read_text(encoding='utf-8')
@@ -1029,7 +1033,7 @@ def build_site(
     star_icon = (ASSETS_DIR / 'vendor' / 'star.svg').read_text(encoding='utf-8')
     vendor_notices = '\n\n'.join(
         (ASSETS_DIR / 'vendor' / name).read_text(encoding='utf-8')
-        for name in ['Leaflet-LICENSE', 'Lucide-LICENSE', 'Audiowide-OFL.txt']
+        for name in ['Leaflet-LICENSE', 'Lucide-LICENSE', 'Sora-OFL.txt', 'Inter-OFL.txt', 'GeistMono-OFL.txt']
     ).replace('--', '- -')
     vendor_notices = '\n'.join(line.rstrip() for line in vendor_notices.splitlines())
 
@@ -1050,7 +1054,8 @@ def build_site(
   <title>{escape(PAGE_TITLE)}</title>
   <meta name="description" content="{_attr(PAGE_DESCRIPTION)}">
   <link rel="canonical" href="{_attr(SITE_URL)}">
-  <meta name="theme-color" content="#0e5d62">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7fbfb">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#101c1f">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Venue Radar">
   <meta property="og:title" content="{_attr(PAGE_TITLE)}">
@@ -1067,13 +1072,14 @@ def build_site(
   <link rel="icon" type="image/svg+xml" sizes="any" href="{favicon}">
   <style>
 {base_css}    {leaflet_css}
-    @font-face {{
-      font-family: Audiowide;
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url(data:font/woff2;base64,{title_font}) format('woff2');
-    }}
+    @font-face {{ font-family: Sora; font-style: normal; font-weight: 600; font-display: swap;
+      src: url(data:font/woff2;base64,{fonts['sora-latin-600']}) format('woff2'); }}
+    @font-face {{ font-family: Inter; font-style: normal; font-weight: 100 900; font-display: swap;
+      src: url(data:font/woff2;base64,{fonts['inter-latin-wght']}) format('woff2'); }}
+    @font-face {{ font-family: "Geist Mono"; font-style: normal; font-weight: 400; font-display: swap;
+      src: url(data:font/woff2;base64,{fonts['geist-mono-latin-400']}) format('woff2'); }}
+    @font-face {{ font-family: "Geist Mono"; font-style: normal; font-weight: 600; font-display: swap;
+      src: url(data:font/woff2;base64,{fonts['geist-mono-latin-600']}) format('woff2'); }}
     {custom_css}
   </style>
   <noscript><style>
@@ -1097,7 +1103,7 @@ def build_site(
   <main>
     <header>
       <div class="brand-copy">
-        <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="82" height="82"><h1>Venue Radar</h1></div>
+        <div class="brand-line">{logo}<h1>Venue Radar</h1></div>
         <p class="subhead">Find where to submit next: conference deadlines for machine learning and AI, neuroscience, healthcare, complex systems, and control.</p>
       </div>
       <div class="header-actions">
@@ -1114,7 +1120,7 @@ def build_site(
     <h2 class="visually-hidden">Filters and search</h2>
     {_quick_bar()}
     <details class="filter-details" id="filter-details">
-      <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>More filters</span><span class="filter-count" id="filter-count" hidden></span><span class="more-hint">Size · ICORE · CCF · acceptance rate · subtopics</span></summary>
+      <summary><span class="filter-disclosure-icon" aria-hidden="true"></span><span>More filters</span><span class="filter-count" id="filter-count" hidden></span><span class="more-hint">Size · ICORE · CCF · acceptance rate · subtopics</span></summary>
       <div class="filter-content">
         <div class="filter-grid">
           {_topic_filter()}

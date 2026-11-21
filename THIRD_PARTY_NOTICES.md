@@ -1,11 +1,13 @@
 # Third-Party Notices
 
-- Audiowide: Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI),
-  with Reserved Font Names "Audiowide". SIL Open Font License 1.1.
-  [Source and license](https://github.com/google/fonts/tree/main/ofl/audiowide).
-  The Latin WOFF2 in `assets/vendor/audiowide-latin.woff2` is embedded for the
-  title only; its original notice is in `assets/vendor/Audiowide-OFL.txt`
-  and the generated HTML. It retains its own license, not MIT or CC BY.
+- Sora, Inter and Geist Mono: SIL Open Font License 1.1. Copyright 2019 The
+  Sora Project Authors ([source](https://github.com/sora-xor/sora-font));
+  Copyright 2016 The Inter Project Authors ([source](https://github.com/rsms/inter));
+  Copyright 2024 The Geist Project Authors ([source](https://github.com/vercel/geist-font)).
+  Latin WOFF2 subsets from the Fontsource 5.3.0 packages are in
+  `assets/vendor/` and embedded in the generated HTML with their notices
+  (`assets/vendor/Sora-OFL.txt`, `Inter-OFL.txt`, `GeistMono-OFL.txt`). They
+  retain their own license, not MIT or CC BY.
 - Leaflet 1.9.4: Copyright 2010-2023 Vladimir Agafonkin and contributors,
   BSD-2-Clause. [Source](https://github.com/Leaflet/Leaflet/tree/v1.9.4),
   license in `assets/vendor/Leaflet-LICENSE`. JavaScript/CSS are bundled into

@@ -33,7 +33,7 @@ PASS, FAIL, SKIP, WARN = "PASS", "FAIL", "SKIP", "WARN"
 # Warn early: the 1 MB feed limit is a hard test failure, and community
 # reports say Google Calendar rejects URL feeds above about 1 MB.
 FEED_WARN_RATIO = 0.9
-PAGE_GZIP_BUDGET = 480_000
+PAGE_GZIP_BUDGET = 540_000
 
 
 @dataclass

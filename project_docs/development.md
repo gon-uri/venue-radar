@@ -56,8 +56,8 @@ python3 scripts/check_identity.py --base origin/main
 
 `release_check.py` runs validation, the Python tests, the build, a second build
 compared byte for byte, a check that `docs/` matches the git index, size
-budgets (a non-blocking WARN near the 1 MB feed limit or above 480 KB gzipped
-page), the whitespace check below, an empty `git ls-files private_notes/`, and
+budgets (a non-blocking WARN near the 1 MB feed limit or above 540 KB gzipped
+page, ADR-057), the whitespace check below, an empty `git ls-files private_notes/`, and
 `metadata.yml` `last_updated` not older than the newest `last_checked`. Run it
 after staging the intended change; it regenerates `docs/` but never stages,
 commits or pushes. It does not run the Node tests, browser smoke or the
@@ -116,24 +116,24 @@ browser tooling rather than claiming checks ran. Keep helper imports together.
 
 ## Branding Tools
 
-Brand changes require their own approved scope. The logo and README banner are
-derived from immutable sources under `assets/branding/`; do not recolor an
-already recolored/resized output. Sharp verifies the four RGB colors and
-unchanged foreground geometry/alpha; Playwright renders the real Audiowide font.
-Both are optional maintainer dependencies, not runtime requirements.
+Brand changes require their own approved scope. The master mark is
+`assets/venue-radar.svg`; the favicon is its hand-kept 16 px variant. Banners
+and the social card are rendered from the SVG and the embedded Sora/Inter
+WOFF2 files with Playwright (an optional maintainer dependency, not a runtime
+requirement). There is no raster source to recolor.
 
 With the same isolated runtime:
 
 ```sh
-cp scripts/recolor_logo.mjs scripts/build_readme_banner.mjs scripts/build_social_card.mjs "$TOOLS_DIR/"
-"$NODE_BIN" "$TOOLS_DIR/recolor_logo.mjs" "$PWD"
+cp scripts/build_readme_banner.mjs scripts/build_social_card.mjs "$TOOLS_DIR/"
 CHROME_BIN="$CHROME_BIN" "$NODE_BIN" "$TOOLS_DIR/build_readme_banner.mjs" "$PWD"
 CHROME_BIN="$CHROME_BIN" "$NODE_BIN" "$TOOLS_DIR/build_social_card.mjs" "$PWD"
 python3 scripts/build_all.py
 ```
 
 `build_readme_banner.mjs` writes both README banners: white, and the
-transparent dark-mode variant. Antialiasing differs slightly between Chrome
+transparent dark-mode variant (ripples cut in GitHub's dark canvas colour).
+Antialiasing differs slightly between Chrome
 versions, so keep the committed white banner (restore it with git) unless the
 brand change is intended.
 

@@ -30,8 +30,7 @@ class PageElements(HTMLParser):
 class SiteAssetTests(unittest.TestCase):
     def test_branding_asset_dimensions_and_readme_placement(self) -> None:
         for name, dimensions in (
-            ("venue-radar.png", (256, 256)),
-            ("branding/venue-radar-source.png", (256, 256)),
+            ("branding/social-card.png", (1200, 630)),
             ("branding/venue-radar-banner.png", (1400, 175)),
             ("branding/venue-radar-banner-dark.png", (1400, 175)),
         ):
@@ -109,14 +108,24 @@ class SiteAssetTests(unittest.TestCase):
     def test_current_logo_is_embedded_in_the_site(self) -> None:
         with TemporaryDirectory() as directory:
             html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
-        logo = base64.b64encode((ASSETS_DIR / "venue-radar.png").read_bytes()).decode("ascii")
-        self.assertIn(f'src="data:image/png;base64,{logo}" alt=""', html)
+        # ADR-057: the Ping tile is inlined (colours follow the page tokens).
+        self.assertIn('<div class="brand-line"><svg class="brand-mark" aria-hidden="true" focusable="false" ', html)
+        self.assertNotIn("data:image/png;base64", html.split("<header>", 1)[1].split("</header>", 1)[0])
         favicon = base64.b64encode((ASSETS_DIR / "favicon.svg").read_bytes()).decode("ascii")
         self.assertIn(f'<link rel="icon" type="image/svg+xml" sizes="any" href="data:image/svg+xml;base64,{favicon}">', html)
-        svg = ElementTree.parse(ASSETS_DIR / "favicon.svg").getroot()
-        self.assertEqual(svg.attrib["viewBox"], "0 0 64 64")
-        background = svg.find("{http://www.w3.org/2000/svg}rect")
-        self.assertEqual(background.attrib, {"width": "64", "height": "64", "fill": "#ffffff"})
+        ns = "{http://www.w3.org/2000/svg}"
+        mark = ElementTree.parse(ASSETS_DIR / "venue-radar.svg").getroot()
+        icon = ElementTree.parse(ASSETS_DIR / "favicon.svg").getroot()
+        for svg in (mark, icon):
+            self.assertEqual(svg.attrib["viewBox"], "4 4 40 40")
+            tile = svg.find(f"{ns}rect")
+            self.assertEqual((tile.attrib["width"], tile.attrib["height"], tile.attrib["rx"]), ("40", "40", "11"))
+            circles = svg.findall(f".//{ns}circle")
+            self.assertTrue(all((c.attrib["cx"], c.attrib["cy"]) == ("31", "17") for c in circles))
+        # The 16 px favicon drops the faint outer ring; everything else is the same drawing.
+        self.assertEqual(sorted(c.attrib["r"] for c in mark.findall(f".//{ns}circle")), ["17", "24.5", "4.6", "9.5"])
+        self.assertEqual(sorted(c.attrib["r"] for c in icon.findall(f".//{ns}circle")), ["17", "4.6", "9.5"])
+        self.assertIn("prefers-color-scheme: dark", (ASSETS_DIR / "favicon.svg").read_text(encoding="utf-8"))
 
     def test_sharing_links_are_prefilled_and_do_not_post_automatically(self) -> None:
         with TemporaryDirectory() as directory:
@@ -181,8 +190,8 @@ class SiteAssetTests(unittest.TestCase):
         mobile = css.split('@media (max-width: 760px) {', 1)[1]
         for rule in (
             'tr[data-filter-row] { border-color: var(--line-strong); margin-bottom: 14px; }',
-            'td::before { text-transform: none; font-size: .8125rem; color: #526267; }',
-            'td[data-label="Conference"] { background: #edf5f5; border-radius: 7px 7px 0 0; }',
+            'td::before { text-transform: none; font-size: .8125rem; color: var(--muted); }',
+            'td[data-label="Conference"] { background: var(--raised); border-radius: 7px 7px 0 0; }',
             'min-height: 36px; padding: 4px 10px;',
         ):
             self.assertIn(rule, mobile)
@@ -250,17 +259,43 @@ class SiteAssetTests(unittest.TestCase):
             html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
         self.assertIn('td[data-label="Conference"] > a { font-weight: 600; }', html)
 
-    def test_title_font_is_embedded_with_its_original_license(self) -> None:
-        font = (ASSETS_DIR / "vendor" / "audiowide-latin.woff2").read_bytes()
-        self.assertEqual(font[:4], b"wOF2")
+    def test_fonts_are_embedded_with_their_licenses(self) -> None:
         with TemporaryDirectory() as directory:
             html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
-        self.assertIn("data:font/woff2;base64," + base64.b64encode(font).decode("ascii"), html)
-        self.assertIn('with Reserved Font Names "Audiowide"', html)
+        for name in ("sora-latin-600", "inter-latin-wght", "geist-mono-latin-400", "geist-mono-latin-600"):
+            font = (ASSETS_DIR / "vendor" / f"{name}.woff2").read_bytes()
+            self.assertEqual(font[:4], b"wOF2")
+            self.assertIn("data:font/woff2;base64," + base64.b64encode(font).decode("ascii"), html)
+        for notice in ("The Sora Project Authors", "The Inter Project Authors", "The Geist Project Authors"):
+            self.assertIn(notice, html)
         self.assertIn("SIL OPEN FONT LICENSE Version 1.1", html)
+        self.assertNotIn("Audiowide", html)
         self.assertNotIn("fonts.googleapis.com", html)
         self.assertNotIn("fonts.gstatic.com", html)
 
+    def test_theme_tokens_meet_contrast_in_light_and_dark(self) -> None:
+        css = (ASSETS_DIR / "base.css").read_text(encoding="utf-8")
+        light = dict(re.findall(r"--([a-z0-9-]+): (#[0-9a-f]{6});", css.split("@media (prefers-color-scheme: dark)", 1)[0]))
+        dark = {**light, **dict(re.findall(r"--([a-z0-9-]+): (#[0-9a-f]{6});", css.split("@media (prefers-color-scheme: dark)", 1)[1].split("}", 1)[0]))}
+
+        def luminance(color: str) -> float:
+            channels = [int(color[i:i + 2], 16) / 255 for i in (1, 3, 5)]
+            linear = [c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4 for c in channels]
+            return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+
+        def ratio(a: str, b: str) -> float:
+            hi, lo = sorted((luminance(a), luminance(b)), reverse=True)
+            return (hi + 0.05) / (lo + 0.05)
+
+        text_pairs = [("text", "bg"), ("text", "raised"), ("muted", "bg"), ("muted", "raised"), ("faint", "raised"),
+                      ("accent-dark", "bg"), ("accent-dark", "raised"), ("on-accent", "accent-dark"),
+                      ("open", "open-bg"), ("open", "raised"), ("closed", "closed-bg"), ("warn", "warn-bg"),
+                      ("soon", "raised"), ("final", "raised"), ("rank-fg", "rank-bg"), ("rank-top-fg", "rank-top-bg"),
+                      ("tip-text", "tip-bg"), ("tag-text", "tag")]
+        for name, tokens in (("light", light), ("dark", dark)):
+            for fg, bg in text_pairs:
+                self.assertGreaterEqual(ratio(tokens[fg], tokens[bg]), 4.5, f"{name}: --{fg} on --{bg}")
+            self.assertGreaterEqual(ratio(tokens["control-border"], tokens["raised"]), 3, f"{name}: control border")
 
 if __name__ == "__main__":
     unittest.main()

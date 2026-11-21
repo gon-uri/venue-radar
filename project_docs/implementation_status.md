@@ -55,9 +55,14 @@ additions, not from an older session entry or a filtered website screenshot.
   Desktop tables stay complete
   under a sticky header. Disclosure state survives filters/tabs/resizing; no-JS keeps
   full metadata accessible. Mobile visual refinement is covered by ADR-035.
-- Venue Radar branding uses the selected Audiowide title, four-color calendar/
-  radar PNG, radar-only favicon, restrained teal styling and semibold names.
-  Source assets, notices and optical-alignment regressions are maintained.
+- Venue Radar branding is identity v2 (ADR-057, 2026-11-21): the SVG Ping tile
+  mark and matching favicon, a Sora wordmark, Inter interface text and Geist
+  Mono countdowns (embedded OFL fonts), one petrol-teal token scale, a dark
+  theme that follows the system setting, shaped status pills, amber/coral
+  countdown urgency, neutral rank badges and one chevron disclosure style.
+  A token contrast test and light/dark browser checks guard it. Planned
+  follow-ups (each needs approval): a left filter rail (amends ADR-049), then
+  optional 90-day runway, agenda view, horizon bars and theme toggle.
 - Header actions are Share on X, Star the repo and a Subscribe to calendar menu
   (Google/Apple/copy-link/download for submissions, all events, conference
   dates, any topic or series), with its caption below. Neither social action
@@ -117,8 +122,8 @@ identities, and runs Node unit tests for the client logic.
 ADR-048 (2026-11-14) keeps the weekly issue to doable work: on that date it
 shows 8 advisories instead of 65, 62 scope items instead of 150 and 13
 archival items instead of 36, plus Rollover ready (10) and New this week.
-`release_check.py` warns at 90% of the 1 MB feed limit and above a 480 KB
-gzipped page (390 KB after deduplicating Conferences-tab search text).
+`release_check.py` warns at 90% of the 1 MB feed limit and above a 540 KB
+gzipped page (raised from 480 KB for the embedded fonts, ADR-057).
 
 [Adding conferences](adding_conferences.md) covers identity/approval, all owning
 files, taxonomy, dates, publication caveats and verification. [Development](development.md)

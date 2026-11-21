@@ -32,6 +32,14 @@ below are history, not instructions to reimplement old designs.
   pale teal conference headers, stronger 1px outlines and 14px card spacing.
 - Completed branding refinement: four-color, geometry-preserving logo recolor
   and a full-width white Audiowide/logo banner at the beginning of README.
+- Completed identity v2, phase 1 (ADR-057, 2026-11-21): Ping tile mark,
+  Sora/Inter/Geist Mono, token-only colours with a dark theme, shaped statuses,
+  countdown urgency and regenerated banners, card and screenshots. This
+  supersedes the Audiowide and raster-logo items above.
+- Next, identity v2 phase 2 (needs an ADR amending ADR-049): move the filter
+  bar into a collapsible left rail on desktop and a filter sheet on phones.
+  Phase 3, optional and separately approved: a quiet 90-day runway, an agenda
+  view, countdown horizon bars, a "/" search shortcut and a theme toggle.
 - Completed filter/sharing polish: always-visible Clear filters aligned with
   the disclosure heading, an eight-family topic viewport, removal of the
   duplicate Time series shortcut, default-selected Show submission options only,

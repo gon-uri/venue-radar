@@ -13,6 +13,7 @@ import {checkFilterBar} from './filter_bar.mjs';
 import {checkAboutVenue} from './about_venue.mjs';
 import {checkHorizon} from './horizon.mjs';
 import {checkProvenance} from './provenance.mjs';
+import {checkFilterRail} from './filter_rail.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -89,7 +90,8 @@ try {
     await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
     await page.goto(url);
     await page.evaluate(() => document.fonts.ready);
-    assert.equal(await page.locator('#filter-details').evaluate(details => details.open), false, `More filters collapsed at ${width}px`);
+    // ADR-058: from 1200px the rail shows the panel open; below it starts collapsed (ADR-049).
+    assert.equal(await page.locator('#filter-details').evaluate(details => details.open), width >= 1200, `More filters state at ${width}px`);
     assert(await page.locator('#search').isVisible(), `Search always visible at ${width}px (ADR-049)`);
     assert(await page.locator('#clear-filters').isVisible());
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Default layout must fit at ${width}px`);
@@ -166,6 +168,10 @@ try {
       getComputedStyle(label).color === open;
   })), 'Open submission statuses must show the filled-dot shape in the open colour');
   await checkSubmissionBehavior(page);
+  // ADR-049 bar interactions apply below the 1200px rail (ADR-058).
+  await page.setViewportSize({width: 1180, height: 1000});
+  await page.goto(url);
+  await page.evaluate(() => document.fonts.ready);
   const filterSummary = page.locator('#filter-details > summary');
   assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
   assert(await page.locator('#clear-filters').isVisible());
@@ -557,54 +563,65 @@ try {
       await page.evaluate(() => scrollTo(0, 0));
       await page.screenshot({path: path.join(output, `deadlines-${width}.png`)});
     }
-    await page.locator('#open-only').uncheck();
-    assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
-    assert(await page.locator('#open-only').isVisible());
-    assert(await page.locator('#clear-filters').isVisible());
-    await filterSummary.click();
-    assert(await page.locator('#clear-filters').isVisible());
-    assert(await page.locator('.topic-family summary label span').evaluateAll(labels => labels.every(label => {
-      const range = document.createRange();
-      range.selectNodeContents(label);
-      const rects = [...range.getClientRects()];
-      const family = label.closest('summary').getBoundingClientRect();
-      return rects.length === 1 && rects[0].right <= family.right - 8;
-    })), `Topic family labels must fit on one line at ${width}px`);
-    const headingBox = await filterSummary.boundingBox();
-    const clearBox = await page.locator('#clear-filters').boundingBox();
-    assert(Math.abs(headingBox.y + headingBox.height / 2 - clearBox.y - clearBox.height / 2) < 1, `Disclosure and Clear filters must align at ${width}px`);
-    assert(headingBox.x + headingBox.width < clearBox.x, `Clear filters must not overlap the heading at ${width}px`);
-    assert(await page.locator('.topic-tree').evaluate(tree => tree.scrollHeight <= tree.clientHeight), `All eight collapsed families must fit at ${width}px`);
-    assert(await page.locator('.header-actions > a, .calendar-menu > summary').evaluateAll(links => links.every(link => {
-      const box = link.getBoundingClientRect();
-      return box.left >= 0 && box.right <= innerWidth;
-    })), `Header actions must fit at ${width}px`);
-    assert(await page.locator('.calendar-action').evaluate(action => {
-      const button = action.querySelector('summary').getBoundingClientRect();
-      const caption = action.querySelector('.calendar-caption').getBoundingClientRect();
-      return caption.top >= button.bottom && caption.left >= button.left && caption.right <= button.right;
-    }), `Calendar caption must fit below its button at ${width}px`);
-    assert(await page.locator('.header-actions').evaluate(actions => {
-      const links = [...actions.querySelectorAll(':scope > a, .calendar-menu > summary')].map(link => link.getBoundingClientRect());
-      return links.at(-1).right >= Math.max(...links.map(link => link.right)) - 1 &&
-        (innerWidth <= 760 || links.every(link => Math.abs(link.top - links[0].top) < 1));
-    }), `Calendar menu must be rightmost and desktop buttons aligned at ${width}px`);
-    assert(await page.locator('.table-tabs button').evaluateAll(tabs => tabs.every(tab => {
-      const range = document.createRange();
-      range.selectNodeContents(tab);
-      const text = range.getBoundingClientRect();
-      const box = tab.getBoundingClientRect();
-      return text.left >= box.left && text.right <= box.right && text.top >= box.top && text.bottom <= box.bottom;
-    })), `Tab labels must fit at ${width}px`);
-    if (output) await page.locator('header').screenshot({path: path.join(output, `header-${width}.png`)});
-    assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Expanded filter overflow at ${width}px`);
-    assert(await page.locator('.quick-bar #search, .quick-bar .chip').evaluateAll(items => items.every(item => {
-      const box = item.getBoundingClientRect();
-      return box.left >= 0 && (box.right <= innerWidth || item.closest('.qb-chips').scrollWidth > item.closest('.qb-chips').clientWidth);
-    })), `Filter bar fits (phones scroll the chip row) at ${width}px`);
-    if (output) await page.screenshot({path: path.join(output, `filters-${width}.png`)});
-    await filterSummary.click();
-    await page.locator('#tab-conferences').click();
+    if (width >= 1200) {
+      // ADR-058: the rail shows the panel open, with no summary and no chips.
+      await page.locator('#open-only').uncheck();
+      assert(await page.locator('#filter-details').evaluate(details => details.open), `Rail shows filters at ${width}px`);
+      assert(await filterSummary.isHidden() && await page.locator('.qb-chips').isHidden(), `Rail hides the summary and chips at ${width}px`);
+      assert(await page.locator('#search').isVisible() && await page.locator('#clear-filters').isVisible());
+      assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Rail overflow at ${width}px`);
+      if (output) await page.screenshot({path: path.join(output, `filters-${width}.png`)});
+      await page.locator('#tab-conferences').click();
+    } else {
+      await page.locator('#open-only').uncheck();
+      assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
+      assert(await page.locator('#open-only').isVisible());
+      assert(await page.locator('#clear-filters').isVisible());
+      await filterSummary.click();
+      assert(await page.locator('#clear-filters').isVisible());
+      assert(await page.locator('.topic-family summary label span').evaluateAll(labels => labels.every(label => {
+        const range = document.createRange();
+        range.selectNodeContents(label);
+        const rects = [...range.getClientRects()];
+        const family = label.closest('summary').getBoundingClientRect();
+        return rects.length === 1 && rects[0].right <= family.right - 8;
+      })), `Topic family labels must fit on one line at ${width}px`);
+      const headingBox = await filterSummary.boundingBox();
+      const clearBox = await page.locator('#clear-filters').boundingBox();
+      assert(Math.abs(headingBox.y + headingBox.height / 2 - clearBox.y - clearBox.height / 2) < 1, `Disclosure and Clear filters must align at ${width}px`);
+      assert(headingBox.x + headingBox.width < clearBox.x, `Clear filters must not overlap the heading at ${width}px`);
+      assert(await page.locator('.topic-tree').evaluate(tree => tree.scrollHeight <= tree.clientHeight), `All eight collapsed families must fit at ${width}px`);
+      assert(await page.locator('.header-actions > a, .calendar-menu > summary').evaluateAll(links => links.every(link => {
+        const box = link.getBoundingClientRect();
+        return box.left >= 0 && box.right <= innerWidth;
+      })), `Header actions must fit at ${width}px`);
+      assert(await page.locator('.calendar-action').evaluate(action => {
+        const button = action.querySelector('summary').getBoundingClientRect();
+        const caption = action.querySelector('.calendar-caption').getBoundingClientRect();
+        return caption.top >= button.bottom && caption.left >= button.left && caption.right <= button.right;
+      }), `Calendar caption must fit below its button at ${width}px`);
+      assert(await page.locator('.header-actions').evaluate(actions => {
+        const links = [...actions.querySelectorAll(':scope > a, .calendar-menu > summary')].map(link => link.getBoundingClientRect());
+        return links.at(-1).right >= Math.max(...links.map(link => link.right)) - 1 &&
+          (innerWidth <= 760 || links.every(link => Math.abs(link.top - links[0].top) < 1));
+      }), `Calendar menu must be rightmost and desktop buttons aligned at ${width}px`);
+      assert(await page.locator('.table-tabs button').evaluateAll(tabs => tabs.every(tab => {
+        const range = document.createRange();
+        range.selectNodeContents(tab);
+        const text = range.getBoundingClientRect();
+        const box = tab.getBoundingClientRect();
+        return text.left >= box.left && text.right <= box.right && text.top >= box.top && text.bottom <= box.bottom;
+      })), `Tab labels must fit at ${width}px`);
+      if (output) await page.locator('header').screenshot({path: path.join(output, `header-${width}.png`)});
+      assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Expanded filter overflow at ${width}px`);
+      assert(await page.locator('.quick-bar #search, .quick-bar .chip').evaluateAll(items => items.every(item => {
+        const box = item.getBoundingClientRect();
+        return box.left >= 0 && (box.right <= innerWidth || item.closest('.qb-chips').scrollWidth > item.closest('.qb-chips').clientWidth);
+      })), `Filter bar fits (phones scroll the chip row) at ${width}px`);
+      if (output) await page.screenshot({path: path.join(output, `filters-${width}.png`)});
+      await filterSummary.click();
+      await page.locator('#tab-conferences').click();
+    }
   }
   await checkDynamicsNeuroscience(page);
   await checkVenueFeatures(page, url);
@@ -614,6 +631,7 @@ try {
   await checkAboutVenue(page, url);
   await checkHorizon(page, url);
   await checkProvenance(page, url);
+  await checkFilterRail(page, url);
   assert.deepEqual(fontRequests, [], 'Embedded fonts must not require a network request');
   // ADR-057: the page follows the system colour scheme with designed dark tokens.
   await page.emulateMedia({colorScheme: 'dark'});

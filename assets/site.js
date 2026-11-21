@@ -352,3 +352,19 @@ function initializeTips() {
   window.addEventListener('scroll', () => { if (owner) place(); }, {passive: true, capture: true});
   window.addEventListener('resize', hide);
 }
+
+// ADR-058: from 1200px the filters form a left rail. Its controls are the
+// existing More filters panel, so the panel is opened (its summary is hidden
+// by CSS); below 1200px the ADR-049 bar and collapsed panel are unchanged.
+(() => {
+  const rail = matchMedia('(min-width: 1200px)');
+  const details = document.querySelector('#filter-details');
+  if (!details) return;
+  let openedByRail = false;
+  const sync = () => {
+    if (rail.matches && !details.open) { details.open = true; openedByRail = true; }
+    else if (!rail.matches && openedByRail) { details.open = false; openedByRail = false; }
+  };
+  sync();
+  rail.addEventListener('change', sync);
+})();

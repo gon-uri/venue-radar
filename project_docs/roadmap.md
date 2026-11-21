@@ -36,10 +36,11 @@ below are history, not instructions to reimplement old designs.
   Sora/Inter/Geist Mono, token-only colours with a dark theme, shaped statuses,
   countdown urgency and regenerated banners, card and screenshots. This
   supersedes the Audiowide and raster-logo items above.
-- Next, identity v2 phase 2 (needs an ADR amending ADR-049): move the filter
-  bar into a collapsible left rail on desktop and a filter sheet on phones.
-  Phase 3, optional and separately approved: a quiet 90-day runway, an agenda
-  view, countdown horizon bars, a "/" search shortcut and a theme toggle.
+- Completed identity v2, phase 2 (ADR-058, 2026-11-21): a sticky left filter
+  rail from 1200 px, built from the existing controls; phones unchanged.
+- Next, phase 3, optional and separately approved: a quiet 90-day runway, an
+  agenda view, countdown horizon bars, a "/" search shortcut, a phone filter
+  sheet, a rail collapse button and a theme toggle.
 - Completed filter/sharing polish: always-visible Clear filters aligned with
   the disclosure heading, an eight-family topic viewport, removal of the
   duplicate Time series shortcut, default-selected Show submission options only,

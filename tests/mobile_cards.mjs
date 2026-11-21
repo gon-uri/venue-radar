@@ -105,8 +105,9 @@ export async function checkMobileCards(page, url, output) {
     assert.equal(await first.locator('.mobile-detail:visible').count(), 5);
     assert.equal(await other.locator('.mobile-detail:visible').count(), 5, 'Desktop always shows all metadata');
     assert.equal(await page.locator('.mobile-row-disclosure:visible').count(), 0);
-    assert(!(await filters.evaluate(details => details.open)), 'Resize preserves a collapsed filter too');
+    assert(await filters.evaluate(details => details.open), 'The 1200px+ rail shows the filters (ADR-058)');
     await page.setViewportSize({width, height: 844});
+    await page.waitForFunction(() => !document.querySelector('#filter-details').open);  // collapsed again on the phone
     assert.equal(await first.locator('.mobile-detail:visible').count(), 5);
     await toggle.click();
 

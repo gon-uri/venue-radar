@@ -12,15 +12,20 @@ export async function checkFilterBar(page, url) {
   await page.goto(base);
   await freeze();
 
-  // Content first: deadline rows are on screen at a laptop size.
+  // Content first: deadline rows are on screen at a laptop size (rail layout from 1200px, ADR-058).
   const first = await page.locator('[data-deadline-group]:visible').first().boundingBox();
   assert(first.y + first.height < 720, 'A complete deadline row fits in a 1280x720 viewport');
+
+  // Below 1200px the ADR-049 bar is unchanged: chips above a collapsed panel.
+  await page.setViewportSize({width: 1180, height: 720});
+  await page.goto(base);
+  await freeze();
   assert(!(await details.evaluate(element => element.open)));
   assert.deepEqual(await page.locator('.chip').allTextContents(),
     ['ML & Data', 'NLP & Agents', 'Vision', 'RL & Control', 'Complex Systems', 'Healthcare', 'Neuroscience',
       'Responsible AI', 'Archival option']);
-  assert.equal(new Set(await page.locator('.chip').evaluateAll(chips => chips.map(c => Math.round(c.getBoundingClientRect().top)))).size, 1,
-    'The chips fit on one line at 1280px');
+  assert(await page.locator('.chip').evaluateAll(chips => chips.every(c => c.getBoundingClientRect().right <= innerWidth)),
+    'The chips fit inside the window at 1180px');
 
   // A chip is the same filter as its family toggle, shared in the link.
   const all = await visibleRows();
@@ -126,7 +131,7 @@ export async function checkFilterBar(page, url) {
   }), 'Phone chip focus ring is fully visible');
 
   // "All selected families" restricts nothing until two families are chosen.
-  await page.setViewportSize({width: 1280, height: 720});
+  await page.setViewportSize({width: 1180, height: 720});
   await page.goto(`${base}?match=all`);
   await freeze();
   assert(await page.locator('#filter-count').isHidden(), 'Match alone is not an active filter');
@@ -135,5 +140,5 @@ export async function checkFilterBar(page, url) {
   assert.equal(await page.locator('#filter-count').innerText(), '1 active');
   await page.locator('#clear-filters').click();
   assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)));
-  console.log('Filter bar passed: content first at 1280x720, chips mirror families and archival, mixed state, badge, link auto-open, phone cards and header.');
+  console.log('Filter bar passed: content first at 1280x720, bar below 1200px, chips mirror families and archival, mixed state, badge, link auto-open, phone cards and header.');
 }

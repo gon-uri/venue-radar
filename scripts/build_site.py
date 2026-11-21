@@ -1095,6 +1095,8 @@ def build_site(
     #panel-deadlines th:nth-child(2), #panel-deadlines th:nth-child(3),
     #panel-deadlines td[data-label="Submission status"], #panel-deadlines td[data-label="Time left"] {{ display: none !important; }}
     .noscript-note {{ display: block !important; }}
+    /* ADR-058: no rail without scripts, so the tables use the full width. */
+    main > .tab-shell {{ grid-column: 1 / -1 !important; }}
   </style></noscript>
 </head>
 <body>

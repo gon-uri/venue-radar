@@ -1922,7 +1922,9 @@ input[type="search"], select { border-color: var(--control-border); }
 .noscript-note { display: none; margin: 0 0 10px; font-size: .875rem; }
 
 /* Tablet tables (761-1099px): no mid-word breaks, rebalanced columns. */
-@media (min-width: 761px) and (max-width: 1099px) {
+/* ADR-058: one balanced column split for every non-phone width. With the rail
+   (1200px+) the table is tablet-sized, and it fits the mono countdowns. */
+@media (min-width: 761px) {
   th, td { overflow-wrap: break-word; padding-left: 6px; padding-right: 6px; }
   th { white-space: normal; }
   .acceptance-cell a { white-space: normal; }
@@ -2225,6 +2227,42 @@ td[data-label="Conference"] > a:hover, td[data-label="Conference"] > a:focus-vis
   .expand-icon, .filter-disclosure-icon, .status-guide > summary::after, .about-details > summary::after, .topic-family summary::after { transition: none; }
 }
 
+/* ADR-058: left filter rail from 1200px. Same controls as the ADR-049 bar and
+   More filters panel, stacked in one column beside the tables; the chips are
+   hidden because the rail shows the family and archival boxes they mirror. */
+@media (min-width: 1200px) {
+  main { display: grid; grid-template-columns: 288px minmax(0, 1fr); column-gap: 28px; align-items: start; }
+  main > * { grid-column: 1 / -1; min-width: 0; }
+  main > .controls { grid-column: 1; position: sticky; top: 12px; max-height: calc(100vh - 24px); overflow-y: auto; overscroll-behavior: contain;
+    display: flex; flex-direction: column; gap: 14px; margin: 0; padding: 14px 16px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--raised); scrollbar-width: thin; }
+  main > .tab-shell { grid-column: 2; margin-top: 0; }
+  .controls > h2.visually-hidden { position: static !important; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; white-space: normal;
+    color: var(--muted); font-size: .6875rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .controls .quick-bar { display: block; }
+  .controls .qb-search { display: block; min-width: 0; }
+  .controls .qb-chips { display: none; }
+  .controls .filter-details > summary { display: none; }
+  .controls .filter-content { padding-top: 0; }
+  .controls .filter-grid { display: flex; flex-direction: column; gap: 16px; }
+  .controls .filter-grid > fieldset { border-top: 1px solid var(--line); padding-top: 12px; }
+  .controls .filter-grid > fieldset:first-child { border-top: 0; padding-top: 0; }
+  .controls .topic-filter { max-width: none; }
+  .controls .topic-tree { max-height: none; overflow: visible; box-sizing: border-box; min-width: 0; }
+  .controls .topic-family summary label span { white-space: normal; }
+  .controls .qb-search input { font-size: .875rem; }
+  .controls .filter-grid > fieldset:not(.topic-filter) .check-list { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .controls .archival-filter { flex-direction: column; gap: 6px; margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .controls .filter-actions { padding-top: 12px; }
+  .controls .clear-filters { align-self: flex-start; min-height: 32px; }
+  .tab-toolbar { flex-wrap: wrap; }
+}
+/* Desktop and tablet tables: 13px mono countdowns keep "~4d 15h" plus its
+   urgency icon inside the Time left column at every width (phones keep 16px). */
+@media (min-width: 761px) { td[data-label="Time left"] .time-left { font-size: .8125rem; } }
+/* Small tablets (761-899px): tighter status pills so the shape icon and the
+   longest word ("Submission") fit the narrow status column. */
+@media (min-width: 761px) and (max-width: 899px) { .submission-status { gap: 4px; padding: 2px 5px; font-size: .6875rem; } }
+
   </style>
   <noscript><style>
     /* Without JavaScript, show every table, date and milestone (no live status). */
@@ -2239,6 +2277,8 @@ td[data-label="Conference"] > a:hover, td[data-label="Conference"] > a:focus-vis
     #panel-deadlines th:nth-child(2), #panel-deadlines th:nth-child(3),
     #panel-deadlines td[data-label="Submission status"], #panel-deadlines td[data-label="Time left"] { display: none !important; }
     .noscript-note { display: block !important; }
+    /* ADR-058: no rail without scripts, so the tables use the full width. */
+    main > .tab-shell { grid-column: 1 / -1 !important; }
   </style></noscript>
 </head>
 <body>
@@ -3349,6 +3389,22 @@ function initializeTips() {
   window.addEventListener('scroll', () => { if (owner) place(); }, {passive: true, capture: true});
   window.addEventListener('resize', hide);
 }
+
+// ADR-058: from 1200px the filters form a left rail. Its controls are the
+// existing More filters panel, so the panel is opened (its summary is hidden
+// by CSS); below 1200px the ADR-049 bar and collapsed panel are unchanged.
+(() => {
+  const rail = matchMedia('(min-width: 1200px)');
+  const details = document.querySelector('#filter-details');
+  if (!details) return;
+  let openedByRail = false;
+  const sync = () => {
+    if (rail.matches && !details.open) { details.open = true; openedByRail = true; }
+    else if (!rail.matches && openedByRail) { details.open = false; openedByRail = false; }
+  };
+  sync();
+  rail.addEventListener('change', sync);
+})();
 </script>
   <script type="application/json" id="venue-config">{"submissionTypes": ["abstract", "discussion_paper", "extended_abstract", "full_paper", "journal_paper", "late_abstract", "poster", "regular_paper", "resource_paper", "short_paper", "special_session_paper", "workshop_paper"]}</script>
   <script>// Pure Venue Radar logic: no DOM access, so it can be unit-tested in Node

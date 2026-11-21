@@ -70,7 +70,7 @@ and [adding conferences](adding_conferences.md) for all companion updates.
 | `scripts/build_site.py` | HTML/table/milestone generation, head metadata, icon sprite, evidence lines and host-zone cutoff instants. Embeds the assets below and a small JSON config. |
 | `assets/logic.js` | Pure client logic: search normalization, countdown text (exact units, minutes on the last day, coarse units for estimates; ADR-044), UTC/local clocks and submission-route state. Unit-tested in `tests/js/`. |
 | `assets/core.js` | Page wiring: filters, URL state and deep links, starring, row ordering, next-step/successor lines, empty states and the minute refresh. Conferences-tab rows take their search text from the deadline row's `data-search-base` prefix (ADR-048). |
-| `assets/site.js` | Mobile cards, family/leaf matching, calendar menu, instant `data-tip` tooltips, offline map and optional Giscus loading. |
+| `assets/site.js` | Mobile cards, family/leaf matching, calendar menu, instant `data-tip` tooltips, offline map (token colours), optional Giscus loading and opening More filters for the 1200 px rail (ADR-058). |
 | `assets/base.css`, `assets/site.css` | Base tokens and layout, then brand/mobile/feature styling; embedded in that order. |
 | `scripts/build_all.py` | Validate source data, build ICS and standalone HTML. Run the standalone validator too; do not skip registry checks. |
 | `scripts/maintenance_report.py` | Read-only edition queue with urgency tiers (including a pre-deadline recheck), advisory checks, and acceptance/scope backlogs (text, markdown or JSON). |

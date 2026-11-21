@@ -1434,3 +1434,44 @@ explicit refinements take precedence. Current rules live in
   for body text to stay under 480 KB (rejected for cross-platform
   consistency); loading fonts from Google Fonts (rejected: third-party
   request).
+
+## ADR-058: Left Filter Rail On Wide Screens
+
+- Status: Accepted by the owner on 2026-11-21 ("start phase 2"; choices:
+  rail from 1200 px, search at the top of the rail, no collapse button,
+  phones unchanged). Phase 2 of the identity v2 plan (ADR-057).
+- Date: 2026-11-21
+- Context: Above the tables, the ADR-049 bar plus the More filters panel push
+  the first rows down, and the most-used filters (families, archival, ranks)
+  sit behind a disclosure. Wide screens have spare horizontal room.
+- Decision:
+  1. From 1200 px the filter section becomes a sticky left rail (272 px)
+     beside the tables, on both tabs. It holds, in today's order: Search,
+     the topic families with their subtopics, Size, ICORE, CCF, Acceptance
+     rate, the Archival option with its always-visible note, Match, and
+     Clear filters. These are the existing controls; filter logic, URL keys,
+     the chips' single source of truth and Clear filters (focus returns to
+     search) are unchanged.
+  2. In the rail, the family and archival chips are hidden (the rail shows the
+     boxes they mirror) and More filters is shown open without its summary.
+     A small script opens the panel while the rail is shown and closes it
+     again only if it opened it, when the window narrows. This amends
+     ADR-049's "starts collapsed at every width" for 1200 px and up. The
+     section's existing heading, "Filters and search", becomes visible as the
+     rail's label. Without JavaScript the filter section stays hidden and the
+     tables span the full width.
+  3. Below 1200 px, including phones, the ADR-049 bar, chips and collapsed
+     More filters are unchanged.
+- Consequences: The tables lose about 300 px of width at 1200 px and up, so
+  some rows wrap more. The balanced tablet column split (formerly 761-1099
+  px) now applies at every width from 761 px; table countdowns are 13 px Geist
+  Mono and small-tablet (761-899 px) status pills are tighter. Together these
+  remove cell overflow that ADR-057's mono countdowns and shaped pills had
+  introduced at 761-800, 1100-1199 and 1600+ px (measured 0 overflowing cells
+  from 800 to 2400 px; five long topic words at 761-780 px predate v2). Measured at 1440x900: the first deadline row starts
+  at 331 px (was about 440 px). The rail scrolls on its own when it is taller than the
+  window. No data, feed, URL key, label or UID changes.
+- Alternatives considered: search at the top of the results column (moves
+  markup and tab order); a collapse button remembered per browser and a phone
+  filter sheet (new behaviour; deferred to phase 3); series counts per family
+  (static counts could be misread as filtered counts).

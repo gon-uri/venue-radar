@@ -60,9 +60,11 @@ additions, not from an older session entry or a filtered website screenshot.
   Mono countdowns (embedded OFL fonts), one petrol-teal token scale, a dark
   theme that follows the system setting, shaped status pills, amber/coral
   countdown urgency, neutral rank badges and one chevron disclosure style.
-  A token contrast test and light/dark browser checks guard it. Planned
-  follow-ups (each needs approval): a left filter rail (amends ADR-049), then
-  optional 90-day runway, agenda view, horizon bars and theme toggle.
+  A token contrast test and light/dark browser checks guard it. From 1200 px
+  the filters form a sticky left rail beside the tables (ADR-058; phones and
+  narrower screens keep the ADR-049 bar). Optional follow-ups, each needing
+  approval: a 90-day runway, agenda view, horizon bars, a phone filter sheet,
+  a rail collapse button and a theme toggle.
 - Header actions are Share on X, Star the repo and a Subscribe to calendar menu
   (Google/Apple/copy-link/download for submissions, all events, conference
   dates, any topic or series), with its caption below. Neither social action

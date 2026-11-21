@@ -1225,9 +1225,19 @@ def build_site(
       <div class="tab-panel" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-tab-panel="conferences" hidden>
         <section class="map-section" aria-label="Confirmed upcoming conference locations">
           <div class="map-heading"><span id="map-count" aria-live="polite"></span></div>
-          <div id="conference-map" aria-label="World map of confirmed upcoming conferences"></div>
+          <div class="map-layout">
+            <div id="conference-map" aria-label="World map of confirmed upcoming conferences"></div>
+            <div class="city-index" id="city-index">
+              <button class="city-index-toggle" id="city-index-toggle" type="button" aria-expanded="false" aria-controls="city-index-body"><span id="city-index-label">Host cities</span>{_icon("chevron-down")}</button>
+              <div class="city-index-body" id="city-index-body">
+                <label class="visually-hidden" for="city-filter">Filter host cities</label>
+                <input id="city-filter" class="city-filter" type="search" autocomplete="off" placeholder="Filter cities">
+                <div id="map-cities" class="map-cities" aria-label="Conference cities"></div>
+                <p class="city-index-empty" id="city-index-empty" hidden>No host city matches.</p>
+              </div>
+            </div>
+          </div>
           <p id="map-empty" class="map-empty" hidden>No confirmed upcoming locations match these filters.</p>
-          <div id="map-cities" class="map-cities" aria-label="Conference cities"></div>
         </section>
         <div class="empty-state" id="conferences-empty" hidden></div>
         <div class="table-wrap">

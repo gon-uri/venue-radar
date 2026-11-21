@@ -65,6 +65,9 @@ def validate_catalog_metadata(topics: set[str], families: dict, cities: dict) ->
             ZoneInfo(city.get('tz') or '')
         except (ValueError, ZoneInfoNotFoundError):
             errors.append(f'{key}: tz must be an IANA time zone')
+        else:
+            if city_region(city) is None:
+                errors.append(f'{key}: no map region for tz {city.get("tz")} (extend city_region, ADR-061)')
         aliases = city.get('locations', [])
         if not isinstance(aliases, list) or not all(isinstance(alias, str) and alias.strip() for alias in aliases):
             errors.append(f'{key}: location aliases must be non-empty strings')
@@ -74,6 +77,25 @@ def validate_catalog_metadata(topics: set[str], families: dict, cities: dict) ->
                 errors.append(f'{key}: duplicate location alias {location}')
             locations.add(location)
     return errors
+
+
+# Map city-index regions (ADR-061), derived from each city's IANA zone so no
+# extra data is maintained. Honolulu is listed with North America (USA).
+REGION_ORDER = ['Europe', 'North America', 'Asia', 'South America', 'Oceania', 'Africa']
+
+
+def city_region(city: dict) -> str | None:
+    zone = city.get('tz') or ''
+    area = zone.split('/')[0]
+    if area == 'Europe' or zone in {'Atlantic/Canary', 'Atlantic/Reykjavik', 'Atlantic/Madeira', 'Atlantic/Azores'}:
+        return 'Europe'
+    if area == 'America':
+        return 'South America' if city.get('lat', 0) < 13 else 'North America'
+    if zone == 'Pacific/Honolulu':
+        return 'North America'
+    if area == 'Australia' or zone in {'Pacific/Auckland', 'Pacific/Fiji'}:
+        return 'Oceania'
+    return {'Asia': 'Asia', 'Africa': 'Africa'}.get(area)
 
 
 def map_events(conferences: list[dict], cities: dict) -> list[dict]:
@@ -89,6 +111,7 @@ def map_events(conferences: list[dict], cities: dict) -> list[dict]:
             'lat': city['lat'], 'lon': city['lon'], 'title': item['short_title'],
             'start': parse_date(item['conference_start']).isoformat(),
             'end': parse_date(item['conference_end']).isoformat(), 'url': item['website'],
+            'region': city_region(city),
         })
     return sorted(events, key=lambda event: (event['start'], event['id']))
 

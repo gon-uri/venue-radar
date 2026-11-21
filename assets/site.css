@@ -669,3 +669,40 @@ td[data-label="Conference"] > a:hover, td[data-label="Conference"] > a:focus-vis
 .rank-link[data-rank="b"] { background: var(--rank-b-bg); color: var(--rank-b-fg); }
 .rank-link[data-rank="c"] { background: var(--rank-c-bg); color: var(--rank-c-fg); }
 @media (min-width: 761px) and (max-width: 899px) { td[data-label="Time left"] .time-left { font-size: .8125rem; } }  /* small tablets keep 13px */
+
+/* ADR-061: city index beside the map, grouped by region, busiest first, with
+   a filter box. Phones: a collapsed "Show N host cities" list under the map. */
+.map-cities { display: block; max-height: none; margin: 0; overflow: visible; }
+.city-index-toggle { display: none; }
+.city-filter { width: 100%; box-sizing: border-box; font-size: .8125rem; padding: 7px 9px; }
+.city-group[hidden], .map-city-link[hidden] { display: none; }
+.city-group-head { position: sticky; top: 0; z-index: 1; padding: 10px 8px 4px; background: var(--raised); color: var(--muted); font-size: .6875rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.city-group-head span { font-family: var(--font-mono); letter-spacing: 0; color: var(--faint); }
+.map-city-link { display: flex; align-items: baseline; gap: 6px; width: 100%; min-height: 30px; padding: 4px 8px; border: 0; border-radius: 6px; background: none;
+  color: var(--text); font: inherit; font-size: .8125rem; text-align: left; text-decoration: none; cursor: pointer; box-sizing: border-box; }
+.map-city-link:hover, .map-city-link:focus-visible { background: var(--accent-tint); box-shadow: inset 2px 0 0 var(--accent-dark); }
+.map-city-link:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.city-name { font-weight: 500; }
+.city-country { min-width: 0; overflow: hidden; color: var(--faint); font-size: .75rem; text-overflow: ellipsis; white-space: nowrap; }
+.city-count { margin-left: auto; padding: 2px 6px; border-radius: 999px; background: var(--surface); color: var(--muted); font: 600 .6875rem/1.2 var(--font-mono); }
+.city-index-empty { margin: 10px 8px; color: var(--muted); font-size: .8125rem; }
+.city-marker.is-hot { transform-origin: center; box-shadow: 0 0 0 3px var(--raised), 0 0 0 6px var(--accent); z-index: 1000 !important; }
+@media (min-width: 761px) {
+  .map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 272px; gap: 14px; align-items: stretch; }
+  .map-layout #conference-map { height: 380px; }
+  .city-index { display: flex; flex-direction: column; box-sizing: border-box; height: 380px; min-width: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--raised); overflow: hidden; }
+  .city-index-body { display: flex; flex-direction: column; min-height: 0; flex: 1; }
+  .city-index .city-filter { margin: 10px 10px 0; width: calc(100% - 20px); }
+  .city-index .map-cities { flex: 1; min-height: 0; overflow-y: auto; padding: 0 4px 8px; margin-top: 4px; scrollbar-width: thin; }
+}
+@media (max-width: 760px) {
+  .city-index { margin-top: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--raised); }
+  .city-index-toggle { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 44px; padding: 8px 12px; border: 0; background: none;
+    color: var(--accent-dark); font: inherit; font-weight: 600; cursor: pointer; }
+  .city-index-toggle svg { width: 18px; height: 18px; transition: transform 140ms ease; }
+  .city-index.is-open .city-index-toggle svg { transform: rotate(180deg); }
+  .city-index-body { display: none; padding: 0 8px 8px; }
+  .city-index.is-open .city-index-body { display: block; }
+  .city-index .map-cities { max-height: 340px; overflow-y: auto; margin-top: 6px; }
+  .map-city-link { min-height: 40px; }
+}

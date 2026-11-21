@@ -228,7 +228,21 @@ function drawConferenceMap() {
   });
   const list = document.querySelector('#map-cities');
   list.replaceChildren();
-  byCity.forEach((group) => {
+  // ADR-061: the index beside the map groups cities by region, busiest first.
+  const regionOrder = ['Europe', 'North America', 'Asia', 'South America', 'Oceania', 'Africa'];
+  const regionLists = new Map();
+  regionOrder.forEach((region) => {
+    const section = document.createElement('div');
+    section.className = 'city-group';
+    section.setAttribute('role', 'group');
+    const head = document.createElement('div');
+    head.className = 'city-group-head';
+    section.append(head);
+    regionLists.set(region, section);
+  });
+  const ordered = [...byCity.values()].sort((left, right) =>
+    right.length - left.length || left[0].label.localeCompare(right[0].label));
+  ordered.forEach((group) => {
     const city = group[0];
     const popup = document.createElement('div');
     popup.className = 'city-popup';
@@ -262,13 +276,44 @@ function drawConferenceMap() {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'map-city-link';
-    button.textContent = `${city.label} (${group.length})`;
+    const parts = city.label.split(', ');
+    const name = document.createElement('span');
+    name.className = 'city-name';
+    name.textContent = parts[0];
+    const country = document.createElement('span');
+    country.className = 'city-country';
+    country.textContent = parts.length > 1 ? parts[parts.length - 1] : '';
+    const count = document.createElement('span');
+    count.className = 'city-count';
+    count.textContent = String(group.length);
+    button.append(name, country, count);
+    button.setAttribute('aria-label', `${city.label}, ${group.length} upcoming conference${group.length === 1 ? '' : 's'}`);
+    button.dataset.search = normalizeSearch(city.label);
     button.addEventListener('click', () => {
       conferenceMap.setView(marker.getLatLng(), Math.max(3, conferenceMap.getZoom()), {animate: false});
       marker.openPopup();
     });
-    list.append(button);
+    const highlight = (on) => marker.getElement()?.classList.toggle('is-hot', on);
+    button.addEventListener('mouseenter', () => highlight(true));
+    button.addEventListener('mouseleave', () => highlight(false));
+    button.addEventListener('focus', () => highlight(true));
+    button.addEventListener('blur', () => highlight(false));
+    (regionLists.get(city.region) || regionLists.get('Europe')).append(button);
   });
+  regionLists.forEach((section, region) => {
+    const cities = section.querySelectorAll('.map-city-link').length;
+    if (!cities) return;
+    section.firstChild.textContent = region;
+    const n = document.createElement('span');
+    n.textContent = ` ${cities}`;
+    section.firstChild.append(n);
+    section.setAttribute('aria-label', `${region}, ${cities} cit${cities === 1 ? 'y' : 'ies'}`);
+    list.append(section);
+  });
+  document.querySelector('#city-filter').placeholder = `Filter ${byCity.size} cit${byCity.size === 1 ? 'y' : 'ies'}`;
+  document.querySelector('#city-index-label').dataset.count = String(byCity.size);
+  filterCityIndex();
+  syncCityIndexLabel();
   document.querySelector('#map-count').textContent = `${events.length} confirmed editions in ${byCity.size} cities`;
   document.querySelector('#map-empty').hidden = events.length > 0;
 }
@@ -542,4 +587,44 @@ document.addEventListener('keydown', (event) => {
   if (!start) try { start = localStorage.getItem('venue-radar:view'); } catch (error) { /* table */ }
   setView(start === 'agenda' ? 'agenda' : 'table', false);
   buttons.forEach((button) => button.addEventListener('click', () => setView(button.dataset.view, true)));
+})();
+
+// ADR-061: filter box for the city index (local to the index; not a page filter).
+function filterCityIndex() {
+  const input = document.querySelector('#city-filter');
+  if (!input) return;
+  const tokens = normalizeSearch(input.value).split(' ').filter(Boolean);
+  let shown = 0;
+  document.querySelectorAll('#map-cities .city-group').forEach((section) => {
+    let visible = 0;
+    section.querySelectorAll('.map-city-link').forEach((button) => {
+      const match = tokens.every((token) => button.dataset.search.includes(token));
+      button.hidden = !match;
+      if (match) visible += 1;
+    });
+    section.hidden = visible === 0;
+    shown += visible;
+  });
+  document.querySelector('#city-index-empty').hidden = shown > 0 || !document.querySelector('#map-cities').childElementCount;
+}
+// Phones: the index starts collapsed under the map ("Show N host cities").
+function syncCityIndexLabel() {
+  const toggle = document.querySelector('#city-index-toggle');
+  const label = document.querySelector('#city-index-label');
+  if (!toggle || !label) return;
+  const open = toggle.getAttribute('aria-expanded') === 'true';
+  const n = label.dataset.count || '';
+  label.textContent = open ? 'Hide host cities' : `Show ${n} host cit${n === '1' ? 'y' : 'ies'}`;
+}
+(() => {
+  const input = document.querySelector('#city-filter');
+  const toggle = document.querySelector('#city-index-toggle');
+  if (!input || !toggle) return;
+  input.addEventListener('input', filterCityIndex);
+  toggle.addEventListener('click', () => {
+    toggle.setAttribute('aria-expanded', String(toggle.getAttribute('aria-expanded') !== 'true'));
+    document.querySelector('#city-index').classList.toggle('is-open', toggle.getAttribute('aria-expanded') === 'true');
+    syncCityIndexLabel();
+  });
+  syncCityIndexLabel();
 })();

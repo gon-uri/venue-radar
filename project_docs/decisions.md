@@ -1545,3 +1545,29 @@ explicit refinements take precedence. Current rules live in
 - Not changed: data, notes' wording, rank data, filters, URLs, UIDs.
 - Consequences: Measured 0 overflowing table cells from 800 to 1920 px; the
   five long topic words at 761-780 px predate v2.
+
+## ADR-061: City Index Beside The Map
+
+- Status: Accepted by the owner on 2026-11-21 ("Option A", chosen from two
+  rendered options for the city list under the map).
+- Date: 2026-11-21
+- Context: The Conferences & Map tab listed about 100 host cities as
+  underlined links in date order, in a three-line box that scrolled, with no
+  grouping.
+- Decision:
+  1. From 761 px a 272 px index sits beside the map, the same height (380 px;
+     the map was 350 px). Cities are grouped by region (Europe, North America,
+     Asia, South America, Oceania, Africa), busiest first, then by name. Each
+     row shows city, country and the number of confirmed upcoming editions.
+  2. Hovering or focusing a row highlights its marker; choosing it zooms and
+     opens the popup, as the old links did. The index follows the page
+     filters, like the markers.
+  3. A "Filter N cities" box narrows the index only (accent-insensitive); it
+     is not a page filter and is not in the link.
+  4. Phones: the index is a collapsed "Show N host cities" panel under the map.
+  5. Regions are derived from each city's IANA zone (`city_region()` in
+     `scripts/catalog_metadata.py`, America split by latitude, Honolulu with
+     North America); validation fails when a new city's zone has no region.
+- Not changed: data, markers, popups, page filters, URLs, UIDs.
+- Consequences: Tests `tests/city_index.mjs` and
+  `test_every_city_has_a_map_region`. The map is slightly taller.

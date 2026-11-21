@@ -173,7 +173,8 @@ behavior without approval.
   receive a reviewed profile where evidence exists; absent is better than guessed.
   See [the exact five-field schema](conference_scopes.md).
 - `cities.yml`: exact location aliases, approximate city centers and a valid
-  IANA `tz` per city (used for day-only cutoffs); distinguish different cities
+  IANA `tz` per city (used for day-only cutoffs and, via `city_region()`, the
+  map index region; validation names any zone without a region); distinguish different cities
   sharing a name. Confirmed/announced, mapped, non-online future
   meetings appear on the map; estimated dates do not.
 - `archival_options.yml` (ADR-047): under `options`, one entry per exact

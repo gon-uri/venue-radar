@@ -38,7 +38,7 @@ not a dependency either, and blocking it changes nothing on the page.
 | `data/topic_families.yml` | Eight-family IDs/names/order, short `chip` names for the filter bar (ADR-049), leaf ownership and compact display labels. |
 | `data/conference_families.yml` | One-to-three central family identities per exact series. |
 | `data/conference_scopes.yml` | Sourced series prose, curated extra leaves and independent review date/year. |
-| `data/cities.yml` | Exact location aliases, approximate city centers and each city's IANA time zone (`tz`). |
+| `data/cities.yml` | Exact location aliases, approximate city centers and each city's IANA time zone (`tz`), which also gives its map-index region (ADR-061). |
 | `data/icore_rankings.yml` | Direct current-release series ranks and official portal IDs/evidence. |
 | `data/ccf_rankings.yml` | Direct series ranks, PDF/page evidence and separate navigation webpage. |
 | `data/acceptance_rates.yml` | Historical track/year/percentage or sourced qualitative-only bands. |

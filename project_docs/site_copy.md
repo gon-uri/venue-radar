@@ -162,3 +162,13 @@ Approved with ADR-040:
 - View switch: group "Deadline layout", label "View", buttons "Table" and
   "Agenda". Agenda headings: "This week", "Next 30 days", "Later".
 - Search hint: "/" (keyboard shortcut, also in `aria-keyshortcuts`).
+
+## City Index (ADR-061, approved 2026-11-21)
+
+- Filter box: placeholder "Filter N cities" (label "Filter host cities").
+- Region headings: "Europe", "North America", "Asia", "South America",
+  "Oceania", "Africa", each followed by its city count.
+- Rows: "<City> <Country> <count>"; accessible name "<City, Country>, N
+  upcoming conferences".
+- Phones: "Show N host cities" / "Hide host cities". Empty filter: "No host
+  city matches."

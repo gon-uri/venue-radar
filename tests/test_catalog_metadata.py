@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 
 from build_ics import _conference_event, _deadline_event
 from build_site import _milestones
-from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata
+from catalog_metadata import CITIES_PATH, FAMILIES_PATH, city_region, load_mapping, map_events, validate_catalog_metadata
 from rollover_editions import rollover_candidates
 from validate import load_conferences, load_controlled_topics, validate_conferences
 
@@ -58,6 +58,18 @@ class CatalogMetadataTests(unittest.TestCase):
         events = map_events([eligible, *excluded], self.cities)
         self.assertEqual([event['id'] for event in events], ['l4dc-2027'])
         self.assertEqual(events[0]['city'], 'stockholm')
+        self.assertEqual(events[0]['region'], 'Europe')
+
+    def test_every_city_has_a_map_region(self):
+        # ADR-061: the city index groups by region, derived from each city's zone.
+        regions = {key: city_region(city) for key, city in self.cities.items()}
+        self.assertEqual([key for key, region in regions.items() if region is None], [])
+        self.assertEqual(city_region({'tz': 'America/Sao_Paulo', 'lat': -23.5}), 'South America')
+        self.assertEqual(city_region({'tz': 'America/Mexico_City', 'lat': 19.4}), 'North America')
+        self.assertEqual(city_region({'tz': 'Pacific/Honolulu', 'lat': 21.3}), 'North America')
+        self.assertEqual(city_region({'tz': 'Pacific/Auckland', 'lat': -36.8}), 'Oceania')
+        self.assertEqual(city_region({'tz': 'Atlantic/Canary', 'lat': 28.1}), 'Europe')
+        self.assertIsNone(city_region({'tz': 'Indian/Maldives', 'lat': 4.2}))
 
     def test_size_vocabulary_and_four_topic_limit(self):
         item = deepcopy(self.conferences[0])

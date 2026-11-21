@@ -63,7 +63,8 @@ export async function checkMobileCards(page, url, output) {
     assert(await filters.evaluate(details => details.open), 'Resize must preserve an explicitly opened filter');
     await page.setViewportSize({width, height: 844});
     assert(await filters.evaluate(details => details.open));
-    await summary.click();
+    await page.keyboard.press('Escape');  // ADR-059: on phones the open panel is a sheet; Escape closes it
+    assert(!(await filters.evaluate(details => details.open)));
 
     const deadlines = page.locator('[data-deadline-group]:visible');
     const first = page.locator('[data-deadline-group][data-edition="ifac-sysid-2027"]');

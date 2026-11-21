@@ -64,6 +64,15 @@ function urgencyLevel(deadline, now, estimated = false) {
   return diff < 7 * DAY_MS ? "soon" : "calm";
 }
 
+// Presentation-only horizon bar (ADR-059): the share of a 90-day window that
+// is still left before the deadline, clamped to 0..1.
+const HORIZON_DAYS = 90;
+function horizonFraction(deadline, now) {
+  const diff = deadline - now;
+  if (!Number.isFinite(diff) || diff <= 0) return 0;
+  return Math.min(1, diff / (HORIZON_DAYS * DAY_MS));
+}
+
 // Screen-reader text for a countdown, e.g. "4 days 14 hours left" or
 // "about 3 weeks left, estimated".
 function describeRemaining(deadline, now, estimated = false, approximateTime = false) {

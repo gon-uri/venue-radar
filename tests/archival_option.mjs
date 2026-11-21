@@ -59,6 +59,7 @@ export async function checkArchivalOption(page, url) {
   await page.evaluate(() => { document.querySelector('#filter-details').open = true; });
   const note = await page.locator('.archival-note').boundingBox();
   assert(note && note.width > 200 && note.x + note.width <= 390, 'The archival note fits a phone screen');
+  await page.evaluate(() => { document.querySelector('#filter-details').open = false; });  // ADR-059: close the phone sheet
   // On a phone the tag shows on the collapsed card, and a tap opens the tip on screen.
   await freeze();
   const value = tag('cvpr-2027');

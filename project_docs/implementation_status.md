@@ -62,9 +62,11 @@ additions, not from an older session entry or a filtered website screenshot.
   countdown urgency, neutral rank badges and one chevron disclosure style.
   A token contrast test and light/dark browser checks guard it. From 1200 px
   the filters form a sticky left rail beside the tables (ADR-058; phones and
-  narrower screens keep the ADR-049 bar). Optional follow-ups, each needing
-  approval: a 90-day runway, agenda view, horizon bars, a phone filter sheet,
-  a rail collapse button and a theme toggle.
+  narrower screens keep the ADR-049 bar). Phase 3 (ADR-059) adds horizon
+  bars under countdowns, a "/" search shortcut, a system/light/dark theme
+  toggle, a rail collapse button, a full-screen phone filter sheet and an
+  optional Agenda layout; "About this venue" now shows under a phone card's
+  More info. Phase 4 (pending approval): a quiet 90-day runway strip.
 - Header actions are Share on X, Star the repo and a Subscribe to calendar menu
   (Google/Apple/copy-link/download for submissions, all events, conference
   dates, any topic or series), with its caption below. Neither social action

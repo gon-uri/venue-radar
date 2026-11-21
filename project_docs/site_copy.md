@@ -134,9 +134,10 @@ Approved with ADR-040:
 
 - Archival line in expanded rows: "Archival track: <track> · <venue>" or
   "Non-archival: <track>", plus "(est., from the <year> call)" for estimates.
-- Disclosure label: "About this venue" with a right-side + (− when open). It
-  holds the sourced scope summary, plus "(from the <year> call)" when the
-  profile comes from an earlier edition.
+- Disclosure label: "About this venue" with a right-side chevron that turns
+  when open (ADR-057; it was +/−). It holds the sourced scope summary, plus
+  "(from the <year> call)" when the profile comes from an earlier edition.
+  On phones it shows as soon as the card's More info is open (ADR-059).
 
 ## Estimate Provenance (ADR-055, approved 2026-11-18)
 
@@ -150,3 +151,14 @@ Approved with ADR-040:
 
 - Group label: "Due within" (accessible name "Next submission step due within").
 - Buttons: "30 days", "90 days", "6 months", "Any" (default).
+
+## Phase 3 Controls (ADR-059, approved 2026-11-21)
+
+- Theme button (icon only): accessible name "Colour theme: follows your
+  system. Switch to light" (then "light", "dark"); tooltip "Colour theme: ...".
+- Rail toggle: "Hide filters" / "Show filters", plus "(N active)" in its name.
+- Phone sheet: title "More filters", close button "Close filters", action
+  "Show N conferences" ("Show results" until a count is known).
+- View switch: group "Deadline layout", label "View", buttons "Table" and
+  "Agenda". Agenda headings: "This week", "Next 30 days", "Later".
+- Search hint: "/" (keyboard shortcut, also in `aria-keyshortcuts`).

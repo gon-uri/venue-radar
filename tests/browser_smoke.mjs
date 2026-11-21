@@ -14,6 +14,7 @@ import {checkAboutVenue} from './about_venue.mjs';
 import {checkHorizon} from './horizon.mjs';
 import {checkProvenance} from './provenance.mjs';
 import {checkFilterRail} from './filter_rail.mjs';
+import {checkPhase3} from './phase3.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -619,7 +620,8 @@ try {
         return box.left >= 0 && (box.right <= innerWidth || item.closest('.qb-chips').scrollWidth > item.closest('.qb-chips').clientWidth);
       })), `Filter bar fits (phones scroll the chip row) at ${width}px`);
       if (output) await page.screenshot({path: path.join(output, `filters-${width}.png`)});
-      await filterSummary.click();
+      if (width <= 760) await page.keyboard.press('Escape');  // ADR-059: the phone sheet closes with Escape
+      else await filterSummary.click();
       await page.locator('#tab-conferences').click();
     }
   }
@@ -632,6 +634,7 @@ try {
   await checkHorizon(page, url);
   await checkProvenance(page, url);
   await checkFilterRail(page, url);
+  await checkPhase3(page, url);
   assert.deepEqual(fontRequests, [], 'Embedded fonts must not require a network request');
   // ADR-057: the page follows the system colour scheme with designed dark tokens.
   await page.emulateMedia({colorScheme: 'dark'});

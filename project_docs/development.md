@@ -84,8 +84,9 @@ venue-feature (cutoff clocks, focus, search, empty states, successors,
 calendar menu, tablet and no-JS) and more-feature (deep links, URL state,
 evidence line, starring, status guide, host-zone cutoffs, sticky header,
 compact cards, link previews) and archival-option (tags, filter, `archival=1`,
-not-checked count, phone layout) suites, plus the filter-rail suite
-(`tests/filter_rail.mjs`, ADR-058). It freezes a reference date and checks desktop/mobile at
+not-checked count, phone layout) suites, plus the filter-rail
+(`tests/filter_rail.mjs`, ADR-058) and phase 3 (`tests/phase3.mjs`, ADR-059)
+suites. It freezes a reference date and checks desktop/mobile at
 1440/1051/1050/768/390/320px, route/countdown/gate transitions, independent card
 expansion, filters/scope matching, maps, branding, light and dark schemes,
 accessibility and overflow.

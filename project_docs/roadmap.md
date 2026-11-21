@@ -38,9 +38,11 @@ below are history, not instructions to reimplement old designs.
   supersedes the Audiowide and raster-logo items above.
 - Completed identity v2, phase 2 (ADR-058, 2026-11-21): a sticky left filter
   rail from 1200 px, built from the existing controls; phones unchanged.
-- Next, phase 3, optional and separately approved: a quiet 90-day runway, an
-  agenda view, countdown horizon bars, a "/" search shortcut, a phone filter
-  sheet, a rail collapse button and a theme toggle.
+- Completed identity v2, phase 3 (ADR-059, 2026-11-21): horizon bars, "/"
+  search, theme toggle, rail collapse, phone filter sheet, Agenda layout, and
+  "About this venue" visible under a phone card's More info.
+- Next, phase 4 (needs approval): a quiet 90-day runway strip above the
+  deadlines, modelled on the Almanac year strip in the design books.
 - Completed filter/sharing polish: always-visible Clear filters aligned with
   the disclosure heading, an eight-family topic viewport, removal of the
   duplicate Time series shortcut, default-selected Show submission options only,

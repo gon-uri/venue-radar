@@ -158,7 +158,10 @@ class SiteAssetTests(unittest.TestCase):
         # ADR-049: More filters starts collapsed at every width; search and the
         # family/archival chips stay visible in the bar above it.
         self.assertNotIn("open", details)
-        self.assertNotIn("matchMedia('(max-width: 760px)')", html)
+        # Only the 1200px rail opens the panel by width (ADR-058); the phone
+        # sheet (ADR-059) styles an open panel but never opens it.
+        self.assertEqual(html.count("details.open = true"), 1)
+        self.assertIn("if (rail.matches && !details.open) { details.open = true;", html)
         chips = [attrs for tag, attrs in page.elements if tag == "button" and "chip" in (attrs.get("class") or "").split()]
         self.assertEqual(len(chips), 9)
         self.assertEqual(sum("data-chip-family" in attrs for attrs in chips), 8)

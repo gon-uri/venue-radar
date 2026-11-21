@@ -15,6 +15,7 @@ import {checkHorizon} from './horizon.mjs';
 import {checkProvenance} from './provenance.mjs';
 import {checkFilterRail} from './filter_rail.mjs';
 import {checkPhase3} from './phase3.mjs';
+import {checkCityIndex} from './city_index.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -179,7 +180,7 @@ try {
   assert.equal(await filterSummary.locator('span:nth-child(2)').innerText(), 'More filters');
   assert(await filterSummary.locator('#filter-count').isHidden(), 'No active-filter badge by default');
   assert.equal(await page.locator('.filter-disclosure-icon').getAttribute('aria-hidden'), 'true');
-  assert.equal(await page.locator('input:not(#open-only):not(#starred-only):not(#search), select').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details') && !control.closest('#calendar-menu')).length), 0);
+  assert.equal(await page.locator('input:not(#open-only):not(#starred-only):not(#search):not(#city-filter), select').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details') && !control.closest('#calendar-menu')).length), 0);
   assert(await page.locator('#clear-filters').evaluate(button => !button.closest('#filter-details') && !!button.closest('.filter-section')));
   assert(await page.getByLabel('Show submission options only', {exact: true}).isVisible());
   assert(await page.locator('#open-only').evaluate(input => !input.closest('#filter-details') && !!input.closest('.tab-toolbar')));
@@ -635,6 +636,7 @@ try {
   await checkProvenance(page, url);
   await checkFilterRail(page, url);
   await checkPhase3(page, url);
+  await checkCityIndex(page, url);
   assert.deepEqual(fontRequests, [], 'Embedded fonts must not require a network request');
   // ADR-057: the page follows the system colour scheme with designed dark tokens.
   await page.emulateMedia({colorScheme: 'dark'});

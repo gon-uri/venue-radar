@@ -68,11 +68,15 @@ try {
   if (output) await fs.mkdir(output, {recursive: true});
   await page.goto(url);
   await page.evaluate(() => document.fonts.ready);
-  assert(await page.evaluate(() => [...document.fonts].some(font => font.family === 'Audiowide' && font.status === 'loaded')));
-  assert.match(await page.locator('h1').evaluate(title => getComputedStyle(title).fontFamily), /Audiowide/);
-  assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontWeight), '400');
+  // ADR-057: Sora for the wordmark only, Inter for the interface, Geist Mono for countdowns.
+  for (const family of ['Sora', 'Inter', 'Geist Mono']) {
+    assert(await page.evaluate(name => [...document.fonts].some(font => font.family.replace(/"/g, '') === name && font.status === 'loaded'), family), `${family} must load`);
+  }
+  assert.match(await page.locator('h1').evaluate(title => getComputedStyle(title).fontFamily), /^Sora/);
+  assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontWeight), '600');
   assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSynthesis), 'none');
-  assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => !getComputedStyle(element).fontFamily.includes('Audiowide'))));
+  assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => getComputedStyle(element).fontFamily.startsWith('Inter'))));
+  assert(await page.locator('.time-left').evaluateAll(cells => cells.length > 0 && cells.every(cell => getComputedStyle(cell).fontFamily.startsWith('"Geist Mono"'))));
   assert.equal(await page.title(), 'Venue Radar: ML, AI & Neuroscience Conference Deadlines');
   assert.equal(await page.locator('#tab-conferences').innerText(), 'Conferences & Map');
   assert.equal(await page.locator('.subhead').innerText(), 'Find where to submit next: conference deadlines for machine learning and AI, neuroscience, healthcare, complex systems, and control.');
@@ -123,8 +127,8 @@ try {
     const pixels = context.getImageData(0, 0, 32, 32).data;
     return {corner: [...pixels.slice(0, 4)], colored: [...pixels].filter((value, i) => i % 4 !== 3 && value < 200).length};
   }, faviconUrl);
-  assert.deepEqual(faviconPixels.corner, [255, 255, 255, 255]);
-  assert(faviconPixels.colored > 100, 'Radar favicon must render at browser-tab size');
+  assert.equal(faviconPixels.corner[3], 0, 'The Ping tile favicon has rounded, transparent corners (ADR-057)');
+  assert(faviconPixels.colored > 100, 'Ping tile favicon must render at browser-tab size');
   assert.equal(await page.getByRole('link', {name: 'Request a conference', exact: true}).getAttribute('href'), `${repository}/issues/new?template=conference-request.yml`);
   assert.equal(await page.getByRole('link', {name: 'GitHub discussions', exact: true}).getAttribute('href'), `${repository}/discussions`);
   assert.equal(await page.getByRole('link', {name: 'Find Venue Radar useful? Star the repository', exact: true}).getAttribute('href'), repository);
@@ -150,11 +154,17 @@ try {
   const openLabels = await openStatuses.allTextContents();
   assert(openLabels.includes('Open abstract submissions'));
   assert(openLabels.includes('Open paper submissions'));
-  assert(await openStatuses.evaluateAll(labels => labels.every(label =>
-    getComputedStyle(label, '::before').content === 'none' &&
-    getComputedStyle(label).fontWeight === '700' &&
-    getComputedStyle(label).color === 'rgb(21, 91, 45)'
-  )), 'Open submission statuses must keep bold green text without leading dots');
+  // ADR-057: every status carries a shape; open is the filled dot on the open tint.
+  assert(await openStatuses.evaluateAll(labels => labels.every(label => {
+    const probe = document.createElement('i');
+    probe.style.color = 'var(--open)';
+    document.body.append(probe);
+    const open = getComputedStyle(probe).color;
+    probe.remove();
+    return getComputedStyle(label, '::before').content === '""' &&
+      getComputedStyle(label).fontWeight === '600' &&
+      getComputedStyle(label).color === open;
+  })), 'Open submission statuses must show the filled-dot shape in the open colour');
   await checkSubmissionBehavior(page);
   const filterSummary = page.locator('#filter-details > summary');
   assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
@@ -184,8 +194,8 @@ try {
   assert(await page.locator('.rank-link-ccf').evaluateAll(links => links.every(link => link.href === 'https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml')));
   assert.equal(await page.locator('.calendar-caption').innerText(), 'Auto-updating .ics feeds');
   assert(await page.locator('header').evaluate(header => header.querySelector('.calendar-action').getBoundingClientRect().right > header.querySelector('.brand-line').getBoundingClientRect().right));
-  assert.equal(await page.locator('.brand-mark').evaluate(image => image.clientWidth), 82);
-  assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSize), '42px');
+  assert.equal(await page.locator('.brand-mark').evaluate(mark => Math.round(mark.getBoundingClientRect().width)), 40);
+  assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSize), '28px');
   assert.notEqual(await page.locator('#tab-deadlines').evaluate(tab => getComputedStyle(tab).backgroundColor), await page.locator('#tab-conferences').evaluate(tab => getComputedStyle(tab).backgroundColor));
   assert((await page.locator('.topic-filter').boundingBox()).width <= 360);
   assert.equal(await page.locator('.topic-filter > legend').innerText(), 'Topics & Subtopics');
@@ -456,15 +466,15 @@ try {
   for (const width of widths) {
     await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
     await page.evaluate(() => scrollTo(0, 0));
-    assert.equal(await page.locator('.brand-mark').evaluate(image => image.clientWidth), width > 760 ? 82 : 66);
-    assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSize), width > 760 ? '42px' : '34px');
+    assert.equal(await page.locator('.brand-mark').evaluate(mark => Math.round(mark.getBoundingClientRect().width)), width > 760 ? 40 : 32);
+    assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSize), width > 760 ? '28px' : '22px');
     assert(await page.locator('.brand-line').evaluate(brand => {
       const title = brand.querySelector('h1');
       const range = document.createRange();
       range.selectNodeContents(title);
       const text = range.getBoundingClientRect();
       const container = brand.getBoundingClientRect();
-      const logo = brand.querySelector('img').getBoundingClientRect();
+      const logo = brand.querySelector('.brand-mark').getBoundingClientRect();
       return text.left >= logo.right && text.right <= container.right && text.top >= container.top && text.bottom <= container.bottom;
     }), `Enlarged brand must fit at ${width}px`);
     const logoCenter = await visibleCenter(page.locator('.brand-mark'));
@@ -604,7 +614,14 @@ try {
   await checkAboutVenue(page, url);
   await checkHorizon(page, url);
   await checkProvenance(page, url);
-  assert.deepEqual(fontRequests, [], 'The title font must not require a network request');
+  assert.deepEqual(fontRequests, [], 'Embedded fonts must not require a network request');
+  // ADR-057: the page follows the system colour scheme with designed dark tokens.
+  await page.emulateMedia({colorScheme: 'dark'});
+  assert.deepEqual(await page.evaluate(() => [getComputedStyle(document.body).backgroundColor, getComputedStyle(document.body).color]),
+    ['rgb(16, 28, 31)', 'rgb(231, 238, 239)']);
+  assert.equal(await page.locator('.calendar-button').evaluate(button => getComputedStyle(button).color), 'rgb(0, 30, 32)');
+  await page.emulateMedia({colorScheme: 'light'});
+  assert.equal(await page.evaluate(() => getComputedStyle(document.body).backgroundColor), 'rgb(247, 251, 251)');
   assert.deepEqual(errors, []);
   console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);
 } finally {

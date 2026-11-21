@@ -269,6 +269,9 @@ function renderDeadlineGroups(now) {
       ? countdownText(state.action.time, now, state.action.estimated, state.action.approximate_time)
       : "\u2014";
     if (timeLeft.textContent !== remaining) timeLeft.textContent = remaining;
+    const urgency = state.kind === "closed" || !state.action ? "calm"
+      : urgencyLevel(state.action.time, now, state.action.estimated);
+    if (timeLeft.dataset.urgency !== urgency) timeLeft.dataset.urgency = urgency;
     const spoken = state.kind === "closed" ? "Closed to new submissions" : state.action
       ? describeRemaining(state.action.time, now, state.action.estimated, state.action.approximate_time)
       : "No submission deadline announced";

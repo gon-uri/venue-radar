@@ -1381,3 +1381,54 @@ explicit refinements take precedence. Current rules live in
 - Alternatives considered: the classic GTM snippet with a `gtm.start` push
   (not needed; the supplied snippet fires the GA4 page view); a cookieless
   counter (not what the owner asked for).
+
+## ADR-057: Identity v2, Ping Tile Mark, New Type And Dark Mode
+
+- Status: Accepted by the owner on 2026-11-21, after reviewing four rendered
+  design books (private, linked from the local design notes). The owner chose
+  the "Sweep" system with the "Ping tile" mark ("Ping tile"), approved the
+  phase 1 plan, the font downloads, the larger page budget ("Yes, both") and
+  the shared chevron for "About this venue" ("Yes, use chevron").
+- Date: 2026-11-21
+- Context: A design audit found a raster logo with a different favicon,
+  Audiowide (a 2012 techno display face) for the title, an unloaded body font,
+  38 font sizes, 51 hard-coded colours, four teals, two indistinguishable
+  status greens, four disclosure styles and no dark mode.
+- Decision (phase 1, presentation only):
+  1. Mark: the Ping tile, a petrol-teal rounded tile with clipped
+     background-coloured ripples and a coral blip, as SVG
+     (`assets/venue-radar.svg`). `assets/favicon.svg` is its 16 px variant
+     (outer ring dropped) with a dark-scheme media query. Social card and
+     README banners are re-rendered from it.
+  2. Type: Sora 600 for the wordmark only, Inter (variable) for the interface,
+     Geist Mono for countdowns, cutoff times and rank codes. All SIL OFL 1.1,
+     Latin subsets from the Fontsource 5.3.0 packages, embedded in the page
+     as Audiowide was (no third-party font request). Audiowide is removed.
+  3. Colour: one OKLCH petrol-teal scale for interactive elements, slate
+     neutrals, a separate status palette (shape + label, never hue alone),
+     amber countdowns under 7 days and coral under 48 hours. The page follows
+     `prefers-color-scheme` with a designed dark theme; there is no manual
+     toggle.
+  4. Components: one chevron disclosure idiom. "About this venue" and the
+     topic families use the right-side chevron instead of +/− (updates that
+     detail of ADR-050; the disclosure stays closed and on the right). Topic
+     families keep their left marker, which is the expand target beside the
+     checkbox label.
+     Conference names are underlined only on hover/focus; ranks are neutral
+     badges. Every status pill now carries a shape (filled dot, ring, half
+     dot, dashed ring, bar, dotted ring), which supersedes the 2026-10-07
+     refinement that removed the leading dot from Open statuses.
+  5. Two presentation-only script changes: the countdown element carries
+     `data-urgency` (`calm`, `soon` under 7 days, `final` under 48 hours), and
+     the map reads its colours from CSS tokens and follows the colour scheme.
+  6. The page gzip budget in `scripts/release_check.py` rises from 480 KB to
+     540 KB for the embedded fonts (about 83 KB of WOFF2).
+- Not changed: data, feeds, URLs, UIDs, labels, filters, sorting, layout
+  order. The filter rail, 90-day runway, agenda view and theme toggle are
+  later, separately approved phases.
+- Consequences: The generated page grows by roughly 70 KB gzipped. Browser
+  checks cover light and dark schemes.
+- Alternatives considered: the "Scope" and "Almanac" concepts; system font
+  for body text to stay under 480 KB (rejected for cross-platform
+  consistency); loading fonts from Google Fonts (rejected: third-party
+  request).

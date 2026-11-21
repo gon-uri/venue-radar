@@ -182,9 +182,14 @@ function drawConferenceMap() {
       // Leave enough room for popup auto-pan at the full-world zoom.
       maxBounds: [[-180, -360], [180, 360]], maxBoundsViscosity: .8,
     }).fitBounds(worldMapBounds, {padding: [12, 12]});
-    L.geoJSON(venueMapData.land, {interactive: false, style: {
-      color: '#bdccce', weight: .7, fillColor: '#e3ebeb', fillOpacity: 1,
-    }}).addTo(conferenceMap);
+    // Land colours come from the CSS tokens, so the map follows the colour scheme (ADR-057).
+    const landStyle = () => {
+      const tokens = getComputedStyle(document.documentElement);
+      return {color: tokens.getPropertyValue('--map-coast').trim(), weight: .7,
+        fillColor: tokens.getPropertyValue('--map-land').trim(), fillOpacity: 1};
+    };
+    const land = L.geoJSON(venueMapData.land, {interactive: false, style: landStyle}).addTo(conferenceMap);
+    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => land.setStyle(landStyle()));
     conferenceMap.attributionControl.addAttribution('Land: <a href="https://www.naturalearthdata.com/">Natural Earth</a>');
     cityMarkers = L.layerGroup().addTo(conferenceMap);
     conferenceMap.on('resize', resetConferenceMap);

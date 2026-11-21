@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/branding/venue-radar-banner-dark.png">
-  <img src="assets/branding/venue-radar-banner.png" alt="Venue Radar: calendar-radar logo and Audiowide title" width="1400">
+  <img src="assets/branding/venue-radar-banner.png" alt="Venue Radar: Ping tile logo and wordmark" width="1400">
 </picture>
 
 <div align="center">

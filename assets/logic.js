@@ -55,6 +55,15 @@ function countdownText(deadline, now, estimated = false, approximateTime = false
   return `${estimated || approximateTime ? "~" : ""}${formatRemaining(deadline, now, estimated)}`;
 }
 
+// Presentation-only urgency for the countdown colour (ADR-057): "final" under
+// 48 hours, "soon" under 7 days, otherwise "calm". Estimated deadlines stay calm.
+function urgencyLevel(deadline, now, estimated = false) {
+  const diff = deadline - now;
+  if (estimated || !Number.isFinite(diff) || diff <= 0) return "calm";
+  if (diff < 2 * DAY_MS) return "final";
+  return diff < 7 * DAY_MS ? "soon" : "calm";
+}
+
 // Screen-reader text for a countdown, e.g. "4 days 14 hours left" or
 // "about 3 weeks left, estimated".
 function describeRemaining(deadline, now, estimated = false, approximateTime = false) {

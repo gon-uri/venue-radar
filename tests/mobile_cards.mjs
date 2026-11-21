@@ -7,16 +7,25 @@ async function visibleLabels(row) {
 
 async function checkMobilePresentation(row) {
   assert(await row.evaluate(row => {
+    // Colours resolve through the theme tokens (ADR-057), so the check holds in light and dark.
+    const token = name => {
+      const probe = document.createElement('i');
+      probe.style.color = `var(${name})`;
+      document.body.append(probe);
+      const value = getComputedStyle(probe).color;
+      probe.remove();
+      return value;
+    };
     const card = getComputedStyle(row);
     const header = getComputedStyle(row.querySelector('[data-label="Conference"]'));
     const labels = [...row.querySelectorAll('td[data-label]')];
     return card.marginBottom === '14px' && card.borderTopWidth === '1px' &&
-      card.borderTopColor === 'rgb(189, 201, 204)' && header.backgroundColor === 'rgb(237, 245, 245)' &&
+      card.borderTopColor === token('--line-strong') && header.backgroundColor === token('--raised') &&
       labels.every(cell => {
         const label = getComputedStyle(cell, '::before');
-        return label.fontSize === '13px' && label.fontWeight === '700' && label.color === 'rgb(82, 98, 103)';
+        return label.fontSize === '13px' && label.fontWeight === '700' && label.color === token('--muted');
       });
-  }), 'Mobile cards need readable labels, tinted headers, stronger borders and clear spacing');
+  }), 'Mobile cards need readable labels, card-coloured headers, stronger borders and clear spacing');
 }
 
 async function checkDisclosure(row, collapsedLabels) {

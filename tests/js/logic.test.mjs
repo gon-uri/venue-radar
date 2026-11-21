@@ -8,8 +8,8 @@ import vm from 'node:vm';
 
 const source = readFileSync(new URL('../../assets/logic.js', import.meta.url), 'utf8');
 const context = vm.createContext({Intl, Date});
-vm.runInContext(`${source}\nthis.api = {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState, withinWindow, WITHIN_DAYS};`, context);
-const {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState, withinWindow, WITHIN_DAYS} = context.api;
+vm.runInContext(`${source}\nthis.api = {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState, withinWindow, WITHIN_DAYS, urgencyLevel};`, context);
+const {normalizeSearch, matchesSearch, formatRemaining, countdownText, describeRemaining, openLabel, describeInstant, computeSubmissionState, withinWindow, WITHIN_DAYS, urgencyLevel} = context.api;
 const TYPES = new Set(['abstract', 'discussion_paper', 'extended_abstract', 'full_paper', 'journal_paper',
   'late_abstract', 'poster', 'regular_paper', 'resource_paper', 'short_paper', 'special_session_paper', 'workshop_paper']);
 
@@ -124,4 +124,15 @@ test('time-range window includes its last instant and nothing without a time (AD
   assert.equal(withinWindow(now + 400 * day, now, 0), true, '0 means Any');
   assert.equal(withinWindow(undefined, now, 90), false, 'no next action, no match');
   assert.equal(withinWindow(NaN, now, 0), true);
+});
+
+test('countdown urgency: final under 48 h, soon under 7 days, estimates stay calm', () => {
+  const now = Date.UTC(2026, 10, 21, 12);
+  const hour = 3600 * 1000;
+  assert.equal(urgencyLevel(now + 47 * hour, now), 'final');
+  assert.equal(urgencyLevel(now + 48 * hour, now), 'soon');
+  assert.equal(urgencyLevel(now + 7 * 24 * hour - 1, now), 'soon');
+  assert.equal(urgencyLevel(now + 7 * 24 * hour, now), 'calm');
+  assert.equal(urgencyLevel(now + 5 * hour, now, true), 'calm');
+  assert.equal(urgencyLevel(now - hour, now), 'calm');
 });

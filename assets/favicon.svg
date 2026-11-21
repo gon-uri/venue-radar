@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" fill="#ffffff"/>
-  <path d="M13 53A27 27 0 1 1 54 18" fill="none" stroke="#38a6b0" stroke-width="5" stroke-linecap="round"/>
-  <path d="M23 44A14 14 0 1 1 44 25" fill="none" stroke="#38a6b0" stroke-width="4" stroke-linecap="round"/>
-  <path d="M33 36L46 10A29 29 0 0 1 60 27Z" fill="#38a6b0"/>
-  <circle cx="33" cy="36" r="4" fill="#263238"/>
-  <circle cx="48" cy="21" r="4.5" fill="#c85c62"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4 4 40 40">
+  <style>
+    .t { fill: #0d6064; } .r { fill: none; stroke: #f7fbfb; stroke-width: 3.2; } .b { fill: #c85c62; }
+    @media (prefers-color-scheme: dark) { .t { fill: #22989d; } .r { stroke: #101c1f; } .b { fill: #e8787d; } }
+  </style>
+  <clipPath id="c"><rect x="4" y="4" width="40" height="40" rx="11"/></clipPath>
+  <rect class="t" x="4" y="4" width="40" height="40" rx="11"/>
+  <g clip-path="url(#c)">
+    <circle class="r" cx="31" cy="17" r="9.5"/>
+    <circle class="r" cx="31" cy="17" r="17" stroke-opacity=".7"/>
+  </g>
+  <circle class="b" cx="31" cy="17" r="4.6"/>
 </svg>

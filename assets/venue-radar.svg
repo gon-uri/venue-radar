@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4 4 40 40" width="40" height="40" role="img" aria-label="Venue Radar">
+  <!-- Ping tile (ADR-057). Colours fall back to the light theme; the page overrides them through CSS custom properties. -->
+  <defs><clipPath id="vr-mark-clip"><rect x="4" y="4" width="40" height="40" rx="11"/></clipPath></defs>
+  <rect x="4" y="4" width="40" height="40" rx="11" style="fill: var(--mark-tile, #0d6064)"/>
+  <g clip-path="url(#vr-mark-clip)" fill="none" stroke-width="3.2" style="stroke: var(--bg, #f7fbfb)">
+    <circle cx="31" cy="17" r="9.5"/>
+    <circle cx="31" cy="17" r="17" stroke-opacity=".7"/>
+    <circle cx="31" cy="17" r="24.5" stroke-opacity=".45"/>
+  </g>
+  <circle cx="31" cy="17" r="4.6" style="fill: var(--mark-blip, #c85c62)"/>
+</svg>

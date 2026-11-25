@@ -1577,8 +1577,8 @@ explicit refinements take precedence. Current rules live in
 
 ## ADR-062: Submission Deadline Feeds Per Topic Family
 
-- Status: Proposed 2026-11-25 (ranked list "family submission feeds"; owner
-  chose the batch); the menu wording awaits owner approval before merge.
+- Status: Accepted 2026-11-25 (ranked list "family submission feeds"; owner
+  chose the batch and approved the menu wording).
 - Date: 2026-11-25
 - Context: `submissions.ics` holds every field (about 350 events); the 43
   topic feeds hold all events for a leaf, not just deadlines. A researcher in
@@ -1622,8 +1622,8 @@ explicit refinements take precedence. Current rules live in
 
 ## ADR-064: Plan B After A Rejection
 
-- Status: Proposed 2026-11-25 (deferred "after a rejection" planner, unblocked
-  by ADR-054's decision dates); wording awaits owner approval before merge.
+- Status: Accepted 2026-11-25 (deferred "after a rejection" planner, unblocked
+  by ADR-054's decision dates); owner approved the wording.
 - Date: 2026-11-25
 - Context: The decision date answers "when will I know"; the next question is
   "where can the paper go then". ADR-054 filled decision dates for 81 of 86
@@ -1653,8 +1653,8 @@ explicit refinements take precedence. Current rules live in
 
 ## ADR-065: Shareable Shortlist Link
 
-- Status: Proposed 2026-11-25 (deferred "shareable shortlist URL"); wording
-  awaits owner approval before merge.
+- Status: Accepted 2026-11-25 (deferred "shareable shortlist URL"); owner
+  approved the wording.
 - Date: 2026-11-25
 - Context: Stars live in one browser (ADR-040); "?starred=1" shows nothing to
   anyone else, so a student could not send a list to a supervisor.

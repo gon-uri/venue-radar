@@ -173,9 +173,9 @@ Approved with ADR-040:
 - Phones: "Show N host cities" / "Hide host cities". Empty filter: "No host
   city matches."
 
-## Focus Views And Field Feeds (ADR-062/064/065, proposed 2026-11-25)
+## Focus Views And Field Feeds (ADR-062/064/065, approved 2026-11-25)
 
-Pending owner approval before merge.
+Approved by the owner on 2026-11-25.
 
 - Subscribe menu picker: "Deadlines in one field", "Submission deadlines for
   one topic family"; options are the eight family labels. Feed names:

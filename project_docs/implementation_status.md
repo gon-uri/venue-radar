@@ -95,7 +95,7 @@ additions, not from an older session entry or a filtered website screenshot.
   (`?list=`, ADR-065), one banner for both. Eight per-family submission
   feeds in `docs/families/` with a "Deadlines in one field" picker
   (ADR-062). The browser suite also runs in CI as an advisory job
-  (ADR-063). Menu, link and banner wording await owner approval.
+  (ADR-063). Wording approved by the owner on 2026-11-25.
 - Traffic statistics: the owner's Google Tag Manager container `GTM-MKS3WJCL`
   loads first in `<head>` and sends GA4 page views (`G-QRXSH04HL6`); browser
   checks block it (ADR-056). Consent settings live in the GTM/GA consoles.

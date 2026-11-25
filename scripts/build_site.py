@@ -99,7 +99,9 @@ def _attr(value: Any) -> str:
 
 
 def _topic_labels(topics: list[str]) -> str:
-    return '<div class="topic-tags">' + " ".join(
+    # Small tablets show two tags plus "+N" (ADR-066); every tag stays in the markup.
+    more = f' data-more="+{len(topics) - 2}"' if len(topics) > 2 else ""
+    return f'<div class="topic-tags"{more}>' + " ".join(
         f'<span class="tag" title="{_attr(topic)}">{escape(TOPIC_CATALOG["labels"].get(topic, topic))}</span>'
         for topic in topics
     ) + '</div>'
@@ -1065,6 +1067,12 @@ def build_site(
     calendar_icon = (ASSETS_DIR / 'vendor' / 'calendar-plus.svg').read_text(encoding='utf-8')
     calendar_menu = _calendar_menu(conferences, calendar_icon)
     successors = _successors(conferences)
+    # Community button icons (ADR-066): Lucide plus, message-square and at-sign paths (ISC).
+    community_icons = {name: f'<svg class="community-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">{body}</svg>' for name, body in {
+        'plus': '<path d="M12 5v14M5 12h14"/>',
+        'message': '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>',
+        'at': '<circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/>',
+    }.items()}
     share_icon = (ASSETS_DIR / 'vendor' / 'share-2.svg').read_text(encoding='utf-8')
     star_icon = (ASSETS_DIR / 'vendor' / 'star.svg').read_text(encoding='utf-8')
     vendor_notices = '\n\n'.join(
@@ -1133,7 +1141,7 @@ def build_site(
     #panel-deadlines td[data-label="Submission status"], #panel-deadlines td[data-label="Time left"] {{ display: none !important; }}
     .noscript-note {{ display: block !important; }}
     /* ADR-058: no rail without scripts, so the tables use the full width. */
-    main > .tab-shell {{ grid-column: 1 / -1 !important; }}
+    .app-body > .tab-shell {{ grid-column: 1 / -1 !important; }}
     /* ADR-059: controls that need scripts are hidden. */
     .view-switch, .theme-button, .rail-toggle {{ display: none !important; }}
   </style></noscript>
@@ -1158,6 +1166,7 @@ def build_site(
       </div>
     </header>
 
+    <div class="app-body">
     <section class="controls filter-section" aria-label="Filters and search">
     <button class="rail-toggle" id="rail-toggle" type="button" aria-expanded="true" title="Hide filters"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18M6 12h12M10 19h4"/></svg><span class="rail-toggle-label">Hide filters</span><span class="rail-count" id="rail-count" hidden></span></button>
     <h2 class="visually-hidden">Filters and search</h2>
@@ -1303,15 +1312,16 @@ def build_site(
         </details>
       </div>
     </section>
+    </div>
 
     <section class="community" id="community" aria-labelledby="community-title">
       <h2 id="community-title">Community</h2>
       <p>Missing a conference, or spotted a correction? Leave a comment or send a conference request.</p>
       <div class="community-links">
-        <a href="https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml">Request a conference</a>
-        <a href="https://github.com/gon-uri/venue-radar/discussions">GitHub discussions</a>
-        <a href="https://github.com/gon-uri/venue-radar">Find Venue Radar useful? Star the repository</a>
-        <a href="https://x.com/gonzauri">Follow @gonzauri on X</a>
+        <a class="community-button is-primary" href="https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml">{community_icons['plus']}Request a conference</a>
+        <a class="community-button" href="https://github.com/gon-uri/venue-radar/discussions">{community_icons['message']}GitHub discussions</a>
+        <a class="community-button" href="https://github.com/gon-uri/venue-radar">{_icon('star')}Find Venue Radar useful? Star the repository</a>
+        <a class="community-button" href="https://x.com/gonzauri">{community_icons['at']}Follow @gonzauri on X</a>
       </div>
       <div class="giscus"></div>
       <noscript><a href="https://github.com/gon-uri/venue-radar/discussions">Join the discussion on GitHub</a></noscript>

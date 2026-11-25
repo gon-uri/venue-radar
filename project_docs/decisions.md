@@ -1671,3 +1671,48 @@ explicit refinements take precedence. Current rules live in
   feeds and deep links, so they survive edition rollovers. No storage change.
 - Alternatives considered: sharing editions instead of series (links would go
   stale every year); encoding stars in the hash (conflicts with row deep links).
+
+## ADR-066: Design Review Fixes And Community Buttons
+
+- Status: Accepted by the owner on 2026-11-25 ("Fix High + Medium" after an
+  independent design review; the Community buttons and dark comments were
+  requested in the same session).
+- Date: 2026-11-25
+- Context: A reviewer with no access to earlier design notes checked every
+  width, theme and state. It found no overflow, AA contrast in both themes and
+  visible focus, but layout faults at specific widths. The owner also asked
+  for the Community links as buttons, and the comment box was light in dark mode.
+- Decision:
+  1. The rail and tables share a new `.app-body` grid (from 1200 px), so the
+     sticky rail ends with the tables and never covers the community section
+     or footer. The grid moved from `main` to `.app-body`.
+  2. Desktop table cells align to the top.
+  3. 761–1099 px: the topic and rate columns are rebalanced, Topics shows two
+     tags plus "+N" (the others stay in the markup for screen readers), and
+     below 900 px ICORE and CCF stack without the slash and the schedule
+     toggle keeps its smaller size. From 900 px the rank pair stays on one
+     line, the rank column gains 1 %, and the toggle is 28 px.
+  4. Separators never start a line: the cutoff clock follows the date after a
+     space (no dot), and evidence-line dots sit in a clipped left gutter.
+  5. Phones: More info opens the whole schedule. The inner toggle is hidden and
+     follows the card, the summary's next step is not repeated, the label
+     reads "Schedule", and the size chip keeps its width. Stars get 44 px hit
+     areas; feed buttons and filter checkboxes are larger.
+  6. Agenda: the facts sit beside rows of matching height (ranks by the name,
+     size by the status, rate by the milestone) as label/value pairs.
+  7. Topic families: the left marker is removed; the right chevron row toggles
+     the subtopics. This supersedes the ADR-057 note keeping the marker.
+  8. The search box reserves space for the "/" hint.
+  9. Map: 10 px markers (9 px on phones), a start view cropped to latitudes
+     −52 to 74, and a 220 px phone map.
+  10. Community: the four links are buttons with icons (Request a conference
+      filled, the others outlined), with the same text and addresses. Giscus
+      uses its `light` theme on the light page and `transparent_dark` on the
+      dark page, and switches with the theme toggle or system scheme.
+- Not changed: data, filters, feeds, URLs, UIDs, copy, Giscus IDs and mapping.
+  The star still follows the name: at tablet widths long names need the whole
+  column, so it moves under the name when space runs out.
+- Consequences: `tests/review_fixes.mjs`; the mobile-card, provenance, phase 3
+  and smoke tests follow the new phone schedule and topic chevron behaviour.
+  Low-priority review items (13–26) and the subscribe-menu preselect (an
+  ADR-039 behaviour, owner's call) remain open.

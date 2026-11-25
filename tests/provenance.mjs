@@ -14,10 +14,11 @@ export async function checkProvenance(page, url) {
     await page.setViewportSize({width, height});
     await page.goto(base);
     await freeze();
-    if (width <= 760) await row.locator('.mobile-info-toggle').click();
     const collapsed = await row.evaluate(element => element.getBoundingClientRect().height);
     assert(!(await basis.isVisible()), `Collapsed rows hide the provenance line at ${width}px`);
-    await row.locator('.deadline-toggle').click();
+    // ADR-066: on phones an open card is the expanded schedule.
+    if (width <= 760) await row.locator('.mobile-info-toggle').click();
+    else await row.locator('.deadline-toggle').click();
     assert(await basis.isVisible(), `Expanded schedule shows it at ${width}px`);
     assert.equal(await basis.innerText(), 'Last edition: May 4, 2026');
     assert.equal(await basis.locator('a').getAttribute('href'), 'https://neurips.cc/Conferences/2026/Dates');

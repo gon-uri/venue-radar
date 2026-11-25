@@ -188,3 +188,11 @@ Approved by the owner on 2026-11-25.
   starred series to anyone"; "Copied" for 2 seconds).
 - Shortlist banner: "Shared shortlist: N series (<names>)."
 - Banner actions: "Star these series", "Show all venues".
+
+## Design Review Fixes (ADR-066, approved 2026-11-25)
+
+- Community buttons keep their text: "Request a conference" (filled),
+  "GitHub discussions", "Find Venue Radar useful? Star the repository",
+  "Follow @gonzauri on X".
+- Small tablets show two topics followed by "+N".
+- An open phone card labels the full schedule "Schedule".

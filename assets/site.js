@@ -13,6 +13,9 @@ function initializeMobileCards() {
     button.addEventListener('click', () => {
       const expanded = row.dataset.mobileExpanded !== 'true';
       row.dataset.mobileExpanded = String(expanded);
+      // An open card shows the whole schedule, so the inner toggle follows it (ADR-066).
+      const schedule = row.querySelector('.deadline-toggle');
+      if (schedule && !schedule.hidden && (row.dataset.expanded === 'true') !== expanded) schedule.click();
       button.setAttribute('aria-expanded', String(expanded));
       const label = expanded ? 'Less info' : 'More info';
       button.querySelector('[data-mobile-info-label]').textContent = label;
@@ -145,11 +148,15 @@ function initializeCalendarMenu() {
 let conferenceMap;
 let cityMarkers;
 let lastMapSignature;
-const worldMapBounds = [[-60, -180], [80, 180]];
+// The start view crops the polar margins, which filled much of the map, most of all on phones (ADR-066).
+const phoneMap = () => matchMedia('(max-width: 760px)').matches;
+const markerSize = phoneMap() ? 9 : 10;  // smaller markers keep nearby cities apart
+const worldMapPadding = phoneMap() ? [4, 4] : [12, 12];
+const worldMapBounds = [[-52, -170], [74, 180]];
 
 function resetConferenceMap() {
   conferenceMap.closePopup();
-  conferenceMap.fitBounds(worldMapBounds, {padding: [12, 12], animate: false});
+  conferenceMap.fitBounds(worldMapBounds, {padding: worldMapPadding, animate: false});
 }
 
 let mapUnavailable = false;
@@ -181,7 +188,7 @@ function drawConferenceMap() {
       zoomAnimation: animate, fadeAnimation: animate, markerZoomAnimation: animate,
       // Leave enough room for popup auto-pan at the full-world zoom.
       maxBounds: [[-180, -360], [180, 360]], maxBoundsViscosity: .8,
-    }).fitBounds(worldMapBounds, {padding: [12, 12]});
+    }).fitBounds(worldMapBounds, {padding: worldMapPadding});
     // Land colours come from the CSS tokens, so the map follows the colour scheme (ADR-057).
     const landStyle = () => {
       const tokens = getComputedStyle(document.documentElement);
@@ -266,7 +273,7 @@ function drawConferenceMap() {
     const marker = L.marker([city.lat, city.lon], {keyboard: true,
       title: `${city.label}: ${group.map((event) => event.title).join(', ')}`,
       alt: `${city.label}, ${group.length} upcoming conference${group.length === 1 ? '' : 's'}`,
-      icon: L.divIcon({className: 'city-marker', iconSize: [12, 12], iconAnchor: [6, 6]}),
+      icon: L.divIcon({className: 'city-marker', iconSize: [markerSize, markerSize], iconAnchor: [markerSize / 2, markerSize / 2]}),
     }).bindPopup(popup, {maxWidth: 290, maxHeight: 180, autoPanPadding: [12, 12]}).addTo(cityMarkers);
     marker.on('mouseover', () => marker.openPopup());
     marker.on('add', () => {
@@ -318,6 +325,21 @@ function drawConferenceMap() {
   document.querySelector('#map-empty').hidden = events.length > 0;
 }
 
+// Comments follow the page theme (ADR-066): giscus's built-in themes, a light
+// one on the light page and a transparent dark one on the dark page.
+function giscusTheme() {
+  const choice = document.documentElement.dataset.theme;
+  const dark = choice ? choice === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  return dark ? 'transparent_dark' : 'light';
+}
+
+function syncGiscusTheme() {
+  const frame = document.querySelector('iframe.giscus-frame');
+  frame?.contentWindow?.postMessage({giscus: {setConfig: {theme: giscusTheme()}}}, 'https://giscus.app');
+}
+document.addEventListener('venue-radar:themechange', syncGiscusTheme);
+matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', syncGiscusTheme);
+
 function loadCommunityComments() {
   if (document.querySelector('.giscus script')) return;
   const script = document.createElement('script');
@@ -327,7 +349,7 @@ function loadCommunityComments() {
     category: 'Announcements', 'category-id': 'DIC_kwDOTQKmZs4DHLTi',
     mapping: 'specific', term: 'Venue Radar community', strict: '1',
     'reactions-enabled': '1', 'emit-metadata': '0', 'input-position': 'top',
-    theme: 'light', lang: 'en', loading: 'lazy',
+    theme: giscusTheme(), lang: 'en', loading: 'lazy',
   };
   Object.entries(settings).forEach(([key, value]) => script.setAttribute(`data-${key}`, value));
   script.crossOrigin = 'anonymous';

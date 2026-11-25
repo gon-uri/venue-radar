@@ -1110,7 +1110,7 @@
   source_urls:
     - "https://humanbrainmapping.org/ohbm-2027/"
     - "https://humanbrainmapping.org/2027CallforContent/"
-    - "https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract_Submission_Guidelines_FINAL.docx.pdf"
+    - "https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract_Submission_Guidelines_FINAL_docx_(2).pdf"
   location: "Toronto, Canada"
   mode: "in-person"
   conference_start: "2027-06-26"
@@ -1128,8 +1128,8 @@
     - type: "abstract"
       label: "Poster abstract submission deadline"
       datetime: "2026-12-14T23:59:00-05:00"
-      source_url: "https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract_Submission_Guidelines_FINAL.docx.pdf"
-  last_checked: "2026-10-28"
+      source_url: "https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract_Submission_Guidelines_FINAL_docx_(2).pdf"
+  last_checked: "2026-11-25"
   confidence: "confirmed"
   notes: "Official OHBM 2027 pages confirm Toronto (Metro Toronto Convention Centre), Jun 26-30, 2027. The submission site opens Mon Nov 2, 2026 (day only); abstracts are due Mon Dec 14, 2026 at 11:59 p.m. EST, the same close as symposium, course and roundtable proposals. At least one author must present in person; decisions by Feb 2027."
 
@@ -3009,7 +3009,7 @@
     - {type: abstract, label: One-page abstract submission (talk/poster), datetime: '2026-12-01T23:59:00-12:00', time_precision: date, source_url: 'https://netsci2027.github.io/calls/abstracts/'}
     - {type: satellite_proposal, label: Satellite symposium proposal deadline, datetime: '2026-11-15T23:59:00-12:00', time_precision: date, source_url: 'https://netsci2027.github.io/calls/satellites/'}
     - {type: notification, label: Abstract acceptance notification, datetime: '2027-01-15T23:59:00-12:00', time_precision: date, source_url: 'https://netsci2027.github.io/calls/abstracts/'}
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-25'
   confidence: confirmed
   notes: Official NetSci 2027 site (TU Dresden) confirms May 17-21, 2027 (satellites/school May 17-18, main conference May 18-21). One-page abstracts with a mandatory figure are due December 1, 2026; the call opened October 9. No cutoff hour/zone is stated, so T23:59 AoE is provisional. Presentation route, not archival proceedings. Distinct from NetSciX. Size is editorial.
 - id: ecml-pkdd-2027
@@ -3102,7 +3102,7 @@
     time_precision: date
     source_url: https://kdd2026.kdd.org/research-track-call-for-papers/
     confidence: estimated
-  last_checked: '2026-11-20'
+  last_checked: '2026-11-25'
   confidence: confirmed
   notes: Official site confirms San Jose McEnery Convention Center, Aug 1-5. Cycle 1
     closed July 2026 (notification Nov 14, 2026). As of 2026-10-28 the CFP/FAQ still
@@ -3195,9 +3195,10 @@
     Intervention
   short_title: MICCAI 2027
   website: https://conferences.miccai.org/2027/en/default.asp
-  cfp_url: https://conferences.miccai.org/2027/en/PAPER-SUBMISSION.html
+  cfp_url: https://conferences.miccai.org/2027/en/IMPORTANT-DATES.html
   source_urls:
   - https://conferences.miccai.org/2027/en/default.asp
+  - https://conferences.miccai.org/2027/en/IMPORTANT-DATES.html
   - https://miccai.org/2026/02/18/announcing-miccai-2027-and-miccai-2028-locations/
   - https://miccai.org/upcoming-conferences/
   location: Auckland, New Zealand
@@ -3216,28 +3217,30 @@
   deadlines:
   - type: registration
     label: Paper registration deadline
-    datetime: '2027-02-12T23:59:00-12:00'
+    datetime: '2027-02-11T23:59:00-08:00'
     gate_for: full_paper
-    source_url: https://conferences.miccai.org/2026/en/default.asp
-    confidence: estimated
+    source_url: https://conferences.miccai.org/2027/en/IMPORTANT-DATES.html
+    confidence: confirmed
   - type: full_paper
     label: Full paper submission deadline
-    datetime: '2027-02-26T23:59:00-12:00'
-    source_url: https://conferences.miccai.org/2026/en/default.asp
-    confidence: estimated
+    datetime: '2027-02-25T23:59:00-08:00'
+    source_url: https://conferences.miccai.org/2027/en/IMPORTANT-DATES.html
+    confidence: confirmed
   - type: notification
-    label: Estimated notification of paper decisions
-    datetime: '2027-06-12T23:59:00-12:00'
+    label: Notification of paper decisions
+    datetime: '2027-06-11T23:59:00-07:00'
     time_precision: date
-    source_url: https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html
-    confidence: estimated
-  last_checked: '2026-11-20'
+    source_url: https://conferences.miccai.org/2027/en/IMPORTANT-DATES.html
+    confidence: confirmed
+  last_checked: '2026-11-25'
   confidence: confirmed
   notes: The MICCAI 2027 site gives Sep 27-Oct 1 at the NZ International Convention
     Centre, Auckland (also the Society's Feb 18, 2026 announcement); the Society
-    upcoming page says Sep 26-Oct 1, so the edition site is used. As of 2026-10-28
-    the paper-submission and calls pages are under construction; February dates are
-    2026-edition proxies.
+    upcoming page says Sep 26-Oct 1, so the edition site is used. The 2027
+    Important Dates page (read 2026-11-25) gives abstract registration Thu Feb 11
+    and paper submission Thu Feb 25, 2027, both 23:59 PST, and decisions at EOD
+    Jun 11, 2027 Pacific Time (day only). The paper-submission page is still an
+    empty shell.
 - id: midl-2027
   series: MIDL
   year: 2027
@@ -5381,7 +5384,7 @@
     time_precision: date
     source_url: https://web.archive.org/web/20260201152714/https://conll.org/
     confidence: estimated
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-25'
   confidence: estimated
   notes: As of 2026-10-28 conll.org publishes no 2027 dates, host, co-location or call. Meeting
     is a one-year proxy from 2026 (co-located with ACL); ACL 2027 is Aug 17-22, so it may shift.
@@ -5984,7 +5987,7 @@
     label: Camera-ready deadline
     datetime: '2027-05-14T23:59:00-12:00'
     source_url: https://roboticsconference.org/information/cfp/
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-25'
   confidence: confirmed
   notes: New two-stage 2027 process requires a six-page initial submission by December
     4, 2026. Only authors invited after review may submit the April final paper; it
@@ -9297,7 +9300,7 @@
     source_url: https://enoc2027.com/author/submission-guidance
     confidence: estimated
     time_precision: date
-  last_checked: '2026-11-20'
+  last_checked: '2026-11-25'
   confidence: confirmed
   notes: 12th ENOC (EUROMECH ENOCC series, triennial per ENOC 2024), July 19-23, 2027, P&J Live, Aberdeen, per enoc2027.com
     and EUROMECH. Only 2-page extended abstracts in 21 mini-symposia; no full papers; at most two presentations
@@ -9383,7 +9386,7 @@
     label: Industry track extended abstracts (4 pages; at least one non-academic author required)
     datetime: '2027-03-18T23:59:00-12:00'
     source_url: https://2027.eswc-conferences.org/calls/industry-track/
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-25'
   confidence: confirmed
   notes: 'Official site: 24th ESWC, May 23-27, 2027, St. Raphael Resort & Marina, Limassol; workshops/tutorials
     May 23-24. All deadlines 23:59 AoE. Research, Resources and In-Use tracks share a mandatory Dec 10 abstract
@@ -10835,7 +10838,7 @@
     label: Poster abstracts (NCM members only)
     datetime: '2027-02-22T23:59:00-08:00'
     source_url: https://ncm-society.org/submission/
-  last_checked: '2026-11-14'
+  last_checked: '2026-11-25'
   confidence: confirmed
   notes: '36th annual meeting, April 26-30, 2027 at the Melia Sevilla, as the home and 2027 pages state: a cerebellar
     satellite and welcome reception on Monday April 26 (also misdated April 24), then the annual conference April

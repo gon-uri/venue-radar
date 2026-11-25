@@ -41,36 +41,6 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:log-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260806T115900Z
-DTEND:20260806T125900Z
-SUMMARY:LoG 2026 · Abstract registration deadline (both tracks)
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260808T115900Z
-DTEND:20260808T125900Z
-SUMMARY:LoG 2026 · Paper / extended abstract submission deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
 UID:biosig-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260816
@@ -249,21 +219,6 @@ CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
 URL:https://biosig.de/
 END:VEVENT
 BEGIN:VEVENT
-UID:log-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261016T115900Z
-DTEND:20261016T125900Z
-SUMMARY:LoG 2026 · Camera-ready deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
 UID:fg-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261024T115900Z
@@ -423,26 +378,6 @@ CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
-UID:log-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
-SUMMARY:LoG 2026 · Conference
-DESCRIPTION:Learning on Graphs Conference\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://logconference.org/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#log-2026\nNotes: Fifth annual edition\, i
- n person at Northeastern University. Extended Aug 5/7 deadlines replace t
- he struck-through July 29/Aug 1 dates. Proceedings papers and non-archiva
- l extended abstracts share the registration and final submission cutoffs\
- , represented as one route. The TMLR presentation track requires an alrea
- dy published paper\, so it is not a new-paper opportunity. LoG is distinc
- t from LOD/AIS. Size M is an editorial estimate.
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/
-LOCATION:Boston\, Massachusetts\, USA
-END:VEVENT
-BEGIN:VEVENT
 UID:cvpr-2027-deadline-supplementary@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261124T115900Z
@@ -537,7 +472,7 @@ DTSTART:20261205T115900Z
 DTEND:20261205T125900Z
 SUMMARY:RSS 2027 · Stage 1 extended abstract submission deadline
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1131,7 +1066,7 @@ DTSTART:20270417T115900Z
 DTEND:20270417T125900Z
 SUMMARY:RSS 2027 · Stage 2 final paper deadline (invited authors only)
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1188,7 +1123,7 @@ DTSTART:20270501T115900Z
 DTEND:20270501T125900Z
 SUMMARY:RSS 2027 · Final paper acceptance notification
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1287,7 +1222,7 @@ DTSTART:20270515T115900Z
 DTEND:20270515T125900Z
 SUMMARY:RSS 2027 · Camera-ready deadline
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1610,7 +1545,7 @@ DTSTART;VALUE=DATE:20270706
 DTEND;VALUE=DATE:20270712
 SUMMARY:RSS 2027 · Conference
 DESCRIPTION:Robotics: Science and Systems\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
+ -11-25\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#rss-2027\nNotes: New two-stage 2027 
  process requires a six-page initial submission by December 4\, 2026. Only
   authors invited after review may submit the April final paper\; it is no

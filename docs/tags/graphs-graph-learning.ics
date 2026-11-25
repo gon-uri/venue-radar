@@ -10,36 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:log-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260806T115900Z
-DTEND:20260806T125900Z
-SUMMARY:LoG 2026 · Abstract registration deadline (both tracks)
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260808T115900Z
-DTEND:20260808T125900Z
-SUMMARY:LoG 2026 · Paper / extended abstract submission deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
 UID:wsdm-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260818T115900Z
@@ -172,21 +142,6 @@ DESCRIPTION:International Conference on Complex Networks and Their Applicat
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Data Mining & Data Science
 URL:https://complexnetworks.org/submission/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261016T115900Z
-DTEND:20261016T125900Z
-SUMMARY:LoG 2026 · Camera-ready deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:complenet-2027-deadline-extended-abstract@scientific-conference-calenda
@@ -407,7 +362,7 @@ DTEND;VALUE=DATE:20261116
 SUMMARY:NetSci 2027 · Satellite symposium proposal deadline
 DESCRIPTION:International School and Conference on Network Science\nMeeting
  : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
- ed 2026-11-14\nCutoff time unannounced: official deadline day only. Verif
+ ed 2026-11-25\nCutoff time unannounced: official deadline day only. Verif
  y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
  ption: No\nOfficial source: https://netsci2027.github.io/calls/satellites
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
@@ -462,26 +417,6 @@ DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
  le AI,Human-AI Interaction & Deployment
 URL:https://www.wsdm-conference.org/2027/cfsp.html
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
-SUMMARY:LoG 2026 · Conference
-DESCRIPTION:Learning on Graphs Conference\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://logconference.org/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#log-2026\nNotes: Fifth annual edition\, i
- n person at Northeastern University. Extended Aug 5/7 deadlines replace t
- he struck-through July 29/Aug 1 dates. Proceedings papers and non-archiva
- l extended abstracts share the registration and final submission cutoffs\
- , represented as one route. The TMLR presentation track requires an alrea
- dy published paper\, so it is not a new-paper opportunity. LoG is distinc
- t from LOD/AIS. Size M is an editorial estimate.
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/
-LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:complenet-2027-deadline-notification@scientific-conference-calendar
@@ -591,7 +526,7 @@ DTEND;VALUE=DATE:20261202
 SUMMARY:NetSci 2027 · One-page abstract submission (talk/poster)
 DESCRIPTION:International School and Conference on Network Science\nMeeting
  : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
- ed 2026-11-14\nCutoff time unannounced: official deadline day only. Verif
+ ed 2026-11-25\nCutoff time unannounced: official deadline day only. Verif
  y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
  ption: No\nOfficial source: https://netsci2027.github.io/calls/abstracts/
  \nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
@@ -642,7 +577,7 @@ DTEND:20261211T125900Z
 SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: mandatory abst
  ract submission
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -659,7 +594,7 @@ DTEND:20261218T125900Z
 SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: full paper sub
  mission (15 pages\, LNCS)
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -675,7 +610,7 @@ DTSTART:20261218T115900Z
 DTEND:20261218T125900Z
 SUMMARY:ESWC 2027 · Workshop proposals
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -723,7 +658,7 @@ DTSTART:20270115T115900Z
 DTEND:20270115T125900Z
 SUMMARY:ESWC 2027 · Tutorial proposals
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -822,7 +757,7 @@ DTEND;VALUE=DATE:20270116
 SUMMARY:NetSci 2027 · Abstract acceptance notification
 DESCRIPTION:International School and Conference on Network Science\nMeeting
  : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
- ed 2026-11-14\nCutoff time unannounced: official deadline day only. Verif
+ ed 2026-11-25\nCutoff time unannounced: official deadline day only. Verif
  y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
  ption: No\nOfficial source: https://netsci2027.github.io/calls/abstracts/
  \nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
@@ -877,7 +812,7 @@ DTSTART:20270130T115900Z
 DTEND:20270130T125900Z
 SUMMARY:ESWC 2027 · Main-track rebuttal period closes (opens January 26)
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -942,7 +877,7 @@ DTEND:20270212T125900Z
 SUMMARY:ESWC 2027 · Ph.D. Symposium paper (single-author PhD students only
  )
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/calls/phd-symposium/\nVenue Radar:
@@ -996,7 +931,7 @@ DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 SUMMARY:ESWC 2027 · Main-track notification to authors
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nCutoff 
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nCutoff 
  time unannounced: official deadline day only. Verify the organizer's subm
  ission portal.\nFormat: Paper-based / Springer LNCS proceedings\; posters
  \, demos\, industry and PhD papers in satellite proceedings\; Archival op
@@ -1082,7 +1017,7 @@ DTSTART:20270319T115900Z
 DTEND:20270319T125900Z
 SUMMARY:ESWC 2027 · Main-track camera-ready papers due
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -1099,7 +1034,7 @@ DTEND:20270319T125900Z
 SUMMARY:ESWC 2027 · Industry track extended abstracts (4 pages\; at least 
  one non-academic author required)
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/calls/industry-track/\nVenue Radar
@@ -1116,7 +1051,7 @@ DTEND:20270319T125900Z
 SUMMARY:ESWC 2027 · Posters and demos submission (4 pages\, LNCS\; dates s
  ubject to change)
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/calls/poster-demo/\nVenue Radar: h
@@ -1247,7 +1182,7 @@ DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270522
 SUMMARY:NetSci 2027 · Conference
 DESCRIPTION:International School and Conference on Network Science\nStatus:
-  confirmed\, checked 2026-11-14\nOfficial source: https://netsci2027.gith
+  confirmed\, checked 2026-11-25\nOfficial source: https://netsci2027.gith
  ub.io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027\n
  Notes: Official NetSci 2027 site (TU Dresden) confirms May 17-21\, 2027 (
  satellites/school May 17-18\, main conference May 18-21). One-page abstra
@@ -1283,7 +1218,7 @@ DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270528
 SUMMARY:ESWC 2027 · Conference
 DESCRIPTION:European Semantic Web Conference\nStatus: confirmed\, checked 2
- 026-11-14\nOfficial source: https://2027.eswc-conferences.org/\nVenue Rad
+ 026-11-25\nOfficial source: https://2027.eswc-conferences.org/\nVenue Rad
  ar: https://gon-uri.github.io/venue-radar/#eswc-2027\nNotes: Official sit
  e: 24th ESWC\, May 23-27\, 2027\, St. Raphael Resort & Marina\, Limassol\
  ; workshops/tutorials May 23-24. All deadlines 23:59 AoE. Research\, Reso

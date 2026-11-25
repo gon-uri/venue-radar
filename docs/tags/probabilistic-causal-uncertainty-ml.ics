@@ -11,57 +11,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:sdm-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260411T115900Z
-DTEND:20260411T125900Z
-SUMMARY:SDM 2026 · Abstract submission deadline
-DESCRIPTION:SIAM International Conference on Data Mining\nMeeting: 2026-11-
- 19 to 2026-11-20\, Salt Lake City\, Utah\, USA\nStatus: confirmed\, check
- ed 2026-10-28\nFormat: Paper-based\; Archival option: Yes\nOfficial sourc
- e: https://www.siam.org/conferences-events/siam-conferences/sdm26/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#sdm-2026
-CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
- ability & Interpretability,Machine Learning
-URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
-END:VEVENT
-BEGIN:VEVENT
-UID:sdm-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260418T115900Z
-DTEND:20260418T125900Z
-SUMMARY:SDM 2026 · Full paper submission deadline
-DESCRIPTION:SIAM International Conference on Data Mining\nMeeting: 2026-11-
- 19 to 2026-11-20\, Salt Lake City\, Utah\, USA\nStatus: confirmed\, check
- ed 2026-10-28\nFormat: Paper-based\; Archival option: Yes\nOfficial sourc
- e: https://www.siam.org/conferences-events/siam-conferences/sdm26/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#sdm-2026
-CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
- ability & Interpretability,Machine Learning
-URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
-END:VEVENT
-BEGIN:VEVENT
-UID:siam-mds-2026-deadline-minisymposium-proposal@scientific-conference-cal
- endar
-DTSTAMP:19700101T000000Z
-DTSTART:20260421T035900Z
-DTEND:20260421T045900Z
-SUMMARY:SIAM MDS 2026 · Minisymposium and miniposterium proposals
-DESCRIPTION:SIAM Conference on Mathematics of Data Science\nMeeting: 2026-1
- 1-16 to 2026-11-20\, Salt Lake City\, Utah\, USA\nStatus: confirmed\, che
- cked 2026-10-31\nCutoff note: siam.org (archived Apr 19\, 2026) stated Ap
- r 20\, 11:59 pm ET\; the SIAM participation system lists Apr 30. Earliest
-  stated cutoff stored.\nFormat: Abstract-based / non-archival (minisympos
- ia and contributed posters)\; Archival option: No\nOfficial source: https
- ://web.archive.org/web/20260419233120/https://www.siam.org/conferences-ev
- ents/siam-conferences/mds26/submissions/\nVenue Radar: https://gon-uri.gi
- thub.io/venue-radar/#siam-mds-2026
-CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data 
- Mining & Data Science
-URL:https://web.archive.org/web/20260419233120/https://www.siam.org/confere
- nces-events/siam-conferences/mds26/submissions/
-END:VEVENT
-BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260505T115900Z
@@ -90,23 +39,6 @@ DESCRIPTION:Conference on Neural Information Processing Systems\nMeeting: 2
 CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
  ential Data,Explainability & Interpretability
 URL:https://neurips.cc/Conferences/2026/Dates
-END:VEVENT
-BEGIN:VEVENT
-UID:siam-mds-2026-deadline-poster@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260519T035900Z
-DTEND:20260519T045900Z
-SUMMARY:SIAM MDS 2026 · Contributed poster abstracts (no contributed lectu
- res solicited)
-DESCRIPTION:SIAM Conference on Mathematics of Data Science\nMeeting: 2026-1
- 1-16 to 2026-11-20\, Salt Lake City\, Utah\, USA\nStatus: confirmed\, che
- cked 2026-10-31\nFormat: Abstract-based / non-archival (minisymposia and 
- contributed posters)\; Archival option: No\nOfficial source: https://meet
- ings.siam.org/start.cfm?CONFCODE=mds26\nVenue Radar: https://gon-uri.gith
- ub.io/venue-radar/#siam-mds-2026
-CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data 
- Mining & Data Science
-URL:https://meetings.siam.org/start.cfm?CONFCODE=mds26
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-deadline-workshop@scientific-conference-calendar
@@ -153,36 +85,6 @@ DESCRIPTION:Asian Conference on Machine Learning\nMeeting: 2026-12-01 to 20
 CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
  inability & Interpretability,Robustness & Safety
 URL:https://www.acml-conf.org/2026/calls/papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260806T115900Z
-DTEND:20260806T125900Z
-SUMMARY:LoG 2026 · Abstract registration deadline (both tracks)
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260808T115900Z
-DTEND:20260808T125900Z
-SUMMARY:LoG 2026 · Paper / extended abstract submission deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:ml4h-2026-deadline-full-paper@scientific-conference-calendar
@@ -338,21 +240,6 @@ CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning
 URL:https://algorithmiclearningtheory.org/alt2027/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:log-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261016T115900Z
-DTEND:20261016T125900Z
-SUMMARY:LoG 2026 · Camera-ready deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
 UID:acml-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261102T115900Z
@@ -418,32 +305,6 @@ CATEGORIES:Healthcare & Clinical AI,Machine Learning,Time Series & Sequenti
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:siam-mds-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261121
-SUMMARY:SIAM MDS 2026 · Conference
-DESCRIPTION:SIAM Conference on Mathematics of Data Science\nStatus: confirm
- ed\, checked 2026-10-31\nOfficial source: https://engage.siam.org/events/
- event-description?CalendarEventKey=1e208b3f-237c-4753-826e-019d075b34d7&H
- ome=%2fevents%2fcalendar\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#siam-mds-2026\nNotes: Conference of the SIAM Activity Group on Data 
- Science\, held jointly with IS26 and SDM26 at the Salt Palace Convention 
- Center. SIAM's event listing and participation system (read 2026-10-31\; 
- siam.org returned HTTP 403\, so its Apr 19 archived submissions page was 
- used) confirm Nov 16-20 and closed calls at 11:59 pm ET. Contributed lect
- ures were not solicited\; minisymposium speaker abstracts (May 18) come b
- y organizer invitation. The call asks only for 1\,500-character presentat
- ion abstracts and names no proceedings. Size L reflects 217 minisymposium
-  sessions\, plenaries and a joint poster session in the program. Size is 
- an editorial estimate.
-CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data 
- Mining & Data Science
-URL:https://engage.siam.org/events/event-description?CalendarEventKey=1e208
- b3f-237c-4753-826e-019d075b34d7&Home=%2fevents%2fcalendar
-LOCATION:Salt Lake City\, Utah\, USA
-END:VEVENT
-BEGIN:VEVENT
 UID:ijcnn-2027-deadline-workshop-proposal@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -475,45 +336,6 @@ DESCRIPTION:Conference on Causal Learning and Reasoning\nMeeting: 2027-05-0
 CATEGORIES:Probabilistic\, Causal & Uncertainty ML,Machine Learning,Learnin
  g Theory & Statistical Foundations
 URL:https://www.cclear.cc/2027/CallforPapers
-END:VEVENT
-BEGIN:VEVENT
-UID:sdm-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261121
-SUMMARY:SDM 2026 · Conference
-DESCRIPTION:SIAM International Conference on Data Mining\nStatus: confirmed
- \, checked 2026-10-28\nOfficial source: https://www.siam.org/conferences-
- events/siam-conferences/sdm26/\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#sdm-2026\nNotes: SIAM's official event listing (checked 2026-1
- 0-28) confirms Nov 19-20 at the Salt Palace Convention Center\, held join
- tly with IS26 and MDS26. The SDM26 page returned HTTP 403 that day\, so t
- he April abstract/paper deadlines were not re-read and remain as last ver
- ified on 2026-08-20.
-CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
- ability & Interpretability,Machine Learning
-URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
-LOCATION:Salt Lake City\, Utah\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
-SUMMARY:LoG 2026 · Conference
-DESCRIPTION:Learning on Graphs Conference\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://logconference.org/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#log-2026\nNotes: Fifth annual edition\, i
- n person at Northeastern University. Extended Aug 5/7 deadlines replace t
- he struck-through July 29/Aug 1 dates. Proceedings papers and non-archiva
- l extended abstracts share the registration and final submission cutoffs\
- , represented as one route. The TMLR presentation track requires an alrea
- dy published paper\, so it is not a new-paper opportunity. LoG is distinc
- t from LOD/AIS. Size M is an editorial estimate.
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/
-LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:ida-2027-deadline-abstract@scientific-conference-calendar
@@ -604,7 +426,7 @@ DTSTART:20261205T115900Z
 DTEND:20261205T125900Z
 SUMMARY:RSS 2027 · Stage 1 extended abstract submission deadline
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1412,7 +1234,7 @@ DTSTART:20270417T115900Z
 DTEND:20270417T125900Z
 SUMMARY:RSS 2027 · Stage 2 final paper deadline (invited authors only)
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1580,7 +1402,7 @@ DTSTART:20270501T115900Z
 DTEND:20270501T125900Z
 SUMMARY:RSS 2027 · Final paper acceptance notification
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1823,7 +1645,7 @@ DTSTART:20270515T115900Z
 DTEND:20270515T125900Z
 SUMMARY:RSS 2027 · Camera-ready deadline
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -2226,7 +2048,7 @@ DTSTART;VALUE=DATE:20270706
 DTEND;VALUE=DATE:20270712
 SUMMARY:RSS 2027 · Conference
 DESCRIPTION:Robotics: Science and Systems\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
+ -11-25\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#rss-2027\nNotes: New two-stage 2027 
  process requires a six-page initial submission by December 4\, 2026. Only
   authors invited after review may submit the April final paper\; it is no

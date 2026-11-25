@@ -55,36 +55,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
-UID:log-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260806T115900Z
-DTEND:20260806T125900Z
-SUMMARY:LoG 2026 · Abstract registration deadline (both tracks)
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260808T115900Z
-DTEND:20260808T125900Z
-SUMMARY:LoG 2026 · Paper / extended abstract submission deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
 UID:ieee-bigdata-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260821
@@ -164,21 +134,6 @@ CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
 URL:https://satml.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:log-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261016T115900Z
-DTEND:20261016T125900Z
-SUMMARY:LoG 2026 · Camera-ready deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsys-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261030T190000Z
@@ -226,26 +181,6 @@ DESCRIPTION:IEEE International Conference on Big Data\nMeeting: 2026-12-14
 CATEGORIES:Data Mining & Data Science,Machine Learning,Time Series & Sequen
  tial Data,Federated & Distributed Learning
 URL:https://bigdataieee.org/BigData2026/important-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
-SUMMARY:LoG 2026 · Conference
-DESCRIPTION:Learning on Graphs Conference\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://logconference.org/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#log-2026\nNotes: Fifth annual edition\, i
- n person at Northeastern University. Extended Aug 5/7 deadlines replace t
- he struck-through July 29/Aug 1 dates. Proceedings papers and non-archiva
- l extended abstracts share the registration and final submission cutoffs\
- , represented as one route. The TMLR presentation track requires an alrea
- dy published paper\, so it is not a new-paper opportunity. LoG is distinc
- t from LOD/AIS. Size M is an editorial estimate.
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/
-LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-conference@scientific-conference-calendar
@@ -405,7 +340,7 @@ DTEND:20270202T125900Z
 SUMMARY:KDD 2027 (est.) · Abstract submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-20. Check the organizer's call before relying 
+ stimated\, checked 2026-11-25. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -436,7 +371,7 @@ DTEND:20270209T125900Z
 SUMMARY:KDD 2027 (est.) · Paper submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-20. Check the organizer's call before relying 
+ stimated\, checked 2026-11-25. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -675,7 +610,7 @@ DTEND;VALUE=DATE:20270517
 SUMMARY:KDD 2027 (est.) · Cycle 2 paper notification
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-20. Check the organizer's call before relying 
+ stimated\, checked 2026-11-25. Check the organizer's call before relying 
  on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
   call for the real date and time.\nFormat: Paper-based / mixed tracks\; A
  rchival option: Yes\nPrevious edition's page: https://kdd2026.kdd.org/res
@@ -849,7 +784,7 @@ DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270806
 SUMMARY:KDD 2027 · Conference
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-11-20\nOfficial source: https://kdd2027.k
+ tatus: confirmed\, checked 2026-11-25\nOfficial source: https://kdd2027.k
  dd.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027\nNo
  tes: Official site confirms San Jose McEnery Convention Center\, Aug 1-5.
   Cycle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 

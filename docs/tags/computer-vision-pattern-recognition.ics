@@ -834,7 +834,7 @@ DTSTART:20261205T115900Z
 DTEND:20261205T125900Z
 SUMMARY:RSS 2027 · Stage 1 extended abstract submission deadline
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1257,19 +1257,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:miccai-2027-deadline-registration@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270213T115900Z
-DTEND:20270213T125900Z
-SUMMARY:MICCAI 2027 (est.) · Paper registration deadline
+DTSTART:20270212T075900Z
+DTEND:20270212T085900Z
+SUMMARY:MICCAI 2027 · Paper registration deadline
 DESCRIPTION:International Conference on Medical Image Computing and Compute
  r Assisted Intervention\nMeeting: 2027-09-27 to 2027-10-01\, Auckland\, N
- ew Zealand\nStatus: estimated\, checked 2026-11-20. Check the organizer's
-  call before relying on it.\nFormat: Paper-based\; Archival option: Yes (
- est.)\nPrevious edition's page: https://conferences.miccai.org/2026/en/de
- fault.asp\nVenue Radar: https://gon-uri.github.io/venue-radar/#miccai-202
- 7
+ ew Zealand\nStatus: confirmed\, checked 2026-11-25\nFormat: Paper-based\;
+  Archival option: Yes (est.)\nOfficial source: https://conferences.miccai
+ .org/2027/en/IMPORTANT-DATES.html\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#miccai-2027
 CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
  Learning,Neuroimaging & Brain Mapping
-URL:https://conferences.miccai.org/2026/en/default.asp
+URL:https://conferences.miccai.org/2027/en/IMPORTANT-DATES.html
 END:VEVENT
 BEGIN:VEVENT
 UID:midl-2027-deadline-notification@scientific-conference-calendar
@@ -1341,6 +1340,22 @@ CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
 URL:https://sites.google.com/view/ipcai2027/conference-timeline
 END:VEVENT
 BEGIN:VEVENT
+UID:miccai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270226T075900Z
+DTEND:20270226T085900Z
+SUMMARY:MICCAI 2027 · Full paper submission deadline
+DESCRIPTION:International Conference on Medical Image Computing and Compute
+ r Assisted Intervention\nMeeting: 2027-09-27 to 2027-10-01\, Auckland\, N
+ ew Zealand\nStatus: confirmed\, checked 2026-11-25\nFormat: Paper-based\;
+  Archival option: Yes (est.)\nOfficial source: https://conferences.miccai
+ .org/2027/en/IMPORTANT-DATES.html\nVenue Radar: https://gon-uri.github.io
+ /venue-radar/#miccai-2027
+CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
+ Learning,Neuroimaging & Brain Mapping
+URL:https://conferences.miccai.org/2027/en/IMPORTANT-DATES.html
+END:VEVENT
+BEGIN:VEVENT
 UID:cvpr-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270225
@@ -1356,23 +1371,6 @@ DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
-END:VEVENT
-BEGIN:VEVENT
-UID:miccai-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270227T115900Z
-DTEND:20270227T125900Z
-SUMMARY:MICCAI 2027 (est.) · Full paper submission deadline
-DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nMeeting: 2027-09-27 to 2027-10-01\, Auckland\, N
- ew Zealand\nStatus: estimated\, checked 2026-11-20. Check the organizer's
-  call before relying on it.\nFormat: Paper-based\; Archival option: Yes (
- est.)\nPrevious edition's page: https://conferences.miccai.org/2026/en/de
- fault.asp\nVenue Radar: https://gon-uri.github.io/venue-radar/#miccai-202
- 7
-CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
- Learning,Neuroimaging & Brain Mapping
-URL:https://conferences.miccai.org/2026/en/default.asp
 END:VEVENT
 BEGIN:VEVENT
 UID:eusipco-2027-deadline-tutorial-proposal@scientific-conference-calendar
@@ -1704,7 +1702,7 @@ DTSTART:20270417T115900Z
 DTEND:20270417T125900Z
 SUMMARY:RSS 2027 · Stage 2 final paper deadline (invited authors only)
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1761,7 +1759,7 @@ DTSTART:20270501T115900Z
 DTEND:20270501T125900Z
 SUMMARY:RSS 2027 · Final paper acceptance notification
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -1861,7 +1859,7 @@ DTSTART:20270515T115900Z
 DTEND:20270515T125900Z
 SUMMARY:RSS 2027 · Camera-ready deadline
 DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
- 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-14\nFormat: Pape
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
  r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
  ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
  ar/#rss-2027
@@ -2060,20 +2058,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:miccai-2027-deadline-notification@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270612
-DTEND;VALUE=DATE:20270613
-SUMMARY:MICCAI 2027 (est.) · Notification of paper decisions
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:MICCAI 2027 · Notification of paper decisions
 DESCRIPTION:International Conference on Medical Image Computing and Compute
  r Assisted Intervention\nMeeting: 2027-09-27 to 2027-10-01\, Auckland\, N
- ew Zealand\nStatus: estimated\, checked 2026-11-20. Check the organizer's
-  call before relying on it.\nEstimated day only\; no cutoff hour stored. 
- Check the organizer's call for the real date and time.\nFormat: Paper-bas
- ed\; Archival option: Yes (est.)\nPrevious edition's page: https://confer
- ences.miccai.org/2026/en/IMPORTANT-DATES.html\nVenue Radar: https://gon-u
- ri.github.io/venue-radar/#miccai-2027
+ ew Zealand\nStatus: confirmed\, checked 2026-11-25\nCutoff time unannounc
+ ed: official deadline day only. Verify the organizer's submission portal.
+ \nFormat: Paper-based\; Archival option: Yes (est.)\nOfficial source: htt
+ ps://conferences.miccai.org/2027/en/IMPORTANT-DATES.html\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#miccai-2027
 CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
  Learning,Neuroimaging & Brain Mapping
-URL:https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html
+URL:https://conferences.miccai.org/2027/en/IMPORTANT-DATES.html
 END:VEVENT
 BEGIN:VEVENT
 UID:euvip-2027-deadline-full-paper@scientific-conference-calendar
@@ -2254,7 +2251,7 @@ DTSTART;VALUE=DATE:20270706
 DTEND;VALUE=DATE:20270712
 SUMMARY:RSS 2027 · Conference
 DESCRIPTION:Robotics: Science and Systems\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
+ -11-25\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#rss-2027\nNotes: New two-stage 2027 
  process requires a six-page initial submission by December 4\, 2026. Only
   authors invited after review may submit the April final paper\; it is no
@@ -2795,14 +2792,16 @@ DTSTART;VALUE=DATE:20270927
 DTEND;VALUE=DATE:20271002
 SUMMARY:MICCAI 2027 · Conference
 DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nStatus: confirmed\, checked 2026-11-20\nOfficial
+ r Assisted Intervention\nStatus: confirmed\, checked 2026-11-25\nOfficial
   source: https://conferences.miccai.org/2027/en/default.asp\nVenue Radar:
   https://gon-uri.github.io/venue-radar/#miccai-2027\nNotes: The MICCAI 20
  27 site gives Sep 27-Oct 1 at the NZ International Convention Centre\, Au
  ckland (also the Society's Feb 18\, 2026 announcement)\; the Society upco
- ming page says Sep 26-Oct 1\, so the edition site is used. As of 2026-10-
- 28 the paper-submission and calls pages are under construction\; February
-  dates are 2026-edition proxies.
+ ming page says Sep 26-Oct 1\, so the edition site is used. The 2027 Impor
+ tant Dates page (read 2026-11-25) gives abstract registration Thu Feb 11 
+ and paper submission Thu Feb 25\, 2027\, both 23:59 PST\, and decisions a
+ t EOD Jun 11\, 2027 Pacific Time (day only). The paper-submission page is
+  still an empty shell.
 CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
  Learning,Neuroimaging & Brain Mapping
 URL:https://conferences.miccai.org/2027/en/default.asp

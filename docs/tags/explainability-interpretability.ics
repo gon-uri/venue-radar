@@ -10,36 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:sdm-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260411T115900Z
-DTEND:20260411T125900Z
-SUMMARY:SDM 2026 · Abstract submission deadline
-DESCRIPTION:SIAM International Conference on Data Mining\nMeeting: 2026-11-
- 19 to 2026-11-20\, Salt Lake City\, Utah\, USA\nStatus: confirmed\, check
- ed 2026-10-28\nFormat: Paper-based\; Archival option: Yes\nOfficial sourc
- e: https://www.siam.org/conferences-events/siam-conferences/sdm26/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#sdm-2026
-CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
- ability & Interpretability,Machine Learning
-URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
-END:VEVENT
-BEGIN:VEVENT
-UID:sdm-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260418T115900Z
-DTEND:20260418T125900Z
-SUMMARY:SDM 2026 · Full paper submission deadline
-DESCRIPTION:SIAM International Conference on Data Mining\nMeeting: 2026-11-
- 19 to 2026-11-20\, Salt Lake City\, Utah\, USA\nStatus: confirmed\, check
- ed 2026-10-28\nFormat: Paper-based\; Archival option: Yes\nOfficial sourc
- e: https://www.siam.org/conferences-events/siam-conferences/sdm26/\nVenue
-  Radar: https://gon-uri.github.io/venue-radar/#sdm-2026
-CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
- ability & Interpretability,Machine Learning
-URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
-END:VEVENT
-BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260505T115900Z
@@ -808,25 +778,6 @@ CATEGORIES:Evolutionary Computation & Optimization,Machine Learning,Explain
 URL:https://www.evostar.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
-UID:sdm-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261121
-SUMMARY:SDM 2026 · Conference
-DESCRIPTION:SIAM International Conference on Data Mining\nStatus: confirmed
- \, checked 2026-10-28\nOfficial source: https://www.siam.org/conferences-
- events/siam-conferences/sdm26/\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#sdm-2026\nNotes: SIAM's official event listing (checked 2026-1
- 0-28) confirms Nov 19-20 at the Salt Palace Convention Center\, held join
- tly with IS26 and MDS26. The SDM26 page returned HTTP 403 that day\, so t
- he April abstract/paper deadlines were not re-read and remain as last ver
- ified on 2026-08-20.
-CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
- ability & Interpretability,Machine Learning
-URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
-LOCATION:Salt Lake City\, Utah\, USA
-END:VEVENT
-BEGIN:VEVENT
 UID:chi-2027-deadline-panel-proposal@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261120T115900Z
@@ -1068,7 +1019,7 @@ DTEND:20261211T125900Z
 SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: mandatory abst
  ract submission
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -1168,7 +1119,7 @@ DTEND:20261218T125900Z
 SUMMARY:ESWC 2027 · Research\, Resources and In-Use tracks: full paper sub
  mission (15 pages\, LNCS)
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -1184,7 +1135,7 @@ DTSTART:20261218T115900Z
 DTEND:20261218T125900Z
 SUMMARY:ESWC 2027 · Workshop proposals
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -1262,7 +1213,7 @@ DTSTART:20270115T115900Z
 DTEND:20270115T125900Z
 SUMMARY:ESWC 2027 · Tutorial proposals
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -1451,7 +1402,7 @@ DTSTART:20270130T115900Z
 DTEND:20270130T125900Z
 SUMMARY:ESWC 2027 · Main-track rebuttal period closes (opens January 26)
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -1548,7 +1499,7 @@ DTEND:20270202T125900Z
 SUMMARY:KDD 2027 (est.) · Abstract submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-20. Check the organizer's call before relying 
+ stimated\, checked 2026-11-25. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -1651,7 +1602,7 @@ DTEND:20270209T125900Z
 SUMMARY:KDD 2027 (est.) · Paper submission deadline
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-20. Check the organizer's call before relying 
+ stimated\, checked 2026-11-25. Check the organizer's call before relying 
  on it.\nFormat: Paper-based / mixed tracks\; Archival option: Yes\nPrevio
  us edition's page: https://kdd2026.kdd.org/research-track-call-for-papers
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027
@@ -1701,7 +1652,7 @@ DTEND:20270212T125900Z
 SUMMARY:ESWC 2027 · Ph.D. Symposium paper (single-author PhD students only
  )
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/calls/phd-symposium/\nVenue Radar:
@@ -1765,7 +1716,7 @@ DTEND:20270220T125900Z
 SUMMARY:CoNLL 2027 (est.) · Direct paper submission deadline
 DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
   2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
- hecked 2026-11-14. Check the organizer's call before relying on it.\nForm
+ hecked 2026-11-25. Check the organizer's call before relying on it.\nForm
  at: Paper-based\; Archival option: Yes (est.)\nOfficial source: https://w
  eb.archive.org/web/20260201152714/https://conll.org/\nVenue Radar: https:
  //gon-uri.github.io/venue-radar/#conll-2027
@@ -1781,7 +1732,7 @@ DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 SUMMARY:ESWC 2027 · Main-track notification to authors
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nCutoff 
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nCutoff 
  time unannounced: official deadline day only. Verify the organizer's subm
  ission portal.\nFormat: Paper-based / Springer LNCS proceedings\; posters
  \, demos\, industry and PhD papers in satellite proceedings\; Archival op
@@ -1982,7 +1933,7 @@ DTSTART:20270319T115900Z
 DTEND:20270319T125900Z
 SUMMARY:ESWC 2027 · Main-track camera-ready papers due
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/important-dates/\nVenue Radar: htt
@@ -1999,7 +1950,7 @@ DTEND:20270319T125900Z
 SUMMARY:ESWC 2027 · Industry track extended abstracts (4 pages\; at least 
  one non-academic author required)
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/calls/industry-track/\nVenue Radar
@@ -2016,7 +1967,7 @@ DTEND:20270319T125900Z
 SUMMARY:ESWC 2027 · Posters and demos submission (4 pages\, LNCS\; dates s
  ubject to change)
 DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
- 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-14\nFormat:
+ 5-27\, Limassol\, Cyprus\nStatus: confirmed\, checked 2026-11-25\nFormat:
   Paper-based / Springer LNCS proceedings\; posters\, demos\, industry and
   PhD papers in satellite proceedings\; Archival option: Yes\nOfficial sou
  rce: https://2027.eswc-conferences.org/calls/poster-demo/\nVenue Radar: h
@@ -2473,7 +2424,7 @@ DTEND;VALUE=DATE:20270422
 SUMMARY:CoNLL 2027 (est.) · Notification of acceptance
 DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
   2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
- hecked 2026-11-14. Check the organizer's call before relying on it.\nEsti
+ hecked 2026-11-25. Check the organizer's call before relying on it.\nEsti
  mated day only\; no cutoff hour stored. Check the organizer's call for th
  e real date and time.\nFormat: Paper-based\; Archival option: Yes (est.)\
  nOfficial source: https://web.archive.org/web/20260201152714/https://conl
@@ -2849,7 +2800,7 @@ DTEND;VALUE=DATE:20270517
 SUMMARY:KDD 2027 (est.) · Cycle 2 paper notification
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nM
  eeting: 2027-08-01 to 2027-08-05\, San Jose\, California\, USA\nStatus: e
- stimated\, checked 2026-11-20. Check the organizer's call before relying 
+ stimated\, checked 2026-11-25. Check the organizer's call before relying 
  on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
   call for the real date and time.\nFormat: Paper-based / mixed tracks\; A
  rchival option: Yes\nPrevious edition's page: https://kdd2026.kdd.org/res
@@ -2882,7 +2833,7 @@ DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270528
 SUMMARY:ESWC 2027 · Conference
 DESCRIPTION:European Semantic Web Conference\nStatus: confirmed\, checked 2
- 026-11-14\nOfficial source: https://2027.eswc-conferences.org/\nVenue Rad
+ 026-11-25\nOfficial source: https://2027.eswc-conferences.org/\nVenue Rad
  ar: https://gon-uri.github.io/venue-radar/#eswc-2027\nNotes: Official sit
  e: 24th ESWC\, May 23-27\, 2027\, St. Raphael Resort & Marina\, Limassol\
  ; workshops/tutorials May 23-24. All deadlines 23:59 AoE. Research\, Reso
@@ -3209,7 +3160,7 @@ DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270705
 SUMMARY:CoNLL 2027 (est.) · Conference
 DESCRIPTION:Conference on Computational Natural Language Learning\nStatus: 
- estimated\, checked 2026-11-14. Check the organizer's call before relying
+ estimated\, checked 2026-11-25. Check the organizer's call before relying
   on it.\nOfficial source: https://www.conll.org/\nVenue Radar: https://go
  n-uri.github.io/venue-radar/#conll-2027\nNotes: As of 2026-10-28 conll.or
  g publishes no 2027 dates\, host\, co-location or call. Meeting is a one-
@@ -3520,7 +3471,7 @@ DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270806
 SUMMARY:KDD 2027 · Conference
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-11-20\nOfficial source: https://kdd2027.k
+ tatus: confirmed\, checked 2026-11-25\nOfficial source: https://kdd2027.k
  dd.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027\nNo
  tes: Official site confirms San Jose McEnery Convention Center\, Aug 1-5.
   Cycle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 

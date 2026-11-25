@@ -10,68 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:nolta-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260520
-DTEND;VALUE=DATE:20260521
-SUMMARY:NOLTA 2026 · Regular and special-session papers
-DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
- s\nMeeting: 2026-11-17 to 2026-11-20\, Grenoble\, France\nStatus: confirm
- ed\, checked 2026-11-14\nCutoff time unannounced: official deadline day o
- nly. Verify the organizer's submission portal.\nFormat: Paper-based\; Arc
- hival option: Yes\nOfficial source: https://nolta2026.org/\nVenue Radar: 
- https://gon-uri.github.io/venue-radar/#nolta-2026
-CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
- p Representation Learning,Control & Robotics
-URL:https://nolta2026.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260806T115900Z
-DTEND:20260806T125900Z
-SUMMARY:LoG 2026 · Abstract registration deadline (both tracks)
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260808T115900Z
-DTEND:20260808T125900Z
-SUMMARY:LoG 2026 · Paper / extended abstract submission deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
-END:VEVENT
-BEGIN:VEVENT
-UID:nolta-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260816
-SUMMARY:NOLTA 2026 · Camera-ready deadline
-DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
- s\nMeeting: 2026-11-17 to 2026-11-20\, Grenoble\, France\nStatus: confirm
- ed\, checked 2026-11-14\nCutoff time unannounced: official deadline day o
- nly. Verify the organizer's submission portal.\nFormat: Paper-based\; Arc
- hival option: Yes\nOfficial source: https://nolta2026.org/\nVenue Radar: 
- https://gon-uri.github.io/venue-radar/#nolta-2026
-CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
- p Representation Learning,Control & Robotics
-URL:https://nolta2026.org/
-END:VEVENT
-BEGIN:VEVENT
 UID:complex-networks-2026-deadline-extended-abstract@scientific-conference-
  calendar
 DTSTAMP:19700101T000000Z
@@ -222,21 +160,6 @@ DESCRIPTION:International Conference on Complex Networks and Their Applicat
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Data Mining & Data Science
 URL:https://complexnetworks.org/submission/
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261016T115900Z
-DTEND:20261016T125900Z
-SUMMARY:LoG 2026 · Camera-ready deadline
-DESCRIPTION:Learning on Graphs Conference\nMeeting: 2026-11-20 to 2026-11-2
- 2\, Boston\, Massachusetts\, USA\nStatus: confirmed\, checked 2026-11-14\
- nFormat: Paper-based / non-archival extended abstracts\; Archival option:
-  Yes\nOfficial source: https://logconference.org/cfp/\nVenue Radar: https
- ://gon-uri.github.io/venue-radar/#log-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:complenet-2027-deadline-extended-abstract@scientific-conference-calenda
@@ -433,7 +356,7 @@ DTEND;VALUE=DATE:20261116
 SUMMARY:NetSci 2027 · Satellite symposium proposal deadline
 DESCRIPTION:International School and Conference on Network Science\nMeeting
  : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
- ed 2026-11-14\nCutoff time unannounced: official deadline day only. Verif
+ ed 2026-11-25\nCutoff time unannounced: official deadline day only. Verif
  y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
  ption: No\nOfficial source: https://netsci2027.github.io/calls/satellites
  /\nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
@@ -458,44 +381,6 @@ DESCRIPTION:NetSciX: International School and Conference on Network Science
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos
 URL:https://netscix2027.github.io/key-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:nolta-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261121
-SUMMARY:NOLTA 2026 · Conference
-DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
- s\nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://nolta
- 2026.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#nolta-2026
- \nNotes: Annual IEICE NOLTA symposium\; official final extensions superse
- de older April/July dates. Proceedings papers\, with neural networks and 
- deep AI explicitly in scope. Deadline hours use estimated end-of-day AoE.
-  Size is an editorial category.
-CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
- p Representation Learning,Control & Robotics
-URL:https://nolta2026.org/
-LOCATION:Grenoble\, France
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
-SUMMARY:LoG 2026 · Conference
-DESCRIPTION:Learning on Graphs Conference\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://logconference.org/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#log-2026\nNotes: Fifth annual edition\, i
- n person at Northeastern University. Extended Aug 5/7 deadlines replace t
- he struck-through July 29/Aug 1 dates. Proceedings papers and non-archiva
- l extended abstracts share the registration and final submission cutoffs\
- , represented as one route. The TMLR presentation track requires an alrea
- dy published paper\, so it is not a new-paper opportunity. LoG is distinc
- t from LOD/AIS. Size M is an editorial estimate.
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/
-LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:complenet-2027-deadline-notification@scientific-conference-calendar
@@ -606,7 +491,7 @@ DTEND;VALUE=DATE:20261202
 SUMMARY:NetSci 2027 · One-page abstract submission (talk/poster)
 DESCRIPTION:International School and Conference on Network Science\nMeeting
  : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
- ed 2026-11-14\nCutoff time unannounced: official deadline day only. Verif
+ ed 2026-11-25\nCutoff time unannounced: official deadline day only. Verif
  y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
  ption: No\nOfficial source: https://netsci2027.github.io/calls/abstracts/
  \nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
@@ -793,7 +678,7 @@ DTEND;VALUE=DATE:20270116
 SUMMARY:NetSci 2027 · Abstract acceptance notification
 DESCRIPTION:International School and Conference on Network Science\nMeeting
  : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
- ed 2026-11-14\nCutoff time unannounced: official deadline day only. Verif
+ ed 2026-11-25\nCutoff time unannounced: official deadline day only. Verif
  y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
  ption: No\nOfficial source: https://netsci2027.github.io/calls/abstracts/
  \nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
@@ -1112,7 +997,7 @@ DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270522
 SUMMARY:NetSci 2027 · Conference
 DESCRIPTION:International School and Conference on Network Science\nStatus:
-  confirmed\, checked 2026-11-14\nOfficial source: https://netsci2027.gith
+  confirmed\, checked 2026-11-25\nOfficial source: https://netsci2027.gith
  ub.io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027\n
  Notes: Official NetSci 2027 site (TU Dresden) confirms May 17-21\, 2027 (
  satellites/school May 17-18\, main conference May 18-21). One-page abstra

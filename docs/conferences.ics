@@ -10,107 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:siam-mds-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261121
-SUMMARY:SIAM MDS 2026 · Conference
-DESCRIPTION:SIAM Conference on Mathematics of Data Science\nStatus: confirm
- ed\, checked 2026-10-31\nOfficial source: https://engage.siam.org/events/
- event-description?CalendarEventKey=1e208b3f-237c-4753-826e-019d075b34d7&H
- ome=%2fevents%2fcalendar\nVenue Radar: https://gon-uri.github.io/venue-ra
- dar/#siam-mds-2026\nNotes: Conference of the SIAM Activity Group on Data 
- Science\, held jointly with IS26 and SDM26 at the Salt Palace Convention 
- Center. SIAM's event listing and participation system (read 2026-10-31\; 
- siam.org returned HTTP 403\, so its Apr 19 archived submissions page was 
- used) confirm Nov 16-20 and closed calls at 11:59 pm ET. Contributed lect
- ures were not solicited\; minisymposium speaker abstracts (May 18) come b
- y organizer invitation. The call asks only for 1\,500-character presentat
- ion abstracts and names no proceedings. Size L reflects 217 minisymposium
-  sessions\, plenaries and a joint poster session in the program. Size is 
- an editorial estimate.
-CATEGORIES:Learning Theory & Statistical Foundations,Machine Learning,Data 
- Mining & Data Science
-URL:https://engage.siam.org/events/event-description?CalendarEventKey=1e208
- b3f-237c-4753-826e-019d075b34d7&Home=%2fevents%2fcalendar
-LOCATION:Salt Lake City\, Utah\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:nolta-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261121
-SUMMARY:NOLTA 2026 · Conference
-DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
- s\nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://nolta
- 2026.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#nolta-2026
- \nNotes: Annual IEICE NOLTA symposium\; official final extensions superse
- de older April/July dates. Proceedings papers\, with neural networks and 
- deep AI explicitly in scope. Deadline hours use estimated end-of-day AoE.
-  Size is an editorial category.
-CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
- p Representation Learning,Control & Robotics
-URL:https://nolta2026.org/
-LOCATION:Grenoble\, France
-END:VEVENT
-BEGIN:VEVENT
-UID:ideal-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261122
-SUMMARY:IDEAL 2026 · Conference
-DESCRIPTION:International Conference on Intelligent Data Engineering and Au
- tomated Learning\nStatus: confirmed\, checked 2026-10-28\nOfficial source
- : https://www.ideal2026.org/\nVenue Radar: https://gon-uri.github.io/venu
- e-radar/#ideal-2026\nNotes: Official IDEAL 2026 pages confirm the Univers
- ity of Manchester\, Nov 19-21\, 2026\, joint with WSOM+ 2026. The paper d
- eadline was extended from Jul 1 to Jul 24\, 2026\; no cutoff hour or time
- zone is published\, so the time is a provisional end-of-day AoE.
-CATEGORIES:Machine Learning,Data Mining & Data Science,Deep Representation 
- Learning,Learning Theory & Statistical Foundations
-URL:https://www.ideal2026.org/
-LOCATION:Manchester\, United Kingdom
-END:VEVENT
-BEGIN:VEVENT
-UID:sdm-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261121
-SUMMARY:SDM 2026 · Conference
-DESCRIPTION:SIAM International Conference on Data Mining\nStatus: confirmed
- \, checked 2026-10-28\nOfficial source: https://www.siam.org/conferences-
- events/siam-conferences/sdm26/\nVenue Radar: https://gon-uri.github.io/ve
- nue-radar/#sdm-2026\nNotes: SIAM's official event listing (checked 2026-1
- 0-28) confirms Nov 19-20 at the Salt Palace Convention Center\, held join
- tly with IS26 and MDS26. The SDM26 page returned HTTP 403 that day\, so t
- he April abstract/paper deadlines were not re-read and remain as last ver
- ified on 2026-08-20.
-CATEGORIES:Data Mining & Data Science,Time Series & Sequential Data,Explain
- ability & Interpretability,Machine Learning
-URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
-LOCATION:Salt Lake City\, Utah\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:log-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
-SUMMARY:LoG 2026 · Conference
-DESCRIPTION:Learning on Graphs Conference\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://logconference.org/\nVenue Radar: https:/
- /gon-uri.github.io/venue-radar/#log-2026\nNotes: Fifth annual edition\, i
- n person at Northeastern University. Extended Aug 5/7 deadlines replace t
- he struck-through July 29/Aug 1 dates. Proceedings papers and non-archiva
- l extended abstracts share the registration and final submission cutoffs\
- , represented as one route. The TMLR presentation track requires an alrea
- dy published paper\, so it is not a new-paper opportunity. LoG is distinc
- t from LOD/AIS. Size M is an editorial estimate.
-CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
- rning,Learning Theory & Statistical Foundations
-URL:https://logconference.org/
-LOCATION:Boston\, Massachusetts\, USA
-END:VEVENT
-BEGIN:VEVENT
 UID:bmvc-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261123
@@ -856,7 +755,7 @@ DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270501
 SUMMARY:NCM 2027 · Conference
 DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
- t\nStatus: confirmed\, checked 2026-11-14\nOfficial source: https://ncm-s
+ t\nStatus: confirmed\, checked 2026-11-25\nOfficial source: https://ncm-s
  ociety.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ncm-2027
  \nNotes: 36th annual meeting\, April 26-30\, 2027 at the Melia Sevilla\, 
  as the home and 2027 pages state: a cerebellar satellite and welcome rece
@@ -1053,7 +952,7 @@ DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270522
 SUMMARY:NetSci 2027 · Conference
 DESCRIPTION:International School and Conference on Network Science\nStatus:
-  confirmed\, checked 2026-11-14\nOfficial source: https://netsci2027.gith
+  confirmed\, checked 2026-11-25\nOfficial source: https://netsci2027.gith
  ub.io/\nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027\n
  Notes: Official NetSci 2027 site (TU Dresden) confirms May 17-21\, 2027 (
  satellites/school May 17-18\, main conference May 18-21). One-page abstra
@@ -1101,7 +1000,7 @@ DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270528
 SUMMARY:ESWC 2027 · Conference
 DESCRIPTION:European Semantic Web Conference\nStatus: confirmed\, checked 2
- 026-11-14\nOfficial source: https://2027.eswc-conferences.org/\nVenue Rad
+ 026-11-25\nOfficial source: https://2027.eswc-conferences.org/\nVenue Rad
  ar: https://gon-uri.github.io/venue-radar/#eswc-2027\nNotes: Official sit
  e: 24th ESWC\, May 23-27\, 2027\, St. Raphael Resort & Marina\, Limassol\
  ; workshops/tutorials May 23-24. All deadlines 23:59 AoE. Research\, Reso
@@ -1466,7 +1365,7 @@ DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270701
 SUMMARY:OHBM 2027 · Conference
 DESCRIPTION:Organization for Human Brain Mapping Annual Meeting\nStatus: co
- nfirmed\, checked 2026-10-28\nOfficial source: https://humanbrainmapping.
+ nfirmed\, checked 2026-11-25\nOfficial source: https://humanbrainmapping.
  org/ohbm-2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ohbm-
  2027\nNotes: Official OHBM 2027 pages confirm Toronto (Metro Toronto Conv
  ention Centre)\, Jun 26-30\, 2027. The submission site opens Mon Nov 2\, 
@@ -1631,7 +1530,7 @@ DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270705
 SUMMARY:CoNLL 2027 (est.) · Conference
 DESCRIPTION:Conference on Computational Natural Language Learning\nStatus: 
- estimated\, checked 2026-11-14. Check the organizer's call before relying
+ estimated\, checked 2026-11-25. Check the organizer's call before relying
   on it.\nOfficial source: https://www.conll.org/\nVenue Radar: https://go
  n-uri.github.io/venue-radar/#conll-2027\nNotes: As of 2026-10-28 conll.or
  g publishes no 2027 dates\, host\, co-location or call. Meeting is a one-
@@ -1718,7 +1617,7 @@ DTSTART;VALUE=DATE:20270706
 DTEND;VALUE=DATE:20270712
 SUMMARY:RSS 2027 · Conference
 DESCRIPTION:Robotics: Science and Systems\nStatus: confirmed\, checked 2026
- -11-14\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
+ -11-25\nOfficial source: https://roboticsconference.org/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#rss-2027\nNotes: New two-stage 2027 
  process requires a six-page initial submission by December 4\, 2026. Only
   authors invited after review may submit the April final paper\; it is no
@@ -1961,7 +1860,7 @@ DTSTART;VALUE=DATE:20270719
 DTEND;VALUE=DATE:20270724
 SUMMARY:ENOC 2027 · Conference
 DESCRIPTION:European Nonlinear Dynamics Conference\nStatus: confirmed\, che
- cked 2026-11-20\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
+ cked 2026-11-25\nOfficial source: https://enoc2027.com/\nVenue Radar: htt
  ps://gon-uri.github.io/venue-radar/#enoc-2027\nNotes: 12th ENOC (EUROMECH
   ENOCC series\, triennial per ENOC 2024)\, July 19-23\, 2027\, P&J Live\,
   Aberdeen\, per enoc2027.com and EUROMECH. Only 2-page extended abstracts
@@ -2099,7 +1998,7 @@ DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270806
 SUMMARY:KDD 2027 · Conference
 DESCRIPTION:ACM SIGKDD Conference on Knowledge Discovery and Data Mining\nS
- tatus: confirmed\, checked 2026-11-20\nOfficial source: https://kdd2027.k
+ tatus: confirmed\, checked 2026-11-25\nOfficial source: https://kdd2027.k
  dd.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#kdd-2027\nNo
  tes: Official site confirms San Jose McEnery Convention Center\, Aug 1-5.
   Cycle 1 closed July 2026 (notification Nov 14\, 2026). As of 2026-10-28 
@@ -2756,14 +2655,16 @@ DTSTART;VALUE=DATE:20270927
 DTEND;VALUE=DATE:20271002
 SUMMARY:MICCAI 2027 · Conference
 DESCRIPTION:International Conference on Medical Image Computing and Compute
- r Assisted Intervention\nStatus: confirmed\, checked 2026-11-20\nOfficial
+ r Assisted Intervention\nStatus: confirmed\, checked 2026-11-25\nOfficial
   source: https://conferences.miccai.org/2027/en/default.asp\nVenue Radar:
   https://gon-uri.github.io/venue-radar/#miccai-2027\nNotes: The MICCAI 20
  27 site gives Sep 27-Oct 1 at the NZ International Convention Centre\, Au
  ckland (also the Society's Feb 18\, 2026 announcement)\; the Society upco
- ming page says Sep 26-Oct 1\, so the edition site is used. As of 2026-10-
- 28 the paper-submission and calls pages are under construction\; February
-  dates are 2026-edition proxies.
+ ming page says Sep 26-Oct 1\, so the edition site is used. The 2027 Impor
+ tant Dates page (read 2026-11-25) gives abstract registration Thu Feb 11 
+ and paper submission Thu Feb 25\, 2027\, both 23:59 PST\, and decisions a
+ t EOD Jun 11\, 2027 Pacific Time (day only). The paper-submission page is
+  still an empty shell.
 CATEGORIES:Biomedical Imaging,Healthcare & Clinical AI,Deep Representation 
  Learning,Neuroimaging & Brain Mapping
 URL:https://conferences.miccai.org/2027/en/default.asp

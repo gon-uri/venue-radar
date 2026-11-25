@@ -83,15 +83,16 @@ export async function checkMobileCards(page, url, output) {
     assert((await first.boundingBox()).height > collapsedHeight + 100);
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)));
     if (output) await first.screenshot({path: path.join(output, `mobile-deadline-expanded-${width}.png`)});
-    await first.locator('.deadline-toggle').click();
+    // ADR-066: an open card shows the whole schedule; the inner toggle is hidden.
+    assert.equal(await first.locator('.deadline-toggle:visible').count(), 0);
     assert.equal(await first.locator('[data-deadline-row]:visible').count(), await first.locator('[data-deadline-row]').count());
+    assert(!(await first.locator('.next-step').isVisible()), 'The summary next step is not repeated in an open card');
     await toggle.focus();
     await page.keyboard.press('Space');
     await checkDisclosure(first, ['Conference', 'Submission status', 'Time left']);
     assert(await toggle.evaluate(button => document.activeElement === button), 'Collapsing retains keyboard focus');
     await page.keyboard.press('Enter');
-    assert.equal(await first.locator('[data-deadline-row]:visible').count(), await first.locator('[data-deadline-row]').count(), 'Nested milestone expansion survives card collapse');
-    await first.locator('.deadline-toggle').click();
+    assert.equal(await first.locator('[data-deadline-row]:visible').count(), await first.locator('[data-deadline-row]').count(), 'Reopening the card shows the whole schedule again');
     await page.evaluate(() => {
       search.value = 'coling';
       applyFilters();

@@ -85,7 +85,7 @@ export async function checkPhase3(page, url) {
   await summary.click();
   await page.locator('.sheet-apply').click();
   assert(!(await page.locator('#filter-details').evaluate(element => element.open)));
-  assert(!(await page.evaluate(() => document.body.classList.contains('sheet-open'))));
+  await page.waitForFunction(() => !document.body.classList.contains('sheet-open'));  // the toggle event fires async
 
   // Agenda: switch, link, headings in time order, remembered, no overflow.
   for (const [width, height] of [[1440, 900], [390, 844]]) {

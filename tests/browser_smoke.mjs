@@ -17,6 +17,7 @@ import {checkFilterRail} from './filter_rail.mjs';
 import {checkPhase3} from './phase3.mjs';
 import {checkCityIndex} from './city_index.mjs';
 import {checkPlanBAndShortlist} from './plan_b_shortlist.mjs';
+import {checkReviewFixes} from './review_fixes.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -214,12 +215,18 @@ try {
     'Healthcare & Biometrics', 'Neuroscience & Neurotechnology',
     'Responsible & Trustworthy AI',
   ]);
-  assert(await page.locator('.topic-family > summary').evaluateAll(summaries => summaries.every(summary => getComputedStyle(summary).display === 'list-item' && summary.title === 'Expand or collapse subtopics')));
+  assert(await page.locator('.topic-family > summary').evaluateAll(summaries => summaries.every(summary => getComputedStyle(summary).display === 'flex' && getComputedStyle(summary, '::marker').content !== 'normal' && summary.title === 'Expand or collapse subtopics')));
   assert.equal(await page.locator('#time-series-shortcut').count(), 0);
   assert(await page.locator('.topic-tree').evaluate(tree => tree.scrollHeight <= tree.clientHeight), 'All eight collapsed families must fit without scrolling');
-  await page.locator('.topic-family summary').first().click({position: {x: 8, y: 10}});
+  const familyChevron = async () => {
+    const summary = page.locator('.topic-family summary').first();
+    const box = await summary.boundingBox();
+    await summary.click({position: {x: box.width - 9, y: box.height / 2}});
+  };
+  // ADR-066: one chevron on the right is the expand target (no left marker).
+  await familyChevron();
   assert(await page.locator('.topic-tree').evaluate(tree => tree.scrollHeight > tree.clientHeight), 'Expanded subtopics must scroll within the box');
-  await page.locator('.topic-family summary').first().click({position: {x: 8, y: 10}});
+  await familyChevron();
   // ADR-049: search sits in the always-visible bar above More filters.
   const searchBox = await page.locator('#search').boundingBox();
   const panelTop = (await filterSummary.boundingBox()).y;
@@ -639,6 +646,7 @@ try {
   await checkPhase3(page, url);
   await checkCityIndex(page, url);
   await checkPlanBAndShortlist(page, url);
+  await checkReviewFixes(page, url);
   assert.deepEqual(fontRequests, [], 'Embedded fonts must not require a network request');
   // ADR-057: the page follows the system colour scheme with designed dark tokens.
   await page.emulateMedia({colorScheme: 'dark'});

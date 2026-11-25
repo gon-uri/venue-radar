@@ -69,7 +69,10 @@ additions, not from an older session entry or a filtered website screenshot.
   More info. Fixes (ADR-060): cutoff notes show once below the schedule when a
   row is opened, ICORE/CCF badges use a green-to-orange scale, and table
   countdowns are larger. The map has a city index beside it, grouped by
-  region with a filter box (ADR-061). Phase 4 (pending approval): a quiet
+  region with a filter box (ADR-061). Design review fixes (ADR-066): the rail
+  stops above the footer, rows are top-aligned, tablet columns no longer split
+  words, phone cards open the whole schedule, the agenda is evenly spaced, and
+  Community links are buttons with comments that follow the theme. Phase 4 (pending approval): a quiet
   90-day runway strip.
 - Header actions are Share on X, Star the repo and a Subscribe to calendar menu
   (Google/Apple/copy-link/download for submissions, all events, conference

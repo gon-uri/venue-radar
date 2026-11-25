@@ -706,3 +706,16 @@ td[data-label="Conference"] > a:hover, td[data-label="Conference"] > a:focus-vis
   .city-index .map-cities { max-height: 340px; overflow-y: auto; margin-top: 6px; }
   .map-city-link { min-height: 40px; }
 }
+
+/* Focus views (ADR-064/065): one banner for a shared shortlist or a Plan B. */
+.focus-banner { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin: 0 0 12px; padding: 10px 14px; border: 1px solid var(--accent-border); border-radius: 8px; background: var(--accent-tint); color: var(--text); font-size: .875rem; line-height: 1.4; }
+.focus-banner[hidden] { display: none; }
+.focus-banner p { margin: 0; flex: 1 1 22rem; min-width: 0; }
+.focus-banner:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+.focus-actions { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+/* The Plan B link sits under a future decision date, in expanded rows only. */
+.plan-b-line { display: none; order: 3; flex: 1 1 100%; font-size: .75rem; line-height: 1.3; }
+.deadline-group-row.is-expanded .plan-b-line:not([hidden]), .deadline-group-row:not(:has(.deadline-toggle)) .plan-b-line:not([hidden]) { display: block; }
+.plan-b-line .link-button { font-weight: 600; text-align: left; }
+.share-starred { font-size: .8125rem; white-space: nowrap; }
+.share-starred[hidden] { display: none; }

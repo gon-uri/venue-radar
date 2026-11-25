@@ -31,6 +31,9 @@ explicit refinements take precedence. Current rules live in
 | Review-queue truthfulness, size guardrails, search-text deduplication | ADR-048 (refines ADR-040/042's queue and ADR-047's archival queue rule) |
 | XLSX review mirror retired | ADR-052 (earlier ADRs' workbook clauses are historical) |
 | Traffic statistics (Google Tag Manager / GA4) | ADR-056 |
+| Per-family submission feeds | ADR-062 (refines ADR-053's combined-feed rule to cover them) |
+| Browser suite in CI | ADR-063 (advisory job) |
+| Focus views: Plan B after a rejection, shared shortlist link | ADR-064, ADR-065 (refine ADR-040's shareable state) |
 | Decision dates and next-edition announcements | ADR-054 (refines ADR-039's rollover and ADR-048's queue) |
 | Past editions leave the combined feeds | ADR-053 (refines ADR-044/045's feed-size levers; identity check reads per-edition feeds) |
 
@@ -1571,3 +1574,100 @@ explicit refinements take precedence. Current rules live in
 - Not changed: data, markers, popups, page filters, URLs, UIDs.
 - Consequences: Tests `tests/city_index.mjs` and
   `test_every_city_has_a_map_region`. The map is slightly taller.
+
+## ADR-062: Submission Deadline Feeds Per Topic Family
+
+- Status: Proposed 2026-11-25 (ranked list "family submission feeds"; owner
+  chose the batch); the menu wording awaits owner approval before merge.
+- Date: 2026-11-25
+- Context: `submissions.ics` holds every field (about 350 events); the 43
+  topic feeds hold all events for a leaf, not just deadlines. A researcher in
+  one field had no deadline-only subscription.
+- Decision:
+  1. `docs/families/<family-id>.ics`, one per family in
+     `data/topic_families.yml` (8 files), named "Venue Radar: <family label>
+     Submission Deadlines".
+  2. Membership follows the family chips: a series' central identities in
+     `data/conference_families.yml`, not the topic union.
+  3. Events are exactly the `submissions.ics` events (new-paper routes and
+     their gates) of current and upcoming editions (ADR-053), with the same
+     UIDs, so a field feed never introduces a new identity. Every family keeps
+     its URL even when empty.
+  4. The Subscribe menu gains a "Deadlines in one field" picker beside the
+     topic and series pickers.
+- Consequences: 21-91 KB per file on 2026-11-25; their union equals
+  `submissions.ics`. Tests: `FeedTests.test_family_feeds_*`, the menu
+  assertion in `test_site_assets.py`, and `tests/plan_b_shortlist.mjs`.
+- Alternatives considered: all events per family (larger, duplicates the
+  topic feeds); topic-union membership (a NeurIPS deadline in every family).
+
+## ADR-063: Browser Suite In CI (Advisory)
+
+- Status: Accepted 2026-11-25 (ranked item 5; owner chose the batch).
+- Date: 2026-11-25
+- Context: Two agents now change the page in parallel, and the Playwright
+  suite ran only on a maintainer's machine.
+- Decision: A second job, `browser`, in `.github/workflows/build.yml` runs
+  `tests/browser_smoke.mjs` against the committed `docs/index.html` on every
+  push and pull request. It installs `playwright@1.48.2` without a browser
+  download and uses the runner's Google Chrome. It is advisory
+  (`continue-on-error`) and keeps screenshots for 7 days when it fails.
+  Giscus and Google Tag Manager requests stay blocked.
+- Consequences: A red browser job does not block a merge yet. Once it has
+  passed consistently on Linux fonts, remove `continue-on-error` (owner
+  decision). Local runs remain the release gate until then.
+- Alternatives considered: a blocking job at once (risk of font-metric
+  failures unrelated to behaviour); Playwright's bundled Chromium (a large
+  download on every run).
+
+## ADR-064: Plan B After A Rejection
+
+- Status: Proposed 2026-11-25 (deferred "after a rejection" planner, unblocked
+  by ADR-054's decision dates); wording awaits owner approval before merge.
+- Date: 2026-11-25
+- Context: The decision date answers "when will I know"; the next question is
+  "where can the paper go then". ADR-054 filled decision dates for 81 of 86
+  open main-paper editions.
+- Decision:
+  1. Under each future decision date in an expanded row, a link "If rejected:
+     fitting venues still open after this decision" (script-only; hidden until
+     the row is opened, like ADR-055's provenance line).
+  2. It opens a focus view (`?after=<edition>`): other series that share a
+     central family with the edition and whose paper route is still open one
+     day after the decision, evaluated with the same rules as the live status
+     at that moment (gates that pass before then close the route).
+  3. Paper routes only (`PLAN_B_TYPES`: full, regular, short, workshop,
+     special-session, journal-track and resource papers); abstract-only,
+     poster, extended-abstract and non-archival discussion routes do not
+     count. The day's margin covers day-only decisions.
+  4. A banner states the rule and the decision date (marked "(estimated)"
+     when it is) with "Show all venues"; the view clears search, Starred only
+     and the time range so later deadlines are not hidden. Other filters
+     (family chips, ranks, archival) still apply.
+- Consequences: Computed in the browser from data already on the page; no
+  data, feed or identity change. PAKDD 2027 (decision Feb 26) gives 30
+  venues on 2026-11-25. Estimated deadlines appear with their usual markers.
+- Alternatives considered: topic-union matching (too broad); including
+  abstract and poster routes (not a home for a rejected paper); a separate
+  page per edition (more surface, no gain).
+
+## ADR-065: Shareable Shortlist Link
+
+- Status: Proposed 2026-11-25 (deferred "shareable shortlist URL"); wording
+  awaits owner approval before merge.
+- Date: 2026-11-25
+- Context: Stars live in one browser (ADR-040); "?starred=1" shows nothing to
+  anyone else, so a student could not send a list to a supervisor.
+- Decision:
+  1. "Share starred" beside "Starred only" (shown when anything is starred)
+     copies `<site>?list=<series slugs>`, sorted, unknown slugs dropped.
+  2. `?list=` opens a focus view of those series on both tabs with a banner
+     "Shared shortlist: N series (names)." plus "Star these series" (adds
+     them to the visitor's own stars; nothing is starred automatically) and
+     "Show all venues".
+  3. `list` and `after` are owned URL parameters; one focus view at a time;
+     Clear filters and a deep link to a hidden row end it.
+- Consequences: Links use the stable series slugs already used by series
+  feeds and deep links, so they survive edition rollovers. No storage change.
+- Alternatives considered: sharing editions instead of series (links would go
+  stale every year); encoding stars in the hash (conflicts with row deep links).

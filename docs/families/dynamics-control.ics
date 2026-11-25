@@ -1,0 +1,1098 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Venue Radar: Complex Systems\, Time Series & Signals Submissio
+ n Deadlines
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:slt-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260625T115900Z
+DTEND:20260625T125900Z
+SUMMARY:SLT 2026 · Regular and special-session paper submission (extended 
+ from June 17)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nF
+ ormat: Paper-based / IEEE Xplore proceedings\; Archival option: Yes\nOffi
+ cial source: https://attend.ieee.org/slt-2026/call-for-papers/\nVenue Rad
+ ar: https://gon-uri.github.io/venue-radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:slt-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260709T115900Z
+DTEND:20260709T125900Z
+SUMMARY:SLT 2026 · Demo\, system\, data and challenge paper submission (3 
+ + 1 pages\, single-blind)
+DESCRIPTION:IEEE Spoken Language Technology Workshop\nMeeting: 2026-12-13 t
+ o 2026-12-16\, Palermo\, Italy\nStatus: confirmed\, checked 2026-10-31\nC
+ utoff note: OpenReview demo and challenge portals list Jul 10 11:59 UTC (
+ Jul 9 AoE)\, as did a now-hidden homepage notice\; the CFP and demo call 
+ say Jul 8 AoE.\nFormat: Paper-based / IEEE Xplore proceedings\; Archival 
+ option: Yes\nOfficial source: https://attend.ieee.org/slt-2026/call-for-d
+ emo-system-and-data-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#slt-2026
+CATEGORIES:Natural Language Processing & LLMs,Signal Processing,Deep Repres
+ entation Learning
+URL:https://attend.ieee.org/slt-2026/call-for-demo-system-and-data-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2026-deadline-extended-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260914T115900Z
+DTEND:20260914T125900Z
+SUMMARY:COMPLEX NETWORKS 2026 · Extended abstract submission deadline (ind
+ ependent route)
+DESCRIPTION:International Conference on Complex Networks and Their Applicat
+ ions\nMeeting: 2026-12-02 to 2026-12-04\, Granada\, Spain\nStatus: confir
+ med\, checked 2026-11-14\nFormat: Paper-based + extended abstracts\; Arch
+ ival option: Yes\nOfficial source: https://complexnetworks.org/submission
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#complex-networks-2
+ 026
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Data Mining & Data Science
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2026-deadline-full-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20260914T115900Z
+DTEND:20260914T125900Z
+SUMMARY:COMPLEX NETWORKS 2026 · Extended full-paper submission deadline
+DESCRIPTION:International Conference on Complex Networks and Their Applicat
+ ions\nMeeting: 2026-12-02 to 2026-12-04\, Granada\, Spain\nStatus: confir
+ med\, checked 2026-11-14\nFormat: Paper-based + extended abstracts\; Arch
+ ival option: Yes\nOfficial source: https://complexnetworks.org/submission
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#complex-networks-2
+ 026
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Data Mining & Data Science
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260916T115900Z
+DTEND:20260916T125900Z
+SUMMARY:FMTS @ NeurIPS 2026 · Workshop paper submission deadline
+DESCRIPTION:Foundation Models for Temporal Systems: From Forecasting to Wor
+ ld Modeling\nMeeting: 2026-12-11 to 2026-12-11\, Sydney\, Australia\nStat
+ us: confirmed\, checked 2026-10-28\nFormat: Workshop / non-archival short
+  paper\; Archival option: No\nOfficial source: https://fmts-workshop.gith
+ ub.io/cfp.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#fmts-
+ neurips-2026
+CATEGORIES:Time Series & Sequential Data,Machine Learning,Deep Representati
+ on Learning,Probabilistic\, Causal & Uncertainty ML
+URL:https://fmts-workshop.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260916T115900Z
+DTEND:20260916T125900Z
+SUMMARY:ICWSM 2027 · Round 2: new full papers (also R&Rs from May 2026)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\; 
+ Archival option: Yes\nOfficial source: https://www.icwsm.org/2027/submit/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260924T115900Z
+DTEND:20260924T125900Z
+SUMMARY:ICASSP 2027 · Paper submission deadline
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nMeeting: 2027-05-16 to 2027-05-21\, Toronto\, Canada\nStatu
+ s: confirmed\, checked 2026-10-28\nFormat: Paper-based\; Archival option:
+  Yes\nOfficial source: https://cmsworkshops.com/ICASSP2027/papers.php\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#icassp-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://cmsworkshops.com/ICASSP2027/papers.php
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-lac-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Dynamics Days LAC 2026 · Extended contributed abstract submission 
+ deadline
+DESCRIPTION:Dynamics Days Latin America and the Caribbean\nMeeting: 2026-12
+ -06 to 2026-12-11\, Curitiba\, Brazil\nStatus: confirmed\, checked 2026-1
+ 1-14\nCutoff time unannounced: official deadline day only. Verify the org
+ anizer's submission portal.\nFormat: Abstract-based\; Archival option: No
+ \nOfficial source: https://fisica.ufpr.br/DDaysLAC2026/index.html\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#dynamics-days-lac-2026
+CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
+ e Series & Sequential Data,Computational Neuroscience
+URL:https://fisica.ufpr.br/DDaysLAC2026/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:IFAC SYSID 2027 · Joint journal/conference submission
+DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-20\nCuto
+ ff time unannounced: official deadline day only. Verify the organizer's s
+ ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid-2027
+CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
+ Time Series & Sequential Data,Machine Learning
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-deadline-extended-abstract@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20261018T115900Z
+DTEND:20261018T125900Z
+SUMMARY:CompleNet 2027 · Extended abstract submission deadline (independen
+ t route)
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2027-03-
+ 09 to 2027-03-12\, Rochester\, New York\, USA\nStatus: confirmed\, checke
+ d 2026-11-14\nFormat: Full/short papers + extended abstracts\; Archival o
+ ption: Yes\nOfficial source: https://complenet.github.io/cfp.html\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#complenet-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261018T115900Z
+DTEND:20261018T125900Z
+SUMMARY:CompleNet 2027 · Long-paper submission deadline
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2027-03-
+ 09 to 2027-03-12\, Rochester\, New York\, USA\nStatus: confirmed\, checke
+ d 2026-11-14\nFormat: Full/short papers + extended abstracts\; Archival o
+ ption: Yes\nOfficial source: https://complenet.github.io/cfp.html\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#complenet-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261018T115900Z
+DTEND:20261018T125900Z
+SUMMARY:CompleNet 2027 · Short-paper submission deadline (independent rout
+ e)
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2027-03-
+ 09 to 2027-03-12\, Rochester\, New York\, USA\nStatus: confirmed\, checke
+ d 2026-11-14\nFormat: Full/short papers + extended abstracts\; Archival o
+ ption: Yes\nOfficial source: https://complenet.github.io/cfp.html\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#complenet-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-x-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261101T115900Z
+DTEND:20261101T125900Z
+SUMMARY:NetSci-X 2027 · Two-page extended abstract submission (talk or pos
+ ter\; extended deadline)
+DESCRIPTION:NetSciX: International School and Conference on Network Science
+ \nMeeting: 2027-01-24 to 2027-01-27\, Hong Kong\, China\nStatus: confirme
+ d\, checked 2026-10-31\nFormat: Abstract-based / two-page extended abstra
+ cts\, non-archival (no proceedings announced)\; Archival option: No\nOffi
+ cial source: https://netscix2027.github.io/submissions/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#netsci-x-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos
+URL:https://netscix2027.github.io/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:ICASSP 2027 · Satellite workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nMeeting: 2027-05-16 to 2027-05-21\, Toronto\, Canada\nStatu
+ s: confirmed\, checked 2026-10-28\nCutoff time unannounced: official dead
+ line day only. Verify the organizer's submission portal.\nFormat: Paper-b
+ ased\; Archival option: Yes\nOfficial source: https://2027.ieeeicassp.org
+ /call-for-satellite-workshops/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#icassp-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://2027.ieeeicassp.org/call-for-satellite-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261114T115900Z
+DTEND:20261114T125900Z
+SUMMARY:L4DC 2027 · Paper submission deadline
+DESCRIPTION:Learning for Dynamics and Control\nMeeting: 2027-06-16 to 2027-
+ 06-18\, Stockholm\, Sweden\nStatus: confirmed\, checked 2026-10-30\nForma
+ t: Paper-based\; Archival option: Yes (est.)\nOfficial source: https://l4
+ dc2027.control.ee.ethz.ch/author-information\nVenue Radar: https://gon-ur
+ i.github.io/venue-radar/#l4dc-2027
+CATEGORIES:Machine Learning,Control & Robotics,System Identification & Data
+ -driven Dynamics,Reinforcement Learning
+URL:https://l4dc2027.control.ee.ethz.ch/author-information
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:IFAC SYSID 2027 · Conference paper submission (extended)
+DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-20\nCuto
+ ff time unannounced: official deadline day only. Verify the organizer's s
+ ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid-2027
+CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
+ Time Series & Sequential Data,Machine Learning
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-us-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Dynamics Days US 2027 · Contributed talk/poster abstract submissio
+ n deadline
+DESCRIPTION:Dynamics Days US\nMeeting: 2027-01-04 to 2027-01-06\, La Jolla\
+ , California\, USA\nStatus: confirmed\, checked 2026-11-20\nCutoff time u
+ nannounced: official deadline day only. Verify the organizer's submission
+  portal.\nFormat: Abstract-based\; Archival option: No\nOfficial source: 
+ https://www.ddays.org/2027/abstract-submission/\nVenue Radar: https://gon
+ -uri.github.io/venue-radar/#dynamics-days-us-2027
+CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Sys
+ tem Identification & Data-driven Dynamics
+URL:https://www.ddays.org/2027/abstract-submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:siam-ds-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261124T045900Z
+DTEND:20261124T055900Z
+SUMMARY:SIAM DS 2027 · Contributed lecture and poster abstracts
+DESCRIPTION:SIAM Conference on Applications of Dynamical Systems\nMeeting: 
+ 2027-05-23 to 2027-05-27\, Atlanta\, Georgia\, USA\nStatus: confirmed\, c
+ hecked 2026-11-20\nFormat: Abstract-based\; Archival option: No\nOfficial
+  source: https://www.siam.org/conferences-events/siam-conferences/ds27/su
+ bmissions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#siam-ds-2
+ 027
+CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Sys
+ tem Identification & Data-driven Dynamics,Machine Learning
+URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
+ ns/
+END:VEVENT
+BEGIN:VEVENT
+UID:netsci-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:NetSci 2027 · One-page abstract submission (talk/poster)
+DESCRIPTION:International School and Conference on Network Science\nMeeting
+ : 2027-05-17 to 2027-05-21\, Dresden\, Germany\nStatus: confirmed\, check
+ ed 2026-11-25\nCutoff time unannounced: official deadline day only. Verif
+ y the organizer's submission portal.\nFormat: Abstract-based\; Archival o
+ ption: No\nOfficial source: https://netsci2027.github.io/calls/abstracts/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#netsci-2027
+CATEGORIES:Complex Systems & Network Science,Data Mining & Data Science,Non
+ linear Dynamics & Chaos
+URL:https://netsci2027.github.io/calls/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261231T115900Z
+DTEND:20261231T125900Z
+SUMMARY:ICME 2027 · Regular paper submission deadline (including special-s
+ ession papers)
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\; Archival op
+ tion: Yes\nOfficial source: https://confcats-siteplex.s3.amazonaws.com/ic
+ me/files/icme27-cfp_web-05.pdf\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web-05
+ .pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:itise-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ITISE 2027 · Paper or abstract submission deadline
+DESCRIPTION:International Conference on Time Series and Forecasting\nMeetin
+ g: 2027-07-14 to 2027-07-16\, Gran Canaria\, Spain\nStatus: confirmed\, c
+ hecked 2026-10-28\nCutoff time unannounced: official deadline day only. V
+ erify the organizer's submission portal.\nFormat: Paper-based / forecasti
+ ng-focused\; Archival option: Yes\nOfficial source: https://itise.ugr.es/
+ index.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#itise-202
+ 7
+CATEGORIES:Time Series & Sequential Data,Machine Learning,Data Mining & Dat
+ a Science,Learning Theory & Statistical Foundations
+URL:https://itise.ugr.es/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:enoc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ENOC 2027 (est.) · Two-page extended abstract submission deadline
+DESCRIPTION:European Nonlinear Dynamics Conference\nMeeting: 2027-07-19 to 
+ 2027-07-23\, Aberdeen\, United Kingdom\nStatus: estimated\, checked 2026-
+ 11-25. Check the organizer's call before relying on it.\nEstimated day on
+ ly\; no cutoff hour stored. Check the organizer's call for the real date 
+ and time.\nFormat: Abstract-based / 2-page extended abstracts in a digita
+ l book of abstracts\; no full-paper submission\; Archival option: No\nOff
+ icial source: https://enoc2027.com/author/submission-guidance\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#enoc-2027
+CATEGORIES:Nonlinear Dynamics & Chaos,System Identification & Data-driven D
+ ynamics,Control & Robotics
+URL:https://enoc2027.com/author/submission-guidance
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Poster papers (January round only)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\; 
+ Archival option: Yes\nOfficial source: https://www.icwsm.org/2027/submit/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Round 3 (final for 2027): new full papers (also R&Rs 
+ from September 2026)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\; 
+ Archival option: Yes\nOfficial source: https://www.icwsm.org/2027/submit/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:icwsm-2027-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:ICWSM 2027 · Dataset papers (January round only\; dataset DOI requ
+ ired)
+DESCRIPTION:International AAAI Conference on Web and Social Media\nMeeting:
+  2027-05-26 to 2027-05-29 (est.)\, Edinburgh\, United Kingdom\nStatus: co
+ nfirmed\, checked 2026-11-14\nFormat: Paper-based / AAAI ICWSM proceeding
+ s\; non-archival Social Science and Sociophysics track (abstract only)\; 
+ Archival option: Yes\nOfficial source: https://www.icwsm.org/2027/submit/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#icwsm-2027
+CATEGORIES:Complex Systems & Network Science,Natural Language Processing & 
+ LLMs,Data Mining & Data Science
+URL:https://www.icwsm.org/2027/submit/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-discussion-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:IFAC SYSID 2027 · Discussion papers (non-archival)
+DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-20\nCuto
+ ff time unannounced: official deadline day only. Verify the organizer's s
+ ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid-2027
+CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
+ Time Series & Sequential Data,Machine Learning
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:EUSIPCO 2027 · Conference paper submission deadline
+DESCRIPTION:European Signal Processing Conference\nMeeting: 2027-08-30 to 2
+ 027-09-03\, Darmstadt\, Germany\nStatus: confirmed\, checked 2026-11-14\n
+ Cutoff time unannounced: official deadline day only. Verify the organizer
+ 's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffici
+ al source: https://eusipco2027.de/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#eusipco-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://eusipco2027.de/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270208T115900Z
+DTEND:20270208T125900Z
+SUMMARY:IEEE SSP 2027 · Paper submission deadline
+DESCRIPTION:IEEE Statistical Signal Processing Workshop\nMeeting: 2027-06-2
+ 8 to 2027-07-01\, Annecy\, France\nStatus: confirmed\, checked 2026-10-28
+ \nFormat: Paper-based / specialist workshop\; Archival option: Yes\nOffic
+ ial source: https://ssp27.ieeesps.org/submit-paper/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#ieee-ssp-2027
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Probabilistic\, Causal & Uncertainty ML
+URL:https://ssp27.ieeesps.org/submit-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Interspeech 2027 · Conference paper submission deadline
+DESCRIPTION:Annual Conference of the International Speech Communication Ass
+ ociation\nMeeting: 2027-08-29 to 2027-09-02\, Sao Paulo\, Brazil\nStatus:
+  confirmed\, checked 2026-11-14\nCutoff time unannounced: official deadli
+ ne day only. Verify the organizer's submission portal.\nFormat: Paper-bas
+ ed / interactive demonstration papers\; Archival option: Yes (est.)\nOffi
+ cial source: https://interspeech2027.org/\nVenue Radar: https://gon-uri.g
+ ithub.io/venue-radar/#interspeech-2027
+CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
+ Natural Language Processing & LLMs
+URL:https://interspeech2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icmns-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:ICMNS 2027 (est.) · Abstract deadline for contributed talks and po
+ sters
+DESCRIPTION:International Conference on Mathematical Neuroscience\nMeeting:
+  2027-06-01 to 2027-06-04\, Montpellier\, France\nStatus: estimated\, che
+ cked 2026-11-14. Check the organizer's call before relying on it.\nEstima
+ ted day only\; no cutoff hour stored. Check the organizer's call for the 
+ real date and time.\nFormat: Abstract-based / non-archival\; Archival opt
+ ion: No (est.)\nPrevious edition's page: https://listserver.vu.nl/piperma
+ il/icmns-beta/2026-January/000070.html\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#icmns-2027
+CATEGORIES:Computational Neuroscience,Nonlinear Dynamics & Chaos
+URL:https://listserver.vu.nl/pipermail/icmns-beta/2026-January/000070.html
+END:VEVENT
+BEGIN:VEVENT
+UID:isf-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:ISF 2027 · Abstract submission (350 words\; one talk per presenter
+ \; regular or invited-session track)
+DESCRIPTION:International Symposium on Forecasting\nMeeting: 2027-06-20 to 
+ 2027-06-23\, Paphos\, Cyprus\nStatus: confirmed\, checked 2026-10-31\nCut
+ off time unannounced: official deadline day only. Verify the organizer's 
+ submission portal.\nFormat: Abstract-based / non-archival (accepted 350-w
+ ord abstracts published as entered\; no full-paper proceedings)\; Archiva
+ l option: No\nOfficial source: https://isf.forecasters.org/abstracts/\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#isf-2027
+CATEGORIES:Time Series & Sequential Data,Probabilistic\, Causal & Uncertain
+ ty ML,Machine Learning
+URL:https://isf.forecasters.org/abstracts/
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270310T115900Z
+DTEND:20270310T125900Z
+SUMMARY:Interspeech 2027 · Show & Tell paper and video submission deadline
+DESCRIPTION:Annual Conference of the International Speech Communication Ass
+ ociation\nMeeting: 2027-08-29 to 2027-09-02\, Sao Paulo\, Brazil\nStatus:
+  confirmed\, checked 2026-11-14\nFormat: Paper-based / interactive demons
+ tration papers\; Archival option: Yes (est.)\nOfficial source: https://in
+ terspeech2027.org/calls/call_show_and_tell/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#interspeech-2027
+CATEGORIES:Signal Processing,Machine Learning,Deep Representation Learning,
+ Natural Language Processing & LLMs
+URL:https://interspeech2027.org/calls/call_show_and_tell/
+END:VEVENT
+BEGIN:VEVENT
+UID:alife-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270331T115900Z
+DTEND:20270331T125900Z
+SUMMARY:ALIFE 2027 (est.) · Full-paper submission deadline
+DESCRIPTION:International Conference on Artificial Life\nMeeting: 2027-07-1
+ 9 to 2027-07-23\, Prague\, Czech Republic\nStatus: estimated\, checked 20
+ 26-11-14. Check the organizer's call before relying on it.\nFormat: Full 
+ papers + non-archival abstracts\; Archival option: Yes (est.)\nPrevious e
+ dition's page: https://2026.alife.org/call-for-papers/\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#alife-2027
+CATEGORIES:Artificial Life & Adaptive Systems,Complex Systems & Network Sci
+ ence,Evolutionary Computation & Optimization,Cognitive Science & Computat
+ ional Cognition
+URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:ICIP 2027 · Regular and special session paper submission deadline 
+ (5 pages + 1 reference page)
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:ICIP 2027 · OJ-SP paper submission (8 pages + 1 reference page\; p
+ ublished in IEEE Open Journal of Signal Processing)
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:ICME 2027 · Workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\; Archival option: Yes\nOfficial source: https://2027.ieeeicme.
+ org/about/important-dates\nVenue Radar: https://gon-uri.github.io/venue-r
+ adar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:WASPAA 2027 (est.) · Abstract submission\, required before the pap
+ er
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-11-14. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\; Archival option: Yes (est.)\nOfficial source: https://waspa
+ a.com/\nVenue Radar: https://gon-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccs-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:CCS 2027 (est.) · Presentation abstract deadline
+DESCRIPTION:Conference on Complex Systems\nMeeting: 2027-09-17 to 2027-09-2
+ 4\, Wroclaw\, Poland\nStatus: estimated\, checked 2026-11-14. Check the o
+ rganizer's call before relying on it.\nEstimated day only\; no cutoff hou
+ r stored. Check the organizer's call for the real date and time.\nFormat:
+  Abstract-based\; Archival option: No (est.)\nOfficial source: https://cc
+ s26.cssociety.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#c
+ cs-2027
+CATEGORIES:Complex Systems & Network Science,Nonlinear Dynamics & Chaos,Dat
+ a Mining & Data Science
+URL:https://ccs26.cssociety.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:asli-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270422T115900Z
+DTEND:20270422T125900Z
+SUMMARY:ASLI 2027 · Regular paper submission deadline
+DESCRIPTION:IEEE International Conference on Audio\, Speech\, and Language 
+ Intelligence\nMeeting: 2027-11-29 to 2027-12-04\, Singapore\nStatus: conf
+ irmed\, checked 2026-10-31\nFormat: Paper-based / IEEE Xplore (Proceeding
+ s of ASLI or Findings of ASLI)\; Archival option: Yes\nOfficial source: h
+ ttps://2027.ieeeasli.org/important-dates/\nVenue Radar: https://gon-uri.g
+ ithub.io/venue-radar/#asli-2027
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2027.ieeeasli.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:waspaa-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:WASPAA 2027 (est.) · Final 4+1-page paper submission
+DESCRIPTION:IEEE Workshop on Applications of Signal Processing to Audio and
+  Acoustics\nMeeting: 2027-09-19 to 2027-09-22 (est.)\, Levi\, Finland\nSt
+ atus: estimated\, checked 2026-11-14. Check the organizer's call before r
+ elying on it.\nEstimated day only\; no cutoff hour stored. Check the orga
+ nizer's call for the real date and time.\nFormat: Paper-based / 4+1-page 
+ double-blind papers\; past editions in IEEE Xplore (2027 publication not 
+ yet stated)\; Archival option: Yes (est.)\nOfficial source: https://waspa
+ a.com/\nVenue Radar: https://gon-uri.github.io/venue-radar/#waspaa-2027
+CATEGORIES:Signal Processing,Machine Learning,Multimedia Learning & Retriev
+ al
+URL:https://waspaa.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Dynamics Days Europe 2027 (est.) · Contributed talk/poster abstrac
+ t submission deadline
+DESCRIPTION:Dynamics Days Europe\nMeeting: 2027-07-19 to 2027-07-24 (est.)\
+ , To be announced\nStatus: estimated\, checked 2026-10-08. Check the orga
+ nizer's call before relying on it.\nEstimated day only\; no cutoff hour s
+ tored. Check the organizer's call for the real date and time.\nFormat: Ab
+ stract-based\; Archival option: No (est.)\nPrevious edition's page: https
+ ://dde-2026.sci-meet.net/important-dates\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#dynamics-days-europe-2027
+CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
+ e Series & Sequential Data,System Identification & Data-driven Dynamics
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:nolta-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:NOLTA 2027 (est.) · Regular and special-session papers
+DESCRIPTION:International Symposium on Nonlinear Theory and Its Application
+ s\nMeeting: 2027-11-16 to 2027-11-19 (est.)\, To be announced\nStatus: es
+ timated\, checked 2026-10-29. Check the organizer's call before relying o
+ n it.\nEstimated day only\; no cutoff hour stored. Check the organizer's 
+ call for the real date and time.\nFormat: Paper-based\; Archival option: 
+ Yes (est.)\nPrevious edition's page: https://nolta2026.org/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#nolta-2027
+CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Dee
+ p Representation Learning,Control & Robotics
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:SMC 2027 (est.) · Regular paper submission deadline
+DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
+ s\nMeeting: 2027-10-07 to 2027-10-10 (est.)\, Ho Chi Minh City\, Vietnam\
+ nStatus: estimated\, checked 2026-11-14. Check the organizer's call befor
+ e relying on it.\nEstimated day only\; no cutoff hour stored. Check the o
+ rganizer's call for the real date and time.\nFormat: Paper-based\; Archiv
+ al option: Yes (est.)\nPrevious edition's page: https://www.ieeesmc2026.o
+ rg/Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ mc-2027
+CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
+ rning,Human-AI Interaction & Deployment
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:SMC 2027 (est.) · Work-in-progress paper deadline
+DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
+ s\nMeeting: 2027-10-07 to 2027-10-10 (est.)\, Ho Chi Minh City\, Vietnam\
+ nStatus: estimated\, checked 2026-11-14. Check the organizer's call befor
+ e relying on it.\nEstimated day only\; no cutoff hour stored. Check the o
+ rganizer's call for the real date and time.\nFormat: Paper-based\; Archiv
+ al option: Yes (est.)\nPrevious edition's page: https://www.ieeesmc2026.o
+ rg/Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ mc-2027
+CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
+ rning,Human-AI Interaction & Deployment
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:aaltd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T065900Z
+DTEND:20270529T075900Z
+SUMMARY:AALTD 2027 (est.) · Abstract submission deadline
+DESCRIPTION:Workshop on Advanced Analytics and Learning on Temporal Data\nM
+ eeting: 2027-09-03 to 2027-09-03 (est.)\, To be announced\nStatus: estima
+ ted\, checked 2026-10-29. Check the organizer's call before relying on it
+ .\nFormat: Workshop / paper-based\; Archival option: No (est.)\nPrevious 
+ edition's page: https://ecml-aaltd.github.io/aaltd2026/dates.html\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#aaltd-2027
+CATEGORIES:Time Series & Sequential Data,Data Mining & Data Science,Machine
+  Learning,Explainability & Interpretability
+URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:aaltd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270605T065900Z
+DTEND:20270605T075900Z
+SUMMARY:AALTD 2027 (est.) · Paper submission deadline
+DESCRIPTION:Workshop on Advanced Analytics and Learning on Temporal Data\nM
+ eeting: 2027-09-03 to 2027-09-03 (est.)\, To be announced\nStatus: estima
+ ted\, checked 2026-10-29. Check the organizer's call before relying on it
+ .\nFormat: Workshop / paper-based\; Archival option: No (est.)\nPrevious 
+ edition's page: https://ecml-aaltd.github.io/aaltd2026/dates.html\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#aaltd-2027
+CATEGORIES:Time Series & Sequential Data,Data Mining & Data Science,Machine
+  Learning,Explainability & Interpretability
+URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-mlsp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270613T115900Z
+DTEND:20270613T125900Z
+SUMMARY:IEEE MLSP 2027 (est.) · Conference paper submission deadline
+DESCRIPTION:IEEE International Workshop on Machine Learning for Signal Proc
+ essing\nMeeting: 2027-09-13 to 2027-09-16\, Uppsala\, Sweden\nStatus: est
+ imated\, checked 2026-11-14. Check the organizer's call before relying on
+  it.\nFormat: Paper-based / workshop-style conference\; Archival option: 
+ Yes (est.)\nOfficial source: https://signalprocessingsociety.org/event-na
+ mes/mlsp\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-mlsp-2
+ 027
+CATEGORIES:Machine Learning,Signal Processing,Time Series & Sequential Data
+URL:https://signalprocessingsociety.org/event-names/mlsp
+END:VEVENT
+BEGIN:VEVENT
+UID:euvip-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270616T115900Z
+DTEND:20270616T125900Z
+SUMMARY:EUVIP 2027 (est.) · Regular paper submission deadline
+DESCRIPTION:European Conference on Visual Information Processing\nMeeting: 
+ 2027-09-28 to 2027-10-01 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-07. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / visual information processing\; Archival option: Yes (es
+ t.)\nPrevious edition's page: https://euvip2026.github.io/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#euvip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://euvip2026.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:asli-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:ASLI 2027 · Challenge paper submission deadline (challenge partici
+ pants\; format not yet published)
+DESCRIPTION:IEEE International Conference on Audio\, Speech\, and Language 
+ Intelligence\nMeeting: 2027-11-29 to 2027-12-04\, Singapore\nStatus: conf
+ irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
+ y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
+ IEEE Xplore (Proceedings of ASLI or Findings of ASLI)\; Archival option: 
+ Yes\nOfficial source: https://2027.ieeeasli.org/important-dates/\nVenue R
+ adar: https://gon-uri.github.io/venue-radar/#asli-2027
+CATEGORIES:Signal Processing,Natural Language Processing & LLMs,Machine Lea
+ rning,Deep Representation Learning
+URL:https://2027.ieeeasli.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270729T115900Z
+DTEND:20270729T125900Z
+SUMMARY:LoG 2027 (est.) · Abstract registration deadline
+DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
+ 1 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check
+  the organizer's call before relying on it.\nFormat: Paper-based / non-ar
+ chival extended abstracts\; Archival option: Yes (est.)\nOfficial source:
+  https://logconference.org/cfp/\nVenue Radar: https://gon-uri.github.io/v
+ enue-radar/#log-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
+ rning,Learning Theory & Statistical Foundations
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270801T115900Z
+DTEND:20270801T125900Z
+SUMMARY:LoG 2027 (est.) · Paper / extended abstract submission deadline
+DESCRIPTION:Learning on Graphs Conference\nMeeting: 2027-11-19 to 2027-11-2
+ 1 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check
+  the organizer's call before relying on it.\nFormat: Paper-based / non-ar
+ chival extended abstracts\; Archival option: Yes (est.)\nOfficial source:
+  https://logconference.org/cfp/\nVenue Radar: https://gon-uri.github.io/v
+ enue-radar/#log-2027
+CATEGORIES:Machine Learning,Deep Representation Learning,Graphs & Graph Lea
+ rning,Learning Theory & Statistical Foundations
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:ICIP 2027 · Satellite workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-extended-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:COMPLEX NETWORKS 2027 (est.) · Extended abstract submission deadli
+ ne (independent route)
+DESCRIPTION:International Conference on Complex Networks and Their Applicat
+ ions\nMeeting: 2027-12-01 to 2027-12-03 (est.)\, To be announced\nStatus:
+  estimated\, checked 2026-11-14. Check the organizer's call before relyin
+ g on it.\nFormat: Paper-based + extended abstracts\; Archival option: Yes
+  (est.)\nOfficial source: https://complexnetworks.org/\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#complex-networks-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Data Mining & Data Science
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2027-deadline-full-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20270902T115900Z
+DTEND:20270902T125900Z
+SUMMARY:COMPLEX NETWORKS 2027 (est.) · Full paper submission deadline
+DESCRIPTION:International Conference on Complex Networks and Their Applicat
+ ions\nMeeting: 2027-12-01 to 2027-12-03 (est.)\, To be announced\nStatus:
+  estimated\, checked 2026-11-14. Check the organizer's call before relyin
+ g on it.\nFormat: Paper-based + extended abstracts\; Archival option: Yes
+  (est.)\nOfficial source: https://complexnetworks.org/\nVenue Radar: http
+ s://gon-uri.github.io/venue-radar/#complex-networks-2027
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Data Mining & Data Science
+URL:https://complexnetworks.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270924T115900Z
+DTEND:20270924T125900Z
+SUMMARY:ICASSP 2028 (est.) · Paper submission deadline
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nMeeting: 2028-05-28 to 2028-06-02\, Tokyo\, Japan\nStatus: 
+ estimated\, checked 2026-11-18. Check the organizer's call before relying
+  on it.\nFormat: Paper-based\; Archival option: Yes (est.)\nPrevious edit
+ ion's page: https://cmsworkshops.com/ICASSP2027/papers.php\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#icassp-2028
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://cmsworkshops.com/ICASSP2027/papers.php
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-extended-abstract@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:CompleNet 2028 (est.) · Extended abstract submission deadline (ind
+ ependent route)
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
+ 07 to 2028-03-10 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-10-29. Check the organizer's call before relying on it.\nFormat: Full/
+ short papers + extended abstracts\; Archival option: Yes (est.)\nOfficial
+  source: https://complenet.github.io/cfp.html\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#complenet-2028
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:CompleNet 2028 (est.) · Long-paper submission deadline
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
+ 07 to 2028-03-10 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-10-29. Check the organizer's call before relying on it.\nFormat: Full/
+ short papers + extended abstracts\; Archival option: Yes (est.)\nOfficial
+  source: https://complenet.github.io/cfp.html\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#complenet-2028
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2028-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271017T115900Z
+DTEND:20271017T125900Z
+SUMMARY:CompleNet 2028 (est.) · Short-paper submission deadline (independe
+ nt route)
+DESCRIPTION:International Conference on Complex Networks\nMeeting: 2028-03-
+ 07 to 2028-03-10 (est.)\, To be announced\nStatus: estimated\, checked 20
+ 26-10-29. Check the organizer's call before relying on it.\nFormat: Full/
+ short papers + extended abstracts\; Archival option: Yes (est.)\nOfficial
+  source: https://complenet.github.io/cfp.html\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#complenet-2028
+CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
+ ear Dynamics & Chaos,Computational Neuroscience
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2028-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:ICASSP 2028 (est.) · Satellite workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Signa
+ l Processing\nMeeting: 2028-05-28 to 2028-06-02\, Tokyo\, Japan\nStatus: 
+ estimated\, checked 2026-11-18. Check the organizer's call before relying
+  on it.\nEstimated day only\; no cutoff hour stored. Check the organizer'
+ s call for the real date and time.\nFormat: Paper-based\; Archival option
+ : Yes (est.)\nPrevious edition's page: https://2027.ieeeicassp.org/call-f
+ or-satellite-workshops/\nVenue Radar: https://gon-uri.github.io/venue-rad
+ ar/#icassp-2028
+CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
+ ,Computer Vision & Pattern Recognition
+URL:https://2027.ieeeicassp.org/call-for-satellite-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280207
+DTEND;VALUE=DATE:20280208
+SUMMARY:MTNS 2028 (est.) · Full paper submission (IFAC-PapersOnLine)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://uwaterloo.ca/international-symposium-
+ mathematical-theory-networks-systems/key-dates\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#mtns-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280214
+DTEND;VALUE=DATE:20280215
+SUMMARY:MTNS 2028 (est.) · Extended abstract submission (not published)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://uwaterloo.ca/international-symposium-
+ mathematical-theory-networks-systems/key-dates\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#mtns-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:SAB 2028 (est.) · Poster abstract submission deadline
+DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
+ eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Reviewed papers + non-archival contributions\; Archival option:
+  Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
+ utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
+CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
+ gnitive Science & Computational Cognition,Control & Robotics
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:SAB 2028 (est.) · Proceedings paper submission deadline
+DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
+ eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Reviewed papers + non-archival contributions\; Archival option:
+  Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
+ utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
+CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
+ gnitive Science & Computational Cognition,Control & Robotics
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-lac-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280707
+DTEND;VALUE=DATE:20280708
+SUMMARY:Dynamics Days LAC 2028 (est.) · Contributed abstract submission de
+ adline
+DESCRIPTION:Dynamics Days Latin America and the Caribbean\nMeeting: 2028-12
+ -03 to 2028-12-08 (est.)\, To be announced\nStatus: estimated\, checked 2
+ 026-11-14. Check the organizer's call before relying on it.\nEstimated da
+ y only\; no cutoff hour stored. Check the organizer's call for the real d
+ ate and time.\nFormat: Abstract-based\; Archival option: No (est.)\nPrevi
+ ous edition's page: https://web.archive.org/web/20260521082858/https://fi
+ sica.ufpr.br/DDaysLAC2026/index.html\nVenue Radar: https://gon-uri.github
+ .io/venue-radar/#dynamics-days-lac-2028
+CATEGORIES:Nonlinear Dynamics & Chaos,Complex Systems & Network Science,Tim
+ e Series & Sequential Data,Computational Neuroscience
+URL:https://web.archive.org/web/20260521082858/https://fisica.ufpr.br/DDays
+ LAC2026/index.html
+END:VEVENT
+END:VCALENDAR

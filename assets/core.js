@@ -22,6 +22,7 @@ const deadlinesEmpty = document.querySelector("#deadlines-empty");
 const conferencesEmpty = document.querySelector("#conferences-empty");
 const venueConfig = JSON.parse(document.querySelector("#venue-config").textContent);
 const submissionTypes = new Set(venueConfig.submissionTypes);
+const planBTypes = new Set(venueConfig.planBTypes || []);
 const metadataGroups = ["size", "icore", "ccf", "acceptance", "archival"];
 const eligibleKinds = ["open", "scheduled", "opportunity", "estimated"];
 const deadlineData = new Map(rows.map((row) => [
@@ -57,6 +58,8 @@ function renderStars() {
   const toggle = starredOnly.closest("label");
   toggle.hidden = !starred.size && !starredOnly.checked;
   toggle.querySelector("[data-starred-count]").textContent = `(${starred.size})`;
+  const share = document.querySelector("#share-starred");
+  if (share) share.hidden = !starred.size;
   const feeds = document.querySelector("[data-starred-feeds]");
   const list = feeds?.querySelector("[data-starred-list]");
   if (list) {
@@ -128,6 +131,7 @@ function rowMatchesFilters(row, context = filterContext()) {
     && context.groups.every(([group, values]) => [...cache.groups[group]].some((value) => values.has(value)))
     && venueTopicMatch(row, context.topics, cache)
     && (!context.starredOnly || starred.has(row.dataset.seriesSlug))
+    && focusMatches(row)
     && passesWithin(row, context);
 }
 
@@ -453,6 +457,8 @@ function applyFilters() {
   updateFilterCount();
   syncChips();
   updateConferenceMap();
+  renderFocus();
+  renderPlanBButtons(now);
   writeUrlState();
 }
 
@@ -526,9 +532,79 @@ document.querySelectorAll("[data-successor-link]").forEach((link) => {
   });
 });
 
+// ---- Focus views: a shared shortlist (?list=, ADR-065) or a Plan B after a
+// rejection (?after=, ADR-064). At most one is active; a banner names it.
+const focusBanner = document.querySelector("#focus-banner");
+const shareStarred = document.querySelector("#share-starred");
+const seriesNames = new Map([...document.querySelectorAll("[data-star]")].map((b) => [b.dataset.star, b.dataset.starName]));
+const decisionFormatter = new Intl.DateTimeFormat("en", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+let focus = null;
+
+function shortlistFocus(slugs) {
+  const series = new Set(slugs.filter((slug) => seriesNames.has(slug)));
+  return series.size ? { kind: "list", series } : null;
+}
+
+function decisionOf(row) {
+  return (deadlineData.get(row) || []).filter((d) => d.type === "notification").sort((a, b) => a.time - b.time)[0] || null;
+}
+
+// Plan B: other series sharing a central family whose paper route (PLAN_B_TYPES)
+// is still open at the moment of the decision (the gates and deadlines that
+// pass before it are closed, exactly as the live status would be then).
+// Decisions are often day-only; a route must stay open a full day after it.
+const PLAN_B_MARGIN_MS = 24 * 60 * 60 * 1000;
+function planBFocus(edition) {
+  const source = deadlineRowByEdition.get(edition);
+  const decision = source && decisionOf(source);
+  if (!decision || !Number.isFinite(decision.time)) return null;
+  const families = rowCache.get(source).families;
+  const editions = new Set(deadlineGroups.filter((row) =>
+    row.dataset.seriesSlug !== source.dataset.seriesSlug
+    && [...rowCache.get(row).families].some((family) => families.has(family))
+    && eligibleKinds.includes(computeSubmissionState(deadlineData.get(row) || [], row.dataset.conferenceStart,
+      row.dataset.conferenceEnd, row.dataset.confidence, decision.time + PLAN_B_MARGIN_MS, planBTypes).kind)).map((row) => row.dataset.edition));
+  return { kind: "after", edition, decision, editions,
+    title: source.querySelector("td a")?.textContent || edition };
+}
+
+function focusMatches(row) {
+  if (!focus) return true;
+  if (focus.kind === "list") return focus.series.has(row.dataset.seriesSlug);
+  return focus.editions.has(row.dataset.edition);
+}
+
+function renderFocus() {
+  focusBanner.hidden = !focus;
+  if (!focus) return;
+  const text = focusBanner.querySelector("[data-focus-text]");
+  const star = focusBanner.querySelector("[data-focus-star]");
+  if (focus.kind === "list") {
+    const names = [...focus.series].map((slug) => seriesNames.get(slug)).sort((a, b) => a.localeCompare(b));
+    text.textContent = `Shared shortlist: ${names.length} series (${names.join(", ")}).`;
+    star.hidden = [...focus.series].every((slug) => starred.has(slug));
+  } else {
+    const when = decisionFormatter.format(focus.decision.time);
+    text.textContent = `Plan B for ${focus.title}: venues in the same field still taking papers at least a day after its decision on ${when}${focus.decision.estimated ? " (estimated)" : ""}.`;
+    star.hidden = true;
+  }
+}
+
+// The Plan B link shows under decisions that are still ahead.
+function renderPlanBButtons(now = Date.now()) {
+  document.querySelectorAll("[data-plan-b]").forEach((button) => {
+    const decision = decisionOf(deadlineRowByEdition.get(button.dataset.planB));
+    button.closest(".plan-b-line").hidden = !(decision && decision.time > now);
+  });
+}
+
+function shortlistUrl() {
+  return `${siteUrl.split(/[?#]/)[0]}?list=${[...starred].filter((slug) => seriesNames.has(slug)).sort().join(",")}`;
+}
+
 // ---- Shareable state (ADR-040): filters in the query string, rows in the hash.
 const urlGroups = { size: "size", icore: "icore", ccf: "ccf", acc: "acceptance", archival: "archival" };
-const ownedParams = new Set(["q", "families", "topics", ...Object.keys(urlGroups), "match", "all", "starred", "tab", "within"]);
+const ownedParams = new Set(["q", "families", "topics", ...Object.keys(urlGroups), "match", "all", "starred", "tab", "within", "list", "after"]);
 const siteUrl = document.querySelector("#calendar-menu")?.dataset.siteUrl || location.href.split(/[?#]/)[0];
 
 function readUrlState(force = false) {
@@ -554,6 +630,9 @@ function readUrlState(force = false) {
   // Only the exact link values count; anything else (090, +90, 0x1e) means Any.
   const within = params.get("within");
   setWithin(WITHIN_DAYS.map(String).includes(within) ? Number(within) : 0);
+  focus = params.has("after") ? planBFocus(params.get("after"))
+    : params.has("list") ? shortlistFocus((params.get("list") || "").split(","))
+    : null;
   if (params.get("tab") === "conferences") activateTab("conferences");
   else if (force) activateTab("deadlines");
   // A shared link that uses a filter hidden in More filters opens the panel.
@@ -581,6 +660,8 @@ function writeUrlState() {
   if (!openOnly.checked) params.set("all", "1");
   if (document.querySelector("#starred-only")?.checked) params.set("starred", "1");
   if (withinDays) params.set("within", String(withinDays));
+  if (focus?.kind === "list") params.set("list", [...focus.series].sort().join(","));
+  if (focus?.kind === "after") params.set("after", focus.edition);
   const activeTab = document.querySelector('[role="tab"][aria-selected="true"]')?.dataset.tabTarget;
   if (activeTab === "conferences") params.set("tab", "conferences");
   const text = params.toString().replace(/%2C/g, ",");
@@ -652,6 +733,7 @@ function followHash() {
     search.value = "";
     filters.forEach((input) => { input.checked = false; });
     starredOnly.checked = false;
+    focus = null;
     setWithin(0);
     if (onDeadlines && !eligibleKinds.includes(stateByRow.get(target)?.kind)) openOnly.checked = false;
     renderStars();
@@ -704,6 +786,31 @@ document.querySelectorAll("[data-star]").forEach((button) => {
   });
 });
 starredOnly.addEventListener("change", applyFilters);
+document.querySelectorAll("[data-plan-b]").forEach((button) => button.addEventListener("click", () => {
+  focus = planBFocus(button.dataset.planB);
+  if (!focus) return;
+  // Start from the whole catalogue: a search or a range would hide later deadlines.
+  keepHash = false;
+  search.value = "";
+  starredOnly.checked = false;
+  setWithin(0);
+  activateTab("deadlines");
+  applyFilters();
+  focusBanner.scrollIntoView({ block: "nearest" });
+  focusBanner.focus({ preventScroll: true });
+}));
+focusBanner.querySelector("[data-focus-clear]").addEventListener("click", () => {
+  focus = null;
+  applyFilters();
+});
+focusBanner.querySelector("[data-focus-star]").addEventListener("click", () => {
+  if (focus?.kind !== "list") return;
+  focus.series.forEach((slug) => starred.add(slug));
+  saveStarred();
+  renderStars();
+  applyFilters();
+});
+shareStarred.addEventListener("click", () => copyText(shareStarred, shortlistUrl()));
 
 search.addEventListener("input", applyFilters);
 filters.forEach((input) => input.addEventListener("change", applyFilters));
@@ -724,6 +831,7 @@ clearFilters.addEventListener("click", () => {
   filters.forEach((input) => { input.checked = false; });
   openOnly.checked = false;
   starredOnly.checked = false;
+  focus = null;
   document.querySelector("#topic-match").value = "any";
   if (location.hash) {
     try { history.replaceState(history.state, "", location.pathname + location.search); } catch (error) { /* ignore */ }

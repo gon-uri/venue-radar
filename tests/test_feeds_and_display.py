@@ -10,6 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from datetime import date
 
+from catalog_metadata import CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping
 from build_ics import (FEED_SIZE_LIMIT, SITE_URL, _escape_text, _topic_groups, build_calendars, edition_last_day,
                        feed_reference_date, is_past_edition, series_groups, series_slug)
 from build_site import _clock_label, _deadline_grid_rows, _milestone_label, _milestones, _previous_dates, _successors
@@ -138,6 +139,31 @@ class FeedTests(unittest.TestCase):
         self.assertTrue(submissions <= everything)
         self.assertFalse(any(uid.split("@")[0].endswith("-conference") for uid in submissions))
 
+    def test_family_feeds_split_submission_steps_by_central_family(self) -> None:
+        """ADR-062: one submission feed per topic family, by the chips' rule."""
+        families = load_mapping(FAMILIES_PATH)["families"]
+        assignments = load_mapping(CONFERENCE_FAMILIES_PATH)
+        files = sorted(p.stem for p in (self.docs / "families").glob("*.ics"))
+        self.assertEqual(files, sorted(f["id"] for f in families))
+        self.assertEqual(len(files), 8)
+        submissions = _uids(_read(self.docs / "submissions.ics"))
+        union = set()
+        for family in families:
+            text = _read(self.docs / "families" / f"{family['id']}.ics")
+            self.assertIn(f"X-WR-CALNAME:Venue Radar: {_escape_text(family['label'])} Submission Deadlines",
+                          text.replace("\r\n ", ""))
+            uids = _uids(text)
+            expected = {u for u in submissions
+                        if any(u.startswith(f"{c['id']}-deadline-") for c in self.current
+                               if family["id"] in assignments[c["series"]])}
+            self.assertEqual(uids, expected, family["id"])
+            union |= uids
+        # Every submission event reaches at least one field; nothing else does.
+        self.assertEqual(union, submissions)
+        neuro = _uids(_read(self.docs / "families" / "neuroscience.ics"))
+        self.assertTrue(any(u.startswith("cosyne-") for u in neuro))
+        self.assertFalse(any(u.startswith("icml-") for u in neuro))
+
     def test_series_feeds_roll_forward_with_identical_uids(self) -> None:
         groups = series_groups(self.conferences)
         files = sorted(path.stem for path in (self.docs / "series").glob("*.ics"))
@@ -161,7 +187,7 @@ class FeedTests(unittest.TestCase):
             self.assertFalse({u for u in uids if u.split("@")[0].rsplit("-conference", 1)[0] in past
                               or any(u.startswith(f"{p}-deadline-") for p in past)}, name)
             self.assertTrue(uids <= edition_uids, name)
-        for path in (self.docs / "tags").glob("*.ics"):
+        for path in [*(self.docs / "tags").glob("*.ics"), *(self.docs / "families").glob("*.ics")]:
             self.assertFalse(any(u.startswith(f"{p}-") for u in _uids(_read(path)) for p in past), path.name)
         # Every published identity still lives in its edition's own feed.
         expected = {f"{c['id']}-conference@scientific-conference-calendar" for c in self.conferences}

@@ -172,3 +172,19 @@ Approved with ADR-040:
   upcoming conferences".
 - Phones: "Show N host cities" / "Hide host cities". Empty filter: "No host
   city matches."
+
+## Focus Views And Field Feeds (ADR-062/064/065, proposed 2026-11-25)
+
+Pending owner approval before merge.
+
+- Subscribe menu picker: "Deadlines in one field", "Submission deadlines for
+  one topic family"; options are the eight family labels. Feed names:
+  "Venue Radar: <family label> Submission Deadlines".
+- Plan B link (expanded rows, under a future decision): "If rejected: fitting
+  venues still open after this decision".
+- Plan B banner: "Plan B for <edition>: venues in the same field still taking
+  papers at least a day after its decision on <Mon D, YYYY>[ (estimated)]."
+- Shortlist button: "Share starred" (tooltip "Copy a link that shows your
+  starred series to anyone"; "Copied" for 2 seconds).
+- Shortlist banner: "Shared shortlist: N series (<names>)."
+- Banner actions: "Star these series", "Show all venues".

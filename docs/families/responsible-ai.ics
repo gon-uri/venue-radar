@@ -1,0 +1,419 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Venue Radar: Responsible & Trustworthy AI Submission Deadlines
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:iui-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260814T115900Z
+DTEND:20260814T125900Z
+SUMMARY:IUI 2027 · Papers mandatory abstract registration (PCS)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 11-14\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\; Archival option: 
+ Yes\nOfficial source: https://iui.acm.org/2027/call-for-papers/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260821T115900Z
+DTEND:20260821T125900Z
+SUMMARY:IUI 2027 · Papers submission (variable length\; long or short oral
+  presentation)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 11-14\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\; Archival option: 
+ Yes\nOfficial source: https://iui.acm.org/2027/call-for-papers/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260911T115900Z
+DTEND:20260911T125900Z
+SUMMARY:CHI 2027 · Papers deadline
+DESCRIPTION:ACM CHI Conference on Human Factors in Computing Systems\nMeeti
+ ng: 2027-05-10 to 2027-05-14\, Pittsburgh\, Pennsylvania\, USA\nStatus: c
+ onfirmed\, checked 2026-10-28\nFormat: Paper-based / HCI-focused\; Archiv
+ al option: Yes\nOfficial source: https://chi2027.acm.org/authors/papers/\
+ nVenue Radar: https://gon-uri.github.io/venue-radar/#chi-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Fairness & Responsible AI
+URL:https://chi2027.acm.org/authors/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260923T115900Z
+DTEND:20260923T125900Z
+SUMMARY:SaTML 2027 · Mandatory abstract registration deadline
+DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
+ ting: 2027-05-04 to 2027-05-06\, Reykjavik\, Iceland\nStatus: confirmed\,
+  checked 2026-11-14\nFormat: Paper-based / systematization of knowledge /
+  position papers\; Archival option: Yes\nOfficial source: https://satml.o
+ rg/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ satml-2027
+CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
+  AI,Explainability & Interpretability
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260930T115900Z
+DTEND:20260930T125900Z
+SUMMARY:SaTML 2027 · Research\, SoK\, and position paper deadline
+DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
+ ting: 2027-05-04 to 2027-05-06\, Reykjavik\, Iceland\nStatus: confirmed\,
+  checked 2026-11-14\nFormat: Paper-based / systematization of knowledge /
+  position papers\; Archival option: Yes\nOfficial source: https://satml.o
+ rg/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#
+ satml-2027
+CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
+  AI,Explainability & Interpretability
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261028T115900Z
+DTEND:20261028T125900Z
+SUMMARY:ACM FAccT 2027 · Mandatory abstract registration deadline
+DESCRIPTION:ACM Conference on Fairness\, Accountability\, and Transparency\
+ nMeeting: 2027-06-21 to 2027-06-24\, Porto\, Portugal\nStatus: confirmed\
+ , checked 2026-10-28\nFormat: Paper-based / interdisciplinary\; Archival 
+ option: Yes\nOfficial source: https://facctconference.org/2027/cfp.html\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#acm-facct-2027
+CATEGORIES:Fairness & Responsible AI,Explainability & Interpretability,Ethi
+ cs & Governance,Privacy-preserving ML
+URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-facct-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261104T115900Z
+DTEND:20261104T125900Z
+SUMMARY:ACM FAccT 2027 · Paper submission deadline
+DESCRIPTION:ACM Conference on Fairness\, Accountability\, and Transparency\
+ nMeeting: 2027-06-21 to 2027-06-24\, Porto\, Portugal\nStatus: confirmed\
+ , checked 2026-10-28\nFormat: Paper-based / interdisciplinary\; Archival 
+ option: Yes\nOfficial source: https://facctconference.org/2027/cfp.html\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#acm-facct-2027
+CATEGORIES:Fairness & Responsible AI,Explainability & Interpretability,Ethi
+ cs & Governance,Privacy-preserving ML
+URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261110T115900Z
+DTEND:20261110T125900Z
+SUMMARY:IUI 2027 · Workshop papers (common deadline\; submit to each accep
+ ted workshop's own CFP\; joint CEUR-or-similar proceedings\, not ACM DL)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 11-14\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\; Archival option: 
+ Yes\nOfficial source: https://iui.acm.org/2027/call-for-workshops/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-workshops/
+END:VEVENT
+BEGIN:VEVENT
+UID:iui-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261111T115900Z
+DTEND:20261111T125900Z
+SUMMARY:IUI 2027 · Posters and demos submission (4-page papers\; demos als
+ o need a video)
+DESCRIPTION:ACM Conference on Intelligent User Interfaces\nMeeting: 2027-02
+ -08 to 2027-02-11\, Helsinki\, Finland\nStatus: confirmed\, checked 2026-
+ 11-14\nFormat: Paper-based / ACM Digital Library proceedings (open access
+ )\; 4-page posters and demos in companion proceedings\; Archival option: 
+ Yes\nOfficial source: https://iui.acm.org/2027/call-for-posters-demos/\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#iui-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Natural Language Processing & LLMs,Recommender Systems
+URL:https://iui.acm.org/2027/call-for-posters-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261112T115900Z
+DTEND:20261112T125900Z
+SUMMARY:FORC 2027 · First-cycle paper submission (archival\, LIPIcs)
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-11-14\nFormat: Paper-based / LIPIcs proceedings (10 pages\, 
+ or a one-page abstract on request)\; non-archival highlights talks\; Arch
+ ival option: Yes\nOfficial source: https://responsiblecomputing.org/forc-
+ 2027-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270122T115900Z
+DTEND:20270122T125900Z
+SUMMARY:CHI 2027 · Posters submission deadline
+DESCRIPTION:ACM CHI Conference on Human Factors in Computing Systems\nMeeti
+ ng: 2027-05-10 to 2027-05-14\, Pittsburgh\, Pennsylvania\, USA\nStatus: c
+ onfirmed\, checked 2026-10-28\nFormat: Paper-based / HCI-focused\; Archiv
+ al option: Yes\nOfficial source: https://chi2027.acm.org/authors/posters/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#chi-2027
+CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
+ ity,Fairness & Responsible AI
+URL:https://chi2027.acm.org/authors/posters/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270123T115900Z
+DTEND:20270123T125900Z
+SUMMARY:UMAP 2027 · Mandatory abstract registration for long and short pap
+ ers (title\, abstract\, final author list)
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\; Archival option: Yes\nOfficial
+  source: https://um.org/umap2027/call-for-full-and-short-paper/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270130T115900Z
+DTEND:20270130T125900Z
+SUMMARY:UMAP 2027 · Main-track long (8 pp) and short (4 pp) paper submissi
+ on
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\; Archival option: Yes\nOfficial
+  source: https://um.org/umap2027/call-for-full-and-short-paper/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-full-and-short-paper/
+END:VEVENT
+BEGIN:VEVENT
+UID:forc-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270218T115900Z
+DTEND:20270218T125900Z
+SUMMARY:FORC 2027 · Second-cycle paper submission (archival\, LIPIcs)
+DESCRIPTION:Symposium on Foundations of Responsible Computing\nMeeting: 202
+ 7-06-02 to 2027-06-04\, Stanford\, California\, USA\nStatus: confirmed\, 
+ checked 2026-11-14\nFormat: Paper-based / LIPIcs proceedings (10 pages\, 
+ or a one-page abstract on request)\; non-archival highlights talks\; Arch
+ ival option: Yes\nOfficial source: https://responsiblecomputing.org/forc-
+ 2027-call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar
+ /#forc-2027
+CATEGORIES:Fairness & Responsible AI,Privacy-preserving ML,Learning Theory 
+ & Statistical Foundations
+URL:https://responsiblecomputing.org/forc-2027-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270323T115900Z
+DTEND:20270323T125900Z
+SUMMARY:UMAP 2027 · Late-breaking results (LBR) and demo submission (up to
+  4 pp including references)
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\; Archival option: Yes\nOfficial
+  source: https://um.org/umap2027/call-for-late-breaking-results-lbr-demos
+ /\nVenue Radar: https://gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-late-breaking-results-lbr-demos/
+END:VEVENT
+BEGIN:VEVENT
+UID:umap-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270323T115900Z
+DTEND:20270323T125900Z
+SUMMARY:UMAP 2027 · Industry track paper submission (4 pp plus 1 p referen
+ ces\, single-blind)
+DESCRIPTION:ACM International Conference on User Modeling\, Adaptation and 
+ Personalization\nMeeting: 2027-06-09 to 2027-06-12\, Chicago\, Illinois\,
+  USA\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / ACM D
+ igital Library proceedings (open access)\; Archival option: Yes\nOfficial
+  source: https://um.org/umap2027/call-for-industry-papers/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#umap-2027
+CATEGORIES:Recommender Systems,Human-AI Interaction & Deployment,Fairness &
+  Responsible AI
+URL:https://um.org/umap2027/call-for-industry-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecaf-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270326T115900Z
+DTEND:20270326T125900Z
+SUMMARY:ECAF 2027 · Full paper (15 pp) / extended abstract (4 pp) submissi
+ on deadline
+DESCRIPTION:European Conference on Algorithmic Fairness\nMeeting: 2027-08-2
+ 5 to 2027-08-27\, Vilnius\, Lithuania\nStatus: confirmed\, checked 2026-1
+ 1-14\nFormat: Full papers or extended abstracts / PMLR proceedings or non
+ -archival (author's choice)\; non-archival posters\; Archival option: Yes
+ \nOfficial source: https://2027.ecafconference.org/callForPapers\nVenue R
+ adar: https://gon-uri.github.io/venue-radar/#ecaf-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance
+URL:https://2027.ecafconference.org/callForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecaf-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270326T115900Z
+DTEND:20270326T125900Z
+SUMMARY:ECAF 2027 · Non-archival poster submission deadline
+DESCRIPTION:European Conference on Algorithmic Fairness\nMeeting: 2027-08-2
+ 5 to 2027-08-27\, Vilnius\, Lithuania\nStatus: confirmed\, checked 2026-1
+ 1-14\nFormat: Full papers or extended abstracts / PMLR proceedings or non
+ -archival (author's choice)\; non-archival posters\; Archival option: Yes
+ \nOfficial source: https://2027.ecafconference.org/callForPosters\nVenue 
+ Radar: https://gon-uri.github.io/venue-radar/#ecaf-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance
+URL:https://2027.ecafconference.org/callForPosters
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270501T115900Z
+DTEND:20270501T125900Z
+SUMMARY:EAAMO 2027 (est.) · Mandatory abstract registration
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
+ unced\nStatus: estimated\, checked 2026-11-14. Check the organizer's call
+  before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
+ l option) or non-archival\; WiP posters non-archival\; Archival option: Y
+ es (est.)\nPrevious edition's page: https://conference2026.eaamo.org/cfp/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#eaamo-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270508T115900Z
+DTEND:20270508T125900Z
+SUMMARY:EAAMO 2027 (est.) · Paper submission (archival or non-archival opt
+ ion)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
+ unced\nStatus: estimated\, checked 2026-11-14. Check the organizer's call
+  before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
+ l option) or non-archival\; WiP posters non-archival\; Archival option: Y
+ es (est.)\nPrevious edition's page: https://conference2026.eaamo.org/cfp/
+ \nVenue Radar: https://gon-uri.github.io/venue-radar/#eaamo-2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270514T115900Z
+DTEND:20270514T125900Z
+SUMMARY:AIES 2027 (est.) · Abstract registration
+DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2027
+ -10-11 to 2027-10-13 (est.)\, To be announced\nStatus: estimated\, checke
+ d 2026-10-29. Check the organizer's call before relying on it.\nFormat: P
+ aper-based / interdisciplinary\; Archival option: Yes (est.)\nPrevious ed
+ ition's page: https://www.aies-conference.com/2026/call-for-papers/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#aies-2027
+CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
+ nterpretability,Robustness & Safety
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270521T115900Z
+DTEND:20270521T125900Z
+SUMMARY:AIES 2027 (est.) · Paper submission
+DESCRIPTION:AAAI/ACM Conference on AI\, Ethics\, and Society\nMeeting: 2027
+ -10-11 to 2027-10-13 (est.)\, To be announced\nStatus: estimated\, checke
+ d 2026-10-29. Check the organizer's call before relying on it.\nFormat: P
+ aper-based / interdisciplinary\; Archival option: Yes (est.)\nPrevious ed
+ ition's page: https://www.aies-conference.com/2026/call-for-papers/\nVenu
+ e Radar: https://gon-uri.github.io/venue-radar/#aies-2027
+CATEGORIES:Ethics & Governance,Fairness & Responsible AI,Explainability & I
+ nterpretability,Robustness & Safety
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eaamo-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270907T115900Z
+DTEND:20270907T125900Z
+SUMMARY:EAAMO 2027 (est.) · Work-in-progress poster (title and abstract\; 
+ non-archival)
+DESCRIPTION:ACM Conference on Equity and Access in Algorithms\, Mechanisms\
+ , and Optimization\nMeeting: 2027-11-04 to 2027-11-06 (est.)\, To be anno
+ unced\nStatus: estimated\, checked 2026-11-14. Check the organizer's call
+  before relying on it.\nFormat: Paper-based / ACM DL proceedings (archiva
+ l option) or non-archival\; WiP posters non-archival\; Archival option: Y
+ es (est.)\nPrevious edition's page: https://conference2026.eaamo.org/call
+ _for_posters/\nVenue Radar: https://gon-uri.github.io/venue-radar/#eaamo-
+ 2027
+CATEGORIES:Fairness & Responsible AI,Ethics & Governance,Machine Learning
+URL:https://conference2026.eaamo.org/call_for_posters/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270922T115900Z
+DTEND:20270922T125900Z
+SUMMARY:SaTML 2028 (est.) · Mandatory abstract registration deadline
+DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
+ ting: 2028-05-02 to 2028-05-04 (est.)\, To be announced\nStatus: estimate
+ d\, checked 2026-11-14. Check the organizer's call before relying on it.\
+ nFormat: Paper-based / systematization of knowledge / position papers\; A
+ rchival option: Yes (est.)\nOfficial source: https://satml.org/call-for-p
+ apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#satml-2028
+CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
+  AI,Explainability & Interpretability
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270929T115900Z
+DTEND:20270929T125900Z
+SUMMARY:SaTML 2028 (est.) · Paper submission deadline
+DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\nMee
+ ting: 2028-05-02 to 2028-05-04 (est.)\, To be announced\nStatus: estimate
+ d\, checked 2026-11-14. Check the organizer's call before relying on it.\
+ nFormat: Paper-based / systematization of knowledge / position papers\; A
+ rchival option: Yes (est.)\nOfficial source: https://satml.org/call-for-p
+ apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#satml-2028
+CATEGORIES:Robustness & Safety,Privacy-preserving ML,Fairness & Responsible
+  AI,Explainability & Interpretability
+URL:https://satml.org/call-for-papers/
+END:VEVENT
+END:VCALENDAR

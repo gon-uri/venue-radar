@@ -102,6 +102,8 @@ reason to move behavior.
 - `docs/conferences.ics`: meeting dates only.
 - `docs/submissions.ics`: supported fresh-submission deadlines and their mandatory gates.
 - `docs/tags/<leaf-slug>.ics`: topic-union events, not broad central-family feeds.
+- `docs/families/<family-id>.ics`: submission deadlines of the series whose
+  central identities include that family (ADR-062).
 - These five kinds of combined feed leave out past editions: those whose
   meeting and every milestone ended before `metadata.yml`'s `last_updated`
   (ADR-053). The two feed kinds below keep every edition.

@@ -308,12 +308,15 @@ Owner approved items 1-4 on 2026-11-18.
 3. (Done, ADR-055) "Last edition: <date>" provenance under estimated
    milestones.
 4. (Done) Scope profiles for all 176 series.
-5. Browser smoke suite in CI (advisory job first). Not started.
+5. (Done, ADR-063) Browser smoke suite in CI, as an advisory job.
 6. One release command matching CI (node tests, inline-script and identity
    checks inside `release_check.py`). Not started.
 7. Deterministic `SEQUENCE`/`LAST-MODIFIED` in ICS events so re-imported
    corrections replace stale dates (unverified in real clients). Not started.
-8. Judges split: a shareable shortlist link, or a faster Python suite.
+8. Judges split: a shareable shortlist link (done, ADR-065), or a faster
+   Python suite (not started).
+9. (Done, 2026-11-25) Owner-chosen batch: per-family submission feeds
+   (ADR-062) and Plan B after a rejection (ADR-064), with items 5 and 8.
 - Rejected for now: the "after a rejection" planner (revisit with item 2's
   data), networked source watching from CI, per-series landing pages and a
   sitemap, splitting the build script before item 5 lands.

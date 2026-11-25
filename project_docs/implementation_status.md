@@ -90,6 +90,12 @@ additions, not from an older session entry or a filtered website screenshot.
 - Search is accent-insensitive and matches every word. Re-renders keep keyboard
   focus. Tablet tables wrap between words; focus outlines, captions, a skip
   link and reduced motion are in place; no-JS shows every table and milestone.
+- Focus views (2026-11-25): "If rejected" Plan B under future decision
+  dates (`?after=`, ADR-064) and a "Share starred" shortlist link
+  (`?list=`, ADR-065), one banner for both. Eight per-family submission
+  feeds in `docs/families/` with a "Deadlines in one field" picker
+  (ADR-062). The browser suite also runs in CI as an advisory job
+  (ADR-063). Menu, link and banner wording await owner approval.
 - Traffic statistics: the owner's Google Tag Manager container `GTM-MKS3WJCL`
   loads first in `<head>` and sends GA4 page views (`G-QRXSH04HL6`); browser
   checks block it (ADR-056). Consent settings live in the GTM/GA consoles.

@@ -1,0 +1,665 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Venue Radar: RL\, Robotics & Control Submission Deadlines
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ieee-cdc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:IEEE CDC 2026 · Regular paper submission
+DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2026-12-15 to
+  2026-12-18\, Honolulu\, Hawaii\, USA\nStatus: confirmed\, checked 2026-1
+ 1-14\nCutoff time unannounced: official deadline day only. Verify the org
+ anizer's submission portal.\nFormat: Paper-based\; Archival option: Yes\n
+ Official source: https://cdc2026.ieeecss.org/\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#ieee-cdc-2026
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos,Reinforcement Learning
+URL:https://cdc2026.ieeecss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:ACC 2027 · Joint ACC and L-CSS submission
+DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
+ , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
+ izer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOf
+ ficial source: https://acc2027.a2c2.org/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#acc-2027
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Reinforcement Learning
+URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260917T075900Z
+DTEND:20260917T085900Z
+SUMMARY:ICRA 2027 · Extended paper submission deadline
+DESCRIPTION:IEEE International Conference on Robotics and Automation\nMeeti
+ ng: 2027-05-24 to 2027-05-28\, Seoul\, South Korea\nStatus: confirmed\, c
+ hecked 2026-11-14\nFormat: Paper-based\; Archival option: Yes (est.)\nOff
+ icial source: https://2027.ieee-icra.org/announcements/call-for-papers-su
+ bmission-deadline-extended/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#icra-2027
+CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
+ ern Recognition,System Identification & Data-driven Dynamics
+URL:https://2027.ieee-icra.org/announcements/call-for-papers-submission-dea
+ dline-extended/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:ACC 2027 · Regular paper submission
+DESCRIPTION:American Control Conference\nMeeting: 2027-07-07 to 2027-07-09\
+ , Philadelphia\, Pennsylvania\, USA\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
+ izer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOf
+ ficial source: https://acc2027.a2c2.org/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#acc-2027
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Reinforcement Learning
+URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:IFAC SYSID 2027 · Joint journal/conference submission
+DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-20\nCuto
+ ff time unannounced: official deadline day only. Verify the organizer's s
+ ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid-2027
+CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
+ Time Series & Sequential Data,Machine Learning
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261024T065900Z
+DTEND:20261024T075900Z
+SUMMARY:IPCAI 2027 · Regular-paper intention to submit (mandatory CMT regi
+ stration of title\, structured abstract and authors\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
+ ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261031T065900Z
+DTEND:20261031T075900Z
+SUMMARY:IPCAI 2027 · Regular paper submission (up to 12 pages\, single-bli
+ nd\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
+ ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:ECC 2027 · Extended contributed paper submission deadline
+DESCRIPTION:European Control Conference\nMeeting: 2027-07-13 to 2027-07-16\
+ , Brussels\, Belgium\nStatus: confirmed\, checked 2026-10-30\nCutoff time
+  unannounced: official deadline day only. Verify the organizer's submissi
+ on portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial source: 
+ https://ecc27.euca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri
+ .github.io/venue-radar/#ecc-2027
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261114T115900Z
+DTEND:20261114T125900Z
+SUMMARY:L4DC 2027 · Paper submission deadline
+DESCRIPTION:Learning for Dynamics and Control\nMeeting: 2027-06-16 to 2027-
+ 06-18\, Stockholm\, Sweden\nStatus: confirmed\, checked 2026-10-30\nForma
+ t: Paper-based\; Archival option: Yes (est.)\nOfficial source: https://l4
+ dc2027.control.ee.ethz.ch/author-information\nVenue Radar: https://gon-ur
+ i.github.io/venue-radar/#l4dc-2027
+CATEGORIES:Machine Learning,Control & Robotics,System Identification & Data
+ -driven Dynamics,Reinforcement Learning
+URL:https://l4dc2027.control.ee.ethz.ch/author-information
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:IFAC SYSID 2027 · Conference paper submission (extended)
+DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-20\nCuto
+ ff time unannounced: official deadline day only. Verify the organizer's s
+ ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid-2027
+CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
+ Time Series & Sequential Data,Machine Learning
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:rss-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:RSS 2027 · Stage 1 extended abstract submission deadline
+DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
+ r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
+ ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
+ ar/#rss-2027
+CATEGORIES:Control & Robotics,Reinforcement Learning,System Identification 
+ & Data-driven Dynamics,Computer Vision & Pattern Recognition
+URL:https://roboticsconference.org/information/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:icaps-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261208T115900Z
+DTEND:20261208T125900Z
+SUMMARY:ICAPS 2027 · Paper abstract registration deadline
+DESCRIPTION:International Conference on Automated Planning and Scheduling\n
+ Meeting: 2027-06-27 to 2027-07-02\, Columbia\, South Carolina\, USA\nStat
+ us: confirmed\, checked 2026-11-18\nFormat: Long and short papers / autom
+ ated planning\; Archival option: Yes\nOfficial source: https://icaps27.ic
+ aps-conference.org/calls/cfp/\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#icaps-2027
+CATEGORIES:Planning & Search,Knowledge Representation & Reasoning,Machine L
+ earning,Control & Robotics
+URL:https://icaps27.icaps-conference.org/calls/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:icaps-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261215T115900Z
+DTEND:20261215T125900Z
+SUMMARY:ICAPS 2027 · Long and short paper submission deadline
+DESCRIPTION:International Conference on Automated Planning and Scheduling\n
+ Meeting: 2027-06-27 to 2027-07-02\, Columbia\, South Carolina\, USA\nStat
+ us: confirmed\, checked 2026-11-18\nFormat: Long and short papers / autom
+ ated planning\; Archival option: Yes\nOfficial source: https://icaps27.ic
+ aps-conference.org/calls/cfp/\nVenue Radar: https://gon-uri.github.io/ven
+ ue-radar/#icaps-2027
+CATEGORIES:Planning & Search,Knowledge Representation & Reasoning,Machine L
+ earning,Control & Robotics
+URL:https://icaps27.icaps-conference.org/calls/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T075900Z
+DTEND:20270116T085900Z
+SUMMARY:IPCAI 2027 · Long abstract Track 1: late-breaking research (up to 
+ 4 pages\, unpublished work\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
+ ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-discussion-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:IFAC SYSID 2027 · Discussion papers (non-archival)
+DESCRIPTION:IFAC Symposium on System Identification\nMeeting: 2027-07-07 to
+  2027-07-09\, Lyon\, France\nStatus: confirmed\, checked 2026-11-20\nCuto
+ ff time unannounced: official deadline day only. Verify the organizer's s
+ ubmission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ ource: https://conferences.ifac-control.org/sysid2027/participate/\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#ifac-sysid-2027
+CATEGORIES:System Identification & Data-driven Dynamics,Control & Robotics,
+ Time Series & Sequential Data,Machine Learning
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:rldm-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270121T115900Z
+DTEND:20270121T125900Z
+SUMMARY:RLDM 2027 · Extended abstract submission (summary plus 1-4 page ex
+ tended abstract\; posters and oral talks)
+DESCRIPTION:Multi-disciplinary Conference on Reinforcement Learning and Dec
+ ision Making\nMeeting: 2027-07-06 to 2027-07-09\, Paris\, France\nStatus:
+  confirmed\, checked 2026-11-14\nFormat: Extended-abstract-based / non-ar
+ chival (no proceedings)\; Archival option: No\nOfficial source: https://r
+ ldm.org/call-for-abstracts-2027/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#rldm-2027
+CATEGORIES:Reinforcement Learning,Computational Neuroscience,Cognitive Scie
+ nce & Computational Cognition
+URL:https://rldm.org/call-for-abstracts-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:iros-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:IROS 2027 (est.) · Paper submission deadline (IEEE RAS calendar\; 
+ call not yet published)
+DESCRIPTION:IEEE/RSJ International Conference on Intelligent Robots and Sys
+ tems\nMeeting: 2027-09-27 to 2027-10-01\, Florence\, Italy\nStatus: estim
+ ated\, checked 2026-11-14. Check the organizer's call before relying on i
+ t.\nEstimated day only\; no cutoff hour stored. Check the organizer's cal
+ l for the real date and time.\nFormat: Paper-based / IEEE Xplore proceedi
+ ngs\; Archival option: Yes (est.)\nOfficial source: https://www.ieee-ras.
+ org/event/call-for-papers-paper-submission-deadline-iros-2027-ieee-rsj-in
+ ternational-conference-on-intelligent-robots-and-systems-iros-27403-0/\nV
+ enue Radar: https://gon-uri.github.io/venue-radar/#iros-2027
+CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
+ ern Recognition,Planning & Search
+URL:https://www.ieee-ras.org/event/call-for-papers-paper-submission-deadlin
+ e-iros-2027-ieee-rsj-international-conference-on-intelligent-robots-and-s
+ ystems-iros-27403-0/
+END:VEVENT
+BEGIN:VEVENT
+UID:rlc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270306T115900Z
+DTEND:20270306T125900Z
+SUMMARY:RLC 2027 (est.) · RLJ submission cutoff for RLC 2027 (rolling subm
+ issions\; must be accepted by May 1)
+DESCRIPTION:Reinforcement Learning Conference\nMeeting: 2027-08-02 to 2027-
+ 08-25\, Providence\, USA (Brown University) and Nyborg\, Denmark\nStatus:
+  estimated\, checked 2026-11-14. Check the organizer's call before relyin
+ g on it.\nFormat: Paper-based / rolling RLJ submissions\; papers accepted
+  by RLJ by May 1 are presented at RLC 2027\; Archival option: Yes\nOffici
+ al source: https://rl-conference.cc/2027/index.html\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#rlc-2027
+CATEGORIES:Reinforcement Learning,Machine Learning
+URL:https://rl-conference.cc/2027/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:IEEE CDC 2027 · Joint L-CSS and CDC submission
+DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2027-12-14 to
+  2027-12-17\, Lisbon\, Portugal\nStatus: confirmed\, checked 2026-10-28\n
+ Cutoff time unannounced: official deadline day only. Verify the organizer
+ 's submission portal.\nFormat: Paper-based\; Archival option: Yes (est.)\
+ nOfficial source: https://cdc2027.ieeecss.org/authors/call-for-papers\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#ieee-cdc-2027
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos,Reinforcement Learning
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:icdl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270320T115900Z
+DTEND:20270320T125900Z
+SUMMARY:ICDL 2027 (est.) · Full-paper submission deadline (6 pages\, IEEE 
+ Xplore)
+DESCRIPTION:IEEE International Conference on Development and Learning\nMeet
+ ing: 2027-09-21 to 2027-09-24\, Campinas\, Brazil\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Full papers in IEEE Xplore + non-archival late-breaking results\; Arch
+ ival option: Yes (est.)\nPrevious edition's page: https://attend.ieee.org
+ /icdl-2026/contribute/call-for-papers/\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#icdl-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Control & Robotics,M
+ achine Learning
+URL:https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:IEEE CDC 2027 · Regular paper submission
+DESCRIPTION:IEEE Conference on Decision and Control\nMeeting: 2027-12-14 to
+  2027-12-17\, Lisbon\, Portugal\nStatus: confirmed\, checked 2026-10-28\n
+ Cutoff time unannounced: official deadline day only. Verify the organizer
+ 's submission portal.\nFormat: Paper-based\; Archival option: Yes (est.)\
+ nOfficial source: https://cdc2027.ieeecss.org/authors/call-for-papers\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#ieee-cdc-2027
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos,Reinforcement Learning
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:rss-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270417T115900Z
+DTEND:20270417T125900Z
+SUMMARY:RSS 2027 · Stage 2 final paper deadline (invited authors only)
+DESCRIPTION:Robotics: Science and Systems\nMeeting: 2027-07-06 to 2027-07-1
+ 1\, Athens\, Greece\nStatus: confirmed\, checked 2026-11-25\nFormat: Pape
+ r-based\; Archival option: Yes\nOfficial source: https://roboticsconferen
+ ce.org/information/cfp/\nVenue Radar: https://gon-uri.github.io/venue-rad
+ ar/#rss-2027
+CATEGORIES:Control & Robotics,Reinforcement Learning,System Identification 
+ & Data-driven Dynamics,Computer Vision & Pattern Recognition
+URL:https://roboticsconference.org/information/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:SMC 2027 (est.) · Regular paper submission deadline
+DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
+ s\nMeeting: 2027-10-07 to 2027-10-10 (est.)\, Ho Chi Minh City\, Vietnam\
+ nStatus: estimated\, checked 2026-11-14. Check the organizer's call befor
+ e relying on it.\nEstimated day only\; no cutoff hour stored. Check the o
+ rganizer's call for the real date and time.\nFormat: Paper-based\; Archiv
+ al option: Yes (est.)\nPrevious edition's page: https://www.ieeesmc2026.o
+ rg/Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ mc-2027
+CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
+ rning,Human-AI Interaction & Deployment
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:SMC 2027 (est.) · Work-in-progress paper deadline
+DESCRIPTION:IEEE International Conference on Systems\, Man\, and Cybernetic
+ s\nMeeting: 2027-10-07 to 2027-10-10 (est.)\, Ho Chi Minh City\, Vietnam\
+ nStatus: estimated\, checked 2026-11-14. Check the organizer's call befor
+ e relying on it.\nEstimated day only\; no cutoff hour stored. Check the o
+ rganizer's call for the real date and time.\nFormat: Paper-based\; Archiv
+ al option: Yes (est.)\nPrevious edition's page: https://www.ieeesmc2026.o
+ rg/Important-Dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#s
+ mc-2027
+CATEGORIES:Control & Robotics,Complex Systems & Network Science,Machine Lea
+ rning,Human-AI Interaction & Deployment
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270526T115900Z
+DTEND:20270526T125900Z
+SUMMARY:CoRL 2027 (est.) · Mandatory abstract registration deadline
+DESCRIPTION:Conference on Robot Learning\nMeeting: 2027-11-09 to 2027-11-12
+  (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check 
+ the organizer's call before relying on it.\nFormat: Paper-based\; Archiva
+ l option: Yes (est.)\nPrevious edition's page: https://openreview.net/gro
+ up?id=robot-learning.org/CoRL/2026/Conference\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#corl-2027
+CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
+ Representation Learning
+URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:corl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T115900Z
+DTEND:20270529T125900Z
+SUMMARY:CoRL 2027 (est.) · Main conference paper submission deadline
+DESCRIPTION:Conference on Robot Learning\nMeeting: 2027-11-09 to 2027-11-12
+  (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. Check 
+ the organizer's call before relying on it.\nFormat: Paper-based\; Archiva
+ l option: Yes (est.)\nPrevious edition's page: https://openreview.net/gro
+ up?id=robot-learning.org/CoRL/2026/Conference\nVenue Radar: https://gon-u
+ ri.github.io/venue-radar/#corl-2027
+CATEGORIES:Machine Learning,Control & Robotics,Reinforcement Learning,Deep 
+ Representation Learning
+URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:icdl-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270619T115900Z
+DTEND:20270619T125900Z
+SUMMARY:ICDL 2027 (est.) · Late-breaking result submission (1-2 pages\, po
+ ster\; not in IEEE Xplore)
+DESCRIPTION:IEEE International Conference on Development and Learning\nMeet
+ ing: 2027-09-21 to 2027-09-24\, Campinas\, Brazil\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Full papers in IEEE Xplore + non-archival late-breaking results\; Arch
+ ival option: Yes (est.)\nPrevious edition's page: https://attend.ieee.org
+ /icdl-2026/contribute/call-for-papers/\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#icdl-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Control & Robotics,M
+ achine Learning
+URL:https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:ACC 2028 · Joint ACC and L-CSS submission
+DESCRIPTION:American Control Conference\nMeeting: 2028-05-31 to 2028-06-02\
+ , San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-1
+ 4\nCutoff time unannounced: official deadline day only. Verify the organi
+ zer's submission portal.\nCutoff note: CFP PDF says L-CSS submissions are
+  due Sep 10\, 2027\; Author Information page says Sep 12. Earliest date s
+ tored.\nFormat: Paper-based\; Archival option: Yes\nOfficial source: http
+ s://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.pdf\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#acc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Reinforcement Learning
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270916T065900Z
+DTEND:20270916T075900Z
+SUMMARY:ICRA 2028 (est.) · Paper submission deadline
+DESCRIPTION:IEEE International Conference on Robotics and Automation\nMeeti
+ ng: 2028-05-24 to 2028-05-28 (est.)\, Guadalajara\, Mexico\nStatus: estim
+ ated\, checked 2026-11-14. Check the organizer's call before relying on i
+ t.\nFormat: Paper-based\; Archival option: Yes (est.)\nOfficial source: h
+ ttps://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#icra-2028
+CATEGORIES:Control & Robotics,Reinforcement Learning,Computer Vision & Patt
+ ern Recognition,System Identification & Data-driven Dynamics
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:ACC 2028 · Regular paper submission
+DESCRIPTION:American Control Conference\nMeeting: 2028-05-31 to 2028-06-02\
+ , San Francisco\, California\, USA\nStatus: confirmed\, checked 2026-11-1
+ 4\nCutoff time unannounced: official deadline day only. Verify the organi
+ zer's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOff
+ icial source: https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028
+ -CFP-pdf-1.pdf\nVenue Radar: https://gon-uri.github.io/venue-radar/#acc-2
+ 028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Reinforcement Learning
+URL:https://acc2028.a2c2.org/wp-content/uploads/2026/02/ACC2028-CFP-pdf-1.p
+ df
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
+SUMMARY:ECC 2028 (est.) · Contributed paper submission deadline
+DESCRIPTION:European Control Conference\nMeeting: 2028-06-20 to 2028-06-23\
+ , Rimini\, Italy\nStatus: estimated\, checked 2026-10-30. Check the organ
+ izer's call before relying on it.\nEstimated day only\; no cutoff hour st
+ ored. Check the organizer's call for the real date and time.\nFormat: Pap
+ er-based\; Archival option: Yes (est.)\nOfficial source: https://ecc27.eu
+ ca-ecc.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue
+ -radar/#ecc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://ecc27.euca-ecc.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280207
+DTEND;VALUE=DATE:20280208
+SUMMARY:MTNS 2028 (est.) · Full paper submission (IFAC-PapersOnLine)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://uwaterloo.ca/international-symposium-
+ mathematical-theory-networks-systems/key-dates\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#mtns-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mtns-2028-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280214
+DTEND;VALUE=DATE:20280215
+SUMMARY:MTNS 2028 (est.) · Extended abstract submission (not published)
+DESCRIPTION:International Symposium on Mathematical Theory of Networks and 
+ Systems\nMeeting: 2028-08-14 to 2028-08-18 (est.)\, To be announced\nStat
+ us: estimated\, checked 2026-11-14. Check the organizer's call before rel
+ ying on it.\nEstimated day only\; no cutoff hour stored. Check the organi
+ zer's call for the real date and time.\nFormat: Paper-based / IFAC-Papers
+ OnLine full papers\; non-archival extended abstracts\; Archival option: Y
+ es (est.)\nOfficial source: https://uwaterloo.ca/international-symposium-
+ mathematical-theory-networks-systems/key-dates\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#mtns-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Complex Systems & Network Science
+URL:https://uwaterloo.ca/international-symposium-mathematical-theory-networ
+ ks-systems/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2028-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280320
+DTEND;VALUE=DATE:20280321
+SUMMARY:ACC 2028 (est.) · Late-breaking news poster submission (poster-onl
+ y session)
+DESCRIPTION:American Control Conference\nMeeting: 2028-05-31 to 2028-06-02\
+ , San Francisco\, California\, USA\nStatus: estimated\, checked 2026-11-1
+ 4. Check the organizer's call before relying on it.\nEstimated day only\;
+  no cutoff hour stored. Check the organizer's call for the real date and 
+ time.\nFormat: Paper-based\; Archival option: Yes\nOfficial source: https
+ ://acc2028.a2c2.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/
+ #acc-2028
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Reinforcement Learning
+URL:https://acc2028.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:SAB 2028 (est.) · Poster abstract submission deadline
+DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
+ eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Reviewed papers + non-archival contributions\; Archival option:
+  Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
+ utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
+CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
+ gnitive Science & Computational Cognition,Control & Robotics
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:SAB 2028 (est.) · Proceedings paper submission deadline
+DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
+ eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Reviewed papers + non-archival contributions\; Archival option:
+  Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
+ utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
+CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
+ gnitive Science & Computational Cognition,Control & Robotics
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281011
+DTEND;VALUE=DATE:20281012
+SUMMARY:IFAC WC 2029 (est.) · Regular/survey paper deadline (also invited-
+ session\, open-invited-track and demonstration papers)
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nMeeting: 2029-07-08 to 2029-07-13\, Amsterdam\, Netherlands\nStatus
+ : estimated\, checked 2026-11-14. Check the organizer's call before relyi
+ ng on it.\nEstimated day only\; no cutoff hour stored. Check the organize
+ r's call for the real date and time.\nFormat: Paper-based / IFAC-PapersOn
+ Line open-access proceedings\; late-breaking/discussion papers non-archiv
+ al (preprints only)\; Archival option: Yes (est.)\nPrevious edition's pag
+ e: https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#ifac-wc-2029
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-wc-2029-deadline-discussion-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20290113
+DTEND;VALUE=DATE:20290114
+SUMMARY:IFAC WC 2029 (est.) · Late-breaking/discussion paper deadline (1-4
+  pages\, preprints only\, non-archival)
+DESCRIPTION:World Congress of the International Federation of Automatic Con
+ trol\nMeeting: 2029-07-08 to 2029-07-13\, Amsterdam\, Netherlands\nStatus
+ : estimated\, checked 2026-11-14. Check the organizer's call before relyi
+ ng on it.\nEstimated day only\; no cutoff hour stored. Check the organize
+ r's call for the real date and time.\nFormat: Paper-based / IFAC-PapersOn
+ Line open-access proceedings\; late-breaking/discussion papers non-archiv
+ al (preprints only)\; Archival option: Yes (est.)\nPrevious edition's pag
+ e: https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#ifac-wc-2029
+CATEGORIES:Control & Robotics,System Identification & Data-driven Dynamics,
+ Nonlinear Dynamics & Chaos
+URL:https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21837&hl=ENG
+END:VEVENT
+END:VCALENDAR

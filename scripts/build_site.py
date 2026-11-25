@@ -643,7 +643,14 @@ def _shows_clock(milestone: dict[str, Any]) -> bool:
     )
 
 
-def _deadline_grid_rows(milestones: list[dict[str, Any]], grid_id: str = "") -> str:
+PLAN_B_BUTTON = "If rejected: fitting venues still open after this decision"
+# Plan B counts paper routes a rejected paper can go to; abstract-only,
+# poster, extended-abstract and non-archival discussion routes do not count.
+PLAN_B_TYPES = frozenset({"full_paper", "regular_paper", "short_paper", "workshop_paper",
+                          "special_session_paper", "journal_paper", "resource_paper"})
+
+
+def _deadline_grid_rows(milestones: list[dict[str, Any]], grid_id: str = "", edition: str = "") -> str:
     rows = []
     for index, milestone in enumerate(milestones):
         deadline_utc = milestone.get("instant") or _deadline_iso_utc(milestone["datetime"])
@@ -678,6 +685,11 @@ def _deadline_grid_rows(milestones: list[dict[str, Any]], grid_id: str = "") -> 
             # What an estimate rests on: the confirmed date in the last edition that had it.
             basis = (f'<span class="deadline-basis">Last edition: '
                      f'<a href="{_attr(milestone["previous"]["url"])}">{escape(milestone["previous"]["date"])}</a></span>')
+        if milestone["type"] == "notification" and edition:
+            # Plan B (ADR-064): venues in the same field still open after this
+            # decision. Script-only, so it starts hidden; site.js reveals it.
+            basis += (f'<span class="plan-b-line" hidden><button class="link-button" type="button" '
+                      f'data-plan-b="{_attr(edition)}">{escape(PLAN_B_BUTTON)}</button></span>')
         rows.append(
             f'<div class="deadline-grid-row" data-deadline-row data-entry-index="{index}" '
             f'data-deadline-type="{_attr(milestone["type"])}"{row_hidden}>'
@@ -769,7 +781,7 @@ def _deadline_group_rows(
             '<span class="visually-hidden" data-time-left-sr></span>'
             f'<span class="time-estimate" data-time-estimate hidden title="{_attr(TIME_ESTIMATE_TOOLTIP)}">(time est.)</span>'
             '</div></td>'
-            f'<td class="deadline-combined-cell mobile-detail" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}<div class="milestone-stack">{_deadline_grid_rows(milestones, grid_id)}{_cutoff_notes(milestones)}{_about_venue(conference)}{_evidence_line(conference)}</div></div></td>'
+            f'<td class="deadline-combined-cell mobile-detail" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}<div class="milestone-stack">{_deadline_grid_rows(milestones, grid_id, conference["id"])}{_cutoff_notes(milestones)}{_about_venue(conference)}{_evidence_line(conference)}</div></div></td>'
             f"<td class=\"mobile-detail\" data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f'<td class="mobile-detail" data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
             f'<td class="mobile-detail" data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
@@ -936,7 +948,17 @@ def _calendar_menu(conferences: list[dict[str, Any]], icon: str) -> str:
     )
     first_topic = f"tags/{stable_slug(topics[0])}.ics"
     first_series = f"series/{groups[0][0]}.ics"
+    families = TOPIC_CATALOG["families"]
+    family_options = "".join(
+        f'<option value="families/{_attr(family["id"])}.ics">{escape(family["label"])}</option>'
+        for family in families
+    )
+    first_family = f'families/{families[0]["id"]}.ics'
     pickers = (
+        '<li class="feed-row feed-picker"><label class="feed-name" for="feed-family">'
+        '<strong>Deadlines in one field</strong><span>Submission deadlines for one topic family</span></label>'
+        f'<select id="feed-family" data-feed-select>{family_options}</select>'
+        f'{_feed_actions(first_family, "Field deadlines feed")}</li>'
         '<li class="feed-row feed-picker"><label class="feed-name" for="feed-topic">'
         '<strong>One topic</strong><span>All events for a subtopic</span></label>'
         f'<select id="feed-topic" data-feed-select>{topic_options}</select>'
@@ -1033,7 +1055,8 @@ def build_site(
     # Core client logic lives in assets/ (pure helpers first) instead of this template.
     logic_js = (ASSETS_DIR / 'logic.js').read_text(encoding='utf-8')
     core_js = (ASSETS_DIR / 'core.js').read_text(encoding='utf-8')
-    venue_config = json.dumps({'submissionTypes': sorted(SUBMISSION_TYPES)}).replace('</', '<\\/')
+    venue_config = json.dumps({'submissionTypes': sorted(SUBMISSION_TYPES),
+                               'planBTypes': sorted(PLAN_B_TYPES)}).replace('</', '<\\/')
     map_data = json.dumps({
         'events': map_events(conferences, cities),
         'land': _round_coordinates(json.loads((ASSETS_DIR / 'vendor' / 'world-land.geojson').read_text())),
@@ -1176,10 +1199,16 @@ def build_site(
           <button type="button" data-within="0" aria-pressed="true">Any</button>
         </div>
         <label class="starred-toggle" hidden><input id="starred-only" type="checkbox">Starred only <span data-starred-count></span></label>
+        <button class="link-button share-starred" id="share-starred" type="button" hidden title="Copy a link that shows your starred series to anyone">Share starred</button>
         <div class="toolbar-actions">
           <span id="result-count" aria-live="polite"></span>
           <button class="link-button" id="show-hidden" type="button" hidden></button>
         </div>
+      </div>
+
+      <div class="focus-banner" id="focus-banner" role="status" tabindex="-1" hidden>
+        <p data-focus-text></p>
+        <div class="focus-actions"><button class="link-button" type="button" data-focus-star hidden>Star these series</button><button class="link-button" type="button" data-focus-clear>Show all venues</button></div>
       </div>
 
       <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">

@@ -1,0 +1,866 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Venue Radar: Vision & Multimedia Submission Deadlines
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bmvc-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260523T115900Z
+DTEND:20260523T125900Z
+SUMMARY:BMVC 2026 · Abstract registration deadline
+DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
+ 11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-11-1
+ 4\nFormat: Paper-based / BMVA proceedings\; Archival option: Yes\nOfficia
+ l source: https://bmvc2026.bmva.org/dates/\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#bmvc-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://bmvc2026.bmva.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:bmvc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260530T115900Z
+DTEND:20260530T125900Z
+SUMMARY:BMVC 2026 · Paper submission deadline
+DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
+ 11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-11-1
+ 4\nFormat: Paper-based / BMVA proceedings\; Archival option: Yes\nOfficia
+ l source: https://bmvc2026.bmva.org/dates/\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#bmvc-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://bmvc2026.bmva.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260620T115900Z
+DTEND:20260620T125900Z
+SUMMARY:WACV 2027 · Round 1 new-paper enrollment deadline
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
+ Meeting: 2027-01-06 to 2027-01-08\, Lake Buena Vista\, Florida\, USA\nSta
+ tus: confirmed\, checked 2026-11-14\nFormat: Paper-based / two independen
+ t submission rounds\; Archival option: Yes\nOfficial source: https://wacv
+ .thecvf.com/Conferences/2027/CallForPapers\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#wacv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260627T115900Z
+DTEND:20260627T125900Z
+SUMMARY:WACV 2027 · Round 1 paper submission deadline
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
+ Meeting: 2027-01-06 to 2027-01-08\, Lake Buena Vista\, Florida\, USA\nSta
+ tus: confirmed\, checked 2026-11-14\nFormat: Paper-based / two independen
+ t submission rounds\; Archival option: Yes\nOfficial source: https://wacv
+ .thecvf.com/Conferences/2027/CallForPapers\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#wacv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260703T235900Z
+DTEND:20260704T005900Z
+SUMMARY:ACCV 2026 · Mandatory OpenReview paper registration (title\, abstr
+ act\, authors)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\; Archival option: Yes\nOfficial 
+ source: https://accv2026.org/submissions/author-guidelines/\nVenue Radar:
+  https://gon-uri.github.io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260705T235900Z
+DTEND:20260706T005900Z
+SUMMARY:ACCV 2026 · Main-conference paper submission deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
+ 6-12-18\, Osaka\, Japan\nStatus: confirmed\, checked 2026-10-31\nFormat: 
+ Paper-based / Springer LNCS proceedings\; Archival option: Yes\nOfficial 
+ source: https://accv2026.org/submissions/\nVenue Radar: https://gon-uri.g
+ ithub.io/venue-radar/#accv-2026
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:BIOSIG 2026 · Paper submission deadline (extended from July 30)
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
+ irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
+ y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
+ GI LNI proceedings\, submitted to IEEE Xplore\; Archival option: Yes\nOff
+ icial source: https://biosig.de/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#biosig-2026
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260822T115900Z
+DTEND:20260822T125900Z
+SUMMARY:WACV 2027 · Round 2 new-paper enrollment deadline
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
+ Meeting: 2027-01-06 to 2027-01-08\, Lake Buena Vista\, Florida\, USA\nSta
+ tus: confirmed\, checked 2026-11-14\nFormat: Paper-based / two independen
+ t submission rounds\; Archival option: Yes\nOfficial source: https://wacv
+ .thecvf.com/Conferences/2027/CallForPapers\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#wacv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:3dv-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260829T115900Z
+DTEND:20260829T125900Z
+SUMMARY:3DV 2027 · Abstract registration deadline
+DESCRIPTION:International Conference on 3D Vision\nMeeting: 2027-04-06 to 2
+ 027-04-09\, Thessaloniki\, Greece\nStatus: confirmed\, checked 2026-11-14
+ \nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sourc
+ e: https://3dvconf.github.io/2027/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#3dv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://3dvconf.github.io/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:3dv-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260829T115900Z
+DTEND:20260829T125900Z
+SUMMARY:3DV 2027 · Paper submission deadline
+DESCRIPTION:International Conference on 3D Vision\nMeeting: 2027-04-06 to 2
+ 027-04-09\, Thessaloniki\, Greece\nStatus: confirmed\, checked 2026-11-14
+ \nFormat: Paper-based / OpenReview\; Archival option: Yes\nOfficial sourc
+ e: https://3dvconf.github.io/2027/\nVenue Radar: https://gon-uri.github.i
+ o/venue-radar/#3dv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://3dvconf.github.io/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260829T115900Z
+DTEND:20260829T125900Z
+SUMMARY:WACV 2027 · Round 2 paper submission deadline
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
+ Meeting: 2027-01-06 to 2027-01-08\, Lake Buena Vista\, Florida\, USA\nSta
+ tus: confirmed\, checked 2026-11-14\nFormat: Paper-based / two independen
+ t submission rounds\; Archival option: Yes\nOfficial source: https://wacv
+ .thecvf.com/Conferences/2027/CallForPapers\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#wacv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261024T065900Z
+DTEND:20261024T075900Z
+SUMMARY:IPCAI 2027 · Regular-paper intention to submit (mandatory CMT regi
+ stration of title\, structured abstract and authors\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
+ ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261024T115900Z
+DTEND:20261024T125900Z
+SUMMARY:FG 2027 · Extended main and special-session abstract deadline
+DESCRIPTION:IEEE International Conference on Automatic Face and Gesture Rec
+ ognition\nMeeting: 2027-04-26 to 2027-04-30\, Marrakesh\, Morocco\nStatus
+ : confirmed\, checked 2026-10-30\nFormat: Long and short papers / face\, 
+ gesture\, and body recognition\; Archival option: Yes\nOfficial source: h
+ ttps://fg2027.ieee-biometrics.org/dates/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#fg-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Deep Representation Learning,Machine Learning
+URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261031T065900Z
+DTEND:20261031T075900Z
+SUMMARY:IPCAI 2027 · Regular paper submission (up to 12 pages\, single-bli
+ nd\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
+ ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261031T115900Z
+DTEND:20261031T125900Z
+SUMMARY:FG 2027 · Extended main and special-session paper deadline
+DESCRIPTION:IEEE International Conference on Automatic Face and Gesture Rec
+ ognition\nMeeting: 2027-04-26 to 2027-04-30\, Marrakesh\, Morocco\nStatus
+ : confirmed\, checked 2026-10-30\nFormat: Long and short papers / face\, 
+ gesture\, and body recognition\; Archival option: Yes\nOfficial source: h
+ ttps://fg2027.ieee-biometrics.org/dates/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#fg-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Deep Representation Learning,Machine Learning
+URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261111T115900Z
+DTEND:20261111T125900Z
+SUMMARY:CVPR 2027 · Abstract and paper registration deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2027-06-20 to 2027-06-25\, Seattle\, Washington\, USA\nStatus: 
+ confirmed\, checked 2026-11-20\nFormat: Paper-based / OpenReview\; Archiv
+ al option: Yes\nOfficial source: https://cvpr.thecvf.com/Conferences/2027
+ /CallForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-
+ 2027
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261117T115900Z
+DTEND:20261117T125900Z
+SUMMARY:CVPR 2027 · Paper submission deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2027-06-20 to 2027-06-25\, Seattle\, Washington\, USA\nStatus: 
+ confirmed\, checked 2026-11-20\nFormat: Paper-based / OpenReview\; Archiv
+ al option: Yes\nOfficial source: https://cvpr.thecvf.com/Conferences/2027
+ /CallForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-
+ 2027
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261231T115900Z
+DTEND:20261231T125900Z
+SUMMARY:ICME 2027 · Regular paper submission deadline (including special-s
+ ession papers)
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nFormat: Paper-based / IEEE conference proceedings\; Archival op
+ tion: Yes\nOfficial source: https://confcats-siteplex.s3.amazonaws.com/ic
+ me/files/icme27-cfp_web-05.pdf\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://confcats-siteplex.s3.amazonaws.com/icme/files/icme27-cfp_web-05
+ .pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270112T115900Z
+DTEND:20270112T125900Z
+SUMMARY:FG 2027 · Workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Automatic Face and Gesture Rec
+ ognition\nMeeting: 2027-04-26 to 2027-04-30\, Marrakesh\, Morocco\nStatus
+ : confirmed\, checked 2026-10-30\nFormat: Long and short papers / face\, 
+ gesture\, and body recognition\; Archival option: Yes\nOfficial source: h
+ ttps://fg2027.ieee-biometrics.org/dates/\nVenue Radar: https://gon-uri.gi
+ thub.io/venue-radar/#fg-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Deep Representation Learning,Machine Learning
+URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ipcai-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T075900Z
+DTEND:20270116T085900Z
+SUMMARY:IPCAI 2027 · Long abstract Track 1: late-breaking research (up to 
+ 4 pages\, unpublished work\; no extension)
+DESCRIPTION:International Conference on Information Processing in Computer-
+ Assisted Interventions\nMeeting: 2027-06-28 to 2027-06-30\, Berlin\, Germ
+ any\nStatus: confirmed\, checked 2026-11-14\nFormat: Paper-based / IJCARS
+  special-issue journal papers (Springer)\; 4-page long abstracts listed i
+ n the IPCAI-CARS proceedings\; Archival option: Yes\nOfficial source: htt
+ ps://sites.google.com/view/ipcai2027/conference-timeline\nVenue Radar: ht
+ tps://gon-uri.github.io/venue-radar/#ipcai-2027
+CATEGORIES:Healthcare & Clinical AI,Control & Robotics,Biomedical Imaging,C
+ omputer Vision & Pattern Recognition
+URL:https://sites.google.com/view/ipcai2027/conference-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-siggraph-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270121T220000Z
+DTEND:20270121T230000Z
+SUMMARY:ACM SIGGRAPH 2027 · Technical-paper submission form and conflicts 
+ deadline
+DESCRIPTION:ACM SIGGRAPH Annual Conference\nMeeting: 2027-08-08 to 2027-08-
+ 12\, Anaheim\, California\, USA\nStatus: confirmed\, checked 2026-10-28\n
+ Format: Technical papers / conference and ACM TOG tracks\; Archival optio
+ n: Yes (est.)\nOfficial source: https://s2027.siggraph.org/program/techni
+ cal-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#acm-sigg
+ raph-2027
+CATEGORIES:Computer Graphics & Visualization,Machine Learning,Computer Visi
+ on & Pattern Recognition
+URL:https://s2027.siggraph.org/program/technical-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-siggraph-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270128T220000Z
+DTEND:20270128T230000Z
+SUMMARY:ACM SIGGRAPH 2027 · Technical-paper deadline
+DESCRIPTION:ACM SIGGRAPH Annual Conference\nMeeting: 2027-08-08 to 2027-08-
+ 12\, Anaheim\, California\, USA\nStatus: confirmed\, checked 2026-10-28\n
+ Format: Technical papers / conference and ACM TOG tracks\; Archival optio
+ n: Yes (est.)\nOfficial source: https://s2027.siggraph.org/program/techni
+ cal-papers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#acm-sigg
+ raph-2027
+CATEGORIES:Computer Graphics & Visualization,Machine Learning,Computer Visi
+ on & Pattern Recognition
+URL:https://s2027.siggraph.org/program/technical-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icmr-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115959Z
+DTEND:20270201T125959Z
+SUMMARY:ICMR 2027 · Regular full and short paper submission deadline
+DESCRIPTION:ACM SIGMM International Conference on Multimedia Retrieval\nMee
+ ting: 2027-06-07 to 2027-06-10\, Singapore\nStatus: confirmed\, checked 2
+ 026-11-14\nFormat: Full and short papers / multimedia retrieval\; Archiva
+ l option: Yes\nOfficial source: https://www.icmr2027.org/date\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#icmr-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Machine Learning,Deep Representation Learning
+URL:https://www.icmr2027.org/date
+END:VEVENT
+BEGIN:VEVENT
+UID:iccv-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270304T095900Z
+DTEND:20270304T105900Z
+SUMMARY:ICCV 2027 (est.) · Paper registration deadline
+DESCRIPTION:IEEE/CVF International Conference on Computer Vision\nMeeting: 
+ 2027-10-03 to 2027-10-07\, Hong Kong\, China\nStatus: estimated\, checked
+  2026-11-14. Check the organizer's call before relying on it.\nFormat: Pa
+ per-based / OpenReview\; Archival option: Yes (est.)\nPrevious edition's 
+ page: https://iccv.thecvf.com/Conferences/2025/CallForPapers\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#iccv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://iccv.thecvf.com/Conferences/2025/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccv-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270308T095900Z
+DTEND:20270308T105900Z
+SUMMARY:ICCV 2027 (est.) · Paper submission deadline
+DESCRIPTION:IEEE/CVF International Conference on Computer Vision\nMeeting: 
+ 2027-10-03 to 2027-10-07\, Hong Kong\, China\nStatus: estimated\, checked
+  2026-11-14. Check the organizer's call before relying on it.\nFormat: Pa
+ per-based / OpenReview\; Archival option: Yes (est.)\nPrevious edition's 
+ page: https://iccv.thecvf.com/Conferences/2025/CallForPapers\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#iccv-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://iccv.thecvf.com/Conferences/2025/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270317T000000Z
+DTEND:20270317T010000Z
+SUMMARY:ICCP 2027 · Paper submission on OpenReview (TPAMI special issue or
+  ICCP proceedings track)
+DESCRIPTION:IEEE International Conference on Computational Photography\nMee
+ ting: 2027-08-02 to 2027-08-04\, College Park\, Maryland\, USA\nStatus: c
+ onfirmed\, checked 2026-11-14\nFormat: Paper-based / one common review pl
+ aces papers in an IEEE TPAMI special issue or the ICCP proceedings\; Arch
+ ival option: Yes\nOfficial source: https://iccp2027.iccp-conference.org/#
+ callforpapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#iccp-2
+ 027
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://iccp2027.iccp-conference.org/#callforpapers
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-mm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:ACM MM 2027 (est.) · Main-track contribution registration deadline
+DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2027-11-08
+  to 2027-11-12\, Hong Kong\, China\nStatus: estimated\, checked 2026-11-1
+ 4. Check the organizer's call before relying on it.\nEstimated day only\;
+  no cutoff hour stored. Check the organizer's call for the real date and 
+ time.\nFormat: Paper-based / multimedia research\; Archival option: Yes (
+ est.)\nPrevious edition's page: https://2026.acmmm.org/site/important-dat
+ es.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Deep Representation Learning,Signal Processing
+URL:https://2026.acmmm.org/site/important-dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:ICIP 2027 · Regular and special session paper submission deadline 
+ (5 pages + 1 reference page)
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:ICIP 2027 · OJ-SP paper submission (8 pages + 1 reference page\; p
+ ublished in IEEE Open Journal of Signal Processing)
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-mm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:ACM MM 2027 (est.) · Main-track paper submission deadline
+DESCRIPTION:ACM International Conference on Multimedia\nMeeting: 2027-11-08
+  to 2027-11-12\, Hong Kong\, China\nStatus: estimated\, checked 2026-11-1
+ 4. Check the organizer's call before relying on it.\nEstimated day only\;
+  no cutoff hour stored. Check the organizer's call for the real date and 
+ time.\nFormat: Paper-based / multimedia research\; Archival option: Yes (
+ est.)\nPrevious edition's page: https://2026.acmmm.org/site/important-dat
+ es.html\nVenue Radar: https://gon-uri.github.io/venue-radar/#acm-mm-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Deep Representation Learning,Signal Processing
+URL:https://2026.acmmm.org/site/important-dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:icme-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:ICME 2027 · Workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Multimedia and Expo\nMeeting: 
+ 2027-07-13 to 2027-07-17\, Xiamen\, China\nStatus: confirmed\, checked 20
+ 26-10-31\nCutoff time unannounced: official deadline day only. Verify the
+  organizer's submission portal.\nFormat: Paper-based / IEEE conference pr
+ oceedings\; Archival option: Yes\nOfficial source: https://2027.ieeeicme.
+ org/about/important-dates\nVenue Radar: https://gon-uri.github.io/venue-r
+ adar/#icme-2027
+CATEGORIES:Multimedia Learning & Retrieval,Computer Vision & Pattern Recogn
+ ition,Signal Processing
+URL:https://2027.ieeeicme.org/about/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcb-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270410T115900Z
+DTEND:20270410T125900Z
+SUMMARY:IJCB 2027 · Full paper submission deadline
+DESCRIPTION:IEEE/IAPR International Joint Conference on Biometrics\nMeeting
+ : 2027-09-13 to 2027-09-17\, Foz do Iguacu\, Brazil\nStatus: confirmed\, 
+ checked 2026-10-07\nFormat: Paper-based / biometrics and identity science
+ \; Archival option: Yes\nOfficial source: https://ijcb2027.ieee-biometric
+ s.org/call-for-papers/\nVenue Radar: https://gon-uri.github.io/venue-rada
+ r/#ijcb-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Deep Representation Learning,Privacy-preserving ML
+URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:bmvc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270522T115900Z
+DTEND:20270522T125900Z
+SUMMARY:BMVC 2027 (est.) · Abstract registration deadline
+DESCRIPTION:British Machine Vision Conference\nMeeting: 2027-11-22 to 2027-
+ 11-25 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. C
+ heck the organizer's call before relying on it.\nFormat: Paper-based / BM
+ VA proceedings\; Archival option: Yes (est.)\nPrevious edition's page: ht
+ tps://bmvc2026.bmva.org/dates/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#bmvc-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://bmvc2026.bmva.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:bmvc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270529T115900Z
+DTEND:20270529T125900Z
+SUMMARY:BMVC 2027 (est.) · Paper submission deadline
+DESCRIPTION:British Machine Vision Conference\nMeeting: 2027-11-22 to 2027-
+ 11-25 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14. C
+ heck the organizer's call before relying on it.\nFormat: Paper-based / BM
+ VA proceedings\; Archival option: Yes (est.)\nPrevious edition's page: ht
+ tps://bmvc2026.bmva.org/dates/\nVenue Radar: https://gon-uri.github.io/ve
+ nue-radar/#bmvc-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://bmvc2026.bmva.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:acpr-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270602T065900Z
+DTEND:20270602T075900Z
+SUMMARY:ACPR 2027 (est.) · Abstract submission deadline
+DESCRIPTION:Asian Conference on Pattern Recognition\nMeeting: 2027-11-07 to
+  2027-11-10 (est.)\, Suzhou\, China\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nFormat: Paper-based
+ \; Archival option: Yes (est.)\nPrevious edition's page: https://www.acpr
+ 2025.com/date\nVenue Radar: https://gon-uri.github.io/venue-radar/#acpr-2
+ 027
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://www.acpr2025.com/date
+END:VEVENT
+BEGIN:VEVENT
+UID:acpr-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270609T065900Z
+DTEND:20270609T075900Z
+SUMMARY:ACPR 2027 (est.) · Full paper submission deadline
+DESCRIPTION:Asian Conference on Pattern Recognition\nMeeting: 2027-11-07 to
+  2027-11-10 (est.)\, Suzhou\, China\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nFormat: Paper-based
+ \; Archival option: Yes (est.)\nOfficial source: http://acpr2027.com/\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#acpr-2027
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:http://acpr2027.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:euvip-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270616T115900Z
+DTEND:20270616T125900Z
+SUMMARY:EUVIP 2027 (est.) · Regular paper submission deadline
+DESCRIPTION:European Conference on Visual Information Processing\nMeeting: 
+ 2027-09-28 to 2027-10-01 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-10-07. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / visual information processing\; Archival option: Yes (es
+ t.)\nPrevious edition's page: https://euvip2026.github.io/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#euvip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://euvip2026.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270620T115900Z
+DTEND:20270620T125900Z
+SUMMARY:WACV 2028 (est.) · Round 1 new-paper enrollment deadline
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
+ Meeting: 2028-01-06 to 2028-01-08 (est.)\, Waikoloa\, Hawaii\, USA\nStatu
+ s: estimated\, checked 2026-11-14. Check the organizer's call before rely
+ ing on it.\nFormat: Paper-based / two independent submission rounds\; Arc
+ hival option: Yes (est.)\nPrevious edition's page: https://wacv.thecvf.co
+ m/Conferences/2027/CallForPapers\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#wacv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270627T115900Z
+DTEND:20270627T125900Z
+SUMMARY:WACV 2028 (est.) · Round 1 paper submission deadline
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
+ Meeting: 2028-01-06 to 2028-01-08 (est.)\, Waikoloa\, Hawaii\, USA\nStatu
+ s: estimated\, checked 2026-11-14. Check the organizer's call before rely
+ ing on it.\nFormat: Paper-based / two independent submission rounds\; Arc
+ hival option: Yes (est.)\nPrevious edition's page: https://wacv.thecvf.co
+ m/Conferences/2027/CallForPapers\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#wacv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:biosig-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:BIOSIG 2027 (est.) · Paper submission deadline
+DESCRIPTION:International Conference of the Biometrics Special Interest Gro
+ up\nMeeting: 2027-11-24 to 2027-11-25 (est.)\, To be announced\nStatus: e
+ stimated\, checked 2026-11-14. Check the organizer's call before relying 
+ on it.\nEstimated day only\; no cutoff hour stored. Check the organizer's
+  call for the real date and time.\nFormat: Paper-based / GI LNI proceedin
+ gs\, submitted to IEEE Xplore (2026 format)\; Archival option: Yes (est.)
+ \nPrevious edition's page: https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG20
+ 26/BIOSIG-CfP.pdf\nVenue Radar: https://gon-uri.github.io/venue-radar/#bi
+ osig-2027
+CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
+ ,Robustness & Safety,Privacy-preserving ML
+URL:https://biosig.de/fileadmin/TG/BIOSIG/BIOSIG2026/BIOSIG-CfP.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:ICIP 2027 · Satellite workshop paper submission deadline
+DESCRIPTION:IEEE International Conference on Image Processing\nMeeting: 202
+ 7-11-29 to 2027-12-03\, Singapore\nStatus: confirmed\, checked 2026-11-14
+ \nCutoff time unannounced: official deadline day only. Verify the organiz
+ er's submission portal.\nFormat: Paper-based\; Archival option: Yes\nOffi
+ cial source: https://2027.ieeeicip.org/call-for-papers/\nVenue Radar: htt
+ ps://gon-uri.github.io/venue-radar/#icip-2027
+CATEGORIES:Signal Processing,Computer Vision & Pattern Recognition,Machine 
+ Learning,Deep Representation Learning
+URL:https://2027.ieeeicip.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270822T115900Z
+DTEND:20270822T125900Z
+SUMMARY:WACV 2028 (est.) · Round 2 new-paper enrollment deadline
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
+ Meeting: 2028-01-06 to 2028-01-08 (est.)\, Waikoloa\, Hawaii\, USA\nStatu
+ s: estimated\, checked 2026-11-14. Check the organizer's call before rely
+ ing on it.\nFormat: Paper-based / two independent submission rounds\; Arc
+ hival option: Yes (est.)\nPrevious edition's page: https://wacv.thecvf.co
+ m/Conferences/2027/CallForPapers\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#wacv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:3dv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270829T115900Z
+DTEND:20270829T125900Z
+SUMMARY:3DV 2028 (est.) · Paper submission deadline
+DESCRIPTION:International Conference on 3D Vision\nMeeting: 2028-04-06 to 2
+ 028-04-09 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-1
+ 4. Check the organizer's call before relying on it.\nFormat: Paper-based 
+ / OpenReview\; Archival option: Yes (est.)\nPrevious edition's page: http
+ s://3dvconf.github.io/2027/dates\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#3dv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Computer Graphics & Visual
+ ization,Signal Processing
+URL:https://3dvconf.github.io/2027/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2028-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270829T115900Z
+DTEND:20270829T125900Z
+SUMMARY:WACV 2028 (est.) · Round 2 paper submission deadline
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\n
+ Meeting: 2028-01-06 to 2028-01-08 (est.)\, Waikoloa\, Hawaii\, USA\nStatu
+ s: estimated\, checked 2026-11-14. Check the organizer's call before rely
+ ing on it.\nFormat: Paper-based / two independent submission rounds\; Arc
+ hival option: Yes (est.)\nPrevious edition's page: https://wacv.thecvf.co
+ m/Conferences/2027/CallForPapers\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#wacv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning
+URL:https://wacv.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271111T115900Z
+DTEND:20271111T125900Z
+SUMMARY:CVPR 2028 (est.) · Abstract and paper registration deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271117T115900Z
+DTEND:20271117T125900Z
+SUMMARY:CVPR 2028 (est.) · Paper submission deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
+ nMeeting: 2028-06-20 to 2028-06-25 (est.)\, San Antonio\, Texas\, USA\nSt
+ atus: estimated\, checked 2026-10-30. Check the organizer's call before r
+ elying on it.\nFormat: Paper-based / OpenReview\; Archival option: Yes (e
+ st.)\nPrevious edition's page: https://cvpr.thecvf.com/Conferences/2027/C
+ allForPapers\nVenue Radar: https://gon-uri.github.io/venue-radar/#cvpr-20
+ 28
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:icpr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280104T115900Z
+DTEND:20280104T125900Z
+SUMMARY:ICPR 2028 (est.) · Paper submission deadline
+DESCRIPTION:International Conference on Pattern Recognition\nMeeting: 2028-
+ 08-20 to 2028-08-24\, Sydney\, Australia\nStatus: estimated\, checked 202
+ 6-11-14. Check the organizer's call before relying on it.\nFormat: Paper-
+ based\; Archival option: Yes (est.)\nOfficial source: https://icpr2028.or
+ g/wp-content/uploads/2026/08/ICPR-2028-CALL-FOR-PAPERS.pdf\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#icpr-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
+ esentation Learning,Biomedical Imaging
+URL:https://icpr2028.org/wp-content/uploads/2026/08/ICPR-2028-CALL-FOR-PAPE
+ RS.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280226T220000Z
+DTEND:20280226T230000Z
+SUMMARY:ECCV 2028 (est.) · Paper registration deadline
+DESCRIPTION:European Conference on Computer Vision\nMeeting: 2028-09-08 to 
+ 2028-09-12 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nFormat: Paper-based
+  / Springer proceedings\; Archival option: Yes (est.)\nPrevious edition's
+  page: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#eccv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280305T220000Z
+DTEND:20280305T230000Z
+SUMMARY:ECCV 2028 (est.) · Paper submission deadline
+DESCRIPTION:European Conference on Computer Vision\nMeeting: 2028-09-08 to 
+ 2028-09-12 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nFormat: Paper-based
+  / Springer proceedings\; Archival option: Yes (est.)\nPrevious edition's
+  page: https://eccv.ecva.net/Conferences/2026/Dates\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#eccv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280525T215900Z
+DTEND:20280525T225900Z
+SUMMARY:S+SSPR 2028 (est.) · Paper submission deadline
+DESCRIPTION:Joint IAPR International Workshops on Statistical Techniques in
+  Pattern Recognition and Structural and Syntactic Pattern Recognition\nMe
+ eting: 2028-08-24 to 2028-08-26 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Paper-based / workshop-style conference\; Archival option: Yes 
+ (est.)\nPrevious edition's page: https://ssspr2026.inf.unibe.ch/\nVenue R
+ adar: https://gon-uri.github.io/venue-radar/#s-sspr-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Learning 
+ Theory & Statistical Foundations
+URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280703T235900Z
+DTEND:20280704T005900Z
+SUMMARY:ACCV 2028 (est.) · Mandatory paper registration (title\, abstract\
+ , authors)
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2028-12-14 to 202
+ 8-12-18 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14.
+  Check the organizer's call before relying on it.\nFormat: Paper-based / 
+ Springer LNCS proceedings\; Archival option: Yes (est.)\nPrevious edition
+ 's page: https://accv2026.org/submissions/author-guidelines/\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#accv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+BEGIN:VEVENT
+UID:accv-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280705T235900Z
+DTEND:20280706T005900Z
+SUMMARY:ACCV 2028 (est.) · Main-conference paper submission deadline
+DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2028-12-14 to 202
+ 8-12-18 (est.)\, To be announced\nStatus: estimated\, checked 2026-11-14.
+  Check the organizer's call before relying on it.\nFormat: Paper-based / 
+ Springer LNCS proceedings\; Archival option: Yes (est.)\nPrevious edition
+ 's page: https://accv2026.org/submissions/author-guidelines/\nVenue Radar
+ : https://gon-uri.github.io/venue-radar/#accv-2028
+CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
+ ng,Machine Learning
+URL:https://accv2026.org/submissions/author-guidelines/
+END:VEVENT
+END:VCALENDAR

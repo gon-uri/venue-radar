@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 import yaml
+from catalog_metadata import CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping
 from archival_options import ARCHIVAL_PATH, feed_label, load_archival_options, validate_archival_options, with_archival
 from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
@@ -442,13 +443,55 @@ def _write_series_feeds(conferences: list[dict[str, Any]], series_dir: Path) -> 
     return outputs
 
 
+def family_feed_groups(
+    conferences: list[dict[str, Any]],
+    families_path: Path = FAMILIES_PATH,
+    assignments_path: Path = CONFERENCE_FAMILIES_PATH,
+) -> list[dict[str, Any]]:
+    """The eight topic families in registry order, each with the editions whose
+    series has it as a central identity (the same rule as the family chips)."""
+    families = load_mapping(families_path)["families"]
+    assignments = load_mapping(assignments_path)
+    return [
+        {
+            "id": family["id"],
+            "label": family["label"],
+            "conferences": [c for c in conferences if family["id"] in assignments.get(c["series"], [])],
+        }
+        for family in families
+    ]
+
+
+def family_feed_name(label: str) -> str:
+    return f"Venue Radar: {label} Submission Deadlines"
+
+
+def _write_family_feeds(
+    conferences: list[dict[str, Any]], families_dir: Path, keep: set[str]
+) -> list[Path]:
+    """One submission-deadline feed per topic family (ADR-062). Like
+    submissions.ics it holds new-paper routes and their gates, current and
+    upcoming editions only; every family keeps its URL even when empty."""
+    families_dir.mkdir(parents=True, exist_ok=True)
+    for old_feed in sorted(families_dir.glob("*.ics")):
+        old_feed.unlink()
+
+    outputs: list[Path] = []
+    for group in family_feed_groups(conferences):
+        current = [c for c in group["conferences"] if c["id"] in keep]
+        path = families_dir / f"{group['id']}.ics"
+        path.write_text(_calendar(family_feed_name(group["label"]), _submission_events(current)), encoding="utf-8")
+        outputs.append(path)
+    return outputs
+
+
 def build_calendars(
     data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR,
     scopes_path: Path = SCOPES_PATH, archival_path: Path = ARCHIVAL_PATH,
     reference: date | None = None,
 ) -> list[Path]:
     """Write every feed. The combined feeds (all events, deadlines, meeting
-    dates, submissions and topics) leave out past editions to stay below the
+    dates, submissions, families and topics) leave out past editions to stay below the
     URL-feed size limit (ADR-053); per-edition and series feeds keep them."""
     conferences = load_conferences(data_path)
     scopes = load_scopes(scopes_path)
@@ -488,6 +531,7 @@ def build_calendars(
         path.write_text(content, encoding="utf-8")
         paths.append(path)
 
+    paths.extend(_write_family_feeds(conferences, docs_dir / "families", {c["id"] for c in current}))
     paths.extend(_write_topic_feeds(conferences, docs_dir / "tags", {c["id"] for c in current}))
     paths.extend(_write_conference_feeds(conferences, docs_dir / "conferences"))
     paths.extend(_write_series_feeds(conferences, docs_dir / "series"))

@@ -119,3 +119,42 @@ jobs:
             exit 0
           fi
           python scripts/check_identity.py --base "$base"
+
+  # ADR-063: the Playwright browser suite on every push and pull request.
+  # Advisory for now (it never fails the build) until it has proved stable on
+  # Linux fonts; then drop continue-on-error. Uses the runner's own Chrome.
+  browser:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install Playwright (no browser download)
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+        run: |
+          mkdir -p "$RUNNER_TEMP/pw"
+          cd "$RUNNER_TEMP/pw"
+          npm init -y > /dev/null
+          npm install --no-audit --no-fund playwright@1.48.2
+          google-chrome --version
+
+      - name: Run the browser suite against the committed page
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+          SCREENSHOT_DIR: ${{ runner.temp }}/screenshots
+        run: |
+          mkdir -p "$SCREENSHOT_DIR"
+          cp tests/*.mjs "$RUNNER_TEMP/pw/"
+          node "$RUNNER_TEMP/pw/browser_smoke.mjs" "file://$PWD/docs/index.html"
+
+      - name: Keep screenshots when the suite fails
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-screenshots
+          path: ${{ runner.temp }}/screenshots
+          retention-days: 7

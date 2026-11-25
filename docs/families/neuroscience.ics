@@ -1,0 +1,633 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Venue Radar: Neuroscience & Neurotechnology Submission Deadlin
+ es
+X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
+  scientific conference dates and deadlines. Estimated items are marked\; 
+ always check the organizer's call before submitting.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261019T115900Z
+DTEND:20261019T125900Z
+SUMMARY:COSYNE 2027 · Abstract submission deadline
+DESCRIPTION:Computational and Systems Neuroscience\nMeeting: 2027-03-11 to 
+ 2027-03-16\, Montreal\, Canada\nStatus: confirmed\, checked 2026-11-14\nF
+ ormat: Abstract-based / talks highly selective\; Archival option: No\nOff
+ icial source: https://www.cosyne.org/abstracts-submission\nVenue Radar: h
+ ttps://gon-uri.github.io/venue-radar/#cosyne-2027
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Deep Representation Learning
+URL:https://www.cosyne.org/abstracts-submission
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-cogneuro-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261104T115900Z
+DTEND:20261104T125900Z
+SUMMARY:CNS CogNeuro 2027 · Poster abstract submission\, incl. Sketchpad S
+ eries (current CNS members only)
+DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nMeeting: 2027-03
+ -20 to 2027-03-23\, Boston\, Massachusetts\, USA\nStatus: confirmed\, che
+ cked 2026-11-14\nFormat: Abstract-based / members-only poster abstracts i
+ n online meeting proceedings\; no full papers\; Archival option: No\nOffi
+ cial source: https://www.cogneurosociety.org/submit-a-poster/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#cns-cogneuro-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
+  Mapping,EEG/MEG & Neural Signals
+URL:https://www.cogneurosociety.org/submit-a-poster/
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261112T115900Z
+DTEND:20261112T125900Z
+SUMMARY:NICE 2027 · Regular research paper submission deadline
+DESCRIPTION:Neuro Inspired Computational Elements Conference\nMeeting: 2027
+ -04-06 to 2027-04-08\, Brighton\, United Kingdom\nStatus: confirmed\, che
+ cked 2026-10-30\nFormat: Research papers + late-breaking abstracts\; Arch
+ ival option: Yes\nOfficial source: https://easychair.org/cfp/nice2027\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#nice-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
+ ce,Machine Learning,BCI & Neurotechnology
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
+UID:bci-winter-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:BCI Winter 2027 · Paper submission deadline (extended)
+DESCRIPTION:International Winter Conference on Brain-Computer Interface\nMe
+ eting: 2027-02-22 to 2027-02-24\, Jeongseon\, South Korea\nStatus: confir
+ med\, checked 2026-11-18\nCutoff time unannounced: official deadline day 
+ only. Verify the organizer's submission portal.\nFormat: Paper-based\; Ar
+ chival option: Yes\nOfficial source: https://brain.korea.ac.kr/bci2027/im
+ portantdate.php\nVenue Radar: https://gon-uri.github.io/venue-radar/#bci-
+ winter-2027
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Machine Learning
+URL:https://brain.korea.ac.kr/bci2027/importantdate.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ncm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261202T075900Z
+DTEND:20261202T085900Z
+SUMMARY:NCM 2027 · Individual oral abstracts (NCM members only\; team sess
+ ion submissions close the same day)
+DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
+ t\nMeeting: 2027-04-26 to 2027-04-30\, Seville\, Spain\nStatus: confirmed
+ \, checked 2026-11-25\nFormat: Abstract-based / non-archival\; Archival o
+ ption: No\nOfficial source: https://ncm-society.org/submission/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ncm-2027
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
+URL:https://ncm-society.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261215T045900Z
+DTEND:20261215T055900Z
+SUMMARY:OHBM 2027 · Poster abstract submission deadline
+DESCRIPTION:Organization for Human Brain Mapping Annual Meeting\nMeeting: 2
+ 027-06-26 to 2027-06-30\, Toronto\, Canada\nStatus: confirmed\, checked 2
+ 026-11-25\nFormat: Abstract-based / talks selective\; Archival option: No
+ \nOfficial source: https://www.humanbrainmapping.org/files/2027-Toronto/O
+ HBM_2027_Abstract_Submission_Guidelines_FINAL_docx_(2).pdf\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#ohbm-2027
+CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Healthcare
+  & Clinical AI,Computational Neuroscience
+URL:https://www.humanbrainmapping.org/files/2027-Toronto/OHBM_2027_Abstract
+ _Submission_Guidelines_FINAL_docx_(2).pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:international-bci-meeting-2027-deadline-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:International BCI Meeting 2027 · Abstract submission deadline (pos
+ ter/oral)
+DESCRIPTION:International Brain-Computer Interface Meeting\nMeeting: 2027-0
+ 6-07 to 2027-06-10\, Sibenik\, Croatia\nStatus: confirmed\, checked 2026-
+ 10-28\nCutoff time unannounced: official deadline day only. Verify the or
+ ganizer's submission portal.\nFormat: Abstract/community-based\; Archival
+  option: No\nOfficial source: https://bcisociety.org/bci-meeting/abstract
+ -submission/\nVenue Radar: https://gon-uri.github.io/venue-radar/#interna
+ tional-bci-meeting-2027
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Computational Neu
+ roscience,Human-AI Interaction & Deployment
+URL:https://bcisociety.org/bci-meeting/abstract-submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-cogneuro-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270120T115900Z
+DTEND:20270120T125900Z
+SUMMARY:CNS CogNeuro 2027 · Late-breaking poster abstract submission (curr
+ ent CNS members only)
+DESCRIPTION:Cognitive Neuroscience Society Annual Meeting\nMeeting: 2027-03
+ -20 to 2027-03-23\, Boston\, Massachusetts\, USA\nStatus: confirmed\, che
+ cked 2026-11-14\nFormat: Abstract-based / members-only poster abstracts i
+ n online meeting proceedings\; no full papers\; Archival option: No\nOffi
+ cial source: https://www.cogneurosociety.org/submit-a-poster/\nVenue Rada
+ r: https://gon-uri.github.io/venue-radar/#cns-cogneuro-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
+  Mapping,EEG/MEG & Neural Signals
+URL:https://www.cogneurosociety.org/submit-a-poster/
+END:VEVENT
+BEGIN:VEVENT
+UID:rldm-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270121T115900Z
+DTEND:20270121T125900Z
+SUMMARY:RLDM 2027 · Extended abstract submission (summary plus 1-4 page ex
+ tended abstract\; posters and oral talks)
+DESCRIPTION:Multi-disciplinary Conference on Reinforcement Learning and Dec
+ ision Making\nMeeting: 2027-07-06 to 2027-07-09\, Paris\, France\nStatus:
+  confirmed\, checked 2026-11-14\nFormat: Extended-abstract-based / non-ar
+ chival (no proceedings)\; Archival option: No\nOfficial source: https://r
+ ldm.org/call-for-abstracts-2027/\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#rldm-2027
+CATEGORIES:Reinforcement Learning,Computational Neuroscience,Cognitive Scie
+ nce & Computational Cognition
+URL:https://rldm.org/call-for-abstracts-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:cogsci-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T105900Z
+DTEND:20270202T115900Z
+SUMMARY:CogSci 2027 · Contributed paper submission deadline
+DESCRIPTION:Annual Meeting of the Cognitive Science Society\nMeeting: 2027-
+ 07-28 to 2027-07-31\, Bilbao\, Spain\nStatus: confirmed\, checked 2026-11
+ -14\nCutoff note: Call says deadlines are midnight UTC-11 but also accept
+ s submissions while it is still the deadline date anywhere (AoE\, 1 h lat
+ er). Earliest instant stored.\nFormat: Paper-based / abstract presentatio
+ ns\; Archival option: No\nOfficial source: https://cognitivesciencesociet
+ y.org/submissions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#c
+ ogsci-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Computational Neuros
+ cience,Machine Learning,Natural Language Processing & LLMs
+URL:https://cognitivesciencesociety.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:CCN 2027 · 8-page proceedings paper abstract deadline
+DESCRIPTION:Conference on Cognitive Computational Neuroscience\nMeeting: 20
+ 27-07-26 to 2027-07-29\, Edinburgh\, United Kingdom\nStatus: confirmed\, 
+ checked 2026-10-28\nFormat: Mixed: proceedings + extended abstracts\; Arc
+ hival option: Yes (est.)\nOfficial source: https://2027.ccneuro.org/\nVen
+ ue Radar: https://gon-uri.github.io/venue-radar/#ccn-2027
+CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
+ ging & Brain Mapping,Machine Learning
+URL:https://2027.ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:NICE 2027 · Late-breaking abstract submission deadline
+DESCRIPTION:Neuro Inspired Computational Elements Conference\nMeeting: 2027
+ -04-06 to 2027-04-08\, Brighton\, United Kingdom\nStatus: confirmed\, che
+ cked 2026-10-30\nFormat: Research papers + late-breaking abstracts\; Arch
+ ival option: Yes\nOfficial source: https://easychair.org/cfp/nice2027\nVe
+ nue Radar: https://gon-uri.github.io/venue-radar/#nice-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
+ ce,Machine Learning,BCI & Neurotechnology
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270205T115900Z
+DTEND:20270205T125900Z
+SUMMARY:CCN 2027 · 8-page proceedings full paper submission deadline
+DESCRIPTION:Conference on Cognitive Computational Neuroscience\nMeeting: 20
+ 27-07-26 to 2027-07-29\, Edinburgh\, United Kingdom\nStatus: confirmed\, 
+ checked 2026-10-28\nFormat: Mixed: proceedings + extended abstracts\; Arc
+ hival option: Yes (est.)\nOfficial source: https://2027.ccneuro.org/\nVen
+ ue Radar: https://gon-uri.github.io/venue-radar/#ccn-2027
+CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
+ ging & Brain Mapping,Machine Learning
+URL:https://2027.ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:neural-interfaces-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270217T180000Z
+DTEND:20270217T190000Z
+SUMMARY:Neural Interfaces 2027 · Original research abstract submission (ca
+ ll opens November 16\, 2026)
+DESCRIPTION:Neural Interfaces Conference\nMeeting: 2027-05-20 to 2027-05-22
+ \, Arlington\, Virginia\, USA\nStatus: confirmed\, checked 2026-11-14\nCu
+ toff note: The event page says Feb 17\, 2027\, 1:00 PM CDT\; the 2027 gui
+ delines PDF says 1:00 PM Central Time\, which is CST (UTC-6) on that date
+ . Earliest (CDT) instant stored.\nFormat: Abstract-based / oral or poster
+  presentations\; no proceedings announced\; Archival option: No\nOfficial
+  source: https://www.nans.org/neural-interfaces/\nVenue Radar: https://go
+ n-uri.github.io/venue-radar/#neural-interfaces-2027
+CATEGORIES:BCI & Neurotechnology,Healthcare & Clinical AI,EEG/MEG & Neural 
+ Signals
+URL:https://www.nans.org/neural-interfaces/
+END:VEVENT
+BEGIN:VEVENT
+UID:conll-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270220T115900Z
+DTEND:20270220T125900Z
+SUMMARY:CoNLL 2027 (est.) · Direct paper submission deadline
+DESCRIPTION:Conference on Computational Natural Language Learning\nMeeting:
+  2027-07-03 to 2027-07-04 (est.)\, To be announced\nStatus: estimated\, c
+ hecked 2026-11-25. Check the organizer's call before relying on it.\nForm
+ at: Paper-based\; Archival option: Yes (est.)\nOfficial source: https://w
+ eb.archive.org/web/20260201152714/https://conll.org/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#conll-2027
+CATEGORIES:Natural Language Processing & LLMs,Cognitive Science & Computati
+ onal Cognition,Computational Neuroscience,Explainability & Interpretabili
+ ty
+URL:https://web.archive.org/web/20260201152714/https://conll.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ncm-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270223T075900Z
+DTEND:20270223T085900Z
+SUMMARY:NCM 2027 · Poster abstracts (NCM members only)
+DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
+ t\nMeeting: 2027-04-26 to 2027-04-30\, Seville\, Spain\nStatus: confirmed
+ \, checked 2026-11-25\nFormat: Abstract-based / non-archival\; Archival o
+ ption: No\nOfficial source: https://ncm-society.org/submission/\nVenue Ra
+ dar: https://gon-uri.github.io/venue-radar/#ncm-2027
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
+URL:https://ncm-society.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:icmns-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:ICMNS 2027 (est.) · Abstract deadline for contributed talks and po
+ sters
+DESCRIPTION:International Conference on Mathematical Neuroscience\nMeeting:
+  2027-06-01 to 2027-06-04\, Montpellier\, France\nStatus: estimated\, che
+ cked 2026-11-14. Check the organizer's call before relying on it.\nEstima
+ ted day only\; no cutoff hour stored. Check the organizer's call for the 
+ real date and time.\nFormat: Abstract-based / non-archival\; Archival opt
+ ion: No (est.)\nPrevious edition's page: https://listserver.vu.nl/piperma
+ il/icmns-beta/2026-January/000070.html\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#icmns-2027
+CATEGORIES:Computational Neuroscience,Nonlinear Dynamics & Chaos
+URL:https://listserver.vu.nl/pipermail/icmns-beta/2026-January/000070.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:IEEE NER 2027 · 6-page paper submission deadline
+DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-14\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Healthcare & Clinical AI
+URL:https://neuro.embs.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T060000Z
+DTEND:20270319T070000Z
+SUMMARY:CNS* 2027 (est.) · Abstract submission deadline
+DESCRIPTION:Computational Neuroscience Annual Meeting\nMeeting: 2027-07-10 
+ to 2027-07-14\, Gran Canaria\, Spain\nStatus: estimated\, checked 2026-11
+ -14. Check the organizer's call before relying on it.\nFormat: Abstract-b
+ ased\; Archival option: No (est.)\nPrevious edition's page: https://www.c
+ nsorg.org/cns-2026-abstract-submission\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#cns-2027
+CATEGORIES:Computational Neuroscience,Time Series & Sequential Data,Machine
+  Learning
+URL:https://www.cnsorg.org/cns-2026-abstract-submission
+END:VEVENT
+BEGIN:VEVENT
+UID:icdl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270320T115900Z
+DTEND:20270320T125900Z
+SUMMARY:ICDL 2027 (est.) · Full-paper submission deadline (6 pages\, IEEE 
+ Xplore)
+DESCRIPTION:IEEE International Conference on Development and Learning\nMeet
+ ing: 2027-09-21 to 2027-09-24\, Campinas\, Brazil\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Full papers in IEEE Xplore + non-archival late-breaking results\; Arch
+ ival option: Yes (est.)\nPrevious edition's page: https://attend.ieee.org
+ /icdl-2026/contribute/call-for-papers/\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#icdl-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Control & Robotics,M
+ achine Learning
+URL:https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270402T115900Z
+DTEND:20270402T125900Z
+SUMMARY:CCN 2027 · 2-page extended abstract submission deadline
+DESCRIPTION:Conference on Cognitive Computational Neuroscience\nMeeting: 20
+ 27-07-26 to 2027-07-29\, Edinburgh\, United Kingdom\nStatus: confirmed\, 
+ checked 2026-10-28\nFormat: Mixed: proceedings + extended abstracts\; Arc
+ hival option: Yes (est.)\nOfficial source: https://2027.ccneuro.org/\nVen
+ ue Radar: https://gon-uri.github.io/venue-radar/#ccn-2027
+CATEGORIES:Computational Neuroscience,Deep Representation Learning,Neuroima
+ ging & Brain Mapping,Machine Learning
+URL:https://2027.ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270409T115900Z
+DTEND:20270409T125900Z
+SUMMARY:ICONS 2027 (est.) · Full paper submission (up to 8 pages)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-11-14. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACM Digital Library proceedings (full and short papers)\
+ ; students-only poster competition\; Archival option: Yes (est.)\nPreviou
+ s edition's page: https://iconsneuromorphic.cc/calls-2026/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:icons-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270409T115900Z
+DTEND:20270409T125900Z
+SUMMARY:ICONS 2027 (est.) · Short paper submission (up to 4 pages)
+DESCRIPTION:ACM International Conference on Neuromorphic Systems\nMeeting: 
+ 2027-08-04 to 2027-08-06 (est.)\, To be announced\nStatus: estimated\, ch
+ ecked 2026-11-14. Check the organizer's call before relying on it.\nForma
+ t: Paper-based / ACM Digital Library proceedings (full and short papers)\
+ ; students-only poster competition\; Archival option: Yes (est.)\nPreviou
+ s edition's page: https://iconsneuromorphic.cc/calls-2026/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#icons-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,ML Systems & Infrastruct
+ ure,Machine Learning
+URL:https://iconsneuromorphic.cc/calls-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-biocas-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:IEEE BioCAS 2027 (est.) · Abstract submission date (IEEE SSCS cale
+ ndar\; not in host timeline)
+DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2027-
+ 10-14 to 2027-10-16\, Oslo\, Norway\nStatus: estimated\, checked 2026-11-
+ 14. Check the organizer's call before relying on it.\nEstimated day only\
+ ; no cutoff hour stored. Check the organizer's call for the real date and
+  time.\nFormat: Paper-based\; Archival option: Yes (est.)\nOfficial sourc
+ e: https://sscs.ieee.org/conferences/upcoming-conferences/\nVenue Radar: 
+ https://gon-uri.github.io/venue-radar/#ieee-biocas-2027
+CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
+ ,Neuromorphic & Brain-inspired Computing
+URL:https://sscs.ieee.org/conferences/upcoming-conferences/
+END:VEVENT
+BEGIN:VEVENT
+UID:snl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270518T115900Z
+DTEND:20270518T125900Z
+SUMMARY:SNL 2027 (est.) · Slide/poster abstract submission (first author m
+ ust be an SNL member)
+DESCRIPTION:Annual Meeting of the Society for the Neurobiology of Language\
+ nMeeting: 2027-09-24 to 2027-09-27\, Hong Kong\, China\nStatus: estimated
+ \, checked 2026-10-31. Check the organizer's call before relying on it.\n
+ Format: Abstract-based (peer-reviewed 500-word slide/poster abstracts pri
+ nted in the meeting program\; no paper proceedings)\; Archival option: No
+  (est.)\nPrevious edition's page: https://2026.neurolang.org/abstract-sub
+ missions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#snl-2027
+CATEGORIES:Neuroimaging & Brain Mapping,EEG/MEG & Neural Signals,Cognitive 
+ Science & Computational Cognition,Systems & Experimental Neuroscience
+URL:https://2026.neurolang.org/abstract-submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sfn-neuroscience-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270519T210000Z
+DTEND:20270519T220000Z
+SUMMARY:SfN Neuroscience 2027 (est.) · Regular research abstract submissio
+ n deadline
+DESCRIPTION:Society for Neuroscience Annual Meeting\nMeeting: 2027-10-23 to
+  2027-10-27\, Chicago\, Illinois\, USA\nStatus: estimated\, checked 2026-
+ 11-14. Check the organizer's call before relying on it.\nFormat: Abstract
+ -based\; Archival option: No (est.)\nOfficial source: https://www.sfn.org
+ /cfa\nVenue Radar: https://gon-uri.github.io/venue-radar/#sfn-neuroscienc
+ e-2027
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
+ ognitive Science & Computational Cognition,Neuroimaging & Brain Mapping
+URL:https://www.sfn.org/cfa
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:IEEE NER 2027 · 1-page abstract submission deadline
+DESCRIPTION:International IEEE EMBS Conference on Neural Engineering\nMeeti
+ ng: 2027-09-07 to 2027-09-10\, Milan\, Italy\nStatus: confirmed\, checked
+  2026-11-14\nCutoff time unannounced: official deadline day only. Verify 
+ the organizer's submission portal.\nFormat: Paper-based / engineering-foc
+ used\; Archival option: Yes (est.)\nOfficial source: https://neuro.embs.o
+ rg/2027/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ieee-ner-20
+ 27
+CATEGORIES:BCI & Neurotechnology,EEG/MEG & Neural Signals,Signal Processing
+ ,Healthcare & Clinical AI
+URL:https://neuro.embs.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-biocas-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:IEEE BioCAS 2027 · Regular paper submission deadline
+DESCRIPTION:IEEE Biomedical Circuits and Systems Conference\nMeeting: 2027-
+ 10-14 to 2027-10-16\, Oslo\, Norway\nStatus: confirmed\, checked 2026-11-
+ 14\nCutoff time unannounced: official deadline day only. Verify the organ
+ izer's submission portal.\nFormat: Paper-based\; Archival option: Yes (es
+ t.)\nOfficial source: https://2027.ieee-biocas.org/\nVenue Radar: https:/
+ /gon-uri.github.io/venue-radar/#ieee-biocas-2027
+CATEGORIES:Healthcare & Clinical AI,BCI & Neurotechnology,Signal Processing
+ ,Neuromorphic & Brain-inspired Computing
+URL:https://2027.ieee-biocas.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icdl-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270619T115900Z
+DTEND:20270619T125900Z
+SUMMARY:ICDL 2027 (est.) · Late-breaking result submission (1-2 pages\, po
+ ster\; not in IEEE Xplore)
+DESCRIPTION:IEEE International Conference on Development and Learning\nMeet
+ ing: 2027-09-21 to 2027-09-24\, Campinas\, Brazil\nStatus: estimated\, ch
+ ecked 2026-10-31. Check the organizer's call before relying on it.\nForma
+ t: Full papers in IEEE Xplore + non-archival late-breaking results\; Arch
+ ival option: Yes (est.)\nPrevious edition's page: https://attend.ieee.org
+ /icdl-2026/contribute/call-for-papers/\nVenue Radar: https://gon-uri.gith
+ ub.io/venue-radar/#icdl-2027
+CATEGORIES:Cognitive Science & Computational Cognition,Control & Robotics,M
+ achine Learning
+URL:https://attend.ieee.org/icdl-2026/contribute/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:bernstein-conference-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20270701T130000Z
+DTEND:20270701T140000Z
+SUMMARY:Bernstein Conference 2027 (est.) · Abstract submission deadline
+DESCRIPTION:Bernstein Conference\nMeeting: 2027-09-15 to 2027-09-18\, Lausa
+ nne\, Switzerland\nStatus: estimated\, checked 2026-11-14. Check the orga
+ nizer's call before relying on it.\nFormat: Abstract-based / talks select
+ ive\; Archival option: No (est.)\nOfficial source: https://bernstein-netw
+ ork.de/en/bernstein-conference/general-information/important-dates-faq/\n
+ Venue Radar: https://gon-uri.github.io/venue-radar/#bernstein-conference-
+ 2027
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Time Series & Sequential Data
+URL:https://bernstein-network.de/en/bernstein-conference/general-informatio
+ n/important-dates-faq/
+END:VEVENT
+BEGIN:VEVENT
+UID:naisys-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:NAISys 2027 · One-page abstract for talk/poster selection (meeting
+  registration required first)
+DESCRIPTION:From Neuroscience to Artificially Intelligent Systems\nMeeting:
+  2027-09-27 to 2027-10-01\, Cold Spring Harbor\, New York\, USA\nStatus: 
+ confirmed\, checked 2026-10-31\nCutoff time unannounced: official deadlin
+ e day only. Verify the organizer's submission portal.\nFormat: Abstract-b
+ ased / non-archival (one-page abstracts in the confidential CSHL program 
+ book)\; Archival option: No\nOfficial source: https://meetings.cshl.edu/m
+ eetings.aspx?meet=NAISYS&year=27\nVenue Radar: https://gon-uri.github.io/
+ venue-radar/#naisys-2027
+CATEGORIES:Neuromorphic & Brain-inspired Computing,Computational Neuroscien
+ ce,Machine Learning,Deep Representation Learning
+URL:https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=27
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271019T115900Z
+DTEND:20271019T125900Z
+SUMMARY:COSYNE 2028 (est.) · Abstract submission deadline
+DESCRIPTION:Computational and Systems Neuroscience\nMeeting: 2028-03-11 to 
+ 2028-03-16 (est.)\, To be announced\nStatus: estimated\, checked 2026-10-
+ 29. Check the organizer's call before relying on it.\nFormat: Abstract-ba
+ sed / talks highly selective\; Archival option: No (est.)\nOfficial sourc
+ e: https://www.cosyne.org/abstracts-submission\nVenue Radar: https://gon-
+ uri.github.io/venue-radar/#cosyne-2028
+CATEGORIES:Computational Neuroscience,EEG/MEG & Neural Signals,Machine Lear
+ ning,Deep Representation Learning
+URL:https://www.cosyne.org/abstracts-submission
+END:VEVENT
+BEGIN:VEVENT
+UID:areadne-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280128
+DTEND;VALUE=DATE:20280129
+SUMMARY:AREADNE 2028 (est.) · Contributed abstract submission deadline
+DESCRIPTION:AREADNE: Research in Encoding and Decoding of Neural Ensembles\
+ nMeeting: 2028-06-27 to 2028-07-01\, Milos\, Greece\nStatus: estimated\, 
+ checked 2026-11-14. Check the organizer's call before relying on it.\nEst
+ imated day only\; no cutoff hour stored. Check the organizer's call for t
+ he real date and time.\nFormat: Abstract-based\; Archival option: No (est
+ .)\nOfficial source: https://areadne.org/2028/important-dates.html\nVenue
+  Radar: https://gon-uri.github.io/venue-radar/#areadne-2028
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,B
+ CI & Neurotechnology
+URL:https://areadne.org/2028/important-dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fens-forum-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280205T225900Z
+DTEND:20280205T235900Z
+SUMMARY:FENS Forum 2028 (est.) · Regular poster-abstract submission deadli
+ ne (paid Forum registration required)
+DESCRIPTION:FENS Forum of Neuroscience\nMeeting: 2028-07-08 to 2028-07-12\,
+  Glasgow\, United Kingdom\nStatus: estimated\, checked 2026-11-14. Check 
+ the organizer's call before relying on it.\nFormat: Abstract-based / post
+ er abstracts\, no paper proceedings\; Archival option: No (est.)\nOfficia
+ l source: https://fensforum.org/abstract-submission/\nVenue Radar: https:
+ //gon-uri.github.io/venue-radar/#fens-forum-2028
+CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience,C
+ ognitive Science & Computational Cognition
+URL:https://fensforum.org/abstract-submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:biomag-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280501T115900Z
+DTEND:20280501T125900Z
+SUMMARY:BIOMAG 2028 (est.) · Abstract submission deadline
+DESCRIPTION:International Conference on Biomagnetism\nMeeting: 2028-08-23 t
+ o 2028-08-25 (est.)\, To be announced\nStatus: estimated\, checked 2026-1
+ 0-06. Check the organizer's call before relying on it.\nFormat: Abstract-
+ based / specialist venue\; Archival option: No (est.)\nOfficial source: h
+ ttps://mm.scimeeting.cn/en/web/index/31426\nVenue Radar: https://gon-uri.
+ github.io/venue-radar/#biomag-2028
+CATEGORIES:EEG/MEG & Neural Signals,Neuroimaging & Brain Mapping,Computatio
+ nal Neuroscience,Signal Processing
+URL:https://mm.scimeeting.cn/en/web/index/31426
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:SAB 2028 (est.) · Poster abstract submission deadline
+DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
+ eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Reviewed papers + non-archival contributions\; Archival option:
+  Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
+ utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
+CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
+ gnitive Science & Computational Cognition,Control & Robotics
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:SAB 2028 (est.) · Proceedings paper submission deadline
+DESCRIPTION:International Conference on Simulation of Adaptive Behavior\nMe
+ eting: 2028-10-19 to 2028-10-22 (est.)\, To be announced\nStatus: estimat
+ ed\, checked 2026-11-14. Check the organizer's call before relying on it.
+ \nFormat: Reviewed papers + non-archival contributions\; Archival option:
+  Yes (est.)\nOfficial source: https://sab-conference.org/call-for-contrib
+ utions/\nVenue Radar: https://gon-uri.github.io/venue-radar/#sab-2028
+CATEGORIES:Artificial Life & Adaptive Systems,Computational Neuroscience,Co
+ gnitive Science & Computational Cognition,Control & Robotics
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+END:VCALENDAR

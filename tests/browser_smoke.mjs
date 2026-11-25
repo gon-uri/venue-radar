@@ -16,6 +16,7 @@ import {checkProvenance} from './provenance.mjs';
 import {checkFilterRail} from './filter_rail.mjs';
 import {checkPhase3} from './phase3.mjs';
 import {checkCityIndex} from './city_index.mjs';
+import {checkPlanBAndShortlist} from './plan_b_shortlist.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -637,6 +638,7 @@ try {
   await checkFilterRail(page, url);
   await checkPhase3(page, url);
   await checkCityIndex(page, url);
+  await checkPlanBAndShortlist(page, url);
   assert.deepEqual(fontRequests, [], 'Embedded fonts must not require a network request');
   // ADR-057: the page follows the system colour scheme with designed dark tokens.
   await page.emulateMedia({colorScheme: 'dark'});

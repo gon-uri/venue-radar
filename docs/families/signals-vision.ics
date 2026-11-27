@@ -10,36 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:bmvc-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260523T115900Z
-DTEND:20260523T125900Z
-SUMMARY:BMVC 2026 · Abstract registration deadline
-DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
- 11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-11-1
- 4\nFormat: Paper-based / BMVA proceedings\; Archival option: Yes\nOfficia
- l source: https://bmvc2026.bmva.org/dates/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#bmvc-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
- esentation Learning
-URL:https://bmvc2026.bmva.org/dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:bmvc-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260530T115900Z
-DTEND:20260530T125900Z
-SUMMARY:BMVC 2026 · Paper submission deadline
-DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
- 11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-11-1
- 4\nFormat: Paper-based / BMVA proceedings\; Archival option: Yes\nOfficia
- l source: https://bmvc2026.bmva.org/dates/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#bmvc-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
- esentation Learning
-URL:https://bmvc2026.bmva.org/dates/
-END:VEVENT
-BEGIN:VEVENT
 UID:wacv-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260620T115900Z
@@ -101,23 +71,6 @@ DESCRIPTION:Asian Conference on Computer Vision\nMeeting: 2026-12-14 to 202
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://accv2026.org/submissions/
-END:VEVENT
-BEGIN:VEVENT
-UID:biosig-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-SUMMARY:BIOSIG 2026 · Paper submission deadline (extended from July 30)
-DESCRIPTION:International Conference of the Biometrics Special Interest Gro
- up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
- irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
- y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
- GI LNI proceedings\, submitted to IEEE Xplore\; Archival option: Yes\nOff
- icial source: https://biosig.de/\nVenue Radar: https://gon-uri.github.io/
- venue-radar/#biosig-2026
-CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
- ,Robustness & Safety,Privacy-preserving ML
-URL:https://biosig.de/
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-2027-deadline-late-abstract@scientific-conference-calendar

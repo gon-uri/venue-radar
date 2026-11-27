@@ -41,40 +41,6 @@ CATEGORIES:Machine Learning,Learning Theory & Statistical Foundations,Expla
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:biosig-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-SUMMARY:BIOSIG 2026 · Paper submission deadline (extended from July 30)
-DESCRIPTION:International Conference of the Biometrics Special Interest Gro
- up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
- irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
- y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
- GI LNI proceedings\, submitted to IEEE Xplore\; Archival option: Yes\nOff
- icial source: https://biosig.de/\nVenue Radar: https://gon-uri.github.io/
- venue-radar/#biosig-2026
-CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
- ,Robustness & Safety,Privacy-preserving ML
-URL:https://biosig.de/
-END:VEVENT
-BEGIN:VEVENT
-UID:biosig-2026-deadline-notification@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:BIOSIG 2026 · Notification of authors
-DESCRIPTION:International Conference of the Biometrics Special Interest Gro
- up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
- irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
- y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
- GI LNI proceedings\, submitted to IEEE Xplore\; Archival option: Yes\nOff
- icial source: https://biosig.de/\nVenue Radar: https://gon-uri.github.io/
- venue-radar/#biosig-2026
-CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
- ,Robustness & Safety,Privacy-preserving ML
-URL:https://biosig.de/
-END:VEVENT
-BEGIN:VEVENT
 UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260916T115900Z
@@ -199,24 +165,6 @@ DESCRIPTION:Conference of the Nations of the Americas Chapter of the Associ
 CATEGORIES:Natural Language Processing & LLMs,LLM Agents & Tool Use,Informa
  tion Retrieval & Search,Deep Representation Learning
 URL:https://2027.naacl.org/calls/main_conference_papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:biosig-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:BIOSIG 2026 · Final papers (ready for press)\; one full author reg
- istration required
-DESCRIPTION:International Conference of the Biometrics Special Interest Gro
- up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
- irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
- y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
- GI LNI proceedings\, submitted to IEEE Xplore\; Archival option: Yes\nOff
- icial source: https://biosig.de/\nVenue Radar: https://gon-uri.github.io/
- venue-radar/#biosig-2026
-CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
- ,Robustness & Safety,Privacy-preserving ML
-URL:https://biosig.de/
 END:VEVENT
 BEGIN:VEVENT
 UID:fg-2027-deadline-abstract@scientific-conference-calendar
@@ -394,29 +342,6 @@ CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
-UID:biosig-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261127
-SUMMARY:BIOSIG 2026 · Conference
-DESCRIPTION:International Conference of the Biometrics Special Interest Gro
- up\nStatus: confirmed\, checked 2026-10-31\nOfficial source: https://bios
- ig.de/\nVenue Radar: https://gon-uri.github.io/venue-radar/#biosig-2026\n
- Notes: 25th annual edition\, run by the GI BIOSIG group with CAST\, BSI\,
-  EAB and Fraunhofer IGD\; IEEE technical co-sponsor. biosig.de and the GI
-  event page give Nov 25-26\, 2026 at Fraunhofer IGD\, after a Nov 24 foru
- m. The CfP PDF said July 30\; the site's updated deadline is Aug 16\, wit
- h no hour\, so AoE end-of-day is provisional. Double-blind CMT papers: 8 
- pages plus 2 of references (LNI format)\, oral or poster. LNI proceedings
- \; papers go to IEEE Xplore (approval pending in the CfP). No online tick
- et is offered. Size S: 28 papers in the 2026 programme\; 87 attendees in 
- 2023. Size is an editorial estimate.
-CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
- ,Robustness & Safety,Privacy-preserving ML
-URL:https://biosig.de/
-LOCATION:Darmstadt\, Germany
-END:VEVENT
-BEGIN:VEVENT
 UID:acml-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261201
@@ -442,22 +367,7 @@ DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:MIDL 2027 · Full-paper abstract registration deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
- : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
- io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
- idl-2027
-CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
- nical AI
-URL:https://2027.midl.io/important-dates
-END:VEVENT
-BEGIN:VEVENT
-UID:midl-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261205T115900Z
-DTEND:20261205T125900Z
-SUMMARY:MIDL 2027 · Full paper submission deadline
-DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -515,6 +425,21 @@ CATEGORIES:Time Series & Sequential Data,Machine Learning,Deep Representati
  on Learning,Probabilistic\, Causal & Uncertainty ML
 URL:https://neurips.cc/virtual/2026/workshop/137514
 LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261212T115900Z
+DTEND:20261212T125900Z
+SUMMARY:MIDL 2027 · Full paper submission deadline
+DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
+ : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
+ io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
+ idl-2027
+CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
+ nical AI
+URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:satml-2027-deadline-notification@scientific-conference-calendar
@@ -717,7 +642,7 @@ DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:MIDL 2027 · Full-paper authors notification
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nCutoff
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nCutoff
   time unannounced: official deadline day only. Verify the organizer's sub
  mission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial sou
  rce: https://2027.midl.io/important-dates\nVenue Radar: https://gon-uri.g
@@ -887,7 +812,7 @@ DTSTART:20270313T115900Z
 DTEND:20270313T125900Z
 SUMMARY:MIDL 2027 · Camera-ready deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -1614,14 +1539,16 @@ DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:MIDL 2027 · Conference
 DESCRIPTION:Medical Imaging with Deep Learning\nStatus: confirmed\, checked
-  2026-11-18\nOfficial source: https://2027.midl.io/important-dates\nVenue
+  2026-11-27\nOfficial source: https://2027.midl.io/important-dates\nVenue
   Radar: https://gon-uri.github.io/venue-radar/#midl-2027\nNotes: Official
   2027 dates page confirms the July meeting and 23:59 AoE full-paper abstr
- act registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 12) 
- dates\, with no extension as of 2026-10-30. No new submissions are accept
- ed after abstract registration\; its OpenReview form was observed open on
-  2026-10-30. Short-paper submission is still TBD\; an April date briefly 
- posted on the site was withdrawn.
+ act registration (Nov 30)\, submission (Dec 11) and camera-ready (Mar 12)
+  dates. The page moved the full-paper submission deadline from Dec 4 to D
+ ec 11 (old date struck through\, seen 2026-11-27)\; abstract registration
+  is unchanged. No new submissions are accepted after abstract registratio
+ n\; its OpenReview form was observed open on 2026-10-30. Short-paper subm
+ ission is still TBD\; an April date briefly posted on the site was withdr
+ awn.
 CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
  nical AI
 URL:https://2027.midl.io/important-dates

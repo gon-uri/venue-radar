@@ -56,36 +56,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
-UID:bmvc-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260523T115900Z
-DTEND:20260523T125900Z
-SUMMARY:BMVC 2026 · Abstract registration deadline
-DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
- 11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-11-1
- 4\nFormat: Paper-based / BMVA proceedings\; Archival option: Yes\nOfficia
- l source: https://bmvc2026.bmva.org/dates/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#bmvc-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
- esentation Learning
-URL:https://bmvc2026.bmva.org/dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:bmvc-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260530T115900Z
-DTEND:20260530T125900Z
-SUMMARY:BMVC 2026 · Paper submission deadline
-DESCRIPTION:British Machine Vision Conference\nMeeting: 2026-11-23 to 2026-
- 11-26\, Lancaster\, United Kingdom\nStatus: confirmed\, checked 2026-11-1
- 4\nFormat: Paper-based / BMVA proceedings\; Archival option: Yes\nOfficia
- l source: https://bmvc2026.bmva.org/dates/\nVenue Radar: https://gon-uri.
- github.io/venue-radar/#bmvc-2026
-CATEGORIES:Computer Vision & Pattern Recognition,Machine Learning,Deep Repr
- esentation Learning
-URL:https://bmvc2026.bmva.org/dates/
-END:VEVENT
-BEGIN:VEVENT
 UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260531
@@ -308,23 +278,6 @@ CATEGORIES:Human-AI Interaction & Deployment,Explainability & Interpretabil
 URL:https://iui.acm.org/2027/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:biosig-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-SUMMARY:BIOSIG 2026 · Paper submission deadline (extended from July 30)
-DESCRIPTION:International Conference of the Biometrics Special Interest Gro
- up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
- irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
- y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
- GI LNI proceedings\, submitted to IEEE Xplore\; Archival option: Yes\nOff
- icial source: https://biosig.de/\nVenue Radar: https://gon-uri.github.io/
- venue-radar/#biosig-2026
-CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
- ,Robustness & Safety,Privacy-preserving ML
-URL:https://biosig.de/
-END:VEVENT
-BEGIN:VEVENT
 UID:wsdm-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260818T115900Z
@@ -332,7 +285,7 @@ DTEND:20260818T125900Z
 SUMMARY:WSDM 2027 · Abstract submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-20\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-27\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cffp.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -397,7 +350,7 @@ DTEND:20260825T125900Z
 SUMMARY:WSDM 2027 · Paper submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-20\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-27\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cffp.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -887,7 +840,7 @@ DTEND:20261013T125900Z
 SUMMARY:COLING 2027 · ARR paper submission deadline
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-27\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -1617,7 +1570,7 @@ DTEND:20261118T125900Z
 SUMMARY:WSDM 2027 · Short paper submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-20\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-27\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cfsp.html\nVenue Radar: https
  ://gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -1700,7 +1653,7 @@ DTEND:20261129T115959Z
 SUMMARY:IDA 2027 · Abstract submission deadline
 DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
  2027-04-21 to 2027-04-23\, Pisa\, Italy\nStatus: confirmed\, checked 2026
- -11-18\nCutoff note: CFP lists dates as AOE but says 'All deadlines are 2
+ -11-27\nCutoff note: CFP lists dates as AOE but says 'All deadlines are 2
  3:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11) is 1 h before AoE
  . Earliest instant stored.\nFormat: Paper-based / interdisciplinary\; Arc
  hival option: Yes\nOfficial source: https://ida2027.eu/regular-paper-trac
@@ -1717,7 +1670,7 @@ DTEND:20261201T125900Z
 SUMMARY:COLING 2027 · Industry-track paper submission (separate from ARR)
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-18\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-27\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/industry_track/\nVenue Radar: https://go
  n-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -1731,7 +1684,7 @@ DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:MIDL 2027 · Full-paper abstract registration deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -1747,7 +1700,7 @@ DTEND:20261201T125900Z
 SUMMARY:WSDM 2027 · WSDM Day 2-page extended abstract submission deadline
 DESCRIPTION:ACM International Conference on Web Search and Data Mining\nMee
  ting: 2027-02-15 to 2027-02-19\, Hong Kong\, China\nStatus: confirmed\, c
- hecked 2026-11-20\nFormat: Paper-based\; Archival option: Yes\nOfficial s
+ hecked 2026-11-27\nFormat: Paper-based\; Archival option: Yes\nOfficial s
  ource: https://www.wsdm-conference.org/2027/cfp.html\nVenue Radar: https:
  //gon-uri.github.io/venue-radar/#wsdm-2027
 CATEGORIES:Data Mining & Data Science,Machine Learning,Fairness & Responsib
@@ -1784,21 +1737,6 @@ DESCRIPTION:International School and Conference on Network Science\nMeeting
 CATEGORIES:Complex Systems & Network Science,Data Mining & Data Science,Non
  linear Dynamics & Chaos
 URL:https://netsci2027.github.io/calls/abstracts/
-END:VEVENT
-BEGIN:VEVENT
-UID:midl-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261205T115900Z
-DTEND:20261205T125900Z
-SUMMARY:MIDL 2027 · Full paper submission deadline
-DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
- : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
- io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
- idl-2027
-CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
- nical AI
-URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
@@ -1854,7 +1792,7 @@ DTEND:20261206T115959Z
 SUMMARY:IDA 2027 · Regular paper submission deadline
 DESCRIPTION:International Symposium on Intelligent Data Analysis\nMeeting: 
  2027-04-21 to 2027-04-23\, Pisa\, Italy\nStatus: confirmed\, checked 2026
- -11-18\nCutoff note: CFP lists dates as AOE but says 'All deadlines are 2
+ -11-27\nCutoff note: CFP lists dates as AOE but says 'All deadlines are 2
  3:59:59 SST (Anywhere on Earth)'\; SST (Samoa\, UTC-11) is 1 h before AoE
  . Earliest instant stored.\nFormat: Paper-based / interdisciplinary\; Arc
  hival option: Yes\nOfficial source: https://ida2027.eu/regular-paper-trac
@@ -1912,6 +1850,21 @@ DESCRIPTION:European Semantic Web Conference\nMeeting: 2027-05-23 to 2027-0
 CATEGORIES:Knowledge Representation & Reasoning,Graphs & Graph Learning,Dat
  a Mining & Data Science,Information Retrieval & Search
 URL:https://2027.eswc-conferences.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261212T115900Z
+DTEND:20261212T125900Z
+SUMMARY:MIDL 2027 · Full paper submission deadline
+DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
+ : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
+ io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
+ idl-2027
+CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
+ nical AI
+URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:ohbm-2027-deadline-abstract@scientific-conference-calendar

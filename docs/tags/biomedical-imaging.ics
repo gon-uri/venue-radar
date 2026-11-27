@@ -67,7 +67,7 @@ DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:MIDL 2027 · Full-paper abstract registration deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -94,21 +94,6 @@ CATEGORIES:Signal Processing,Machine Learning,Time Series & Sequential Data
 URL:https://eusipco2027.de/special-sessions/
 END:VEVENT
 BEGIN:VEVENT
-UID:midl-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261205T115900Z
-DTEND:20261205T125900Z
-SUMMARY:MIDL 2027 · Full paper submission deadline
-DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
- : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
- io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
- idl-2027
-CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
- nical AI
-URL:https://2027.midl.io/important-dates
-END:VEVENT
-BEGIN:VEVENT
 UID:ipmi-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261208T115900Z
@@ -124,6 +109,21 @@ DESCRIPTION:International Conference on Information Processing in Medical I
 CATEGORIES:Biomedical Imaging,Computer Vision & Pattern Recognition,Machine
   Learning
 URL:https://2027.ipmi-conf.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261212T115900Z
+DTEND:20261212T125900Z
+SUMMARY:MIDL 2027 · Full paper submission deadline
+DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
+ : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
+ io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
+ idl-2027
+CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
+ nical AI
+URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:ipmi-2027-deadline-full-paper@scientific-conference-calendar
@@ -331,7 +331,7 @@ DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:MIDL 2027 · Full-paper authors notification
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nCutoff
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nCutoff
   time unannounced: official deadline day only. Verify the organizer's sub
  mission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial sou
  rce: https://2027.midl.io/important-dates\nVenue Radar: https://gon-uri.g
@@ -448,7 +448,7 @@ DTSTART:20270313T115900Z
 DTEND:20270313T125900Z
 SUMMARY:MIDL 2027 · Camera-ready deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -803,14 +803,16 @@ DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:MIDL 2027 · Conference
 DESCRIPTION:Medical Imaging with Deep Learning\nStatus: confirmed\, checked
-  2026-11-18\nOfficial source: https://2027.midl.io/important-dates\nVenue
+  2026-11-27\nOfficial source: https://2027.midl.io/important-dates\nVenue
   Radar: https://gon-uri.github.io/venue-radar/#midl-2027\nNotes: Official
   2027 dates page confirms the July meeting and 23:59 AoE full-paper abstr
- act registration (Nov 30)\, submission (Dec 4) and camera-ready (Mar 12) 
- dates\, with no extension as of 2026-10-30. No new submissions are accept
- ed after abstract registration\; its OpenReview form was observed open on
-  2026-10-30. Short-paper submission is still TBD\; an April date briefly 
- posted on the site was withdrawn.
+ act registration (Nov 30)\, submission (Dec 11) and camera-ready (Mar 12)
+  dates. The page moved the full-paper submission deadline from Dec 4 to D
+ ec 11 (old date struck through\, seen 2026-11-27)\; abstract registration
+  is unchanged. No new submissions are accepted after abstract registratio
+ n\; its OpenReview form was observed open on 2026-10-30. Short-paper subm
+ ission is still TBD\; an April date briefly posted on the site was withdr
+ awn.
 CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
  nical AI
 URL:https://2027.midl.io/important-dates

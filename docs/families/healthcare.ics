@@ -25,23 +25,6 @@ CATEGORIES:Healthcare & Clinical AI,Data Mining & Data Science,Machine Lear
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:biosig-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-SUMMARY:BIOSIG 2026 · Paper submission deadline (extended from July 30)
-DESCRIPTION:International Conference of the Biometrics Special Interest Gro
- up\nMeeting: 2026-11-25 to 2026-11-26\, Darmstadt\, Germany\nStatus: conf
- irmed\, checked 2026-10-31\nCutoff time unannounced: official deadline da
- y only. Verify the organizer's submission portal.\nFormat: Paper-based / 
- GI LNI proceedings\, submitted to IEEE Xplore\; Archival option: Yes\nOff
- icial source: https://biosig.de/\nVenue Radar: https://gon-uri.github.io/
- venue-radar/#biosig-2026
-CATEGORIES:Biometrics & Human Sensing,Computer Vision & Pattern Recognition
- ,Robustness & Safety,Privacy-preserving ML
-URL:https://biosig.de/
-END:VEVENT
-BEGIN:VEVENT
 UID:ieee-bhi-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260901T075900Z
@@ -178,22 +161,7 @@ DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:MIDL 2027 · Full-paper abstract registration deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
- : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
- io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
- idl-2027
-CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
- nical AI
-URL:https://2027.midl.io/important-dates
-END:VEVENT
-BEGIN:VEVENT
-UID:midl-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261205T115900Z
-DTEND:20261205T125900Z
-SUMMARY:MIDL 2027 · Full paper submission deadline
-DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-18\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -217,6 +185,21 @@ DESCRIPTION:International Conference on Information Processing in Medical I
 CATEGORIES:Biomedical Imaging,Computer Vision & Pattern Recognition,Machine
   Learning
 URL:https://2027.ipmi-conf.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261212T115900Z
+DTEND:20261212T125900Z
+SUMMARY:MIDL 2027 · Full paper submission deadline
+DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
+ : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
+ io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
+ idl-2027
+CATEGORIES:Biomedical Imaging,Deep Representation Learning,Healthcare & Cli
+ nical AI
+URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:ipmi-2027-deadline-full-paper@scientific-conference-calendar

@@ -1687,7 +1687,7 @@
       label: "WSDM Day 2-page extended abstract submission deadline"
       datetime: "2026-11-30T23:59:00-12:00"
       source_url: "https://www.wsdm-conference.org/2027/cfp.html"
-  last_checked: "2026-11-20"
+  last_checked: "2026-11-27"
   confidence: "confirmed"
   notes: "Official WSDM 2027 pages (rechecked 2026-10-30) list Hong Kong (Cordis), Feb 15-19, and AoE deadlines: full-paper abstract Aug 17 and paper Aug 24, 2026 (closed; notification Nov 2), short papers (up to 4 pages, new work) Nov 17, doctoral consortium (single-author student packet) Nov 12, and WSDM Day presentations Nov 30, 2026 (2-page extended abstract on search, data mining and agentic AI; unpublished or under-review work welcome; oral or poster on Feb 19, in the proceedings). Demo papers closed Oct 15, 2026. Industry Day talk proposals (2 pages with speaker bio, due Oct 30) are not tracked as a paper route."
 
@@ -1855,7 +1855,7 @@
       label: "PhD Forum 2-page paper submission (graduate students)"
       datetime: "2027-02-12T23:59:59-12:00"
       source_url: "https://ida2027.eu/phd-forum/"
-  last_checked: "2026-11-18"
+  last_checked: "2026-11-27"
   confidence: "confirmed"
   notes: "Official IDA 2027 site confirms the 25th symposium in Pisa, Apr 21-23, 2027 (venue TBA). Deadlines are labelled AoE, but the regular-track CFP also says 'All deadlines are 23:59:59 SST', read as Samoa time (UTC-11), so its rows store that earlier -11:00 instant per their cutoff notes; the PhD Forum page states only AOE (-12:00). The abstract gate follows the abstract-then-paper CMT schedule, as in 2026; the page does not explicitly call it mandatory."
 
@@ -3275,7 +3275,7 @@
     confidence: confirmed
   - type: full_paper
     label: Full paper submission deadline
-    datetime: '2026-12-04T23:59:00-12:00'
+    datetime: '2026-12-11T23:59:00-12:00'
     source_url: https://2027.midl.io/important-dates
     confidence: confirmed
   - type: notification
@@ -3288,9 +3288,9 @@
     datetime: '2027-03-12T23:59:00-12:00'
     source_url: https://2027.midl.io/important-dates
     confidence: confirmed
-  last_checked: '2026-11-18'
+  last_checked: '2026-11-27'
   confidence: confirmed
-  notes: 'Official 2027 dates page confirms the July meeting and 23:59 AoE full-paper abstract registration (Nov 30), submission (Dec 4) and camera-ready (Mar 12) dates, with no extension as of 2026-10-30. No new submissions are accepted after abstract registration; its OpenReview form was observed open on 2026-10-30. Short-paper submission is still TBD; an April date briefly posted on the site was withdrawn.'
+  notes: 'Official 2027 dates page confirms the July meeting and 23:59 AoE full-paper abstract registration (Nov 30), submission (Dec 11) and camera-ready (Mar 12) dates. The page moved the full-paper submission deadline from Dec 4 to Dec 11 (old date struck through, seen 2026-11-27); abstract registration is unchanged. No new submissions are accepted after abstract registration; its OpenReview form was observed open on 2026-10-30. Short-paper submission is still TBD; an April date briefly posted on the site was withdrawn.'
 - id: ieee-embc-2027
   series: IEEE EMBC
   year: 2027
@@ -5311,7 +5311,7 @@
     datetime: '2027-02-10T23:59:00-12:00'
     time_precision: date
     source_url: https://2027.coling-iccl.org/calls/main_conference_papers/
-  last_checked: '2026-11-18'
+  last_checked: '2026-11-27'
   confidence: confirmed
   notes: Main in-person window May 9-14; separate virtual sessions May 6-7. Shared ARR cycle
     with NAACL does not permit dual commitment. Recent COLING cadence is irregular; no automatic

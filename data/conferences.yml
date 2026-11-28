@@ -1687,7 +1687,7 @@
       label: "WSDM Day 2-page extended abstract submission deadline"
       datetime: "2026-11-30T23:59:00-12:00"
       source_url: "https://www.wsdm-conference.org/2027/cfp.html"
-  last_checked: "2026-11-27"
+  last_checked: "2026-11-28"
   confidence: "confirmed"
   notes: "Official WSDM 2027 pages (rechecked 2026-10-30) list Hong Kong (Cordis), Feb 15-19, and AoE deadlines: full-paper abstract Aug 17 and paper Aug 24, 2026 (closed; notification Nov 2), short papers (up to 4 pages, new work) Nov 17, doctoral consortium (single-author student packet) Nov 12, and WSDM Day presentations Nov 30, 2026 (2-page extended abstract on search, data mining and agentic AI; unpublished or under-review work welcome; oral or poster on Feb 19, in the proceedings). Demo papers closed Oct 15, 2026. Industry Day talk proposals (2 pages with speaker bio, due Oct 30) are not tracked as a paper route."
 
@@ -1855,7 +1855,7 @@
       label: "PhD Forum 2-page paper submission (graduate students)"
       datetime: "2027-02-12T23:59:59-12:00"
       source_url: "https://ida2027.eu/phd-forum/"
-  last_checked: "2026-11-27"
+  last_checked: "2026-11-28"
   confidence: "confirmed"
   notes: "Official IDA 2027 site confirms the 25th symposium in Pisa, Apr 21-23, 2027 (venue TBA). Deadlines are labelled AoE, but the regular-track CFP also says 'All deadlines are 23:59:59 SST', read as Samoa time (UTC-11), so its rows store that earlier -11:00 instant per their cutoff notes; the PhD Forum page states only AOE (-12:00). The abstract gate follows the abstract-then-paper CMT schedule, as in 2026; the page does not explicitly call it mandatory."
 
@@ -3009,7 +3009,7 @@
     - {type: abstract, label: One-page abstract submission (talk/poster), datetime: '2026-12-01T23:59:00-12:00', time_precision: date, source_url: 'https://netsci2027.github.io/calls/abstracts/'}
     - {type: satellite_proposal, label: Satellite symposium proposal deadline, datetime: '2026-11-15T23:59:00-12:00', time_precision: date, source_url: 'https://netsci2027.github.io/calls/satellites/'}
     - {type: notification, label: Abstract acceptance notification, datetime: '2027-01-15T23:59:00-12:00', time_precision: date, source_url: 'https://netsci2027.github.io/calls/abstracts/'}
-  last_checked: '2026-11-25'
+  last_checked: '2026-11-28'
   confidence: confirmed
   notes: Official NetSci 2027 site (TU Dresden) confirms May 17-21, 2027 (satellites/school May 17-18, main conference May 18-21). One-page abstracts with a mandatory figure are due December 1, 2026; the call opened October 9. No cutoff hour/zone is stated, so T23:59 AoE is provisional. Presentation route, not archival proceedings. Distinct from NetSciX. Size is editorial.
 - id: ecml-pkdd-2027
@@ -3288,7 +3288,7 @@
     datetime: '2027-03-12T23:59:00-12:00'
     source_url: https://2027.midl.io/important-dates
     confidence: confirmed
-  last_checked: '2026-11-27'
+  last_checked: '2026-11-28'
   confidence: confirmed
   notes: 'Official 2027 dates page confirms the July meeting and 23:59 AoE full-paper abstract registration (Nov 30), submission (Dec 11) and camera-ready (Mar 12) dates. The page moved the full-paper submission deadline from Dec 4 to Dec 11 (old date struck through, seen 2026-11-27); abstract registration is unchanged. No new submissions are accepted after abstract registration; its OpenReview form was observed open on 2026-10-30. Short-paper submission is still TBD; an April date briefly posted on the site was withdrawn.'
 - id: ieee-embc-2027
@@ -5311,7 +5311,7 @@
     datetime: '2027-02-10T23:59:00-12:00'
     time_precision: date
     source_url: https://2027.coling-iccl.org/calls/main_conference_papers/
-  last_checked: '2026-11-27'
+  last_checked: '2026-11-28'
   confidence: confirmed
   notes: Main in-person window May 9-14; separate virtual sessions May 6-7. Shared ARR cycle
     with NAACL does not permit dual commitment. Recent COLING cadence is irregular; no automatic
@@ -10827,7 +10827,7 @@
   deadlines:
   - type: abstract
     label: Individual oral abstracts (NCM members only; team session submissions close the same day)
-    datetime: '2026-12-01T23:59:00-08:00'
+    datetime: '2026-12-03T23:59:00-08:00'
     source_url: https://ncm-society.org/submission/
   - type: notification
     label: Team and individual oral decisions
@@ -10838,13 +10838,13 @@
     label: Poster abstracts (NCM members only)
     datetime: '2027-02-22T23:59:00-08:00'
     source_url: https://ncm-society.org/submission/
-  last_checked: '2026-11-25'
+  last_checked: '2026-11-28'
   confidence: confirmed
   notes: '36th annual meeting, April 26-30, 2027 at the Melia Sevilla, as the home and 2027 pages state: a cerebellar
     satellite and welcome reception on Monday April 26 (also misdated April 24), then the annual conference April
     27-30. Calls opened October 29, 2026 (day only); the portal is login-gated and was not checked. Submitters must
     be NCM members in good standing; one oral talk per member a year. Orals (individual or team session) close December
-    1 and posters February 22 at midnight PST, read as 23:59 PST. Oral decisions January 11 per key dates, end of
+    3 (moved from December 1) and posters February 22 at midnight PST, read as 23:59 PST. Oral decisions January 11 per key dates, end of
     January per the submission page. Abstracts are not archival. Attendance was 291-600 in 2022-2026. Size is an
     editorial estimate.'
 - id: netsci-x-2027

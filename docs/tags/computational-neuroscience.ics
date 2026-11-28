@@ -10,22 +10,6 @@ X-WR-CALDESC:Venue Radar (https://gon-uri.github.io/venue-radar/): reviewed
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260531
-DTEND;VALUE=DATE:20260601
-SUMMARY:ICONIP 2026 · Paper submission deadline
-DESCRIPTION:International Conference on Neural Information Processing\nMeet
- ing: 2026-11-23 to 2026-11-27\, Melbourne\, Australia\nStatus: confirmed\
- , checked 2026-10-28\nCutoff time unannounced: official deadline day only
- . Verify the organizer's submission portal.\nFormat: Paper-based\; Archiv
- al option: Yes\nOfficial source: https://www.iconip2026.org/call-for-pape
- rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#iconip-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://www.iconip2026.org/call-for-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:complex-networks-2026-deadline-extended-abstract@scientific-conference-
  calendar
 DTSTAMP:19700101T000000Z
@@ -231,23 +215,6 @@ CATEGORIES:Cognitive Science & Computational Cognition,Neuroimaging & Brain
 URL:https://www.cogneurosociety.org/submit-a-poster/
 END:VEVENT
 BEGIN:VEVENT
-UID:iconip-2026-deadline-extended-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:ICONIP 2026 · Extended abstract (2-page\, in-person poster) submis
- sion deadline (extended)
-DESCRIPTION:International Conference on Neural Information Processing\nMeet
- ing: 2026-11-23 to 2026-11-27\, Melbourne\, Australia\nStatus: confirmed\
- , checked 2026-10-28\nCutoff time unannounced: official deadline day only
- . Verify the organizer's submission portal.\nFormat: Paper-based\; Archiv
- al option: Yes\nOfficial source: https://www.iconip2026.org/news\nVenue R
- adar: https://gon-uri.github.io/venue-radar/#iconip-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://www.iconip2026.org/news
-END:VEVENT
-BEGIN:VEVENT
 UID:nice-2027-deadline-regular-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261112T115900Z
@@ -294,26 +261,6 @@ DESCRIPTION:International Conference on Complex Networks\nMeeting: 2027-03-
 CATEGORIES:Complex Systems & Network Science,Graphs & Graph Learning,Nonlin
  ear Dynamics & Chaos,Computational Neuroscience
 URL:https://complenet.github.io/cfp.html
-END:VEVENT
-BEGIN:VEVENT
-UID:iconip-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261128
-SUMMARY:ICONIP 2026 · Conference
-DESCRIPTION:International Conference on Neural Information Processing\nStat
- us: confirmed\, checked 2026-10-28\nOfficial source: https://www.iconip20
- 26.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#iconip-2026\
- nNotes: Official ICONIP 2026 site (checked 2026-10-28) lists MCEC Melbour
- ne\, Nov 23-27\; the paper deadline was extended to May 31\, 2026 (no cut
- off hour stated). An Oct 28\, 2026 notice extends 2-page extended-abstrac
- t submissions to Nov 10\, 2026 (no hour)\; accepted abstracts must be reg
- istered and presented in person as posters\, in a separate open-access ab
- stract publication.
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://www.iconip2026.org/
-LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamics-days-us-2027-deadline-abstract@scientific-conference-calendar
@@ -370,13 +317,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ncm-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261202T075900Z
-DTEND:20261202T085900Z
+DTSTART:20261204T075900Z
+DTEND:20261204T085900Z
 SUMMARY:NCM 2027 · Individual oral abstracts (NCM members only\; team sess
  ion submissions close the same day)
 DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
  t\nMeeting: 2027-04-26 to 2027-04-30\, Seville\, Spain\nStatus: confirmed
- \, checked 2026-11-25\nFormat: Abstract-based / non-archival\; Archival o
+ \, checked 2026-11-28\nFormat: Abstract-based / non-archival\; Archival o
  ption: No\nOfficial source: https://ncm-society.org/submission/\nVenue Ra
  dar: https://gon-uri.github.io/venue-radar/#ncm-2027
 CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
@@ -514,7 +461,7 @@ DTEND;VALUE=DATE:20270112
 SUMMARY:NCM 2027 · Team and individual oral decisions
 DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
  t\nMeeting: 2027-04-26 to 2027-04-30\, Seville\, Spain\nStatus: confirmed
- \, checked 2026-11-25\nCutoff time unannounced: official deadline day onl
+ \, checked 2026-11-28\nCutoff time unannounced: official deadline day onl
  y. Verify the organizer's submission portal.\nFormat: Abstract-based / no
  n-archival\; Archival option: No\nOfficial source: https://ncm-society.or
  g/key-dates/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ncm-202
@@ -679,7 +626,7 @@ DTEND:20270223T085900Z
 SUMMARY:NCM 2027 · Poster abstracts (NCM members only)
 DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
  t\nMeeting: 2027-04-26 to 2027-04-30\, Seville\, Spain\nStatus: confirmed
- \, checked 2026-11-25\nFormat: Abstract-based / non-archival\; Archival o
+ \, checked 2026-11-28\nFormat: Abstract-based / non-archival\; Archival o
  ption: No\nOfficial source: https://ncm-society.org/submission/\nVenue Ra
  dar: https://gon-uri.github.io/venue-radar/#ncm-2027
 CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
@@ -1010,7 +957,7 @@ DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270501
 SUMMARY:NCM 2027 · Conference
 DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
- t\nStatus: confirmed\, checked 2026-11-25\nOfficial source: https://ncm-s
+ t\nStatus: confirmed\, checked 2026-11-28\nOfficial source: https://ncm-s
  ociety.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#ncm-2027
  \nNotes: 36th annual meeting\, April 26-30\, 2027 at the Melia Sevilla\, 
  as the home and 2027 pages state: a cerebellar satellite and welcome rece
@@ -1018,10 +965,10 @@ DESCRIPTION:Annual Meeting of the Society for the Neural Control of Movemen
  rence April 27-30. Calls opened October 29\, 2026 (day only)\; the portal
   is login-gated and was not checked. Submitters must be NCM members in go
  od standing\; one oral talk per member a year. Orals (individual or team 
- session) close December 1 and posters February 22 at midnight PST\, read 
- as 23:59 PST. Oral decisions January 11 per key dates\, end of January pe
- r the submission page. Abstracts are not archival. Attendance was 291-600
-  in 2022-2026. Size is an editorial estimate.
+ session) close December 3 (moved from December 1) and posters February 22
+  at midnight PST\, read as 23:59 PST. Oral decisions January 11 per key d
+ ates\, end of January per the submission page. Abstracts are not archival
+ . Attendance was 291-600 in 2022-2026. Size is an editorial estimate.
 CATEGORIES:Systems & Experimental Neuroscience,Computational Neuroscience
 URL:https://ncm-society.org/
 LOCATION:Seville\, Spain

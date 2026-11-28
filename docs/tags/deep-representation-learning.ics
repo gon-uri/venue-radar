@@ -57,22 +57,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Time Series & Sequ
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
-UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260531
-DTEND;VALUE=DATE:20260601
-SUMMARY:ICONIP 2026 · Paper submission deadline
-DESCRIPTION:International Conference on Neural Information Processing\nMeet
- ing: 2026-11-23 to 2026-11-27\, Melbourne\, Australia\nStatus: confirmed\
- , checked 2026-10-28\nCutoff time unannounced: official deadline day only
- . Verify the organizer's submission portal.\nFormat: Paper-based\; Archiv
- al option: Yes\nOfficial source: https://www.iconip2026.org/call-for-pape
- rs\nVenue Radar: https://gon-uri.github.io/venue-radar/#iconip-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://www.iconip2026.org/call-for-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:neurips-2026-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260607T115900Z
@@ -651,7 +635,7 @@ DTEND:20261013T125900Z
 SUMMARY:COLING 2027 · ARR paper submission deadline
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-27\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-28\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -818,23 +802,6 @@ DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\
 CATEGORIES:Computer Vision & Pattern Recognition,Deep Representation Learni
  ng,Machine Learning
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
-END:VEVENT
-BEGIN:VEVENT
-UID:iconip-2026-deadline-extended-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:ICONIP 2026 · Extended abstract (2-page\, in-person poster) submis
- sion deadline (extended)
-DESCRIPTION:International Conference on Neural Information Processing\nMeet
- ing: 2026-11-23 to 2026-11-27\, Melbourne\, Australia\nStatus: confirmed\
- , checked 2026-10-28\nCutoff time unannounced: official deadline day only
- . Verify the organizer's submission portal.\nFormat: Paper-based\; Archiv
- al option: Yes\nOfficial source: https://www.iconip2026.org/news\nVenue R
- adar: https://gon-uri.github.io/venue-radar/#iconip-2026
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://www.iconip2026.org/news
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ssci-2027-deadline-notification@scientific-conference-calendar
@@ -1035,26 +1002,6 @@ CATEGORIES:Machine Learning,Deep Representation Learning,Reinforcement Lear
 URL:https://attend.ieee.org/ssci-2027/
 END:VEVENT
 BEGIN:VEVENT
-UID:iconip-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261128
-SUMMARY:ICONIP 2026 · Conference
-DESCRIPTION:International Conference on Neural Information Processing\nStat
- us: confirmed\, checked 2026-10-28\nOfficial source: https://www.iconip20
- 26.org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#iconip-2026\
- nNotes: Official ICONIP 2026 site (checked 2026-10-28) lists MCEC Melbour
- ne\, Nov 23-27\; the paper deadline was extended to May 31\, 2026 (no cut
- off hour stated). An Oct 28\, 2026 notice extends 2-page extended-abstrac
- t submissions to Nov 10\, 2026 (no hour)\; accepted abstracts must be reg
- istered and presented in person as posters\, in a separate open-access ab
- stract publication.
-CATEGORIES:Machine Learning,Deep Representation Learning,Computational Neur
- oscience,Signal Processing
-URL:https://www.iconip2026.org/
-LOCATION:Melbourne\, Australia
-END:VEVENT
-BEGIN:VEVENT
 UID:cvpr-2027-deadline-supplementary@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261124T115900Z
@@ -1182,7 +1129,7 @@ DTEND:20261201T125900Z
 SUMMARY:COLING 2027 · Industry-track paper submission (separate from ARR)
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-27\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-28\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/industry_track/\nVenue Radar: https://go
  n-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -1212,7 +1159,7 @@ DTSTART:20261201T115900Z
 DTEND:20261201T125900Z
 SUMMARY:MIDL 2027 · Full-paper abstract registration deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-28\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -1348,7 +1295,7 @@ DTSTART:20261212T115900Z
 DTEND:20261212T125900Z
 SUMMARY:MIDL 2027 · Full paper submission deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-28\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -1492,7 +1439,7 @@ DTEND:20261224T125900Z
 SUMMARY:COLING 2027 · Commitment of ARR-reviewed papers
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-27\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
+ 26-11-28\nFormat: Paper-based\; Archival option: Yes\nOfficial source: ht
  tps://2027.coling-iccl.org/calls/main_conference_papers/\nVenue Radar: ht
  tps://gon-uri.github.io/venue-radar/#coling-2027
 CATEGORIES:Natural Language Processing & LLMs,Deep Representation Learning,
@@ -2000,7 +1947,7 @@ DTEND;VALUE=DATE:20270211
 SUMMARY:COLING 2027 · Paper acceptance notification
 DESCRIPTION:International Conference on Computational Linguistics\nMeeting:
   2027-05-09 to 2027-05-14\, Macau\, China\nStatus: confirmed\, checked 20
- 26-11-27\nCutoff time unannounced: official deadline day only. Verify the
+ 26-11-28\nCutoff time unannounced: official deadline day only. Verify the
   organizer's submission portal.\nFormat: Paper-based\; Archival option: Y
  es\nOfficial source: https://2027.coling-iccl.org/calls/main_conference_p
  apers/\nVenue Radar: https://gon-uri.github.io/venue-radar/#coling-2027
@@ -2049,7 +1996,7 @@ DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:MIDL 2027 · Full-paper authors notification
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nCutoff
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-28\nCutoff
   time unannounced: official deadline day only. Verify the organizer's sub
  mission portal.\nFormat: Paper-based\; Archival option: Yes\nOfficial sou
  rce: https://2027.midl.io/important-dates\nVenue Radar: https://gon-uri.g
@@ -2486,7 +2433,7 @@ DTSTART:20270313T115900Z
 DTEND:20270313T125900Z
 SUMMARY:MIDL 2027 · Camera-ready deadline
 DESCRIPTION:Medical Imaging with Deep Learning\nMeeting: 2027-07-14 to 2027
- -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-27\nFormat
+ -07-16\, Porto\, Portugal\nStatus: confirmed\, checked 2026-11-28\nFormat
  : Paper-based\; Archival option: Yes\nOfficial source: https://2027.midl.
  io/important-dates\nVenue Radar: https://gon-uri.github.io/venue-radar/#m
  idl-2027
@@ -3451,7 +3398,7 @@ DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270515
 SUMMARY:COLING 2027 · Conference
 DESCRIPTION:International Conference on Computational Linguistics\nStatus: 
- confirmed\, checked 2026-11-27\nOfficial source: https://2027.coling-iccl
+ confirmed\, checked 2026-11-28\nOfficial source: https://2027.coling-iccl
  .org/\nVenue Radar: https://gon-uri.github.io/venue-radar/#coling-2027\nN
  otes: Main in-person window May 9-14\; separate virtual sessions May 6-7.
   Shared ARR cycle with NAACL does not permit dual commitment. Recent COLI
@@ -4461,7 +4408,7 @@ DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:MIDL 2027 · Conference
 DESCRIPTION:Medical Imaging with Deep Learning\nStatus: confirmed\, checked
-  2026-11-27\nOfficial source: https://2027.midl.io/important-dates\nVenue
+  2026-11-28\nOfficial source: https://2027.midl.io/important-dates\nVenue
   Radar: https://gon-uri.github.io/venue-radar/#midl-2027\nNotes: Official
   2027 dates page confirms the July meeting and 23:59 AoE full-paper abstr
  act registration (Nov 30)\, submission (Dec 11) and camera-ready (Mar 12)
